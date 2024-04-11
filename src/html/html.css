@@ -1,0 +1,45 @@
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.video iframe {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.introHTM {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  width: 100%;
+  resize: vertical;
+}
