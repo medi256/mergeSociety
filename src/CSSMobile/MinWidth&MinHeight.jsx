@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const MinWidth = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Min Width</h1>
@@ -19,29 +16,28 @@ const MinWidth = () => {
       <pre>
         <code>
           {`
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <style>
-      .form-field {
-        min-width: 200px; /* This sets the minimum width of the form field */
-        margin-bottom: 10px; /* Adds some space between form fields */
-      }
-    </style>
-  </head>
-  <body>
-    <form>
-      <label for="name">Name:</label>
-      <input class="form-field" type="text" id="name" name="name"><br>
-      <label for="email">Email:</label>
-      <input class="form-field" type="email" id="email" name="email"><br>
-      <label for="message">Message:</label><br>
-      <textarea class="form-field" id="message" name="message" rows="4" cols="50"></textarea><br>
-      <input type="submit" value="Submit">
-    </form>
-  </body>
-  </html>
-  `}
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .form-field {
+      min-width: 200px; /* This sets the minimum width of the form field */
+      margin-bottom: 10px; /* Adds some space between form fields */
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input class="form-field" type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input class="form-field" type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea class="form-field" id="message" name="message" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>`}
         </code>
       </pre>
       <p>
@@ -64,8 +60,13 @@ const MinWidth = () => {
         Min-width.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/maxHeightMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/minHeightMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -74,7 +75,6 @@ const MinWidth = () => {
 export default MinWidth;
 
 export const MinHeight = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Min Height</h1>
@@ -90,8 +90,7 @@ export const MinHeight = () => {
       <h4>HTML Code</h4>
       <pre>
         <code>
-          {`
-<!DOCTYPE html>
+          {`<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -121,8 +120,7 @@ export const MinHeight = () => {
     <p>More content goes here...</p>
   </div>
 </body>
-</html>
-      `}
+</html>`}
         </code>
       </pre>
       <p>
@@ -142,8 +140,13 @@ export const MinHeight = () => {
         Min-height.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/minWidthMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/listMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

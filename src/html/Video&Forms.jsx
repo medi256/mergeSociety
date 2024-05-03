@@ -127,8 +127,8 @@ const Video = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/audio")}>back</button>
-        <button onClick={() => (window.location.href = "/formsH")}>Next</button>
+        <button onClick={() => (window.location.href = "audio")}>back</button>
+        <button onClick={() => (window.location.href = "formsH")}>Next</button>
       </div>
     </div>
   );
@@ -348,8 +348,8 @@ export const FormsH = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/video")}>back</button>
-        <button onClick={() => (window.location.href = "/div")}>Next</button>
+        <button onClick={() => (window.location.href = "video")}>back</button>
+        <button onClick={() => (window.location.href = "div")}>Next</button>
       </div>
     </div>
   );

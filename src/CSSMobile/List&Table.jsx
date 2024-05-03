@@ -1,8 +1,4 @@
-import { useNavigate } from "react-router-dom";
-import "./indexCSS.css";
-
 const List = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Lists</h1>
@@ -19,12 +15,10 @@ const List = () => {
         matter. The items appear in bullet format. The default marker for
         unordered lists is a round bullet point or disc.
       </p>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401427/unordered-list_paktt8.png"
-          alt="images of unordered list"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401427/unordered-list_paktt8.png"
+        alt="images of unordered list"
+      />
       <p>
         Each list item within an ordered or unordered list is created with the{" "}
         {`<li></li>`} tag.
@@ -47,53 +41,47 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ol {
-    list-style-type: upper-roman;
-  }
+      /* css */
+      ol {
+        list-style-type: upper-roman;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401636/list-style-type-upper-roman_tmm01x.png"
-          alt="this image describes ordered lists with roman list style type"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401636/list-style-type-upper-roman_tmm01x.png"
+        alt="this image describes ordered lists with roman list style type"
+      />
       <h3>Unordered list example:</h3>
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style-type: square;
-  }
+      /* css */
+      ul {
+        list-style-type: square;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401791/list-style-type-square_agxirh.png"
-          alt="these are lists with square bullets"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401791/list-style-type-square_agxirh.png"
+        alt="these are lists with square bullets"
+      />
       <h3>No marker example:</h3>
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style-type: none;
-  }
+      /* css */
+      ul {
+        list-style-type: none;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401893/listNone_d9kmsq.png"
-          alt="these image describes lists with no bullets"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401893/listNone_d9kmsq.png"
+        alt="these image describes lists with no bullets"
+      />
       <p>Accepted values for the list-style-type property include:</p>
       <h4>Unordered:</h4>
       <ul>
@@ -137,19 +125,17 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style-position: outside; /* default */
-  }
+      /* css */
+      ul {
+        list-style-position: outside; /* default */
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401993/positionOut_azosla.png"
-          alt="this image shows how lists are positioned outside"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401993/positionOut_azosla.png"
+        alt="this image shows how lists are positioned outside"
+      />
       <h3>list-style-image</h3>
       <p>
         The list-style-image property accepts an image url in place of the list
@@ -158,10 +144,10 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style-image: url(https://url-to-image);
-  }
+      /* css */
+      ul {
+        list-style-image: url(https://url-to-image);
+      }
       `}
         </code>
       </pre>
@@ -176,19 +162,17 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style: circle inside none;
-  }
+      /* css */
+      ul {
+        list-style: circle inside none;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402102/shorthand_invwlz.png"
-          alt="this image has an example on how to use the image shorthand property"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402102/shorthand_invwlz.png"
+        alt="this image has an example on how to use the image shorthand property"
+      />
       <h1>More List-Specific Styling</h1>
       <p>
         Ordered list tags also accept attributes that control the flow, count,
@@ -212,25 +196,23 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style-type: circle;
-    border: 2px solid blue;
-    background-color: lightblue;
-  }
-  li {
-    margin: 5px;
-    background-color: lightyellow;
-  }
+      /* css */
+      ul {
+        list-style-type: circle;
+        border: 2px solid blue;
+        background-color: lightblue;
+      }
+      li {
+        margin: 5px;
+        background-color: lightyellow;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402197/listAgain_dylo5w.png"
-          alt="There was an error with this image"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402197/listAgain_dylo5w.png"
+        alt="There was an error with this image"
+      />
       <h3>List Spacing</h3>
       <p>
         You may notice extra spacing in front of the list items when
@@ -241,33 +223,36 @@ const List = () => {
       <pre>
         <code>
           {`
-  /* css */
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  li {
-    padding: 5px 10px;
-    background-color: #EEEEEE;
-    border: 1px solid #DDDDDD;
-  }
+      /* css */
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        padding: 5px 10px;
+        background-color: #EEEEEE;
+        border: 1px solid #DDDDDD;
+      }
       `}
         </code>
       </pre>
-      <div className="image-container">
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402284/listPadding_ixue4s.png"
-          alt="Removing padding on lists"
-        />
-      </div>
+      <img
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402284/listPadding_ixue4s.png"
+        alt="Removing padding on lists"
+      />
       <p>
         For more details, check out the{" "}
         <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
         Lists.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/minHeightMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/tablesMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -276,7 +261,6 @@ const List = () => {
 export default List;
 
 export const Table = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Tables</h1>
@@ -292,22 +276,22 @@ export const Table = () => {
       <pre>
         <code>
           {`
-  table, th, td {
-    border: 2px solid black;
-  }
+      table, th, td {
+        border: 2px solid black;
+      }
       `}
         </code>
       </pre>
       <table style={{ border: "2px solid black" }}>
-        <tr style={{ border: "2px solid black" }}>
+        <tr>
           <th style={{ border: "2px solid black" }}>First Name</th>
           <th style={{ border: "2px solid black" }}>Last Name</th>
         </tr>
-        <tr style={{ border: "2px solid black" }}>
+        <tr>
           <td style={{ border: "2px solid black" }}>Massa</td>
           <td style={{ border: "2px solid black" }}>Medi</td>
         </tr>
-        <tr style={{ border: "2px solid black" }}>
+        <tr>
           <td style={{ border: "2px solid black" }}>Bank</td>
           <td style={{ border: "2px solid black" }}>Summer</td>
         </tr>
@@ -325,13 +309,13 @@ export const Table = () => {
       <pre>
         <code>
           {`
-  table {
-    border-collapse: collapse;
-  }
+      table {
+        border-collapse: collapse;
+      }
 
-  table, th, td {
-    border: 2px solid black;
-  }
+      table, th, td {
+        border: 2px solid black;
+      }
       `}
         </code>
       </pre>
@@ -358,10 +342,10 @@ export const Table = () => {
       <pre>
         <code>
           {`
-  table, th, td {
-    border: 2px solid black;
-    padding: 5px;
-  }
+      table, th, td {
+        border: 2px solid black;
+        padding: 5px;
+      }
       `}
         </code>
       </pre>
@@ -392,14 +376,15 @@ export const Table = () => {
       <pre>
         <code>
           {`
-  table {
-    border-collapse: collapse;
-    text-align: center;
-  
-  table, th, td {
-    border: 2px solid black;
-    padding: 5px;
-  }
+      table {
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+        padding: 5px;
+      }
       `}
         </code>
       </pre>
@@ -438,9 +423,9 @@ export const Table = () => {
       <pre>
         <code>
           {`
-  table {
-    width: 100%;
-  }
+      table {
+        width: 100%;
+      }
       `}
         </code>
       </pre>
@@ -457,8 +442,13 @@ export const Table = () => {
         Table.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/listMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/linksMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

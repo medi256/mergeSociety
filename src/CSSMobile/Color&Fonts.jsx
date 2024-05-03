@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Color = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Colors</h1>
@@ -143,8 +140,13 @@ const Color = () => {
         </li>
       </ol>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/selectMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/fontMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -153,7 +155,6 @@ const Color = () => {
 export default Color;
 
 export const Fonts = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Fonts</h1>
@@ -203,19 +204,19 @@ export const Fonts = () => {
             <pre>
               <code>
                 {`
-  /* Specify different fonts for three paragraphs */
-  .p1 {
-    font-family: "Times New Roman", Times, serif;
-    /* Fallback to generic serif font */
-  }
-  .p2 {
-    font-family: Arial, Helvetica, sans-serif;
-    /* Fallback to generic sans-serif font */
-  }
-  .p3 {
-    font-family: "Lucida Console", "Courier New", monospace;
-    /* Fallback to generic monospace font */
-  }
+/* Specify different fonts for three paragraphs */
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  /* Fallback to generic serif font */
+}
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Fallback to generic sans-serif font */
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  /* Fallback to generic monospace font */
+}
             `}
               </code>
             </pre>
@@ -304,9 +305,9 @@ export const Fonts = () => {
             <pre>
               <code>
                 {`
-  .italic-text {
-    font-style: italic; /* Italic style */
-  }
+            .italic-text {
+              font-style: italic; /* Italic style */
+            }
             `}
               </code>
             </pre>
@@ -321,18 +322,22 @@ export const Fonts = () => {
             <pre>
               <code>
                 {`
-  .small-caps-text {
-    font-variant: small-caps; /* Display text in small caps */
-  }
+.small-caps-text {
+  font-variant: small-caps; /* Display text in small caps */
+}
             `}
               </code>
             </pre>
           </div>
         </li>
       </ol>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/colorMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/backgroundMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

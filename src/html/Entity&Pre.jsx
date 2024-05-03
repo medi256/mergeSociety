@@ -100,10 +100,10 @@ const Entity = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/quotation")}>
+        <button onClick={() => (window.location.href = "quotation")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/pre")}>Next</button>
+        <button onClick={() => (window.location.href = "pre")}>Next</button>
       </div>
     </div>
   );
@@ -162,10 +162,10 @@ export const Pre = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/entities")}>
+        <button onClick={() => (window.location.href = "entities")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/commentsH")}>
+        <button onClick={() => (window.location.href = "commentsH")}>
           Next
         </button>
       </div>

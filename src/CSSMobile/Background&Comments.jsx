@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Background = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Background Properties</h1>
@@ -225,9 +222,13 @@ const Background = () => {
         <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
         Backgrounds .
       </p>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/fontMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/commentsMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -236,7 +237,6 @@ const Background = () => {
 export default Background;
 
 export const Comments = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Comments</h1>
@@ -270,10 +270,10 @@ export const Comments = () => {
             <pre>
               <code>
                 {`
-    /* This is a single-line comment */
-    p {
-      color: red;
-    }`}
+  /* This is a single-line comment */
+   p {
+     color: red;
+   }`}
               </code>
             </pre>
             <p>
@@ -289,9 +289,9 @@ export const Comments = () => {
             <pre>
               <code>
                 {`
-    p {
-      color: /*red*/ blue;
-    }`}
+  p {
+    color: /*red*/ blue;
+  }`}
               </code>
             </pre>
             <p>Here, the comment is placed in the middle of the code line.</p>
@@ -304,11 +304,10 @@ export const Comments = () => {
             <pre>
               <code>
                 {`
-    /* This is a multi-line comment */
-    p {
-      color: red;
-    }
-                `}
+  /* This is a multi-line comment */
+  p {
+    color: red;
+  }`}
               </code>
             </pre>
             <p>You can span comments across multiple lines.</p>
@@ -331,24 +330,23 @@ export const Comments = () => {
         <pre>
           <code>
             {`
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <style>
-        p {
-          color: red; /* Set text color to red */
-        }
-      </style>
-    </head>
-    <body>
-      <h2>My Heading</h2>
-      <!-- These paragraphs will be red -->
-      <p>Hello World!</p>
-      <p>This paragraph is styled with CSS.</p>
-      <p>CSS comments are not shown in the output.</p>
-    </body>
-  </html>
-            `}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        color: red; /* Set text color to red */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>My Heading</h2>
+    <!-- These paragraphs will be red -->
+    <p>Hello World!</p>
+    <p>This paragraph is styled with CSS.</p>
+    <p>CSS comments are not shown in the output.</p>
+  </body>
+</html>`}
           </code>
         </pre>
       </div>
@@ -359,8 +357,13 @@ export const Comments = () => {
         Comments .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/backgroundMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/borderMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

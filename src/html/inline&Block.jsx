@@ -128,8 +128,8 @@ const Inline = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/span")}>back</button>
-        <button onClick={() => (window.location.href = "/block")}>Next</button>
+        <button onClick={() => (window.location.href = "span")}>back</button>
+        <button onClick={() => (window.location.href = "block")}>Next</button>
       </div>
     </div>
   );
@@ -265,8 +265,8 @@ export const Block = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/inline")}>back</button>
-        <button onClick={() => (window.location.href = "/tables")}>Next</button>
+        <button onClick={() => (window.location.href = "inline")}>back</button>
+        <button onClick={() => (window.location.href = "tables")}>Next</button>
       </div>
     </div>
   );

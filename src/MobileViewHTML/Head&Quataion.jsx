@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Head = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding the HTML head Element</h1>
@@ -190,7 +187,12 @@ const Head = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/semanticMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/quotationMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -198,8 +200,6 @@ const Head = () => {
 
 export default Head;
 export const Quotation = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Quotations in HTML</h2>
@@ -237,11 +237,11 @@ export const Quotation = () => {
       <pre>
         <code>
           {`
-<p>
-  The author said
-  <q>A journey of a thousand miles begins with a single step</q> 
-  which is a famous proverb.
-</p>
+  <p>
+    The author said
+    <q>A journey of a thousand miles begins with a single step</q> 
+    which is a famous proverb.
+  </p>
             `}
         </code>
       </pre>
@@ -281,17 +281,17 @@ export const Quotation = () => {
           {`
           
 <blockquote>
-   <p>
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-     dapibus nunc id metus pulvinar, vitae blandit dolor sagittis. In eget
-     ligula nec mauris elementum volutpat. Proin at tortor purus.
-   </p>
-   <p>
-     Nullam condimentum libero vel ligula semper tristique. Vivamus blandit
-     tincidunt est, in vehicula purus varius at. Pellentesque habitant
-     morbi tristique senectus et netus et malesuada fames ac turpis
-     egestas.
-   </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+    dapibus nunc id metus pulvinar, vitae blandit dolor sagittis. In eget
+    ligula nec mauris elementum volutpat. Proin at tortor purus.
+  </p>
+  <p>
+    Nullam condimentum libero vel ligula semper tristique. Vivamus blandit
+    tincidunt est, in vehicula purus varius at. Pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis
+    egestas.
+  </p>
 </blockquote>
           `}
         </code>
@@ -312,7 +312,12 @@ export const Quotation = () => {
       </blockquote>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>back</button>
+        <button onClick={() => (window.location.href = "/headMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/entitiesMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

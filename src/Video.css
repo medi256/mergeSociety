@@ -1,10 +1,12 @@
 .welcome-header {
   background-color: black;
   color: aliceblue;
+  margin-top: 108px;
 }
 .welcome-header h1 {
   font-family: Arial, sans-serif;
   font-size: 24px;
+  margin: 10px 0;
   font-weight: bold;
   color: aliceblue;
   margin-bottom: 20px;

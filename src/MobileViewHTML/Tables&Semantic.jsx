@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Tables = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding HTML Tables</h1>
@@ -30,12 +27,12 @@ const Tables = () => {
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712399517/numTable_y6g52h.png"
         alt="Example of a numbers table"
-        style={{ maxWidth: "100%" }}
+        width="500px"
       />
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712399616/swimTable_ygwnee.png"
-        style={{ maxWidth: "100%" }}
         alt="Example of a timetable"
+        width="400px"
       />
       <h2>Creating an HTML Table</h2>
       <p>An HTML table consists of cells organized into rows and columns.</p>
@@ -44,23 +41,23 @@ const Tables = () => {
       <pre>
         <code>
           {`
-  <table>
-    <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
-    <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </table>
+            <table>
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+            </table>
           `}
         </code>
       </pre>
@@ -163,7 +160,12 @@ const Tables = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/blockMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/semanticMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -172,7 +174,6 @@ const Tables = () => {
 export default Tables;
 
 export const Semantic = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Semantic HTML: Understanding Meaningful Markup</h1>
@@ -356,7 +357,12 @@ export const Semantic = () => {
         </p>
 
         <div className="button-container">
-          <button onClick={() => navigate(-1)}>Back</button>
+          <button onClick={() => (window.location.href = "/tablesMobile")}>
+            back
+          </button>
+          <button onClick={() => (window.location.href = "/headMobile")}>
+            Next
+          </button>
         </div>
       </section>
     </div>

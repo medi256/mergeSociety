@@ -57,10 +57,10 @@ const TextFormating = () => {
         desired formatting for your content.
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/paragraphs")}>
+        <button onClick={() => (window.location.href = "paragraphs")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/lists")}>Next</button>
+        <button onClick={() => (window.location.href = "lists")}>Next</button>
       </div>
     </div>
   );
@@ -150,10 +150,10 @@ export const Lists = () => {
         information in a structured and organized manner.
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/Formatting")}>
+        <button onClick={() => (window.location.href = "Formatting")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/linksH")}>Next</button>
+        <button onClick={() => (window.location.href = "linksH")}>Next</button>
       </div>
     </div>
   );

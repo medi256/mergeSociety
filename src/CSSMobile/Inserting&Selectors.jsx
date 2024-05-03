@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Inserting = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>Methods for Adding CSS to HTML Elements</h2>
@@ -92,9 +89,13 @@ const Inserting = () => {
         Practice each method and experiment with different styles to reinforce
         your understanding of CSS.
       </p>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/syntaxMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/selectMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -102,7 +103,6 @@ const Inserting = () => {
 
 export default Inserting;
 export const Selectors = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Selectors</h1>
@@ -252,16 +252,20 @@ export const Selectors = () => {
             In this example, all &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt; elements
             will use the Helvetica font.
           </p>
+          <p>
+            For more details, check out the{" "}
+            <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on
+            CSS Selectors.
+          </p>
         </li>
       </ol>
-      <p>
-        For more details, check out the{" "}
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Selectors.
-      </p>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/insertMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/colorMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

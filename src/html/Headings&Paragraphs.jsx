@@ -77,10 +77,10 @@ const Headings = () => {
         the headings will display.`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/HTMLBasics")}>
+        <button onClick={() => (window.location.href = "HTMLBasics")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/paragraphs")}>
+        <button onClick={() => (window.location.href = "paragraphs")}>
           Next
         </button>
       </div>
@@ -135,10 +135,10 @@ export const Paragraphs = () => {
         accessibility.
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/headings")}>
+        <button onClick={() => (window.location.href = "headings")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/Formatting")}>
+        <button onClick={() => (window.location.href = "Formatting")}>
           Next
         </button>
       </div>

@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const TextFormating = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Text Formatting in HTML</h1>
@@ -16,11 +13,7 @@ const TextFormating = () => {
         make text bold. For example:
       </p>
       <pre>
-        <code>
-          {`
-  <p>This is <strong>bold</strong> text.</p>
-          `}
-        </code>
+        <code>{`<p>This is <strong>bold</strong> text.</p>`}</code>
       </pre>
       <p>
         This is <strong>bold</strong> text.
@@ -30,8 +23,7 @@ const TextFormating = () => {
         italicize text. For example:
       </p>
       <pre>
-        <code>{`
-  <p>This is <em>italic</em> text.</p>`}</code>
+        <code>{`<p>This is <em>italic</em> text.</p>`}</code>
       </pre>
       <p>
         This is <em>italic</em> text.
@@ -45,8 +37,7 @@ const TextFormating = () => {
       </p>
       <pre>
         <code>
-          {`
-  <p style="text-decoration: underline;">This is underlined text.</p>`}
+          {`<p style="text-decoration: underline;">This is underlined text.</p>`}
         </code>
       </pre>
       <p style={{ textDecoration: "underline" }}>This is underlined text.</p>
@@ -55,8 +46,7 @@ const TextFormating = () => {
         <code>&lt;del&gt;</code> tag to create strikethrough text. For example:
       </p>
       <pre>
-        <code>{`
-  <p>This is <s>strikethrough</s> text.</p>`}</code>
+        <code>{`<p>This is <s>strikethrough</s> text.</p>`}</code>
       </pre>
       <p>
         This is <s>strikethrough</s> text.
@@ -67,7 +57,12 @@ const TextFormating = () => {
         desired formatting for your content.
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/paragraphsMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/listsMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -76,7 +71,6 @@ const TextFormating = () => {
 export default TextFormating;
 
 export const Lists = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Lists in HTML</h1>
@@ -158,7 +152,12 @@ export const Lists = () => {
         information in a structured and organized manner.
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/FormattingMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/linksHMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

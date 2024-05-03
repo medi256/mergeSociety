@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router-dom";
 import "./html.css";
 
 const IntroductionH = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Introduction to HTML</h1>
@@ -102,8 +100,14 @@ const IntroductionH = () => {
       <p>Below is a simple HTML code example:</p>
       <div>
         <p>This is how you would write HTML code:</p>
-        <textarea rows="7" cols="50" className="introHTM">
-          {`<!DOCTYPE html>
+        <textarea
+          rows="7"
+          cols="50"
+          className="introHTM"
+          style={{ color: "#c7544d" }}
+        >
+          {`
+<!DOCTYPE html>
 <html>
 <head>
   <title>My First Web Page</title>
@@ -120,7 +124,8 @@ const IntroductionH = () => {
         <iframe
           width="400"
           height="300"
-          srcDoc={`<!DOCTYPE html>
+          srcDoc={`
+<!DOCTYPE html>
 <html>
 <head>
   <title>My First Web Page</title>
@@ -136,7 +141,9 @@ const IntroductionH = () => {
         ></iframe>
 
         <div className="button-container">
-          <button onClick={() => navigate(-1)}>Back</button>
+          <button onClick={() => (window.location.href = "/HTMLBasicsMobile")}>
+            Next
+          </button>
         </div>
       </div>
     </div>
@@ -146,8 +153,6 @@ const IntroductionH = () => {
 export default IntroductionH;
 
 export const HTMLBasics = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h1>HTML Basics:</h1>
@@ -244,7 +249,12 @@ export const HTMLBasics = () => {
         you to create and customize web pages effectively. Happy learning!
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/IntroductionHMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/headingsMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

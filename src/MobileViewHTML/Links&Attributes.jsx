@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 function LinksH() {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>Understanding Links in HTML</h2>
@@ -68,7 +65,12 @@ function LinksH() {
         seamlessly through your website, enhancing their overall experience.
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/listsMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/attributeMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -77,8 +79,6 @@ function LinksH() {
 export default LinksH;
 
 export function Attributes() {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Understanding HTML Attributes</h2>
@@ -179,7 +179,12 @@ export function Attributes() {
         scripting.
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/linksHMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/imagesHMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

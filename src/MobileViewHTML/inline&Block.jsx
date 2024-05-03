@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Inline = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>Exploring Inline Elements in HTML:</h2>
@@ -67,9 +64,9 @@ const Inline = () => {
       <pre>
         <code>
           {`
-  <p>
-    This is <em>emphasized</em> text within a paragraph.
-  </p>
+<p>
+  This is <em>emphasized</em> text within a paragraph.
+</p>
           `}
         </code>
       </pre>
@@ -131,7 +128,12 @@ const Inline = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/spanMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/blockMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -140,8 +142,6 @@ const Inline = () => {
 export default Inline;
 
 export const Block = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Understanding Block-Level Elements in HTML:</h2>
@@ -218,9 +218,9 @@ export const Block = () => {
       <pre>
         <code>
           {`
-          <div>
-            <p>This is a paragraph inside a division.</p>
-          </div>
+  <div>
+    <p>This is a paragraph inside a division.</p>
+  </div>
           `}
         </code>
       </pre>
@@ -269,7 +269,12 @@ export const Block = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/inlineMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/tablesMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

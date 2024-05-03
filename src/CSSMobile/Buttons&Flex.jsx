@@ -1,12 +1,9 @@
-import { useNavigate } from "react-router-dom";
-
 const Buttons = () => {
   return <div></div>;
 };
 
 export default Buttons;
 export const Flex = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding Flexbox in CSS</h1>
@@ -271,8 +268,13 @@ export const Flex = () => {
         on Flexbox.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/formMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/gridMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

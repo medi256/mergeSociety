@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const MaxWidth = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Max Width</h1>
@@ -21,30 +18,30 @@ const MaxWidth = () => {
       <pre>
         <code>
           {` 
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <style>
-      .ingredient-list {
-        max-width: 400px; /* Sets the maximum width of the ingredient list */
-        margin: 0 auto; /* Centers the ingredient list on the page */
-        background-color: lightblue; /* Just for visualization */
-        padding: 20px; /* Just for visualization */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="ingredient-list">
-      <h2>Ingredients</h2>
-      <ul>
-        <li>Flour</li>
-        <li>Sugar</li>
-        <li>Eggs</li>
-        <!-- More ingredients go here -->
-      </ul>
-    </div>
-  </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .ingredient-list {
+      max-width: 400px; /* Sets the maximum width of the ingredient list */
+      margin: 0 auto; /* Centers the ingredient list on the page */
+      background-color: lightblue; /* Just for visualization */
+      padding: 20px; /* Just for visualization */
+    }
+  </style>
+</head>
+<body>
+  <div class="ingredient-list">
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Flour</li>
+      <li>Sugar</li>
+      <li>Eggs</li>
+      <!-- More ingredients go here -->
+    </ul>
+  </div>
+</body>
+</html>
       `}
         </code>
       </pre>
@@ -65,8 +62,13 @@ const MaxWidth = () => {
         Max-width.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/boxModelMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/maxHeightMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -75,7 +77,6 @@ const MaxWidth = () => {
 export default MaxWidth;
 
 export const MaxHeight = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Max Height</h1>
@@ -89,31 +90,29 @@ export const MaxHeight = () => {
       <h4>HTML Code</h4>
       <pre>
         <code>
-          {`
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <style>
-      .image-container {
-        max-height: 300px; /* This sets the maximum height of the image container */
-        overflow: hidden; /* This hides any part of the image that goes beyond the set height */
-        margin: 0 auto; /* This centers the image container on the page */
-        background-color: lightgray; /* Just for visualization */
-        padding: 20px; /* Just for visualization */
-      }
-      .image {
-        width: 100%; /* Ensures the image takes up the full width of its container */
-        height: auto; /* Allows the image to adjust its height proportionally to its width */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="image-container">
-      <img class="image" src="example.jpg" alt="Example Image">
-    </div>
-  </body>
-  </html>
-      `}
+          {`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-container {
+      max-height: 300px; /* This sets the maximum height of the image container */
+      overflow: hidden; /* This hides any part of the image that goes beyond the set height */
+      margin: 0 auto; /* This centers the image container on the page */
+      background-color: lightgray; /* Just for visualization */
+      padding: 20px; /* Just for visualization */
+    }
+    .image {
+      width: 100%; /* Ensures the image takes up the full width of its container */
+      height: auto; /* Allows the image to adjust its height proportionally to its width */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img class="image" src="example.jpg" alt="Example Image">
+  </div>
+</body>
+</html>`}
         </code>
       </pre>
       <p>
@@ -134,8 +133,13 @@ export const MaxHeight = () => {
         Max-height.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/maxWidthMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/minWidthMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

@@ -187,10 +187,10 @@ const Head = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/semantic")}>
+        <button onClick={() => (window.location.href = "semantic")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/quotation")}>
+        <button onClick={() => (window.location.href = "quotation")}>
           Next
         </button>
       </div>
@@ -312,8 +312,8 @@ export const Quotation = () => {
       </blockquote>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/head")}>back</button>
-        <button onClick={() => (window.location.href = "/entities")}>
+        <button onClick={() => (window.location.href = "head")}>back</button>
+        <button onClick={() => (window.location.href = "entities")}>
           Next
         </button>
       </div>

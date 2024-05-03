@@ -72,8 +72,8 @@ const Favicon = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/iframe")}>back</button>
-        <button onClick={() => (window.location.href = "/dropdown")}>
+        <button onClick={() => (window.location.href = "iframe")}>back</button>
+        <button onClick={() => (window.location.href = "dropdown")}>
           Next
         </button>
       </div>
@@ -188,9 +188,7 @@ export const DropDown = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/favicon")}>
-          back
-        </button>
+        <button onClick={() => (window.location.href = "favicon")}>back</button>
       </div>
     </div>
   );

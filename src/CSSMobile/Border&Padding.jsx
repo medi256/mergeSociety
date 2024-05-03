@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Border = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Borders</h1>
@@ -103,7 +100,7 @@ const Border = () => {
   h1 {
     border: 8px solid blue;
   }
-              `}
+  `}
             </code>
           </pre>
         </li>
@@ -119,8 +116,13 @@ const Border = () => {
         Borders .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/commentsMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/paddingMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -129,7 +131,6 @@ const Border = () => {
 export default Border;
 
 export const Padding = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding Padding in CSS</h1>
@@ -181,12 +182,12 @@ export const Padding = () => {
       <pre>
         <code>
           {`
-  div {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
       `}
         </code>
       </pre>
@@ -209,9 +210,9 @@ export const Padding = () => {
       <pre>
         <code>
           {`
-  div {
-    padding: 25px 50px 75px 100px;
-  }
+div {
+  padding: 25px 50px 75px 100px;
+}
       `}
         </code>
       </pre>
@@ -282,8 +283,13 @@ export const Padding = () => {
         Padding .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/borderMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/marginMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

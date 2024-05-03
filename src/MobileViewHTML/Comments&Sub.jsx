@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const CommentsH = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>HTML Comments</h2>
@@ -47,7 +44,12 @@ const CommentsH = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/preMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/subMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -55,8 +57,6 @@ const CommentsH = () => {
 
 export default CommentsH;
 export const Sub = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>
@@ -115,7 +115,12 @@ export const Sub = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/commentsHMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/supMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

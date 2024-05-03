@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Favicon = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>
@@ -75,7 +72,12 @@ const Favicon = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/iframeMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/dropdownMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -84,8 +86,6 @@ const Favicon = () => {
 export default Favicon;
 
 export const DropDown = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Dropdown Menus in HTML</h2>
@@ -190,7 +190,9 @@ export const DropDown = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/faviconMobile")}>
+          back
+        </button>
       </div>
     </div>
   );

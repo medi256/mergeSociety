@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Margin = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Introduction to Margins in CSS</h1>
@@ -161,10 +158,10 @@ const Margin = () => {
       <pre>
         <code>
           {`
-  div {
-    width: 50%; 
-    margin: auto; 
-  }
+    div {
+      width: 50%; 
+      margin: auto; 
+    }
           `}
         </code>
       </pre>
@@ -184,8 +181,13 @@ const Margin = () => {
         Margin .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/paddingMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/widthMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -193,7 +195,6 @@ const Margin = () => {
 
 export default Margin;
 export const Width = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Width Property</h1>
@@ -257,19 +258,19 @@ export const Width = () => {
         <pre>
           <code>
             {`
-  .px_length {
-    width: 200px;
-    background-color: red;
-    color: white;
-    border: 1px solid black;
-  }
-  
-  .em_length {
-    width: 20em;
-    background-color: white;
-    color: red;
-    border: 1px solid black;
-  }
+.px_length {
+  width: 200px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+}
+
+.em_length {
+  width: 20em;
+  background-color: white;
+  color: red;
+  border: 1px solid black;
+}
         `}
           </code>
         </pre>
@@ -284,11 +285,11 @@ export const Width = () => {
         <pre>
           <code>
             {`
-  .percent {
-    width: 20%;
-    background-color: silver;
-    border: 1px solid red;
-  }
+.percent {
+  width: 20%;
+  background-color: silver;
+  border: 1px solid red;
+}
         `}
           </code>
         </pre>
@@ -299,13 +300,13 @@ export const Width = () => {
         <pre>
           <code>
             {`
-  .maxgreen {
-    background: lightgreen;
-    width: intrinsic; /* Safari/WebKit uses a non-standard name */
-    width: -moz-max-content; /* Firefox/Gecko */
-    width: -webkit-max-content; /* Chrome */
-    width: max-content;
-  }
+.maxgreen {
+  background: lightgreen;
+  width: intrinsic; /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content; /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+  width: max-content;
+}
         `}
           </code>
         </pre>
@@ -332,8 +333,13 @@ export const Width = () => {
         Width .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/marginMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/heightMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

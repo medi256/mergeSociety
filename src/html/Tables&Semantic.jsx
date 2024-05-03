@@ -160,8 +160,8 @@ const Tables = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/block")}>back</button>
-        <button onClick={() => (window.location.href = "/semantic")}>
+        <button onClick={() => (window.location.href = "block")}>back</button>
+        <button onClick={() => (window.location.href = "semantic")}>
           Next
         </button>
       </div>
@@ -355,10 +355,10 @@ export const Semantic = () => {
         </p>
 
         <div className="button-container">
-          <button onClick={() => (window.location.href = "/tables")}>
+          <button onClick={() => (window.location.href = "tables")}>
             back
           </button>
-          <button onClick={() => (window.location.href = "/head")}>Next</button>
+          <button onClick={() => (window.location.href = "head")}>Next</button>
         </div>
       </section>
     </div>

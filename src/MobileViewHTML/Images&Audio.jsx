@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const ImagesH = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>HTML Images</h1>
@@ -157,7 +154,12 @@ const ImagesH = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/attributeMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/audioMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -166,8 +168,6 @@ const ImagesH = () => {
 export default ImagesH;
 
 export const Audio = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h1>Multimedia:</h1>
@@ -226,7 +226,7 @@ export const Audio = () => {
       <pre>
         <code>
           {`
-          <audio controls src="quavo_shooters_inside_my_crib.mp3"></audio>
+  <audio controls src="quavo_shooters_inside_my_crib.mp3"></audio>
           `}
         </code>
       </pre>
@@ -314,7 +314,12 @@ export const Audio = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>back</button>
+        <button onClick={() => (window.location.href = "/imagesHMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/videoMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

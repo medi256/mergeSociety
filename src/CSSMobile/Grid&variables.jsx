@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Grid = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Grid</h1>
@@ -623,8 +620,13 @@ const Grid = () => {
         Grid .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/flexMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/variableMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -633,7 +635,6 @@ const Grid = () => {
 export default Grid;
 
 export const Variables = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>How to Name CSS Variables</h2>
@@ -689,8 +690,13 @@ background-color: var(--color);
         variables .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/gridMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/mediaQMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

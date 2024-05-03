@@ -41,14 +41,17 @@ import MediaQuaries, { Universal } from "./css/MediaQuaries&Universal";
 import AttributeS, { Transform } from "./css/AttributeS&Transform";
 import Transition, { Animations } from "./css/Transition&Animations";
 import Filter, { Responsive } from "./css/Filter&Responsive";
+import LandingPage from "./LandingPage";
+import Policies from "./Policy";
 
 const CourseRoutes = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<HTMLcourse />}>
-          <Route path="IntroductionH" element={<IntroductionH />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="HTMLcourse" element={<HTMLcourse />}>
           <Route index element={<IntroductionH />} />
+          <Route path="IntroductionH" element={<IntroductionH />} />
           <Route path="HTMLBasics" element={<HTMLBasics />} />
           <Route path="headings" element={<Headings />} />
           <Route path="paragraphs" element={<Paragraphs />} />
@@ -130,6 +133,7 @@ const CourseRoutes = () => {
         <Route path="videoTutorial" element={<LearnByWatchingVideos />}></Route>
         <Route path="javascriptCourse" element={<Jscourse />}></Route>
         <Route path="react" element={<Reactcourse />}></Route>
+        <Route path="policy" element={<Policies />} />
       </Routes>
     </div>
   );

@@ -58,8 +58,8 @@ const Sup = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/sub")}>back</button>
-        <button onClick={() => (window.location.href = "/iframe")}>Next</button>
+        <button onClick={() => (window.location.href = "sub")}>back</button>
+        <button onClick={() => (window.location.href = "iframe")}>Next</button>
       </div>
     </div>
   );
@@ -178,10 +178,8 @@ export const Iframe = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/sup")}>back</button>
-        <button onClick={() => (window.location.href = "/favicon")}>
-          Next
-        </button>
+        <button onClick={() => (window.location.href = "sup")}>back</button>
+        <button onClick={() => (window.location.href = "favicon")}>Next</button>
       </div>
     </div>
   );

@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Links = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Styling Links</h1>
@@ -104,8 +101,13 @@ const Links = () => {
         Links.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/tablesMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/imagesMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -113,7 +115,6 @@ const Links = () => {
 
 export default Links;
 export const Images = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>CSS Images</h2>
@@ -133,9 +134,9 @@ export const Images = () => {
       <pre>
         <code>
           {`
-  img {
-    border-radius: 15px;
-  }
+      img {
+        border-radius: 15px;
+      }
       `}
         </code>
       </pre>
@@ -155,9 +156,9 @@ export const Images = () => {
       <pre>
         <code>
           {`
-  img {
-    border-radius: 50%;
-  }
+      img {
+        border-radius: 50%;
+      }
       `}
         </code>
       </pre>
@@ -190,7 +191,7 @@ export const Images = () => {
           borderRadius: "5px",
           padding: "5px",
         }}
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712398955/massa_zuwdsv.jpg"
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712398955/massa_zuwdsv.jpg "
         alt="A thumbnail image"
       />
 
@@ -224,8 +225,13 @@ export const Images = () => {
         Images.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/linksMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/iconsMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

@@ -1,8 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Sup = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>
@@ -27,10 +23,10 @@ const Sup = () => {
       <pre>
         <code>
           {`
-  <p>
-    The mathematical expression x<sup>2</sup> represents "x squared" and
-    uses the <sup> element for the superscript "2".
-  </p>
+          <p>
+            The mathematical expression x<sup>2</sup> represents "x squared" and
+            uses the <sup> element for the superscript "2".
+          </p>
           `}
         </code>
       </pre>
@@ -62,7 +58,12 @@ const Sup = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/subMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/iframeMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -70,7 +71,6 @@ const Sup = () => {
 
 export default Sup;
 export const Iframe = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>
@@ -88,14 +88,14 @@ export const Iframe = () => {
       <pre>
         <code>
           {`
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4848967822143!2d-74.00996668573602!3d40.70595984213321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259e534de7bcb%3A0x6a07709d14af81f3!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sus!4v1648661886851!5m2!1sen!2sus"
-    width="600"
-    height="450"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy"
-  ></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4848967822143!2d-74.00996668573602!3d40.70595984213321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259e534de7bcb%3A0x6a07709d14af81f3!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sus!4v1648661886851!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
           `}
         </code>
       </pre>
@@ -108,15 +108,15 @@ export const Iframe = () => {
       <pre>
         <code>
           {`
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-    title="YouTube video player"
-    frameorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           `}
         </code>
       </pre>
@@ -182,7 +182,12 @@ export const Iframe = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/supMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/faviconMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

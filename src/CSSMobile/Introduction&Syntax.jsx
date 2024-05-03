@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Introduction = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS (Cascading Style Sheets).</h1>
@@ -59,9 +56,10 @@ const Introduction = () => {
         flexibility, and better user experience.
       </p>
       <p>Ready to get started with CSS? {`Let's dive in!`}</p>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/syntaxMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -69,7 +67,6 @@ const Introduction = () => {
 
 export default Introduction;
 export const Syntax = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>Syntax</h2>
@@ -109,10 +106,10 @@ export const Syntax = () => {
       <h3>Another Example:</h3>
       <pre>
         {`
-  h1 {
-    color: blue;
-    font-size: 24px;
-  }
+      h1 {
+        color: blue;
+        font-size: 24px;
+      }
       `}
       </pre>
       <p>
@@ -126,63 +123,14 @@ export const Syntax = () => {
         connects properties to their values. Together, they help structure and
         define the appearance of selected HTML elements on a webpage.
       </p>
-
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/introMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/insertMob")}>
+          Next
+        </button>
       </div>
-      <footer>
-        <h2>Feedback</h2>
-        <p>Help me enhance this website by providing your valuable feedback.</p>
-        <p>
-          {`
-          Feel free to reach out on my social media platforms to share your
-          thoughts. Additionally, if you have any questions about something you
-          don't understand, message me, and I'll do my best to make it clearer
-          for you.`}
-        </p>
-        <p>
-          {`
-          If you're interested in investing or collaborating with me in this website development, send me a message on my social media platforms or via
-          email.`}
-        </p>
-        <p>
-          Simply click on the social media icons below to connect with me. Your
-          input and engagement are greatly appreciated!
-        </p>
-        <div>
-          <div>
-            <a href="https://www.instagram.com/medi45.of?utm_source=qr&igsh=YnR4bnd4bHFzZWNo">
-              <i className="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.twitter.com/@manager70191">
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/profile.php?id=61556002944543&mibextid=ZbWKwL">
-              <i className="fa-brands fa-facebook"></i>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.tiktok.com/@merge.corp">
-              <i className="fa-brands fa-tiktok"></i>
-            </a>
-          </div>
-
-          <div>
-            <a href="https://www.youtube.com/@Codak_3" target="_blank">
-              <i className="fa-brands fa-youtube"></i>
-            </a>
-          </div>
-          <div>
-            <a href="mailto:managersebowa4525@gmail.com">
-              <i className="fa-solid fa-envelope"></i>
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

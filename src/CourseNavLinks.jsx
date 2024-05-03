@@ -4,10 +4,10 @@ const CourseNavLinks = () => {
   return (
     <div>
       <main className="nav-links">
-        <NavLink to={"/"}>
+        <NavLink to={"/HTMLcourse/IntroductionH"}>
           <span title="HTML course">HTML</span>
         </NavLink>
-        <NavLink to={"/cssCourse"}>
+        <NavLink to={"/cssCourse/introduction"}>
           {" "}
           <span title="CSS course">CSS</span>{" "}
         </NavLink>

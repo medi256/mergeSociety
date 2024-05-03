@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Display = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>The CSS Display Property</h1>
@@ -31,8 +28,8 @@ const Display = () => {
       <pre>
         <code>
           {`
-  <p> 
-  <h1> <h6>
+  <p> </p>
+  <h1>-<h6>
   <div> <ul>
   <ol> <li>
   <form> <section>
@@ -70,7 +67,7 @@ const Display = () => {
       <pre>
         <code>
           {`
-    <span>, <i>, <a>, <img>
+  <span>, <i>, <a>, <img>
           `}
         </code>
       </pre>
@@ -161,15 +158,15 @@ const Display = () => {
         <h4>HTML code</h4>
         <code>
           {`
-  <p>I will disappear</p>
+   <p>I will disappear</p>
           `}
         </code>
         <h4>CSS code</h4>
         <code>
           {`
-  p {
-    display: none;
-  }
+   p {
+     display: none;
+   }
           `}
         </code>
       </pre>
@@ -203,8 +200,13 @@ const Display = () => {
         Display.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/floatMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/positionMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -213,7 +215,6 @@ const Display = () => {
 export default Display;
 
 export const Position = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS position</h1>
@@ -266,13 +267,13 @@ export const Position = () => {
       <pre>
         <code>
           {`
-  <div class="parent purple"></div>
+    <div class="parent purple"></div>
           `}
         </code>
         <br />
         <code>
           {`
-  <div class="another green"></div>
+    <div class="another green"></div>
           `}
         </code>
       </pre>
@@ -280,13 +281,13 @@ export const Position = () => {
       <pre>
         <code>
           {`
-  .first { 
-    // No position set, so it's static 
- } 
- .another { 
-    // No position set, so it's static 
-    top: 50px; 
- }
+ .first { 
+   // No position set, so it's static 
+} 
+.another { 
+   // No position set, so it's static 
+   top: 50px; 
+}
           `}
         </code>
       </pre>
@@ -326,13 +327,13 @@ export const Position = () => {
       <pre>
         <code>
           {`
-  .first { 
-    position: static; 
- } 
- .another { 
-    position: relative; 
-    top: 50px; 
- }
+   .first { 
+     position: static; 
+  } 
+  .another { 
+     position: relative; 
+     top: 50px; 
+  }
           `}
         </code>
       </pre>
@@ -358,9 +359,9 @@ export const Position = () => {
       <pre>
         <code>
           {`
- <div class="parent purple"> 
-    <div class="child magenta"></div> 
- </div>
+  <div class="parent purple"> 
+     <div class="child magenta"></div> 
+  </div>
           `}
         </code>
       </pre>
@@ -482,14 +483,14 @@ export const Position = () => {
       <pre>
         <code>
           {`
-   .parent { 
-     // No position set, so it's static 
-  } 
-  .child { 
-     position: absolute; 
-     top: 0px; 
-     left: 0px; 
-  }
+    .parent { 
+      // No position set, so it's static 
+   } 
+   .child { 
+      position: absolute; 
+      top: 0px; 
+      left: 0px; 
+   }
           `}
         </code>
       </pre>
@@ -627,13 +628,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
       <pre>
         <code>
           {`
-   .first { 
-     position: relative; 
-  } 
-  .another { 
-     position: sticky; 
-     top: 0px; 
-  }         
+  .first { 
+    position: relative; 
+ } 
+ .another { 
+    position: sticky; 
+    top: 0px; 
+ }         
           `}
         </code>
       </pre>
@@ -669,8 +670,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
         Position .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/displayMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/zIndexMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

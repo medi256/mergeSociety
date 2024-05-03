@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Headings = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Headings in HTML</h1>
@@ -80,7 +77,12 @@ const Headings = () => {
         the headings will display.`}
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/HTMLBasicsMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/paragraphsMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -89,8 +91,6 @@ const Headings = () => {
 export default Headings;
 
 export const Paragraphs = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h1>Paragraphs in HTML</h1>
@@ -135,7 +135,12 @@ export const Paragraphs = () => {
         accessibility.
       </p>
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/headingsMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/FormattingMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

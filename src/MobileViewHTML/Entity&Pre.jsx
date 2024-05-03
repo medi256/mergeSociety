@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Entity = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>HTML Entities</h2>
@@ -103,7 +100,12 @@ const Entity = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/quotationMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/preMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -111,8 +113,6 @@ const Entity = () => {
 
 export default Entity;
 export const Pre = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>
@@ -164,7 +164,12 @@ export const Pre = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/entitiesMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/commentsHMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

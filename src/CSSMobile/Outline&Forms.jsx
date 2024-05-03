@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Outline = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Outline</h1>
@@ -91,8 +88,13 @@ const Outline = () => {
         Outline .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/opacityMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/formMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -101,7 +103,6 @@ const Outline = () => {
 export default Outline;
 
 export const Forms = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Styling Forms</h1>
@@ -171,7 +172,7 @@ export const Forms = () => {
               <pre>
                 <code>
                   {`
-  <input type="text" placeholder="Enter your name">
+     <input type="text" placeholder="Enter your name">
                   `}
                 </code>
               </pre>
@@ -194,7 +195,7 @@ export const Forms = () => {
               <pre>
                 <code>
                   {`
-<button>Submit</button>
+    <button>Submit</button>
                   `}
                 </code>
               </pre>
@@ -246,8 +247,13 @@ export const Forms = () => {
         </li>
       </ol>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/outlineMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/flexMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

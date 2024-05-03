@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Transition = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding CSS Transition</h1>
@@ -207,8 +204,13 @@ const Transition = () => {
         on CSS Transitions.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/transformMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/animationMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -217,7 +219,6 @@ const Transition = () => {
 export default Transition;
 
 export const Animations = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding CSS Animations</h1>
@@ -515,8 +516,13 @@ export const Animations = () => {
         .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/transitionMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/filterMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

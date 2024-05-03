@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const ZIndex = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Z-index</h1>
@@ -177,8 +174,14 @@ const ZIndex = () => {
         <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
         z-index .
       </p>
-      <div>
-        <button onClick={() => navigate(-1)}> Back</button>
+
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/positionMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/columnMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -187,8 +190,6 @@ const ZIndex = () => {
 export default ZIndex;
 
 export const Columns = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h1>CSS Columns Tutorial</h1>
@@ -217,9 +218,9 @@ export const Columns = () => {
       <pre>
         <code>
           {`
-  .example {
-    column-count: 3;
-  }`}
+       .example {
+         column-count: 3;
+       }`}
         </code>
       </pre>
 
@@ -230,9 +231,9 @@ export const Columns = () => {
       <pre>
         <code>
           {`
-  .example {
-    column-width: 200px;
-  }`}
+      .example {
+        column-width: 200px;
+      }`}
         </code>
       </pre>
 
@@ -243,9 +244,9 @@ export const Columns = () => {
       <pre>
         <code>
           {`
-  .example {
-    column-gap: 20px;
-  }`}
+      .example {
+        column-gap: 20px;
+      }`}
         </code>
       </pre>
 
@@ -297,11 +298,9 @@ export const Columns = () => {
             <div style={{ backgroundColor: "lightgreen", padding: "10px" }}>
               Column 1
             </div>
-            <br />
             <div style={{ backgroundColor: "lightgreen", padding: "10px" }}>
               Column 2
             </div>
-            <br />
             <div style={{ backgroundColor: "lightgreen", padding: "10px" }}>
               Column 3
             </div>
@@ -343,40 +342,33 @@ export const Columns = () => {
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 1
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 2
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 3
               </div>
-              <br />
             </div>
 
             <div style={{ "@media (minWidth: 768px)": { columnCount: 2 } }}>
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 1
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 2
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 3
               </div>
-              <br />
             </div>
+
             <div style={{ "@media (minWidth: 1024px)": { columnCount: 3 } }}>
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 1
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 2
               </div>
-              <br />
               <div style={{ backgroundColor: "lightcoral", padding: "10px" }}>
                 Column 3
               </div>
@@ -384,6 +376,7 @@ export const Columns = () => {
           </div>
         </li>
       </ul>
+
       <p>
         For more details, check out the{" "}
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns">
@@ -391,8 +384,14 @@ export const Columns = () => {
         </a>{" "}
         on CSS columns.
       </p>
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/zIndexMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/overFlowMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

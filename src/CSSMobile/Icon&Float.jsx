@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Icon = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Icons in CSS</h1>
@@ -56,15 +53,15 @@ const Icon = () => {
       <pre>
         <code>
           {`
- <head>
-   <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-     crossorigin="anonymous"
-     referrerpolicy="no-referrer"
-   />
- </head>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
       `}
         </code>
       </pre>
@@ -72,7 +69,7 @@ const Icon = () => {
       <pre>
         <code>
           {`
-           <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-facebook"></i>
           `}
         </code>
       </pre>
@@ -97,8 +94,13 @@ const Icon = () => {
         on CSS Icons.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/imagesMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/floatMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -107,7 +109,6 @@ const Icon = () => {
 export default Icon;
 
 export const Float = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Introduction to Floats in CSS</h1>
@@ -177,31 +178,31 @@ ac quam mollis congue. Vestibulum id quam in mi tincidunt elementum vel at nunc.
       <pre>
         <code>
           {`
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <title>Simple Layout</title>
-      <style>
-          .column {
-              float: left;
-              width: 50%; /* Each column takes up half of the container's width */
-          }
-      </style>
-  </head>
-  <body>
-  
-  <div class="column">
-      <h2>Column 1</h2>
-      <p>This is the content of column 1.</p>
-  </div>
-  
-  <div class="column">
-      <h2>Column 2</h2>
-      <p>This is the content of column 2.</p>
-  </div>
-  
-  </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Layout</title>
+    <style>
+        .column {
+            float: left;
+            width: 50%; /* Each column takes up half of the container's width */
+        }
+    </style>
+</head>
+<body>
+
+<div class="column">
+    <h2>Column 1</h2>
+    <p>This is the content of column 1.</p>
+</div>
+
+<div class="column">
+    <h2>Column 2</h2>
+    <p>This is the content of column 2.</p>
+</div>
+
+</body>
+</html>
       `}
         </code>
       </pre>
@@ -233,40 +234,40 @@ ac quam mollis congue. Vestibulum id quam in mi tincidunt elementum vel at nunc.
       <pre>
         <code>
           {`
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <title>Clearing Floats</title>
-      <style>
-          .float-left {
-              float: left;
-              width: 50%; /* Each column takes up half of the container's width */
-          }
-          .clear {
-              clear: both;
-          }
-      </style>
-  </head>
-  <body>
-  
-  <div class="float-left">
-      <h2>Float Left</h2>
-      <p>This is the content of the left floated element.</p>
-  </div>
-  
-  <div class="float-left">
-      <h2>Float Left</h2>
-      <p>This is the content of the left floated element.</p>
-  </div>
-  
-  <div class="clear">
-      <h2>Clear</h2>
-      <p>This is the non-floated element.</p>
-  </div>
-  
-  </body>
-  </html>
-  `}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clearing Floats</title>
+    <style>
+        .float-left {
+            float: left;
+            width: 50%; /* Each column takes up half of the container's width */
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="float-left">
+    <h2>Float Left</h2>
+    <p>This is the content of the left floated element.</p>
+</div>
+
+<div class="float-left">
+    <h2>Float Left</h2>
+    <p>This is the content of the left floated element.</p>
+</div>
+
+<div class="clear">
+    <h2>Clear</h2>
+    <p>This is the non-floated element.</p>
+</div>
+
+</body>
+</html>
+      `}
         </code>
       </pre>
       <p>
@@ -280,8 +281,13 @@ ac quam mollis congue. Vestibulum id quam in mi tincidunt elementum vel at nunc.
         Float.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/iconsMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/displayMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

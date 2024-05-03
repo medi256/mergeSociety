@@ -154,10 +154,10 @@ const ImagesH = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/attribute")}>
+        <button onClick={() => (window.location.href = "attribute")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/audio")}>Next</button>
+        <button onClick={() => (window.location.href = "audio")}>Next</button>
       </div>
     </div>
   );
@@ -312,10 +312,8 @@ export const Audio = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/imagesH")}>
-          back
-        </button>
-        <button onClick={() => (window.location.href = "/video")}>Next</button>
+        <button onClick={() => (window.location.href = "imagesH")}>back</button>
+        <button onClick={() => (window.location.href = "video")}>Next</button>
       </div>
     </div>
   );

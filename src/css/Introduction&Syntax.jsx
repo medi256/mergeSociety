@@ -56,9 +56,9 @@ const Introduction = () => {
         flexibility, and better user experience.
       </p>
       <p>Ready to get started with CSS? {`Let's dive in!`}</p>
-      {/* <div className="button-container">
-        <button onClick={() => (window.location.href = "/syntax")}>Next</button>
-      </div> */}
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "syntax")}>Next</button>
+      </div>
     </div>
   );
 };

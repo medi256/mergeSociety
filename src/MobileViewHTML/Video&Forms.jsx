@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Video = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Multimedia:</h1>
@@ -50,12 +47,12 @@ const Video = () => {
       </h2>
       <h4>HTML Code</h4>
       <pre>
-        {`
-<video controls src="videos/sample-video.mp4">
-  Your browser does not support the video tag.
-</video>      
-        
-        `}
+        <code>
+          {`
+  <video controls src="videos/sample-video.mp4">
+  </video>                    
+          `}
+        </code>
       </pre>
 
       <h2>Output</h2>
@@ -90,14 +87,15 @@ const Video = () => {
       </h2>
       <h4>HTML Code</h4>
       <pre>
-        {`
+        <code>
+          {`
   <video controls>
-      <source src="video.mp4" type="video/mp4">
-      <source src="video.webm" type="video/webm">
-      Your browser does not support the video tag.
-  </video>
-
-        `}
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>                
+          `}
+        </code>
       </pre>
       <h2>Output</h2>
       <pre>
@@ -127,8 +125,14 @@ const Video = () => {
         <code>&lt;source&gt;</code> element to enhance compatibility across
         different browsers.
       </p>
+
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/audioMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/formsHMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -137,8 +141,6 @@ const Video = () => {
 export default Video;
 
 export const FormsH = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Hello</h2>
@@ -299,21 +301,21 @@ export const FormsH = () => {
       <pre>
         <code>
           {`
-  <form action="submit.php" method="post">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label htmlFor="name">Your Name:</label>
-        <input type="text" id="name" name="name" placeholder="John Doe" />
-        <label htmlFor="email">Your Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="john@example.com"
-        />
-      </fieldset>
-      <input type="submit" value="Submit" />
-  </form>
+<form action="submit.php" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label htmlFor="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" />
+      <label htmlFor="email">Your Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="john@example.com"
+      />
+    </fieldset>
+    <input type="submit" value="Submit" />
+</form>
           `}
         </code>
       </pre>
@@ -350,7 +352,12 @@ export const FormsH = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/videoMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/divMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

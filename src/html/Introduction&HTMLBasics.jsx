@@ -100,8 +100,14 @@ const IntroductionH = () => {
       <p>Below is a simple HTML code example:</p>
       <div>
         <p>This is how you would write HTML code:</p>
-        <textarea rows="7" cols="50" className="introHTM">
-          {`<!DOCTYPE html>
+        <textarea
+          rows="7"
+          cols="50"
+          className="introHTM"
+          style={{ color: "#c7544d" }}
+        >
+          {`
+<!DOCTYPE html>
 <html>
 <head>
   <title>My First Web Page</title>
@@ -118,7 +124,8 @@ const IntroductionH = () => {
         <iframe
           width="400"
           height="300"
-          srcDoc={`<!DOCTYPE html>
+          srcDoc={`
+<!DOCTYPE html>
 <html>
 <head>
   <title>My First Web Page</title>
@@ -134,7 +141,7 @@ const IntroductionH = () => {
         ></iframe>
 
         <div className="button-container">
-          <button onClick={() => (window.location.href = "/HTMLBasics")}>
+          <button onClick={() => (window.location.href = "HTMLBasics")}>
             Next
           </button>
         </div>
@@ -242,10 +249,10 @@ export const HTMLBasics = () => {
         you to create and customize web pages effectively. Happy learning!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/IntroductionH")}>
+        <button onClick={() => (window.location.href = "IntroductionH")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/headings")}>
+        <button onClick={() => (window.location.href = "headings")}>
           Next
         </button>
       </div>

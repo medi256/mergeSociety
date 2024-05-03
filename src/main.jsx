@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import CourseRoutes from "./CourseRoutes.jsx";
 import MobileViewRoutes from "./MobileViewRoutes.jsx";
 import CSSmobile from "./CSSmobile.jsx";
+import JavascriptRouter from "./JavascriptRouter.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <CourseRoutes />
       <MobileViewRoutes />
       <CSSmobile />
+      <JavascriptRouter />
     </BrowserRouter>
   </React.StrictMode>
 );

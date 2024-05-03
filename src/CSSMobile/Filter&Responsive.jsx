@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Filter = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding CSS Filters</h1>
@@ -300,8 +297,13 @@ const Filter = () => {
         .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/animationMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/responsiveMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -310,7 +312,6 @@ const Filter = () => {
 export default Filter;
 
 export const Responsive = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Responsive Design and Best Practices</h1>
@@ -472,8 +473,10 @@ export const Responsive = () => {
         for users across all devices and screen sizes.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/filterMob")}>
+          back
+        </button>
       </div>
     </div>
   );

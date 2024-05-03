@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Units = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Units</h1>
@@ -33,9 +30,9 @@ const Units = () => {
             <pre>
               <code>
                 {`
-  div {
-    width: 300px;
-    height: 200px;
+    div {
+      width: 300px;
+      height: 200px;
     }
                 `}
               </code>
@@ -63,7 +60,7 @@ const Units = () => {
                 {`
   img {
     max-width: 2in;
-      }
+  }
                 `}
               </code>
             </pre>
@@ -85,7 +82,7 @@ const Units = () => {
                 {`
   header {
     margin-bottom: 1cm;
-    }
+  }
                 `}
               </code>
             </pre>
@@ -109,7 +106,7 @@ const Units = () => {
                 {`
   table {
     border-spacing: 5mm;
-      }
+  }
                 `}
               </code>
             </pre>
@@ -145,8 +142,8 @@ const Units = () => {
             <code>
               {`
   p {
-   font-size: 1.2em; /* 120% of parent's font size */
-   }
+    font-size: 1.2em; /* 120% of parent's font size */
+  }
               `}
             </code>
           </pre>
@@ -190,12 +187,12 @@ const Units = () => {
           <pre>
             <code>
               {`
-    body {
-      font-size: 16px; /* Base font size for the entire document */
-      }
-    h2 {
-      margin: 1.5rem; /* 1.5 times the root font size */
-      }
+  body {
+    font-size: 16px; /* Base font size for the entire document */
+  }
+  h2 {
+    margin: 1.5rem; /* 1.5 times the root font size */
+  }
               `}
             </code>
           </pre>
@@ -207,8 +204,7 @@ const Units = () => {
             body.
           </li>
           <li>
-            {`
-            The <h2> (heading level 2) element’s margin is specified as 1.5 times the root font size.`}
+            {`The <h2> (heading level 2) element’s margin is specified as 1.5 times the root font size.`}
           </li>
           <li>
             {`If the root font size (set by the <html> element) remains at 16 pixels, the margin for <h2> will be calculated as 1.5 * 16px = 24px.`}
@@ -282,7 +278,7 @@ const Units = () => {
             {`
   aside {
     height: 80vh; /* 80% of the viewport height */
-    }
+  }
             `}
           </code>
         </pre>
@@ -311,8 +307,13 @@ const Units = () => {
         Units .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/styleMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/boxModelMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -321,7 +322,6 @@ const Units = () => {
 export default Units;
 
 export const BoxModel = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Box Model</h1>
@@ -437,9 +437,9 @@ export const BoxModel = () => {
       <pre>
         <code>
           {`
-*, *:before, *:after {
-  box-sizing: border-box;
-}
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
           `}
         </code>
       </pre>
@@ -467,8 +467,13 @@ export const BoxModel = () => {
         BoxModel .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/unitsMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/maxWidthMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

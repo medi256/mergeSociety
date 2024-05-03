@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Overflow = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Overflow</h1>
@@ -44,23 +41,23 @@ const Overflow = () => {
               <pre>
                 <code>
                   {`
-  <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
-        <p>
-        This is a long content that will overflow the container.
-        </p>
-        <p>
-          This is a long content that will overflow the container.
-        </p>
-        <p>
-          This is a long content that will overflow the container.
-        </p>
-        <p>
-          This is a long content that will overflow the container.
-        </p>
-        <p>
-          This is a long content that will overflow the container.
-        </p>
-  </div>
+        <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
+                <p>
+                  This is a long content that will overflow the container.
+                </p>
+                <p>
+                  This is a long content that will overflow the container.
+                </p>
+                <p>
+                  This is a long content that will overflow the container.
+                </p>
+                <p>
+                  This is a long content that will overflow the container.
+                </p>
+                <p>
+                  This is a long content that will overflow the container.
+                </p>
+         </div>
 
                   `}
                 </code>
@@ -98,23 +95,23 @@ const Overflow = () => {
               <pre>
                 <code>
                   {`
-  <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-  </div>
+         <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+          </div>
 
                   `}
                 </code>
@@ -153,23 +150,23 @@ const Overflow = () => {
               <pre>
                 <code>
                   {`
-  <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-      <p>
-        This is a long content that will overflow the container.
-      </p>
-  </div>
+         <div style="width: 200px; height: 100px; overflow: auto; border: 1px solid black;">
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+                  <p>
+                    This is a long content that will overflow the container.
+                  </p>
+        </div>
    
                   `}
                 </code>
@@ -208,8 +205,13 @@ const Overflow = () => {
         Overflow .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/columnMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/opacityMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -218,8 +220,6 @@ const Overflow = () => {
 export default Overflow;
 
 export const Opacity = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h1>Opacity</h1>
@@ -265,9 +265,9 @@ export const Opacity = () => {
               <pre>
                 <code>
                   {`
-  <div style={{ opacity: '0.5', border: '1px solid black' }}>
-      <p>This is a semi-transparent content.</p>
-  </div>
+        <div style={{ opacity: '0.5', border: '1px solid black' }}>
+            <p>This is a semi-transparent content.</p>
+        </div>
                   `}
                 </code>
               </pre>
@@ -289,9 +289,9 @@ export const Opacity = () => {
               <pre>
                 <code>
                   {`
-  <div style={{ opacity: '0.2', border: '1px solid black' }}>
-     <p>This is a highly transparent content.</p>
-  </div>
+            <div style={{ opacity: '0.2', border: '1px solid black' }}>
+               <p>This is a highly transparent content.</p>
+            </div>
                   `}
                 </code>
               </pre>
@@ -313,8 +313,13 @@ export const Opacity = () => {
         Opacity .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/overFlowMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/outlineMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

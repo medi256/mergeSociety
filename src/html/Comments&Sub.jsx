@@ -44,8 +44,8 @@ const CommentsH = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/pre")}>back</button>
-        <button onClick={() => (window.location.href = "/sub")}>Next</button>
+        <button onClick={() => (window.location.href = "pre")}>back</button>
+        <button onClick={() => (window.location.href = "sub")}>Next</button>
       </div>
     </div>
   );
@@ -111,10 +111,10 @@ export const Sub = () => {
       </ul>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/commentsH")}>
+        <button onClick={() => (window.location.href = "commentsH")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/sup")}>Next</button>
+        <button onClick={() => (window.location.href = "sup")}>Next</button>
       </div>
     </div>
   );

@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Div = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h2>Understanding Divs in HTML:</h2>
@@ -21,9 +18,9 @@ const Div = () => {
         <code>
           {`
 
-  <div>
-    <!-- Content goes here -->
-  </div>
+<div>
+  <!-- Content goes here -->
+</div>
           `}
         </code>
       </pre>
@@ -32,10 +29,10 @@ const Div = () => {
       <pre>
         <code>
           {`
-  <div>
-    <h1>Welcome to our Website! </h1>
-    <p>This is a paragraph inside a div. </p>
-  </div>
+<div>
+  <h1>Welcome to our Website! </h1>
+  <p>This is a paragraph inside a div. </p>
+</div>
         `}
         </code>
       </pre>
@@ -79,7 +76,12 @@ const Div = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>back</button>
+        <button onClick={() => (window.location.href = "/formsHMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/spanMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -88,8 +90,6 @@ const Div = () => {
 export default Div;
 
 export const Spans = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="comments-container">
       <h2>Mastering Span Elements in HTML:</h2>
@@ -109,9 +109,9 @@ export const Spans = () => {
       <pre>
         <code>
           {`
-  <span>
-    <!-- Text goes here -->
-  </span>
+<span>
+<!-- Text goes here -->
+</span>
           `}
         </code>
       </pre>
@@ -163,7 +163,12 @@ export const Spans = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => navigate(-1)}>Back</button>
+        <button onClick={() => (window.location.href = "/divMobile")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/inlineMobile")}>
+          Next
+        </button>
       </div>
     </div>
   );

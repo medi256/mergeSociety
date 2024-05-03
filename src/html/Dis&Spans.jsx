@@ -76,8 +76,8 @@ const Div = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/formsH")}>back</button>
-        <button onClick={() => (window.location.href = "/span")}>Next</button>
+        <button onClick={() => (window.location.href = "formsH")}>back</button>
+        <button onClick={() => (window.location.href = "span")}>Next</button>
       </div>
     </div>
   );
@@ -159,8 +159,8 @@ export const Spans = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/div")}>back</button>
-        <button onClick={() => (window.location.href = "/inline")}>Next</button>
+        <button onClick={() => (window.location.href = "div")}>back</button>
+        <button onClick={() => (window.location.href = "inline")}>Next</button>
       </div>
     </div>
   );

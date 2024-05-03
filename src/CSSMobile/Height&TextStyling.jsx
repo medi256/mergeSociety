@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Height = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Height Property</h1>
@@ -120,8 +117,13 @@ const Height = () => {
         Height .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/widthMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/styleMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -129,7 +131,6 @@ const Height = () => {
 
 export default Height;
 export const TextStyling = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Text Styling</h1>
@@ -205,7 +206,7 @@ export const TextStyling = () => {
   h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-              `}
+  `}
             </code>
           </pre>
           <ul>
@@ -244,9 +245,9 @@ export const TextStyling = () => {
           <pre>
             <code>
               {`
-  p {
-    word-spacing: 2px;
-  }
+              p {
+                word-spacing: 2px;
+              }
               `}
             </code>
           </pre>
@@ -289,8 +290,13 @@ export const TextStyling = () => {
         Text.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/heightMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/unitsMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

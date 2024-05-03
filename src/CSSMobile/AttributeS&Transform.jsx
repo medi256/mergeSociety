@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const AttributeS = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding Attribute Selectors in CSS</h1>
@@ -63,8 +60,13 @@ a[target="_blank"] {
         attributes.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/universalMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/transformMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -73,7 +75,6 @@ a[target="_blank"] {
 export default AttributeS;
 
 export const Transform = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding CSS Transform</h1>
@@ -352,8 +353,13 @@ export const Transform = () => {
         on CSS Transform.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/attributeMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/transitionMob")}>
+          Next
+        </button>
       </div>
     </div>
   );

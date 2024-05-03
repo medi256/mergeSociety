@@ -65,8 +65,8 @@ function LinksH() {
         seamlessly through your website, enhancing their overall experience.
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/lists")}>back</button>
-        <button onClick={() => (window.location.href = "/attribute")}>
+        <button onClick={() => (window.location.href = "lists")}>back</button>
+        <button onClick={() => (window.location.href = "attribute")}>
           Next
         </button>
       </div>
@@ -177,10 +177,8 @@ export function Attributes() {
         scripting.
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/linksH")}>back</button>
-        <button onClick={() => (window.location.href = "/imagesH")}>
-          Next
-        </button>
+        <button onClick={() => (window.location.href = "linksH")}>back</button>
+        <button onClick={() => (window.location.href = "imagesH")}>Next</button>
       </div>
     </div>
   );

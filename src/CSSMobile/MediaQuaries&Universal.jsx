@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const MediaQuaries = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>CSS Media Query</h1>
@@ -240,8 +237,13 @@ const MediaQuaries = () => {
         Media queries .
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/variableMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/universalMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
@@ -250,7 +252,6 @@ const MediaQuaries = () => {
 export default MediaQuaries;
 
 export const Universal = () => {
-  const navigate = useNavigate();
   return (
     <div className="comments-container">
       <h1>Understanding the Universal Selector in CSS</h1>
@@ -297,8 +298,13 @@ export const Universal = () => {
         page.
       </p>
 
-      <div>
-        <button onClick={() => navigate(-1)}>Back</button>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "/mediaQMob")}>
+          back
+        </button>
+        <button onClick={() => (window.location.href = "/attributeMob")}>
+          Next
+        </button>
       </div>
     </div>
   );
