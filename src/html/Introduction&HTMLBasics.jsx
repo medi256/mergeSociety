@@ -5,146 +5,181 @@ const IntroductionH = () => {
     <div className="comments-container">
       <h1>Introduction to HTML</h1>
       <p>
-        {`
-        Welcome to the world of web development! If you're new here, don't
-        worry; we'll start from the basics. Web development involves three
-        essential languages: HTML, CSS, and JavaScript.`}
-      </p>
-      <p>
-        HTML, which stands for HyperText Markup Language, forms the structure of
-        a webpage, defining elements like text, images, and links, similar to a
-        blueprint for a building.
-      </p>
-      <p>
-        CSS, or Cascading Style Sheets, adds style and design to your webpage,
-        making it visually appealing and user-friendly.
-      </p>
-      <p>
-        JavaScript adds functionality to your webpage, making it interactive and
-        allowing users to engage with elements like forms and buttons.
+        {`Welcome to the exciting world of HTML! In this course, you will learn
+        about the fundamentals of Hypertext Markup Language (HTML), the backbone
+        of every website you visit on the internet. HTML is a simple yet
+        powerful language that allows us to create structured and interactive
+        web pages. Let's dive in and explore its history, purpose, and how it
+        works alongside other technologies like CSS and JavaScript to bring
+        websites to life!`}
       </p>
 
-      <h2>Understanding Programming Languages</h2>
+      <h2>A Brief History of HTML</h2>
       <p>
-        {`
-        In web development, a programming language is a means for developers to
-        communicate with computers. It's like a set of rules designed to
-        interact with computers effectively.`}
-      </p>
-      <p>
-        While there are numerous programming languages, HTML, CSS, and
-        JavaScript are fundamental for web development. Understanding their
-        roles is crucial for navigating the programming landscape.
+        HTML was created by Tim Berners-Lee in the late 1980s while he was
+        working at CERN, the European Organization for Nuclear Research. The
+        goal was to create a system for sharing and distributing information
+        among researchers easily. HTML became the standard markup language for
+        creating web pages and has evolved over the years with various versions,
+        such as HTML+, HTML 2.0, and the current HTML5.
       </p>
 
-      <h2>Setting Up Your Workspace</h2>
+      <h2>What is HTML?</h2>
       <p>
-        Before diving into HTML,{" "}
-        {`let's prepare your workspace for writing and
-        experimenting with code. All you need is a simple text editor like
-        Notepad (Windows), TextEdit (macOS), or Visual Studio Code (available
-        for multiple platforms).`}
-      </p>
-      <p>
-        {`
-        If you're new to Visual Studio Code, watch this video tutorial to get
-        started:`}
-      </p>
-      <div className="video">
-        <iframe
-          width="660"
-          height="415"
-          src="https://www.youtube.com/embed/EUJlVYggR1Y?si=_H3U0c6grc-IAWda"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-        <p className="sr-only">
-          Video tutorial on setting up Visual Studio Code for beginners.
-        </p>
-      </div>
-
-      <h3>For Smartphone Users:</h3>
-      <p>
-        {`
-        1. Download a code editor app like "QuickEdit" (Android) or "Textastic
-        Code Editor" (iOS) from your app store.`}
-      </p>
-      <p>2. Create a new file within the app.</p>
-      <p>3. Save the file with a .html extension (e.g., index.html).</p>
-
-      <h4>Regardless of your device:</h4>
-      <p>1. Start coding by typing or copying HTML examples into your file.</p>
-      <p>
-        {`
-        2. View your webpage by opening the file in a web browser. On a
-        computer, right-click the file and select 'Open with' or drag it into
-        your browser. On a smartphone, use the app's preview feature or open it
-        in your mobile browser.`}
-      </p>
-      <p>
-        {`
-        As you code and view your webpage, you'll see it come to life. This
-        hands-on approach will reinforce your learning and give you a sense of
-        accomplishment.`}
-      </p>
-      <p>
-        {`
-        Set up your coding environment, and in the next lesson, we'll start
-        building our first webpage using HTML.`}
+        HTML is the standard markup language for creating web pages and web
+        applications. It uses a set of tags and attributes to define the
+        structure and content of a web page. HTML tells the web browser what to
+        display and how to interpret the content, such as headings, paragraphs,
+        images, videos, and links.
       </p>
 
-      <h2>Interactive Example</h2>
-      <p>Below is a simple HTML code example:</p>
-      <div>
-        <p>This is how you would write HTML code:</p>
-        <textarea
-          rows="7"
-          cols="50"
-          className="introHTM"
-          style={{ color: "#c7544d" }}
-        >
-          {`
+      <h2>How HTML Works with CSS and JavaScript</h2>
+      <p>
+        HTML is often used alongside two other essential web technologies: CSS
+        (Cascading Style Sheets) and JavaScript. CSS is responsible for the
+        styling and layout of the HTML content, making it visually appealing.
+        JavaScript, on the other hand, adds interactivity to the web page,
+        enabling dynamic behavior and responsive user interfaces. Together,
+        HTML, CSS, and JavaScript form the foundation of modern web development.
+      </p>
+
+      <h2>The Power of HTML: What Can It Do?</h2>
+      <p>
+        {`HTML is everywhere on the web! It helps us display text, images, videos,
+        forms, tables, and much more. With HTML, you can create informative web
+        pages, build interactive forms for user input, embed multimedia content,
+        and structure your website's content logically. Companies and
+        organizations of all sizes rely on HTML to build their websites, from
+        small startups to large enterprises like Google, Facebook, and Amazon.`}
+      </p>
+
+      <h2>Your HTML Workspace: Setting Up Your Environment</h2>
+      <h3>For PC Users</h3>
+      <p>
+        {`To start your HTML journey, you'll need a code editor - a special
+        program designed for writing and editing code. There are many code
+        editors available, but for this course, we recommend using Visual Studio
+        Code (also known as VSCode). It's a free, powerful, and user-friendly
+        editor that will make your coding experience enjoyable.`}
+      </p>
+      <ol>
+        <li>
+          <strong>Download VSCode:</strong> Head over to the VSCode website
+          <a href="https://code.visualstudio.com">(visit to download)</a> and
+          download the installer for your operating system. Install VSCode on
+          your computer by following the installation wizard.
+        </li>
+        <li>
+          <strong>Create a New Folder:</strong> Open Windows Explorer or Finder
+          (on Mac) and create a new folder for your HTML projects. You can name
+          it anything you like, or simply leave it as it is.
+        </li>
+        <li>
+          <strong>Open VSCode:</strong> Launch VSCode and drag and drop your new
+          folder into the VSCode window. This will set the folder as your
+          workspace.
+        </li>
+        <li>
+          <strong>Create Your First HTML File:</strong>{" "}
+          {`In VSCode, navigate to
+          the "Explorer" tab on the left sidebar. Click on the "New File" icon
+          (or press Ctrl+N on Windows or Cmd+N on Mac) to create a new file.
+          Name it "index.html" (the ".html" extension is important!). Save the
+          file by pressing Ctrl+S (Windows) or Cmd+S (Mac) or clicking the
+          "Save" icon.`}
+        </li>
+        <li>
+          <strong>View Your HTML in the Browser:</strong>{" "}
+          {`Now, let's write some
+          basic HTML code! Copy and paste the following code into your
+          "index.html" file:`}
+          <pre>
+            <code>
+              {`
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My First Web Page</title>
-</head>
-<body>
+  <head>
+    <title>My First Website</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website!</h1>
+    <p>This is my first HTML code!</p>
+  </body>
+</html>
+        
+        `}
+            </code>
+          </pre>
+          {`Save the file again. To view your handiwork, open the folder you
+          created in your file explorer, find the "index.html" file, and drag
+          and drop it into your web browser. Congratulations! You've just
+          created and viewed your first website! Don't worry about memorizing
+          the code; we'll break down each part in the upcoming lessons.`}
+        </li>
+      </ol>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+      <h3>For Mobile Users</h3>
+      <p>
+        {`If you're using a mobile device, there are several code editors
+        available on iOS and Android that you can use. We recommend editors with
+        built-in browsers for convenience. Here are the steps to get started:`}
+      </p>
+      <ol>
+        <li>
+          <strong>Download a Mobile Code Editor:</strong>{" "}
+          {`Search for "code
+          editor" on your device's app store and download one with good reviews
+          and a built-in browser (e.g., "Dcoder," "Code Editor," or "Coding
+          Studio").`}
+        </li>
+        <li>
+          <strong>Create a New File:</strong>{" "}
+          {`Open the app and create a new
+          file. Name it "index.html" and make sure to save it.`}
+        </li>
+        <li>
+          <strong>Write Your First HTML Code:</strong>{" "}
+          {`Copy and paste the same
+          HTML code provided earlier into your "index.html" file. Save your
+          changes.`}
+        </li>
+        <li>
+          <strong>View Your HTML in the Browser:</strong>{" "}
+          {`Most mobile code
+          editors will have a "Run" or "Preview" button. Tap that button to view
+          your HTML code in the built-in browser. If your editor doesn't have a
+          built-in browser, you may need to copy the file to a cloud storage
+          service (like Dropbox) and open it from there in a mobile browser.`}
+        </li>
+      </ol>
 
-</body>
-</html>`}
-        </textarea>
-        <p>This is what it would look like in a browser:</p>
-        <iframe
-          width="400"
-          height="300"
-          srcDoc={`
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My First Web Page</title>
-</head>
-<body>
+      <h2>{`Understanding the ".html" Extension`}</h2>
+      <p>
+        {`You might be wondering why we use the ".html" extension for our HTML
+        files. This extension is essential because it tells the web browser that
+        the file contains HTML code and should be interpreted as such. Other
+        programming and markup languages have their own extensions, like ".css"
+        for CSS files and ".js" for JavaScript files. This helps both humans and
+        computers quickly identify the type of content in a file.`}
+      </p>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>`}
-          title="Example Result"
-        ></iframe>
-
-        <div className="button-container">
-          <button onClick={() => (window.location.href = "HTMLBasics")}>
-            Next
-          </button>
-        </div>
+      <p>
+        {`Remember, this is just an introduction to what your appetite! In the
+        upcoming lessons, we'll dive deeper into each aspect of HTML, exploring
+        tags, attributes, and more. So, get ready to embark on an exciting
+        journey as we unlock the secrets of HTML together!`}
+      </p>
+      <h3>
+        {`You can watch this video to help you set up your Visual Studio Code if
+        you haven't gotten things right.`}
+      </h3>
+      <video controls width={"300px"}>
+        <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1714906080/myFirstWebsite_baseb1.mov" />
+      </video>
+      <div className="button-container">
+        <button onClick={() => (window.location.href = "HTMLBasics")}>
+          Next
+        </button>
       </div>
     </div>
   );

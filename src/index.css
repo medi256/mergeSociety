@@ -339,6 +339,9 @@ code {
 iframe {
   max-width: 100%;
 }
+video {
+  max-width: 100%;
+}
 
 .landing-page {
   background-image: url("https://res.cloudinary.com/dhgjhspsp/image/upload/v1714548150/landingPage2_xdiscv.jpg");
