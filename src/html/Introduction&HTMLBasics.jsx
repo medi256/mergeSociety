@@ -190,99 +190,194 @@ export default IntroductionH;
 export const HTMLBasics = () => {
   return (
     <div className="comments-container">
-      <h1>HTML Basics:</h1>
+      <h1>HTML Basics</h1>
       <p>
-        {`
-        HTML, short for Hypertext Markup Language, is the foundation of web
-        pages. It's a standardized language used to create and structure the
-        content of websites.`}
+        {`Welcome back, aspiring web developer! In this lesson, we'll dive into the
+        fundamentals of HTML structure and explore the different types of tags
+        that make up the language. By the end of this section, you'll have a
+        clear understanding of how HTML elements work and how they tell the web
+        browser what to display. Let's get started!`}
       </p>
-      <h2>Structure of HTML: </h2>
+
+      <h2>The Building Blocks: HTML Elements</h2>
       <p>
-        HTML documents are made up of a series of elements, and these elements
-        tell web browsers how to display the content on a webpage.
+        {`HTML is made up of a series of elements, and these elements are the
+        building blocks of any web page. Each element is defined by a specific
+        tag, and these tags tell the web browser what to display and how to
+        interpret the content. Think of elements as the Lego bricks that come
+        together to build a website. Here's a simple example:`}
       </p>
-      <h2>Tags in HTML: </h2>
-      <p>
-        HTML uses tags to define and format content. There are two main types of
-        tags in HTML: Container tags and Empty tags.{" "}
-      </p>
-      <h2>Container tags:</h2>
-      <p>
-        {" "}
-        Container tags are used to enclose content and require both an opening
-        and a closing tag. They instruct the browser where the content begins
-        and ends
-      </p>
-      <h5>Examples of Container tags </h5>
       <pre>
-        <ol>
-          <li>
-            {" "}
-            <code>&lt;html&gt; &lt;&#47;html&gt;</code>
-          </li>
-          <li>
-            <code>&lt;p&gt; &lt;&#47;p&gt;</code>{" "}
-          </li>
-          <li>
-            <code>&lt;h1&gt; &lt;&#47;h1&gt;</code>{" "}
-          </li>
-        </ol>
+        <code>
+          {`
+<html>
+  <head>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My Web Page!</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+       
+       `}
+        </code>
       </pre>
+
       <p>
-        These tags wrap around content and define its structure or presentation.
+        {`In the above code, we have several HTML elements: <html>,
+        <head>, <title>, <body>, <h1>, and <p>. Each
+        element serves a specific purpose and contributes to the overall
+        structure of the web page.`}
       </p>
-      <h2>Empty tags:</h2>
+
+      <h3>Container Elements and Empty Elements</h3>
       <p>
-        {`
-        Empty tags, also known as self-closing tags, are used to insert elements
-        into a page that don't have content or don't need a closing tag.`}
+        {`There are two main types of HTML elements: container elements and empty
+        elements. Container elements have both an opening tag and a closing tag,
+        and they can contain other elements or text within them. For example,
+        the <body> element is a container element because it can hold
+        headings, paragraphs, images, and other content.`}
       </p>
-      <h5>Examples of Empty tags </h5>
+
       <pre>
-        <ol>
-          <li>
-            <code>&lt;hr&gt;</code>
-          </li>
-          <li>
-            <code>&lt;br&gt;</code>
-          </li>
-          <li>
-            <code>&lt;img&gt;</code>
-          </li>
-        </ol>
+        <code>
+          {`
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+    
+      `}
+        </code>
       </pre>
+
       <p>
-        {`
-        Empty tags don't require a closing tag because they don't wrap around
-        content; instead, they are used to insert specific elements, like
-        horizontal lines, line breaks, or images, into the page.`}
+        {`On the other hand, empty elements do not have a closing tag and are
+        typically used for standalone elements that don't contain other
+        elements or text. For example, the <img> tag is an empty element
+        used to embed an image in the web page.`}
       </p>
-      <h3>Summary</h3>
+      <pre>
+        <code>
+          {`
+       
+       <img src="image.jpg" alt="Description of the image">
+       `}
+        </code>
+      </pre>
+
+      <p>{`Let's explore some common container elements and their usage:`}</p>
+
+      <ul>
+        <li>
+          <strong>{`<h1> to <h6>`}:</strong>{" "}
+          {`These tags are used for headings
+          of different sizes. <h1> represents the largest heading,
+          while <h6> represents the smallest.`}
+        </li>
+        <li>
+          <strong>{`<p>`}:</strong>{" "}
+          {`This tag is used to create paragraphs of
+          text. It's perfect for displaying blocks of text content.`}
+        </li>
+        <li>
+          <strong>{`<div>`}:</strong>{" "}
+          {`The <div> tag is a generic container
+          used to group other elements together. It doesn't have any specific
+          semantic meaning but is often used for layout purposes.`}
+        </li>
+        <li>
+          <strong>{`<ul> and <ol>`}:</strong> These tags are used to create
+          unordered (bulleted) and ordered (numbered) lists, respectively. List
+          items are nested within these container elements.
+        </li>
+      </ul>
+
       <p>
-        HTML, which stands for Hypertext Markup Language, is the foundation of
-        web development. It is used to structure and format web pages, like the
-        one you are currently using to learn HTML.{" "}
+        {`Now, let's take a look at some common empty elements and their usage:`}
       </p>
-      <h4>In HTML, there are two main types of tags:</h4>
+
+      <ul>
+        <li>
+          <strong>{`<img>`}:</strong>{" "}
+          {`As mentioned earlier, this tag is used to
+          embed images in the web page. The "src" attribute specifies the
+          image source, and the "alt" attribute provides alternative text for
+          screen readers and when the image cannot be displayed.`}
+        </li>
+        <li>
+          <strong>{`<br>`}:</strong>{" "}
+          {`This tag creates a line break, forcing the
+          text or content after it to start on a new line. It's an empty tag
+          with no closing tag.`}
+        </li>
+        <li>
+          <strong>{`<input>`}:</strong>{" "}
+          {`The <input>; tag is used to create
+          input fields within forms. It's an empty tag, and the "type" attribute
+          specifies the type of input, such as "text," "email," or "password."`}
+        </li>
+      </ul>
+
+      <h2>Why Do Elements Have Opening and Closing Tags?</h2>
       <p>
-        1. <strong>Container Tags:</strong> These tags, such as{" "}
-        <code>&lt;html&gt; &lt;&#47;html&gt;, &lt;p&gt; &lt;&#47;p&gt; </code>,
-        and <code>&lt;h1&gt; &lt;&#47;h1&gt;</code>, are used to enclose content
-        and define its structure on a web page. They require both an opening and
-        a closing tag.
+        {`You might be wondering why some elements have both opening and closing
+        tags while others don't. The reason lies in the nature of the content
+        they contain. Container elements, like <p>; or <div>;,
+        typically contain text or other elements, so they need a closing tag to
+        indicate where the content ends. On the other hand, empty elements, like
+        <img>; or <br>;, perform a specific function and don't
+        require any content within them, so they don't need a closing tag.`}
       </p>
+
+      <h2>Putting It All Together</h2>
       <p>
-        2. <strong>Empty Tags:</strong> Also known as self-closing tags,
-        examples include <code>&lt;hr&gt;, &lt;br&gt;</code>, and{" "}
-        <code>&lt;img&gt;</code>. These tags are used to insert specific
-        elements into a page that either {`don't have content or don't`} need a
-        closing tag.
+        {`Now that we've explored container and empty elements, let's put it all
+        together and create a simple HTML structure. Here's an example of a
+        basic HTML document:`}
       </p>
+      <pre>
+        <code>
+          {`
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website!</h1>
+    <p>This is a paragraph of text.</p>
+    <img src="image.jpg" alt="Description of the image">
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
+`}
+        </code>
+      </pre>
+
       <p>
-        Understanding these fundamental concepts of HTML will pave the way for
-        you to create and customize web pages effectively. Happy learning!
+        {`In this example, we have a basic HTML document with a title, a heading,
+        a paragraph, an image, and an unordered list. Notice how the container
+        elements wrap the content within them, while the empty elements, like
+        <img> and <br>, stand alone.`}
       </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we explored the fundamental building blocks of HTML - the
+        elements. We learned about container elements and empty elements, and
+        how they work together to structure a web page. Understanding these
+        basics is crucial for creating well-formed and meaningful HTML
+        documents. In the next lesson, we'll continue our exploration of HTML
+        tags and dive into specific elements and their usage in more detail.
+        Stay tuned, and keep practicing!`}
+      </p>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "IntroductionH")}>
           back
