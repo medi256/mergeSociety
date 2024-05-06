@@ -1,156 +1,210 @@
 const ImagesH = () => {
   return (
     <div className="comments-container">
-      <h1>HTML Images</h1>
+      <h1>Images in HTML</h1>
+      <p>
+        {`Hello there! In this lesson, we'll be exploring images - a crucial
+        component of modern web pages. Images can enhance the visual appeal of
+        your website, convey information, and engage your users. Let's dive into
+        the world of images in HTML and learn how to embed and customize images
+        effectively.`}
+      </p>
+
+      <h2>Embedding Images in HTML</h2>
+      <p>
+        In HTML, images are embedded using the <code>{`<img>`}</code> tag. The{" "}
+        <code>{`<img>`}</code>{" "}
+        {`tag
+        is a self-closing tag, which means it doesn't have a closing tag. Here's
+        the basic structure of embedding an image in HTML:`}
+      </p>
+
+      <pre>
+        <code>
+          {`
+<img src="image.jpg" alt="Description of the image">
+          `}
+        </code>
+      </pre>
 
       <p>
-        HTML images are essential for any website. Almost every website you
-        visit includes images.
+        In the code above, the <code>{`<img>`}</code>{" "}
+        {`tag is used to embed an image. The
+        "src" attribute specifies the source or URL of the image file. The "alt"
+        attribute provides alternative text for screen readers and when the
+        image cannot be displayed.`}
       </p>
+
+      <h2>Customizing Image Appearance</h2>
       <p>
-        Images enhance the visual appeal of a website and make it more engaging
-        for visitors.
+        {`You can customize the appearance of images in HTML using attributes like
+        width and height. These attributes allow you to control the dimensions of
+        the displayed image. Here's an example:`}
       </p>
-      <p>
-        Can you imagine browsing a webpage without any images? Most likely not.
-      </p>
-      <p>
-        To include an image on our website, we use the <code>&lt;img&gt;</code>{" "}
-        element with the <b>src</b> attribute, which specifies the {`image's`}{" "}
-        URL or location.
-      </p>
-      <p>
-        The <code>&lt;img&gt;</code> element is self-closing, as we discussed
-        earlier.
-      </p>
-      <h2>
-        The <b>src</b> Attribute
-      </h2>
-      <p>
-        The <b>src</b> attribute is used to define the URL or location of an
-        image.
-      </p>
-      <h2>Example</h2>
-      <h4>HTML Code</h4>
-      <pre>
-        <code>&lt;img src={"image-location.jpg"}&gt;</code>
-      </pre>
-      <h2>Output</h2>
-      <pre>
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712398955/massa_zuwdsv.jpg"
-          alt="demo"
-          style={{ width: "200px", height: "200px" }}
-        />
-      </pre>
-      <h2>
-        The <b>alt</b> Attribute
-      </h2>
-      <p>
-        The <b>alt</b> attribute provides alternative text for an image, which
-        is displayed when the image fails to load.
-      </p>
-      <h2>Example</h2>
-      <h4>HTML Code</h4>
       <pre>
         <code>
-          &lt;img src={"imag.jpg"} alt={`"Alternate text for the image" `}&gt;
+          {`
+<img src="image.jpg" alt="Description of the image" width="300" height="200">
+          `}
         </code>
       </pre>
-      <h2>Output</h2>
-      <pre>
-        <img src="imag.jpg" alt="Alternate text for the image  " />
-      </pre>
+
       <p>
-        In the example above, the specified URL does not exist, so the alternate
-        text is displayed instead.
+        {`In the code above, we added the "width" and "height" attributes to the`}
+        <code>{`<img> `}</code> tag.{" "}
+        {`The values "300" and "200" specify the width and height
+        of the image in pixels, respectively. You can adjust these values to
+        control the size of the displayed image.`}
       </p>
-      <h2>Image Sizing (Width and Height)</h2>
+
+      <h2>Different Ways to Provide Image Source</h2>
+      <p>There are several ways to provide the source or URL of an image:</p>
+
+      <ul>
+        <li>
+          <strong>Relative URL:</strong>{" "}
+          {`You can use a relative URL if the image
+          file is located in the same folder as your HTML file. For example, if
+          your HTML file is "index.html" and the image file is "image.jpg," you
+          can simply use`}
+          <br />
+          <pre>
+            <code>
+              {`
+            
+           <img src="image.jpg">.
+            `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          <strong>Absolute URL:</strong> If the image is hosted on a web server,
+          you can use the absolute URL to specify its location. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+            
+          <img src="https://www.example.com/image.jpg">.
+            `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          <strong>Data URLs:</strong>{" "}
+          {`You can encode the image data directly
+          into the "src" attribute using a data URL. This is useful for small
+          images or icons. For example,`}
+          <br />
+          <pre>
+            <code>
+              {`
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/wAAg8AAVsRExPQAAAAASUVORK5CYII="
+          alt="Encoded image">.
+            
+            `}
+            </code>
+          </pre>
+        </li>
+      </ul>
       <p>
-        To resize an image, use the <b>width</b> and <b>height</b> attributes,
-        typically specified in pixels (px).
-      </p>
-      <h2>Example</h2>
-      <h4>HTML Code</h4>
-      <pre>
-        <code>
-          &lt;img src={`"medi.jpg"`} alt={`"medi's image"`} width={`"300px"`}
-          height={`"300px"`}&gt;
-        </code>
-      </pre>
-      <h2>Output</h2>
-      <pre>
-        <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712398955/massa_zuwdsv.jpg"
-          alt="medi"
-          width={"300px"}
-          height={"300px"}
-        />
-      </pre>
-      <p>
-        The above image has a width and height of 300 pixels. You can adjust the
-        dimensions according to your preference.
-      </p>
-      <h2>Image as a Link</h2>
-      <p>
-        Images can also act as links by enclosing them within an{" "}
-        <code>&lt;a&gt;</code> element with the <b>href</b> attribute.
-      </p>
-      <h2>Example</h2>
-      <h4>HTML Code</h4>
-      <pre>
-        <code>
-          &lt;a href={"http://www.udemy.com"}&gt; &lt;img src={"image-location"}{" "}
-          alt={`"udemy logo"`}&gt; &lt;&#47;a&gt;
-        </code>
-      </pre>
-      <h2>Output</h2>
-      <pre>
-        <a href="http://www.udemy.com">
-          <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712397617/udemy_qxvl4l.jpg"
-            alt="udemy logo"
-          />
-        </a>
-      </pre>
-      <p>Clicking on the image above will take you to {`Udemy's`} website.</p>
-      <h2>Tip</h2>
-      <p>
-        Avoid overloading webpages with too many images to prevent slow loading
-        times, which can discourage visitors.
-      </p>
-      <h2>Video Tutorial</h2>
-      <p>
-        Watch a video tutorial to learn how to easily upload images to your
-        website from your computer.
+        You can also watch this video and learn how to upload images from your
+        computer
       </p>
       <video controls width="300px" height="300px">
         <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712418881/imageUpload_tsuisi.mov" />
       </video>
-      <h2>Summary</h2>
+
+      <h2>Best Practices for Using Images</h2>
+      <ul>
+        <li>
+          <strong>Use descriptive alt text:</strong>{" "}
+          {`The "alt" attribute is
+          crucial for accessibility. It provides alternative text for screen
+          readers and users who cannot see the image. Make sure the alt text
+          accurately describes the image.`}
+        </li>
+        <li>
+          <strong>Optimize image size:</strong>{" "}
+          {`Large image files can slow down
+          your website's loading time. Use image editing tools to compress and
+          optimize your images without sacrificing quality.`}
+        </li>
+        <li>
+          <strong>Use responsive images:</strong>{" "}
+          {`Make sure your images are
+          responsive, meaning they adjust to different screen sizes and
+          devices. You can use CSS or modern HTML attributes like "srcset" and
+          "sizes" to achieve responsiveness.`}
+        </li>
+        <li>
+          <strong>Provide fallback options:</strong> If an image cannot be
+          displayed, provide fallback options like alternative text or a
+          placeholder image. This ensures that users still get some information
+          even if the image fails to load.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
       <p>
-        Use the <code>&lt;img&gt;</code> element with the <b>src</b> attribute
-        to specify the {`image's`} URL.
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with embedding images, providing
+        different source options, and customizing their appearance. Here's a
+        simple exercise to get you started:`}
       </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "images.html" in your workspace
+          folder.`}
+        </li>
+        <li>
+          Embed an image using the <code>{`<img>`}</code> tag. You can use an
+          image file from your computer or a publicly available image on the
+          web. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+           <img src="image.jpg" alt="Beautiful sunset"
+          width="400" height="300">
+            
+            `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          {`Try using different source options, such as relative URLs, absolute
+          URLs, or data URLs. Observe how the images are displayed at different
+          sizes using the "width" and "height" attributes.`}
+        </li>
+        <li>
+          {`Provide meaningful alternative text for your images using the "alt"
+          attribute. For instance,`}
+          <br />
+          <pre>
+            <code>
+              {`
+<img src="image.jpg"
+alt="Sunset over the ocean" width="500" height="400">
+            
+            `}
+            </code>
+          </pre>
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
       <p>
-        The <b>alt</b> attribute provides alternative text for situations where
-        the image cannot load.
-      </p>
-      <p>
-        Adjust the {`image's`} dimensions using the width and height attributes,
-        typically specified in pixels (px).
-      </p>
-      <p>
-        Images can also serve as links by enclosing them within an{" "}
-        <code>&lt;a&gt;</code> element with an href attribute.
-      </p>
-      <p>
-        Avoid overloading a webpage with too many images to prevent slow loading
-        times, which may deter visitors.
-      </p>
-      <p>
-        Consider watching a video tutorial to learn how to easily upload images
-        to your website from your computer.
+        {`In this lesson, we've explored images in HTML, including how to embed
+        images, provide different source options, customize their appearance using
+        width and height attributes, and more. Images play a vital role in modern
+        web design, enhancing the visual appeal and engagement of your website.
+        Remember to use images wisely, follow best practices, and always test
+        your images to ensure they display correctly on different devices and
+        browsers. In the next lesson, we'll move on to HTML tables and learn how
+        to present tabular data in a structured manner. Stay tuned, and happy
+        coding!`}
       </p>
 
       <div className="button-container">
