@@ -72,7 +72,7 @@ const ImagesH = () => {
             <code>
               {`
             
-           <img src="image.jpg">.
+<img src="image.jpg">.
             `}
             </code>
           </pre>
@@ -85,7 +85,7 @@ const ImagesH = () => {
             <code>
               {`
             
-          <img src="https://www.example.com/image.jpg">.
+<img src="https://www.example.com/image.jpg">.
             `}
             </code>
           </pre>
@@ -99,8 +99,8 @@ const ImagesH = () => {
           <pre>
             <code>
               {`
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/wAAg8AAVsRExPQAAAAASUVORK5CYII="
-          alt="Encoded image">.
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/wAAg8AAVsRExPQAAAAASUVORK5CYII="
+alt="Encoded image">.
             
             `}
             </code>
@@ -166,8 +166,8 @@ const ImagesH = () => {
           <pre>
             <code>
               {`
-           <img src="image.jpg" alt="Beautiful sunset"
-          width="400" height="300">
+<img src="image.jpg" alt="Beautiful sunset"
+width="400" height="300">
             
             `}
             </code>
