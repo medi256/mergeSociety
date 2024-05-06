@@ -202,8 +202,7 @@ alt="Sunset over the ocean" width="500" height="400">
         web design, enhancing the visual appeal and engagement of your website.
         Remember to use images wisely, follow best practices, and always test
         your images to ensure they display correctly on different devices and
-        browsers. In the next lesson, we'll move on to HTML tables and learn how
-        to present tabular data in a structured manner. Stay tuned, and happy
+        browsers. In the next lesson, we'll move on to HTML audio tutorial. Stay tuned, and happy
         coding!`}
       </p>
 
