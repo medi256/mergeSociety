@@ -243,9 +243,9 @@ export const Audio = () => {
       <pre>
         <code>
           {`
-        <audio src="audio.mp3" controls>
-          Your browser does not support the audio element.
-        </audio>
+<audio src="audio.mp3" controls>
+  Your browser does not support the audio element.
+</audio>
         
         `}
         </code>
@@ -269,11 +269,11 @@ export const Audio = () => {
       <pre>
         <code>
           {`
-        <audio controls>
-          <source src="audio.mp3" type="audio/mp3">
-          <source src="audio.ogg" type="audio/ogg">
-          Your browser does not support the audio element.
-        </audio>
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  <source src="audio.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
         
         `}
         </code>
@@ -341,14 +341,16 @@ export const Audio = () => {
           <code>{`<audio>`}</code>
           tag. For example,
           <br />
-          <code>
-            {`
+          <pre>
+            <code>
+              {`
 <p>
   Your browser does not support audio.
   Click here to download the audio file. 
 </p>
           `}
-          </code>
+            </code>
+          </pre>
           .
         </li>
         <li>
