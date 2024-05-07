@@ -180,128 +180,172 @@ export default Inline;
 export const Block = () => {
   return (
     <div className="comments-container">
-      <h2>Understanding Block-Level Elements in HTML:</h2>
+      <h1>Block-Level Elements in HTML</h1>
       <p>
-        Block-level elements in HTML are used to mark up structural components
-        of a webpage that typically start on a new line and occupy the full
-        width of their containing element.
+        {`Hello there! In this lesson, we'll be exploring block-level elements -
+        another important concept in HTML. Block-level elements are those that
+        occupy the entire width of the container and create line breaks before and
+        after them. Let's dive into the world of block-level elements and learn
+        how to use them effectively.`}
       </p>
 
-      <h3>Basic Syntax:</h3>
+      <h2>What Are Block-Level Elements in HTML?</h2>
       <p>
-        Block-level elements are enclosed within tags and create a new
-        block-level box.
-      </p>
-      <pre>
-        <code>&lt;tag&gt;Content&lt;/tag&gt;</code>
-      </pre>
-
-      <h3>Common Block-Level Elements:</h3>
-      <p>
-        Some common block-level elements you will work with include:
-        <ul>
-          <li>
-            <code>&lt;div&gt;</code> - Defines a division or section of the
-            document.
-          </li>
-          <li>
-            <code>&lt;p&gt;</code> - Represents a paragraph of text.
-          </li>
-          <li>
-            <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> - Headings of
-            various levels.
-          </li>
-          <li>
-            <code>&lt;ul&gt;</code> - Represents an unordered list.
-          </li>
-          <li>
-            <code>&lt;ol&gt;</code> - Represents an ordered list.
-          </li>
-          <li>
-            <code>&lt;li&gt;</code> - Represents a list item within{" "}
-            <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code>.
-          </li>
-          <li>
-            <code>&lt;table&gt;</code> - Represents a table.
-          </li>
-          <li>
-            <code>&lt;form&gt;</code> - Represents a form.
-          </li>
-          <li>
-            <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>,{" "}
-            <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code> - HTML5
-            semantic elements for structural markup.
-          </li>
-        </ul>
+        Block-level elements are HTML elements that are displayed on their own
+        line and occupy the full width of the container. They create line breaks
+        before and after them, separating the content into distinct blocks.
+        Block-level elements are typically used for larger sections of content
+        or structural purposes. Here are some commonly used block-level
+        elements:
       </p>
 
-      <h3>Identifying Block-Level Elements:</h3>
-      <p>
-        Block-level elements can be identified based on their behavior:
-        <ul>
-          <li>
-            <b>Starts on a New Line:</b> Block-level elements typically start on
-            a new line.
-          </li>
-          <li>
-            <b>Occupies Full Width:</b> They occupy the full width available
-            within their containing element by default.
-          </li>
-        </ul>
-      </p>
-
-      <h3>Example:</h3>
-      <pre>
-        <code>
-          {`
-  <div>
-    <p>This is a paragraph inside a division.</p>
-  </div>
-          `}
-        </code>
-      </pre>
-      <p>
-        In this example, the <code>&lt;div&gt;</code> element defines a division
-        or section of the document, and the <code>&lt;p&gt;</code> element
-        represents a paragraph of text within it.
-      </p>
-
-      <h3>Usage:</h3>
-      <p>
-        Block-level elements are commonly used for:
-        <ul>
-          <li>Structuring the layout of a webpage.</li>
-          <li>Grouping and organizing content into logical sections.</li>
-          <li>
-            Defining headings, paragraphs, lists, tables, forms, and other
-            structural elements.
-          </li>
-          <li>Creating responsive designs and flexible layouts using CSS.</li>
-        </ul>
-      </p>
-
-      <h3>Benefits:</h3>
       <ul>
         <li>
-          <b>Structural Organization:</b> Block-level elements provide a clear
-          and organized structure to webpages, enhancing readability and
-          maintainability.
+          <strong>
+            {" "}
+            <code>{`<div> `}</code> :
+          </strong>{" "}
+          The <code>{`<div> `}</code> element is a generic container used for
+          grouping and structuring content.{" "}
+          {` It's commonly used
+          to create sections, columns, or separate different parts of a web page.`}
         </li>
         <li>
-          <b>Layout Control:</b> They offer flexibility in designing layouts and
-          arranging content within the webpage.
+          <strong>
+            {" "}
+            <code>{`<p>`}</code> :
+          </strong>{" "}
+          The <code>{`<p>`}</code> element represents a paragraph. It is used to
+          create distinct blocks of text, such as paragraphs, quotations, or
+          standalone sentences.
         </li>
         <li>
-          <b>Accessibility:</b> Proper use of block-level elements improves
-          accessibility for users and search engines.
+          <strong>
+            <code>{`<h1>`}</code>, <code>{`<h2>`}</code>, <code>{`<h3>`}</code>,
+            etc.:
+          </strong>{" "}
+          Heading elements, denoted by <code>{`<h1>`}</code> to{" "}
+          <code>{`<h6>`}</code>, are used to create headings and subheadings of
+          different levels. They indicate the importance and hierarchy of the
+          content.
+        </li>
+        <li>
+          <strong>
+            <code>{`<ul>`}</code>, <code>{`<ol>`}</code>,<code>{` <li>`}</code>:
+          </strong>{" "}
+          List elements, such as unordered lists <code>{`(<ul>)`}</code>,
+          ordered lists <code>{`(<ol>)`}</code>, and list items{" "}
+          <code>{`(<li>)`}</code>, are used to create structured lists of items.
+        </li>
+        <li>
+          <strong>
+            {" "}
+            <code>{`<form> `}</code>:
+          </strong>{" "}
+          The <code>{`<form> `}</code> element is used to create forms, allowing
+          users to input data and submit information.
         </li>
       </ul>
 
-      <h3>Conclusion:</h3>
+      <h2>Using Block-Level Elements Effectively</h2>
       <p>
-        Understanding block-level elements is essential for structuring and
-        organizing content in HTML documents. They serve as the building blocks
-        for creating well-designed and semantically structured webpages.
+        Block-level elements are essential for creating the overall structure
+        and layout of your web page. Here are some tips for using block-level
+        elements effectively:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Use block-level elements for structural purposes:</strong>
+          Block-level elements are ideal for creating sections, columns, or
+          distinct blocks of content.
+        </li>
+        <li>
+          <strong>Nest block-level elements within each other:</strong>
+          Block-level elements can be nested within each other to create
+          hierarchical relationships and define the flow of your content.
+        </li>
+        <li>
+          <strong>
+            Use block-level elements for larger portions of content:
+          </strong>
+          Block-level elements are suitable for content that requires its own
+          line or occupies a significant portion of the page.
+        </li>
+      </ul>
+
+      <h2>Best Practices for Using Block-Level Elements</h2>
+      <ul>
+        <li>
+          <strong>Use block-level elements for structure and layout:</strong>
+          Block-level elements should be used to create the overall structure
+          and layout of your web page.
+        </li>
+        <li>
+          <strong>Use semantic block-level elements:</strong> Choose the right
+          block-level element based on the purpose and meaning of the content.
+          For example, use <code>{`<p>`}</code> for paragraphs,{" "}
+          <code>{`<h1>`}</code> to <code>{`<h6>`}</code>
+          for headings, and <code>{`<ul>`}</code> or <code>{`<ol>`}</code> for
+          lists.
+        </li>
+        <li>
+          <strong>Avoid using block-level elements for inline content:</strong>
+          Block-level elements should not be used for small pieces of text or
+          inline elements. Use inline elements like <code>{`<span>`}</code> or{" "}
+          <code>{`<a>`}</code> for those cases.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with using block-level elements,
+        nesting them, and creating structured layouts. Here's a simple exercise
+        to get you started:`}
+      </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "block-elements.html" in your
+          workspace folder.`}
+        </li>
+        <li>
+          Create a basic structure for a web page using block-level elements,
+          such as a header, main content area, and footer. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+<div>
+  <h1>Header</h1>
+  <p>Main Content</p>
+  <footer>Footer</footer>
+</div>
+    
+      `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          Try nesting block-level elements within each other to create more
+          complex structures. For instance, you can have a div for the main
+          content area, and within that, you can have paragraphs, headings, and
+          lists.
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored block-level elements in HTML, including
+        their purpose, commonly used block-level elements, how to use them
+        effectively, best practices, and more. Block-level elements play a crucial
+        role in creating structured and organized web pages. Remember to use
+        block-level elements wisely, follow best practices, and always test your
+        HTML code to ensure your block-level elements render correctly in
+        different browsers and devices. In the next lesson, we'll move on to
+        tables in HTML, allowing you to present tabular data in a structured and
+        organized manner. Stay tuned, and happy coding!`}
       </p>
 
       <div className="button-container">
