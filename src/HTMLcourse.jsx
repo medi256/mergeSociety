@@ -84,12 +84,6 @@ const HTMLcourse = () => {
           </NavLink>
         </div>
         <div>
-          <NavLink to={"div"}>
-            {" "}
-            <span>Div in HTML</span>{" "}
-          </NavLink>
-        </div>
-        <div>
           <NavLink to={"span"}>
             {" "}
             <span>Span in HTML</span>{" "}
