@@ -1,103 +1,92 @@
 const Video = () => {
   return (
     <div className="comments-container">
-      <h1>Multimedia:</h1>
+      <h1>Videos in HTML</h1>
       <p>
-        Beyond images, HTML allows you to embed multimedia elements such as
-        audio and video.
+        {`Hello there! In this lesson, we'll be exploring videos - a powerful
+        multimedia element that can bring your web pages to life. Videos can
+        engage your users, convey complex information, and enhance the visual
+        appeal of your website. Let's dive into the world of videos in HTML and
+        learn how to embed and customize videos effectively.`}
       </p>
 
-      <h2>Video</h2>
+      <h2>Embedding Videos in HTML</h2>
       <p>
-        When it comes to embedding videos in HTML, you can use the{" "}
-        <code>&lt;video&gt;</code> element. This element allows you to display
-        video content on your web pages.
+        {`In HTML, video is embedded using the <video> tag. The <video> tag is **not** a self-closing tag. This means it requires a closing tag (</video>) to properly define the audio element and its content. Here's the basic structure of embedding audio in HTML:`}
       </p>
-
-      <h2>HTML Video Attributes</h2>
-      <ul>
-        <li>
-          <b>autoplay:</b> If specified, the video will automatically start
-          playing as soon as the webpage is opened.
-        </li>
-        <li>
-          <b>controls:</b> When added, it provides the user with video controls,
-          including play, pause, volume, and more.
-        </li>
-        <li>
-          <b>loop:</b> If specified, the video will play in an endless loop,
-          repeating after reaching its end.
-        </li>
-        <li>
-          <b>muted:</b> If specified, the video will be muted, and users can
-          unmute it as needed.
-        </li>
-        <li>
-          <b>src:</b> Specifies the file path or location of the video.
-        </li>
-        <li>
-          The video, controls, loop, and muted attributes are boolean attributes
-          and do not need a value; they just need to be present at the start
-          tag.
-        </li>
-      </ul>
-
-      <h2>
-        Example of How to Embed Video with <code>&lt;video&gt;</code> Element
-      </h2>
-      <h4>HTML Code</h4>
       <pre>
         <code>
           {`
-  <video controls src="videos/sample-video.mp4">
-  </video>                    
-          `}
+<video src="video.mp4" controls>
+  Your browser does not support the video element.
+</video>
+
+        `}
         </code>
       </pre>
 
-      <h2>Output</h2>
-      <pre>
-        <video
-          controls
-          src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712412958/javascript_ebrm8u.mp4"
-          width="300px"
-        >
-          Sorry, your browser does not support the embedded video
-        </video>
-      </pre>
       <p>
-        {`It's`} important to note that the compatibility of video formats may
-        vary across different browsers. To ensure a consistent experience for
-        your users, you can provide multiple video formats using the{" "}
-        <code>&lt;source&gt;</code> element.
+        In the code above, the <code>{`<video> `}</code>{" "}
+        {`tag is used to embed a video file.
+        The "src" attribute specifies the source or URL of the video file. The
+        "controls" attribute adds playback controls to the video player, allowing
+        users to play, pause, and control the volume.`}
       </p>
 
-      <h2>
-        Using the <code>&lt;source&gt;</code> Element for Video
-      </h2>
+      <h2>Supporting Multiple Video Formats</h2>
       <p>
-        Just like with audio, you can use the <code>&lt;source&gt;</code>{" "}
-        element to specify multiple video formats to accommodate different
-        browsers. This ensures that your video content is accessible to a
-        broader audience.
+        Similar to audio, different browsers support different video formats.{" "}
+        {`It's`}a good practice to provide multiple video formats within the{" "}
+        <code>{`<video>`}</code>
+        tag using the <code>{`<source>`}</code> tag. {`Here's an example:`}
       </p>
-
-      <h2>
-        Example of Using the <code>&lt;source&gt;</code> for Video
-      </h2>
-      <h4>HTML Code</h4>
       <pre>
         <code>
           {`
-  <video controls>
-    <source src="video.mp4" type="video/mp4">
-    <source src="video.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>                
-          `}
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  Your browser does not support the video element.
+</video>
+        
+        `}
         </code>
       </pre>
-      <h2>Output</h2>
+
+      <p>
+        In the code above, we included two <code>{`<source>`}</code> tags within
+        the
+        <code>{`<video>`}</code> tag. Each <code>{`<source>`}</code>{" "}
+        {`tag specifies a different video
+        format using the "src" attribute, and the "type" attribute indicates the
+        MIME type of the video file.`}
+      </p>
+
+      <h2>Autoplay and Looping Videos</h2>
+      <p>
+        You can configure the <code>{`<video>`}</code>{" "}
+        {`tag to automatically play the video
+        when the web page loads and to loop the video continuously. Here's how
+        you can do that:`}
+      </p>
+      <pre>
+        <code>
+          {`
+        
+<video src="video.mp4" controls autoplay loop>
+  Your browser does not support the video element.
+</video>
+`}
+        </code>
+      </pre>
+
+      <p>
+        {`In the code above, we added the "autoplay" attribute to make the video
+        start playing automatically when the web page loads. We also added the
+        "loop" attribute to make the video repeat continuously until the user
+        stops it.`}
+      </p>
+      <p>You can also watch a video on how to upload from your computer</p>
       <pre>
         <video controls width="300px">
           <source
@@ -107,25 +96,124 @@ const Video = () => {
         </video>
       </pre>
 
+      <h2>Customizing Video Player Appearance</h2>
       <p>
-        By providing multiple video formats, the browser will automatically
-        select a compatible format, ensuring a consistent user experience across
-        different devices and browsers.
+        {`By default, the video player in HTML is a simple rectangular box with
+        playback controls. However, you can customize the appearance of the video
+        player using CSS styles. While we won't dive into CSS in this lesson,
+        it's important to know that you can style the video player to match your
+        website's design or create custom video players.`}
       </p>
 
-      <h2>Summary</h2>
+      <h2>Best Practices for Using Videos</h2>
+      <ul>
+        <li>
+          <strong>Provide alternative content:</strong> Not all users will have
+          video enabled or may prefer to consume content without video. Provide
+          alternative content using the <code>{`<p> `}</code> tag within the{" "}
+          <code>{`<video>`}</code>
+          tag. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+<p>
+ Your browser does not support video. Click here to download the video file.
+</p>
+              
+              `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          Similar to images, you can control the width and height of your videos
+          using the `width` and `height` attributes within the &lt;video&gt;
+          tag. This allows you to adjust the video size to fit your webpage
+          layout and provide a better viewing experience for your users, for
+          instancy,
+          <br />
+          <pre>
+            <code>
+              {`
+<video controls width="300" height="200" src="video.mp4">
+  <p>
+    Your browser does not support video.
+  </p>
+</video>
+              
+              `}
+            </code>
+          </pre>
+        </li>
+
+        <li>
+          <strong>Use autoplay sparingly:</strong> Autoplaying videos can be
+          disruptive to users, especially if they are browsing in a quiet
+          environment or on a limited data connection. Use autoplay only when it
+          makes sense in the context of your web page.
+        </li>
+        <li>
+          <strong>Optimize video file size:</strong>{" "}
+          {`Large video files can
+          significantly slow down your website's loading time. Use video
+          editing tools to compress and optimize your video files without
+          sacrificing quality.`}
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
       <p>
-        In this document, we explored multimedia in HTML, specifically focusing
-        on video elements. We learned how to use the <code>&lt;video&gt;</code>{" "}
-        tag to embed videos in web pages and discussed essential attributes like
-        {`
-        'autoplay,' 'controls,' 'loop,' 'muted,' and 'src,'`}{" "}
-        which provide control over video playback and user experience.
-        Additionally, we emphasized the importance of using the{" "}
-        <code>&lt;source&gt;</code> element to enhance compatibility across
-        different browsers.
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with embedding videos, providing
+        different video formats, and customizing their appearance. Here's a
+        simple exercise to get you started:`}
       </p>
 
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "video.html" in your workspace
+          folder.`}
+        </li>
+        <li>
+          Embed a video file using the <code>{`<video> `}</code> tag. You can
+          use a video file from your computer or a publicly available video file
+          on the web. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+            
+<video src="video.mp4" controls>
+ Your browser does not support video.
+</video>
+            `}
+            </code>
+          </pre>
+          .
+        </li>
+        <li>
+          Try providing multiple video formats using the{" "}
+          <code>{`<source>`}</code> tag. Experiment with different video files
+          and observe how the video player behaves.
+        </li>
+        <li>
+          Customize the appearance of the video player using CSS styles (if you
+          have knowledge of CSS). Otherwise, focus on understanding the basic
+          structure of the <code>{`<video>`}</code> tag.
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored videos in HTML, including how to embed
+        videos, provide multiple video formats, autoplay and loop videos, and
+        more. Videos can enhance the user experience on your website, adding a
+        dynamic and engaging element. Remember to use videos wisely, follow best
+        practices, and always test your videos to ensure they play correctly on
+        different devices and browsers. In the next lesson, we'll move on to
+        creating forms in HTML, allowing users to input data and interact with
+        your website. Stay tuned, and happy coding!`}
+      </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "audio")}>back</button>
         <button onClick={() => (window.location.href = "formsH")}>Next</button>
