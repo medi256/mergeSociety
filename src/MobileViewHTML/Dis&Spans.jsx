@@ -193,76 +193,155 @@ export default Div;
 export const Spans = () => {
   return (
     <div className="comments-container">
-      <h2>Mastering Span Elements in HTML:</h2>
+      <h1>Spans in HTML</h1>
       <p>
-        In HTML, the <code>&lt;span&gt;</code> element is an inline container
-        used to apply styles or manipulate specific portions of text within a
-        larger block of content.
+        Hello there! In this lesson, {` we'll `} be exploring spans - another
+        important tool in your HTML toolbox. Spans, represented by the{" "}
+        <code>{` <span> `}</code> tag, are inline elements that are used to
+        group and style small portions of text or other inline elements. Spans
+        allow you to apply styles or add functionality to specific parts of your
+        content.{" "}
+        {` Let's dive into the world
+        of spans in HTML and learn how to use them effectively.`}
       </p>
 
-      <h3>Basic Syntax:</h3>
+      <h2>What Are Spans in HTML?</h2>
       <p>
-        To create a span, you use the <code>&lt;span&gt;</code> opening tag and
-        a corresponding closing tag <code>&lt;/span&gt;</code>. Anything placed
-        between these tags will be affected by the styles or properties applied
-        to the span.
+        Spans, denoted by the <code>{`<span>`}</code>{" "}
+        {`tag, are inline elements that are used
+        to group and style text or other inline elements. Unlike divs, which are
+        block-level elements, spans are inline and do not create line breaks
+        before or after them. Spans are commonly used to apply styles or
+        functionality to specific words, phrases, or small portions of text.
+        Here's the basic structure of a span in HTML:`}
       </p>
       <pre>
         <code>
           {`
-<span>
-<!-- Text goes here -->
-</span>
-          `}
+<span>Highlighted text</span>
+        `}
         </code>
       </pre>
 
-      <h3>Example:</h3>
+      <p>
+        In the code above, the <code>{`<span>`}</code> tag defines the beginning
+        and end of the span. You can place text or other inline elements within
+        the span to apply styles or functionality to them.
+      </p>
+
+      <h2>Using Spans for Styling</h2>
+      <p>
+        {`One of the primary uses of spans is to apply styles to specific parts of
+        your text. By using CSS (Cascading Style Sheets), you can target spans and
+        style the text within them. Here's an example:`}
+      </p>
       <pre>
         <code>
-          &lt;p&gt;This is a <span style={{ color: "blue" }}>blue</span> text.
-          &lt;/p&gt;
+          {`
+<span class="highlight">Highlighted text</span>
+        
+        `}
         </code>
       </pre>
+
       <p>
-        In this example, the word {`"blue"`} is enclosed within a span element,
-        and the color blue is applied to it using inline CSS. This allows for
-        targeted styling of specific text within the paragraph.
+        In the code above, we added a class attribute to the{" "}
+        <code>{`<span>`}</code> tag. You can then use CSS to style the text
+        within the span, such as changing the color, font weight, or adding
+        background colors.
       </p>
 
-      <h3>Usage:</h3>
-      <ul>
-        <li>
-          Applying inline styles or formatting to specific portions of text.
-        </li>
-        <li>Manipulating text content dynamically with JavaScript.</li>
-        <li>Adding semantic meaning to inline elements.</li>
-      </ul>
-
-      <h3>Benefits:</h3>
-      <ul>
-        <li>
-          <b>Granular Styling:</b> Spans provide a way to apply styles to
-          individual words or phrases within larger blocks of text.
-        </li>
-        <li>
-          <b>Dynamic Content:</b> They enable dynamic manipulation of text
-          content using JavaScript, allowing for interactive user experiences.
-        </li>
-        <li>
-          <b>Semantic Meaning:</b> Spans can be used to add semantic meaning to
-          inline elements, improving accessibility and SEO.
-        </li>
-      </ul>
-
-      <h3>Conclusion:</h3>
+      <h2>Using Spans for Functionality</h2>
       <p>
-        Understanding span elements is crucial for fine-tuning the appearance
-        and behavior of text content on webpages. They offer a powerful way to
-        apply styles, manipulate content, and enhance the semantic structure of
-        HTML documents.
+        {`Spans can also be used to add functionality to specific parts of your
+        content. For example, you can use JavaScript to interact with spans,
+        trigger events, or apply dynamic behavior. Here's an example:`}
+      </p>
+      <pre>
+        <code>
+          {`
+        <span class="tooltip" data-tooltip="This is a tooltip">over me!</span>   
+        
+        `}
+        </code>
+      </pre>
+
+      <p>
+        In the code above, we added a class attribute and a {` "data-tooltip" `}
+        attribute to the <code>{`<span>`}</code> tag. You can then use
+        JavaScript to detect when the user hovers over the span and display a
+        tooltip or perform other actions.
       </p>
 
+      <h2>Best Practices for Using Spans</h2>
+      <ul>
+        <li>
+          <strong>Use spans for styling text:</strong> Spans are ideal for
+          applying styles to specific words, phrases, or small portions of text.
+          Use CSS to style the text within spans, such as changing the color,
+          font, or adding background effects.
+        </li>
+        <li>
+          <strong>Use spans for adding functionality:</strong> Spans can be used
+          to add dynamic behavior or interactivity to specific parts of your
+          content. Use JavaScript to target spans and trigger events or
+          functionality.
+        </li>
+        <li>
+          <strong>Keep spans semantic:</strong> Use spans to group and style
+          text or inline elements that belong together. Avoid using spans just
+          for styling purposes without any semantic meaning.
+        </li>
+        <li>
+          <strong>Avoid using spans for block-level elements:</strong> Spans are
+          inline elements, so they should not be used to group block-level
+          elements or create line breaks. Use divs for block-level grouping
+          instead.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with creating spans, applying styles,
+        and adding functionality. Here's a simple exercise to get you started:`}
+      </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "spans.html" in your workspace
+          folder.`}
+        </li>
+        <li>
+          Create a paragraph with some text and apply styles to specific words
+          using spans. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+<p>This is a <span class="highlight">highlighted</span> sentence.</p>
+
+              `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          Try adding functionality to spans using JavaScript. For instance, you
+          can use JavaScript to detect when a user clicks on a span and trigger
+          an event, such as displaying a popup or toggling a menu.
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored spans in HTML, including their purpose, how
+        they are used for styling and functionality, best practices, and more.
+        Spans are versatile tools that allow you to target and manipulate specific
+        parts of your content. Remember to use spans wisely, follow best
+        practices, and always test your HTML and JavaScript code to ensure your
+        spans work correctly in different browsers and devices. In the next
+        lesson, we'll move on to inline elements in HTML. Stay tuned, and happy coding!`}
+      </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/divMobile")}>
           back
