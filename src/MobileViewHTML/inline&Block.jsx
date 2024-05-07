@@ -1,130 +1,166 @@
 const Inline = () => {
   return (
     <div className="comments-container">
-      <h2>Exploring Inline Elements in HTML:</h2>
+      <h1>Inline Elements in HTML</h1>
       <p>
-        {`
-        Inline elements in HTML are used to mark up parts of the document's
-        content that do not break the flow of the text. Unlike block-level
-        elements, inline elements do not start on a new line and only occupy the
-        space bounded by the content and other elements around them.`}
+        {`Hello there! In this lesson, we'll be exploring inline elements - an
+        important concept in HTML. Inline elements are those that are displayed
+        inline with the surrounding text, without creating line breaks or
+        affecting the layout structure. Let's dive into the world of inline
+        elements in HTML and learn how to use them effectively.`}
       </p>
 
-      <h3>Basic Syntax:</h3>
+      <h2>What Are Inline Elements in HTML?</h2>
       <p>
-        Inline elements are enclosed within tags just like block-level elements,
-        but they do not create a new block-level box.
-      </p>
-      <pre>
-        <code>&lt;tag&gt;Content&lt;/tag&gt;</code>
-      </pre>
-
-      <h3>Common Inline Elements:</h3>
-      <p>
-        Some common inline elements you will work with include:
-        <ul>
-          <li>
-            <code>&lt;em&gt;</code> - Emphasizes text.
-          </li>
-          <li>
-            <code>&lt;a&gt;</code> - Creates hyperlinks.
-          </li>
-          <li>
-            <code>&lt;img&gt;</code> - Inserts images.
-          </li>
-          <li>
-            <code>&lt;abbr&gt;</code> - Defines abbreviations.
-          </li>
-          <li>
-            <code>&lt;code&gt;</code> - Marks up code snippets.
-          </li>
-          <li>
-            <code>&lt;ins&gt;</code> and <code>&lt;del&gt;</code> - Indicate
-            inserted and deleted text, respectively.
-          </li>
-        </ul>
+        Inline elements are HTML elements that are displayed inline with the
+        text flow. They do not create line breaks or occupy the entire width of
+        the container. Inline elements are typically used for small pieces of
+        text or elements that should be displayed within a line of text, such as
+        words, phrases, or short snippets of content. Here are some commonly
+        used inline elements:
       </p>
 
-      <h3>Identifying Inline Elements:</h3>
-      <p>
-        To identify an inline element, you can consider its behavior:
-        <ul>
-          <li>
-            <b>No Line Break:</b> Inline elements do not start on a new line;
-            they flow within the text.
-          </li>
-          <li>
-            <b>Occupies Inline Space:</b> Inline elements only occupy the space
-            bounded by the content and other elements around them.
-          </li>
-        </ul>
-      </p>
-
-      <h3>Example:</h3>
-      <pre>
-        <code>
-          {`
-<p>
-  This is <em>emphasized</em> text within a paragraph.
-</p>
-          `}
-        </code>
-      </pre>
-      <p>
-        In this example, the <code>&lt;em&gt;</code> element is used to
-        emphasize text within a paragraph without causing a line break.
-      </p>
-
-      <h3>Usage:</h3>
-      <p>
-        Inline elements are commonly used for:
-        <ul>
-          <li>Styling text with emphasis, italicization, or boldness.</li>
-          <li>
-            Inserting hyperlinks with the <code>&lt;a&gt;</code> element.
-          </li>
-          <li>
-            Adding images with the <code>&lt;img&gt;</code> element.
-          </li>
-          <li>
-            Defining abbreviations and acronyms with the{" "}
-            <code>&lt;abbr&gt;</code> and <code>&lt;acronym&gt;</code> elements,
-            respectively.
-          </li>
-          <li>
-            Marking up code snippets with the <code>&lt;code&gt;</code> element.
-          </li>
-          <li>
-            Indicating inserted and deleted text with the{" "}
-            <code>&lt;ins&gt;</code> and <code>&lt;del&gt;</code> elements,
-            respectively.
-          </li>
-        </ul>
-      </p>
-
-      <h3>Benefits:</h3>
       <ul>
         <li>
-          <b>Inline Styling:</b> Inline elements provide a way to apply styles
-          to specific portions of text within a paragraph or other
-          text-containing elements.
+          <strong>
+            {" "}
+            <code>{`<span> `}</code> :
+          </strong>{" "}
+          The <code>{`<span> `}</code> element is used to group and style small
+          portions of text or other inline elements.{" "}
+          {` It's
+          commonly used for applying styles or functionality to specific parts of
+          text.`}
         </li>
         <li>
-          <b>Accessibility:</b> They enable the semantic markup of text content,
-          improving accessibility for users and search engines.
+          <strong>
+            {" "}
+            <code>{`<a>`}</code> :
+          </strong>{" "}
+          The <code>{`<a>`}</code> element, also known as an anchor tag, is used
+          to create hyperlinks. It allows users to click and navigate to another
+          web page or a specific location within the same page.
         </li>
         <li>
-          <b>Flexible Layout:</b> Inline elements can be combined with
-          block-level elements to create complex layouts and designs.
+          <strong>
+            {" "}
+            <code>{`<strong>`}</code> :
+          </strong>{" "}
+          The <code>{`<strong>`}</code> element is used to indicate strong
+          emphasis or importance. It typically renders the enclosed text in
+          bold.
+        </li>
+        <li>
+          <strong>
+            {" "}
+            <code>{`<em>`}</code> :
+          </strong>{" "}
+          The <code>{`<em>`}</code> element is used to indicate emphasis or
+          stress. It typically renders the enclosed text in italics.
+        </li>
+        <li>
+          <strong>
+            {" "}
+            <code>{`<img> `}</code> :
+          </strong>{" "}
+          The <code>{`<img> `}</code> element is used to embed images within the
+          text flow. It allows you to include images inline with the surrounding
+          text.
         </li>
       </ul>
 
-      <h3>Conclusion:</h3>
+      <h2>Using Inline Elements Effectively</h2>
       <p>
-        Understanding inline elements is essential for effectively marking up
-        text content in HTML documents. They offer a versatile way to add
-        emphasis, links, images, and other inline content to webpages while
-        maintaining the flow of the text.
+        Inline elements are particularly useful when you want to style or add
+        functionality to specific parts of your text without affecting the
+        overall layout. Here are some tips for using inline elements
+        effectively:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Use inline elements for small portions of text:</strong>{" "}
+          Inline elements are best suited for styling or adding functionality to
+          words, phrases, or short snippets of text.
+        </li>
+        <li>
+          <strong>Nest inline elements within block-level elements:</strong>
+          Inline elements can be nested within block-level elements, such as
+          paragraphs or divs, to create more complex structures.
+        </li>
+        <li>
+          <strong>Use inline elements for interactive functionality:</strong>
+          Inline elements like <code>{`<a>`}</code> or <code>{`<button>`}</code>{" "}
+          can be used to create clickable elements that trigger actions or
+          navigate to different locations.
+        </li>
+      </ul>
+
+      <h2>Best Practices for Using Inline Elements</h2>
+      <ul>
+        <li>
+          <strong>Use inline elements sparingly:</strong> Inline elements should
+          be used only when necessary. Avoid using them for large portions of
+          text or for structural purposes.
+        </li>
+        <li>
+          <strong>Keep inline elements semantic:</strong> Use inline elements to
+          enhance the meaning or functionality of the surrounding text, not just
+          for styling purposes.
+        </li>
+        <li>
+          <strong>Avoid using inline elements for block-level content:</strong>
+          Inline elements should not be used for content that requires a line
+          break or occupies the entire width of the container. Use block-level
+          elements like <code>{`<div> `}</code> or <code>{`<p>`}</code> for
+          those cases.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with using inline elements, nesting
+        them within block-level elements, and applying styles or functionality.
+        Here's a simple exercise to get you started:`}
+      </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "inline-elements.html" in your
+          workspace folder.`}
+        </li>
+        <li>
+          Create a paragraph with some text and apply styles to specific words
+          using inline elements. For example,
+          <br />
+          <pre>
+            <code>
+              {`
+<p>This is a <strong>strong</strong> and <em>emphasized</em> sentence with a <a href="https://www.example.com">link</a>.</p>
+
+          `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          Try nesting inline elements within block-level elements, such as
+          paragraphs or divs. For instance, you can have a paragraph with inline
+          elements for emphasis or links.
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored inline elements in HTML, including their
+        purpose, how they are used, best practices, and more. Inline elements are
+        an important tool for creating interactive and dynamic web pages. Remember
+        to use inline elements wisely, follow best practices, and always test
+        your HTML code to ensure your inline elements render correctly in
+        different browsers and devices. In the next lesson, we'll move on to
+        block-level elements in HTML, which will cover elements that create line
+        breaks and occupy the entire width of the container. Stay tuned, and happy
+        coding!`}
       </p>
 
       <div className="button-container">
