@@ -655,8 +655,7 @@ export const FormsH = () => {
         interactive websites, allowing users to input data and interact with
         your website. Remember to use forms wisely, follow best practices, and
         always test your forms to ensure a smooth user experience. In the next
-        lesson, we'll move on to creating tables in HTML, allowing you to
-        present data in a structured and organized manner. Stay tuned, and happy
+        lesson, we'll move on to creating Div in HTML. Stay tuned, and happy
         coding!`}
       </p>
 
