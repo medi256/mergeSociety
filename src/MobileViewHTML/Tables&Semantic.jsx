@@ -233,8 +233,7 @@ const Tables = () => {
         structured data in a clear and organized manner. Remember to use tables
         wisely, follow best practices, and always test your HTML code to ensure your
         tables render correctly in different browsers and devices. In the next
-        lesson, we'll move on to creating forms in HTML, allowing users to input
-        data and interact with your website. Stay tuned, and happy coding!`}
+        lesson, we'll move on to semantic HTML. Stay tuned, and happy coding!`}
       </p>
 
       <div className="button-container">
