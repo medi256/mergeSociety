@@ -49,7 +49,7 @@ const Head = () => {
           <pre>
             <code>
               {`
-            <title>My Website - Home Page</title>
+<title>My Website - Home Page</title>
             
             `}
             </code>
@@ -65,7 +65,7 @@ const Head = () => {
           <pre>
             <code>
               {`
-            <meta charset="UTF-8">
+<meta charset="UTF-8">
             
             `}
             </code>
@@ -84,7 +84,7 @@ const Head = () => {
           <pre>
             <code>
               {`
-            <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
             
             `}
             </code>
@@ -102,9 +102,9 @@ const Head = () => {
           <pre>
             <code>
               {`
-            <script>
-            alert("Hello, world!");
-            </script>
+<script>
+alert("Hello, world!");
+</script>
             
             
             `}
@@ -130,7 +130,7 @@ const Head = () => {
           <pre>
             <code>
               {`
-            <base href="https://www.example.com">
+<base href="https://www.example.com">
             
             `}
             </code>
