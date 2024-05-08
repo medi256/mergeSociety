@@ -272,18 +272,19 @@ export const Quotation = () => {
     <div className="comments-container">
       <h2>Quotations in HTML</h2>
       <p>
-        Quotations can add depth and insight to your HTML content, providing
-        additional context or emphasizing key points. HTML offers two types of
-        quotations: <code>&lt;q&gt;</code> for inline quotations and{" "}
-        <code>&lt;blockquote&gt;</code> for longer, block-level quotations.
+        Quotations can enhance your HTML content by providing additional context
+        or emphasizing key points. HTML offers two types of quotations:{" "}
+        <code> {`<q>`} </code> for inline quotations and{" "}
+        <code>{`<blockquote>`}</code> for longer, block-level quotations.
       </p>
+
       <h3>
-        The HTML <code>&lt;q&gt;</code> Element
+        The HTML <code>{`<q>`}</code> Element
       </h3>
       <p>
-        The <code>&lt;q&gt;</code> element is used for inline quotations within
-        a paragraph or block of text. It indicates that the enclosed text is a
-        short inline quotation.
+        The <code>{`<q>`}</code> element is used for inline quotations within a
+        paragraph or block of text. It indicates a short quotation and
+        automatically adds quotation marks around the enclosed text.
       </p>
       <blockquote>
         <p>
@@ -292,56 +293,61 @@ export const Quotation = () => {
           of text directly within your content, maintaining readability and
           flow."`}
         </p>
+        <p>
+          <strong>Best Practice:</strong> Use the <code> {`<q>`} </code> element
+          for brief quotations that fit naturally within your content. It helps
+          to emphasize the quoted text without interrupting the flow of your
+          paragraph.
+        </p>
       </blockquote>
-      <p>
-        The <code>&lt;q&gt;</code> element automatically adds quotation marks
-        around the text, making it visually distinct from the surrounding
-        content.
-      </p>
+
       <h5>
-        Example of <code>&lt;q&gt;</code> Element:
+        Example of <code> {`<q>`} </code> Element:
       </h5>
       <p>To include an inline quotation in your HTML:</p>
       <pre>
         <code>
           {`
-  <p>
-    The author said
-    <q>A journey of a thousand miles begins with a single step</q> 
-    which is a famous proverb.
-  </p>
+<p>
+  The author said
+  <q>A journey of a thousand miles begins with a single step</q> 
+  which is a famous proverb.
+</p>
             `}
         </code>
       </pre>
+
       <h5>Output:</h5>
       <p>
         The author said{" "}
         <q>A journey of a thousand miles begins with a single step</q> which is
         a famous proverb.
       </p>
+
       <h3>
-        The HTML <code>&lt;blockquote&gt;</code> Element
+        The HTML <code> {`<blockquote>`} </code> Element
       </h3>
       <p>
-        The <code>&lt;blockquote&gt;</code> element is used for longer,
-        block-level quotations that span multiple lines. It signifies that the
-        enclosed text is a substantial quotation separate from the main text.
+        The <code> {`<blockquote>`} </code> element is used for longer,
+        block-level quotations that span multiple lines. It visually sets the
+        quoted text apart from the main content.
       </p>
       <blockquote>
         <p>
           {`
-          "Block quotations offer a visually distinct way to showcase longer
-          passages of text, such as excerpts from literature, speeches, or
-          articles."`}
+          "Block quotations offer a distinct way to present longer passages of
+          text, such as excerpts from literature, speeches, or articles."`}
+        </p>
+        <p>
+          <strong>Best Practice:</strong> Use the{" "}
+          <code> {`<blockquote>`} </code> element for longer quotations that
+          deserve special emphasis. It helps to create a visual break and
+          highlight the quoted passage.
         </p>
       </blockquote>
-      <p>
-        The <code>&lt;blockquote&gt;</code> element typically renders with an
-        indentation or different styling to set it apart from the surrounding
-        content.
-      </p>
+
       <h5>
-        Example of <code>&lt;blockquote&gt;</code> Element:
+        Example of <code> {`<blockquote>`} </code> Element:
       </h5>
       <p>To include a block-level quotation in your HTML:</p>
       <pre>
@@ -364,6 +370,7 @@ export const Quotation = () => {
           `}
         </code>
       </pre>
+
       <h4>Output:</h4>
       <blockquote>
         <p>
