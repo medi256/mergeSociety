@@ -1,162 +1,238 @@
 const Tables = () => {
   return (
     <div className="comments-container">
-      <h1>Understanding HTML Tables</h1>
+      <h1>Tables in HTML</h1>
       <p>
-        HTML tables are essential for organizing tabular data effectively on web
-        pages. They allow you to present various types of information, such as
-        school schedules, swimming pool timetables, or statistical data, in a
-        structured format. This module will guide you through the process of
-        creating and understanding HTML tables.
+        {`Hello there! In this lesson, we'll be exploring tables - a powerful tool
+        for presenting structured data in a tabular format. Tables allow you to
+        organize and display data in rows and columns, making it easier for users
+        to understand and compare information. Let's dive into the world of tables
+        in HTML and learn how to create and customize tables effectively.`}
       </p>
-      <h2>What is a Table in HTML?</h2>
+
+      <h2>Creating a Basic Table in HTML</h2>
       <p>
-        An HTML table is a structured collection of rows and columns used to
-        display tabular data. It enables easy retrieval of information related
-        to different data entities, such as people and their attributes, weekly
-        schedules, or business contacts.
+        In HTML, tables are created using the <code>{`<table>`}</code> tag. The{" "}
+        <code>{`<table>`}</code>
+        tag acts as a container for the table elements, such as table headers,
+        rows, and cells. {`Here's the basic structure of a table in HTML:`}
       </p>
-      <p>
-        Simply put, a table is a way to organize data in a grid-like format.
-      </p>
-      <h2>Visual Examples</h2>
-      <p>
-        Take a look at these images below to understand how HTML tables can be
-        used:
-      </p>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712399517/numTable_y6g52h.png"
-        alt="Example of a numbers table"
-        width="500px"
-      />
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712399616/swimTable_ygwnee.png"
-        alt="Example of a timetable"
-        width="400px"
-      />
-      <h2>Creating an HTML Table</h2>
-      <p>An HTML table consists of cells organized into rows and columns.</p>
-      <h2>Example</h2>
-      <h4>HTML Code:</h4>
       <pre>
         <code>
           {`
-            <table>
-              <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-              </tr>
-              <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-              <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-              </tr>
-            </table>
-          `}
-        </code>
-      </pre>
-      <h2>Output</h2>
-      <table>
+<table>
+  <thead>
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+            <th>Header 1</th>
+            <th>Header 2</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+            <td>Content 1</td>
+            <td>Content 2</td>
         </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-      </table>
-      <br />
-      <h2>Understanding Table Structure</h2>
-      <p>
-        Each cell in a table is defined using the <code>&lt;td&gt;</code> tag.
-        The content between <code>&lt;td&gt;</code> and <code>&lt;/td&gt;</code>{" "}
-        represents the data within the cell.
-      </p>
-      <p>
-        Similarly, each row begins with a <code>&lt;tr&gt;</code> tag and ends
-        with a <code>&lt;/tr&gt;</code> tag.
-      </p>
-      <h2>Table Headers</h2>
-      <p>
-        Table header cells are defined using the <code>&lt;th&gt;</code> tag
-        instead of <code>&lt;td&gt;</code>. They are typically used to represent
-        headings for columns or rows.
-      </p>
-      <h2>Example</h2>
-      <pre>
-        <code>
-          {`
-  <table>
-    <tr>
-      <th>Person 1</th>
-      <th>Person 2</th>
-      <th>Person 3</th>
-    </tr>
-  </table>
-          `}
-        </code>
-      </pre>
-      <h2>Output</h2>
-      <table>
-        <tr>
-          <th>Person 1</th>
-          <th>Person 2</th>
-          <th>Person 3</th>
-        </tr>
-      </table>
-      <h2>Adding Borders to Tables</h2>
-      <p>
-        By default, HTML tables do not have borders. However, you can add
-        borders using the <code>border</code> attribute within the{" "}
-        <code>&lt;table&gt;</code> tag.
-      </p>
-      <h2>Example</h2>
-      <h4>HTML Code:</h4>
-      <pre>
-        <code>
-          {`
-<table border="1">
-  <tr>
-    <td>Cell 1</td>
-    <td>Cell 2</td>
-  </tr>
-  <tr>
-    <td>Cell 3</td>
-    <td>Cell 4</td>
-  </tr>
+    </tbody>
 </table>
+
+    `}
+        </code>
+      </pre>
+      <p>
+        In the code above, the <code>{`<table>`}</code> tag defines the table.
+        Within the table, we have <code>{`<thead>`}</code> for the table
+        headers, <code>{`<tbody>`}</code> for the table body,{" "}
+        <code>{`<tr>`}</code> for table rows, <code>{`<th>`}</code> for table
+        headers, and
+        <code>{`<td>`}</code> for table cells.
+      </p>
+
+      <h2>Table Headers, Rows, and Cells</h2>
+      <p>
+        Table headers <code>{`(<th>)`}</code> are used to define the column
+        headers of the table. They are typically bold or highlighted to indicate
+        their importance. Table rows <code>{`(<tr>)`}</code> contain the
+        individual rows of data, and table cells
+        <code>{`(<td>)`}</code> contain the actual data or content within each
+        cell.{" "}
+        {`Here's
+        an example:`}
+      </p>
+      <pre>
+        <code>
+          {`
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+</table>
+      
           `}
         </code>
       </pre>
-      <h2>Output</h2>
-      <table border="1">
-        <tr>
-          <td>Cell 1</td>
-          <td>Cell 2</td>
-        </tr>
-        <tr>
-          <td>Cell 3</td>
-          <td>Cell 4</td>
-        </tr>
-      </table>
+
       <p>
-        In this example, the <code>border={`"1"`}</code> attribute adds a border
-        with a thickness of 1 pixel. You can adjust the numerical value to
-        change the border thickness as needed.
+        In the code above, we have a table with two columns:{" "}
+        {` "Name" and "Age." `}
+        Each row <code>{`(<tr>)`}</code> contains the data for a {` person's `}{" "}
+        name and age.
+      </p>
+
+      <h2>Customizing Table Appearance</h2>
+      <p>
+        {` While we won't dive into CSS styles in this lesson, it's important to know
+        that you can customize the appearance of tables using CSS (Cascading Style
+        Sheets). `}{" "}
+        By targeting the different elements within a table, such as
+        <code>{`<table>`}</code>, <code>{`<thead>`}</code> ,{" "}
+        <code>{`<tbody>`}</code> ,<code>{` <tr>`}</code>, <code>{`<th>`}</code>,
+        and
+        <code>{`<td>`}</code>, you can apply styles such as borders, background
+        colors, padding, and more.
+      </p>
+
+      <h2>Table Attributes</h2>
+      <p>
+        There are several attributes that you can use with the{" "}
+        <code>{`<table>`}</code> tag to customize its appearance and behavior:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Border:</strong>{" "}
+          {`The "border" attribute allows you to add a
+          border around the table.`}{" "}
+          For example,
+          <br />
+          <code>{` <table border="1">`}</code>.
+        </li>
+        <li>
+          <strong>Cellpadding:</strong>{" "}
+          {` The "cellpadding" attribute specifies the
+          amount of space between the cell content and its border. `}{" "}
+          For example,
+          <br />
+          <code>{`<table cellpadding="5">`}</code>.
+        </li>
+        <li>
+          <strong>Cellspacing:</strong>{" "}
+          {` The "cellspacing" attribute specifies the
+          amount of space between cells. `}{" "}
+          For example, <code>{`<table cellspacing="10">`}</code>.
+        </li>
+        <li>
+          <strong>Width and Height:</strong>{" "}
+          {` You can use the "width" and "height"
+          attributes to specify the dimensions of the table. `}{" "}
+          For example,
+          <br />
+          <code>{`<table width="300" height="200">`}</code>.
+        </li>
+      </ul>
+
+      <h2>Best Practices for Using Tables</h2>
+      <ul>
+        <li>
+          <strong>Use tables for structured data:</strong> Tables are ideal for
+          presenting data that can be logically organized into rows and columns,
+          such as lists, statistics, or product information.
+        </li>
+        <li>
+          <strong>
+            Use <code>{`<thead>`}</code> and <code>{`<tbody>`}</code>:
+          </strong>{" "}
+          Use <code>{`<thead>`}</code>
+          for table headers and <code>{`<tbody>`}</code> for the table body.
+          This helps screen readers and search engines understand the structure
+          of your table.
+        </li>
+        <li>
+          <strong>
+            Use <code>{`<th>`}</code> for headers and <code>{`<td>`}</code> for
+            cells:
+          </strong>
+          Use <code>{`<th>`}</code> tags for column headers and{" "}
+          <code>{`<td>`}</code> tags for table cells. This ensures proper
+          rendering and accessibility.
+        </li>
+        <li>
+          <strong>Keep tables semantic:</strong> Use tables only for presenting
+          structured data. Avoid using tables for layout purposes. Use CSS and
+          other layout techniques for creating complex layouts.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with creating tables, adding headers,
+        rows, and cells, and customizing their appearance using attributes.
+        Here's a simple exercise to get you started:`}
+      </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "tables.html" in your workspace
+          folder.`}
+        </li>
+        <li>
+          Create a basic table with headers and rows. For example,
+          <pre>
+            <code>
+              {`
+<table>
+     <thead>
+         <tr>
+             <th>Name</th>
+             <th>Age</th>
+         </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td>John</td>
+             <td>25</td>
+         </tr>
+         <tr>
+             <td>Alice</td>
+             <td>30</td>
+         </tr>
+     </tbody>
+</table>
+          
+              `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          {`Try customizing the appearance of your tables using attributes like
+          "border," "cellpadding," or "cellspacing." For instance, you can add a
+          border around the table or adjust the spacing between cells.`}
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored tables in HTML, including how to create
+        tables, add headers, rows, and cells, customize their appearance using
+        attributes, and best practices. Tables are a versatile tool for presenting
+        structured data in a clear and organized manner. Remember to use tables
+        wisely, follow best practices, and always test your HTML code to ensure your
+        tables render correctly in different browsers and devices. In the next
+        lesson, we'll move on to creating forms in HTML, allowing users to input
+        data and interact with your website. Stay tuned, and happy coding!`}
       </p>
 
       <div className="button-container">
