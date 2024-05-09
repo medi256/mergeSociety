@@ -12,8 +12,8 @@ import Inline, { Block } from "./MobileViewHTML/inline&Block";
 import Tables, { Semantic } from "./MobileViewHTML/Tables&Semantic";
 import Head, { Quotation } from "./MobileViewHTML/Head&Quataion";
 import Entity, { Pre } from "./MobileViewHTML/Entity&Pre";
-import CommentsH, { Sub } from "./MobileViewHTML/Comments&Sub";
-import Sup, { Iframe } from "./MobileViewHTML/Sup&Iframe";
+import CommentsH, { HTMLStructure } from "./MobileViewHTML/Comments&Sub";
+import CreatingButtonsMobile, { Iframe } from "./MobileViewHTML/Sup&Iframe";
 import Favicon, { DropDown } from "./MobileViewHTML/Favicon&DropDown";
 import ScrollToTop from "./ScrollToTop";
 
@@ -45,8 +45,11 @@ const MobileViewRoutes = () => {
         <Route path="entitiesMobile" element={<Entity />} />
         <Route path="preMobile" element={<Pre />} />
         <Route path="commentsHMobile" element={<CommentsH />} />
-        <Route path="subMobile" element={<Sub />} />
-        <Route path="supMobile" element={<Sup />} />
+        <Route path="HTMLStructureMobile" element={<HTMLStructure />} />
+        <Route
+          path="CreatingButtonsMobile"
+          element={<CreatingButtonsMobile />}
+        />
         <Route path="iframeMobile" element={<Iframe />} />
         <Route path="faviconMobile" element={<Favicon />} />
         <Route path="dropdownMobile" element={<DropDown />} />

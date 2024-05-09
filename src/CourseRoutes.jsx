@@ -10,8 +10,8 @@ import Inline, { Block } from "./html/inline&Block";
 import Tables, { Semantic } from "./html/Tables&Semantic";
 import Head, { Quotation } from "./html/Head&Quataion";
 import Entity, { Pre } from "./html/Entity&Pre";
-import CommentsH, { Sub } from "./html/Comments&Sub";
-import Sup, { Iframe } from "./html/Sup&Iframe";
+import CommentsH, { HTMLStructure } from "./html/Comments&Sub";
+import CreatingButtons, { Iframe } from "./html/Sup&Iframe";
 import Favicon, { DropDown } from "./html/Favicon&DropDown";
 import HTMLcourse from "./HTMLcourse";
 import CSScourse from "./CSScourse";
@@ -74,8 +74,9 @@ const CourseRoutes = () => {
           <Route path="entities" element={<Entity />} />
           <Route path="pre" element={<Pre />} />
           <Route path="commentsH" element={<CommentsH />} />
-          <Route path="sub" element={<Sub />} />
-          <Route path="sup" element={<Sup />} />
+          <Route path="HTMLStructure" element={<HTMLStructure />} />
+          <Route path="CreateButtons" element={<CreatingButtons />} />
+
           <Route path="iframe" element={<Iframe />} />
           <Route path="favicon" element={<Favicon />} />
           <Route path="dropdown" element={<DropDown />} />

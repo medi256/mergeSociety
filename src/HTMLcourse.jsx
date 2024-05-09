@@ -151,15 +151,15 @@ const HTMLcourse = () => {
           </NavLink>
         </div>
         <div>
-          <NavLink to={"sub"}>
+          <NavLink to={"HTMLStructure"}>
             {" "}
-            <span> HTML Sub Element</span>{" "}
+            <span> HTML Structure</span>{" "}
           </NavLink>
         </div>
         <div>
-          <NavLink to={"sup"}>
+          <NavLink to={"CreateButtons"}>
             {" "}
-            <span>HTML Sup Element</span>{" "}
+            <span>Creating buttons</span>{" "}
           </NavLink>
         </div>
         <div>
@@ -210,8 +210,11 @@ const HTMLcourse = () => {
         <p onClick={() => navigate("/entitiesMobile")}>HTML Entities </p>
         <p onClick={() => navigate("/preMobile")}>HTML Pre Element </p>
         <p onClick={() => navigate("/commentsHMobile")}> HTML Comments</p>
-        <p onClick={() => navigate("/subMobile")}> HTML Sub Element</p>
-        <p onClick={() => navigate("/supMobile")}> HTML Sup Element</p>
+        <p onClick={() => navigate("/HTMLStructureMobile")}> HTML Structure </p>
+        <p onClick={() => navigate("/CreatingButtonsMobile")}>
+          {" "}
+          Creating buttons
+        </p>
         <p onClick={() => navigate("/iframeMobile")}>
           HTML Iframe: Embedding YouTube Video{" "}
         </p>
