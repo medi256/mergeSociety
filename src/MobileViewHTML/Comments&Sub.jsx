@@ -1,47 +1,186 @@
 const CommentsH = () => {
   return (
     <div className="comments-container">
-      <h2>HTML Comments</h2>
+      <h1>Comments in HTML</h1>
       <p>
-        HTML comments provide a way to add notes or annotations within your HTML
-        code that are ignored by the browser when rendering the page. They are
-        useful for documenting your code, adding reminders, or temporarily
-        disabling sections of code.
+        {`Hello there! In this lesson, we'll be exploring comments in HTML - a feature
+        that allows you to include notes, explanations, or instructions in your HTML
+        code. Comments are ignored by web browsers, meaning they won't be displayed
+        on the web page itself. Comments are useful for providing additional
+        information, documenting your code, or temporarily disabling certain parts
+        of your code during development or testing. Let's dive into the world of
+        comments in HTML and learn how to use them effectively.`}
       </p>
-      <h3>Syntax:</h3>
+
+      <h2>What Are Comments in HTML?</h2>
       <p>
-        HTML comments are enclosed within <code>&lt;!--</code> and{" "}
-        <code>--&gt;</code> tags.
+        Comments in HTML are special constructs that allow you to include notes,
+        explanations, or instructions within your HTML code. Comments are
+        denoted by specific delimiters, and they are not rendered or displayed
+        on the web page. Comments are primarily intended for providing
+        information or instructions to other developers who may work on the
+        code.
       </p>
-      <p>Example:</p>
-      <pre>
-        <code>&lt;!-- This is a comment --&gt;</code>
-      </pre>
-      <p>Comments can span multiple lines:</p>
+
+      <h2>Creating Comments in HTML</h2>
+      <p>
+        {`Comments in HTML are created using special delimiters that indicate the
+        beginning and end of the comment. Here's the basic structure of an HTML
+        comment:`}
+      </p>
       <pre>
         <code>
-          &lt;!-- This is a multiline comment. It spans multiple lines. --&gt;
+          {`
+<!-- This is a comment -->
+        `}
         </code>
       </pre>
-      <h3>Usage Guidelines:</h3>
+
+      <p>
+        In the code above, the <code>{`<!--`}</code> marks the start of the
+        comment, and the <code>{`-->`}</code>
+        marks the end of the comment. Anything within these delimiters is
+        considered a comment and will be ignored by web browsers.
+      </p>
+
+      <h2>Using Comments in HTML</h2>
+      <p>Comments in HTML can be used for various purposes:</p>
+
       <ul>
         <li>
-          Use comments to provide explanations or context for your code, making
-          it easier to understand for yourself and others.
+          <strong>Documentation:</strong> Comments can be used to provide
+          explanations, instructions, or additional information about your code.
+          This helps other developers understand your code and its
+          functionality.
         </li>
         <li>
-          Avoid over-commenting; use comments judiciously and only when
-          necessary.
+          <strong>Temporary Disabling:</strong> Comments can be used to
+          temporarily disable certain parts of your HTML code during development
+          or testing. This allows you to test different scenarios or disable
+          specific features without deleting the code entirely.
         </li>
         <li>
-          Comments are ignored by browsers and do not affect the appearance or
-          functionality of the rendered page.
-        </li>
-        <li>
-          Comments can be used to temporarily disable or {`"comment out"`}{" "}
-          sections of code during testing or debugging.
+          <strong>Collaboration:</strong> Comments can be used to communicate
+          with other developers working on the same project. You can leave
+          notes, ask questions, or provide feedback within the HTML code itself.
         </li>
       </ul>
+
+      <h2>Examples of Comments in HTML</h2>
+      <p>Here are some examples of using comments in HTML:</p>
+
+      <ul>
+        <li>
+          <strong>Documentation Comment:</strong>
+          <pre>
+            <code>
+              {`
+<!-- This section displays the user's profile information -->
+<div class="user-profile">
+  <h2>User Profile</h2>
+  <p>Name: <span class="name">John Doe</span></p>
+  <p>Email: <span class="email">john@example.com</span></p>
+</div>
+          
+          `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          <strong>Temporary Disabling Comment:</strong>
+          <pre>
+            <code>
+              {`
+<!-- This feature is temporarily disabled -->
+<div>
+  <!-- <p>This section is hidden</p> -->
+</div>
+            
+            `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          <strong>Collaboration Comment:</strong>
+          <pre>
+            <code>
+              {`
+<!-- Note to other developers: This section requires additional testing and validation -->
+            
+            `}
+            </code>
+          </pre>
+        </li>
+      </ul>
+
+      <h2>Best Practices for Comments in HTML</h2>
+      <ul>
+        <li>
+          <strong>Use comments for documentation:</strong> Include comments to
+          provide explanations, instructions, or additional information about
+          your HTML code. This helps other developers understand and collaborate
+          more effectively.
+        </li>
+        <li>
+          <strong>Keep comments concise and relevant:</strong> Avoid writing
+          lengthy comments that may become outdated or confusing. Keep your
+          comments focused on providing valuable information.
+        </li>
+        <li>
+          <strong>Update and remove outdated comments:</strong> Ensure that your
+          comments remain accurate and relevant. Remove comments that are no
+          longer applicable to avoid confusion for other developers.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now, let's put your knowledge into practice! Open your code editor and
+        create a new HTML file. Experiment with adding comments, documenting your
+        HTML code, or temporarily disabling certain parts. Here's a simple exercise
+        to get you started:`}
+      </p>
+
+      <ol>
+        <li>
+          {`Create a new HTML file and save it as "comments.html" in your workspace
+          folder.`}
+        </li>
+        <li>
+          Add a comment to provide an explanation for a section of your HTML
+          code. For example,
+          <pre>
+            <code>
+              {`
+<!-- This section displays the navigation menu -->.
+              `}
+            </code>
+          </pre>
+        </li>
+        <li>
+          Try using comments to temporarily disable certain parts of your HTML
+          code during development or testing. For instance,
+          <pre>
+            <code>
+              {`
+<!-- This feature is under development and will be enabled soon -->.
+              
+              `}
+            </code>
+          </pre>
+        </li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>
+        {`In this lesson, we've explored comments in HTML, including their purpose,
+        usage, and best practices. Comments are a valuable tool for providing
+        additional information, documenting your code, or temporarily disabling
+        certain parts. Remember to use comments wisely, keep them concise and
+        relevant, and always consider the audience who may read and benefit from
+        your comments. In the next lesson, we'll continue our journey by exploring the
+        Structure of an HTML Document. Stay tuned, and happy coding!`}
+      </p>
 
       <div className="button-container">
         <button onClick={() => (window.location.href = "/preMobile")}>
