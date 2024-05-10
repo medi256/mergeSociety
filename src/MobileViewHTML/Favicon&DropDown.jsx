@@ -436,6 +436,11 @@ export const DropDown = () => {
         <button onClick={() => (window.location.href = "/faviconMobile")}>
           back
         </button>
+        <button
+          onClick={() => (window.location.href = "/responsiveMetaMobile")}
+        >
+          Next
+        </button>
       </div>
     </div>
   );

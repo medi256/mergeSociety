@@ -43,6 +43,7 @@ import Transition, { Animations } from "./css/Transition&Animations";
 import Filter, { Responsive } from "./css/Filter&Responsive";
 import LandingPage from "./LandingPage";
 import Policies from "./Policy";
+import ResponsiveHTML from "./html/Responsive";
 
 const CourseRoutes = () => {
   return (
@@ -80,6 +81,7 @@ const CourseRoutes = () => {
           <Route path="iframe" element={<Iframe />} />
           <Route path="favicon" element={<Favicon />} />
           <Route path="dropdown" element={<DropDown />} />
+          <Route path="responsiveMeta" element={<ResponsiveHTML />} />
         </Route>
         <Route path="cssCourse" element={<CSScourse />}>
           <Route index element={<Introduction />}></Route>

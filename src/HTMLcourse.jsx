@@ -180,6 +180,12 @@ const HTMLcourse = () => {
             <span> Dropdown Menu</span>{" "}
           </NavLink>
         </div>
+        <div>
+          <NavLink to={"responsiveMeta"}>
+            {" "}
+            <span>Responsive(Meta tag) </span>{" "}
+          </NavLink>
+        </div>
       </aside>
 
       <section className="mobile">
@@ -220,6 +226,9 @@ const HTMLcourse = () => {
         </p>
         <p onClick={() => navigate("/faviconMobile")}>HTML Favicon </p>
         <p onClick={() => navigate("/dropdownMobile")}>Dropdown Menu </p>
+        <p onClick={() => navigate("/responsiveMetaMobile")}>
+          Responsive(Meta tag)
+        </p>
       </section>
 
       <div className="output">

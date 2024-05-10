@@ -430,9 +430,11 @@ export const DropDown = () => {
         exploring responsive web design and how to make your website adaptable to
         different screen sizes and devices. Stay tuned, and happy coding!`}
       </p>
-
       <div className="button-container">
         <button onClick={() => (window.location.href = "favicon")}>back</button>
+        <button onClick={() => (window.location.href = "responsiveMeta")}>
+          Next
+        </button>
       </div>
     </div>
   );

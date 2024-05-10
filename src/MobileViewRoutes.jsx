@@ -16,6 +16,7 @@ import CommentsH, { HTMLStructure } from "./MobileViewHTML/Comments&Sub";
 import CreatingButtonsMobile, { Iframe } from "./MobileViewHTML/Sup&Iframe";
 import Favicon, { DropDown } from "./MobileViewHTML/Favicon&DropDown";
 import ScrollToTop from "./ScrollToTop";
+import ResponsiveHTML from "./MobileViewHTML/Responsive";
 
 const MobileViewRoutes = () => {
   return (
@@ -53,6 +54,7 @@ const MobileViewRoutes = () => {
         <Route path="iframeMobile" element={<Iframe />} />
         <Route path="faviconMobile" element={<Favicon />} />
         <Route path="dropdownMobile" element={<DropDown />} />
+        <Route path="responsiveMetaMobile" element={<ResponsiveHTML />} />
       </Routes>
     </div>
   );
