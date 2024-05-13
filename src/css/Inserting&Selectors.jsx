@@ -108,7 +108,12 @@ h1 {
         width={"300px"}
         controls
         src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1715592011/cssInsertion_f5qaw3.mov"
-      ></video>
+      >
+        <p>
+          {`Your browser doesn't support this video format, try opening the
+          website in chrome or safari`}
+        </p>
+      </video>
 
       <h3>Advantages of External Stylesheets</h3>
       <ul>
