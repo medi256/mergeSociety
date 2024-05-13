@@ -259,11 +259,11 @@ export const Syntax = () => {
         <pre>
           <code>
             {`
-            h1 {
-              color: red;
-              font-size: 24px;
-              text-align: center;
-            }
+h1 {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
           `}
           </code>
         </pre>
