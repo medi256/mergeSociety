@@ -335,6 +335,11 @@ code {
   border-radius: 3px;
   font-family: monospace;
 }
+td,
+th {
+  margin-top: 5px;
+  padding: 10px;
+}
 
 iframe {
   max-width: 100%;
