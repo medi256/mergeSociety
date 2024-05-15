@@ -275,122 +275,158 @@ export default Background;
 export const Comments = () => {
   return (
     <div className="comments-container">
-      <h1>CSS Comments</h1>
+      <h1>The Power of Comments in CSS</h1>
       <p>
-        Comments in CSS are not displayed in the browser but serve as notes
-        within your source code.
-      </p>
-      <p>
-        They help explain the code and can be useful when you revisit it later.
-      </p>
-      <p>
-        Browsers completely ignore comments; they don’t affect the rendering of
-        your webpage.
+        {`Comments are like hidden notes in your CSS code. They allow you to add
+        explanations, provide context, or leave reminders for yourself or other
+        developers working on the code. Comments are ignored by the browser and
+        do not affect the styling of your web page. In this section, we'll
+        explore the importance of comments and learn how to use them effectively
+        in your CSS code. Let's begin!`}
       </p>
 
-      <h3>Syntax:</h3>
-      <ul>
-        <li>
-          A CSS comment starts with <code>{`/*`}</code> and ends with{" "}
-          <code>*/</code>.
-        </li>
-        <li>You can place comments anywhere in your CSS code.</li>
-      </ul>
+      <h2>Single-Line Comments</h2>
+      <p>
+        Single-line comments are denoted by the <code>{`/*`}</code> symbol at
+        the beginning and the <code>*/</code> symbol at the end. Everything in
+        between these symbols is considered a comment and will be ignored by the
+        browser. {` Here's an example:`}
+      </p>
 
-      <h3>Examples:</h3>
-      <ol>
-        <li>
-          Single-Line Comment:
-          <div>
-            <h4>CSS code</h4>
-            <pre>
-              <code>
-                {`
-  /* This is a single-line comment */
-   p {
-     color: red;
-   }`}
-              </code>
-            </pre>
-            <p>
-              In this example, the comment explains that the text color is set
-              to red.
-            </p>
-          </div>
-        </li>
-        <li>
-          Inline Comment (within a line of code):
-          <div>
-            <h4>CSS code</h4>
-            <pre>
-              <code>
-                {`
-  p {
-    color: /*red*/ blue;
-  }`}
-              </code>
-            </pre>
-            <p>Here, the comment is placed in the middle of the code line.</p>
-          </div>
-        </li>
-        <li>
-          Multi-Line Comment:
-          <div>
-            <h4>CSS code</h4>
-            <pre>
-              <code>
-                {`
-  /* This is a multi-line comment */
-  p {
-    color: red;
-  }`}
-              </code>
-            </pre>
-            <p>You can span comments across multiple lines.</p>
-          </div>
-        </li>
-      </ol>
-
-      <h3>Combining HTML and CSS Comments:</h3>
-      <ul>
-        <li>
-          Remember that HTML also supports comments using the{" "}
-          <code>&lt;!-- ... --&gt;</code> syntax.
-        </li>
-        <li>You can combine HTML and CSS comments for better documentation:</li>
-      </ul>
-
-      <h4>Example:</h4>
-      <div>
-        <h4>HTML code</h4>
+      <code>
         <pre>
           <code>
             {`
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      p {
-        color: red; /* Set text color to red */
-      }
-    </style>
-  </head>
-  <body>
-    <h2>My Heading</h2>
-    <!-- These paragraphs will be red -->
-    <p>Hello World!</p>
-    <p>This paragraph is styled with CSS.</p>
-    <p>CSS comments are not shown in the output.</p>
-  </body>
-</html>`}
+/* This is a single-line comment */
+/* You can use comments to explain your code */
+/* Comments are ignored by the browser */
+          `}
           </code>
         </pre>
-      </div>
+      </code>
 
       <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Comments .
+        {`In the code above, we've added three single-line comments. These comments
+        provide explanations or notes about the code. They are useful for
+        documenting your code, explaining complex sections, or leaving reminders
+        for future reference.`}
+      </p>
+
+      <h2>Multi-Line Comments</h2>
+      <p>
+        Multi-line comments are used when you need to include a longer
+        explanation or comment that spans multiple lines. They start with the{" "}
+        <code>{`/*`}</code>
+        symbol and end with the <code>*/</code> symbol, enclosing the entire
+        block of text. {` Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+/*
+  This is a multi-line comment
+  You can include multiple lines of text
+  within the comment block
+*/
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        {`In the code above, we've added a multi-line comment that spans three lines.
+        Multi-line comments are useful when you need to provide detailed
+        explanations, document complex code sections, or include references or
+        credits for code snippets.`}
+      </p>
+
+      <h2>Commenting Out Code</h2>
+      <p>
+        {`Comments can also be used to temporarily disable or "comment out" certain
+        sections of your code. This is useful when you want to test different
+        styles or temporarily hide certain rules without deleting them. Here's
+        an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+/*
+  This rule is temporarily disabled
+  .highlight {
+    color: red;
+  }
+*/
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, {` we've `} commented out the rule for the{" "}
+        <code>.highlight</code>
+        class. This means that the code within the comment block will be ignored
+        by the browser. You can use this technique to experiment with different
+        styles or to temporarily disable certain rules while troubleshooting.
+      </p>
+
+      <h2>Best Practices for Comments</h2>
+      <ul>
+        <li>
+          Use comments to explain complex or non-obvious sections of your code.
+        </li>
+        <li>
+          Include comments to provide context or reasoning behind certain design
+          decisions or choices.
+        </li>
+        <li>
+          Use comments to leave reminders or notes for yourself or other
+          developers working on the code.
+        </li>
+        <li>
+          Keep comments concise, clear, and focused on providing useful
+          information.
+        </li>
+        <li>
+          Update comments when you make changes to the code to ensure they
+          remain accurate and relevant.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now it's time to put your knowledge into practice! Open your code editor
+        and create a new CSS file. Let's explore the power of comments:`}
+      </p>
+
+      <ol>
+        <li>
+          Add single-line comments to explain different sections of your CSS
+          code.
+        </li>
+        <li>
+          Include multi-line comments to provide detailed explanations or
+          references for complex code blocks.
+        </li>
+        <li>
+          Experiment with commenting out certain rules to see how it affects the
+          styling of your web page.
+        </li>
+        <li>
+          Follow the best practices for comments to ensure your code is
+          well-documented and easy to understand for yourself and other
+          developers.
+        </li>
+      </ol>
+
+      <p>
+        Remember, comments are an important tool for code documentation and
+        collaboration. They help improve code readability, facilitate
+        troubleshooting, and make it easier for other developers to understand
+        your code. Happy coding!
       </p>
 
       <div className="button-container">
