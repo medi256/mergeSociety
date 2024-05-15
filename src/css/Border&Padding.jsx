@@ -1,119 +1,267 @@
 const Border = () => {
   return (
     <div className="comments-container">
-      <h1>CSS Borders</h1>
+      <h1>The Magical World of Borders in CSS</h1>
       <p>
-        CSS border properties allow you to define the style, width, and color of
-        an {`element's`} border. {`Let's`} dive into each aspect:
+        {`Borders are like the frames that enclose your web designs, adding structure,
+        emphasis, and visual appeal to your elements. They can transform the
+        appearance of your designs, create visual hierarchies, and enhance the
+        overall user experience. In this section, we'll explore the fascinating
+        world of borders in CSS and learn how to style your elements with
+        elegance and creativity. Let's embark on this border adventure!`}
       </p>
+
+      <h2>Border Style</h2>
+      <p>
+        The <code>border-style</code> property allows you to specify the style
+        of the border around an element. You can choose from a variety of border
+        styles, including <code>solid</code>, <code>dashed</code>,
+        <code>dotted</code>, <code>double</code>, and more.{" "}
+        {` Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  border-style: solid;
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>border-style</code> property to
+        <code>solid</code>, creating a solid border around the div element. The
+        solid border style is the most commonly used and provides a clean,
+        continuous line around the element. However, you can experiment with
+        different border styles to add variety and visual interest to your
+        designs.
+      </p>
+      <h3>Here is a table of values and their description</h3>
+      <table border="1" style={{ borderCollapse: "collapse", padding: "20px" }}>
+        <thead>
+          <tr>
+            <th>Border Style Value</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>dotted</td>
+            <td>A series of round dots</td>
+          </tr>
+          <tr>
+            <td>dashed</td>
+            <td>A series of short dashes</td>
+          </tr>
+          <tr>
+            <td>solid</td>
+            <td>A single solid line</td>
+          </tr>
+          <tr>
+            <td>double</td>
+            <td>Two parallel solid lines</td>
+          </tr>
+          <tr>
+            <td>groove</td>
+            <td>A 3D grooved effect</td>
+          </tr>
+          <tr>
+            <td>ridge</td>
+            <td>A 3D ridged effect</td>
+          </tr>
+          <tr>
+            <td>inset</td>
+            <td>A 3D inset effect</td>
+          </tr>
+          <tr>
+            <td>outset</td>
+            <td>A 3D outset effect</td>
+          </tr>
+          <tr>
+            <td>none</td>
+            <td>No border</td>
+          </tr>
+          <tr>
+            <td>hidden</td>
+            <td>
+              {`The same as 'none', except in terms of border conflict resolution
+              for table elements`}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Border Width</h2>
+      <p>
+        The <code>border-width</code> property allows you to adjust the
+        thickness of the border. You can use specific values, such as{" "}
+        <code>thin</code>,<code>medium</code>, <code>thick</code>, or numeric
+        values (in pixels).
+        {` Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  border-width: 2px;
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>border-width</code> property to 2
+        pixels, creating a border with a thickness of 2 pixels around the div
+        element. You can adjust the border width to create subtle or bold
+        borders, depending on the desired visual impact. Thicker borders can add
+        emphasis to important elements, while thinner borders can provide a more
+        delicate touch.
+      </p>
+
+      <h2>Border Color</h2>
+      <p>
+        The <code>border-color</code> property allows you to specify the color
+        of the border. You can use color keywords, hexadecimal values, RGB
+        values, or HSL values to set the border color. {` Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  border-color: #336699; /* Dark blue */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>border-color</code> property to a
+        dark blue color using a hexadecimal value. Hexadecimal values use a
+        combination of letters and numbers to represent colors. For example,
+        #336699 represents a shade of dark blue. You can also use color keywords
+        like
+        <code>red</code>, <code>blue</code>, or <code>green</code>.
+        Additionally, you can specify colors using RGB values (red, green, blue)
+        or HSL values (hue, saturation, lightness). Experiment with different
+        color values to create borders that complement your designs and convey
+        the desired emotions.
+      </p>
+
+      <h2>Border Radius</h2>
+      <p>
+        The <code>border-radius</code> property allows you to add rounded
+        corners to your elements, creating a softer and more modern look. You
+        can use specific values, such as <code>5px</code>, or percentages, such
+        as
+        <code>50%</code>. {` Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  border-radius: 5px;
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>border-radius</code> property to 5
+        pixels, creating rounded corners on the div element. The border radius
+        property affects all four corners of the element. You can adjust the
+        border radius to create elements with different shapes, such as circles
+        or ovals. For example, setting the border radius to 50% will create a
+        circular shape. Play around with different values to achieve the desired
+        level of curvature for your elements.
+      </p>
+
+      <h2>Border Shorthand</h2>
+      <p>
+        CSS provides a shorthand property called <code>border</code> that allows
+        you to specify multiple border properties in a single declaration. This
+        shorthand property includes the border style, width, and color.{" "}
+        {` Here's
+        an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  border: 1px solid red; /* Border width, style, and color */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we used the <code>border</code> shorthand property to
+        set the border width to 1 pixel, the border style to solid, and the
+        border color to red. This shorthand property makes your code more
+        concise and easier to read. You can also include the border radius in
+        the shorthand property, like this:{" "}
+        <code>border: 1px solid red; border-radius: 5px;</code>.
+      </p>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {` Now it's time to put your knowledge into practice! Open your code editor
+        and create a new HTML file. Let's explore the wonderful world of borders:`}
+      </p>
+
       <ol>
         <li>
-          <h3>border-style:</h3>
-          <p>
-            This property defines the type of border to display. You can choose
-            from various styles:
-          </p>
-          <ul>
-            <li>dotted: Creates a dotted border.</li>
-            <li>dashed: Creates a dashed border.</li>
-            <li>solid: Creates a solid border (the most common).</li>
-            <li>double: Creates a double border.</li>
-            <li>
-              groove: Creates a 3D grooved border (effect depends on the border
-              color).
-            </li>
-            <li>
-              ridge: Creates a 3D ridged border (effect depends on the border
-              color).
-            </li>
-            <li>
-              inset: Creates a 3D inset border (effect depends on the border
-              color).
-            </li>
-            <li>
-              outset: Creates a 3D outset border (effect depends on the border
-              color).
-            </li>
-            <li>none: No border.</li>
-            <li>hidden: A hidden border.</li>
-          </ul>
-          <h4>Example:</h4>
-          <pre>
-            <code>
-              {`
-  .dotted { border-style: dotted; }
-  .dashed { border-style: dashed; }
-  .solid { border-style: solid; }
-  .double { border-style: double; }
-  .groove { border-style: groove; }
-  .ridge { border-style: ridge; }
-  .inset { border-style: inset; }
-  .outset { border-style: outset; }
-  .none { border-style: none; }
-              `}
-            </code>
-          </pre>
-          <h5>Result:</h5>
-          <div>
-            <ul>
-              <li style={{ borderStyle: "dotted" }}>A dotted border.</li>
-              <li style={{ borderStyle: "dashed" }}>A dashed border.</li>
-              <li style={{ borderStyle: "solid" }}>A solid border.</li>
-              <li style={{ borderStyle: "double" }}>A double border.</li>
-              <li style={{ borderStyle: "groove" }}>A groove border.</li>
-              <li style={{ borderStyle: "ridge" }}>A ridge border.</li>
-              <li style={{ borderStyle: "inset" }}>An inset border.</li>
-              <li style={{ borderStyle: "outset" }}>An outset border.</li>
-              <li style={{ borderStyle: "none" }}>No border.</li>
-            </ul>
-          </div>
-          <p>
-            Note: None of the other CSS border properties (which you’ll learn
-            more about in the next chapters) will have any effect unless the
-            border-style property is set!
-          </p>
+          Create a simple HTML structure with div elements to serve as
+          containers for your borders.
         </li>
         <li>
-          <h3>border-width:</h3>
-          <p>
-            This property controls the width of the border. You can specify it
-            in pixels, ems, or other units.
-          </p>
+          Apply different border styles, such as solid, dashed, or dotted, and
+          observe how they change the appearance of your designs.
         </li>
         <li>
-          <h3>border-color:</h3>
-          <p>
-            Sets the color of the border. You can use named colors, hexadecimal
-            values, or RGB values.
-          </p>
+          Experiment with border widths to create subtle or bold borders,
+          depending on the desired visual impact.
         </li>
         <li>
-          <h3>Shorthand border Property:</h3>
-          <p>
-            To simplify your code, you can use the shorthand border property to
-            set all border properties at once. For example:
-          </p>
-          <h4>CSS code</h4>
-          <pre>
-            <code>
-              {`
-  h1 {
-    border: 8px solid blue;
-  }
-  `}
-            </code>
-          </pre>
+          Play with border colors to create borders that complement your color
+          scheme or add contrast to your designs.
+        </li>
+        <li>
+          Adjust the border radius to create elements with rounded corners,
+          circles, or ovals. Observe how the border radius affects the shape of
+          your elements.
+        </li>
+        <li>
+          Use the border shorthand property to set multiple border properties in
+          a concise manner.
+        </li>
+        <li>
+          Refer to border resources and tutorials to discover creative ways to
+          use borders in your designs, such as creating unique shapes or adding
+          decorative effects.
         </li>
       </ol>
 
       <p>
-        Remember to experiment with different border styles, widths, and colors
-        to achieve the desired visual effect for your web elements!
-      </p>
-      <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Borders .
+        Remember, borders play a crucial role in defining the structure,
+        emphasis, and visual appeal of your designs. Choose border styles,
+        widths, colors, and radii that align with your brand and enhance the
+        user experience. Happy coding and happy designing!
       </p>
 
       <div className="button-container">
