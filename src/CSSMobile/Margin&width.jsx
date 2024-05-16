@@ -309,140 +309,149 @@ export default Margin;
 export const Width = () => {
   return (
     <div className="comments-container">
-      <h1>CSS Width Property</h1>
-      <ul>
-        <li>The width property sets an element’s width.</li>
-        <li>
-          By default, it specifies the width of the content area (excluding
-          padding, borders, and margins).
-        </li>
-        <li>
-          If the box-sizing property is set to border-box, it instead sets the
-          width of the border area (including padding and content).
-        </li>
-        <li>
-          We will cover {`'border-box'`} and {`'box-sizing'`} in the upcoming
-          tutorial.
-        </li>
-      </ul>
-      <h3>Values:</h3>
-      <ol>
-        <li>length: Defines the width as a distance value (e.g., 300px).</li>
-        <li>
-          percentage: Defines the width as a percentage of the containing
-          block’s width (e.g., 75%).
-        </li>
-        <li>
-          auto: The browser calculates and selects a width for the specified
-          element.
-        </li>
-        <li>max-content: Represents the intrinsic preferred width.</li>
-        <li>min-content: Represents the intrinsic minimum width.</li>
-        <li>
-          fit-content: Uses available space but not more than max-content
-          (similar to min(max-content, max(min-content, stretch))).
-        </li>
-        <li>
-          fit-content(length-percentage): Uses the fit-content formula with the
-          specified argument (e.g., fit-content(20em)).
-        </li>
-      </ol>
-      <h3>Examples:</h3>
-      <ol>
-        <li>Default Width:</li>
-        <h4>CSS code</h4>
-        <pre>
-          <code>
-            {`
-  .goldie {
-    background: gold;
-  }
-        `}
-          </code>
-        </pre>
-        <p>
-          <span className="goldie">
-            The Mozilla community produces a lot of great software.
-          </span>
-        </p>
-        <li>Width in Pixels and Ems:</li>
-        <h4>CSS code</h4>
-        <pre>
-          <code>
-            {`
-.px_length {
-  width: 200px;
-  background-color: red;
-  color: white;
-  border: 1px solid black;
-}
+      <h1>The Magical World of Width in CSS</h1>
+      <p>
+        {`Width is a fundamental property in CSS that determines the horizontal size of
+        an element. It plays a crucial role in defining the layout, appearance, and
+        responsiveness of your web designs. In this section, we'll explore the
+        fascinating world of width in CSS and learn how to use it effectively to
+        style your elements. Let's embark on this width adventure!`}
+      </p>
 
-.em_length {
-  width: 20em;
-  background-color: white;
-  color: red;
-  border: 1px solid black;
-}
-        `}
-          </code>
-        </pre>
-        <p>
-          <div className="px_length">Width measured in pixels</div>
-        </p>
-        <p>
-          <div className="em_length">Width measured in ems</div>
-        </p>
-        <li>Width in Percentage:</li>
-        <h4>CSS code</h4>
+      <h2>Width Property</h2>
+      <p>
+        The <code>width</code>{" "}
+        {`property is a powerful tool in CSS that allows you to
+        set the width of an element. You can specify the width using various units,
+        such as pixels (px), percentages (%), or keywords like <code>auto</code>.
+        Here's an example:`}
+      </p>
+
+      <code>
         <pre>
           <code>
             {`
-.percent {
-  width: 20%;
-  background-color: silver;
-  border: 1px solid red;
+div {
+  width: 300px; /* Sets the width to 300 pixels */
 }
-        `}
+          `}
           </code>
         </pre>
-        <p>
-          <div className="percent">Width in percentage</div>
-        </p>
-        <li>Using “max-content”:</li>
+      </code>
+
+      <p>
+        In the code above, we set the <code>width</code> property to 300 pixels,
+        making the div element 300 pixels wide. You can adjust the width value
+        to create elements with different sizes, depending on your design needs.
+        For example, you can create narrow columns, wide banners, or elements
+        that span the full width of their container.
+      </p>
+
+      <h2>Percentages for Width</h2>
+      <p>
+        {`Using percentages for width allows you to set the width relative to the width
+        of the parent element. This means that the width will adjust dynamically based
+        on the size of the parent element. Here's an example:`}
+      </p>
+
+      <code>
         <pre>
           <code>
             {`
-.maxgreen {
-  background: lightgreen;
-  width: intrinsic; /* Safari/WebKit uses a non-standard name */
-  width: -moz-max-content; /* Firefox/Gecko */
-  width: -webkit-max-content; /* Chrome */
-  width: max-content;
+div {
+  width: 50%; /* Sets the width to 50% of the parent's width */
 }
-        `}
+          `}
           </code>
         </pre>
-        <p>
-          <span className="maxgreen">
-            The width adapts to the intrinsic content size.
-          </span>
-        </p>
+      </code>
+
+      <p>
+        In the code above, we set the <code>width</code>{" "}
+        {`property to 50%, making the
+        div element half the width of its parent element. This is useful when you want
+        the element to scale proportionally with the parent element's size. For
+        example, if the parent element has a width of 800 pixels, the child element
+        with a width of 50% will be 400 pixels wide. Percentages for width are
+        commonly used to create flexible layouts that adapt to different screen
+        sizes or to create responsive designs.`}
+      </p>
+
+      <h2>Auto Width</h2>
+      <p>
+        The <code>width: auto</code>{" "}
+        {`property is commonly used for images and other
+        elements that need to adjust their width based on their content. Here's an
+        example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+img {
+  width: auto; /* Sets the width based on the image's original size */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>width</code> property to{" "}
+        <code>auto</code>
+        for an image element. This means that the image will be displayed at its
+        original size, without any stretching or distortion. The{" "}
+        <code>auto</code>
+        value tells the browser to calculate the width based on the intrinsic
+        size of the image. This is particularly useful for images or other
+        elements that need to maintain their original aspect ratio while fitting
+        within their container.
+      </p>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now it's time to put your knowledge into practice! Open your code editor and
+        create a new HTML file. Let's explore the wonderful world of width:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with div elements to serve as
+          containers for your width experiments.
+        </li>
+        <li>
+          Apply different width values, such as pixels, percentages, and auto,
+          and observe how they affect the size of the elements. Try using larger
+          and smaller values to see the impact on the layout.
+        </li>
+        <li>
+          {`Experiment with percentages for width to create elements that scale
+          proportionally with the parent element's size. Observe how the width
+          adjusts as you resize the parent element.`}
+        </li>
+        <li>
+          Use <code>width: auto</code> for images or other elements that need to
+          adjust their width based on their content. Notice how the image
+          maintains its original aspect ratio.
+        </li>
+        <li>
+          Explore the relationship between width and height by creating elements
+          with different width and height values. Observe how they interact and
+          affect the layout.
+        </li>
+        <li>
+          Refer to width resources and tutorials to discover creative ways to
+          use width to create flexible and responsive designs that look great on
+          various devices.
+        </li>
       </ol>
+
       <p>
-        In the array of values provided, all are valuable, yet some are less
-        commonly utilized by developers. To streamline your learning process, I
-        suggest focusing on mastering percentage, rem, pixels, and even em
-        units, as these are frequently employed in web development.
-      </p>
-      <p>
-        Remember that setting appropriate widths ensures your elements fit
-        harmoniously within your layout. Experiment with different values to
-        achieve the desired visual effect!
-      </p>
-      <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Width .
+        Remember, width is a powerful tool in web design. It helps define the
+        layout, appearance, and responsiveness of your designs. Choose width
+        values that align with your brand, ensure readability, and provide a
+        great user experience. Happy coding and happy designing!
       </p>
 
       <div className="button-container">
