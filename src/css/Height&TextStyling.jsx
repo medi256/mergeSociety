@@ -1,120 +1,144 @@
 const Height = () => {
   return (
     <div className="comments-container">
-      <h1>CSS Height Property</h1>
-      <ul>
-        <li>The height property specifies the height of an element.</li>
-        <li>
-          By default, it defines the height of the content area (excluding
-          padding, borders, and margins).
-        </li>
-        <li>
-          If the box-sizing property is set to border-box, it instead determines
-          the height of the border area (including padding and content).
-        </li>
-      </ul>
+      <h1>The World of Height in CSS</h1>
       <p>
-        The values for the height property are similar to those for the width
-        property. The only difference is that the width property sets the width,
-        while the height property sets the height of an element.
-      </p>
-      <h3>Values:</h3>
-      <ol>
-        <li>length: Defines the height as a distance value (e.g., 120px).</li>
-        <li>
-          percentage: Defines the height as a percentage of the containing
-          block’s height (e.g., 75%).
-        </li>
-        <li>
-          auto: The browser calculates and selects a height for the specified
-          element.
-        </li>
-        <li>max-content: Represents the intrinsic preferred height.</li>
-        <li>min-content: Represents the intrinsic minimum height.</li>
-        <li>
-          fit-content: Uses available space but not more than max-content
-          (similar to min(max-content, max(min-content, stretch))).
-        </li>
-        <li>
-          fit-content(length-percentage): Uses the fit-content formula with the
-          available space replaced by the specified argument (e.g.,
-          fit-content(50%)).
-        </li>
-      </ol>
-      <h3>Examples:</h3>
-      <ol>
-        <li>Setting Height Using Pixels and Percentages:</li>
-        <h4>HTML code</h4>
-        <pre>
-          <code>
-            {`
-  <div id="taller">I'm 50 pixels tall.</div>
-  <div id="shorter">I'm 25 pixels tall.</div>
-  <div id="parent">
-    <div id="child">I'm half the height of my parent.</div>
-  </div>
-            `}
-          </code>
-        </pre>
-        <h4>CSS code</h4>
-        <pre>
-          <code>
-            {`
-  div {
-    width: 250px;
-    margin-bottom: 5px;
-    border: 2px solid blue;
-  }
-  #taller {
-    height: 50px;
-  }
-  #shorter {
-    height: 25px;
-  }
-  #parent {
-    height: 100px;
-  }
-  #child {
-    height: 50%;
-    width: 75%;
-  }
-            `}
-          </code>
-        </pre>
-        <li>Using max-content:</li>
-        <h4>CSS code</h4>
-        <pre>
-          <code>
-            {`
-  .maxgreen {
-    background: lightgreen;
-    height: max-content;
-  }
-            `}
-          </code>
-        </pre>
-        <p>
-          <p className="maxgreen">
-            The height adapts to the intrinsic content size.
-          </p>
-        </p>
-      </ol>
-      <p>
-        All the values provided are valuable, but some are less commonly
-        utilized by developers. To streamline your learning process, focus on
-        mastering percentage, rem, pixels, and even em units, as these are
-        frequently employed in web development.
-      </p>
-      <p>
-        Remember that setting appropriate heights ensures your elements fit
-        harmoniously within your layout. Experiment with different values to
-        achieve the desired visual effect!
+        {`Height is another fundamental property in CSS that determines the vertical size
+        of an element. Just like width, height plays a crucial role in defining the
+        layout, appearance, and responsiveness of your web designs. In this section,
+        we'll explore the wonderful world of height in CSS and learn how to use it
+        effectively to style your elements. Let's begin!`}
       </p>
 
+      <h2>Height Property</h2>
       <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Height .
+        The <code>height</code> property allows you to set the height of an
+        element. You can specify the height using various units, such as pixels
+        (px), percentages (%), or keywords like <code>auto</code>.{" "}
+        {`Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  height: 200px; /* Sets the height to 200 pixels */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>height</code> property to 200
+        pixels, making the div element 200 pixels tall. You can adjust the
+        height value to create elements with different sizes, depending on your
+        design needs.
+      </p>
+
+      <h2>Percentages for Height</h2>
+      <p>
+        {`Using percentages for height allows you to set the height relative to the height
+        of the parent element. This means that the height will adjust dynamically based
+        on the size of the parent element. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  height: 50%; /* Sets the height to 50% of the parent's height */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>height</code>{" "}
+        {`property to 50%, making the
+        div element half the height of its parent element. This is useful when you want
+        the element to scale proportionally with the parent element's height. For
+        example, if the parent element has a height of 600 pixels, the child element
+        with a height of 50% will be 300 pixels tall. Percentages for height are
+        commonly used to create flexible layouts that adapt to different screen
+        sizes or to maintain a specific aspect ratio.`}
+      </p>
+
+      <h2>Auto Height</h2>
+      <p>
+        The <code>height: auto</code>{" "}
+        {`property is commonly used for images and other
+        elements that need to adjust their height based on their content. Here's an
+        example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+img {
+  height: auto; /* Sets the height based on the image's original size */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>height</code> property to{" "}
+        <code>auto</code>
+        for an image element. This means that the image will be displayed at its
+        original height, without any stretching or distortion. The{" "}
+        <code>auto</code>
+        value tells the browser to calculate the height based on the intrinsic
+        size of the image. This is particularly useful for images or other
+        elements that need to maintain their original aspect ratio while fitting
+        within their container.
+      </p>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now it's time to experiment with height in CSS! Open your code editor and create
+        a new HTML file. Let's explore the wonderful world of height:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with div elements to serve as
+          containers for your height experiments.
+        </li>
+        <li>
+          Apply different height values, such as pixels, percentages, and auto,
+          and observe how they affect the size of the elements.
+        </li>
+        <li>
+          {`Experiment with percentages for height to create elements that scale
+          proportionally with the parent element's height.`}
+        </li>
+        <li>
+          Use <code>height: auto</code> for images or other elements that need
+          to adjust their height based on their content. Notice how the element
+          maintains its original aspect ratio.
+        </li>
+        <li>
+          Explore the relationship between height and width by creating elements
+          with different height and width values. Observe how they interact and
+          affect the layout.
+        </li>
+        <li>
+          Refer to height resources and tutorials to discover creative ways to
+          use height to create flexible and responsive designs.
+        </li>
+      </ol>
+
+      <p>
+        Remember, height is a powerful tool in web design. It helps define the
+        layout, appearance, and responsiveness of your designs. Choose height
+        values that align with your brand and enhance the overall user
+        experience. Happy coding!
       </p>
 
       <div className="button-container">
