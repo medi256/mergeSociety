@@ -1,310 +1,148 @@
 const Units = () => {
   return (
     <div className="comments-container">
-      <h1>Units</h1>
+      <h1>The Magical World of Units in CSS</h1>
       <p>
-        CSS (Cascading Style Sheets) provides various units for expressing
-        lengths, which are crucial for effective web design.
+        {`Units in CSS are like the building blocks of measurements. They allow you to
+        specify sizes, distances, durations, and more in a precise and consistent
+        manner. In this section, we'll explore the fascinating world of units in CSS
+        and learn how to use them effectively to style your elements. Let's embark on
+        this unit adventure!`}
       </p>
-      <h2>Absolute Length Units:</h2>
+
+      <h2>Length Units</h2>
       <p>
-        These units represent fixed measurements that remain unchanged
-        regardless of the device’s screen size. While they are not commonly used
-        for screen layouts due to varying screen sizes, they find application in
-        print layouts where the output medium is known.
+        Length units are used to specify sizes, distances, and positions in CSS.
+        They provide a way to measure and define various aspects of your
+        designs. Some commonly used length units include:
       </p>
-      <ol>
-        <li> Pixels (px):</li>
-        <ul>
-          <li>
-            Meaning: A pixel represents a single dot on a screen. It’s the
-            smallest unit of measurement in CSS.
-          </li>
-          <li>
-            Usage: Pixels are commonly used for specifying precise dimensions,
-            such as element sizes, borders, and margins.
-          </li>
-          <li>Example:</li>
-          <div>
-            <h4>CSS code</h4>
-            <pre>
-              <code>
-                {`
-    div {
-      width: 300px;
-      height: 200px;
-    }
-                `}
-              </code>
-            </pre>
-            <p>
-              {`
-              You can specify any numerical value you want, as long as you add a "px" suffix at the end. "px" stands for pixels, as it wouldn't make sense to provide the value as "5pixels", which would be both cumbersome and incorrect. While you may not use all these units, you will certainly encounter developers using "px", "em", "rem", and "%".`}
-            </p>
-          </div>
-        </ul>
-        <li> Inches (in):</li>
-        <ul>
-          <li>
-            Meaning: An inch corresponds to a physical inch (2.54 centimeters)
-            in the real world.
-          </li>
-          <li>
-            Usage: Rarely used for web design due to varying screen sizes.
-          </li>
-          <li>Example:</li>
-          <div>
-            <h4>CSS code</h4>
-            <pre>
-              <code>
-                {`
-  img {
-    max-width: 2in;
-  }
-                `}
-              </code>
-            </pre>
-          </div>
-          <p>
-            {`
-            You won't often see people using it. Personally, I have never used it before. However, it's worth knowing that it exists. Once you encounter it, you won't be surprised.`}
-          </p>
-        </ul>
-        <li> Centimeters (cm):</li>
-        <ul>
-          <li> Meaning: Represents centimeters.</li>
-          <li> Usage: Similar to inches, but less common in web design.</li>
-          <li> Example:</li>
-          <h4>CSS code</h4>
-          <div>
-            <pre>
-              <code>
-                {`
-  header {
-    margin-bottom: 1cm;
-  }
-                `}
-              </code>
-            </pre>
-          </div>
-          <p>
-            {` 
-            You won't often use this either, but just be aware of it. The main focus should be on what suits your preferences or what you find easy.`}
-          </p>
-        </ul>
-        <li> Millimeters (mm):</li>
-        <ul>
-          <li> Meaning: Corresponds to millimeters.</li>
-          <li>
-            Usage: Less common but occasionally used for precise measurements.
-          </li>
-          <li> Example:</li>
-          <h4>CSS code</h4>
-          <div>
-            <pre>
-              <code>
-                {`
-  table {
-    border-spacing: 5mm;
-  }
-                `}
-              </code>
-            </pre>
-          </div>
-        </ul>
-      </ol>
-      <h2>Relative Length Units:</h2>
-      <ol>
-        <li>em (Element):</li>
-        <h4>Meaning:</h4>
-        <ul>
-          <li> The em unit is a relative measurement in CSS.</li>
-          <li>
-            It represents a size relative to the font size of the parent
-            element.
-          </li>
-        </ul>
-        <h4>Usage:</h4>
-        <ul>
-          <li>
-            The em unit is particularly useful for creating scalable layouts.
-          </li>
-          <li>
-            When you set an element’s size using em, it adjusts proportionally
-            based on the font size of its parent.
-          </li>
-        </ul>
-        <h4>Example:</h4>
-        <p> Consider the following CSS snippet:</p>
-        <h4>CSS code</h4>
-        <div>
-          <pre>
-            <code>
-              {`
-  p {
-    font-size: 1.2em; /* 120% of parent's font size */
-  }
-              `}
-            </code>
-          </pre>
-        </div>
-        <p>
-          {`In this example, the font size of the <p> (paragraph) element is set to 1.2 times the font size of its parent.`}
-        </p>
-        <p>
-          {`If the parent element (e.g., a <div>) has a font size of 16 pixels, the paragraph’s font size will be calculated as 1.2 * 16px = 19.2px.`}{" "}
-        </p>
-        <p>
-          {` 
-          You will definitely be seeing developers using this a lot, but it's up to you to choose what suits your understanding. `}
-        </p>
-        <li> rem (Root Element):</li>
-        <h4> Meaning:</h4>
-        <ul>
-          <li>The rem unit stands for “root em”.</li>
-          <li>
-            {`It is relative to the font size of the root <html> element (not the parent element like em).`}
-          </li>
-          <li>
-            {` The root element is typically the entire web page, represented by the <html> tag.`}
-          </li>
-        </ul>
-        <h4> Usage:</h4>
-        <ul>
-          <li>
-            The rem unit is ideal for creating responsive designs because it
-            ensures consistency across the entire document.
-          </li>
-          <li>
-            Unlike em, which inherits its size from the parent, rem always
-            refers to the root font size.
-          </li>
-        </ul>
-        <h4>Example:</h4>
-        <p> Consider the following CSS snippet:</p>
-        <h4>CSS code</h4>
-        <div>
-          <pre>
-            <code>
-              {`
-  body {
-    font-size: 16px; /* Base font size for the entire document */
-  }
-  h2 {
-    margin: 1.5rem; /* 1.5 times the root font size */
-  }
-              `}
-            </code>
-          </pre>
-        </div>
-        <h4> In this example:</h4>
-        <ul>
-          <li>
-            The base font size for the entire document is set to 16 pixels using
-            body.
-          </li>
-          <li>
-            {`The <h2> (heading level 2) element’s margin is specified as 1.5 times the root font size.`}
-          </li>
-          <li>
-            {`If the root font size (set by the <html> element) remains at 16 pixels, the margin for <h2> will be calculated as 1.5 * 16px = 24px.`}
-          </li>
-        </ul>
-        <p>
-          By using rem, you create a consistent and scalable design where
-          elements adjust proportionally based on the root font size. This makes
-          it easier to maintain responsiveness across different screen sizes.
-        </p>
-        <li> vw (Viewport Width):</li>
-        <h4> Meaning:</h4>
-        <ul>
-          <li>The vw unit stands for “viewport width”.</li>
-          <li>It is relative to a percentage of the viewport width.</li>
-          <li>
-            The viewport refers to the visible area of the web page within the
-            browser window.
-          </li>
-        </ul>
-        <h4> Usage:</h4>
-        <ul>
-          <li>
-            The vw unit is great for creating responsive layouts because it
-            adjusts based on the user’s screen size.
-          </li>
-          <li>
-            When you set an element’s size using vw, it scales proportionally
-            with the width of the viewport.
-          </li>
-        </ul>
-        <h4>Example:</h4>
-        <p>Consider the following CSS snippet:</p>
-        <h4> CSS</h4>
-        <ul>
-          <li>
-            {`The <section> element’s width is set to 50% of the viewport width.`}
-          </li>
-          <li>
-            If the viewport width is 1000 pixels, the section’s width will be
-            calculated as 0.5 * 1000px = 500px.
-          </li>
-        </ul>
-        <p>
-          By using vw, you ensure that your design adapts to different screen
-          sizes, making it ideal for responsive web development.
-        </p>
-        <li> vh (Viewport Height):</li>
-        <h4> Meaning:</h4>
-        <ul>
-          <li> The vh unit stands for “viewport height”.</li>
-          <li> It is relative to a percentage of the viewport height.</li>
-          <li>
-            The viewport refers to the visible area of the web page within the
-            browser window.
-          </li>
-        </ul>
-        <h4> Usage:</h4>
-        <ul>
-          <li> The vh unit is useful for creating responsive designs.</li>
-          <li>
-            When you set an element’s height using vh, it scales proportionally
-            with the height of the viewport.
-          </li>
-        </ul>
-        <h4> Example:</h4>
-        <p> Consider the following CSS snippet:</p>
-        <h4> CSS code</h4>
+
+      <ul>
+        <li>
+          <strong>Pixels (px)</strong>: A pixel is the smallest unit on a
+          digital display. It represents a single dot on the screen. Pixels are
+          commonly used for specifying sizes, margins, padding, and positions.
+          For example, you can set the width of an element to 300 pixels to make
+          it 300 pixels wide.
+        </li>
+        <li>
+          <strong>Percentages (%)</strong>: Percentages are relative units that
+          are calculated based on the size of another element. They are often
+          used for creating responsive designs that scale proportionally. For
+          instance, setting the width of an element to 50% will make it half the
+          width of its parent element.
+        </li>
+        <li>
+          <strong>Em (em)</strong>: An em is a relative unit that is based on
+          the font size of the current element. It is commonly used for font
+          sizes, margins, and padding. For example, setting the font size to
+          1.5em will make the font size 1.5 times larger than the current font
+          size. Ems are useful for creating scalable and responsive designs.
+        </li>
+        <li>
+          <strong>Rem (rem)</strong>: A rem is similar to an em, but it is
+          relative to the font size of the root element (<code>html</code>). It
+          provides a consistent reference point across the entire document. For
+          example, setting the margin of an element to 2rem will add a margin of
+          2 times the root font size around the element.
+        </li>
+      </ul>
+
+      <h2>Using Length Units</h2>
+      <p>{`Here's an example of how to use length units in CSS:`}</p>
+
+      <code>
         <pre>
           <code>
             {`
-  aside {
-    height: 80vh; /* 80% of the viewport height */
-  }
-            `}
+div {
+  width: 300px; /* Sets the width to 300 pixels */
+  margin: 20px; /* Adds 20 pixels of margin around the element */
+  padding: 10%; /* Adds 10% of the parent's width as padding */
+  font-size: 1.5rem; /* Sets the font size to 1.5 times the root font size */
+}
+          `}
           </code>
         </pre>
-        <p> In this example:</p>
-        <ul>
-          <li>
-            {`The <aside> element’s height is set to 80% of the viewport height.`}
-          </li>
-          <li>
-            {`If the viewport height is 800 pixels, the <aside> will have a height of 0.8 * 800px = 640px.`}
-          </li>
-        </ul>
-        <p>
-          Using vh ensures that your design adapts to different screen sizes,
-          making it ideal for responsive web development. 🌟
-        </p>
-      </ol>
+      </code>
+
       <p>
-        Remember, em and rem are powerful tools for creating flexible and
-        responsive designs. As for why we use “px” instead of spelling out
-        “pixel,” it’s simply for brevity and consistency in code.
+        In the code above, we used different length units to specify the width,
+        margin, padding, and font size of a div element. Pixels (px) provide
+        absolute measurements, while percentages (%) and rems (rem) offer
+        relative measurements. By using a combination of these units, you can
+        create flexible and responsive designs that adapt to different screen
+        sizes and font sizes.
       </p>
+
+      <h2>Time Units</h2>
       <p>
-        For more details, check out the{" "}
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Units .
+        Time units in CSS are used to specify durations for animations or
+        transitions. They allow you to control how long an animation or
+        transition takes to complete. Some commonly used time units include:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Seconds (s)</strong>: Represents a single second. For example,
+          setting the duration of an animation to 2s will make it last for 2
+          seconds.
+        </li>
+        <li>
+          <strong>Milliseconds (ms)</strong>: Represents a thousandth of a
+          second. Milliseconds are commonly used for shorter durations, such as
+          300ms for a subtle transition effect.
+        </li>
+      </ul>
+
+      <h2>Using Time Units</h2>
+      <p>{`Here's an example of how to use time units in CSS:`}</p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+.fade-in {
+  transition: opacity 0.5s ease; /* Sets a 0.5-second transition for the opacity property */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we used seconds (s) to specify the duration of a
+        transition effect. The transition property smoothly changes the opacity
+        of the element over 0.5 seconds, creating a fade-in effect. You can
+        adjust the duration to control the speed and smoothness of your
+        animations.
+      </p>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now it's time to put your knowledge into practice! Open your code editor and
+        create a new HTML file. Let's explore the wonderful world of units:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with div elements to serve as
+          containers for your unit experiments.
+        </li>
+        <li>
+          Apply different length units, such as pixels, percentages, ems, and
+          rems, to specify sizes, margins, padding, and font sizes. Observe how
+          they affect the layout and appearance of your elements. Try using
+          larger and smaller values to see the impact on the design.
+        </li>
+      </ol>
+
+      <p>
+        Remember, units play a crucial role in CSS. They provide precision,
+        consistency, and flexibility in your designs. Choose units that align
+        with your design goals, ensure responsiveness, and create visually
+        appealing and user-friendly interfaces. Happy coding and happy
+        designing!
       </p>
 
       <div className="button-container">
