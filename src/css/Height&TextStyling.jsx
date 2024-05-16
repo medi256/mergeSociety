@@ -155,161 +155,207 @@ export default Height;
 export const TextStyling = () => {
   return (
     <div className="comments-container">
-      <h1>Text Styling</h1>
+      <h1>The Magical Art of Styling Text in CSS</h1>
       <p>
-        CSS provides various methods to style text, such as changing color,
-        indentation, adding text decoration, and more. Fonts and colors have
-        been covered in previous tutorials and {`won't`} be discussed here.
+        {`Styling text in CSS is like giving your words a magical makeover! You can
+        transform their appearance, add emphasis, and create visually stunning
+        designs. In this section, we'll explore the fascinating world of text
+        styling in CSS and learn how to use different properties to style your text
+        elements. Let's embark on this text styling adventure!`}
       </p>
+
+      <h2>Word Spacing</h2>
+      <p>
+        The <code>word-spacing</code>{" "}
+        {`property allows you to adjust the space between
+        words in your text. You can use positive or negative values to increase or
+        decrease the spacing. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+p {
+  word-spacing: 5px; /* Adds 5 pixels of space between each word */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>word-spacing</code> property to 5
+        pixels, creating a noticeable gap between each word. This technique can
+        be used to create a unique layout, improve readability, or add emphasis
+        to certain phrases or keywords. Play with different values to find the
+        perfect spacing that enhances the visual appeal and readability of your
+        text.
+      </p>
+
+      <h2>Letter Spacing</h2>
+      <p>
+        The <code>letter-spacing</code>{" "}
+        {`property allows you to adjust the space between
+        individual letters in your text. You can use positive or negative values to
+        increase or decrease the spacing. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+h1 {
+  letter-spacing: 2px; /* Adds 2 pixels of space between each letter */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>letter-spacing</code> property to 2
+        pixels, creating a slight gap between each letter. This technique is
+        often used to create unique visual effects, add emphasis to headings, or
+        improve the readability of tightly spaced letters. Experiment with
+        different values to find the perfect letter spacing that complements
+        your design and enhances readability.
+      </p>
+
+      <h2>Line Height</h2>
+      <p>
+        The <code>line-height</code> property allows you to adjust the spacing
+        between lines of text. It determines the distance between the baselines
+        of adjacent lines. You can use numeric values, percentages, or keywords
+        like
+        <code>normal</code>. {`Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+p {
+  line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>line-height</code> property to 1.5,
+        creating a comfortable spacing between lines of text. This improves
+        readability and makes the text easier to scan. You can adjust the line
+        height to create tighter or looser spacing, depending on your design
+        needs. A higher line height generally improves readability, while a
+        lower line height can create a more compact and dense appearance.
+      </p>
+
+      <h2>Text Alignment</h2>
+      <p>
+        The <code>text-align</code> property allows you to align your text
+        within its container. You can choose from values like <code>left</code>,
+        <code>right</code>, <code>center</code>, or <code>justify</code>.{" "}
+        {`Here's an`}
+        example:
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+div {
+  text-align: justify; /* Justifies the text within the container */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we set the <code>text-align</code> property to
+        <code>justify</code>, aligning the text to both the left and right edges
+        of the container. This creates a clean, justified alignment, commonly
+        used for body text or paragraphs. You can also center text using{" "}
+        <code>text-align: center</code>
+        to create a balanced layout or align text to the left or right to
+        achieve different visual effects. Text alignment plays a crucial role in
+        creating visually appealing and readable designs.
+      </p>
+      <h2>
+        Here is a table for all th values of <code>{`text-align`}</code>{" "}
+        property
+      </h2>
+      <table border="1" style={{ borderCollapse: "collapse", padding: "20px" }}>
+        <tr>
+          <th>Value</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>left</td>
+          <td>Aligns the text to the left</td>
+        </tr>
+        <tr>
+          <td>right</td>
+          <td>Aligns the text to the right</td>
+        </tr>
+        <tr>
+          <td>center</td>
+          <td>Centers the text horizontally</td>
+        </tr>
+        <tr>
+          <td>justify</td>
+          <td>
+            Expands the spaces between words so that the lines of text touch
+            both sides of the container
+          </td>
+        </tr>
+      </table>
+
+      <h2>Practice Time!</h2>
+      <p>
+        {`Now it's time to put your knowledge into practice! Open your code editor and
+        create a new HTML file. Let's explore the wonderful world of text styling:`}
+      </p>
+
       <ol>
         <li>
-          Text Decoration (<code>text-decoration</code>):
-          <ul>
-            <li>
-              Adds visual effects to text (e.g., underline, overline,
-              line-through).
-            </li>
-            <li>Common values: none, underline, overline, line-through.</li>
-            <li>Example:</li>
-          </ul>
-          <h4>CSS code</h4>
-          <pre>
-            <code>
-              {`
-  a {
-    text-decoration: none; /* Remove underline from links */
-  }
-              `}
-            </code>
-          </pre>
-          <p>
-            It removes the default underline from links, providing a cleaner and
-            more visually appealing appearance.
-          </p>
-          <p>Play around with other values to see how they affect your text.</p>
+          Create a simple HTML structure with text elements to serve as
+          containers for your text styling experiments.
         </li>
         <li>
-          Text Transformation (<code>text-transform</code>):
-          <ul>
-            <li>Controls text capitalization within an element.</li>
-            <li>Values: uppercase, lowercase, capitalize, none (default).</li>
-          </ul>
-          <h4>Example:</h4>
-          <h4>CSS code</h4>
-          <pre>
-            <code>
-              {`
-  h2 {
-    text-transform: uppercase;
-  }
-              `}
-            </code>
-          </pre>
-          <p>
-            The text within <code>&lt;h2&gt;</code> elements will appear in
-            uppercase.
-          </p>
-          <p>Experiment with different values for varying effects.</p>
+          Apply different word spacing values and observe how they affect the
+          spacing between words. Try using larger and smaller values to see the
+          impact on readability.
         </li>
         <li>
-          Text Shadow (<code>text-shadow</code>):
-          <p>
-            Adds a shadow effect behind text, enhancing visibility and creating
-            depth.
-          </p>
-          <h4>Syntax:</h4>
-          <ul>
-            <li>h-shadow, v-shadow, blur, color.</li>
-          </ul>
-          <h4>Example:</h4>
-          <pre>
-            <code>
-              {`
-  h3 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  `}
-            </code>
-          </pre>
-          <ul>
-            <li>
-              The text inside <code>&lt;h3&gt;</code> elements will have a
-              shadow.
-            </li>
-            <li>Adjust values for different shadow effects.</li>
-          </ul>
+          Experiment with letter spacing to create unique visual effects or
+          improve readability. Play with positive and negative values to see
+          their effects.
         </li>
         <li>
-          Letter Spacing (<code>letter-spacing</code>):
-          <p>Controls space between individual characters within text.</p>
-          <h4>Example:</h4>
-          <pre>
-            <code>
-              {`
-  p {
-    letter-spacing: 1px;
-  }
-              `}
-            </code>
-          </pre>
-          <ul>
-            <li>
-              Text inside <code>&lt;p&gt;</code> elements will have an
-              additional space of 1 pixel between each character.
-            </li>
-            <li>Adjust the value based on design preferences.</li>
-          </ul>
+          Adjust the line height to create comfortable spacing between lines of
+          text, ensuring readability. Try different values to find the perfect
+          balance.
         </li>
         <li>
-          Word Spacing (<code>word-spacing</code>):
-          <p>Controls space between words within text.</p>
-          <h4>Example:</h4>
-          <pre>
-            <code>
-              {`
-              p {
-                word-spacing: 2px;
-              }
-              `}
-            </code>
-          </pre>
-          <ul>
-            <li>
-              Text inside <code>&lt;p&gt;</code> elements will have an
-              additional space of 2 pixels between adjacent words.
-            </li>
-            <li>Adjust the value based on design preferences.</li>
-          </ul>
+          Explore text alignment options to create balanced layouts or emphasize
+          important text elements. Center a heading, justify a paragraph, or
+          align text to the left or right to see the visual impact.
         </li>
         <li>
-          Text Alignment (<code>text-align</code>):
-          <p>Determines horizontal alignment of text within its container.</p>
-          <h4>Example:</h4>
-          <pre>
-            <code>
-              {`
-  .centered {
-    text-align: center;
-  }
-              `}
-            </code>
-          </pre>
-          <ul>
-            <li>
-              Text inside elements with class <code>.centered</code> will be
-              centered horizontally.
-            </li>
-            <li>Useful for creating centered headings, captions, etc.</li>
-          </ul>
+          Refer to text styling resources and tutorials to discover creative
+          ways to style your text, such as using text shadows, adding special
+          effects, or combining multiple text styling properties.
         </li>
       </ol>
+
       <p>
-        Practice these concepts in your code editor to reinforce your learning.
-      </p>
-      <p>
-        For more details, refer to the{" "}
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Text.
+        Remember, text styling plays a crucial role in web design. It helps
+        convey the right tone, adds emphasis, and enhances the user experience.
+        Choose text styles that align with your brand, ensure readability, and
+        create visually appealing designs. Happy coding and happy designing!
       </p>
 
       <div className="button-container">
