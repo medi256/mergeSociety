@@ -349,7 +349,7 @@ video {
 }
 
 .landing-page {
-  background-image: url("https://res.cloudinary.com/dhgjhspsp/image/upload/v1714548150/landingPage2_xdiscv.jpg");
+  background-image: url("image/landingPage2.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
