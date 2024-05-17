@@ -1,249 +1,244 @@
 const List = () => {
   return (
     <div className="comments-container">
-      <h1>Lists</h1>
-      <h2>HTML Lists Recap</h2>
-      <p>There are two main types of lists in HTML — Ordered and Unordered.</p>
+      <h1>The Magical World of List Styling in CSS</h1>
       <p>
-        In Ordered lists {`(<ol></ol>)`}, the order of the list items is
-        important. The items may appear in order by number, roman numeral, alpha
-        numeral, or another type of marker. The default marker for ordered lists
-        is a number (or decimal).
+        {`List styling in CSS is an essential aspect of creating visually
+        appealing and functional designs. Lists are commonly used for presenting
+        information, navigation, content organization, and more. In this
+        section, we'll explore the fascinating world of list styling and learn
+        how to use CSS to transform your lists into beautiful and user-friendly
+        elements. Let's embark on this list styling adventure!`}
       </p>
+
+      <h2>Understanding List Styling</h2>
       <p>
-        In Unordered lists {`(<ul></ul>)`}, the order of the list items does not
-        matter. The items appear in bullet format. The default marker for
-        unordered lists is a round bullet point or disc.
+        List styling involves applying CSS properties to lists, list items, and
+        their markers to enhance their appearance and improve the user
+        experience. Lists can be styled in numerous ways, including changing the
+        marker style, modifying the spacing between list items, adding
+        decorative effects, and even creating entirely custom markers. The{" "}
+        <code>list-style-type</code> property is one of the key properties used
+        for list styling. {`Let's explore it in depth:`}
       </p>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401427/unordered-list_paktt8.png"
-        alt="images of unordered list"
-      />
+
+      <h3>list-style-type Property</h3>
       <p>
-        Each list item within an ordered or unordered list is created with the{" "}
-        {`<li></li>`} tag.
+        The <code>list-style-type</code> property allows you to specify the type
+        of marker used for list items. It can be applied to both unordered lists
+        (<code>ul</code>) and ordered lists (<code>ol</code>). Here are some
+        commonly used values for
+        <code>list-style-type</code>:
       </p>
-      <h1>List-Specific Styles</h1>
-      <p>
-        There are three common properties specific to styling lists:
-        list-style-type, list-style-position, and list-style-image. There is
-        also a shorthand property which includes all three.
-      </p>
-      <h3>list-style-type</h3>
-      <p>
-        The markers (or bullet points) that appear in ordered and unordered
-        lists can be styled in a variety of ways. The CSS property for styling
-        the marker type is list-style-type. The default list-style-type value
-        for an ordered list is decimal, whereas the default for an unordered
-        list is disc.
-      </p>
-      <h4>Ordered list example:</h4>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ol {
-        list-style-type: upper-roman;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401636/list-style-type-upper-roman_tmm01x.png"
-        alt="this image describes ordered lists with roman list style type"
-      />
-      <h3>Unordered list example:</h3>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style-type: square;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401791/list-style-type-square_agxirh.png"
-        alt="these are lists with square bullets"
-      />
-      <h3>No marker example:</h3>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style-type: none;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401893/listNone_d9kmsq.png"
-        alt="these image describes lists with no bullets"
-      />
-      <p>Accepted values for the list-style-type property include:</p>
-      <h4>Unordered:</h4>
+
       <ul>
-        <li>disc (default)</li>
-        <li>circle</li>
-        <li>square</li>
+        <li>
+          <strong>disc:</strong> This value displays a solid circle as the
+          marker. It is commonly used for unordered lists.
+        </li>
+        <li>
+          <strong>circle:</strong> This value displays an empty circle as the
+          marker. It is often used for nested lists or to create a more open and
+          airy appearance.
+        </li>
+        <li>
+          <strong>square:</strong> This value displays a filled square as the
+          marker. It creates a bold and modern look for your lists.
+        </li>
+        <li>
+          <strong>decimal:</strong> This value displays numbers as markers,
+          starting from 1, 2, 3, and so on. It is commonly used for ordered
+          lists.
+        </li>
+        <li>
+          <strong>lower-alpha:</strong> This value displays lowercase letters as
+          markers, starting from a, b, c, and so on. It creates an alphabetical
+          list.
+        </li>
+        <li>
+          <strong>upper-roman:</strong> This value displays upper-case Roman
+          numerals as markers, starting from I, II, III, and so on. It adds an
+          elegant touch to your lists.
+        </li>
+
+        <li>
+          <strong>none:</strong> This value removes any markers from the list
+          items, resulting in a clean and minimalist look. No bullets, numbers,
+          or other markers will be displayed, allowing for a seamless
+          integration into your content.
+        </li>
       </ul>
-      <h4>Ordered:</h4>
+
+      <code>
+        <pre>
+          <code>
+            {`
+            ul {
+              list-style-type: circle; /* Changes the marker style to circles */
+            }
+
+            ol {
+              list-style-type: lower-alpha; /* Changes the marker style to lowercase letters */
+            }
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we used <code>list-style-type</code> to change the
+        marker style for unordered lists to circles and for ordered lists to
+        lowercase letters. You can experiment with different values to create
+        lists that align with your design aesthetic and content.
+      </p>
+      <p>
+        Experiment with the various values to see how they are displayed in your
+        browser.
+      </p>
+
+      <h2>Using List Styling</h2>
+      <p>
+        List styling can be used to create visually appealing and functional
+        lists. In addition to <code>list-style-type</code>, there are other
+        properties that can be used to style lists, such as <code>padding</code>
+        , <code>margin</code>, and
+        <code>list-style-image</code>.{" "}
+        {`Let's explore some of these properties:`}
+      </p>
+
+      <h3>Padding and Margin</h3>
+      <p>
+        Padding and margin can be used to adjust the spacing around list items.
+        Padding controls the space inside the list item, while margin controls
+        the space outside the list item. These properties can be used to create
+        indentation, add breathing room between list items, and improve the
+        overall layout of your lists.
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+            li {
+              padding-left: 20px; /* Adds left padding for indentation */
+              margin-bottom: 10px; /* Adds bottom margin for spacing between list items */
+            }
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <p>
+        In the code above, we added left padding to create indentation for the
+        list items and bottom margin to create spacing between each item. You
+        can adjust these values to achieve the desired spacing and layout for
+        your lists.
+      </p>
+
+      <h3>list-style-image Property</h3>
+      <p>
+        The <code>list-style-image</code> property allows you to use an image as
+        the marker for list items. This property can be used to create unique
+        and custom list styles. {`Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+            ul {
+              list-style-image: url('custom-marker.png'); /* Uses an image as the marker */
+            }
+          `}
+          </code>
+        </pre>
+      </code>
+      <p>
+        In the code above, we used the <code>list-style-image</code>{" "}
+        {` property to
+        specify a custom image as the marker for the unordered list. You can
+        replace 'custom-marker.png' with the path to your own image file.`}
+      </p>
+      <h3>Note</h3>
+      <p>
+        The same way we uploaded images to our background-image is the way we do
+        it for the list-style-type. You just need a URL.
+      </p>
+
+      <p>
+        You can also use other CSS properties on lists just like any other
+        element. You can apply color, background, font, and many others.
+      </p>
+
+      <h2>Benefits of List Styling</h2>
+      <p>Using list styling offers several advantages for your designs:</p>
+
       <ul>
-        <li>decimal (default)</li>
-        <li>decimal-leading-zero</li>
-        <li>lower-roman</li>
-        <li>upper-roman</li>
-        <li>lower-greek</li>
-        <li>lower-latin</li>
-        <li>upper-latin</li>
-        <li>armenian</li>
-        <li>georgian</li>
-        <li>lower-alpha</li>
-        <li>upper-alpha</li>
+        <li>
+          <strong>Visual Appeal:</strong> List styling allows you to enhance the
+          appearance of your lists, making them more visually appealing and
+          engaging. You can experiment with different marker styles, colors, and
+          spacing options to create lists that complement your overall design
+          aesthetic.
+        </li>
+        <li>
+          <strong>Readability:</strong> Proper list styling improves readability
+          by providing clear markers, adequate spacing, and a well-organized
+          layout. This makes it easier for users to scan and understand the
+          information presented in the list.
+        </li>
+        <li>
+          <strong>User Experience:</strong> List styling can greatly improve the
+          user experience. Well-styled lists guide users through content,
+          highlight important information, and make navigation more intuitive.
+          By styling lists effectively, you can enhance the usability and
+          accessibility of your designs.
+        </li>
       </ul>
-      <h4>Other:</h4>
-      <ul>
-        <li>none</li>
-      </ul>
+
+      <h2>Practice Time!</h2>
       <p>
-        Note: all the property values listed above can be used for styling both
-        ordered and unordered lists (ex: an ordered list with square list
-        markers).
+        {`Now it's time to put your knowledge into practice! Open your code editor
+        and create a new HTML file. Let's explore the wonderful world of list
+        styling:`}
       </p>
-      <h3>list-style-position</h3>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with unordered lists (<code>ul</code>)
+          and ordered lists (<code>ol</code>) to serve as containers for your
+          list styling experiments.
+        </li>
+        <li>
+          Apply different <code>list-style-type</code> values to change the
+          marker style of your lists. Try using circles, squares, numbers,
+          letters, or even custom images as markers to see the impact on the
+          appearance.
+        </li>
+        <li>
+          Experiment with padding and margin to adjust the spacing between list
+          items and create a visually balanced layout. Try using different
+          values for each side to achieve the desired indentation and spacing.
+        </li>
+        <li>
+          Explore the <code>list-style-image</code> property to use custom
+          images as markers. Play with different image options to create unique
+          and creative lists.
+        </li>
+        <li>
+          Refer to list styling resources and tutorials to discover more
+          advanced list styling techniques, such as creating nested lists,
+          adding interactive effects, or using pseudo-classes to style specific
+          list items.
+        </li>
+      </ol>
+
       <p>
-        list-style-position controls whether the list marker appears inside or
-        outside of each list item element {`(<li></li>)`}. The property accepts
-        two values, outside (default) or inside.
-      </p>
-      <p>
-        Position the marker outside of the list item element, and all text lines
-        and sub-lines of each list item will align vertically:
-      </p>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style-position: outside; /* default */
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712401993/positionOut_azosla.png"
-        alt="this image shows how lists are positioned outside"
-      />
-      <h3>list-style-image</h3>
-      <p>
-        The list-style-image property accepts an image url in place of the list
-        marker. The default value for this property is none.
-      </p>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style-image: url(https://url-to-image);
-      }
-      `}
-        </code>
-      </pre>
-      <h2>list-style Shorthand</h2>
-      <p>
-        list-style is a shorthand property for the three style properties listed
-        above. The order of values list-style accepts is list-style-type,
-        list-style-position, and list-style-image. If any value is omitted, the
-        default value for that property will be used.
-      </p>
-      <h4>Example:</h4>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style: circle inside none;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402102/shorthand_invwlz.png"
-        alt="this image has an example on how to use the image shorthand property"
-      />
-      <h1>More List-Specific Styling</h1>
-      <p>
-        Ordered list tags also accept attributes that control the flow, count,
-        or specific marker values of its list items. These include the start,
-        reversed, and value attributes. See the MDN resources listed below for
-        further details.
-      </p>
-      <h3>General Styling</h3>
-      <p>
-        List content can be styled just like other p or div elements. color,
-        font-family, margin, padding, or border are just a few examples of
-        properties that can be added to either the ul, ol, or li elements.
-      </p>
-      <p>
-        Note that any styles added to the ul or ol element will affect the
-        entire list. Styles added directly to the li elements will affect the
-        individual list items. In the example below, the border and
-        background-color properties are styled differently between the list and
-        list item elements:
-      </p>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style-type: circle;
-        border: 2px solid blue;
-        background-color: lightblue;
-      }
-      li {
-        margin: 5px;
-        background-color: lightyellow;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402197/listAgain_dylo5w.png"
-        alt="There was an error with this image"
-      />
-      <h3>List Spacing</h3>
-      <p>
-        You may notice extra spacing in front of the list items when
-        list-style-type is set to none. Setting padding to 0 (or whatever
-        spacing is preferred) on the list element will override this default
-        padding.
-      </p>
-      <pre>
-        <code>
-          {`
-      /* css */
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        padding: 5px 10px;
-        background-color: #EEEEEE;
-        border: 1px solid #DDDDDD;
-      }
-      `}
-        </code>
-      </pre>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712402284/listPadding_ixue4s.png"
-        alt="Removing padding on lists"
-      />
-      <p>
-        For more details, check out the{" "}
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Lists.
+        Remember, list styling is a powerful tool in CSS. It helps create
+        visually appealing and functional lists that enhance the user
+        experience. Choose list styling options that align with your design
+        goals, ensure readability, and create engaging interfaces. Happy coding
+        and happy designing!
       </p>
 
       <div className="button-container">
