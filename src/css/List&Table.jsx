@@ -73,13 +73,13 @@ const List = () => {
         <pre>
           <code>
             {`
-            ul {
-              list-style-type: circle; /* Changes the marker style to circles */
-            }
+ul {
+  list-style-type: circle; /* Changes the marker style to circles */
+}
 
-            ol {
-              list-style-type: lower-alpha; /* Changes the marker style to lowercase letters */
-            }
+ol {
+  list-style-type: lower-alpha; /* Changes the marker style to lowercase letters */
+}
           `}
           </code>
         </pre>
@@ -119,10 +119,10 @@ const List = () => {
         <pre>
           <code>
             {`
-            li {
-              padding-left: 20px; /* Adds left padding for indentation */
-              margin-bottom: 10px; /* Adds bottom margin for spacing between list items */
-            }
+li {
+  padding-left: 20px; /* Adds left padding for indentation */
+  margin-bottom: 10px; /* Adds bottom margin for spacing between list items */
+}
           `}
           </code>
         </pre>
@@ -146,9 +146,9 @@ const List = () => {
         <pre>
           <code>
             {`
-            ul {
-              list-style-image: url('custom-marker.png'); /* Uses an image as the marker */
-            }
+ul {
+  list-style-image: url('custom-marker.png'); /* Uses an image as the marker */
+}
           `}
           </code>
         </pre>
