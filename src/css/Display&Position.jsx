@@ -1,205 +1,256 @@
 const Display = () => {
   return (
     <div className="comments-container">
-      <h1>The CSS Display Property</h1>
+      <h1>Diving Deep into the CSS Display Property</h1>
       <p>
-        The CSS display property specifies how an element should be displayed.
-        Essentially, it allows us to control whether elements behave as block
-        elements, inline elements, or something else.
-      </p>
-      <h3>Values:</h3>
-      <ul>
-        <li>block</li>
-        <li>inline</li>
-        <li>none</li>
-        <li>inline-block</li>
-      </ul>
-      <p>
-        These are some of the most commonly used values for the CSS display
-        property. However, there are more values available, which you can
-        explore further on the Mozilla Web Docs.
-      </p>
-      <h2>CSS Block-level Element</h2>
-      <p>
-        Block-level elements always occupy the full width available and start on
-        a new line, creating a horizontal block.
-      </p>
-      <h3>Examples of Block-level Elements:</h3>
-      <pre>
-        <code>
-          {`
-  <p> </p>
-  <h1>-<h6>
-  <div> <ul>
-  <ol> <li>
-  <form> <section>
-  <header> <nav>
-  <main> <footer>
-          `}
-        </code>
-      </pre>
-      <h3>Examples with Code:</h3>
-      <pre>
-        <code>
-          {`
-  <h1>Block-level elements</h1>
-  <p style="background:gold;">Take up the full width</p>
-  <div>and always start on a new line.</div>
-          `}
-        </code>
-      </pre>
-      <h3>Output:</h3>
-      <div>
-        <h1>Block-level elements</h1>
-        <p style={{ backgroundColor: "gold" }}>Take up the full width</p>
-        <div>and always start on a new line.</div>
-      </div>
-      <p>
-        By default, HTML elements with the display property set in CSS are
-        block-level elements.
-      </p>
-      <h2>CSS Inline Elements</h2>
-      <p>
-        Inline elements do not occupy the full width available and do not start
-        on a new line.
-      </p>
-      <h3>Examples of Inline Elements:</h3>
-      <pre>
-        <code>
-          {`
-  <span>, <i>, <a>, <img>
-          `}
-        </code>
-      </pre>
-      <h3>Examples with Code:</h3>
-      <pre>
-        <code>
-          {`
-  <span>Inline elements</span>
-  <i>don't take up the full</i>
-  <a href="https://www.mergesociety.com">width and do not start on a new line</a>
-          `}
-        </code>
-      </pre>
-      <h3>Output:</h3>
-      <div>
-        <span>Inline elements</span>
-        <i>{`don't`} take up the full</i>
-        <a href="https://www.mergesociety.com">
-          width and do not start on a new line
-        </a>
-      </div>
-      <h2>Changing Display Values</h2>
-      <p>
-        Here is an example of changing the display value from block to inline:
-      </p>
-      <pre>
-        <code>
-          <h3>HTML code</h3>
-          {`
-  <ul>
-    <li>Apples</li>
-    <li>Oranges</li>
-    <li>Bananas</li>
-  </ul>
-          `}
-          <h3>CSS code</h3>
-          {`
-  li {
-    display: inline;
-  }
-          `}
-        </code>
-      </pre>
-      <h3>Output:</h3>
-      <div>
-        <ul style={{ display: "inline" }}>
-          <li>Apples</li>
-          <li>Oranges</li>
-          <li>Bananas</li>
-        </ul>
-      </div>
-      <p>
-        Notice how {`they're`} now on a single line instead of each being on its
-        own line.
-      </p>
-      <h3>
-        Here is an example of changing the display value from inline to block.
-      </h3>
-      <pre>
-        <h4>HTML code</h4>
-        <code>
-          {`
-  <span>Hello World!</span>
-  <span>I love mergeSociety!</span>
-          `}
-        </code>
-        <h4>CSS code</h4>
-        <code>
-          {`
-  span {
-    display: block;
-  }
-          `}
-        </code>
-      </pre>
-      <h3>Output:</h3>
-      <div>
-        <span style={{ display: "block" }}>Hello World!</span>
-        <span style={{ display: "block" }}>I love mergeSociety!</span>
-      </div>
-      <h2>None Value</h2>
-      <p>
-        The <code>{`"none"`}</code> value in CSS can be used to remove elements
-        from the webpage.
-      </p>
-      <h3>For example:</h3>
-      <pre>
-        <h4>HTML code</h4>
-        <code>
-          {`
-   <p>I will disappear</p>
-          `}
-        </code>
-        <h4>CSS code</h4>
-        <code>
-          {`
-   p {
-     display: none;
-   }
-          `}
-        </code>
-      </pre>
-      <p>In this example, the paragraph will disappear from the webpage.</p>
-      <p>Try it out and see what happens.</p>
-      <h2>display: inline-block</h2>
-      <p>
-        In addition to block, inline, and none, {`there's`} also inline-block.
-        An element with a display of inline-block behaves like an inline element
-        but allows you to apply width and height to it.
-      </p>
-      <p>
-        This is useful for adding styles to inline elements, as certain styles
-        like width and height cannot be applied to inline elements by default.
-        Try adding width and height to inline elements, and then set the display
-        to inline-block to observe the difference.
-      </p>
-      <h3>Example:</h3>
-      <pre>
-        <code>
-          {`
-  span {
-    display: inline-block;
-  }
-          `}
-        </code>
-      </pre>
-      <p>
-        For further details, you can refer to the{" "}
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Display.
+        {`The CSS display property is a fundamental concept in web development
+        that gives developers immense control over the visual structure and
+        behavior of HTML elements. By understanding and utilizing this property
+        effectively, you can create responsive, dynamic, and visually appealing
+        web designs. In this comprehensive tutorial, we'll explore the various
+        values of the display property, their impact on layout, and how you can
+        leverage them to build flexible and engaging user interfaces.`}
       </p>
 
+      <h2>Block-Level Elements</h2>
+      <p>
+        {`Block-level elements are the building blocks of your webpage's layout.
+        They occupy the entire width of their parent container and always start
+        on a new line, creating distinct horizontal blocks. These elements form
+        the foundation of your design and are commonly used for structuring
+        content. Here are some examples of block-level elements:`}
+      </p>
+
+      <ul>
+        <li>
+          <strong>Paragraphs:</strong> <code>&lt;p&gt;</code>
+        </li>
+        <li>
+          <strong>Headings:</strong> <code>&lt;h1&gt;</code> to{" "}
+          <code>&lt;h6&gt;</code>
+        </li>
+        <li>
+          <strong>Divisions:</strong> <code>&lt;div&gt;</code>
+        </li>
+        <li>
+          <strong>Lists:</strong> <code>&lt;ul&gt;</code>,{" "}
+          <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>
+        </li>
+        <li>
+          <strong>Forms:</strong> <code>&lt;form&gt;</code>
+        </li>
+        <li>
+          <strong>Structural Elements:</strong> <code>&lt;section&gt;</code>,{" "}
+          <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>,{" "}
+          <code>&lt;nav&gt;</code>
+        </li>
+      </ul>
+
+      <pre>
+        <code>
+          {`
+<div>I'm a block-level element</div>
+<p>I take up the full width of my container</p>
+          `}
+        </code>
+      </pre>
+
+      <p>
+        By default, most HTML elements are set to display as block-level
+        elements, creating a natural structure and flow to your webpage.
+      </p>
+
+      <h2>Inline Elements</h2>
+      <p>
+        Inline elements are the opposite of block-level elements. They flow with
+        the surrounding text and do not create line breaks. Inline elements are
+        used for small pieces of content or interactive elements that need to be
+        embedded within a larger block of text. Here are some examples:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Span:</strong> <code>&lt;span&gt;</code>
+        </li>
+        <li>
+          <strong>Italic Text:</strong> <code>&lt;i&gt;</code>
+        </li>
+        <li>
+          <strong>Anchor Links:</strong> <code>&lt;a&gt;</code>
+        </li>
+        <li>
+          <strong>Images:</strong> <code>&lt;img&gt;</code>
+        </li>
+      </ul>
+
+      <pre>
+        <code>
+          {`
+<p>This is a <span>span element</span> within a paragraph.</p>
+<i>I'm an italic text element, flowing with the text.</i>
+          `}
+        </code>
+      </pre>
+
+      <p>
+        Inline elements are versatile and can be used for adding emphasis,
+        creating links, or embedding images within the flow of your content.
+      </p>
+
+      <h2>Manipulating Display Values</h2>
+      <p>
+        {`The true power of the display property lies in your ability to
+        manipulate how elements are displayed. You can change the behavior of
+        block-level elements to act like inline elements, and vice versa. This
+        flexibility allows you to create unique and dynamic layouts. Let's
+        explore some examples:`}
+      </p>
+
+      <pre>
+        <code>
+          {`
+/* CSS */
+
+/* Transforming a block-level list item to inline */
+li {
+  display: inline;
+}
+
+/* Changing an inline element to block */
+span {
+  display: block;
+}
+          `}
+        </code>
+      </pre>
+
+      <p>
+        By altering the display values, you can achieve intricate designs and
+        responsive behaviors. For example, you can create a horizontal menu by
+        setting the display of list items to inline, or you can give an inline
+        element a specific width and height by changing it to a block element.
+      </p>
+
+      <h2>{`Hiding Elements with "None"`}</h2>
+      <p>
+        The <code>none</code> value of the display property allows you to
+        completely hide elements from the webpage. This is particularly useful
+        for creating dynamic interfaces or responsive designs where certain
+        elements need to be shown or hidden based on specific conditions, such
+        as screen size or user interactions.
+      </p>
+
+      <pre>
+        <code>
+          {`
+/* CSS */
+.hidden-element {
+  display: none;
+}
+          `}
+        </code>
+      </pre>
+
+      <p>
+        By using <code>display: none</code>, you can control the visibility of
+        elements without removing them from the HTML structure. This technique
+        is commonly used for implementing responsive navigation menus, tabs, or
+        conditional content display.
+      </p>
+
+      <h2>{`The Magic of "Inline-Block"`}</h2>
+      <p>
+        The <code>inline-block</code> value combines the best of both worlds.
+        Elements with this display value behave like inline elements, flowing
+        with the surrounding content, but you can also apply width and height
+        properties to them. This gives you the flexibility to create complex
+        layouts and designs.
+      </p>
+
+      <pre>
+        <code>
+          {`
+/* CSS */
+span {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+}
+          `}
+        </code>
+      </pre>
+
+      <p>
+        With <code>inline-block</code>, you can create visually appealing
+        designs where elements flow like inline elements but have specific
+        dimensions and styling applied to them. This is especially useful for
+        creating responsive grids or unique visual compositions.
+      </p>
+
+      <h2>Impact on Layout and Responsiveness</h2>
+      <p>
+        The display property plays a crucial role in determining the layout and
+        responsiveness of your web pages. By manipulating display values, you
+        can create fluid and adaptive designs that respond to different screen
+        sizes or user interactions. For example:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Responsive Navigation:</strong> You can create a responsive
+          navigation menu by changing the display value of list items based on
+          the screen size.
+        </li>
+        <li>
+          <strong>Dynamic Content Display:</strong> By showing or hiding
+          elements with <code>display: none</code>, you can create dynamic
+          interfaces that adapt to user interactions or device capabilities.
+        </li>
+        <li>
+          <strong>Flexible Grids:</strong> Using <code>inline-block</code>, you
+          can create flexible grids that rearrange themselves based on available
+          space, making your designs more responsive.
+        </li>
+      </ul>
+
+      <h2>Practical Exercises</h2>
+      <p>
+        {`Now it's time to put your knowledge to the test! Open your code editor
+        and experiment with the following exercises to reinforce your
+        understanding of the display property:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with various block and inline elements.
+        </li>
+        <li>
+          Play with different display property values and observe how they
+          impact the layout and behavior of elements.
+        </li>
+        <li>
+          Try hiding elements using <code>display: none</code> and then
+          revealing them with <code>display: block</code> based on different
+          conditions.
+        </li>
+        <li>
+          Create a responsive navigation menu that changes its display behavior
+          based on the screen size.
+        </li>
+        <li>
+          Explore advanced techniques by referring to CSS documentation and
+          online resources, such as creating complex layouts with{" "}
+          <code>inline-block</code>.
+        </li>
+      </ol>
+
+      <p>
+        Remember, the display property is a versatile tool that empowers you to
+        create dynamic and visually stunning web designs. By understanding and
+        manipulating display values, you can build responsive and engaging user
+        interfaces that adapt to different devices and user interactions. Happy
+        coding and designing!
+      </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "float")}>back</button>
         <button onClick={() => (window.location.href = "position")}>
