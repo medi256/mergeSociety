@@ -716,10 +716,39 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           CanIUse.com
         </i>
       </p>
+
+      <h2>Practice Time!</h2>
       <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Position .
+        {`Now it's time to put your knowledge into practice! Open your code editor and
+        create a new HTML file. Let's explore the wonderful world of position:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with elements to serve as containers
+          for your position experiments.
+        </li>
+        <li>
+          Apply different position values, such as <code>relative</code>,{" "}
+          <code>absolute</code>,<code>fixed</code>, and <code>sticky</code>, to
+          observe how elements are positioned on the page.
+        </li>
+        <li>
+          Experiment with moving elements, creating overlays, and building
+          complex layouts using different positioning values.
+        </li>
+        <li>
+          Refer to position resources and tutorials to discover creative ways to
+          use position, such as creating responsive designs, managing element
+          stacking with z-index, or creating sticky headers or sidebars.
+        </li>
+      </ol>
+
+      <p>
+        Remember, position is a powerful tool in CSS that gives you control over
+        the placement and arrangement of elements. Choose position options that
+        align with your design goals, ensure responsiveness, and create engaging
+        interfaces. Happy coding and happy designing!
       </p>
 
       <div className="button-container">
