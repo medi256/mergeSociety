@@ -232,9 +232,9 @@ export const Columns = () => {
         <pre>
           <code>
             {`
-            .columns {
-              columns: 3; /* Creates three columns within the element */
-            }
+.columns {
+  columns: 3; /* Creates three columns within the element */
+}
           `}
           </code>
         </pre>
@@ -263,10 +263,10 @@ export const Columns = () => {
         <pre>
           <code>
             {`
-            .magazine-layout {
-              columns: 2; /* Creates two columns for the content */
-              column-gap: 20px; /* Adds a gap between the columns */
-            }
+.magazine-layout {
+  columns: 2; /* Creates two columns for the content */
+  column-gap: 20px; /* Adds a gap between the columns */
+}
           `}
           </code>
         </pre>
@@ -291,9 +291,9 @@ export const Columns = () => {
         <pre>
           <code>
             {`
-            .unequal-columns {
-              column-width: 200px 300px; /* Creates two columns with unequal widths */
-            }
+.unequal-columns {
+  column-width: 200px 300px; /* Creates two columns with unequal widths */
+}
           `}
           </code>
         </pre>
@@ -315,13 +315,13 @@ export const Columns = () => {
         <pre>
           <code>
             {`
-            .columns {
-              columns: 3;
-            }
+.columns {
+  columns: 3;
+}
 
-            .column:nth-child(2) {
-              background-color: #f0f0f0; /* Adds a background color to the second column */
-            }
+.column:nth-child(2) {
+  background-color: #f0f0f0; /* Adds a background color to the second column */
+}
           `}
           </code>
         </pre>
