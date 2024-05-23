@@ -7,6 +7,7 @@ const ZIndex = () => {
         webpage. Elements with a higher z-index value are displayed in front of
         those with a lower z-index value.
       </p>
+
       <h3>Default Stacking Order</h3>
       <p>By default, elements are stacked in the following order:</p>
       <ol>
@@ -15,39 +16,36 @@ const ZIndex = () => {
         <li>Positioned elements in the order they are defined</li>
       </ol>
       <p>
-        Non-positioned elements are those with the default{" "}
-        {`position value of "static",
-        while positioned elements have any other position value (e.g., "absolute", "relative",
-        "sticky", or "fixed").`}
+        {`Non-positioned elements are those with the default position value of
+        "static", while positioned elements have any other position value (e.g.,
+        "absolute", "relative", "sticky", or "fixed").`}
       </p>
+
       <h4>HTML:</h4>
       <pre>
         <code>
           {`
-  <!-- Example HTML -->
-  <div class="pink">
-    <div class="orange"></div>
-  </div>
-  <div class="blue"></div>
-  <div class="green"></div>
-          `}
-        </code>
-      </pre>
-      <h4>CSS:</h4>
-      <pre>
-        <code>
-          {`
-  /* Example CSS */
-  .blue, .pink, .orange {
-    position: absolute; /* Positioning required for z-index */
-  }
-          `}
+<!-- Example HTML -->
+<div class="pink">
+  <div class="orange"></div>
+</div>
+<div class="blue"></div>
+<div class="green"></div>
+</code></pre>
+
+<h4>CSS:</h4>
+<pre><code>
+/* Example CSS */
+.blue, .pink, .orange {
+  position: absolute; /* Positioning required for z-index */
+}`}
         </code>
       </pre>
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405096/posi_fedygu.png"
         alt="demo-7"
       />
+
       <p>
         Even though the green box is defined last in the document, it appears
         behind the others because it is non-positioned.
@@ -162,17 +160,38 @@ const ZIndex = () => {
         displayed behind it because the filter property caused the pink box to
         form a new stacking context.
       </p>
-      <h2>Summary</h2>
+      <h2>Exercise: Layering and Stacking Challenge</h2>
       <p>
-        By using z-index on positioned elements, we can change the default
-        stacking order. However, z-index values only have a meaning within the
-        same stacking context.
+        {`Now it's your turn to put your knowledge into practice! In this
+        exercise, you will create a layered design using z-index and explore the
+        impact of stacking contexts.`}
       </p>
-
+      <ol>
+        <li>
+          Create a simple HTML structure with multiple div elements representing
+          different layers of your design.
+        </li>
+        <li>
+          Apply positioning (e.g., absolute, relative) and z-index values to
+          create a layered effect.
+        </li>
+        <li>
+          Experiment with different z-index values to change the stacking order
+          and observe how the layers overlap.
+        </li>
+        <li>
+          Create a visually appealing composition by playing with colors, sizes,
+          and positioning.
+        </li>
+        <li>
+          Challenge yourself by creating a complex design with multiple stacking
+          contexts and overlapping elements.
+        </li>
+      </ol>
       <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        z-index .
+        Remember to refer to the concepts and examples covered in this tutorial
+        as you work through the exercise. Happy coding and have fun exploring
+        the world of layering and stacking!
       </p>
 
       <div className="button-container">
