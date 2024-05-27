@@ -114,7 +114,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-          display: grid;
+display: grid;
           `}
         </code>
       </pre>
@@ -123,7 +123,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-          display: inline-grid;
+display: inline-grid;
           `}
         </code>
       </pre>
@@ -143,7 +143,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-          grid-template-columns: 100px auto 100px;
+grid-template-columns: 100px auto 100px;
           `}
         </code>
       </pre>
@@ -174,7 +174,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-          grid-template-rows: 50px 50px;
+grid-template-rows: 50px 50px;
           `}
         </code>
       </pre>
@@ -194,7 +194,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-          grid-template: 50px 50px / 100px auto 100px;
+grid-template: 50px 50px / 100px auto 100px;
           `}
         </code>
       </pre>
@@ -235,7 +235,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            column-gap: 20px;
+column-gap: 20px;
           `}
         </code>
       </pre>
@@ -260,7 +260,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            row-gap: 50px;
+row-gap: 50px;
           `}
         </code>
       </pre>
@@ -283,7 +283,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            gap: 20px;
+gap: 20px;
           `}
         </code>
       </pre>
@@ -326,7 +326,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: start;
+justify-content: start;
           `}
         </code>
       </pre>
@@ -347,7 +347,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: end;
+justify-content: end;
           `}
         </code>
       </pre>
@@ -367,7 +367,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: center;
+justify-content: center;
           `}
         </code>
       </pre>
@@ -390,7 +390,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: space-around;
+justify-content: space-around;
           `}
         </code>
       </pre>
@@ -414,7 +414,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: space-between;
+justify-content: space-between;
           `}
         </code>
       </pre>
@@ -437,7 +437,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            justify-content: space-evenly;
+justify-content: space-evenly;
           `}
         </code>
       </pre>
@@ -484,7 +484,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: start;
+align-content: start;
           `}
         </code>
       </pre>
@@ -505,7 +505,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: end;
+align-content: end;
           `}
         </code>
       </pre>
@@ -525,7 +525,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: center;
+align-content: center;
           `}
         </code>
       </pre>
@@ -548,7 +548,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: space-around;
+align-content: space-around;
           `}
         </code>
       </pre>
@@ -573,7 +573,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: space-between;
+align-content: space-between;
           `}
         </code>
       </pre>
@@ -596,7 +596,7 @@ const Grid = () => {
       <pre>
         <code>
           {`
-            align-content: space-evenly;
+align-content: space-evenly;
           `}
         </code>
       </pre>
@@ -612,12 +612,6 @@ const Grid = () => {
       <p>
         In {`today's`} article, we studied what CSS Grid Layout is all about,
         why we should learn it, and the properties of CSS grid.
-      </p>
-
-      <p>
-        For more details, check out the
-        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-        Grid .
       </p>
 
       <div className="button-container">
