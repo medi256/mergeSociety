@@ -6,268 +6,265 @@ export default Buttons;
 export const Flex = () => {
   return (
     <div className="comments-container">
-      <h1>Understanding Flexbox in CSS</h1>
+      <h1>The Magical World of Flex in CSS</h1>
       <p>
-        Flexbox is a powerful layout tool in CSS that simplifies the creation of
-        flexible and responsive layouts. {`It's`} like a magic box that helps
-        you arrange elements easily!
+        {`Flex is a powerful CSS property that allows you to create flexible and
+        responsive layouts. It provides a more efficient way to distribute
+        space, align content, and control the order of items within a container.
+        In this section, we'll explore the fascinating world of flex and learn
+        how to use it effectively in your CSS designs. Let's embark on this flex
+        adventure!`}
       </p>
 
-      <h2>What is Flexbox?</h2>
+      <h2>Understanding Flex</h2>
       <p>
-        Flexbox, short for Flexible Box, is a layout model in CSS designed for
-        one-dimensional layouts. In simpler terms, it helps you organize
-        elements in either a row or a column, making it easier to create
-        layouts.
+        {`Flex is a CSS property that enables flexible box layout. It allows you
+        to easily arrange, align, and distribute space among items within a
+        container. With flex, you can create complex and responsive layouts that
+        adapt to different screen sizes and devices. Here's an example:`}
       </p>
 
-      <h2>Features of Flexbox Layout</h2>
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex; /* Enables flex layout for the container */
+}
 
-      <h3>Flexible Container</h3>
+.item {
+  flex: 1; /* Makes the item flexible and distributes space evenly */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
       <p>
-        When you use Flexbox, you turn a regular HTML container into a flexible
-        one. This means the container and its contents can adjust their sizes
-        automatically, making your layout adaptable to different screen sizes.
+        In the code above, we enabled flex layout for the container by setting
+        <code>display: flex</code>. We then made the items flexible by setting{" "}
+        <code>flex: 1</code>, which distributes the available space evenly among
+        them.
       </p>
 
-      <h3>Flexible Items</h3>
+      <h3>Flex-Direction</h3>
       <p>
-        Inside a Flexbox container, each element becomes a flexible item. You
-        can control how these items grow, shrink, or align within the container,
-        giving you precise control over your layout.
+        Flex-direction controls the direction in which items are arranged within
+        the container. It can have values like <code>row</code> (default),{" "}
+        <code>column</code>,<code>row-reverse</code>, and{" "}
+        <code>column-reverse</code>. {`Here's an example:`}
       </p>
 
-      <h3>Direction Control</h3>
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex;
+  flex-direction: column; /* Arranges items in a column */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
       <p>
-        With Flexbox, you can decide whether your items should flow horizontally
-        (in a row) or vertically (in a column). {`It's`} like choosing whether
-        to read a book from left to right or from top to bottom.
+        In the code above, we set <code>flex-direction: column</code>, which
+        arranges the items vertically in a column. You can experiment with other
+        values to see how they affect the layout.
       </p>
 
-      <h3>Alignment Controls</h3>
+      <h3>Flex-Wrap</h3>
       <p>
-        Flexbox provides easy ways to align your items along both the main axis
-        (the direction of flow) and the cross axis (the perpendicular
-        direction). {`It's`} like arranging books neatly on a shelf.
+        Flex-wrap controls whether items should wrap to new lines when{" "}
+        {` there's `}
+        not enough space. It can have values like <code>
+          nowrap
+        </code> (default), <code>wrap</code>,<code>wrap-reverse</code>, and{" "}
+        <code>initial</code>.{`Here's an example:`}
       </p>
 
-      <h2>Benefits of Flexbox</h2>
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Makes items wrap to new lines */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
       <p>
-        Using Flexbox makes your life as a web developer easier! It simplifies
-        the process of creating layouts, reduces the need for complex CSS hacks,
-        and ensures your design looks good on all devices.
+        In the code above, we set <code>flex-wrap: wrap</code>,{" "}
+        {`which makes the
+        items wrap to new lines when there's not enough horizontal space.`}
       </p>
 
-      <h2>When to Use Flexbox</h2>
+      <h3>Align-Items and Justify-Content</h3>
       <p>
-        Flexbox is perfect for creating layouts where elements need to be
-        organized in a single direction (either horizontally or vertically). You
-        can use it for things like navigation bars, card layouts, or even entire
-        webpage structures.
+        {`Align-items controls the vertical alignment of items within the
+        container, while justify-content controls the horizontal distribution of
+        items. Here's an example:`}
       </p>
 
-      <h2>Flexbox Properties</h2>
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Distributes items evenly with space between them */
+}
+          `}
+          </code>
+        </pre>
+      </code>
 
-      <h3>flex-direction</h3>
       <p>
-        This property lets you control the direction in which your items flow
-        inside the container. You can choose whether they should go left to
-        right, right to left, top to bottom, or bottom to top.
+        In the code above, we centered the items vertically using{" "}
+        <code>align-items: center</code>
+        and distributed them evenly with space between them using
+        <code>justify-content: space-between</code>.
       </p>
+
+      <h2>Using Flex</h2>
+      <p>
+        {`Flex can be used in various ways to create visually appealing and
+        functional designs. Let's explore some common use cases for flex:`}
+      </p>
+
+      <h3>Responsive Layouts</h3>
+      <p>
+        {`Flex is commonly used to create responsive layouts that adapt to
+        different screen sizes. By using flex, you can easily rearrange items,
+        make them wrap to new lines, or change their order based on the
+        available space. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Makes items wrap to new lines */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <h3>Alignment and Justification</h3>
+      <p>
+        {`Flex provides powerful alignment options for items within a container.
+        You can easily center, align, and justify items to create visually
+        appealing layouts. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+.container {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+      <h2>
+        {`If you haven't understood, you can watch this video tutorial to help
+        clarify.`}
+      </h2>
 
       <iframe
-        width="100%"
-        height="300"
-        srcDoc={`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .flex-container {
-      display: flex;
-      border: 1px solid black;
-      flex-direction: column; /* Try changing to 'row' */
-    }
-    .flex-item {
-      background-color: lightblue;
-      margin: 5px;
-      padding: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="flex-container">
-    <div class="flex-item">Item 1</div>
-    <div class="flex-item">Item 2</div>
-    <div class="flex-item">Item 3</div>
-  </div>
-</body>
-</html>`}
-        title="Flex-direction Example"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/u044iM9xsWU?si=mnZNFlsc6ojO6jdQ"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullscreen
       ></iframe>
 
-      <h3>justify-content</h3>
+      <h2>Benefits of Flex</h2>
+      <p>Using flex offers several advantages for your designs:</p>
+
+      <ul>
+        <li>
+          <strong>Flexibility:</strong> Flex provides a flexible and responsive
+          way to arrange content, making it easy to adapt to different screen
+          sizes and devices.
+        </li>
+        <li>
+          <strong>Alignment and Justification:</strong> Flex offers powerful
+          alignment options, allowing you to easily center, align, and justify
+          items within a container.
+        </li>
+        <li>
+          <strong>Responsive Design:</strong> Flex is commonly used to create
+          responsive layouts that adapt to different screen sizes, making your
+          designs more accessible and user-friendly.
+        </li>
+      </ul>
+
+      <h2>Challenges of Flex</h2>
+      <p>While flex is a powerful tool, it also comes with some challenges:</p>
+
+      <ul>
+        <li>
+          <strong>Browser Support:</strong>{" "}
+          {`Flex has good browser support, but
+          there may be differences in how it behaves across different browsers.
+          It's important to test your designs in multiple browsers to ensure
+          consistent behavior.`}
+        </li>
+        <li>
+          <strong>Complex Layouts:</strong> While flex is powerful, it may not
+          be suitable for extremely complex layouts. In such cases, you might
+          need to explore other layout methods like grid or traditional
+          positioning.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
       <p>
-        With <code>justify-content</code>, you can decide how your items should
-        be spaced along the main axis of the container. {`It's`} like telling
-        your items how to line up in a row or a column.
+        {`Now it's time to put your knowledge into practice! Open your code editor
+        and create a new HTML file. Let's explore the wonderful world of flex:`}
       </p>
 
-      <iframe
-        width="100%"
-        height="300"
-        srcDoc={`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .flex-container {
-      display: flex;
-      border: 1px solid black;
-      justify-content: space-between; /* Try other values like 'center', 'flex-start', 'flex-end' */
-    }
-    .flex-item {
-      background-color: lightblue;
-      padding: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="flex-container">
-    <div class="flex-item">Item 1</div>
-    <div class="flex-item">Item 2</div>
-    <div class="flex-item">Item 3</div>
-  </div>
-</body>
-</html>`}
-        title="Justify-content Example"
-      ></iframe>
+      <ol>
+        <li>
+          Create a simple HTML structure with containers and items to serve as
+          containers for your flex experiments.
+        </li>
+        <li>
+          Apply the <code>display: flex</code> property to containers and
+          experiment with different values for <code>flex-direction</code>,{" "}
+          <code>flex-wrap</code>,<code>align-items</code>, and{" "}
+          <code>justify-content</code>.
+        </li>
 
-      <h3>align-items</h3>
-      <p>
-        This property helps you align your items along the cross axis of the
-        container. {`It's`} like arranging your items neatly in the center or
-        stretching them to fill the entire container.
-      </p>
-
-      <iframe
-        width="100%"
-        height="300"
-        srcDoc={`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .flex-container {
-      display: flex;
-      border: 1px solid black;
-      align-items: center; /* Try other values like 'flex-start', 'flex-end', 'baseline', 'stretch' */
-    }
-    .flex-item {
-      background-color: lightblue;
-      padding: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="flex-container">
-    <div class="flex-item">Item 1</div>
-    <div class="flex-item">Item 2</div>
-    <div class="flex-item">Item 3</div>
-  </div>
-</body>
-</html>`}
-        title="Align-items Example"
-      ></iframe>
-
-      <h3>flex</h3>
-      <p>
-        The <code>flex</code> property is a shorthand for three other
-        properties: <code>flex-grow</code>, <code>flex-shrink</code>, and{" "}
-        <code>flex-basis</code>. {`It's`} like a shortcut for controlling how
-        your items grow, shrink, and start sizing themselves.
-      </p>
-
-      <iframe
-        width="100%"
-        height="300"
-        srcDoc={`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .flex-container {
-      display: flex;
-      border: 1px solid black;
-    }
-    .flex-item {
-      background-color: lightblue;
-      padding: 10px;
-      flex: 1 1 100px; /* Try changing the values */
-    }
-  </style>
-</head>
-<body>
-  <div class="flex-container">
-    <div class="flex-item">Item 1</div>
-    <div class="flex-item">Item 2</div>
-    <div class="flex-item">Item 3</div>
-  </div>
-</body>
-</html>`}
-        title="Flex Example"
-      ></iframe>
-
-      <h3>align-self</h3>
-      <p>
-        Sometimes, you want an individual item to behave differently from the
-        others. {`That's`} where <code>align-self</code> comes in handy. It lets
-        you override the alignment set by <code>align-items</code> for specific
-        items.
-      </p>
-
-      <iframe
-        width="100%"
-        height="300"
-        srcDoc={`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .flex-container {
-      display: flex;
-      border: 1px solid black;
-    }
-    .flex-item {
-      background-color: lightblue;
-      padding: 10px;
-    }
-    .flex-item:nth-child(2) {
-      align-self: flex-end; /* Try other values like 'flex-start', 'center', 'baseline', 'stretch' */
-    }
-  </style>
-</head>
-<body>
-  <div class="flex-container">
-    <div class="flex-item">Item 1</div>
-    <div class="flex-item">Item 2</div>
-    <div class="flex-item">Item 3</div>
-  </div>
-</body>
-</html>`}
-        title="Align-self Example"
-      ></iframe>
-
-      <h2>Conclusion</h2>
-      <p>
-        Flexbox is a fantastic tool for creating layouts in CSS. By
-        understanding its features and properties, {`you'll`} be able to build
-        beautiful and responsive designs with ease.
-      </p>
+        <li>
+          Refer to flex resources and tutorials to discover creative ways to use
+          flex, such as creating responsive grids, centering content, or
+          building complex layouts.
+        </li>
+      </ol>
 
       <p>
-        For more details, check out the{" "}
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">
-          MDN Web Docs
-        </a>{" "}
-        on Flexbox.
+        Remember, flex is a powerful tool in CSS that gives you control over the
+        layout and arrangement of items within a container. Choose flex options
+        that align with your design goals, ensure responsiveness, and create
+        engaging interfaces. Happy coding and happy designing!
       </p>
-
       <div className="button-container">
         <button onClick={() => (window.location.href = "forms")}>back</button>
         <button onClick={() => (window.location.href = "grid")}>Next</button>
