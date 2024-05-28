@@ -254,48 +254,186 @@ export default MediaQuaries;
 export const Universal = () => {
   return (
     <div className="comments-container">
-      <h1>Understanding the Universal Selector in CSS</h1>
-      <p>Welcome to our lesson on the Universal Selector in CSS!</p>
-      <h2>What is the Universal Selector?</h2>
+      <h1>The World of the Universal Selector in CSS</h1>
       <p>
-        The universal selector, denoted by {`"*",`} is a wildcard character in
-        CSS that matches any element on a webpage.
+        {`The universal selector is a powerful tool in CSS that allows you to
+        target and style all elements on a web page. It is represented by the
+        asterisk (*) character and can be used to apply styles globally. In this
+        section, we'll explore the wonderful world of the universal selector and
+        learn how to use it effectively in your CSS designs. Let's begin!`}
       </p>
-      <h2>Syntax and Basic Usage</h2>
+
+      <h2>Understanding the Universal Selector</h2>
       <p>
-        The syntax for the universal selector is simple: <code>*</code>. You can
-        apply styles to all elements by using this selector.
+        {`The universal selector is denoted by the asterisk (*) character and
+        matches all elements within the document. It allows you to apply styles
+        that affect every element, regardless of their type or position. Here's
+        an example:`}
       </p>
-      <pre>
-        <code>
-          {`
+
+      <code>
+        <pre>
+          <code>
+            {`
 * {
-  /* Styles applied to all elements */
+  color: blue; /* Sets the color of all elements to blue */
 }
           `}
-        </code>
-      </pre>
-      <h2>Common Use Cases</h2>
+          </code>
+        </pre>
+      </code>
+
       <p>
-        {`Let's`} explore some common scenarios where the universal selector can
-        be useful:
+        In the code above, we used the universal selector to set the color of
+        all elements to blue. This is a powerful way to apply global styles or
+        reset default styles across the entire page.
       </p>
+
+      <h2>Using the Universal Selector</h2>
+      <p>
+        The universal selector can be used in various ways to create visually
+        appealing and functional designs. Here are some common use cases:
+      </p>
+
+      <h3>Global Styles</h3>
+      <p>
+        {`The universal selector is useful for applying global styles that affect
+        all elements on the page. This can include setting font styles,
+        background colors, or margin and padding values. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+* {
+  font-family: Arial, sans-serif; /* Sets the font family for all elements */
+  margin: 0; /* Removes margins from all elements */
+  padding: 0; /* Removes padding from all elements */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <h3>Resetting Default Styles</h3>
+      <p>
+        {`The universal selector can be used to reset the default styles of all
+        elements, creating a clean slate for your custom styles. This is often
+        done to ensure consistency and avoid browser inconsistencies. Here's an
+        example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+* {
+  margin: 0; /* Resets margins for all elements */
+  padding: 0; /* Resets padding for all elements */
+  border: none; /* Removes borders from all elements */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <h3>Combining with Other Selectors</h3>
+      <p>
+        {`The universal selector can be combined with other selectors to create
+        more specific styles. For example, you can use it with class or ID
+        selectors to apply styles to specific elements while still targeting all
+        elements on the page. Here's an example:`}
+      </p>
+
+      <code>
+        <pre>
+          <code>
+            {`
+* .highlight {
+  background-color: yellow; /* Adds a yellow background to all elements with the "highlight" class */
+}
+          `}
+          </code>
+        </pre>
+      </code>
+
+      <h2>Benefits of the Universal Selector</h2>
+      <p>
+        Using the universal selector offers several advantages for your designs:
+      </p>
+
       <ul>
-        <li>Resetting default browser styles</li>
-        <li>Applying global styles</li>
-        <li>Debugging and testing</li>
+        <li>
+          <strong>Global Styling:</strong> The universal selector allows you to
+          apply styles consistently across all elements on the page, ensuring a
+          unified look and feel.
+        </li>
+        <li>
+          <strong>Resetting Defaults:</strong> It enables you to reset the
+          default styles of all elements, creating a blank canvas for your
+          custom designs.
+        </li>
+        <li>
+          <strong>Specificity Control:</strong> By combining the universal
+          selector with other selectors, you can achieve a fine level of control
+          over the specificity of your styles.
+        </li>
       </ul>
-      <h2>Best Practices and Considerations</h2>
+
+      <h2>Challenges of the Universal Selector</h2>
       <p>
-        While the universal selector is powerful, it should be used judiciously
-        to avoid unintended consequences. Remember to consider specificity and
-        performance implications when using this selector.
+        While the universal selector is powerful, it also comes with some
+        challenges:
       </p>
-      <h2>Hands-On Practice</h2>
+
+      <ul>
+        <li>
+          <strong>Overly Broad Targeting:</strong> The universal selector
+          targets all elements, which can lead to unintended consequences if not
+          used carefully.{" "}
+          {` It's important to be mindful of its impact on the
+          entire page.`}
+        </li>
+        <li>
+          <strong>Performance Impact:</strong> Applying styles to all elements
+          can impact performance, especially on large and complex websites.
+        </li>
+      </ul>
+
+      <h2>Practice Time!</h2>
       <p>
-        Now, {`let's`} practice using the universal selector in a simple HTML
-        document. Experiment with applying styles to different elements on the
-        page.
+        {`Now it's time to experiment with the universal selector in CSS! Open
+        your code editor and create a new HTML file. Let's explore the wonderful
+        world of the universal selector:`}
+      </p>
+
+      <ol>
+        <li>
+          Create a simple HTML structure with various elements, such as
+          headings, paragraphs, links, and images.
+        </li>
+        <li>
+          Apply the universal selector to set global styles, such as font
+          styles, colors, or margins, and observe how it affects all elements on
+          the page.
+        </li>
+        <li>
+          Experiment with combining the universal selector with other selectors,
+          such as class or ID selectors, to create more specific styles.
+        </li>
+        <li>
+          Refer to universal selector resources and tutorials to discover
+          creative ways to use it, such as creating global resets, applying
+          consistent styles, or managing performance.
+        </li>
+      </ol>
+
+      <p>
+        Remember, the universal selector is a powerful tool in CSS that gives
+        you the ability to target all elements on the page. Use it wisely to
+        achieve global styling, reset default styles, and create visually
+        appealing designs. Happy coding!
       </p>
 
       <div className="button-container">
