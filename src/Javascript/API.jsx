@@ -1,6 +1,6 @@
 const IntroAPI = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is an API?</h1>
       <p>
         An API, or Application Programming Interface, is a set of defined rules
@@ -129,7 +129,7 @@ export default IntroAPI;
 
 export const FetchingDataFromApis = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Fetching Data from APIs</h1>
       <p>
         {`Now that we've learned about APIs, let's dive into how to fetch data from
@@ -294,9 +294,9 @@ export const FetchingDataFromApis = () => {
         <button onClick={() => (window.location.href = "/IntroAPI")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/WorkingWithAPIs")}>
+        {/* <button onClick={() => (window.location.href = "/WorkingWithAPIs")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

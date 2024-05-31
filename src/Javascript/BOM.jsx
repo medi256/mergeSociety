@@ -1,6 +1,6 @@
 const IntroductionBOM = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the Wonderful World of the BOM!</h1>
 
       <p>
@@ -122,7 +122,7 @@ export default IntroductionBOM;
 
 export const WindowObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the Wonderful World of the Window Object!</h1>
 
       <p>
@@ -274,7 +274,7 @@ console.log("Window width:", windowWidth, "Window height:", windowHeight);
 
 export const LocationObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Introduction to the Location Object (URL Manipulation)</h1>
       <p>
         The Browser Object Model (BOM) offers a toolbox of functionalities to
@@ -417,7 +417,7 @@ location.reload();  // Reloads the current page
 
 export const NavigationObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         Introduction to the Navigation Object (Browser Navigation Information)
       </h1>
@@ -527,7 +527,7 @@ console.log("User Agent:", userAgent);
 
 export const HistoryObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         {" "}
         Introduction to the History Object (Navigation History Manipulation)
@@ -659,7 +659,7 @@ history.forward(); // Move one step forward in history (same as history.go(1))
 
 export const ScreenObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Introduction to the Screen Object (Screen Size and Resolution)</h1>
       <p>
         The Browser Object Model (BOM) equips you with various tools to interact
@@ -777,7 +777,7 @@ console.log("Color depth:", colorDepth, "Pixel depth:", pixelDepth);
 
 export const BOMApplication = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>BOM Applications (uer interaction beyond the page content)</h1>
       <p>
         Absolutely! Now that{" "}

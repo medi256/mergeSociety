@@ -1,6 +1,6 @@
 const JSOn = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is JSON?</h1>
       <p>
         {`JSON is a lightweight data interchange format that's easy to read and

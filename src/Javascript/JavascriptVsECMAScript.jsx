@@ -1,6 +1,6 @@
 const JavascriptVsECMAScript = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the World of JavaScript and ECMAScript!</h1>
       <p>
         Hey there! So,{" "}

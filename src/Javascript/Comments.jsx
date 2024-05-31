@@ -1,6 +1,6 @@
 const Comments = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the Wonderful World of Comments!</h1>
       <p>
         Just like how we use comments in our daily lives to explain things or
@@ -117,7 +117,7 @@ export default Comments;
 
 export const ScopeJS = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is Scope?</h1>
       <p>
         Scope, in simple terms, refers to the visibility or accessibility of
@@ -257,7 +257,7 @@ outerFunction();
 
 export const Hoisting = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Introduction to Hoisting in JavaScript (JS)</h1>
       <p>
         {" "}

@@ -1,6 +1,6 @@
 const ForEachMethod = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <p>
         Now, {`let's`} dive into the <code>forEach</code> method in JavaScript,
         with a fun and interactive approach.
@@ -115,7 +115,7 @@ export default ForEachMethod;
 
 export const MapMethod = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is the Map method?</h1>
       <h2>Set time out and setinterval in Javascript</h2>
       <p>
@@ -281,7 +281,7 @@ console.log(uppercaseWords); // ['HELLO', 'WORLD', 'JAVASCRIPT']
 
 export const SetTimeOutSetInterval = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What are setTimeout and setInterval?</h1>
       <p>
         setTimeout and setInterval are two related but distinct functions in

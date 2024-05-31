@@ -44,6 +44,7 @@ import Filter, { Responsive } from "./css/Filter&Responsive";
 import LandingPage from "./LandingPage";
 import Policies from "./Policy";
 import ResponsiveHTML from "./html/Responsive";
+import SkillsAndKnowledge from "./SkillsAndKnowledge";
 
 const CourseRoutes = () => {
   return (
@@ -137,6 +138,7 @@ const CourseRoutes = () => {
         <Route path="javascriptCourse" element={<Jscourse />}></Route>
         <Route path="react" element={<Reactcourse />}></Route>
         <Route path="policy" element={<Policies />} />
+        <Route path="KnowledgeAndSkills" element={<SkillsAndKnowledge />} />
       </Routes>
     </div>
   );

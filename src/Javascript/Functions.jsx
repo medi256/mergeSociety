@@ -1,6 +1,6 @@
 const DefiningCallingFunc = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the Wonderful World of JavaScript Functions!</h1>
       <p>
         Welcome, future JavaScript masters! Today, {`we'll`} meet some
@@ -122,7 +122,7 @@ export default DefiningCallingFunc;
 
 export const ParameterArgument = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         Level Up Your Functions: Using Parameters and Arguments like a Pro
       </h1>
@@ -246,7 +246,7 @@ greetUser("Alice"); // "Alice" is the argument for the "name" parameter
 };
 export const ReturnValues = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         Unlocking the Power of Returning Values: Giving Your Functions Results
       </h1>
@@ -375,7 +375,7 @@ console.log("The area of the rectangle is:", rectangleArea); // This will print:
 
 export const FuncScope = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Demystifying Function Scope: Where Your Variables Live</h1>
       <p>
         In our JavaScript journey,{" "}
@@ -476,7 +476,7 @@ greetUser(); // This will print "Hello, Alice!"
 
 export const ArrowFunc = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Introducing Arrow Functions: A Simpler Way to Write Functions</h1>
       <p>
         {" "}

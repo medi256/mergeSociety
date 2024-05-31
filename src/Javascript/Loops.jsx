@@ -1,6 +1,6 @@
 const Loops = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Loops: What They Are and How They Work</h1>
       <p>
         Think of loops as your personal automation crew. {`They're`} the

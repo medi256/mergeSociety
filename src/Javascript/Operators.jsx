@@ -1,6 +1,6 @@
 const Operators = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1> Welcome to the Operator Playground!</h1>
       <p>
         {" "}

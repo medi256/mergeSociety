@@ -17,11 +17,15 @@ const CourseNavLinks = () => {
         </NavLink>
         <NavLink to={"/javascriptCourse"}>
           {" "}
-          <span title="Javascript course">Javascript</span>{" "}
+          <span title="Javascript course">JavaScript</span>{" "}
         </NavLink>
         <NavLink to={"/react"}>
           {" "}
           <span title="React course">React</span>{" "}
+        </NavLink>
+        <NavLink to={"/KnowledgeAndSkills"}>
+          {" "}
+          <span title=" Skills and Knowledge">Skills & 📚</span>{" "}
         </NavLink>
       </main>
     </div>

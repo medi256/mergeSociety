@@ -1,6 +1,6 @@
 const WhatJavaScript = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>{`Let's`} Dive into JavaScript!</h1>
       <h2>
         Note: Throughout this guide, {`you'll see "JavaScript" and "JS"`} used
@@ -117,7 +117,7 @@ const WhatJavaScript = () => {
 export default WhatJavaScript;
 export const WhyJavascript = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Why Learn JavaScript?</h1>
       <h2>Unleash the Power of JavaScript</h2>
       <p>
@@ -209,7 +209,7 @@ export const WhyJavascript = () => {
 
 export const RunningJS = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>JavaScript Basics: How to Insert and Run Your Code</h1>
 
       <p>

@@ -1,6 +1,6 @@
 const UnderstandingAsynchronousProgramming = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         Synchronous vs. Asynchronous Programming: Keeping Your Web Pages
         Responsive
@@ -89,7 +89,7 @@ export default UnderstandingAsynchronousProgramming;
 
 export const EventLoop = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>
         {" "}
         The {`Browser's`} Event Loop: The Traffic Cop for Asynchronous Tasks
@@ -188,7 +188,7 @@ export const EventLoop = () => {
 
 export const CallBacks = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Callbacks: Your Asynchronous Task Force in JavaScript</h1>
       <p>
         {" "}
@@ -361,7 +361,7 @@ console.log("This line will execute before new updates arrive.");
 
 export const Promises = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Imagine Promises as Waiters in a Restaurant</h1>
       <p>
         {" "}
@@ -495,7 +495,7 @@ orderPizza('veggie')
 
 export const AsyncAwait = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Async and Await: Simplifying Asynchronous Programming</h1>
       <p>
         Promises are fantastic for managing asynchronous operations in

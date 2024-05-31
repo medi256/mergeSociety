@@ -1,6 +1,6 @@
 const VariablesDataTypes = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>JavaScript Variables</h1>
       <p>{`Imagine you're building a website or creating a game. You'll need to store
         different kinds of information: player scores, user names, or even the
@@ -343,7 +343,7 @@ export default VariablesDataTypes;
 
 export const NamingVariable = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Best Practices for Variable Naming in JavaScript</h1>
       <p>
         Naming variables in JavaScript is an essential aspect of writing clean,
@@ -470,7 +470,7 @@ let customerEmail = "john.doe@example.com";
 
 export const DataTypes = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>JavaScript Data Types</h1>
       <h3>The Building Blocks of Your Data:</h3>
       <p>

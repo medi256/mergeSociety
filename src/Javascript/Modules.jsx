@@ -1,6 +1,6 @@
 const Modules = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1> What are JavaScript Modules?</h1>
       <p>
         In JavaScript, a module is a file that contains code to perform a
@@ -266,7 +266,7 @@ export default Modules;
 
 export const Classes = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What are Classes in JavaScript?</h1>
       <p>
         {" "}
@@ -440,7 +440,7 @@ class ElectricToy extends Toy {
 
 export const Prototypes = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What are Prototypes in JavaScript?</h1>
       <p>
         In JavaScript, every object has a prototype. A prototype is like a
@@ -575,7 +575,7 @@ chocolateCake.decorate(); // "Decorating the cake..."
 
 export const ThisKeyWord = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is this in JavaScript?</h1>
       <p>
         {" "}

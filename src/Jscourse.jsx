@@ -5,8 +5,8 @@ const Jscourse = () => {
   return (
     <div className="JsCourse">
       <ScrollToTop />
-      <h1>Welcome to the Wonderful World of JavaScript!</h1>
-      <div className="JStutorial">
+      <div className="skillsLinks">
+        <h1 className="SkillsHead">JavaScript Course</h1>
         <h2>Introduction to Javascript</h2>
         <ul>
           <li onClick={() => navigate("/WhatJAvascript")}>

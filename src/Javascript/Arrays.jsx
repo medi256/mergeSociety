@@ -1,6 +1,6 @@
 const Arrays = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1> JavaScript Array</h1>
       <p>
         In programming, an array is a data structure that contains a collection

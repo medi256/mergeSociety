@@ -1,6 +1,6 @@
 const DOMintro = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Welcome to the Wonderful World of the DOM!</h1>
       <p>
         Have you ever clicked a button on a website and something cool happened?
@@ -126,7 +126,7 @@ const DOMintro = () => {
 export default DOMintro;
 export const SelectingElementsINDom = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Picking Your Targets: Selecting Elements in the DOM (Enhanced)</h1>
       <p>
         {" "}
@@ -302,7 +302,7 @@ const allButtons = document.querySelectorAll("button");
 
 export const ModifyingElements = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>How to Modify DOM Elements</h1>
       <p>
         Once you have access to DOM elements, you can modify them in various
@@ -1046,7 +1046,7 @@ console.log("Has 'text-dark' class:", hasTextDarkClass); // Outputs true or fals
 
 export const EventHandling = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Understanding DOM Events and JavaScript Event Listeners </h1>
       <p>
         {" "}

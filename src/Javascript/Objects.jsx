@@ -1,6 +1,6 @@
 const Objects = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>JavaScript Objects</h1>
       <p>
         In this tutorial, we will delve into the world of JavaScript objects.

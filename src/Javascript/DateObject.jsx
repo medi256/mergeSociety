@@ -1,6 +1,6 @@
 const DateObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is a Date in JavaScript?</h1>
       <p>
         Imagine {`you're`} planning a birthday party for your friend. You need
@@ -151,7 +151,7 @@ export default DateObject;
 
 export const MathObject = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>What is Math in JavaScript?</h1>
       <h2>Imagine {`You're`} a Master Chef</h2>
       <p>

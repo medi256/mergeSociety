@@ -1,6 +1,6 @@
 const StringMethods = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Introduction: Strings - The Building Blocks of Text</h1>
       <p>
         {" "}

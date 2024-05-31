@@ -1,6 +1,6 @@
 const TryCatch = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Try/Catch Statements: Graceful Error Handling in JavaScript</h1>
       <p>
         {" "}
@@ -137,7 +137,7 @@ export default TryCatch;
 
 export const ThrowingErro = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Throwing and Handling Errors: Taking Control in JavaScript</h1>
       <p>
         {" "}
@@ -235,7 +235,7 @@ try {
 
 export const DebuggingTech = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1> Debugging Techniques: Unveiling the Mysteries of JavaScript</h1>
       <p>
         Even the best JavaScript code can have errors. Debugging techniques help

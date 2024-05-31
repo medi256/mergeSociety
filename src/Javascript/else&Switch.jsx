@@ -1,6 +1,6 @@
 const ControlFlow = () => {
   return (
-    <div className="comments-container">
+    <div className="comments-container internet">
       <h1>Exploring Conditional Statements</h1>
       <p>
         Imagine{" "}
