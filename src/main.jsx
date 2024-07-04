@@ -8,6 +8,7 @@ import MobileViewRoutes from "./MobileViewRoutes.jsx";
 import CSSmobile from "./CSSmobile.jsx";
 import JavascriptRouter from "./JavascriptRouter.jsx";
 import SkillsRoutes from "./SkillsRoutes.jsx";
+import ReactRoutes from "./ReactRoutes.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <CSSmobile />
       <JavascriptRouter />
       <SkillsRoutes />
+      <ReactRoutes />
     </BrowserRouter>
   </React.StrictMode>
 );
