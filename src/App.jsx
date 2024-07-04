@@ -28,7 +28,7 @@ const App = () => (
               </a>
             </div>
             <div>
-              <a href="https://www.facebook.com/profile.php?id=61556002944543&mibextid=ZbWKwL">
+              <a href="https://www.facebook.com/profile.php?id=100088699977603">
                 <i className="fa-brands fa-facebook"></i>
               </a>
             </div>
