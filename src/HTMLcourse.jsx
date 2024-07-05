@@ -189,45 +189,54 @@ const HTMLcourse = () => {
       </aside>
 
       <section className="mobile">
-        <p onClick={() => navigate("/IntroductionHMobile")}>Introduction </p>
-        <p onClick={() => navigate("/HTMLBasicsMobile")}>HTML Basics </p>
-        <p onClick={() => navigate("/headingsMobile")}>Headings in HTML </p>
-        <p onClick={() => navigate("/paragraphsMobile")}>Paragraphs in HTML </p>
-        <p onClick={() => navigate("/FormattingMobile")}>
-          Text Formatting in HTML{" "}
+        <p onClick={() => navigate("/IntroductionHMobile")}>
+          Introduction to HTML
         </p>
-        <p onClick={() => navigate("/listsMobile")}>Lists in HTML </p>
-        <p onClick={() => navigate("/linksHMobile")}>Links in HTML </p>
+        <p onClick={() => navigate("/HTMLBasicsMobile")}>HTML Basics </p>
+        <p onClick={() => navigate("/headingsMobile")}>HTML Headings</p>
+        <p onClick={() => navigate("/paragraphsMobile")}>HTML Paragraphs</p>
+        <p onClick={() => navigate("/FormattingMobile")}>
+          HTML Text Formatting{" "}
+        </p>
+        <p onClick={() => navigate("/listsMobile")}>HTML Lists</p>
+        <p onClick={() => navigate("/linksHMobile")}>HTML Links</p>
         <p onClick={() => navigate("/attributeMobile")}>HTML Attributes </p>
         <p onClick={() => navigate("/imagesHMobile")}> HTML Images</p>
         <p onClick={() => navigate("/audioMobile")}>HTML Audio </p>
         <p onClick={() => navigate("/videoMobile")}> HTML Video </p>
         <p onClick={() => navigate("/formsHMobile")}>Creating Forms in HTML </p>
-        <p onClick={() => navigate("/divMobile")}> Div in HTML</p>
-        <p onClick={() => navigate("/spanMobile")}> Span in HTML</p>
-        <p onClick={() => navigate("/inlineMobile")}>
-          Inline Elements in HTML{" "}
-        </p>
-        <p onClick={() => navigate("/blockMobile")}> Block Elements in HTML</p>
+        <p onClick={() => navigate("/divMobile")}> HTML Div Element</p>
+        <p onClick={() => navigate("/spanMobile")}> HTML Span Element</p>
+        <p onClick={() => navigate("/inlineMobile")}>HTML Inline Elements </p>
+        <p onClick={() => navigate("/blockMobile")}>HTML Block Elements</p>
         <p onClick={() => navigate("/tablesMobile")}>HTML Tables </p>
         <p onClick={() => navigate("/semanticMobile")}>Semantic HTML </p>
         <p onClick={() => navigate("/headMobile")}>HTML Head Element </p>
-        <p onClick={() => navigate("/quotationMobile")}>HTML Quotation </p>
+        <p onClick={() => navigate("/quotationMobile")}>
+          HTML Quotations and Citations
+        </p>
         <p onClick={() => navigate("/entitiesMobile")}>HTML Entities </p>
-        <p onClick={() => navigate("/preMobile")}>HTML Pre Element </p>
+        <p onClick={() => navigate("/preMobile")}>
+          HTML Preformatted Text (Pre Element)
+        </p>
         <p onClick={() => navigate("/commentsHMobile")}> HTML Comments</p>
-        <p onClick={() => navigate("/HTMLStructureMobile")}> HTML Structure </p>
+        <p onClick={() => navigate("/HTMLStructureMobile")}>
+          {" "}
+          HTML Document Structure
+        </p>
         <p onClick={() => navigate("/CreatingButtonsMobile")}>
           {" "}
-          Creating buttons
+          Creating Buttons in HTML
         </p>
         <p onClick={() => navigate("/iframeMobile")}>
-          HTML Iframe: Embedding YouTube Video{" "}
+          Embedding YouTube Videos with HTML Iframes{" "}
         </p>
-        <p onClick={() => navigate("/faviconMobile")}>HTML Favicon </p>
+        <p onClick={() => navigate("/faviconMobile")}>
+          Adding a Favicon in HTML
+        </p>
         <p onClick={() => navigate("/dropdownMobile")}>Dropdown Menu </p>
         <p onClick={() => navigate("/responsiveMetaMobile")}>
-          Responsive(Meta tag)
+          Responsive Design with Meta Tags
         </p>
       </section>
 
