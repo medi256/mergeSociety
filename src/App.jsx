@@ -8,7 +8,7 @@ const App = () => (
           <span className="icon">
             <i className="fa-solid fa-globe"></i>
           </span>
-          <h2>mergeSociety</h2>
+          <h2 id="merge-society">mergeSociety</h2>
         </div>
         {/* <div className="toggle-icon">
           <span className="icon" id="background-toggle">
