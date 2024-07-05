@@ -329,7 +329,7 @@ video {
   align-items: center;
   text-align: center;
   color: #555555;
-  margin-top: 110px;
+  margin-top: 90px;
   font-family: Inter, sans-serif;
   filter: brightness(0.9);
 }
@@ -350,6 +350,7 @@ video {
 
 .landing-page h1 {
   font-size: 2.5em;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
