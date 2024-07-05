@@ -284,51 +284,59 @@ const CSScourse = () => {
       </aside>
 
       <section className="mobile">
-        <p onClick={() => navigate("/introMob")}>Introduction </p>
-        <p onClick={() => navigate("/syntaxMob")}> Syntax</p>
-        <p onClick={() => navigate("/insertMob")}>Inserting </p>
-        <p onClick={() => navigate("/selectMobile")}>Selectors </p>
-        <p onClick={() => navigate("/colorMob")}>Color </p>
-        <p onClick={() => navigate("/fontMob")}> Fonts</p>
-        <p onClick={() => navigate("/backgroundMob")}>Backgrounds </p>
-        <p onClick={() => navigate("/commentsMob")}>Comments </p>
-        <p onClick={() => navigate("/borderMob")}>Border </p>
-        <p onClick={() => navigate("/paddingMob")}>Padding </p>
-        <p onClick={() => navigate("/marginMob")}>Margin </p>
-        <p onClick={() => navigate("/widthMob")}>Width </p>
-        <p onClick={() => navigate("/heightMob")}>Height </p>
-        <p onClick={() => navigate("/styleMob")}>Styling-Text </p>
-        <p onClick={() => navigate("/unitsMob")}> Units</p>
-        <p onClick={() => navigate("/boxModelMob")}> BoxModel</p>
-        <p onClick={() => navigate("/maxWidthMob")}>Max-Width </p>
-        <p onClick={() => navigate("/maxHeightMob")}> Max-Height</p>
-        <p onClick={() => navigate("/minWidthMob")}>Min-Width </p>
-        <p onClick={() => navigate("/minHeightMob")}>Min-Height </p>
-        <p onClick={() => navigate("/listMob")}> Lists</p>
-        <p onClick={() => navigate("/tablesMob")}>Tables </p>
-        <p onClick={() => navigate("/linksMob")}>Links </p>
-        <p onClick={() => navigate("/imagesMob")}>Images </p>
-        <p onClick={() => navigate("/iconsMob")}>Icons </p>
-        <p onClick={() => navigate("/floatMob")}> Float</p>
-        <p onClick={() => navigate("/displayMob")}>Display </p>
-        <p onClick={() => navigate("/positionMob")}>Position </p>
-        <p onClick={() => navigate("/zIndexMob")}> Z-index</p>
-        <p onClick={() => navigate("/columnMob")}> Columns</p>
-        <p onClick={() => navigate("/overFlowMob")}> Overflow</p>
-        <p onClick={() => navigate("/opacityMob")}>Opacity </p>
-        <p onClick={() => navigate("/outlineMob")}>Outline </p>
-        <p onClick={() => navigate("/formMob")}>Forms </p>
-        <p onClick={() => navigate("/flexMob")}>Flex </p>
-        <p onClick={() => navigate("/gridMob")}>Grid </p>
-        <p onClick={() => navigate("/variableMob")}>Variable </p>
-        <p onClick={() => navigate("/mediaQMob")}> mediaQueries</p>
-        <p onClick={() => navigate("/universalMob")}> UniversalSelector</p>
-        <p onClick={() => navigate("/attributeMob")}> AttributeSelector</p>
-        <p onClick={() => navigate("/transformMob")}>Transform </p>
-        <p onClick={() => navigate("/transitionMob")}>Transition </p>
-        <p onClick={() => navigate("/animationMob")}>Animation </p>
-        <p onClick={() => navigate("/filterMob")}>Filters </p>
-        <p onClick={() => navigate("/responsiveMob")}>Responsive </p>
+        <h2 onClick={() => navigate("/introMob")}>Introduction to CSS</h2>
+        <h2 onClick={() => navigate("/syntaxMob")}> CSS Syntax</h2>
+        <h2 onClick={() => navigate("/insertMob")}>Inserting CSS </h2>
+        <h2 onClick={() => navigate("/selectMobile")}>CSS Selectors</h2>
+        <h2 onClick={() => navigate("/colorMob")}>CSS Colors </h2>
+        <h2 onClick={() => navigate("/fontMob")}> CSS Fonts</h2>
+        <h2 onClick={() => navigate("/backgroundMob")}>CSS Backgrounds </h2>
+        <h2 onClick={() => navigate("/commentsMob")}>CSS Comments</h2>
+        <h2 onClick={() => navigate("/borderMob")}>CSS Borders </h2>
+        <h2 onClick={() => navigate("/paddingMob")}>CSS Padding </h2>
+        <h2 onClick={() => navigate("/marginMob")}>CSS Margins </h2>
+        <h2 onClick={() => navigate("/widthMob")}>CSS Width </h2>
+        <h2 onClick={() => navigate("/heightMob")}>CSS Height </h2>
+        <h2 onClick={() => navigate("/styleMob")}>Styling Text with CSS</h2>
+        <h2 onClick={() => navigate("/unitsMob")}> CSS Units</h2>
+        <h2 onClick={() => navigate("/boxModelMob")}> CSS Box Model</h2>
+        <h2 onClick={() => navigate("/maxWidthMob")}>CSS Max-Width</h2>
+        <h2 onClick={() => navigate("/maxHeightMob")}>CSS Max-Height</h2>
+        <h2 onClick={() => navigate("/minWidthMob")}>CSS Min-Width </h2>
+        <h2 onClick={() => navigate("/minHeightMob")}>CSS Min-Height </h2>
+        <h2 onClick={() => navigate("/listMob")}> Styling Lists with CSS</h2>
+        <h2 onClick={() => navigate("/tablesMob")}>Styling Tables with CSS</h2>
+        <h2 onClick={() => navigate("/linksMob")}>Styling Links with CSS</h2>
+        <h2 onClick={() => navigate("/imagesMob")}>Styling Images with CSS</h2>
+        <h2 onClick={() => navigate("/iconsMob")}>CSS Icons</h2>
+        <h2 onClick={() => navigate("/floatMob")}> CSS Float Property</h2>
+        <h2 onClick={() => navigate("/displayMob")}>CSS Display Property</h2>
+        <h2 onClick={() => navigate("/positionMob")}>CSS Position Property</h2>
+        <h2 onClick={() => navigate("/zIndexMob")}>CSS Z-index</h2>
+        <h2 onClick={() => navigate("/columnMob")}> CSS Columns</h2>
+        <h2 onClick={() => navigate("/overFlowMob")}> CSS Overflow Property</h2>
+        <h2 onClick={() => navigate("/opacityMob")}>CSS Opacity</h2>
+        <h2 onClick={() => navigate("/outlineMob")}>CSS Outline</h2>
+        <h2 onClick={() => navigate("/formMob")}>Styling Forms with CSS</h2>
+        <h2 onClick={() => navigate("/flexMob")}>CSS Flexbox</h2>
+        <h2 onClick={() => navigate("/gridMob")}>CSS Grid Layout</h2>
+        <h2 onClick={() => navigate("/variableMob")}>CSS Variables</h2>
+        <h2 onClick={() => navigate("/mediaQMob")}> CSS Media Queries</h2>
+        <h2 onClick={() => navigate("/universalMob")}>
+          {" "}
+          CSS Universal Selector
+        </h2>
+        <h2 onClick={() => navigate("/attributeMob")}>
+          {" "}
+          CSS Attribute Selectors
+        </h2>
+        <h2 onClick={() => navigate("/transformMob")}>CSS Transforms</h2>
+        <h2 onClick={() => navigate("/transitionMob")}>CSS Transitions</h2>
+        <h2 onClick={() => navigate("/animationMob")}>CSS Animations</h2>
+        <h2 onClick={() => navigate("/filterMob")}>CSS Filters</h2>
+        <h2 onClick={() => navigate("/responsiveMob")}>
+          Responsive Design with CSS
+        </h2>
       </section>
       <div className="output">
         <Outlet />

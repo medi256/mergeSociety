@@ -180,7 +180,7 @@ body {
   margin-top: 135px;
 }
 
-.mobile p {
+.mobile h2 {
   padding: 8px 16px;
   margin: 5px 0;
   color: #0056b3;
@@ -189,7 +189,7 @@ body {
   font-weight: bold;
 }
 
-.mobile p:hover {
+.mobile h2:hover {
   text-decoration: underline;
   color: #c7544d;
 }
@@ -329,7 +329,7 @@ video {
   align-items: center;
   text-align: center;
   color: #555555;
-  margin-top: 88px;
+  margin-top: 110px;
   font-family: Inter, sans-serif;
   filter: brightness(0.9);
 }
