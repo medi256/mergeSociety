@@ -5,7 +5,7 @@ const LearnByWatchingVideos = () => {
   return (
     <div>
       <div className="welcome-header">
-        <h1>Explore Web Development with Fun Video Lessons</h1>
+        <br />
         <p>
           {`
           Welcome to our web development learning platform! Dive into the world
