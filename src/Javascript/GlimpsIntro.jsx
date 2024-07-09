@@ -254,176 +254,179 @@ export const WhyJavascript = () => {
 export const RunningJS = () => {
   return (
     <div className="comments-container internet">
-      <h1>JavaScript Basics: How to Insert and Run Your Code</h1>
-
+      <h1>How to Insert and Run Your Code</h1>
       <p>
-        {`
-        Welcome to our JavaScript tutorial! In this comprehensive guide, we'll
-        dive into how to insert JavaScript into HTML and execute it. Don't worry
-        if you're new to coding—we'll walk you through everything step by step.`}
+        When you start learning JavaScript, one of the first things you need to
+        know is how to write your code and see it in action. There are three
+        main ways to insert and run your JavaScript code: directly in an HTML
+        file, using the browser's developer tools, and through an online code
+        editor. Let's explore each method step-by-step.
       </p>
 
-      <h2>Inserting JavaScript into HTML</h2>
-
+      <h2>1. Directly in an HTML File</h2>
       <p>
-        {`Let's`} start with the basics: adding JavaScript code to your HTML
-        documents. There are a few ways to do this, each with its own
-        advantages.
+        One common way to run JavaScript is by embedding it directly within an
+        HTML file. This method is great for beginners because it allows you to
+        see how JavaScript interacts with HTML. Follow these steps:
       </p>
-
-      <h3>1. Inline Script Tags ({`<script>`} tag within HTML)</h3>
-      <pre>
-        {`
+      <ul>
+        <li>Create a new HTML file or open an existing one.</li>
+        <li>
+          Inside the <code>&lt;body&gt;</code> tags, add a{" "}
+          <code>&lt;script&gt;</code> tag to include your JavaScript code.
+        </li>
+        <li>
+          Write your JavaScript code between the <code>&lt;script&gt;</code>{" "}
+          tags.
+        </li>
+        <li>
+          Save the file and open it in your web browser to see the results.
+        </li>
+      </ul>
+      <p>Here's a simple example:</p>
+      <pre>{`
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Inline Script Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Example</title>
 </head>
 <body>
-  <p>This is a paragraph.</p>
+  <h1>Hello, World!</h1>
   <script>
-    alert("This is an alert message from inline JavaScript!");
+    alert('This is a JavaScript alert!');
   </script>
 </body>
 </html>
-      `}
-      </pre>
+      `}</pre>
       <p>
-        The <code>{`<script>`}</code> tag is an HTML element used to insert
-        JavaScript code directly into an HTML document. {`It's`} like adding
-        instructions directly into the webpage itself. For example, you can use
-        it to display alert messages, as shown above.
+        When you open this HTML file in your browser, you will see a pop-up
+        message displaying "This is a JavaScript alert!".
       </p>
 
-      <h3>2. External Script Files ( {`<script src=".."> tag`})</h3>
-      <pre>
-        {`
+      <h2>2. Using Browser Developer Tools</h2>
+      <p>
+        Modern web browsers come with built-in developer tools that allow you to
+        run JavaScript code without modifying your HTML files. This is very
+        handy for testing and experimenting with code snippets. Here's how to
+        use it:
+      </p>
+      <ul>
+        <li>Open your web browser (such as Chrome, Firefox, or Edge).</li>
+        <li>
+          Right-click anywhere on the webpage and select "Inspect" or "Inspect
+          Element".
+        </li>
+        <li>
+          In the developer tools window, find and click on the "Console" tab.
+        </li>
+        <li>
+          In the console, you can type JavaScript code and press Enter to run it
+          immediately.
+        </li>
+      </ul>
+      <p>Try this example:</p>
+      <pre>{`
+console.log('Hello, Developer Tools!');
+      `}</pre>
+      <p>
+        When you type this into the console and press Enter, you will see the
+        message "Hello, Developer Tools!" appear in the console.
+      </p>
+
+      <h2>3. Using an Online Code Editor</h2>
+      <p>
+        Online code editors are websites where you can write and run JavaScript
+        code without needing to set up any files on your computer. They are
+        perfect for beginners who want to practice coding quickly and easily.
+        Some popular online code editors include JSFiddle, CodePen, and Repl.it.
+        Here's how to use an online code editor:
+      </p>
+      <ul>
+        <li>
+          Open your web browser and go to an online code editor like JSFiddle or
+          CodePen.
+        </li>
+        <li>
+          Create a new "fiddle" or "pen" (these are just terms for a new coding
+          project).
+        </li>
+        <li>In the JavaScript section, write your JavaScript code.</li>
+        <li>Click the "Run" button to see your code in action.</li>
+      </ul>
+      <p>For example, using JSFiddle, you might write:</p>
+      <pre>{`
+console.log('Hello, JSFiddle!');
+      `}</pre>
+      <p>
+        When you click "Run", you will see the message "Hello, JSFiddle!" in the
+        output area.
+      </p>
+
+      <h2>4. Using an External JavaScript File</h2>
+      <p>
+        As your JavaScript code grows, it becomes a good practice to keep your
+        JavaScript in a separate file. This keeps your HTML clean and your
+        JavaScript organized. Here's how you can do this:
+      </p>
+      <ul>
+        <li>
+          Create a new JavaScript file with a <code>.js</code> extension (for
+          example, <code>script.js</code>).
+        </li>
+        <li>Write your JavaScript code in this new file and save it.</li>
+        <li>
+          Link your JavaScript file to your HTML file by adding a{" "}
+          <code>&lt;script&gt;</code> tag with the <code>src</code> attribute
+          pointing to your JavaScript file. Place this{" "}
+          <code>&lt;script&gt;</code> tag just before the closing{" "}
+          <code>&lt;/body&gt;</code> tag in your HTML file.
+        </li>
+        <li>Open your HTML file in a web browser to see the results.</li>
+      </ul>
+      <p>Here's an example setup:</p>
+      <pre>{`
+<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>External Script Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>External JavaScript Example</title>
 </head>
 <body>
-  <p>This is a paragraph.</p>
-  <script src="myScript.js"></script>
+  <h1>Hello, World!</h1>
+  <script src="script.js"></script>
 </body>
 </html>
-      `}
-      </pre>
+      `}</pre>
+      <pre>{`
+// script.js
+alert('This is a JavaScript alert from an external file!');
+      `}</pre>
       <p>
-        Another method is to link an external JavaScript file using the{" "}
-        <code>src</code> attribute of the <code>{`<script>`}</code> tag. This
-        keeps your HTML clean and separates your JavaScript code into reusable
-        files. For instance, you might have a file called{" "}
-        <code>myScript.js</code> where you store your JavaScript functions.
+        When you open the <code>index.html</code> file in your browser, you will
+        see the alert message from the JavaScript in the <code>script.js</code>{" "}
+        file.
       </p>
 
-      <h3>3. Event Handlers ({`<button onclick="..">`})</h3>
-      <pre>
-        {`
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Event Handler Example</title>
-</head>
-<body>
-  <button onclick="showAlert()">Click Me!</button>
-  <script>
-    function showAlert() {
-      alert("Button clicked!");
-    }
-  </script>
-</body>
-</html>
-      `}
-      </pre>
+      <h2>Recommended Method</h2>
       <p>
-        Event handlers are a way to run JavaScript code in response to user
-        actions, such as clicking a button. In the example above, when the
-        button is clicked, the <code>showAlert</code> function is executed,
-        displaying an alert message.
-      </p>
-
-      <p>
-        Remember, if some of this code seems confusing right now,{" "}
-        {`don't worry!
-        We'll`}{" "}
-        break down each part in more detail in future lessons. For now, focus on
-        understanding the basics of how to insert and run JavaScript code in
-        your web pages.
-      </p>
-
-      <h2>Displaying JavaScript Code Output</h2>
-
-      <p>
-        Now that {`we've inserted our JavaScript code, let's`} explore different
-        ways to see its output and interact with it.
-      </p>
-
-      <h3>1. Using the Console</h3>
-
-      <p>
-        The console is a tool provided by web browsers that allows developers to
-        see messages and errors generated by their JavaScript code. {`It's`}{" "}
-        like a window into the behind-the-scenes workings of your code.
-      </p>
-
-      <pre>
-        {`
-// Print a message to the console
-console.log('Hello, World!');
-      `}
-      </pre>
-
-      <p>
-        To open the console, you can usually right-click on your webpage and
-        select{" "}
-        {`"Inspect" or "Inspect Element" to open the developer tools. Then
-        navigate to the "Console"`}{" "}
-        tab. The <code>console.log()</code> method is commonly used to print
-        messages to this console, allowing you to debug your code and see{" "}
-        {`what's`} happening at different points.
-      </p>
-
-      <h3>2. Using Dialog Boxes</h3>
-
-      <p>
-        Dialog boxes are pop-up messages that can be displayed to the user by
-        your JavaScript code. {`They're`} useful for providing information or
-        prompting the user for input.
-      </p>
-
-      <pre>
-        {`
-// Alert dialog box
-alert('This is an alert message.');
-
-// Confirm dialog box
-let result = confirm('Do you want to proceed?');
-console.log('User choice:', result);
-
-// Prompt dialog box
-let name = prompt('Enter your name:');
-console.log('Hello,'+ name + '!');
-      `}
-      </pre>
-
-      <p>
-        Alert boxes display a message to the user, confirm boxes ask for
-        confirmation with {`"Ok" or "Cancel"`} buttons, and prompt boxes prompt
-        the user for input. These can be useful for interacting with users in
-        your web applications.
+        While all these methods are useful, for beginners, we recommend starting
+        with the first method: embedding JavaScript directly within an HTML
+        file. This way, you can see how JavaScript works with HTML and get a
+        better understanding of how web pages are built. As you get more
+        comfortable, you can explore the other methods for testing and
+        organizing your code.
       </p>
 
       <h2>Conclusion</h2>
-
       <p>
-        Congratulations!{" "}
-        {`You've learned how to insert JavaScript into HTML and
-        run it, as well as different methods for displaying output. Now it's
-        time to practice what you've`}{" "}
-        learned. Try experimenting with different JavaScript code snippets and
-        see what happens. Happy coding!
+        Learning how to insert and run your JavaScript code is the first step in
+        becoming a proficient developer. By practicing with these methods,
+        you'll gain confidence and start to see the power of JavaScript in
+        action. Happy coding!
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/WhyJavascript")}>
