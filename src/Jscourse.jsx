@@ -19,12 +19,7 @@ const Jscourse = () => {
             How to Insert and Run Your Code
           </li>
         </ul>
-        <h2>JavaScript vs. ECMAScript:Whats the difference? </h2>
-        <ul>
-          <li
-            onClick={() => navigate("/JavascriptVsECMAScript")}
-          >{`What's the Difference?`}</li>
-        </ul>
+
         <h2>Javascript Fundamentals</h2>
         <ul>
           <li onClick={() => navigate("/VariablesDataTypes")}>
@@ -128,6 +123,12 @@ const Jscourse = () => {
           <li onClick={() => navigate("/BOMApplication")}>
             BOM Applications (uer interaction beyond the page content)
           </li>
+        </ul>
+        <h2>JavaScript vs. ECMAScript:Whats the difference? </h2>
+        <ul>
+          <li
+            onClick={() => navigate("/JavascriptVsECMAScript")}
+          >{`What's the Difference?`}</li>
         </ul>
         <h2>Advanced Javascript Concepts</h2>
         <ul>
