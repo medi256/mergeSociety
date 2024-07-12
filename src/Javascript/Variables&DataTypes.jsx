@@ -329,7 +329,7 @@ let isUserActive = true;  // "is" prefix for boolean variables
  let studentFirstName = "John"; 
 
  const maxNumberOfStudents = 30; 
- 
+
  let isStudentActive = true;
           
           `}
@@ -442,7 +442,7 @@ export const DataTypes = () => {
         {" "}
         The choice of keyword (<code> let, var</code>, or <code>const</code> )
         you use for a variable
-        {`doesn't`} directly determine the data type. You can use any keyword
+        {` doesn't`} directly determine the data type. You can use any keyword
         with any data type. However, using let or const is generally recommended
         as they provide better control and organization over your variables.
       </p>
