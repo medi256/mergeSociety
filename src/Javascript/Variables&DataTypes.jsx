@@ -1,7 +1,7 @@
 const VariablesDataTypes = () => {
   return (
     <div className="comments-container internet">
-      <h1>Variables in JavaScript: A Comprehensive Guide</h1>
+      <h1>Variables in JavaScript</h1>
       <p>
         Welcome back, aspiring JavaScript developer! In this lesson, we'll
         explore the concept of variables, which are fundamental building blocks
