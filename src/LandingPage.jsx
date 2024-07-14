@@ -8,7 +8,7 @@ const LandingPage = () => {
         <ScrollToTop />
         <div>
           <header>
-            <h1>Welcome to Merge Society, your gateway to web development!</h1>
+            <h2>Welcome to Merge Society, your gateway to web development!</h2>
             <p className="tagline">
               Learn to build websites with ease, and unlock your full potential.
             </p>

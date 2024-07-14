@@ -37,7 +37,7 @@ body {
   align-items: center;
 }
 
-.logo h2 {
+.logo h1 {
   margin-left: 10px;
   font-size: 24px;
 }
@@ -348,7 +348,7 @@ video {
   margin-bottom: 20px;
 }
 
-.landing-page h1 {
+.landing-page h2 {
   font-size: 2.5em;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -390,7 +390,7 @@ video {
     font-size: 18px;
   }
 
-  .landing-page h1 {
+  .landing-page h2 {
     font-size: 1.5em;
   }
 
@@ -448,13 +448,13 @@ video {
   position: relative;
 }
 
-.skillsLinks ul li::before {
+/* .skillsLinks ul li::before {
   content: "✔";
   position: absolute;
   left: -20px;
   color: #27ae60;
   font-size: 1.2em;
-}
+} */
 
 .skillsLinks ul li:last-child {
   margin-bottom: 0;
@@ -494,7 +494,7 @@ video {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.skillsLinks ul li::before {
+/* .skillsLinks ul li::before {
   content: "✔";
   position: absolute;
   left: -25px;
@@ -502,7 +502,7 @@ video {
   font-size: 1.2em;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
 .skillsLinks ul li a {
   text-decoration: none;

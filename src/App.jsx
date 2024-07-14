@@ -8,37 +8,54 @@ const App = () => (
           <span className="icon">
             <i className="fa-solid fa-globe"></i>
           </span>
-          <h2 id="merge-society">mergeSociety</h2>
+          <h1 id="merge-society" title="Learn to Code with Merge Society">
+            MergeSociety
+          </h1>
         </div>
-        {/* <div className="toggle-icon">
-          <span className="icon" id="background-toggle">
-            <i className="fa-solid fa-palette"></i>
-          </span>
-        </div> */}
         <div className="social-links">
           <div>
             <div>
-              <a href="https://www.instagram.com/medi45.of?utm_source=qr&igsh=YnR4bnd4bHFzZWNo">
+              <a
+                href="https://www.instagram.com/medi45.of?utm_source=qr&igsh=YnR4bnd4bHFzZWNo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
             <div>
-              <a href="https://www.twitter.com/@manager70191">
+              <a
+                href="https://www.twitter.com/@manager70191"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-twitter"></i>
               </a>
             </div>
             <div>
-              <a href="https://www.facebook.com/profile.php?id=100088699977603">
+              <a
+                href="https://www.facebook.com/profile.php?id=100088699977603"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-facebook"></i>
               </a>
             </div>
             <div>
-              <a href="https://www.tiktok.com/@merge.corp">
+              <a
+                href="https://www.tiktok.com/@merge.corp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-tiktok"></i>
               </a>
             </div>
             <div>
-              <a href="https://www.youtube.com/@Codak_3" target="_blank">
+              <a
+                href="https://www.youtube.com/@Codak_3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </div>
