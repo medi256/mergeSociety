@@ -1,7 +1,7 @@
 const Comments = () => {
   return (
     <div className="comments-container internet">
-      <h1>Welcome to the Wonderful World of Comments!</h1>
+      <h1> Comments in JavaScript</h1>
       <p>
         Just like how we use comments in our daily lives to explain things or
         leave notes, JavaScript allows us to add comments to our code. Comments
