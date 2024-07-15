@@ -1,7 +1,7 @@
 const Operators = () => {
   return (
     <div className="comments-container internet">
-      <h1> Welcome to the Operator Playground!</h1>
+      <h1> Javascript operators</h1>
       <p>
         {" "}
         Just like a toolbox has different tools for different jobs, JavaScript
@@ -11,10 +11,10 @@ const Operators = () => {
       </p>
       <h3>The Essential Operators:</h3>
       <p>
-        JavaScript offers a variety of operators for different tasks. {`Let's`}
+        JavaScript offers a variety of operators for different tasks. {`Let's `}
         explore some of the most common ones:
       </p>
-      <h2>1. Arithmetic Operators: The Math Masters</h2>
+      <h2>1. Arithmetic Operators</h2>
       <p>
         {" "}
         These operators, like +, -, *, /, and %, help us perform calculations on
@@ -33,7 +33,7 @@ const Operators = () => {
         Think of addition as putting things together.{" "}
         {`It's like adding
         ingredients for a recipe, combining your pocket money with a friend's to
-        buy a game, or calculating the total distance of a trip by adding the`}
+        buy a game, or calculating the total distance of a trip by adding the `}
         lengths of each leg.
       </p>
       <h3>Example:</h3>
@@ -174,7 +174,7 @@ console.log("Your current score is", score);
         By understanding these operators and practicing with them, {`you'll`} be
         a whiz at performing calculations in JavaScript!
       </p>
-      <h2>Comparison Operators: The Workhorses of Conditional Logic</h2>
+      <h2>Comparison Operators in Javascript </h2>
       <p>
         Comparison operators are the workhorses of conditional logic in
         JavaScript. They allow you to compare values and determine relationships
@@ -373,7 +373,7 @@ console.log(3 <= 3); // true
           <code>x === null</code> or <code>x !== undefined</code>.
         </li>
       </ul>
-      <h1>Logical Operators: The Power of Combining Conditions</h1>
+      <h1>Logical Operators in Javascript </h1>
       <p>
         Logical operators in JavaScript empower you to combine multiple
         conditions (comparisons or other expressions that evaluate to true or
