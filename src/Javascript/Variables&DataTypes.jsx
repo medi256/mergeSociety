@@ -358,371 +358,279 @@ let isUserActive = true;  // "is" prefix for boolean variables
 export const DataTypes = () => {
   return (
     <div className="comments-container internet">
-      <h1>JavaScript Data Types</h1>
-      <h3>The Building Blocks of Your Data:</h3>
+      <h1>Introduction to JavaScript Data Types</h1>
       <p>
-        Just like any construction project, your JavaScript code needs various
-        building blocks to create something meaningful. These building blocks
-        are called data types, and they represent the different kinds of
-        information you can store in your variables.
+        Welcome everyone! Today, we're going to dive into the fundamental
+        building blocks of JavaScript: data types. Just like when you're
+        building a house and you need different materials, in programming, we
+        use different types of data to store and work with information. Think of
+        it like the different subjects you study at school, each requiring a
+        different kind of knowledge.
       </p>
-      <h2>The Essential Data Types:</h2>
+      <h2>Understanding Data Types</h2>
       <p>
-        JavaScript has several fundamental data types for storing different
-        types of information:
+        In JavaScript, we have several types of data that we use to represent
+        different kinds of information. Let's explore each of these data types
+        in detail.
+      </p>
+
+      <h3>Number</h3>
+      <p>
+        The <strong>Number</strong> data type is used to represent numeric
+        values. These can be integers (whole numbers) or floating-point numbers
+        (decimals). Numbers are essential for performing mathematical
+        calculations and operations.
+      </p>
+      <pre>
+        <code>
+          {`let age = 30;
+let pi = 3.14;
+console.log(age); // Output: 30
+console.log(pi); // Output: 3.14`}
+        </code>
+      </pre>
+      <p>
+        Numbers are used for representing quantitative values like age or
+        mathematical constants such as pi. We can perform mathematical
+        operations on numbers using operators like <code>+</code>,{" "}
+        <code>-</code>, <code>*</code>, <code>/</code>, and <code>%</code>.
+        Here's a simple example of using a mathematical operator:
+      </p>
+      <pre>
+        <code>
+          {`let sum = 10 + 5;
+console.log(sum); // Output: 15`}
+        </code>
+      </pre>
+      <p>
+        Numbers are commonly used in calculations. For instance, you might use
+        numbers to calculate the total price of items in a shopping cart.
+      </p>
+      <pre>
+        <code>
+          {`let itemPrice = 20;
+let quantity = 3;
+let totalPrice = itemPrice * quantity;
+console.log(totalPrice); // Output: 60`}
+        </code>
+      </pre>
+
+      <h3>String</h3>
+      <p>
+        The <strong>String</strong> data type is used to represent textual data.
+        Strings are enclosed in single <code>'</code> or double <code>"</code>{" "}
+        quotes. Strings are crucial for storing and manipulating text.
+      </p>
+      <pre>
+        <code>
+          {`let firstName = 'John';
+let message = "Hello, Console!";
+console.log(firstName); // Output: John
+console.log(message); // Output: Hello, Console!`}
+        </code>
+      </pre>
+      <p>
+        Strings are used for storing text, such as names or messages. We can
+        manipulate strings, combine them, or extract parts of them using various
+        string methods in JavaScript. For example, you can concatenate (join)
+        two strings together:
+      </p>
+      <pre>
+        <code>
+          {`let fullName = 'John' + ' ' + 'Doe';
+console.log(fullName); // Output: John Doe`}
+        </code>
+      </pre>
+      <p>
+        Strings are often used for user input and output. For example, you might
+        store a user's name and display a welcome message.
+      </p>
+      <pre>
+        <code>
+          {`let userName = 'Alice';
+let greeting = 'Hello, ' + userName + '!';
+console.log(greeting); // Output: Hello, Alice!`}
+        </code>
+      </pre>
+
+      <h3>Boolean</h3>
+      <p>
+        The <strong>Boolean</strong> data type represents a logical value
+        indicating <code>true</code> or <code>false</code>. Booleans are
+        fundamental for controlling the flow of programs with conditional
+        statements.
+      </p>
+      <pre>
+        <code>
+          {`let isStudent = true;
+let isWorking = false;
+console.log(isStudent); // Output: true
+console.log(isWorking); // Output: false`}
+        </code>
+      </pre>
+      <p>
+        Booleans are used for logical operations. They represent truth values
+        and are often used to make decisions in programs. For example, you might
+        use a boolean to represent whether a user has completed a task or not.
+      </p>
+      <p>
+        Booleans are used in decision-making. For instance, you might check if a
+        user is subscribed to a newsletter before displaying certain content.
+      </p>
+
+      <h3>Undefined</h3>
+      <p>
+        The <strong>Undefined</strong> data type represents a variable that has
+        been declared but not yet assigned a value. It indicates the absence of
+        a value.
+      </p>
+      <pre>
+        <code>
+          {`let lastName;
+console.log(lastName); // Output: undefined`}
+        </code>
+      </pre>
+      <p>
+        Variables that are declared but not initialized with a value
+        automatically have the value <code>undefined</code>. This is different
+        from <code>null</code>, which represents an intentional absence of a
+        value.
+      </p>
+
+      <h3>Null</h3>
+      <p>
+        The <strong>Null</strong> data type represents the intentional absence
+        of any object value. It is explicitly assigned to a variable to indicate
+        that it has no value.
+      </p>
+      <pre>
+        <code>
+          {`let middleName = null;
+console.log(middleName); // Output: null`}
+        </code>
+      </pre>
+      <p>
+        Null is often used to signify that a variable intentionally has no value
+        or that a function deliberately returns no value. It's a way of saying
+        "this variable is empty" in a clear manner.
+      </p>
+
+      <h3>Type Coercion</h3>
+      <p>
+        Type coercion is the process of converting a value from one data type to
+        another. JavaScript often performs this conversion implicitly, which can
+        sometimes lead to unexpected results.
+      </p>
+      <pre>
+        <code>
+          {`let result = '5' + 5;
+console.log(result); // Output: '55'`}
+        </code>
+      </pre>
+      <p>
+        In the example above, JavaScript converts the number <code>5</code> to a
+        string and concatenates it with the string <code>'5'</code>, resulting
+        in <code>'55'</code>. Type coercion can also occur with other
+        operations:
+      </p>
+      <pre>
+        <code>
+          {`let result = '5' - 2;
+console.log(result); // Output: 3`}
+        </code>
+      </pre>
+      <p>
+        Here, JavaScript converts the string <code>'5'</code> to a number and
+        performs the subtraction, resulting in <code>3</code>.
+      </p>
+
+      <h3>Detailed Explanation</h3>
+      <p>
+        Type coercion happens in many situations in JavaScript, especially when
+        performing operations that involve different data types. JavaScript
+        tries to be helpful by automatically converting values to the
+        appropriate type needed for the operation. This can sometimes lead to
+        unexpected results if you're not careful.
+      </p>
+
+      <h4>Examples of Type Coercion</h4>
+      <p>
+        <strong>String Concatenation:</strong>
+      </p>
+      <p>
+        When a number is added to a string, JavaScript converts the number to a
+        string and concatenates them.
+      </p>
+      <pre>
+        <code>
+          {`let example = '5' + 10;
+console.log(example); // Output: '510'`}
+        </code>
+      </pre>
+
+      <p>
+        <strong>Subtraction:</strong>
+      </p>
+      <p>
+        When a string containing a numeric value is subtracted from a number,
+        JavaScript converts the string to a number and performs the subtraction.
+      </p>
+      <pre>
+        <code>
+          {`let example = '10' - 5;
+console.log(example); // Output: 5`}
+        </code>
+      </pre>
+
+      <h3>Data Type Checking</h3>
+      <p>
+        The <code>typeof</code> operator is used to determine the data type of a
+        variable. This can be useful for debugging and understanding the
+        behavior of different code snippets.
+      </p>
+      <pre>
+        <code>
+          {`let age = 30;
+let name = 'Alice';
+let isStudent = true;
+console.log(typeof age); // Output: 'number'
+console.log(typeof name); // Output: 'string'
+console.log(typeof isStudent); // Output: 'boolean'`}
+        </code>
+      </pre>
+      <p>
+        Using the <code>typeof</code> operator helps you identify the data type
+        of a variable, which can be particularly helpful when debugging or
+        writing complex code.
+      </p>
+
+      <h3>Going Further</h3>
+      <p>
+        As you progress in your JavaScript journey, you'll encounter more
+        complex data types:
       </p>
       <ul>
         <li>
-          {" "}
-          <b>Numbers</b>: These represent numerical values, like whole numbers
-          (10, 25) or decimals (3.14, -5.2).
+          <strong>Symbols</strong>: Unique identifiers used for object
+          properties.
         </li>
         <li>
-          <b>Strings</b>: These represent sequences of text characters, enclosed
-          in quotes {`(like "Hello, world!" or 'This is a string').`}
+          <strong>Objects</strong>: Collections of key-value pairs to store
+          related data.
         </li>
         <li>
-          <b>Booleans</b>: These represent logical values, either true or false.
-          {`They're`} often used for making decisions in your code.
-        </li>
-        <li>
-          {" "}
-          <b>Undefined</b>: This indicates a variable that has been declared but
-          {`hasn't`} been assigned a value yet.
-        </li>
-        <li>
-          <b>Null</b>: This represents the intentional absence of any value.
-          {`It's different from undefined as it's an explicit way to say there's
-          nothing there.`}
-        </li>
-      </ul>
-      <h3> Beyond the Basics:</h3>
-      <p>
-        JavaScript also offers some additional data types for more complex
-        scenarios:
-      </p>
-      <ul>
-        <li>
-          <b>Symbols</b>: These are unique identifiers that can be used as
-          property keys in objects. {`They're`} not very common for beginners
-          but are useful in advanced situations.
-        </li>
-        <li>
-          <b>Objects</b>: These are collections of key-value pairs that allow
-          you to store and organize related data.
-        </li>
-        <li>
-          <b>Arrays</b>: These are ordered lists of values, allowing you to
+          <strong>Arrays</strong>: Ordered lists of values that allow you to
           group similar items together.
         </li>
       </ul>
-      <h3>Choosing the Right Block (Data Type) for Your Variable:</h3>
+
       <p>
-        When you create a variable using let, var, or const, you also specify
-        the data type of the information it will hold. This helps JavaScript
-        understand how to interpret and use the data effectively.
+        Understanding these data types is crucial because they form the
+        foundation of how we store and manipulate information in JavaScript. In
+        our next lesson, we'll dive deeper into mathematical operations using
+        operators.
       </p>
-      <h3> For example:</h3>
-      <ul>
-        <li>
-          {" "}
-          You might use a Number data type for a variable storing a game score.
-        </li>
-        <li>
-          You might use a String data type for a variable containing a
-          {`character's`} name.
-        </li>
-        <li>
-          You might use a Boolean data type for a variable indicating whether a
-          sound effect is on or off.
-        </li>
-      </ul>
-      <h3>Connecting Data Types and Keywords:</h3>
-      <p>
-        {" "}
-        The choice of keyword (<code> let, var</code>, or <code>const</code> )
-        you use for a variable
-        {` doesn't`} directly determine the data type. You can use any keyword
-        with any data type. However, using let or const is generally recommended
-        as they provide better control and organization over your variables.
-      </p>
-      <h3>In essence:</h3>
-      <ul>
-        <li>
-          Data types define the kind of information your variables can hold
-          (numbers, text, etc.).
-        </li>
-        <li>
-          You choose the appropriate data type when creating a variable using
-          keywords like <code> let, var</code>, or <code>const </code> .
-        </li>
-      </ul>
-      <p>
-        {`Let's`} break down each data type in JavaScript, one by one, along
-        with explanations and practical examples to help you understand them as
-        a beginner.
-      </p>
-      <ol>
-        <li>
-          <h1>1. Numbers</h1>
-          <ul>
-            <li>
-              <b>What are they?</b> Numbers represent numerical values, like
-              quantities or measurements. They can be whole numbers (integers)
-              like 10, -25, or numbers with decimals like 3.14 (pi), -5.2
-              (temperature). Imagine counting apples (integers) or measuring the
-              length of something (decimals).
-            </li>
-            <li>
-              <b>How to use them:</b> We can store numbers in variables using
-              keywords like `let`, `var` (less common now), or `const`. Think of
-              a variable as a labeled box where you keep your number value.
-            </li>
-            <pre>
-              <code>
-                {`
-        // JavaScript
 
-        let age = 30; // Stores your age (integer)
-        const pi = 3.14159; // Stores the mathematical constant pi (decimal)
-        var distance = 100.5; // Stores a distance (decimal)
-        `}
-              </code>
-            </pre>
-            <li>
-              <b>Things to know:</b>
-              <ul>
-                <li>
-                  <b>Math with numbers:</b> We can use special symbols like `+`
-                  (add), `-` (subtract), `*` (multiply), and `/` (divide) to
-                  perform calculations on our numbers. Just like with a
-                  calculator!
-                  <pre>
-                    <code>
-                      {`
-              let sum = age + pi; // sum will be 33.14159 (adding age and pi)
-              let difference = distance - 20; // difference will be 80.5 (subtracting 20 from distance)
-              `}
-                    </code>
-                  </pre>
-                </li>
-                <li>
-                  <b>Turning text into numbers:</b> Sometimes we might get
-                  numbers as text (like user input). We can use functions like
-                  `parseInt()` to convert text to whole numbers (integers) and
-                  `parseFloat()` to convert text to decimals. Imagine turning a
-                  written price tag (text) into a number you can use for
-                  calculations.
-                  <pre>
-                    <code>
-                      {`
-              let userInput = "123.45"; // This is text!
-
-              let userNumber = parseInt(userInput); // userNumber will be 123 (integer part)
-              let userDecimal = parseFloat(userInput); // userDecimal will be 123.45 (decimal)
-              `}
-                    </code>
-                  </pre>
-                </li>
-                <li>
-                  <b>Fun fact:</b> Computers store numbers differently than
-                  text. This special way allows for faster calculations!
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h1>2. Strings: Text Time!</h1>
-          <ul>
-            <li>
-              <b>What are they?</b> Strings are basically fancy text holders in
-              your code. Imagine a cool notepad where you write down words,
-              numbers, symbols, emojis - anything!{" "}
-              {`They're wrapped in either single quotes (\` ' \`) or double quotes (\` " \`)`}
-              . Strings let you play around with text data.
-            </li>
-            <li>
-              <b>How to use them:</b> We can store strings in boxes (variables)
-              using words like `let`, `var` (not as popular anymore), or
-              `const`. Think of these boxes as labeled sticky notes where you
-              keep your text.
-            </li>
-            <pre>
-              <code>
-                {`
-        // JavaScript
-
-        let name = "Alice"; // Stores your awesome name
-        const greeting = 'Yo, world!'; // A cool greeting message
-        var message = "This is some text!"; // Just a random message
-        `}
-              </code>
-            </pre>
-            <li>
-              <b>Fun stuff to know:</b>
-              <ul>
-                <li>
-                  <b>Special characters:</b> Sometimes you might want quotes
-                  inside your text, like someone saying something. We use a
-                  backslash (`\`) before the quote to tell JavaScript {`it's`}{" "}
-                  part of the message, not the end. Think of writing a quote
-                  within a quote in a story! For example:
-                  <pre>
-                    <code>{`let quote = "He said, 'What up, world!'";`}</code>
-                  </pre>
-                </li>
-                <li>
-                  <b>Sticking things together:</b> We can join (concatenate)
-                  multiple strings using a plus sign (` + `). Imagine putting
-                  sentences together to make a longer message. For example:
-                  <pre>
-                    <code>{`let fullName = name + " Smith"; // fullName will be "Alice Smith"`}</code>
-                  </pre>
-                </li>
-                <li>
-                  <b>Peeking inside strings:</b> Each letter in a string has a
-                  place (index) starting from 0. We can use square brackets `[]`
-                  and the index to grab specific letters. Imagine finding a
-                  specific letter in a word. For example:
-                  <pre>
-                    <code>{`let firstLetter = name[0]; // firstLetter will be "A"`}</code>
-                  </pre>
-                </li>
-                <li>
-                  <b>Changing strings:</b> Built-in functions like
-                  `toUpperCase()` and `toLowerCase()` can transform strings.
-                  Imagine shouting a message (uppercase) or whispering
-                  (lowercase). For example:
-                  <pre>
-                    <code>{`let shoutedName = name.toUpperCase(); // shoutedName will be "ALICE"`}</code>
-                  </pre>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <h2>Note</h2>
-          <p>
-            In JavaScript, anything between quotation marks turns into text,
-            even numbers! So if you write {`"100"`}, it becomes text, not the
-            number 100. Remember, anything with quotes is treated as text
-            (string) in JavaScript.
-          </p>
-        </li>
-        <li>
-          <h1>3. Booleans: True or False?</h1>
-          <ul>
-            <li>
-              <b>What are they?</b> Imagine a light switch. It can be either
-              **on** or **off**. Booleans in code are like that switch! They can
-              only be one of two things: **true** (like the light being on) or
-              **false** (like the light being off). Booleans help your code make
-              decisions based on these two simple options.
-            </li>
-            <li>
-              <b>How to use them:</b>{" "}
-              {`We can store these "on" or "off" values in variables
-      using keywords like "let" or "const". Think of it like a labeled box where you
-      put either "true" or "false" depending on what you want to remember.`}
-            </li>
-            <pre>
-              <code>
-                {`
-        // JavaScript
-
-        let isLoggedIn = false;  // Not logged in (like light off)
-        const isRaining = true;   // Raining (like light on)
-        var isGameOver = false;   // Game not over (like light off)
-        `}
-              </code>
-            </pre>
-            <li>
-              <b>More about booleans:</b>
-              <ul>
-                <li>
-                  <b>Making choices:</b> Booleans are like little helpers that
-                  tell your code what to do next. Imagine a game where you need
-                  a key to open a door. You can use a boolean like{" "}
-                  {`"hasKey" to be true (like having the
-          key) or false (like not having it). Based on that, your code can show
-          a message saying "Door unlocked!" or "You need a key."`}
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h1>4. {`What's`} in the Box?</h1>
-          <ul>
-            <li>
-              <b>Imagine you have boxes to store your things.</b> Sometimes, you
-              might declare a box (like a variable) but forget to put anything
-              inside yet. This is what **undefined** means in code. The variable
-              exists, but {`it's`}
-              like an empty box waiting for something.
-            </li>
-            <li>
-              <b>
-                On the other hand, you might also have empty boxes on purpose.
-              </b>
-              Maybe you want a box to hold something later, but right now,{" "}
-              {`it's
-      intentionally empty. This is what **null** means in code. It's like a
-      special way of saying the box is supposed to be empty for now.`}
-            </li>
-            <pre>
-              <code>
-                {`
-        // JavaScript
-
-        let toyBox;  // This box (variable) is declared but empty (undefined)
-        console.log(toyBox); // This might print "undefined" because it's empty
-
-        let giftBox = null; // This box (variable) is intentionally empty (null)
-        console.log(giftBox); // This will print "null" because it's supposed to be empty
-        `}
-              </code>
-            </pre>
-            <li>
-              <b>Tips for your boxes:</b>
-              <ul>
-                <li>
-                  You can check if your box has something inside using a special
-                  tool called `typeof`. This is like peeking inside to see if{" "}
-                  {`there's`} a toy (value) or not.
-                </li>
-                <li>
-                  {`It's`} a good idea to try to fill your boxes with things
-                  (values) as soon as you know what you want to keep in them.
-                  This helps avoid any confusion later in your code.
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-
-        <h3> Going further:</h3>
-        <p>
-          As you progress in your JavaScript journey, {`you'll`} encounter more
-          complex data types:
-        </p>
-        <p>
-          Get ready to learn more about objects, arrays, and symbols later on!
-          For now, {`we're just introducing them to show you that they're`}
-          different ways to store information in JavaScript, just like numbers
-          and other data types.
-        </p>
-        <li>
-          <b>Symbols</b>: Unique identifiers used for object properties.
-        </li>
-        <li>
-          <b>Objects</b>: Collections of key-value pairs to store related data.
-        </li>
-        <li>
-          <b>Arrays</b>: Ordered lists of values that allow you to group similar
-          items together.
-        </li>
-      </ol>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/namingVariable")}>
           back

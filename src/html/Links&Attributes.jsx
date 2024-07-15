@@ -23,7 +23,7 @@ function LinksH() {
         <code>
           {`
         
-<a href="https://www.example.com"&gt;Click me!</a>
+<a href="https://www.example.com">Click me!</a>
         `}
         </code>
       </pre>
