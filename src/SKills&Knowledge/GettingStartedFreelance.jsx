@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const GettingStartedFreelance = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Freelancing for Beginners: A Comprehensive Guide</h1>
       <p>
         {`Welcome to the exciting and rewarding world of freelancing! If you
@@ -96,7 +98,7 @@ const GettingStartedFreelance = () => {
         can be a powerful tool, so don't underestimate the value of building
         relationships with local business owners and professionals.`}
       </p>
-
+      <AdUnit />
       <h3>Connect with Local Businesses</h3>
       <p>
         Reach out to local businesses, startups, and entrepreneurs who may need

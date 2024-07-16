@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const JavascriptVsECMAScript = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Welcome to the World of JavaScript and ECMAScript!</h1>
       <p>
         Hey there! So,{" "}

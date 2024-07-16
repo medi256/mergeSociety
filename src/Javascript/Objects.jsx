@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Objects = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>JavaScript Objects</h1>
       <p>
         In this tutorial, we will delve into the world of JavaScript objects.
@@ -125,6 +128,7 @@ console.log(academy["merge society"]) // Outputs true
         dynamic property names or accessing properties that conflict with
         JavaScript keywords.
       </p>
+      <AdUnit />
       <h2>Modifying Properties</h2>
       <p>
         {" "}

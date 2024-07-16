@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const OverviewReact = () => {
   return (
     <div className="internet  comments-container">
+      <AdUnit />
       <h1>Welcome to the World of React.js</h1>
       <p>
         React is a game-changer in the world of web development, empowering
@@ -45,7 +48,7 @@ const OverviewReact = () => {
         throughout your application. This promotes code reuse, makes maintenance
         easier, and allows for better collaboration among developers.
       </p>
-
+      <AdUnit />
       <h2>Virtual DOM</h2>
       <p>
         {`One of React's standout features is the Virtual DOM. Imagine having a
@@ -95,6 +98,7 @@ export default OverviewReact;
 export const HistoryReact = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h1>History and Background of React</h1>
       <p>
         {`React has an intriguing history and a vibrant community that has played
@@ -153,6 +157,7 @@ export const HistoryReact = () => {
           creation of UI elements more familiar and readable.
         </li>
       </ul>
+      <AdUnit />
 
       <h2>Community Growth and Contributions</h2>
       <p>
@@ -205,6 +210,7 @@ export const HistoryReact = () => {
 export const BenefitReact = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h1>Benefits of Using React</h1>
       <p>
         {`React offers a plethora of advantages that have made it a popular choice
@@ -288,6 +294,7 @@ export const BenefitReact = () => {
         developers continues to grow, ensuring a bright and rewarding future for
         those who embrace this powerful library.`}
       </p>
+      <AdUnit />
 
       <h2>Continuous Innovation and Updates</h2>
       <p>

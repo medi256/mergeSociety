@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const DefiningCallingFunc = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Welcome to the Wonderful World of JavaScript Functions!</h1>
       <p>
         Welcome, future JavaScript masters! Today, {`we'll`} meet some
@@ -79,6 +82,7 @@ sayHello(); // This calls the \`sayHello\` function
           {`we're essentially telling the function to execute its instructions, which is to print "Hello!" to the console.`}
         </li>
       </ol>
+      <AdUnit />
       <h3>The Magic of Reusability:</h3>
       <p>The beauty of functions is that you can call them multiple times:</p>
       <pre>
@@ -123,6 +127,7 @@ export default DefiningCallingFunc;
 export const ParameterArgument = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         Level Up Your Functions: Using Parameters and Arguments like a Pro
       </h1>
@@ -200,6 +205,7 @@ greetUser("Alice"); // "Alice" is the argument for the "name" parameter
           create a personalized greeting.
         </li>
       </ol>
+      <AdUnit />
       <h3>Benefits of Parameters and Arguments:</h3>
       <ul>
         <li>
@@ -247,6 +253,7 @@ greetUser("Alice"); // "Alice" is the argument for the "name" parameter
 export const ReturnValues = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         Unlocking the Power of Returning Values: Giving Your Functions Results
       </h1>
@@ -331,6 +338,7 @@ console.log("The area of the rectangle is:", rectangleArea); // This will print:
           Finally, we print the result using <b>console.log</b>.
         </li>
       </ol>
+      <AdUnit />
       <h3>Best Practices:</h3>
       <ul>
         <li>Use descriptive variable names to make your code more readable.</li>
@@ -376,6 +384,7 @@ console.log("The area of the rectangle is:", rectangleArea); // This will print:
 export const FuncScope = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Demystifying Function Scope: Where Your Variables Live</h1>
       <p>
         In our JavaScript journey,{" "}
@@ -435,6 +444,7 @@ greetUser(); // This will print "Hello, Alice!"
           scope.
         </li>
       </ol>
+      <AdUnit />
       <h3>Best Practices:</h3>
       <ul>
         <li>Use descriptive variable names to avoid naming conflicts.</li>
@@ -477,6 +487,7 @@ greetUser(); // This will print "Hello, Alice!"
 export const ArrowFunc = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introducing Arrow Functions: A Simpler Way to Write Functions</h1>
       <p>
         {" "}
@@ -553,6 +564,7 @@ console.log("The area of the rectangle is:", rectangleArea); // This will print:
           <b>return</b> keyword is implied, making the code even shorter.
         </li>
       </ul>
+      <AdUnit />
       <h3>Best Practices:</h3>
       <ul>
         <li>Use arrow functions for simple, one-line functions.</li>

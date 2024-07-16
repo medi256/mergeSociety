@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Loops = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Loops: What They Are and How They Work</h1>
       <p>
         Think of loops as your personal automation crew. {`They're`} the
@@ -136,6 +139,7 @@ while (pizzaLeft) {
         This loop keeps printing {`"Another slice, please!" until there's`} no
         more pizza left, stopping the loop when <b>pizzaLeft</b> becomes false.
       </p>
+      <AdUnit />
       <h2>
         3. The <code>for...of</code> loop:
       </h2>

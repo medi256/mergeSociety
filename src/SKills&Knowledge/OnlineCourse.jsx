@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const OnlineCourse = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Online Courses: Sharing Your Knowledge and Impacting Lives</h1>
       <p>
         {`Creating and selling online courses is an incredibly rewarding way to
@@ -78,7 +80,7 @@ const OnlineCourse = () => {
         follow, and regularly updated to stay relevant and reflect the latest
         industry developments.
       </p>
-
+      <AdUnit />
       <h2>Choosing a Course Platform</h2>
       <p>
         {`Select a suitable platform to host your online course. Popular options
@@ -125,6 +127,7 @@ export const YoutubeChannel = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Starting a Tech YouTube Channel: Unleashing Your Potential</h1>
       <p>
         {`YouTube is more than just a platform for entertainment; it's a powerful
@@ -173,7 +176,7 @@ export const YoutubeChannel = () => {
         through search. Upload a high-quality profile picture and channel art
         that reflects your brand and niche.
       </p>
-
+      <AdUnit />
       <h2>Step 3: Create Engaging Content</h2>
       <p>
         Creating engaging content is the key to building a successful YouTube
@@ -319,6 +322,7 @@ export const WebinarWorkShop = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Webinars and Workshops: Engaging Your Audience Live</h1>
       <p>
         {`Webinars and workshops are incredibly powerful tools for sharing your
@@ -397,7 +401,7 @@ export const WebinarWorkShop = () => {
         wider audience. Engage your existing audience through blog posts,
         videos, or social media posts leading up to the event.
       </p>
-
+      <AdUnit />
       <h2>Delivering an Engaging Webinar or Workshop</h2>
       <p>
         {`Focus on providing clear and concise explanations, practical examples,

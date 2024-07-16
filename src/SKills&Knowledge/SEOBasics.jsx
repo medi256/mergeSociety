@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const SEOBasics = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>SEO Basics: Understanding the Importance of SEO</h1>
       <p>
         {`Search Engine Optimization (SEO) is a crucial aspect of online
@@ -113,7 +115,7 @@ const SEOBasics = () => {
           rankings.`}
         </li>
       </ul>
-
+      <AdUnit />
       <h2>SEO Best Practices</h2>
       <p>{`Here are some best practices to improve your website's SEO:`}</p>
       <ul>
@@ -170,6 +172,7 @@ export const GoogleIndexing = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Understanding How Google Indexes Pages</h1>
       <p>
         {`Google, as the leading search engine, plays a crucial role in how web
@@ -299,7 +302,7 @@ export const GoogleIndexing = () => {
           on creating natural, user-friendly content.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Understanding Indexing Delays</h2>
       <p>
         {`It's important to note that when a website is first deployed to the
@@ -354,6 +357,7 @@ export const ContentMarketing = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Content Marketing: Engaging and Inspiring Your Audience</h1>
       <p>
         {`Content marketing is a powerful strategy that focuses on creating and
@@ -451,7 +455,7 @@ export const ContentMarketing = () => {
           credibility.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Creating Valuable Content</h2>
       <p>
         Creating valuable content that resonates with your audience involves

@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const RenderingDifComponent = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Creating and Rendering JSX Files in React</h2>
 
       <p>
@@ -117,6 +120,7 @@ my-app/
         like starting with a fresh notebook, ready to fill with your creative
         JSX ideas.`}
       </p>
+      <AdUnit />
 
       <h3>Creating JSX Files: Building Your UI Elements</h3>
 

@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const JoinStartUP = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Joining Startups: Embracing the Startup Culture</h1>
       <p>
         {`Welcome to the exciting world of startups! Joining a startup can be a
@@ -95,7 +97,7 @@ const JoinStartUP = () => {
           effectively, and work efficiently.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>How Joining a Startup Can Shape Your Career</h2>
       <p>
         Joining a startup can have a significant impact on your career path and
@@ -187,6 +189,7 @@ export const BuildingStartup = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Building a Startup: A Step-by-Step Guide</h1>
       <p>
         {`Welcome to the exciting world of startups! Building a startup is an
@@ -268,7 +271,7 @@ export const BuildingStartup = () => {
         sales, or finance. Together, you can form a well-rounded team that can
         tackle the various aspects of building and growing your startup.`}
       </p>
-
+      <AdUnit />
       <h2>Step 5: Develop a Business Plan</h2>
       <p>
         {`A business plan is a roadmap for your startup's success. It outlines

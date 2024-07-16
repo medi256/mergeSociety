@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const UsingStyleModule = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>React CSS Styling: Efficient Styling Techniques</h2>
 
       <p>
@@ -129,6 +132,7 @@ export default MyComponent;
         In this CSS file, we define styles for the <code>.container</code> and{" "}
         <code>.title</code> classes.
       </p>
+      <AdUnit />
 
       <h4>3. Applying Styles</h4>
 
@@ -250,6 +254,7 @@ export default UsingStyleModule;
 export const InlineStyleReact = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Applying Inline Styles in React: Dynamic Styling</h2>
 
       <p>
@@ -341,6 +346,7 @@ const inlineStyles = {
         JSX elements.
       </p>
 
+      <AdUnit />
       <h4>2. Applying Inline Styles</h4>
 
       <p>Now, let's apply the inline styles to our JSX elements:</p>

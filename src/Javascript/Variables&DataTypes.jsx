@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const VariablesDataTypes = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Variables in JavaScript</h1>
       <p>
         Welcome back, aspiring JavaScript developer! In this lesson, we'll
@@ -78,6 +81,7 @@ const VariablesDataTypes = () => {
         <code>let</code> and <code>const</code> instead, as they provide more
         control over variable scope.
       </p>
+      <AdUnit />
 
       <h2>Why Do We Have Different Ways to Declare Variables?</h2>
       <p>
@@ -227,6 +231,7 @@ export default VariablesDataTypes;
 export const NamingVariable = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Best Practices for Variable Naming in JavaScript</h1>
       <p>
         Welcome to a comprehensive guide on best practices for naming variables
@@ -279,6 +284,7 @@ let isStudentActive = true;
         This convention enhances readability and consistency across your
         codebase.
       </p>
+      <AdUnit />
 
       <h2>3. Avoid Reserved Keywords</h2>
       <p>
@@ -358,6 +364,7 @@ let isUserActive = true;  // "is" prefix for boolean variables
 export const DataTypes = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introduction to JavaScript Data Types</h1>
       <p>
         Welcome everyone! Today, we're going to dive into the fundamental
@@ -477,6 +484,7 @@ console.log(isWorking); // Output: false`}
         Booleans are used in decision-making. For instance, you might check if a
         user is subscribed to a newsletter before displaying certain content.
       </p>
+      <AdUnit />
 
       <h3>Undefined</h3>
       <p>

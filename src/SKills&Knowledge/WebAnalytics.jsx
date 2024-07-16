@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const WebAnalytics = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Unleashing Insights: Setting up Google Analytics</h1>
       <p>
         {`Welcome to the world of data-driven decision-making! Google Analytics is
@@ -121,7 +123,7 @@ const WebAnalytics = () => {
           website is achieving those goals.`}
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Understanding Key Metrics and Reports</h2>
       <p>
         Google Analytics offers a wide range of metrics and reports that can
@@ -191,6 +193,7 @@ export const UserBehavior = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Understanding User Behavior: Hotjar and Crazy Egg</h1>
       <p>
         {`Welcome to the exciting world of user behavior tracking! In this module,
@@ -257,7 +260,7 @@ export const UserBehavior = () => {
           rate, and data retention policies.
         </li>
       </ol>
-
+      <AdUnit />
       <h3>Unveiling the Power of Crazy Egg</h3>
       <p>
         Crazy Egg is another fantastic tool that offers insights into user

@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const IntroAPI = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is an API?</h1>
       <p>
         An API, or Application Programming Interface, is a set of defined rules
@@ -49,6 +52,7 @@ const IntroAPI = () => {
           threats.
         </li>
       </ul>
+      <AdUnit />
       <h2>Real-World Examples of APIs</h2>
       <p>
         APIs are used in many real-world scenarios. Here are a few examples:
@@ -130,6 +134,7 @@ export default IntroAPI;
 export const FetchingDataFromApis = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Fetching Data from APIs</h1>
       <p>
         {`Now that we've learned about APIs, let's dive into how to fetch data from
@@ -209,6 +214,7 @@ export const FetchingDataFromApis = () => {
           list APIs from various providers.
         </li>
       </ul>
+      <AdUnit />
       <h2>How to Get API Keys and Access Tokens</h2>
       <p>
         To use a web API, you often need to register for an API key or access

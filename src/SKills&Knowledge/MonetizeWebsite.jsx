@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const MonetizeWebsite = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Building and Monetizing Websites: A Step-by-Step Guide</h1>
       <p>
         {`Welcome to the exciting world of website monetization! In this
@@ -87,7 +89,7 @@ const MonetizeWebsite = () => {
           repeat traffic.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Step 4: Monetize Through Ads</h2>
       <p>
         {`Monetizing your website through advertising is a popular strategy.
@@ -207,6 +209,7 @@ export const CodingSkills = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>
         {`Monetizing Your Coding Skills: A Beginner's Guide to Exciting
         Opportunities`}
@@ -301,7 +304,7 @@ export const CodingSkills = () => {
           business continuity in the event of unforeseen circumstances.`}
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Benefits of Maintenance Services</h3>
       <ul>
         <li>

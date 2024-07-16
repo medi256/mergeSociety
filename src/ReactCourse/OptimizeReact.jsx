@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 export const DeployNetVerGit = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Deploying Options in React: Netlify, Vercel, and GitHub Pages</h2>
       <p>
         Deploying your React application is an exciting step towards making it
@@ -104,6 +107,7 @@ export const DeployNetVerGit = () => {
           of your application, ready to be uploaded to a web server.
         </li>
       </ol>
+      <AdUnit />
 
       <h3>Steps to Deploy on Netlify</h3>
       <p>Here are the steps to deploy your React application on Netlify:</p>

@@ -1,6 +1,7 @@
 const AddingEvants = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         Adding Event Handlers in React: Interactivity and User Interactions
       </h2>
@@ -80,7 +81,7 @@ const AddingEvants = () => {
           it to different UI elements, reducing code duplication.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Using Event Handlers in Practice</h3>
 
       <p>
@@ -150,6 +151,7 @@ export default AddingEvants;
 export const EventFuncVsClass = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Event Handling in Functional Components: Adding Interactivity</h2>
 
       <p>
@@ -223,7 +225,7 @@ export const EventFuncVsClass = () => {
           it to different UI elements, reducing code duplication.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Using Event Handling in Practice</h3>
 
       <p>

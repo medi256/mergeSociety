@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const ControlFlow = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Exploring Conditional Statements</h1>
       <p>
         Imagine{" "}
@@ -165,6 +168,7 @@ if (grade >= 90) {
         message is printed. Otherwise, the <code>else</code> {`block's`}
         message is displayed.
       </p>
+      <AdUnit />
       <h3>Remember:</h3>
       <ul>
         <li>

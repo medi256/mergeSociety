@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const UsingAIs = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>
         Unleashing Productivity with AI: Your Personal Assistant Revolution
       </h1>
@@ -89,7 +91,7 @@ const UsingAIs = () => {
         content with minimal effort. Imagine sharing your ideas through dynamic
         videos, all with the help of AI.
       </p>
-
+      <AdUnit />
       <h2>Practical Tips for Integrating AI into Your Workflow</h2>
       <ul>
         <li>

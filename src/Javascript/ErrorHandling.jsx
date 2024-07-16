@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const TryCatch = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Try/Catch Statements: Graceful Error Handling in JavaScript</h1>
       <p>
         {" "}
@@ -74,6 +77,7 @@ try {
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>3. Putting It All Together: A Heroic Example</h2>
       <p> Now, {`let's`} see our code with Try/Catch in action:</p>
       <pre>
@@ -138,6 +142,7 @@ export default TryCatch;
 export const ThrowingErro = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Throwing and Handling Errors: Taking Control in JavaScript</h1>
       <p>
         {" "}
@@ -200,6 +205,7 @@ try {
           it.
         </li>
       </ul>
+      <AdUnit />
       <h2>Benefits of Throwing and Handling Errors:</h2>
       <p>
         {" "}
@@ -236,6 +242,7 @@ try {
 export const DebuggingTech = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1> Debugging Techniques: Unveiling the Mysteries of JavaScript</h1>
       <p>
         Even the best JavaScript code can have errors. Debugging techniques help
@@ -312,6 +319,7 @@ console.log("Result:", result);
           </ul>
         </li>
       </ol>
+      <AdUnit />
       <h3>3. The debugger Statement: A Pause Button for Your Code</h3>
       <p>
         The debugger statement is a simple way to pause code execution at a

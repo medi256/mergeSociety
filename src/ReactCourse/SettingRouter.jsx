@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const SettingRouter = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Introduction to React Router: Navigating Your React App</h2>
 
       <p>
@@ -133,7 +136,7 @@ export default App;
         <code>/about</code>). We use the <code>element</code> prop to specify
         the component that should be rendered when each route is matched.
       </p>
-
+      <AdUnit />
       <h4>3. Rendering Components</h4>
 
       <p>
@@ -292,6 +295,7 @@ export default SettingRouter;
 export const NavigPage = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         Navigating between Pages in React Router: Enhancing User Experience
       </h2>
@@ -442,7 +446,7 @@ export default Home;
         create a clickable link that navigates to the about page (
         <code>/about</code>) when clicked.
       </p>
-
+      <AdUnit />
       <h4>3. Programmatic Navigation with useNavigate</h4>
 
       <p>
@@ -610,6 +614,7 @@ export default About;
 export const RouteParamNestRoute = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Nesting Routes in React Router: Efficient Routing Structure</h2>
 
       <p>
@@ -760,7 +765,7 @@ export default News;
         <code>element</code> prop to indicate the component that should be
         rendered for each child route.
       </p>
-
+      <AdUnit />
       <h4>3. Setting a Default Route with Index</h4>
 
       <p>

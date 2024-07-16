@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const DateObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is a Date in JavaScript?</h1>
       <p>
         Imagine {`you're`} planning a birthday party for your friend. You need
@@ -83,6 +86,7 @@ console.log(partyDate.toLocaleDateString()); // July 25, 2022
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>Real-World Time Example</h2>
       <p>
         {" "}
@@ -152,6 +156,7 @@ export default DateObject;
 export const MathObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is Math in JavaScript?</h1>
       <h2>Imagine {`You're`} a Master Chef</h2>
       <p>
@@ -270,6 +275,7 @@ console.log(Math.round(3.7)); // 4
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>The Recipe Book of Real-World Examples</h2>
       <p>
         {`Let's create a recipe book of real-world examples using math and numbers

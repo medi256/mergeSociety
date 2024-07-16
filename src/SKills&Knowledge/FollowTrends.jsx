@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const FollowTrends = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Staying Updated with Industry Trends: A Comprehensive Guide</h1>
       <p>
         {`Welcome to the dynamic and ever-evolving world of web development and
@@ -92,7 +94,7 @@ const FollowTrends = () => {
           industry.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Example: Staying Updated with Web Development Trends</h3>
       <p>
         {`Let's say you're a web developer interested in staying updated with the
@@ -153,6 +155,7 @@ export const LearnNewSkills = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Learning New Skills: Embracing Continuous Growth</h1>
       <p>
         {`Welcome to the exciting world of continuous learning! In the dynamic
@@ -272,7 +275,7 @@ export const LearnNewSkills = () => {
           learning, networking, and mentorship.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Example: Learning New Programming Languages</h3>
       <p>
         {`Let's say you're a web developer interested in learning a new

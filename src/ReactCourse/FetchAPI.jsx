@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const FetchAPI = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Working with APIs in React: Fetching Dynamic Data</h2>
 
       <p>
@@ -67,7 +70,7 @@ const FetchAPI = () => {
           prices, and reviews from a database.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Steps to Work with APIs in React</h3>
 
       <p>Here are the steps to work with APIs in React:</p>
@@ -233,7 +236,7 @@ export default App;
 `}
         </code>
       </pre>
-
+      <AdUnit />
       <h3>Explanation</h3>
 
       <ul>

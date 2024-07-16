@@ -1,10 +1,12 @@
 import { Outlet, useNavigate } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import AdUnit from "./AdUnit";
 const Reactcourse = () => {
   const navigate = useNavigate();
   return (
     <div className="JsCourse">
       <ScrollToTop />
+
       <div className="skillsLinks">
         <h1 className="SkillsHead"> React.js Course</h1>
         <h1>Introduction to React</h1>
@@ -17,6 +19,7 @@ const Reactcourse = () => {
             benefits of using React{" "}
           </li>
         </ul>
+        <AdUnit />
         <h1>setting Up Your Environment </h1>
         <ul>
           <li onClick={() => navigate("/installNode")}>
@@ -101,6 +104,7 @@ const Reactcourse = () => {
             Passing Data Through Component Tree
           </li>
         </ul>
+        <AdUnit />
         <h3>Forms and Controlled Components</h3>
         <ul>
           <li onClick={() => navigate("/HandleForm")}> Handling Form Input </li>

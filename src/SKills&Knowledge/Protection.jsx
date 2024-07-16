@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const Protection = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Fortifying Your Online Fortress: Website Security Fundamentals</h1>
       <p>
         {`Welcome to the world of website security! In this module, we'll be
@@ -134,7 +136,7 @@ const Protection = () => {
         protect your website from certain types of attacks, such as cross-site
         scripting (XSS) and clickjacking. Here's what you need to know:`}
       </p>
-
+      <AdUnit />
       <ul>
         <li>
           <strong>HTTP Strict Transport Security (HSTS):</strong>{" "}
@@ -181,6 +183,7 @@ export const SSLSecurity = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Unleashing the Power of SSL Certificates</h1>
       <p>
         {`Welcome to the world of SSL certificates! In this module, we'll be
@@ -269,7 +272,7 @@ export const SSLSecurity = () => {
           often used by banks and other high-security websites.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Choosing the Right SSL Certificate</h3>
       <p>
         When choosing an SSL certificate, consider the level of security and

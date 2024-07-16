@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Operators = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1> Javascript operators</h1>
       <p>
         {" "}
@@ -174,6 +177,7 @@ console.log("Your current score is", score);
         By understanding these operators and practicing with them, {`you'll`} be
         a whiz at performing calculations in JavaScript!
       </p>
+      <AdUnit />
       <h2>Comparison Operators in Javascript </h2>
       <p>
         Comparison operators are the workhorses of conditional logic in
@@ -334,6 +338,7 @@ console.log(3 < 5); // true
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>8. Less Than or Equal To {`(<=)`}:</h2>
       <p>
         <b>Explanation</b>: This operator returns true if the value on the left

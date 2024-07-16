@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const PassingDataComponent = () => {
   return (
     <div className="internet  comments-container">
+      <AdUnit />
       <h2>Passing Data Through the Component Tree in React</h2>
 
       <p>
@@ -122,7 +125,7 @@ return (
         <code>'Hello from App!'</code>. We then pass this data as a prop to the{" "}
         <code>Parent</code> component using the <code>data</code> prop.
       </p>
-
+      <AdUnit />
       <h4>3. Continuing to Pass Props</h4>
 
       <p>

@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const List = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Rendering Lists in React: Displaying Dynamic Data</h2>
 
       <p>
@@ -129,6 +132,7 @@ const List = () => {
         <code>&lt;ul&gt;</code> tag to create an unordered list, which is
         perfect for presenting a simple list of items.
       </p>
+      <AdUnit />
 
       <h3>
         Note on the <code>map()</code> Function
@@ -171,6 +175,7 @@ export default List;
 export const UnderstandKe = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Understanding Keys in React: Ensuring Unique Identifiers</h2>
 
       <p>
@@ -301,6 +306,7 @@ export const UnderstandKe = () => {
         React keep track of individual tasks and efficiently update the list
         when changes occur.
       </p>
+      <AdUnit />
 
       <h3>Alternative Key Choices</h3>
 

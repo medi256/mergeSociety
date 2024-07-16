@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const IntroHooks = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         Introduction to Hooks in React: Unlocking Superpowers for Functional
         Components
@@ -86,6 +89,7 @@ const IntroHooks = () => {
           the component's state based on user interactions.`}
         </li>
       </ul>
+      <AdUnit />
 
       <h3>Types of Hooks</h3>
 
@@ -142,6 +146,7 @@ export default IntroHooks;
 export const UseStateEffext = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         useState and useEffect Hooks in React: Managing State and Side Effects
       </h2>
@@ -371,6 +376,7 @@ export default Logger;`}
           </li>
         </ul>
       </p>
+      <AdUnit />
 
       <h3>Rules of Hooks</h3>
       <p>
@@ -472,6 +478,7 @@ export default Timer;`}
 export const UseContextReducer = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>useContext Hook in React: Sharing Data Across Components</h2>
 
       <p>
@@ -555,7 +562,7 @@ export default MyContext;
         <code>'default value'</code>. This default value will be used if a
         component that consumes the context does not have a provider above it.
       </p>
-
+      <AdUnit />
       <h4>2. Providing the Context</h4>
 
       <p>

@@ -1,5 +1,6 @@
 import { useNavigate, Outlet } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import AdUnit from "./AdUnit";
 
 const SkillsAndKnowledge = () => {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ const SkillsAndKnowledge = () => {
         </h1>
         <p>Feel free to jump to any section and start your learning journey!</p>
         <h2>Understanding the Internet and Web Infrastructure</h2>
+        <AdUnit />
         <ul>
           <li onClick={() => navigate("/HwInternetWks")}>
             {" "}
@@ -118,6 +120,7 @@ const SkillsAndKnowledge = () => {
             products.
           </li>
         </ul>
+        <AdUnit />
         <h2>Legal Considerations</h2>
         <ul>
           <li onClick={() => navigate("/LegalConsiderations")}>

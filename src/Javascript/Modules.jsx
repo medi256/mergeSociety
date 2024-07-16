@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Modules = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1> What are JavaScript Modules?</h1>
       <p>
         In JavaScript, a module is a file that contains code to perform a
@@ -199,6 +202,7 @@ console.log(multiply(4, 5)); // 20
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>CommonJS Modules</h2>
       <p>
         CommonJS modules are an older way of creating modules in JavaScript,
@@ -267,6 +271,7 @@ export default Modules;
 export const Classes = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What are Classes in JavaScript?</h1>
       <p>
         {" "}
@@ -386,6 +391,7 @@ myToyCar.makeSound(); // "Beep beep!"
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>Inheritance</h2>
       <p>
         {" "}
@@ -441,6 +447,7 @@ class ElectricToy extends Toy {
 export const Prototypes = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What are Prototypes in JavaScript?</h1>
       <p>
         In JavaScript, every object has a prototype. A prototype is like a
@@ -547,6 +554,7 @@ chocolateCake.decorate(); // "Decorating the cake..."
         from its parent prototype. This creates a chain of prototypes, with each
         prototype inheriting from its parent.
       </p>
+      <AdUnit />
       <h2>The Object.prototype</h2>
       <p>
         The <b>Object.prototype</b> is the root prototype of all objects in
@@ -576,6 +584,7 @@ chocolateCake.decorate(); // "Decorating the cake..."
 export const ThisKeyWord = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is this in JavaScript?</h1>
       <p>
         {" "}
@@ -618,6 +627,7 @@ console.log(this); // window or global object
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2> Function Scope</h2>
       <p>
         When {`you're`} inside a function, <code>this</code> refers to the

@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const ImportanceMobile = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Embracing Mobile Responsiveness</h1>
       <p>
         {`Welcome to the world of mobile responsiveness! In this module, we'll be
@@ -62,7 +64,7 @@ const ImportanceMobile = () => {
           devices, saving you time and resources.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Implementing Mobile Responsiveness</h2>
       <p>
         {`Let's explore some practical techniques for implementing mobile
@@ -172,6 +174,7 @@ export const ProgressiveWebApps = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Exploring the World of Progressive Web Apps</h1>
       <p>
         {`Welcome to the exciting world of Progressive Web Apps (PWAs)! In this
@@ -268,7 +271,7 @@ export const ProgressiveWebApps = () => {
           shared via URLs, eliminating the need for app store listings.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Building Your Own Progressive Web App</h3>
       <p>
         {`Let's dive into the process of creating a Progressive Web App, including

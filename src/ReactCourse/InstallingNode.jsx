@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const InstallingNode = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h1>Setting Up Your Environment</h1>
       <p>
         {`Before we embark on our React journey, we need to ensure our development
@@ -43,6 +46,7 @@ const InstallingNode = () => {
           locally during development.
         </li>
       </ul>
+      <AdUnit />
 
       <h2>Installing Node.js and npm</h2>
       <p>
@@ -96,6 +100,7 @@ export default InstallingNode;
 export const SettingCodeEditor = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h1>Setting Up Your Environment</h1>
       <p>
         {`Before we dive into building React applications, it's crucial to ensure
@@ -169,6 +174,7 @@ export const SettingCodeEditor = () => {
           collaborate with others seamlessly.
         </li>
       </ul>
+      <AdUnit />
 
       <h3>Setting up VS Code for React Development</h3>
       <ol>
@@ -218,6 +224,7 @@ export const SettingCodeEditor = () => {
 export const CreateReactApp = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Create a New React Project using Create React App</h2>
       <p>
         {`Now that we have Node.js, npm, and a code editor set up, it's time to
@@ -321,6 +328,7 @@ export const CreateReactApp = () => {
             </li>
           </ul>
         </li>
+        <AdUnit />
         <li>
           <strong>Step 6: Understanding the Project Structure</strong>
           <ul>
@@ -464,6 +472,7 @@ export default App;
 export const UnderstandingStructure = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Understanding the Project Structure</h2>
       <p>
         {`Now that we've created our first React project using Create React App,
@@ -543,7 +552,7 @@ my-app/
           tracked.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Navigating the Project Files</h3>
       <p>{`Let's explore some of the key files and their purpose:`}</p>
 

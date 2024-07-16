@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const JSOn = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is JSON?</h1>
       <p>
         {`JSON is a lightweight data interchange format that's easy to read and
@@ -118,6 +121,7 @@ const JSOn = () => {
         web servers and web applications, as well as between different parts of
         a web application.
       </p>
+      <AdUnit />
       <h2>Parsing JSON</h2>
       <p>
         In JavaScript, you can parse a JSON string using the{" "}

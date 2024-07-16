@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Comments = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1> Comments in JavaScript</h1>
       <p>
         Just like how we use comments in our daily lives to explain things or
@@ -57,6 +60,7 @@ let message = "Hello, world!";
           `}
         </code>
       </pre>
+      <AdUnit />
       <h3>Multi-line Comments:</h3>
       <ul>
         <li> Use /* and */ to create comments that span multiple lines.</li>
@@ -118,6 +122,7 @@ export default Comments;
 export const ScopeJS = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is Scope?</h1>
       <p>
         Scope, in simple terms, refers to the visibility or accessibility of
@@ -223,6 +228,7 @@ outerFunction();
         and finally in the global scope. Since <b>innerVar</b> is not found in
         any of these scopes, it returns <b>undefined</b>.
       </p>
+      <AdUnit />
       <h2>Best Practices</h2>
       <ol>
         <li>
@@ -258,6 +264,7 @@ outerFunction();
 export const Hoisting = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introduction to Hoisting in JavaScript (JS)</h1>
       <p>
         {" "}
@@ -311,6 +318,7 @@ let myVariable = "Hello, World!";
         it
         {`hasn't`} been assigned yet, it returns <b>undefined</b>.
       </p>
+      <AdUnit />
       <h3>Now, {`let's`} see what happens when we run the code again:</h3>
       <pre>
         <code>

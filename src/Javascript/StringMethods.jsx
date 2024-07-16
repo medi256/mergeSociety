@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const StringMethods = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introduction: Strings - The Building Blocks of Text</h1>
       <p>
         {" "}
@@ -126,6 +129,7 @@ let fullName = firstName + " " + lastName; // fullName will be "Alice Smith"
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>Finding Things in a String (Search):</h2>
       <ul>
         <li>

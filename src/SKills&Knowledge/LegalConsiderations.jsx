@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const LegalConsiderations = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Understanding Legal Aspects: Navigating the Legal Landscape</h1>
       <p>
         {`Welcome to the world of legal considerations for your online business!
@@ -77,7 +79,7 @@ const LegalConsiderations = () => {
           owner, such as unauthorized reproduction or distribution.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Licensing: Granting Permission to Use Your Work</h2>
       <p>
         {`Licensing is a way to grant permission to others to use your

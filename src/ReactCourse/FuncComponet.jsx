@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const FuncComponet = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Introduction to Components in React</h2>
       <p>
         Components are the fundamental building blocks of a React application.
@@ -143,6 +146,7 @@ const MyFunctionalComponent = () => {
           codebase becomes easier to understand, modify, and maintain.
         </li>
       </ul>
+      <AdUnit />
       <h3>Using Functional Components in Practice</h3>
       <p>
         {`Functional components shine when it comes to creating reusable UI
@@ -221,6 +225,7 @@ export default FuncComponet;
 export const JSXStructure = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         JSX Structure and Container Elements in React: Building the Foundation
       </h2>
@@ -247,7 +252,7 @@ export const JSXStructure = () => {
 
       <pre>
         <code>
-          {
+          {`
             // Example JSX structure
             function MyComponent() {
               return (
@@ -257,7 +262,7 @@ export const JSXStructure = () => {
                 </div>
               );
             }
-          }
+          `}
         </code>
       </pre>
 
@@ -272,7 +277,7 @@ export const JSXStructure = () => {
         content. This allows us to include multiple elements within the
         container and return them as a single unit.
       </p>
-
+      <AdUnit />
       <h3>Benefits of Using Container Elements</h3>
 
       <p>
@@ -385,6 +390,7 @@ export const JSXStructure = () => {
 export const ClassCompoent = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Class Components in React: Unleashing Advanced Features</h2>
 
       <p>
@@ -468,7 +474,7 @@ class MyClassComponent extends React.Component {
           component.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Using Class Components in Practice</h3>
 
       <p>
@@ -546,6 +552,7 @@ ReactDOM.render(<MyApp />, document.getElementById('root'));
 export const CompHierarchNest = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         Component Hierarchy and Nesting in React: Building Complex Interfaces
       </h2>
@@ -625,7 +632,7 @@ function MyApp() {
           small and gradually add more components to create sophisticated UIs.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Nesting Components</h3>
 
       <p>
@@ -742,6 +749,7 @@ ReactDOM.render(<MyApp />, document.getElementById('root'));
 export const Property = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Props (Properties) in React: Passing Data to Components</h2>
 
       <p>
@@ -823,7 +831,7 @@ export const Property = () => {
           and makes it easier to understand how components interact.
         </li>
       </ul>
-
+      <AdUnit />
       <h3>Using Props in Practice</h3>
 
       <p>

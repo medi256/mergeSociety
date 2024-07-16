@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const HwInternetWorks = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>How the Internet Works: Basics of the Internet</h1>
 
       <p>
@@ -93,7 +95,7 @@ const HwInternetWorks = () => {
         The server responds with the necessary files, and your browser displays
         the new page, allowing you to explore and interact with the content.
       </p>
-
+      <AdUnit />
       <h2>Internet Security and Privacy: Protecting Our Digital Lives</h2>
       <p>
         With our increasing reliance on the Internet, security and privacy have
@@ -154,6 +156,7 @@ export const WebHosting = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Web Hosting: A Comprehensive Guide to Choosing the Right Provider</h1>
       <p>
         {`Web hosting is a crucial aspect of establishing an online presence. It
@@ -292,7 +295,7 @@ export const WebHosting = () => {
           restrictions on resource usage.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Free Hosting Options: GitHub, Netlify, and Vercel</h2>
       <p>
         {`If you're just starting out or have a small personal project, free
@@ -456,6 +459,7 @@ export const DomainNames = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Domain Names: Understanding and Choosing the Right One</h1>
       <p>
         {`Domain names are an essential aspect of establishing an online presence.
@@ -576,7 +580,7 @@ export const DomainNames = () => {
           professional online presence.`}
         </li>
       </ol>
-
+      <AdUnit />
       <h2>Best Practices and Considerations</h2>
       <ul>
         <li>

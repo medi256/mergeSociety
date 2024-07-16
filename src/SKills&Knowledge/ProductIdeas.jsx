@@ -1,9 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import AdUnit from "../AdUnit";
 
 const ProductIdeas = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Product Ideas: Exploring Digital Product Opportunities</h1>
       <p>
         {`Creating and selling digital products is an exciting venture for anyone
@@ -67,7 +69,7 @@ const ProductIdeas = () => {
         into the needs of users seeking to extend the capabilities of their
         favorite tools.
       </p>
-
+      <AdUnit />
       <h3>Example: Browser Extension</h3>
       <p>
         {`Consider creating a web browser extension that enhances the user's online
@@ -176,6 +178,7 @@ export const PlatformsSelling = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Platforms for Selling: Unleashing Your Digital Creations</h1>
       <p>
         {`Choosing the right platform to sell your digital products is a crucial
@@ -323,7 +326,7 @@ export const PlatformsSelling = () => {
         efforts and exposure to a community that values creativity and
         craftsmanship.`}
       </p>
-
+      <AdUnit />
       <h3>Creative Market Fun Fact:</h3>
       <p>
         {`Creative Market is more than just a marketplace; it's a hub for creative
@@ -355,6 +358,7 @@ export const MarketingPromotion = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Marketing and Promotion: Amplifying Your Digital Presence</h1>
       <p>
         {`Creating amazing digital products is just the first step. To reach your
@@ -473,7 +477,7 @@ export const MarketingPromotion = () => {
         that trust their recommendations. By partnering with them, you can tap
         into their audience and increase awareness for your creations.
       </p>
-
+      <AdUnit />
       <h3>Benefits of Influencer Marketing</h3>
       <ul>
         <li>

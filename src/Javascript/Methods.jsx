@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const ForEachMethod = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <p>
         Now, {`let's`} dive into the <code>forEach</code> method in JavaScript,
         with a fun and interactive approach.
@@ -116,6 +119,7 @@ export default ForEachMethod;
 export const MapMethod = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is the Map method?</h1>
       <h2>Set time out and setinterval in Javascript</h2>
       <p>
@@ -204,6 +208,7 @@ console.log(doubleNumbers); // [2, 4, 6, 8, 10]
         <b>numbers</b> array and multiplies it by 2. The resulting array
         <b>doubleNumbers</b> contains the doubled values.
       </p>
+      <AdUnit />
       <h2>Example 2: Converting Strings to Uppercase</h2>
       <p>
         Suppose you have an array of strings, and you want to create a new array
@@ -282,6 +287,7 @@ console.log(uppercaseWords); // ['HELLO', 'WORLD', 'JAVASCRIPT']
 export const SetTimeOutSetInterval = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What are setTimeout and setInterval?</h1>
       <p>
         setTimeout and setInterval are two related but distinct functions in
@@ -386,6 +392,7 @@ setInterval(function, interval)
           execution.
         </li>
       </ul>
+      <AdUnit />
       <h3>How it Works</h3>
       <p>
         {" "}

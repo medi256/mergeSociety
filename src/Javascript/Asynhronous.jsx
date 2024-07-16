@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const UnderstandingAsynchronousProgramming = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         Synchronous vs. Asynchronous Programming: Keeping Your Web Pages
         Responsive
@@ -42,6 +45,7 @@ console.log("Wait for it... here's the last line!");
         to a halt while waiting for these slow tasks. The user would be stuck
         staring at a loading screen – not ideal!
       </p>
+      <AdUnit />
       <h2>
         {" "}
         Asynchronous Programming: Taking Control and Keeping Things Responsive
@@ -90,6 +94,7 @@ export default UnderstandingAsynchronousProgramming;
 export const EventLoop = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         {" "}
         The {`Browser's`} Event Loop: The Traffic Cop for Asynchronous Tasks
@@ -140,6 +145,7 @@ export const EventLoop = () => {
           </ul>
         </li>
       </ol>
+      <AdUnit />
       <h3>{`Here's`} how it translates to Asynchronous Programming:</h3>
       <ol>
         <li> You initiate an asynchronous operation (like fetching data).</li>
@@ -189,6 +195,7 @@ export const EventLoop = () => {
 export const CallBacks = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Callbacks: Your Asynchronous Task Force in JavaScript</h1>
       <p>
         {" "}
@@ -324,6 +331,7 @@ console.log("This line will execute before new updates arrive.");
           </pre>
         </li>
       </ol>
+      <AdUnit />
       <h2>Why Learn Callbacks? (And Why Move On?)</h2>
       <p>
         Callbacks are your initial tools for managing asynchronous operations in
@@ -362,6 +370,7 @@ console.log("This line will execute before new updates arrive.");
 export const Promises = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Imagine Promises as Waiters in a Restaurant</h1>
       <p>
         {" "}
@@ -440,6 +449,7 @@ orderPizza('pepperoni')
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>Ordering Multiple Dishes (Promise Chaining):</h2>
       <p>
         {" "}
@@ -496,6 +506,7 @@ orderPizza('veggie')
 export const AsyncAwait = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Async and Await: Simplifying Asynchronous Programming</h1>
       <p>
         Promises are fantastic for managing asynchronous operations in
@@ -544,6 +555,7 @@ export const AsyncAwait = () => {
           fulfilled) or throws the error (if rejected).
         </li>
       </ul>
+      <AdUnit />
       <h2>Benefits of Async/Await:</h2>
       <ul>
         <li>

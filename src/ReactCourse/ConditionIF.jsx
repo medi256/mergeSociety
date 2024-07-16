@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const ConditionIF = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>React Conditional Rendering: Dynamic and Adaptive UIs</h2>
       <p>
         React's conditional rendering allows you to create dynamic and adaptive
@@ -126,7 +129,7 @@ return (
         content. If the <code>isDarkMode</code> condition is true, we render the
         dark mode dashboard. Otherwise, we render the light mode dashboard.
       </p>
-
+      <AdUnit />
       <h4>3. Rendering Conditionally</h4>
       <p>
         Let's render components conditionally based on the defined condition:

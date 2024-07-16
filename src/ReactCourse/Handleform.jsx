@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Handleform = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Handling Form Input in React: Efficient Data Management</h2>
 
       <p>
@@ -62,7 +65,7 @@ const Handleform = () => {
           handler to process the form data when the user submits the form.
         </li>
       </ol>
-
+      <AdUnit />
       <h3>Step-by-Step Example</h3>
 
       <h4>1. Defining Form State</h4>
@@ -296,6 +299,7 @@ export default Handleform;
 export const FormControlVsUncontrol = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>
         Controlled vs Uncontrolled Components in React: Understanding the
         Difference
@@ -405,7 +409,7 @@ function Form() {
         input or perform custom handling based on input changes, controlled
         components are a better fit.
       </p>
-
+      <AdUnit />
       <h4>3. Choosing Uncontrolled Components</h4>
 
       <p>

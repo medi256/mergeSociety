@@ -1,5 +1,6 @@
 import { useNavigate, Outlet } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
+import AdUnit from "./AdUnit";
 const Jscourse = () => {
   const navigate = useNavigate();
   return (
@@ -19,6 +20,7 @@ const Jscourse = () => {
             How to Insert and Run Your Code
           </li>
         </ul>
+        <AdUnit />
 
         <h2>Javascript Fundamentals</h2>
         <ul>
@@ -102,6 +104,7 @@ const Jscourse = () => {
             Event Handling (adding event listeners, handling uer interactions )
           </li>
         </ul>
+        <AdUnit />
         <h2>The Browser Object Model (BOM)</h2>
         <ul>
           <li onClick={() => navigate("/introBOM")}>Introduction to the BOM</li>

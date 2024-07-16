@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const AsycAwaitSytax = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Async/Await Syntax in React: Efficient Asynchronous Code</h2>
 
       <p>
@@ -148,7 +151,7 @@ const AsycAwaitSytax = () => {
         <code>await</code> again to wait for the response data to be parsed as
         JSON. This allows us to work with the data as if it were synchronous.
       </p>
-
+      <AdUnit />
       <h4>3. Handling Errors</h4>
 
       <p>Let's add error handling using try/catch blocks:</p>
@@ -268,6 +271,7 @@ export default AsycAwaitSytax;
 export const ErrorHandl = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Error Handling in React: Robust and User-Friendly Applications</h2>
 
       <p>
@@ -387,7 +391,7 @@ export const ErrorHandl = () => {
         caught by the catch block, and we can log the error or perform any
         necessary error handling.
       </p>
-
+      <AdUnit />
       <h4>2. Error Boundaries</h4>
 
       <p>

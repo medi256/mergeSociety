@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const Arrays = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1> JavaScript Array</h1>
       <p>
         In programming, an array is a data structure that contains a collection
@@ -213,6 +216,7 @@ console.log(myArray); // [ 29, 'Massa', 'Medi' ]
         replaced with the string {`'Medi'. Next, let's`} take a look at the
         <code>length</code> property.
       </p>
+      <AdUnit />
       <h2>
         The Array <code>length</code> Property
       </h2>
@@ -457,6 +461,7 @@ for (let i = 0; i < animals.length; i++) {
           `}
         </code>
       </pre>
+      <AdUnit />
       <h2>2. How to use a while loop</h2>
       <p>
         Another way to iterate over an array is to use a <code>while</code>{" "}

@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const IntroJSX = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Introduction to JSX</h2>
       <p>
         JSX is a fundamental concept in React development. It stands for
@@ -127,6 +130,7 @@ const sum = <p>  The sum of {a + b} is {a + b}. </p>;
         JSX elements. We can also perform calculations and include the results
         within the JSX elements.`}
       </p>
+      <AdUnit />
 
       <h3>Tips and Hints</h3>
       <ul>
@@ -161,6 +165,7 @@ export default IntroJSX;
 export const JSXAttributes = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>Attributes in JSX: Enhancing UI Elements</h2>
 
       <p>
@@ -233,6 +238,7 @@ export const JSXAttributes = () => {
           behave.
         </li>
       </ul>
+      <AdUnit />
 
       <h3>Using Attributes in Practice</h3>
 
@@ -307,6 +313,7 @@ export const JSXAttributes = () => {
 export const JSXSyntax = () => {
   return (
     <div className="internet comments-container">
+      <AdUnit />
       <h2>JSX and Best Practices</h2>
       <p>
         {`Writing clean and maintainable JSX code is crucial for building robust

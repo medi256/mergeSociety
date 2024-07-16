@@ -4,6 +4,7 @@ const Scams = () => {
   const navigate = useNavigate();
   return (
     <div className="internet">
+      <AdUnit />
       <h1>Staying Vigilant: Recognizing Scams in the Tech Industry</h1>
       <p>
         {`The tech industry is an exciting and innovative space, but it's also a
@@ -84,7 +85,7 @@ const Scams = () => {
           Legitimate businesses typically offer standard payment options.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Tips to Protect Yourself</h2>
       <ul>
         <li>

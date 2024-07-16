@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const DOMintro = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Welcome to the Wonderful World of the DOM!</h1>
       <p>
         Have you ever clicked a button on a website and something cool happened?
@@ -66,6 +69,7 @@ const DOMintro = () => {
         immediately when the page loads, just like the ingredients come together
         to make the pizza when it's baked.`}
       </p>
+      <AdUnit />
       <h2>How Does JavaScript Use the DOM?</h2>
       <p>
         JavaScript is a programming language that programmers can use to
@@ -127,6 +131,7 @@ export default DOMintro;
 export const SelectingElementsINDom = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Picking Your Targets: Selecting Elements in the DOM (Enhanced)</h1>
       <p>
         {" "}
@@ -263,6 +268,7 @@ const allButtons = document.querySelectorAll("button");
           `}
         </code>
       </pre>
+      <AdUnit />
       <h3>Choosing the Right Tool</h3>
       <p>
         Selecting by ID is the most specific way, like picking out a single
@@ -303,6 +309,7 @@ const allButtons = document.querySelectorAll("button");
 export const ModifyingElements = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>How to Modify DOM Elements</h1>
       <p>
         Once you have access to DOM elements, you can modify them in various
@@ -537,6 +544,7 @@ manyStyles.style.color = 'brown';
           `}
         </code>
       </pre>
+      <AdUnit />
       <p>
         Remember, you can target any valid CSS property using this approach.
       </p>
@@ -854,6 +862,7 @@ container.replaceWith(newDiv);
 `}
         </code>
       </pre>
+      <AdUnit />
       <h3>Remember:</h3>
       <p>
         Choose the appropriate insertion method based on your desired placement
@@ -1047,6 +1056,7 @@ console.log("Has 'text-dark' class:", hasTextDarkClass); // Outputs true or fals
 export const EventHandling = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Understanding DOM Events and JavaScript Event Listeners </h1>
       <p>
         {" "}
@@ -1296,6 +1306,7 @@ document.addEventListener('keyup', event => {
         instead of a specific element, because the whole website should be able
         to listen to that event.
       </p>
+      <AdUnit />
       <h2>Mouse Events</h2>
       <p>
         Aside from keyboard events, the DOM also provides a way to track any
@@ -1452,6 +1463,7 @@ button.addEventListener('click', function (event) {
           `}
         </code>
       </pre>
+      <AdUnit />
       <p> Example of using the onclick attribute</p>
       <p>
         Here, we assign a reference to the <code>handleClick</code> function to

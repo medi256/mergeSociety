@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const IntroductionBOM = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Welcome to the Wonderful World of the BOM!</h1>
 
       <p>
@@ -51,7 +54,7 @@ const IntroductionBOM = () => {
     permission).`}
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Why is the BOM Important?</h2>
 
       <p>
@@ -123,6 +126,7 @@ export default IntroductionBOM;
 export const WindowObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Welcome to the Wonderful World of the Window Object!</h1>
 
       <p>
@@ -220,6 +224,7 @@ if (userName) {
           </pre>
         </li>
       </ul>
+      <AdUnit />
       <h3>2. Interacting with the Window Size and Screen:</h3>
       <ul>
         <li>
@@ -275,6 +280,7 @@ console.log("Window width:", windowWidth, "Window height:", windowHeight);
 export const LocationObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introduction to the Location Object (URL Manipulation)</h1>
       <p>
         The Browser Object Model (BOM) offers a toolbox of functionalities to
@@ -349,6 +355,7 @@ console.log("Hash Fragment:", hashFragment);
           `}
         </code>
       </pre>
+      <AdUnit />
       <h3>Reloading the Current Page:</h3>
       <p>
         {" "}
@@ -418,6 +425,7 @@ location.reload();  // Reloads the current page
 export const NavigationObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         Introduction to the Navigation Object (Browser Navigation Information)
       </h1>
@@ -476,6 +484,7 @@ console.log("User Agent:", userAgent);
               `}
             </code>
           </pre>
+          <AdUnit />
           <h3>Understanding these properties allows you to:</h3>
           <li>
             {" "}
@@ -528,6 +537,7 @@ console.log("User Agent:", userAgent);
 export const HistoryObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>
         {" "}
         Introduction to the History Object (Navigation History Manipulation)
@@ -600,6 +610,7 @@ history.forward(); // Move one step forward in history (same as history.go(1))
           </pre>
         </li>
       </ul>
+      <AdUnit />
       <h3>
         By leveraging these functionalities, you can create dynamic web
         experiences that control navigation flow:
@@ -660,6 +671,7 @@ history.forward(); // Move one step forward in history (same as history.go(1))
 export const ScreenObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Introduction to the Screen Object (Screen Size and Resolution)</h1>
       <p>
         The Browser Object Model (BOM) equips you with various tools to interact
@@ -733,6 +745,7 @@ console.log("Color depth:", colorDepth, "Pixel depth:", pixelDepth);
           </pre>
         </li>
       </ul>
+      <AdUnit />
       <h3>By leveraging the Screen Object, you can:</h3>
       <ul>
         <li>
@@ -778,6 +791,7 @@ console.log("Color depth:", colorDepth, "Pixel depth:", pixelDepth);
 export const BOMApplication = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>BOM Applications (uer interaction beyond the page content)</h1>
       <p>
         Absolutely! Now that{" "}
@@ -831,6 +845,7 @@ export const BOMApplication = () => {
           experience on smaller screens. pen_spark
         </li>
       </ul>
+      <AdUnit />
       <h3>3. Real-time Updates and User Engagement: pen_spark</h3>
       <ul>
         <li>

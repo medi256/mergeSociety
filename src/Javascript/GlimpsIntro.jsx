@@ -1,6 +1,9 @@
+import AdUnit from "../AdUnit";
+
 const WhatJavaScript = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>What is JavaScript?</h1>
       <p>
         Welcome to the fascinating world of JavaScript! JavaScript is a
@@ -65,6 +68,7 @@ const WhatJavaScript = () => {
         from the server and update the webpage without requiring a full page
         reload. This creates a seamless and responsive browsing experience.
       </p>
+      <AdUnit />
 
       <h2>Getting Started with JavaScript</h2>
       <p>
@@ -115,6 +119,7 @@ export default WhatJavaScript;
 export const WhyJavascript = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Why Learn JavaScript?</h1>
       <p>
         JavaScript is an incredibly useful and versatile programming language
@@ -203,6 +208,7 @@ export const WhyJavascript = () => {
           front end to the back end, using just one language.
         </li>
       </ul>
+      <AdUnit />
 
       <h2>Community and Support</h2>
       <p>
@@ -254,6 +260,7 @@ export const WhyJavascript = () => {
 export const RunningJS = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>How to Insert and Run Your Code</h1>
       <p>
         When you start learning JavaScript, one of the first things you need to
@@ -363,6 +370,7 @@ console.log('Hello, JSFiddle!');
         When you click "Run", you will see the message "Hello, JSFiddle!" in the
         output area.
       </p>
+      <AdUnit />
 
       <h2>4. Using an External JavaScript File</h2>
       <p>
