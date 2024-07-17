@@ -602,9 +602,9 @@ strong {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .display-ad {
+.display-ad {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   max-width: 100%;
-} */
+}
