@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const CreatingButtons = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Buttons in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring buttons in HTML - one of the
@@ -108,7 +111,7 @@ const CreatingButtons = () => {
           to ensure they work as intended across different browsers and devices.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and
@@ -175,6 +178,7 @@ export default CreatingButtons;
 export const Iframe = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         The <code>{`<iframe>`}</code> Element in HTML
       </h1>
@@ -326,7 +330,7 @@ export const Iframe = () => {
           page.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>
         Best Practices for Using the <code>{`<iframe>`}</code> Element
       </h2>

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Head = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         The <code>{`<head>`}</code> Element in HTML
       </h1>
@@ -168,7 +171,7 @@ alert("Hello, world!");
           of the user's device or browser. `}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>
         Best Practices for the <code>{`<head>`}</code> Element
       </h2>
@@ -270,6 +273,7 @@ export default Head;
 export const Quotation = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h2>Quotations in HTML</h2>
       <p>
         Quotations can enhance your HTML content by providing additional context
@@ -323,7 +327,7 @@ export const Quotation = () => {
         <q>A journey of a thousand miles begins with a single step</q> which is
         a famous proverb.
       </p>
-
+      <InArticleAdUnit />
       <h3>
         The HTML <code> {`<blockquote>`} </code> Element
       </h3>

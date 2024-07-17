@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const TextFormating = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Text Formatting in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring the wonderful world of
@@ -109,7 +112,7 @@ The formula is H<sub>2</sub>O.
         {`In the above code, "30o" will be displayed as superscript, and "2" will be
         displayed as subscript.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>
         Using the <code>{`<abbr>`}</code> Tag
       </h2>
@@ -223,6 +226,7 @@ export default TextFormating;
 export const Lists = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Lists in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring lists in HTML. Lists are
@@ -283,7 +287,7 @@ export const Lists = () => {
         ordered list, and each item is enclosed within <code>{`<li>`}</code>{" "}
         tags. The browser will automatically number the list items for you.
       </p>
-
+      <InArticleAdUnit />
       <h2>Nested Lists</h2>
       <p>
         {`You can create nested lists in HTML by placing one list inside another.

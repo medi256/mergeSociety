@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const ResponsiveHTML = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         Responsive Web Design and the <code>{`<meta>`}</code> Tag
       </h1>
@@ -85,7 +88,7 @@ const ResponsiveHTML = () => {
           increase its visibility.`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Viewport Settings</h2>
       <ul>
         <li>

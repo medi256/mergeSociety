@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Inline = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Inline Elements in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring inline elements - an
@@ -116,7 +119,7 @@ const Inline = () => {
           those cases.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and
@@ -176,6 +179,7 @@ export default Inline;
 export const Block = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Block-Level Elements in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring block-level elements -
@@ -269,7 +273,7 @@ export const Block = () => {
           line or occupies a significant portion of the page.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Block-Level Elements</h2>
       <ul>
         <li>

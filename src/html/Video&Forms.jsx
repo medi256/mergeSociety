@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Video = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Videos in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring videos - a powerful
@@ -104,7 +107,7 @@ const Video = () => {
         it's important to know that you can style the video player to match your
         website's design or create custom video players.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Videos</h2>
       <ul>
         <li>
@@ -227,6 +230,7 @@ export default Video;
 export const FormsH = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Forms in HTML</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll dive deep
@@ -384,7 +388,7 @@ export const FormsH = () => {
         customize the input fields using attributes like "placeholder," "value,"
         "required," and more.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Input Field Attributes</h2>
       <p>
         There are several attributes that you can use with the{" "}
@@ -547,7 +551,7 @@ export const FormsH = () => {
         characters, and the "maxlength" attribute to set a maximum length of 20
         characters.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Handling Form Submissions</h2>
       <p>
         When users submit a form, you need to handle the submitted data.{" "}

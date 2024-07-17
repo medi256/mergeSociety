@@ -1,8 +1,10 @@
+import { InArticleAdUnit } from "../AdUnit";
 import "./html.css";
 
 const IntroductionH = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Introduction to HTML</h1>
       <p>
         {`Welcome to the exciting world of HTML! In this course, you will learn
@@ -117,6 +119,7 @@ const IntroductionH = () => {
           the code; we'll break down each part in the upcoming lessons.`}
         </li>
       </ol>
+      <InArticleAdUnit />
 
       <h3>For Mobile Users</h3>
       <p>
@@ -190,6 +193,7 @@ export default IntroductionH;
 export const HTMLBasics = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>HTML Basics</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll dive into the
@@ -319,7 +323,7 @@ export const HTMLBasics = () => {
           specifies the type of input, such as "text," "email," or "password."`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Why Do Elements Have Opening and Closing Tags?</h2>
       <p>
         {`You might be wondering why some elements have both opening and closing
