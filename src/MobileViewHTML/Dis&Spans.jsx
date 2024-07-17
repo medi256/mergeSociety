@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Div = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Divs in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring divs - one of the most
@@ -122,7 +125,7 @@ const Div = () => {
           styling without any structural purpose.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and
@@ -193,6 +196,7 @@ export default Div;
 export const Spans = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Spans in HTML</h1>
       <p>
         Hello there! In this lesson, {` we'll `} be exploring spans - another
@@ -299,7 +303,7 @@ export const Spans = () => {
           instead.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and

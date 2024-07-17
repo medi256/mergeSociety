@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const TextFormating = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Text Formatting in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring the wonderful world of
@@ -132,7 +135,7 @@ The <abbr title="World Wide Web">WWW</abbr> is a global information system.
         {`In this example, hovering over "WWW" will display "World Wide Web" as a
         tooltip.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Text Formatting</h2>
       <ul>
         <li>
@@ -225,6 +228,7 @@ export default TextFormating;
 export const Lists = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Lists in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring lists in HTML. Lists are
@@ -344,7 +348,7 @@ export const Lists = () => {
           spacing between nested list items.`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and

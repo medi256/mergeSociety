@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const ImagesH = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Images in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring images - a crucial
@@ -114,7 +117,7 @@ alt="Encoded image">.
       <video controls width="300px" height="300px">
         <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712418881/imageUpload_tsuisi.mov" />
       </video>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Images</h2>
       <ul>
         <li>
@@ -223,6 +226,7 @@ export default ImagesH;
 export const Audio = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Audio in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring audio - another exciting
@@ -333,7 +337,7 @@ export const Audio = () => {
         it's important to know that you can style the audio player to match your
         website's design or create custom audio players.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Audio</h2>
       <ul>
         <li>

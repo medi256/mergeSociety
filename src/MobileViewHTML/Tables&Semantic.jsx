@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Tables = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Tables in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring tables - a powerful tool
@@ -90,7 +93,7 @@ const Tables = () => {
         Each row <code>{`(<tr>)`}</code> contains the data for a {` person's `}{" "}
         name and age.
       </p>
-
+      <InArticleAdUnit />
       <h2>Customizing Table Appearance</h2>
       <p>
         {` While we won't dive into CSS styles in this lesson, it's important to know
@@ -253,6 +256,7 @@ export default Tables;
 export const Semantic = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Semantic HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring Semantic HTML - a concept
@@ -392,7 +396,7 @@ export const Semantic = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Semantic HTML</h2>
       <ul>
         <li>

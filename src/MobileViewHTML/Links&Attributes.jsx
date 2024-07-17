@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 function LinksH() {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Links in HTML</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll be exploring
@@ -99,7 +102,7 @@ function LinksH() {
           make sure they are up-to-date and functional.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and
@@ -177,6 +180,7 @@ export default LinksH;
 export function Attributes() {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Attributes in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring attributes in HTML.
@@ -296,7 +300,7 @@ export function Attributes() {
           </code>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Attributes</h2>
       <ul>
         <li>

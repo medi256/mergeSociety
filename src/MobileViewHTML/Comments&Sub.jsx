@@ -1,6 +1,10 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const CommentsH = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
+
       <h1>Comments in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring comments in HTML - a feature
@@ -112,7 +116,7 @@ const CommentsH = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Comments in HTML</h2>
       <ul>
         <li>
@@ -198,6 +202,7 @@ export default CommentsH;
 export const HTMLStructure = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Basic Structure of an HTML Document</h1>
       <p>
         {` Hello there! In this lesson, we'll dive deep into the basic structure of an
@@ -339,7 +344,7 @@ export const HTMLStructure = () => {
           </p>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Putting It All Together</h2>
       <p>
         {`Now, let's put all the pieces together to create a basic HTML document:`}

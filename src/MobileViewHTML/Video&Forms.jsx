@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Video = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Videos in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring videos - a powerful
@@ -95,7 +98,7 @@ const Video = () => {
           />
         </video>
       </pre>
-
+      <InArticleAdUnit />
       <h2>Customizing Video Player Appearance</h2>
       <p>
         {`By default, the video player in HTML is a simple rectangular box with
@@ -232,6 +235,7 @@ export default Video;
 export const FormsH = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Forms in HTML</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll dive deep
@@ -457,7 +461,7 @@ export const FormsH = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Other Form Elements</h2>
       <p>
         In addition to input fields, there are other form elements that you can

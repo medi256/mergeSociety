@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Favicon = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Favicon in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring the world of favicons - those
@@ -85,7 +88,7 @@ const Favicon = () => {
           </pre>
         </li>
       </ol>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Favicons</h2>
       <ul>
         <li>
@@ -168,6 +171,7 @@ export default Favicon;
 export const DropDown = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         Dropdown Menus, <code>{`<details>`}</code>, <code>{`<summary>`}</code>,
         and Related Tags in HTML
@@ -291,7 +295,7 @@ export const DropDown = () => {
           when the option is selected.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>
         Examples of Dropdown Menus, <code>{`<details>`}</code>, and{" "}
         <code>{`<summary>`}</code>

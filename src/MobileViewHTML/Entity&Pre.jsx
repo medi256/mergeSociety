@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Entity = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Entities in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring entities in HTML - special
@@ -136,7 +139,7 @@ const Entity = () => {
         making it easy to find the codes you need for your web development
         projects.
       </p>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Entities in HTML</h2>
       <ul>
         <li>
@@ -222,6 +225,7 @@ export default Entity;
 export const Pre = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         The <code>{`<pre>`}</code> Tag in HTML
       </h1>
@@ -329,7 +333,7 @@ export const Pre = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>
         Best Practices for Using the <code>{`<pre>`}</code> Tag
       </h2>

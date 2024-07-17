@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const CreatingButtonsMobile = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Buttons in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring buttons in HTML - one of the
@@ -84,7 +87,7 @@ const CreatingButtonsMobile = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Buttons in HTML</h2>
       <ul>
         <li>
@@ -177,6 +180,7 @@ export default CreatingButtonsMobile;
 export const Iframe = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         The <code>{`<iframe>`}</code> Element in HTML
       </h1>
@@ -294,7 +298,7 @@ export const Iframe = () => {
           </pre>
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>
         Advanced Features of the <code>{`<iframe>`}</code> Element
       </h2>

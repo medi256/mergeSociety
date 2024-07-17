@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Headings = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Headings in HTML</h1>
       <p>
         {`Hello there! In this lesson, we'll be exploring one of the fundamental
@@ -162,6 +165,7 @@ export default Headings;
 export const Paragraphs = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Paragraphs in HTML</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll be focusing
@@ -193,7 +197,7 @@ export const Paragraphs = () => {
         paragraphs by using the <code>{`<p>`}</code> tag for each paragraph you
         want to create.
       </p>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Paragraphs</h2>
       <ul>
         <li>
@@ -223,7 +227,7 @@ export const Paragraphs = () => {
           paragraphs to add space.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now, let's put your knowledge into practice! Open your code editor and

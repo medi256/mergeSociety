@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const ResponsiveHTML = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>
         Responsive Web Design and the <code>{`<meta>`}</code> Tag
       </h1>
@@ -110,7 +113,7 @@ const ResponsiveHTML = () => {
           how the content resizes, scales, and adapts to different screen sizes.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Examples of Responsive Web Design</h2>
       <p>
         Here are some practical examples of responsive web design in action:
