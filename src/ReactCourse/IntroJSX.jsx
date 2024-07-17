@@ -188,12 +188,12 @@ export const JSXAttributes = () => {
 
       <pre>
         <code>
-          {
-            // Example attribute usage
-            function MyComponent() {
-              return <button className="my-button">Click me!</button>;
-            }
-          }
+          {`
+// Example attribute usage
+function MyComponent() {
+  return <button className="my-button">Click me!</button>;
+}
+          `}
         </code>
       </pre>
 
