@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Transition = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Transition in CSS</h1>
       <p>
         {`Transition is a powerful CSS property that allows you to create smooth
@@ -133,7 +136,7 @@ const Transition = () => {
         uses the <code>ease</code>
         easing function for a smooth transition.
       </p>
-
+      <InArticleAdUnit />
       <h3>Adding Delay</h3>
       <p>
         {`Transition delay allows you to create a pause before the animation
@@ -212,7 +215,7 @@ const Transition = () => {
           browsers and versions.`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -264,6 +267,7 @@ export default Transition;
 export const Animations = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Animation in CSS</h1>
       <p>
         {`Animation is a powerful CSS feature that allows you to bring your
@@ -489,7 +493,7 @@ export const Animations = () => {
           flexibility to stand out.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Challenges of Animation</h2>
       <p>
         While animation is a powerful tool, it also comes with some challenges:

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Overflow = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Mastering Overflow in CSS</h1>
       <p>
         {`The CSS overflow property is crucial when it comes to controlling how 
@@ -128,7 +131,7 @@ div {
         a lot of content that needs to be accessed, but you want to keep the 
         container size fixed.`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Example: Overflow Auto</h3>
       <p>
         {`Finally, let's see how overflow auto works. A scrollbar will be added 
@@ -267,6 +270,7 @@ export default Overflow;
 export const Opacity = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magic of Opacity in CSS</h1>
       <p>
         {`The CSS opacity property allows you to control the transparency of an element. 
@@ -383,7 +387,7 @@ div {
         {`Opacity can be used in various ways to enhance the visual appeal and functionality 
         of your designs. Let's look at some practical examples:`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Hover Effects</h3>
       <p>
         {`Opacity is often used to create hover effects. For instance, you might want to 
@@ -442,7 +446,7 @@ button:hover {
         background. This effect is commonly used in web design to make text more readable 
         over complex background images.`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Layering Content</h3>
       <p>
         {`Opacity can also be used to layer content, allowing for interesting visual effects 

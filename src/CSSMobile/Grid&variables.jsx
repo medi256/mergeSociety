@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Grid = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Grid</h1>
       <p>
         Have you ever had a problem positioning items on your web browser?
@@ -189,7 +192,7 @@ grid-template-rows: 50px 50px;
         code at once by simply using grid-template. Grid-template is another way
         of representing the grid-template column and grid-template-row.
       </p>
-
+      <InArticleAdUnit />
       <h4>For example:</h4>
       <pre>
         <code>
@@ -377,7 +380,7 @@ justify-content: center;
         alt="demo"
       />
       <p>justify-content: center;</p>
-
+      <InArticleAdUnit />
       <h2>Space-around</h2>
       <p>
         This property distributes the items in the container evenly, where each
@@ -567,7 +570,7 @@ align-content: space-around;
         amount of space from the next one in the container, and takes up the
         entire width of the container in the vertical direction.
       </p>
-
+      <InArticleAdUnit />
       <p>This code can be executed like this:</p>
 
       <pre>
@@ -631,6 +634,7 @@ export default Grid;
 export const Variables = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Variables in CSS</h1>
       <p>
         {`Variables in CSS allow you to store and reuse values throughout your
@@ -755,7 +759,7 @@ body {
           </code>
         </pre>
       </code>
-
+      <InArticleAdUnit />
       <h2>Benefits of Variables</h2>
       <p>Using variables in CSS offers several advantages:</p>
 

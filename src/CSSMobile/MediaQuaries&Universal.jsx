@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const MediaQuaries = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Media Query</h1>
       <p>
         When designing a website, {`it's`} crucial to ensure your content looks
@@ -204,6 +207,7 @@ const MediaQuaries = () => {
         <li>1025px—1200px: Desktops, large screens</li>
         <li>1201px and more— Extra large screens, TV</li>
       </ul>
+      <InArticleAdUnit />
       <h2>Conclusion</h2>
       <p>
         Responsive Design is the practice of making sure your content looks good
@@ -254,6 +258,7 @@ export default MediaQuaries;
 export const Universal = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of the Universal Selector in CSS</h1>
       <p>
         {`The universal selector is a powerful tool in CSS that allows you to
@@ -357,7 +362,7 @@ export const Universal = () => {
           </code>
         </pre>
       </code>
-
+      <InArticleAdUnit />
       <h2>Benefits of the Universal Selector</h2>
       <p>
         Using the universal selector offers several advantages for your designs:

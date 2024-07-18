@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Units = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Units in CSS</h1>
       <p>
         {`Units in CSS are like the building blocks of measurements. They allow you to
@@ -94,7 +97,7 @@ div {
           300ms for a subtle transition effect.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Using Time Units</h2>
       <p>{`Here's an example of how to use time units in CSS:`}</p>
 
@@ -162,6 +165,7 @@ export default Units;
 export const BoxModel = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of the Box Model in CSS</h1>
       <p>
         {`The box model is a fundamental concept in CSS that defines how elements
@@ -294,7 +298,7 @@ div {
         <code>margin: 5px 10px 15px 20px</code>, to add more or less margin to
         specific sides.
       </p>
-
+      <InArticleAdUnit />
       <h2>Understanding the Box Model</h2>
       <p>
         {`The box model can be visualized as a set of nested boxes. The innermost
@@ -401,7 +405,7 @@ div {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullscreen
       ></iframe>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor

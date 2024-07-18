@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Icon = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Icons in CSS: The Ultimate Guide</h1>
       <p>
         {`Icons are a fundamental aspect of web design, enhancing the user
@@ -156,7 +159,7 @@ const Icon = () => {
 </head>
         `}</code>
       </pre>
-
+      <InArticleAdUnit />
       <h4>Exploring Bootstrap Icons</h4>
       <p>
         To explore the available Bootstrap Icons, visit the{" "}
@@ -283,7 +286,7 @@ const Icon = () => {
 <i class="fa-spin fa-spinner"></i>
         `}</code>
       </pre>
-
+      <InArticleAdUnit />
       <h2>Best Practices for Using Icons in CSS</h2>
       <ul>
         <li>
@@ -339,6 +342,7 @@ export default Icon;
 export const Float = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Float in CSS</h1>
       <p>
         {`Float is a powerful CSS property that allows you to control the layout
@@ -471,7 +475,7 @@ img {
         should appear below floated elements, ensuring they clear the floats and
         start on a new line.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Float</h2>
       <p>Using float offers several advantages for your designs:</p>
 

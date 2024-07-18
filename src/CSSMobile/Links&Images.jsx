@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Links = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Link Styling in CSS</h1>
       <p>
         {`Link styling in CSS is an essential aspect of creating visually
@@ -142,7 +145,7 @@ a {
         also use other cursor values, such as <code>crosshair</code> or{" "}
         <code>move</code>, depending on the context of your design.
       </p>
-
+      <InArticleAdUnit />
       <h2>Using Link Styling</h2>
       <p>
         {`Link styling can be used to create visually appealing and functional
@@ -236,7 +239,7 @@ a {
           impairments.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -295,6 +298,7 @@ export default Links;
 export const Images = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Image Styling in CSS</h1>
       <p>
         {`Image styling in CSS is an essential aspect of creating visually
@@ -485,7 +489,7 @@ img {
           experience of your website.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor

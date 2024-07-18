@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Border = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Borders in CSS</h1>
       <p>
         {`Borders are like the frames that enclose your web designs, adding structure,
@@ -124,7 +127,7 @@ div {
         emphasis to important elements, while thinner borders can provide a more
         delicate touch.
       </p>
-
+      <InArticleAdUnit />
       <h2>Border Color</h2>
       <p>
         The <code>border-color</code> property allows you to specify the color
@@ -217,7 +220,7 @@ div {
         the shorthand property, like this:{" "}
         <code>border: 1px solid red; border-radius: 5px;</code>.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {` Now it's time to put your knowledge into practice! Open your code editor
@@ -281,6 +284,7 @@ export default Border;
 export const Padding = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Padding in CSS</h1>
       <p>
         {`Padding is like a clear space around the content of your boxes (like
@@ -408,7 +412,7 @@ div {
         below the content, such as creating separation between paragraphs or
         adding emphasis to a specific element.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Padding Left</h2>
       <p>
         The <code>{`padding-left`}</code> property lets you control the space on
@@ -498,7 +502,7 @@ div {
         you want the padding to scale proportionally with the parent element's
         size.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {` Now it's time to put your knowledge into practice! Open your code editor and

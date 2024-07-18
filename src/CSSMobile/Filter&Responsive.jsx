@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Filter = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Understanding CSS Filters</h1>
       <p>
         CSS filters allow you to apply visual effects to elements, such as
@@ -128,7 +131,7 @@ const Filter = () => {
 }`}
         </code>
       </pre>
-
+      <InArticleAdUnit />
       <h3>drop-shadow()</h3>
       <p>
         The <code>drop-shadow()</code> filter adds a drop shadow effect to the
@@ -314,6 +317,7 @@ export default Filter;
 export const Responsive = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Responsive Design and Best Practices</h1>
       <p>
         Responsive design is an approach to web development that ensures web
@@ -429,7 +433,7 @@ export const Responsive = () => {
 </html>`}
         title="Fluid Layout Example"
       ></iframe>
-
+      <InArticleAdUnit />
       <h3>Media Queries</h3>
       <p>
         This example uses media queries to apply different styles for different

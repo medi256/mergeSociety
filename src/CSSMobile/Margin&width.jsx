@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Margin = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Margins in CSS</h1>
       <p>
         {`Margins are like the invisible spaces that surround your web designs,
@@ -129,7 +132,7 @@ div {
         when you want to add extra space below the element, such as creating
         separation between paragraphs or adding emphasis to a specific element.
       </p>
-
+      <InArticleAdUnit />
       <h2>Margin Left</h2>
       <p>
         The <code>margin-left</code>{" "}
@@ -244,7 +247,7 @@ div {
         useful when you want the margins to scale proportionally with the parent
         element's size.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -309,6 +312,7 @@ export default Margin;
 export const Width = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Width in CSS</h1>
       <p>
         {`Width is a fundamental property in CSS that determines the horizontal size of
@@ -408,7 +412,7 @@ img {
         elements that need to maintain their original aspect ratio while fitting
         within their container.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor and

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const MinWidth = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Min-Width in CSS</h1>
       <p>
         {`Min-width is a powerful property in CSS that allows you to set a minimum width for
@@ -88,7 +91,7 @@ div {
           becoming too narrow and causing content to wrap or become unreadable.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to experiment with min-width in CSS! Open your code editor and
@@ -140,6 +143,7 @@ export default MinWidth;
 export const MinHeight = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Min-Height in CSS</h1>
       <p>
         {`Min-height is a powerful property in CSS that allows you to set a minimum height
@@ -227,7 +231,7 @@ div {
           maintaining a harmonious and aesthetically pleasing appearance.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to experiment with min-height in CSS! Open your code editor and

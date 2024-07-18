@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Inserting = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Inserting CSS</h1>
       <p>
         {`Welcome back! In this section, we'll dive into the world of CSS and
@@ -217,7 +220,7 @@ h1 {
         include multiple style rules within the <code>style</code> element to
         style different elements.
       </p>
-
+      <InArticleAdUnit />
       <h2>Inline CSS</h2>
       <p>
         Inline CSS involves applying styles directly to individual HTML elements
@@ -323,6 +326,7 @@ export default Inserting;
 export const Selectors = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Selectors</h1>
       <p>
         {`Selectors are one of the most fundamental concepts in CSS. They are like
@@ -483,7 +487,7 @@ a[href^="https"] {
         {` attribute starting with "https". You can use this
         selector to apply styles to elements based on their attributes.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Descendant Selector</h2>
       <p>
         The descendant selector is like a family tree that targets elements

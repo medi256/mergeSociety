@@ -1,3 +1,5 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Buttons = () => {
   return <div></div>;
 };
@@ -6,6 +8,7 @@ export default Buttons;
 export const Flex = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Flex in CSS</h1>
       <p>
         {`Flex is a powerful CSS property that allows you to create flexible and
@@ -233,6 +236,7 @@ export const Flex = () => {
           positioning.
         </li>
       </ul>
+      <InArticleAdUnit />
 
       <h2>Practice Time!</h2>
       <p>

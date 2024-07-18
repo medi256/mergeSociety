@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Display = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Diving Deep into the CSS Display Property</h1>
       <p>
         {`The CSS display property is a fundamental concept in web development
@@ -186,7 +189,7 @@ span {
         dimensions and styling applied to them. This is especially useful for
         creating responsive grids or unique visual compositions.
       </p>
-
+      <InArticleAdUnit />
       <h2>Impact on Layout and Responsiveness</h2>
       <p>
         The display property plays a crucial role in determining the layout and
@@ -269,6 +272,7 @@ export default Display;
 export const Position = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS position</h1>
       <p>
         {" "}
@@ -448,7 +452,7 @@ export const Position = () => {
         to your hats, because things are about to get crazy with position
         absolute.
       </p>
-
+      <InArticleAdUnit />
       <h2> 3. Absolute</h2>
       <p>
         Position: absolute will cause an element to be taken out of that normal
@@ -646,6 +650,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
         Next, we’ll take a look at sticky positioning, which is like fixed
         positioning but with a little extra.
       </p>
+      <InArticleAdUnit />
       <h2>5. Sticky</h2>
       <p>
         Position: sticky elements will initially behave like position: relative

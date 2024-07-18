@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Outline = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Outline in CSS</h1>
       <p>
         {`Outline is a CSS property that allows you to create a decorative border around an
@@ -182,7 +185,7 @@ img {
           consistently across all browsers, especially older versions.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor and
@@ -234,6 +237,7 @@ export default Outline;
 export const Forms = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Form Styling in CSS</h1>
       <p>
         {`Form styling in CSS is an exciting aspect of web design. Forms are
@@ -337,7 +341,7 @@ input[type="text"] {
         creating a unique and creative effect. You can replace
         'path/to/your/transparent-image.png' with your own transparent image.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Form Styling</h2>
       <p>Using form styling offers several advantages for your designs:</p>
 

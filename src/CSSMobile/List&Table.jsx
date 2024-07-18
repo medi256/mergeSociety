@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const List = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of List Styling in CSS</h1>
       <p>
         {`List styling in CSS is an essential aspect of creating visually
@@ -105,7 +108,7 @@ ol {
         <code>list-style-image</code>.{" "}
         {`Let's explore some of these properties:`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Padding and Margin</h3>
       <p>
         Padding and margin can be used to adjust the spacing around list items.
@@ -195,7 +198,7 @@ ul {
           accessibility of your designs.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -258,6 +261,7 @@ export default List;
 export const Table = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Table Styling in CSS</h1>
       <p>
         {`Table styling in CSS is an essential aspect of creating visually
@@ -416,7 +420,7 @@ tr:nth-child(even) {
         color in the table headers. We also applied alternating row colors to
         improve readability and make the table more visually appealing.
       </p>
-
+      <InArticleAdUnit />
       <h3>Cell Spacing and Alignment</h3>
       <p>
         Cell spacing and alignment can be adjusted to improve the layout and

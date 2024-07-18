@@ -1,7 +1,10 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Color = () => {
   return (
     <div className="comments-container">
       <h1>The Magical World of Colors in CSS</h1>
+      <InArticleAdUnit />
       <p>
         Colors are like the paintbrushes that bring your web designs to life!
         They add personality, emotion, and visual appeal to your websites. In
@@ -182,7 +185,7 @@ div {
         </a>
         .
       </p>
-
+      <InArticleAdUnit />
       <h2>Color Opacity</h2>
       <p>
         Color opacity refers to the transparency or opacity of a color. You can
@@ -259,7 +262,7 @@ p {
         desired emotions, create a positive user experience, and make your
         designs more impactful.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -319,6 +322,7 @@ export default Color;
 export const Fonts = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Art of Fonts in CSS</h1>
       <p>
         {`Fonts are like the brushstrokes that bring your web designs to life!
@@ -328,7 +332,6 @@ export const Fonts = () => {
         how to style your text with elegance and precision. Let's begin our
         typographic journey!`}
       </p>
-
       <h2>Font Family</h2>
       <p>
         The <code>font-family</code>{" "}
@@ -337,7 +340,6 @@ export const Fonts = () => {
         a wide range of font families, including serif, sans-serif, monospace,
         and more. Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -349,7 +351,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>font-family</code> property to
         <code>Arial</code>, with a fallback to <code>sans-serif</code>.{" "}
@@ -366,7 +367,6 @@ p {
         </a>
         .
       </p>
-
       <h2>Font Size</h2>
       <p>
         The <code>font-size</code>{" "}
@@ -375,7 +375,6 @@ p {
         pixels (px), ems (relative to the parent element's font size), or
         percentages (%). Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -387,7 +386,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>font-size</code> property to 16
         pixels, making the text within paragraphs appear at that size. You can
@@ -402,7 +400,6 @@ p {
         decrease in size according to what you provide. Play around with it and
         see in the browser.`}
       </p>
-
       <h2>Font Weight</h2>
       <p>
         The <code>font-weight</code> property allows you to adjust the thickness
@@ -410,7 +407,6 @@ p {
         keywords like <code>normal</code> and <code>bold</code>. {` Here's an`}
         example:
       </p>
-
       <code>
         <pre>
           <code>
@@ -422,7 +418,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>font-weight</code> property to
         <code>bold</code>, making the text within paragraphs appear bold. You
@@ -434,7 +429,6 @@ p {
         changes. Add bold values, use numbers from 100 to 900, and experiment
         freely.
       </p>
-
       <h2>Font Style</h2>
       <p>
         The <code>font-style</code>{" "}
@@ -442,7 +436,6 @@ p {
         to your text. You can choose between normal, italic, or oblique styles.
         Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -454,7 +447,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>font-style</code> property to
         <code>italic</code>, making the text within paragraphs appear in italic
@@ -465,14 +457,12 @@ p {
         Experiment with other values as well. Try adding them and see how your
         text will appear.
       </p>
-
       <h2>Text Decoration</h2>
       <p>
         The <code>text-decoration</code> property allows you to add decorative
         elements to your text, such as underlines, overlines, or line-throughs.{" "}
         {` Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -484,13 +474,13 @@ a {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>text-decoration</code> property to
         <code>underline</code>, adding an underline to the text within anchor (
         <code>a</code>) elements. Text decorations can be used to highlight
         important links or emphasize specific text.
       </p>
+      <InArticleAdUnit />
       <h3>
         Here is a table of values you can use to achieve different decorations.
       </h3>
@@ -545,14 +535,12 @@ a {
           <td>Draws a wavy line under the text content.</td>
         </tr>
       </table>
-
       <h2>Text Transform</h2>
       <p>
         The <code>text-transform</code> property allows you to control the
         capitalization of your text. You can choose between uppercase,
         lowercase, and capitalize options. {` Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -564,7 +552,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>text-transform</code> property to
         <code>uppercase</code>, converting all text within paragraphs to
@@ -594,14 +581,12 @@ p {
           <td>Transforms all characters to lowercase.</td>
         </tr>
       </table>
-
       <h2>Line Height</h2>
       <p>
         The <code>line-height</code> property allows you to adjust the spacing
         between lines of text, also known as leading. You can use numeric values
         or keywords like <code>normal</code>. {` Here's an example:`}
       </p>
-
       <code>
         <pre>
           <code>
@@ -613,7 +598,6 @@ p {
           </code>
         </pre>
       </code>
-
       <p>
         In the code above, we set the <code>line-height</code> property to 1.5,
         increasing the spacing between lines of text within paragraphs.
@@ -625,14 +609,13 @@ p {
         numbers and see: the higher the value, the more the space increases; the
         lower the number, the less the space.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to unleash your creativity and experiment with fonts in CSS!
         Open your code editor and create a new HTML file. Let's explore the
         wonderful world of fonts:`}
       </p>
-
       <ol>
         <li>
           Create a simple HTML structure with headings, paragraphs, and other
@@ -667,13 +650,11 @@ p {
           complementary fonts for your designs.
         </li>
       </ol>
-
       <p>
         Remember, fonts have a significant impact on the user experience. Choose
         fonts that are legible, appropriate for your audience, and consistent
         with your brand identity. Happy coding and happy designing!
       </p>
-
       <div className="button-container">
         <button onClick={() => (window.location.href = "/colorMob")}>
           back

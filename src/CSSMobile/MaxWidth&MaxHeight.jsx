@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const MaxWidth = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Max-Width in CSS</h1>
       <p>
         {`Max-width is a powerful tool in CSS that allows you to set a maximum
@@ -93,7 +96,7 @@ div {
           designs will look proportionate and well-organized.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor
@@ -148,6 +151,7 @@ export default MaxWidth;
 export const MaxHeight = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Max-Height in CSS</h1>
       <p>
         {`Max-height is a powerful property in CSS that allows you to set a
@@ -236,7 +240,7 @@ div {
           maintaining a harmonious and aesthetically pleasing appearance.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to experiment with max-height in CSS! Open your code

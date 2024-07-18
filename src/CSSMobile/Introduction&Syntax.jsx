@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Introduction = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Introduction to CSS</h1>
 
       <p>
@@ -105,7 +108,7 @@ const Introduction = () => {
         adapt to different screen sizes and devices, ensuring that their
         websites look great on any platform.
       </p>
-
+      <InArticleAdUnit />
       <h2>Conclusion</h2>
 
       <p>
@@ -148,6 +151,7 @@ export default Introduction;
 export const Syntax = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Syntax</h1>
       <p>
         CSS (Cascading Style Sheets) is a styling language used to design and
@@ -276,7 +280,7 @@ h1 {
         <code>font-size: 24px</code>. This rule sets the text color of
         <code> {`<h1>`}</code> elements to red and their font size to 24 pixels.
       </p>
-
+      <InArticleAdUnit />
       <h2>Advanced CSS Syntax</h2>
       <p>
         While the basics of CSS syntax are relatively straightforward, the

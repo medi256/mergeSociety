@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Height = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Height in CSS</h1>
       <p>
         {`Height is another fundamental property in CSS that determines the vertical size
@@ -98,7 +101,7 @@ img {
         elements that need to maintain their original aspect ratio while fitting
         within their container.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to experiment with height in CSS! Open your code editor and create
@@ -157,6 +160,7 @@ export default Height;
 export const TextStyling = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical Art of Styling Text in CSS</h1>
       <p>
         {`Styling text in CSS is like giving your words a magical makeover! You can
@@ -314,7 +318,7 @@ div {
           </td>
         </tr>
       </table>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor and
