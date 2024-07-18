@@ -43,9 +43,6 @@ const Jscourse = () => {
           <li onClick={() => navigate("/ControlFlow")}>
             Conditional Statements(if/else, switch)
           </li>
-          <li onClick={() => navigate("/loops")}>
-            Loops(for, while, do-while)
-          </li>
         </ul>
         <h2>Function</h2>
         <ul>
@@ -72,6 +69,12 @@ const Jscourse = () => {
         <h2>Objects</h2>
         <ul>
           <li onClick={() => navigate("/objects")}>Objects</li>
+        </ul>
+        <h2>Loops in JavaScript</h2>
+        <ul>
+          <li onClick={() => navigate("/loops")}>
+            Loops(for, while, do-while)
+          </li>
         </ul>
 
         <h2> JavaScript Scope Explained</h2>
