@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Transition = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Transition in CSS</h1>
       <p>
         {`Transition is a powerful CSS property that allows you to create smooth
@@ -191,7 +194,7 @@ const Transition = () => {
           create unique and creative designs.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Challenges of Transition</h2>
       <p>
         While transition is a powerful tool, it also comes with some challenges:
@@ -263,6 +266,7 @@ export default Transition;
 export const Animations = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Animation in CSS</h1>
       <p>
         {`Animation is a powerful CSS feature that allows you to bring your
@@ -467,7 +471,7 @@ export const Animations = () => {
         <code>slideDown</code>, and applied them both to the{" "}
         <code>.element</code> class.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Animation</h2>
       <p>Using animation offers several advantages for your designs:</p>
 

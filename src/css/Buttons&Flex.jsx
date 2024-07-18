@@ -1,3 +1,5 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Buttons = () => {
   return <div></div>;
 };
@@ -6,6 +8,7 @@ export default Buttons;
 export const Flex = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Flex in CSS</h1>
       <p>
         {`Flex is a powerful CSS property that allows you to create flexible and
@@ -136,7 +139,7 @@ export const Flex = () => {
         {`Flex can be used in various ways to create visually appealing and
         functional designs. Let's explore some common use cases for flex:`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Responsive Layouts</h3>
       <p>
         {`Flex is commonly used to create responsive layouts that adapt to
@@ -214,7 +217,7 @@ export const Flex = () => {
           designs more accessible and user-friendly.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Challenges of Flex</h2>
       <p>While flex is a powerful tool, it also comes with some challenges:</p>
 

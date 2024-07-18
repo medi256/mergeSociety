@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Filter = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Understanding CSS Filters</h1>
       <p>
         CSS filters allow you to apply visual effects to elements, such as
@@ -145,7 +148,7 @@ const Filter = () => {
       </pre>
 
       <h2>Examples</h2>
-
+      <InArticleAdUnit />
       <h3>Blur Effect</h3>
       <iframe
         width="100%"
@@ -314,6 +317,7 @@ export default Filter;
 export const Responsive = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Responsive Design and Best Practices</h1>
       <p>
         Responsive design is an approach to web development that ensures web
@@ -399,7 +403,7 @@ export const Responsive = () => {
       <h2>Examples</h2>
 
       <p>Below are examples demonstrating responsive design principles:</p>
-
+      <InArticleAdUnit />
       <h3>Fluid Layout</h3>
       <p>
         This example uses a fluid layout that adjusts based on the size of the

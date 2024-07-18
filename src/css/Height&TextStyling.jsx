@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Height = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Height in CSS</h1>
       <p>
         {`Height is another fundamental property in CSS that determines the vertical size
@@ -66,7 +69,7 @@ div {
         commonly used to create flexible layouts that adapt to different screen
         sizes or to maintain a specific aspect ratio.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Auto Height</h2>
       <p>
         The <code>height: auto</code>{" "}
@@ -155,6 +158,7 @@ export default Height;
 export const TextStyling = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical Art of Styling Text in CSS</h1>
       <p>
         {`Styling text in CSS is like giving your words a magical makeover! You can
@@ -251,7 +255,7 @@ p {
         needs. A higher line height generally improves readability, while a
         lower line height can create a more compact and dense appearance.
       </p>
-
+      <InArticleAdUnit />
       <h2>Text Alignment</h2>
       <p>
         The <code>text-align</code> property allows you to align your text

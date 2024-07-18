@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const MediaQuaries = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Media Query</h1>
       <p>
         When designing a website, {`it's`} crucial to ensure your content looks
@@ -182,6 +185,7 @@ const MediaQuaries = () => {
         When you test it out, you should see that the background color is blue
         if the width of the screen is below 600px or above 768px.
       </p>
+      <InArticleAdUnit />
       <h1>
         Should you write separate media queries for every single device on the
         market?
@@ -254,6 +258,7 @@ export default MediaQuaries;
 export const Universal = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of the Universal Selector in CSS</h1>
       <p>
         {`The universal selector is a powerful tool in CSS that allows you to
@@ -357,7 +362,7 @@ export const Universal = () => {
           </code>
         </pre>
       </code>
-
+      <InArticleAdUnit />
       <h2>Benefits of the Universal Selector</h2>
       <p>
         Using the universal selector offers several advantages for your designs:

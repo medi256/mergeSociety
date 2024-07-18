@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const AttributeS = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Understanding Attribute Selectors in CSS</h1>
       <p>Welcome to our lesson on Attribute Selectors in CSS!</p>
       <h2>What are Attribute Selectors?</h2>
@@ -35,6 +38,7 @@ a[target="_blank"] {
           `}
         </code>
       </pre>
+      <InArticleAdUnit />
       <h2>Common Use Cases</h2>
       <p>
         {`Let's`} explore some common scenarios where attribute selectors can be
@@ -77,6 +81,7 @@ export default AttributeS;
 export const Transform = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Transform in CSS</h1>
       <p>
         {`Transform is a powerful CSS property that allows you to apply visual
@@ -115,7 +120,7 @@ export const Transform = () => {
         the element 45 degrees clockwise. This transformation changes the
         element's position and orientation, creating a dynamic visual effect.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Using Transform</h2>
       <p>
         {`Transform can be used in various ways to create visually appealing and
@@ -237,7 +242,7 @@ export const Transform = () => {
           browsers and versions.`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Background = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Backgrounds in CSS</h1>
       <p>
         {`Backgrounds are like the canvas upon which your web designs come to life!
@@ -149,7 +152,7 @@ div {
         <code>right</code>, <code>top</code>, or <code>bottom</code> to position
         the image precisely.
       </p>
-
+      <InArticleAdUnit />
       <h2>Background Size</h2>
       <p>
         The <code>background-size</code> property allows you to control the size
@@ -210,7 +213,7 @@ div {
         remains stationary while the content scrolls over it. This technique
         adds depth and visual interest to your designs.
       </p>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor and
@@ -275,6 +278,7 @@ export default Background;
 export const Comments = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Power of Comments in CSS</h1>
       <p>
         {`Comments are like hidden notes in your CSS code. They allow you to add
@@ -341,7 +345,7 @@ export const Comments = () => {
         explanations, document complex code sections, or include references or
         credits for code snippets.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Commenting Out Code</h2>
       <p>
         {`Comments can also be used to temporarily disable or "comment out" certain

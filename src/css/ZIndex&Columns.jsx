@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const ZIndex = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Z-index</h1>
       <p>
         The z-index property in CSS controls the stacking order of elements on a
@@ -160,6 +163,7 @@ const ZIndex = () => {
         displayed behind it because the filter property caused the pink box to
         form a new stacking context.
       </p>
+      <InArticleAdUnit />
       <h2>Exercise: Layering and Stacking Challenge</h2>
       <p>
         {`Now it's your turn to put your knowledge into practice! In this
@@ -209,6 +213,7 @@ export default ZIndex;
 export const Columns = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Columns in CSS</h1>
       <p>
         {`Columns are a powerful tool in CSS that allow you to create visually appealing and
@@ -370,7 +375,7 @@ export const Columns = () => {
           ensure compatibility.`}
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Practice Time!</h2>
       <p>
         {`Now it's time to put your knowledge into practice! Open your code editor and

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Icon = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Icons in CSS: The Ultimate Guide</h1>
       <p>
         {`Icons are a fundamental aspect of web design, enhancing the user
@@ -106,7 +109,7 @@ const Icon = () => {
         style. Once you find the icon you want to use, simply click on it to
         view the code snippet and usage instructions.
       </p>
-
+      <InArticleAdUnit />
       <h4>Using Font Awesome Icons</h4>
       <p>
         To use a Font Awesome icon, copy the provided code snippet and paste it
@@ -254,7 +257,7 @@ const Icon = () => {
 <i class="fa-home" style="font-size: 32px;"></i>
         `}</code>
       </pre>
-
+      <InArticleAdUnit />
       <h3>Icon Colors</h3>
       <p>
         Icons can be styled with different colors to match your brand or design
@@ -335,6 +338,7 @@ export default Icon;
 export const Float = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Float in CSS</h1>
       <p>
         {`Float is a powerful CSS property that allows you to control the layout
@@ -467,7 +471,7 @@ img {
         should appear below floated elements, ensuring they clear the floats and
         start on a new line.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Float</h2>
       <p>Using float offers several advantages for your designs:</p>
 

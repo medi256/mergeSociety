@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Links = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Link Styling in CSS</h1>
       <p>
         {`Link styling in CSS is an essential aspect of creating visually
@@ -142,7 +145,7 @@ a {
         also use other cursor values, such as <code>crosshair</code> or{" "}
         <code>move</code>, depending on the context of your design.
       </p>
-
+      <InArticleAdUnit />
       <h2>Using Link Styling</h2>
       <p>
         {`Link styling can be used to create visually appealing and functional
@@ -212,7 +215,7 @@ a {
         You can experiment with different transition properties to create unique
         and engaging link animations.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Link Styling</h2>
       <p>Using link styling offers several advantages for your designs:</p>
 
@@ -291,6 +294,7 @@ export default Links;
 export const Images = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Image Styling in CSS</h1>
       <p>
         {`Image styling in CSS is an essential aspect of creating visually
@@ -454,7 +458,7 @@ img {
         3D effect. You can adjust the shadow's offset, blur, spread, and color
         to create different shadow effects.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Image Styling</h2>
       <p>Using image styling offers several advantages for your designs:</p>
 

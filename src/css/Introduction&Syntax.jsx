@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Introduction = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Introduction to CSS</h1>
 
       <p>
@@ -74,6 +77,7 @@ const Introduction = () => {
         screen sizes and devices, ensuring that their websites look great on any
         platform.
       </p>
+      <InArticleAdUnit />
 
       <h2>Combining CSS with HTML and JavaScript</h2>
 
@@ -144,6 +148,7 @@ export default Introduction;
 export const Syntax = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Syntax</h1>
       <p>
         CSS (Cascading Style Sheets) is a styling language used to design and
@@ -243,7 +248,7 @@ export const Syntax = () => {
           <code>url(image.png)</code>.
         </li>
       </ul>
-
+      <InArticleAdUnit />
       <h2>Putting It All Together</h2>
       <p>
         {`Now, let's see how these components come together to form a CSS rule.

@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Grid = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>CSS Grid</h1>
       <p>
         Have you ever had a problem positioning items on your web browser?
@@ -224,7 +227,7 @@ grid-template: 50px 50px / 100px auto 100px;
         alt="demo"
       />
       <p>A grid with a column of 100px auto 100px and row of 50px 50px</p>
-
+      <InArticleAdUnit />
       <h2>Column-gap property</h2>
       <p>
         As the name states, it is a grid property that assigns a space between
@@ -424,7 +427,7 @@ justify-content: space-between;
         alt="demo"
       />
       <p>justify-content: space-between</p>
-
+      <InArticleAdUnit />
       <h2>Space-evenly</h2>
       <p>
         Just as the name states, this property distributes the items in the
@@ -559,7 +562,7 @@ align-content: space-around;
       />
 
       <p>align-content: space-around</p>
-
+      <InArticleAdUnit />
       <h2> Space-between</h2>
       <p>
         Just like the space-around property, Space-between distributes the items
@@ -629,6 +632,7 @@ export default Grid;
 export const Variables = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The World of Variables in CSS</h1>
       <p>
         {`Variables in CSS allow you to store and reuse values throughout your
@@ -753,7 +757,7 @@ body {
           </code>
         </pre>
       </code>
-
+      <InArticleAdUnit />
       <h2>Benefits of Variables</h2>
       <p>Using variables in CSS offers several advantages:</p>
 

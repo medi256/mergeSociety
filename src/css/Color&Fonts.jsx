@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Color = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Colors in CSS</h1>
       <p>
         Colors are like the paintbrushes that bring your web designs to life!
@@ -145,6 +148,7 @@ div {
         </a>
         .
       </p>
+      <InArticleAdUnit />
 
       <h2>HSL Colors</h2>
       <p>
@@ -316,6 +320,7 @@ export default Color;
 export const Fonts = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Art of Fonts in CSS</h1>
       <p>
         {`Fonts are like the brushstrokes that bring your web designs to life!
@@ -431,7 +436,7 @@ p {
         changes. Add bold values, use numbers from 100 to 900, and experiment
         freely.
       </p>
-
+      <InArticleAdUnit />
       <h2>Font Style</h2>
       <p>
         The <code>font-style</code>{" "}
@@ -591,7 +596,7 @@ p {
           <td>Transforms all characters to lowercase.</td>
         </tr>
       </table>
-
+      <InArticleAdUnit />
       <h2>Line Height</h2>
       <p>
         The <code>line-height</code> property allows you to adjust the spacing

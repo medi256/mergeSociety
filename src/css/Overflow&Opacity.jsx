@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const Overflow = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>Mastering Overflow in CSS</h1>
       <p>
         {`The CSS overflow property is crucial when it comes to controlling how 
@@ -193,7 +196,7 @@ div {
         inside it exceeds 300px by 600px. This ensures that the layout remains 
         neat and users can access all the content.`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Overflow in Dynamic Content Areas</h3>
       <p>
         {`For areas with dynamic content, such as user comments or chat windows, 
@@ -263,6 +266,7 @@ export default Overflow;
 export const Opacity = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magic of Opacity in CSS</h1>
       <p>
         {`The CSS opacity property allows you to control the transparency of an element. 
@@ -486,7 +490,7 @@ button:hover {
         {`In the code above, three layers are created with different opacity values. The overlapping 
         of these layers creates a visually interesting effect that can be used for various design purposes.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>More Advanced Techniques</h2>
       <p>
         {`Now that we've covered the basics, let's look at some more advanced techniques 

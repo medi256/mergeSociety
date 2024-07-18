@@ -1,6 +1,9 @@
+import { InArticleAdUnit } from "../AdUnit";
+
 const List = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of List Styling in CSS</h1>
       <p>
         {`List styling in CSS is an essential aspect of creating visually
@@ -105,7 +108,7 @@ ol {
         <code>list-style-image</code>.{" "}
         {`Let's explore some of these properties:`}
       </p>
-
+      <InArticleAdUnit />
       <h3>Padding and Margin</h3>
       <p>
         Padding and margin can be used to adjust the spacing around list items.
@@ -169,7 +172,7 @@ ul {
         You can also use other CSS properties on lists just like any other
         element. You can apply color, background, font, and many others.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of List Styling</h2>
       <p>Using list styling offers several advantages for your designs:</p>
 
@@ -256,6 +259,7 @@ export default List;
 export const Table = () => {
   return (
     <div className="comments-container">
+      <InArticleAdUnit />
       <h1>The Magical World of Table Styling in CSS</h1>
       <p>
         {`Table styling in CSS is an essential aspect of creating visually
@@ -374,7 +378,7 @@ tr:nth-child(even) {
           </li>
         </ul>
       </p>
-
+      <InArticleAdUnit />
       <h2>Using Table Styling</h2>
       <p>
         {`Table styling can be used to create visually appealing and functional
@@ -443,7 +447,7 @@ td {
         within table cells. We also centered the text within the cells to
         improve readability and create a balanced layout.
       </p>
-
+      <InArticleAdUnit />
       <h2>Benefits of Table Styling</h2>
       <p>Using table styling offers several advantages for your designs:</p>
 
