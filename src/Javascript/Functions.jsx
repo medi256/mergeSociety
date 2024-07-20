@@ -4,114 +4,196 @@ const DefiningCallingFunc = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>Welcome to the Wonderful World of JavaScript Functions!</h1>
+      <h1>Introduction to Functions</h1>
       <p>
-        Welcome, future JavaScript masters! Today, {`we'll`} meet some
-        incredible tools called functions. Imagine functions as helpful
-        assistants who can perform specific tasks over and over again, just like
-        you might ask a friend to help you with the dishes or chores.
+        Welcome everyone! Today, we're going to learn about functions in
+        JavaScript. Functions are a fundamental part of JavaScript and are used
+        to group together code that performs a specific task.
       </p>
-      <h2>Why Functions Are So Awesome?</h2>
+
+      <h2>What is a Function?</h2>
       <p>
-        Functions help keep your code clean, organized, and reusable. Think of
-        writing a complicated recipe from scratch each time you want to bake a
-        cake. Functions are like the recipe itself, where you can define the
-        steps once and then use it (call it) as many times as you want without
-        rewriting everything!
+        Imagine you have a toy robot. This robot can do a lot of things, but
+        some things you want it to do over and over. For example, you might want
+        it to walk forward.
       </p>
-      <h2>Building Your First Function:</h2>
       <p>
-        {`Let's see how we create a function in JavaScript. It's`} like giving
-        your assistant instructions:
+        Instead of giving the robot a separate instruction each time, you can
+        teach it a "trick." This trick is like a function in JavaScript. You
+        give the trick a name, like "walkForward," and then you teach the robot
+        the steps it needs to do to walk forward. In JavaScript, these steps are
+        the lines of code inside curly braces.
+      </p>
+      <p>
+        Once you've taught the robot the trick, you can call it whenever you
+        want the robot to walk forward. Calling the trick is like calling a
+        function in JavaScript. You just use the name of the function, and the
+        robot (or the computer program) does what you taught it.
+      </p>
+      <p>
+        This way, you don't have to give the robot a bunch of instructions every
+        time you want it to do something. You can just call the trick with the
+        right name. This is what functions let you do in JavaScript. They let
+        you group together instructions and then use them over and over again
+        with just a simple name.
+      </p>
+
+      <h2>Defining a Function</h2>
+      <p>
+        To create a function in JavaScript, you use the <code>function</code>{" "}
+        keyword, followed by a name for your function, parentheses{" "}
+        <code>()</code>, and curly braces <code>{"{}"}</code>. The code that
+        performs the task goes inside the curly braces. This is called
+        "defining" a function.
       </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-function functionName() {
-  // Code to be executed (function body)
+function walkForward() {
+  console.log('The robot is walking forward.');
 }
           `}
         </code>
       </pre>
+      <p>
+        In this example, we defined a function named <code>walkForward</code>.
+        When this function is called, it will print 'The robot is walking
+        forward.' to the console.
+      </p>
+      <p>Let's break down the parts of a function definition:</p>
       <ul>
         <li>
-          <code>function</code>: This keyword tells JavaScript that{" "}
-          {`we're creating a powerful "assistant"`} called a function.
+          <strong>function</strong>: This keyword tells JavaScript that you are
+          defining a function.
         </li>
         <li>
-          <b>functionName</b>: Choose a descriptive name that reflects what your
-          assistant will do (e.g., <b>sayHello</b>, <b>announceWinner</b> ).
+          <strong>walkForward</strong>: This is the name of the function. You
+          can name it anything you like, but it's good to choose a name that
+          describes what the function does.
+        </li>
+        <li>
+          <strong>()</strong>: These parentheses can hold parameters (inputs)
+          for the function. We'll talk more about parameters later.
+        </li>
+        <li>
+          <strong>{"{}"}</strong>: The curly braces contain the code that runs
+          when the function is called.
         </li>
       </ul>
-      <h2> Calling Your Function: Putting It to Work</h2>
-      <p>
-        Once {`you've`} defined your function, you can use it (call it) whenever
-        you need it to perform its task. Think of it as giving your assistant a
-        specific command to execute the instructions you defined.
-      </p>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-function sayHello() {
-  console.log("Hello!");
-}
-
-sayHello(); // This calls the \`sayHello\` function
-          `}
-        </code>
-      </pre>
-      <h3>Explanation:</h3>
-      <ol>
-        <li>
-          We define a function named <b>sayHello</b> that {`doesn't`} take any
-          arguments (parameters).
-        </li>
-        <li>
-          {" "}
-          Inside the function body, we use <b>console.log</b> to print{" "}
-          {`"Hello!"`} to the console.
-        </li>
-        <li>
-          When we write <b>{`sayHello()`} </b>;,{" "}
-          {`we're essentially telling the function to execute its instructions, which is to print "Hello!" to the console.`}
-        </li>
-      </ol>
       <AdUnit />
-      <h3>The Magic of Reusability:</h3>
-      <p>The beauty of functions is that you can call them multiple times:</p>
+      <h2>Calling a Function</h2>
+      <p>
+        Defining a function doesn't execute it. To execute the code inside a
+        function, you need to "call" the function by writing its name followed
+        by parentheses <code>()</code>.
+      </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-sayHello(); // Prints "Hello!" again 
-sayHello(); // And again!
+walkForward();
+// Output: The robot is walking forward.
           `}
         </code>
       </pre>
-      <h3>Best Practices:</h3>
+      <p>
+        Here, we call the <code>walkForward</code> function, and it prints 'The
+        robot is walking forward.' to the console.
+      </p>
+
+      <h2>Why Use Functions?</h2>
+      <p>
+        Functions help you organize your code and make it reusable. Imagine you
+        need to greet users in multiple places in your code. Instead of writing{" "}
+        <code>console.log('Hello, there!')</code> each time, you can just call
+        the <code>greet</code> function.
+      </p>
+      <p>
+        Functions also make your code easier to read and maintain. If you need
+        to update the greeting message, you only have to change it in one place
+        – inside the <code>greet</code> function.
+      </p>
+      <p>
+        Let's look at another example where we use a function to display a
+        simple message.
+      </p>
+      <pre>
+        <code>
+          {`
+function sayGoodbye() {
+  console.log('Goodbye, see you next time!');
+}
+
+sayGoodbye();
+// Output: Goodbye, see you next time!
+          `}
+        </code>
+      </pre>
+      <p>
+        In this example, we define a function called <code>sayGoodbye</code>.
+        Inside the function, we print a goodbye message. When we call the
+        function, it prints 'Goodbye, see you next time!'.
+      </p>
+
+      <h2>Understanding the Parts of a Function</h2>
+      <p>Let's look closely at the different parts of a function definition:</p>
       <ul>
-        <li>Use descriptive function names that reflect their purpose.</li>
-        <li>Keep your functions concise and focused on a single task.</li>
-        <li>Use functions to organize your code and make it more readable.</li>
-      </ul>
-      <h3>Common Use Cases:</h3>
-      <ul>
-        <li>Performing repetitive tasks, like printing a message.</li>
         <li>
-          Encapsulating complex logic, like calculating a mathematical formula.
+          <strong>Function Name:</strong> The name of the function should
+          describe what the function does. In our example, <code>greet</code> is
+          a good name because it tells us that the function greets someone.
         </li>
         <li>
-          Creating reusable code blocks, like a function to validate user input.
+          <strong>Function Body:</strong> This is the code inside the curly
+          braces <code>{"{}"}</code>. This code will run when the function is
+          called.
         </li>
       </ul>
+
+      <h2>Using Functions to Organize Code</h2>
+      <p>
+        Functions help keep your code organized. For example, if you were making
+        a simple program to greet users and say goodbye, you might have separate
+        functions for each task.
+      </p>
+      <p>
+        Here’s an example of how you might use functions to organize your code:
+      </p>
+      <pre>
+        <code>
+          {`
+function greetUser() {
+  console.log('Hello, User!');
+}
+
+function farewellUser() {
+  console.log('Goodbye, User!');
+}
+
+// Calling the functions
+greetUser(); // Output: Hello, User!
+farewellUser(); // Output: Goodbye, User!
+          `}
+        </code>
+      </pre>
+      <p>
+        In this example, we have two functions: <code>greetUser</code> and{" "}
+        <code>farewellUser</code>. Each function performs a specific task,
+        making our code more organized and easier to read.
+      </p>
+      <AdUnit />
+      <h2>Conclusion</h2>
+      <p>
+        Functions are a powerful tool in JavaScript that help you organize,
+        reuse, and simplify your code. By defining functions, you can create
+        blocks of code that perform specific tasks and use them whenever needed.
+        This makes your code more efficient and easier to read.
+      </p>
+      <p>
+        Remember, defining a function is like teaching a robot a trick, and
+        calling a function is like asking the robot to perform that trick.
+        Practice creating and calling functions to get comfortable with this
+        fundamental concept in JavaScript.
+      </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/loops")}>back</button>
         <button onClick={() => (window.location.href = "/ParameterArgument")}>
