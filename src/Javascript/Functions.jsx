@@ -210,116 +210,135 @@ export const ParameterArgument = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>
-        Level Up Your Functions: Using Parameters and Arguments like a Pro
-      </h1>
+      <h1>Function Parameters and Arguments</h1>
       <p>
-        Remember our awesome function assistants from last time? Now,{" "}
-        {`let's upgrade them with even more power! We'll`} introduce parameters
-        and arguments to make functions even more flexible.
+        Welcome back! In our last lesson, we learned about functions and how
+        they help us organize and reuse our code. Now, let's take a closer look
+        at a special part of functions: parameters and arguments.
       </p>
-      <h2>Introducing Parameters: The Special Instructions</h2>
+
+      <h2>What are Parameters?</h2>
       <p>
-        Think of parameters as specific instructions you give your helper when
-        you create the function{" "}
-        {`(like "wash the dishes" or "mow the lawn").
-        They're placeholders inside the function's definition, waiting for
-        actual values to be provided later.`}
+        Imagine you have a toy robot that can walk forward. But what if you want
+        the robot to walk a specific number of steps each time? You can teach
+        the robot to take the number of steps as an input. This input is like a
+        parameter in a function.
       </p>
-      <h3>{`Here's`} the syntax for functions that include parameters:</h3>
+      <p>
+        In JavaScript, parameters are special variables that we include in our
+        function definitions. They act as placeholders for the values (or
+        inputs) that we will pass to the function when we call it.
+      </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-function functionName(parameters) {
-  // Code to be executed (function body)
+function walkForward(steps) {
+  console.log('The robot walks ' + steps + ' steps forward.');
 }
           `}
         </code>
       </pre>
-      <h3>For example:</h3>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-function greetUser(name) { // "name" is the parameter
-  console.log("Hello, " + name + "!");
-}
-          `}
-        </code>
-      </pre>
-      <h3>Arguments: The Actual Values Passed</h3>
       <p>
-        When you call (use) a function that has parameters, you provide the
-        actual values (arguments) to fill those placeholders. {`It's`} like
-        giving your helper the specific dishes to wash or the exact lawn area to
-        mow.
+        In this example, <code>steps</code> is a parameter. It acts as a
+        placeholder for the number of steps the robot will take.
       </p>
-      <h3>{`Here's`} how you call a function with arguments:</h3>
+
+      <h2>What are Arguments?</h2>
+      <p>
+        When we call a function, we need to provide actual values for the
+        parameters. These values are called arguments. Think of arguments as the
+        real instructions you give to the robot.
+      </p>
+      <p>
+        Let's call the <code>walkForward</code> function and provide an
+        argument:
+      </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-greetUser("Alice"); // "Alice" is the argument for the "name" parameter
+walkForward(5); // Output: The robot walks 5 steps forward.
           `}
         </code>
       </pre>
-      <h3>Explanation:</h3>
-      <ol>
-        <li>
-          We define a function named <b>greetUser</b> with one parameter named{" "}
-          <b>name</b>.
-        </li>
-        <li>
-          {" "}
-          When we call <b>{`greetUser("Alice")`}</b>, the value {`"Alice"`} is
-          the argument passed to the <b>name</b> parameter.
-        </li>
-        <li>
-          Inside the {`function's`} code, the <b>name</b> parameter takes on the
-          value of the argument {`("Alice")`}. This allows the function to
-          create a personalized greeting.
-        </li>
-      </ol>
+      <p>
+        Here, <code>5</code> is the argument we pass to the{" "}
+        <code>walkForward</code> function. The function uses this argument to
+        replace the <code>steps</code> parameter and prints "The robot walks 5
+        steps forward."
+      </p>
+
+      <h2>Why Use Parameters and Arguments?</h2>
+      <p>
+        Parameters and arguments make functions more flexible and powerful. They
+        allow us to use the same function for different inputs. Instead of
+        creating a new function for each number of steps, we can use one
+        function and simply change the argument.
+      </p>
+      <p>
+        Let's see another example where we use parameters and arguments to greet
+        different users:
+      </p>
+      <pre>
+        <code>
+          {`
+function greetUser(name) {
+  console.log('Hello, ' + name + '!');
+}
+
+greetUser('Alice'); // Output: Hello, Alice!
+greetUser('Bob');   // Output: Hello, Bob!
+          `}
+        </code>
+      </pre>
+      <p>
+        In this example, <code>name</code> is a parameter in the{" "}
+        <code>greetUser</code> function. When we call the function with
+        different arguments like <code>'Alice'</code> and <code>'Bob'</code>, it
+        prints personalized greetings.
+      </p>
       <AdUnit />
-      <h3>Benefits of Parameters and Arguments:</h3>
-      <ul>
-        <li>
-          Functions can be more versatile by accepting different values each
-          time {`they're`} called.
-        </li>
-        <li>
-          You can create reusable functions that adapt to various situations.
-        </li>
-      </ul>
-      <h3>Best Practices:</h3>
-      <ul>
-        <li>Use descriptive parameter names that reflect their purpose.</li>
-        <li>Keep your functions concise and focused on a single task.</li>
-        <li>Use functions to organize your code and make it more readable.</li>
-      </ul>
-      <h3>Common Use Cases:</h3>
-      <ul>
-        <li>Performing repetitive tasks, like printing a message.</li>
-        <li>
-          Encapsulating complex logic, like calculating a mathematical formula.
-        </li>
-        <li>
-          Creating reusable code blocks, like a function to validate user input.
-        </li>
-      </ul>
-      <h3>Keeping It Simple:</h3>
+      <h2>Using Multiple Parameters</h2>
       <p>
-        For now, remember that parameters are like placeholders in the function
-        definition, while arguments are the actual values you provide when you
-        call the function. {`We'll`} explore more advanced concepts like
-        returning values in future lessons.
+        Functions can have more than one parameter. For example, let's teach our
+        robot to walk a specific number of steps and also turn in a specific
+        direction:
+      </p>
+      <pre>
+        <code>
+          {`
+function walkAndTurn(steps, direction) {
+  console.log('The robot walks ' + steps + ' steps and turns ' + direction + '.');
+}
+
+walkAndTurn(10, 'left'); // Output: The robot walks 10 steps and turns left.
+walkAndTurn(5, 'right'); // Output: The robot walks 5 steps and turns right.
+          `}
+        </code>
+      </pre>
+      <p>
+        In this example, <code>steps</code> and <code>direction</code> are
+        parameters. When we call the <code>walkAndTurn</code> function, we
+        provide two arguments to specify the number of steps and the direction
+        the robot should turn.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Parameters and arguments make functions incredibly powerful. By using
+        parameters, we can create flexible functions that work with different
+        inputs. Arguments allow us to provide these inputs when we call the
+        function.
+      </p>
+      <p>
+        Remember, defining a function with parameters is like teaching a robot a
+        trick that can take different instructions. Calling the function with
+        arguments is like giving the robot specific instructions to perform the
+        trick.
+      </p>
+      <p>
+        Practice creating functions with parameters and calling them with
+        different arguments to get comfortable with this essential concept in
+        JavaScript!
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/DefiningCallingFunc")}>
