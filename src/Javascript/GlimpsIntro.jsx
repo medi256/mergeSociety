@@ -440,9 +440,7 @@ alert('This is a JavaScript alert from an external file!');
         <button onClick={() => (window.location.href = "/WhyJavascript")}>
           back
         </button>
-        <button
-          onClick={() => (window.location.href = "/JavascriptVsECMAScript")}
-        >
+        <button onClick={() => (window.location.href = "/VariablesDataTypes")}>
           Next
         </button>
       </div>

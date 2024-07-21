@@ -8,7 +8,7 @@ import VariablesDataTypes, {
   DataTypes,
   NamingVariable,
 } from "./Javascript/Variables&DataTypes";
-import Arrays from "./Javascript/Arrays";
+import Arrays, { ArrayMethods } from "./Javascript/Arrays";
 import Objects from "./Javascript/Objects";
 import Operators from "./Javascript/Operators";
 import ControlFlow from "./Javascript/else&Switch";
@@ -82,6 +82,7 @@ const JavascriptRouter = () => {
         <Route path="ArrowFunc" element={<ArrowFunc />} />
         <Route path="StringMethod" element={<StringMethods />} />
         <Route path="arrays" element={<Arrays />} />
+        <Route path="arrayMethods" element={<ArrayMethods />} />
         <Route path="objects" element={<Objects />} />
         <Route path="scope" element={<ScopeJS />} />
         <Route path="hoisting" element={<Hoisting />} />

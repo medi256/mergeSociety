@@ -255,7 +255,9 @@ console.log(math.multiply(4, 5)); // 20
         </code>
       </pre>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/BOMApplication")}>
+        <button
+          onClick={() => (window.location.href = "/JavascriptVsECMAScript")}
+        >
           back
         </button>
         <button onClick={() => (window.location.href = "/Classes")}>

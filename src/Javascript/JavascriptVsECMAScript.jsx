@@ -62,10 +62,10 @@ const JavascriptVsECMAScript = () => {
         dive in and unlock the full potential of this incredible language!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/RunningJS")}>
+        <button onClick={() => (window.location.href = "/BOMApplication")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/VariablesDataTypes")}>
+        <button onClick={() => (window.location.href = "/Modules")}>
           Next
         </button>
       </div>

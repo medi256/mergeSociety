@@ -880,7 +880,9 @@ export const BOMApplication = () => {
         <button onClick={() => (window.location.href = "/screenObject")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/Modules")}>
+        <button
+          onClick={() => (window.location.href = "/JavascriptVsECMAScript")}
+        >
           Next
         </button>
       </div>

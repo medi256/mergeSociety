@@ -47,7 +47,7 @@ const Jscourse = () => {
             Loops(for, while, do-while)
           </li>
         </ul>
-        <h2>Function</h2>
+        <h2>JavaScript Function</h2>
         <ul>
           <li onClick={() => navigate("/DefiningCallingFunc")}>
             Defining and Calling Functions
@@ -65,9 +65,10 @@ const Jscourse = () => {
             String Methods(length, concatenation, search, replace, etc.)
           </li>
         </ul>
-        <h2>Arrays</h2>
+        <h2>JavaScript Arrays</h2>
         <ul>
           <li onClick={() => navigate("/arrays")}>Arrays</li>
+          <li onClick={() => navigate("/arrayMethods")}>Array Methods</li>
         </ul>
         <h2>Objects</h2>
         <ul>
