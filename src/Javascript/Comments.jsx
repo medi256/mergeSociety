@@ -123,7 +123,7 @@ export const ScopeJS = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>JavaScript Scope: Global vs. Local vs. Block Scope</h1>
+      <h1>JavaScript Scope</h1>
 
       <h2>Introduction to Scope</h2>
       <p>
@@ -326,93 +326,154 @@ export const Hoisting = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>Introduction to Hoisting in JavaScript (JS)</h1>
+      <h1>Mastering JavaScript Hoisting</h1>
+
+      <h2>Introduction to Hoisting</h2>
       <p>
-        {" "}
-        Hoisting in JavaScript is a behavior where variable and function
+        In JavaScript, hoisting is a behavior where variable and function
         declarations are moved to the top of their containing scope during the
-        compilation phase. This might sound a bit confusing at first, but{" "}
-        {`let's`}
-        break it down with a simple analogy and some beginner-friendly
-        explanations.
+        compile phase. This means you can use variables and functions before you
+        declare them in your code.
       </p>
       <p>
-        Imagine{" "}
-        {`you're planning a party. You have a list of tasks to complete,
-        such as sending out invitations, buying decorations, and preparing food.
-        Now, you decide to start working on these tasks one by one, but you want
-        to make sure you don't`}{" "}
-        forget anything. So, you write down all the tasks on a piece of paper
-        and keep it in front of you as you work.
+        However, hoisting can sometimes lead to unexpected behavior, especially
+        for beginners. Understanding how hoisting works and following best
+        practices can help you write clearer and more predictable code.
       </p>
+
+      <h2>Variable Hoisting</h2>
       <p>
-        In JavaScript, the code you write is like the list of tasks, and the
-        code execution is like the process of completing those tasks. Hoisting
-        is like the act of moving the list of tasks to the top of your
-        workspace, so you can see it clearly and easily access it whenever you
-        need it.
+        When a variable is hoisted, its declaration is moved to the top of the
+        scope, but its initialization remains in place. This means that the
+        variable will be undefined until the point in the code where it is
+        initialized.
       </p>
-      <h3>{`Here's`} a simple example to illustrate hoisting in JavaScript:</h3>
       <pre>
         <code>
           {`
-console.log(myVariable); // This will output "undefined"
-
-let myVariable = "Hello, World!";
-          `}
+console.log(myVar); // Output: undefined
+var myVar = 'Hello, world!';
+console.log(myVar); // Output: Hello, world!
+    `}
         </code>
       </pre>
       <p>
-        In the code above, {`we're`} trying to print the value of{" "}
-        <b>myVariable</b> to the console. However, when you run this code,{" "}
-        {`you'll`} see that it outputs <b>undefined</b>. This happens because
-        the variable declaration{" "}
-        <b>{`let myVariable
-        = "Hello, World!";`}</b>{" "}
-        is hoisted to the top of the scope, but the assignment of the value is
-        not hoisted.
+        In this example, the declaration of <code>myVar</code> is hoisted to the
+        top, but its initialization (assignment of the value{" "}
+        <code>'Hello, world!'</code>) stays in place. As a result, the first{" "}
+        <code>console.log</code> outputs <code>undefined</code> because{" "}
+        <code>myVar</code> has been declared but not yet initialized.
       </p>
+
+      <h3>
+        Best Practice: Use <code>let</code> and <code>const</code> for Variable
+        Declarations
+      </h3>
       <p>
-        So, when the JavaScript engine encounters the{" "}
-        <b>console.log(myVariable)</b>
-        statement, it tries to access the value of <b>myVariable</b>, but since
-        it
-        {`hasn't`} been assigned yet, it returns <b>undefined</b>.
+        To avoid issues with hoisting, it's recommended to use <code>let</code>{" "}
+        and <code>const</code> instead of <code>var</code>. Variables declared
+        with <code>let</code> and <code>const</code> are not hoisted to the top
+        of their scope in the same way as <code>var</code>.
+      </p>
+      <pre>
+        <code>
+          {`
+console.log(myLetVar); // Error: Cannot access 'myLetVar' before initialization
+let myLetVar = 'Hello, world!';
+
+console.log(myConstVar); // Error: Cannot access 'myConstVar' before initialization
+const myConstVar = 'Hello, world!';
+    `}
+        </code>
+      </pre>
+      <p>
+        In these examples, trying to access <code>myLetVar</code> or{" "}
+        <code>myConstVar</code> before their declaration results in an error,
+        making it easier to avoid bugs related to hoisting.
       </p>
       <AdUnit />
-      <h3>Now, {`let's`} see what happens when we run the code again:</h3>
+      <h2>Function Hoisting</h2>
+      <p>
+        Functions in JavaScript are also hoisted, but unlike variables, the
+        entire function definition is hoisted to the top of the scope. This
+        allows you to call a function before its definition in your code.
+      </p>
       <pre>
         <code>
           {`
-console.log(myVariable); // This will output "Hello, World!"
-          `}
+sayHello(); // Output: Hello, world!
+
+function sayHello() {
+console.log('Hello, world!');
+}
+    `}
         </code>
       </pre>
       <p>
-        This time, when you run the code, it outputs {`"Hello, World!".`} This
-        is because the variable declaration{" "}
-        <b>{`let myVariable = "Hello, World!";`}</b> has been hoisted to the top
-        of the scope, and the assignment of the value has also been hoisted. So,
-        when the <b>console.log(myVariable)</b> statement is executed, the
-        variable <b>myVariable</b> already has the value {`"Hello, World!".`}
+        In this example, the <code>sayHello</code> function can be called before
+        it is defined because the entire function definition is hoisted to the
+        top of the scope.
       </p>
+
+      <h3>Best Practice: Declare Functions Before Calling Them</h3>
       <p>
-        {`It's essential to understand that hoisting only applies to variable and
-        function declarations, not to assignments. This means that you can't
-        rely on the order of assignments in your code, as they won't be hoisted.`}
+        Although function hoisting allows you to call functions before their
+        definitions, it's a good practice to declare your functions before
+        calling them. This makes your code more readable and easier to
+        understand.
       </p>
+      <pre>
+        <code>
+          {`
+function sayHello() {
+console.log('Hello, world!');
+}
+
+sayHello(); // Output: Hello, world!
+    `}
+        </code>
+      </pre>
+
+      <h2>Understanding the Temporal Dead Zone (TDZ)</h2>
       <p>
-        {" "}
-        In summary, hoisting in JavaScript is a behavior that moves variable and
-        function declarations to the top of their containing scope during the
-        compilation phase. This can sometimes lead to unexpected results, so
-        {`it's`} essential to be aware of this behavior when writing your code.
+        The Temporal Dead Zone (TDZ) is a behavior that occurs with variables
+        declared using <code>let</code> and <code>const</code>. The TDZ is the
+        period between entering a scope and the actual declaration of the
+        variable within that scope. During this period, accessing the variable
+        will result in a ReferenceError.
       </p>
+      <pre>
+        <code>
+          {`
+console.log(myLetVar); // Error: Cannot access 'myLetVar' before initialization
+let myLetVar = 'Hello, world!';
+    `}
+        </code>
+      </pre>
       <p>
-        Remember, just like keeping your list of tasks in front of you, you can
-        use hoisting to your advantage by organizing your code and making it
-        easier to understand and maintain. However, always be cautious and test
-        your code thoroughly to avoid any unexpected behavior.
+        In this example, trying to access <code>myLetVar</code> before its
+        declaration results in an error due to the TDZ.
+      </p>
+
+      <h2>Analogy: Hoisting and the Lost-and-Found Box</h2>
+      <p>
+        Imagine you're in a classroom, and there's a lost-and-found box at the
+        front. If you lose something, the teacher automatically puts it in the
+        box (like hoisting variables to the top). However, just because the item
+        is in the box doesn't mean you can use it immediately. You have to ask
+        the teacher (initialize the variable) to get your item back. Using{" "}
+        <code>let</code> and <code>const</code> is like having a rule that you
+        can't even see the box until the teacher specifically tells you about
+        your lost item.
+      </p>
+      <AdUnit />
+      <h2>Conclusion</h2>
+      <p>
+        Hoisting is an important concept in JavaScript that affects how
+        variables and functions are initialized and used. By understanding
+        hoisting and following best practices like using <code>let</code> and{" "}
+        <code>const</code>, and declaring functions before calling them, you can
+        write more predictable and error-free code.
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/scope")}>back</button>
