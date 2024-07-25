@@ -928,7 +928,14 @@ link.removeAttribute('href'); // Remove the link's href attribute
   <div class="container">
     <div id="first">First element</div>
   </div>
+  `}
+          <span className="codePurple">
+            {`
   <script src="script.js"></script>
+    
+    `}
+          </span>
+          {`
 </body>
 </html>
           `}

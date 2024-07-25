@@ -291,7 +291,8 @@ export const RunningJS = () => {
         </li>
       </ul>
       <p>Here's a simple example:</p>
-      <pre>{`
+      <pre>
+        {`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -301,12 +302,19 @@ export const RunningJS = () => {
 </head>
 <body>
   <h1>Hello, World!</h1>
+  `}
+        <span className="codePurple">
+          {`
   <script>
     alert('This is a JavaScript alert!');
   </script>
+    `}
+        </span>
+        {`
 </body>
 </html>
-      `}</pre>
+      `}
+      </pre>
       <p>
         When you open this HTML file in your browser, you will see a pop-up
         message displaying "This is a JavaScript alert!".
@@ -394,7 +402,8 @@ console.log('Hello, JSFiddle!');
         <li>Open your HTML file in a web browser to see the results.</li>
       </ul>
       <p>Here's an example setup:</p>
-      <pre>{`
+      <pre>
+        {`
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -405,10 +414,17 @@ console.log('Hello, JSFiddle!');
 </head>
 <body>
   <h1>Hello, World!</h1>
+          `}
+        <span className="codePurple">
+          {`     
   <script src="script.js"></script>
+            `}
+        </span>
+        {`
 </body>
 </html>
-      `}</pre>
+      `}
+      </pre>
       <pre>{`
 // script.js
 alert('This is a JavaScript alert from an external file!');
