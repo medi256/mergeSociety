@@ -520,742 +520,457 @@ export const ModifyingElements = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>How to Modify DOM Elements</h1>
-      <p>
-        Once you have access to DOM elements, you can modify them in various
-        ways using JavaScript.
-      </p>
-      <h2>How to Manipulate Element Content </h2>
-      <p>
-        This lesson equips you with the skills to manipulate element content in
-        JavaScript – essential tools for any web developer.{" "}
-        {`We'll
-        assume you're`}{" "}
-        familiar with selecting elements from the DOM (document.getElementById,
-        getElementsByTagName, querySelector).
-      </p>
-      <h3>The Content Chameleon: innerHTML</h3>
-      <p>
-        Imagine <code>innerHTML</code> as a content chameleon. It lets you
-        replace the entire HTML content within an element, including text,
-        images, and even other HTML elements.
-      </p>
-      <ul>
-        <li>
-          {" "}
-          <b>Accessing the Chameleon</b>: {`Let's`} say you have a{" "}
-          <code> {` <div>`} </code> {`with an ID of "product-description"`}{" "}
-          containing some generic text:
-        </li>
-      </ul>
-      <pre>
-        <code>
-          {`
-//HTML
+      <h1>Modifying Element Properties</h1>
 
-
-<div id="product-description">This is a placeholder description.</div>
-          `}
-        </code>
-      </pre>
+      <h2>Introduction</h2>
       <p>
-        In JavaScript, you can grab this element and use innerHTML to
-        dynamically update it:
+        Now that you've learned how to select elements in the DOM, it's time to
+        learn how to modify their properties. Modifying element properties is a
+        crucial part of dynamic web development, as it allows you to change the
+        content, layout, and behavior of your web pages in response to user
+        interactions.
+      </p>
+      <p>
+        Think of modifying element properties like changing the settings on your
+        phone. Just like how you can change the wallpaper, ringtone, or font
+        size on your phone, you can change the properties of an element in the
+        DOM to make it look or behave differently.
+      </p>
+
+      <h2>Modifying Text Content</h2>
+      <p>
+        One of the most common ways to modify an element's property is to change
+        its text content. You can do this using the <code>textContent</code>{" "}
+        property.
+      </p>
+      <p>
+        The <code>textContent</code> property is like a container that holds the
+        text inside an element. You can think of it like a box where you can put
+        words or sentences.
       </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-const productDescription = document.getElementById('product-description');
-productDescription.innerHTML = 'Introducing the all-new XYZ widget, packed with amazing features!';
-          
-          `}
-        </code>
-      </pre>
-      <h2>
-        Text Masters: <code>textContent</code>
-      </h2>
-      <p>
-        {" "}
-        This property focus solely on the text content of an element, leaving
-        any HTML tags behind. It is perfect for situations where you only want
-        to modify the plain text:
-      </p>
-      <p>
-        <b>The Text Editor</b>: <code>textContent</code>: This property treats
-        the element like a text editor. You can modify the text content while
-        ignoring any HTML tags within.
-      </p>
-      <h3>Example</h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-
-<p id="message">Click the button for a surprise!</p>
-          `}
-        </code>
-      </pre>
-      <p>With a button click, you can change the message:</p>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-const messageElement = document.getElementById('message');
-messageElement.textContent = 'You clicked the button! Here's your surprise.';
-          `}
-        </code>
-      </pre>
-      <h2>
-        The <code>Style</code> Chameleon: <code>style</code> Property
-      </h2>
-      <p>
-        Imagine the <code>style</code> property as a chameleon that can adapt to
-        any CSS property. It grants you fine-grained control over an{" "}
-        {`element's`}
-        visual appearance directly through JavaScript.
-      </p>
-      <ul>
-        <li>
-          {" "}
-          <b>{` Accessing the Element's Style`} </b>: Just like with other
-          properties, you can access an {`element's`} style using the style
-          property:
-        </li>
-      </ul>
-      <pre>
-        <code>
-          {`
-          
-//JavaScript
-
-
-const element = document.getElementById('myElement');
-const elementStyle = element.style;
-          `}
-        </code>
-      </pre>
-      <p>
-        Here, <b>elementStyle</b> becomes a reference to the {`element's`} style
-        object, allowing you to modify its properties.
-      </p>
-      <ul>
-        <li>
-          {" "}
-          <b>Changing CSS Properties</b>: Now comes the fun part! You can
-          directly set the values of various CSS properties on this style
-          object. Property names are written in camelCase (e.g.,{" "}
-          <b>backgroundColor</b>
-          instead of <b>background-color</b> ). Here are some examples:
-        </li>
-        <li>
-          <code>Color:</code> Change the text color of an element:
-        </li>
-      </ul>
-      <pre>
-        <code>
-          {`
-//HTML
-
-<p id="color-changed">How you </p>
-          `}
-        </code>
-      </pre>
-      <h3>The javascript</h3>
-      <pre>
-        <code>
-          {`
-//Javascript
-          
-const  = colorChanged  = document.getElementById("color-changed");
-colorChanged.style.color = 'red';
-          `}
-        </code>
-      </pre>
-      <h3>
-        <b>Font Size</b>: Make the text larger:
-      </h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-<h2 class="font-changed">My font will be changed </h2>
-
-          
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-const  fontChanged  = document.getElementByClassName("font-changed");
-
-fontChanged.style.fontSize = '20px'; 
-          `}
-        </code>
-      </pre>
-      <h3>
-        <b>Background Color</b>: Set a background color:
-      </h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-<div>
-  <p>I come first </p>
-  <p>Then what about me </p>
-</div>
-          
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-const  backGround = document.querySelector("div");
-
-backGround.style.backgroundColor = 'lightblue';
-          `}
-        </code>
-      </pre>
-      <h3>Example with many styles</h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-
-<h1 id="many-styles">Do you  like what  you see </h1>
-
-
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-let manyStyles = document.getElementById("many-styles");
-manyStyles.style.textAlign = 'center';
-manyStyles.style.padding = '5px';
-manyStyles.style.color = 'brown';
-
-          `}
-        </code>
-      </pre>
-      <AdUnit />
-      <p>
-        Remember, you can target any valid CSS property using this approach.
-      </p>
-      <h2> How to Modify Element Attributes</h2>
-      <p>
-        {` Attributes act like little tags on your HTML elements, holding important information. We'll explore how to access them, change them, and even remove them altogether!`}{" "}
-      </p>
-      <h3>Imagine a Magic Toolbox:</h3>
-      <p>
-        {" "}
-        Think of our toolbox as a collection of powerful tools to manipulate
-        element attributes. {`Let's`} meet the key ones:
-      </p>
-      <ul>
-        <li>
-          <b>{`The Grabber (getAttribute())`} </b>: This tool lets you peek
-          inside an element and retrieve the value of a specific attribute.
-        </li>
-      </ul>
-      <h3> Example </h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-<img id="myImage" src="placeholder.jpg" alt="Image description">
-      `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-          
-//JavaScript
-
-
-const image = document.getElementById('myImage');
-const imageSource = image.getAttribute('src');
-console.log("Current image source:", imageSource); // Outputs: "placeholder.jpg"
-          `}
-        </code>
-      </pre>
-      <p>
-        Here, we use the grabber <code>{`(getAttribute('src'))`} </code> to get
-        the current source of the image and log it to the console. After
-        grabbing it, you can change the current value or even delete it.
-      </p>
-      <h2>
-        {" "}
-        The Modifier <code>(setAttribute())</code>:{" "}
-      </h2>
-      <p>
-        The Modifier <code>(setAttribute())</code>: This tool allows you to
-        change the value of an existing attribute or even create a new one on an
-        element.
-      </p>
-      <h3>Example</h3>
-
-      <pre>
-        <code>
-          {`
-//HTML
-
-<button id="myButton">Click Me</button>
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-const button = document.getElementById('myButton');
-button.setAttribute('disabled', true); // Disable the button
-          `}
-        </code>
-      </pre>
-      <p>
-        In this example, we use the modifier{" "}
-        <b>{`(setAttribute('disabled', true))`} </b> to disable the button,
-        making it unclickable.
-      </p>
-      <h2>
-        {" "}
-        The Inspector <code>(hasAttribute())</code>
-      </h2>
-      <p>
-        <b>The Inspector (hasAttribute())</b>: This tool helps you check if a
-        specific attribute exists on an element. It returns true if it finds the
-        attribute, and false otherwise.
-      </p>
-      <h3>Example</h3>
-
-      <pre>
-        <code>
-          {`
-//HTML
-
-<p id="myParagraph">This is a paragraph.</p>
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-const paragraph = document.getElementById('myParagraph');
-const hasClass = paragraph.hasAttribute('class'); // Check if 'class' attribute exists
-console.log("Has 'class' attribute:", hasClass); // Outputs: "false" (assuming no class is set)
-          `}
-        </code>
-      </pre>
-      <p>
-        Here, we use the inspector <code>{`(hasAttribute('class'))`} </code> to
-        see if the paragraph element has a class attribute.
-      </p>
-      <h2>
-        {" "}
-        The Eraser <code>(removeAttribute())</code>
-      </h2>
-      <p>
-        The Eraser <code>(removeAttribute()) </code>: This tool lets you remove
-        an attribute entirely from an element.
-      </p>
-      <h3>Example</h3>
-      <pre>
-        <code>
-          {`
-//HTML
-
-<a id="myLink" href="#">Click me!</a>
-          `}
-        </code>
-      </pre>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-const link = document.getElementById('myLink');
-link.removeAttribute('href'); // Remove the link's href attribute
-          `}
-        </code>
-      </pre>
-      <p>
-        This example uses the eraser <code> {`(removeAttribute('href'))`}</code>{" "}
-        to remove the {`link's`} <b>href</b> attribute, effectively making it
-        non-clickable.
-      </p>
-      <h2>HTML Insertion Methods</h2>
-      <p>
-        In HTML, there are several ways to insert new content or modify existing
-        content dynamically using JavaScript. These are known as HTML insertion
-        methods.
-      </p>
-      <h3>Our Training Ground:</h3>
-      <p>{`Let's`} consider this HTML structure as our practice arena:</p>
-      <pre>
-        <code>
-          {`
-//HTML
-
-
+<!DOCTYPE html>
 <html>
-<head></head>
+<head>
+<title>Change Text Content</title>
+</head>
 <body>
-  <div class="container">
-    <div id="first">First element</div>
-  </div>
-  `}
+<p id="myParagraph">Hello World!</p>
+
+`}
           <span className="codePurple">
             {`
-  <script src="script.js"></script>
+<script>
+
+const paragraph = document.getElementById('myParagraph');
+paragraph.textContent = 'Goodbye World!';
+
+</script>
     
     `}
           </span>
           {`
 </body>
 </html>
-          `}
+    `}
         </code>
       </pre>
-      <h2>Classic Approach: The InnerHTML Method</h2>
       <p>
-        {" "}
-        A traditional way to insert HTML is using the innerHTML property. This
-        property allows you to directly set the entire HTML content within an
-        element. {`Let's`} say we want to add an <code>{`<h1>`}</code> element
-        with the text {`"Hello World" inside the first div. Here's how:`}
+        In this example, we select the paragraph element with the ID
+        "myParagraph" and change its text content to "Goodbye World!". This is
+        like opening the box and replacing the words "Hello World!" with
+        "Goodbye World!".
+      </p>
+      <p>
+        But what if you want to add more text to the paragraph instead of
+        replacing it? You can use the <code>+=</code> operator to add more text
+        to the existing text.
       </p>
       <pre>
         <code>
           {`
-//JavaScript
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Text Content</title>
+</head>
+<body>
+<p id="myParagraph">Hello World!</p>
+  `}
+          <span className="codePurple">
+            {`
+<script>
 
+const paragraph = document.getElementById('myParagraph');
+paragraph.textContent += ' This is a new sentence!';
 
-// Select the container element
-let container = document.getElementsByTagName('div')[0];
-
-// Set the innerHTML with the new content
-container.innerHTML = '<h1>Hello World</h1>';
-          
-          `}
+</script>
+`}
+          </span>
+          {`
+</body>
+</html>
+    `}
         </code>
       </pre>
-      <h3>Important Note:</h3>
       <p>
-        While <code>innerHTML</code> is convenient, use it with caution. It can
-        introduce security vulnerabilities if {`you're`} working with
-        user-generated content. Consider alternative methods for improved
-        security.
+        In this example, we add the sentence "This is a new sentence!" to the
+        existing text "Hello World!".
       </p>
-      <h2>
-        Alternative: Creating Elements with <code>createElement</code>
-      </h2>
       <p>
-        A safer approach involves creating new elements using{" "}
-        <code>createElement</code> and then manipulating them. For instance, we
-        can create an <code>{`<h1>`} </code> element, set its text content, and
-        append it to the container:
+        You can also use the <code>textContent</code> property to get the text
+        content of an element. For example:
       </p>
       <pre>
         <code>
           {`
-//JavaScript
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Text Content</title>
+</head>
+<body>
+<p id="myParagraph">Hello World!</p>
+  `}
+          <span className="codePurple">
+            {`
+<script>
 
+const paragraph = document.getElementById('myParagraph');
+console.log(paragraph.textContent); // Output: "Hello World!"
 
-// Create a new h1 element
-let newHeading = document.createElement('h1');
-newHeading.textContent = "Hello World (created)";
-
-// Select the container element
-let container = document.getElementById('first'); // Using getElementById for specificity
-
-// Append the new h1 element as a child
-container.appendChild(newHeading);
-          `}
-        </code>
-      </pre>
-      <h2>Beyond the Basics: Other Insertion Methods</h2>
-      <p> The DOM offers a variety of methods for more precise insertion:</p>
-      <ul>
-        <li>
-          {" "}
-          <code>appendChild(element)</code>: Adds the element as the last child
-          of the target element.
-        </li>
-        <li>
-          {" "}
-          <code> prependChild(element)</code>: Adds the element as the first
-          child of the target element.
-        </li>
-        <li>
-          {" "}
-          <code>before(element)</code>: Inserts the element before the target
-          element.
-        </li>
-        <li>
-          <code>after(element)</code> : Inserts the element after the target
-          element.
-        </li>
-        <li>
-          <code>replaceWith(element)</code>: Replaces the target element with
-          the provided element.
-        </li>
-      </ul>
-      <h3>Exploring Examples:</h3>
-      <p>
-        {`Let's`} use these methods to insert content into our container
-        element:
-      </p>
-      <pre>
-        <code>
-          {`
-JavaScript
-// Select the container element
-let container = document.getElementById('first');
-
-// Create a new div element for demonstration
-let newDiv = document.createElement('div');
-newDiv.innerHTML = '<h1>Hello World (appended)</h1>';
-
-// Append the new div (last child)
-container.appendChild(newDiv);
-
-// Create another div for prepend
-newDiv = document.createElement('div');
-newDiv.innerHTML = '<h1>Hello World (prepended)</h1>';
-
-// Prepend the new div (first child)
-container.prepend(newDiv);
-
-// Create another div for insertion before
-newDiv = document.createElement('div');
-newDiv.innerHTML = '<h1>Hello World (before)</h1>';
-
-// Get a reference to the first child element
-let firstChild = container.firstChild;
-
-// Insert the new div before the first child
-container.insertBefore(newDiv, firstChild);
-
-// Create another div for insertion after
-newDiv = document.createElement('div');
-newDiv.innerHTML = '<h1>Hello World (after)</h1>';
-
-// Insert the new div after the container element
-container.after(newDiv);
-
-// Create another div for replacement
-newDiv = document.createElement('div');
-newDiv.innerHTML = '<h1>Hello World (replaced)</h1>';
-
-// Replace the container element with the new div
-container.replaceWith(newDiv);
-
+</script>
 
 `}
+          </span>
+          {`
+</body>
+</html>
+    `}
         </code>
       </pre>
+      <p>
+        In this example, we select the paragraph element with the ID
+        "myParagraph" and log its text content to the console.
+      </p>
       <AdUnit />
-      <h3>Remember:</h3>
+      <h2>Modifying Style</h2>
       <p>
-        Choose the appropriate insertion method based on your desired placement
-        (append, prepend, before, after, replace).
+        Another way to modify an element's property is to change its style. You
+        can do this using the <code>style</code> property.
       </p>
       <p>
-        Explore createElement for dynamic element creation and manipulation.
+        The <code>style</code> property is like a collection of settings that
+        control the appearance of an element. You can think of it like a
+        dashboard with different knobs and buttons that you can adjust to change
+        the look of the element.
       </p>
-      <h2>How to Manipulate Classes with JavaScript</h2>
-      <p>
-        {" "}
-        Welcome, JavaScript warriors! Today, we delve into the realm of class
-        manipulation. Classes, like trusty companions, help you group elements
-        and apply styles using CSS. By manipulating classes with JavaScript, you
-        can dynamically change the appearance of your webpages.
-      </p>
-      <h2>The Training Arena:</h2>
-      <p>{`Let's`} consider this HTML structure as our practice ground:</p>
       <pre>
         <code>
           {`
-//HTML
-
-
-<div id="first">
-  <span>Hello, this is text</span>
-</div>
-          
-          `}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change Element Style</title>
+</head>
+<body>
+<p id="myParagraph" style="color: blue;">Hello World!</p>
+`}
+          <span className="codePurple">
+            {`
+<script>
+const paragraph = document.getElementById('myParagraph');
+paragraph.style.color = 'red';
+</script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>
+    `}
         </code>
       </pre>
-      <p>We also have some CSS styles defined:</p>
+      <p>
+        In this example, we select the paragraph element with the ID
+        "myParagraph" and change its text color to red. This is like adjusting
+        the color knob on the dashboard to change the color of the text.
+      </p>
+      <p>
+        But what if you want to change multiple styles at once? You can use the
+        <code>style</code> property to change multiple styles in one go.
+      </p>
       <pre>
         <code>
           {`
-//CSS
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change Multiple Styles</title>
+</head>
+<body>
+<p id="myParagraph" style="color: blue; font-size: 24px;">Hello World!</p>
+  `}
+          <span className="codePurple">
+            {`
+<script>
+const paragraph = document.getElementById('myParagraph');
+paragraph.style = 'color: red; font-size: 36px;';
+</script>
+    
+    `}
+          </span>
+          {`
+</body>
+</html>
+    `}
+        </code>
+      </pre>
+      <p>
+        In this example, we change the text color to red and font size to 36px
+        in one go.
+      </p>
+      <p>
+        Note that when using the <code>style</code> property, you can add any
+        CSS property that you want to change. For example, you can change the
+        background color, padding, margin, border, and more.
+      </p>
+      <p>
+        Also, when adding properties with two words, like <code>font-size</code>
+        , you don't use the <code>-</code> symbol because it is used for
+        subtraction in JavaScript. Instead, you use camel case, like{" "}
+        <code>fontSize</code>. This is important to remember, as it can be
+        confusing for beginners.
+      </p>
+      <p>
+        For example, if you want to change the font size and font family, you
+        would use <code>fontSize</code> and <code>fontFamily</code>, not{" "}
+        <code>font-size</code> and <code>font-family</code>.
+      </p>
+      <pre>
+        <code>
+          {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change Font Properties</title>
+</head>
+<body>
+<p id="myParagraph" style="color: blue; font-size: 24px;">Hello World!</p>
+  `}
+          <span className="codePurple">
+            {`
+<script>
+const paragraph = document.getElementById('myParagraph');
+paragraph.style.fontSize = '36px';
+paragraph.style.fontFamily = 'Arial';
+</script>
+    
+    `}
+          </span>
+          {`
+</body>
+</html>
+    `}
+        </code>
+      </pre>
+      <p>
+        In this example, we change the font size to 36px and font family to
+        Arial using camel case.
+      </p>
+      <AdUnit />
+      <h2>Modifying Attributes</h2>
+      <p>
+        You can also modify an element's attributes using the{" "}
+        <code>setAttribute</code>
+        method.
+      </p>
+      <p>
+        The <code>setAttribute</code> method is like a tool that allows you to
+        change the attributes of an element. You can think of it like a
+        screwdriver that you can use to adjust the settings of an element.
+      </p>
+      <pre>
+        <code>
+          {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modify Attributes</title>
+</head>
+<body>
+<img id="myImage" src="image.jpg" alt="An image">
+`}
+          <span className="codePurple">
+            {`
+<script>
+const image = document.getElementById('myImage');
+image.setAttribute('src', 'new-image.jpg');
+</script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>
+    `}
+        </code>
+      </pre>
+      <p>
+        In this example, we select the image element with the ID "myImage" and
+        change its <code>src</code> attribute to "new-image.jpg". This is like
+        using the screwdriver to adjust the <code>src</code> attribute of the
+        image.
+      </p>
+      <p>
+        But what if you want to remove an attribute from an element? You can use
+        the <code>removeAttribute</code> method to do so.
+      </p>
+      <pre>
+        <code>
+          {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remove Attributes</title>
+</head>
+<body>
+<img id="myImage" src="image.jpg" alt="An image">
+`}
+          <span className="codePurple">
+            {`
+<script>
+const image = document.getElementById('myImage');
+image.removeAttribute('alt');
+</script>
 
+`}
+          </span>
+          {`
+</body>
+</html>
+    `}
+        </code>
+      </pre>
+      <p>
+        In this example, we select the image element with the ID "myImage" and
+        remove its <code>alt</code> attribute. This is like using the
+        screwdriver to remove the <code>alt</code> attribute from the image.
+      </p>
 
-.yellow {
-  background-color: yellow;
-  color: white;
+      <h2>Modifying Classes</h2>
+      <p>
+        You can also modify an element's classes using the{" "}
+        <code>classList</code> property.
+      </p>
+      <p>
+        The <code>classList</code> property is like a list of stickers that you
+        can put on an element. You can add, remove, or toggle classes to change
+        the appearance or behavior of an element.
+      </p>
+      <pre>
+        <code>
+          {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Classes</title>
+<style>
+.blue {
+  color: blue;
 }
-
-.red {
-  background-color: red;
-  color: white;
+.bold {
+  font-weight: bold;
 }
-
-.text-dark {
-  color: black;
-}
-          `}
-        </code>
-      </pre>
-      <h3>
-        The Classic Approach: The <code>className</code> Property
-      </h3>
-      <p>
-        In JavaScript, you can access and modify the class attribute of an
-        element using the <code>className</code> property. This property holds
-        all the classes assigned to an element as a space-separated string.
-      </p>
-      <h3>Example</h3>
-      <pre>
-        <code>
+</style>
+</head>
+<body>
+<p id="myParagraph">Hello World!</p>
+`}
+          <span className="codePurple">
+            {`
+<script>
+const paragraph = document.getElementById('myParagraph');
+paragraph.classList.add('blue', 'bold');
+</script>
+  
+  `}
+          </span>
           {`
-//JavaScript
-
-
-// Select the element
-let element = document.getElementById('first');
-
-// Change the class to "red text-dark" (removes previous classes)
-element.className = "red text-dark";
-          `}
+</body>
+</html>
+    `}
         </code>
       </pre>
-      <h3>Adding Classes Without Overwriting:</h3>
       <p>
-        {" "}
-        While <code>className</code> is convenient, it overwrites existing
-        classes by default. To add a class without removing others, use the{" "}
-        <code>+=</code>
-        operator.
+        In this example, we select the paragraph element with the ID
+        "myParagraph" and add the "blue" and "bold" classes to it. This is like
+        putting the blue and bold stickers on the paragraph element.
+      </p>
+      <p>
+        But what if you want to remove a class from an element? You can use the
+        <code>classList</code> property to remove a class from an element.
       </p>
       <pre>
         <code>
           {`
-//JavaScript
-
-
-// Add the class "yellow" to existing classes
-element.className += " yellow";
-          `}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remove Classes</title>
+`}
+          <span className="codePurple">
+            {`
+  <style>
+  .blue {
+    color: blue;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  </style>
+  `}
+          </span>
+          {`
+</head>
+<body>
+<p id="myParagraph" class="blue bold">Hello World!</p>
+`}
+          <span className="codePurple">
+            {`
+<script>
+const paragraph = document.getElementById('myParagraph');
+paragraph.classList.remove('bold');
+</script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>
+    `}
         </code>
       </pre>
-      <h2>
-        The Modern Way: The <code>classList</code> Property
-      </h2>
       <p>
-        For more advanced class manipulation, the <code>classList</code>{" "}
-        property offers a powerful toolkit. It provides methods for adding,
-        removing, toggling, and checking class presence.
+        In this example, we select the paragraph element with the ID
+        "myParagraph" and remove the "bold" class from it. This is like removing
+        a sticker from the paragraph element.
       </p>
-      <h1>Adding a Class:</h1>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-// Add the class "text-dark" using classList.add()
-element.classList.add('text-dark');
-          
-          `}
-        </code>
-      </pre>
-      <h3>Removing a Class:</h3>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-// Remove the class "text-dark" using classList.remove()
-element.classList.remove('text-dark');
-          `}
-        </code>
-      </pre>
-      <h3>Toggling a Class:</h3>
+      <AdUnit />
+      <h2>Summary</h2>
       <p>
-        The <code>classList.toggle()</code> method is a handy tool. It checks if
-        a class exists and then adds it if absent, or removes it if present.
+        In this topic, you've learned how to modify element properties in the
+        DOM. You can change the text content, style, attributes, and classes of
+        an element to make it look or behave differently. Remember, modifying
+        element properties is like adjusting the settings on your phone or using
+        tools to change the appearance and behavior of an element.
       </p>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-// Toggle the class "text-dark" (add if absent, remove if present)
-element.classList.toggle('text-dark');
-          
-          `}
-        </code>
-      </pre>
-      <h3>Checking for a Class:</h3>
       <p>
-        Use <code>classList.contains()</code> to verify if a specific class
-        exists on an element.
+        In the next topic, you'll learn about events and how to handle user
+        interactions with JavaScript.
       </p>
-      <h3>Example:</h3>
-      <pre>
-        <code>
-          {`
-//JavaScript
-
-
-// Check if the element has the class "text-dark"
-let hasTextDarkClass = element.classList.contains('text-dark');
-console.log("Has 'text-dark' class:", hasTextDarkClass); // Outputs true or false
-          
-          `}
-        </code>
-      </pre>
-      <ul>
-        <li>
-          Use <code>className</code> for simple class assignment (but be
-          cautious of overwriting).
-        </li>
-        <li>
-          {" "}
-          Leverage <code>classList</code> for advanced control over adding,
-          removing, toggling, and checking classes.
-        </li>
-      </ul>
       <div className="button-container">
         <button
           onClick={() => (window.location.href = "/SelectingElementsINDom")}
