@@ -21,6 +21,7 @@ import DefiningCallingFunc, {
 } from "./Javascript/Functions";
 import StringMethods from "./Javascript/StringMethods";
 import DOMintro, {
+  CreateAppend,
   EventHandling,
   ModifyingElements,
   SelectingElementsINDom,
@@ -93,6 +94,7 @@ const JavascriptRouter = () => {
           element={<SelectingElementsINDom />}
         />
         <Route path="ModifyingElements" element={<ModifyingElements />} />
+        <Route path="CreateAppend" element={<CreateAppend />} />
         <Route path="EventHandling" element={<EventHandling />} />
         <Route path="introBOM" element={<IntroductionBOM />} />
         <Route path="windowObject" element={<WindowObject />} />

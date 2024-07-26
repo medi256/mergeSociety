@@ -101,6 +101,9 @@ const Jscourse = () => {
           <li onClick={() => navigate("/ModifyingElements")}>
             Modifying Element Properties (text content, style)
           </li>
+          <li onClick={() => navigate("/CreateAppend")}>
+            Creating and Appending Elements
+          </li>
           <li onClick={() => navigate("/EventHandling")}>
             Event Handling (adding event listeners, handling uer interactions )
           </li>
