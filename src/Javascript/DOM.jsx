@@ -1409,607 +1409,455 @@ export const EventHandling = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>Understanding DOM Events and JavaScript Event Listeners </h1>
+      <h1>Event Handling</h1>
+
+      <h2>Introduction</h2>
       <p>
-        {" "}
-        JavaScript code in the browser uses an event-driven programming pattern.
-        What this means is that when a specific DOM event happens in the
-        browser, a piece of code will be executed as a response to that action.
+        In web development, events are actions that occur in the browser, such
+        as clicking a button, moving the mouse, or pressing a key. Handling
+        these events allows you to create interactive and responsive web pages
+        that react to user actions.
       </p>
       <p>
-        {" "}
-        Today, I will help you see and understand how to listen and respond to
-        DOM events using JavaScript.
-      </p>
-      <h2>What Are DOM Events and Why Are They Useful?</h2>
-      <p>
-        DOM events are signals exposed by the browser that you can use to run a
-        piece of JavaScript code.
+        Think of an event as something that happens on your web page. For
+        example, when you click a button, that click is an event. By learning
+        how to handle these events, you can make your website respond in
+        real-time, such as showing a message or changing an element's style.
       </p>
       <p>
-        These DOM events occur when the user interacts with the application
-        {`we've`} created, such as clicking a button or typing letters into an
-        input field.
+        Mastering event handling is crucial for making your web pages dynamic
+        and engaging. It's one of the fundamental skills you need to create
+        interactive web applications.
       </p>
+
+      <h2>Adding Event Listeners in HTML</h2>
+
+      <h3>Syntax</h3>
       <p>
-        As a web developer, you can instruct JavaScript to listen for a specific
-        event and do something in response to that event.
-      </p>
-      <h3>For example:</h3>
-      <ul>
-        <li>When a button is clicked, do change the text of a paragraph.</li>
-        <li>
-          When a form is submitted, do a POST request using the Fetch API.
-        </li>
-      </ul>
-      <h2>How to Listen to DOM Events</h2>
-      <p>
-        To listen for an event, you need to attach an event listener to an
-        element by using the <code> {`addEventListener()`} </code> method.
-      </p>
-      <p>
-        {" "}
-        The <code>addEventListener()</code> method accepts two parameters:
-      </p>
-      <ul>
-        <li>
-          {" "}
-          The event <code>type</code> to listen to
-        </li>
-        <li>A function to run when the event is triggered</li>
-      </ul>
-      <p>
-        {" "}
-        The <code>addEventListener()</code> method syntax
+        The simplest way to handle events directly in HTML is by using
+        attributes. Here is the basic syntax for adding an event listener using
+        an HTML attribute:
       </p>
       <pre>
-        <code>
-          {`
-Element.addEventListener(type, function);
-          `}
-        </code>
+        <code>{`<element event="function()">Content</element>`}</code>
       </pre>
       <p>
-        {" "}
-        Back to the example, suppose you want to change the text of a paragraph
-        when a <b>button</b> element is clicked. Here’s how you do it:
+        <strong>element</strong>: The HTML element you want to attach the event
+        to (e.g., <code>button</code>, <code>div</code>).
+        <br />
+        <strong>event</strong>: The type of event you want to listen for (e.g.,{" "}
+        <code>onclick</code>, <code>onmouseover</code>).
+        <br />
+        <strong>function()</strong>: The JavaScript function that will be called
+        when the event occurs.
       </p>
-      <h3>
-        An example of using the <code>addEventListener()</code> method
-      </h3>
+      <AdUnit />
+      <h3>Example</h3>
+      <p>
+        Here’s an example of how to use the <code>onclick</code> attribute to
+        handle a button click event:
+      </p>
       <pre>
         <code>
-          {`
+          {`<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Event Listener</title>
+</head>
 <body>
-<p id="myParagraph">This is an example paragraph</p>
-<button id="changeText">Change Text</button>
+<button onclick="showAlert()">Click me!</button>
+`}
+          <span className="codePurple">
+            {`
 <script>
-  const button = document.querySelector('#changeText');
-
-  function newText(event) {
-    const p = document.querySelector('#myParagraph');
-    p.innerText = 'The text has been changed';
-  }
-
-  button.addEventListener('click', newText);
-</script>
-</body>
-          `}
-        </code>
-      </pre>
-      <p>
-        To insert JavaScript code into the HTML document, we need to use the
-        <b>script</b> tag as shown above.
-      </p>
-      <p>
-        The button element is selected using{" "}
-        <code>document.querySelector()</code> method, then the method{" "}
-        <code>addEventListener()</code> is called on the element. This means you
-        attach an event listener to the button.
-      </p>
-      <p>
-        First, you specify the <code>type</code> of event to listen to, which is
-        a <code>click</code> event in this case. Next, you specify the function
-        to run when that event happens.
-      </p>
-      <p>
-        {" "}
-        In the code above, the <b>newText</b> function will be executed when the
-        <code>click</code> event is triggered.
-      </p>
-      <p>
-        {" "}
-        The event listener will also send an <code>event</code> object, which
-        carries information about the event that was triggered. That’s why
-        there’s an <b>event</b> parameter in the <b>newText</b> function above.
-      </p>
-      <p>You can log the event to the console to see its details:</p>
-      <pre>
-        <code>
-          {`
-function newText(event) {
-  console.log(event);
+function showAlert() {
+alert('Button clicked!');
 }
-          `}
+</script>
+
+  `}
+          </span>
+          {`
+</body>
+</html>`}
         </code>
       </pre>
-      <p>Logging the event object</p>
       <p>
-        If you click on the button again, you will have the following output:
-      </p>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1714121571/event-log-example-1_xe49rb.png"
-        alt="An example Event object log
-"
-      />
-      <p>An example Event object log</p>
-      <p>
-        Depending on what you want to do when an event is triggered, you may
-        need to use the information contained inside the <b>event</b> object.
+        In this example, clicking the button calls the <code>showAlert</code>{" "}
+        function, which displays an alert with the message "Button clicked!".
       </p>
       <p>
-        Here, all we want to do is to change the text of the paragraph, so the
-        <b>event</b> object is not needed. We’ll see an example of using the
-        event object later, when handling the keyboard events.
-      </p>
-      <p>
-        There are many events you can listen to in the browser. Here are some of
-        the most common events you may need when developing a web application:
+        While this approach is straightforward, it mixes HTML and JavaScript,
+        which can make your code harder to manage as it grows.
       </p>
 
-      <table border={"1px"} style={{ borderCollapse: "collapse" }}>
-        <tr>
-          <th>Event</th>
-          <th>Event is fired</th>
-        </tr>
-        <tr>
-          <td>click</td>
-          <td>
-            When you press down and release the primary mouse button. Used to
-            track buttons and clickable elements
-          </td>
-        </tr>
-        <tr>
-          <td>mousemove</td>
-          <td>When you move the mouse cursor</td>
-        </tr>
-        <tr>
-          <td>mouseover</td>
-          <td>
-            When you move the mouse cursor over an element. {`It's`} like the
-            CSS hover state
-          </td>
-        </tr>
-        <tr>
-          <td>mouseout</td>
-          <td>
-            When your mouse cursor moves outside the boundaries of an element
-          </td>
-        </tr>
-        <tr>
-          <td>dblclick</td>
-          <td>When you click twice</td>
-        </tr>
-        <tr>
-          <td>DOMContentLoaded</td>
-          <td>When the DOM content is fully loaded</td>
-        </tr>
-        <tr>
-          <td>keydown</td>
-          <td>When you press a key on your keyboard</td>
-        </tr>
-        <tr>
-          <td>keyup</td>
-          <td>When you release a key on your keyboard</td>
-        </tr>
-        <tr>
-          <td>submit</td>
-          <td>When a form is submitted</td>
-        </tr>
-      </table>
+      <h2>Adding Event Listeners in JavaScript</h2>
+
+      <h3>Syntax</h3>
       <p>
-        If you want to read the full list of DOM event types, you can{" "}
-        <a href="https://en.wikipedia.org/wiki/DOM_event">visit this page.</a>
+        Adding event listeners in JavaScript involves using the{" "}
+        <code>addEventListener</code> method. Here is the basic syntax:
       </p>
+      <pre>
+        <code>
+          {`element.addEventListener('event', function() {
+// Code to execute when the event occurs
+});`}
+        </code>
+      </pre>
       <p>
-        The DOM Events are broken into several categories. Here we will just
-        look at two of the most common events you might use in your project:
-        keyboard and mouse events.
+        <strong>element</strong>: The HTML element you want to attach the event
+        to (e.g., <code>button</code>, <code>div</code>).
+        <br />
+        <strong>'event'</strong>: The type of event you want to listen for
+        (e.g., <code>'click'</code>, <code>'mouseover'</code>).
+        <br />
+        <strong>function()</strong>: The function that will be called when the
+        event occurs.
       </p>
-      <h2>Keyboard Events</h2>
+
+      <h3>Example</h3>
       <p>
-        {" "}
-        For the keyboard, you can track the keydown and keyup events, which run
-        when you press and release a key, respectively.
+        Here’s an example of how to use the <code>addEventListener</code> method
+        to handle a button click event:
       </p>
-      <p>To show you an example, run the following code from the console:</p>
       <pre>
         <code>
           {`
-document.addEventListener('keydown', event => {
-  console.log(\`A key is pressed: \${event.key}\`);
-});
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Event Listener</title>
+</head>
+<body>
+<button id="myButton">Click me!</button>
+`}
+          <span className="codePurple">
+            {`
+<script>
+// Get the button element
+const button = document.getElementById('myButton');
 
-document.addEventListener('keyup', event => {
-  console.log(\`A key is released: \${event.key}\`);
+// Add an event listener to the button
+button.addEventListener('click', function() {
+alert('Button clicked!');
 });
-          `}
+</script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>`}
         </code>
       </pre>
       <p>
-        Once you run the code above, press a key on your keyboard slowly, then
-        release it slowly.
-      </p>
-      <p>You should see a log output as follows:</p>
-      <img
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1714122795/keydown-event-1_ejep1t.png"
-        alt="Logging keyup and keydown events
-"
-      />
-      <p> Logging keyup and keydown events</p>
-      <p>
-        {" "}
-        Notice how the{" "}
-        {`'keydown' log appears as soon as you press a key, and the
-        'keyup' log appears only when you release the key.`}
+        In this example, we first select the button using its ID, then attach an
+        event listener to it. This listener waits for a click event and shows an
+        alert message when the button is clicked.
       </p>
       <p>
-        The keyboard events are usually attached to the <b>document</b> object
-        instead of a specific element, because the whole website should be able
-        to listen to that event.
+        This approach is more versatile and keeps your HTML and JavaScript code
+        separate, making it easier to update and maintain.
       </p>
       <AdUnit />
-      <h2>Mouse Events</h2>
-      <p>
-        Aside from keyboard events, the DOM also provides a way to track any
-        mouse events.
-      </p>
-      <p>The most common mouse events that you can track are:</p>
+      <h2>Common Event Types</h2>
+      <p>Here are some common types of events you might use:</p>
       <ul>
         <li>
-          <code> mousedown</code> – the mouse button was pressed
+          <code>click</code>: Triggered when an element is clicked.
         </li>
         <li>
-          {" "}
-          <code> mouseup</code> – the mouse button was released
+          <code>mouseover</code>: Triggered when the mouse pointer moves over an
+          element.
         </li>
         <li>
-          {" "}
-          <code>click</code> – a click event
+          <code>mouseout</code>: Triggered when the mouse pointer moves out of
+          an element.
         </li>
         <li>
-          <code> dblclick</code> – a double click event
+          <code>keydown</code>: Triggered when a key is pressed down.
         </li>
         <li>
-          <code>mousemove</code> – when the mouse is moved over the element
-        </li>
-        <li>
-          {" "}
-          <code>contextmenu</code> – when the context menu is opened, for
-          example on a right mouse button click
+          <code>keyup</code>: Triggered when a key is released.
         </li>
       </ul>
-      <p>
-        {" "}
-        Again, you can test these events by adding an event listener directly to
-        the <code>document</code> object:
-      </p>
-      <pre>
-        <code>
-          {`
-document.addEventListener('mousedown', event => {
-  console.log(\`The mouse is pressed\`);
-});
 
-document.addEventListener('mouseup', event => {
-  console.log(\`The mouse is released\`);
-});
-          `}
-        </code>
-      </pre>
-      <p>Capturing the mouse events</p>
+      <h2>Click Event</h2>
+      <h3>Syntax</h3>
       <p>
-        Run the code above, then click anywhere inside the browser. You should
-        see the <code>mousedown</code> and <code>mouseup</code> events logged,
-        respectively.
+        To handle a click event, use the <code>click</code> event type with the{" "}
+        <code>addEventListener</code> method:
       </p>
-      <h2>How to Remove Event Listeners</h2>
-      <p>
-        {" "}
-        To remove an event listener attached to an element, you need to call the
-        <code>removeEventListener()</code> method, passing the <code>type</code>{" "}
-        of the event and the <code>function</code> you passed to the{" "}
-        <code>addEventListener()</code> method as follows:
-      </p>
-      <p>Example of removing an event listener</p>
       <pre>
         <code>
-          {`
- button.removeEventListener('click', newText);
-
-          `}
+          {`element.addEventListener('click', function() {
+// Code to execute when the element is clicked
+});`}
         </code>
       </pre>
+      <h3>Example</h3>
       <p>
-        The above code is enough to remove the {`'click'`} event listener from
-        the <b>button</b> element. Notice how you need to call the
-        <code>removeEventListener()</code> method on the element while also
-        passing the function <b>newText</b> to the method.
-      </p>
-      <p>
-        To correctly remove an event listener, you need to have a reference to
-        the function attached to the event. If you pass a nameless function to
-        the <code>addEventListener()</code> method, then that event can’t be
-        removed:
-      </p>
-      <p>A nameless function {`can't`} be removed</p>
-      <pre>
-        <code>
-          {`
-button.addEventListener('click', function (event) {
-  alert('Button save is clicked');
-});
-          `}
-        </code>
-      </pre>
-      <p>
-        Without the function name as in the example above, you won’t be able to
-        remove the event listener.
-      </p>
-      <h2>How to Listen to Events using HTML Attributes</h2>
-      <p>
-        Aside from using the <code>addEventListener()</code> method, you can
-        also listen to events by adding the <code>on[eventname]</code> attribute
-        to your HTML elements.
-      </p>
-      <p>
-        For example, suppose you want to listen to a button click. You can add
-        the <code>onclick</code> attribute to your button as follows:
+        Here’s how to use the click event to change the color of a paragraph:
       </p>
       <pre>
         <code>
           {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Click Event</title>
+</head>
 <body>
-<button onclick="handleClick()">Click Me!</button>
+<p id="myParagraph">Click the button to change my color!</p>
+<button id="myButton">Click me!</button>
+`}
+          <span className="codePurple">
+            {`
 <script>
+// Get the paragraph and button elements
+const paragraph = document.getElementById('myParagraph');
+const button = document.getElementById('myButton');
 
-   function handleClick(event) {
-     alert('The button is clicked!');
-   }
-
+// Add an event listener to the button
+button.addEventListener('click', function() {
+paragraph.style.color = 'blue';
+});
 </script>
+
+`}
+          </span>
+          {`
 </body>
-          `}
+</html>`}
         </code>
       </pre>
-      <p> Listening to the click event using the onclick HTML attribute</p>
       <p>
-        {" "}
-        In the button element above, we add the <code>onclick</code> property
-        and pass the
-        <code> handleClick()</code> function to it.
+        In this example, clicking the button changes the color of the paragraph
+        to blue.
       </p>
+
+      <h2>Mouseover Event</h2>
+      <h3>Syntax</h3>
       <p>
-        When we click on the button, the <code>handleClick()</code> function
-        will be executed.
+        To handle a mouseover event, use the <code>mouseover</code> event type
+        with the <code>addEventListener</code> method:
       </p>
+      <pre>
+        <code>
+          {`element.addEventListener('mouseover', function() {
+// Code to execute when the mouse moves over the element
+});`}
+        </code>
+      </pre>
+      <h3>Example</h3>
       <p>
-        You can also add the <code>onclick</code> attribute using JavaScript as
-        follows:
+        Here’s how to use the mouseover event to change the background color of
+        a paragraph:
       </p>
       <pre>
         <code>
           {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mouseover Event</title>
+</head>
 <body>
-<button id="myBtn">Click Me!</button>
+<p id="myParagraph">Hover over me to change my background color!</p>
+`}
+          <span className="codePurple">
+            {`
 <script>
+// Get the paragraph element
+const paragraph = document.getElementById('myParagraph');
 
-  const myBtn = document.querySelector('#myBtn');
-  myBtn.onclick = handleClick;
-  function handleClick(event) {
-    alert('The button is clicked!');
-  }
-
+// Add an event listener to the paragraph
+paragraph.addEventListener('mouseover', function() {
+paragraph.style.backgroundColor = 'yellow';
+});
 </script>
+  
+  `}
+          </span>
+          {`
 </body>
-          `}
+</html>`}
         </code>
       </pre>
+      <p>
+        In this example, hovering over the paragraph changes its background
+        color to yellow.
+      </p>
       <AdUnit />
-      <p> Example of using the onclick attribute</p>
+      <h2>Mouseout Event</h2>
+      <h3>Syntax</h3>
       <p>
-        Here, we assign a reference to the <code>handleClick</code> function to
-        the <code>onclick</code> property using JavaScript.
-      </p>
-      <p>
-        To remove the onclick attribute, you can assign the property to null:
+        To handle a mouseout event, use the <code>mouseout</code> event type
+        with the <code>addEventListener</code> method:
       </p>
       <pre>
         <code>
-          {`
-const myBtn = document.querySelector('#myBtn');
-myBtn.onclick = null;
-          `}
+          {`element.addEventListener('mouseout', function() {
+// Code to execute when the mouse moves out of the element
+});`}
         </code>
       </pre>
-      <p>Assigning the onclick attribute to null</p>
-      <h2>Which One Should You Use?</h2>
+      <h3>Example</h3>
       <p>
-        As you can see, there are two ways you can listen to DOM events: the
-        <code>addEventListener() </code>method and the{" "}
-        <code>on[eventname]</code> HTML attribute. Which one should you use?
-      </p>
-      <p>
-        The answer is that the <code>addEventListener()</code> method can be
-        used when you need more extensibility, and the{" "}
-        <code>on[eventname]</code> can be used when you prefer things to be
-        simple.
-      </p>
-      <p>
-        {" "}
-        When developing web applications, the <code>.html</code> file should
-        only serve as the structure of the page, while the <code>.js</code> file
-        should define any behavior the web application can have.
-      </p>
-      <p>
-        To make your application easier to maintain and extend, JavaScript
-        should have access to HTML elements, but no HTML elements should be able
-        to execute JavaScript functions. This is why{" "}
-        <code>addEventListener()</code> should be the recommended method.
-      </p>
-      <p>
-        <code> But addEventListener()</code> {`doesn't`} come without a cost:
-        you trade extensibility with verbosity, making your code quite
-        cumbersome to read.
-      </p>
-      <p>
-        When using the <code>on[eventname]</code> attribute, you only need to
-        specify the function name in your HTML element:
+        Here’s how to use the mouseout event to change the background color of a
+        paragraph:
       </p>
       <pre>
         <code>
           {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mouseout Event</title>
+</head>
 <body>
-<button onclick="handleClick()">Click Me!</button>
+<p id="myParagraph">Hover over me and then move out to change my background color!</p>
+`}
+
+          <span className="codePurple">
+            {`
 <script>
+// Get the paragraph element
+const paragraph = document.getElementById('myParagraph');
 
-  function handleClick(event) {
-    alert('The button is clicked!');
-  }
-
+// Add an event listener to the paragraph
+paragraph.addEventListener('mouseout', function() {
+paragraph.style.backgroundColor = 'transparent';
+});
 </script>
+  
+  `}
+          </span>
+          {`
 </body>
-          `}
+</html>`}
         </code>
       </pre>
-      <p>The onclick attribute offers simplicity</p>
       <p>
-        But when you use the <code>addEventListener()</code> method, you need to
-        query the element you need, call the method, then specify the event and
-        the callback function to run:
+        In this example, moving the mouse out of the paragraph changes its
+        background color back to transparent.
+      </p>
+
+      <h2>Keydown Event</h2>
+      <h3>Syntax</h3>
+      <p>
+        To handle a keydown event, use the <code>keydown</code> event type with
+        the <code>addEventListener</code> method:
+      </p>
+      <pre>
+        <code>
+          {`document.addEventListener('keydown', function(event) {
+// Code to execute when a key is pressed down
+// You can use event.key to get the key that was pressed
+});`}
+        </code>
+      </pre>
+      <h3>Example</h3>
+      <p>
+        Here’s how to use the keydown event to display the pressed key in an
+        alert:
       </p>
       <pre>
         <code>
           {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keydown Event</title>
+</head>
 <body>
-<button id="myBtn">Click Me!</button>
+<p>Press any key to see which key you pressed!</p>
+`}
+          <span className="codePurple">
+            {`
 <script>
-
-  const myBtn = document.querySelector('#myBtn');
-  myBtn.addEventListener('click', handleClick);
-  function handleClick(event) {
-    alert('The button is clicked!');
-  }
-
+// Add an event listener to the document
+document.addEventListener('keydown', function(event) {
+alert('Key pressed: ' + event.key);
+});
 </script>
+  
+  `}
+          </span>
+          {`
 </body>
-          `}
+</html>`}
         </code>
       </pre>
       <p>
-        The <code>addEventListener()</code> method offers extensibility
+        In this example, pressing any key will display an alert showing the key
+        that was pressed.
       </p>
+
+      <h2>Keyup Event</h2>
+      <h3>Syntax</h3>
       <p>
-        As you can see above, there are two additional lines that you {`don't`}{" "}
-        need to write when you use the <code>on[eventname]</code> attribute.
+        To handle a keyup event, use the <code>keyup</code> event type with the{" "}
+        <code>addEventListener</code> method:
       </p>
+      <pre>
+        <code>
+          {`document.addEventListener('keyup', function(event) {
+// Code to execute when a key is released
+// You can use event.key to get the key that was released
+});`}
+        </code>
+      </pre>
+      <h3>Example</h3>
       <p>
-        While it might look insignificant, it will be a serious issue when you
-        work on a large scale application with many HTML and JS files.
-      </p>
-      <p>
-        In addition, the <code>addEventListener()</code> method also allows you
-        to attach multiple listeners to the same element as follows:
+        Here’s how to use the keyup event to display the released key in an
+        alert:
       </p>
       <pre>
         <code>
           {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keyup Event</title>
+</head>
 <body>
-<button id="myBtn">Click Me!</button>
+<p>Release any key to see which key you released!</p>
+`}
+
+          <span className="codePurple">
+            {`
 <script>
-
-  const myBtn = document.querySelector('#myBtn');
-
-  myBtn.addEventListener('click', handleClick);
-
-  myBtn.addEventListener('click', handleClickTwo);
-
-  function handleClick() {
-    console.log('Run from handleClick function');
-  }
-
-  function handleClickTwo() {
-    console.log('Run from handleClickTwo function');
-  }
-
+// Add an event listener to the document
+document.addEventListener('keyup', function(event) {
+alert('Key released: ' + event.key);
+});
 </script>
-</body>
-          `}
-        </code>
-      </pre>
-      <p>
-        <code>addEventListener()</code> allows you to assign more than one
-        listener
-      </p>
-      <p>
-        When you click on the button above, JavaScript will execute both event
-        listeners.
-      </p>
-      <p>
-        This is not possible with the onclick property because you can only
-        assign one function as a reference at a time:
-      </p>
-      <pre>
-        <code>
+  
+  `}
+          </span>
           {`
-<body>
-<button id="myBtn">Click Me!</button>
-<script>
-
-  const myBtn = document.querySelector('#myBtn');
-
-  myBtn.onclick = handleClick;
-
-  // when you assign a new function to onclick,
-  // the old function is overwritten
-
-  myBtn.onclick = handleClickTwo;
-
-  function handleClick() {
-    console.log('Run from handleClick function');
-  }
-
-  function handleClickTwo() {
-    console.log('Run from handleClickTwo function');
-  }
-
-</script>
 </body>
-          `}
+</html>`}
         </code>
       </pre>
       <p>
-        But I never encountered a situation where I needed to listen to the same
-        event twice, so this advantage might not be useful at all.
+        In this example, releasing any key will display an alert showing the key
+        that was released.
       </p>
+      <AdUnit />
       <h2>Conclusion</h2>
       <p>
-        {" "}
-        The DOM events exposed by the browser enable you to respond to user
-        actions in the appropriate way.
+        Understanding how to handle events is a fundamental part of web
+        development. It allows you to create interactive and engaging user
+        experiences by responding to user actions.
       </p>
       <p>
-        {" "}
-        This pattern of using event listeners to do specific tasks is known as
-        event-driven programming, and {`you'll`} use this pattern a lot when
-        developing a web application using JavaScript.
+        As you continue learning, you'll find even more ways to use events to
+        make your web applications interactive and responsive.
       </p>
-      <p>
-        There are two ways you can listen to events: using the
-        <code>addEventListener()</code> JavaScript method and the on[eventname]
-        HTML attributes. Each has its advantages and disadvantages, so {`it's`}{" "}
-        good to be familiar with both.
-      </p>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "/CreateAppend")}>
           back

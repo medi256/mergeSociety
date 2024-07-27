@@ -105,7 +105,7 @@ const Jscourse = () => {
             Creating and Appending Elements
           </li>
           <li onClick={() => navigate("/EventHandling")}>
-            Event Handling (adding event listeners, handling uer interactions )
+            Event Handling (adding event listeners, handling user interactions )
           </li>
         </ul>
         <AdUnit />
