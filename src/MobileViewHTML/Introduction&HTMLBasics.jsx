@@ -1,10 +1,10 @@
-import { InArticleAdUnit } from "../AdUnit";
+import AdUnit, { InArticleAdUnit } from "../AdUnit";
 import "./html.css";
 
 const IntroductionH = () => {
   return (
     <div className="comments-container">
-      <InArticleAdUnit />
+      <AdUnit />
       <h1>Introduction to HTML</h1>
       <p>
         {`Welcome to the exciting world of HTML! In this course, you will learn
@@ -54,7 +54,7 @@ const IntroductionH = () => {
         organizations of all sizes rely on HTML to build their websites, from
         small startups to large enterprises like Google, Facebook, and Amazon.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Your HTML Workspace: Setting Up Your Environment</h2>
       <h3>For PC Users</h3>
       <p>
@@ -119,7 +119,7 @@ const IntroductionH = () => {
           the code; we'll break down each part in the upcoming lessons.`}
         </li>
       </ol>
-      <InArticleAdUnit />
+
       <h3>For Mobile Users</h3>
       <p>
         {`If you're using a mobile device, there are several code editors
@@ -154,7 +154,7 @@ const IntroductionH = () => {
           service (like Dropbox) and open it from there in a mobile browser.`}
         </li>
       </ol>
-
+      <AdUnit />
       <h2>{`Understanding the ".html" Extension`}</h2>
       <p>
         {`You might be wondering why we use the ".html" extension for our HTML
@@ -369,7 +369,7 @@ export const HTMLBasics = () => {
         elements wrap the content within them, while the empty elements, like
         <img> and <br>, stand alone.`}
       </p>
-
+      <AdUnit />
       <h2>Conclusion</h2>
       <p>
         {`In this lesson, we explored the fundamental building blocks of HTML - the
