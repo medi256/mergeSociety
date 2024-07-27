@@ -192,7 +192,7 @@ export default IntroductionH;
 export const HTMLBasics = () => {
   return (
     <div className="comments-container">
-      <InArticleAdUnit />
+      <AdUnit />
       <h1>HTML Basics</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll dive into the
