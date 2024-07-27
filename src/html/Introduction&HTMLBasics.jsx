@@ -1,10 +1,10 @@
-import { InArticleAdUnit } from "../AdUnit";
+import AdUnit, { InArticleAdUnit } from "../AdUnit";
 import "./html.css";
 
 const IntroductionH = () => {
   return (
     <div className="comments-container">
-      <InArticleAdUnit />
+      <AdUnit />
       <h1>Introduction to HTML</h1>
       <p>
         {`Welcome to the exciting world of HTML! In this course, you will learn
@@ -155,7 +155,7 @@ const IntroductionH = () => {
           service (like Dropbox) and open it from there in a mobile browser.`}
         </li>
       </ol>
-
+      <AdUnit />
       <h2>{`Understanding the ".html" Extension`}</h2>
       <p>
         {`You might be wondering why we use the ".html" extension for our HTML
