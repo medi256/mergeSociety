@@ -193,7 +193,7 @@ export default IntroductionH;
 export const HTMLBasics = () => {
   return (
     <div className="comments-container">
-      <InArticleAdUnit />
+      <AdUnit />
       <h1>HTML Basics</h1>
       <p>
         {`Welcome back, aspiring web developer! In this lesson, we'll dive into the
@@ -370,7 +370,7 @@ export const HTMLBasics = () => {
         elements wrap the content within them, while the empty elements, like
         <img> and <br>, stand alone.`}
       </p>
-
+      <AdUnit />
       <h2>Conclusion</h2>
       <p>
         {`In this lesson, we explored the fundamental building blocks of HTML - the
