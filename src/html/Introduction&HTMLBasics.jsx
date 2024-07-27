@@ -54,7 +54,7 @@ const IntroductionH = () => {
         organizations of all sizes rely on HTML to build their websites, from
         small startups to large enterprises like Google, Facebook, and Amazon.`}
       </p>
-
+      <InArticleAdUnit />
       <h2>Your HTML Workspace: Setting Up Your Environment</h2>
       <h3>For PC Users</h3>
       <p>
@@ -119,7 +119,6 @@ const IntroductionH = () => {
           the code; we'll break down each part in the upcoming lessons.`}
         </li>
       </ol>
-      <InArticleAdUnit />
 
       <h3>For Mobile Users</h3>
       <p>
