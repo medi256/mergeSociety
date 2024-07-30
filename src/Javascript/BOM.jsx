@@ -131,144 +131,200 @@ export const WindowObject = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>Welcome to the Wonderful World of the Window Object!</h1>
+      <h1>Exploring Window Object Methods</h1>
 
+      <h2>Introduction</h2>
       <p>
-        {`
-        We've explored the DOM tree, giving you the power to target specific
-        elements on a webpage. Now, let's`}{" "}
-        shift our focus to the browser window itself and how JavaScript
-        interacts with it using the Window Object. Think of the Window Object as
-        a toolbox containing functionalities specific to the browser window,
-        rather than the webpage content itself.
+        In our last lesson, we introduced the Browser Object Model (BOM) and
+        discussed its various components, like the <code>Window Object</code>.
+        Now, we’re going to dive deeper into the <code>Window Object</code> and
+        explore some of its useful methods. These methods help us interact with
+        the user through pop-up boxes and get feedback from them.
       </p>
 
-      <h2>The Window as Your Stage</h2>
-
+      <h2>
+        The <code>alert</code> Method
+      </h2>
       <p>
-        Imagine the webpage content you see as the actors performing a play. The
-        Window Object provides functionalities related to the stage itself, such
-        as the curtain (opening or closing the window), the backdrop (the
-        browser window dimensions), or even interacting with the audience
-        (prompting users for input).
+        The <code>alert</code> method displays a simple pop-up box with a
+        message and an OK button. It’s a way to show important information or
+        warnings to the user.
       </p>
-
-      <h2>{`Let's Explore the Window Object's`} Toolkit</h2>
-
       <p>
-        The Window Object provides various functionalities for interacting with
-        the browser window and user experience. Here are some common examples,
-        along with code snippets to demonstrate their usage:
+        <strong>Syntax:</strong>
       </p>
-
-      <h3>1. Displaying Messages and Getting User Input:</h3>
-      <ul>
-        <li>
-          <b>{`alert()`}</b>: This method displays a modal dialog with a
-          message, similar to a popup announcement on stage. Perfect for
-          situations where you want to inform users about something critical.
-          <br />
-          <h3>Example:</h3>
-          <pre>
-            <code>
-              {`
-//javascript
-
-
-alert("Welcome to the Quiz Application!");
-   
+      <pre>
+        <code>
+          alert(<code>message</code>);
+        </code>
+      </pre>
+      <p>
+        <strong>Explanation:</strong> The <code>alert</code> method takes one
+        argument, <code>message</code>, which is the text you want to display.
+        When the user clicks OK, the pop-up box closes.
+      </p>
+      <p>
+        For example, if you want to tell the user that their form has been
+        submitted, you can use an <code>alert</code> to let them know.
+      </p>
+      <pre>
+        <code>
+          {`<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert Example</title>
+</head>
+<body>
+  `}
+          <span className="codePurple">
+            {`
+  <script>
+    // Show an alert box with a message
+    alert("Form submitted successfully!");
+  </script>
+    
     `}
-            </code>
-          </pre>
-        </li>
-        <li>
-          <b>{`confirm()`}</b>: This method displays a modal dialog with a
-          message and two buttons{" "}
-          {`(usually "OK" and "Cancel"). It returns a boolean value (true if the user clicks "OK", false otherwise).  Imagine using this during a play to ask the audience if they want an intermission! `}
-          <br />
-          <pre>
-            <code>
-              {`
-//javascript
-
-
- const answer = confirm("Are you ready to start the quiz?");
- if (answer) {
-   // Start the quiz if user clicks OK
- } else {
-   // Allow user to review instructions if they click Cancel
- }
-             
-              `}
-            </code>
-          </pre>
-        </li>
-        <li>
-          <b>{`prompt()`}</b>: This method displays a modal dialog with a
-          message and an input field. It returns the value the user enters,
-          allowing you to get user input for actions beyond the webpage content
-          itself.
-          <br />
-          <h3>Example:</h3>
-          <pre>
-            <code>
-              {`
-//javascript
-
-
-const userName = prompt("Enter your name to begin:");
-if (userName) {
-  alert("Welcome, " + userName + "!");
-} else {
-  alert("Please enter a name to continue.");
-}
-            
-              `}
-            </code>
-          </pre>
-        </li>
-      </ul>
+          </span>
+          {`
+</body>
+</html>`}
+        </code>
+      </pre>
+      <p>
+        When this code runs, a pop-up box with the message "Form submitted
+        successfully!" will appear. The user will need to click OK to continue.
+      </p>
       <AdUnit />
-      <h3>2. Interacting with the Window Size and Screen:</h3>
-      <ul>
-        <li>
-          <b>innerWidth</b> and <b>innerHeight</b>: These properties provide the
-          width and height of the browser window itself (the stage), excluding
-          things like toolbars.
-          <br />
-          <h3>Example:</h3>
-          <pre>
-            <code>
-              {`
-    
-//javascript
-
-
-const windowWidth = window.innerWidth;
-const windowHeight = window.innerHeight;
-
-console.log("Window width:", windowWidth, "Window height:", windowHeight);
-    
-    `}
-            </code>
-          </pre>
-        </li>
-      </ul>
+      <h2>
+        The <code>confirm</code> Method
+      </h2>
       <p>
-        These functionalities empower you to create more interactive experiences
-        within the browser window. By leveraging the Window Object, you can
-        inform users, get their input, and even adapt your webpages to different
-        screen sizes.
+        The <code>confirm</code> method shows a pop-up box with a message, an OK
+        button, and a Cancel button. It’s used to ask the user for confirmation
+        before proceeding with an action.
       </p>
-      <h2>Next Steps: Dive Deeper into the Window Object</h2>
       <p>
-        The Window Object offers a variety of functionalities beyond what{" "}
-        {`we've
-        covered here. In the next lessons, we'll explore these functionalities`}
-        in more detail, providing code examples and practical applications to
-        solidify your understanding. Get ready to unlock the full potential of
-        the Window Object!
+        <strong>Syntax:</strong>
       </p>
+      <pre>
+        <code>
+          confirm(<code>message</code>);
+        </code>
+      </pre>
+      <p>
+        <strong>Explanation:</strong> The <code>confirm</code> method takes one
+        argument, <code>message</code>, which is the text you want to display in
+        the confirmation box. It returns <code>true</code> if the user clicks OK
+        and <code>false</code> if they click Cancel.
+      </p>
+      <p>
+        For example, if you want to ask the user if they are sure they want to
+        delete an item, you can use a <code>confirm</code> dialog.
+      </p>
+      <pre>
+        <code>
+          {`<!DOCTYPE html>
+<html>
+<head>
+  <title>Confirm Example</title>
+</head>
+<body>
+`}
+          <span className="codePurple">
+            {`
+  <script>
+    // Ask for confirmation before deleting an item
+    const userConfirmed = confirm("Are you sure you want to delete this item?");
+
+    if (userConfirmed) {
+      alert("Item deleted.");
+    } else {
+      alert("Action cancelled.");
+    }
+  </script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>`}
+        </code>
+      </pre>
+      <p>
+        This code will display a pop-up asking the user if they want to delete
+        the item. Depending on their response, a message will appear telling
+        them whether the item was deleted or the action was cancelled.
+      </p>
+      <AdUnit />
+      <h2>
+        The <code>prompt</code> Method
+      </h2>
+      <p>
+        The <code>prompt</code> method shows a pop-up box that asks the user for
+        input. It includes a message, a text input field, an OK button, and a
+        Cancel button.
+      </p>
+      <p>
+        <strong>Syntax:</strong>
+      </p>
+      <pre>
+        <code>
+          prompt(<code>message</code>, <code>defaultValue</code>);
+        </code>
+      </pre>
+      <p>
+        <strong>Explanation:</strong> The <code>prompt</code> method takes two
+        arguments: <code>message</code>, which is the text you want to show, and{" "}
+        <code>defaultValue</code> (optional), which is the text that appears in
+        the input field by default. It returns the text entered by the user if
+        they click OK, or <code>null</code> if they click Cancel.
+      </p>
+      <p>For example, you might want to ask the user to enter their name.</p>
+      <pre>
+        <code>
+          {`<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Example</title>
+</head>
+<body>
+`}
+          <span className="codePurple">
+            {`
+  <script>
+    // Prompt the user to enter their name
+    const userName = prompt("Please enter your name:", "Your name here");
+
+    if (userName) {
+      alert("Hello, " + userName + "!");
+    } else {
+      alert("No name entered.");
+    }
+  </script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>`}
+        </code>
+      </pre>
+      <p>
+        This code will display a pop-up asking the user to enter their name. If
+        they provide a name and click OK, a greeting will appear with their
+        name. If they click Cancel, a message saying "No name entered" will
+        appear.
+      </p>
+      <AdUnit />
+      <h2>Conclusion</h2>
+      <p>
+        The <code>Window Object</code> methods <code>alert</code>,{" "}
+        <code>confirm</code>, and <code>prompt</code> are powerful tools for
+        interacting with users through pop-up boxes. They help you display
+        messages, get confirmations, and collect input, making your web pages
+        more interactive and engaging.
+      </p>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "/introBOM")}>
           back
