@@ -8,7 +8,7 @@ body {
   color: #333;
   background-color: #f5f5f5;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
 }
 
@@ -247,7 +247,7 @@ code {
 }
 
 .comments-container code {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
 }
 
 .comments-container img {
@@ -303,7 +303,7 @@ code {
   background-color: #f0f0f0;
   padding: 2px 5px;
   border-radius: 3px;
-  font-family: monospace;
+  font-family: "Montserrat", sans-serif;
 }
 td,
 th {
@@ -330,7 +330,7 @@ video {
   text-align: center;
   color: #555555;
   margin-top: 90px;
-  font-family: Inter, sans-serif;
+  font-family: "Montserrat", sans-serif;
   filter: brightness(0.9);
 }
 
@@ -409,7 +409,7 @@ video {
 }
 
 .skillsLinks {
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   color: #333;
   max-width: 800px;
@@ -448,14 +448,6 @@ video {
   position: relative;
 }
 
-/* .skillsLinks ul li::before {
-  content: "✔";
-  position: absolute;
-  left: -20px;
-  color: #27ae60;
-  font-size: 1.2em;
-} */
-
 .skillsLinks ul li:last-child {
   margin-bottom: 0;
 }
@@ -493,16 +485,6 @@ video {
   border-radius: 5px;
   transition: background-color 0.3s, transform 0.3s;
 }
-
-/* .skillsLinks ul li::before {
-  content: "✔";
-  position: absolute;
-  left: -25px;
-  color: #27ae60;
-  font-size: 1.2em;
-  top: 50%;
-  transform: translateY(-50%);
-} */
 
 .skillsLinks ul li a {
   text-decoration: none;
@@ -599,7 +581,7 @@ strong {
 
 .header #merge-society {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .codePurple {

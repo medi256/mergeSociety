@@ -454,13 +454,17 @@ export const LocationObject = () => {
       </p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          {`
+<!DOCTYPE html>
 <html>
 <head>
 <title>Location Object Example</title>
 </head>
 <body>
+`}
 
+          <span className="codePurple">
+            {`
 <script>
 // Get the current URL
 const currentURL = window.location.href;
@@ -495,7 +499,10 @@ console.log("Hash: " + hash);
 // Reload the current URL
 // window.location.reload();
 </script>
-
+  
+  `}
+          </span>
+          {`
 </body>
 </html>`}
         </code>
@@ -537,101 +544,180 @@ export const NavigationObject = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>
-        Introduction to the Navigation Object (Browser Navigation Information)
-      </h1>
+      <h1>Understanding the Navigator Object</h1>
+
+      <h2>Introduction</h2>
       <p>
-        The Browser Object Model (BOM) equips you with various tools to interact
-        with the browser window and user experience. The{" "}
-        <code>Navigation Object</code> is one such tool that provides
-        information about the{" "}
-        {`browser's navigation history and state. Imagine
-        the Navigation Object as a travel log for the user's journey within your
-        website or across different webpages.`}
+        We've been exploring the Browser Object Model (BOM) and its various
+        components. So far, we've covered the Window object and the Location
+        object. Now, let's move on to another important part of the BOM: the
+        Navigator object.
+      </p>
+
+      <h2>What is the Navigator Object?</h2>
+      <p>
+        The Navigator object is a part of the BOM that provides information
+        about the browser. It helps you find out details such as the browser's
+        name, version, and the user's operating system. This information can be
+        useful for tailoring your website's behavior based on the browser or
+        device the user is using.
       </p>
       <p>
-        While the Location Object focuses on manipulating the URL itself, the
-        Navigation Object provides insights into how the user arrived at the
-        current webpage. Here are some key functionalities offered by the
-        Navigation Object:
+        Think of the Navigator object as a source of information about the
+        user's browser and system. It gives you important details that can help
+        you make your web application more user-friendly and compatible with
+        different browsers and devices.
+      </p>
+
+      <h2>Understanding Key Terms</h2>
+      <p>
+        Before we dive into the properties and methods, let's understand some
+        key terms:
       </p>
       <ul>
         <li>
-          <code>type </code> property: This property reveals how the user
-          navigated to the current webpage. Possible values include
-          {`"backforward" (user clicked the back or forward button), "reload"
-          (page was reloaded), "replace" (content was replaced without a history
-          entry), and "unknown".`}
-          <pre>
-            <code>
-              {`
-//JavaScript
-
-
-const navigationType = navigator.navigation.type;
-console.log("Navigation type:", navigationType);
-              
-              `}
-            </code>
-          </pre>
+          <strong>Browser:</strong> The program you use to access the internet,
+          such as Chrome, Firefox, or Safari.
         </li>
         <li>
-          <code> userAgent</code> property <b>(inherited from navigator)</b>:
-          This property provides a string that reveals the{" "}
-          {`user's browser
-          information, including the name, version, and platform. While not
-          strictly part of the Navigation Object, it's`}{" "}
-          inherited from the
-          <b>navigator</b> object and can be helpful in conjunction with
-          navigation data.
-          <pre>
-            <code>
-              {`
-//JavaScript
-
-
-const userAgent = navigator.userAgent;
-console.log("User Agent:", userAgent);
-              `}
-            </code>
-          </pre>
-          <AdUnit />
-          <h3>Understanding these properties allows you to:</h3>
-          <li>
-            {" "}
-            <b> Personalize user experience</b>: Based on the type property, you
-            can tailor the user experience upon arrival at a webpage. For
-            instance, if the user navigated back from a product details page,
-            you might highlight recently viewed products.
-          </li>
-          <li>
-            {" "}
-            <b>Track user journeys</b>: By analyzing navigation patterns
-            (back/forward clicks, reloads), you can gain insights into user
-            behavior and website usability.
-          </li>
-          <li>
-            <b>Handle browser compatibility issues</b>: The userAgent
-            information can help identify potential compatibility issues with
-            different browsers and versions.
-          </li>
-        </li>
-        <h3>{`It's`} important to note that:</h3>
-        <li>
-          For security reasons, modern browsers restrict access to the{" "}
-          {`user's`}
-          complete navigation history.
+          <strong>Operating System:</strong> The software that runs on your
+          computer, such as Windows, macOS, or Linux.
         </li>
         <li>
-          The <code>userAgent</code> string can be spoofed by users, so it{" "}
-          {`shouldn't`} be solely relied upon for critical tasks.
+          <strong>Cookies:</strong> Small pieces of data stored by your browser
+          to remember information about your visit to a website.
+        </li>
+        <li>
+          <strong>User Agent:</strong> A string of text that your browser sends
+          to websites, telling them about the browser and operating system
+          you're using.
+        </li>
+      </ul>
+      <AdUnit />
+      <h2>Properties of the Navigator Object</h2>
+      <p>
+        The Navigator object has several properties that provide information
+        about the browser and the user's system. Here are some of the most
+        important ones:
+      </p>
+      <ul>
+        <li>
+          <code>appName</code>: This property returns the name of the browser,
+          such as "Netscape" (which is used for most modern browsers like
+          Chrome, Firefox, etc.).
+        </li>
+        <li>
+          <code>appVersion</code>: This property returns the version information
+          of the browser.
+        </li>
+        <li>
+          <code>userAgent</code>: This property returns the user agent string,
+          which contains information about the browser and operating system.
+        </li>
+        <li>
+          <code>platform</code>: This property returns the platform (operating
+          system) on which the browser is running, such as "Win32" for Windows
+          or "MacIntel" for macOS.
+        </li>
+        <li>
+          <code>language</code>: This property returns the preferred language of
+          the user, such as "en-US" for English (United States).
+        </li>
+        <li>
+          <code>cookieEnabled</code>: This property returns a boolean value
+          indicating whether cookies are enabled in the browser.
         </li>
       </ul>
       <p>
-        In the next lesson,{" "}
-        {`we'll explore the History Object, another tool
-        within the BOM that provides more in-depth control over the browser's
-        navigation history.`}
+        These properties can be used to get information about the browser and
+        the user's system.
+      </p>
+      <AdUnit />
+      <h2>Methods of the Navigator Object</h2>
+      <p>
+        The Navigator object also has some methods that can be useful. Here are
+        a few important ones:
+      </p>
+      <ul>
+        <li>
+          <code>geolocation</code>: This property returns a Geolocation object
+          that can be used to get the user's geographical location.
+        </li>
+        <li>
+          <code>javaEnabled()</code>: This method returns a boolean value
+          indicating whether Java is enabled in the browser.
+        </li>
+      </ul>
+
+      <h2>Example: Using the Navigator Object</h2>
+      <p>
+        Let's see some examples of how we can use the Navigator object to get
+        information about the browser and the user's system.
+      </p>
+      <pre>
+        <code>
+          {`<!DOCTYPE html>
+<html>
+<head>
+<title>Navigator Object Example</title>
+</head>
+<body>
+`}
+          <span className="codePurple">
+            {`
+<script>
+// Get the name of the browser
+const browserName = navigator.appName;
+console.log("Browser Name: " + browserName);
+
+// Get the version information of the browser
+const browserVersion = navigator.appVersion;
+console.log("Browser Version: " + browserVersion);
+
+// Get the user agent string
+const userAgent = navigator.userAgent;
+console.log("User Agent: " + userAgent);
+
+// Get the platform (operating system)
+const platform = navigator.platform;
+console.log("Platform: " + platform);
+
+// Get the preferred language of the user
+const language = navigator.language;
+console.log("Language: " + language);
+
+// Check if cookies are enabled
+const cookiesEnabled = navigator.cookieEnabled;
+console.log("Cookies Enabled: " + cookiesEnabled);
+
+// Check if Java is enabled
+const javaEnabled = navigator.javaEnabled();
+console.log("Java Enabled: " + javaEnabled);
+</script>
+  
+  `}
+          </span>
+          {`
+</body>
+</html>`}
+        </code>
+      </pre>
+      <p>
+        This example demonstrates how to use various properties of the Navigator
+        object to get information about the browser and the user's system.
+      </p>
+      <AdUnit />
+      <h2>Conclusion</h2>
+      <p>
+        In this lesson, we've learned about the Navigator object and its
+        properties and methods. We've seen how to use the Navigator object to
+        get information about the browser and the user's system. The Navigator
+        object is an important part of the BOM, and understanding how to use it
+        can help you build more user-friendly and compatible web applications.
+      </p>
+      <p>
+        We'll continue to explore the BOM and its components in future lessons.
+        Stay tuned!
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/LocationObject")}>
