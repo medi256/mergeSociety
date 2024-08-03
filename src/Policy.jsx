@@ -128,14 +128,7 @@ const Policies = () => {
 export default Policies;
 export const PolicyView = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#f9f9f9",
-        padding: "20px",
-        borderBottom: "1px solid #ddd",
-        marginBottom: "20px",
-      }}
-    >
+    <div>
       <Link
         to={"policy"}
         style={{

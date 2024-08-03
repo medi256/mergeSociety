@@ -3,38 +3,43 @@ import ScrollToTop from "./ScrollToTop";
 
 const LandingPage = () => {
   return (
-    <div>
-      <div className="landing-page">
-        <ScrollToTop />
-        <div>
-          <header>
-            <h2>Welcome to Merge Society, your gateway to web development!</h2>
-            <p className="tagline">
-              Learn to build websites with ease, and unlock your full potential.
-            </p>
-          </header>
-          <p>
-            Are you interested in building websites, but {`don't`} know where to
-            start? 🤔 Do you dream of creating a website that showcases your
-            ideas, skills, or passion? 🎨{" "}
-            {`We're here to help you achieve that goal! With our
-          comprehensive courses, you'll`}{" "}
-            learn the fundamentals of web development, from HTML to React, and
-            everything in between. Our tutorials are designed to be easy to
-            follow, so you can start building your website today!
-          </p>
+    <div className="landing-page">
+      <ScrollToTop />
+      <main className="main-content">
+        <h1 className="title">Unlock Your Web Development Potential</h1>
+        <p className="subtitle">
+          Learn HTML, CSS, and JavaScript to build amazing websites
+        </p>
+        <div className="cta-container">
           <button
+            className="cta-button"
             onClick={() => (window.location.href = "/HTMLcourse/IntroductionH")}
           >
-            Get Started
+            Start Learning
           </button>
-          <p>
-            For those already familiar with web development, feel free to
-            navigate to our courses and start learning at your own pace.
-          </p>
         </div>
-      </div>
-      <PolicyView />
+      </main>
+      <section className="features">
+        <div className="feature">
+          <i className="fas fa-code"></i>
+          <h3>HTML Mastery</h3>
+          <p>Build the structure of web pages with semantic HTML</p>
+        </div>
+        <div className="feature">
+          <i className="fas fa-paint-brush"></i>
+          <h3>CSS Wizardry</h3>
+          <p>Style your websites with modern CSS techniques</p>
+        </div>
+        <div className="feature">
+          <i className="fas fa-cogs"></i>
+          <h3>JavaScript Power</h3>
+          <p>Add interactivity and dynamic content to your sites</p>
+        </div>
+      </section>
+      <footer className="footer">
+        <p>&copy; 2024 MergeSociety. All rights reserved.</p>
+        <PolicyView />
+      </footer>
     </div>
   );
 };
