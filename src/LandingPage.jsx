@@ -1,14 +1,23 @@
 import { PolicyView } from "./Policy";
 import ScrollToTop from "./ScrollToTop";
 
+// import './Article.css'
+import Article1 from './Tempariticle/Article1';
+import Article2 from './Tempariticle/Article2';
+import Article3 from "./Tempariticle/Article3";
+import Article4 from "./Tempariticle/Article4";
+import Article5 from "./Tempariticle/Article5";
+
 const LandingPage = () => {
+
+
   return (
     <div>
       <div className="landing-page">
         <ScrollToTop />
         <div>
           <header>
-            <h2>Welcome to Merge Society, your gateway to web development!</h2>
+            <h2>Welcome to Merge Socity, your gateway to web development!</h2>
             <p className="tagline">
               Learn to build websites with ease, and unlock your full potential.
             </p>
@@ -35,6 +44,22 @@ const LandingPage = () => {
         </div>
       </div>
       <PolicyView />
+      {/* yeah article remove karna ha bad me  */}
+      <Article1 />
+      <Article2 />
+      <Article3 />
+      <Article4 />
+      <Article5 />
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };
