@@ -1,5 +1,8 @@
 import { InArticleAdUnit } from "../AdUnit";
 
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 const Entity = () => {
   return (
     <div className="comments-container">
@@ -90,9 +93,11 @@ const Entity = () => {
           <strong>Escaping Ampersands in Attribute Values:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <a href="https://www.example.com?param=value&amp;amp;other=true">Click me!</a>
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -187,12 +192,14 @@ const Entity = () => {
           example,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <a href="https://www.example.com?param=value&amp;amp;other=true">
  Click me!
 </a>.
               
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -287,7 +294,8 @@ export const Pre = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <pre>
   function greet() {
     console.log("Hello, world!");
@@ -295,6 +303,7 @@ export const Pre = () => {
 </pre>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -303,7 +312,8 @@ export const Pre = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <pre>
   This is a poem
   with line breaks
@@ -311,6 +321,7 @@ export const Pre = () => {
 </pre>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -319,7 +330,8 @@ export const Pre = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <pre>
   ______
   |      |
@@ -329,6 +341,7 @@ export const Pre = () => {
 </pre>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -391,7 +404,8 @@ export const Pre = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <pre>
   function greet() { 
     console.log("Hello, world!");
@@ -399,6 +413,7 @@ export const Pre = () => {
 </pre>
     
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -407,13 +422,15 @@ export const Pre = () => {
           indentation in a poem or ASCII art. For instance,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <pre>
    This is a poem with
   line breaks and indentation.
 </pre>
               
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Div = () => {
   return (
@@ -26,11 +29,13 @@ const Div = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <div>
   Content goes here 
 </div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -50,7 +55,8 @@ const Div = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <div>
   <div>Header</div>
   <div>
@@ -61,6 +67,7 @@ const Div = () => {
 </div>
   
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -79,7 +86,8 @@ const Div = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <div class="container">
   <div class="header">Header</div>
   <div class="content">Main Content</div>
@@ -87,6 +95,7 @@ const Div = () => {
 </div>
         
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -144,7 +153,8 @@ const Div = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <div>
   <div>Header</div>
   <div>Main Content</div>
@@ -152,6 +162,7 @@ const Div = () => {
 </div>
             
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -221,9 +232,11 @@ export const Spans = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <span>Highlighted text</span>
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -241,10 +254,12 @@ export const Spans = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <span class="highlight">Highlighted text</span>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -263,10 +278,12 @@ export const Spans = () => {
       </p>
       <pre>
         <code>
-          {`
-        <span class="tooltip" data-tooltip="This is a tooltip">over me!</span>   
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+<span class="tooltip" data-tooltip="This is a tooltip">over me!</span>   
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -322,10 +339,12 @@ export const Spans = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <p>This is a <span class="highlight">highlighted</span> sentence.</p>
 
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

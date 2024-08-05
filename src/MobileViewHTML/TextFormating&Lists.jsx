@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const TextFormating = () => {
   return (
@@ -25,8 +28,14 @@ const TextFormating = () => {
           <strong>{`<strong>`}:</strong> The <code>{`<strong> `}</code> tag
           makes the enclosed text bold. It is typically used to indicate strong
           emphasis or importance. For example, <br />
-          <code>{`<strong>This text is
-          bold.</strong>`}</code>
+          <code>
+            <SyntaxHighlighter
+              language="HTML"
+              style={docco}
+            ></SyntaxHighlighter>
+            {`<strong>This text is
+          bold.</strong>`}
+          </code>
           .
         </li>
         <li>
@@ -34,14 +43,23 @@ const TextFormating = () => {
           the enclosed text. It is used to indicate emphasis or stress. For
           instance,
           <br />
-          <code>{` <em>This text is italicized.</em>.`}</code>
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {` <em>This text is italicized.</em>`}
+            </SyntaxHighlighter>
+          </code>
         </li>
         <li>
           <strong>{`<u>`}:</strong> The <code>{`<u> `}</code>tag underlines the
           enclosed text. It can be used to highlight or emphasize certain text.
           For example,
           <br />
-          <code>{`<u>This text is underlined.</u>`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<u>This text is underlined.</u>`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
         <li>
           <strong>
@@ -51,7 +69,12 @@ const TextFormating = () => {
           enclosed text, creating a highlight effect. It is often used to mark
           important or relevant text. For instance,
           <br />
-          <code>{`<mark>This text is highlighted.</mark>`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<mark>This text is highlighted.</mark>`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
         <li>
           <strong>
@@ -61,7 +84,12 @@ const TextFormating = () => {
           indicating that it should be deleted or is no longer relevant. For
           example,
           <br />
-          <code>{`<del>This text is deleted.</del>`}</code> .
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<del>This text is deleted.</del>`}
+            </SyntaxHighlighter>
+          </code>{" "}
+          .
         </li>
         <li>
           <strong>
@@ -71,20 +99,27 @@ const TextFormating = () => {
           indicates that it has been inserted or added. It is often used to show
           updates or corrections. For instance,
           <br />
-          <code>{` <ins>This text has been inserted.</ins>`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {` <ins>This text has been inserted.</ins>`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
       </ul>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <p>
-  This is a paragraph with <strong>bold</strong>,
-  <em>italic</em>, <u>underlined</u>,
-  <mark>highlighted</mark>, <del>deleted</del>,
-  and <ins>inserted</ins> text.
+This is a paragraph with <strong>bold</strong>,
+<em>italic</em>, <u>underlined</u>,
+<mark>highlighted</mark>, <del>deleted</del>,
+and <ins>inserted</ins> text.
 </p>
-   
-     `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -101,10 +136,12 @@ const TextFormating = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 The temperature is 30<sup>o</sup>C.
 The formula is H<sub>2</sub>O.
-        `}
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -125,9 +162,11 @@ The formula is H<sub>2</sub>O.
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 The <abbr title="World Wide Web">WWW</abbr> is a global information system.
-        `}
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -181,8 +220,12 @@ The <abbr title="World Wide Web">WWW</abbr> is a global information system.
           using bold, italics, underlines, and other text formatting options.
           For example,
           <br />
-          <code>{` <p>This is an <strong>important</strong>
-          announcement!</p>`}</code>
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {` <p>This is an <strong>important</strong>
+          announcement!</p>`}
+            </SyntaxHighlighter>
+          </code>
         </li>
         <li>
           Try using the <code>{`<sup>`}</code> and <code>{`<sub> `}</code> tags
@@ -190,8 +233,10 @@ The <abbr title="World Wide Web">WWW</abbr> is a global information system.
           <br />
           <code>
             {" "}
-            {`<p>The formula is
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<p>The formula is
           E=mc<sup>2</sup>.</p>`}
+            </SyntaxHighlighter>
           </code>
         </li>
         <li>
@@ -247,14 +292,16 @@ export const Lists = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
 </ul>
-        
-          `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -273,14 +320,16 @@ export const Lists = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
 </ol>
-        
-          `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -299,20 +348,22 @@ export const Lists = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>
-    <ul>
-      <li>Sub-item 1</li>
-      <li>Sub-item 2</li>
-    </ul>
-  </li>
-  <li>Item 3</li>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>
+<ul>
+<li>Sub-item 1</li>
+<li>Sub-item 2</li>
 </ul>
-        
-          `}
+</li>
+<li>Item 3</li>
+</ul>
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -367,13 +418,15 @@ export const Lists = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <ul>
-  <li>Apples</li>
-  <li>Bananas</li>
+<li>Apples</li>
+<li>Bananas</li>
 </ul>
-  
-    `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
           .
@@ -384,12 +437,14 @@ export const Lists = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <ol>
-  <li>Step 1: Preheat the oven.</li>
+<li>Step 1: Preheat the oven.</li>
 </ol>
-            
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

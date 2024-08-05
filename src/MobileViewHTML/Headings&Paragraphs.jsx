@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Headings = () => {
   return (
@@ -37,7 +40,8 @@ const Headings = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <h1>This is a heading level 1</h1>
 <h2>This is a heading level 2</h2>
 <h3>This is a heading level 3</h3>
@@ -45,6 +49,7 @@ const Headings = () => {
 <h5>This is a heading level 5</h5>
 <h6>This is a heading level 6</h6>      
       `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -186,8 +191,10 @@ export const Paragraphs = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <p>This is a paragraph in HTML.</p>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -243,8 +250,12 @@ export const Paragraphs = () => {
         <li>
           Add multiple paragraphs to your HTML file, each containing a few
           sentences of text. For example,{" "}
-          <code>{`<p> This is the first
-          paragraph.</p> `}</code>
+          <code>
+            <SyntaxHighlighter language="javascript" style={docco}>
+              {`<p> This is the first
+          paragraph.</p> `}
+            </SyntaxHighlighter>
+          </code>
         </li>
         <li>
           Try adding blank lines between paragraphs to create space and improve

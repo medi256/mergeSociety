@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Video = () => {
   return (
@@ -19,12 +22,14 @@ const Video = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <video src="video.mp4" controls>
-  Your browser does not support the video element.
+Your browser does not support the video element.
 </video>
 
-        `}
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -45,14 +50,16 @@ const Video = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <video controls>
-  <source src="video.mp4" type="video/mp4">
-  <source src="video.webm" type="video/webm">
-  Your browser does not support the video element.
+<source src="video.mp4" type="video/mp4">
+<source src="video.webm" type="video/webm">
+Your browser does not support the video element.
 </video>
-        
-        `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -74,12 +81,14 @@ const Video = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
         
-<video src="video.mp4" controls autoplay loop>
-  Your browser does not support the video element.
-</video>
-`}
+        <video src="video.mp4" controls autoplay loop>
+        Your browser does not support the video element.
+        </video>
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -119,12 +128,14 @@ const Video = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <p>
- Your browser does not support video. Click here to download the video file.
+Your browser does not support video. Click here to download the video file.
 </p>
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -137,14 +148,16 @@ const Video = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <video controls width="300" height="200" src="video.mp4">
-  <p>
-    Your browser does not support video.
-  </p>
+<p>
+Your browser does not support video.
+</p>
 </video>
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -184,12 +197,14 @@ const Video = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
             
-<video src="video.mp4" controls>
- Your browser does not support video.
-</video>
+            <video src="video.mp4" controls>
+            Your browser does not support video.
+            </video>
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           .
@@ -257,18 +272,20 @@ export const FormsH = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <form>
-  <label for="name">Name:</label>
-  <input type="text" id="name">
-  <br>
-  <label for="email">Email:</label>
-  <input type="email" id="email">
-  <br>
-  <button type="submit">Submit</button>
+<label for="name">Name:</label>
+<input type="text" id="name">
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email">
+<br>
+<button type="submit">Submit</button>
 </form>
-        
-          `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -323,10 +340,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <input type="text" id="name">
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -337,10 +356,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
               
 <input type="email" id="email">
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -351,10 +372,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
               
-<input type="password" id="password">
+              <input type="password" id="password">
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -365,10 +388,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <input type="checkbox" id="option1">
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -379,10 +404,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <input type="radio" id="option1">
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -409,10 +436,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
               
-<input type="text" placeholder="Enter your name">
+              <input type="text" placeholder="Enter your name">
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -423,10 +452,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <input type="text" value="John Doe">
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -438,10 +469,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
               
 <input type="text" required>
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -453,10 +486,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <input type="text" minlength="5" maxlength="20">
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -476,10 +511,12 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
                 
 <textarea id="message"></textarea>
                 `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           <p>
@@ -490,9 +527,11 @@ export const FormsH = () => {
           </p>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <textarea col="30" rows="10">Write something</textarea>
-              `}
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
           <p>
@@ -508,13 +547,15 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <select id="color">
-  <option value="red">Red</option>
-  <option value="blue">Blue</option>
+<option value="red">Red</option>
+<option value="blue">Blue</option>
 </select>
-            
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -525,10 +566,12 @@ export const FormsH = () => {
           tag is used to create buttons. For example,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <button type="submit">Submit</button>
-              
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -544,9 +587,11 @@ export const FormsH = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <input type="text" id="username" required minlength="5" maxlength="20">
-        `}
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -568,12 +613,14 @@ export const FormsH = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <form action="submit.php" method="post">
-  <!-- Your form content goes here -->
+<!-- Your form content goes here -->
 </form>
-        
-          `}
+
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -627,21 +674,23 @@ export const FormsH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <form>
-  <label for="name">Name:</label>
-  <input type="text" id="name" placeholder="Enter your name" required>
-  <br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" placeholder="Enter your email" required>
-  <br>
-  <label for="password">Password:</label>
-  <input type="password" id="password" placeholder="Enter your password" required>
-  <br>
-  <button type="submit">Submit</button>
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+<br>
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="Enter your password" required>
+<br>
+<button type="submit">Submit</button>
 </form>
-            
-              `}
+
+`}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

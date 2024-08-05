@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ImagesH = () => {
   return (
@@ -24,9 +27,11 @@ const ImagesH = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <img src="image.jpg" alt="Description of the image">
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -46,9 +51,11 @@ const ImagesH = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <img src="image.jpg" alt="Description of the image" width="300" height="200">
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -73,10 +80,12 @@ const ImagesH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
             
 <img src="image.jpg">.
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -86,10 +95,12 @@ const ImagesH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
             
 <img src="https://www.example.com/image.jpg">.
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -101,11 +112,13 @@ const ImagesH = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/wAAg8AAVsRExPQAAAAASUVORK5CYII="
 alt="Encoded image">.
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -168,11 +181,13 @@ alt="Encoded image">.
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <img src="image.jpg" alt="Beautiful sunset"
 width="400" height="300">
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -187,11 +202,13 @@ width="400" height="300">
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <img src="image.jpg"
 alt="Sunset over the ocean" width="500" height="400">
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -248,12 +265,14 @@ export const Audio = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <audio src="audio.mp3" controls>
   Your browser does not support the audio element.
 </audio>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -274,7 +293,8 @@ export const Audio = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <audio controls>
   <source src="audio.mp3" type="audio/mp3">
   <source src="audio.ogg" type="audio/ogg">
@@ -282,6 +302,7 @@ export const Audio = () => {
 </audio>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -303,12 +324,14 @@ export const Audio = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 <audio src="audio.mp3" controls autoplay loop>
   Your browser does not support the audio element.
 </audio>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -349,12 +372,14 @@ export const Audio = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <p>
   Your browser does not support audio.
   Click here to download the audio file. 
 </p>
           `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           .
@@ -398,12 +423,14 @@ export const Audio = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
               
 <audio src="audio.mp3" controls>
  Your browser  does not support audio.
 </audio>
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

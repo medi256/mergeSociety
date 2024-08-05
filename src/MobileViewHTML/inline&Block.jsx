@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Inline = () => {
   return (
@@ -139,10 +142,12 @@ const Inline = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <p>This is a <strong>strong</strong> and <em>emphasized</em> sentence with a <a href="https://www.example.com">link</a>.</p>
 
           `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -320,7 +325,8 @@ export const Block = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`
 <div>
   <h1>Header</h1>
   <p>Main Content</p>
@@ -328,6 +334,7 @@ export const Block = () => {
 </div>
     
       `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
