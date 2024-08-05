@@ -1,5 +1,8 @@
 import AdUnit, { InArticleAdUnit } from "../AdUnit";
 import "./html.css";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const IntroductionH = () => {
   return (
@@ -97,7 +100,8 @@ const IntroductionH = () => {
           "index.html" file:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -110,6 +114,7 @@ const IntroductionH = () => {
 </html>
         
         `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           {`Save the file again. To view your handiwork, open the folder you
@@ -212,7 +217,8 @@ export const HTMLBasics = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <html>
   <head>
     <title>My Web Page</title>
@@ -224,14 +230,17 @@ export const HTMLBasics = () => {
 </html>
        
        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <p>
-        {`In the above code, we have several HTML elements: <html>,
-        <head>, <title>, <body>, <h1>, and <p>. Each
-        element serves a specific purpose and contributes to the overall
-        structure of the web page.`}
+        In the above code, we have several HTML elements:{" "}
+        <code>{`<html>`}</code>,<code>{`<head>`}</code>,{" "}
+        <code>{`<title>`}</code>, <code>{`<body>`}</code>,{" "}
+        <code>{`<h1></h1>`}</code>, and <code>{`<p>`}</code>. Each element
+        serves a specific purpose and contributes to the overall structure of
+        the web page.
       </p>
 
       <h3>Container Elements and Empty Elements</h3>
@@ -245,13 +254,15 @@ export const HTMLBasics = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph.</p>
 </body>
     
       `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -263,10 +274,12 @@ export const HTMLBasics = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
        
        <img src="image.jpg" alt="Description of the image">
        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -327,10 +340,10 @@ export const HTMLBasics = () => {
       <p>
         {`You might be wondering why some elements have both opening and closing
         tags while others don't. The reason lies in the nature of the content
-        they contain. Container elements, like <p>; or <div>;,
+        they contain. Container elements, like <p> or <div>,
         typically contain text or other elements, so they need a closing tag to
         indicate where the content ends. On the other hand, empty elements, like
-        <img>; or <br>;, perform a specific function and don't
+        <img> or <br>, perform a specific function and don't
         require any content within them, so they don't need a closing tag.`}
       </p>
 
@@ -342,7 +355,8 @@ export const HTMLBasics = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -360,6 +374,7 @@ export const HTMLBasics = () => {
   </body>
 </html>
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 

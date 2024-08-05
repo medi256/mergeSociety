@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Favicon = () => {
   return (
@@ -78,12 +81,14 @@ const Favicon = () => {
           section to link your favicon image. {` Here's an example:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <head>
   ...
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -207,7 +212,8 @@ export const DropDown = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <select>
   <option value="option1">Option 1</option>
   <option value="option2">Option 2</option>
@@ -215,6 +221,7 @@ export const DropDown = () => {
 </select>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -240,13 +247,15 @@ export const DropDown = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <details>
   <summary>Click here to expand</summary>
   <p>This is the additional content that will be revealed when the user clicks the summary.</p>
 </details>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -311,7 +320,8 @@ export const DropDown = () => {
 
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <label for="country">Select a country:</label>
 <select id="country">
   <option value="usa">USA</option>
@@ -320,6 +330,7 @@ export const DropDown = () => {
 </select>
           
           `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -330,13 +341,15 @@ export const DropDown = () => {
           </strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <details>
   <summary>Click here to reveal additional information</summary>
   <p>This is the hidden content that will be displayed when the user clicks the summary.</p>
 </details>
   
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -347,7 +360,8 @@ export const DropDown = () => {
 
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <label for="colors">Choose a color:</label>
 <input list="colors" id="colors" name="colors">
 <datalist id="colors">
@@ -357,6 +371,7 @@ export const DropDown = () => {
 </datalist>
               
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

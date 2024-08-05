@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function LinksH() {
   return (
@@ -24,10 +27,12 @@ function LinksH() {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
         
 <a href="https://www.example.com">Click me!</a>
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -58,10 +63,12 @@ function LinksH() {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <a href="https://www.example.com" target="_blank">
   Open in a new tab
 </a>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -121,12 +128,14 @@ function LinksH() {
           tag. For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
             
 <a href="https://www.example.com">
   Visit my favorite website!
 </a>.
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
         <li>
@@ -139,13 +148,15 @@ function LinksH() {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
               
 <a href="https://www.example.com" target="_blank">
   Open in a new tab
 </a>.
               
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -198,10 +209,12 @@ export function Attributes() {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <tag attribute="value">
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -213,10 +226,12 @@ export function Attributes() {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <a href="https://www.example.com">Click me!</a>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -240,12 +255,14 @@ export function Attributes() {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <a href="https://www.example.com">Click
  me!
-</a>.
+</a>
       
       `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -254,9 +271,11 @@ export function Attributes() {
           specify the source or URL of an image. For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <img src="image.jpg">.
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
         <li>
@@ -265,10 +284,12 @@ export function Attributes() {
           be displayed. For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
             
 <img src="image.jpg" alt="Description of the image">.
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
         <li>
@@ -276,10 +297,12 @@ export function Attributes() {
           allowing you to apply styles to that element using CSS. For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <p class="highlight">This is a highlighted paragraph.</p>.
             
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
         <li>
@@ -288,13 +311,15 @@ export function Attributes() {
           For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
             
 <div id="main">
  This is the main content section.
 </div>
             
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
       </ul>
@@ -323,8 +348,18 @@ export function Attributes() {
           <strong>Use quotes for attribute values:</strong> {`It's`} a good
           practice to enclose attribute values within quotes, even if they are
           numeric. For example, use{" "}
-          <code>{`<a href="https://www.example.com"> `}</code> instead of
-          <code>{`<a href=https://www.example.com">`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<a href="https://www.example.com"> `}
+            </SyntaxHighlighter>
+          </code>{" "}
+          instead of
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<a href=https://www.example.com">`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
       </ul>
 
@@ -346,12 +381,14 @@ export function Attributes() {
           your favorite website. For example,
           <br />
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
             
 <a href="https://www.example.com">
  Visit my favorite website!
 </a>.
             `}
+            </SyntaxHighlighter>
           </code>
         </li>
       </ol>

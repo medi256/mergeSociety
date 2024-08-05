@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Head = () => {
   return (
@@ -51,10 +54,12 @@ const Head = () => {
           example:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <title>My Website - Home Page</title>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -67,10 +72,12 @@ const Head = () => {
           for search engines. {` Here's an example:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <meta charset="UTF-8">
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           You can also use multiple <code>{`<meta>`}</code> tags for different
@@ -86,10 +93,12 @@ const Head = () => {
           load and use these resources when rendering the web page. For example:
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <link rel="stylesheet" href="styles.css">
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           You can also use the <code>{`<link>`}</code> element to link other
@@ -104,13 +113,15 @@ const Head = () => {
           file. For example:
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <script>
 alert("Hello, world!");
 </script>
             
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           {`You can also link to an external JavaScript file using the "src"
@@ -132,10 +143,12 @@ alert("Hello, world!");
           resources like images or links. For example:
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <base href="https://www.example.com">
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -311,13 +324,15 @@ export const Quotation = () => {
       <p>To include an inline quotation in your HTML:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <p>
   The author said
   <q>A journey of a thousand miles begins with a single step</q> 
   which is a famous proverb.
 </p>
             `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -356,7 +371,8 @@ export const Quotation = () => {
       <p>To include a block-level quotation in your HTML:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
           
 <blockquote>
   <p>
@@ -372,6 +388,7 @@ export const Quotation = () => {
   </p>
 </blockquote>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 

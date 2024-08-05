@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ResponsiveHTML = () => {
   return (
@@ -42,10 +45,12 @@ const ResponsiveHTML = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 

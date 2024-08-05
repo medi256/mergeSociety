@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const CreatingButtons = () => {
   return (
@@ -30,9 +33,11 @@ const CreatingButtons = () => {
       </p>
 
       <code>
-        {`
+        <SyntaxHighlighter language="HTML" style={docco}>
+          {`
 <button>Click me!</button>
         `}
+        </SyntaxHighlighter>
       </code>
 
       <p>
@@ -65,13 +70,15 @@ const CreatingButtons = () => {
           <strong>Submit Button:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <form>
   <input type="text" name="username">
   <button type="submit">Submit</button>
 </form>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -79,10 +86,12 @@ const CreatingButtons = () => {
           <strong>Regular Button:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <button>Click me!</button>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -129,13 +138,15 @@ const CreatingButtons = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <form>
   <input type="text" name="username">
   <button type="submit">Submit</button>
 </form>
             
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -144,10 +155,12 @@ const CreatingButtons = () => {
           <br />
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 
 <button>Click me to continue</button>.
 `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -260,12 +273,14 @@ export const Iframe = () => {
           <strong>Embedding a YouTube Video:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
             
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID">
   <p>Alternative content for users with iframes disabled.</p>
 </iframe>
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -273,12 +288,14 @@ export const Iframe = () => {
           <strong>Embedding a Google Map:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <iframe width="425" height="350" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3...">
   <p>Alternative content: A map showing Central Park in New York City.</p>
 </iframe>
     
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -286,12 +303,14 @@ export const Iframe = () => {
           <strong>Embedding a Social Media Feed:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <iframe src="https://www.socialmedia.com/embed/feed" width="500" height="600">
   <p>Alternative content: Follow us on Social Media!</p>
 </iframe>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Tables = () => {
   return (
@@ -22,7 +25,8 @@ const Tables = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <table>
   <thead>
         <tr>
@@ -39,6 +43,7 @@ const Tables = () => {
 </table>
 
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -63,7 +68,8 @@ const Tables = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <table>
     <thead>
         <tr>
@@ -84,6 +90,7 @@ const Tables = () => {
 </table>
       
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -120,7 +127,12 @@ const Tables = () => {
           border around the table.`}{" "}
           For example,
           <br />
-          <code>{` <table border="1">`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {` <table border="1">`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
         <li>
           <strong>Cellpadding:</strong>{" "}
@@ -128,13 +140,24 @@ const Tables = () => {
           amount of space between the cell content and its border. `}{" "}
           For example,
           <br />
-          <code>{`<table cellpadding="5">`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<table cellpadding="5">`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
         <li>
           <strong>Cellspacing:</strong>{" "}
           {` The "cellspacing" attribute specifies the
           amount of space between cells. `}{" "}
-          For example, <code>{`<table cellspacing="10">`}</code>.
+          For example,{" "}
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<table cellspacing="10">`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
         <li>
           <strong>Width and Height:</strong>{" "}
@@ -142,7 +165,12 @@ const Tables = () => {
           attributes to specify the dimensions of the table. `}{" "}
           For example,
           <br />
-          <code>{`<table width="300" height="200">`}</code>.
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<table width="300" height="200">`}
+            </SyntaxHighlighter>
+          </code>
+          .
         </li>
       </ul>
       <InArticleAdUnit />
@@ -195,7 +223,8 @@ const Tables = () => {
           Create a basic table with headers and rows. For example,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <table>
      <thead>
          <tr>
@@ -216,6 +245,7 @@ const Tables = () => {
 </table>
           
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -320,7 +350,8 @@ export const Semantic = () => {
           of your site.
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -330,6 +361,7 @@ export const Semantic = () => {
 </nav>
   
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -346,7 +378,8 @@ export const Semantic = () => {
           links.
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <header>
   <h1>My Website</h1>
   <nav>
@@ -362,6 +395,7 @@ export const Semantic = () => {
 </footer>
   
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -376,7 +410,8 @@ export const Semantic = () => {
           together, such as a section within a web page.
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <article>
   <h2>My Blog Post</h2>
   <p>This is the content of my blog post.</p>
@@ -388,6 +423,7 @@ export const Semantic = () => {
 </section>
   
     `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>

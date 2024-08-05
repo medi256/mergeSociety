@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const CommentsH = () => {
   return (
@@ -33,9 +36,11 @@ const CommentsH = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!-- This is a comment -->
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -77,7 +82,8 @@ const CommentsH = () => {
           <strong>Documentation Comment:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!-- This section displays the user's profile information -->
 <div class="user-profile">
   <h2>User Profile</h2>
@@ -86,6 +92,7 @@ const CommentsH = () => {
 </div>
           
           `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -93,13 +100,15 @@ const CommentsH = () => {
           <strong>Temporary Disabling Comment:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!-- This feature is temporarily disabled -->
 <div>
   <!-- <p>This section is hidden</p> -->
 </div>
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -107,10 +116,12 @@ const CommentsH = () => {
           <strong>Collaboration Comment:</strong>
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!-- Note to other developers: This section requires additional testing and validation -->
             
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -154,9 +165,11 @@ const CommentsH = () => {
           code. For example,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!-- This section displays the navigation menu -->.
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -165,10 +178,12 @@ const CommentsH = () => {
           code during development or testing. For instance,
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <!-- This feature is under development and will be enabled soon -->.
               
               `}
+              </SyntaxHighlighter>
             </code>
           </pre>
         </li>
@@ -224,10 +239,12 @@ export const HTMLStructure = () => {
       </p>
 
       <code>
-        {`
+        <SyntaxHighlighter language="HTML" style={docco}>
+          {`
 <!DOCTYPE html>
         
         `}
+        </SyntaxHighlighter>
       </code>
 
       <p>
@@ -248,13 +265,15 @@ export const HTMLStructure = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
   ...
 </html>
         
         `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -289,7 +308,8 @@ export const HTMLStructure = () => {
           Here's an example:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <head>
   <title>My Web Page</title>
   <meta charset="UTF-8">
@@ -298,6 +318,7 @@ export const HTMLStructure = () => {
 </head>
       
         `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           <p>
@@ -318,7 +339,8 @@ export const HTMLStructure = () => {
           elements. {` Here's an example:`}
           <pre>
             <code>
-              {`
+              <SyntaxHighlighter language="HTML" style={docco}>
+                {`
 <body>
   <h1>Welcome to My Web Page</h1>
   <p>This is the main content of my web page.</p>
@@ -330,6 +352,7 @@ export const HTMLStructure = () => {
 </body>
           
             `}
+              </SyntaxHighlighter>
             </code>
           </pre>
           <p>
@@ -348,7 +371,8 @@ export const HTMLStructure = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -361,6 +385,7 @@ export const HTMLStructure = () => {
 </html>
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
