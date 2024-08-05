@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ZIndex = () => {
   return (
@@ -27,23 +30,33 @@ const ZIndex = () => {
       <h4>HTML:</h4>
       <pre>
         <code>
-          {`
-<!-- Example HTML -->
-<div class="pink">
-  <div class="orange"></div>
-</div>
-<div class="blue"></div>
-<div class="green"></div>
-</code></pre>
-
-<h4>CSS:</h4>
-<pre><code>
-/* Example CSS */
-.blue, .pink, .orange {
-  position: absolute; /* Positioning required for z-index */
-}`}
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+    <!-- Example HTML -->
+    <div class="pink">
+      <div class="orange"></div>
+    </div>
+    <div class="blue"></div>
+    <div class="green"></div>
+    `}
+          </SyntaxHighlighter>
         </code>
       </pre>
+
+      <h4>CSS:</h4>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
+    /* Example CSS */
+    .blue, .pink, .orange {
+      position: absolute; /* Positioning required for z-index */
+    }
+    `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405096/posi_fedygu.png"
         alt="demo-7"
@@ -62,12 +75,14 @@ const ZIndex = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
   /* Example CSS */
   .blue { z-index: 2; }
   .orange { z-index: 3; }
   .green { z-index: 100; /* has no effect */ }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <img
@@ -86,7 +101,8 @@ const ZIndex = () => {
       <h4>HTML:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
   <!-- Example HTML -->
   <div class="pink">
     <div class="orange"></div>
@@ -95,12 +111,14 @@ const ZIndex = () => {
   <div class="purple"></div>
   <div class="green"></div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h4>CSS:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
   /* Example CSS */
   .blue, .pink, .orange, .purple {
     position: absolute; /* Positioning required for z-index */
@@ -111,6 +129,7 @@ const ZIndex = () => {
   .orange { z-index: 3; }
   .green { z-index: 100; }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <img
@@ -129,7 +148,8 @@ const ZIndex = () => {
       <h4>HTML:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
   <!-- Example HTML -->
   <div class="pink">
     <div class="orange"></div>
@@ -137,12 +157,14 @@ const ZIndex = () => {
   <div class="blue"></div>
   <div class="green"></div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h4>CSS:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
   /* Example CSS */
   .blue, .pink, .orange {
     position: absolute; /* Positioning required for z-index */
@@ -152,6 +174,7 @@ const ZIndex = () => {
   .orange { z-index: 3; }
   .green { z-index: 100; }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <img
@@ -234,11 +257,13 @@ export const Columns = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .columns {
   columns: 3; /* Creates three columns within the element */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -265,12 +290,14 @@ export const Columns = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .magazine-layout {
   columns: 2; /* Creates two columns for the content */
   column-gap: 20px; /* Adds a gap between the columns */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -293,11 +320,13 @@ export const Columns = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .unequal-columns {
   column-width: 200px 300px; /* Creates two columns with unequal widths */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -317,7 +346,8 @@ export const Columns = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .columns {
   columns: 3;
 }
@@ -326,6 +356,7 @@ export const Columns = () => {
   background-color: #f0f0f0; /* Adds a background color to the second column */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

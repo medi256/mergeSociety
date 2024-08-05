@@ -1,4 +1,6 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ZIndex = () => {
   return (
@@ -19,31 +21,28 @@ const ZIndex = () => {
         <li>Positioned elements in the order they are defined</li>
       </ol>
       <p>
-        {`Non-positioned elements are those with the default position value of
+        Non-positioned elements are those with the default position value of
         "static", while positioned elements have any other position value (e.g.,
-        "absolute", "relative", "sticky", or "fixed").`}
+        "absolute", "relative", "sticky", or "fixed").
       </p>
 
       <h4>HTML:</h4>
-      <pre>
-        <code>
-          {`
-<!-- Example HTML -->
+      <SyntaxHighlighter language="html" style={docco}>
+        {`<!-- Example HTML -->
 <div class="pink">
   <div class="orange"></div>
 </div>
 <div class="blue"></div>
-<div class="green"></div>
-</code></pre>
+<div class="green"></div>`}
+      </SyntaxHighlighter>
 
-<h4>CSS:</h4>
-<pre><code>
-/* Example CSS */
+      <h4>CSS:</h4>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`/* Example CSS */
 .blue, .pink, .orange {
   position: absolute; /* Positioning required for z-index */
 }`}
-        </code>
-      </pre>
+      </SyntaxHighlighter>
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405096/posi_fedygu.png"
         alt="demo-7"
@@ -60,16 +59,12 @@ const ZIndex = () => {
         an element with a lower z-index. However, z-index only works with
         positioned elements.
       </p>
-      <pre>
-        <code>
-          {`
-  /* Example CSS */
-  .blue { z-index: 2; }
-  .orange { z-index: 3; }
-  .green { z-index: 100; /* has no effect */ }
-          `}
-        </code>
-      </pre>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`/* Example CSS */
+.blue { z-index: 2; }
+.orange { z-index: 3; }
+.green { z-index: 100; /* has no effect */ }`}
+      </SyntaxHighlighter>
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405160/zDemo_tatecd.png"
         alt="demo-8"
@@ -84,35 +79,28 @@ const ZIndex = () => {
         affecting how its child elements are displayed.
       </p>
       <h4>HTML:</h4>
-      <pre>
-        <code>
-          {`
-  <!-- Example HTML -->
-  <div class="pink">
-    <div class="orange"></div>
-  </div>
-  <div class="blue"></div>
-  <div class="purple"></div>
-  <div class="green"></div>
-          `}
-        </code>
-      </pre>
+      <SyntaxHighlighter language="html" style={docco}>
+        {`<!-- Example HTML -->
+<div class="pink">
+  <div class="orange"></div>
+</div>
+<div class="blue"></div>
+<div class="purple"></div>
+<div class="green"></div>`}
+      </SyntaxHighlighter>
+
       <h4>CSS:</h4>
-      <pre>
-        <code>
-          {`
-  /* Example CSS */
-  .blue, .pink, .orange, .purple {
-    position: absolute; /* Positioning required for z-index */
-  }
-  .purple { z-index: 0; }
-  .pink { z-index: 1; }
-  .blue { z-index: 2; }
-  .orange { z-index: 3; }
-  .green { z-index: 100; }
-          `}
-        </code>
-      </pre>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`/* Example CSS */
+.blue, .pink, .orange, .purple {
+  position: absolute; /* Positioning required for z-index */
+}
+.purple { z-index: 0; }
+.pink { z-index: 1; }
+.blue { z-index: 2; }
+.orange { z-index: 3; }
+.green { z-index: 100; }`}
+      </SyntaxHighlighter>
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405233/stackDemo_x5h870.png"
         alt="demo-9"
@@ -127,33 +115,25 @@ const ZIndex = () => {
         properties like filter, opacity, and transform.
       </p>
       <h4>HTML:</h4>
-      <pre>
-        <code>
-          {`
-  <!-- Example HTML -->
-  <div class="pink">
-    <div class="orange"></div>
-  </div>
-  <div class="blue"></div>
-  <div class="green"></div>
-          `}
-        </code>
-      </pre>
+      <SyntaxHighlighter language="html" style={docco}>
+        {`<!-- Example HTML -->
+<div class="pink">
+  <div class="orange"></div>
+</div>
+<div class="blue"></div>
+<div class="green"></div>`}
+      </SyntaxHighlighter>
       <h4>CSS:</h4>
-      <pre>
-        <code>
-          {`
-  /* Example CSS */
-  .blue, .pink, .orange {
-    position: absolute; /* Positioning required for z-index */
-  }
-  .pink { filter: hue-rotate(20deg); }
-  .blue { z-index: 2; }
-  .orange { z-index: 3; }
-  .green { z-index: 100; }
-          `}
-        </code>
-      </pre>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`/* Example CSS */
+.blue, .pink, .orange {
+  position: absolute; /* Positioning required for z-index */
+}
+.pink { filter: hue-rotate(20deg); }
+.blue { z-index: 2; }
+.orange { z-index: 3; }
+.green { z-index: 100; }`}
+      </SyntaxHighlighter>
       <img
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405317/stack3_mwtsnf.png"
         alt="demo-12"
@@ -166,9 +146,9 @@ const ZIndex = () => {
       <InArticleAdUnit />
       <h2>Exercise: Layering and Stacking Challenge</h2>
       <p>
-        {`Now it's your turn to put your knowledge into practice! In this
+        Now it's your turn to put your knowledge into practice! In this
         exercise, you will create a layered design using z-index and explore the
-        impact of stacking contexts.`}
+        impact of stacking contexts.
       </p>
       <ol>
         <li>
@@ -218,32 +198,27 @@ export const Columns = () => {
       <InArticleAdUnit />
       <h1>The Magical World of Columns in CSS</h1>
       <p>
-        {`Columns are a powerful tool in CSS that allow you to create visually appealing and
-        structured layouts. They give your designs a magazine-like feel, making your content
-        stand out and easier to read. In this section, we'll explore the fascinating world of
-        columns and learn how to use them effectively in your CSS designs. Let's embark on this
-        column adventure!`}
+        Columns are a powerful tool in CSS that allow you to create visually
+        appealing and structured layouts. They give your designs a magazine-like
+        feel, making your content stand out and easier to read. In this section,
+        we'll explore the fascinating world of columns and learn how to use them
+        effectively in your CSS designs. Let's embark on this column adventure!
       </p>
 
       <h2>Understanding Columns</h2>
       <p>
-        {`Columns are a CSS property that allows you to divide an element's content into
-        multiple vertical columns. They are commonly used to create layouts that resemble
-        magazine articles or newspaper columns. By using columns, you can present your content
-        in a structured and visually appealing way. Here's an example:`}
+        Columns are a CSS property that allows you to divide an element's
+        content into multiple vertical columns. They are commonly used to create
+        layouts that resemble magazine articles or newspaper columns. By using
+        columns, you can present your content in a structured and visually
+        appealing way. Here's an example:
       </p>
 
-      <code>
-        <pre>
-          <code>
-            {`
-.columns {
+      <SyntaxHighlighter language="css" style={docco}>
+        {`.columns {
   columns: 3; /* Creates three columns within the element */
-}
-          `}
-          </code>
-        </pre>
-      </code>
+}`}
+      </SyntaxHighlighter>
 
       <p>
         In the code above, we set the <code>columns</code> property to{" "}
@@ -254,167 +229,76 @@ export const Columns = () => {
 
       <h2>Using Columns</h2>
       <p>
-        {`Columns can be used in various ways to create beautiful and functional designs. Let's
-        explore some common use cases for columns:`}
+        Columns can be used in various ways to create beautiful and functional
+        designs. Let's explore some common use cases for columns:
       </p>
 
       <h3>Magazine-Style Layouts</h3>
       <p>
-        {`Columns are perfect for creating magazine-style layouts. They give your designs a
-        sophisticated and professional look. Here's an example:`}
+        Columns are often used in magazine-style layouts to present text and
+        images in an organized and visually appealing manner. By dividing the
+        content into multiple columns, you can create a sophisticated and
+        professional look. Here's an example:
       </p>
 
-      <code>
-        <pre>
-          <code>
-            {`
-.magazine-layout {
-  columns: 2; /* Creates two columns for the content */
-  column-gap: 20px; /* Adds a gap between the columns */
-}
-          `}
-          </code>
-        </pre>
-      </code>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`.magazine-layout {
+  columns: 2; /* Creates two columns within the element */
+}`}
+      </SyntaxHighlighter>
 
+      <h3>Grid-Based Layouts</h3>
       <p>
-        In the code above, we set the <code>columns</code> property to{" "}
-        <code>2</code>, creating two columns for the content. We also added a{" "}
-        <code>column-gap</code> to create a visually appealing gap between the
-        columns.
+        Columns can also be used to create grid-based layouts, where elements
+        are arranged in a grid pattern. This technique is commonly used in web
+        design to create responsive and visually appealing layouts. Here's an
+        example:
       </p>
 
-      <h3>Unequal Columns</h3>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`.grid-layout {
+  columns: 4; /* Creates four columns within the element */
+}`}
+      </SyntaxHighlighter>
+
+      <h2>Column Width and Gaps</h2>
       <p>
-        You can create columns with unequal widths by using the{" "}
-        <code>column-width</code>
-        property. This allows you to specify the exact width of each column.{" "}
-        {`Here's an example:`}
+        When working with columns, you can also specify the width of each column
+        and the gap between columns. This allows you to control the layout and
+        spacing of your columns more precisely. Here's an example:
       </p>
 
-      <code>
-        <pre>
-          <code>
-            {`
-.unequal-columns {
-  column-width: 200px 300px; /* Creates two columns with unequal widths */
-}
-          `}
-          </code>
-        </pre>
-      </code>
+      <SyntaxHighlighter language="css" style={docco}>
+        {`.columns {
+  columns: 3; /* Creates three columns within the element */
+  column-width: 200px; /* Sets the width of each column */
+  column-gap: 20px; /* Sets the gap between columns */
+}`}
+      </SyntaxHighlighter>
 
       <p>
         In the code above, we set the <code>column-width</code> property to{" "}
-        <code>200px 300px</code>, creating two columns with unequal widths. You
-        can adjust the values to achieve the desired layout.
+        <code>200px</code>, which means each column will have a width of{" "}
+        <code>200px</code>. We also set the <code>column-gap</code> property to{" "}
+        <code>20px</code>, which adds a gap of <code>20px</code> between each
+        column.
       </p>
 
-      <h3>Applying Styles to Columns</h3>
+      <h2>Conclusion</h2>
       <p>
-        {`You can apply styles to individual columns within a multi-column layout. This allows you
-        to highlight specific columns or create unique designs. Here's an example:`}
+        Columns are a powerful tool in CSS that allow you to create visually
+        appealing and structured layouts. By dividing your content into multiple
+        columns, you can create magazine-style layouts, grid-based designs, and
+        more. Experiment with different column configurations to find the
+        perfect layout for your website. Embrace the magic of columns and take
+        your designs to the next level!
       </p>
 
-      <code>
-        <pre>
-          <code>
-            {`
-.columns {
-  columns: 3;
-}
-
-.column:nth-child(2) {
-  background-color: #f0f0f0; /* Adds a background color to the second column */
-}
-          `}
-          </code>
-        </pre>
-      </code>
-
-      <p>
-        In the code above, we applied a background color to the second column
-        using the
-        <code>:nth-child()</code> pseudo-class. You can use this technique to
-        style specific columns within your layout.
-      </p>
-
-      <h2>Benefits of Columns</h2>
-      <p>Using columns offers several advantages for your designs:</p>
-
-      <ul>
-        <li>
-          <strong>Visual Appeal:</strong> Columns add a professional and
-          polished look to your designs, making your content stand out and
-          creating a magazine-like feel.
-        </li>
-        <li>
-          <strong>Layout Flexibility:</strong> Columns allow you to present
-          content in a structured and organized manner, making it easier for
-          users to scan and digest information.
-        </li>
-        <li>
-          <strong>Content Presentation:</strong> Columns help you present
-          content in a visually appealing way, making it easier for users to
-          focus on specific sections or articles.
-        </li>
-      </ul>
       <InArticleAdUnit />
-      <h2>Challenges of Columns</h2>
-      <p>While columns are powerful, they also come with some challenges:</p>
-
-      <ul>
-        <li>
-          <strong>Content Overflow:</strong> If the content within a column is
-          too long, it may overflow and overlap with the next column. This can
-          be addressed by setting a specific height for the columns or using the{" "}
-          <code>column-fill</code> property.
-        </li>
-        <li>
-          <strong>Browser Compatibility:</strong>{" "}
-          {`Columns may not be supported in older
-          browsers, so it's important to test your designs across different browsers to
-          ensure compatibility.`}
-        </li>
-      </ul>
-
-      <h2>Practice Time!</h2>
-      <p>
-        {`Now it's time to put your knowledge into practice! Open your code editor and
-        create a new HTML file. Let's explore the wonderful world of columns:`}
-      </p>
-
-      <ol>
-        <li>
-          Create a simple HTML structure with containers and content to serve as
-          containers for your column experiments.
-        </li>
-        <li>
-          Apply the <code>columns</code> property to elements and observe how
-          the content is divided into multiple columns. Try using different
-          column counts to create varied layouts.
-        </li>
-        <li>
-          Experiment with the <code>column-gap</code> property to add spacing
-          between columns, creating a visually appealing layout.
-        </li>
-        <li>
-          Refer to columns resources and tutorials to discover creative ways to
-          use columns, such as creating magazine-style layouts, applying styles
-          to individual columns, or managing content overflow.
-        </li>
-      </ol>
-
-      <p>
-        Remember, columns are a powerful tool in CSS that allow you to create
-        visually appealing and functional designs. Choose column options that
-        align with your design goals, ensure responsiveness, and create engaging
-        interfaces. Happy coding and happy designing!
-      </p>
 
       <div className="button-container">
         <button onClick={() => (window.location.href = "/zIndexMob")}>
-          back
+          Back
         </button>
         <button onClick={() => (window.location.href = "/overFlowMob")}>
           Next

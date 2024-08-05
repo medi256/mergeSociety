@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Grid = () => {
   return (
@@ -116,18 +119,22 @@ const Grid = () => {
       <h4>For Example:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 display: grid;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <h4>or</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 display: inline-grid;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -145,9 +152,11 @@ display: inline-grid;
       <h4>For Example:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 grid-template-columns: 100px auto 100px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -176,9 +185,11 @@ grid-template-columns: 100px auto 100px;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 grid-template-rows: 50px 50px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -196,9 +207,11 @@ grid-template-rows: 50px 50px;
       <h4>For example:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 grid-template: 50px 50px / 100px auto 100px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -237,9 +250,11 @@ grid-template: 50px 50px / 100px auto 100px;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 column-gap: 20px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -262,9 +277,11 @@ column-gap: 20px;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 row-gap: 50px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -285,9 +302,11 @@ row-gap: 50px;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 gap: 20px;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -328,9 +347,11 @@ gap: 20px;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: start;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -349,9 +370,11 @@ justify-content: start;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: end;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -369,9 +392,11 @@ justify-content: end;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: center;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -392,9 +417,11 @@ justify-content: center;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: space-around;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -416,9 +443,11 @@ justify-content: space-around;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: space-between;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -439,9 +468,11 @@ justify-content: space-between;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 justify-content: space-evenly;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -486,9 +517,11 @@ justify-content: space-evenly;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: start;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -507,9 +540,11 @@ align-content: start;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: end;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -527,9 +562,11 @@ align-content: end;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: center;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -550,9 +587,11 @@ align-content: center;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: space-around;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -575,9 +614,11 @@ align-content: space-around;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: space-between;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -598,9 +639,11 @@ align-content: space-between;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 align-content: space-evenly;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -653,12 +696,14 @@ export const Variables = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 :root {
   --primary-color: blue; /* Defines a variable for the primary color */
   --font-size: 16px; /* Defines a variable for the font size */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -689,7 +734,8 @@ export const Variables = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 :root {
   --primary-color: blue;
 }
@@ -698,6 +744,7 @@ export const Variables = () => {
   background-color: var(--primary-color); /* Uses the defined variable */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -713,7 +760,8 @@ export const Variables = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 :root {
   --content-width: 90%; /* Defines a variable for the content width */
 
@@ -726,6 +774,7 @@ export const Variables = () => {
   width: var(--content-width); /* Uses the defined variable */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -740,7 +789,8 @@ export const Variables = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 :root {
   --font-size: 16px; /* Defines a variable for the font size */
   --spacing: 20px; /* Defines a variable for spacing */
@@ -754,6 +804,7 @@ body {
   padding: var(--spacing); /* Uses the defined spacing value */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

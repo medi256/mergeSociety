@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const MediaQuaries = () => {
   return (
@@ -58,11 +61,13 @@ const MediaQuaries = () => {
       <p>Here is the basic syntax for a media query in CSS:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 @media media-type (media-feature){
   /*Styles go here*/
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>{`Let's`} break down what this syntax means.</p>
@@ -96,11 +101,13 @@ const MediaQuaries = () => {
       <p>You can choose to omit the media type and use this syntax instead.</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 @media (media-feature){
   /*Styles go here*/
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -152,13 +159,15 @@ const MediaQuaries = () => {
       <h4>Here is the complete media query:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 @media (max-width: 600px) {
   body {
     background-color: #87ceeb;
   }
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <img
@@ -172,13 +181,15 @@ const MediaQuaries = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 @media (min-width: 600px) and (max-width: 768px) {
   body {
     background-color: #de3163;
   }
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -223,11 +234,13 @@ const MediaQuaries = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 @media media-type (media-feature){
   /*Styles go here*/
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -279,11 +292,13 @@ export const Universal = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 * {
   color: blue; /* Sets the color of all elements to blue */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -310,13 +325,15 @@ export const Universal = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 * {
   font-family: Arial, sans-serif; /* Sets the font family for all elements */
   margin: 0; /* Removes margins from all elements */
   padding: 0; /* Removes padding from all elements */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -332,13 +349,15 @@ export const Universal = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 * {
   margin: 0; /* Resets margins for all elements */
   padding: 0; /* Resets padding for all elements */
   border: none; /* Removes borders from all elements */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -354,11 +373,13 @@ export const Universal = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 * .highlight {
   background-color: yellow; /* Adds a yellow background to all elements with the "highlight" class */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const MinWidth = () => {
   return (
@@ -24,11 +27,13 @@ const MinWidth = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   min-width: 300px; /* Sets the minimum width to 300 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -52,11 +57,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   min-width: 600px; /* Sets the minimum width to 600 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -164,11 +171,13 @@ export const MinHeight = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   min-height: 200px; /* Sets the minimum height to 200 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -192,11 +201,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   min-height: 500px; /* Sets the minimum height to 500 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

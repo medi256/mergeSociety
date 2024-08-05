@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const List = () => {
   return (
@@ -75,7 +78,8 @@ const List = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 ul {
   list-style-type: circle; /* Changes the marker style to circles */
 }
@@ -84,6 +88,7 @@ ol {
   list-style-type: lower-alpha; /* Changes the marker style to lowercase letters */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -121,12 +126,14 @@ ol {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 li {
   padding-left: 20px; /* Adds left padding for indentation */
   margin-bottom: 10px; /* Adds bottom margin for spacing between list items */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -148,11 +155,13 @@ li {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 ul {
   list-style-image: url('custom-marker.png'); /* Uses an image as the marker */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -317,7 +326,8 @@ export const Table = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 table {
   border: 1px solid black; /* Adds a solid black border around the table */
   border-collapse: collapse; /* Collapses the borders */
@@ -327,6 +337,7 @@ td {
   border: 1px solid #ddd; /* Adds borders to table cells */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -349,11 +360,13 @@ td {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 tr:nth-child(even) {
   background-color: #eee; /* Adds a background color to every other row */
 }
       `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -401,7 +414,8 @@ tr:nth-child(even) {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 thead {
   background-color: #f5f5f5; /* Adds a background color to table headers */
   color: #333; /* Changes the text color in table headers */
@@ -411,6 +425,7 @@ tr:nth-child(even) {
   background-color: #eee; /* Adds alternating row colors */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -434,12 +449,14 @@ tr:nth-child(even) {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 td {
   padding: 10px; /* Adds padding to table cells */
   text-align: center; /* Centers the text within the cell */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Filter = () => {
   return (
@@ -67,10 +70,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: blur(5px);
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -81,10 +86,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: grayscale(100%);
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -96,10 +103,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: brightness(150%);
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -110,10 +119,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: contrast(200%);
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -125,10 +136,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: hue-rotate(90deg);
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -140,10 +153,12 @@ const Filter = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="CSS" style={docco}>
+            {`
 .image {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -153,7 +168,8 @@ const Filter = () => {
       <iframe
         width="100%"
         height="300"
-        srcDoc={`<!DOCTYPE html>
+        srcDoc={`
+<!DOCTYPE html>
 <html>
 <head>
   <style>

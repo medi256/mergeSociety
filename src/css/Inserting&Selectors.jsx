@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Inserting = () => {
   return (
@@ -53,12 +56,14 @@ const Inserting = () => {
           <code>
             <pre>
               <code>
-                {`
+                <SyntaxHighlighter language="CSS" style={docco}>
+                  {`
 h1 {
   color: blue;
   text-align: center;
 }
               `}
+                </SyntaxHighlighter>
               </code>
             </pre>
           </code>
@@ -80,7 +85,8 @@ h1 {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -91,6 +97,7 @@ h1 {
   </body>
 </html>
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -159,9 +166,11 @@ h1 {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <h1 style="color: blue; text-align: center;">My Heading</h1>
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -177,7 +186,11 @@ h1 {
         Using the{" "}
         <code>
           {" "}
-          <code>{`<style>`}</code>
+          <code>
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`<style>`}
+            </SyntaxHighlighter>
+          </code>
         </code>{" "}
         Element
       </h3>
@@ -191,7 +204,8 @@ h1 {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -210,6 +224,7 @@ h1 {
   </body>
 </html>
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -232,9 +247,11 @@ h1 {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <h1 style="color: red; font-size: 24px;">My Heading</h1>
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -350,13 +367,15 @@ export const Selectors = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 p {
   color: blue;
 }
 
 /* This selector targets all <p> elements and makes their text color blue. */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -383,13 +402,15 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .highlight {
   background-color: yellow;
 }
 
 /* This selector targets all elements with the class "highlight" and makes their background color yellow. */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -399,10 +420,12 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <p class="highlight">This paragraph will have a yellow background.</p>
 <div class="highlight">This div will also have a yellow background.</div>
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -423,13 +446,15 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 #header {
   font-size: 24px;
 }
 
 /* This selector targets the element with the ID "header" and sets its font size to 24 pixels. */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -439,9 +464,11 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <h1 id="header">This is the header</h1>
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -468,13 +495,15 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 a[href^="https"] {
   color: green;
 }
 
 /* This selector targets all <a> elements with an "href" attribute starting with "https" and makes their text color green. */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -498,13 +527,15 @@ a[href^="https"] {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 ul li {
   color: red;
 }
 
 /* This selector targets <li> elements that are descendants of <ul> elements and makes their text color red. */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -514,13 +545,15 @@ ul li {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
   <li>Item 3</li>
 </ul>
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

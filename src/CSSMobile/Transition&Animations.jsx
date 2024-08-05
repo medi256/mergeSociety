@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Transition = () => {
   return (
@@ -26,11 +29,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.5s ease-in-out; /* Animates the width change over 0.5 seconds with a smooth start and end */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -53,11 +58,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.3s; /* Animates the width change over 0.3 seconds */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -72,11 +79,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.5s 0.2s; /* Animates the width change over 0.5 seconds with a 0.2-second delay */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -93,11 +102,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.4s ease-in; /* Animates the width change over 0.4 seconds with a slow start and fast end */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -117,7 +128,8 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.3s ease; /* Animates the width change over 0.3 seconds with a smooth animation */
 }
@@ -126,6 +138,7 @@ const Transition = () => {
   width: 200px; /* Changes the width when hovered */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -147,11 +160,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: opacity 0.5s ease 0.2s; /* Animates the opacity change over 0.5 seconds with a 0.2-second delay */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -165,11 +180,13 @@ const Transition = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transition: width 0.4s ease, height 0.6s linear; /* Animates width and height changes with different durations and easing functions */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -289,7 +306,8 @@ export const Animations = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 @keyframes slideIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -299,6 +317,7 @@ export const Animations = () => {
   animation: slideIn 1s infinite alternate;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -322,12 +341,14 @@ export const Animations = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 @keyframes fadeIn {
   0% { opacity: 0; } /* Start state */
   100% { opacity: 1; } /* End state */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -389,7 +410,8 @@ export const Animations = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -399,6 +421,7 @@ export const Animations = () => {
   animation: fadeIn 0.5s ease-in-out;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -418,7 +441,8 @@ export const Animations = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 @keyframes buttonHover {
   0% { background-color: blue; }
   100% { background-color: green; }
@@ -428,6 +452,7 @@ export const Animations = () => {
   animation: buttonHover 0.3s;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -447,7 +472,8 @@ export const Animations = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -462,6 +488,7 @@ export const Animations = () => {
   animation: fadeIn 0.4s, slideDown 0.6s;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

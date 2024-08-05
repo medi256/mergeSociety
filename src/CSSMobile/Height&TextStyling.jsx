@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Height = () => {
   return (
@@ -24,11 +27,13 @@ const Height = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   height: 200px; /* Sets the height to 200 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -50,11 +55,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   height: 50%; /* Sets the height to 50% of the parent's height */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -81,11 +88,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   height: auto; /* Sets the height based on the image's original size */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -181,11 +190,13 @@ export const TextStyling = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   word-spacing: 5px; /* Adds 5 pixels of space between each word */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -210,11 +221,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 h1 {
   letter-spacing: 2px; /* Adds 2 pixels of space between each letter */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -240,11 +253,13 @@ h1 {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   line-height: 1.5; /* Sets the line height to 1.5 times the font size */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -270,11 +285,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   text-align: justify; /* Justifies the text within the container */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Introduction = () => {
   return (
@@ -259,13 +262,15 @@ export const Syntax = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 h1 {
   color: red;
   font-size: 24px;
   text-align: center;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

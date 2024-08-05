@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Units = () => {
   return (
@@ -57,7 +60,8 @@ const Units = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   width: 300px; /* Sets the width to 300 pixels */
   margin: 20px; /* Adds 20 pixels of margin around the element */
@@ -65,6 +69,7 @@ div {
   font-size: 1.5rem; /* Sets the font size to 1.5 times the root font size */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -104,11 +109,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .fade-in {
   transition: opacity 0.5s ease; /* Sets a 0.5-second transition for the opacity property */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -188,12 +195,14 @@ export const BoxModel = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   width: 300px; /* Sets the width of the content area */
   height: 200px; /* Sets the height of the content area */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -220,11 +229,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   padding: 20px; /* Adds 20 pixels of padding around the content */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -250,11 +261,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   border: 1px solid black; /* Adds a 1-pixel solid black border */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -280,11 +293,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   margin: 10px; /* Adds 10 pixels of margin around the element */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -343,12 +358,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 p {
   padding: 0; /* Removes the default padding */
   border: 0; /* Removes the default border */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -375,11 +392,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   box-sizing: border-box; /* Includes padding and border in width and height calculations */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

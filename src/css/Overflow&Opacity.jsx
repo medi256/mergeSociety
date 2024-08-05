@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Overflow = () => {
   return (
@@ -55,7 +58,8 @@ const Overflow = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   overflow: visible; /* Content overflows outside the box */
   width: 200px; 
@@ -63,6 +67,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -84,7 +89,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   overflow: hidden; /* Overflowing content is hidden */
   width: 200px; 
@@ -92,6 +98,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -113,7 +120,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   overflow: scroll; /* Adds a scrollbar for overflowing content */
   width: 200px; 
@@ -121,6 +129,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -143,7 +152,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   overflow: auto; /* Adds a scrollbar only if needed */
   width: 200px; 
@@ -151,6 +161,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -179,7 +190,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .sidebar {
   overflow: auto; /* Adds scrollbar if content exceeds size */
   width: 300px; 
@@ -187,6 +199,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -208,7 +221,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .chat-window {
   overflow: scroll; /* Always shows scrollbar for overflow content */
   width: 100%; 
@@ -216,6 +230,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -303,7 +318,8 @@ export const Opacity = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   opacity: 1; /* Fully opaque */
   width: 200px; 
@@ -312,6 +328,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -331,7 +348,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   opacity: 0.5; /* 50% transparent */
   width: 200px; 
@@ -340,6 +358,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -359,7 +378,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   opacity: 0; /* Fully transparent */
   width: 200px; 
@@ -368,6 +388,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -394,7 +415,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 button {
   opacity: 1; /* Default opacity */
 }
@@ -403,6 +425,7 @@ button:hover {
   opacity: 0.7; /* Slightly transparent on hover */
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -422,7 +445,8 @@ button:hover {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .overlay {
   position: absolute;
   top: 0;
@@ -433,6 +457,7 @@ button:hover {
   opacity: 0.5; /* Semi-transparent black overlay */
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -453,7 +478,8 @@ button:hover {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .layer1 {
   opacity: 0.9; 
   background-color: red;
@@ -482,6 +508,7 @@ button:hover {
   left: 40px;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -507,7 +534,8 @@ button:hover {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
   width: 200px; 
@@ -515,6 +543,7 @@ div {
   border: 1px solid black;
 }
             `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

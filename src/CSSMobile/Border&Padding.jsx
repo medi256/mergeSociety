@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Border = () => {
   return (
@@ -26,11 +29,13 @@ const Border = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   border-style: solid;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -110,11 +115,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   border-width: 2px;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -138,11 +145,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   border-color: #336699; /* Dark blue */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -172,11 +181,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   border-radius: 5px;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -203,11 +214,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   border: 1px solid red; /* Border width, style, and color */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -306,11 +319,13 @@ export const Padding = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding: 10px; /* Adds 10px of padding to all sides */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -334,12 +349,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding-top: 20px; /* Adds 20px of padding to the top */
 
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -365,11 +382,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding-right: 15px; /* Adds 15px of padding to the right */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -395,11 +414,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding-bottom: 10px; /* Adds 10px of padding to the bottom */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -425,11 +446,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding-left: 25px; /* Adds 25px of padding to the left */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -455,11 +478,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding: 10px 20px; /* Adds 10px of padding to the top and bottom, and 20px of padding to the left and right */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -484,11 +509,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   padding: 5%; /* Adds 5% of the parent's width as padding */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

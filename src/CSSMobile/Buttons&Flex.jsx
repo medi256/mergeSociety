@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Buttons = () => {
   return <div></div>;
@@ -30,7 +33,8 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex; /* Enables flex layout for the container */
 }
@@ -39,6 +43,7 @@ export const Flex = () => {
   flex: 1; /* Makes the item flexible and distributes space evenly */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -61,12 +66,14 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex;
   flex-direction: column; /* Arranges items in a column */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -90,12 +97,14 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex;
   flex-wrap: wrap; /* Makes items wrap to new lines */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -116,13 +125,15 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex;
   align-items: center; /* Centers items vertically */
   justify-content: space-between; /* Distributes items evenly with space between them */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -151,12 +162,14 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex;
   flex-wrap: wrap; /* Makes items wrap to new lines */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -171,13 +184,15 @@ export const Flex = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   display: flex;
   align-items: center; /* Centers items vertically */
   justify-content: center; /* Centers items horizontally */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

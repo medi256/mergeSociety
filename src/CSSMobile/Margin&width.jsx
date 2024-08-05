@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Margin = () => {
   return (
@@ -28,11 +31,13 @@ const Margin = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin: 10px; /* Adds 10px of margin to all sides */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -58,11 +63,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin-top: 20px; /* Adds 20px of margin to the top */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -87,11 +94,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin-right: 15px; /* Adds 15px of margin to the right */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -116,11 +125,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin-bottom: 10px; /* Adds 10px of margin to the bottom */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -145,11 +156,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin-left: 25px; /* Adds 25px of margin to the left */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -173,11 +186,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin: 10px 20px; /* Adds 10px of margin to the top and bottom, and 20px of margin to the left and right */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -202,11 +217,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin: -10px; /* Moves the element 10px closer to its neighboring elements or the edges of the page */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -229,11 +246,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   margin: 5%; /* Adds 5% of the parent's width as margin */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -334,11 +353,13 @@ export const Width = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   width: 300px; /* Sets the width to 300 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -361,11 +382,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   width: 50%; /* Sets the width to 50% of the parent's width */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -392,11 +415,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   width: auto; /* Sets the width based on the image's original size */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

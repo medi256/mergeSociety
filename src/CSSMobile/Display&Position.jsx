@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Display = () => {
   return (
@@ -51,10 +54,12 @@ const Display = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <div>I'm a block-level element</div>
 <p>I take up the full width of my container</p>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -88,10 +93,12 @@ const Display = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <p>This is a <span>span element</span> within a paragraph.</p>
 <i>I'm an italic text element, flowing with the text.</i>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -111,7 +118,8 @@ const Display = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
 /* CSS */
 
 /* Transforming a block-level list item to inline */
@@ -124,6 +132,7 @@ span {
   display: block;
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -145,12 +154,14 @@ span {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
 /* CSS */
 .hidden-element {
   display: none;
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -172,7 +183,8 @@ span {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
 /* CSS */
 span {
   display: inline-block;
@@ -180,6 +192,7 @@ span {
   height: 50px;
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -322,21 +335,26 @@ export const Position = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
     <div class="parent purple"></div>
           `}
+          </SyntaxHighlighter>
         </code>
         <br />
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
     <div class="another green"></div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p> And here’s the CSS we’re using:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
  .first { 
    // No position set, so it's static 
 } 
@@ -345,6 +363,7 @@ export const Position = () => {
    top: 50px; 
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -382,7 +401,8 @@ export const Position = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
    .first { 
      position: static; 
   } 
@@ -391,6 +411,7 @@ export const Position = () => {
      top: 50px; 
   }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -414,17 +435,20 @@ export const Position = () => {
       <h4>Here’s the HTML for that:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
   <div class="parent purple"> 
      <div class="child magenta"></div> 
   </div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h4>And our CSS styles:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
    .parent { 
      position: relative; 
   } 
@@ -434,6 +458,7 @@ export const Position = () => {
      left: 0px; 
   }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>And here’s what that code will look like in real life:</p>
@@ -478,7 +503,8 @@ export const Position = () => {
       <h4>Our CSS will now look like this:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
    .parent { 
      position: relative; 
   } 
@@ -488,6 +514,7 @@ export const Position = () => {
      left: 0px;
   }         
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <img
@@ -538,7 +565,8 @@ export const Position = () => {
       <h4>Here’s our CSS for this illustration:</h4>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
     .parent { 
       // No position set, so it's static 
    } 
@@ -548,6 +576,7 @@ export const Position = () => {
       left: 0px; 
    }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h4>And here’s what the resulting webpage would look like:</h4>
@@ -599,20 +628,23 @@ export const Position = () => {
       <pre>
         <code>
           <pre>
-            {`
+            <SyntaxHighlighter language="HTML" style={docco}>
+              {`
             
 <div class="first purple"> 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit....
 </div> 
 <div class="another green"></div>
             `}
+            </SyntaxHighlighter>
           </pre>
         </code>
       </pre>
       <p>And in our CSS, we’ve set the second element to be position: fixed:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
  .first { 
    position: relative; 
 } 
@@ -622,6 +654,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
    left: 0px; 
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>And this is what that will look like:</p>
@@ -669,7 +702,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
           
 <div class="first purple"> 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.... 
@@ -679,12 +713,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.... 
 </div>
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>And the CSS for our sticky element:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
   .first { 
     position: relative; 
  } 
@@ -693,6 +729,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
     top: 0px; 
  }         
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>And here’s what it looks like on the webpage!</p>

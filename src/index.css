@@ -178,7 +178,7 @@ body {
 }
 
 .comments-container pre {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   color: #c7544d;
   padding: 12px;
   border-radius: 4px;
@@ -242,7 +242,6 @@ code {
 }
 
 .comments-container code {
-  background-color: #f0f0f0;
   padding: 2px 5px;
   border-radius: 3px;
   font-family: "Montserrat", sans-serif;
@@ -456,7 +455,6 @@ video {
 }
 
 .internet code {
-  background-color: #ecf0f1;
   padding: 2px 4px;
   border-radius: 4px;
 }

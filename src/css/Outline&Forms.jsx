@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Outline = () => {
   return (
@@ -23,11 +26,13 @@ const Outline = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .element {
   outline: 2px solid red; /* Creates a 2-pixel solid red outline */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -52,11 +57,13 @@ const Outline = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .element {
   outline-style: dashed; /* Creates a dashed outline */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -71,11 +78,13 @@ const Outline = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .element {
   outline-width: 3px; /* Creates a 3-pixel wide outline */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -90,11 +99,13 @@ const Outline = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .element {
   outline-color: blue; /* Creates a blue outline */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -115,11 +126,13 @@ const Outline = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 button:hover {
   outline: 1px dashed blue; /* Adds a dashed blue outline on hover */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -133,11 +146,13 @@ button:hover {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 img {
   outline: 1px dotted green; /* Adds a dotted green outline */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -256,7 +271,8 @@ export const Forms = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 input[type="text"] {
   padding: 10px;
   border: 1px solid #ccc;
@@ -266,6 +282,7 @@ input[type="text"] {
   background-position: right 10px center; /* Position the image */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -289,7 +306,8 @@ input[type="text"] {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 select {
   padding: 10px;
   border: 1px solid #ccc;
@@ -297,6 +315,7 @@ select {
   background-color: #f5f5f5; /* Add a light background color */
             }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -317,7 +336,8 @@ select {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 /* Adding a creative touch with a transparent image */
 
 input[type="text"] {
@@ -329,6 +349,7 @@ input[type="text"] {
   background-position: right 10px center;
             }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

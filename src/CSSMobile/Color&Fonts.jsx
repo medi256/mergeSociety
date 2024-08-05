@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Color = () => {
   return (
@@ -25,11 +28,13 @@ const Color = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   color: red; /* Sets the text color of paragraphs to red */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -53,7 +58,8 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   color: red; /* Keyword for red color */
 }
@@ -62,6 +68,7 @@ div {
   color: blue; /* Keyword for blue color */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -84,11 +91,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 #FF0000 /* Red */
 #00FF00 /* Lime Green */
 #336699 /* Dark Blue */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -122,7 +131,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   color: rgb(255, 0, 0); /* Red */
 }
@@ -131,6 +141,7 @@ div {
   color: rgb(0, 255, 0); /* Green */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -159,7 +170,8 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   color: hsl(0, 100%, 50%); /* Red */
 }
@@ -168,6 +180,7 @@ div {
   color: hsl(120, 50%, 75%); /* Light Green */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -197,11 +210,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -343,11 +358,13 @@ export const Fonts = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   font-family: Arial, sans-serif;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -378,11 +395,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   font-size: 16px;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -410,11 +429,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   font-weight: bold;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -439,11 +460,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   font-style: italic;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -466,11 +489,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a {
   text-decoration: underline;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -544,11 +569,13 @@ a {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   text-transform: uppercase;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -590,11 +617,13 @@ p {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 p {
   line-height: 1.5;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

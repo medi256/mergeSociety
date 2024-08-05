@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Background = () => {
   return (
@@ -26,11 +29,13 @@ const Background = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-color: #336699; /* Dark blue */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -63,11 +68,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-image: url("background.jpg");
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -103,12 +110,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -133,12 +142,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-image: url("background.jpg");
   background-position: center;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -163,12 +174,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-image: url("background.jpg");
   background-size: cover;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -195,12 +208,14 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 div {
   background-image: url("background.jpg");
   background-attachment: fixed;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -300,11 +315,13 @@ export const Comments = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 /* This is a single-line comment */
 /* You can use comments to explain your code */
 /* Comments are ignored by the browser */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -328,13 +345,15 @@ export const Comments = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 /*
   This is a multi-line comment
   You can include multiple lines of text
   within the comment block
 */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -357,7 +376,8 @@ export const Comments = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 /*
   This rule is temporarily disabled
   .highlight {
@@ -365,6 +385,7 @@ export const Comments = () => {
   }
 */
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Links = () => {
   return (
@@ -36,11 +39,13 @@ const Links = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a {
   color: blue; /* Changes the text color of links to blue */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -62,11 +67,13 @@ a {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a {
   text-decoration: none; /* Removes the underline from links */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -82,12 +89,14 @@ a {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a:hover {
   text-decoration: underline; /* Adds an underline on hover */
   background-color: #eee; /* Changes the background color on hover */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -130,11 +139,13 @@ a:hover {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a {
   cursor: pointer; /* Changes the cursor to a pointing hand */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -167,7 +178,8 @@ a {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a:visited {
   color: purple; /* Changes the color of visited links to purple */
 }
@@ -176,6 +188,7 @@ a:active {
   color: red; /* Changes the color of active links to red */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -199,11 +212,13 @@ a:active {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 a {
   transition: background-color 0.3s ease-in-out; /* Applies a transition effect to the background color */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -333,12 +348,14 @@ export const Images = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   border: 1px solid #ddd; /* Adds a solid border around the image */
   border-radius: 5px; /* Rounds the corners of the image */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -362,12 +379,14 @@ img {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   max-width: 100%; /* Makes the image responsive */
   height: auto; /* Maintains the aspect ratio */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -389,7 +408,8 @@ img {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .image-frame {
   padding: 10px;
   border: 1px solid #333;
@@ -401,6 +421,7 @@ img {
   height: auto;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -430,11 +451,13 @@ img {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   background-color: #f5f5f5; /* Adds a background color to the image */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -448,11 +471,13 @@ img {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 img {
   box-shadow: 0px 0px 10px #333; /* Adds a shadow around the image */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

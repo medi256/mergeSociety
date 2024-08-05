@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Icon = () => {
   return (
@@ -79,7 +82,9 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <head>
   <link
     rel="stylesheet"
@@ -89,7 +94,9 @@ const Icon = () => {
     referrerpolicy="no-referrer"
   />
 </head>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <p>
@@ -118,9 +125,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="fa-brands fa-facebook"></i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <p>
@@ -150,14 +161,18 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <head>
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
   />
 </head>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <h4>Exploring Bootstrap Icons</h4>
@@ -177,9 +192,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="bi-home"></i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <p>
@@ -225,9 +244,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="material-icons">face</i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <p>
@@ -253,9 +276,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="fa-home" style="font-size: 32px;"></i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <InArticleAdUnit />
       <h3>Icon Colors</h3>
@@ -268,9 +295,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="fa-heart" style="color: red;"></i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <h3>Icon Animations</h3>
@@ -282,9 +313,13 @@ const Icon = () => {
       </p>
 
       <pre>
-        <code>{`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <i class="fa-spin fa-spinner"></i>
-        `}</code>
+        `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <h2>Best Practices for Using Icons in CSS</h2>
@@ -394,7 +429,8 @@ export const Float = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .sidebar {
   float: left;
   width: 200px;
@@ -405,6 +441,7 @@ export const Float = () => {
   width: 800px;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -427,12 +464,14 @@ export const Float = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 img {
   float: left;
   margin-right: 20px;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -455,11 +494,13 @@ img {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="CSS" style={docco}>
+              {`
 .clearfix {
   clear: both;
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

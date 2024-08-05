@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const MaxWidth = () => {
   return (
@@ -26,11 +29,13 @@ const MaxWidth = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   max-width: 500px; /* Sets the maximum width to 500 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -54,11 +59,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   max-width: 1200px; /* Sets the maximum width to 1200 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -173,11 +180,13 @@ export const MaxHeight = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 div {
   max-height: 300px; /* Sets the maximum height to 300 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -201,11 +210,13 @@ div {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .container {
   max-height: 600px; /* Sets the maximum height to 600 pixels */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

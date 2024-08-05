@@ -1,4 +1,7 @@
 import { InArticleAdUnit } from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const AttributeS = () => {
   return (
@@ -18,11 +21,13 @@ const AttributeS = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
 element[attribute="value"] {
   /* Styles applied to elements with specified attribute and value */
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -31,11 +36,13 @@ element[attribute="value"] {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="css" style={docco}>
+            {`
 a[target="_blank"] {
   /* Styles applied to anchor elements with target="_blank" */
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <InArticleAdUnit />
@@ -105,11 +112,13 @@ export const Transform = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transform: rotate(45deg); /* Rotates the element 45 degrees */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -136,12 +145,14 @@ export const Transform = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transform: translateX(50px); /* Moves the element 50 pixels to the right */
   transform: translateY(100px); /* Moves the element 100 pixels down */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -162,11 +173,13 @@ export const Transform = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transform: rotate(30deg); /* Rotates the element 30 degrees clockwise */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>
@@ -185,11 +198,13 @@ export const Transform = () => {
       <code>
         <pre>
           <code>
-            {`
+            <SyntaxHighlighter language="css" style={docco}>
+              {`
 .element {
   transform: scale(2); /* Doubles the size of the element */
 }
           `}
+            </SyntaxHighlighter>
           </code>
         </pre>
       </code>

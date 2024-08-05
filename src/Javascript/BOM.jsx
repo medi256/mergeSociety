@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const IntroductionBOM = () => {
   return (
@@ -169,25 +172,24 @@ export const WindowObject = () => {
       </p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+<!DOCTYPE html>
 <html>
 <head>
   <title>Alert Example</title>
 </head>
 <body>
-  `}
-          <span className="codePurple">
-            {`
+
   <script>
     // Show an alert box with a message
     alert("Form submitted successfully!");
   </script>
     
-    `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -223,15 +225,15 @@ export const WindowObject = () => {
       </p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+<!DOCTYPE html>
 <html>
 <head>
   <title>Confirm Example</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
   <script>
     // Ask for confirmation before deleting an item
     const userConfirmed = confirm("Are you sure you want to delete this item?");
@@ -242,12 +244,11 @@ export const WindowObject = () => {
       alert("Action cancelled.");
     }
   </script>
-  
-  `}
-          </span>
-          {`
+
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -282,15 +283,15 @@ export const WindowObject = () => {
       <p>For example, you might want to ask the user to enter their name.</p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+<!DOCTYPE html>
 <html>
 <head>
   <title>Prompt Example</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
   <script>
     // Prompt the user to enter their name
     const userName = prompt("Please enter your name:", "Your name here");
@@ -302,11 +303,10 @@ export const WindowObject = () => {
     }
   </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
