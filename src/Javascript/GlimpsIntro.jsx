@@ -345,9 +345,13 @@ export const RunningJS = () => {
         </li>
       </ul>
       <p>Try this example:</p>
-      <pre>{`
+      <pre>
+        <SyntaxHighlighter language="javascript" style={docco}>
+          {`
 console.log('Hello, Developer Tools!');
-      `}</pre>
+      `}
+        </SyntaxHighlighter>
+      </pre>
       <p>
         When you type this into the console and press Enter, you will see the
         message "Hello, Developer Tools!" appear in the console.
@@ -374,9 +378,13 @@ console.log('Hello, Developer Tools!');
         <li>Click the "Run" button to see your code in action.</li>
       </ul>
       <p>For example, using JSFiddle, you might write:</p>
-      <pre>{`
+      <pre>
+        <SyntaxHighlighter language="javascript" style={docco}>
+          {`
 console.log('Hello, JSFiddle!');
-      `}</pre>
+      `}
+        </SyntaxHighlighter>
+      </pre>
       <p>
         When you click "Run", you will see the message "Hello, JSFiddle!" in the
         output area.
@@ -406,7 +414,8 @@ console.log('Hello, JSFiddle!');
       </ul>
       <p>Here's an example setup:</p>
       <pre>
-        {`
+        <SyntaxHighlighter language="HTML" style={docco}>
+          {`
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -417,21 +426,24 @@ console.log('Hello, JSFiddle!');
 </head>
 <body>
   <h1>Hello, World!</h1>
-          `}
-        <span className="codePurple">
-          {`     
+
   <script src="script.js"></script>
-            `}
-        </span>
-        {`
+
+
 </body>
 </html>
       `}
+        </SyntaxHighlighter>
       </pre>
-      <pre>{`
+
+      <pre>
+        <SyntaxHighlighter language="javascript" style={docco}>
+          {`
 // script.js
 alert('This is a JavaScript alert from an external file!');
-      `}</pre>
+      `}
+        </SyntaxHighlighter>
+      </pre>
       <p>
         When you open the <code>index.html</code> file in your browser, you will
         see the alert message from the JavaScript in the <code>script.js</code>{" "}
