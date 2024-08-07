@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const WhatJavaScript = () => {
   return (
@@ -292,7 +295,9 @@ export const RunningJS = () => {
       </ul>
       <p>Here's a simple example:</p>
       <pre>
-        {`
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -301,19 +306,17 @@ export const RunningJS = () => {
   <title>JavaScript Example</title>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  `}
-        <span className="codePurple">
-          {`
+<h1>Hello, World!</h1>
+
   <script>
     alert('This is a JavaScript alert!');
   </script>
-    `}
-        </span>
-        {`
+
 </body>
 </html>
       `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
         When you open this HTML file in your browser, you will see a pop-up
