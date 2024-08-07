@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Operators = () => {
   return (
@@ -42,7 +45,8 @@ const Operators = () => {
       <h3>Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -52,6 +56,7 @@ let totalTreats = cookies + brownies; // totalTreats will be 8
 
 console.log("You have", totalTreats, "treats in total.");
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>2. Subtraction (-):</h2>
@@ -64,7 +69,8 @@ console.log("You have", totalTreats, "treats in total.");
       <h3>Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -75,6 +81,7 @@ let moneyLeft = startingMoney - candyCost; // moneyLeft will be 8
 console.log("You have", moneyLeft, "dollars left after buying candy.");
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>3. Multiplication (*):</h2>
@@ -87,7 +94,8 @@ console.log("You have", moneyLeft, "dollars left after buying candy.");
       <h3> Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -97,6 +105,7 @@ let totalPrice = pricePerApple * applesBought; // totalPrice will be 4
 
 console.log("The apples cost", totalPrice, "dollars in total.");
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>4. Division (/):</h2>
@@ -112,7 +121,8 @@ console.log("The apples cost", totalPrice, "dollars in total.");
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -122,6 +132,7 @@ let cookiesPerFriend = totalCookies / friendsSharing; // cookiesPerFriend will b
 
 console.log("Each friend gets", cookiesPerFriend, "cookies.");
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>5. Modulus (%)</h2>
@@ -134,7 +145,8 @@ console.log("Each friend gets", cookiesPerFriend, "cookies.");
       <h3>Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -145,6 +157,7 @@ let leftoverCandy = totalCandies % friendsSharing; // leftoverCandy will be 1
 console.log("There are", leftoverCandy, "candies leftover after sharing.");
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2> 6. Increment (++) and Decrement (--) Operators:</h2>
@@ -157,7 +170,8 @@ console.log("There are", leftoverCandy, "candies leftover after sharing.");
       <h3>Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -171,6 +185,7 @@ score--; // score becomes 0 again
 
 console.log("Your current score is", score);
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -199,7 +214,8 @@ console.log("Your current score is", score);
       <h3> Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -219,6 +235,7 @@ let str3 = "10"; // Different types
 console.log(num3 === str3); // false (different types, even though values seem similar)
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>2. Loose Equality (==):</h2>
@@ -231,7 +248,8 @@ console.log(num3 === str3); // false (different types, even though values seem s
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -243,6 +261,7 @@ let str4 = "10"; // Different types
 
 console.log(num4 == str4); // true (coerces "10" to 10)
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>3. Strict Inequality (!===):</h2>
@@ -254,7 +273,8 @@ console.log(num4 == str4); // true (coerces "10" to 10)
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -262,6 +282,7 @@ console.log(10 !== "10"); // true (different types)
 console.log("hello" !== "hello"); // false (same value and type)
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>4. Loose Inequality (!=):</h2>
@@ -273,7 +294,8 @@ console.log("hello" !== "hello"); // false (same value and type)
       <h3> Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 JavaScript
 console.log(0 != false); // false (coerces 0 to false)
 console.log("0" != false); // false (coerces "0" to 0)
@@ -283,6 +305,7 @@ let str5 = "10"; // Different types
 
 console.log(num5 != str5); // false (coerces "10" to 10)
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>5. Greater Than {`(>)`}:</h2>
@@ -294,13 +317,15 @@ console.log(num5 != str5); // false (coerces "10" to 10)
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
 console.log(5 > 3); // true
 console.log("apple" > "banana"); // false (alphabetical order)
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>6. Greater Than or Equal To {`(>=)`}:</h2>
@@ -311,7 +336,8 @@ console.log("apple" > "banana"); // false (alphabetical order)
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -319,6 +345,7 @@ console.log(5 >= 3); // true
 console.log(5 >= 5); // true
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>7. Less Than {`(<)`}:</h2>
@@ -330,12 +357,14 @@ console.log(5 >= 5); // true
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
 console.log(3 < 5); // true
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <AdUnit />
@@ -347,7 +376,8 @@ console.log(3 < 5); // true
       <h3> Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -355,6 +385,7 @@ console.log(3 <= 5); // true
 console.log(3 <= 3); // true
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h2>JavaScript Developer Tips and Tricks</h2>
@@ -395,7 +426,8 @@ console.log(3 <= 3); // true
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -408,6 +440,7 @@ if (hasValidID && hasKeycard) {
   console.log("Access denied. Please check your ID and keycard.");
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -425,7 +458,8 @@ if (hasValidID && hasKeycard) {
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -438,6 +472,7 @@ if (isRaining || isCold) {
   console.log("No jacket needed today.");
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -454,7 +489,8 @@ if (isRaining || isCold) {
       <h3>Code Example:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -466,6 +502,7 @@ if (!isReturned) {
   console.log("Thank you for returning your book on time!");
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -505,13 +542,15 @@ if (!isReturned) {
       <h3>Basic Usage:</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
 let name = "Alice"; // Assigns the string "Alice" to the variable name
 let age = 30;        // Assigns the number 30 to the variable age
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>In these examples:</h3>
@@ -529,7 +568,8 @@ let age = 30;        // Assigns the number 30 to the variable age
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
@@ -537,6 +577,7 @@ let x = y = z = 10; // Assigns 10 to all three variables (x, y, and z)
           
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Important Considerations:</h3>
@@ -546,13 +587,15 @@ let x = y = z = 10; // Assigns 10 to all three variables (x, y, and z)
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 //JavaScript
 
 
 let result = (x = 5) + 3; // Assigns 5 to x, then result becomes 8 (5 + 3)
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <div className="button-container">
