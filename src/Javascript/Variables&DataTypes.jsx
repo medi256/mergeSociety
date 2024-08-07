@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const VariablesDataTypes = () => {
   return (
@@ -44,7 +47,11 @@ const VariablesDataTypes = () => {
         declare a variable using <code>let</code>:
       </p>
       <pre>
-        <code>let myVariable = "Hello, Variables!";</code>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            let myVariable = "Hello, Variables!";
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
         In this example, we've created a variable named <code>myVariable</code>{" "}
@@ -61,7 +68,14 @@ const VariablesDataTypes = () => {
         declare a constant variable:
       </p>
       <pre>
-        <code>const pi = 3.14;</code>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+
+const pi = 3.14;
+`}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
         In this case, we've created a constant variable named <code>pi</code>{" "}
@@ -69,7 +83,14 @@ const VariablesDataTypes = () => {
         reassign a new value to <code>pi</code> will result in an error:
       </p>
       <pre>
-        <code>const pi = 3.14; pi = 3; // This will result in an error</code>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+            
+const pi = 3.14; pi = 3; // This will result in an error
+            `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
 
       <h3>var Keyword</h3>
@@ -122,7 +143,8 @@ const VariablesDataTypes = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let myVariable = "Initial value"; 
 
 const pi = 3.14; 
@@ -132,6 +154,7 @@ var numberOfStudents = 30;
 numberOfStudents = 25; // This is allowed because var allows reassignment
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -189,7 +212,14 @@ numberOfStudents = 25; // This is allowed because var allows reassignment
         Here's how you use <code>console.log</code>:
       </p>
       <pre>
-        <code>let message = "Hello, Console!"; console.log(message);</code>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+            
+let message = "Hello, Console!"; console.log(message);
+            `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
         In this example, we're assigning a string value to the{" "}
