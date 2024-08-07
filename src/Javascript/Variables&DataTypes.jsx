@@ -87,7 +87,9 @@ const pi = 3.14;
           <SyntaxHighlighter language="javascript" style={docco}>
             {`
             
-const pi = 3.14; pi = 3; // This will result in an error
+const pi = 3.14;
+
+pi = 3; // This will result in an error
             `}
           </SyntaxHighlighter>
         </code>
@@ -281,7 +283,8 @@ export const NamingVariable = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 // Good examples of descriptive names
           
 let userName = "JohnDoe"; 
@@ -290,6 +293,7 @@ let numberOfStudents = 30;
           
 let isActive = true;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>These names immediately convey the intended use of the variable.</p>
@@ -302,7 +306,8 @@ let isActive = true;
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let studentFirstName = "John";
 
 let maxNumberOfStudents = 30;
@@ -310,6 +315,7 @@ let maxNumberOfStudents = 30;
 let isStudentActive = true;
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -341,12 +347,14 @@ let isStudentActive = true;
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let numStudents = 30; // "num" for "number" 
 
 let isUserActive = true;  // "is" prefix for boolean variables
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -361,7 +369,8 @@ let isUserActive = true;  // "is" prefix for boolean variables
       <h2>Example:</h2>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 // Example of using descriptive names and camelCase
 
  let studentFirstName = "John"; 
@@ -371,6 +380,7 @@ let isUserActive = true;  // "is" prefix for boolean variables
  let isStudentActive = true;
           
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -422,10 +432,14 @@ export const DataTypes = () => {
       </p>
       <pre>
         <code>
-          {`let age = 30;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let age = 30;
 let pi = 3.14;
+
 console.log(age); // Output: 30
 console.log(pi); // Output: 3.14`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -437,8 +451,11 @@ console.log(pi); // Output: 3.14`}
       </p>
       <pre>
         <code>
-          {`let sum = 10 + 5;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let sum = 10 + 5;
 console.log(sum); // Output: 15`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -447,10 +464,14 @@ console.log(sum); // Output: 15`}
       </p>
       <pre>
         <code>
-          {`let itemPrice = 20;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let itemPrice = 20;
 let quantity = 3;
+
 let totalPrice = itemPrice * quantity;
 console.log(totalPrice); // Output: 60`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -462,10 +483,14 @@ console.log(totalPrice); // Output: 60`}
       </p>
       <pre>
         <code>
-          {`let firstName = 'John';
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let firstName = 'John';
 let message = "Hello, Console!";
+
 console.log(firstName); // Output: John
 console.log(message); // Output: Hello, Console!`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -476,8 +501,11 @@ console.log(message); // Output: Hello, Console!`}
       </p>
       <pre>
         <code>
-          {`let fullName = 'John' + ' ' + 'Doe';
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let fullName = 'John' + ' ' + 'Doe';
 console.log(fullName); // Output: John Doe`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -486,9 +514,13 @@ console.log(fullName); // Output: John Doe`}
       </p>
       <pre>
         <code>
-          {`let userName = 'Alice';
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let userName = 'Alice';
 let greeting = 'Hello, ' + userName + '!';
+
 console.log(greeting); // Output: Hello, Alice!`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -501,10 +533,14 @@ console.log(greeting); // Output: Hello, Alice!`}
       </p>
       <pre>
         <code>
-          {`let isStudent = true;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let isStudent = true;
 let isWorking = false;
+
 console.log(isStudent); // Output: true
 console.log(isWorking); // Output: false`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -526,8 +562,11 @@ console.log(isWorking); // Output: false`}
       </p>
       <pre>
         <code>
-          {`let lastName;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let lastName;
 console.log(lastName); // Output: undefined`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -545,8 +584,11 @@ console.log(lastName); // Output: undefined`}
       </p>
       <pre>
         <code>
-          {`let middleName = null;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let middleName = null;
 console.log(middleName); // Output: null`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -563,8 +605,11 @@ console.log(middleName); // Output: null`}
       </p>
       <pre>
         <code>
-          {`let result = '5' + 5;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let result = '5' + 5;
 console.log(result); // Output: '55'`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -575,8 +620,11 @@ console.log(result); // Output: '55'`}
       </p>
       <pre>
         <code>
-          {`let result = '5' - 2;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let result = '5' - 2;
 console.log(result); // Output: 3`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -603,8 +651,11 @@ console.log(result); // Output: 3`}
       </p>
       <pre>
         <code>
-          {`let example = '5' + 10;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let example = '5' + 10;
 console.log(example); // Output: '510'`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -617,8 +668,11 @@ console.log(example); // Output: '510'`}
       </p>
       <pre>
         <code>
-          {`let example = '10' - 5;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let example = '10' - 5;
 console.log(example); // Output: 5`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -630,12 +684,16 @@ console.log(example); // Output: 5`}
       </p>
       <pre>
         <code>
-          {`let age = 30;
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let age = 30;
 let name = 'Alice';
 let isStudent = true;
+
 console.log(typeof age); // Output: 'number'
 console.log(typeof name); // Output: 'string'
 console.log(typeof isStudent); // Output: 'boolean'`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
