@@ -216,7 +216,9 @@ numberOfStudents = 25; // This is allowed because var allows reassignment
           <SyntaxHighlighter language="javascript" style={docco}>
             {`
             
-let message = "Hello, Console!"; console.log(message);
+let message = "Hello, Console!"; 
+
+console.log(message);
             `}
           </SyntaxHighlighter>
         </code>
