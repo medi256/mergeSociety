@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Comments = () => {
   return (
@@ -51,13 +54,15 @@ const Comments = () => {
       </ul>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 JavaScript
 
 
 // This is a single-line comment explaining the code below
 let message = "Hello, world!";
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <AdUnit />
@@ -72,7 +77,8 @@ let message = "Hello, world!";
       </ul>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 JavaScript
 
 
@@ -82,6 +88,7 @@ or even write multiple paragraphs */
           
 let age = 25;
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -148,7 +155,8 @@ export const ScopeJS = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let globalVariable = 'I am global!'; // This variable is in the global scope
 
 function showGlobal() {
@@ -158,6 +166,7 @@ console.log(globalVariable); // Accessing the global variable
 showGlobal(); // Output: I am global!
 console.log(globalVariable); // Output: I am global!
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -184,7 +193,8 @@ console.log(globalVariable); // Output: I am global!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function localScopeExample() {
 let localVariable = 'I am local!'; // This variable is in the local scope of the function
 console.log(localVariable); // Accessing the local variable inside the function
@@ -194,6 +204,7 @@ localScopeExample(); // Output: I am local!
 
 console.log(localVariable); // Error: localVariable is not defined
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -212,7 +223,8 @@ console.log(localVariable); // Error: localVariable is not defined
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 if (true) {
 let blockVariable = 'I am in a block!'; // This variable is in block scope
 console.log(blockVariable); // Accessible within the block
@@ -220,6 +232,7 @@ console.log(blockVariable); // Accessible within the block
 
 console.log(blockVariable); // Error: blockVariable is not defined
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -261,7 +274,8 @@ console.log(blockVariable); // Error: blockVariable is not defined
       <h3>Global Scope Example</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let appName = 'My App'; // Global scope variable
 
 function displayAppName() {
@@ -270,13 +284,15 @@ console.log(appName); // Can access global variable
 
 displayAppName(); // Output: My App
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <AdUnit />
       <h3>Local Scope Example</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function calculateSum(a, b) {
 let sum = a + b; // Local scope variable
 return sum;
@@ -285,13 +301,15 @@ return sum;
 console.log(calculateSum(5, 3)); // Output: 8
 console.log(sum); // Error: sum is not defined
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <h3>Block Scope Example</h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (let i = 0; i < 3; i++) {
 let blockVariable = i; // Block scope variable
 console.log(blockVariable); // Accessible within the block
@@ -299,6 +317,7 @@ console.log(blockVariable); // Accessible within the block
 
 console.log(blockVariable); // Error: blockVariable is not defined
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -350,11 +369,13 @@ export const Hoisting = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 console.log(myVar); // Output: undefined
 var myVar = 'Hello, world!';
 console.log(myVar); // Output: Hello, world!
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -377,13 +398,15 @@ console.log(myVar); // Output: Hello, world!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 console.log(myLetVar); // Error: Cannot access 'myLetVar' before initialization
 let myLetVar = 'Hello, world!';
 
 console.log(myConstVar); // Error: Cannot access 'myConstVar' before initialization
 const myConstVar = 'Hello, world!';
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -400,13 +423,15 @@ const myConstVar = 'Hello, world!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 sayHello(); // Output: Hello, world!
 
 function sayHello() {
 console.log('Hello, world!');
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -424,13 +449,15 @@ console.log('Hello, world!');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function sayHello() {
 console.log('Hello, world!');
 }
 
 sayHello(); // Output: Hello, world!
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -444,10 +471,12 @@ sayHello(); // Output: Hello, world!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 console.log(myLetVar); // Error: Cannot access 'myLetVar' before initialization
 let myLetVar = 'Hello, world!';
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
