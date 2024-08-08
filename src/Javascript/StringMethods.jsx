@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const StringMethods = () => {
   return (
@@ -38,11 +41,14 @@ const StringMethods = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const message = 'Hello, World!';
 const length = message.length;
+
 console.log(length); // Output: 13
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -68,12 +74,15 @@ console.log(length); // Output: 13
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const greeting = 'Hello';
 const name = 'Alice';
+
 const message = greeting.concat(', ', name, '!');
 console.log(message); // Output: Hello, Alice!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -100,11 +109,14 @@ console.log(message); // Output: Hello, Alice!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'JavaScript is fun!';
 const position = text.search('fun');
+
 console.log(position); // Output: 15
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -130,11 +142,14 @@ console.log(position); // Output: 15
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'I like cats. Cats are great!';
 const newText = text.replace('cats', 'dogs');
+
 console.log(newText); // Output: I like dogs. Cats are great!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -161,13 +176,17 @@ console.log(newText); // Output: I like dogs. Cats are great!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'Hello, World!';
+
 const upper = text.toUpperCase();
 const lower = text.toLowerCase();
+
 console.log(upper); // Output: HELLO, WORLD!
 console.log(lower); // Output: hello, world!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -190,11 +209,14 @@ console.log(lower); // Output: hello, world!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'JavaScript';
 const part = text.slice(4, 10);
+
 console.log(part); // Output: Script
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -219,11 +241,14 @@ console.log(part); // Output: Script
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = '   Hello, World!   ';
 const trimmed = text.trim();
+
 console.log(trimmed); // Output: Hello, World!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -243,13 +268,17 @@ console.log(trimmed); // Output: Hello, World!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'JavaScript is fun!';
+
 const result1 = text.includes('JavaScript');
 const result2 = text.includes('Python');
+
 console.log(result1); // Output: true
 console.log(result2); // Output: false
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -275,11 +304,14 @@ console.log(result2); // Output: false
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'apple,banana,orange';
 const fruits = text.split(',');
+
 console.log(fruits); // Output: ['apple', 'banana', 'orange']
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -299,11 +331,14 @@ console.log(fruits); // Output: ['apple', 'banana', 'orange']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const text = 'JavaScript';
 const char = text.charAt(4);
+
 console.log(char); // Output: S
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>

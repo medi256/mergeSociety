@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Objects = () => {
   return (
@@ -29,7 +32,8 @@ const Objects = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const car = {
 make: 'Toyota',  // This is a property with key 'make' and value 'Toyota'
 model: 'Corolla', // This is a property with key 'model' and value 'Corolla'
@@ -37,6 +41,7 @@ year: 2020,       // This is a property with key 'year' and value 2020
 color: 'red'      // This is a property with key 'color' and value 'red'
 };
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -58,10 +63,12 @@ color: 'red'      // This is a property with key 'color' and value 'red'
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const carMake = car.make; // Access the 'make' property of the 'car' object
 console.log(carMake);     // Output: Toyota
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -77,20 +84,24 @@ console.log(carMake);     // Output: Toyota
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const carColor = car['color']; // Access the 'color' property using bracket notation
 console.log(carColor);        // Output: red
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>You can also use a variable to access a property:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const property = 'model'; // Define a variable with the property name
 const carModel = car[property]; // Access the 'model' property using the variable
 console.log(carModel); // Output: Corolla
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -101,13 +112,15 @@ console.log(carModel); // Output: Corolla
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 car.color = 'blue';  // Change the 'color' property to 'blue'
 console.log(car.color); // Output: blue
 
 car['year'] = 2021;  // Change the 'year' property to 2021
 console.log(car.year); // Output: 2021
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -122,13 +135,15 @@ console.log(car.year); // Output: 2021
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 car.owner = 'John Doe'; // Add a new property 'owner'
 console.log(car.owner); // Output: John Doe
 
 car['registration'] = 'ABC123'; // Add a new property 'registration'
 console.log(car.registration); // Output: ABC123
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -143,13 +158,15 @@ console.log(car.registration); // Output: ABC123
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 delete car.owner; // Remove the 'owner' property
 console.log(car.owner); // Output: undefined
 
 delete car['registration']; // Remove the 'registration' property
 console.log(car.registration); // Output: undefined
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -168,10 +185,12 @@ console.log(car.registration); // Output: undefined
       </h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 console.log('make' in car); // Output: true
 console.log('owner' in car); // Output: false
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -184,10 +203,12 @@ console.log('owner' in car); // Output: false
       </h3>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 console.log(car.hasOwnProperty('model')); // Output: true
 console.log(car.hasOwnProperty('owner')); // Output: false
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -204,11 +225,13 @@ console.log(car.hasOwnProperty('owner')); // Output: false
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (let key in car) {
 console.log(key + ': ' + car[key]); // Log each property name and value
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -232,7 +255,8 @@ console.log(key + ': ' + car[key]); // Log each property name and value
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const carDetails = {
 make: 'Toyota',
 model: 'Corolla'
@@ -247,6 +271,7 @@ const combinedCar = Object.assign({}, carDetails, carSpecs);
 console.log(combinedCar); 
 // Output: { make: 'Toyota', model: 'Corolla', year: 2020, color: 'red' }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -262,7 +287,8 @@ console.log(combinedCar);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const carDetails = {
 make: 'Toyota',
 model: 'Corolla'
@@ -277,6 +303,7 @@ const combinedCar = { ...carDetails, ...carSpecs };
 console.log(combinedCar); 
 // Output: { make: 'Toyota', model: 'Corolla', year: 2020, color: 'red' }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>

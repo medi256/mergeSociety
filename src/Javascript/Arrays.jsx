@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Arrays = () => {
   return (
@@ -28,10 +31,12 @@ const Arrays = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 console.log(fruits); // Output: ['apple', 'banana', 'cherry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -41,10 +46,12 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const mixedArray = [1, 'hello', true, 3.14];
 console.log(mixedArray); // Output: [1, 'hello', true, 3.14]
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -63,12 +70,15 @@ console.log(mixedArray); // Output: [1, 'hello', true, 3.14]
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
+
 console.log(fruits[0]); // Output: apple
 console.log(fruits[1]); // Output: banana
 console.log(fruits[2]); // Output: cherry
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -88,11 +98,14 @@ console.log(fruits[2]); // Output: cherry
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const colors = ['red', 'green', 'blue', 'yellow'];
+
 console.log(colors[0]); // Output: red
 console.log(colors[2]); // Output: blue
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -108,11 +121,14 @@ console.log(colors[2]); // Output: blue
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 fruits[1] = 'blueberry';
+
 console.log(fruits); // Output: ['apple', 'blueberry', 'cherry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -127,10 +143,12 @@ console.log(fruits); // Output: ['apple', 'blueberry', 'cherry']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 console.log(fruits.length); // Output: 3
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -145,7 +163,8 @@ console.log(fruits.length); // Output: 3
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.push('date');
 console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
@@ -154,6 +173,7 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
 fruits.push('elderberry', 'fig');
 console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -169,12 +189,15 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberr
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const lastFruit = fruits.pop();
+
 console.log(lastFruit); // Output: cherry
 console.log(fruits); // Output: ['apple', 'banana']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -191,11 +214,14 @@ console.log(fruits); // Output: ['apple', 'banana']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.unshift('mango');
+
 console.log(fruits); // Output: ['mango', 'apple', 'banana', 'cherry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -210,12 +236,15 @@ console.log(fruits); // Output: ['mango', 'apple', 'banana', 'cherry']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const firstFruit = fruits.shift();
+
 console.log(firstFruit); // Output: apple
 console.log(fruits); // Output: ['banana', 'cherry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -240,7 +269,8 @@ console.log(fruits); // Output: ['banana', 'cherry']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 for (let i = 0; i < fruits.length; i++) {
 console.log(fruits[i]);
@@ -250,6 +280,7 @@ console.log(fruits[i]);
 // banana
 // cherry
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -268,7 +299,8 @@ console.log(fruits[i]);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 for (const fruit of fruits) {
 console.log(fruit);
@@ -278,6 +310,7 @@ console.log(fruit);
 // banana
 // cherry
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -338,13 +371,15 @@ export const ArrayMethods = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const newLength = fruits.push('date', 'elderberry');
 
 console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberry']
 console.log(newLength); // Output: 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -362,13 +397,15 @@ console.log(newLength); // Output: 5
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const newLength = fruits.unshift('mango', 'kiwi');
 
 console.log(fruits); // Output: ['mango', 'kiwi', 'apple', 'banana', 'cherry']
 console.log(newLength); // Output: 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -389,13 +426,15 @@ console.log(newLength); // Output: 5
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const lastFruit = fruits.pop();
 
 console.log(lastFruit); // Output: cherry
 console.log(fruits); // Output: ['apple', 'banana']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -414,13 +453,15 @@ console.log(fruits); // Output: ['apple', 'banana']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const firstFruit = fruits.shift();
 
 console.log(firstFruit); // Output: apple
 console.log(fruits); // Output: ['banana', 'cherry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -440,13 +481,15 @@ console.log(fruits); // Output: ['banana', 'cherry']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
 const citrus = fruits.slice(1, 4);
 
 console.log(citrus); // Output: ['banana', 'cherry', 'date']
 console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -469,13 +512,15 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberr
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
 const removedFruits = fruits.splice(2, 2, 'fig', 'grape');
 
 console.log(removedFruits); // Output: ['cherry', 'date']
 console.log(fruits); // Output: ['apple', 'banana', 'fig', 'grape', 'elderberry']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -494,7 +539,8 @@ console.log(fruits); // Output: ['apple', 'banana', 'fig', 'grape', 'elderberry'
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana'];
 const moreFruits = ['cherry', 'date'];
 
@@ -504,6 +550,7 @@ console.log(allFruits); // Output: ['apple', 'banana', 'cherry', 'date']
 console.log(fruits); // Output: ['apple', 'banana']
 console.log(moreFruits); // Output: ['cherry', 'date']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -522,11 +569,13 @@ console.log(moreFruits); // Output: ['cherry', 'date']
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const fruitString = fruits.join(', ');
 console.log(fruitString); // Output: 'apple, banana, cherry'
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -547,7 +596,8 @@ console.log(fruitString); // Output: 'apple, banana, cherry'
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 
 const index = fruits.indexOf('banana');
@@ -556,6 +606,7 @@ console.log(index); // Output: 1
 const notFound = fruits.indexOf('date');
 console.log(notFound); // Output: -1
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -572,13 +623,16 @@ console.log(notFound); // Output: -1
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 const hasBanana = fruits.includes('banana');
 console.log(hasBanana); // Output: true
+
 const hasDate = fruits.includes('date');
 console.log(hasDate); // Output: false
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -595,11 +649,13 @@ console.log(hasDate); // Output: false
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.reverse();
 console.log(fruits); // Output: ['cherry', 'banana', 'apple']
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
