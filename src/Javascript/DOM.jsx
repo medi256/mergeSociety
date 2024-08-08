@@ -1774,8 +1774,8 @@ alert('Key pressed: ' + event.key);
       </p>
       <pre>
         <code>
-          <SyntaxHighlighter language="HTML" style={docco}></SyntaxHighlighter>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1793,6 +1793,7 @@ alert('Key released: ' + event.key);
   
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
