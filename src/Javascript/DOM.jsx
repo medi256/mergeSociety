@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const DOMintro = () => {
   return (
@@ -93,7 +96,8 @@ const DOMintro = () => {
       <p>Here's a simple example of a DOM tree for a basic HTML document:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
   <head>
@@ -104,6 +108,7 @@ const DOMintro = () => {
     <p>This is a paragraph.</p>
   </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -289,16 +294,16 @@ export const SelectingElementsINDom = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Document Object Example</title>
 </head>
-<body>`}
-
-          <span className="codePurple">
-            {`         
+<body>
+<p id="myParagraph">Hello World!</p>
+         
 <script>
 // Get the document object
 const documentObject = document;
@@ -307,14 +312,12 @@ const documentObject = document;
 const paragraph = documentObject.getElementById('myParagraph');
 console.log(paragraph.textContent); // Output: "Hello World!"
 </script>
-`}{" "}
-          </span>
 
-          {`
 </body>
 </html>
   
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -345,7 +348,8 @@ console.log(paragraph.textContent); // Output: "Hello World!"
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -353,20 +357,16 @@ console.log(paragraph.textContent); // Output: "Hello World!"
 </head>
 <body>
 <p id="myParagraph">Hello World!</p>
-`}
-          <span className="codePurple">
-            {" "}
-            {`
+
 <script>
 const paragraph = document.getElementById('myParagraph');
 console.log(paragraph.textContent); // Output: "Hello World!"
 </script>
-`}
-          </span>
-          {`
+
 </body>
 </html>
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -400,7 +400,8 @@ console.log(paragraph.textContent); // Output: "Hello World!"
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -409,20 +410,16 @@ console.log(paragraph.textContent); // Output: "Hello World!"
 <body>
 <p class="myClass">Hello World!</p>
 <p class="myClass">Goodbye World!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const paragraphs = document.getElementsByClassName('myClass');
 console.log(paragraphs.length); // Output: 2
 </script>
-  
-  `}
-          </span>
-          {`
+
 </body>
 </html>
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -455,7 +452,8 @@ console.log(paragraphs.length); // Output: 2
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -464,21 +462,16 @@ console.log(paragraphs.length); // Output: 2
 <body>
 <p>Hello World!</p>
 <p>Goodbye World!</p>
-`}
-          <span className="codePurple">
-            {`
-  
+
   <script>
   const paragraphs = document.getElementsByTagName('p');
   console.log(paragraphs.length); // Output: 2
   </script>
-  
-  `}
-          </span>
-          {`
+
 </body>
 </html>
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -550,7 +543,8 @@ export const ModifyingElements = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -559,9 +553,7 @@ export const ModifyingElements = () => {
 <body>
 <p id="myParagraph">Hello World!</p>
 
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 
 const paragraph = document.getElementById('myParagraph');
@@ -569,12 +561,11 @@ paragraph.textContent = 'Goodbye World!';
 
 </script>
     
-    `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -590,7 +581,8 @@ paragraph.textContent = 'Goodbye World!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -598,21 +590,19 @@ paragraph.textContent = 'Goodbye World!';
 </head>
 <body>
 <p id="myParagraph">Hello World!</p>
-  `}
-          <span className="codePurple">
-            {`
+
 <script>
 
 const paragraph = document.getElementById('myParagraph');
 paragraph.textContent += ' This is a new sentence!';
 
 </script>
-`}
-          </span>
-          {`
+
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -625,7 +615,8 @@ paragraph.textContent += ' This is a new sentence!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -633,9 +624,7 @@ paragraph.textContent += ' This is a new sentence!';
 </head>
 <body>
 <p id="myParagraph">Hello World!</p>
-  `}
-          <span className="codePurple">
-            {`
+
 <script>
 
 const paragraph = document.getElementById('myParagraph');
@@ -643,12 +632,11 @@ console.log(paragraph.textContent); // Output: "Hello World!"
 
 </script>
 
-`}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -669,7 +657,8 @@ console.log(paragraph.textContent); // Output: "Hello World!"
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -677,20 +666,17 @@ console.log(paragraph.textContent); // Output: "Hello World!"
 </head>
 <body>
 <p id="myParagraph" style="color: blue;">Hello World!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const paragraph = document.getElementById('myParagraph');
 paragraph.style.color = 'red';
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -704,7 +690,8 @@ paragraph.style.color = 'red';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -712,20 +699,17 @@ paragraph.style.color = 'red';
 </head>
 <body>
 <p id="myParagraph" style="color: blue; font-size: 24px;">Hello World!</p>
-  `}
-          <span className="codePurple">
-            {`
+  
 <script>
 const paragraph = document.getElementById('myParagraph');
 paragraph.style = 'color: red; font-size: 36px;';
 </script>
     
-    `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -751,7 +735,8 @@ paragraph.style = 'color: red; font-size: 36px;';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -759,21 +744,18 @@ paragraph.style = 'color: red; font-size: 36px;';
 </head>
 <body>
 <p id="myParagraph" style="color: blue; font-size: 24px;">Hello World!</p>
-  `}
-          <span className="codePurple">
-            {`
+
 <script>
 const paragraph = document.getElementById('myParagraph');
 paragraph.style.fontSize = '36px';
 paragraph.style.fontFamily = 'Arial';
 </script>
     
-    `}
-          </span>
-          {`
+ 
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -794,7 +776,8 @@ paragraph.style.fontFamily = 'Arial';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -802,20 +785,17 @@ paragraph.style.fontFamily = 'Arial';
 </head>
 <body>
 <img id="myImage" src="image.jpg" alt="An image">
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const image = document.getElementById('myImage');
 image.setAttribute('src', 'new-image.jpg');
 </script>
   
-  `}
-          </span>
-          {`
+ 
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -830,7 +810,8 @@ image.setAttribute('src', 'new-image.jpg');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -838,20 +819,17 @@ image.setAttribute('src', 'new-image.jpg');
 </head>
 <body>
 <img id="myImage" src="image.jpg" alt="An image">
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const image = document.getElementById('myImage');
 image.removeAttribute('alt');
 </script>
 
-`}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -872,7 +850,8 @@ image.removeAttribute('alt');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -888,20 +867,17 @@ image.removeAttribute('alt');
 </head>
 <body>
 <p id="myParagraph">Hello World!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const paragraph = document.getElementById('myParagraph');
 paragraph.classList.add('blue', 'bold');
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -915,14 +891,13 @@ paragraph.classList.add('blue', 'bold');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Remove Classes</title>
-`}
-          <span className="codePurple">
-            {`
+
   <style>
   .blue {
     color: blue;
@@ -931,26 +906,21 @@ paragraph.classList.add('blue', 'bold');
     font-weight: bold;
   }
   </style>
-  `}
-          </span>
-          {`
+
 </head>
 <body>
 <p id="myParagraph" class="blue bold">Hello World!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 const paragraph = document.getElementById('myParagraph');
 paragraph.classList.remove('bold');
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1014,27 +984,25 @@ export const CreateAppend = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Creating an Element</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new paragraph element
 const paragraph = document.createElement('p');
 </script>
   
-  `}
-          </span>
-          {`
+ 
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1055,16 +1023,15 @@ const paragraph = document.createElement('p');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Adding Text Content</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new paragraph element
 const paragraph = document.createElement('p');
@@ -1073,12 +1040,11 @@ const paragraph = document.createElement('p');
 paragraph.textContent = 'Hello World!';
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1094,16 +1060,15 @@ paragraph.textContent = 'Hello World!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Creating and Adding Content</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new image element
 const image = document.createElement('img');
@@ -1118,12 +1083,11 @@ const paragraph = document.createElement('p');
 paragraph.textContent = 'Hello World!';
 </script>
 
-`}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1140,16 +1104,15 @@ paragraph.textContent = 'Hello World!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Appending Elements</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
   
 <script>
 // Create a new paragraph element
@@ -1161,12 +1124,11 @@ paragraph.textContent = 'Hello World!';
 // Append the paragraph to the body
 document.body.appendChild(paragraph);
 </script>
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1187,7 +1149,8 @@ document.body.appendChild(paragraph);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1195,9 +1158,7 @@ document.body.appendChild(paragraph);
 </head>
 <body>
 <div id="myContainer"></div>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new paragraph element
 const paragraph = document.createElement('p');
@@ -1210,12 +1171,11 @@ const container = document.getElementById('myContainer');
 container.appendChild(paragraph);
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1230,7 +1190,8 @@ container.appendChild(paragraph);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1240,9 +1201,7 @@ container.appendChild(paragraph);
 <div id="myContainer">
 <p>First paragraph</p>
 </div>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new paragraph element
 const paragraph = document.createElement('p');
@@ -1256,12 +1215,11 @@ const referenceElement = container.firstChild;
 container.insertBefore(paragraph, referenceElement);
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1283,7 +1241,8 @@ container.insertBefore(paragraph, referenceElement);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1293,9 +1252,7 @@ container.insertBefore(paragraph, referenceElement);
 <div id="myContainer">
 <p>Old paragraph</p>
 </div>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Create a new paragraph element
 const paragraph = document.createElement('p');
@@ -1309,12 +1266,11 @@ const oldParagraph = container.firstChild;
 container.replaceChild(paragraph, oldParagraph);
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1336,7 +1292,8 @@ container.replaceChild(paragraph, oldParagraph);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1346,9 +1303,7 @@ container.replaceChild(paragraph, oldParagraph);
 <div id="myContainer">
 <p>Paragraph to be removed</p>
 </div>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Remove the paragraph from the container
 const container = document.getElementById('myContainer');
@@ -1356,12 +1311,11 @@ const paragraph = container.firstChild;
 container.removeChild(paragraph);
 </script>
   
-  `}
-          </span>
-          {`
+ 
 </body>
 </html>
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1439,7 +1393,11 @@ export const EventHandling = () => {
         an HTML attribute:
       </p>
       <pre>
-        <code>{`<element event="function()">Content</element>`}</code>
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`<element event="function()">Content</element>`}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
         <strong>element</strong>: The HTML element you want to attach the event
