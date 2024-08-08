@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ControlFlow = () => {
   return (
@@ -63,13 +66,15 @@ const ControlFlow = () => {
       <p>Here's how an if/else statement works:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 if (condition) {
 // Code to execute if the condition is true
 } else {
 // Code to execute if the condition is false
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -78,7 +83,8 @@ if (condition) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let age = 18;
 
 if (age >= 18) {
@@ -88,6 +94,7 @@ console.log('You are not eligible to vote yet.');
 }
 // Output: You are eligible to vote.
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -105,7 +112,8 @@ console.log('You are not eligible to vote yet.');
       <p>Here's how an if/else if/else statement looks:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 if (condition1) {
 // Code to execute if condition1 is true
 } else if (condition2) {
@@ -114,6 +122,7 @@ if (condition1) {
 // Code to execute if both condition1 and condition2 are false
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -122,7 +131,8 @@ if (condition1) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let number = 5;
 
 if (number > 0) {
@@ -134,6 +144,7 @@ console.log('The number is zero.');
 }
 // Output: The number is positive.
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -152,7 +163,8 @@ console.log('The number is zero.');
       <p>Here's how a switch statement works:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 switch (expression) {
 case value1:
 // Code to execute if expression equals value1
@@ -164,6 +176,7 @@ default:
 // Code to execute if none of the cases match
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -178,7 +191,8 @@ default:
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let day = 'Monday';
 
 switch (day) {
@@ -196,6 +210,7 @@ console.log('Regular day.');
 }
 // Output: Start of the work week.
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>

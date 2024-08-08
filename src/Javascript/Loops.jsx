@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Loops = () => {
   return (
@@ -29,11 +32,13 @@ const Loops = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (initialization; condition; increment) {
 // Code to be executed
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <ul>
@@ -62,12 +67,14 @@ for (initialization; condition; increment) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (let i = 1; i <= 5; i++) {
 console.log(i);
 }
 // Output: 1, 2, 3, 4, 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -102,11 +109,13 @@ console.log(i);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 while (condition) {
 // Code to be executed
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -130,7 +139,8 @@ while (condition) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let i = 1;
 
 while (i <= 5) {
@@ -139,6 +149,7 @@ i++;
 }
 // Output: 1, 2, 3, 4, 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -176,11 +187,13 @@ i++;
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 do {
 // Code to be executed
 } while (condition);
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -208,7 +221,8 @@ do {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let i = 1;
 
 do {
@@ -217,6 +231,7 @@ i++;
 } while (i <= 5);
 // Output: 1, 2, 3, 4, 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -254,11 +269,13 @@ i++;
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (key in object) {
 // Code to be executed
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -286,7 +303,8 @@ for (key in object) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const person = {
 name: 'Alice',
 age: 30,
@@ -301,6 +319,7 @@ console.log(key + ': ' + person[key]);
 // age: 30
 // city: New York
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -334,11 +353,13 @@ console.log(key + ': ' + person[key]);
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 for (element of iterable) {
 // Code to be executed
 }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -365,7 +386,8 @@ for (element of iterable) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const numbers = [1, 2, 3, 4, 5];
 
 for (let number of numbers) {
@@ -373,6 +395,7 @@ console.log(number);
 }
 // Output: 1, 2, 3, 4, 5
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
