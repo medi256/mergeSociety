@@ -1394,7 +1394,7 @@ export const EventHandling = () => {
       </p>
       <pre>
         <code>
-          <SyntaxHighlighter language="HTML" style={docco}>
+          <SyntaxHighlighter language="javascript" style={docco}>
             {`<element event="function()">Content</element>`}
           </SyntaxHighlighter>
         </code>
@@ -1417,27 +1417,26 @@ export const EventHandling = () => {
       </p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+<!DOCTYPE html>
 <html>
 <head>
 <title>HTML Event Listener</title>
 </head>
 <body>
 <button onclick="showAlert()">Click me!</button>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 function showAlert() {
 alert('Button clicked!');
 }
 </script>
 
-  `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1458,9 +1457,12 @@ alert('Button clicked!');
       </p>
       <pre>
         <code>
-          {`element.addEventListener('event', function() {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+element.addEventListener('event', function() {
 // Code to execute when the event occurs
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1481,7 +1483,8 @@ alert('Button clicked!');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1489,9 +1492,7 @@ alert('Button clicked!');
 </head>
 <body>
 <button id="myButton">Click me!</button>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Get the button element
 const button = document.getElementById('myButton');
@@ -1502,11 +1503,10 @@ alert('Button clicked!');
 });
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1549,9 +1549,11 @@ alert('Button clicked!');
       </p>
       <pre>
         <code>
-          {`element.addEventListener('click', function() {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`element.addEventListener('click', function() {
 // Code to execute when the element is clicked
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Example</h3>
@@ -1560,7 +1562,8 @@ alert('Button clicked!');
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1569,9 +1572,7 @@ alert('Button clicked!');
 <body>
 <p id="myParagraph">Click the button to change my color!</p>
 <button id="myButton">Click me!</button>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Get the paragraph and button elements
 const paragraph = document.getElementById('myParagraph');
@@ -1583,11 +1584,10 @@ paragraph.style.color = 'blue';
 });
 </script>
 
-`}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1603,9 +1603,11 @@ paragraph.style.color = 'blue';
       </p>
       <pre>
         <code>
-          {`element.addEventListener('mouseover', function() {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`element.addEventListener('mouseover', function() {
 // Code to execute when the mouse moves over the element
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Example</h3>
@@ -1615,7 +1617,8 @@ paragraph.style.color = 'blue';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1623,9 +1626,7 @@ paragraph.style.color = 'blue';
 </head>
 <body>
 <p id="myParagraph">Hover over me to change my background color!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Get the paragraph element
 const paragraph = document.getElementById('myParagraph');
@@ -1636,11 +1637,10 @@ paragraph.style.backgroundColor = 'yellow';
 });
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1656,9 +1656,11 @@ paragraph.style.backgroundColor = 'yellow';
       </p>
       <pre>
         <code>
-          {`element.addEventListener('mouseout', function() {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`element.addEventListener('mouseout', function() {
 // Code to execute when the mouse moves out of the element
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Example</h3>
@@ -1668,7 +1670,8 @@ paragraph.style.backgroundColor = 'yellow';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1676,10 +1679,7 @@ paragraph.style.backgroundColor = 'yellow';
 </head>
 <body>
 <p id="myParagraph">Hover over me and then move out to change my background color!</p>
-`}
 
-          <span className="codePurple">
-            {`
 <script>
 // Get the paragraph element
 const paragraph = document.getElementById('myParagraph');
@@ -1690,11 +1690,9 @@ paragraph.style.backgroundColor = 'transparent';
 });
 </script>
   
-  `}
-          </span>
-          {`
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1710,10 +1708,12 @@ paragraph.style.backgroundColor = 'transparent';
       </p>
       <pre>
         <code>
-          {`document.addEventListener('keydown', function(event) {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`document.addEventListener('keydown', function(event) {
 // Code to execute when a key is pressed down
 // You can use event.key to get the key that was pressed
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Example</h3>
@@ -1723,7 +1723,8 @@ paragraph.style.backgroundColor = 'transparent';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1731,9 +1732,7 @@ paragraph.style.backgroundColor = 'transparent';
 </head>
 <body>
 <p>Press any key to see which key you pressed!</p>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Add an event listener to the document
 document.addEventListener('keydown', function(event) {
@@ -1741,11 +1740,10 @@ alert('Key pressed: ' + event.key);
 });
 </script>
   
-  `}
-          </span>
-          {`
+ 
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -1761,10 +1759,12 @@ alert('Key pressed: ' + event.key);
       </p>
       <pre>
         <code>
-          {`document.addEventListener('keyup', function(event) {
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`document.addEventListener('keyup', function(event) {
 // Code to execute when a key is released
 // You can use event.key to get the key that was released
 });`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <h3>Example</h3>
@@ -1774,6 +1774,7 @@ alert('Key pressed: ' + event.key);
       </p>
       <pre>
         <code>
+          <SyntaxHighlighter language="HTML" style={docco}></SyntaxHighlighter>
           {`
 <!DOCTYPE html>
 <html>
@@ -1782,10 +1783,7 @@ alert('Key pressed: ' + event.key);
 </head>
 <body>
 <p>Release any key to see which key you released!</p>
-`}
 
-          <span className="codePurple">
-            {`
 <script>
 // Add an event listener to the document
 document.addEventListener('keyup', function(event) {
@@ -1793,9 +1791,6 @@ alert('Key released: ' + event.key);
 });
 </script>
   
-  `}
-          </span>
-          {`
 </body>
 </html>`}
         </code>
