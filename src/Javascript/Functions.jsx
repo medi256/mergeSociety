@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const DefiningCallingFunc = () => {
   return (
@@ -48,11 +51,13 @@ const DefiningCallingFunc = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function walkForward() {
   console.log('The robot is walking forward.');
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -89,10 +94,12 @@ function walkForward() {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 walkForward();
 // Output: The robot is walking forward.
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -118,7 +125,8 @@ walkForward();
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function sayGoodbye() {
   console.log('Goodbye, see you next time!');
 }
@@ -126,6 +134,7 @@ function sayGoodbye() {
 sayGoodbye();
 // Output: Goodbye, see you next time!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -160,7 +169,8 @@ sayGoodbye();
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function greetUser() {
   console.log('Hello, User!');
 }
@@ -173,6 +183,7 @@ function farewellUser() {
 greetUser(); // Output: Hello, User!
 farewellUser(); // Output: Goodbye, User!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -231,11 +242,13 @@ export const ParameterArgument = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function walkForward(steps) {
   console.log('The robot walks ' + steps + ' steps forward.');
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -255,9 +268,11 @@ function walkForward(steps) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 walkForward(5); // Output: The robot walks 5 steps forward.
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -280,7 +295,8 @@ walkForward(5); // Output: The robot walks 5 steps forward.
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function greetUser(name) {
   console.log('Hello, ' + name + '!');
 }
@@ -288,6 +304,7 @@ function greetUser(name) {
 greetUser('Alice'); // Output: Hello, Alice!
 greetUser('Bob');   // Output: Hello, Bob!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -305,7 +322,8 @@ greetUser('Bob');   // Output: Hello, Bob!
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function walkAndTurn(steps, direction) {
   console.log('The robot walks ' + steps + ' steps and turns ' + direction + '.');
 }
@@ -313,6 +331,7 @@ function walkAndTurn(steps, direction) {
 walkAndTurn(10, 'left'); // Output: The robot walks 10 steps and turns left.
 walkAndTurn(5, 'right'); // Output: The robot walks 5 steps and turns right.
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -385,12 +404,14 @@ export const ReturnValues = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function addNumbers(a, b) {
   let sum = a + b;
   return sum;
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -407,10 +428,12 @@ function addNumbers(a, b) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let result = addNumbers(5, 3);
 console.log(result); // Output: 8
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -440,7 +463,8 @@ console.log(result); // Output: 8
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function getGreeting(name) {
   return 'Hello, ' + name + '!';
 }
@@ -457,6 +481,7 @@ console.log(getGreeting('Alice')); // Output: Hello, Alice!
 console.log(multiplyNumbers(4, 7)); // Output: 28
 console.log(isEven(10)); // Output: true
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -528,7 +553,8 @@ export const FuncScope = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 let tool = 'Wrench'; // Global scope
 
 function fixRobot() {
@@ -537,6 +563,7 @@ function fixRobot() {
 
 fixRobot(); // Output: Using: Wrench
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -562,7 +589,8 @@ fixRobot(); // Output: Using: Wrench
       <p>Let's look at an example of local scope:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function fixRobot() {
   let tool = 'Screwdriver'; // Local scope
   console.log('Using:', tool);
@@ -571,6 +599,7 @@ function fixRobot() {
 fixRobot(); // Output: Using: Screwdriver
 console.log(tool); // Error: tool is not defined
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -600,7 +629,8 @@ console.log(tool); // Error: tool is not defined
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function repairRobot() {
   let tool = 'Hammer';
   console.log('Repairing with:', tool);
@@ -614,6 +644,7 @@ function upgradeRobot() {
 repairRobot(); // Output: Repairing with: Hammer
 upgradeRobot(); // Output: Upgrading with: Welding Torch
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -636,7 +667,8 @@ upgradeRobot(); // Output: Upgrading with: Welding Torch
       <p>Let's see an example:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function outerFunction() {
   let outerTool = 'Drill';
   
@@ -653,6 +685,7 @@ function outerFunction() {
 
 outerFunction();
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -723,11 +756,13 @@ export const ArrowFunc = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 function sayHello(name) {
   return 'Hello, ' + name + '!';
 }
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -744,9 +779,11 @@ function sayHello(name) {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const sayHello = name => 'Hello, ' + name + '!';
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>The syntax is shorter and more concise. Here’s what each part does:</p>
@@ -778,12 +815,14 @@ const sayHello = name => 'Hello, ' + name + '!';
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const multiply = (a, b) => {
   const result = a * b;
   return result;
 };
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -803,10 +842,12 @@ const multiply = (a, b) => {
       <p>Here’s an arrow function that adds two numbers together:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const addNumbers = (x, y) => x + y;
 console.log(addNumbers(5, 3)); // Output: 8
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -820,10 +861,12 @@ console.log(addNumbers(5, 3)); // Output: 8
       <p>Here’s an arrow function that creates a greeting message:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const greetUser = name => 'Welcome, ' + name + '!';
 console.log(greetUser('Alice')); // Output: Welcome, Alice!
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -836,11 +879,13 @@ console.log(greetUser('Alice')); // Output: Welcome, Alice!
       <p>Here’s an arrow function that checks if a number is even:</p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
 const isEven = number => number % 2 === 0;
 console.log(isEven(4)); // Output: true
 console.log(isEven(7)); // Output: false
           `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
