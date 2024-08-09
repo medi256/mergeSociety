@@ -172,7 +172,7 @@ export const WindowObject = () => {
       </p>
       <pre>
         <code>
-          <SyntaxHighlighter language="javascript" style={docco}>
+          <SyntaxHighlighter language="HTML" style={docco}>
             {`
 <!DOCTYPE html>
 <html>
@@ -225,7 +225,7 @@ export const WindowObject = () => {
       </p>
       <pre>
         <code>
-          <SyntaxHighlighter language="javascript" style={docco}>
+          <SyntaxHighlighter language="HTML" style={docco}>
             {`
 <!DOCTYPE html>
 <html>
@@ -283,7 +283,7 @@ export const WindowObject = () => {
       <p>For example, you might want to ask the user to enter their name.</p>
       <pre>
         <code>
-          <SyntaxHighlighter language="javascript" style={docco}>
+          <SyntaxHighlighter language="HTML" style={docco}>
             {`
 <!DOCTYPE html>
 <html>
@@ -454,17 +454,15 @@ export const LocationObject = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>Location Object Example</title>
 </head>
 <body>
-`}
 
-          <span className="codePurple">
-            {`
 <script>
 // Get the current URL
 const currentURL = window.location.href;
@@ -500,11 +498,9 @@ console.log("Hash: " + hash);
 // window.location.reload();
 </script>
   
-  `}
-          </span>
-          {`
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -656,15 +652,15 @@ export const NavigationObject = () => {
       </p>
       <pre>
         <code>
-          {`<!DOCTYPE html>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+<!DOCTYPE html>
 <html>
 <head>
 <title>Navigator Object Example</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
 <script>
 // Get the name of the browser
 const browserName = navigator.appName;
@@ -695,11 +691,10 @@ const javaEnabled = navigator.javaEnabled();
 console.log("Java Enabled: " + javaEnabled);
 </script>
   
-  `}
-          </span>
-          {`
+
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -826,16 +821,15 @@ export const HistoryObject = () => {
       </p>
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
 <!DOCTYPE html>
 <html>
 <head>
 <title>History Object Example</title>
 </head>
 <body>
-`}
-          <span className="codePurple">
-            {`
+
   
 <script>
 // Get the number of entries in the session history
@@ -861,12 +855,10 @@ history.go(number);
 <button onclick="goBack()">Go Back</button>
 <button onclick="goForward()">Go Forward</button>
 <button onclick="goToPage(-1)">Go to Previous Page</button>
-  `}
-          </span>
 
-          {`
 </body>
 </html>`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
@@ -904,111 +896,227 @@ history.go(number);
 export const ScreenObject = () => {
   return (
     <div className="comments-container internet">
-      <AdUnit />
-      <h1>Introduction to the Screen Object (Screen Size and Resolution)</h1>
+      <h1>Exploring the Screen Object</h1>
+
+      <h2>Introduction</h2>
       <p>
-        The Browser Object Model (BOM) equips you with various tools to interact
-        with the browser window and user experience. The{" "}
-        <code>Screen Object </code> is a tool within the BOM that provides
-        information about the{" "}
-        {`user's screen and its
-        capabilities. Imagine the Screen Object as a measuring tool, revealing
-        the dimensions and resolution of the user's device screen.`}
+        In our previous lessons, we've been learning about the Browser Object
+        Model (BOM) and its various components. So far, we've covered the Window
+        object, the Location object, the Navigation object, and more. Now, let's
+        move on to another important part of the BOM: the Screen object.
+      </p>
+
+      <h2>What is the Screen Object?</h2>
+      <p>
+        The Screen object is a part of the BOM that provides information about
+        the user's screen, such as its size and resolution. It's like a report
+        card for the user's screen, giving you details about its capabilities.
       </p>
       <p>
-        This information can be crucial for creating responsive web designs that
-        adapt layouts and content based on the available screen space. Here are
-        some key properties offered by the Screen Object:
+        Think of the Screen object as a way to get information about the user's
+        screen, which can be useful for designing and developing web pages that
+        look great on different devices.
+      </p>
+
+      <h2>Properties of the Screen Object</h2>
+      <p>
+        The Screen object has several properties that provide information about
+        the user's screen. Here are some of the most important ones:
       </p>
       <ul>
         <li>
-          <code>width</code> and <code>height</code> properties: These
-          properties provide the width and height of the {`user's`} screen in
-          pixels.
-          <pre>
-            <code>
-              {`
-//JavaScript
+          <code>availHeight</code>: This property returns the height of the
+          screen in pixels, minus the height of any toolbars or other features
+          that take up space on the screen.
+        </li>
+        <li>
+          <code>availWidth</code>: This property returns the width of the screen
+          in pixels, minus the width of any toolbars or other features that take
+          up space on the screen.
+        </li>
+        <li>
+          <code>colorDepth</code>: This property returns the color depth of the
+          screen, which is the number of bits used to represent the color of
+          each pixel.
+        </li>
+        <li>
+          <code>height</code>: This property returns the total height of the
+          screen in pixels.
+        </li>
+        <li>
+          <code>pixelDepth</code>: This property returns the pixel depth of the
+          screen, which is the number of bits used to represent the color of
+          each pixel.
+        </li>
+        <li>
+          <code>width</code>: This property returns the total width of the
+          screen in pixels.
+        </li>
+      </ul>
+      <p>
+        These properties can be used to get information about the user's screen,
+        which can be useful for designing and developing web pages that look
+        great on different devices.
+      </p>
 
+      <h2>Example: Using the Screen Object</h2>
+      <p>
+        Let's start by looking at an example that uses the <code>screen</code>{" "}
+        object to access different properties of the user's screen.
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Screen Object Example</title>
+</head>
+<body>
 
-const screenWidth = screen.width;
+<script>
+// Get the height of the screen
 const screenHeight = screen.height;
+console.log(screenHeight);
 
-console.log("Screen width:", screenWidth, "Screen height:", screenHeight);
-              
-              `}
-            </code>
-          </pre>
-        </li>
-        <li>
-          <code>availWidth </code> and <code>availHeight</code> properties:
-          These properties represent the width and height of the viewport, which
-          is the usable area within the browser window after accounting for
-          things like toolbars.
-          <pre>
-            <code>
-              {`
-//JavaScript
+// Get the width of the screen
+const screenWidth = screen.width;
+console.log(screenWidth);
 
+// Get the color depth of the screen
+const screenColorDepth = screen.colorDepth;
+console.log(screenColorDepth);
 
-const availableWidth = screen.availWidth;
-const availableHeight = screen.availHeight;
+// Get the pixel depth of the screen
+const screenPixelDepth = screen.pixelDepth;
+console.log(screenPixelDepth);
 
-console.log("Available width:", availableWidth, "Available height:", availableHeight);
-              `}
-            </code>
-          </pre>
-        </li>
-        <li>
-          <code>colorDepth</code> and <code>pixelDepth</code> properties: These
-          properties provide information about the color quality of the screen,
-          indicating the number of bits used to represent each pixel.
-          <pre>
-            <code>
-              {`
-//JavaScript
+// Get the available height of the screen
+const screenAvailHeight = screen.availHeight;
+console.log(screenAvailHeight);
+
+// Get the available width of the screen
+const screenAvailWidth = screen.availWidth;
+console.log(screenAvailWidth);
+</script>
 
 
-const colorDepth = screen.colorDepth;
-const pixelDepth = screen.pixelDepth;
+</body>
+</html>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
 
-console.log("Color depth:", colorDepth, "Pixel depth:", pixelDepth);
-              `}
-            </code>
-          </pre>
-        </li>
-      </ul>
-      <AdUnit />
-      <h3>By leveraging the Screen Object, you can:</h3>
+      <h2>Explanation of the Code Example</h2>
+      <p>
+        In this example, we're using the <code>screen</code> object to access
+        and log various properties of the user's screen. Here's what's happening
+        in each step:
+      </p>
       <ul>
         <li>
-          <b>Create responsive layouts</b>: Use the screen dimensions to adjust
-          the width and positioning of your webpage elements to ensure optimal
-          viewing experience across different devices.
+          We use <code>screen.height</code> to get the total height of the
+          screen in pixels and store it in the <code>screenHeight</code>{" "}
+          variable. The value is then logged to the console.
         </li>
         <li>
-          <b>Detect high-resolution displays</b>: Check the colorDepth and
-          pixelDepth to tailor image quality or content rendering based on the{" "}
-          {`user's`}
-          screen capabilities.
+          We use <code>screen.width</code> to get the total width of the screen
+          in pixels and store it in the <code>screenWidth</code> variable. The
+          value is logged to the console.
         </li>
         <li>
-          <b>Provide alternative content</b>: If the screen size is too small
-          for certain elements, you can use conditional logic to display
-          alternative content or layouts.
+          The <code>screen.colorDepth</code> property returns the number of bits
+          used to represent the color of each pixel, and this value is stored in
+          the <code>screenColorDepth</code> variable and logged to the console.
+        </li>
+        <li>
+          Similarly, the <code>screen.pixelDepth</code> property returns the
+          pixel depth of the screen, which is stored in the{" "}
+          <code>screenPixelDepth</code> variable and logged to the console.
+        </li>
+        <li>
+          The <code>screen.availHeight</code> property returns the available
+          height of the screen, which excludes the height taken up by toolbars
+          or other features. This value is stored in the{" "}
+          <code>screenAvailHeight</code> variable and logged to the console.
+        </li>
+        <li>
+          Finally, the <code>screen.availWidth</code> property returns the
+          available width of the screen, which excludes the width taken up by
+          toolbars or other features. This value is stored in the{" "}
+          <code>screenAvailWidth</code> variable and logged to the console.
         </li>
       </ul>
       <p>
-        Remember that screen sizes and resolutions can vary greatly across
-        devices. {`It's`} essential to test your webpages on a variety of
-        devices and screen sizes to ensure a consistent and positive user
-        experience.
+        By using the <code>screen</code> object, we can access detailed
+        information about the user's screen, which can be helpful for creating
+        responsive designs that work well on different devices.
+      </p>
+
+      <h2>Another Simple Example: Updating the DOM</h2>
+      <p>
+        We can also use the Screen object to update the content of our webpage
+        dynamically. For instance, let's say we want to display the screen width
+        inside a paragraph on our webpage.
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="HTML" style={docco}>
+            {`
+<!DOCTYPE html>
+<html>
+<head>
+<title>Screen Width Example</title>
+</head>
+<body>
+<p id="screen-info"></p>
+
+<script>
+// Get the screen width
+const screenWidth = screen.width;
+
+// Find the paragraph element by its ID
+const paragraph = document.getElementById('screen-info');
+
+// Set the text content of the paragraph to show
+
+    // Set the text content of the paragraph to show the screen width
+paragraph.textContent = 'Screen Width:'+ screenWidth +'pixels';
+</script>
+</body>
+</html>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>In this example:</p>
+      <ul>
+        <li>
+          We get the screen width using <code>screen.width</code>.
+        </li>
+        <li>
+          We find the paragraph element with the ID <code>screen-info</code>{" "}
+          using <code>document.getElementById</code>.
+        </li>
+        <li>
+          We update the text inside the paragraph to display the screen width.
+        </li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>
+        In this lesson, we've learned about the Screen object and its
+        properties. We've also seen how to use the Screen object to get
+        information about the user's screen, and how to update the content of
+        our webpage dynamically.
       </p>
       <p>
-        In the next lesson, {`we'll`} explore how these BOM functionalities can
-        be combined to create interactive web experiences that go beyond static
-        content.
+        The Screen object is an important part of the BOM, and understanding how
+        to use it can help you design and develop web pages that look great on
+        different devices.
       </p>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "/historyObject")}>
           back
