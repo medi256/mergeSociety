@@ -1,0 +1,25 @@
+.article {
+  margin: 35px 35px auto;
+  text-align: justify;
+  line-height: 25px;
+}
+h1,
+h3,
+p {
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .article {
+    margin: 15px 15px auto;
+    line-height: 25px;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}

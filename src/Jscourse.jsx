@@ -128,7 +128,7 @@ const Jscourse = () => {
             Screen Object (screen size and resolution)
           </li>
           <li onClick={() => navigate("/BOMApplication")}>
-            BOM Applications (uer interaction beyond the page content)
+            BOM Applications (user interaction beyond the page content)
           </li>
         </ul>
         <h2>JavaScript vs. ECMAScript:Whats the difference? </h2>
