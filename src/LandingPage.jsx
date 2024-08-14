@@ -6,7 +6,6 @@ const LandingPage = () => {
     <div className="landing-page">
       <ScrollToTop />
       <main className="main-content">
-        {/* <h2 className="title">Unlock Your Web Development Potential</h2> */}
         <h2 className="title">
           Join our community and master building your own website - for free
         </h2>
