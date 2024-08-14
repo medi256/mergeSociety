@@ -712,3 +712,58 @@ strong {
     display: none;
   }
 }
+
+/* New sections */
+.benefits,
+.testimonials {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.benefits h3,
+.testimonials h3 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.benefits ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fff;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .benefits,
+  .testimonials {
+    padding: 15px;
+  }
+
+  .benefits h3,
+  .testimonials h3 {
+    font-size: 1.5em;
+  }
+}
+
+.ReadyMan {
+  text-align: center;
+}

@@ -1,12 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 
-import "./Article.css";
-import Article1 from "./Tempariticle/Article1";
-import Article2 from "./Tempariticle/Article2";
-import Article3 from "./Tempariticle/Article3";
-import Article4 from "./Tempariticle/Article4";
-import Article5 from "./Tempariticle/Article5";
-
 const Policies = () => {
   const navigate = useNavigate();
   return (
@@ -126,11 +119,6 @@ const Policies = () => {
         </a>
         .
       </p>
-      <Article1 />
-      <Article2 />
-      <Article3 />
-      <Article4 />
-      <Article5 />
       <div className="button-container">
         <button onClick={() => navigate(-1)}>Back</button>
       </div>
