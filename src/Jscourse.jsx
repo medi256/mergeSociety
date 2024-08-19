@@ -141,8 +141,8 @@ const Jscourse = () => {
         <ul>
           <li onClick={() => navigate("/Modules")}>Modules</li>
           <li onClick={() => navigate("/Classes")}>Classes</li>
-          <li onClick={() => navigate("/prototypes")}>Prototypes</li>
           <li onClick={() => navigate("/thisKeyWord")}>this keyword</li>
+          <li onClick={() => navigate("/prototypes")}>Prototypes</li>
           <li onClick={() => navigate("/json")}>JSON</li>
           <li onClick={() => navigate("/dates")}>Dates Methods</li>
           <li onClick={() => navigate("/mathObject")}>Math objects</li>
