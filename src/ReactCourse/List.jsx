@@ -161,7 +161,7 @@ const List = () => {
         captivating and data-driven interfaces!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/EventHand")}>
+        <button onClick={() => (window.location.href = "/differentTypes")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/UseKey")}>Next</button>

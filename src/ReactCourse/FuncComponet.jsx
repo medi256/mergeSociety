@@ -923,7 +923,7 @@ export const Property = () => {
         <button onClick={() => (window.location.href = "/CompHierarchNest")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "/AddEvent")}>
+        <button onClick={() => (window.location.href = "/eventHdle")}>
           Next
         </button>
       </div>
