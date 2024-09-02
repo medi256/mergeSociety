@@ -15,7 +15,6 @@ import FuncComponet, {
   JSXStructure,
   Property,
 } from "./ReactCourse/FuncComponet";
-import AddingEvants, { EventFuncVsClass } from "./ReactCourse/AddingEvants";
 import RenderingDifComponent from "./ReactCourse/RenderingDifComponent";
 import List, { UnderstandKe } from "./ReactCourse/List";
 import Handleform, { FormControlVsUncontrol } from "./ReactCourse/Handleform";
@@ -37,6 +36,7 @@ import FetchAPI from "./ReactCourse/FetchAPI";
 import AsycAwaitSytax, { ErrorHandl } from "./ReactCourse/AsycAwaitSytax";
 import { DeployNetVerGit } from "./ReactCourse/OptimizeReact";
 import ConditionIF from "./ReactCourse/ConditionIF";
+import AddingEvants, { EventFuncVsClass } from "./ReactCourse/AddingEvants";
 
 const ReactRoutes = () => {
   return (
@@ -62,9 +62,9 @@ const ReactRoutes = () => {
         <Route path="classComponent" element={<ClassCompoent />} />
         <Route path="CompHierarchNest" element={<CompHierarchNest />} />
         <Route path="Props" element={<Property />} />
+        <Route path="eventHdle" element={<AddingEvants />} />
+        <Route path="differentTypes" element={<EventFuncVsClass />} />
 
-        <Route path="AddEvent" element={<AddingEvants />} />
-        <Route path="EventHand" element={<EventFuncVsClass />} />
         <Route path="list" element={<List />} />
         <Route path="UseKey" element={<UnderstandKe />} />
         <Route path="HandleForm" element={<Handleform />} />

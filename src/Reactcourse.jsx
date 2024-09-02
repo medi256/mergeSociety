@@ -71,10 +71,10 @@ const Reactcourse = () => {
         </ul>
         <h3>Handling Events </h3>
         <ul>
-          <li onClick={() => navigate("/AddEvent")}> Adding Event Handlers</li>
-          <li onClick={() => navigate("/EventHand")}>
+          <li onClick={() => navigate("/eventHdle")}>Adding Event Handlers </li>
+          <li onClick={() => navigate("/differentTypes")}>
             {" "}
-            Event Handling in Functional
+            Event Handling in Functional{" "}
           </li>
         </ul>
 

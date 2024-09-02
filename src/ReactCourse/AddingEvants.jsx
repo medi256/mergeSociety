@@ -1,3 +1,7 @@
+import SyntaxHighlighter from "react-syntax-highlighter";
+import AdUnit from "../AdUnit";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+
 const AddingEvants = () => {
   return (
     <div className="internet comments-container">
@@ -5,7 +9,6 @@ const AddingEvants = () => {
       <h2>
         Adding Event Handlers in React: Interactivity and User Interactions
       </h2>
-
       <p>
         {`Event handlers are like the secret agents of React components, allowing
         them to respond to user interactions such as clicks, keyboard inputs,
@@ -13,9 +16,7 @@ const AddingEvants = () => {
         users engage with your UI. Let's dive into the world of event handlers
         and explore their superpowers!`}
       </p>
-
       <h3>Understanding Event Handlers</h3>
-
       <p>
         Event handlers are functions that are called when a specific event
         occurs, such as a button click or a form submission. They enable your
@@ -24,10 +25,10 @@ const AddingEvants = () => {
         attributes, such as <code>onClick</code> for button clicks or{" "}
         <code>onChange</code> for input changes.
       </p>
-
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="react" style={docco}>
+            {`
     // Example event handler
     function handleClick() {
       alert('Button clicked!');
@@ -40,9 +41,9 @@ const AddingEvants = () => {
     // Render the component
     ReactDOM.render(<MyComponent />, document.getElementById('root'));
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
-
       <p>
         In this example, <code>handleClick</code> is an event handler function
         that displays an alert when a button is clicked. We attach the event
@@ -50,14 +51,11 @@ const AddingEvants = () => {
         button is clicked, React calls the <code>handleClick</code> function,
         triggering the desired action.
       </p>
-
       <h3>Benefits of Using Event Handlers</h3>
-
       <p>
         Event handlers offer several advantages that make them essential in
         React:
       </p>
-
       <ul>
         <li>
           <strong>Interactivity:</strong> Event handlers bring your UI to life
@@ -83,15 +81,14 @@ const AddingEvants = () => {
       </ul>
       <AdUnit />
       <h3>Using Event Handlers in Practice</h3>
-
       <p>
         {`Event handlers shine when it comes to creating interactive and dynamic
         UIs. Let's see how we can use event handlers in a practical example:`}
       </p>
-
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="react" style={docco}>
+            {`
     // Define an event handler
     function handleClick() {
       alert('Button clicked!');
@@ -114,9 +111,9 @@ const AddingEvants = () => {
     // Render the app
     ReactDOM.render(<MyApp />, document.getElementById('root'));
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
-
       <p>
         In this example, <code>handleClick</code> is an event handler function
         that displays an alert when a button is clicked. We attach the event
@@ -125,9 +122,7 @@ const AddingEvants = () => {
         the <code>handleClick</code> function, triggering the desired action.
         Event handlers bring interactivity and responsiveness to your UI.
       </p>
-
       <h3>Note</h3>
-
       <p>
         Remember, event handlers are like the secret agents of React components,
         enabling them to respond to user interactions. They empower your
@@ -138,7 +133,7 @@ const AddingEvants = () => {
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/Props")}>back</button>
-        <button onClick={() => (window.location.href = "/EventHand")}>
+        <button onClick={() => (window.location.href = "/differentTypes")}>
           Next
         </button>
       </div>
@@ -174,7 +169,8 @@ export const EventFuncVsClass = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="react" style={docco}>
+            {`
       // Example event handling
       function handleClick() {
         alert('Button clicked!');
@@ -184,6 +180,7 @@ export const EventFuncVsClass = () => {
         return <button onClick={handleClick}>Click me!</button>;
       }
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -235,7 +232,8 @@ export const EventFuncVsClass = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="react" style={docco}>
+            {`
       // Define an event handler
       function handleClick() {
         alert('Button clicked!');
@@ -258,6 +256,7 @@ export const EventFuncVsClass = () => {
       // Render the app
       ReactDOM.render(<MyApp />, document.getElementById('root'));
     `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -283,7 +282,7 @@ export const EventFuncVsClass = () => {
         interfaces!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/AddEvent")}>
+        <button onClick={() => (window.location.href = "/eventHdle")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/list")}>Next</button>
