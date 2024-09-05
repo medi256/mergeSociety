@@ -505,197 +505,311 @@ export const SetTimeOutSetInterval = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>What are setTimeout and setInterval?</h1>
+      <h1>
+        Understanding <code>setTimeout</code> and <code>setInterval</code> in
+        JavaScript
+      </h1>
+
       <p>
-        setTimeout and setInterval are two related but distinct functions in
-        JavaScript that allow you to execute a piece of code after a certain
-        amount of time has passed.
+        JavaScript allows us to perform tasks after a certain time has passed or
+        to repeat tasks continuously at regular intervals. To do this, we use
+        two special functions: <code>setTimeout</code> and{" "}
+        <code>setInterval</code>.
       </p>
-      <h2>setTimeout</h2>
+
+      <h2>
+        1. <code>setTimeout</code>: Delay a Task
+      </h2>
       <p>
-        <code>setTimeout</code> is a function that executes a piece of code
-        after a specified delay. {`It's`} like setting a timer that goes off
-        once, and when it does, it runs the code you specified.
+        The <code>setTimeout</code> function allows you to delay the execution
+        of a task (or function) by a specified amount of time. Think of it as
+        setting an alarm: the task won’t happen immediately, but it will happen
+        after the time you set has passed.
       </p>
-      <h2>The Syntax</h2>
+
+      <h3>
+        How Does <code>setTimeout</code> Work?
+      </h3>
       <p>
-        The basic syntax of <code>setTimeout</code> is:
+        Imagine you want something to happen after 3 seconds, like showing a
+        message to the user or changing the color of an element. You can use{" "}
+        <code>setTimeout</code> to wait for 3 seconds and then perform the
+        action.
       </p>
+
+      <h3>Basic Syntax</h3>
       <pre>
         <code>
-          {`
-setTimeout(function, delay)
-          `}
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+setTimeout(function, delay);
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
-      <p>Where:</p>
+
+      <p>Let’s break this down:</p>
       <ul>
         <li>
-          <b>function</b> is the code you want to execute after the delay.
+          <code>function</code>: This is the code (a function) you want to run
+          after the delay.
         </li>
         <li>
-          {" "}
-          <b>delay</b> is the amount of time (in milliseconds) you want to wait
-          before executing the code.
-        </li>
-      </ul>
-      <h2>How it Works</h2>
-      <p>
-        {" "}
-        {`Here's`} a step-by-step breakdown of what happens when you use
-        <code>setTimeout</code>:
-      </p>
-      <ul>
-        <li> You call setTimeout with a function and a delay.</li>
-        <li>
-          The browser adds the function to a queue, along with the specified
-          delay.
-        </li>
-        <li>
-          The browser continues executing other code, but keeps track of the
-          delay.
-        </li>
-        <li>When the delay has passed, the browser executes the function.</li>
-        <li>
-          {" "}
-          The function is executed only once, and then {`it's`} removed from the
-          queue.
-        </li>
-      </ul>
-      <h2>Example 1: Hello World after 2 seconds</h2>
-      <p>
-        {`Let's say you want to print "Hello World" to the console after 2
-        seconds. You can use setTimeout like this:`}
-      </p>
-      <pre>
-        <code>
-          {`
-setTimeout(function() {
-  console.log("Hello World");
-}, 2000);
-          `}
-        </code>
-      </pre>
-      <p>
-        In this example, the function <b>{`console.log("Hello World")`}</b> will
-        be executed after 2 seconds (2000 milliseconds).
-      </p>
-      <h2>setInterval</h2>
-      <p>
-        setInterval is similar to setTimeout, but it executes the code
-        repeatedly at a specified interval. {`It's`} like setting a timer that
-        goes off at regular intervals, and each time it does, it runs the code
-        you specified.
-      </p>
-      <h2>The Syntax</h2>
-      <p>
-        {" "}
-        The basic syntax of <code>setInterval</code> is:
-      </p>
-      <pre>
-        <code>
-          {`
-setInterval(function, interval)
-          `}
-        </code>
-      </pre>
-      <p>Where:</p>
-      <ul>
-        <li>
-          <b>function</b> is the code you want to execute at each interval.
-        </li>
-        <li>
-          <b>interval</b> is the amount of time (in milliseconds) between each
-          execution.
+          <code>delay</code>: This is the time (in milliseconds) to wait before
+          running the function. 1 second = 1000 milliseconds.
         </li>
       </ul>
       <AdUnit />
-      <h3>How it Works</h3>
+      <h3>
+        Example of <code>setTimeout</code>
+      </h3>
       <p>
-        {" "}
-        {`Here's`} a step-by-step breakdown of what happens when you use
-        <code>setInterval</code>:
+        Here’s an example where we use <code>setTimeout</code> to display a
+        message after 2 seconds:
       </p>
-      <ul>
-        <li> You call setInterval with a function and an interval.</li>
-        <li>
-          The browser adds the function to a queue, along with the specified
-          interval.
-        </li>
-        <li>
-          {" "}
-          The browser continues executing other code, but keeps track of the
-          interval.
-        </li>
-        <li>
-          When the interval has passed, the browser executes the function.
-        </li>
-        <li>
-          {" "}
-          The function is executed repeatedly at each interval, until you stop
-          it using <code>clearInterval</code>.
-        </li>
-      </ul>
-      <h2>Example 2: Counting up every second</h2>
-      <p>
-        {" "}
-        {`Let's`} say you want to count up from 0 to 10, printing the current
-        number to the console every second. You can use setInterval like this:
-      </p>
+
       <pre>
         <code>
-          {`
-let count = 0;
-setInterval(function() {
-  console.log(count);
-  count++;
-  if (count > 10) {
-    clearInterval(this);
-  }
-}, 1000);
-          `}
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+console.log("Wait for 2 seconds...");
+
+setTimeout(function() {
+  console.log("2 seconds have passed!");
+}, 2000);
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
-      <p>
-        In this example, the function <b>console.log(count); count++;</b> will
-        be executed every second (1000 milliseconds), and it will stop after 10
-        iterations.
-      </p>
-      <h2>Common Use Cases</h2>
-      <p>
-        <code>setTimeout</code> and <code>setInterval</code> are useful in a
-        variety of situations, such as:
-      </p>
-      <ul>
-        <li> Animating elements on a web page</li>
-        <li> Updating a timer or clock</li>
-        <li>Polling for new data from a server</li>
-        <li>
-          Executing a piece of code after a certain amount of time has passed
-        </li>
-      </ul>
-      <h2>Tips and Tricks</h2>
+
+      <p>In this example:</p>
       <ul>
         <li>
-          You can use <code>clearTimeout</code> to cancel a{" "}
-          <code>setTimeout</code> call, and <code>clearInterval</code> to cancel
-          a <code>setInterval</code> call.
+          The first <code>console.log</code> runs immediately, displaying "Wait
+          for 2 seconds...".
         </li>
         <li>
-          You can pass arguments to the function executed by setTimeout or
-          <code>setInterval</code> using the <code>bind</code> method.
-        </li>
-        <li>
-          {" "}
-          Be careful not to create infinite loops with <code>setInterval</code>,
-          as it can cause performance issues.
-        </li>
-        <li>
-          You can use <code>setTimeout</code> with a delay of 0 to execute a
-          function asynchronously, but be aware that it may not execute
-          immediately.
+          Then, <code>setTimeout</code> waits for 2 seconds (2000 milliseconds)
+          before running the second <code>console.log</code> that displays "2
+          seconds have passed!".
         </li>
       </ul>
+
+      <p>
+        This shows how <code>setTimeout</code> delays a task without stopping
+        the rest of the code from running. The delayed task runs later, once the
+        timer is up.
+      </p>
+
+      <h3>Common Use Cases</h3>
+      <ul>
+        <li>
+          Showing a popup after a few seconds when a user lands on a page.
+        </li>
+        <li>Displaying a notification after a delay.</li>
+        <li>Simulating a loading process that finishes after a short time.</li>
+      </ul>
+
+      <h2>
+        2. <code>setInterval</code>: Repeat a Task
+      </h2>
+      <p>
+        Now, what if you want something to happen over and over, continuously,
+        after a certain time interval? That’s where <code>setInterval</code>{" "}
+        comes in. It’s like setting an alarm that keeps ringing every 5 minutes
+        until you stop it.
+      </p>
+
+      <h3>
+        How Does <code>setInterval</code> Work?
+      </h3>
+      <p>
+        While <code>setTimeout</code> runs a task only once after a delay,{" "}
+        <code>setInterval</code> keeps running the task over and over at a
+        specified interval. This is useful if you want to update something
+        regularly, like the time on a clock, or if you want to continuously
+        check something, like new notifications.
+      </p>
+
+      <h3>Basic Syntax</h3>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+setInterval(function, interval);
+        `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>Let’s break this down:</p>
+      <ul>
+        <li>
+          <code>function</code>: This is the code (a function) you want to run
+          repeatedly.
+        </li>
+        <li>
+          <code>interval</code>: This is the time (in milliseconds) between each
+          repetition of the function.
+        </li>
+      </ul>
+      <AdUnit />
+      <h3>
+        Example of <code>setInterval</code>
+      </h3>
+      <p>
+        Here’s an example where we use <code>setInterval</code> to display a
+        message every 3 seconds:
+      </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+console.log("Starting...");
+
+setInterval(function() {
+  console.log("3 seconds have passed!");
+}, 3000);
+        `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>In this example:</p>
+      <ul>
+        <li>
+          The first <code>console.log</code> runs immediately, displaying
+          "Starting...".
+        </li>
+        <li>
+          Then, every 3 seconds, <code>setInterval</code> runs the second{" "}
+          <code>console.log</code> that displays "3 seconds have passed!".
+        </li>
+        <li>This will keep happening every 3 seconds until you stop it.</li>
+      </ul>
+
+      <p>
+        This shows how <code>setInterval</code> repeats a task at regular
+        intervals. It doesn’t stop by itself—you need to manually stop it if you
+        want it to end.
+      </p>
+
+      <h3>
+        How to Stop <code>setInterval</code> and <code>setTimeout</code>
+      </h3>
+      <p>
+        If you set up an interval or a timeout but want to stop it before it
+        finishes, you can use the <code>clearTimeout</code> and{" "}
+        <code>clearInterval</code> functions.
+      </p>
+
+      <h4>
+        Example of Stopping <code>setInterval</code>
+      </h4>
+      <p>
+        To stop an interval, you need to save it to a variable and then use{" "}
+        <code>clearInterval</code> to stop it. Let’s see how:
+      </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let intervalId = setInterval(function() {
+  console.log("Repeating every 2 seconds");
+}, 2000);
+
+// After 6 seconds, stop the interval
+setTimeout(function() {
+  clearInterval(intervalId);
+  console.log("Interval stopped");
+}, 6000);
+        `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>In this example:</p>
+      <ul>
+        <li>
+          We set an interval to display "Repeating every 2 seconds" every 2
+          seconds.
+        </li>
+        <li>
+          We also set a <code>setTimeout</code> to stop the interval after 6
+          seconds using <code>clearInterval(intervalId)</code>.
+        </li>
+        <li>
+          After 6 seconds, the interval stops, and the message "Interval
+          stopped" is displayed.
+        </li>
+      </ul>
+
+      <h2>
+        Using Arrow Functions with <code>setTimeout</code> and{" "}
+        <code>setInterval</code>
+      </h2>
+      <p>
+        Just like in other functions, you can use arrow functions to shorten the
+        code when using <code>setTimeout</code> and <code>setInterval</code>.
+        Here’s how you can rewrite the examples above with arrow functions:
+      </p>
+
+      <h4>
+        Example with <code>setTimeout</code>:
+      </h4>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+setTimeout(() => {
+  console.log("2 seconds have passed!");
+}, 2000);
+        `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <h4>
+        Example with <code>setInterval</code>:
+      </h4>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+let intervalId = setInterval(() => {
+  console.log("Repeating every 3 seconds");
+}, 3000);
+
+setTimeout(() => {
+  clearInterval(intervalId);
+  console.log("Interval stopped");
+}, 9000);
+        `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <AdUnit />
+      <h2>Practice: Try it Yourself</h2>
+      <p>
+        Now that you understand <code>setTimeout</code> and{" "}
+        <code>setInterval</code>, here are some practice tasks to try on your
+        own:
+      </p>
+      <ul>
+        <li>
+          Use <code>setTimeout</code> to display a message after 5 seconds.
+        </li>
+        <li>
+          Use <code>setInterval</code> to show the current time every second.
+        </li>
+        <li>
+          Try creating an interval that stops itself after a certain amount of
+          time.
+        </li>
+      </ul>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "/mapMethod")}>
           back
