@@ -202,87 +202,198 @@ export const EventLoop = () => {
   return (
     <div className="comments-container internet">
       <AdUnit />
-      <h1>
-        {" "}
-        The {`Browser's`} Event Loop: The Traffic Cop for Asynchronous Tasks
-      </h1>
+      <h1>Understanding the Event Loop in JavaScript</h1>
+
       <p>
-        Imagine a bustling city intersection. Cars (code execution) need to
-        navigate smoothly, but{" "}
-        {`there's only one police officer (the event loop)
-        managing the traffic. This officer (event loop) prioritizes tasks to
-        ensure everything runs efficiently. That's`}{" "}
-        exactly how the <b>event loop</b> works in web browsers!
+        The <code>event loop</code> is a key concept that helps JavaScript
+        handle asynchronous tasks. It allows JavaScript to perform tasks in the
+        background while still responding to other code that needs to run.
+        Understanding the event loop will help you see how JavaScript manages
+        multiple tasks without getting stuck.
       </p>
+
+      <h2>JavaScript is Single-Threaded</h2>
       <p>
-        The event loop is a core mechanism in JavaScript that manages the
-        execution of code, including both synchronous and asynchronous
-        operations. It acts like a traffic cop, prioritizing tasks and ensuring
-        smooth execution. {`Let's`} break down its key functions:
+        First, remember that JavaScript is a <code>single-threaded</code>{" "}
+        language. This means it can only do one thing at a time in the main
+        thread. However, modern web applications often need to do many things at
+        once, like handling user input, fetching data from the server, and
+        updating the user interface. So how does JavaScript do all this at once
+        if it’s single-threaded? This is where the <code>event loop</code> comes
+        in.
       </p>
-      <ol>
-        <li>
-          <b>Call Stack</b>: Think of this as a stack of plates at a restaurant.
-          The call stack keeps track of currently executing functions. Each
-          function call adds a new plate (stack frame) containing information
-          about the
-          {`function's`} execution. When a function finishes, its plate is
-          removed from the stack.
-        </li>
-        <li>
-          <b>Task Queue</b>: This is a line of people waiting to be served at
-          the restaurant (asynchronous tasks). When a long-running operation
-          (like fetching data) is initiated, {`it's`} placed in the task queue
-          instead of blocking the call stack.
-        </li>
-        <li>
-          {" "}
-          <b>Event Loop Cycle</b>: The event loop continuously monitors these
-          two areas:
-          <ul>
-            <li>
-              <b>Call Stack</b>: If the call stack is empty (no functions
-              executing), the event loop checks the task queue.
-            </li>
-            <li>
-              <b>Task Queue</b>: If there are tasks waiting, the event loop
-              removes the first one (like seating a waiting customer) and adds
-              it to the call stack for execution.
-            </li>
-          </ul>
-        </li>
-      </ol>
+
+      <h2>How the Event Loop Works</h2>
+      <p>
+        The event loop is like a traffic controller for JavaScript. It helps
+        JavaScript manage tasks that take time without blocking the main thread.
+        Let's break it down:
+      </p>
+
+      <h3>The Stack</h3>
+      <p>
+        JavaScript uses something called a <code>call stack</code> to keep track
+        of what functions are currently running. Think of the stack as a to-do
+        list where tasks are added on top and removed from the top once they’re
+        completed.
+      </p>
+
+      <h4>Example of the Call Stack:</h4>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+function greet() {
+  console.log('Hello');
+}
+
+greet(); // This function gets added to the call stack and executed
+  `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        When the <code>greet()</code> function is called, it gets added to the
+        call stack. Once it’s done (i.e., when <code>console.log('Hello')</code>{" "}
+        runs), it is removed from the stack. The stack allows JavaScript to keep
+        track of what task is running and what to do next.
+      </p>
       <AdUnit />
-      <h3>{`Here's`} how it translates to Asynchronous Programming:</h3>
+      <h3>The Queue</h3>
+      <p>
+        While the call stack handles tasks that are being executed immediately,
+        JavaScript also has a <code>message queue</code> (or{" "}
+        <code>task queue</code>) where tasks that are waiting to be executed are
+        stored. This queue holds tasks that are ready to be processed, but
+        JavaScript won’t deal with them until the current task in the call stack
+        is finished.
+      </p>
+
+      <p>
+        Tasks that are asynchronous, like fetching data or waiting for a timer,
+        are placed in the queue once they are ready to be processed.
+      </p>
+
+      <h4>Example with a Timer:</h4>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+console.log('Task 1: Start');
+
+setTimeout(() => {
+  console.log('Task 2: This is delayed by 2 seconds');
+}, 2000);
+
+console.log('Task 3: End');
+  `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <ul>
+        <li>
+          <code>Task 1</code> is printed immediately: "Task 1: Start."
+        </li>
+        <li>
+          <code>Task 2</code> uses <code>setTimeout</code>, so it’s scheduled to
+          run after 2 seconds. It doesn’t block the rest of the code, so it goes
+          into the queue.
+        </li>
+        <li>
+          <code>Task 3</code> runs immediately after Task 1, printing "Task 3:
+          End."
+        </li>
+        <li>
+          After 2 seconds, <code>Task 2</code> is moved from the queue to the
+          stack and executed, printing "Task 2: This is delayed by 2 seconds."
+        </li>
+      </ul>
+
+      <p>
+        Notice how the event loop allows JavaScript to keep working on other
+        tasks (like Task 3) while waiting for Task 2 to finish its delay.
+      </p>
+
+      <h3>The Event Loop in Action</h3>
+      <p>
+        The <code>event loop</code> constantly checks whether the call stack is
+        empty. If the stack is empty, it takes the next task from the queue and
+        moves it to the call stack to be executed. This way, JavaScript can
+        continue processing new tasks while waiting for asynchronous operations
+        like timers or data fetching.
+      </p>
+
+      <h4>Step-by-Step Example:</h4>
       <ol>
-        <li> You initiate an asynchronous operation (like fetching data).</li>
         <li>
-          {" "}
-          This operation is placed in the task queue (like waiting in line).
+          Task 1 (<code>console.log('Task 1: Start')</code>) is placed on the
+          stack and executed.
         </li>
         <li>
-          {" "}
-          Your code continues executing other tasks synchronously (like taking
-          other orders).
+          Task 2 (<code>setTimeout</code>) is placed in the queue since it has a
+          delay of 2 seconds.
         </li>
         <li>
-          Once the asynchronous operation finishes (like your food arrives), it
-          notifies the event loop.{" "}
+          Task 3 (<code>console.log('Task 3: End')</code>) is placed on the
+          stack and executed immediately.
         </li>
         <li>
-          {" "}
-          The event loop, seeing an empty call stack, adds the completed
-          operation to the call stack for further processing (like the chef
-          brings your food).
+          After 2 seconds, the event loop moves Task 2 from the queue to the
+          stack to be executed.
         </li>
       </ol>
-      <h3>Why is the Event Loop Important?</h3>
+
+      <h2>Real-Life Analogy: A Restaurant</h2>
       <p>
-        The event loop ensures that your web page remains responsive, even while
-        waiting for asynchronous tasks to complete. It keeps JavaScript from
-        getting bogged down and allows users to interact with the page without
-        long pauses.{" "}
+        Imagine a restaurant kitchen. The <code>call stack</code> is like the
+        kitchen where chefs prepare one dish at a time. Once a dish is finished,
+        it’s served to the customer. The <code>queue</code> is like the list of
+        orders waiting to be cooked. Orders are placed in the queue, but the
+        chefs can only work on one dish at a time.
       </p>
+
+      <p>
+        The <code>event loop</code> is like the restaurant manager, making sure
+        the chefs are always working on the next available order once they
+        finish cooking a dish. If an order takes a long time (like waiting for a
+        cake to bake), the manager ensures the chefs keep working on other
+        orders in the meantime.
+      </p>
+      <AdUnit />
+      <h2>Summary</h2>
+      <p>To summarize:</p>
+      <ul>
+        <li>
+          JavaScript is single-threaded, meaning it can only execute one task at
+          a time.
+        </li>
+        <li>
+          The <code>call stack</code> tracks what task is currently being
+          executed.
+        </li>
+        <li>
+          The <code>queue</code> holds tasks that are waiting to be executed,
+          like delayed tasks or tasks waiting for a response from the server.
+        </li>
+        <li>
+          The <code>event loop</code> ensures that once the stack is empty,
+          tasks from the queue are processed.
+        </li>
+        <li>
+          This process allows JavaScript to handle multiple tasks efficiently,
+          even though it can only execute one task at a time.
+        </li>
+      </ul>
+
+      <p>
+        The event loop makes sure that JavaScript can continue running smoothly,
+        handling tasks in the background while keeping the main thread free for
+        other tasks. Next, we’ll explore how JavaScript uses{" "}
+        <code>callbacks</code>, <code>promises</code>, and{" "}
+        <code>async/await</code> to handle asynchronous tasks more easily.
+      </p>
+
       <div className="button-container">
         <button
           onClick={() =>
