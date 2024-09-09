@@ -629,6 +629,7 @@ export const FetchingDataFromApis = () => {
 export const GetData = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Fetching Data from APIs</h1>
 
       <p>
@@ -726,7 +727,7 @@ export const GetData = () => {
           query parameter in the URL (after the <code>?</code>).
         </li>
       </ul>
-
+      <AdUnit />
       <h3>c. Handling Different Response Types</h3>
       <p>
         Sometimes, the API might send different types of responses. For
@@ -812,7 +813,7 @@ export const GetData = () => {
           occurred during the fetch process.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>5. Summary</h2>
       <p>To recap, fetching data from an API involves:</p>
 
@@ -853,6 +854,7 @@ export const GetData = () => {
 export const DisplayData = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Displaying API Data in JavaScript</h1>
 
       <p>
@@ -973,7 +975,7 @@ console.error('Error fetching data:', error);
           </li>
         </ul>
       </p>
-
+      <AdUnit />
       <h2>3. How It All Connects</h2>
       <p>
         This lesson builds on our previous knowledge of fetching data:
@@ -1067,7 +1069,7 @@ fetch(apiUrl)
         With these skills, you can now fetch and display data from APIs, making
         your web pages more engaging and responsive to real-time information.
       </p>
-
+      <AdUnit />
       <h2>7. Practice Challenge</h2>
       <p>
         Try using a different API to fetch and display other types of data, such
