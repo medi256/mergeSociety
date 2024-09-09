@@ -179,7 +179,11 @@ const Jscourse = () => {
             API(understanding what is an API)
           </li>
           <li onClick={() => navigate("/FetchingDataFromApis")}>
-            Fetching Data from APIs
+            Things to understand before Fetching data from an API
+          </li>
+          <li onClick={() => navigate("/getData")}>Fetching Data from APIs</li>
+          <li onClick={() => navigate("/displayData")}>
+            Displaying API Data in JavaScript
           </li>
         </ul>
         <br />

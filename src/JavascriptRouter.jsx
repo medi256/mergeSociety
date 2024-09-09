@@ -41,7 +41,11 @@ import Modules, {
   Prototypes,
   ThisKeyWord,
 } from "./Javascript/Modules";
-import IntroAPI, { FetchingDataFromApis } from "./Javascript/API";
+import IntroAPI, {
+  DisplayData,
+  FetchingDataFromApis,
+  GetData,
+} from "./Javascript/API";
 import JSOn from "./Javascript/JSOn";
 import DateObject, { MathObject } from "./Javascript/DateObject";
 import ForEachMethod, {
@@ -128,6 +132,8 @@ const JavascriptRouter = () => {
 
         <Route path="IntroAPI" element={<IntroAPI />} />
         <Route path="FetchingDataFromApis" element={<FetchingDataFromApis />} />
+        <Route path="getData" element={<GetData />} />
+        <Route path="displayData" element={<DisplayData />} />
       </Routes>
     </div>
   );
