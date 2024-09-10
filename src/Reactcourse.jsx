@@ -12,14 +12,7 @@ const Reactcourse = () => {
         <h1>Introduction to React</h1>
         <ul>
           <li onClick={() => navigate("/overViewReact")}> Overview of React</li>
-          <li onClick={() => navigate("/historyReact")}>
-            History and background{" "}
-          </li>
-          <li onClick={() => navigate("/benefitReact")}>
-            benefits of using React{" "}
-          </li>
         </ul>
-        <AdUnit />
         <h1>setting Up Your Environment </h1>
         <ul>
           <li onClick={() => navigate("/installNode")}>
@@ -35,6 +28,7 @@ const Reactcourse = () => {
             Understanding the Project Structure
           </li>
         </ul>
+        <AdUnit />
         <h2>Core Concepts</h2>
         <h3>Jsx(JavaScript XML)</h3>
         <ul>

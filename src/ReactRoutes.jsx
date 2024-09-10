@@ -1,8 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import OverviewReact, {
-  BenefitReact,
-  HistoryReact,
-} from "./ReactCourse/OverviewReact";
+import OverviewReact from "./ReactCourse/OverviewReact";
 import InstallingNode, {
   CreateReactApp,
   SettingCodeEditor,
@@ -43,8 +40,6 @@ const ReactRoutes = () => {
     <div>
       <Routes>
         <Route path="overViewReact" element={<OverviewReact />} />
-        <Route path="historyReact" element={<HistoryReact />} />
-        <Route path="benefitReact" element={<BenefitReact />} />
         <Route path="installNode" element={<InstallingNode />} />
         <Route path="settingCodeEditor" element={<SettingCodeEditor />} />
         <Route path="createReactApp" element={<CreateReactApp />} />
