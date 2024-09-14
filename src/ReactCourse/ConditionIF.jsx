@@ -1,214 +1,258 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const ConditionIF = () => {
   return (
     <div className="internet comments-container">
       <AdUnit />
-      <h2>React Conditional Rendering: Dynamic and Adaptive UIs</h2>
+      <h1>What is Conditional Rendering?</h1>
       <p>
-        React's conditional rendering allows you to create dynamic and adaptive
-        user interfaces. It enables you to display different components or
-        content based on certain conditions, making your applications more
-        flexible and responsive. Let's explore the world of conditional
-        rendering and learn how to efficiently render components conditionally
-        in your React applications.
+        In React, <strong>conditional rendering</strong> means showing (or
+        hiding) something on the screen based on certain conditions. For
+        example, you might want to show a message like "Welcome back!" if a user
+        is logged in, but show a "Please log in" message if they’re not logged
+        in. It’s like making decisions in your app: "If this happens, show this;
+        otherwise, show that."
       </p>
 
-      <h3>Understanding Conditional Rendering</h3>
+      <h2>How Conditional Rendering Works in React</h2>
       <p>
-        Conditional rendering in React refers to the practice of rendering
-        different components or content based on certain conditions. It allows
-        your application to adapt to different scenarios and display the
-        appropriate UI elements. With conditional rendering, you can create
-        dynamic and interactive user interfaces that respond to changes in your
-        application.
+        React lets you use JavaScript logic to conditionally render things
+        inside your components. This means you can use
+        <strong> if</strong>, <strong> else</strong>,{" "}
+        <strong> ternary operators</strong>, or even JavaScript functions to
+        decide what should appear in the user interface (UI). Let’s break down
+        each way of doing this.
       </p>
 
-      <h4>What is Conditional Rendering?</h4>
+      <h3>1. Using if Statements</h3>
       <p>
-        Conditional rendering is a technique used to render different UI
-        elements based on specific conditions. These conditions can be the value
-        of a variable, the result of a function, or the state of your
-        application. By using conditional rendering, you can make your
-        application more dynamic and responsive to changes in data or user
-        interactions.
+        In JavaScript, if statements allow you to run some code only if a
+        condition is true. You can use this inside a React component to decide
+        what to render.
       </p>
-
-      <h4>Why Use Conditional Rendering?</h4>
-      <p>Conditional rendering offers several benefits:</p>
-      <ul>
-        <li>
-          <strong>Dynamic UIs:</strong> Conditional rendering allows you to
-          create dynamic user interfaces that adapt to different conditions.
-          This means that your UI can change based on the values of variables,
-          user actions, or data received from an API.
-        </li>
-        <li>
-          <strong>Responsive Design:</strong> Conditional rendering enables you
-          to display different content or components based on factors such as
-          screen size, user preferences, or data availability. This helps you
-          build responsive and adaptive UIs that work well on different devices
-          and screen sizes.
-        </li>
-        <li>
-          <strong>Code Reusability:</strong> Conditional rendering promotes code
-          reusability by allowing you to render the same component with
-          different content based on certain conditions. For example, you can
-          render a list of items with different styles or additional information
-          based on user preferences.
-        </li>
-      </ul>
-
-      <h3>Steps to Implement Conditional Rendering</h3>
-      <p>Here are the steps to implement conditional rendering in React:</p>
-      <ol>
-        <li>
-          <strong>Define Conditions:</strong> Determine the conditions that will
-          trigger different rendering outcomes. These conditions can be based on
-          variables, functions, or application state.
-        </li>
-        <li>
-          <strong>Use Conditional Operators:</strong> Utilize conditional
-          operators like <code>if</code>, <code>else if</code>, and{" "}
-          <code>else</code> to render different components or content based on
-          the defined conditions.
-        </li>
-        <li>
-          <strong>Render Conditionally:</strong> Use the defined conditions to
-          render the appropriate components or content. You can conditionally
-          render entire components, JSX elements, or specific parts of your UI.
-        </li>
-      </ol>
-
-      <h3>Step-by-Step Example</h3>
-      <h4>1. Defining Conditions</h4>
-      <p>Let's define some simple conditions for our example:</p>
       <pre>
-        <code>{`
-// App.js
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
 
-import React, { useState } from 'react';
+const ConditionalRenderingExample = () => {
+  const isLoggedIn = true;  // This is the condition (true or false)
 
-function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  if (isLoggedIn) {
+    return <h1>Welcome back!</h1>;
+  } else {
+    return <h1>Please log in.</h1>;
+  }
+};
 
-  // ...
-}
-
-export default App;
-`}</code>
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
       <p>
-        In this code, we define a condition called <code>isDarkMode</code> using
-        the <code>useState</code> hook. We'll use this condition to determine
-        whether to render components in dark mode or light mode.
+        In this example, we have a variable called <code>isLoggedIn</code> that
+        holds a boolean value (either true or false). If <code>isLoggedIn</code>{" "}
+        is true, React will display "Welcome back!". If <code>isLoggedIn</code>{" "}
+        is false, React will display "Please log in."
       </p>
 
-      <h4>2. Using Conditional Operators</h4>
+      <h3>2. Using Ternary Operator</h3>
       <p>
-        Now, let's use conditional operators to render components based on the
-        defined condition:
+        Another way to do conditional rendering is with the ternary operator.
+        It’s a shorthand for <code>if...else</code>. Here’s how it works:
       </p>
       <pre>
-        <code>{`
-// ...
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
 
-return (
-  <div>
-    <h2>{isDarkMode ? "Dark Mode Dashboard" : "Light Mode Dashboard"}</h2>
-    {/* Additional components for the respective mode */}
-  </div>
-);
-
-// ...
-`}</code>
-      </pre>
-      <p>
-        In this code, we use the ternary operator (
-        <code>condition ? true : false</code>) to conditionally render different
-        content. If the <code>isDarkMode</code> condition is true, we render the
-        dark mode dashboard. Otherwise, we render the light mode dashboard.
-      </p>
-      <AdUnit />
-      <h4>3. Rendering Conditionally</h4>
-      <p>
-        Let's render components conditionally based on the defined condition:
-      </p>
-      <pre>
-        <code>{`
-// ...
-
-return (
-  <div>
-    <h2>{isDarkMode ? "Dark Mode Dashboard" : "Light Mode Dashboard"}</h2>
-    {/* Additional components for the respective mode */}
-  </div>
-);
-
-// ...
-`}</code>
-      </pre>
-      <p>
-        In this code, we use the <code>isDarkMode</code> condition with the
-        ternary operator to render the appropriate dashboard.
-      </p>
-
-      <h3>Putting It All Together</h3>
-      <p>Let's see the complete example:</p>
-      <pre>
-        <code>{`
-// App.js
-
-import React, { useState } from 'react';
-
-function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+const ConditionalRenderingExample = () => {
+  const isLoggedIn = false;
 
   return (
     <div>
-      <h2>{isDarkMode ? "Dark Mode Dashboard" : "Light Mode Dashboard"}</h2>
-      {/* Additional components for the respective mode */}
+      {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please log in.</h1>}
     </div>
   );
-}
+};
 
-export default App;
-`}</code>
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
       </pre>
-
-      <h3>Explanation</h3>
-      <ul>
-        <li>
-          <strong>Define Conditions:</strong> We define a condition called{" "}
-          <code>isDarkMode</code> using the <code>useState</code> hook. This
-          condition will determine whether to render components in dark mode or
-          light mode.
-        </li>
-        <li>
-          <strong>Use Conditional Operators:</strong> We use the ternary
-          operator (<code>condition ? true : false</code>) to conditionally
-          render different content based on the defined condition.
-        </li>
-        <li>
-          <strong>Render Conditionally:</strong> We use the defined condition to
-          render components conditionally. If the condition is true, we render
-          components in dark mode. If the condition is false, we render
-          components in light mode.
-        </li>
-      </ul>
-
-      <h3>Note</h3>
       <p>
-        Conditional rendering in React allows you to create flexible and
-        responsive user interfaces. By rendering components or content based on
-        certain conditions, you can make your application more dynamic and
-        interactive. Remember to use conditional operators like <code>if</code>,{" "}
-        <code>else if</code>, and <code>else</code> to efficiently render
-        different UI elements based on specific conditions.
+        The ternary operator checks if <code>isLoggedIn</code> is true. If true,
+        it displays "Welcome back!". If false, it displays "Please log in." This
+        approach is shorter and useful for simple conditions.
+      </p>
+      <AdUnit />
+      <h3>3. Using && (Logical AND)</h3>
+      <p>
+        The <code>&&</code> operator renders content only when a condition is
+        true, without an else case. Here’s an example:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const ConditionalRenderingExample = () => {
+  const hasNewMessages = true;
+
+  return (
+    <div>
+      <h1>Welcome to your dashboard</h1>
+      {hasNewMessages && <p>You have new messages!</p>}
+    </div>
+  );
+};
+
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        If <code>hasNewMessages</code> is true, it shows "You have new
+        messages!". Otherwise, nothing is shown.
+      </p>
+
+      <h3>4. Using Functions for Conditional Rendering</h3>
+      <p>
+        You can also use functions to handle complex conditional rendering. This
+        can make your code more readable:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const ConditionalRenderingExample = () => {
+  const isLoggedIn = true;
+
+  const renderMessage = () => {
+    if (isLoggedIn) {
+      return <h1>Welcome back!</h1>;
+    } else {
+      return <h1>Please log in.</h1>;
+    }
+  };
+
+  return (
+    <div>
+      {renderMessage()}
+    </div>
+  );
+};
+
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        Here, we use a function <code>renderMessage</code> to handle the logic
+        and then call it in the JSX.
+      </p>
+
+      <h3>5. Rendering Multiple Elements Based on Conditions</h3>
+      <p>
+        You can combine conditions to display different content. For example:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const ConditionalRenderingExample = () => {
+  const isLoggedIn = false;
+  const hasMessages = true;
+
+  return (
+    <div>
+      {isLoggedIn ? (
+        <div>
+          <h1>Welcome back!</h1>
+          {hasMessages && <p>You have new messages!</p>}
+        </div>
+      ) : (
+        <h1>Please log in.</h1>
+      )}
+    </div>
+  );
+};
+
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        Here, we check two conditions: if the user is logged in and if they have
+        messages. The output depends on both conditions.
+      </p>
+      <AdUnit />
+      <h3>6. Conditional Rendering with null</h3>
+      <p>
+        Sometimes, you don’t want to show anything when a condition is false. In
+        React, you can return <code>null</code> to render nothing.
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const ConditionalRenderingExample = () => {
+  const showWarning = false;
+
+  return (
+    <div>
+      <h1>Dashboard</h1>
+      {showWarning ? <p>Warning: Something went wrong!</p> : null}
+    </div>
+  );
+};
+
+export default ConditionalRenderingExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        If <code>showWarning</code> is false, nothing will be displayed for that
+        part of the component.
+      </p>
+
+      <h2>Why Conditional Rendering is Important</h2>
+      <p>
+        Conditional rendering lets you create dynamic, interactive UIs. You can
+        show or hide parts of the UI, display error messages, or handle
+        different states like loading or success.
+      </p>
+      <AdUnit />
+      <h2>Summary</h2>
+      <p>
+        Conditional rendering in React lets you control what users see based on
+        specific conditions. You can use <strong>if statements</strong>, the{" "}
+        <strong>ternary operator</strong>, the <strong>logical AND</strong>, or{" "}
+        <strong>functions</strong> to manage what appears in your UI. These
+        methods are essential for building dynamic and responsive user
+        interfaces.
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/JSXStructure")}>
+        <button onClick={() => (window.location.href = "/jsxSyntax")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/classComponent")}>

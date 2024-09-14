@@ -1,215 +1,294 @@
 import AdUnit from "../AdUnit";
 
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+
 const FuncComponet = () => {
   return (
     <div className="internet comments-container">
       <AdUnit />
-      <h2>Introduction to Components in React</h2>
+      <h1>React Components: A Comprehensive Beginner's Guide</h1>
+
       <p>
-        Components are the fundamental building blocks of a React application.
-        They allow us to create reusable and self-contained UI elements that can
-        be composed together to build complex interfaces. Think of components
-        like Lego bricks, each with its unique shape and purpose, that can be
-        assembled to create anything from a simple toy to a grand castle.
+        Hi there! 👋 Welcome to this detailed and friendly guide on React
+        components. If you're new to React, don't worry—we'll walk you through
+        everything step by step, using simple and easy-to-understand language.
       </p>
-      <h3>What is a Component?</h3>
+
+      <h2>What are Components?</h2>
       <p>
-        {`A component in React is a reusable piece of code that encapsulates the
-        structure, behavior, and appearance of a specific UI element. It's like
-        a blueprint that defines what the UI element should look like, how it
-        should behave, and how it interacts with the rest of the application.
-        Components can be as small as a single button or as complex as a
-        full-page layout.`}
+        Think of components like building blocks for your website—just like how
+        you can build complex structures with Lego blocks. Each component
+        represents a small part of your website, and once you create a
+        component, you can reuse it multiple times in different places!
       </p>
-      <h3>Why Use Components?</h3>
-      <p>
-        Components promote reusability, modularity, and maintainability in your
-        codebase. Here are some superpowers that components bring to your React
-        applications:
-      </p>
+      <p>For example, in a social media app, you might have:</p>
       <ul>
-        <li>
-          <strong>Reusability:</strong> Components can be used multiple times
-          throughout your application, reducing code duplication. If you need
-          the same UI element in different places, you can simply reuse the same
-          component.
-        </li>
-        <li>
-          <strong>Modularity:</strong> Components allow you to break down your
-          UI into smaller, manageable pieces. This makes it easier to
-          understand, modify, and maintain your code.
-        </li>
-        <li>
-          <strong>Encapsulation:</strong> Components encapsulate their own
-          logic, data, and appearance. This means you can work on a component in
-          isolation without affecting the rest of the application.
-        </li>
-        <li>
-          <strong>Composition:</strong> Components can be composed together to
-          build complex interfaces. You can nest components within each other,
-          creating a hierarchy that makes your UI flexible and powerful.
-        </li>
-      </ul>
-      <h3>Types of Components in React</h3>
-      <p>
-        In React, there are two main types of components: functional components
-        and class components.
-      </p>
-      <ul>
-        <li>
-          <strong>Functional Components:</strong> These are simple JavaScript
-          functions that return JSX content. They are lightweight and ideal for
-          creating small and reusable UI elements.
-        </li>
-        <li>
-          <strong>Class Components:</strong> These are defined using ES6 classes
-          and provide more advanced features like local state and lifecycle
-          methods. They are typically used for more complex components that
-          require internal state management.
-        </li>
+        <li>A component for the header (the top part of the page)</li>
+        <li>A component for each post</li>
+        <li>A component for the comments section</li>
       </ul>
       <p>
-        {`Now that we've introduced the concept of components, let's dive into the
-        world of functional components and explore their unique characteristics.`}
+        By breaking your app into smaller components, you make your code easier
+        to manage and maintain!
       </p>
-      <h2>Functional Components in React: Simplicity and Reusability</h2>
+
+      <h2>Two Types of Components</h2>
+      <p>In React, there are two main types of components:</p>
+      <ul>
+        <li>
+          <strong>Functional Components:</strong> These are the newer and
+          simpler way to write components. They work just like JavaScript
+          functions, which makes them a great choice for beginners. We'll focus
+          on these!
+        </li>
+        <li>
+          <strong>Class Components:</strong> These were used before functional
+          components, but they are more complicated. Don't worry about them for
+          now—we'll stick to functional components.
+        </li>
+      </ul>
+
+      <h2>Let's Create Your First Component!</h2>
       <p>
-        {`Functional components are a fundamental concept in React that empower us
-        to create concise and reusable UI elements. They are like the building
-        blocks of a Lego set, allowing us to construct complex interfaces with
-        ease. Let's dive into the world of functional components and explore
-        their superpowers!`}
+        Ready to build your first React component? Let’s get started step by
+        step!
       </p>
-      <h3>Understanding Functional Components</h3>
+
+      <h3>Step 1: Name Your Component</h3>
       <p>
-        {`A functional component in React is a simple JavaScript function that
-        returns JSX content. It's like a recipe for creating a specific UI
-        element. You give it some ingredients (called "props"), and it returns a
-        delicious dish (your UI element). Functional components can be defined
-        using either regular JavaScript functions or arrow functions, whichever
-        suits your coding style.`}
+        First, choose a name for your component. One important rule is that the
+        component name must always start with a capital letter. For this
+        example, let's call our component <code>Welcome</code>.
+      </p>
+
+      <h3>Step 2: Write a Function</h3>
+      <p>
+        Now, let's write a simple function. This function will return the
+        content that you want to display on the screen. Here's an example:
       </p>
       <pre>
         <code>
-          {` 
-// Define a functional component using a regular function
-
-function MyFunctionalComponent() {
-  return <div>Hello, Functional Component!</div>;
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`function Welcome() {
+return <h1>Hello, friend!</h1>;
+}`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Let's break this down:</p>
+      <ul>
+        <li>
+          <code>function Welcome()</code> creates a new function called{" "}
+          <strong>Welcome</strong>. This function will generate some content for
+          us.
+        </li>
+        <li>
+          <code>return</code> tells React what to display on the screen. In this
+          case, we're returning an HTML element—a big heading (
+          <code>&lt;h1&gt;</code>) that says "Hello, friend!"
+        </li>
+      </ul>
+      <p>
+        Whenever we use the <code>Welcome</code> component, it will display this
+        heading.
+      </p>
+      <AdUnit />
+      <h3>Step 3: Export Your Component</h3>
+      <p>
+        To use your component in other parts of your app, you need to{" "}
+        <strong>export</strong> it. Exporting a component is like packing it up
+        in a box so that you can easily move it around and use it anywhere in
+        your project. Here's how you do that:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`function Welcome() {
+return <h1>Hello, friend!</h1>;
 }
 
-// Or use an arrow function
-
-const MyFunctionalComponent = () => {
-  return <div>Hello, Functional Component!</div>;
-};
-`}
+export default Welcome;`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
-        In this example, <code>MyFunctionalComponent</code> is a functional
-        component. It takes no arguments and returns a <code>&lt;div&gt;</code>{" "}
-        with a friendly greeting. This component is responsible for rendering a
-        specific piece of UI.
+        The <code>export default Welcome;</code> line makes the{" "}
+        <code>Welcome</code> component available to other files in your app.
       </p>
-      <h3>Benefits of Using Functional Components</h3>
+
+      <h3>Step 4: Use Your Component</h3>
       <p>
-        Functional components offer several advantages that make them a popular
-        choice in React:
+        Now that we've created the <code>Welcome</code> component, let's learn
+        how to use it inside our app. We need to do two things:
       </p>
       <ul>
         <li>
-          <strong>Simplicity:</strong> Functional components are straightforward
-          and easy to understand. They focus solely on rendering JSX content,
-          making them perfect for creating small and reusable UI elements.
+          <strong>Import</strong> the component.
         </li>
         <li>
-          <strong>Performance:</strong>{" "}
-          {`Since functional components don't have
-          their own state, React can optimize their rendering. This leads to
-          improved performance and faster applications.`}
+          <strong>Use</strong> the component in your JSX code.
+        </li>
+      </ul>
+      <p>Here's an example of how to do that:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`import React from 'react';
+import Welcome from './Welcome'; // Importing the Welcome component
+
+function App() {
+return (
+<div>
+<Welcome />  {/* Using the Welcome component */}
+</div>
+);
+}
+
+export default App;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Here's what's happening:</p>
+      <ul>
+        <li>
+          <code>import React from 'react';</code> is always needed when writing
+          React components.
         </li>
         <li>
-          <strong>Reusability:</strong> Functional components excel at being
-          reused throughout your application. You can create a functional
-          component once and use it in multiple places, reducing code
-          duplication.
+          <code>import Welcome from './Welcome';</code> brings the{" "}
+          <code>Welcome</code> component we created earlier into this file. The{" "}
+          <code>./</code> means that the <code>Welcome</code> component is in
+          the same folder.
         </li>
         <li>
-          <strong>Testability:</strong> Functional components are typically
-          easier to test because they are pure functions that produce
-          predictable outputs. Testing a functional component becomes a breeze.
+          <code>&lt;Welcome /&gt;</code> is how we use the <code>Welcome</code>{" "}
+          component. This looks similar to an HTML tag but represents the
+          component we created.
+        </li>
+      </ul>
+
+      <h3>
+        Why Do We Write <code>&lt;Welcome /&gt;</code> Instead of{" "}
+        <code>Welcome()</code>?
+      </h3>
+      <p>
+        Great question! In React, we use the syntax{" "}
+        <code>&lt;Welcome /&gt;</code> because:
+      </p>
+      <ul>
+        <li>It's part of JSX, the special syntax React uses.</li>
+        <li>
+          It helps React understand that this is a component, not just a regular
+          function.
         </li>
         <li>
-          <strong>Maintainability:</strong> Functional components promote clean
-          and modular code. By keeping components small and focused, your
-          codebase becomes easier to understand, modify, and maintain.
+          It makes your code look more like HTML, which is easier to read and
+          write when building web pages.
         </li>
       </ul>
       <AdUnit />
-      <h3>Using Functional Components in Practice</h3>
+      <h3>Wrapping Multiple Elements</h3>
       <p>
-        {`Functional components shine when it comes to creating reusable UI
-        elements like buttons, form inputs, navigation menus, and more. Let's
-        see how we can use a functional component in action:`}
+        Sometimes, you'll want to return more than one element from your
+        component. For example, maybe you want to return both a heading and a
+        paragraph:
       </p>
       <pre>
         <code>
-          {`
-// Import necessary libraries
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-// Define a functional component
-function MyButton() {
-  return <button>Click me!</button>;
-}
-
-// Or use an arrow function
-const MyButton = () => <button>Click me!</button>;
-
-// Use the functional component
-function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to My App</h1>
-      <MyButton />
-    </div>
-  );
-}
-
-// Render the app
-ReactDOM.render(<MyApp />, document.getElementById('root'));
-`}
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`function Welcome() {
+return (
+<div>
+<h1>Hello, friend!</h1>
+<p>Welcome to our app!</p>
+</div>
+);
+}`}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <p>
-        In this example, <code>MyButton</code> is a functional component that
-        returns a <code>&lt;button&gt;</code>. We can define functional
-        components using either regular functions or arrow functions, whichever
-        suits your coding style. We then use <code>MyButton</code> within
-        another component,
-        <code>MyApp</code>, to create a more complex UI. Finally, we render
-        <code>MyApp</code> using <code>ReactDOM.render()</code>, bringing our
-        button to life on the screen.
+        Notice that both the heading and paragraph are inside a{" "}
+        <code>&lt;div&gt;</code> element. This is important because React
+        requires your component to return one single parent element. If you
+        don’t wrap the elements, React will show an error.
       </p>
-      <h3>Note</h3>
+
+      <h2>Practice Time!</h2>
       <p>
-        {`Remember, functional components are all about keeping things simple and
-        reusable. They are one type of component in React, perfect for creating
-        small, focused UI elements. As your React journey continues, you'll
-        explore another type of component called class components, which offer
-        more advanced features. But for now, embrace the simplicity and power of
-        functional components to build amazing UIs!`}
+        Let's create another simple component to practice. This time, we'll make
+        a button component:
       </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`function ButtonClick() {
+return (
+<button>Click me!</button>
+);
+}
+
+export default ButtonClick;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
       <p>
-        With functional components, you can create reusable and concise UI
-        elements that are easy to understand and maintain. They are a
-        fundamental tool in your React toolbox, enabling you to build complex
-        interfaces with ease.
+        Now, let's use this new button in our App component alongside the
+        Welcome component:
       </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`import React from 'react';
+import Welcome from './Welcome';
+import ButtonClick from './ButtonClick';
+
+function App() {
+return (
+<div>
+<Welcome />
+<ButtonClick />
+</div>
+);
+}
+
+export default App;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <AdUnit />
+      <h2>Wrapping Up</h2>
+      <p>Here are the key points to remember:</p>
+      <ul>
+        <li>Components are like building blocks for your website.</li>
+        <li>Always start component names with a capital letter.</li>
+        <li>
+          Use <code>export default</code> to make your component available to
+          other parts of your app.
+        </li>
+        <li>
+          Use <code>import</code> to bring components into the file where you
+          want to use them.
+        </li>
+        <li>
+          Use components like <code>&lt;ComponentName /&gt;</code> in your JSX
+          code.
+        </li>
+        <li>
+          Wrap multiple elements in a container (like a <code>&lt;div&gt;</code>
+          ) when returning them from a component.
+        </li>
+      </ul>
+      <p>
+        Keep practicing, and soon you'll be creating amazing things with React
+        components! 😊
+      </p>
+
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/RenderingComp")}>
+        <button onClick={() => (window.location.href = "/JSXAttributes")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/JSXStructure")}>
@@ -227,159 +306,330 @@ export const JSXStructure = () => {
     <div className="internet comments-container">
       <AdUnit />
       <h2>
-        JSX Structure and Container Elements in React: Building the Foundation
+        JSX Structure and Container Elements: A Comprehensive Beginner's Guide
       </h2>
 
       <p>
-        {`JSX structure and container elements are like the foundation of a house,
-        providing the framework upon which your React components are built. They
-        ensure that your UI elements are properly organized and rendered
-        correctly. Let's dive into the world of JSX structure and explore its
-        superpowers!`}
+        Hello there! 👋 You've already learned about JSX, and now we're going to
+        explore how to structure your JSX, use container elements, and learn
+        some cool new tricks! By the end of this guide, you’ll have a solid
+        understanding of how to organize your JSX code in a way that keeps
+        everything clear and working smoothly.
       </p>
 
-      <h3>Understanding JSX Structure</h3>
-
+      <h3>Why Do We Need to Structure Our JSX?</h3>
       <p>
-        JSX structure refers to the way we organize and structure our JSX code
-        within a React component. It involves wrapping our JSX content within a
-        container element, typically a <code>&lt;div&gt;</code>. This container
-        element serves as the foundation for our UI and ensures that our
-        components are rendered correctly. Additionally, we use parentheses{" "}
-        <code>()</code> to enclose our JSX content, allowing us to include
-        multiple elements and return them as a single unit.
+        Think of JSX like building blocks in a game or stacking bricks to build
+        a tower. If you don't arrange the blocks correctly, the tower will fall.
+        JSX works in a similar way. We need to carefully arrange our JSX code to
+        make sure the React component functions properly.
       </p>
 
-      <pre>
-        <code>
-          {`
-            // Example JSX structure
-            function MyComponent() {
-              return (
-                <div>
-                  <h1>Hello, JSX!</h1>
-                  <p>This is my JSX content.</p>
-                </div>
-              );
-            }
-          `}
-        </code>
-      </pre>
-
-      <p>
-        In this example, the JSX content is wrapped within a{" "}
-        <code>&lt;div&gt;</code> container element. This container serves as the
-        foundation for our UI. It ensures that the heading (
-        <code>&lt;h1&gt;</code>) and paragraph (<code>&lt;p&gt;</code>) elements
-        are properly structured and rendered. The container element acts as a
-        parent to the child UI elements, providing a solid framework for our UI.
-        Additionally, we use parentheses <code>()</code> to enclose our JSX
-        content. This allows us to include multiple elements within the
-        container and return them as a single unit.
-      </p>
-      <AdUnit />
-      <h3>Benefits of Using Container Elements</h3>
-
-      <p>
-        Using container elements in our JSX structure offers several advantages:
-      </p>
-
+      <p>By structuring JSX correctly, we can:</p>
       <ul>
         <li>
-          <strong>Proper Rendering:</strong> Container elements ensure that our
-          UI elements are rendered correctly. They provide a structured
-          framework that helps React understand how to display our UI elements
-          properly.
+          <strong>Keep our code organized:</strong> Well-structured code is
+          easier to read, both for you and for other developers.
         </li>
         <li>
-          <strong>Flexibility:</strong> Container elements give us the
-          flexibility to organize and structure our UI. We can nest child UI
-          elements within the container, creating a hierarchical structure that
-          is easy to manage and maintain.
+          <strong>Make our websites look good:</strong> The way you structure
+          your code directly affects how the website looks and behaves.
         </li>
         <li>
-          <strong>Code Readability:</strong> Container elements improve code
-          readability by clearly defining the boundaries of our UI. They make it
-          easier to understand the overall structure and layout of our UI
-          elements.
-        </li>
-        <li>
-          <strong>CSS Styling:</strong> Container elements can be targeted with
-          CSS styles, allowing us to apply styles to a group of UI elements
-          collectively. This helps maintain a consistent and cohesive design
-          across our UI.
+          <strong>Avoid bugs:</strong> If JSX isn’t structured correctly, it
+          might break the app or make React throw errors.
         </li>
       </ul>
 
-      <h3>Using Container Elements in Practice</h3>
-
       <p>
-        {`Container elements shine when it comes to building structured and
-        organized UIs. Let's see how we can use container elements in a
-        practical example:`}
+        In React, everything revolves around building reusable pieces of code
+        called "components." If we don't structure our components properly,
+        things can quickly become confusing. So, learning how to structure JSX
+        is essential for building React apps!
       </p>
 
+      <h3>The One Parent Rule</h3>
+      <p>
+        React has a very important rule: your JSX must always return just{" "}
+        <strong>one parent element</strong>. This means that inside every
+        component, all your elements must be wrapped inside a single container.
+        It’s like packing items into a box—you can’t hand over several items
+        separately without putting them into one box first.
+      </p>
+
+      <p>For example, this code won't work:</p>
       <pre>
         <code>
-          {`
-      // Define a component with container elements
-      function MyComponent() {
-        return (
-          <div>
-            <h1>Header</h1>
-            <div>
-              <p>Paragraph 1</p>
-              <p>Paragraph 2</p>
-            </div>
-            <Footer />
-          </div>
-        );
-      }
-
-      // Use the component
-      function MyApp() {
-        return (
-          <div>
-            <MyComponent />
-          </div>
-        );
-      }
-
-      // Render the app
-      ReactDOM.render(<MyApp />, document.getElementById('root'));
-    `}
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function BadExample() {
+  return (
+    <h1>Hello!</h1>
+    <p>This won't work.</p>
+  );
+}
+`}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <p>
-        In this example, the <code>MyComponent</code> component uses container
-        elements to structure its UI. The <code>&lt;div&gt;</code> container
-        serves as the foundation for the UI, providing a structured framework.
-        Within the container, we nest child UI elements like headings (
-        <code>&lt;h1&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), and other
-        components (<code>Footer</code>). This hierarchical structure ensures
-        that our UI elements are properly organized and rendered.
+        In the above example, React doesn’t know how to handle two sibling
+        elements (<code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>) without a
+        single parent wrapping them. It’s like trying to hold two cups of water
+        in one hand without a tray—it will get messy!
       </p>
-
-      <h3>Note</h3>
 
       <p>
-        Remember, JSX structure and container elements are like the foundation
-        of a house, providing the framework for your React components. They
-        ensure proper rendering, flexibility, and code readability. The
-        parentheses <code>()</code> in JSX allow us to enclose multiple elements
-        and return them as a single unit. As your React applications grow,
-        container elements will become essential for building structured and
-        well-organized UIs. Embrace the power of container elements to build
-        solid and well-structured interfaces!
+        To fix this, we can wrap these elements in a container. Usually, we use
+        a <code>&lt;div&gt;</code> (a general-purpose container) to hold
+        multiple elements together:
       </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function GoodExample() {
+  return (
+    <div>
+      <h1>Hello!</h1>
+      <p>This works great!</p>
+    </div>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        Now React understands that everything inside the{" "}
+        <code>&lt;div&gt;</code> is grouped together, so it’s happy and can
+        render your component.
+      </p>
+      <AdUnit />
+      <h3>Using Container Elements</h3>
+      <p>
+        A container element is like a box that holds other elements inside it.
+        In HTML, different container elements are used for organizing content.
+        In React, we commonly use <code>&lt;div&gt;</code>, but there are other
+        options that make your code more meaningful.
+      </p>
+      <p>Some of the common container elements you’ll use include:</p>
+      <ul>
+        <li>
+          <code>&lt;div&gt;</code>: This is the most commonly used container.
+          It’s like a simple box you can use anywhere.
+        </li>
+        <li>
+          <code>&lt;section&gt;</code>: Use this for grouping related content.
+          For example, you might use it to group all the content about a
+          particular topic together.
+        </li>
+        <li>
+          <code>&lt;article&gt;</code>: Use this when the content makes sense by
+          itself, like a blog post or an article.
+        </li>
+        <li>
+          <code>&lt;header&gt;</code>: This is used for the top part of your
+          page or a section, typically where a title or navigation goes.
+        </li>
+        <li>
+          <code>&lt;footer&gt;</code>: This is for the bottom part of your page,
+          where copyright information or contact details often go.
+        </li>
+        <li>
+          <code>&lt;nav&gt;</code>: Use this for navigation links, like a menu
+          or table of contents.
+        </li>
+      </ul>
+
+      <p>Let’s see an example of how to use different container elements:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function SimpleWebPage() {
+  return (
+    <div>
+      <header>
+        <h1>Welcome to My Website</h1>
+      </header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <section>
+        <h2>About Us</h2>
+        <p>We are a cool company that does amazing things!</p>
+      </section>
+      <footer>
+        <p>Copyright 2024</p>
+      </footer>
+    </div>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        In this example, we’re using different HTML container elements to
+        organize different parts of the webpage. The <code>&lt;header&gt;</code>{" "}
+        contains the main title, <code>&lt;nav&gt;</code> contains the
+        navigation links, <code>&lt;section&gt;</code> contains the "About Us"
+        content, and <code>&lt;footer&gt;</code> contains the copyright notice.
+        Structuring content like this makes it easier for both users and
+        developers to understand the layout of your page.
+      </p>
+
+      <h3>Nesting Elements</h3>
+      <p>
+        Nesting is when you place one element inside another. It’s like putting
+        smaller boxes inside bigger ones. This helps to group related content
+        together.
+      </p>
+
+      <p>Here’s an example:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function NestedExample() {
+  return (
+    <div>
+      <section>
+        <h2>Our Products</h2>
+        <div>
+          <h3>Product 1</h3>
+          <p>This is a great product!</p>
+        </div>
+        <div>
+          <h3>Product 2</h3>
+          <p>This product is even better!</p>
+        </div>
+      </section>
+    </div>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        In this example, we have two <code>&lt;div&gt;</code> elements nested
+        inside a <code>&lt;section&gt;</code>. This keeps the related
+        content—information about products—grouped together in one section.
+        Nesting helps you organize and structure your content logically.
+      </p>
+      <AdUnit />
+      <h3>Introducing Fragments: A Special Container</h3>
+      <p>
+        Sometimes, you don’t want to add an extra HTML element like a{" "}
+        <code>&lt;div&gt;</code>. Maybe you just need something to group
+        elements together without affecting your layout. That’s where{" "}
+        <strong>fragments</strong> come in!
+      </p>
+
+      <p>
+        A fragment is an invisible container that holds elements without adding
+        anything extra to the HTML. This is useful when you need to group
+        elements but don't want to mess up the design with extra HTML tags.
+      </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+function FragmentExample() {
+  return (
+    <React.Fragment>
+      <h1>Hello!</h1>
+      <p>This uses a Fragment.</p>
+    </React.Fragment>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        You can also write fragments in a shorter way, using empty angle
+        brackets <code>&lt;&gt;</code> like this:
+      </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function ShortFragmentExample() {
+  return (
+    <>
+      <h1>Hello!</h1>
+      <p>This uses a short Fragment.</p>
+    </>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        Both versions do the same thing: group elements without adding extra
+        HTML tags to your page.
+      </p>
+      <AdUnit />
+      <h3>Adding JavaScript to Your JSX</h3>
+      <p>
+        One of the coolest things about JSX is that it allows you to combine
+        HTML-like syntax with JavaScript. To add JavaScript inside your JSX, you
+        use curly braces <code>{"{}"}</code>. Inside these braces, you can
+        include variables, function calls, or even simple calculations.
+      </p>
+
+      <p>For example:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+function Greeting() {
+  const name = "Alice";
+  return (
+    <div>
+      <h1>Hello, {name}!</h1>
+      <p>The result of 2 + 2 is {2 + 2}.</p>
+    </div>
+  );
+}
+`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <p>
+        In this example, <code>{"{name}"}</code> inserts the value of the{" "}
+        <code>name</code> variable into the JSX, and <code>{"{2 + 2}"}</code>{" "}
+        calculates the result and displays it.
+      </p>
+
+      <p>
+        This makes JSX super powerful because you can dynamically change the
+        content of your elements using JavaScript!
+      </p>
+
       <div className="button-container">
         <button onClick={() => (window.location.href = "/funcComp")}>
           back
         </button>
-        <button
-          onClick={() => (window.location.href = "/ReactConditionalRendering")}
-        >
+        <button onClick={() => (window.location.href = "/RenderingComp")}>
           Next
         </button>
       </div>
@@ -391,151 +641,214 @@ export const ClassCompoent = () => {
   return (
     <div className="internet comments-container">
       <AdUnit />
-      <h2>Class Components in React: Unleashing Advanced Features</h2>
-
+      <h1>What Are Class Components?</h1>
       <p>
-        Class components in React are like the older siblings of functional
-        components. They offer more advanced features and capabilities, making
-        them perfect for building complex and dynamic UI elements. Think of
-        class components as the superheroes of React, ready to display amazing
-        content and save the day!
+        Class Components are one of the two types of components in React. They
+        were the main way to create components before Functional Components
+        became popular with the introduction of React Hooks. Class Components
+        are based on ES6 classes and are more complex compared to Functional
+        Components.
       </p>
-
-      <h3>Understanding Class Components</h3>
-
-      <p>
-        {`Before we dive in, it's important to note that class components are an
-        older way of defining React components. In this course, we will
-        primarily focus on functional components because they are simpler to
-        define and have been widely adopted by developers. However,
-        understanding class components is valuable because they offer the same
-        functionality and you might encounter them in existing codebases.`}
-      </p>
-
-      <p>
-        {`A class component in React is defined using ES6 class syntax. It
-        provides more flexibility and control over your UI elements. With class
-        components, you can manage local state, handle lifecycle events, and use
-        additional methods to enhance your UI. Let's dive into the world of
-        class components and explore their superpowers!`}
-      </p>
-
-      <pre>
-        <code>
-          {`// Example class component
-class MyClassComponent extends React.Component {
-  render() {
-    return <div>Hello, Class Component!</div>;
-  }
-}`}
-        </code>
-      </pre>
-
-      <p>
-        In this example, <code>MyClassComponent</code> is a class component. It
-        extends <code>React.Component</code>, which gives it access to{" "}
-        {` React's `}
-        powerful features. The <code>render</code> method defines the UI
-        structure and returns JSX content. In this case, it simply renders a
-        greeting message.
-      </p>
-
-      <h3>Benefits of Using Class Components</h3>
-
-      <p>
-        Class components offer several advantages that make them well-suited for
-        building complex and dynamic UIs:
-      </p>
-
+      <p>You should know about Class Components because:</p>
       <ul>
         <li>
-          <strong>Local State:</strong> Class components can manage their own
-          state using the <code>this.state</code> object. This allows you to
-          dynamically update and display content within the component.
+          <strong>Legacy Code:</strong> You might come across them in older
+          React codebases.
         </li>
         <li>
-          <strong>Lifecycle Methods:</strong> Class components provide lifecycle
-          methods like <code>componentDidMount</code> and{" "}
-          <code>componentDidUpdate</code>. These methods allow you to perform
-          actions when the component is first rendered or updated, such as
-          fetching data or updating the UI.
-        </li>
-        <li>
-          <strong>Event Handling:</strong>{" "}
-          {`Class components make it easy to
-          handle events like clicks, keyboard inputs, and form submissions. You
-          can define methods to handle these events and update the component's
-          state accordingly.`}
-        </li>
-        <li>
-          <strong>Enhanced Flexibility:</strong> Class components give you more
-          flexibility in managing complex UI logic. They provide a structured
-          way to organize your code and handle interactions within the
-          component.
+          <strong>Understanding React History:</strong> It helps to know how
+          React components have evolved.
         </li>
       </ul>
-      <AdUnit />
-      <h3>Using Class Components in Practice</h3>
 
-      <p>
-        {`Class components shine when it comes to building UI elements that
-        require dynamic content and event handling. Let's see how we can use a
-        class component in a simple example:`}
-      </p>
-
+      <h2>Creating a Class Component</h2>
+      <p>Here’s how you create a basic Class Component:</p>
       <pre>
         <code>
-          {`// Define a class component
-class MyParagraph extends React.Component {
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React, { Component } from 'react';
+
+class Welcome extends Component {
   render() {
     return (
       <div>
-        <h1>Hello, Class Component!</h1>
-        <p>This is a paragraph.</p>
+        <h1>Welcome to My React App</h1>
       </div>
     );
   }
 }
 
-// Use the class component
-function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to My App</h1>
-      <MyParagraph />
-    </div>
-  );
-}
-
-// Render the app
-ReactDOM.render(<MyApp />, document.getElementById('root'));
-`}
+export default Welcome;
+      `}
+          </SyntaxHighlighter>
         </code>
       </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>Importing React and Component:</strong> We start by importing
+          React and Component from the 'react' library. Component is a class
+          provided by React that we extend to create our own component.
+        </li>
+        <li>
+          <strong>Creating a Class Component:</strong> We define a new class
+          called <code>Welcome</code> that extends Component. This means our
+          Welcome class inherits properties and methods from React's Component.
+        </li>
+        <li>
+          <strong>The render Method:</strong> Every Class Component must have a{" "}
+          <code>render</code> method. This method returns the JSX that defines
+          what the component will display. In this example, it simply returns a{" "}
+          <code>&lt;div&gt;</code> with a heading.
+        </li>
+        <li>
+          <strong>Exporting the Component:</strong> We use{" "}
+          <code>export default</code> to make our component available for use in
+          other parts of the application.
+        </li>
+      </ul>
 
+      <h2>State in Class Components</h2>
       <p>
-        In this example, <code>MyParagraph</code> is a class component that
-        renders a heading and a paragraph. We can use it within another
-        component,
-        <code>MyApp</code>, to create a more complex UI. Class components give
-        you the flexibility to structure and render dynamic content within your
-        UI elements.
+        One of the main features of Class Components is state. State is used to
+        store information that can change over time and affect how the component
+        behaves or looks.
+      </p>
+      <p>Here’s an example of a Class Component with state:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React, { Component } from 'react';
+
+class Counter extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+
+  increment = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Count: {this.state.count}</h1>
+        <button onClick={this.increment}>Increment</button>
+      </div>
+    );
+  }
+}
+
+export default Counter;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>Constructor Method:</strong> The constructor method is used to
+          initialize the component's state. We call
+          <code>super(props)</code> to ensure the parent Component class is
+          properly initialized. <code>this.state</code> is used to set the
+          initial state.
+        </li>
+        <li>
+          <strong>State Object:</strong> <code>this.state</code> is an object
+          where we store the component's data. In this case, we start with count
+          set to 0.
+        </li>
+        <li>
+          <strong>Updating State:</strong> We use <code>this.setState</code> to
+          update the state. When <code>this.setState</code>
+          is called, React re-renders the component with the new state. Here,
+          the increment method increases the count by 1.
+        </li>
+        <li>
+          <strong>Rendering State:</strong> Inside the render method, we access
+          the state using <code>this.state.count</code>
+          and display it in the <code>&lt;h1&gt;</code> tag. The button uses an{" "}
+          <code>onClick</code> event to call the increment method when clicked.
+        </li>
+      </ul>
+      <AdUnit />
+      <h2>Lifecycle Methods</h2>
+      <p>
+        Class Components have special methods called lifecycle methods that you
+        can use to run code at specific points in a component's life. These
+        methods allow you to handle things like data fetching, manual DOM
+        manipulation, and cleanup.
+      </p>
+      <p>Here’s an example of a Class Component using a lifecycle method:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React, { Component } from 'react';
+
+class LifecycleExample extends Component {
+  componentDidMount() {
+    console.log('Component has been rendered to the DOM');
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Lifecycle Example</h1>
+      </div>
+    );
+  }
+}
+
+export default LifecycleExample;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>Lifecycle Method:</strong> <code>componentDidMount</code> is a
+          lifecycle method that runs after the component has been rendered to
+          the DOM. It’s often used to fetch data or perform setup tasks.
+        </li>
+      </ul>
+
+      <h2>Why Use Functional Components Instead?</h2>
+      <p>
+        Functional Components have become the preferred way to create components
+        in React, thanks to their simplicity and the introduction of React
+        Hooks. Hooks allow you to use state and other features without writing a
+        class.
+      </p>
+      <ul>
+        <li>
+          <strong>Simplicity:</strong> They are easier to read and write.
+        </li>
+        <li>
+          <strong>Hooks:</strong> Allow you to use state and other features
+          without classes.
+        </li>
+        <li>
+          <strong>Less Boilerplate:</strong> No need for constructor or this.
+        </li>
+      </ul>
+      <AdUnit />
+      <h2>Summary</h2>
+      <p>
+        Class Components were the primary way to create components in React
+        before Functional Components and Hooks were introduced. They use classes
+        and have features like state and lifecycle methods. Although you will
+        mainly work with Functional Components in modern React development,
+        understanding Class Components is useful for reading and maintaining
+        older code.
       </p>
 
-      <h3>Note</h3>
-
-      <p>
-        {`Remember, class components are powerful tools in your React toolbox.
-        They are perfect for building UI elements that require dynamic content
-        and event handling. As your React skills grow, you'll find class
-        components to be versatile and flexible, allowing you to create engaging
-        and interactive UIs. However, in modern React development, functional
-        components are preferred for their simplicity and the benefits brought
-        by React hooks. Don't be intimidated by the advanced features of class
-        components; start with simple examples and gradually explore their full
-        potential. Embrace the rendering power of class components to create
-        captivating UIs!`}
-      </p>
       <div className="button-container">
         <button
           onClick={() => (window.location.href = "/ReactConditionalRendering")}
@@ -553,190 +866,271 @@ export const CompHierarchNest = () => {
   return (
     <div className="internet comments-container">
       <AdUnit />
-      <h2>
-        Component Hierarchy and Nesting in React: Building Complex Interfaces
-      </h2>
-
+      <h1>What is Component Hierarchy?</h1>
       <p>
-        {`Component hierarchy and nesting are fundamental concepts in React that
-        allow us to build complex and structured interfaces. Think of it like
-        putting together a puzzle, where each piece (component) fits together to
-        form a beautiful picture. Let's dive into the world of component
-        hierarchy and explore how we can create powerful and organized UIs.`}
+        In React, Component Hierarchy refers to the way components are organized
+        and structured within an application. It's similar to a family tree
+        where components can be parents, children, or siblings to one another.
       </p>
-
-      <h3>Understanding Component Hierarchy</h3>
-
-      <p>
-        {`Component hierarchy refers to how we organize and structure components
-        within a React application. It's like building a house, where each room
-        (component) has its own purpose and fits together to make a complete
-        home. In React, we create parent components that can contain multiple
-        child components. This hierarchical structure helps us build complex
-        interfaces by combining simpler components.`}
-      </p>
-
-      <pre>
-        <code>
-          {`// Example component hierarchy
-function MyApp() {
-  return (
-    <div>
-      <Header />
-      <Content />
-      <Footer />
-    </div>
-  );
-}`}
-        </code>
-      </pre>
-
-      <p>
-        In this example, <code>MyApp</code> is the parent component that holds
-        three child components: <code>Header</code>, <code>Content</code>, and{" "}
-        <code>Footer</code>. Each child component is responsible for rendering a
-        specific part of the UI. By organizing components in a hierarchical
-        structure, we can break down complex UIs into smaller, more manageable
-        pieces.
-      </p>
-
-      <h3>Benefits of Component Hierarchy</h3>
-
-      <p>
-        Component hierarchy brings several advantages that make it a powerful
-        tool in React:
-      </p>
-
+      <h2>Key Concepts:</h2>
       <ul>
         <li>
-          <strong>Modularity:</strong> Component hierarchy promotes modular
-          design by breaking down the UI into smaller, reusable components. This
-          makes it easier to understand, maintain, and test individual
+          <strong>Parent Component:</strong> This is a component that contains
+          other components inside it. Think of it as the "container" for child
           components.
         </li>
         <li>
-          <strong>Code Reusability:</strong> With component hierarchy, you can
-          reuse the same child components in different parent components. This
-          reduces code duplication and makes your codebase more efficient.
+          <strong>Child Component:</strong> This is a component that is nested
+          inside another component. It can receive data from its parent
+          component and display or use that data.
         </li>
         <li>
-          <strong>Maintainability:</strong>{" "}
-          {`By organizing components in a
-          hierarchical structure, it becomes easier to locate and modify
-          specific parts of the UI. Changes to one component won't affect the
-          rest of the application.`}
+          <strong>Sibling Components:</strong> These are components that are at
+          the same level in the hierarchy, sharing the same parent component.
+        </li>
+      </ul>
+
+      <h2>Why is Component Hierarchy Important?</h2>
+      <ul>
+        <li>
+          <strong>Organization:</strong> Helps in structuring your application
+          in a logical and manageable way.
         </li>
         <li>
-          <strong>Scalability:</strong> Component hierarchy allows you to build
-          complex interfaces by combining simpler components. You can start
-          small and gradually add more components to create sophisticated UIs.
+          <strong>Reusability:</strong> Allows you to reuse components across
+          different parts of your application.
+        </li>
+        <li>
+          <strong>Maintainability:</strong> Makes it easier to manage and update
+          your code as your application grows.
+        </li>
+      </ul>
+
+      <h2>Basic Example of Component Hierarchy</h2>
+      <p>
+        Let's start with a simple example to illustrate component hierarchy:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const Header = () => (
+  <header>
+    <h1>My React App</h1>
+  </header>
+);
+
+const MainContent = () => (
+  <main>
+    <p>Welcome to my application!</p>
+  </main>
+);
+
+const Footer = () => (
+  <footer>
+    <p>&copy; 2024 My React App</p>
+  </footer>
+);
+
+const App = () => (
+  <div>
+    <Header />
+    <MainContent />
+    <Footer />
+  </div>
+);
+
+export default App;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>Header, MainContent, and Footer</strong> are individual
+          components.
+        </li>
+        <li>
+          <strong>App</strong> is the parent component that includes Header,
+          MainContent, and Footer as its children.
+        </li>
+      </ul>
+      <p>Here’s how the hierarchy looks:</p>
+      <pre>{`
+App
+├── Header
+├── MainContent
+└── Footer
+      `}</pre>
+
+      <h2>Nesting Components</h2>
+      <p>
+        Nesting Components refers to placing one component inside another. This
+        helps in creating more complex UIs by combining simpler components.
+      </p>
+      <p>Example of Nested Components:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
+
+const UserProfile = ({ name, age }) => (
+  <div>
+    <h2>{name}</h2>
+    <p>Age: {age}</p>
+  </div>
+);
+
+const UserList = () => (
+  <div>
+    <h1>User List</h1>
+    <UserProfile name="Alice" age={25} />
+    <UserProfile name="Bob" age={30} />
+  </div>
+);
+
+const App = () => (
+  <div>
+    <h1>Welcome to the User Directory</h1>
+    <UserList />
+  </div>
+);
+
+export default App;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>UserProfile</strong> is a component that displays a user’s
+          name and age.
+        </li>
+        <li>
+          <strong>UserList</strong> is a component that displays a list of
+          users. It includes multiple UserProfile components as its children.
+        </li>
+        <li>
+          <strong>App</strong> is the top-level component that includes
+          UserList.
+        </li>
+      </ul>
+      <p>Here’s the hierarchy:</p>
+      <pre>{`
+App
+└── UserList
+    ├── UserProfile (Alice)
+    └── UserProfile (Bob)
+      `}</pre>
+
+      <h2>Props and State in Hierarchy</h2>
+      <p>
+        In React, props and state play crucial roles in how components
+        communicate and maintain data.
+      </p>
+      <AdUnit />
+      <h3>Props</h3>
+      <p>
+        Props (short for properties) are used to pass data from a parent
+        component to a child component. Props are read-only and help in
+        customizing child components based on the data provided by the parent.
+      </p>
+      <p>
+        In the example above, UserProfile receives name and age as props from
+        UserList.
+      </p>
+
+      <h3>State</h3>
+      <p>
+        State is used to manage data within a component. State can change over
+        time, and when it does, the component re-renders to reflect the new
+        data. State is local to a component, but can be passed down to children
+        as props.
+      </p>
+      <p>
+        For example, if you wanted to add functionality to update user details,
+        you’d use state in the UserList component to manage and update the list
+        of users.
+      </p>
+
+      <h2>Handling Events and Updating State</h2>
+      <p>
+        Event handling and state updates are key aspects of component
+        interaction.
+      </p>
+      <p>Here’s an example of how state and event handling work together:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React, { useState } from 'react';
+
+const Counter = () => {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <h1>Count: {count}</h1>
+      <button onClick={handleIncrement}>Increment</button>
+    </div>
+  );
+};
+
+export default Counter;
+      `}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <h3>Explanation:</h3>
+      <ul>
+        <li>
+          <strong>useState Hook:</strong> This hook is used to create state in a
+          functional component. <code>count</code> is the state variable, and{" "}
+          <code>setCount</code> is the function to update it.
+        </li>
+        <li>
+          <strong>handleIncrement Function:</strong> This function is called
+          when the button is clicked, and it updates the state.
+        </li>
+        <li>
+          <strong>Button with onClick Event:</strong> The button’s{" "}
+          <code>onClick</code> event triggers the handleIncrement function.
         </li>
       </ul>
       <AdUnit />
-      <h3>Nesting Components</h3>
-
+      <h2>Summary</h2>
       <p>
-        {`Nesting components is like putting one component inside another. It
-        allows us to create complex and structured UIs by arranging components
-        within each other. Let's see how nesting works in practice:`}
+        Component Hierarchy and Nesting help in organizing and structuring your
+        React application. By understanding how to create and nest components,
+        you can build complex UIs in a manageable way.
       </p>
-
-      <pre>
-        <code>
-          {`// Example component nesting
-function MyComponent() {
-  return (
-    <div>
-      <h1>Header</h1>
-      <div>
-        <p>Paragraph 1</p>
-        <p>Paragraph 2</p>
-      </div>
-      <Footer />
-    </div>
-  );
-}`}
-        </code>
-      </pre>
-
-      <p>
-        In this example, <code>MyComponent</code> is a parent component that
-        contains multiple child components. The <code>&lt;h1&gt;</code> and{" "}
-        <code>&lt;Footer&gt;</code> components are nested directly within the
-        parent. Additionally, the two <code>&lt;p&gt;</code>
-        components are nested within a <code>&lt;div&gt;</code>, creating a
-        nested structure. Nesting components gives us the flexibility to build
-        complex and structured UIs.
-      </p>
-
-      <h3>Using Component Hierarchy and Nesting in Practice</h3>
-
-      <p>
-        {`Component hierarchy and nesting are powerful tools when it comes to
-        building complex interfaces. Let's see how we can use them in a
-        practical example:`}
-      </p>
-
-      <pre>
-        <code>
-          {`// Define parent and child components
-function Header() {
-  return <h1>Header</h1>;
-}
-
-function Content() {
-  return (
-    <div>
-      <p>Paragraph 1</p>
-      <p>Paragraph 2</p>
-    </div>
-  );
-}
-
-function Footer() {
-  return <p>Footer</p>;
-}
-
-// Use component hierarchy and nesting
-function MyApp() {
-  return (
-    <div>
-      <Header />
-      <Content />
-      <Footer />
-    </div>
-  );
-}
-
-// Render the app
-ReactDOM.render(<MyApp />, document.getElementById('root'));
-`}
-        </code>
-      </pre>
-
-      <p>
-        In this example, <code>MyApp</code> is the parent component that
-        contains three child components: <code>Header</code>,{" "}
-        <code>Content</code>, and <code>Footer</code>. The
-        <code>Content</code> component itself contains two nested{" "}
-        <code>&lt;p&gt;</code>
-        components. This hierarchical structure allows us to build a complex UI
-        by combining simpler components. You can even duplicate components and
-        use them multiple times within the same parent, creating a versatile and
-        dynamic UI.
-      </p>
-
-      <h3>Note</h3>
-
-      <p>
-        Remember, component hierarchy and nesting are powerful tools in React
-        that enable you to build complex and structured interfaces. They promote
-        modular design, code reusability, and maintainability. As your React
-        applications grow, component hierarchy and nesting will become essential
-        techniques for creating sophisticated and well-organized UIs. Embrace
-        the power of hierarchy and nesting to build stunning and dynamic
-        interfaces!
-      </p>
+      <ul>
+        <li>
+          <strong>Component Hierarchy:</strong> Refers to how components are
+          organized in a parent-child relationship.
+        </li>
+        <li>
+          <strong>Nesting Components:</strong> Involves placing components
+          inside one another to build complex UIs.
+        </li>
+        <li>
+          <strong>Props and State:</strong> Help in managing data and
+          interactions between components.
+        </li>
+        <li>
+          <strong>Event Handling:</strong> Allows components to respond to user
+          actions and update the state accordingly.
+        </li>
+      </ul>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/classComponent")}>
           back
@@ -750,175 +1144,259 @@ export const Property = () => {
   return (
     <div className="internet comments-container">
       <AdUnit />
-      <h2>Props (Properties) in React: Passing Data to Components</h2>
-
+      <h1>What Are Props in React?</h1>
       <p>
-        {`Props, short for properties, are like the superpowers of React
-        components. They allow us to pass data from a parent component to its
-        child components, giving them the information they need to render the UI
-        correctly. Think of props as special messages that help components
-        understand what they should display and how they should behave. Let's
-        dive into the world of props and explore their superpowers!`}
+        In React, <strong>props</strong> (short for "properties") are used to
+        pass data from one component to another. Think of props like arguments
+        you pass to a function in JavaScript, but in this case, you’re passing
+        data to a React component. The component can then use the data provided
+        via props to display dynamic content or perform specific actions.
+      </p>
+      <p>
+        Props make components reusable and customizable, which is a powerful
+        feature in React. Without props, each component would be static and
+        unable to adapt to different situations. By using props, we can pass
+        different data to the same component, and it will react accordingly (pun
+        intended!). This way, we avoid duplicating code and can create flexible,
+        scalable applications.
       </p>
 
-      <h3>Understanding Props</h3>
-
+      <h2>How Do Props Work?</h2>
       <p>
-        {`Props are a way to pass data from a parent component to its child
-        components. They are like ingredients that you give to a recipe,
-        allowing the child component to create the desired output. Props can be
-        any type of data, such as strings, numbers, objects, or even functions.
-        Let's see how props work in action:`}
+        When you create a React component, you can pass props to it by adding
+        attributes in the component's tag. The props are received in the
+        component as an object. Inside the component, you can access the props
+        by using
+        <code>props.propName</code>.
+      </p>
+
+      <h2>Why Use Props?</h2>
+      <p>There are several reasons why props are important in React:</p>
+      <ul>
+        <li>
+          <strong>Reusable Components:</strong> With props, you can create a
+          single component and use it in different places, passing different
+          values each time. This makes your code more efficient and prevents
+          repetition.
+        </li>
+        <li>
+          <strong>Data Flow:</strong> Props allow components to communicate.
+          Specifically, they allow parent components to pass data down to child
+          components, which is essential for structuring complex applications.
+        </li>
+        <li>
+          <strong>Customization:</strong> You can use props to customize how a
+          component behaves and what content it displays. This helps to build
+          dynamic and interactive applications.
+        </li>
+      </ul>
+
+      <h2>Example of Props</h2>
+      <p>
+        Let’s break down a simple example. Imagine you have a component that
+        greets users by name. Instead of hard-coding the name, you can pass it
+        as a prop, making the component more flexible.
       </p>
 
       <pre>
         <code>
-          {`
-    // Example prop passing
-    function MyComponent(props) {
-      return <div>{props.message}</div>;
-    }
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
 
-    // Use the component with props
-    function MyApp() {
-      return <MyComponent message="Hello, Props!" />;
-    }
+// A simple Greeting component that takes a 'name' prop
+const Greeting = (props) => {
+  return <h1>Hello, {props.name}!</h1>;
+};
 
-    // Render the app
-    ReactDOM.render(<MyApp />, document.getElementById('root'));
-    `}
+// App component where we pass different names as props
+const App = () => {
+  return (
+    <div>
+      <Greeting name="Alice" />
+      <Greeting name="Bob" />
+    </div>
+  );
+};
+
+export default App;
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <p>
-        In this example, <code>MyComponent</code> is a functional component that
-        accepts a prop called <code>message</code>. Inside the component, we use{" "}
-        <code>{`{props.message}`}</code> to display the value of the{" "}
-        <code>message</code> prop. In the <code>MyApp</code> component, we use{" "}
-        <code>&lt;MyComponent message={`"Hello, Props!"`} /&gt;</code> to pass
-        the <code>message</code> prop to the <code>MyComponent</code>. This way,
-        the child component receives the data it needs to render the UI
-        correctly.
+        <strong>Explanation:</strong>
       </p>
-
-      <h3>Benefits of Using Props</h3>
-
-      <p>
-        Props offer several advantages that make them a crucial part of React:
-      </p>
-
       <ul>
         <li>
-          <strong>Data Passing:</strong> Props allow parent components to pass
-          data to their child components. This enables child components to
-          render dynamic content based on the data they receive.
+          <strong>Greeting Component:</strong> This component accepts a prop
+          called <code>name</code>. It uses the <code>{"{props.name}"}</code>{" "}
+          syntax to display the name passed from the parent component. This
+          allows the component to be reusable for different names.
         </li>
         <li>
-          <strong>Customization:</strong> With props, you can customize the
-          behavior and appearance of child components. By passing different prop
-          values, you can create reusable components that adapt to different
-          situations.
-        </li>
-        <li>
-          <strong>Flexibility:</strong>{" "}
-          {`Props give you the flexibility to create
-          dynamic UIs by updating the props passed to child components. You can
-          change the UI without modifying the child component's internal logic.`}
-        </li>
-        <li>
-          <strong>Readability:</strong> Props make it clear what data a
-          component needs to function properly. This improves code readability
-          and makes it easier to understand how components interact.
+          <strong>App Component:</strong> In the <code>App</code> component, we
+          use the <code>Greeting</code> component twice, passing a different{" "}
+          <code>name</code> prop each time. In one case, we pass "Alice", and in
+          another, we pass "Bob". This results in two personalized greetings
+          being displayed.
         </li>
       </ul>
       <AdUnit />
-      <h3>Using Props in Practice</h3>
-
+      <h2>Why Are Props Read-Only?</h2>
       <p>
-        {`Props are essential when you want to customize the behavior or
-        appearance of child components. Let's see how we can use props in some
-        simple examples:`}
+        It’s important to understand that <strong>props are read-only</strong>.
+        This means that a component receiving props cannot modify them. The
+        reason for this is to maintain a one-way data flow in React, which is a
+        core principle of the framework.
+      </p>
+      <p>
+        Data flows from the parent component to the child component, and the
+        child component can use the props to display content but cannot alter
+        them. If the child could change the props, it would create unpredictable
+        behavior, making it difficult to understand how data is being managed.
+      </p>
+
+      <h2>Default Props</h2>
+      <p>
+        Sometimes, you may want to provide a default value for a prop in case
+        the parent component doesn't pass anything. This is where{" "}
+        <strong>default props</strong> come in handy. Default props allow you to
+        set a fallback value that will be used if no value is provided for that
+        prop.
       </p>
 
       <pre>
         <code>
-          {`
-    // Define a component with props
-    function MyGreeting(props) {
-      return <div>Hello, {props.name}</div>;
-    }
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
 
-    // Use the component with different props
-    function MyApp() {
-      return (
-        <div>
-          <h1>Welcome to My App</h1>
-          <MyGreeting name="Alice" />
-          <MyGreeting name="Bob" />
-        </div>
-      );
-    }
+// Greeting component with a default prop value
+const Greeting = (props) => {
+  return <h1>Hello, {props.name}!</h1>;
+};
 
-    // Render the app
-    ReactDOM.render(<MyApp />, document.getElementById('root'));
-    `}
+// Setting a default value for the 'name' prop
+Greeting.defaultProps = {
+  name: 'Guest',
+};
+
+const App = () => {
+  return (
+    <div>
+      <Greeting /> {/* Will use default prop value 'Guest' */}
+      <Greeting name="Alice" /> {/* Will use passed value 'Alice' */}
+    </div>
+  );
+};
+
+export default App;
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <p>
-        In this example, <code>MyGreeting</code> is a functional component that
-        accepts a <code>name</code> prop. We can use the <code>MyGreeting</code>{" "}
-        component multiple times within the <code>MyApp</code> component,
-        passing different names as props. Each instance of{" "}
-        <code>MyGreeting</code> will render a personalized greeting based on the
-        prop value it receives. Props allow us to create dynamic and
-        customizable UIs.
+        In the example above, if no <code>name</code> prop is passed to the{" "}
+        <code>Greeting</code> component, it will default to "Guest". This makes
+        the component more robust and prevents errors if a prop is accidentally
+        omitted.
+      </p>
+
+      <h2>Props vs. State</h2>
+      <p>
+        While props are essential for passing data between components, they’re
+        not the same as <strong>state</strong>. Here’s the difference:
+      </p>
+      <ul>
+        <li>
+          <strong>Props:</strong> Props are passed from a parent component to a
+          child component and are <strong>read-only</strong>. They cannot be
+          changed by the child component.
+        </li>
+        <li>
+          <strong>State:</strong> State is used to manage data that belongs to
+          the component itself and can change over time. When state changes, the
+          component re-renders to reflect the new state.
+        </li>
+      </ul>
+
+      <h2>Passing Functions as Props</h2>
+      <p>
+        Props aren’t limited to just data like strings or numbers. You can also
+        pass functions as props, which is useful when you want to allow a child
+        component to trigger actions or communicate back to the parent
+        component.
       </p>
 
       <pre>
         <code>
-          {`
-    // Define a component with props
-    function MyButton(props) {
-      return <button>{props.label}</button>;
-    }
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
+import React from 'react';
 
-    // Use the component with different props
-    function MyApp() {
-      return (
-        <div>
-          <h1>Welcome to My App</h1>
-          <MyButton label="Click me!" />
-          <MyButton label="Submit" />
-        </div>
-      );
-    }
+// Button component that takes a function as a prop
+const Button = (props) => {
+  return <button onClick={props.handleClick}>Click Me</button>;
+};
 
-    // Render the app
-    ReactDOM.render(<MyApp />, document.getElementById('root'));
-    `}
+// App component that passes a function as a prop
+const App = () => {
+  const showMessage = () => {
+    alert('Button clicked!');
+  };
+
+  return (
+    <div>
+      <Button handleClick={showMessage} />
+    </div>
+  );
+};
+
+export default App;
+        `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
       <p>
-        In this example, <code>MyButton</code> is a functional component that
-        accepts a <code>label</code> prop. We can use the <code>MyButton</code>{" "}
-        component multiple times within the <code>MyApp</code> component,
-        passing different labels as props. Each instance of{" "}
-        <code>MyButton</code> will render a button with the specified label.
-        Props give us the flexibility to create dynamic and customizable UIs.
+        In this example, the <code>Button</code> component receives a function
+        as a prop (called <code>handleClick</code>). When the button is clicked,
+        it calls this function, which triggers an alert. This shows how you can
+        pass functions as props to allow child components to interact with their
+        parent components.
       </p>
+      <AdUnit />
+      <h2>Summary</h2>
+      <p>Let’s recap what we’ve learned about props:</p>
+      <ul>
+        <li>
+          Props are a way to pass data from a parent component to a child
+          component.
+        </li>
+        <li>
+          Props are read-only, meaning they cannot be modified by the child
+          component.
+        </li>
+        <li>
+          Props allow components to be flexible, reusable, and customizable.
+        </li>
+        <li>
+          You can set default props in case a value is not passed by the parent
+          component.
+        </li>
+        <li>
+          Props can be any type of data, including strings, numbers, arrays,
+          objects, and even functions.
+        </li>
+        <li>
+          Props are different from state, which is local to the component and
+          can change over time.
+        </li>
+      </ul>
 
-      <h3>Note</h3>
-
-      <p>
-        {`Remember, props are like the lifeblood of React components. They allow
-        data to flow from parent components to their children, enabling them to
-        render dynamic and customizable UIs. As your React journey continues,
-        you'll find props to be essential tools for building powerful and
-        flexible interfaces. Embrace the power of props to create dynamic and
-        adaptable components!`}
-      </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/CompHierarchNest")}>
           back

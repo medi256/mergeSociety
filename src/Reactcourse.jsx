@@ -34,18 +34,11 @@ const Reactcourse = () => {
         <ul>
           <li onClick={() => navigate("/introJsx")}>Introduction to JSX </li>
 
-          <li onClick={() => navigate("/jsxSyntax")}>
-            JSX Syntax and best Practice
-          </li>
           <li onClick={() => navigate("/JSXAttributes")}>
             Attributes in JSX: Enhancing UI Elements
           </li>
         </ul>
-        <ul>
-          <li onClick={() => navigate("/RenderingComp")}>
-            Creating and Rendering JSX Files{" "}
-          </li>
-        </ul>
+
         <h3>Components</h3>
         <ul>
           <li onClick={() => navigate("/funcComp")}> Functional Component </li>
@@ -53,6 +46,16 @@ const Reactcourse = () => {
             {" "}
             JSX Structure and Container Elements
           </li>
+
+          <li onClick={() => navigate("/RenderingComp")}>
+            Creating and Rendering JSX Files{" "}
+          </li>
+
+          <li onClick={() => navigate("/imagesReact")}>Images in react</li>
+          <li onClick={() => navigate("/jsxSyntax")}>
+            JSX Syntax and best Practice
+          </li>
+
           <li onClick={() => navigate("/ReactConditionalRendering")}>
             {" "}
             React Conditional Rendering{" "}

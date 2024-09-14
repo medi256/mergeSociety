@@ -474,7 +474,7 @@ strong {
 }
 
 .internet p strong::after {
-  content: ": ";
+  /* content: ": "; */
   font-weight: normal;
 }
 

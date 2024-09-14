@@ -5,7 +5,11 @@ import InstallingNode, {
   SettingCodeEditor,
   UnderstandingStructure,
 } from "./ReactCourse/InstallingNode";
-import IntroJSX, { JSXAttributes, JSXSyntax } from "./ReactCourse/IntroJSX";
+import IntroJSX, {
+  ImagesIMG,
+  JSXAttributes,
+  JSXSyntax,
+} from "./ReactCourse/IntroJSX";
 import FuncComponet, {
   ClassCompoent,
   CompHierarchNest,
@@ -53,6 +57,7 @@ const ReactRoutes = () => {
         <Route path="RenderingComp" element={<RenderingDifComponent />} />
         <Route path="funcComp" element={<FuncComponet />} />
         <Route path="JSXStructure" element={<JSXStructure />} />
+        <Route path="imagesReact" element={<ImagesIMG />} />
         <Route path="ReactConditionalRendering" element={<ConditionIF />} />
         <Route path="classComponent" element={<ClassCompoent />} />
         <Route path="CompHierarchNest" element={<CompHierarchNest />} />

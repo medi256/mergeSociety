@@ -896,6 +896,7 @@ history.go(number);
 export const ScreenObject = () => {
   return (
     <div className="comments-container internet">
+      <AdUnit />
       <h1>Exploring the Screen Object</h1>
 
       <h2>Introduction</h2>
@@ -958,7 +959,7 @@ export const ScreenObject = () => {
         which can be useful for designing and developing web pages that look
         great on different devices.
       </p>
-
+      <AdUnit />
       <h2>Example: Using the Screen Object</h2>
       <p>
         Let's start by looking at an example that uses the <code>screen</code>{" "}
@@ -1103,7 +1104,7 @@ paragraph.textContent = 'Screen Width:'+ screenWidth +'pixels';
           We update the text inside the paragraph to display the screen width.
         </li>
       </ul>
-
+      <AdUnit />
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the Screen object and its
