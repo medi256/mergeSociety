@@ -3,133 +3,82 @@ import AdUnit from "../AdUnit";
 const IntroHooks = () => {
   return (
     <div className="internet comments-container">
-      <AdUnit />
-      <h2>
-        Introduction to Hooks in React: Unlocking Superpowers for Functional
-        Components
-      </h2>
-
+      <h1>Introduction to Hooks</h1>
       <p>
-        {`Hooks in React are like superpowers that give functional components the
-        ability to manage state, handle side effects, and more. They empower
-        functional components by providing access to features that were
-        previously only available in class components. Let's explore the world
-        of hooks and their superpowers! `}
+        When you start building React applications, you'll often hear about{" "}
+        <strong>Hooks</strong>. Hooks are one of the more advanced features of
+        React, but don't worry, we'll break it down step by step so you can
+        understand how they work.
       </p>
 
-      <h3>Understanding Hooks</h3>
-
+      <h2>What are Hooks?</h2>
       <p>
-        {`Hooks are special functions that allow functional components to access
-        state, handle lifecycle events, and utilize other React features. They
-        enable functional components to have "superpowers" that were
-        traditionally only available in class components. With hooks, you can
-        use state, manage side effects, and customize how components behave.`}
+        Imagine you're building something with blocks, like a tower. Each block
+        does something specific. Some blocks change over time, like turning from
+        red to blue. Now, Hooks are like special tools that let you tell React:
+        "Hey, watch this block closely because it might change, and when it
+        does, I want you to update the tower."
       </p>
 
-      <h3>Benefits of Using Hooks</h3>
+      <p>
+        In React, components are the "blocks" of your app. And sometimes, those
+        components need to do something like handle a button click or update
+        when some data changes. Before hooks, React had a different way of
+        handling this, but it wasn’t as simple. Hooks make this easier.
+      </p>
 
-      <p>Using hooks in React offers several advantages:</p>
+      <h2>Why Hooks?</h2>
+      <p>
+        Hooks let us use things like <strong>state</strong> and{" "}
+        <strong>lifecycle methods</strong> (don’t worry, I’ll explain) inside
+        function components. Before hooks, you could only do this in class
+        components, which are a bit harder to understand. Hooks let us keep
+        things simple by sticking to function components, which are easier for
+        beginners.
+      </p>
 
+      <p>
+        In short, hooks give us a way to add more abilities to our components,
+        without making things too complicated.
+      </p>
+
+      <h2>Two Main Things You Can Do with Hooks</h2>
+      <h3>State Management</h3>
+      <p>
+        This means keeping track of data that can change in your app. For
+        example, if a user clicks a button, you might want to count how many
+        times they clicked it. This is called "state." Hooks let you manage this
+        changing data.
+      </p>
+
+      <h3>Side Effects</h3>
+      <p>
+        This means things that happen outside your app when something changes
+        inside. For example, when a component loads, you might want to fetch
+        data from an API (a place where data is stored). Hooks help you handle
+        these kinds of "side effects."
+      </p>
+
+      <h2>Key Points to Remember</h2>
       <ul>
         <li>
-          <strong>State Management:</strong> Hooks like <code>useState</code>{" "}
-          allow functional components to manage state. You can easily add,
-          update, and remove state variables, making it convenient to handle
-          dynamic data.
+          Hooks are a way to add more abilities to function components (which
+          are simpler than class components).
         </li>
         <li>
-          <strong>Lifecycle Events:</strong> Hooks like <code>useEffect</code>{" "}
-          and <code>useLayoutEffect</code>{" "}
-          {`provide access to lifecycle events,
-          such as component mounting and updating. This lets you perform actions
-          at specific stages of the component's lifecycle.`}
+          Hooks let us manage state (data that changes) and side effects (things
+          that happen outside of React when something changes inside React).
         </li>
         <li>
-          <strong>Improved Code Organization:</strong> Hooks promote cleaner and
-          more modular code by separating concerns. You can use specific hooks
-          for state, effects, and other functionalities, enhancing code
-          readability and maintainability.
-        </li>
-        <li>
-          <strong>Reusability:</strong> Hooks can be reused across multiple
-          components, reducing code duplication. Custom hooks can encapsulate
-          common logic and be shared throughout your application.
+          With Hooks, we don't need to use class components anymore for most
+          tasks.
         </li>
       </ul>
 
-      <h3>Scenarios for Using Hooks</h3>
-
       <p>
-        Hooks can be used in various scenarios to enhance functional components:
-      </p>
-
-      <ul>
-        <li>
-          <strong>State Management:</strong> Hooks like <code>useState</code>{" "}
-          are perfect for managing state in functional components. You can use
-          them to handle dynamic data, user preferences, or form inputs.
-        </li>
-        <li>
-          <strong>Side Effects:</strong> Hooks like <code>useEffect</code> and{" "}
-          <code>useLayoutEffect</code> are useful for performing side effects,
-          such as fetching data, subscribing to events, or updating the DOM.
-        </li>
-        <li>
-          <strong>Lifecycle Events:</strong> Hooks like <code>useEffect</code>{" "}
-          and <code>useLayoutEffect</code>{" "}
-          {` allow you to perform actions at
-          specific stages of the component's lifecycle, such as when the
-          component mounts or updates.`}
-        </li>
-        <li>
-          <strong>Custom Behavior:</strong> Hooks let you customize component
-          behavior. For example, you can use <code>useEffect</code>{" "}
-          {`to update
-          the component's state based on user interactions.`}
-        </li>
-      </ul>
-      <AdUnit />
-
-      <h3>Types of Hooks</h3>
-
-      <p>
-        React provides a variety of built-in hooks that serve different
-        purposes:
-      </p>
-
-      <ul>
-        <li>
-          <strong>State Hooks:</strong> These hooks, such as{" "}
-          <code>useState</code>, allow you to manage state and context in your
-          components.
-        </li>
-        <li>
-          <strong>Effect Hooks:</strong> Hooks like <code>useEffect</code> and{" "}
-          <code>useLayoutEffect</code> let you handle side effects, such as
-          fetching data or subscribing to events.
-        </li>
-        <li>
-          <strong>Lifecycle Hooks:</strong> Hooks like <code>useEffect</code>{" "}
-          and <code>useLayoutEffect</code>{" "}
-          {`provide access to lifecycle events,
-          enabling actions at specific stages of the component's lifecycle.`}
-        </li>
-        <li>
-          <strong>Ref Hooks:</strong> Hooks like <code>useRef</code> and{" "}
-          <code>useImperativeHandle</code> help you work with DOM references and
-          imperative code.
-        </li>
-      </ul>
-
-      <h3>Note</h3>
-
-      <p>
-        Remember, hooks in React are like superpowers that give functional
-        components additional capabilities. They unlock state management,
-        lifecycle events, and more. As your React journey continues, hooks will
-        become essential tools for building powerful and dynamic UIs. Embrace
-        the power of hooks to create captivating and flexible interfaces!
+        Next, we’ll dive deeper into two important hooks:{" "}
+        <strong>useState</strong> and <strong>useEffect</strong>, which help us
+        manage state and side effects in our React apps.
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/UseKey")}>back</button>
