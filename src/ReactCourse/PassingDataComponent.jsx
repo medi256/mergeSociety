@@ -1,260 +1,271 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const PassingDataComponent = () => {
   return (
     <div className="internet  comments-container">
       <AdUnit />
-      <h2>Passing Data Through the Component Tree in React</h2>
+      <h1>
+        Diving Deeper: Context API and Passing Data Through the Component Tree
+      </h1>
 
+      <h2>Hello again, React learners!</h2>
       <p>
-        Passing data through the component tree in React can be a challenging
-        task, but with the right tools and understanding, it becomes a
-        superpower! Let's explore the world of prop drilling and learn how to
-        efficiently pass data from parent components to their children.
+        Remember our school website example where we used{" "}
+        <code>useContext</code> to share the school name? Now, let's expand on
+        that idea to understand how the Context API helps us pass data through
+        our entire component tree.
       </p>
 
-      <h3>Understanding Prop Drilling</h3>
-
+      <h2>
+        Quick Recap: What is <code>useContext</code>?
+      </h2>
       <p>
-        Prop drilling is the process of passing data from a parent component to
-        its child components. In React, data is typically passed from parent to
-        child using props. However, when you have deeply nested components,
-        manually passing props through each level can become tedious and
-        error-prone. This is where prop drilling comes to the rescue!
+        In our previous lesson, we learned that <code>useContext</code> is like
+        a loudspeaker that lets us share information with many parts of our
+        React app at once. We used it to share our school name across different
+        components.
       </p>
 
-      <h4>What is Prop Drilling?</h4>
-
+      <h2>Introducing the Context API</h2>
       <p>
-        Prop drilling is the technique of passing data through multiple levels
-        of components to reach a specific child component. It involves passing
-        props from a parent component to its immediate child, and then from that
-        child to its child, and so on, until the desired component receives the
-        data. Prop drilling helps you efficiently manage data flow in your React
-        applications.
+        The Context API is the bigger system that makes <code>useContext</code>{" "}
+        work. It's like the entire announcement system in our school, not just
+        the loudspeaker. Let's break it down:
       </p>
-
-      <h4>Why is Prop Drilling Needed?</h4>
-
-      <p>
-        Prop drilling is needed when a component deep in the component tree
-        requires data from a parent component. Instead of manually passing props
-        through each level of components, prop drilling provides a more elegant
-        and maintainable solution. It ensures that data is passed efficiently
-        and avoids the need for repetitive and error-prone prop passing.
-      </p>
-
-      <h3>Steps to Pass Data Through the Component Tree</h3>
-
-      <p>Here are the steps to pass data through the component tree:</p>
-
-      <ol>
-        <li>
-          <strong>Identify the Data Source:</strong> Determine which parent
-          component has the data that needs to be passed to the child component.
-        </li>
-        <li>
-          <strong>Pass Data through Props:</strong> Start from the parent
-          component and pass the data as props to its immediate child component.
-        </li>
-        <li>
-          <strong>Continue Passing Props:</strong> In the child component, pass
-          the received props to its own child component, and repeat this process
-          until the desired component receives the data.
-        </li>
-        <li>
-          <strong>Access the Data:</strong> In the target child component,
-          access the passed data through props and use it as needed.
-        </li>
-      </ol>
-
-      <h3>Step-by-Step Example</h3>
-
-      <h4>1. Identifying the Data Source</h4>
-
-      <p>Let's consider a nested component structure like this:</p>
-
-      <pre>
-        <code>
-          {`
-function App() {
-return (
-<div>
-  <Parent>
-    <Child />
-  </Parent>
-</div>
-);
-}
-    `}
-        </code>
-      </pre>
-
-      <p>
-        In this structure, we have a <code>Parent</code> component that contains
-        a <code>Child</code> component. We want to pass data from the{" "}
-        <code>App</code> component (the top-level parent) to the{" "}
-        <code>Child</code> component.
-      </p>
-
-      <h4>2. Passing Data through Props</h4>
-
-      <p>
-        Let's start by passing data from the <code>App</code> component to the{" "}
-        <code>Parent</code> component:
-      </p>
-
-      <pre>
-        <code>
-          {`
-function App() {
-const data = 'Hello from App!';
-
-return (
-<div>
-  <Parent data={data} />
-</div>
-);
-}
-    `}
-        </code>
-      </pre>
-
-      <p>
-        In this code, we define a <code>data</code> variable with the value{" "}
-        <code>'Hello from App!'</code>. We then pass this data as a prop to the{" "}
-        <code>Parent</code> component using the <code>data</code> prop.
-      </p>
-      <AdUnit />
-      <h4>3. Continuing to Pass Props</h4>
-
-      <p>
-        Now, in the <code>Parent</code> component, we need to pass the received{" "}
-        <code>data</code>
-        prop to the <code>Child</code> component:
-      </p>
-
-      <pre>
-        <code>
-          {`
-function Parent({ data }) {
-return (
-<div>
-  <Child data={data} />
-</div>
-);
-}
-    `}
-        </code>
-      </pre>
-
-      <p>
-        In this code, the <code>Parent</code> component receives the{" "}
-        <code>data</code> prop from the <code>App</code> component. We then pass
-        this data as a prop to the <code>Child</code> component.
-      </p>
-
-      <h4>4. Accessing the Data</h4>
-
-      <p>
-        Finally, in the <code>Child</code> component, we can access the passed
-        data through the <code>data</code> prop:
-      </p>
-
-      <pre>
-        <code>
-          {`
-function Child({ data }) {
-return <div>{data}</div>;
-}
-    `}
-        </code>
-      </pre>
-
-      <p>
-        In this code, the <code>Child</code> component receives the{" "}
-        <code>data</code> prop and displays its value.
-      </p>
-
-      <h3>Putting It All Together</h3>
-
-      <p>Let's see the complete example:</p>
-
-      <h4>App.js</h4>
-
-      <pre>
-        <code>
-          {`
-function App() {
-const data = 'Hello from App!';
-
-return (
-<div>
-  <Parent data={data} />
-</div>
-);
-}
-    `}
-        </code>
-      </pre>
-
-      <h4>Parent.js</h4>
-
-      <pre>
-        <code>
-          {`
-function Parent({ data }) {
-return (
-<div>
-  <Child data={data} />
-</div>
-);
-}
-    `}
-        </code>
-      </pre>
-
-      <h4>Child.js</h4>
-
-      <pre>
-        <code>
-          {`
-function Child({ data }) {
-return <div>{data}</div>;
-}
-    `}
-        </code>
-      </pre>
-
-      <h3>Explanation</h3>
-
       <ul>
         <li>
-          <strong>Identify Data Source:</strong> In <code>App.js</code>, we
-          identify that the <code>App</code> component has the data that needs
-          to be passed to the <code>Child</code> component.
+          <strong>Creating the Announcement System (createContext)</strong>
         </li>
         <li>
-          <strong>Pass Data through Props:</strong> In <code>App.js</code>, we
-          pass the <code>data</code> prop from <code>App</code> to{" "}
-          <code>Parent</code>. In <code>Parent.js</code>, we pass the received{" "}
-          <code>data</code> prop to <code>Child</code>.
+          <strong>Making the Announcement (Provider)</strong>
         </li>
         <li>
-          <strong>Access the Data:</strong> In <code>Child.js</code>, we access
-          the passed data through the <code>data</code> prop and display its
-          value.
+          <strong>
+            Listening to the Announcement (useContext or Consumer)
+          </strong>
         </li>
       </ul>
 
-      <h3>Note</h3>
+      <h2>Step-by-Step Guide to Using the Context API</h2>
 
+      <h3>Step 1: Create the Announcement System (createContext)</h3>
       <p>
-        While prop drilling is a useful technique, it can become cumbersome in
-        large and complex component trees. In such cases, consider using state
-        management solutions like the <code>useContext</code>. This tools
-        provide more efficient ways to manage and pass data across components,
-        reducing the need for extensive prop drilling.
+        First, we need to set up our announcement system. We do this in a
+        separate file:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`// SchoolContext.js
+import React from 'react';
+
+const SchoolContext = React.createContext();
+
+export default SchoolContext;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        This creates our <code>SchoolContext</code>, which will hold our school
+        information.
+      </p>
+
+      <h3>Step 2: Make the Announcement (Provider)</h3>
+      <p>
+        Now, we need to use the Provider to make our announcement. We'll do this
+        in our main App component:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`// App.js
+import React from 'react';
+import SchoolContext from './SchoolContext';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
+
+function App() {
+const schoolInfo = {
+name: "Friendly Neighborhood School",
+principal: "Ms. Johnson",
+founded: 1995
+};
+
+return (
+<SchoolContext.Provider value={schoolInfo}>
+<div className="App">
+  <Header />
+  <MainContent />
+  <Footer />
+</div>
+</SchoolContext.Provider>
+);
+}
+
+export default App;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        Here's what's new:
+        <ul>
+          <li>
+            Instead of just the school name, we're now sharing more information
+            about the school.
+          </li>
+          <li>
+            We wrap our app components with <code>SchoolContext.Provider</code>.
+          </li>
+          <li>
+            We pass our <code>schoolInfo</code> object as the <code>value</code>{" "}
+            prop to the Provider.
+          </li>
+        </ul>
+        Now, any component inside this Provider can access the school
+        information!
+      </p>
+      <AdUnit />
+      <h3>Step 3: Listen to the Announcement (useContext)</h3>
+      <p>
+        Now that we've made our announcement, let's see how different parts of
+        our app can listen to it:
+      </p>
+
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`// Header.js
+import React, { useContext } from 'react';
+import SchoolContext from './SchoolContext';
+
+function Header() {
+const schoolInfo = useContext(SchoolContext);
+
+return (
+<header>
+<h1>{schoolInfo.name}</h1>
+<p>Principal: {schoolInfo.principal}</p>
+</header>
+);
+}
+
+export default Header;
+
+// MainContent.js
+import React, { useContext } from 'react';
+import SchoolContext from './SchoolContext';
+
+function MainContent() {
+const schoolInfo = useContext(SchoolContext);
+
+return (
+<main>
+<h2>Welcome to {schoolInfo.name}!</h2>
+<p>We've been providing quality education since {schoolInfo.founded}.</p>
+</main>
+);
+}
+
+export default MainContent;
+
+// Footer.js
+import React, { useContext } from 'react';
+import SchoolContext from './SchoolContext';
+
+function Footer() {
+const schoolInfo = useContext(SchoolContext);
+
+return (
+<footer>
+<p>© {new Date().getFullYear()} {schoolInfo.name}. All rights reserved.</p>
+</footer>
+);
+}
+
+export default Footer;`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        In each of these components:
+        <ul>
+          <li>
+            We import <code>useContext</code> from React and our{" "}
+            <code>SchoolContext</code>.
+          </li>
+          <li>
+            We call <code>useContext(SchoolContext)</code> to get the current
+            value of <code>SchoolContext</code> (our <code>schoolInfo</code>{" "}
+            object).
+          </li>
+          <li>
+            We can now use different pieces of school information in each
+            component!
+          </li>
+        </ul>
+      </p>
+
+      <h2>Why is this helpful?</h2>
+      <p>
+        Imagine if we didn't have Context. We'd have to pass our{" "}
+        <code>schoolInfo</code> to <code>Header</code>, then from{" "}
+        <code>Header</code> to <code>MainContent</code>, and so on. It might
+        look like this:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`<Header schoolInfo={schoolInfo}>
+<MainContent schoolInfo={schoolInfo}>
+<Footer schoolInfo={schoolInfo} />
+</MainContent>
+</Header>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        This can get messy quickly, especially in larger apps. Context lets us
+        skip all that and make the information available wherever we need it!
+      </p>
+
+      <h2>When to Use Context</h2>
+      <p>
+        Context is great for sharing data that many components need, like:
+        <ul>
+          <li>School information in a school website</li>
+          <li>User information in a social media app</li>
+          <li>
+            Theme settings (like light or dark mode) across your whole app
+          </li>
+        </ul>
+      </p>
+      <p>
+        But remember, with great power comes great responsibility! Don't overuse
+        Context. If you only need to pass information to one or two components,
+        regular props might be simpler.
+      </p>
+      <AdUnit />
+      <h2>Conclusion</h2>
+      <p>
+        The Context API, with its <code>createContext</code> function,{" "}
+        <code>Provider</code> component, and <code>useContext</code> hook, gives
+        us a powerful way to share information across our React app. It's like
+        setting up an announcement system for our code, making sure every part
+        of our app can easily access the information it needs.
+      </p>
+      <p>
+        By expanding on our school website example, we've seen how Context
+        allows us to pass complex data (like our <code>schoolInfo</code> object)
+        through our component tree without having to manually pass props at
+        every level.
+      </p>
+      <p>
+        Keep practicing with Context in your React projects. Soon, you'll be
+        managing complex data flows with ease!
       </p>
       <div className="button-container">
         <button onClick={() => (window.location.href = "/useRedContext")}>

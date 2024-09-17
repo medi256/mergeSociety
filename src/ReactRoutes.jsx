@@ -21,7 +21,8 @@ import List, { UnderstandKe } from "./ReactCourse/List";
 import Handleform, { FormControlVsUncontrol } from "./ReactCourse/Handleform";
 import IntroHooks, {
   UseContextReducer,
-  UseStateEffext,
+  UseEffect,
+  UseState,
 } from "./ReactCourse/IntroHooks";
 import PassingDataComponent from "./ReactCourse/PassingDataComponent";
 
@@ -73,7 +74,8 @@ const ReactRoutes = () => {
           element={<FormControlVsUncontrol />}
         />
         <Route path="introHook" element={<IntroHooks />} />
-        <Route path="useStateEffect" element={<UseStateEffext />} />
+        <Route path="useState" element={<UseState />} />
+        <Route path="useEffect" element={<UseEffect />} />
 
         <Route path="useRedContext" element={<UseContextReducer />} />
         <Route path="PassData" element={<PassingDataComponent />} />

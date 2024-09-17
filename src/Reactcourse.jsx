@@ -87,10 +87,8 @@ const Reactcourse = () => {
         <h3>Hooks</h3>
         <ul>
           <li onClick={() => navigate("/introHook")}> Introduction to Hooks</li>
-          <li onClick={() => navigate("/useStateEffect")}>
-            {" "}
-            useState and useEffect
-          </li>
+          <li onClick={() => navigate("/useState")}> useState</li>
+          <li onClick={() => navigate("/useEffect")}>useEffect</li>
 
           <li onClick={() => navigate("/useRedContext")}> useContext</li>
         </ul>
