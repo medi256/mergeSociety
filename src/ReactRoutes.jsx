@@ -22,6 +22,7 @@ import Handleform, { FormControlVsUncontrol } from "./ReactCourse/Handleform";
 import IntroHooks, {
   UseContextReducer,
   UseEffect,
+  UseRef,
   UseState,
 } from "./ReactCourse/IntroHooks";
 import PassingDataComponent from "./ReactCourse/PassingDataComponent";
@@ -79,6 +80,7 @@ const ReactRoutes = () => {
 
         <Route path="useRedContext" element={<UseContextReducer />} />
         <Route path="PassData" element={<PassingDataComponent />} />
+        <Route path="useRef" element={<UseRef />} />
 
         <Route path="SettingRoute" element={<SettingRouter />} />
         <Route path="NavigatePage" element={<NavigPage />} />
