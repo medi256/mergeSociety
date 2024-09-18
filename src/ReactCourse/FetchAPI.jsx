@@ -1,5 +1,9 @@
 import AdUnit from "../AdUnit";
 
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+
 const FetchAPI = () => {
   return (
     <div className="internet comments-container">
@@ -121,7 +125,8 @@ const FetchAPI = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // App.js
 
 import React, { useState, useEffect } from 'react';
@@ -149,6 +154,7 @@ function App() {
 
 export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -174,7 +180,8 @@ export default App;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // ...
 
 return (
@@ -190,6 +197,7 @@ return (
 
 // ...
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -206,7 +214,8 @@ return (
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // App.js
 
 import React, { useState, useEffect } from 'react';
@@ -234,6 +243,7 @@ function App() {
 
 export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
       <AdUnit />

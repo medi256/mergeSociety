@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const AsycAwaitSytax = () => {
   return (
@@ -89,7 +92,8 @@ const AsycAwaitSytax = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // App.js
 
   import React, { useState, useEffect } from 'react';
@@ -110,6 +114,7 @@ const AsycAwaitSytax = () => {
 
   export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -129,7 +134,8 @@ const AsycAwaitSytax = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // ...
 
   async function fetchData() {
@@ -141,6 +147,7 @@ const AsycAwaitSytax = () => {
 
   // ...
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -158,7 +165,8 @@ const AsycAwaitSytax = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // ...
 
   async function fetchData() {
@@ -174,6 +182,7 @@ const AsycAwaitSytax = () => {
 
   // ...
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -191,7 +200,8 @@ const AsycAwaitSytax = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // App.js
 
   import React, { useState, useEffect } from 'react';
@@ -219,6 +229,7 @@ const AsycAwaitSytax = () => {
 
   export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -354,7 +365,8 @@ export const ErrorHandl = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // App.js
 
   import React, { useState, useEffect } from 'react';
@@ -382,6 +394,7 @@ export const ErrorHandl = () => {
 
   export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -401,7 +414,8 @@ export const ErrorHandl = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // ErrorBoundary.js
 
   import React, { Component } from 'react';
@@ -432,6 +446,7 @@ export const ErrorHandl = () => {
 
   export default ErrorBoundary;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -448,7 +463,8 @@ export const ErrorHandl = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // ...
 
   async function fetchData() {
@@ -465,6 +481,7 @@ export const ErrorHandl = () => {
 
   // ...
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -481,7 +498,8 @@ export const ErrorHandl = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
   // App.js
 
   import React, { useState, useEffect } from 'react';
@@ -515,6 +533,7 @@ export const ErrorHandl = () => {
 
   export default App;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
