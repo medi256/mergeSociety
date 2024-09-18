@@ -1,4 +1,7 @@
 import AdUnit from "../AdUnit";
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const UsingStyleModule = () => {
   return (
@@ -83,7 +86,8 @@ const UsingStyleModule = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // MyComponent.js
 
 import React from 'react';
@@ -98,6 +102,7 @@ function MyComponent() {
 
 export default MyComponent;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -112,7 +117,8 @@ export default MyComponent;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 /* MyComponent.css */
 
 .container {
@@ -125,6 +131,7 @@ export default MyComponent;
   font-size: 24px;
 }
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -140,7 +147,8 @@ export default MyComponent;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // ...
 
 import './MyComponent.css';
@@ -155,6 +163,7 @@ function MyComponent() {
 
 // ...
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -173,7 +182,8 @@ function MyComponent() {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 // MyComponent.js
 
 import React from 'react';
@@ -189,6 +199,7 @@ function MyComponent() {
 
 export default MyComponent;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -196,7 +207,8 @@ export default MyComponent;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 /* MyComponent.css */
 
 .container {
@@ -209,6 +221,7 @@ export default MyComponent;
   font-size: 24px;
 }
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -329,7 +342,8 @@ export const InlineStyleReact = () => {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 const inlineStyles = {
   backgroundColor: '#f0f0f0',
   padding: '20px',
@@ -337,6 +351,7 @@ const inlineStyles = {
   fontSize: '24px'
 };
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -353,7 +368,8 @@ const inlineStyles = {
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 function MyComponent() {
   return (
     <div style={inlineStyles}>
@@ -364,6 +380,7 @@ function MyComponent() {
 
 export default MyComponent;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
@@ -380,7 +397,8 @@ export default MyComponent;
 
       <pre>
         <code>
-          {`
+          <SyntaxHighlighter language="jsx" style={docco}>
+            {`
 const inlineStyles = {
   backgroundColor: '#f0f0f0',
   padding: '20px',
@@ -398,6 +416,7 @@ function MyComponent() {
 
 export default MyComponent;
 `}
+          </SyntaxHighlighter>
         </code>
       </pre>
 
