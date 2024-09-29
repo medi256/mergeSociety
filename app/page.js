@@ -24,7 +24,11 @@ export default function Home() {
                   Master the fundamentals of {course} and build amazing web
                   projects.
                 </p>
-                <Link href={`/${course.toLowerCase()}`} className="learn-link">
+                <Link
+                  href={`/${course.toLowerCase()}`}
+                  className="learn-link"
+                  passHref
+                >
                   Learn {course}
                 </Link>
               </div>

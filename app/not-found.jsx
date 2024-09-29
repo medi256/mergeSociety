@@ -9,7 +9,7 @@ const PageNotFound = () => {
         <p className="message">
           Oops! The page you're looking for doesn't exist.
         </p>
-        <Link href="/" className="home-link">
+        <Link href="/" className="home-link" passHref>
           Go to Home
         </Link>
       </div>
