@@ -1,5 +1,5 @@
 import BlogButton from "@/app/NextBlogButton";
-import ScrollToTop from "@/app/Uploader";
+import ScrollToTop from "@/app/ScrollToTop";
 
 export const metadata = {
   title: "Why Learn React in 2024? The Future of Web Development",

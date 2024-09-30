@@ -1,5 +1,6 @@
 import BlogButton from "@/app/NextBlogButton";
-import ScrollToTop from "@/app/Uploader";
+import ScrollToTop from "@/app/ScrollToTop";
+
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
