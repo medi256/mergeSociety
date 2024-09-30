@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "../Uploader";
+import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
   title: "Tech Insights Blog | Web Development, SEO, AI, and More",

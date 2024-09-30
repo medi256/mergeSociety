@@ -1,4 +1,4 @@
-import ScrollToTop from "../Uploader";
+import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
   title:

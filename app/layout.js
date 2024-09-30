@@ -18,7 +18,6 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC__MERGESOCIETY_URL),
   title: "MergeSociety - Learn Web Development",
   description:
     "Master web development with MergeSociety. Learn HTML, CSS, JavaScript, and React through interactive tutorials and stay updated with our web dev blog.",
@@ -29,7 +28,7 @@ export const metadata = {
     description:
       "Master web development with MergeSociety. Learn HTML, CSS, JavaScript, and React through interactive tutorials and stay updated with our web dev blog.",
     locale: "en_US",
-    url: process.env.NEXT_PUBLIC__MERGESOCIETY_URL,
+    url: process.env.NEXT_PUBLIC_MERGESOCIETY_URL,
     type: "website",
     siteName: "MergeSociety",
   },
@@ -52,7 +51,7 @@ export const metadata = {
     isAccessibleForFree: true,
   },
   alternates: {
-    canonical: process.env.NEXT_PUBLIC__MERGESOCIETY_URL,
+    canonical: process.env.NEXT_PUBLIC_MERGESOCIETY_URL,
   },
   robots: {
     index: true,

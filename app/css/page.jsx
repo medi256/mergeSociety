@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "../Uploader";
+import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
   title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",
