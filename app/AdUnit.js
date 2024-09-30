@@ -1,23 +1,57 @@
 "use client";
 
-import Script from "next/script";
+// import React, { useEffect } from "react";
+
+// const withAds = (WrappedComponent, adClient, adSlot) => {
+//   const AdComponent = (props) => {
+//     useEffect(() => {
+//       const script = document.createElement("script");
+//       script.src =
+//         "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+//       script.async = true;
+//       script.crossOrigin = "anonymous";
+//       document.head.appendChild(script);
+
+//       script.onload = () => {
+//         (window.adsbygoogle = window.adsbygoogle || []).push({});
+//       };
+
+//       return () => {
+//         document.head.removeChild(script);
+//       };
+//     }, []);
+
+//     return (
+//       <div>
+//         <WrappedComponent {...props} />
+//         <ins
+//           className="adsbygoogle"
+//           style={{ display: "block" }}
+//           data-ad-client={adClient}
+//           data-ad-slot={adSlot}
+//           data-ad-format="auto"
+//           data-full-width-responsive="true"
+//         />
+//         <br />
+//       </div>
+//     );
+//   };
+
+//   return AdComponent;
+// };
+
+// export default withAds;
+
+// components/AdUnit.js
+import React, { useEffect } from "react";
 
 const AdUnit = () => {
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
+
   return (
     <div>
-      {/* Load the AdSense script */}
-      <Script
-        id="adsense"
-        strategy="afterInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        onLoad={() => {
-          // Push the ad unit after the script has loaded
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-        crossOrigin="anonymous"
-      />
-
-      {/* Ad Unit */}
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
