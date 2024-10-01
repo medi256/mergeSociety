@@ -1,3 +1,4 @@
+import AdUnit from "../AdUnit";
 import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
@@ -26,6 +27,7 @@ const LearnByWatchingVideos = () => {
           will help you grasp web development concepts effortlessly. Just press
           play and start your coding journey!
         </p>
+        <AdUnit />
         <h2>HTML videos</h2>
 
         <div className="container-for-videos">
@@ -111,6 +113,7 @@ const LearnByWatchingVideos = () => {
             ></iframe>
           </div>
         </div>
+        <AdUnit />
         <h2>React.js videos</h2>
         <div className="container-for-videos">
           <div>
@@ -139,6 +142,7 @@ const LearnByWatchingVideos = () => {
           </div>
         </div>
       </div>
+      <AdUnit />
     </div>
   );
 };
