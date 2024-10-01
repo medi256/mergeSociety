@@ -341,11 +341,23 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/operators`,
+      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/comments`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/comments`,
+      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/arithmetic-operators`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/comparison-operators`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/logical-operators`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/assignment-operators`,
       lastModified: new Date(),
     },
     {

@@ -354,8 +354,9 @@ console.log(typeof isStudent); // Output: 'boolean'`}
         our next lesson, we'll dive deeper into mathematical operations using
         operators.
       </p>
+      <AdUnit />
 
-      <Button whereToGo={"operators"} />
+      <Button whereToGo={"comments"} />
     </div>
   );
 };

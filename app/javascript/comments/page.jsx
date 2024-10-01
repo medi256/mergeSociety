@@ -139,7 +139,7 @@ let age = 25;
         way that is easy to understand for anyone reading your code.
       </p>
 
-      <Button whereToGo={"conditional-statements"} />
+      <Button whereToGo={"arithmetic-operators"} />
     </div>
   );
 };

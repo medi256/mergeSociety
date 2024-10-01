@@ -81,20 +81,49 @@ const Jscourse = () => {
                 </p>
               </div>
             </Link>
-            <Link href="/javascript/operators">
-              <div className="card">
-                <h3>Operators</h3>
-                <p>
-                  Explore various operators (arithmetic, comparison, logical,
-                  assignment).
-                </p>
-              </div>
-            </Link>
             <Link href="/javascript/comments">
               <div className="card">
                 <h3>Comments</h3>
                 <p>
                   Learn how to add comments in your JavaScript code for clarity.
+                </p>
+              </div>
+            </Link>
+          </div>
+        </section>
+
+        <section className="section">
+          <h2>JavaScript Operators</h2>
+          <div className="grid">
+            <Link href="/javascript/arithmetic-operators">
+              <div className="card">
+                <h3>Arithmetic Operators</h3>
+                <p>
+                  Learn about operators like addition (+), subtraction (-),
+                  multiplication (*), and division (/).
+                </p>
+              </div>
+            </Link>
+            <Link href="/javascript/comparison-operators">
+              <div className="card">
+                <h3>Comparison Operators</h3>
+                <p>{`Understand comparison operators such as equal (==), not equal (!=), greater than (>), and less than (<).`}</p>
+              </div>
+            </Link>
+            <Link href="/javascript/logical-operators">
+              <div className="card">
+                <h3>Logical Operators</h3>
+                <p>
+                  Explore logical operators like AND (&&), OR (||), and NOT (!).
+                </p>
+              </div>
+            </Link>
+            <Link href="/javascript/assignment-operators">
+              <div className="card">
+                <h3>Assignment Operators</h3>
+                <p>
+                  Learn how to assign values with operators like equals (=),
+                  plus equals (+=), and minus equals (-=).
                 </p>
               </div>
             </Link>
