@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
+import AdUnit from "../AdUnit";
 
 export const metadata = {
   title:
@@ -18,6 +19,7 @@ export const metadata = {
 const HTMLCourse = () => {
   return (
     <div className="container">
+      <AdUnit />
       <ScrollToTop />
       <main>
         <h1>HTML Tutorial</h1>
@@ -245,6 +247,8 @@ const HTMLCourse = () => {
           </div>
         </section>
       </main>
+      <AdUnit />
+      <AdUnit />
     </div>
   );
 };
