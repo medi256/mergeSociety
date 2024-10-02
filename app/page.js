@@ -13,6 +13,13 @@ export default function Home() {
           <Link href="/html">
             <button className="btn-start">Start Learning Now </button>
           </Link>
+          <section className="guide">
+            <h2 className="">Ready to start?</h2>
+            <p className="">
+              Don't know where to begin?{" "}
+              <Link href="/guide">Click here ➡️</Link> to get an introduction!
+            </p>
+          </section>
         </section>
         <section className="section-padding">
           <h2 className="heading">Our Courses</h2>

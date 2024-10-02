@@ -24,6 +24,10 @@ const HTMLCourse = () => {
       <main>
         <h1>HTML Tutorial</h1>
         <p>Choose a topic to start learning:</p>
+        <p>
+          Don't know where to begin? <Link href={"/guide"}>click here</Link>
+          ➡️ to get an introduction!
+        </p>
 
         <section className="section">
           <h2>Introduction</h2>

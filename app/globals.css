@@ -123,6 +123,17 @@ pre {
   transition: background-color 0.3s;
 }
 
+.guide {
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
 .stat-btn:link,
 .btn-start:visited {
   color: #fff;
@@ -402,7 +413,9 @@ pre {
   font-size: 14px;
   display: flex;
   align-items: center;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .social-links a i {

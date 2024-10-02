@@ -24,6 +24,10 @@ const Jscourse = () => {
       <main>
         <h1>JavaScript Course</h1>
         <p>Choose a topic to start learning:</p>
+        <p>
+          Don't know where to begin? <Link href={"/guide"}>click here</Link>
+          ➡️ to get an introduction!
+        </p>
 
         {/* Introduction Section */}
         <section className="section">
