@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -21,7 +21,7 @@ export const metadata = {
 const HTMLDropDownMenue = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Dropdown Menus, <code>{`<details>`}</code>, <code>{`<summary>`}</code>,
         and Related Tags in HTML
@@ -111,7 +111,7 @@ const HTMLDropDownMenue = () => {
         content. Clicking on the summary will toggle the visibility of the
         content within the <code>{`<details>`}</code> tag.
       </p>
-      <AdUnit />
+      
       <h2>
         Related Tags: <code>{`<datalist>`}</code>, <code>{`<optgroup>`}</code>,
         and <code>{`<option>`}</code>{" "}
@@ -280,7 +280,7 @@ const HTMLDropDownMenue = () => {
           <code>{`<input>`}</code> element, such as a color picker.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored dropdown menus, the{" "}

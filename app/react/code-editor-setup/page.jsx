@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -25,7 +25,7 @@ export const metadata = {
 const CodeEditor = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Setting Up Your Code Editor (VS Code Recommended)</h1>
 
       <p>
@@ -131,7 +131,7 @@ const CodeEditor = () => {
           Once the installation is complete, click "Finish" to launch VS Code.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Step 3: Explore the VS Code Interface</h3>
       <p>
         When you first open VS Code, you might feel a bit overwhelmed by all the
@@ -186,7 +186,7 @@ const CodeEditor = () => {
         type the name of the extension you want to install, then click the
         <strong>Install </strong> button.
       </p>
-      <AdUnit />
+      
       <h2>What’s Next?</h2>
       <p>
         Now that you have VS Code set up, you’re ready to start coding! In the

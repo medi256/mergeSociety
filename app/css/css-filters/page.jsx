@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSFilters = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding CSS Filters</h1>
       <p>
         CSS filters allow you to apply visual effects to elements, such as
@@ -143,7 +143,7 @@ const CSSFilters = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h3>hue-rotate()</h3>
       <p>
         The <code>hue-rotate()</code> filter applies a hue rotation to the
@@ -226,7 +226,7 @@ const CSSFilters = () => {
 </html>`}
         title="Grayscale Effect"
       ></iframe>
-      <AdUnit />
+      
       <h3>Brightness Effect</h3>
       <iframe
         width="100%"
@@ -323,7 +323,7 @@ const CSSFilters = () => {
         Experiment with different filter effects and values to create unique
         visual effects for your webpage!
       </p>
-      <AdUnit />
+      
       <p>
         For more details and additional filter effects, check out the
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">

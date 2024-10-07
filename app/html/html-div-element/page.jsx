@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const HTMLDiv = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Divs in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring divs - one of the most
@@ -146,7 +146,7 @@ Content goes here
           styling without any structural purpose.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -189,7 +189,7 @@ Content goes here
           height of the divs.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored divs in HTML, including their purpose,

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSAnimations = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Animation in CSS</h1>
       <p>
         Animation is a powerful CSS feature that allows you to bring your
@@ -128,7 +128,7 @@ const CSSAnimations = () => {
           <code>normal</code>, <code>alternate</code>, or <code>reverse</code>.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Using Animation</h2>
       <p>
         Animation can be used in various ways to create visually appealing and
@@ -248,7 +248,7 @@ const CSSAnimations = () => {
           flexibility to stand out.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Challenges of Animation</h2>
       <p>
         While animation is a powerful tool, it also comes with some challenges:
@@ -294,7 +294,7 @@ const CSSAnimations = () => {
           interactive elements, or achieving subtle visual effects.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, animation is a powerful tool in CSS that allows you to bring
         your designs to life. Choose animation options that align with your

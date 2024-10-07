@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -33,7 +33,7 @@ export const metadata = {
 const BomIntro = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to the Browser Object Model (BOM)</h1>
 
       <p>
@@ -82,7 +82,7 @@ const BomIntro = () => {
           you information about the screen size and resolution.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>BOM Applications</h2>
       <p>
         The BOM allows you to create interactive and dynamic experiences beyond
@@ -133,7 +133,7 @@ const BomIntro = () => {
           related to the browser itself.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         The BOM is like the control panel of your web browser spaceship, giving

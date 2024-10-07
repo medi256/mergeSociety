@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSIcons = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Icons in CSS: The Ultimate Guide</h1>
       <p>
         Icons are a fundamental aspect of web design, enhancing the user
@@ -155,7 +155,7 @@ const CSSIcons = () => {
         <code>fa-facebook</code> with any other icon name from the Font Awesome
         library.
       </p>
-      <AdUnit />
+      
       <h3>Bootstrap Icons</h3>
       <p>
         Bootstrap Icons is another popular icon library, especially if you're
@@ -280,7 +280,7 @@ const CSSIcons = () => {
         explore some advanced techniques to take your icon usage to the next
         level:
       </p>
-      <AdUnit />
+      
       <h3>Icon Sizing</h3>
       <p>
         You can adjust the size of icons by applying CSS properties like{" "}
@@ -360,7 +360,7 @@ const CSSIcons = () => {
           various devices to ensure they remain visible and functional.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Icons are a powerful tool in your web design toolkit. By incorporating

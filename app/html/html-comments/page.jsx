@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLComments = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Comments in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring comments in HTML - a
@@ -141,7 +141,7 @@ const HTMLComments = () => {
           </pre>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Comments in HTML</h2>
       <ul>
         <li>
@@ -203,7 +203,7 @@ const HTMLComments = () => {
           </pre>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored comments in HTML, including their

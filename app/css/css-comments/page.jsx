@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -27,7 +27,7 @@ export const metadata = {
 const CSSComments = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Power of Comments in CSS</h1>
       <p>
         Comments are like hidden notes in your CSS code. They allow you to add
@@ -131,7 +131,7 @@ const CSSComments = () => {
         by the browser. You can use this technique to experiment with different
         styles or to temporarily disable certain rules while troubleshooting.
       </p>
-      <AdUnit />
+      
       <h2>Best Practices for Comments</h2>
       <ul>
         <li>
@@ -180,7 +180,7 @@ const CSSComments = () => {
           developers.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, comments are an important tool for code documentation and
         collaboration. They help improve code readability, facilitate

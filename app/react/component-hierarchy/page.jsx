@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -29,7 +29,7 @@ export const metadata = {
 const Hierarchy = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>What is Component Hierarchy?</h1>
       <p>
         In React, Component Hierarchy refers to the way components are organized
@@ -197,7 +197,7 @@ App
         In React, props and state play crucial roles in how components
         communicate and maintain data.
       </p>
-      <AdUnit />
+      
       <h3>Props</h3>
       <p>
         Props (short for properties) are used to pass data from a parent
@@ -270,7 +270,7 @@ export default Counter;
           <code>onClick</code> event triggers the handleIncrement function.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>
         Component Hierarchy and Nesting help in organizing and structuring your

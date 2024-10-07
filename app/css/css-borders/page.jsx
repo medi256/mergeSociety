@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -29,7 +29,7 @@ export const metadata = {
 const CSSBorders = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Borders in CSS</h1>
       <p>
         Borders are like the frames that enclose your web designs, adding
@@ -122,7 +122,7 @@ div {
           </tr>
         </tbody>
       </table>
-      <AdUnit />
+      
       <h2>Border Width</h2>
       <p>
         The <code>border-width</code> property allows you to adjust the
@@ -243,7 +243,7 @@ div {
         the shorthand property, like this:{" "}
         <code>border: 1px solid red; border-radius: 5px;</code>.
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor

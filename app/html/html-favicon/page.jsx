@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLFavicon = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Favicon in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring the world of favicons -
@@ -105,7 +105,7 @@ const HTMLFavicon = () => {
           </pre>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Best Practices for Favicons</h2>
       <ul>
         <li>
@@ -160,7 +160,7 @@ const HTMLFavicon = () => {
           see how the favicon helps identify your website.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the importance of favicons and how to

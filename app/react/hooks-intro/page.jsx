@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -25,7 +25,7 @@ export const metadata = {
 const hooksIntro = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to Hooks in React</h1>
 
       <h2>What Are Hooks?</h2>
@@ -118,7 +118,7 @@ const hooksIntro = () => {
         Hooks make functional components just as powerful as class components
         but without all the complexity.
       </p>
-      <AdUnit />
+      
       <h2>How Do Hooks Work?</h2>
       <p>
         Think of a Hook as a special tool that adds powers to your functional
@@ -224,7 +224,7 @@ const hooksIntro = () => {
           it through every level manually.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Conclusion: Hooks Make React Easier and More Powerful</h2>
       <p>To sum up:</p>
       <ul>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -49,7 +49,7 @@ export const metadata = {
 const Promises = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Promises in JavaScript</h1>
       <p>
         In JavaScript, a <code>Promise</code> is an object that represents the
@@ -154,7 +154,7 @@ const myPromise = new Promise((resolve, reject) => {
         successful!" Otherwise, it’s rejected with the message "There was an
         error."
       </p>
-      <AdUnit />
+      
       <h2>Handling Promises: then() and catch()</h2>
       <p>
         Once a promise is created, we need a way to handle the result. We use
@@ -259,7 +259,7 @@ fetchData()
           is rejected with the message "Failed to fetch data."
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Promise Chaining</h2>
       <p>
         One of the key benefits of promises is <code>chaining</code>. You can
@@ -303,7 +303,7 @@ fetchData()
         don’t wait by the door the whole time; instead, you’re notified when the
         delivery is done or if something goes wrong.
       </p>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <ul>
         <li>

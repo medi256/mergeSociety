@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const StringMethods = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>String Methods in JavaScript</h1>
       <p>
         Strings in JavaScript are sequences of characters used to represent
@@ -122,7 +122,7 @@ console.log(message); // Output: Hello, Alice!
         simplicity. For instance:{" "}
         <code>const message = greeting + ', ' + name + '!';</code>
       </p>
-      <AdUnit />
+      
       <h2>
         3. The <code>search()</code> Method
       </h2>
@@ -220,7 +220,7 @@ console.log(lower); // Output: hello, world!
         formatting text to ensure consistency, such as converting user input to
         a standard case.
       </p>
-      <AdUnit />
+      
       <h2>
         6. The <code>slice()</code> Method
       </h2>
@@ -316,7 +316,7 @@ console.log(result2); // Output: false
         value exists in a string, such as validating input or searching for
         keywords.
       </p>
-      <AdUnit />
+      
       <h2>
         9. The <code>split()</code> Method
       </h2>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLImages = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Images in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring images - a crucial
@@ -145,7 +145,7 @@ alt="Encoded image">.
       <video controls width="300px" height="300px">
         <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712418881/imageUpload_tsuisi.mov" />
       </video>
-      <AdUnit />
+      
       <h2>Best Practices for Using Images</h2>
       <ul>
         <li>
@@ -227,7 +227,7 @@ alt="Sunset over the ocean" width="500" height="400">
           </pre>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored images in HTML, including how to embed

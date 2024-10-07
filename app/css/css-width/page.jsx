@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const CSSWidth = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Width in CSS</h1>
       <p>
         Width is a fundamental property in CSS that determines the horizontal
@@ -125,7 +125,7 @@ img {
         elements that need to maintain their original aspect ratio while fitting
         within their container.
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -163,7 +163,7 @@ img {
           various devices.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, width is a powerful tool in web design. It helps define the
         layout, appearance, and responsiveness of your designs. Choose width

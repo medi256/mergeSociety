@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLPre = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         The <code>{`<pre>`}</code> Tag in HTML
       </h1>
@@ -167,7 +167,7 @@ const HTMLPre = () => {
           for content that doesn't need this level of formatting control.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, {` let's `} put your knowledge into practice! Open your code editor
@@ -218,7 +218,7 @@ line breaks and indentation.
           </pre>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the <code>{`<pre>`}</code> tag in HTML,

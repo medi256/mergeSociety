@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLSemantic = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Semantic HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring Semantic HTML - a
@@ -167,7 +167,7 @@ const HTMLSemantic = () => {
           </pre>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Semantic HTML</h2>
       <ul>
         <li>
@@ -222,7 +222,7 @@ const HTMLSemantic = () => {
           structure it with headings, paragraphs, and images.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored Semantic HTML, including its purpose,

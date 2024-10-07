@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -28,7 +28,7 @@ export const metadata = {
 const BomApplication = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>BOM Applications: Interactive Web Experiences</h1>
       <p>
         Now that we’ve learned about different objects in the Browser Object

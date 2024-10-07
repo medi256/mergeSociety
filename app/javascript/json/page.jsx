@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -33,7 +33,7 @@ export const metadata = {
 const JSON = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding JSON in JavaScript</h1>
       <p>
         JSON, which stands for JavaScript Object Notation, is a lightweight
@@ -167,7 +167,7 @@ const JSON = () => {
         properties of the object, just like we would with any other JavaScript
         object.
       </p>
-      <AdUnit />
+      
       <h2>Common Use Cases for JSON</h2>
       <p>
         JSON is used in many scenarios in web development. Here are a few common
@@ -249,7 +249,7 @@ const JSON = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <p>
         This simple exercise will help you get comfortable with converting
         objects to JSON and back. No need to worry about storing the data or

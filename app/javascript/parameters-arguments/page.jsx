@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const Parameters = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Function Parameters and Arguments</h1>
       <p>
         Welcome back! In our last lesson, we learned about functions and how
@@ -123,7 +123,7 @@ greetUser('Bob');   // Output: Hello, Bob!
         different arguments like <code>'Alice'</code> and <code>'Bob'</code>, it
         prints personalized greetings.
       </p>
-      <AdUnit />
+      
       <h2>Using Multiple Parameters</h2>
       <p>
         Functions can have more than one parameter. For example, let's teach our

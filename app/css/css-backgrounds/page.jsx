@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSBackground = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Backgrounds in CSS</h1>
       <p>
         Backgrounds are like the canvas upon which your web designs come to
@@ -137,7 +137,7 @@ div {
         <code>repeat-x</code> to repeat the image horizontally or
         <code>repeat-y</code> to repeat it vertically.
       </p>
-      <AdUnit />
+      
       <h2>Background Position</h2>
       <p>
         The <code>background-position</code> property allows you to specify the
@@ -228,7 +228,7 @@ div {
         remains stationary while the content scrolls over it. This technique
         adds depth and visual interest to your designs.
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -271,7 +271,7 @@ div {
           to use backgrounds in your designs.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, backgrounds play a crucial role in setting the tone, creating
         visual interest, and enhancing the user experience. Choose backgrounds

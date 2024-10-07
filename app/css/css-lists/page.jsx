@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -35,7 +35,7 @@ export const metadata = {
 const CSSStyleLists = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of List Styling in CSS</h1>
       <p>
         List styling in CSS is an essential aspect of creating visually
@@ -203,7 +203,7 @@ ul {
         You can also use other CSS properties on lists just like any other
         element. You can apply color, background, font, and many others.
       </p>
-      <AdUnit />
+      
       <h2>Benefits of List Styling</h2>
       <p>Using list styling offers several advantages for your designs:</p>
 
@@ -266,7 +266,7 @@ ul {
           list items.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, list styling is a powerful tool in CSS. It helps create
         visually appealing and functional lists that enhance the user

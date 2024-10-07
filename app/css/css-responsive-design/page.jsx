@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -28,7 +28,7 @@ export const metadata = {
 const CSSResponsiveDesigns = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Responsive Design and Best Practices</h1>
       <p>
         Responsive design is an approach to web development that ensures web
@@ -109,7 +109,7 @@ const CSSResponsiveDesigns = () => {
           technology and user needs.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Examples</h2>
 
       <p>Below are examples demonstrating responsive design principles:</p>
@@ -180,7 +180,7 @@ const CSSResponsiveDesigns = () => {
 </html>`}
         title="Media Queries Example"
       ></iframe>
-      <AdUnit />
+      
       <p>
         By following these principles and best practices, you can create
         responsive designs that provide a consistent and enjoyable experience

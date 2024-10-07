@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const ReactStyling = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h2>React CSS Styling: Efficient Styling Techniques</h2>
 
       <p>
@@ -159,7 +159,7 @@ export default MyComponent;
         In this CSS file, we define styles for the <code>.container</code> and{" "}
         <code>.title</code> classes.
       </p>
-      <AdUnit />
+      
 
       <h4>3. Applying Styles</h4>
 

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLQuotation = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Quotations in HTML</h1>
       <p>
         Quotations can enhance your HTML content by providing additional context
@@ -95,7 +95,7 @@ const HTMLQuotation = () => {
           highlight the quoted passage.
         </p>
       </blockquote>
-      <AdUnit />
+      
       <h5>
         Example of <code> {`<blockquote>`} </code> Element:
       </h5>
@@ -137,7 +137,7 @@ const HTMLQuotation = () => {
           egestas.
         </p>
       </blockquote>
-      <AdUnit />
+      
 
       <Button whereToGo={"html-entities"} />
     </div>

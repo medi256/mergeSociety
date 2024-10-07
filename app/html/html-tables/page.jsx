@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLTables = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Tables in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring tables - a powerful tool
@@ -185,7 +185,7 @@ const HTMLTables = () => {
           .
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Using Tables</h2>
       <ul>
         <li>
@@ -267,7 +267,7 @@ const HTMLTables = () => {
           border around the table or adjust the spacing between cells.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored tables in HTML, including how to create

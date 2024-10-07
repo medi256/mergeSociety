@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSSyntax = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>CSS Syntax</h1>
       <p>
         CSS (Cascading Style Sheets) is a styling language used to design and
@@ -97,7 +97,7 @@ const CSSSyntax = () => {
           <code>float</code>.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Values</h3>
       <p>
         Values are assigned to properties to define their specific behavior or
@@ -152,7 +152,7 @@ h1 {
         <code>font-size: 24px</code>. This rule sets the text color of
         <code> {`<h1>`}</code> elements to red and their font size to 24 pixels.
       </p>
-      <AdUnit />
+      
       <h2>Advanced CSS Syntax</h2>
       <p>
         While the basics of CSS syntax are relatively straightforward, the

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,7 +23,7 @@ export const metadata = {
 const RenderingJSX = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Creating and Rendering JSX Files</h1>
 
       <p>
@@ -168,7 +168,7 @@ document.getElementById('root') // This is where your app will be rendered in th
 
       <p>Just remember to save your files, and React will handle the rest!</p>
 
-      <AdUnit />
+      
       <h2>Wrapping Up</h2>
       <p>
         Creating and rendering JSX files is a fundamental part of building React

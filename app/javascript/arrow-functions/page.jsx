@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -30,7 +30,7 @@ export const metadata = {
 const ArrowFuc = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Arrow Functions in JavaScript</h1>
       <p>
         We've learned about regular functions, function parameters, and how to
@@ -103,7 +103,7 @@ const sayHello = name => 'Hello, ' + name + '!';
           keyword. The result of the single line is automatically returned.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Arrow Functions with Curly Braces</h2>
       <p>
         Sometimes, you need to write more than one line of code in a function.
@@ -192,7 +192,7 @@ console.log(isEven(7)); // Output: false
         not. The arrow function makes it easy to perform this check in a compact
         and readable way.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Arrow functions are a neat and simple way to write functions in

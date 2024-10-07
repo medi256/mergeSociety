@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const fetchData = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Working with APIs in React: Fetching Dynamic Data</h1>
 
       <p>
@@ -93,7 +93,7 @@ const fetchData = () => {
           prices, and reviews from a database.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Steps to Work with APIs in React</h3>
 
       <p>Here are the steps to work with APIs in React:</p>
@@ -265,7 +265,7 @@ export default App;
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h3>Explanation</h3>
 
       <ul>

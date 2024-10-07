@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
-import AdUnit from "../AdUnit";
+
 
 export const metadata = {
   title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",
@@ -18,7 +18,7 @@ export const metadata = {
 const CSSCourse = () => {
   return (
     <div className="container">
-      <AdUnit />
+      
       <ScrollToTop />
       <main>
         <h1>CSS Tutorial</h1>
@@ -308,8 +308,8 @@ const CSSCourse = () => {
           </div>
         </section>
       </main>
-      <AdUnit />
-      <AdUnit />
+      
+      
     </div>
   );
 };

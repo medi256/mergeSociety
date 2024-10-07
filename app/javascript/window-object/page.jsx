@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -34,7 +34,7 @@ export const metadata = {
 const WindowObject = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Exploring Window Object Methods</h1>
 
       <h2>Introduction</h2>
@@ -97,7 +97,7 @@ alert("Form submitted successfully!");
         When this code runs, a pop-up box with the message "Form submitted
         successfully!" will appear. The user will need to click OK to continue.
       </p>
-      <AdUnit />
+      
       <h2>
         The <code>confirm</code> Method
       </h2>
@@ -157,7 +157,7 @@ alert("Action cancelled.");
         the item. Depending on their response, a message will appear telling
         them whether the item was deleted or the action was cancelled.
       </p>
-      <AdUnit />
+      
       <h2>
         The <code>prompt</code> Method
       </h2>
@@ -216,7 +216,7 @@ alert("No name entered.");
         name. If they click Cancel, a message saying "No name entered" will
         appear.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         The <code>Window Object</code> methods <code>alert</code>,{" "}

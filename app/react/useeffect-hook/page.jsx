@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const UseEffect = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding the useEffect Hook in React</h1>
 
       <h2>What Is useEffect?</h2>
@@ -87,7 +87,7 @@ export default SimpleEffectComponent;`}
       </pre>
 
       <h3>Breaking Down the Example</h3>
-      <AdUnit />
+      
       <h4>Importing useEffect</h4>
       <p>
         You need to import <code>useEffect</code> from the React library, along
@@ -192,7 +192,7 @@ export default UpdateTitleComponent;`}
         <code>document.title</code>: This changes the title of the browser tab.
         When the component mounts, the document title updates to 'New Title'.
       </p>
-      <AdUnit />
+      
       <h3>Setting Up a Timer</h3>
       <p>
         You can use <code>useEffect</code> to set up a timer that performs an
@@ -288,7 +288,7 @@ useEffect(() => {
           </code>
         </pre>
       </ul>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         The <code>useEffect</code> Hook is a powerful tool for managing side

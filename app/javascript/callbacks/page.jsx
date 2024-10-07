@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -49,7 +49,7 @@ export const metadata = {
 const CallBack = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Callbacks in JavaScript</h1>
 
       <p>
@@ -121,7 +121,7 @@ processUserInput(greet);
           the <code>greet</code> function after getting the user’s name.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Callbacks and Asynchronous Programming</h2>
       <p>
         Callbacks become especially useful when dealing with{" "}
@@ -227,7 +227,7 @@ fetchData(displayData);
           Then, <code>displayData</code> logs the data to the console.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Callback Hell</h2>
       <p>
         While callbacks are very useful, they can sometimes lead to something
@@ -269,7 +269,7 @@ console.log('Task 3 done');
         This is how callbacks work – they notify you when an asynchronous task
         is done so you can continue working on other things in the meantime.
       </p>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <ul>
         <li>

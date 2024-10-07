@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const InlineStyles = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h2>Applying Inline Styles in React: Dynamic Styling</h2>
 
       <p>
@@ -120,7 +120,7 @@ fontSize: '24px'
         JSX elements.
       </p>
 
-      <AdUnit />
+      
       <h4>2. Applying Inline Styles</h4>
 
       <p>Now, let's apply the inline styles to our JSX elements:</p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -28,7 +28,7 @@ export const metadata = {
 const CSSAttributeSelectors = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Attribute Selectors in CSS</h1>
       <p>Welcome to our lesson on Attribute Selectors in CSS!</p>
       <h2>What are Attribute Selectors?</h2>
@@ -67,7 +67,7 @@ a[target="_blank"] {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>Common Use Cases</h2>
       <p>
         Let's explore some common scenarios where attribute selectors can be
@@ -86,7 +86,7 @@ a[target="_blank"] {
         While attribute selectors provide powerful functionality, they should be
         used thoughtfully to maintain readability and avoid overly complex CSS.
       </p>
-      <AdUnit />
+      
       <h2>Hands-On Practice</h2>
       <p>
         Now, let's practice using attribute selectors in a simple HTML document.

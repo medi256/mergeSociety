@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -30,7 +30,7 @@ export const metadata = {
 const RunningJavascript = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>How to Insert and Run Your Code</h1>
       <p>
         When you start learning JavaScript, one of the first things you need to
@@ -156,7 +156,7 @@ console.log('Hello, JSFiddle!');
         When you click "Run", you will see the message "Hello, JSFiddle!" in the
         output area.
       </p>
-      <AdUnit />
+      
 
       <h2>4. Using an External JavaScript File</h2>
       <p>
@@ -226,7 +226,7 @@ alert('This is a JavaScript alert from an external file!');
         comfortable, you can explore the other methods for testing and
         organizing your code.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Learning how to insert and run your JavaScript code is the first step in

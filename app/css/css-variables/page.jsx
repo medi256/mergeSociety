@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const CSSVariables = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The World of Variables in CSS</h1>
       <p>
         Variables in CSS allow you to store and reuse values throughout your
@@ -166,7 +166,7 @@ body {
           readable and understandable by giving meaningful names to values.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Challenges of Variables</h2>
       <p>
         While variables are powerful, there are a few challenges to keep in
@@ -212,7 +212,7 @@ body {
           consistency, or building responsive layouts.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, variables in CSS provide a powerful way to manage and reuse
         values, ensuring consistency and flexibility in your designs. Choose

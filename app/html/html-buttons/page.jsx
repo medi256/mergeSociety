@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLButtons = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Buttons in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring buttons in HTML - one of
@@ -111,7 +111,7 @@ const HTMLButtons = () => {
           </pre>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Buttons in HTML</h2>
       <ul>
         <li>
@@ -178,7 +178,7 @@ const HTMLButtons = () => {
           </pre>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored buttons in HTML, including their purpose,

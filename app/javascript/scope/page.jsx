@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -29,7 +29,7 @@ export const metadata = {
 const Scope = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>JavaScript Scope</h1>
 
       <h2>Introduction to Scope</h2>
@@ -113,7 +113,7 @@ console.log(localVariable); // Error: localVariable is not defined
         function but not outside of it, which causes an error when we try to log
         it outside the function.
       </p>
-      <AdUnit />
+      
       <h2>Block Scope</h2>
       <p>
         Block scope refers to variables that are accessible only within the
@@ -187,7 +187,7 @@ displayAppName(); // Output: My App
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h3>Local Scope Example</h3>
       <pre>
         <code>

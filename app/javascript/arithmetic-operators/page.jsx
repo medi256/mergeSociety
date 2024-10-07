@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -40,7 +40,7 @@ export const metadata = {
 const JavaScriptOperatorsLesson = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>JavaScript Operators: Your First Steps in Code Magic</h1>
 
       <section>
@@ -138,7 +138,7 @@ console.log("Total money:", money); // Output: Total money: 15.75
           programs, like summing up scores in a game or calculating the total
           cost of items in a shopping cart.
         </p>
-        <AdUnit />
+        
         <h3>The Subtraction Operator (-)</h3>
         <p>
           This one takes things away. In real life, it's like removing items
@@ -312,7 +312,7 @@ console.log("Fraction:", fraction); // Output: Fraction: 0.5
           you more and more powerful in the world of JavaScript!
         </p>
       </section>
-      <AdUnit />
+      
       <section>
         <h2>Practice Time!</h2>
         <p>

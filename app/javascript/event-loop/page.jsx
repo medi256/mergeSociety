@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -28,7 +28,7 @@ export const metadata = {
 const EventLoop = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding the Event Loop in JavaScript</h1>
 
       <p>
@@ -85,7 +85,7 @@ greet(); // This function gets added to the call stack and executed
         runs), it is removed from the stack. The stack allows JavaScript to keep
         track of what task is running and what to do next.
       </p>
-      <AdUnit />
+      
       <h3>The Queue</h3>
       <p>
         While the call stack handles tasks that are being executed immediately,
@@ -187,7 +187,7 @@ console.log('Task 3: End');
         cake to bake), the manager ensures the chefs keep working on other
         orders in the meantime.
       </p>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>To summarize:</p>
       <ul>

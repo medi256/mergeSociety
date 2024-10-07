@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const ForEach = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Understanding the <code>forEach</code> Method in JavaScript
       </h1>
@@ -80,7 +80,7 @@ array.forEach(function(element, index, array) {
           <code>array</code>: The original array (optional).
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>
         Using <code>forEach</code> with an Array
       </h2>
@@ -151,7 +151,7 @@ fruits.forEach(function(fruit, index, array) {
           if needed.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>
         Using Arrow Functions with <code>forEach</code>
       </h2>
@@ -232,7 +232,7 @@ console.log("Lengths of strings:", lengths);
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>
         The <code>forEach</code> method is a useful way to loop through each

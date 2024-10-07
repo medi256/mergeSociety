@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const CSSMargins = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Margins in CSS</h1>
       <p>
         Margins are like the invisible spaces that surround your web designs,
@@ -176,7 +176,7 @@ div {
         you want to add extra space to the left of the element, such as creating
         a margin between the element and other elements on the left side.
       </p>
-      <AdUnit />
+      
       <h2>Margin Shorthand</h2>
       <p>
         CSS provides a shorthand property for margins that allows you to specify
@@ -268,7 +268,7 @@ div {
         and create a new HTML file. Let's explore the wonderful world of
         margins:
       </p>
-      <AdUnit />
+      
       <ol>
         <li>
           Create a simple HTML structure with div elements to serve as
@@ -301,7 +301,7 @@ div {
           your designs.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, margins play a crucial role in creating visually appealing and
         user-friendly designs. They help create breathing room between elements,

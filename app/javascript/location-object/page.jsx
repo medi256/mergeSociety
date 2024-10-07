@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -36,7 +36,7 @@ export const metadata = {
 const LocationObject = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Exploring the Location Object</h1>
 
       <h2>Introduction</h2>
@@ -81,7 +81,7 @@ const LocationObject = () => {
         window or tab. This is why we often use the syntax{" "}
         <code>window.location</code> to interact with the Location object.
       </p>
-      <AdUnit />
+      
       <h2>Properties of the Location Object</h2>
       <p>
         The Location object has several properties that provide information
@@ -141,7 +141,7 @@ const LocationObject = () => {
         These methods can be used to navigate between pages, or to load new
         content.
       </p>
-      <AdUnit />
+      
       <h2>Example: Using the Location Object</h2>
       <p>
         Let's see some examples of how we can use the Location object. We'll use
@@ -207,7 +207,7 @@ console.log("Hash: " + hash);
         <code>window.location.reload</code> to see how these methods work in
         action.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the Location object and its

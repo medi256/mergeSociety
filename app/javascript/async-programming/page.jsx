@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -33,7 +33,7 @@ export const metadata = {
 const AsyncProgram = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Asynchronous Programming in JavaScript</h1>
 
       <p>

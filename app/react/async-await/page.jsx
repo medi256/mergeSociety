@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const AsyncAwait = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Async/Await Syntax in React: Efficient Asynchronous Code</h1>
 
       <p>
@@ -178,7 +178,7 @@ setData(data);
         <code>await</code> again to wait for the response data to be parsed as
         JSON. This allows us to work with the data as if it were synchronous.
       </p>
-      <AdUnit />
+      
       <h4>3. Handling Errors</h4>
 
       <p>Let's add error handling using try/catch blocks:</p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -26,7 +26,7 @@ export const metadata = {
 const PageStructure = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding the Project Structure</h1>
 
       <p>
@@ -103,7 +103,7 @@ my-first-react-app/
         <strong> index.html </strong>
         file.
       </p>
-      <AdUnit />
+      
       <h3>
         Key Files Inside <code>public/</code>:
       </h3>
@@ -214,7 +214,7 @@ my-first-react-app/
           development mode. You’ll usually run this using `npm start`.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>
         The <code>README.md</code> File
       </h3>

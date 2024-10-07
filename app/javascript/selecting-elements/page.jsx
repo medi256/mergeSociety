@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -50,7 +50,7 @@ export const metadata = {
 const SelectingElement = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Selecting Elements in the DOM</h1>
 
       <h2>Introduction</h2>
@@ -126,7 +126,7 @@ console.log(paragraph.textContent); // Output: "Hello World!"
         <code>getElementById</code>, which we can use to select an element by
         its <strong>ID</strong>.
       </p>
-      <AdUnit />
+      
       <h2>
         Selecting Elements by <strong>ID</strong>
       </h2>
@@ -228,7 +228,7 @@ console.log(paragraphs.length); // Output: 2
         collection, which is an array-like object that contains the selected
         elements.
       </p>
-      <AdUnit />
+      
       <h2>
         Selecting Elements by <strong>Tag Name</strong>
       </h2>
@@ -280,7 +280,7 @@ console.log(paragraphs.length); // Output: 2
         collection, which is an array-like object that contains the selected
         elements.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this article, we learned how to select elements in the DOM using

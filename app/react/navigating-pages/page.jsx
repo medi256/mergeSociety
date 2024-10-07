@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const ReactNavigation = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Navigating between Pages in React Router: Enhancing User Experience
       </h1>
@@ -182,7 +182,7 @@ export default Home;
         create a clickable link that navigates to the about page (
         <code>/about</code>) when clicked.
       </p>
-      <AdUnit />
+      
       <h4>3. Programmatic Navigation with useNavigate</h4>
 
       <p>

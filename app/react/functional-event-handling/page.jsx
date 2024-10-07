@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -24,7 +24,7 @@ export const metadata = {
 const FunctionalEventHandler = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h2>Event Handling in Functional Components: Adding Interactivity</h2>
 
       <p>
@@ -100,7 +100,7 @@ function MyComponent() {
           it to different UI elements, reducing code duplication.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Using Event Handling in Practice</h3>
 
       <p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const Variables = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Variables in JavaScript</h1>
       <p>
         Welcome back, aspiring JavaScript developer! In this lesson, we'll
@@ -128,7 +128,7 @@ pi = 3; // This will result in an error
         <code>let</code> and <code>const</code> instead, as they provide more
         control over variable scope.
       </p>
-      <AdUnit />
+      
 
       <h2>Why Do We Have Different Ways to Declare Variables?</h2>
       <p>

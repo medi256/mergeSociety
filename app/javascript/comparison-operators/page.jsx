@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -41,7 +41,7 @@ export const metadata = {
 const JavaScriptOperatorsLesson = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <section>
         <h1>2. Comparison Operators: Let's Compare Things!</h1>
         <p>
@@ -145,7 +145,7 @@ console.log("completeString === true:", completeString === true);   // Output: c
           unexpectedly treated as equal. It's often recommended to use ===
           instead of == in most situations to avoid confusion.
         </p>
-        <AdUnit />
+        
         <h3>The Inequality Operator (!=)</h3>
         <p>
           This operator checks if two values are not equal. It's like asking,
@@ -189,7 +189,7 @@ console.log("5 != '5':", 5 != '5'); // Output: 5 != '5': false
           different from an expected value, or to check if a game state has
           changed.
         </p>
-        <AdUnit />
+        
         <h3>The Greater Than {` (>) `} and Less Than (&lt;) Operators</h3>
         <p>
           These operators help us compare numbers to see which one is bigger or
@@ -350,7 +350,7 @@ console.log("Is the weight within the limit?", withinWeightLimit); // Output: Is
             is below 32°F).
           </li>
         </ul>
-        <AdUnit />
+        
         <p>
           Remember, every great programmer started where you are now. The more
           you practice, the better you'll get. Don't worry if you make mistakes

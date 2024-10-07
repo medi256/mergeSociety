@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const CSSOverFlow = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Mastering Overflow in CSS</h1>
       <p>
         The CSS overflow property is crucial when it comes to controlling how
@@ -116,7 +116,7 @@ div {
         help maintain a clean and tidy layout without any overflowing content
         disrupting the design.
       </p>
-      <AdUnit />
+      
       <h3>Example: Overflow Scroll</h3>
       <p>
         Now, let's see how overflow scroll works. The overflowing content will
@@ -262,7 +262,7 @@ div {
           content.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Understanding how to control overflow in CSS will help you create better
         layouts and improve the user experience on your website. Keep

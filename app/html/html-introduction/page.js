@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ const HTMLIntroduction = () => {
   return (
     <div className="lesson-container">
       <section>
-        <AdUnit />
+        
         <h1>Introduction to HTML</h1>
         <p>
           Welcome to the exciting world of HTML! In this course, you will learn
@@ -139,7 +139,7 @@ const HTMLIntroduction = () => {
             the code; we'll break down each part in the upcoming lessons.
           </li>
         </ol>
-        <AdUnit />
+        
         <h3>For Mobile Users</h3>
         <p>
           If you're using a mobile device, there are several code editors
@@ -182,7 +182,7 @@ const HTMLIntroduction = () => {
           ".css" for CSS files and ".js" for JavaScript files. This helps both
           humans and computers quickly identify the type of content in a file.
         </p>
-        <AdUnit />
+        
         <p>
           Remember, this is just an introduction to what your appetite! In the
           upcoming lessons, we'll dive deeper into each aspect of HTML,

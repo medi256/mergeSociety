@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -31,7 +31,7 @@ export const metadata = {
 const CSSFloat = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Float in CSS</h1>
       <p>
         Float is a powerful CSS property that allows you to control the layout
@@ -163,7 +163,7 @@ img {
         should appear below floated elements, ensuring they clear the floats and
         start on a new line.
       </p>
-      <AdUnit />
+      
       <h2>Benefits of Float</h2>
       <p>Using float offers several advantages for your designs:</p>
 
@@ -235,7 +235,7 @@ img {
           elements.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, float is a powerful tool in CSS that allows you to create
         visually appealing and functional designs. Choose float options that

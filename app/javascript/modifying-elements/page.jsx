@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -48,7 +48,7 @@ export const metadata = {
 const ModifyingElements = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Modifying Element Properties</h1>
 
       <h2>Introduction</h2>
@@ -179,7 +179,7 @@ console.log(paragraph.textContent); // Output: "Hello World!"
         In this example, we select the paragraph element with the ID
         "myParagraph" and log its text content to the console.
       </p>
-      <AdUnit />
+      
       <h2>Modifying Style</h2>
       <p>
         Another way to modify an element's property is to change its style. You
@@ -298,7 +298,7 @@ paragraph.style.fontFamily = 'Arial';
         In this example, we change the font size to 36px and font family to
         Arial using camel case.
       </p>
-      <AdUnit />
+      
       <h2>Modifying Attributes</h2>
       <p>
         You can also modify an element's attributes using the{" "}
@@ -464,7 +464,7 @@ paragraph.classList.remove('bold');
         "myParagraph" and remove the "bold" class from it. This is like removing
         a sticker from the paragraph element.
       </p>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>
         In this topic, you've learned how to modify element properties in the

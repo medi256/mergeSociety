@@ -63,20 +63,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-EVC3DTG6XZ');
           `}
         </Script>
-        <Script
-          id="adsbygoogle-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            `,
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6271278895910760"
-          crossOrigin="anonymous"
-        />
+
         <Script
           async
           data-id="101458649"

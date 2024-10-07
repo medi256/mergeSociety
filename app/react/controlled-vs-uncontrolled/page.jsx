@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const ControlledeUncrolled = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Controlled vs Uncontrolled Components in React: A Beginner's Guide
       </h1>
@@ -193,7 +193,7 @@ export default UncontrolledForm;`}
           direct DOM access.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>4. Conclusion</h2>
       <p>
         We've explored Controlled and Uncontrolled Components in React.

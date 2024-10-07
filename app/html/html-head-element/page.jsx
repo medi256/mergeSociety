@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const HTMLHead = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         The <code>{`<head>`}</code> Element in HTML
       </h1>
@@ -166,7 +166,7 @@ alert("Hello, world!");
           </pre>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>
         Why Is the <code>{`<head>`}</code> Element Important?
       </h2>
@@ -265,7 +265,7 @@ alert("Hello, world!");
           JavaScript code snippet, such as displaying an alert message.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, {` we've `} explored the <code>{`<head>`}</code> element

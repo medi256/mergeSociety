@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -23,7 +23,7 @@ export const metadata = {
 const fetchData = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Fetching Data from APIs</h1>
 
       <p>
@@ -121,7 +121,7 @@ fetch('https://api.example.com/data?api_key=YOUR_API_KEY')
           query parameter in the URL (after the <code>?</code>).
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>c. Handling Different Response Types</h3>
       <p>
         Sometimes, the API might send different types of responses. For
@@ -207,7 +207,7 @@ fetchData();
           occurred during the fetch process.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>5. Summary</h2>
       <p>To recap, fetching data from an API involves:</p>
 

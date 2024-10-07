@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -30,7 +30,7 @@ export const metadata = {
 const CSSFlex = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Flexbox in CSS</h1>
       <p>
         Flex is a powerful CSS property that allows you to create flexible and
@@ -158,7 +158,7 @@ const CSSFlex = () => {
         Flex can be used in various ways to create visually appealing and
         functional designs. Let's explore some common use cases for flex:
       </p>
-      <AdUnit />
+      
       <h3>Responsive Layouts</h3>
       <p>
         Flex is commonly used to create responsive layouts that adapt to
@@ -280,7 +280,7 @@ const CSSFlex = () => {
           building complex layouts.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, flex is a powerful tool in CSS that gives you control over the
         layout and arrangement of items within a container. Choose flex options

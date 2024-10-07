@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const MapMethod = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Understanding the <code>map</code> Method in JavaScript
       </h1>
@@ -95,7 +95,7 @@ const newArray = array.map(function(element, index, array) {
           new array for each element.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>
         Example: Using <code>map</code> to Modify an Array
       </h2>
@@ -218,7 +218,7 @@ console.log(uppercasedWords); // Output: ["HELLO", "WORLD", "JAVASCRIPT"]
           uppercase.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice: Try it Yourself</h2>
       <p>
         Now it’s your turn! Try using the <code>map</code> method with different

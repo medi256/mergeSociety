@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const HTMLAudio = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Audio in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring audio - another exciting
@@ -179,7 +179,7 @@ const HTMLAudio = () => {
           and optimize your audio files without sacrificing quality.`}
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -222,7 +222,7 @@ const HTMLAudio = () => {
           structure of the <code>{`<audio>`}</code> tag.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored audio in HTML, including how to embed

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -29,7 +29,7 @@ export const metadata = {
 const WhyJavascript = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
 
       <h1>Why Learn JavaScript?</h1>
       <p>
@@ -119,7 +119,7 @@ const WhyJavascript = () => {
           front end to the back end, using just one language.
         </li>
       </ul>
-      <AdUnit />
+      
 
       <h2>Community and Support</h2>
       <p>

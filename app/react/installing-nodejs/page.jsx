@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -26,7 +26,7 @@ export const metadata = {
 const InstallingNode = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
 
       <h1>Installing Node.js and npm</h1>
 
@@ -105,7 +105,7 @@ const InstallingNode = () => {
           Click the green button that says "LTS" to start downloading Node.js.
         </strong>
       </p>
-      <AdUnit />
+      
       <h3>Step 2: Install Node.js</h3>
       <p>
         Once the download is complete, open the file to begin the installation
@@ -166,7 +166,7 @@ const InstallingNode = () => {
         If you see version numbers for both Node.js and npm, you’re good to go!
         Everything is installed correctly.
       </p>
-      <AdUnit />
+      
       <h2>What’s Next?</h2>
       <p>
         Now that Node.js and npm are installed, you’re ready to move forward and

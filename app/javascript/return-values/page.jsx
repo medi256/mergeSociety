@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -30,7 +30,7 @@ export const metadata = {
 const ReturnValues = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
 
       <h1>Returning Values from Functions</h1>
       <p>
@@ -100,7 +100,7 @@ console.log(result); // Output: 8
         is <code>8</code>. We store this returned value in the variable{" "}
         <code>result</code> and print it using <code>console.log</code>.
       </p>
-      <AdUnit />
+      
       <h2>Real-World Analogy</h2>
       <p>
         Let's go back to our toy robot analogy. Imagine you have a robot that
@@ -147,7 +147,7 @@ console.log(isEven(10)); // Output: true
         <code>multiplyNumbers</code> returns a number, and <code>isEven</code>{" "}
         returns a boolean value.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Returning values from functions is a powerful feature that makes our

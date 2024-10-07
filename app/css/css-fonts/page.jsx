@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSFonts = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Art of Fonts in CSS</h1>
       <p>
         Fonts are like the brushstrokes that bring your web designs to life!
@@ -253,7 +253,7 @@ a {
         </tbody>
       </table>
 
-      <AdUnit />
+      
       <h2>Text Transform</h2>
       <p>
         The <code>text-transform</code> property allows you to control the
@@ -379,7 +379,7 @@ p {
           complementary fonts for your designs.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, fonts have a significant impact on the user experience. Choose
         fonts that are legible, appropriate for your audience, and consistent

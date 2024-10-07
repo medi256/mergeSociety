@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -32,7 +32,7 @@ export const revalidate = 43200;
 const Comments = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1> Comments in JavaScript</h1>
       <p>
         Just like how we use comments in our daily lives to explain things or
@@ -91,7 +91,7 @@ let message = "Hello, world!";
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h3>Multi-line Comments:</h3>
       <ul>
         <li> Use /* and */ to create comments that span multiple lines.</li>

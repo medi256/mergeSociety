@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const HTMLAttributes = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Attributes in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring attributes in HTML.
@@ -153,7 +153,7 @@ const HTMLAttributes = () => {
           </code>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Using Attributes</h2>
       <ul>
         <li>
@@ -222,7 +222,7 @@ const HTMLAttributes = () => {
           </code>
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored attributes in HTML, including what they

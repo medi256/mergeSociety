@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -32,7 +32,7 @@ export const metadata = {
 const Hoisting = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Mastering JavaScript Hoisting</h1>
 
       <h2>Introduction to Hoisting</h2>
@@ -102,7 +102,7 @@ const myConstVar = 'Hello, world!';
         <code>myConstVar</code> before their declaration results in an error,
         making it easier to avoid bugs related to hoisting.
       </p>
-      <AdUnit />
+      
       <h2>Function Hoisting</h2>
       <p>
         Functions in JavaScript are also hoisted, but unlike variables, the
@@ -183,7 +183,7 @@ let myLetVar = 'Hello, world!';
         can't even see the box until the teacher specifically tells you about
         your lost item.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Hoisting is an important concept in JavaScript that affects how

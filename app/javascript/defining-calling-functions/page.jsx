@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -29,7 +29,7 @@ export const metadata = {
 const DefiningFunction = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to Functions</h1>
       <p>
         Welcome everyone! Today, we're going to learn about functions in
@@ -108,7 +108,7 @@ function walkForward() {
           when the function is called.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Calling a Function</h2>
       <p>
         Defining a function doesn't execute it. To execute the code inside a
@@ -214,7 +214,7 @@ farewellUser(); // Output: Goodbye, User!
         <code>farewellUser</code>. Each function performs a specific task,
         making our code more organized and easier to read.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Functions are a powerful tool in JavaScript that help you organize,

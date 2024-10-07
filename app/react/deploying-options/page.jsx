@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -25,7 +25,7 @@ export const metadata = {
 const Deploying = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Deploying Options in React: Netlify, Vercel, and GitHub Pages</h1>
       <p>
         Deploying your React application is an exciting step towards making it
@@ -129,7 +129,7 @@ const Deploying = () => {
           of your application, ready to be uploaded to a web server.
         </li>
       </ol>
-      <AdUnit />
+      
 
       <h3>Steps to Deploy on Netlify</h3>
       <p>Here are the steps to deploy your React application on Netlify:</p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const TextFormatting = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Text Formatting in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring the wonderful world of
@@ -133,7 +133,7 @@ const TextFormatting = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>
         Using the <code>{`<sup>`}</code> and <code>{`<sub>`}</code> Tags
       </h2>
@@ -184,7 +184,7 @@ The <abbr title="World Wide Web">WWW</abbr> is a global information system.
         In this example, hovering over "WWW" will display "World Wide Web" as a
         tooltip.
       </p>
-      <AdUnit />
+      
       <h2>Best Practices for Text Formatting</h2>
       <ul>
         <li>
@@ -253,7 +253,7 @@ E=mc<sup>2</sup>.</p>`}
           affects the appearance and readability of your content.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the various text formatting options

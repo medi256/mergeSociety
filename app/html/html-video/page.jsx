@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -21,7 +21,7 @@ export const metadata = {
 const HTMLVideo = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Videos in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring videos - a powerful
@@ -190,7 +190,7 @@ const HTMLVideo = () => {
           quality.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -234,7 +234,7 @@ const HTMLVideo = () => {
           structure of the <code>{`<video>`}</code> tag.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored videos in HTML, including how to embed

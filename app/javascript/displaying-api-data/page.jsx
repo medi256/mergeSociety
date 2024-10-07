@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -42,7 +42,7 @@ export const metadata = {
 const DisplayData = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Displaying API Data in JavaScript</h1>
       <p>
         In our previous lesson, we learned how to fetch data from an API using
@@ -154,7 +154,7 @@ console.error('Error fetching data:', error);
           store to ask why our picture didn’t arrive.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>3. How It All Connects</h2>
       <p>This lesson builds on our previous knowledge of fetching data:</p>
       <ul>
@@ -239,7 +239,7 @@ console.error('Error fetching data:', error);
         With these skills, you can now fetch and display data from APIs, making
         your web pages more engaging and responsive to real-time information.
       </p>
-      <AdUnit />
+      
       <h2>7. Practice Challenge</h2>
       <p>
         Try using a different API to fetch and display other types of data, such

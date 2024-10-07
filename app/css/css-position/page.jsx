@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import Image from "next/image";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import AdUnit from "@/app/AdUnit";
+
 
 export const metadata = {
   title:
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSposition = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>CSS position</h1>
       <p>
         {" "}
@@ -311,7 +311,7 @@ const CSSposition = () => {
         So what happens if a child element is absolutely positioned, but the
         parent element doesn’t have a position set?
       </p>
-      <AdUnit />
+      
       <h4>Here’s our CSS for this illustration:</h4>
       <pre>
         <code>
@@ -517,7 +517,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           CanIUse.com
         </i>
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -545,7 +545,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           stacking with z-index, or creating sticky headers or sidebars.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, position is a powerful tool in CSS that gives you control over
         the placement and arrangement of elements. Choose position options that

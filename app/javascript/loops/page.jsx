@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const Loops = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>JavaScript Loops</h1>
 
       <h2>Introduction</h2>
@@ -124,7 +124,7 @@ console.log(i);
           </li>
         </ul>
       </p>
-      <AdUnit />
+      
       <h2>while Loops</h2>
       <p>
         The <code>while</code> loop is another type of loop. It keeps running as
@@ -368,7 +368,7 @@ console.log(key + ': ' + person[key]);
           </li>
         </ul>
       </p>
-      <AdUnit />
+      
       <h2>for...of Loops</h2>
       <p>
         The <code>for...of</code> loop is used to go through iterable objects

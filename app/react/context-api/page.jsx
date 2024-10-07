@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const ContextApi = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Diving Deeper: Context API and Passing Data Through the Component Tree
       </h1>
@@ -149,7 +149,7 @@ export default App;`}
         Now, any component inside this Provider can access the school
         information!
       </p>
-      <AdUnit />
+      
       <h3>Step 3: Listen to the Announcement (useContext)</h3>
       <p>
         Now that we've made our announcement, let's see how different parts of
@@ -267,7 +267,7 @@ export default Footer;`}
         Context. If you only need to pass information to one or two components,
         regular props might be simpler.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         The Context API, with its <code>createContext</code> function,{" "}

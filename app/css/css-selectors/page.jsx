@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -23,7 +23,7 @@ export const metadata = {
 const CSSSelectors = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>CSS Selectors</h1>
       <p>
         Selectors are one of the most fundamental concepts in CSS. They are like
@@ -141,7 +141,7 @@ p {
         Keep in mind that IDs should be unique, so you can use them to target
         specific elements on your page.
       </p>
-      <AdUnit />
+      
       <h2>Attribute Selector</h2>
       <p>
         The attribute selector is like a detective that targets elements based
@@ -252,7 +252,7 @@ ul li {
           additional guidance and inspiration.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, practice makes perfect! The more you experiment with
         selectors, the better you'll become at targeting and styling elements on

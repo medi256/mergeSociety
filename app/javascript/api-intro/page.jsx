@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -23,7 +23,7 @@ export const metadata = {
 const APIintro = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>What is an API (Application Programming Interface)?</h1>
 
       <p>
@@ -141,7 +141,7 @@ const APIintro = () => {
         account. You don’t need to log into Facebook or Twitter separately—an
         API handles the communication for you.
       </p>
-      <AdUnit />
+      
       <h3>2. Logging in with Google or Facebook</h3>
       <p>
         Many websites and apps allow you to log in using your Google or Facebook
@@ -245,7 +245,7 @@ const APIintro = () => {
           you by the API.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>How Does an API Work?</h2>
 
       <p>
@@ -353,7 +353,7 @@ const APIintro = () => {
         the background, making sure that different systems can share data and
         communicate efficiently.
       </p>
-      <AdUnit />
+      
       <h2>Key Takeaways</h2>
 
       <ul>

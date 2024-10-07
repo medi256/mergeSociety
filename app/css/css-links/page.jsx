@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSLinks = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Link Styling in CSS</h1>
       <p>
         Link styling in CSS is an essential aspect of creating visually
@@ -162,7 +162,7 @@ a {
         also use other cursor values, such as <code>crosshair</code> or{" "}
         <code>move</code>, depending on the context of your design.
       </p>
-      <AdUnit />
+      
       <h2>Using Link Styling</h2>
       <p>
         Link styling can be used to create visually appealing and functional
@@ -290,7 +290,7 @@ a {
           navigation menus.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, link styling is a powerful tool in CSS. It helps create
         visually appealing and functional links that enhance the user

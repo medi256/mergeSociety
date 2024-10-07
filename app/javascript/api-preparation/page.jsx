@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -30,7 +30,7 @@ export const metadata = {
 const APIPreparation = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding APIs in Depth</h1>
 
       <p>
@@ -101,7 +101,7 @@ const APIPreparation = () => {
         For now, we’ll keep our focus on Web APIs, as they are the most relevant
         for building web apps.
       </p>
-      <AdUnit />
+      
       <h2>2. Who Creates APIs? (Free vs. Paid)</h2>
       <p>
         APIs are created by developers or companies who want to share their data
@@ -171,7 +171,7 @@ const APIPreparation = () => {
         endpoint serves a specific purpose, such as getting weather data,
         searching for movies, or retrieving user information.
       </p>
-      <AdUnit />
+      
       <h2>4. What is an API Key?</h2>
       <p>
         An API key is like a secret password or a VIP pass that lets you access
@@ -254,7 +254,7 @@ const APIPreparation = () => {
         <li>API keys are like passwords that give you access to an API.</li>
         <li>Documentation is your guide to using an API correctly.</li>
       </ul>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>
         In this lesson, we’ve covered what APIs are, the different types, how

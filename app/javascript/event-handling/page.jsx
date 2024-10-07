@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -38,7 +38,7 @@ export const metadata = {
 const EventHandling = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Event Handling</h1>
 
       <h2>Introduction</h2>
@@ -85,7 +85,7 @@ const EventHandling = () => {
         <strong>function()</strong>: The JavaScript function that will be called
         when the event occurs.
       </p>
-      <AdUnit />
+      
       <h3>Example</h3>
       <p>
         Here’s an example of how to use the <code>onclick</code> attribute to
@@ -194,7 +194,7 @@ alert('Button clicked!');
         This approach is more versatile and keeps your HTML and JavaScript code
         separate, making it easier to update and maintain.
       </p>
-      <AdUnit />
+      
       <h2>Common Event Types</h2>
       <p>Here are some common types of events you might use:</p>
       <ul>
@@ -323,7 +323,7 @@ paragraph.style.backgroundColor = 'yellow';
         In this example, hovering over the paragraph changes its background
         color to yellow.
       </p>
-      <AdUnit />
+      
       <h2>Mouseout Event</h2>
       <h3>Syntax</h3>
       <p>
@@ -476,7 +476,7 @@ alert('Key released: ' + event.key);
         In this example, releasing any key will display an alert showing the key
         that was released.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Understanding how to handle events is a fundamental part of web

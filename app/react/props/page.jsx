@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,7 +23,7 @@ export const metadata = {
 const Props = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>What Are Props in React?</h1>
       <p>
         In React, <strong>props</strong> (short for "properties") are used to
@@ -123,7 +123,7 @@ export default App;
           being displayed.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Why Are Props Read-Only?</h2>
       <p>
         It’s important to understand that <strong>props are read-only</strong>.
@@ -248,7 +248,7 @@ export default App;
         pass functions as props to allow child components to interact with their
         parent components.
       </p>
-      <AdUnit />
+      
       <h2>Summary</h2>
       <p>Let’s recap what we’ve learned about props:</p>
       <ul>

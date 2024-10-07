@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -45,7 +45,7 @@ export const metadata = {
 const DomIntro = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Welcome to the World of the DOM!</h1>
       <p>
         Have you ever clicked a button on a website and something cool happened?
@@ -94,7 +94,7 @@ const DomIntro = () => {
           little leaf on the tree.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>The DOM Tree Structure</h2>
       <p>
         The DOM represents a document as a tree structure, where each part of
@@ -176,7 +176,7 @@ const DomIntro = () => {
         loaded). Normally, you'd have to throw the whole thing away and start
         over. But with the DOM, it's different!
       </p>
-      <AdUnit />
+      
       <h2>The Magic Happens When You Open the Page</h2>
       <p>
         The moment you visit a website, your web browser (like Chrome or Safari)
@@ -259,7 +259,7 @@ const DomIntro = () => {
         to occur and then takes action based on that event. For example, you can
         use an event listener to show an alert when a button is clicked.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Understanding the DOM is like learning the secret recipe for making your

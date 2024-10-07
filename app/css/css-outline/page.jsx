@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const CSSOutline = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Outline in CSS</h1>
       <p>
         Outline is a CSS property that allows you to create a decorative border
@@ -196,7 +196,7 @@ img {
           for users.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Challenges of Outline</h2>
       <p>
         While outline is a powerful tool, it also comes with some challenges:
@@ -242,7 +242,7 @@ img {
           accessibility, or adding decorative borders.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, outline is a powerful tool in CSS that allows you to create
         non-blocking borders and visual emphasis. Choose outline options that

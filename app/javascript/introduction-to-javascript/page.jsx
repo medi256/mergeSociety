@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -31,7 +31,7 @@ export const metadata = {
 const JavascriptIntroduction = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
 
       <h1>What is JavaScript?</h1>
       <p>
@@ -97,7 +97,7 @@ const JavascriptIntroduction = () => {
         from the server and update the webpage without requiring a full page
         reload. This creates a seamless and responsive browsing experience.
       </p>
-      <AdUnit />
+      
 
       <h2>Getting Started with JavaScript</h2>
       <p>

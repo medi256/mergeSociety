@@ -1,6 +1,6 @@
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import AdUnit from "@/app/AdUnit";
+
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
@@ -21,7 +21,7 @@ const HTMLBasics = () => {
   return (
     <div className="lesson-container">
       <section>
-        <AdUnit />
+        
         <h1>HTML Basics</h1>
         <p>
           Welcome back, aspiring web developer! In this lesson, we'll dive into
@@ -159,7 +159,7 @@ const HTMLBasics = () => {
           specifies the type of input, such as "text," "email," or "password."`}
           </li>
         </ul>
-        <AdUnit />
+        
         <h2>Why Do Elements Have Opening and Closing Tags?</h2>
         <p>
           {`You might be wondering why some elements have both opening and closing
@@ -208,7 +208,7 @@ const HTMLBasics = () => {
         elements wrap the content within them, while the empty elements, like
         <img> and <br>, stand alone.`}
         </p>
-        <AdUnit />
+        
         <h2>Conclusion</h2>
         <p>
           In this lesson, we explored the fundamental building blocks of HTML -

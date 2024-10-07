@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -22,7 +22,7 @@ export const metadata = {
 const JSX = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to JSX (JavaScript XML)</h1>
 
       <p>
@@ -95,7 +95,7 @@ const element = <h1>Hello, world!</h1>;
         into that <strong>{`div`}</strong> . This is how everything you build
         using JSX shows up in the browser.
       </p>
-      <AdUnit />
+      
       <h2>JSX is More Powerful Than HTML</h2>
       <p>
         Unlike regular HTML, JSX allows you to embed JavaScript code inside it.
@@ -122,7 +122,7 @@ const element = <h1>Hello, {name}!</h1>;
         When this runs, the browser will display <strong>Hello, Medi! </strong>{" "}
         .
       </p>
-      <AdUnit />
+      
       <h2>Wrapping Up JSX</h2>
       <p>
         JSX is an important concept to understand because it forms the

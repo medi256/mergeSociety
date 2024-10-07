@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,7 +23,7 @@ export const metadata = {
 const EventHandlers = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Handling Events in React (Functional Components)</h1>
       <p>
         In web development, events are actions that occur when the user
@@ -176,7 +176,7 @@ export default App;`}
         arrow function <code>{`() => handleClick('First')`}</code>, it only runs
         when the button is actually clicked.
       </p>
-      <AdUnit />
+      
       <h2>How React Event Handling Works Under the Hood</h2>
       <p>
         React uses something called Synthetic Events to handle events across
@@ -237,7 +237,7 @@ export default App;`}
         mastering event handling will give you more control over how your app
         behaves.
       </p>
-      <AdUnit />
+      
       <h3>Recap:</h3>
       <ul>
         <li>

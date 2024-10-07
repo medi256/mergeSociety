@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -21,7 +21,7 @@ export const metadata = {
 const HTMLMetaData = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Responsive Web Design and the <code>{`<meta>`}</code> Tag
       </h1>
@@ -160,7 +160,7 @@ const HTMLMetaData = () => {
           the screen or becoming too small on smaller devices.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -192,7 +192,7 @@ const HTMLMetaData = () => {
           adjust the font size for mobile devices.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored responsive web design and the importance

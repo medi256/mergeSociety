@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -31,7 +31,7 @@ export const metadata = {
 const CSSForms = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1> Form Styling in CSS</h1>
       <p>
         Form styling in CSS is an exciting aspect of web design. Forms are
@@ -156,7 +156,7 @@ input[type="text"] {
           them stand out.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Challenges of Form Styling</h2>
       <p>While form styling is powerful, it also comes with some challenges:</p>
 
@@ -202,7 +202,7 @@ input[type="text"] {
           adding validation indicators, or styling form placeholders.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, form styling in CSS allows you to enhance the user experience,
         add creativity, and make your forms visually appealing. Choose form

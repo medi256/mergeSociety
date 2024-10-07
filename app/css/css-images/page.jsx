@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -31,7 +31,7 @@ export const metadata = {
 const CSSImages = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Image Styling in CSS</h1>
       <p>
         Image styling in CSS is an essential aspect of creating visually
@@ -170,7 +170,7 @@ img {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h3>Box Shadows</h3>
       <p>
         Box shadows can be used to create a sense of depth and make images stand
@@ -255,7 +255,7 @@ img {
           galleries, or applying unique filters.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, image styling is a powerful tool in CSS. It helps create
         visually appealing and functional designs that enhance the user

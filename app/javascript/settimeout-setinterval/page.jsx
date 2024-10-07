@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const Time = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Understanding <code>setTimeout</code> and <code>setInterval</code> in
         JavaScript
@@ -85,7 +85,7 @@ setTimeout(function, delay);
           running the function. 1 second = 1000 milliseconds.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>
         Example of <code>setTimeout</code>
       </h3>
@@ -179,7 +179,7 @@ setInterval(function, interval);
           repetition of the function.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>
         Example of <code>setInterval</code>
       </h3>
@@ -316,7 +316,7 @@ setTimeout(() => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>Practice: Try it Yourself</h2>
       <p>
         Now that you understand <code>setTimeout</code> and{" "}

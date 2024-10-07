@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -34,7 +34,7 @@ export const metadata = {
 const CSSUnits = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Units in CSS</h1>
       <p>
         Units in CSS are like the building blocks of measurements. They allow
@@ -128,7 +128,7 @@ div {
           300ms for a subtle transition effect.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Using Time Units</h2>
       <p>Here's an example of how to use time units in CSS:</p>
 
@@ -170,7 +170,7 @@ div {
           larger and smaller values to see the impact on the design.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, units play a crucial role in CSS. They provide precision,
         consistency, and flexibility in your designs. Choose units that align

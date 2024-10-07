@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const HTMLParagraphs = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Paragraphs in HTML</h1>
       <p>
         Welcome back, aspiring web developer! In this lesson, we'll be focusing
@@ -85,7 +85,7 @@ const HTMLParagraphs = () => {
           paragraphs to add space.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -117,7 +117,7 @@ const HTMLParagraphs = () => {
           structure your content.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the basics of paragraphs in HTML and how

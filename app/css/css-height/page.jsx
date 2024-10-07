@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const CSSHeight = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The World of Height in CSS</h1>
       <p>
         Height is another fundamental property in CSS that determines the
@@ -127,7 +127,7 @@ img {
         elements that need to maintain their original aspect ratio while fitting
         within their container.
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to experiment with height in CSS! Open your code editor
@@ -162,7 +162,7 @@ img {
           use height to create flexible and responsive designs.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, height is a powerful tool in web design. It helps define the
         layout, appearance, and responsiveness of your designs. Choose height

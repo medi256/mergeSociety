@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -36,7 +36,7 @@ export const metadata = {
 const HistoryObject = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding the History Object</h1>
 
       <h2>Introduction</h2>
@@ -80,7 +80,7 @@ const HistoryObject = () => {
           session history, but only if you have gone back before.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Properties of the History Object</h2>
       <p>
         The History object has some properties that give us information about
@@ -120,7 +120,7 @@ const HistoryObject = () => {
           page.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Example: Using the History Object</h2>
       <p>
         Let's look at some examples of how we can use the History object to
@@ -175,7 +175,7 @@ history.go(number);
         to the next page, and the <code>goToPage()</code> function moves to a
         specific page in the history based on the number you provide.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the History object and its

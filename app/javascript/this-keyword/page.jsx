@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const ThisKeyWord = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>
         Understanding the <code>this</code> Keyword in JavaScript
       </h1>
@@ -169,7 +169,7 @@ const ThisKeyWord = () => {
         <code>Bob</code> anymore because <code>this</code> has lost its
         connection to the <code>person</code> object.
       </p>
-      <AdUnit />
+      
       <h2>
         Solving the <code>this</code> Problem
       </h2>
@@ -243,7 +243,7 @@ const ThisKeyWord = () => {
         typically more useful when nested inside other functions or methods
         where <code>this</code> is inherited from the surrounding code.
       </p>
-      <AdUnit />
+      
       <h2>
         Practice: Using <code>this</code> in Your Own Code
       </h2>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,7 +23,7 @@ export const metadata = {
 const Images = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Working with Images in React</h1>
       <p>
         When working with images in React, there are a few important things to
@@ -154,7 +154,7 @@ export default App;`}
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>4. Using Dynamic Image Paths</h2>
       <p>
         Sometimes, you might want to display images based on certain conditions
@@ -258,7 +258,7 @@ export default App;`}
         If your image loads slowly, optimize its file size before using it in
         your app.
       </p>
-      <AdUnit />
+      
       <h2>7. Summary</h2>
       <p>
         Working with images in React is straightforward. Store images in the{" "}

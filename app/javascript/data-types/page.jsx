@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -32,7 +32,7 @@ export const dynamic = "force-static";
 const DataTypes = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to JavaScript Data Types</h1>
       <p>
         Welcome everyone! Today, we're going to dive into the fundamental
@@ -178,7 +178,7 @@ console.log(isWorking); // Output: false`}
         Booleans are used in decision-making. For instance, you might check if a
         user is subscribed to a newsletter before displaying certain content.
       </p>
-      <AdUnit />
+      
 
       <h3>Undefined</h3>
       <p>
@@ -354,7 +354,7 @@ console.log(typeof isStudent); // Output: 'boolean'`}
         our next lesson, we'll dive deeper into mathematical operations using
         operators.
       </p>
-      <AdUnit />
+      
 
       <Button whereToGo={"comments"} />
     </div>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const UseRef = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>useRef Hook in React</h1>
 
       <h2>What Is useRef?</h2>
@@ -222,7 +222,7 @@ inputRef.current.focus();
           state needs, prefer using <code>useState</code>.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>More Real-Life Examples</h2>
       <p>
         Here are some examples of how you might use <code>useRef</code> in

@@ -1,5 +1,5 @@
 import Button from "@/app/button";
-import AdUnit from "@/app/AdUnit";
+
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -31,7 +31,7 @@ export const metadata = {
 const CSSTransition = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1> Transition in CSS</h1>
       <p>
         Transition is a powerful CSS property that allows you to create smooth
@@ -184,7 +184,7 @@ const CSSTransition = () => {
         </code>
       </pre>
 
-      <AdUnit />
+      
       <h3>Combining Multiple Transitions</h3>
       <p>
         You can apply transitions to multiple properties to create complex
@@ -269,7 +269,7 @@ const CSSTransition = () => {
           interactive elements, or achieving subtle visual effects.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, transition is a powerful tool in CSS that allows you to create
         smooth and seamless animations. Choose transition options that align

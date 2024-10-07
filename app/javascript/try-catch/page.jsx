@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -48,7 +48,7 @@ export const metadata = {
 const tryCatch = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Try/Catch Statements in JavaScript</h1>
 
       <p>
@@ -157,7 +157,7 @@ try {
         <code>catch</code> block will catch that error, and we can handle it (in
         this case, by logging the error message to the console).
       </p>
-      <AdUnit />
+      
       <h2>Why Use the "throw" Keyword?</h2>
       <p>
         You might want to use the <code>throw</code> keyword when you need to
@@ -246,7 +246,7 @@ fetchData(); // Calling the async function
         <li>Allows you to control what happens when an error is detected.</li>
         <li>Makes debugging easier by providing error messages.</li>
       </ul>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         <code>Try/Catch Statements</code> are essential for writing reliable

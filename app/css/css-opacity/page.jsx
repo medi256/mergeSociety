@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const CSSopacity = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magic of Opacity in CSS</h1>
       <p>
         The CSS opacity property allows you to control the transparency of an
@@ -265,7 +265,7 @@ button:hover {
         techniques involving opacity. These techniques can help you create more
         dynamic and engaging designs:
       </p>
-      <AdUnit />
+      
       <h3>Opacity and RGBA Colors</h3>
       <p>
         Instead of using the opacity property, you can achieve similar effects
@@ -312,7 +312,7 @@ div {
         </li>
         <li>Try using RGBA colors to control transparency.</li>
       </ol>
-      <AdUnit />
+      
       <p>
         Understanding and using the opacity property in CSS will help you create
         more engaging and visually appealing designs. Keep experimenting and

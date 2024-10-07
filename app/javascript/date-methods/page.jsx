@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -32,7 +32,7 @@ export const metadata = {
 const DateMethod = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Date Methods in JavaScript</h1>
 
       <p>
@@ -123,7 +123,7 @@ const DateMethod = () => {
           <code>20</code> – The second
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Common Date Methods</h2>
       <p>
         JavaScript provides methods to get and set various parts of a date.
@@ -296,7 +296,7 @@ const DateMethod = () => {
         This helps show how you can use JavaScript’s Date object to dynamically
         update your webpage with current information.
       </p>
-      <AdUnit />
+      
       <h2>Practice: Working with Dates</h2>
       <p>
         Let’s practice creating and manipulating dates with a simple exercise.

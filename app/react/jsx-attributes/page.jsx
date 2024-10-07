@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -23,7 +23,7 @@ export const metadata = {
 const JSXAttribute = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Attributes in JSX: Enhancing UI Elements</h1>
       <p>
         In JSX, attributes work similarly to HTML. These attributes allow you to
@@ -100,7 +100,7 @@ const JSXAttribute = () => {
         <strong>class</strong>. This is one of the most important things to
         remember when adding classes to JSX elements.
       </p>
-      <AdUnit />
+      
       <strong>3. CamelCase for Attributes</strong>
       <p>
         Another key difference in JSX is how certain attributes are written. In
@@ -191,7 +191,7 @@ return <img src={imageUrl} alt="Dynamic Logo" />;
         Always remember to close self-closing tags with a slash (
         <strong>/</strong>) in JSX, or it will cause an error.
       </p>
-      <AdUnit />
+      
       <h2>Wrapping Up JSX Attributes</h2>
       <p>
         JSX attributes allow you to enhance your UI elements by adding

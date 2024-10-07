@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLBlockElements = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Block-Level Elements in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring block-level elements -
@@ -113,7 +113,7 @@ const HTMLBlockElements = () => {
           line or occupies a significant portion of the page.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Best Practices for Using Block-Level Elements</h2>
       <ul>
         <li>
@@ -176,7 +176,7 @@ const HTMLBlockElements = () => {
           lists.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored block-level elements in HTML, including

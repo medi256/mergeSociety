@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -34,7 +34,7 @@ export const metadata = {
 const Struture = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h2>
         JSX Structure and Container Elements: A Comprehensive Beginner's Guide
       </h2>
@@ -138,7 +138,7 @@ function GoodExample() {
         <code>&lt;div&gt;</code> is grouped together, so it’s happy and can
         render your component.
       </p>
-      <AdUnit />
+      
       <h3>Using Container Elements</h3>
       <p>
         A container element is like a box that holds other elements inside it.
@@ -256,7 +256,7 @@ function NestedExample() {
         content—information about products—grouped together in one section.
         Nesting helps you organize and structure your content logically.
       </p>
-      <AdUnit />
+      
       <h3>Introducing Fragments: A Special Container</h3>
       <p>
         Sometimes, you don’t want to add an extra HTML element like a{" "}
@@ -316,7 +316,7 @@ function ShortFragmentExample() {
         Both versions do the same thing: group elements without adding extra
         HTML tags to your page.
       </p>
-      <AdUnit />
+      
       <h3>Adding JavaScript to Your JSX</h3>
       <p>
         One of the coolest things about JSX is that it allows you to combine

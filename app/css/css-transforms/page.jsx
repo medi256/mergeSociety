@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -31,7 +31,7 @@ export const metadata = {
 const CSStransform = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Transform in CSS</h1>
       <p>
         Transform is a powerful CSS property that allows you to apply visual
@@ -125,7 +125,7 @@ const CSStransform = () => {
         degrees clockwise. Rotation can be used to create visually appealing
         designs, such as spinning icons or animated transitions.
       </p>
-      <AdUnit />
+      
       <h3>Scaling</h3>
       <p>
         Scaling involves changing the size of an element. Here's an example:
@@ -218,7 +218,7 @@ const CSStransform = () => {
           elements, or achieving unique visual effects.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, transform is a powerful tool in CSS that allows you to create
         dynamic and visually appealing designs. Choose transform options that

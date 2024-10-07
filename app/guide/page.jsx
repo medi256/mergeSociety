@@ -1,11 +1,11 @@
 import React from "react";
-import AdUnit from "../AdUnit";
+
 import Button from "../button";
 
 const BeginnerGuide = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Welcome to the Magical World of Software Development!</h1>
 
       <section>
@@ -69,7 +69,7 @@ const BeginnerGuide = () => {
           body of our digital world.
         </p>
         <h3>Software: The Invisible Magic</h3>
-        <AdUnit />
+        
         <p>
           Software is the set of instructions that tells the hardware what to
           do. It's invisible – you can't touch it, but you interact with it
@@ -154,7 +154,7 @@ const BeginnerGuide = () => {
           and notifies the post owner.
         </p>
       </section>
-      <AdUnit />
+      
       <section>
         <h2>Your Journey Begins: First Steps into Coding</h2>
         <p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const FormHandle = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Handling Form Input in React: A Beginner's Guide</h1>
 
       <p>
@@ -149,7 +149,7 @@ export default SimpleForm;`}
         to it.
       </p>
 
-      <AdUnit />
+      
 
       <h2>3. Handling Form Submission</h2>
       <p>
@@ -294,7 +294,7 @@ export default SimpleForm;`}
         introduce the concept of state.
       </p>
 
-      <AdUnit />
+      
 
       <h2>5. Introduction to State</h2>
       <p>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -20,7 +20,7 @@ export const metadata = {
 const HTMLLists = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Lists in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring lists in HTML. Lists are
@@ -120,7 +120,7 @@ const HTMLLists = () => {
         creating a nested list structure. You can nest lists within lists to
         create more complex hierarchies.
       </p>
-      <AdUnit />
+      
       <h2>Best Practices for Using Lists</h2>
       <ul>
         <li>
@@ -199,7 +199,7 @@ const HTMLLists = () => {
           Experiment with different levels of nesting.
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the basics of lists in HTML, including

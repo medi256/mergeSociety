@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -26,7 +26,7 @@ export const metadata = {
 const CreateReactApp = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Creating a New React Project Using Create React App</h1>
 
       <p>
@@ -125,7 +125,7 @@ const CreateReactApp = () => {
           and it will create the project in the folder you’re currently in.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Step 3: Run the Create React App Command</h3>
       <p>
         Now comes the exciting part: creating your project! To do this, we’ll
@@ -210,7 +210,7 @@ const CreateReactApp = () => {
         Congratulations! You’ve successfully created your first React project
         and it’s running locally on your computer!
       </p>
-      <AdUnit />
+      
       <h2>What’s Inside Your New React Project?</h2>
       <p>
         Now that your React app is up and running, let’s take a quick look at

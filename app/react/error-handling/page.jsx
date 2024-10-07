@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const ErrorReact = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Error Handling in React: Robust and User-Friendly Applications</h1>
 
       <p>
@@ -148,7 +148,7 @@ export default App;
         caught by the catch block, and we can log the error or perform any
         necessary error handling.
       </p>
-      <AdUnit />
+      
       <h4>2. Error Boundaries</h4>
 
       <p>

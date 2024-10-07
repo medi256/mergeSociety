@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -24,7 +24,7 @@ export const metadata = {
 const Component = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>React Components: A Comprehensive Beginner's Guide</h1>
 
       <p>
@@ -111,7 +111,7 @@ return <h1>Hello, friend!</h1>;
         Whenever we use the <code>Welcome</code> component, it will display this
         heading.
       </p>
-      <AdUnit />
+      
       <h3>Step 3: Export Your Component</h3>
       <p>
         To use your component in other parts of your app, you need to{" "}
@@ -205,7 +205,7 @@ export default App;`}
           write when building web pages.
         </li>
       </ul>
-      <AdUnit />
+      
       <h3>Wrapping Multiple Elements</h3>
       <p>
         Sometimes, you'll want to return more than one element from your
@@ -276,7 +276,7 @@ export default App;`}
           </SyntaxHighlighter>
         </code>
       </pre>
-      <AdUnit />
+      
       <h2>Wrapping Up</h2>
       <p>Here are the key points to remember:</p>
       <ul>

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -39,7 +39,7 @@ export const metadata = {
 const CreateAppend = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Creating and Appending Elements</h1>
 
       <h2>Introduction</h2>
@@ -133,7 +133,7 @@ paragraph.textContent = 'Hello World!';
         element. The <code>textContent</code> property sets the text content of
         the element to the specified value.
       </p>
-      <AdUnit />
+      
       <p>
         You can also add other types of content to an element, such as images or
         other elements. For example, let's create an image element and a
@@ -223,7 +223,7 @@ document.body.appendChild(paragraph);
         child nodes. If the parent element already has other child elements, the
         new element will be added after the last child element.
       </p>
-      <AdUnit />
+      
       <p>
         You can also use the <code>appendChild</code> method to add an element
         to a specific parent element, not just the body.
@@ -365,7 +365,7 @@ container.replaceChild(paragraph, oldParagraph);
         structure of the DOM dynamically. Instead of just modifying an existing
         element, you replace it entirely with a new one.
       </p>
-      <AdUnit />
+      
       <h2>Removing Elements</h2>
       <p>
         You can use the <code>removeChild</code> method to remove an element
@@ -409,7 +409,7 @@ container.removeChild(paragraph);
         certain elements are no longer needed, such as removing items from a
         list or deleting user inputs after processing them.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         Creating, appending, inserting, replacing, and removing elements are

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const BestPractice = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>JSX Syntax and Best Practices</h1>
 
       <p>
@@ -125,7 +125,7 @@ return (
         regular HTML, such as <code> {` <input />`}</code>,{" "}
         <code>{`<br />`}</code>, and <code>{`<hr />`}</code>.
       </p>
-      <AdUnit />
+      
       <h2>3. JSX is Case-Sensitive</h2>
       <p>
         In JSX, all HTML tags must be written in lowercase, like {`<div>`},{" "}
@@ -213,7 +213,7 @@ return <h1>Hello, {name}!</h1>;
         reserved word in JavaScript. Similarly, `onclick` becomes `onClick`, and
         `tabindex` becomes `tabIndex`.
       </p>
-      <AdUnit />
+      
       <h2>6. Comments in JSX</h2>
       <p>
         Adding comments in JSX is slightly different from regular JavaScript or
@@ -272,7 +272,7 @@ return (
         This makes your code more readable and maintainable, especially when
         working in larger teams or when revisiting your code after some time.
       </p>
-      <AdUnit />
+      
       <h2>Wrapping Up JSX Syntax and Best Practices</h2>
       <p>
         Understanding JSX syntax and following best practices will make your

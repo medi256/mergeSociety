@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +22,7 @@ export const metadata = {
 const CSSMedia = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>CSS Media Query</h1>
       <p>
         When designing a website, it's crucial to ensure your content looks good
@@ -176,7 +176,7 @@ const CSSMedia = () => {
         Inside the media query, we change the background styles for the body to
         background-color: #87ceeb;.
       </p>
-      <AdUnit />
+      
       <h4>Here is the complete media query:</h4>
       <pre>
         <code>
@@ -271,7 +271,7 @@ const CSSMedia = () => {
         operators. If the media type is omitted then the media query will target
         all devices.
       </p>
-      <AdUnit />
+      
       <p>
         For more details, check out the{" "}
         <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -40,7 +40,7 @@ export const metadata = {
 const AssignmentOperators = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <section>
         <h2>4. Assignment Operators: Simplifying Your Code</h2>
         <p>
@@ -157,7 +157,7 @@ console.log("Remaining apples:", apples); // Output: Remaining apples: 5
             </SyntaxHighlighter>
           </code>
         </pre>
-        <AdUnit />
+        
         <h4>Modulus Assignment (%=)</h4>
         <p>
           The modulus assignment operator gives the remainder when dividing the
@@ -217,7 +217,7 @@ console.log("New experience:", experience); // Output: New experience: 550
           make them truly interactive.
         </p>
       </section>
-      <AdUnit />
+      
       <section>
         <h2>Practice Time!</h2>
         <p>

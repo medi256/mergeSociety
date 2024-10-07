@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -27,7 +27,7 @@ export const metadata = {
 const Prototypes = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Prototypes in JavaScript</h1>
       <p>
         JavaScript is often described as a prototype-based language. But what
@@ -117,7 +117,7 @@ const Prototypes = () => {
         <code>anotherPerson</code>, it still has access to it because it’s
         inheriting from <code>person</code>.
       </p>
-      <AdUnit />
+      
       <h3>Understanding the Prototype Chain</h3>
       <p>
         The prototype chain is like a series of links. When you try to access a
@@ -238,7 +238,7 @@ const Prototypes = () => {
         methods and properties don’t need to be duplicated across every instance
         of an object.
       </p>
-      <AdUnit />
+      
       <h2>Practice: Creating Your Own Prototypes</h2>
       <p>
         Try creating your own prototypes by defining a constructor function and

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -43,7 +43,7 @@ export const metadata = {
 const Debugging = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Debugging Techniques in JavaScript</h1>
 
       <p>
@@ -128,7 +128,7 @@ console.log(multiply(5, 2)); // This will print 10, but also log the values of a
         problem occurred. This can be extremely helpful for locating and fixing
         issues.
       </p>
-      <AdUnit />
+      
       <h3>3. Using Breakpoints</h3>
       <p>
         Breakpoints allow you to pause your code at a specific point and examine
@@ -188,7 +188,7 @@ console.log(divide(10, 2)); // This will trigger the debugger
         You can place the <code>debugger</code> statement anywhere in your code
         where you want to pause and inspect what’s happening.
       </p>
-      <AdUnit />
+      
       <h3>5. Reading Error Messages</h3>
       <p>
         Error messages provide crucial information about what went wrong in your
@@ -269,7 +269,7 @@ Uncaught TypeError: Cannot read property 'name' of undefined
         someone in a pair programming setup. This can lead to quicker
         identification of problems and better solutions.
       </p>
-      <AdUnit />
+      
       <h2>Tips for Effective Debugging</h2>
       <ul>
         <li>

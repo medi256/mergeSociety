@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -37,7 +37,7 @@ export const metadata = {
 const Navigation = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding the Navigator Object</h1>
 
       <h2>Introduction</h2>
@@ -87,7 +87,7 @@ const Navigation = () => {
           you're using.
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Properties of the Navigator Object</h2>
       <p>
         The Navigator object has several properties that provide information
@@ -126,7 +126,7 @@ const Navigation = () => {
         These properties can be used to get information about the browser and
         the user's system.
       </p>
-      <AdUnit />
+      
       <h2>Methods of the Navigator Object</h2>
       <p>
         The Navigator object also has some methods that can be useful. Here are
@@ -199,7 +199,7 @@ console.log("Java Enabled: " + javaEnabled);
         This example demonstrates how to use various properties of the Navigator
         object to get information about the browser and the user's system.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the Navigator object and its

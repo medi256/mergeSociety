@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,7 +26,7 @@ export const metadata = {
 const NestingRoutes = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Nesting Routes in React Router: Efficient Routing Structure</h1>
 
       <p>
@@ -181,7 +181,7 @@ export default News;
         <code>element</code> prop to indicate the component that should be
         rendered for each child route.
       </p>
-      <AdUnit />
+      
       <h4>3. Setting a Default Route with Index</h4>
 
       <p>

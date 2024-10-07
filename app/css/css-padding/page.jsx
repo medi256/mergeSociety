@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const CSSPadding = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Padding in CSS</h1>
       <p>
         Padding is like a clear space around the content of your boxes (like
@@ -152,7 +152,7 @@ div {
         space below the content, such as creating separation between paragraphs
         or adding emphasis to a specific element.
       </p>
-      <AdUnit />
+      
       <h2>Padding Left</h2>
       <p>
         The <code>padding-left</code> property lets you control the space on the
@@ -246,7 +246,7 @@ div {
         can be useful when you want the padding to scale proportionally with the
         parent element's size.
       </p>
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -286,7 +286,7 @@ div {
           experience of your designs.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, padding is a powerful tool in web design. It helps create
         breathing room for your content, improves readability, and adds a sense

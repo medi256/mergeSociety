@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -19,7 +19,7 @@ export const metadata = {
 const CSSIntroduction = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to CSS</h1>
 
       <p>
@@ -93,7 +93,7 @@ const CSSIntroduction = () => {
         screen sizes and devices, ensuring that their websites look great on any
         platform.
       </p>
-      <AdUnit />
+      
       <h2>Combining CSS with HTML and JavaScript</h2>
 
       <p>
@@ -124,7 +124,7 @@ const CSSIntroduction = () => {
         adapt to different screen sizes and devices, ensuring that their
         websites look great on any platform.
       </p>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
 
       <p>

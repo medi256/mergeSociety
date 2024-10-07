@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,7 +21,7 @@ export const metadata = {
 const CSStables = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Table Styling in CSS</h1>
       <p>
         Table styling in CSS is an essential aspect of creating visually
@@ -147,7 +147,7 @@ tr:nth-child(even) {
         colors, text formatting, and cell spacing. Let's explore some of these
         properties:
       </p>
-      <AdUnit />
+      
       <h3>Background Colors and Text Formatting</h3>
       <p>
         Background colors and text formatting can be used to enhance the
@@ -266,7 +266,7 @@ td {
           effects, or formatting specific columns differently.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, table styling is a powerful tool in CSS. It helps create
         visually appealing and functional tables that enhance the user

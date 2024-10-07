@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -46,7 +46,7 @@ export const metadata = {
 const AsyncAwait = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Understanding Async/Await in JavaScript</h1>
 
       <p>

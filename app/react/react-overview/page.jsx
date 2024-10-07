@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 
 export const metadata = {
@@ -40,7 +40,7 @@ export const metadata = {
 const Overview = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Introduction to React</h1>
 
       <p>
@@ -124,7 +124,7 @@ const Overview = () => {
         like Airbnb, Netflix, and Instagram all use React to build their user
         interfaces.
       </p>
-      <AdUnit />
+      
       <h2>Benefits of Using React</h2>
       <p>
         Now that you have a sense of what React is and why it’s popular, let's
@@ -180,7 +180,7 @@ const Overview = () => {
         application, React gives you the tools to build dynamic user interfaces
         that are fast, flexible, and scalable.
       </p>
-      <AdUnit />
+      
       <h2>What You’ll Learn in This React Course</h2>
       <p>
         In this React course, we’ll cover all the essential topics to get you

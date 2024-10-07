@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -33,7 +33,7 @@ export const metadata = {
 const CSSStyleText = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical Art of Styling Text in CSS</h1>
       <p>
         Styling text in CSS is like giving your words a magical makeover! You
@@ -193,7 +193,7 @@ div {
         </tbody>
       </table>
 
-      <AdUnit />
+      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -232,7 +232,7 @@ div {
           effects, or combining multiple text styling properties.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, text styling plays a crucial role in web design. It helps
         convey the right tone, adds emphasis, and enhances the user experience.

@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import Image from "next/image";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import AdUnit from "@/app/AdUnit";
+
 
 export const metadata = {
   title: "Master CSS Z-Index: Understanding Stacking and Layering",
@@ -33,7 +33,7 @@ export const metadata = {
 const CSSIndex = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>CSS Z-index</h1>
       <p>
         The z-index property in CSS controls the stacking order of elements on a
@@ -225,7 +225,7 @@ const CSSIndex = () => {
         displayed behind it because the filter property caused the pink box to
         form a new stacking context.
       </p>
-      <AdUnit />
+      
       <h2>Exercise: Layering and Stacking Challenge</h2>
       <p>
         Now it's your turn to put your knowledge into practice! In this
@@ -254,7 +254,7 @@ const CSSIndex = () => {
           contexts and overlapping elements.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember to refer to the concepts and examples covered in this tutorial
         as you work through the exercise. Happy coding and have fun exploring

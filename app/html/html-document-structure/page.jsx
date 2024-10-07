@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -19,7 +19,7 @@ export const metadata = {
 const HTMLStructure = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Basic Structure of an HTML Document</h1>
       <p>
         Hello there! In this lesson, we'll dive deep into the basic structure of
@@ -165,7 +165,7 @@ const HTMLStructure = () => {
           </p>
         </li>
       </ul>
-      <AdUnit />
+      
       <h2>Putting It All Together</h2>
       <p>
         Now, let's put all the pieces together to create a basic HTML document:
@@ -267,7 +267,7 @@ const HTMLStructure = () => {
           creative!
         </li>
       </ol>
-      <AdUnit />
+      
       <h2>Conclusion</h2>
       <p>
         In this lesson, {` we've `} explored the basic structure of an HTML

@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -30,7 +30,7 @@ export const metadata = {
 const CSSColors = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>The Magical World of Colors in CSS</h1>
       <p>
         Colors are like the paintbrushes that bring your web designs to life!
@@ -210,7 +210,7 @@ div {
         </a>
         .
       </p>
-      <AdUnit />
+      
       <h2>Color Opacity</h2>
       <p>
         Color opacity refers to the transparency or opacity of a color. You can
@@ -323,7 +323,7 @@ p {
           for your projects.
         </li>
       </ol>
-      <AdUnit />
+      
       <p>
         Remember, colors have a powerful impact on your designs. Choose colors
         that align with your brand, convey the right emotions, and ensure

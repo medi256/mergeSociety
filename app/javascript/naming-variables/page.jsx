@@ -1,4 +1,4 @@
-import AdUnit from "@/app/AdUnit";
+
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -29,7 +29,7 @@ export const metadata = {
 const NamingVariables = () => {
   return (
     <div className="lesson-container">
-      <AdUnit />
+      
       <h1>Best Practices for Variable Naming in JavaScript</h1>
       <p>
         Welcome to a comprehensive guide on best practices for naming variables
@@ -86,7 +86,7 @@ let isStudentActive = true;
         This convention enhances readability and consistency across your
         codebase.
       </p>
-      <AdUnit />
+      
 
       <h2>3. Avoid Reserved Keywords</h2>
       <p>

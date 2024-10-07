@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
-import AdUnit from "../AdUnit";
+
 
 export const metadata = {
   title: "Complete JavaScript Course: From Basics to Advanced | MergeSociety",
@@ -19,7 +19,7 @@ export const metadata = {
 const Jscourse = () => {
   return (
     <div className="container">
-      <AdUnit />
+      
       <ScrollToTop />
       <main>
         <h1>JavaScript Course</h1>
@@ -561,8 +561,8 @@ const Jscourse = () => {
           </div>
         </section>
       </main>
-      <AdUnit />
-      <AdUnit />
+      
+      
     </div>
   );
 };
