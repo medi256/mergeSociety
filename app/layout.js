@@ -2,6 +2,7 @@ import { Montserrat, Roboto } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import NavBar from "./NavBar";
+import InstallPrompt from "./InstallBanner";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -51,6 +52,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#3498db" />
+
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-EVC3DTG6XZ"
@@ -101,6 +105,7 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.variable} ${roboto.variable}`}>
         <NavBar />
         {children}
+        <InstallPrompt />
       </body>
     </html>
   );
