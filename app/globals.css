@@ -413,9 +413,7 @@ pre {
   font-size: 14px;
   display: flex;
   align-items: center;
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-links a i {
@@ -1067,4 +1065,33 @@ th {
 
 .home-link:hover {
   background-color: #0056b3;
+}
+
+.view-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.view-options button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.view-options button.active {
+  background-color: #0070f3;
+  color: white;
+}
+
+.video-container,
+.content {
+  margin-bottom: 20px;
+}
+
+.both-content {
+  display: flex;
+  flex-direction: column;
 }
