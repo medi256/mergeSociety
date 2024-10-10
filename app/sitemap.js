@@ -1,775 +1,775 @@
 export default function sitemap() {
   return [
     {
-      url: process.env.NEXT_PUBLIC_MERGESOCIETY_URL,
+      url: "https://mergesociety.com",
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html`,
+      url: `https://mergesociety.com/html`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css`,
+      url: `https://mergesociety.com/css`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript`,
+      url: `https://mergesociety.com/javascript`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react`,
+      url: `https://mergesociety.com/react`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog`,
+      url: `https://mergesociety.com/blog`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-introduction`,
+      url: `https://mergesociety.com/html/html-introduction`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-basics`,
+      url: `https://mergesociety.com/html/html-basics`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-headings`,
+      url: `https://mergesociety.com/html/html-headings`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-paragraphs`,
+      url: `https://mergesociety.com/html/html-paragraphs`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-text-formatting`,
+      url: `https://mergesociety.com/html/html-text-formatting`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-lists`,
+      url: `https://mergesociety.com/html/html-lists`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-links`,
+      url: `https://mergesociety.com/html/html-links`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-attributes`,
+      url: `https://mergesociety.com/html/html-attributes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-images`,
+      url: `https://mergesociety.com/html/html-images`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-audio`,
+      url: `https://mergesociety.com/html/html-audio`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-video`,
+      url: `https://mergesociety.com/html/html-video`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-iframes`,
+      url: `https://mergesociety.com/html/html-iframes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-favicon`,
+      url: `https://mergesociety.com/html/html-favicon`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-forms`,
+      url: `https://mergesociety.com/html/html-forms`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-buttons`,
+      url: `https://mergesociety.com/html/html-buttons`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-dropdown-menu`,
+      url: `https://mergesociety.com/html/html-dropdown-menu`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-div-element`,
+      url: `https://mergesociety.com/html/html-div-element`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-span-element`,
+      url: `https://mergesociety.com/html/html-span-element`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-inline-elements`,
+      url: `https://mergesociety.com/html/html-inline-elements`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-block-elements`,
+      url: `https://mergesociety.com/html/html-block-elements`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-document-structure`,
+      url: `https://mergesociety.com/html/html-document-structure`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/semantic-html`,
+      url: `https://mergesociety.com/html/semantic-html`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-tables`,
+      url: `https://mergesociety.com/html/html-tables`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-head-element`,
+      url: `https://mergesociety.com/html/html-head-element`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-quotations-citations`,
+      url: `https://mergesociety.com/html/html-quotations-citations`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-entities`,
+      url: `https://mergesociety.com/html/html-entities`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-preformatted-text`,
+      url: `https://mergesociety.com/html/html-preformatted-text`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-comments`,
+      url: `https://mergesociety.com/html/html-comments`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/html/html-meta-tags`,
+      url: `https://mergesociety.com/html/html-meta-tags`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-introduction`,
+      url: `https://mergesociety.com/css/css-introduction`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/html/css-syntax`,
+      url: `https://mergesociety.com/css/html/css-syntax`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-inserting`,
+      url: `https://mergesociety.com/css/css-inserting`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-selectors`,
+      url: `https://mergesociety.com/css/css-selectors`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-colors`,
+      url: `https://mergesociety.com/css/css-colors`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-fonts`,
+      url: `https://mergesociety.com/css/css-fonts`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-backgrounds`,
+      url: `https://mergesociety.com/css/css-backgrounds`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-comments`,
+      url: `https://mergesociety.com/css/css-comments`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-borders`,
+      url: `https://mergesociety.com/css/css-borders`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-padding`,
+      url: `https://mergesociety.com/css/css-padding`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-margins`,
+      url: `https://mergesociety.com/css/css-margins`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-width`,
+      url: `https://mergesociety.com/css/css-width`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-height`,
+      url: `https://mergesociety.com/css/css-height`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-text`,
+      url: `https://mergesociety.com/css/css-text`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-units`,
+      url: `https://mergesociety.com/css/css-units`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-max-width`,
+      url: `https://mergesociety.com/css/css-max-width`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-max-height`,
+      url: `https://mergesociety.com/css/css-max-height`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-min-width`,
+      url: `https://mergesociety.com/css/css-min-width`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-min-height`,
+      url: `https://mergesociety.com/css/css-min-height`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-lists`,
+      url: `https://mergesociety.com/css/css-lists`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-tables`,
+      url: `https://mergesociety.com/css/css-tables`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-links`,
+      url: `https://mergesociety.com/css/css-links`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-images`,
+      url: `https://mergesociety.com/css/css-images`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-icons`,
+      url: `https://mergesociety.com/css/css-icons`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-float`,
+      url: `https://mergesociety.com/css/css-float`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-display`,
+      url: `https://mergesociety.com/css/css-display`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-position`,
+      url: `https://mergesociety.com/css/css-position`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-z-index`,
+      url: `https://mergesociety.com/css/css-z-index`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-columns`,
+      url: `https://mergesociety.com/css/css-columns`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-overflow`,
+      url: `https://mergesociety.com/css/css-overflow`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-opacity`,
+      url: `https://mergesociety.com/css/css-opacity`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-outline`,
+      url: `https://mergesociety.com/css/css-outline`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-forms`,
+      url: `https://mergesociety.com/css/css-forms`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-flexbox`,
+      url: `https://mergesociety.com/css/css-flexbox`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-grid-layout`,
+      url: `https://mergesociety.com/css/css-grid-layout`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-variables`,
+      url: `https://mergesociety.com/css/css-variables`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-media-queries`,
+      url: `https://mergesociety.com/css/css-media-queries`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-universal-selector`,
+      url: `https://mergesociety.com/css/css-universal-selector`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-attribute-selectors`,
+      url: `https://mergesociety.com/css/css-attribute-selectors`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-transforms`,
+      url: `https://mergesociety.com/css/css-transforms`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-transitions`,
+      url: `https://mergesociety.com/css/css-transitions`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-animations`,
+      url: `https://mergesociety.com/css/css-animations`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-filters`,
+      url: `https://mergesociety.com/css/css-filters`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/css/css-responsive-design`,
+      url: `https://mergesociety.com/css/css-responsive-design`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/introduction-to-javascript`,
+      url: `https://mergesociety.com/javascript/introduction-to-javascript`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/why-javascript`,
+      url: `https://mergesociety.com/javascript/why-javascript`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/running-js`,
+      url: `https://mergesociety.com/javascript/running-js`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/variables`,
+      url: `https://mergesociety.com/javascript/variables`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/naming-variables`,
+      url: `https://mergesociety.com/javascript/naming-variables`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/data-types`,
+      url: `https://mergesociety.com/javascript/data-types`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/comments`,
+      url: `https://mergesociety.com/javascript/comments`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/arithmetic-operators`,
+      url: `https://mergesociety.com/javascript/arithmetic-operators`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/comparison-operators`,
+      url: `https://mergesociety.com/javascript/comparison-operators`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/logical-operators`,
+      url: `https://mergesociety.com/javascript/logical-operators`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/assignment-operators`,
+      url: `https://mergesociety.com/javascript/assignment-operators`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/conditional-statements`,
+      url: `https://mergesociety.com/javascript/conditional-statements`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/loops`,
+      url: `https://mergesociety.com/javascript/loops`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/defining-calling-functions`,
+      url: `https://mergesociety.com/javascript/defining-calling-functions`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/parameters-arguments`,
+      url: `https://mergesociety.com/javascript/parameters-arguments`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/return-values`,
+      url: `https://mergesociety.com/javascript/return-values`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/function-scope`,
+      url: `https://mergesociety.com/javascript/function-scope`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/arrow-functions`,
+      url: `https://mergesociety.com/javascript/arrow-functions`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/string-methods`,
+      url: `https://mergesociety.com/javascript/string-methods`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/arrays`,
+      url: `https://mergesociety.com/javascript/arrays`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/array-methods`,
+      url: `https://mergesociety.com/javascript/array-methods`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/objects`,
+      url: `https://mergesociety.com/javascript/objects`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/scope`,
+      url: `https://mergesociety.com/javascript/scope`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/hoisting`,
+      url: `https://mergesociety.com/javascript/hoisting`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/dom-intro`,
+      url: `https://mergesociety.com/javascript/dom-intro`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/selecting-elements`,
+      url: `https://mergesociety.com/javascript/selecting-elements`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/modifying-elements`,
+      url: `https://mergesociety.com/javascript/modifying-elements`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/create-append`,
+      url: `https://mergesociety.com/javascript/create-append`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/event-handling`,
+      url: `https://mergesociety.com/javascript/event-handling`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/bom-intro`,
+      url: `https://mergesociety.com/javascript/bom-intro`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/window-object`,
+      url: `https://mergesociety.com/javascript/window-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/location-object`,
+      url: `https://mergesociety.com/javascript/location-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/navigation-object`,
+      url: `https://mergesociety.com/javascript/navigation-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/history-object`,
+      url: `https://mergesociety.com/javascript/history-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/screen-object`,
+      url: `https://mergesociety.com/javascript/screen-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/bom-applications`,
+      url: `https://mergesociety.com/javascript/bom-applications`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/js-vs-ecmascript`,
+      url: `https://mergesociety.com/javascript/js-vs-ecmascript`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/modules`,
+      url: `https://mergesociety.com/javascript/modules`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/classes`,
+      url: `https://mergesociety.com/javascript/classes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/this-keyword`,
+      url: `https://mergesociety.com/javascript/this-keyword`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/prototypes`,
+      url: `https://mergesociety.com/javascript/prototypes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/json`,
+      url: `https://mergesociety.com/javascript/json`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/date-methods`,
+      url: `https://mergesociety.com/javascript/date-methods`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/math-object`,
+      url: `https://mergesociety.com/javascript/math-object`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/foreach-method`,
+      url: `https://mergesociety.com/javascript/foreach-method`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/map-method`,
+      url: `https://mergesociety.com/javascript/map-method`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/settimeout-setinterval`,
+      url: `https://mergesociety.com/javascript/settimeout-setinterval`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/async-programming`,
+      url: `https://mergesociety.com/javascript/async-programming`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/event-loop`,
+      url: `https://mergesociety.com/javascript/event-loop`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/callbacks`,
+      url: `https://mergesociety.com/javascript/callbacks`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/promises`,
+      url: `https://mergesociety.com/javascript/promises`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/async-await`,
+      url: `https://mergesociety.com/javascript/async-await`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/try-catch`,
+      url: `https://mergesociety.com/javascript/try-catch`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/throwing-errors`,
+      url: `https://mergesociety.com/javascript/throwing-errors`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/debugging`,
+      url: `https://mergesociety.com/javascript/debugging`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/api-intro`,
+      url: `https://mergesociety.com/javascript/api-intro`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/api-preparation`,
+      url: `https://mergesociety.com/javascript/api-preparation`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/fetching-api-data`,
+      url: `https://mergesociety.com/javascript/fetching-api-data`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/javascript/displaying-api-data`,
+      url: `https://mergesociety.com/javascript/displaying-api-data`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/react-overview`,
+      url: `https://mergesociety.com/react/react-overview`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/installing-nodejs`,
+      url: `https://mergesociety.com/react/installing-nodejs`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/code-editor-setup`,
+      url: `https://mergesociety.com/react/code-editor-setup`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/create-react-app`,
+      url: `https://mergesociety.com/react/create-react-app`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/project-structure`,
+      url: `https://mergesociety.com/react/project-structure`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/jsx-intro`,
+      url: `https://mergesociety.com/react/jsx-intro`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/jsx-attributes`,
+      url: `https://mergesociety.com/react/jsx-attributes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/functional-components`,
+      url: `https://mergesociety.com/react/functional-components`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/jsx-structure`,
+      url: `https://mergesociety.com/react/jsx-structure`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/creating-rendering-jsx`,
+      url: `https://mergesociety.com/react/creating-rendering-jsx`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/images-in-react`,
+      url: `https://mergesociety.com/react/images-in-react`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/jsx-best-practices`,
+      url: `https://mergesociety.com/react/jsx-best-practices`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/conditional-rendering`,
+      url: `https://mergesociety.com/react/conditional-rendering`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/class-components`,
+      url: `https://mergesociety.com/react/class-components`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/component-hierarchy`,
+      url: `https://mergesociety.com/react/component-hierarchy`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/props`,
+      url: `https://mergesociety.com/react/props`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/event-handlers`,
+      url: `https://mergesociety.com/react/event-handlers`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/functional-event-handling`,
+      url: `https://mergesociety.com/react/functional-event-handling`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/rendering-lists`,
+      url: `https://mergesociety.com/react/rendering-lists`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/understanding-keys`,
+      url: `https://mergesociety.com/react/understanding-keys`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/hooks-intro`,
+      url: `https://mergesociety.com/react/hooks-intro`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/usestate-hook`,
+      url: `https://mergesociety.com/react/usestate-hook`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/useeffect-hook`,
+      url: `https://mergesociety.com/react/useeffect-hook`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/useref-hook`,
+      url: `https://mergesociety.com/react/useref-hook`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/usecontext-hook`,
+      url: `https://mergesociety.com/react/usecontext-hook`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/context-api`,
+      url: `https://mergesociety.com/react/context-api`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/form-handling`,
+      url: `https://mergesociety.com/react/form-handling`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/controlled-vs-uncontrolled`,
+      url: `https://mergesociety.com/react/controlled-vs-uncontrolled`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/react-css-styling`,
+      url: `https://mergesociety.com/react/react-css-styling`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/inline-styles`,
+      url: `https://mergesociety.com/react/inline-styles`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/setup-react-router`,
+      url: `https://mergesociety.com/react/setup-react-router`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/navigating-pages`,
+      url: `https://mergesociety.com/react/navigating-pages`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/nesting-routes`,
+      url: `https://mergesociety.com/react/nesting-routes`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/fetching-api`,
+      url: `https://mergesociety.com/react/fetching-api`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/async-await`,
+      url: `https://mergesociety.com/react/async-await`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/error-handling`,
+      url: `https://mergesociety.com/react/error-handling`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/react/deploying-options`,
+      url: `https://mergesociety.com/react/deploying-options`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/1`,
+      url: `https://mergesociety.com/blog/1`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/2`,
+      url: `https://mergesociety.com/blog/2`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/3`,
+      url: `https://mergesociety.com/blog/3`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/4`,
+      url: `https://mergesociety.com/blog/4`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/6`,
+      url: `https://mergesociety.com/blog/6`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/7`,
+      url: `https://mergesociety.com/blog/7`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/8`,
+      url: `https://mergesociety.com/blog/8`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/9`,
+      url: `https://mergesociety.com/blog/9`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/10`,
+      url: `https://mergesociety.com/blog/10`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/11`,
+      url: `https://mergesociety.com/blog/11`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/12`,
+      url: `https://mergesociety.com/blog/12`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/13`,
+      url: `https://mergesociety.com/blog/13`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/14`,
+      url: `https://mergesociety.com/blog/14`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/15`,
+      url: `https://mergesociety.com/blog/15`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/16`,
+      url: `https://mergesociety.com/blog/16`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/17`,
+      url: `https://mergesociety.com/blog/17`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/18`,
+      url: `https://mergesociety.com/blog/18`,
       lastModified: new Date(),
     },
     {
-      url: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/blog/19`,
+      url: `https://mergesociety.com/blog/19`,
       lastModified: new Date(),
     },
   ];
