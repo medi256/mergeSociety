@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/privacy/",
     },
-    sitemap: `${process.env.NEXT_PUBLIC_MERGESOCIETY_URL}/sitemap.xml`,
+    sitemap: `https://mergesociety.com/sitemap.xml`,
   };
 }
