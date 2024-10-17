@@ -25,6 +25,98 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://mergesociety.com/guide`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/htmlP`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/cssP`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/javascriptP`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/1p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/2p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/3p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/4p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/5p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/htmlP/6p`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/1c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/2c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/3c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/4c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/5c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/cssP/6c`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/1js`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/2js`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/3js`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/4js`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/5js`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://mergesociety.com/projects/javascriptP/6js`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://mergesociety.com/html/html-introduction`,
       lastModified: new Date(),
     },
@@ -145,7 +237,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/html/css-syntax`,
+      url: `https://mergesociety.com/css/css-syntax`,
       lastModified: new Date(),
     },
     {

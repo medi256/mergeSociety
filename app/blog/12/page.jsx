@@ -1,5 +1,6 @@
 import BlogButton from "@/app/NextBlogButton";
 import ScrollToTop from "@/app/ScrollToTop";
+import Link from "next/link";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -232,8 +233,12 @@ const Blog12 = () => {
 
         <p>
           Interested in learning more about CSS and web design techniques?
-          Explore <a href="mergesociety.com/css">CSS</a> to deepen your
-          knowledge and take your web development skills to the next level.
+          Explore{" "}
+          <Link href="/css" passHref>
+            CSS
+          </Link>{" "}
+          to deepen your knowledge and take your web development skills to the
+          next level.
         </p>
         <BlogButton whereToGo={"13"} />
       </article>

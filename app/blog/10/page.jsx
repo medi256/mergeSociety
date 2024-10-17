@@ -1,5 +1,6 @@
 import BlogButton from "@/app/NextBlogButton";
 import ScrollToTop from "@/app/ScrollToTop";
+import Link from "next/link";
 
 export const metadata = {
   title: "Why Learn React in 2024? The Future of Web Development",
@@ -340,8 +341,11 @@ const Blog10Expanded = () => {
             Remember, every expert was once a beginner. With dedication and
             practice, you too can harness the power of React to create amazing
             web experiences.You can also learn{" "}
-            <a href="mergesociety.com/react">React</a> So why wait? Start your
-            React journey today and be part of the future of web development!
+            <Link href="/react" passHref>
+              React
+            </Link>{" "}
+            So why wait? Start your React journey today and be part of the
+            future of web development!
           </p>
         </section>
 

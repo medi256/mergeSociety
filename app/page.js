@@ -42,7 +42,36 @@ export default function Home() {
             ))}
           </div>
         </section>
-
+        <section>
+          <h2 className="heading">Our Practical Projects</h2>
+        </section>
+        <section className="categories-links">
+          <Link href="/projects/htmlP" passHref>
+            <div className="category-card">
+              <h2>HTML Projects</h2>
+              <p>
+                Start building web pages with beginner and advanced HTML
+                projects.
+              </p>
+            </div>
+          </Link>
+          <Link href="/projects/cssP" passHref>
+            <div className="category-card">
+              <h2>CSS Projects</h2>
+              <p>
+                Improve your design skills with CSS projects from layouts to
+                animations.
+              </p>
+            </div>
+          </Link>
+          <Link href="/projects/javascriptP" passHref>
+            <div className="category-card">
+              <h2>JavaScript Projects</h2>
+              <p>Challenge yourself with JavaScript projects for all levels.</p>
+            </div>
+          </Link>
+        </section>
+        <br />
         <section className="blog-section">
           <h2>Web Development Blog</h2>
           <p>

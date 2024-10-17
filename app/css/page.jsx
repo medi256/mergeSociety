@@ -1,7 +1,6 @@
 import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
 
-
 export const metadata = {
   title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",
   description:
@@ -18,16 +17,21 @@ export const metadata = {
 const CSSCourse = () => {
   return (
     <div className="container">
-      
       <ScrollToTop />
       <main>
         <h1>CSS Tutorial</h1>
-        <p>Choose a topic to start learning:</p>
         <p>
           Don't know where to begin? <Link href={"/guide"}>click here</Link>
           ➡️ to get an introduction!
         </p>
-
+        <p>
+          Looking for practice projects?{" "}
+          <Link href="/projects" passHref>
+            Click here to explore coding projects!
+          </Link>
+        </p>
+        <br />
+        <p>Choose a topic to start learning:</p>
         {/* CSS Topics Section */}
         <section className="section">
           <h2>CSS Topics</h2>
@@ -308,8 +312,6 @@ const CSSCourse = () => {
           </div>
         </section>
       </main>
-      
-      
     </div>
   );
 };

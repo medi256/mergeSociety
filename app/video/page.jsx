@@ -1,5 +1,5 @@
-
 import ScrollToTop from "../ScrollToTop";
+import Link from "next/link";
 
 export const metadata = {
   title:
@@ -27,7 +27,19 @@ const LearnByWatchingVideos = () => {
           will help you grasp web development concepts effortlessly. Just press
           play and start your coding journey!
         </p>
-        
+        <br />
+        <p>
+          Don't know where to begin? <Link href={"/guide"}>click here</Link>
+          ➡️ to get an introduction!
+        </p>
+
+        <p>
+          Looking for practice projects?{" "}
+          <Link href="/projects" passHref>
+            Click here to explore coding projects!
+          </Link>
+        </p>
+
         <h2>HTML videos</h2>
 
         <div className="container-for-videos">
@@ -113,7 +125,7 @@ const LearnByWatchingVideos = () => {
             ></iframe>
           </div>
         </div>
-        
+
         <h2>React.js videos</h2>
         <div className="container-for-videos">
           <div>
@@ -142,7 +154,6 @@ const LearnByWatchingVideos = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

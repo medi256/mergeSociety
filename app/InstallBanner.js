@@ -75,18 +75,6 @@ const InstallPrompt = () => {
       </p>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <button
-          onClick={handleDismiss}
-          style={{
-            backgroundColor: "#f8f9fa",
-            border: "1px solid #ccc",
-            padding: "8px 16px",
-            borderRadius: "4px",
-            cursor: "pointer",
-          }}
-        >
-          Not Now
-        </button>
-        <button
           onClick={handleInstall}
           style={{
             backgroundColor: "#007bff",
@@ -98,6 +86,18 @@ const InstallPrompt = () => {
           }}
         >
           Install
+        </button>
+        <button
+          onClick={handleDismiss}
+          style={{
+            backgroundColor: "#f8f9fa",
+            border: "1px solid #ccc",
+            padding: "8px 16px",
+            borderRadius: "4px",
+            cursor: "pointer",
+          }}
+        >
+          Not Now
         </button>
       </div>
     </div>

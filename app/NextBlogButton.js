@@ -24,3 +24,13 @@ const BlogButton = ({ whereToGo }) => {
 };
 
 export default BlogButton;
+
+export const Project = () => {
+  const navigate = useRouter();
+
+  return (
+    <button className="nav-button" onClick={() => navigate.back()}>
+      BACK
+    </button>
+  );
+};

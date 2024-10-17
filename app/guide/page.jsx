@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Button from "../button";
+import Link from "next/link";
 
 const BeginnerGuide = () => {
   const [view, setView] = useState("read");
@@ -12,6 +13,12 @@ const BeginnerGuide = () => {
 
   return (
     <div className="lesson-container">
+      <p>
+        Looking for practice projects?{" "}
+        <Link href="/projects" passHref>
+          Click here to explore coding projects!
+        </Link>
+      </p>
       <h1>Welcome to the Magical World of Software Development!</h1>
 
       {/* Buttons to switch between video or reading */}
