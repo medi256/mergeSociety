@@ -33,15 +33,15 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/htmlP`,
+      url: `https://mergesociety.com/projects/htmlP`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/cssP`,
+      url: `https://mergesociety.com/projects/cssP`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascriptP`,
+      url: `https://mergesociety.com/projects/javascriptP`,
       lastModified: new Date(),
     },
     {
