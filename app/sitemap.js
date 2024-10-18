@@ -1,867 +1,867 @@
 export default function sitemap() {
   return [
     {
-      url: "https://mergesociety.com",
+      url: "https://www.mergesociety.com",
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html`,
+      url: `https://www.mergesociety.com/html`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css`,
+      url: `https://www.mergesociety.com/css`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript`,
+      url: `https://www.mergesociety.com/javascript`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react`,
+      url: `https://www.mergesociety.com/react`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog`,
+      url: `https://www.mergesociety.com/blog`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/guide`,
+      url: `https://www.mergesociety.com/guide`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects`,
+      url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP`,
+      url: `https://www.mergesociety.com/projects/htmlP`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP`,
+      url: `https://www.mergesociety.com/projects/cssP`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP`,
+      url: `https://www.mergesociety.com/projects/javascriptP`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/1p`,
+      url: `https://www.mergesociety.com/projects/htmlP/1p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/2p`,
+      url: `https://www.mergesociety.com/projects/htmlP/2p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/3p`,
+      url: `https://www.mergesociety.com/projects/htmlP/3p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/4p`,
+      url: `https://www.mergesociety.com/projects/htmlP/4p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/5p`,
+      url: `https://www.mergesociety.com/projects/htmlP/5p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/htmlP/6p`,
+      url: `https://www.mergesociety.com/projects/htmlP/6p`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/1c`,
+      url: `https://www.mergesociety.com/projects/cssP/1c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/2c`,
+      url: `https://www.mergesociety.com/projects/cssP/2c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/3c`,
+      url: `https://www.mergesociety.com/projects/cssP/3c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/4c`,
+      url: `https://www.mergesociety.com/projects/cssP/4c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/5c`,
+      url: `https://www.mergesociety.com/projects/cssP/5c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/cssP/6c`,
+      url: `https://www.mergesociety.com/projects/cssP/6c`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/1js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/1js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/2js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/2js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/3js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/3js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/4js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/4js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/5js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/5js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/projects/javascriptP/6js`,
+      url: `https://www.mergesociety.com/projects/javascriptP/6js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-introduction`,
+      url: `https://www.mergesociety.com/html/html-introduction`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-basics`,
+      url: `https://www.mergesociety.com/html/html-basics`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-headings`,
+      url: `https://www.mergesociety.com/html/html-headings`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-paragraphs`,
+      url: `https://www.mergesociety.com/html/html-paragraphs`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-text-formatting`,
+      url: `https://www.mergesociety.com/html/html-text-formatting`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-lists`,
+      url: `https://www.mergesociety.com/html/html-lists`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-links`,
+      url: `https://www.mergesociety.com/html/html-links`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-attributes`,
+      url: `https://www.mergesociety.com/html/html-attributes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-images`,
+      url: `https://www.mergesociety.com/html/html-images`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-audio`,
+      url: `https://www.mergesociety.com/html/html-audio`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-video`,
+      url: `https://www.mergesociety.com/html/html-video`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-iframes`,
+      url: `https://www.mergesociety.com/html/html-iframes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-favicon`,
+      url: `https://www.mergesociety.com/html/html-favicon`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-forms`,
+      url: `https://www.mergesociety.com/html/html-forms`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-buttons`,
+      url: `https://www.mergesociety.com/html/html-buttons`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-dropdown-menu`,
+      url: `https://www.mergesociety.com/html/html-dropdown-menu`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-div-element`,
+      url: `https://www.mergesociety.com/html/html-div-element`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-span-element`,
+      url: `https://www.mergesociety.com/html/html-span-element`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-inline-elements`,
+      url: `https://www.mergesociety.com/html/html-inline-elements`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-block-elements`,
+      url: `https://www.mergesociety.com/html/html-block-elements`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-document-structure`,
+      url: `https://www.mergesociety.com/html/html-document-structure`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/semantic-html`,
+      url: `https://www.mergesociety.com/html/semantic-html`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-tables`,
+      url: `https://www.mergesociety.com/html/html-tables`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-head-element`,
+      url: `https://www.mergesociety.com/html/html-head-element`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-quotations-citations`,
+      url: `https://www.mergesociety.com/html/html-quotations-citations`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-entities`,
+      url: `https://www.mergesociety.com/html/html-entities`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-preformatted-text`,
+      url: `https://www.mergesociety.com/html/html-preformatted-text`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-comments`,
+      url: `https://www.mergesociety.com/html/html-comments`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/html/html-meta-tags`,
+      url: `https://www.mergesociety.com/html/html-meta-tags`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-introduction`,
+      url: `https://www.mergesociety.com/css/css-introduction`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-syntax`,
+      url: `https://www.mergesociety.com/css/css-syntax`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-inserting`,
+      url: `https://www.mergesociety.com/css/css-inserting`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-selectors`,
+      url: `https://www.mergesociety.com/css/css-selectors`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-colors`,
+      url: `https://www.mergesociety.com/css/css-colors`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-fonts`,
+      url: `https://www.mergesociety.com/css/css-fonts`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-backgrounds`,
+      url: `https://www.mergesociety.com/css/css-backgrounds`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-comments`,
+      url: `https://www.mergesociety.com/css/css-comments`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-borders`,
+      url: `https://www.mergesociety.com/css/css-borders`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-padding`,
+      url: `https://www.mergesociety.com/css/css-padding`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-margins`,
+      url: `https://www.mergesociety.com/css/css-margins`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-width`,
+      url: `https://www.mergesociety.com/css/css-width`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-height`,
+      url: `https://www.mergesociety.com/css/css-height`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-text`,
+      url: `https://www.mergesociety.com/css/css-text`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-units`,
+      url: `https://www.mergesociety.com/css/css-units`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-max-width`,
+      url: `https://www.mergesociety.com/css/css-max-width`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-max-height`,
+      url: `https://www.mergesociety.com/css/css-max-height`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-min-width`,
+      url: `https://www.mergesociety.com/css/css-min-width`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-min-height`,
+      url: `https://www.mergesociety.com/css/css-min-height`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-lists`,
+      url: `https://www.mergesociety.com/css/css-lists`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-tables`,
+      url: `https://www.mergesociety.com/css/css-tables`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-links`,
+      url: `https://www.mergesociety.com/css/css-links`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-images`,
+      url: `https://www.mergesociety.com/css/css-images`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-icons`,
+      url: `https://www.mergesociety.com/css/css-icons`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-float`,
+      url: `https://www.mergesociety.com/css/css-float`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-display`,
+      url: `https://www.mergesociety.com/css/css-display`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-position`,
+      url: `https://www.mergesociety.com/css/css-position`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-z-index`,
+      url: `https://www.mergesociety.com/css/css-z-index`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-columns`,
+      url: `https://www.mergesociety.com/css/css-columns`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-overflow`,
+      url: `https://www.mergesociety.com/css/css-overflow`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-opacity`,
+      url: `https://www.mergesociety.com/css/css-opacity`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-outline`,
+      url: `https://www.mergesociety.com/css/css-outline`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-forms`,
+      url: `https://www.mergesociety.com/css/css-forms`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-flexbox`,
+      url: `https://www.mergesociety.com/css/css-flexbox`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-grid-layout`,
+      url: `https://www.mergesociety.com/css/css-grid-layout`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-variables`,
+      url: `https://www.mergesociety.com/css/css-variables`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-media-queries`,
+      url: `https://www.mergesociety.com/css/css-media-queries`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-universal-selector`,
+      url: `https://www.mergesociety.com/css/css-universal-selector`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-attribute-selectors`,
+      url: `https://www.mergesociety.com/css/css-attribute-selectors`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-transforms`,
+      url: `https://www.mergesociety.com/css/css-transforms`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-transitions`,
+      url: `https://www.mergesociety.com/css/css-transitions`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-animations`,
+      url: `https://www.mergesociety.com/css/css-animations`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-filters`,
+      url: `https://www.mergesociety.com/css/css-filters`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/css/css-responsive-design`,
+      url: `https://www.mergesociety.com/css/css-responsive-design`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/introduction-to-javascript`,
+      url: `https://www.mergesociety.com/javascript/introduction-to-javascript`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/why-javascript`,
+      url: `https://www.mergesociety.com/javascript/why-javascript`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/running-js`,
+      url: `https://www.mergesociety.com/javascript/running-js`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/variables`,
+      url: `https://www.mergesociety.com/javascript/variables`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/naming-variables`,
+      url: `https://www.mergesociety.com/javascript/naming-variables`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/data-types`,
+      url: `https://www.mergesociety.com/javascript/data-types`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/comments`,
+      url: `https://www.mergesociety.com/javascript/comments`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/arithmetic-operators`,
+      url: `https://www.mergesociety.com/javascript/arithmetic-operators`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/comparison-operators`,
+      url: `https://www.mergesociety.com/javascript/comparison-operators`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/logical-operators`,
+      url: `https://www.mergesociety.com/javascript/logical-operators`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/assignment-operators`,
+      url: `https://www.mergesociety.com/javascript/assignment-operators`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/conditional-statements`,
+      url: `https://www.mergesociety.com/javascript/conditional-statements`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/loops`,
+      url: `https://www.mergesociety.com/javascript/loops`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/defining-calling-functions`,
+      url: `https://www.mergesociety.com/javascript/defining-calling-functions`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/parameters-arguments`,
+      url: `https://www.mergesociety.com/javascript/parameters-arguments`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/return-values`,
+      url: `https://www.mergesociety.com/javascript/return-values`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/function-scope`,
+      url: `https://www.mergesociety.com/javascript/function-scope`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/arrow-functions`,
+      url: `https://www.mergesociety.com/javascript/arrow-functions`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/string-methods`,
+      url: `https://www.mergesociety.com/javascript/string-methods`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/arrays`,
+      url: `https://www.mergesociety.com/javascript/arrays`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/array-methods`,
+      url: `https://www.mergesociety.com/javascript/array-methods`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/objects`,
+      url: `https://www.mergesociety.com/javascript/objects`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/scope`,
+      url: `https://www.mergesociety.com/javascript/scope`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/hoisting`,
+      url: `https://www.mergesociety.com/javascript/hoisting`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/dom-intro`,
+      url: `https://www.mergesociety.com/javascript/dom-intro`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/selecting-elements`,
+      url: `https://www.mergesociety.com/javascript/selecting-elements`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/modifying-elements`,
+      url: `https://www.mergesociety.com/javascript/modifying-elements`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/create-append`,
+      url: `https://www.mergesociety.com/javascript/create-append`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/event-handling`,
+      url: `https://www.mergesociety.com/javascript/event-handling`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/bom-intro`,
+      url: `https://www.mergesociety.com/javascript/bom-intro`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/window-object`,
+      url: `https://www.mergesociety.com/javascript/window-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/location-object`,
+      url: `https://www.mergesociety.com/javascript/location-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/navigation-object`,
+      url: `https://www.mergesociety.com/javascript/navigation-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/history-object`,
+      url: `https://www.mergesociety.com/javascript/history-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/screen-object`,
+      url: `https://www.mergesociety.com/javascript/screen-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/bom-applications`,
+      url: `https://www.mergesociety.com/javascript/bom-applications`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/js-vs-ecmascript`,
+      url: `https://www.mergesociety.com/javascript/js-vs-ecmascript`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/modules`,
+      url: `https://www.mergesociety.com/javascript/modules`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/classes`,
+      url: `https://www.mergesociety.com/javascript/classes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/this-keyword`,
+      url: `https://www.mergesociety.com/javascript/this-keyword`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/prototypes`,
+      url: `https://www.mergesociety.com/javascript/prototypes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/json`,
+      url: `https://www.mergesociety.com/javascript/json`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/date-methods`,
+      url: `https://www.mergesociety.com/javascript/date-methods`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/math-object`,
+      url: `https://www.mergesociety.com/javascript/math-object`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/foreach-method`,
+      url: `https://www.mergesociety.com/javascript/foreach-method`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/map-method`,
+      url: `https://www.mergesociety.com/javascript/map-method`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/settimeout-setinterval`,
+      url: `https://www.mergesociety.com/javascript/settimeout-setinterval`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/async-programming`,
+      url: `https://www.mergesociety.com/javascript/async-programming`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/event-loop`,
+      url: `https://www.mergesociety.com/javascript/event-loop`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/callbacks`,
+      url: `https://www.mergesociety.com/javascript/callbacks`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/promises`,
+      url: `https://www.mergesociety.com/javascript/promises`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/async-await`,
+      url: `https://www.mergesociety.com/javascript/async-await`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/try-catch`,
+      url: `https://www.mergesociety.com/javascript/try-catch`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/throwing-errors`,
+      url: `https://www.mergesociety.com/javascript/throwing-errors`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/debugging`,
+      url: `https://www.mergesociety.com/javascript/debugging`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/api-intro`,
+      url: `https://www.mergesociety.com/javascript/api-intro`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/api-preparation`,
+      url: `https://www.mergesociety.com/javascript/api-preparation`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/fetching-api-data`,
+      url: `https://www.mergesociety.com/javascript/fetching-api-data`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/javascript/displaying-api-data`,
+      url: `https://www.mergesociety.com/javascript/displaying-api-data`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/react-overview`,
+      url: `https://www.mergesociety.com/react/react-overview`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/installing-nodejs`,
+      url: `https://www.mergesociety.com/react/installing-nodejs`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/code-editor-setup`,
+      url: `https://www.mergesociety.com/react/code-editor-setup`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/create-react-app`,
+      url: `https://www.mergesociety.com/react/create-react-app`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/project-structure`,
+      url: `https://www.mergesociety.com/react/project-structure`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/jsx-intro`,
+      url: `https://www.mergesociety.com/react/jsx-intro`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/jsx-attributes`,
+      url: `https://www.mergesociety.com/react/jsx-attributes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/functional-components`,
+      url: `https://www.mergesociety.com/react/functional-components`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/jsx-structure`,
+      url: `https://www.mergesociety.com/react/jsx-structure`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/creating-rendering-jsx`,
+      url: `https://www.mergesociety.com/react/creating-rendering-jsx`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/images-in-react`,
+      url: `https://www.mergesociety.com/react/images-in-react`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/jsx-best-practices`,
+      url: `https://www.mergesociety.com/react/jsx-best-practices`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/conditional-rendering`,
+      url: `https://www.mergesociety.com/react/conditional-rendering`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/class-components`,
+      url: `https://www.mergesociety.com/react/class-components`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/component-hierarchy`,
+      url: `https://www.mergesociety.com/react/component-hierarchy`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/props`,
+      url: `https://www.mergesociety.com/react/props`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/event-handlers`,
+      url: `https://www.mergesociety.com/react/event-handlers`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/functional-event-handling`,
+      url: `https://www.mergesociety.com/react/functional-event-handling`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/rendering-lists`,
+      url: `https://www.mergesociety.com/react/rendering-lists`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/understanding-keys`,
+      url: `https://www.mergesociety.com/react/understanding-keys`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/hooks-intro`,
+      url: `https://www.mergesociety.com/react/hooks-intro`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/usestate-hook`,
+      url: `https://www.mergesociety.com/react/usestate-hook`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/useeffect-hook`,
+      url: `https://www.mergesociety.com/react/useeffect-hook`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/useref-hook`,
+      url: `https://www.mergesociety.com/react/useref-hook`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/usecontext-hook`,
+      url: `https://www.mergesociety.com/react/usecontext-hook`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/context-api`,
+      url: `https://www.mergesociety.com/react/context-api`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/form-handling`,
+      url: `https://www.mergesociety.com/react/form-handling`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/controlled-vs-uncontrolled`,
+      url: `https://www.mergesociety.com/react/controlled-vs-uncontrolled`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/react-css-styling`,
+      url: `https://www.mergesociety.com/react/react-css-styling`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/inline-styles`,
+      url: `https://www.mergesociety.com/react/inline-styles`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/setup-react-router`,
+      url: `https://www.mergesociety.com/react/setup-react-router`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/navigating-pages`,
+      url: `https://www.mergesociety.com/react/navigating-pages`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/nesting-routes`,
+      url: `https://www.mergesociety.com/react/nesting-routes`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/fetching-api`,
+      url: `https://www.mergesociety.com/react/fetching-api`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/async-await`,
+      url: `https://www.mergesociety.com/react/async-await`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/error-handling`,
+      url: `https://www.mergesociety.com/react/error-handling`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/react/deploying-options`,
+      url: `https://www.mergesociety.com/react/deploying-options`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/1`,
+      url: `https://www.mergesociety.com/blog/1`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/2`,
+      url: `https://www.mergesociety.com/blog/2`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/3`,
+      url: `https://www.mergesociety.com/blog/3`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/4`,
+      url: `https://www.mergesociety.com/blog/4`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/6`,
+      url: `https://www.mergesociety.com/blog/6`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/7`,
+      url: `https://www.mergesociety.com/blog/7`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/8`,
+      url: `https://www.mergesociety.com/blog/8`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/9`,
+      url: `https://www.mergesociety.com/blog/9`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/10`,
+      url: `https://www.mergesociety.com/blog/10`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/11`,
+      url: `https://www.mergesociety.com/blog/11`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/12`,
+      url: `https://www.mergesociety.com/blog/12`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/13`,
+      url: `https://www.mergesociety.com/blog/13`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/14`,
+      url: `https://www.mergesociety.com/blog/14`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/15`,
+      url: `https://www.mergesociety.com/blog/15`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/16`,
+      url: `https://www.mergesociety.com/blog/16`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/17`,
+      url: `https://www.mergesociety.com/blog/17`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/18`,
+      url: `https://www.mergesociety.com/blog/18`,
       lastModified: new Date(),
     },
     {
-      url: `https://mergesociety.com/blog/19`,
+      url: `https://www.mergesociety.com/blog/19`,
       lastModified: new Date(),
     },
   ];

@@ -29,14 +29,14 @@ export const metadata = {
     description:
       "Master web development with MergeSociety. Learn HTML, CSS, JavaScript, and React through interactive tutorials and stay updated with our web dev blog.",
     locale: "en_US",
-    url: process.env.NEXT_PUBLIC_MERGESOCIETY_URL,
+    url: "https://www.mergesociety.com",
     type: "website",
     siteName: "MergeSociety",
   },
   authors: [{ name: "MergeSociety" }],
   category: "Advanced Web Development Tutorial",
   alternates: {
-    canonical: process.env.NEXT_PUBLIC_MERGESOCIETY_URL,
+    canonical: "https://www.mergesociety.com",
   },
   robots: {
     index: true,
