@@ -192,6 +192,23 @@ const BlogPosts = () => {
         "Explore the critical role of version control systems like Git in software development. Understand how version control helps manage changes, collaborate with teams, and maintain project history.",
       tags: ["Version Control", "Git", "Software Development"],
     },
+    {
+      id: 20,
+      title:
+        "Building Networks as Developers: A Comprehensive Guide to Professional Connections",
+      category: "Career Development",
+      content:
+        "Learn how to build a strong network as a developer and maximize your online presence.",
+      tags: [
+        "Networking",
+        "Career Growth",
+        "Tech Industry",
+        "Developer Community",
+        "Mentorship",
+        "Professional Connections",
+        "Conferences",
+      ],
+    },
   ];
 
   return (
