@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Mastering SEO and Content Marketing: A Comprehensive Guide",
+  title: "Search Engine Optimization (SEO) Starter Guide",
   description:
     "Learn the art of SEO and content marketing with this in-depth guide. Discover strategies to boost your online presence and engage your audience.",
 
@@ -20,7 +20,7 @@ export const metadata = {
     "Analytics",
   ],
   openGraph: {
-    title: "The Ultimate Guide to SEO and Content Marketing",
+    title: "Search Engine Optimization (SEO) Starter Guide",
     description:
       "A comprehensive tutorial on SEO and content marketing strategies for online success.",
 
@@ -46,9 +46,7 @@ export const metadata = {
 const Blog3 = () => {
   return (
     <article className="lesson-container">
-      <h1>
-        Mastering SEO and Content Marketing Strategies: A Comprehensive Guide
-      </h1>
+      <h1>Search Engine Optimization (SEO) Starter Guide</h1>
       <Image
         src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1729325661/search-engine-optimization-4111000_1920_wsec3v.jpg"
         width={500}
