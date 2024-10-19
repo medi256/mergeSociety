@@ -1,5 +1,6 @@
 import BlogButton from "@/app/NextBlogButton";
 import React from "react";
+import Image from "next/image";
 
 export const metadata = {
   title: "Mastering SEO and Content Marketing: A Comprehensive Guide",
@@ -48,7 +49,13 @@ const Blog3 = () => {
       <h1>
         Mastering SEO and Content Marketing Strategies: A Comprehensive Guide
       </h1>
-
+      <Image
+        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1729325661/search-engine-optimization-4111000_1920_wsec3v.jpg"
+        width={500}
+        height={300}
+        layout="responsive"
+        alt="Search engine optimization, Seo, Digital marketing image"
+      />
       <p>
         In the digital age, having a strong online presence is crucial for
         businesses and individuals alike. Two key elements that can
