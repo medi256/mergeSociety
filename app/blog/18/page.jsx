@@ -39,6 +39,14 @@ const Blog18 = () => {
     <div className="lesson-container">
       <article>
         <h1>Unleashing the Power of SSL Certificates</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           Welcome! In this lesson, we're going to learn about SSL certificates
           and why they are important for keeping your website safe and

@@ -39,6 +39,14 @@ const VersionControlBlog = () => {
   return (
     <article className="lesson-container">
       <h1>The Importance of Version Control in Software Development</h1>
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
       <p>Category: Development</p>
       <p>
         Explore the critical role of version control systems like Git in

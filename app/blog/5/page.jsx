@@ -45,16 +45,18 @@ export const metadata = {
 const Blog5 = () => {
   return (
     <article className="lesson-container">
-      <header>
-        <h1>
-          Cybersecurity Essentials for Web Developers: Safeguarding Your Digital
-          Fortress
-        </h1>
-        <p className="post-meta">
-          Published on September 29, 2024 | Category: Security | Reading Time:
-          25 minutes
-        </p>
-      </header>
+      <h1>
+        Cybersecurity Essentials for Web Developers: Safeguarding Your Digital
+        Fortress
+      </h1>
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
 
       <section className="introduction">
         <p>

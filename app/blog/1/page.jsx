@@ -13,6 +13,14 @@ const Blog1 = () => {
         layout="responsive"
         alt="Diagram of the Internet's Structure"
       />
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
 
       <p>
         Imagine a vast library where every book is instantly accessible with

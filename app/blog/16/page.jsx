@@ -40,6 +40,14 @@ const Blog16 = () => {
     <div className="lesson-container">
       <article>
         <h1>Web Hosting: A Simple Guide to Choosing the Right Provider</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           Web hosting is like renting a space for your website so that people
           can find and visit it online. This guide will help you understand the

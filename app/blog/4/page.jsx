@@ -40,9 +40,13 @@ const Blog4 = () => {
   return (
     <article className="lesson-container">
       <h1>What is Web Analytics and Why it's Important to Your Goals</h1>
-      <p className="post-meta">
-        Published on September 28, 2024 | Category: Analytics | Reading Time: 20
-        minutes
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
       </p>
 
       <section className="introduction">

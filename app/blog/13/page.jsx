@@ -45,6 +45,14 @@ const Blog13 = () => {
       <ScrollToTop />
       <article>
         <h1>React Hooks: A Comprehensive Guide for 2024</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           <em>
             Discover the power of React Hooks and how they have transformed the

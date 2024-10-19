@@ -39,6 +39,14 @@ const page = () => {
     <div className="lesson-container">
       <article>
         <h1>Domain Names: Understanding and Choosing the Right One</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           Domain names are an essential aspect of establishing an online
           presence. They serve as unique identifiers for websites and email

@@ -42,6 +42,14 @@ const GoogleSearchConsoleGuide = () => {
         The Ultimate Guide to Google Search Console in 2024: Master SEO &
         Digital Marketing
       </h1>
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
       <p>
         In today's fast-paced digital marketing landscape, Google Search Console
         (GSC) remains an essential tool for website owners, marketers, and SEO

@@ -54,6 +54,14 @@ const Blog3 = () => {
         layout="responsive"
         alt="Search engine optimization, Seo, Digital marketing image"
       />
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
       <p>
         In the digital age, having a strong online presence is crucial for
         businesses and individuals alike. Two key elements that can

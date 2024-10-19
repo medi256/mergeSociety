@@ -49,6 +49,14 @@ const Blog2 = () => {
     <article className="lesson-container">
       <h1>Progressive Web Apps: A Comprehensive Step-by-Step Guide</h1>
 
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
+      </p>
       <p>
         In the ever-evolving landscape of web development, Progressive Web Apps
         (PWAs) have emerged as a game-changing technology. They combine the best

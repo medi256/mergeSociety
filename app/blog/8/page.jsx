@@ -40,9 +40,13 @@ const Blog8 = () => {
         The Rise of No-Code and Low-Code Platforms: Revolutionizing Web
         Development in 2024
       </h1>
-      <p className="post-meta">
-        Published on <time dateTime="2024-09-29">September 29, 2024</time> |
-        Category: Development Trends | Reading Time: 15 minutes
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
       </p>
 
       <section className="introduction">

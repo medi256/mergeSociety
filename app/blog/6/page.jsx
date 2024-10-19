@@ -44,9 +44,13 @@ const Blog6 = () => {
         Monetization Strategies for Tech Professionals: Maximizing Your Skills
         in the Digital Economy
       </h1>
-      <p className="post-meta">
-        Published on September 30, 2024 | Category: Career | Reading Time: 30
-        minutes
+      <p className="publish-date">
+        Published on{" "}
+        {new Date().toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}
       </p>
 
       <section className="introduction">

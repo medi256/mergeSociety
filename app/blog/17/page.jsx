@@ -42,6 +42,14 @@ const Blog17 = () => {
           Online Courses and Starting a Tech YouTube Channel: Sharing Your
           Knowledge and Impacting Lives
         </h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
 
         <h2>Online Courses: Sharing Your Knowledge</h2>
         <p>

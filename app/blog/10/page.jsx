@@ -42,6 +42,14 @@ const Blog10Expanded = () => {
         <h1>
           Why Learn React in 2024? The Future of Web Development Explained
         </h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           <em>
             A comprehensive guide to understanding React's enduring popularity

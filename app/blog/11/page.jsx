@@ -43,6 +43,14 @@ const Blog11 = () => {
       <ScrollToTop />
       <article>
         <h1>Understanding JavaScript Closures: A Developer's Guide</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           <em>
             Dive deep into the concept of JavaScript closures. This guide

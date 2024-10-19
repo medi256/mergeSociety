@@ -39,6 +39,14 @@ const Blog9Expanded = () => {
         <h1>
           Blockchain and Web3: The Future of the Internet Explained Simply
         </h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           <em>
             A beginner-friendly guide to understanding how the internet is

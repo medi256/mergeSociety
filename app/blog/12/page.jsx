@@ -43,6 +43,14 @@ const Blog12 = () => {
       <ScrollToTop />
       <article>
         <h1>CSS Grid vs. Flexbox: Which to Choose?</h1>
+        <p className="publish-date">
+          Published on{" "}
+          {new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
         <p>
           <em>
             A deep dive into the two most powerful layout systems in CSS. Learn
