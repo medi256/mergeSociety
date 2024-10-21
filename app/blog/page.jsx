@@ -209,6 +209,24 @@ const BlogPosts = () => {
         "Conferences",
       ],
     },
+    {
+      id: 21,
+      title:
+        "The Internet of Things (IoT): Revolutionizing Our Connected World",
+      category: "Technology",
+      content:
+        "The Internet of Things (IoT) is transforming the way we live and work by connecting everyday devices to the internet, allowing them to exchange data. This article explores IoT, its history, architecture, real-world applications, and its future impact on industries like healthcare, agriculture, and smart cities. It also discusses the role of AI in IoT, security challenges, and ethical implications.",
+      tags: [
+        "IoT",
+        "Internet of Things",
+        "Smart Devices",
+        "AI",
+        "5G",
+        "Security",
+        "Automation",
+        "Smart Cities",
+      ],
+    },
   ];
 
   return (

@@ -194,10 +194,8 @@ const VersionControlBlog = () => {
         </p>
       </section>
 
-      <footer>
-        <p>Tags: Version Control, Git, Software Development</p>
-        <BlogButton whereToGo={"/blog"} />
-      </footer>
+      <p>Tags: Version Control, Git, Software Development</p>
+      <BlogButton whereToGo={"20"} />
     </article>
   );
 };

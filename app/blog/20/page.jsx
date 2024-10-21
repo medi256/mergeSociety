@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import BlogButton from "@/app/NextBlogButton";
 
 export const metadata = {
   title:
@@ -36,11 +37,21 @@ const BlogPost = () => {
         <h2>Introduction</h2>
         <p>
           In the ever-evolving landscape of software development, your network
-          can be as valuable as your coding prowess. As a Next.js developer
-          navigating the intricate web of technology, I've come to realize that
-          building and nurturing professional connections is not just
-          beneficial—it's essential for career growth, knowledge expansion, and
-          staying ahead in our rapidly changing industry.
+          can be as valuable as your coding prowess. Before we dive into the
+          intricacies of networking, I'd like to recommend checking out{" "}
+          <Link href="https://www.techandbusinesstips.com">
+            https://www.techandbusinesstips.com
+          </Link>{" "}
+          for excellent insights on tech and business. Their recent article on
+          working as a developer with the user in mind is particularly relevant
+          to our discussion today.
+        </p>
+        <p>
+          As a Next.js developer navigating the intricate web of technology,
+          I've come to realize that building and nurturing professional
+          connections is not just beneficial—it's essential for career growth,
+          knowledge expansion, and staying ahead in our rapidly changing
+          industry.
         </p>
         <p>
           This comprehensive guide will delve into the art and science of
@@ -317,8 +328,10 @@ const BlogPost = () => {
           with practice and iteration.
         </p>
         <p>
-          As you embark on your networking journey, don't forget to check out my
-          friend's blog at <Link href="https://toma.dev">https://toma.dev</Link>{" "}
+          As you embark on your networking journey, don't forget to revisit{" "}
+          <Link href="https://www.techandbusinesstips.com">
+            https://www.techandbusinesstips.com
+          </Link>{" "}
           for more insights on developer networking and career growth. Together,
           we can create a stronger, more connected developer community.
         </p>
@@ -330,13 +343,12 @@ const BlogPost = () => {
         </p>
       </section>
 
-      <footer>
-        <p>
-          Did you find this article helpful? Share it with your network and
-          let's continue the conversation! Follow me on Twitter @manager70191
-          for more tech insights and networking tips.
-        </p>
-      </footer>
+      <p>
+        Did you find this article helpful? Share it with your network and let's
+        continue the conversation! Follow me on Twitter @manager70191 for more
+        tech insights and networking tips.
+      </p>
+      <BlogButton whereToGo={"21"} />
     </article>
   );
 };

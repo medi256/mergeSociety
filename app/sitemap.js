@@ -868,5 +868,9 @@ export default function sitemap() {
       url: `https://www.mergesociety.com/blog/20`,
       lastModified: new Date(),
     },
+    {
+      url: `https://www.mergesociety.com/blog/21`,
+      lastModified: new Date(),
+    },
   ];
 }
