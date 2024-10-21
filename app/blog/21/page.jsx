@@ -22,7 +22,7 @@ export default function BlogPost() {
         width={500}
         height={300}
         layout="responsive"
-        alt="Search engine optimization, Seo, Digital marketing image"
+        alt="The Internet of Things, image of  devices  connected to  the  internet"
       />
       <h1>The Internet of Things (IoT): Revolutionizing Our Connected World</h1>
       <p className="publish-date">
