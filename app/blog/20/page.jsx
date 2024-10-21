@@ -328,12 +328,10 @@ const BlogPost = () => {
           with practice and iteration.
         </p>
         <p>
-          As you embark on your networking journey, don't forget to revisit{" "}
-          <Link href="https://www.techandbusinesstips.com">
-            https://www.techandbusinesstips.com
-          </Link>{" "}
-          for more insights on developer networking and career growth. Together,
-          we can create a stronger, more connected developer community.
+          As you embark on your networking journey, don't forget to visit{" "}
+          <Link href="https://toma.dev">https://toma.dev</Link> for more
+          insights on developer networking and career growth. Together, we can
+          create a stronger, more connected developer community.
         </p>
         <p>
           Now, it's your turn. What steps will you take today to expand and
