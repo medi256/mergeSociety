@@ -1,7 +1,8 @@
 "use client";
+
+import React, { useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import React, { useState } from "react";
 import ScrollToTop from "@/app/ScrollToTop";
 
 const PersonalWebpage = () => {
@@ -9,529 +10,564 @@ const PersonalWebpage = () => {
 
   const steps = [
     {
-      title: "Introduction to HTML and Web Development",
+      title: "Understanding HTML - Your Website's Building Blocks",
       content: (
         <>
-          <h3>Welcome to Web Development!</h3>
+          <h3>Let's Start Our Web Journey!</h3>
           <ScrollToTop />
-          <p>
-            Before we start building your personal webpage, let's understand
-            what HTML is and why it's important:
-          </p>
-          <ul>
-            <li>
-              <strong>HTML</strong> stands for HyperText Markup Language.
-            </li>
-            <li>It's the standard language for creating web pages.</li>
-            <li>HTML uses "tags" to structure content on a webpage.</li>
-            <li>
-              It's like the skeleton of a webpage - it provides the basic
-              structure.
-            </li>
-          </ul>
-          <p>
-            In this tutorial, we'll use HTML to create a simple personal profile
-            page. This page will include:
-          </p>
-          <ul>
-            <li>Your name and title</li>
-            <li>An "About Me" section</li>
-            <li>A list of your skills</li>
-            <li>Your contact information</li>
-          </ul>
-          <p>
-            Are you ready? Let's get started with setting up your workspace!
-          </p>
+
+          <div>
+            <div>
+              <p>
+                Imagine you're building a house 🏠. Just like a house needs a
+                foundation, walls, and a roof, a webpage needs something to give
+                it structure. That's where HTML comes in!
+              </p>
+            </div>
+
+            <div>
+              <h4>What exactly is HTML?</h4>
+              <p>
+                HTML is like a set of building blocks for websites. Think of it
+                this way:
+              </p>
+              <ul>
+                <li>
+                  HTML stands for <span>HyperText Markup Language</span>
+                  (don't worry about memorizing this - just remember it's the
+                  language websites are built with!)
+                </li>
+                <li>
+                  If a webpage was a sandwich, HTML would be the bread that
+                  holds everything together
+                </li>
+                <li>
+                  HTML uses special "tags" - they're like containers that tell
+                  your browser "hey, this is a heading" or "this is a paragraph"
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>👉 What We'll Build Together:</h4>
+              <p>
+                We're going to create your very own personal webpage! Think of
+                it as your digital business card. It will have:
+              </p>
+              <ul>
+                <li>Your name at the top (like a welcome sign)</li>
+                <li>A section about you (your digital introduction)</li>
+                <li>Your awesome skills (showing what you can do)</li>
+                <li>Ways to contact you (helping others reach out)</li>
+              </ul>
+            </div>
+
+            <div>
+              <p>✨ Don't worry if you're completely new to this!</p>
+              <p>
+                We'll take it step by step, explain everything in simple terms,
+                and use lots of examples. It's like following a recipe - we'll
+                add one ingredient at a time!
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "Setting up your workspace",
+      title: "Getting Ready - Setting Up Your Workspace",
       content: (
         <>
           <ScrollToTop />
-          <h3>Creating Your Project Folder</h3>
+          <h3>Let's Get Your Workspace Ready!</h3>
 
-          <p>
-            Before we write any code, we need to set up a place to work. Follow
-            these steps:
-          </p>
-          <ol>
-            <li>
-              <strong>Create a new folder on your computer:</strong>
-              <ul>
-                <li>
-                  On Windows: Right-click on your desktop, select "New" &gt;
-                  "Folder", and name it "my-personal-webpage".
-                </li>
-                <li>
-                  On Mac: Right-click on your desktop, select "New Folder", and
-                  name it "my-personal-webpage".
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Open this folder in a text editor:</strong>
-              <ul>
-                <li>
-                  If you have Visual Studio Code: Open VS Code, click "File"
-                  &gt; "Open Folder", and select your "my-personal-webpage"
-                  folder.
-                </li>
-                <li>
-                  If you're using Notepad or TextEdit: You can just keep the
-                  folder open in your file explorer for now.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Create a new file:</strong>
-              <ul>
-                <li>
-                  In VS Code: Right-click in the file explorer panel, select
-                  "New File", and name it "index.html".
-                </li>
-                <li>
-                  In Notepad/TextEdit: Create a new file, then immediately "Save
-                  As" and name it "index.html". Make sure to save it in your
-                  "my-personal-webpage" folder.
-                </li>
-              </ul>
-            </li>
-          </ol>
-          <p>
-            <strong>Why "index.html"?</strong> This is the standard name for the
-            main page of a website. When you upload your site to the internet,
-            web servers will automatically look for an "index.html" file to
-            display.
-          </p>
-          <p>
-            Great job! You've now set up your workspace. In the next step, we'll
-            start writing some HTML!
-          </p>
+          <div>
+            <div>
+              <p>
+                Before we start coding, we need to set up our workspace. It's
+                just like preparing your desk before starting homework - you
+                need everything in the right place! 📚
+              </p>
+            </div>
+
+            <div>
+              <h4>Step 1: Create Your Project Folder</h4>
+              <div>
+                <p>
+                  Think of this folder as a special drawer just for your website
+                  files:
+                </p>
+
+                <div>
+                  <p>👉 If you're using Windows:</p>
+                  <ol>
+                    <li>Right-click on your desktop</li>
+                    <li>Move your mouse to "New"</li>
+                    <li>Click "Folder"</li>
+                    <li>Name it "my-first-website"</li>
+                  </ol>
+
+                  <p>👉 If you're using Mac:</p>
+                  <ol>
+                    <li>Right-click on your desktop</li>
+                    <li>Click "New Folder"</li>
+                    <li>Name it "my-first-website"</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>Step 2: Choose Your Text Editor</h4>
+              <div>
+                <p>
+                  A text editor is like your digital pencil and paper. We
+                  recommend Visual Studio Code (VS Code) because it's:
+                </p>
+                <ul>
+                  <li>Free to download</li>
+                  <li>Easy to use</li>
+                  <li>Helps you write code better with helpful hints</li>
+                </ul>
+                <div>
+                  <p>🔍 How to get VS Code:</p>
+                  <ol>
+                    <li>Go to "code.visualstudio.com"</li>
+                    <li>Click the big download button</li>
+                    <li>Install it just like any other program</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>Step 3: Create Your First HTML File</h4>
+              <div>
+                <p>Now let's create your website's main file:</p>
+                <ol>
+                  <li>Open VS Code</li>
+                  <li>Click "File" → "Open Folder"</li>
+                  <li>Find and select your "my-first-website" folder</li>
+                  <li>
+                    Click "New File" (or press Ctrl+N on Windows, Cmd+N on Mac)
+                  </li>
+                  <li>
+                    Save it as "index.html" (this is always the main page of a
+                    website)
+                  </li>
+                </ol>
+              </div>
+            </div>
+
+            <div>
+              <p>🎉 Congratulations!</p>
+              <p>
+                You've just set up your web development workspace! Think of it
+                as having your artist's studio ready - now we can start
+                creating! In the next step, we'll start writing our first HTML
+                code.
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "HTML document structure",
+      title: "Writing Your First HTML - The Building Blocks",
       content: (
         <>
-          <h3>Creating the Basic HTML Structure</h3>
-
           <ScrollToTop />
-          <p>
-            Every HTML document needs a basic structure. Let's create that now:
-          </p>
-          <ol>
-            <li>Open your "index.html" file if it's not already open.</li>
-            <li>Copy and paste the following code into the file:</li>
-          </ol>
-          <pre>
-            <code>
+          <h3>Let's Write Our First HTML!</h3>
+
+          <div>
+            <div>
+              <p>
+                Think of HTML like building with LEGO® blocks. Each piece has a
+                specific shape and purpose, and when you put them together, you
+                create something amazing! 🏗️
+              </p>
+            </div>
+
+            <div>
+              <h4>The Basic Structure</h4>
+              <p>Copy this code into your index.html file:</p>
+
               <SyntaxHighlighter language="html" style={docco}>
                 {`<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
+    <title>My Personal Website</title>
 </head>
 <body>
     
 </body>
 </html>`}
               </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Now, let's break this down line by line:</p>
-          <ul>
-            <li>
-              <code>&lt;!DOCTYPE html&gt;</code>: This declaration tells the
-              browser that this is an HTML5 document. It should always be the
-              first line of your HTML file.
-            </li>
-            <li>
-              <code>&lt;html lang="en"&gt;</code>: This is the root element of
-              the HTML page. Everything else goes inside this. The{" "}
-              <code>lang="en"</code> specifies that the language is English.
-            </li>
-            <li>
-              <code>&lt;head&gt;</code>: This section contains meta information
-              about the document - information that isn't directly displayed on
-              the page.
-            </li>
-            <li>
-              <code>&lt;meta charset="UTF-8"&gt;</code>: This specifies the
-              character encoding for the document. UTF-8 includes most
-              characters from all known human languages.
-            </li>
-            <li>
-              <code>&lt;meta name="viewport" ...&gt;</code>: This ensures proper
-              rendering on mobile devices. It sets the width of the page to
-              follow the screen-width of the device.
-            </li>
-            <li>
-              <code>&lt;title&gt;</code>: This sets the title of the webpage,
-              which appears in the browser tab. Change "My Personal Profile" to
-              your name if you like!
-            </li>
-            <li>
-              <code>&lt;body&gt;</code>: This is where all the visible content
-              of your webpage will go.
-            </li>
-          </ul>
-          <p>
-            Save your file after adding this code. If you open your "index.html"
-            file in a web browser now, you'll see a blank page with the title
-            "My Personal Profile" in the browser tab.
-          </p>
-          <p>
-            In the next steps, we'll start adding content inside the{" "}
-            <code>&lt;body&gt;</code> tags. That's where the magic happens!
-          </p>
+
+              <div>
+                <h5>Let's break this down - piece by piece:</h5>
+
+                <div>
+                  <div>
+                    <p>{`1. <!DOCTYPE html>`}</p>
+                    <p>
+                      This is like telling your browser "Hey, this is a
+                      webpage!" It's like putting a label on a box so everyone
+                      knows what's inside.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p>{`2. <html lang="en">`}</p>
+                    <p>
+                      This is the container for your entire webpage. Think of it
+                      as the outer walls of your house - everything goes inside
+                      here!
+                    </p>
+                  </div>
+
+                  <div>
+                    <p>{`3. <head>`}</p>
+                    <p>
+                      This is like the control room of your webpage. It contains
+                      important information that visitors don't see but your
+                      browser needs to know.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p>{`4. <body>`}</p>
+                    <p>
+                      This is where all the visible stuff goes - your text,
+                      images, everything visitors will see. Think of it as the
+                      furnished rooms in your house.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>👉 Try It Out!</h4>
+              <ol>
+                <li>Copy the code above into your index.html file</li>
+                <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
+                <li>Find your file in your folder and double-click it</li>
+                <li>It should open in your web browser!</li>
+              </ol>
+              <p>
+                Right now you'll see a blank page - that's normal! In the next
+                step, we'll start adding content to make it look awesome! 🌟
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding a header",
+      title: "Adding Your Header - Making It Personal",
       content: (
         <>
           <ScrollToTop />
-          <h3>Creating the Header Section</h3>
+          <h3>Creating Your Website Header</h3>
 
-          <p>
-            Now that we have our basic HTML structure, let's add a header to our
-            page. The header typically contains the main title (your name) and
-            perhaps a subtitle (like your job title).
-          </p>
-          <p>
-            Add this code inside the <code>&lt;body&gt;</code> tags in your HTML
-            file:
-          </p>
-          <pre>
-            <code>
+          <div>
+            <div>
+              <p>
+                Think of a header like the cover of a book - it's the first
+                thing people see! Let's make yours stand out with your name and
+                what you do. 📚
+              </p>
+            </div>
+
+            <div>
+              <h4>Adding Your Name and Title</h4>
+              <p>
+                Add this code inside your <code>body</code> tags:
+              </p>
+
               <SyntaxHighlighter language="html" style={docco}>
                 {`<body>
     <header>
-        <h1>John Doe</h1>
-        <h2>Web Developer</h2>
+        <h1>Your Name</h1>
+        <h2>Web Developer in Training</h2>
     </header>
-    
-    <!-- We'll add more content here later -->
 </body>`}
               </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down what we just added:</p>
-          <ul>
-            <li>
-              <code>&lt;header&gt;</code>: This tag defines a header for the
-              document or a section. It's often used to contain introductory
-              content.
-            </li>
-            <li>
-              <code>&lt;h1&gt;</code>: This is the main heading tag. In HTML,
-              headings range from <code>&lt;h1&gt;</code> to{" "}
-              <code>&lt;h6&gt;</code>, with <code>&lt;h1&gt;</code> being the
-              most important. You should only use one <code>&lt;h1&gt;</code>{" "}
-              per page, and it's often used for the page's main title or, in
-              this case, your name.
-            </li>
-            <li>
-              <code>&lt;h2&gt;</code>: This is a secondary heading. Here, we're
-              using it for your job title or a brief description.
-            </li>
-            <li>
-              <code>&lt;!-- ... --&gt;</code>: This is an HTML comment. It's not
-              displayed on the webpage, but it's useful for leaving notes in
-              your code.
-            </li>
-          </ul>
-          <p>
-            <strong>Customization:</strong> Replace "John Doe" with your own
-            name, and "Web Developer" with your own job title or a brief
-            description of yourself.
-          </p>
-          <p>
-            After making these changes, save your file and refresh it in your
-            web browser. You should now see your name and title displayed on the
-            page!
-          </p>
-          <p>
-            In the next step, we'll add an "About Me" section to provide more
-            information about yourself.
-          </p>
+
+              <div>
+                <h5>Understanding Each Part:</h5>
+
+                <div>
+                  <div>
+                    <p>{`1. <header>`}</p>
+                    <p>
+                      This is like the front door of your website. It's where
+                      you make your first impression!
+                    </p>
+                  </div>
+
+                  <div>
+                    <p>{`2. <h1>`}</p>
+                    <p>
+                      This is the biggest heading - like your name on a giant
+                      welcome sign. You only use one h1 per page because it's
+                      the main title.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p>{`3. <h2>`}</p>
+                    <p>
+                      This is a slightly smaller heading - perfect for your
+                      title or what you do. Think of it as your subtitle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>👉 Make It Yours!</h4>
+              <div>
+                <p>Let's personalize it! Here's what to change:</p>
+                <ol>
+                  <li>
+                    Replace "Your Name" with... well, your actual name! 😄
+                  </li>
+                  <li>
+                    Change "Web Developer in Training" to whatever describes
+                    you:
+                    <ul>
+                      <li>Student</li>
+                      <li>Future Programmer</li>
+                      <li>Tech Enthusiast</li>
+                      <li>Or anything else that fits you!</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+
+            <div>
+              <h4>🎨 Try This:</h4>
+              <p>
+                After you save and refresh your page, you'll see your name and
+                title! If they look too plain, don't worry - we'll make them
+                look prettier later with CSS (that's like the paint and
+                decorations for your webpage).
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding an about section",
+      title: "Creating Your About Me Section",
       content: (
         <>
-          <h3>Creating the "About Me" Section</h3>
-
           <ScrollToTop />
-          <p>
-            Now that we have a header, let's add an "About Me" section to give
-            visitors more information about you. We'll use the{" "}
-            <code>&lt;section&gt;</code> tag to define this new section of our
-            webpage.
-          </p>
-          <p>
-            Add this code after the <code>&lt;/header&gt;</code> tag in your
-            HTML file:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-    <header>
-        <h1>John Doe</h1>
-        <h2>Web Developer</h2>
-    </header>
-    
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate web developer with a love for creating beautiful and functional websites. I enjoy solving complex problems and learning new technologies.</p>
-    </section>
-    
-    <!-- More sections will be added here later -->
-</body>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down what we just added:</p>
-          <ul>
-            <li>
-              <code>&lt;section&gt;</code>: This tag defines a section in the
-              document. It's a way to group related content together.
-            </li>
-            <li>
-              <code>&lt;h2&gt;</code>: We're using another{" "}
-              <code>&lt;h2&gt;</code> tag here as a section heading. It's okay
-              to have multiple <code>&lt;h2&gt;</code> tags on a page, unlike{" "}
-              <code>&lt;h1&gt;</code>.
-            </li>
-            <li>
-              <code>&lt;p&gt;</code>: This tag defines a paragraph. All your
-              main text content will usually go in paragraph tags.
-            </li>
-          </ul>
-          <p>
-            <strong>Customization:</strong> Replace the text inside the{" "}
-            <code>&lt;p&gt;</code> tag with your own introduction. Feel free to
-            add more <code>&lt;p&gt;</code> tags if you want to write multiple
-            paragraphs. For example:
-          </p>
-          <pre>
-            <code>
+          <h3>Telling Your Story</h3>
+
+          <div>
+            <div>
+              <p>
+                The "About Me" section is like having a friendly conversation
+                with your website visitors! Let's create a space where you can
+                share your story. 🗣️
+              </p>
+            </div>
+
+            <div>
+              <h4>Creating Your About Section</h4>
+              <p>Add this code after your header:</p>
+
               <SyntaxHighlighter language="html" style={docco}>
                 {`<section>
     <h2>About Me</h2>
-    <p>Hello! I'm a passionate web developer with a love for creating beautiful and functional websites. I enjoy solving complex problems and learning new technologies.</p>
-    <p>When I'm not coding, you can find me hiking in the mountains or reading science fiction novels. I believe in continuous learning and am always excited to take on new challenges in the world of web development.</p>
+    <p>Hi there! I'm excited to share my journey into web development.</p>
+    <p>When I'm not coding, I love [your hobbies or interests here].</p>
 </section>`}
               </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>
-            After making these changes, save your file and refresh it in your
-            web browser. You should now see your "About Me" section below your
-            name and title!
-          </p>
-          <p>
-            In the next step, we'll add a list of your skills to showcase what
-            you can do.
-          </p>
+
+              <div>
+                <h5>Understanding the Parts:</h5>
+                <div>
+                  <div>
+                    <p>{`1. <section>`}</p>
+                    <p>
+                      Think of this like a chapter in a book - it groups related
+                      content together
+                    </p>
+                  </div>
+                  <div>
+                    <p>{`2. <p> (paragraph)`}</p>
+                    <p>
+                      Each {` <p> `} tag is like a new paragraph in your story.
+                      Use multiple paragraphs to make your text easier to read!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>👉 Make It Personal:</h4>
+              <p>
+                Replace the placeholder text with your own story. For example,
+                you might write:
+              </p>
+              <ul>
+                <li>
+                  Hi there! I'm [Your Name], and I'm excited to share my journey
+                  into web development.
+                </li>
+                <li>
+                  When I'm not coding, I love hiking, reading science fiction,
+                  and playing video games.
+                </li>
+              </ul>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding a skills list",
+      title: "Showing Off Your Skills",
       content: (
         <>
           <ScrollToTop />
-          <h3>Creating Your Skills List</h3>
+          <h3>Creating Your Skills Showcase</h3>
 
-          <p>
-            Now that we have an introduction, let's showcase your skills! We'll
-            use an unordered list (<code>&lt;ul&gt;</code>) to create a
-            bullet-point list of your abilities.
-          </p>
-          <p>Add this code after your "About Me" section:</p>
-          <pre>
-            <code>
+          <div>
+            <div>
+              <p>
+                Time to show off what you can do! Think of this section like
+                your trophy case - it's where you display your abilities. 🏆
+              </p>
+            </div>
+
+            <div>
+              <h4>Making Your Skills List</h4>
+              <p>Add this code after your About Me section:</p>
+
               <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-    <!-- Previous sections remain the same -->
-    
-    <section>
-        <h2>My Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Problem Solving</li>
-        </ul>
-    </section>
-    
-    <!-- More content will be added here later -->
-</body>`}
+                {`<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML Basics</li>
+        <li>Learning CSS</li>
+        <li>Problem Solving</li>
+        <li>Eager to Learn!</li>
+    </ul>
+</section>`}
               </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down what we just added:</p>
-          <ul>
-            <li>
-              <code>&lt;section&gt;</code>: Just like before, we're using a
-              section to group related content.
-            </li>
-            <li>
-              <code>&lt;h2&gt;</code>: Another section heading for "My Skills".
-            </li>
-            <li>
-              <code>&lt;ul&gt;</code>: This stands for "unordered list". It
-              creates a bullet-point list.
-            </li>
-            <li>
-              <code>&lt;li&gt;</code>: This stands for "list item". Each{" "}
-              <code>&lt;li&gt;</code> tag represents one item in the list.
-            </li>
-          </ul>
-          <p>
-            <strong>Customization:</strong> Replace the skills listed with your
-            own skills. You can add as many or as few as you like. For example:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<ul>
-    <li>HTML5 and CSS3</li>
-    <li>JavaScript (ES6+)</li>
-    <li>React.js</li>
-    <li>Node.js</li>
-    <li>Git and GitHub</li>
-    <li>Responsive Web Design</li>
-    <li>UI/UX Design Principles</li>
-</ul>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>
-            Remember, it's okay if you're still learning some of these skills.
-            This list can include both things you're proficient in and things
-            you're currently learning!
-          </p>
-          <p>
-            After making these changes, save your file and refresh it in your
-            web browser. You should now see your skills list below your "About
-            Me" section.
-          </p>
-          <p>
-            In the next and final step, we'll add some contact information so
-            people can get in touch with you.
-          </p>
+
+              <div>
+                <h5>Let's Break It Down:</h5>
+                <div>
+                  <div>
+                    <p>{`1. <ul> (Unordered List)`}</p>
+                    <p>
+                      This creates a bullet-point list - perfect for skills!
+                      Think of it like making a shopping list.
+                    </p>
+                  </div>
+                  <div>
+                    <p>{`2. <li> (List Item)`}</p>
+                    <p>
+                      Each skill goes in its own {` <li> `} tag - like each item
+                      on your shopping list
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>👉 Make It Personal:</h4>
+              <p>Replace the placeholder skills with your own. For example:</p>
+              <ul className="list-disc ml-6 mt-2">
+                <li>HTML5 and CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Git and GitHub</li>
+                <li>Responsive Web Design</li>
+                <li>UI/UX Design Principles</li>
+              </ul>
+            </div>
+          </div>
         </>
       ),
     },
-
     {
-      title: "Adding contact information",
+      title: "Adding Contact Information",
       content: (
         <>
-          <h3>Adding Your Contact Information</h3>
           <ScrollToTop />
+          <h3>Let's Help People Reach You!</h3>
 
-          <p>
-            The last section we'll add is your contact information. This will
-            allow visitors to your page to get in touch with you. We'll put this
-            in a <code>&lt;footer&gt;</code> tag, which is typically used for
-            information that goes at the bottom of a webpage.
-          </p>
-          <p>
-            Add this code at the end of your <code>&lt;body&gt;</code> section,
-            after all the other sections:
-          </p>
-          <pre>
-            <code>
+          <div>
+            <div>
+              <p>
+                The contact section is like leaving your business card for
+                visitors. Let's make it easy for people to get in touch! 📫
+              </p>
+            </div>
+
+            <div>
+              <h4>Creating Your Contact Section</h4>
+              <p>Add this code at the end of your body section:</p>
+
               <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-    <!-- Previous sections remain the same -->
-    
-    <footer>
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
-    </footer>
-</body>`}
+                {`<footer>
+    <h2>Get In Touch</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername">My GitHub Profile</a></p>
+</footer>`}
               </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down what we just added:</p>
-          <ul>
-            <li>
-              <code>&lt;footer&gt;</code>: This tag defines a footer for the
-              document or a section. It's often used for contact information,
-              copyright information, or links to related documents.
-            </li>
-            <li>
-              <code>&lt;h2&gt;</code>: We're using another{" "}
-              <code>&lt;h2&gt;</code> tag for the "Contact Me" heading.
-            </li>
-            <li>
-              <code>&lt;p&gt;</code>: We're using paragraph tags to wrap each
-              piece of contact information.
-            </li>
-            <li>
-              <code>&lt;a&gt;</code>: This is an anchor tag, used to create
-              hyperlinks. The <code>href</code> attribute specifies where the
-              link should go.
-            </li>
-            <li>
-              <code>href="mailto:..."</code>: This special type of link will
-              open the user's default email client when clicked.
-            </li>
-            <li>
-              <code>target="_blank"</code>: This attribute makes the link open
-              in a new tab or window, which is useful for external links.
-            </li>
-          </ul>
-          <p>
-            <strong>Customization:</strong> Replace the email address, GitHub
-            username, and LinkedIn profile URL with your own. If you don't have
-            accounts on these platforms, you can remove those lines or add other
-            contact methods you prefer.
-          </p>
-          <p>
-            After adding this section, save your file and refresh it in your web
-            browser. You should now see your contact information at the bottom
-            of the page.
-          </p>
-          <h3>Congratulations!</h3>
-          <p>
-            You've now created a complete personal profile webpage using HTML!
-            Here's a summary of what we've accomplished:
-          </p>
-          <ul>
-            <li>Set up a project workspace</li>
-            <li>Created the basic HTML structure</li>
-            <li>Added a header with your name and title</li>
-            <li>Created an "About Me" section</li>
-            <li>Listed your skills</li>
-            <li>Added contact information</li>
-          </ul>
-          <p>
-            Feel free to continue customizing your page. You might want to add
-            more sections, like a portfolio of your work or testimonials. As you
-            learn more about web development, you can enhance this page with CSS
-            for styling and JavaScript for interactivity.
-          </p>
-          <p>
-            Remember to keep practicing and building more projects. Every
-            webpage you create will help you improve your skills. Happy coding!
-          </p>
+
+              <div>
+                <h5>Understanding the New Parts:</h5>
+                <div>
+                  <div>
+                    <p>{`1. <footer>`}</p>
+                    <p>
+                      This is like the last page of a book - it's where you put
+                      contact info and final notes
+                    </p>
+                  </div>
+                  <div>
+                    <p>{`2. <a> (Link)`}</p>
+                    <p>
+                      These are like magical doors - when clicked, they take
+                      visitors to your email or social profiles!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>🎉 Congratulations!</h4>
+              <p>
+                You've built your first webpage! It has all the important parts:
+                <ul className="list-disc ml-6 mt-2">
+                  <li>A welcoming header</li>
+                  <li>Your personal story</li>
+                  <li>Your growing skills</li>
+                  <li>Ways to contact you</li>
+                </ul>
+              </p>
+              <p className="mt-2">
+                Remember: Every professional web developer started exactly where
+                you are now. Keep practicing and building more! 💪
+              </p>
+            </div>
+          </div>
         </>
       ),
     },
@@ -540,13 +576,14 @@ const PersonalWebpage = () => {
   const handleNext = () => {
     if (currentStep < steps.length - 1) {
       setCurrentStep(currentStep + 1);
-      <ScrollToTop />;
+      window.scrollTo(0, 0);
     }
   };
 
   const handlePrevious = () => {
     if (currentStep > 0) {
       setCurrentStep(currentStep - 1);
+      window.scrollTo(0, 0);
     }
   };
 
@@ -566,8 +603,9 @@ const PersonalWebpage = () => {
             paddingBottom: "10px",
           }}
         >
-          Creating a Personal Profile Page with HTML
+          Building Your First Website: A Beginner's Journey 🚀
         </h1>
+
         <div style={{ marginBottom: "20px" }}>
           <h2 style={{ color: "#444" }}>
             Step {currentStep + 1}: {steps[currentStep].title}
@@ -582,6 +620,7 @@ const PersonalWebpage = () => {
             {steps[currentStep].content}
           </div>
         </div>
+
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <button
             onClick={handlePrevious}
@@ -597,6 +636,11 @@ const PersonalWebpage = () => {
           >
             Previous
           </button>
+          <div style={{ textAlign: "center" }}>
+            <p style={{ margin: "0", color: "#666" }}>
+              Step {currentStep + 1} of {steps.length}
+            </p>
+          </div>
           <button
             onClick={handleNext}
             disabled={currentStep === steps.length - 1}
