@@ -9,102 +9,226 @@ const RestaurantMenuHtml = () => {
 
   const tutorialSteps = [
     {
-      title: "Introduction to Creating a Restaurant Menu with HTML",
+      title: "Let's Build a Restaurant Menu Together!",
       content: (
         <>
-          <h2>Welcome to the Restaurant Menu HTML Tutorial</h2>
+          <h2>Welcome to Your First HTML Project! 🎉</h2>
           <ScrollToTop />
+
           <p>
-            In this tutorial, we'll guide you through creating a simple
-            restaurant menu using HTML. This project is perfect for beginners
-            who want to practice their HTML skills and learn how to structure
-            content for a real-world application.
+            Imagine you're helping a friend open a new restaurant. They need a
+            menu to show their customers, but instead of using paper, we're
+            going to create it for their website! Think of it like building a
+            digital version of those menus you see at restaurants.
           </p>
+
+          <h3>Why Are We Building This?</h3>
           <p>
-            By the end of this tutorial, you'll have created a menu that
-            includes:
+            Before we jump in, let's understand why this project is great for
+            beginners like you:
           </p>
           <ul>
-            <li>A header with the restaurant's name</li>
             <li>
-              Sections for different meal types (appetizers, main courses,
-              desserts)
+              <strong>It's Real-World:</strong> Just like building with LEGO,
+              we'll put together different HTML pieces to create something
+              people actually use every day!
             </li>
-            <li>Individual menu items with descriptions and prices</li>
+            <li>
+              <strong>Perfect for Learning:</strong> You'll learn how to
+              organize information (like food items and prices) in a way that
+              makes sense - it's like arranging items on a shelf so people can
+              easily find what they want.
+            </li>
+            <li>
+              <strong>Great Practice:</strong> You'll use the most common HTML
+              tags - think of them as your basic building blocks, like the
+              different LEGO pieces you need to build something cool.
+            </li>
           </ul>
-          <p>
-            This project will help you understand how to use HTML to organize
-            and present information in a clear, structured way. Let's get
-            started on building your restaurant menu!
-          </p>
+
+          <h3>What Will We Create?</h3>
+          <p>By the end of this tutorial, you'll have built:</p>
+          <ul>
+            <li>
+              A beautiful restaurant name at the top (like a restaurant's sign)
+            </li>
+            <li>
+              Different menu sections (think of these as different pages in a
+              paper menu)
+            </li>
+            <li>
+              Food items with descriptions and prices (just like you see in real
+              menus!)
+            </li>
+            <li>
+              A nice footer with the restaurant's information (like their
+              business card)
+            </li>
+          </ul>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              borderLeft: "5px solid #28a745",
+              marginTop: "20px",
+            }}
+          >
+            <h4>👋 Beginner's Tip:</h4>
+            <p>
+              Don't worry if you're new to HTML! We'll explain everything step
+              by step, just like following a recipe. If you get stuck, that's
+              totally normal - even experienced developers use Google and ask
+              questions all the time!
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Setting Up Your Workspace",
+      title: "Getting Your Workspace Ready",
       content: (
         <>
           <ScrollToTop />
-          <h2>Creating Your Project Folder</h2>
+          <h2>Setting Up Your Digital Kitchen 👩‍💻</h2>
+
           <p>
-            First, let's set up a workspace for your restaurant menu project:
+            Before a chef starts cooking, they set up their kitchen with all the
+            tools they need. Similarly, we need to set up our "digital kitchen"
+            - our workspace where we'll build our menu!
           </p>
+
+          <h3>Step 1: Creating Your Project Folder</h3>
+          <p>
+            Think of a project folder like a recipe box where you keep all your
+            ingredients and instructions together. Here's how to make one:
+          </p>
+
+          <div
+            className="windows-instructions"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              marginBottom: "15px",
+            }}
+          >
+            <h4>🪟 If you're using Windows:</h4>
+            <ol>
+              <li>
+                Right-click on your desktop (that's your computer's main screen)
+              </li>
+              <li>Look for "New" in the menu that pops up</li>
+              <li>Click on "Folder"</li>
+              <li>Name it "my-restaurant-menu"</li>
+            </ol>
+          </div>
+
+          <div
+            className="mac-instructions"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              marginBottom: "15px",
+            }}
+          >
+            <h4>🍎 If you're using Mac:</h4>
+            <ol>
+              <li>Right-click anywhere on your desktop</li>
+              <li>Click "New Folder"</li>
+              <li>Name it "my-restaurant-menu"</li>
+            </ol>
+          </div>
+
+          <h3>Step 2: Getting a Text Editor</h3>
+          <p>
+            A text editor is like your chef's knife - it's the main tool you'll
+            use to create your HTML. We recommend Visual Studio Code (VS Code)
+            because:
+          </p>
+          <ul>
+            <li>It's free!</li>
+            <li>
+              It helps you write code by highlighting things (like spell-check,
+              but for code)
+            </li>
+            <li>
+              It can autocomplete stuff for you (like your phone's keyboard
+              suggestions)
+            </li>
+          </ul>
+
+          <div
+            className="download-instructions"
+            style={{
+              backgroundColor: "#e9ecef",
+              padding: "15px",
+              marginTop: "15px",
+            }}
+          >
+            <h4>📥 How to Get VS Code:</h4>
+            <ol>
+              <li>
+                Go to <code>code.visualstudio.com</code>
+              </li>
+              <li>Click the big download button</li>
+              <li>Install it just like any other program</li>
+            </ol>
+          </div>
+
+          <h3>Step 3: Creating Your HTML File</h3>
+          <p>Now, let's create the file where we'll write our menu:</p>
           <ol>
+            <li>Open VS Code</li>
+            <li>Go to File → Open Folder</li>
+            <li>Find and select your "my-restaurant-menu" folder</li>
+            <li>Click "Select Folder"</li>
             <li>
-              <strong>Create a New Folder:</strong>
-              <ul>
-                <li>
-                  <strong>On Windows:</strong> Right-click on your desktop,
-                  select "New" &gt; "Folder", and name it "my-restaurant-menu".
-                </li>
-                <li>
-                  <strong>On Mac:</strong> Right-click on your desktop, select
-                  "New Folder", and name it "my-restaurant-menu".
-                </li>
-              </ul>
+              Click the "New File" button (usually looks like a page with a '+'
+              sign)
             </li>
-            <li>
-              <strong>Open the Folder in a Text Editor:</strong>
-              <ul>
-                <li>
-                  Open your preferred text editor (like Notepad, TextEdit, or VS
-                  Code) and navigate to the "my-restaurant-menu" folder.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Create the HTML File:</strong>
-              <ul>
-                <li>
-                  Create a new file and save it as "index.html" inside the
-                  "my-restaurant-menu" folder.
-                </li>
-              </ul>
-            </li>
+            <li>Name it "index.html"</li>
           </ol>
-          <p>
-            <strong>Note:</strong> Using "index.html" as your file name is a
-            common practice in web development. It's often the default file that
-            web servers look for when someone visits a website.
-          </p>
-          <p>
-            Now that your workspace is ready, let's move on to creating the
-            basic HTML structure for your restaurant menu.
-          </p>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              borderLeft: "5px solid #28a745",
+              marginTop: "20px",
+            }}
+          >
+            <h4>🤔 Why "index.html"?</h4>
+            <p>
+              We use "index.html" because it's like the front door of your
+              website. When someone visits your website, the browser
+              automatically looks for an "index.html" file first - just like how
+              you'd look for the front door when visiting a restaurant!
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Creating the Basic HTML Structure",
+      title: "Creating Our Menu's Foundation",
       content: (
         <>
-          <h2>Setting Up the HTML Document</h2>
+          <h2>Building the Basic Structure 🏗️</h2>
           <ScrollToTop />
+
           <p>
-            Let's start by creating the basic structure of our HTML document.
-            This will serve as the foundation for our restaurant menu.
+            Just like a building needs a strong foundation, our menu needs a
+            basic HTML structure to build upon. Think of it as the blueprint for
+            our digital restaurant menu.
           </p>
-          <p>Open your "index.html" file and add the following code:</p>
+
+          <h3>Let's Write Our First HTML Code!</h3>
+          <p>
+            Copy this code into your index.html file. Don't worry - we'll
+            explain every single part right after:
+          </p>
+
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -113,135 +237,263 @@ const RestaurantMenuHtml = () => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious Bites Restaurant Menu</title>
+    <title>Yummy Restaurant Menu</title>
 </head>
 <body>
     <header>
-        <h1>Delicious Bites Restaurant</h1>
+        <h1>Yummy Restaurant</h1>
     </header>
     <main>
-        <!-- We'll add our menu sections here -->
+        <!-- We'll put our menu here soon! -->
     </main>
     <footer>
-        <p>&copy; 2024 Delicious Bites Restaurant. All rights reserved.</p>
+        <p>© 2024 Yummy Restaurant</p>
     </footer>
 </body>
 </html>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-          <p>Let's break down this HTML structure:</p>
-          <ul>
-            <li>
-              <code>&lt;!DOCTYPE html&gt;</code>: This tells the browser that
-              this is an HTML5 document.
-            </li>
-            <li>
-              <code>&lt;html lang="en"&gt;</code>: The root element of the HTML
-              page. The <code>lang="en"</code> attribute specifies that the
-              content is in English.
-            </li>
-            <li>
-              <code>&lt;head&gt;</code>: This section contains meta information
-              about the document.
-            </li>
-            <li>
-              <code>&lt;meta charset="UTF-8"&gt;</code>: Specifies the character
-              encoding for the document (UTF-8 supports many languages).
-            </li>
-            <li>
-              <code>&lt;meta name="viewport" ...&gt;</code>: This tag ensures
-              that the page is displayed correctly on various devices.
-            </li>
-            <li>
-              <code>&lt;title&gt;</code>: Sets the title of the webpage, which
-              appears in the browser tab.
-            </li>
-            <li>
-              <code>&lt;body&gt;</code>: This is where we'll add the visible
-              content of our menu.
-            </li>
-            <li>
-              <code>&lt;header&gt;</code>: Contains the main heading of our
-              page.
-            </li>
-            <li>
-              <code>&lt;main&gt;</code>: This is where we'll put the main
-              content of our menu.
-            </li>
-            <li>
-              <code>&lt;footer&gt;</code>: Contains information that goes at the
-              bottom of the page, like a copyright notice.
-            </li>
-          </ul>
-          <p>
-            Save your file and open it in a web browser. You should see the
-            restaurant name and footer text displayed on the page.
-          </p>
-          <p>In the next step, we'll start adding our menu sections.</p>
+
+          <h3>Understanding Each Part (Like Reading a Recipe)</h3>
+
+          <div className="explanation" style={{ marginTop: "20px" }}>
+            <h4>1. The Document Type</h4>
+            <pre>
+              <code>{"<!DOCTYPE html>"}</code>
+            </pre>
+            <p>
+              This is like telling your browser "Hey, this is an HTML document!"
+              It's similar to how a recipe book's cover tells you "This is a
+              cookbook!"
+            </p>
+
+            <h4>2. The HTML Container</h4>
+            <pre>
+              <code>{'<html lang="en">'}</code>
+            </pre>
+            <p>
+              This is like the walls of your restaurant - it contains
+              everything! The <code>lang="en"</code>
+              tells browsers this menu is in English.
+            </p>
+
+            <h4>3. The Head Section</h4>
+            <pre>
+              <code>
+                <SyntaxHighlighter language="html" style={docco}>
+                  {`<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Restaurant Menu</title>
+</head>`}
+                </SyntaxHighlighter>
+              </code>
+            </pre>
+            <p>
+              Think of the head section as the restaurant's behind-the-scenes
+              area:
+            </p>
+            <ul>
+              <li>
+                <code>charset="UTF-8"</code>: Tells the browser how to read the
+                text (like telling someone which language to read in)
+              </li>
+              <li>
+                <code>viewport</code>: Makes your menu look good on phones and
+                computers (like having tables that fit both big and small
+                groups)
+              </li>
+              <li>
+                <code>title</code>: This shows up in the browser tab (like the
+                sign outside a restaurant)
+              </li>
+            </ul>
+
+            <h4>4. The Body Section</h4>
+            <pre>
+              <code>
+                <SyntaxHighlighter language="html" style={docco}>
+                  {`
+    <body>
+    <header>
+        <h1>Yummy Restaurant</h1>
+    </header>
+    <main>
+        <!-- We'll put our menu here soon! -->
+    </main>
+    <footer>
+        <p>© 2024 Yummy Restaurant</p>
+    </footer>
+    </body>`}
+                </SyntaxHighlighter>
+              </code>
+            </pre>
+            <p>
+              The body section is where customers see everything - like the
+              dining area of a restaurant:
+            </p>
+            <ul>
+              <li>
+                <code>header</code>: Like the entrance area with the
+                restaurant's name
+              </li>
+              <li>
+                <code>main</code>: The main dining area where we'll put our menu
+                items
+              </li>
+              <li>
+                <code>footer</code>: Like the bottom of a menu where you put
+                extra information
+              </li>
+            </ul>
+          </div>
+
+          <div
+            className="try-it-yourself"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              marginTop: "20px",
+              borderRadius: "5px",
+            }}
+          >
+            <h4>👉 Try It Yourself!</h4>
+            <ol>
+              <li>Copy the code above into your index.html file</li>
+              <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
+              <li>
+                Open the file in your web browser (double-click the file, or
+                drag it into your browser)
+              </li>
+            </ol>
+            <p>
+              You should see "Yummy Restaurant" at the top of a mostly blank
+              page. That's perfect! We'll add the delicious details in the next
+              steps.
+            </p>
+          </div>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              borderLeft: "5px solid #28a745",
+              marginTop: "20px",
+            }}
+          >
+            <h4>💡 Pro Tip:</h4>
+            <p>
+              Comments in HTML (lines that start with {"<!--"} and end with{" "}
+              {"-->"}) are like notes in a recipe - they help you remember
+              things but don't show up in the final result. We'll use them to
+              mark where we'll add more content later!
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding Menu Sections",
+      title: "Creating Our Menu Sections",
       content: (
         <>
           <ScrollToTop />
-          <h2>Creating Menu Categories</h2>
+          <h2>Organizing Our Menu Like a Real Restaurant 🍽️</h2>
+
           <p>
-            Now that we have our basic HTML structure, let's add sections for
-            different types of meals in our menu. We'll create categories for
-            appetizers, main courses, and desserts.
+            When you go to a restaurant, the menu is usually divided into
+            sections like appetizers, main courses, and desserts. We're going to
+            create these sections in our digital menu!
           </p>
+
+          <h3>Adding Menu Sections</h3>
           <p>
-            Add the following code inside the <code>&lt;main&gt;</code> tags of
-            your HTML file:
+            Let's update our <code>&lt;main&gt;</code> section with our menu
+            categories. Think of this like organizing different food items into
+            different pages in a paper menu.
           </p>
+
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
                 {`<main>
-    <section id="appetizers">
-        <h2>Appetizers</h2>
+<!-- Appetizers Section -->
+<section id="appetizers">
+    <h2>Tasty Starters</h2>
+    <div class="menu-section">
         <!-- We'll add appetizer items here -->
-    </section>
+    </div>
+</section>
 
-    <section id="main-courses">
-        <h2>Main Courses</h2>
+<!-- Main Courses Section -->
+<section id="main-courses">
+    <h2>Main Dishes</h2>
+    <div class="menu-section">
         <!-- We'll add main course items here -->
-    </section>
+    </div>
+</section>
 
-    <section id="desserts">
-        <h2>Desserts</h2>
+<!-- Desserts Section -->
+<section id="desserts">
+    <h2>Sweet Endings</h2>
+    <div class="menu-section">
         <!-- We'll add dessert items here -->
-    </section>
+    </div>
+</section>
 </main>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-          <p>Let's break down what we've added:</p>
-          <ul>
-            <li>
-              <code>&lt;section&gt;</code>: This tag defines a section in our
-              document. We're using it to separate different parts of our menu.
-            </li>
-            <li>
-              <code>id="..."</code>: We've given each section a unique id. This
-              can be useful for styling or creating links to specific parts of
-              the menu.
-            </li>
-            <li>
-              <code>&lt;h2&gt;</code>: This is a second-level heading. We're
-              using it for our category titles.
-            </li>
-          </ul>
-          <p>
-            Save your file and refresh it in your web browser. You should now
-            see the titles for each section of your menu.
-          </p>
-          <p>
-            In the next step, we'll add individual menu items to each section.
-          </p>
+
+          <h3>Understanding The Parts</h3>
+          <div className="code-explanation" style={{ marginTop: "20px" }}>
+            <ol>
+              <li>
+                <strong>The Section Tag:</strong>
+                <p>
+                  <code>&lt;section&gt;</code> is like creating different areas
+                  in your restaurant - one for appetizers, one for main courses,
+                  and one for desserts. It's like having different tables for
+                  different types of food!
+                </p>
+              </li>
+              <li>
+                <strong>The ID Attribute:</strong>
+                <p>
+                  <code>id="appetizers"</code> is like putting a label on each
+                  section. Just like how you'd put signs in a buffet saying
+                  "Salads" or "Desserts", these IDs help identify each section.
+                </p>
+              </li>
+              <li>
+                <strong>The Heading Tags:</strong>
+                <p>
+                  <code>&lt;h2&gt;</code> tags are like the section titles in a
+                  paper menu. They're bigger and bolder to help customers find
+                  what they're looking for.
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              borderLeft: "5px solid #28a745",
+              marginTop: "20px",
+            }}
+          >
+            <h4>🎯 Why This Structure Works:</h4>
+            <p>
+              Just like how a well-organized kitchen helps chefs work better, a
+              well-organized HTML structure helps both you (the developer) and
+              your visitors find things easily. Each section has its own space,
+              making it easy to add, remove, or update menu items later!
+            </p>
+          </div>
         </>
       ),
     },
@@ -249,186 +501,332 @@ const RestaurantMenuHtml = () => {
       title: "Adding Menu Items",
       content: (
         <>
-          <h2>Filling in the Menu Items</h2>
+          <h2>Filling Our Menu with Delicious Items 🍕</h2>
           <ScrollToTop />
+
           <p>
-            Now that we have our menu sections, let's add some items to each
-            category. We'll use a combination of headings, paragraphs, and lists
-            to structure our menu items.
+            Now comes the fun part - adding actual food items to our menu! Think
+            of this like writing down all the dishes your restaurant serves,
+            complete with descriptions and prices.
           </p>
+
+          <h3>Let's Add Some Menu Items</h3>
           <p>
-            Replace the content inside each <code>&lt;section&gt;</code> with
-            the following:
+            We'll create a nice-looking list of items for each section. Here's
+            how to add items to your appetizer section (you can copy this
+            pattern for other sections too!):
           </p>
+
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
                 {`<section id="appetizers">
-    <h2>Appetizers</h2>
-    <ul>
-        <li>
-            <h3>Bruschetta <span>$8.99</span></h3>
-            <p>Grilled bread rubbed with garlic and topped with olive oil, salt, and fresh tomato.</p>
-        </li>
-        <li>
-            <h3>Spinach and Artichoke Dip <span>$10.99</span></h3>
-            <p>A creamy blend of spinach, artichoke hearts, and melted cheeses, served with tortilla chips.</p>
-        </li>
-    </ul>
-</section>
+<h2>Tasty Starters</h2>
+<div class="menu-section">
+    <!-- First Menu Item -->
+    <div class="menu-item">
+        <h3>Crispy Mozzarella Sticks <span class="price">$7.99</span></h3>
+        <p class="description">
+            Golden-brown on the outside, melty on the inside. Served with our 
+            special marinara sauce.
+        </p>
+    </div>
 
-<section id="main-courses">
-    <h2>Main Courses</h2>
-    <ul>
-        <li>
-            <h3>Grilled Salmon <span>$22.99</span></h3>
-            <p>Fresh Atlantic salmon fillet, grilled to perfection, served with roasted vegetables and lemon butter sauce.</p>
-        </li>
-        <li>
-            <h3>Chicken Parmesan <span>$18.99</span></h3>
-            <p>Breaded chicken breast topped with marinara sauce and melted mozzarella, served with spaghetti.</p>
-        </li>
-    </ul>
-</section>
-
-<section id="desserts">
-    <h2>Desserts</h2>
-    <ul>
-        <li>
-            <h3>Chocolate Lava Cake <span>$8.99</span></h3>
-            <p>Warm chocolate cake with a gooey center, served with vanilla ice cream.</p>
-        </li>
-        <li>
-            <h3>New York Cheesecake <span>$7.99</span></h3>
-            <p>Classic creamy cheesecake with a graham cracker crust, topped with fresh berries.</p>
-        </li>
-    </ul>
+    <!-- Second Menu Item -->
+    <div class="menu-item">
+        <h3>Garden Fresh Salad <span class="price">$6.99</span></h3>
+        <p class="description">
+            Crisp lettuce, cherry tomatoes, cucumbers, and carrots with your 
+            choice of dressing.
+        </p>
+    </div>
+</div>
 </section>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-          <p>Let's break down the structure we've used for menu items:</p>
-          <ul>
-            <li>
-              <code>&lt;ul&gt;</code>: An unordered list to group menu items
+
+          <h3>Breaking Down Each Part</h3>
+          <div className="explanation" style={{ marginTop: "20px" }}>
+            <h4>1. The Menu Item Container</h4>
+            <pre>
+              <code>{'<div class="menu-item">'}</code>
+            </pre>
+            <p>
+              Think of this like a plate that holds all the information about
+              one dish. Just like how a plate keeps all parts of a dish
+              together, this container keeps all information about one menu item
               together.
-            </li>
-            <li>
-              <code>&lt;li&gt;</code>: List items, each representing a dish on
-              the menu.
-            </li>
-            <li>
-              <code>&lt;h3&gt;</code>: Third-level heading for the name of each
-              dish.
-            </li>
-            <li>
-              <code>&lt;span&gt;</code>: Used to separate the price from the
-              dish name, making it easier to style later if needed.
-            </li>
-            <li>
-              <code>&lt;p&gt;</code>: A paragraph tag for the description of
-              each dish.
-            </li>
-          </ul>
-          <p>
-            Save your file and refresh it in your web browser. You should now
-            see a complete menu with items in each category.
-          </p>
-          <p>
-            In the final step, we'll add some finishing touches to make our menu
-            more informative and user-friendly.
-          </p>
+            </p>
+
+            <h4>2. The Item Name and Price</h4>
+            <pre>
+              <code>
+                <SyntaxHighlighter language="html" style={docco}>
+                  {
+                    '<h3>Crispy Mozzarella Sticks <span class="price">$7.99</span></h3>'
+                  }
+                </SyntaxHighlighter>
+              </code>
+            </pre>
+            <p>
+              This is like the name tag on a dish at a buffet, with the price
+              tag right next to it. The
+              <code>&lt;span&gt;</code> tag is perfect for the price because
+              it's a small piece of information that belongs with the name.
+            </p>
+
+            <h4>3. The Description</h4>
+            <pre>
+              <code>
+                {'<p class="description">Golden-brown on the outside...</p>'}
+              </code>
+            </pre>
+            <p>
+              Just like how a waiter describes a dish to customers, this
+              paragraph tells people what's special about each item.
+            </p>
+          </div>
+
+          <div
+            className="practice-exercise"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              marginTop: "20px",
+              borderRadius: "5px",
+            }}
+          >
+            <h4>✍️ Your Turn to Practice!</h4>
+            <p>Try adding these items to your main courses section:</p>
+            <ol>
+              <li>A cheeseburger with fries ($12.99)</li>
+              <li>Grilled salmon with vegetables ($18.99)</li>
+              <li>Chicken alfredo pasta ($15.99)</li>
+            </ol>
+            <p>
+              Remember to add descriptions that make the food sound delicious -
+              just like how restaurants describe their dishes!
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding Finishing Touches",
+      title: "Adding Navigation",
       content: (
         <>
           <ScrollToTop />
-          <h2>Enhancing Your Restaurant Menu</h2>
+          <h2>Making Our Menu Look Professional 🎨</h2>
+
           <p>
-            To make our restaurant menu more informative and user-friendly,
-            let's add a few finishing touches. We'll include a brief
-            introduction and some additional information about the restaurant.
+            Right now, our menu has all the right information, but it might look
+            a bit plain. Let's add some navigation links and basic styling to
+            make it more user-friendly!
           </p>
+
+          <h3>First, Let's Add Navigation</h3>
           <p>
-            Add the following code just after the <code>&lt;header&gt;</code>{" "}
-            section and before the <code>&lt;main&gt;</code> section:
+            Add this code right after your <code>&lt;header&gt;</code> section:
           </p>
+
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<header>
-    <h1>Delicious Bites Restaurant</h1>
-</header>
+                {`<nav>
+<ul>
+    <li><a href="#appetizers">Starters</a></li>
+    <li><a href="#main-courses">Main Dishes</a></li>
+    <li><a href="#desserts">Desserts</a></li>
+</ul>
+</nav>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
 
-<nav>
-    <ul>
-        <li><a href="#appetizers">Appetizers</a></li>
-        <li><a href="#main-courses">Main Courses</a></li>
-        <li><a href="#desserts">Desserts</a></li>
-    </ul>
-</nav>
+          <p>
+            This creates a menu of links (like a table of contents) that lets
+            people jump directly to different sections of your menu!
+          </p>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to Delicious Bites, where we serve mouthwatering dishes made with fresh, locally-sourced ingredients. Our menu offers a perfect blend of classic favorites and innovative culinary creations.</p>
-</section>
+          <h3>Understanding the Navigation</h3>
+          <div className="explanation" style={{ marginTop: "20px" }}>
+            <h4>1. The Navigation Tag:</h4>
+            <pre>
+              <code>{"<nav>"}</code>
+            </pre>
+            <p>
+              The <code>&lt;nav&gt;</code> tag is used to define a set of
+              navigation links. It's like the table of contents in a book,
+              helping users find what they're looking for quickly.
+            </p>
 
-<main>
-    <!-- Your existing menu sections go here -->
-</main>
+            <h4>2. The Unordered List:</h4>
+            <pre>
+              <code>{"<ul>"}</code>
+            </pre>
+            <p>
+              The <code>&lt;ul&gt;</code> tag is used to create an unordered
+              list. Each item in the list is a navigation link.
+            </p>
 
-<footer>
-    <p>&copy; 2024 Delicious Bites Restaurant. All rights reserved.</p>
-    <p>123 Tasty Lane, Flavortown, FB 12345 | Phone: (555) 123-4567</p>
-    <p>Open daily: 11:00 AM - 10:00 PM</p>
+            <h4>3. The List Items:</h4>
+            <pre>
+              <code>{"<li>"}</code>
+            </pre>
+            <p>
+              The <code>&lt;li&gt;</code> tag is used to define each item in the
+              list. Each list item contains an anchor tag.
+            </p>
+
+            <h4>4. The Anchor Tags:</h4>
+            <pre>
+              <code>{'<a href="#appetizers">Starters</a>'}</code>
+            </pre>
+            <p>
+              The <code>&lt;a&gt;</code> tag is used to create a hyperlink. The{" "}
+              <code>href</code> attribute specifies the destination of the link.
+              In this case, it points to the ID of the section (e.g.,{" "}
+              <code>#appetizers</code>).
+            </p>
+          </div>
+
+          <div
+            className="practice-exercise"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "15px",
+              marginTop: "20px",
+              borderRadius: "5px",
+            }}
+          >
+            <h4>✍️ Your Turn to Practice!</h4>
+            <p>
+              Try adding a navigation link to a new section called "Beverages"
+              and create a section for it in your menu.
+            </p>
+          </div>
+        </>
+      ),
+    },
+    {
+      title: "Final Touches and Testing",
+      content: (
+        <>
+          <h2>Making Sure Everything Works! 🚀</h2>
+          <ScrollToTop />
+
+          <p>
+            We're almost done! Just like a chef tastes their dishes before
+            serving them, we need to test our menu to make sure everything works
+            perfectly.
+          </p>
+
+          <h3>Final Checklist</h3>
+          <div
+            className="checklist"
+            style={{
+              backgroundColor: "#f8f9fa",
+              padding: "20px",
+              borderRadius: "5px",
+            }}
+          >
+            <h4>Check These Things:</h4>
+            <ul>
+              <li>
+                ✅ Does your menu have all three sections (appetizers, main
+                courses, desserts)?
+              </li>
+              <li>✅ Do all your navigation links work when you click them?</li>
+              <li>✅ Are all your prices clearly visible?</li>
+              <li>✅ Do your food descriptions make sense?</li>
+              <li>
+                ✅ Does everything look good on both your computer and phone?
+              </li>
+            </ul>
+          </div>
+
+          <h3>Adding the Final Professional Touches</h3>
+          <p>
+            Let's add some information at the bottom of your menu (in the
+            footer):
+          </p>
+
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<footer>
+<div class="restaurant-info">
+    <h3>Visit Us</h3>
+    <p>123 Tasty Street, Food City, FC 12345</p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Open Daily: 11:00 AM - 10:00 PM</p>
+</div>
+<div class="social-media">
+    <p>Follow us on social media for daily specials!</p>
+    <p>@YummyRestaurant</p>
+</div>
+<p class="copyright">© 2024 Yummy Restaurant. All rights reserved.</p>
 </footer>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-          <p>Let's break down what we've added:</p>
-          <ul>
-            <li>
-              <code>&lt;nav&gt;</code>: This creates a navigation menu with
-              links to each section of our menu.
-            </li>
-            <li>
-              <code>&lt;a href="#..."&gt;</code>: These are anchor tags that
-              create links to the different sections of our menu using the id
-              attributes we set earlier.
-            </li>
-            <li>
-              <code>&lt;section id="about"&gt;</code>: This new section provides
-              a brief introduction to the restaurant.
-            </li>
-            <li>
-              We've also expanded the <code>&lt;footer&gt;</code> to include
-              more information about the restaurant's location and hours.
-            </li>
-          </ul>
-          <p>
-            Save your file and refresh it in your web browser. You should now
-            see a more complete and informative restaurant menu page.
-          </p>
-          <h3>Congratulations!</h3>
-          <p>
-            You've successfully created an HTML document for a restaurant menu.
-            This project has helped you practice:
-          </p>
-          <ul>
-            <li>Creating the structure of an HTML document</li>
-            <li>Using different types of HTML tags to organize content</li>
-            <li>Structuring menu sections and items</li>
-            <li>Adding navigation and additional information</li>
-          </ul>
-          <p>
-            Feel free to customize this menu further by adding more items,
-            changing prices, or even adding images to make it more visually
-            appealing. Remember, HTML is a powerful tool for creating engaging
-            web content!
-          </p>
+
+          <h3>Common Problems and Solutions</h3>
+          <div className="troubleshooting" style={{ marginTop: "20px" }}>
+            <h4>If Things Don't Look Right:</h4>
+            <ul>
+              <li>
+                <strong>Problem:</strong> Text is too big/small
+                <strong>Solution:</strong> Check your font-size in the style
+                section
+              </li>
+              <li>
+                <strong>Problem:</strong> Navigation links don't work
+                <strong>Solution:</strong> Make sure your section IDs match your
+                link hrefs exactly
+              </li>
+              <li>
+                <strong>Problem:</strong> Prices aren't aligned
+                <strong>Solution:</strong> Check if all prices have the "price"
+                class
+              </li>
+            </ul>
+          </div>
+
+          <div
+            className="congratulations"
+            style={{
+              backgroundColor: "#d4edda",
+              padding: "20px",
+              borderRadius: "5px",
+              marginTop: "20px",
+            }}
+          >
+            <h3>🎉 Congratulations!</h3>
+            <p>
+              You've built your first complete web page! This menu isn't just a
+              practice project - it's a real-world example of what you might
+              create for an actual restaurant. You've learned:
+            </p>
+            <ul>
+              <li>How to structure content with HTML</li>
+              <li>How to organize information in a clear way</li>
+              <li>How to style your content to make it look professional</li>
+              <li>How to add navigation to help users find what they want</li>
+            </ul>
+            <p>Feel free to customize this menu further by:</p>
+            <ul>
+              <li>Adding more menu items</li>
+              <li>Changing the restaurant name and details</li>
+              <li>Adding images to make it more visually appealing</li>
+              <li>Experimenting with different styles and layouts</li>
+            </ul>
+            <p>
+              Keep practicing and exploring HTML. The more you build, the more
+              comfortable you'll become with creating amazing web content!
+            </p>
+          </div>
         </>
       ),
     },
@@ -448,13 +846,28 @@ const RestaurantMenuHtml = () => {
 
   return (
     <div className="lesson-container">
-      <div
-        style={{
-          maxWidth: "800px",
-          margin: "0 auto",
-          padding: "20px",
-        }}
-      >
+      <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+        <div
+          className="progress-bar"
+          style={{
+            width: "100%",
+            height: "10px",
+            backgroundColor: "#eee",
+            borderRadius: "5px",
+            marginBottom: "20px",
+          }}
+        >
+          <div
+            style={{
+              width: `${((step + 1) / tutorialSteps.length) * 100}%`,
+              height: "100%",
+              backgroundColor: "#28a745",
+              borderRadius: "5px",
+              transition: "width 0.3s ease-in-out",
+            }}
+          />
+        </div>
+
         <h1
           style={{
             color: "#333",
@@ -462,23 +875,33 @@ const RestaurantMenuHtml = () => {
             paddingBottom: "10px",
           }}
         >
-          Creating a Restaurant Menu with HTML
+          Building Your First Restaurant Menu Website
         </h1>
+
         <div style={{ marginBottom: "20px" }}>
           <h2 style={{ color: "#444" }}>
-            Step {step + 1}: {tutorialSteps[step].title}
+            Step {step + 1} of {tutorialSteps.length}:{" "}
+            {tutorialSteps[step].title}
           </h2>
           <div
             style={{
-              backgroundColor: "#f9f9f9",
+              backgroundColor: "#fff",
               padding: "20px",
               borderRadius: "5px",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
             }}
           >
             {tutorialSteps[step].content}
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "20px",
+          }}
+        >
           <button
             onClick={handlePrevious}
             disabled={step === 0}
@@ -489,10 +912,12 @@ const RestaurantMenuHtml = () => {
               border: "none",
               borderRadius: "5px",
               cursor: step === 0 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            Previous
+            ← Previous Step
           </button>
+
           <button
             onClick={handleNext}
             disabled={step === tutorialSteps.length - 1}
@@ -505,9 +930,10 @@ const RestaurantMenuHtml = () => {
               borderRadius: "5px",
               cursor:
                 step === tutorialSteps.length - 1 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            {step === tutorialSteps.length - 1 ? "Finish" : "Next"}
+            {step === tutorialSteps.length - 1 ? "Finish" : "Next Step →"}
           </button>
         </div>
       </div>
