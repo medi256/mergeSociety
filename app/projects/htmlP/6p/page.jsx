@@ -9,410 +9,537 @@ const EventInvitation = () => {
 
   const tutorialSteps = [
     {
-      title: "Introduction to Event Invitation HTML Page",
+      title: "Welcome to HTML Event Invitation - Let's Start Building!",
       content: (
         <>
-          <h2>Welcome to the Event Invitation HTML Tutorial</h2>
+          <h2>👋 Welcome to Your First HTML Project!</h2>
           <ScrollToTop />
           <p>
-            In this tutorial, we'll guide you through creating an event
-            invitation page using only HTML. This project is perfect for
-            beginners who want to practice their HTML skills and learn how to
-            structure an informative and attractive invitation.
+            Hey there! Imagine you're planning a birthday party and need to send
+            invitations. That's exactly what we're going to create today - but
+            on a webpage! We'll build a digital invitation that looks
+            professional and works great.
           </p>
-          <p>
-            By the end of this tutorial, you'll have created an event invitation
-            page that includes:
-          </p>
-          <ul>
-            <li>A catchy title for your event</li>
-            <li>Key event details (date, time, location)</li>
-            <li>A brief description of the event</li>
-            <li>An agenda or schedule</li>
-            <li>RSVP information</li>
-            <li>Contact details for inquiries</li>
-          </ul>
-          <p>
-            This project will help you understand how to use various HTML
-            elements to organize information in a clear and appealing way.
-          </p>
-          <p>Let's get started on building your HTML event invitation page!</p>
+          <div>
+            <h3>🎯 What Will You Learn?</h3>
+            <p>
+              Think of HTML like building blocks - each piece has a special
+              purpose. By the end of this tutorial, you'll know how to:
+            </p>
+            <ul>
+              <li>
+                Create a webpage from scratch (like building the foundation of a
+                house)
+              </li>
+              <li>
+                Add headings and paragraphs (like organizing rooms in your
+                house)
+              </li>
+              <li>Make lists and sections (like arranging furniture)</li>
+              <li>
+                Add links for emails and phone numbers (like adding a doorbell!)
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>🤔 What Are We Building?</h3>
+            <p>We're creating an event invitation page that will include:</p>
+            <ul>
+              <li>A cool title that grabs attention</li>
+              <li>Important event details (when and where)</li>
+              <li>A description that gets people excited</li>
+              <li>A schedule of activities</li>
+              <li>Ways for people to RSVP</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>👉 Before We Start</h3>
+            <p>
+              Don't worry if you're completely new to this! We'll go step by
+              step, explaining everything in simple terms. It's like following a
+              recipe - we'll add one ingredient at a time.
+            </p>
+            <p>
+              If you get stuck or confused at any point, that's totally normal!
+              Feel free to go back and review previous steps. Learning to code
+              is like learning to ride a bike - it takes practice and patience.
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Setting Up Your Workspace",
+      title: "Getting Your Tools Ready",
       content: (
         <>
           <ScrollToTop />
-          <h2>Creating Your Project Folder</h2>
-          <p>
-            First, let's set up a workspace for your event invitation project:
-          </p>
-          <ol>
-            <li>
-              <strong>Create a New Folder:</strong>
+          <h2>🛠️ Setting Up Your Workspace</h2>
+
+          <div>
+            <h3>What Do You Need?</h3>
+            <p>
+              Just like a chef needs a kitchen to cook, we need a few tools to
+              create our webpage:
+            </p>
+            <ul>
+              <li>A computer (any kind will do!)</li>
+              <li>A text editor (like VS Code - it's free!)</li>
+              <li>A web browser (like Chrome, Firefox, or Edge)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Step-by-Step Setup</h3>
+            <p>Let's create a home for our project:</p>
+
+            <div>
+              <h4>1. Create a Project Folder</h4>
+              <p>Think of this like creating a new folder for your photos:</p>
               <ul>
                 <li>
-                  <strong>On Windows:</strong> Right-click on your desktop,
-                  select "New" &gt; "Folder", and name it "event-invitation".
+                  <strong>On Windows:</strong>
+                  <ol>
+                    <li>Right-click on your desktop</li>
+                    <li>Choose "New"</li>
+                    <li>Click "Folder"</li>
+                    <li>Name it "my-invitation"</li>
+                  </ol>
                 </li>
                 <li>
-                  <strong>On Mac:</strong> Right-click on your desktop, select
-                  "New Folder", and name it "event-invitation".
+                  <strong>On Mac:</strong>
+                  <ol>
+                    <li>Right-click on your desktop</li>
+                    <li>Choose "New Folder"</li>
+                    <li>Name it "my-invitation"</li>
+                  </ol>
                 </li>
               </ul>
-            </li>
-            <li>
-              <strong>Open the Folder in a Text Editor:</strong>
-              <ul>
+            </div>
+
+            <div>
+              <h4>2. Get VS Code Ready</h4>
+              <p>VS Code is like a special notebook for writing code:</p>
+              <ol>
                 <li>
-                  Open your preferred text editor (e.g., VS Code, Notepad++,
-                  Sublime Text) and navigate to the "event-invitation" folder.
+                  Download VS Code from{" "}
+                  <a href="https://code.visualstudio.com">
+                    code.visualstudio.com
+                  </a>
                 </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Create the HTML File:</strong>
-              <ul>
+                <li>Install it (just click "Next" through the installer)</li>
+                <li>Open VS Code</li>
+                <li>Go to File → Open Folder</li>
+                <li>Find and select your "my-invitation" folder</li>
+              </ol>
+            </div>
+
+            <div>
+              <h4>3. Create Your First HTML File</h4>
+              <p>Now let's create the file where we'll write our code:</p>
+              <ol>
+                <li>In VS Code, click the "New File" button</li>
                 <li>
-                  Create a new file named "index.html" inside the
-                  "event-invitation" folder.
+                  Name it "index.html" (this is like the front page of your
+                  website)
                 </li>
-              </ul>
-            </li>
-          </ol>
-          <p>
-            <strong>Note:</strong> Using "index.html" as your file name is a
-            common practice in web development. It's often the default file that
-            web servers look for when accessing a directory.
-          </p>
-          <p>
-            Now that your workspace is ready, let's move on to creating the
-            basic HTML structure for your event invitation.
-          </p>
+                <li>Click "Create"</li>
+              </ol>
+            </div>
+          </div>
+
+          <div>
+            <h3>🎉 Great Job!</h3>
+            <p>
+              You've just set up your web development workspace! This is like
+              preparing your kitchen before cooking - everything is clean and
+              ready to go. In the next step, we'll start writing our first HTML
+              code.
+            </p>
+            <p>
+              <strong>Quick Tip:</strong> Keep your folder and files organized -
+              it'll make your coding journey much smoother!
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Creating the Basic HTML Structure",
+      title: "Building Your First HTML Page",
       content: (
         <>
-          <h2>Setting Up the HTML Document</h2>
+          <h2>📝 Let's Write Our First HTML Code!</h2>
           <ScrollToTop />
-          <p>
-            Let's start by creating the basic structure of our HTML document.
-            This will serve as the foundation for our event invitation page.
-          </p>
-          <p>Open your "index.html" file and add the following code:</p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<!DOCTYPE html>
+
+          <div>
+            <h3>Understanding HTML Structure</h3>
+            <p>
+              Think of HTML like writing a letter. Just like a letter has a
+              greeting, main content, and signature, our HTML page has specific
+              parts:
+            </p>
+            <ul>
+              <li>The envelope (DOCTYPE and HTML tags)</li>
+              <li>The header (where we put important information)</li>
+              <li>The body (where we write our main message)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Your First HTML Code</h3>
+            <p>Let's type this code into your index.html file:</p>
+
+            <SyntaxHighlighter language="html" style={docco}>
+              {`<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You're Invited: Annual Tech Conference 2024</title>
+    <title>You're Invited! Join Our Amazing Event</title>
+</head>
+<body>
+    <h1>Welcome to Our Event!</h1>
+    <p>We're excited to have you join us.</p>
+</body>
+</html>`}
+            </SyntaxHighlighter>
+
+            <div>
+              <h4>Let's Break This Down:</h4>
+              <ul>
+                <li>
+                  <code>!DOCTYPE html</code>: Like telling your computer "Hey,
+                  this is a webpage!"
+                </li>
+                <li>
+                  <code>html lang="en"</code>: We're writing in English
+                </li>
+                <li>
+                  <code>head</code>: Think of this as the settings section of
+                  your page
+                </li>
+                <li>
+                  <code>body</code>: This is where your actual content goes -
+                  what people will see
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h3>🎯 Try It Out!</h3>
+            <ol>
+              <li>Copy this code into your index.html file</li>
+              <li>Save the file (Ctrl+S or Cmd+S)</li>
+              <li>Find your file in your folder and double-click it</li>
+              <li>It should open in your web browser!</li>
+            </ol>
+            <p>
+              <strong>Common Problem?</strong> If you see your code instead of a
+              webpage, make sure you saved with the .html extension!
+            </p>
+          </div>
+        </>
+      ),
+    },
+    {
+      title: "Adding Your Event Details",
+      content: (
+        <>
+          <ScrollToTop />
+          <h2>📅 Making Your Invitation Informative</h2>
+
+          <div>
+            <h3>Organizing Information</h3>
+            <p>
+              Just like when you're telling a friend about an event, you need to
+              cover the important details: What, When, Where, and Why. Let's add
+              this information to our page!
+            </p>
+          </div>
+
+          <div>
+            <h3>Adding Event Details</h3>
+            <p>
+              Replace the content in your <code>body</code> section with this:
+            </p>
+
+            <SyntaxHighlighter language="html" style={docco}>
+              {`<body>
+    <header>
+        <!-- Think of this as the top of your invitation -->
+        <h1>Annual Tech Conference 2024</h1>
+        <p>Join us for a day of learning and fun!</p>
+    </header>
+
+    <main>
+        <!-- This is like the main part of your letter -->
+        <section>
+            <h2>Event Details ℹ️</h2>
+            <p>When: Saturday, November 15, 2024</p>
+            <p>Time: 9:00 AM - 5:00 PM</p>
+            <p>Where: TechHub Center, 123 Learn Street</p>
+        </section>
+
+        <section>
+            <h2>What to Expect 🎯</h2>
+            <p>Get ready for an amazing day filled with:</p>
+            <ul>
+                <li>Exciting presentations</li>
+                <li>Hands-on workshops</li>
+                <li>Networking opportunities</li>
+                <li>Free lunch and snacks</li>
+            </ul>
+        </section>
+    </main>
+</body>`}
+            </SyntaxHighlighter>
+
+            <div>
+              <h4>Understanding the New Parts:</h4>
+              <ul>
+                <li>
+                  <code>header</code>: Like the banner at the top of a poster
+                </li>
+                <li>
+                  <code>main</code>: The main content area (like the body of a
+                  letter)
+                </li>
+                <li>
+                  <code>section</code>: Different parts of your content (like
+                  paragraphs in a letter)
+                </li>
+                <li>
+                  <code>ul</code> and <code>li</code>: Making bullet points
+                  (like a shopping list)
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h3>💡 Pro Tips:</h3>
+            <ul>
+              <li>
+                Use headings (h1, h2) to organize your content - like chapter
+                titles in a book
+              </li>
+              <li>Keep related information together in sections</li>
+              <li>Use lists to make information easy to read</li>
+              <li>
+                Add emojis to make your page more friendly (optional but fun!)
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>🎯 Practice Time!</h3>
+            <p>Try these simple exercises:</p>
+            <ol>
+              <li>Add another section with "How to Register"</li>
+              <li>Create a list of things attendees should bring</li>
+              <li>Add your own event description</li>
+            </ol>
+            <p>
+              <strong>Remember:</strong> Save your file and refresh your browser
+              to see changes!
+            </p>
+          </div>
+        </>
+      ),
+    },
+    {
+      title: "Making It Interactive - Adding Links and Contacts",
+      content: (
+        <>
+          <h2>🔗 Adding Ways for People to Respond</h2>
+          <ScrollToTop />
+
+          <div>
+            <h3>Making Your Page Interactive</h3>
+            <p>
+              Now that we have our event details, let's add ways for people to
+              contact us - like adding a phone number and email to a party
+              invitation!
+            </p>
+          </div>
+
+          <div>
+            <h3>Adding Contact Information</h3>
+            <p>Add this new section to your page:</p>
+
+            <SyntaxHighlighter language="html" style={docco}>
+              {`<section>
+    <h2>RSVP and Contact Us 📫</h2>
+    
+    <!-- Links for easy contact -->
+    <p>Ready to join us? Let us know!</p>
+    <p>
+        Email us: 
+        <a href="mailto:event@example.com">event@example.com</a>
+    </p>
+    <p>
+        Call us: 
+        <a href="tel:+1234567890">123-456-7890</a>
+    </p>
+
+    <!-- Social media links -->
+    <h3>Follow us for updates:</h3>
+    <ul>
+        <li>
+            <a href="https://twitter.com/example">Twitter</a>
+        </li>
+        <li>
+            <a href="https://facebook.com/example">Facebook</a>
+        </li>
+    </ul>
+</section>`}
+            </SyntaxHighlighter>
+
+            <div>
+              <h4>Understanding Links:</h4>
+              <ul>
+                <li>
+                  <code>a href="..."</code>: Creates a clickable link (like a
+                  doorbell - it does something when clicked!)
+                </li>
+                <li>
+                  <code>mailto:</code>: Opens the user's email program
+                </li>
+                <li>
+                  <code>tel:</code>: Opens the phone dialer on mobile devices
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h3>🎯 Try It Yourself:</h3>
+            <ol>
+              <li>Add your own email address (use a test one!)</li>
+              <li>Add more social media links</li>
+              <li>Try clicking the links to see what happens</li>
+            </ol>
+          </div>
+
+          <div>
+            <h3>⚠️ Common Mistakes to Avoid:</h3>
+            <ul>
+              <li>Don't forget the "http://" or "https://" in website links</li>
+              <li>Make sure your email has the "mailto:" prefix</li>
+              <li>Check that all your tags are properly closed</li>
+              <li>Test all links to make sure they work!</li>
+            </ul>
+          </div>
+        </>
+      ),
+    },
+    {
+      title: "Final Touches and Review",
+      content: (
+        <>
+          <ScrollToTop />
+          <h2>🎨 Adding the Finishing Touches</h2>
+
+          <div>
+            <h3>Final Check-Up</h3>
+            <p>
+              Just like proofreading a letter before sending it, let's make sure
+              everything in our webpage is perfect!
+            </p>
+          </div>
+
+          <div>
+            <h3>Complete Code Review</h3>
+            <p>Your final code should look something like this:</p>
+
+            <SyntaxHighlighter language="html" style={docco}>
+              {`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited! - Annual Tech Conference 2024</title>
 </head>
 <body>
     <header>
         <h1>Annual Tech Conference 2024</h1>
-        <p>Join us for a day of innovation and networking!</p>
+        <p>Join us for a day of learning and fun!</p>
     </header>
-    
+
     <main>
-        <!-- We'll add our main content here -->
+        <section>
+            <h2>Event Details ℹ️</h2>
+            <p>When: Saturday, November 15, 2024</p>
+            <p>Time: 9:00 AM - 5:00 PM</p>
+            <p>Where: TechHub Center, 123 Learn Street</p>
+        </section>
+
+        <section>
+            <h2>What to Expect 🎯</h2>
+            <p>Get ready for an amazing day filled with:</p>
+            <ul>
+                <li>Exciting presentations</li>
+                <li>Hands-on workshops</li>
+                <li>Networking opportunities</li>
+                <li>Free lunch and snacks</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>RSVP and Contact Us 📫</h2>
+            <p>Ready to join us? Let us know!</p>
+            <p>Email: <a href="mailto:event@example.com">event@example.com</a></p>
+            <p>Call: <a href="tel:+1234567890">123-456-7890</a></p>
+        </section>
     </main>
-    
+
     <footer>
-        <!-- We'll add our footer content here -->
+        <p>© 2024 Tech Conference. All rights reserved.</p>
     </footer>
 </body>
 </html>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down this HTML structure:</p>
-          <ul>
-            <li>
-              <code>&lt;!DOCTYPE html&gt;</code>: This declaration tells the
-              browser that this is an HTML5 document.
-            </li>
-            <li>
-              <code>&lt;html lang="en"&gt;</code>: The root element of the HTML
-              page. The <code>lang="en"</code> attribute specifies that the
-              content is in English.
-            </li>
-            <li>
-              <code>&lt;head&gt;</code>: This section contains meta information
-              about the document.
-            </li>
-            <li>
-              <code>&lt;meta charset="UTF-8"&gt;</code>: Specifies the character
-              encoding for the document (UTF-8 supports many languages).
-            </li>
-            <li>
-              <code>&lt;meta name="viewport" ...&gt;</code>: This tag ensures
-              that the page is displayed correctly on various devices.
-            </li>
-            <li>
-              <code>&lt;title&gt;</code>: Sets the title of the webpage, which
-              appears in the browser tab.
-            </li>
-            <li>
-              <code>&lt;body&gt;</code>: This is where we'll add the visible
-              content of our invitation.
-            </li>
-            <li>
-              <code>&lt;header&gt;</code>: Contains the main heading and a brief
-              introduction.
-            </li>
-            <li>
-              <code>&lt;main&gt;</code>: Will contain the main content of our
-              invitation.
-            </li>
-            <li>
-              <code>&lt;footer&gt;</code>: Will contain additional information
-              like contact details.
-            </li>
-          </ul>
-          <p>
-            Save your file and open it in a web browser. You should see the
-            title "Annual Tech Conference 2024" displayed on the page.
-          </p>
-          <p>In the next step, we'll add the main content of our invitation.</p>
-        </>
-      ),
-    },
-    {
-      title: "Adding Main Content",
-      content: (
-        <>
-          <ScrollToTop />
-          <h2>Filling in the Event Details</h2>
-          <p>
-            Now that we have our basic HTML structure, let's add the main
-            content of our event invitation. We'll include key details about the
-            event, an agenda, and RSVP information.
-          </p>
-          <p>
-            Replace the <code>&lt;main&gt;</code> section of your HTML with the
-            following code:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<main>
-    <section>
-        <h2>Event Details</h2>
-        <p><strong>Date:</strong> Saturday, November 15, 2024</p>
-        <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
-        <p><strong>Location:</strong> TechHub Convention Center, 123 Innovation Street, Silicon Valley, CA 94000</p>
-    </section>
-    
-    <section>
-        <h2>About the Event</h2>
-        <p>The Annual Tech Conference brings together industry leaders, innovators, and tech enthusiasts for a day of learning, networking, and inspiration. Don't miss this opportunity to stay ahead in the rapidly evolving world of technology!</p>
-    </section>
-    
-    <section>
-        <h2>Agenda</h2>
-        <ul>
-            <li>9:00 AM - 9:30 AM: Registration and Welcome Coffee</li>
-            <li>9:30 AM - 10:30 AM: Keynote Speech: "The Future of AI"</li>
-            <li>10:45 AM - 12:15 PM: Panel Discussion: "Cybersecurity in the Digital Age"</li>
-            <li>12:15 PM - 1:30 PM: Lunch Break and Networking</li>
-            <li>1:30 PM - 3:00 PM: Workshop Sessions (choose one):
-                <ul>
-                    <li>Web Development Trends</li>
-                    <li>Introduction to Blockchain</li>
-                    <li>UX Design Best Practices</li>
-                </ul>
-            </li>
-            <li>3:15 PM - 4:15 PM: Tech Startup Pitches</li>
-            <li>4:15 PM - 5:00 PM: Closing Remarks and Networking</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>RSVP</h2>
-        <p>Please confirm your attendance by October 31, 2024.</p>
-        <p>Email: <a href="mailto:rsvp@techtalkconf.com">rsvp@techtalkconf.com</a></p>
-        <p>Or call: <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
-    </section>
-</main>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down the structure we've added:</p>
-          <ul>
-            <li>
-              We've used multiple <code>&lt;section&gt;</code> elements to
-              organize different parts of our content. This helps improve the
-              structure and readability of our HTML.
-            </li>
-            <li>
-              The "Event Details" section uses <code>&lt;p&gt;</code> tags with{" "}
-              <code>&lt;strong&gt;</code> elements to highlight important
-              information.
-            </li>
-            <li>
-              The "Agenda" section uses an unordered list (
-              <code>&lt;ul&gt;</code>) to display the schedule. We've even
-              included a nested list for the workshop sessions.
-            </li>
-            <li>
-              In the "RSVP" section, we've used <code>&lt;a&gt;</code> tags with{" "}
-              <code>mailto:</code> and <code>tel:</code> protocols to create
-              clickable email and phone links.
-            </li>
-          </ul>
-          <p>
-            Save your file and refresh it in your web browser. You should now
-            see a more complete event invitation with all the key details.
-          </p>
-          <p>
-            In the final step, we'll add a footer to complete our invitation
-            page.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Adding the Footer and Final Touches",
-      content: (
-        <>
-          <h2>Completing Your Event Invitation</h2>
-          <ScrollToTop />
-          <p>
-            To finish our event invitation page, let's add a footer with some
-            additional information and apply a few final touches to improve the
-            overall structure.
-          </p>
-          <p>
-            Replace the <code>&lt;footer&gt;</code> section of your HTML with
-            the following code:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<footer>
-    <h2>Contact Information</h2>
-    <address>
-        <p>For any inquiries, please contact:</p>
-        <p>Event Coordinator: Jane Smith</p>
-        <p>Email: <a href="mailto:info@techtalkconf.com">info@techtalkconf.com</a></p>
-        <p>Phone: <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
-    </address>
-    <p>&copy; 2024 Annual Tech Conference. All rights reserved.</p>
-</footer>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Let's break down the new elements we've added:</p>
-          <ul>
-            <li>
-              <code>&lt;address&gt;</code>: This semantic HTML element is used
-              to enclose contact information.
-            </li>
-            <li>
-              We've included links for email and phone, similar to the RSVP
-              section.
-            </li>
-            <li>
-              The copyright notice at the bottom uses the{" "}
-              <code>&amp;copy;</code> entity to display the copyright symbol.
-            </li>
-          </ul>
-          <p>
-            Now, let's make a final improvement to our document structure by
-            adding some semantic HTML5 elements. Update your{" "}
-            <code>&lt;body&gt;</code> tag to look like this:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-    <header>
-        <h1>Annual Tech Conference 2024</h1>
-        <p>Join us for a day of innovation and networking!</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#details">Event Details</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section id="details">
-            <h2>Event Details</h2>
-            <!-- Event details content -->
-        </section>
-        
-        <section id="about">
-            <h2>About the Event</h2>
-            <!-- About content -->
-        </section>
-        
-        <section id="agenda">
-            <h2>Agenda</h2>
-            <!-- Agenda content -->
-        </section>
-        
-        <section id="rsvp">
-            <h2>RSVP</h2>
-            <!-- RSVP content -->
-        </section>
-    </main>
-    
-    <footer>
-        <!-- Footer content -->
-    </footer>
-</body>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-          <p>Here's what we've changed:</p>
-          <ul>
-            <li>
-              Added a <code>&lt;nav&gt;</code> section with links to different
-              parts of the page.
-            </li>
-            <li>
-              Added <code>id</code> attributes to each section in the{" "}
-              <code>&lt;main&gt;</code> content. This allows the navigation
-              links to jump to specific sections of the page.
-            </li>
-          </ul>
-          <h3>Congratulations!</h3>
-          <p>
-            You've successfully created an HTML event invitation page! This
-            project has helped you practice:
-          </p>
-          <ul>
-            <li>Creating the structure of an HTML document</li>
-            <li>
-              Using semantic HTML tags like <code>&lt;header&gt;</code>,{" "}
-              <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,{" "}
-              <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, and{" "}
-              <code>&lt;address&gt;</code>
-            </li>
-            <li>
-              Creating lists (ordered and unordered) to organize information
-            </li>
-            <li>Using hyperlinks for email and phone contacts</li>
-            <li>Adding internal page links for navigation</li>
-          </ul>
-          <p>
-            Feel free to customize this schedule further by adding your own
-            classes, changing the time slots, or even adding weekend activities.
-            Remember, practice makes perfect in web development!
-          </p>
+            </SyntaxHighlighter>
+          </div>
+
+          <div>
+            <h3>🔍 Final Checklist:</h3>
+            <ul>
+              <li>All tags are properly opened and closed</li>
+              <li>Information is organized in logical sections</li>
+              <li>Links are working correctly</li>
+              <li>Text is clear and easy to read</li>
+              <li>Page looks good in different browsers</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>🎉 What You've Learned:</h3>
+            <ul>
+              <li>How to create a basic HTML document</li>
+              <li>Using different types of tags (h1, p, ul, etc.)</li>
+              <li>Adding links and contact information</li>
+              <li>Organizing content in a clear structure</li>
+              <li>Basic web development best practices</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>🚀 Next Steps:</h3>
+            <p>Now that you've created your first webpage, you can:</p>
+            <ul>
+              <li>Customize the content for your own event</li>
+              <li>Learn about CSS to make it look prettier</li>
+              <li>Add more sections and features</li>
+              <li>Share your creation with friends!</li>
+            </ul>
+            <p>
+              <strong>Remember:</strong> Every web developer started just like
+              you - with a simple webpage. Keep practicing, and you'll be
+              building amazing websites in no time!
+            </p>
+          </div>
         </>
       ),
     },
@@ -432,13 +559,28 @@ const EventInvitation = () => {
 
   return (
     <div className="lesson-container">
-      <div
-        style={{
-          maxWidth: "800px",
-          margin: "0 auto",
-          padding: "20px",
-        }}
-      >
+      <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+        <div
+          className="progress-bar"
+          style={{
+            width: "100%",
+            height: "10px",
+            backgroundColor: "#eee",
+            borderRadius: "5px",
+            marginBottom: "20px",
+          }}
+        >
+          <div
+            style={{
+              width: `${((step + 1) / tutorialSteps.length) * 100}%`,
+              height: "100%",
+              backgroundColor: "#28a745",
+              borderRadius: "5px",
+              transition: "width 0.3s ease-in-out",
+            }}
+          />
+        </div>
+
         <h1
           style={{
             color: "#333",
@@ -446,23 +588,33 @@ const EventInvitation = () => {
             paddingBottom: "10px",
           }}
         >
-          Creating an Event Invitation Page HTML Tutorial
+          Build Your First Web Page: Event Invitation
         </h1>
+
         <div style={{ marginBottom: "20px" }}>
           <h2 style={{ color: "#444" }}>
-            Step {step + 1}: {tutorialSteps[step].title}
+            Step {step + 1} of {tutorialSteps.length}:{" "}
+            {tutorialSteps[step].title}
           </h2>
           <div
             style={{
-              backgroundColor: "#f9f9f9",
+              backgroundColor: "#fff",
               padding: "20px",
               borderRadius: "5px",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
             }}
           >
             {tutorialSteps[step].content}
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "20px",
+          }}
+        >
           <button
             onClick={handlePrevious}
             disabled={step === 0}
@@ -473,10 +625,12 @@ const EventInvitation = () => {
               border: "none",
               borderRadius: "5px",
               cursor: step === 0 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            Previous
+            ← Previous Step
           </button>
+
           <button
             onClick={handleNext}
             disabled={step === tutorialSteps.length - 1}
@@ -489,9 +643,10 @@ const EventInvitation = () => {
               borderRadius: "5px",
               cursor:
                 step === tutorialSteps.length - 1 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            {step === tutorialSteps.length - 1 ? "Finish" : "Next"}
+            {step === tutorialSteps.length - 1 ? "Finish" : "Next Step →"}
           </button>
         </div>
       </div>
