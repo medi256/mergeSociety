@@ -13,7 +13,7 @@ const ParallaxScrollingEffect = () => {
       title: "Introduction to Parallax Scrolling Effects",
       content: (
         <>
-          <h3>Welcome to Building a Parallax Scrolling Effect with CSS!</h3>
+          <h3>Welcome to Building a Parallax Scrolling Effect with CSS! 🚀</h3>
           <ScrollToTop />
           <p>
             In this project, we'll create a visually engaging parallax scrolling
@@ -48,54 +48,128 @@ const ParallaxScrollingEffect = () => {
           <p>
             Before we start coding, let's set up a workspace for our project:
           </p>
-          <ol>
-            <li>
-              On Windows: Right-click on your desktop, select "New" &gt;
-              "Folder", and name it "parallax-scrolling-effect".
-            </li>
-            <li>
-              On Mac: Right-click on your desktop, select "New Folder", and name
-              it "parallax-scrolling-effect".
-            </li>
-            <li>
-              <strong>Open the Folder in a Text Editor:</strong>
-              <ul>
-                <li>
-                  <strong>Visual Studio Code:</strong> If you have VS Code,
-                  right-click on the "parallax-scrolling-effect" folder and
-                  select "Open with Code".
-                </li>
-                <li>
-                  <strong>Other Text Editors:</strong> For Notepad or TextEdit,
-                  simply double-click on the folder to open it.
-                </li>
-              </ul>
-            </li>
-
-            <strong>Create HTML and CSS Files:</strong>
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#fff3e0",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 1: Create Your Project Folder</h4>
+            <p>
+              Think of this folder like a container where we'll keep all our
+              project files - just like having a special drawer for your art
+              supplies!
+            </p>
             <ul>
               <li>
-                In VS Code: Right-click in the file explorer panel, select "New
-                File", and create two files: "index.html" and "styles.css".
+                <strong>On Windows:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New" &gt; "Folder"</li>
+                  <li>Name it "parallax-scrolling-effect"</li>
+                </ol>
               </li>
               <li>
-                In Notepad/TextEdit: Create a new file, then immediately "Save
-                As" and create two files: "index.html" and "styles.css". Make
-                sure to save them in your "parallax-scrolling-effect" folder.
+                <strong>On Mac:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New Folder"</li>
+                  <li>Name it "parallax-scrolling-effect"</li>
+                </ol>
               </li>
             </ul>
-          </ol>
-          <p>
-            <strong>Explanation:</strong> We create a new folder to keep our
-            project organized. The "index.html" file will contain the HTML
-            structure, and "styles.css" will hold our CSS rules for styling. The
-            "index.html" file is the main page of our parallax effect, and it's
-            standard to name it "index.html".
-          </p>
-          <p>
-            Great job! You've set up your workspace. In the next step, we'll
-            start building the HTML structure for our parallax effect.
-          </p>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e3f2fd",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 2: Get Your Text Editor Ready</h4>
+            <p>
+              A text editor is like your crafting tool - it's where we'll write
+              our code. We recommend Visual Studio Code because it's free and
+              beginner-friendly!
+            </p>
+            <ol>
+              <li>
+                Download Visual Studio Code from{" "}
+                <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>{" "}
+                if you haven't already
+              </li>
+              <li>Install it on your computer</li>
+              <li>
+                Open VS Code and drag your "parallax-scrolling-effect" folder
+                into the window
+              </li>
+            </ol>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e8f5e9",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 3: Create Your Project Files</h4>
+            <p>
+              We need two special files - think of them as two pieces of paper
+              where we'll write different things:
+            </p>
+            <ul>
+              <li>
+                <strong>index.html</strong> - This is like the blueprint of our
+                parallax effect (the structure)
+              </li>
+              <li>
+                <strong>styles.css</strong> - This is like our painting palette
+                (where we make things pretty)
+              </li>
+            </ul>
+            <p>To create these files:</p>
+            <ol>
+              <li>Click "New File" in VS Code</li>
+              <li>Save it as "index.html"</li>
+              <li>Create another new file</li>
+              <li>Save it as "styles.css"</li>
+            </ol>
+          </div>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f0f7ff",
+              padding: "15px",
+              borderRadius: "5px",
+              marginTop: "20px",
+            }}
+          >
+            <p>
+              <strong>🎯 Success Check:</strong> At this point, you should have:
+            </p>
+            <ul>
+              <li>
+                A folder named "parallax-scrolling-effect" on your desktop
+              </li>
+              <li>Visual Studio Code open with your folder</li>
+              <li>Two empty files: index.html and styles.css</li>
+            </ul>
+            <p>
+              <strong>👉 Need Help?</strong> If something's not working, try
+              closing VS Code and opening it again, or create the files using
+              the "File → New File" menu.
+            </p>
+          </div>
         </>
       ),
     },
@@ -109,18 +183,16 @@ const ParallaxScrollingEffect = () => {
             Before we dive into CSS, let's set up the HTML structure for our
             parallax scrolling effect:
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "index.html":</strong> Open your "index.html" file in
-              your code editor.
+              <strong>1. Open "index.html":</strong> Open your "index.html" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add the Parallax Scrolling Effect HTML:</strong> Copy and
-              paste the following code into your "index.html" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="html" style={docco}>
-                    {`<!DOCTYPE html>
+              <strong>2. Add the Parallax Scrolling Effect HTML:</strong> Copy
+              and paste the following code into your "index.html" file:
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -149,9 +221,7 @@ const ParallaxScrollingEffect = () => {
   </section>
 </body>
 </html>`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the HTML structure:</p>
@@ -185,18 +255,16 @@ const ParallaxScrollingEffect = () => {
             Let's start by styling the body of our HTML document to ensure a
             consistent and clean layout.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Body Styles:</strong> Copy and paste the following CSS
-              code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`body {
+              <strong>2. Add Body Styles:</strong> Copy and paste the following
+              CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -204,9 +272,7 @@ const ParallaxScrollingEffect = () => {
   background-color: #f4f4f4;
   overflow-x: hidden;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -253,18 +319,16 @@ const ParallaxScrollingEffect = () => {
             Now, let's style the parallax sections to give them a clean and
             modern look.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Parallax Section Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.parallax-section {
+              <strong>2. Add Parallax Section Styles:</strong> Copy and paste
+              the following CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.parallax-section {
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -313,9 +377,7 @@ const ParallaxScrollingEffect = () => {
   font-size: 1.5rem;
   margin: 10px 0;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -335,9 +397,8 @@ const ParallaxScrollingEffect = () => {
               section.
             </li>
             <li>
-              <code>.content</code>: Styles the content of each section with
-              centered text and a higher z-index to ensure it appears above the
-              background.
+              `.content`: Styles the content of each section with centered text
+              and a higher z-index to ensure it appears above the background.
             </li>
             <li>
               <code>.content h1</code>: Styles the title of each section with a
@@ -369,23 +430,19 @@ const ParallaxScrollingEffect = () => {
             Let's add smooth scrolling to enhance the user experience of the
             parallax effect.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Smooth Scrolling:</strong> Copy and paste the
+              <strong>2. Add Smooth Scrolling:</strong> Copy and paste the
               following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`html {
+              <SyntaxHighlighter language="css" style={docco}>
+                {`html {
   scroll-behavior: smooth;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rule we just added:</p>
@@ -416,18 +473,16 @@ const ParallaxScrollingEffect = () => {
             Let's ensure our parallax effect looks great on various devices by
             adding responsive design using CSS media queries.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Responsive Design Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`@media (max-width: 768px) {
+              <strong>2. Add Responsive Design Styles:</strong> Copy and paste
+              the following CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media (max-width: 768px) {
   .parallax-section {
     height: auto;
     padding: 50px 20px;
@@ -441,9 +496,7 @@ const ParallaxScrollingEffect = () => {
     font-size: 1rem;
   }
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -486,24 +539,20 @@ const ParallaxScrollingEffect = () => {
             Let's add the final touches to our parallax scrolling effect to
             ensure it is fully functional and visually appealing.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Final Touches:</strong> Copy and paste the following
-              CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.parallax-section:hover::before {
+              <strong>2. Add Final Touches:</strong> Copy and paste the
+              following CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.parallax-section:hover::before {
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -529,7 +578,7 @@ const ParallaxScrollingEffect = () => {
           </p>
           <p>
             Feel free to continue customizing your parallax effect and exploring
-            more CSS techniques. Happy coding!
+            more CSS techniques. Happy coding! 🚀
           </p>
         </>
       ),
