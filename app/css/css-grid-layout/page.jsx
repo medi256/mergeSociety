@@ -4,7 +4,6 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Image from "next/image";
 
-
 export const metadata = {
   title: "CSS Grid Tutorial",
   description:
@@ -22,7 +21,6 @@ export const metadata = {
 const CSSGrid = () => {
   return (
     <div className="lesson-container">
-      
       <h1>CSS Grid</h1>
       <p>
         Have you ever had a problem positioning items on your web browser?
@@ -248,9 +246,13 @@ grid-template: 50px 50px / 100px auto 100px;
       <p>A way to remember this is by thinking of the letter L:</p>
 
       <Image
-        width={500}
-        layout="responsive"
-        height={300}
+        width={233}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          objectFit: "cover",
+        }}
+        height={212}
         src="https://www.freecodecamp.org/news/content/images/2022/05/image-90.png"
         alt="demo"
       />
@@ -260,7 +262,7 @@ grid-template: 50px 50px / 100px auto 100px;
         width={500}
         layout="responsive"
         height={300}
-        src=" https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-2.png"
+        src="https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-2.png"
         alt="demo"
       />
       <p>A grid with a column of 100px auto 100px and row of 50px 50px</p>
@@ -295,7 +297,7 @@ column-gap: 20px;
         alt="demo"
       />
       <p>20px column-gap</p>
-      
+
       <h2>Row-gap property</h2>
       <p>
         Just like column-gap, row-gap is a CSS property that assigns a space
@@ -539,7 +541,7 @@ justify-content: space-evenly;
         items/elements horizontally. Try doing it yourself to understand it
         more.
       </p>
-      
+
       <h2>Align-content property</h2>
       <p>
         Align-content is the opposite of justify-content. You use the

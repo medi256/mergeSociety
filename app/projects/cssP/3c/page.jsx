@@ -6,33 +6,56 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import ScrollToTop from "@/app/ScrollToTop";
 
 const ResponsiveNavigationMenu = () => {
-  const [currentStep, setCurrentStep] = useState(0);
+  const [step, setStep] = useState(0);
 
   const steps = [
     {
-      title: "Introduction to Responsive Navigation Menus",
+      title: "Let's Build a Website Menu Together!",
       content: (
         <>
-          <h3>Welcome to Building a Responsive Navigation Menu with CSS!</h3>
+          <h3>Welcome to Your First Navigation Menu Project! 🎉</h3>
           <ScrollToTop />
           <p>
-            In this project, we'll create a responsive navigation menu using
-            CSS. A responsive navigation menu is essential for ensuring that
-            your website is user-friendly on various devices, from desktops to
-            mobile phones.
+            Imagine you're building a house - you need doors to move between
+            rooms, right? Well, a navigation menu is like the doors in your
+            website! It helps visitors move from one page to another easily.
           </p>
-          <p>Here's what we'll cover in this tutorial:</p>
-          <ul>
-            <li>Setting up the HTML structure for the navigation menu.</li>
-            <li>Applying basic styling to the menu items.</li>
-            <li>Using media queries to make the menu responsive.</li>
-            <li>Adding a hamburger menu for mobile devices.</li>
-          </ul>
           <p>
-            By the end of this project, you'll have a fully functional and
-            responsive navigation menu. Let's get started by setting up our
-            project files!
+            Think of your favorite apps or websites - they all have menus that
+            work perfectly whether you're on your phone or computer. Today,
+            we're going to build something just like that! 📱 💻
           </p>
+          <p>
+            Here's what we'll learn today (don't worry, we'll take it step by
+            step!):
+          </p>
+          <ul>
+            <li>
+              ✨ Building the basic structure (like laying the foundation of a
+              house)
+            </li>
+            <li>🎨 Making it look pretty with CSS (like painting the walls)</li>
+            <li>
+              📱 Making it work on phones and tablets (like adding flexible
+              furniture)
+            </li>
+            <li>
+              🍔 Creating a special menu for phones (the famous "hamburger"
+              menu)
+            </li>
+          </ul>
+          <div>
+            <h4>Why This Matters? 🤔</h4>
+            <p>
+              Every website needs a good menu! After completing this project,
+              you'll be able to:
+            </p>
+            <ul>
+              <li>Add professional navigation to your websites</li>
+              <li>Make your websites work great on all devices</li>
+              <li>Understand how modern websites are built</li>
+            </ul>
+          </div>
         </>
       ),
     },
@@ -41,593 +64,823 @@ const ResponsiveNavigationMenu = () => {
       content: (
         <>
           <ScrollToTop />
-          <h3>Creating Your Project Folder and Files</h3>
+          <h3>Creating Your Project's Home 🏠</h3>
           <p>
-            Before we start coding, let's set up a workspace for our project:
+            Before we start making our navigation menu, we need to set up our
+            workspace. Think of this like preparing your kitchen before cooking
+            - you want all your tools and ingredients ready!
           </p>
-          <ol>
-            <li>
-              On Windows: Right-click on your desktop, select "New" &gt;
-              "Folder", and name it "responsive-navigation-menu".
-            </li>
-            <li>
-              On Mac: Right-click on your desktop, select "New Folder", and name
-              it "responsive-navigation-menu".
-            </li>
-            <li>
-              <strong>Open the Folder in a Text Editor:</strong>
-              <ul>
-                <li>
-                  <strong>Visual Studio Code:</strong> If you have VS Code,
-                  right-click on the "responsive-navigation-menu" folder and
-                  select "Open with Code".
-                </li>
-                <li>
-                  <strong>Other Text Editors:</strong> For Notepad or TextEdit,
-                  simply double-click on the folder to open it.
-                </li>
-              </ul>
-            </li>
-
-            <strong>Create HTML and CSS Files:</strong>
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#fff3e0",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 1: Create Your Project Folder</h4>
+            <p>
+              Think of this folder like a container where we'll keep all our
+              project files - just like having a special drawer for your art
+              supplies!
+            </p>
             <ul>
               <li>
-                In VS Code: Right-click in the file explorer panel, select "New
-                File", and create two files: "index.html" and "styles.css".
+                <strong>On Windows:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New"</li>
+                  <li>Click "Folder"</li>
+                  <li>Name it "my-navigation-menu"</li>
+                </ol>
               </li>
               <li>
-                In Notepad/TextEdit: Create a new file, then immediately "Save
-                As" and create two files: "index.html" and "styles.css". Make
-                sure to save them in your "responsive-navigation-menu" folder.
+                <strong>On Mac:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New Folder"</li>
+                  <li>Name it "my-navigation-menu"</li>
+                </ol>
               </li>
             </ul>
-          </ol>
-          <p>
-            <strong>Explanation:</strong> We create a new folder to keep our
-            project organized. The "index.html" file will contain the HTML
-            structure, and "styles.css" will hold our CSS rules for styling. The
-            "index.html" file is the main page of our navigation menu, and it's
-            standard to name it "index.html".
-          </p>
-          <p>
-            Great job! You've set up your workspace. In the next step, we'll
-            start building the HTML structure for our navigation menu.
-          </p>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e3f2fd",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 2: Get Your Text Editor Ready</h4>
+            <p>
+              A text editor is like your crafting tool - it's where we'll write
+              our code. We recommend Visual Studio Code because it's free and
+              beginner-friendly!
+            </p>
+            <ol>
+              <li>
+                Download Visual Studio Code from{" "}
+                <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>{" "}
+                if you haven't already
+              </li>
+              <li>Install it on your computer</li>
+              <li>
+                Open VS Code and drag your "my-navigation-menu" folder into the
+                window
+              </li>
+            </ol>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e8f5e9",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 3: Create Your Project Files</h4>
+            <p>
+              We need two special files - think of them as two pieces of paper
+              where we'll write different things:
+            </p>
+            <ul>
+              <li>
+                <strong>index.html</strong> - This is like the blueprint of our
+                navigation menu (the structure)
+              </li>
+              <li>
+                <strong>styles.css</strong> - This is like our painting palette
+                (where we make things pretty)
+              </li>
+            </ul>
+            <p>To create these files:</p>
+            <ol>
+              <li>Click "New File" in VS Code</li>
+              <li>Save it as "index.html"</li>
+              <li>Create another new file</li>
+              <li>Save it as "styles.css"</li>
+            </ol>
+          </div>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f0f7ff",
+              padding: "15px",
+              borderRadius: "5px",
+              marginTop: "20px",
+            }}
+          >
+            <p>
+              <strong>🎯 Success Check:</strong> At this point, you should have:
+            </p>
+            <ul>
+              <li>A folder named "my-navigation-menu" on your desktop</li>
+              <li>Visual Studio Code open with your folder</li>
+              <li>Two empty files: index.html and styles.css</li>
+            </ul>
+            <p>
+              <strong>👉 Need Help?</strong> If something's not working, try
+              closing VS Code and opening it again, or create the files using
+              the "File → New File" menu.
+            </p>
+          </div>
         </>
       ),
     },
     {
-      title: "Setting Up the HTML Structure",
+      title: "Building Our Menu's Structure",
       content: (
         <>
-          <h3>Creating the Navigation Menu HTML</h3>
+          <h3>Let's Build the Foundation! 🏗️</h3>
           <ScrollToTop />
           <p>
-            Before we dive into CSS, let's set up the HTML structure for our
-            navigation menu:
+            Imagine building with LEGO blocks - we'll start with the basic
+            pieces and then put them together to make something awesome!
           </p>
+
+          <div>
+            <h4>Beginner's Tip! 💡</h4>
+            <p>
+              HTML code might look scary at first, but think of it like building
+              blocks: each piece has a special job to do. We'll explain every
+              single piece!
+            </p>
+          </div>
+
+          <h4>Step-by-Step: Writing Our HTML</h4>
           <ol>
             <li>
-              <strong>Open "index.html":</strong> Open your "index.html" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add the Navigation Menu HTML:</strong> Copy and paste the
-              following code into your "index.html" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="html" style={docco}>
-                    {`<!DOCTYPE html>
+              <strong>1. Open Your index.html File</strong>
+              <p>
+                Copy this code into your index.html file - don't worry, we'll
+                explain every part! 🧩 :
+              </p>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Navigation Menu</title>
+  <title>My Cool Navigation Menu</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">
-      <a href="#">My Website</a>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
+  <!-- Our menu will go here! -->
 </body>
 </html>`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>
+                  🎓 Think of this like a recipe card: it tells the browser what
+                  kind of document this is and what ingredients (files) we need!
+                </p>
+                <ul>
+                  <li>
+                    <code>&lt;!DOCTYPE html&gt;</code>: Declares this as an
+                    HTML5 document
+                  </li>
+                  <li>
+                    <code>&lt;html lang="en"&gt;</code>: Sets the language to
+                    English
+                  </li>
+                  <li>
+                    <code>&lt;meta charset="UTF-8"&gt;</code>: Sets the
+                    character encoding to UTF-8
+                  </li>
+                  <li>
+                    <code>
+                      &lt;meta name="viewport" content="width=device-width,
+                      initial-scale=1.0"&gt;
+                    </code>
+                    : Ensures the page is responsive on all devices
+                  </li>
+                  <li>
+                    <code>
+                      &lt;title&gt;My Cool Navigation Menu&lt;/title&gt;
+                    </code>
+                    : Sets the title of the page
+                  </li>
+                  <li>
+                    <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+                    : Links our CSS file
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <strong>2. Add Our Navigation Menu Structure</strong>
+              <p>Now let's add our menu's building blocks:</p>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<nav>
+  <div class="logo">
+    <a href="#">My Website</a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</nav>`}
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>&lt;nav&gt;</code>: A container for our navigation
+                    menu
+                  </li>
+                  <li>
+                    <code>&lt;div class="logo"&gt;</code>: Contains the logo or
+                    main title of the website
+                  </li>
+                  <li>
+                    <code>&lt;ul class="nav-links"&gt;</code>: A list of
+                    navigation links
+                  </li>
+                  <li>
+                    <code>&lt;li&gt;</code>: Each list item represents a
+                    navigation link
+                  </li>
+                  <li>
+                    <code>&lt;div class="burger"&gt;</code>: The hamburger menu
+                    icon for mobile devices
+                  </li>
+                </ul>
+              </div>
             </li>
           </ol>
-          <p>Let's understand the HTML structure:</p>
-          <ul>
-            <li>
-              <code>&lt;nav&gt;</code>: Represents the navigation menu.
-            </li>
-            <li>
-              <code>&lt;div class="logo"&gt;</code>: Contains the logo or main
-              title of the website.
-            </li>
-            <li>
-              <code>&lt;ul class="nav-links"&gt;</code>: Contains the list of
-              navigation links.
-            </li>
-            <li>
-              <code>&lt;div class="burger"&gt;</code>: Represents the hamburger
-              menu icon for mobile devices.
-            </li>
-          </ul>
-          <p>
-            Save your "index.html" file. Now we have the basic HTML structure in
-            place. In the next step, we'll start applying CSS styles to our
-            navigation menu.
-          </p>
+
+          <div>
+            <h4>Let's Break This Down! 🔍</h4>
+            <ul>
+              <li>
+                <strong>{"<nav>"}</strong>: This is like a special container for
+                our menu (like a toolbox that holds all our navigation tools)
+              </li>
+              <li>
+                <strong>logo div</strong>: This is our website's name or brand
+                (like the sign outside a store)
+              </li>
+              <li>
+                <strong>nav-links</strong>: These are our menu items (like
+                chapters in a book)
+              </li>
+              <li>
+                <strong>burger</strong>: This will be our mobile menu button (it
+                looks like a hamburger! 🍔)
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Quick Check! ✅</h4>
+            <p>Before moving on, make sure:</p>
+            <ul>
+              <li>Your code looks exactly like the example above</li>
+              <li>You saved your index.html file</li>
+              <li>You don't see any red squiggly lines in your code editor</li>
+            </ul>
+          </div>
         </>
       ),
     },
     {
-      title: "Styling the Body",
+      title: "Making Our Menu Look Pretty",
       content: (
         <>
           <ScrollToTop />
-          <h3>Styling the Body</h3>
+          <h3>Time to Add Some Style! 🎨</h3>
+
           <p>
-            Let's start by styling the body of our HTML document to ensure a
-            consistent and clean layout.
+            Now that we have our structure, let's make it look good! Think of
+            CSS as your website's wardrobe - we're going to dress up our menu to
+            make it look professional.
           </p>
+
+          <div>
+            <h4>CSS is Like Magic! ✨</h4>
+            <p>
+              With CSS, we can change colors, sizes, spacing - almost anything!
+              Don't worry if you don't understand every line, we'll explain each
+              part.
+            </p>
+          </div>
+
+          <h4>Let's Style Our Menu Step by Step:</h4>
+
           <ol>
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Body Styles:</strong> Copy and paste the following CSS
-              code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+              <strong>1. Basic Page Setup</strong>
+              <p>
+                Copy this code into your styles.css file - don't worry, we'll
+                explain every part! 🧩 :
+              </p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`/* This makes sure our page looks consistent everywhere */
+body {
+  font-family: Arial, sans-serif;  /* Easy to read font */
+  margin: 0;                       /* No extra space around edges */
+  padding: 0;                      /* No inner spacing */
+  box-sizing: border-box;          /* Makes size calculations easier */
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>
+                  🎨 Think of this like preparing a canvas before painting -
+                  we're making sure we have a clean surface to work on!
+                </p>
+                <ul>
+                  <li>
+                    <code>font-family: Arial, sans-serif;</code>: Sets the
+                    default font to Arial or any sans-serif font
+                  </li>
+                  <li>
+                    <code>margin: 0;</code>: Removes the default margin from the
+                    body
+                  </li>
+                  <li>
+                    <code>padding: 0;</code>: Removes the default padding from
+                    the body
+                  </li>
+                  <li>
+                    <code>box-sizing: border-box;</code>: Ensures that padding
+                    and border are included in the element's total width and
+                    height
+                  </li>
+                </ul>
+              </div>
             </li>
-          </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
+
             <li>
-              <code>font-family: Arial, sans-serif;</code>: Sets the default
-              font for the entire page.
-            </li>
-            <li>
-              <code>margin: 0;</code>: Removes the default margin from the body.
-            </li>
-            <li>
-              <code>padding: 0;</code>: Removes the default padding from the
-              body.
-            </li>
-            <li>
-              <code>box-sizing: border-box;</code>: Ensures that the padding and
-              border are included in the element's total width and height.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you open "index.html" in a web
-            browser, you'll see the basic layout applied to your page.
-          </p>
-          <p>In the next step, we'll style the navigation bar.</p>
-        </>
-      ),
-    },
-    {
-      title: "Styling the Navigation Bar",
-      content: (
-        <>
-          <h3>Styling the Navigation Bar</h3>
-          <ScrollToTop />
-          <p>
-            Now, let's style the navigation bar to give it a clean and modern
-            look.
-          </p>
-          <ol>
-            <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Navigation Bar Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`nav {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+              <strong>2. Styling Our Navigation Container</strong>
+              <p>Now let's style the main navigation bar:</p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`nav {
+  background-color: #333;          /* Dark gray background */
+  color: white;                    /* White text */
+  display: flex;                   /* Makes items line up nicely */
+  justify-content: space-between;  /* Spreads items out evenly */
+  align-items: center;             /* Centers items vertically */
+  padding: 1rem;                   /* Adds some breathing room */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Adds a subtle shadow */
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>background-color: #333;</code>: Sets the background
+                    color to a dark gray
+                  </li>
+                  <li>
+                    <code>color: white;</code>: Sets the text color to white
+                  </li>
+                  <li>
+                    <code>display: flex;</code>: Uses flexbox to layout the
+                    items in the navigation bar
+                  </li>
+                  <li>
+                    <code>justify-content: space-between;</code>: Distributes
+                    the items to the start and end
+                  </li>
+                  <li>
+                    <code>align-items: center;</code>: Vertically centers the
+                    items in the navigation bar
+                  </li>
+                  <li>
+                    <code>padding: 1rem;</code>: Adds padding to the navigation
+                    bar for spacing
+                  </li>
+                  <li>
+                    <code>box-shadow: 0 2px 5px rgba(0,0,0,0.1);</code>: Adds a
+                    subtle shadow to the navigation bar
+                  </li>
+                </ul>
+              </div>
             </li>
           </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
-            <li>
-              <code>background-color: #333;</code>: Sets the background color of
-              the navigation bar to a dark gray.
-            </li>
-            <li>
-              <code>color: #fff;</code>: Sets the text color of the navigation
-              bar to white.
-            </li>
-            <li>
-              <code>display: flex;</code>: Uses flexbox to layout the items in
-              the navigation bar.
-            </li>
-            <li>
-              <code>justify-content: space-between;</code>: Distributes the
-              items in the navigation bar to the start and end.
-            </li>
-            <li>
-              <code>align-items: center;</code>: Vertically centers the items in
-              the navigation bar.
-            </li>
-            <li>
-              <code>padding: 10px 20px;</code>: Adds padding to the navigation
-              bar for spacing.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you open "index.html" in a web
-            browser, you'll see the styled navigation bar.
-          </p>
-          <p>In the next step, we'll style the logo.</p>
+
+          <div>
+            <h4>Understanding Colors! 🌈</h4>
+            <p>Colors in CSS can be written in different ways:</p>
+            <ul>
+              <li>
+                <strong>Names</strong>: like 'red', 'blue', 'white' (Easy to
+                remember!)
+              </li>
+              <li>
+                <strong>HEX codes</strong>: like #333 or #FF0000 (More precise
+                colors!)
+              </li>
+              <li>
+                <strong>RGB</strong>: like rgb(255, 0, 0) (Good for
+                transparency!)
+              </li>
+            </ul>
+          </div>
         </>
       ),
     },
     {
-      title: "Styling the Logo",
+      title: "Styling Our Menu Links",
       content: (
         <>
+          <h3>Making Our Links Look Awesome! 🔗</h3>
           <ScrollToTop />
-          <h3>Styling the Logo</h3>
+
           <p>
-            Let's style the logo to make it stand out and look professional.
+            Time to make our menu links look professional! Think of each link as
+            a button on a remote control - it needs to be easy to see and click.
           </p>
+
+          <div>
+            <h4>Why Links Matter! 🎯</h4>
+            <p>
+              Good-looking links make your website easier to use. They should:
+            </p>
+            <ul>
+              <li>Be easy to read</li>
+              <li>Stand out from regular text</li>
+              <li>Show when users hover over them</li>
+              <li>Look clickable</li>
+            </ul>
+          </div>
+
+          <h4>Step-by-Step Link Styling:</h4>
+
           <ol>
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Logo Styles:</strong> Copy and paste the following CSS
-              code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.logo a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+              <strong>1. Styling the Link Container</strong>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-links {
+  display: flex;          /* Makes links go horizontal */
+  list-style: none;      /* Removes bullet points */
+  margin: 0;             /* No extra space outside */
+  padding: 0;            /* No extra space inside */
+  gap: 2rem;             /* Space between links */
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>display: flex;</code>: Uses flexbox to layout the
+                    links horizontally
+                  </li>
+                  <li>
+                    <code>list-style: none;</code>: Removes the default bullet
+                    points from the list
+                  </li>
+                  <li>
+                    <code>margin: 0;</code>: Removes the default margin from the
+                    list
+                  </li>
+                  <li>
+                    <code>padding: 0;</code>: Removes the default padding from
+                    the list
+                  </li>
+                  <li>
+                    <code>gap: 2rem;</code>: Adds space between the links
+                  </li>
+                </ul>
+              </div>
             </li>
-          </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
+
             <li>
-              <code>color: #fff;</code>: Sets the text color of the logo to
-              white.
-            </li>
-            <li>
-              <code>text-decoration: none;</code>: Removes the underline from
-              the logo link.
-            </li>
-            <li>
-              <code>font-size: 1.5rem;</code>: Sets the font size of the logo to
-              1.5rem for a larger size.
-            </li>
-            <li>
-              <code>font-weight: bold;</code>: Makes the logo text bold.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you open "index.html" in a web
-            browser, you'll see the styled logo.
-          </p>
-          <p>In the next step, we'll style the navigation links.</p>
-        </>
-      ),
-    },
-    {
-      title: "Styling the Navigation Links",
-      content: (
-        <>
-          <h3>Styling the Navigation Links</h3>
-          <ScrollToTop />
-          <p>
-            Now, let's style the navigation links to make them visually
-            appealing and easy to navigate.
-          </p>
-          <ol>
-            <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Navigation Links Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.nav-links {
-  display: flex;
-  list-style: none;
+              <strong>2. Making Links Look Pretty</strong>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-links a {
+  color: white;                /* White text */
+  text-decoration: none;       /* Removes underline */
+  font-size: 1.1rem;          /* Makes text bigger */
+  transition: all 0.3s ease;   /* Smooth hover effect */
 }
 
-.nav-links li {
-  margin: 0 15px;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;  
-  transition: color 0.3s ease;
-}
-
+/* When someone hovers over a link */
 .nav-links a:hover {
-  color: #007bff;
+  color: #ffd700;             /* Changes to gold color */
+  transform: translateY(-2px); /* Slight lift effect */
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>color: white;</code>: Sets the text color to white
+                  </li>
+                  <li>
+                    <code>text-decoration: none;</code>: Removes the underline
+                    from the links
+                  </li>
+                  <li>
+                    <code>font-size: 1.1rem;</code>: Increases the font size of
+                    the links
+                  </li>
+                  <li>
+                    <code>transition: all 0.3s ease;</code>: Adds a smooth
+                    transition effect for hover
+                  </li>
+                  <li>
+                    <code>.nav-links a:hover</code>: Styles the links when
+                    hovered over
+                  </li>
+                  <li>
+                    <code>color: #ffd700;</code>: Changes the text color to gold
+                    on hover
+                  </li>
+                  <li>
+                    <code>transform: translateY(-2px);</code>: Lifts the link
+                    slightly on hover
+                  </li>
+                </ul>
+              </div>
             </li>
           </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
-            <li>
-              <code>display: flex;</code>: Uses flexbox to layout the navigation
-              links horizontally.
-            </li>
-            <li>
-              <code>list-style: none;</code>: Removes the default bullet points
-              from the list.
-            </li>
-            <li>
-              <code>margin: 0 15px;</code>: Adds horizontal margin between the
-              navigation links.
-            </li>
-            <li>
-              <code>color: #fff;</code>: Sets the text color of the navigation
-              links to white.
-            </li>
-            <li>
-              <code>text-decoration: none;</code>: Removes the underline from
-              the navigation links.
-            </li>
-            <li>
-              <code>font-size: 1.1rem;</code>: Sets the font size of the
-              navigation links to 1.1rem.
-            </li>
-            <li>
-              <code>transition: color 0.3s ease;</code>: Adds a smooth
-              transition effect when the link color changes.
-            </li>
-            <li>
-              <code>.nav-links a:hover</code>: Changes the link color to a
-              different shade on hover.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you open "index.html" in a web
-            browser, you'll see the styled navigation links.
-          </p>
-          <p>In the next step, we'll style the hamburger menu icon.</p>
+
+          <div>
+            <h4>Try It Out! 🎮</h4>
+            <p>
+              Save your CSS and refresh your browser. Try hovering over the
+              links. You should see:
+            </p>
+            <ul>
+              <li>Links in a horizontal line</li>
+              <li>No underlines</li>
+              <li>Smooth color change on hover</li>
+              <li>A slight lifting effect when you hover</li>
+            </ul>
+          </div>
         </>
       ),
     },
     {
-      title: "Styling the Hamburger Menu Icon",
+      title: "Making Our Menu Mobile-Friendly",
       content: (
         <>
           <ScrollToTop />
-          <h3>Styling the Hamburger Menu Icon</h3>
+          <h3>Let's Make It Work on Phones! 📱</h3>
+
           <p>
-            Let's style the hamburger menu icon to make it visible and
-            interactive on mobile devices.
+            Just like a transforming robot, our menu needs to change shape for
+            smaller screens! This is called "responsive design."
           </p>
+
+          <div>
+            <h4>Why Mobile Matters! 📱</h4>
+            <p>
+              More than half of web visitors use phones! Our menu needs to work
+              perfectly no matter what device they're using.
+            </p>
+          </div>
+
+          <h4>Making Our Menu Mobile-Ready:</h4>
+
           <ol>
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Hamburger Menu Icon Styles:</strong> Copy and paste
-              the following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.burger {
-  display: none;
+              <strong>1. Add the Hamburger Menu Style</strong>
+              <p>
+                First, let's style our mobile menu button (the "hamburger"):
+              </p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.burger {
+  display: none;  /* Hide by default on big screens */
   cursor: pointer;
 }
 
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: white;
   margin: 5px;
   transition: all 0.3s ease;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>display: none;</code>: Hides the hamburger menu by
+                    default
+                  </li>
+                  <li>
+                    <code>cursor: pointer;</code>: Changes the cursor to a
+                    pointer when hovering over the hamburger menu
+                  </li>
+                  <li>
+                    <code>width: 25px;</code>: Sets the width of the hamburger
+                    lines
+                  </li>
+                  <li>
+                    <code>height: 3px;</code>: Sets the height of the hamburger
+                    lines
+                  </li>
+                  <li>
+                    <code>background-color: white;</code>: Sets the color of the
+                    hamburger lines to white
+                  </li>
+                  <li>
+                    <code>margin: 5px;</code>: Adds margin between the hamburger
+                    lines
+                  </li>
+                  <li>
+                    <code>transition: all 0.3s ease;</code>: Adds a smooth
+                    transition effect for hover
+                  </li>
+                </ul>
+              </div>
             </li>
-          </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
-            <li>
-              <code>display: none;</code>: Hides the hamburger menu icon by
-              default.
-            </li>
-            <li>
-              <code>cursor: pointer;</code>: Changes the cursor to a pointer
-              when hovering over the hamburger menu icon.
-            </li>
-            <li>
-              <code>width: 25px;</code>: Sets the width of the hamburger menu
-              lines.
-            </li>
-            <li>
-              <code>height: 3px;</code>: Sets the height of the hamburger menu
-              lines.
-            </li>
-            <li>
-              <code>background-color: #fff;</code>: Sets the color of the
-              hamburger menu lines to white.
-            </li>
-            <li>
-              <code>margin: 5px;</code>: Adds margin between the hamburger menu
-              lines.
-            </li>
-            <li>
-              <code>transition: all 0.3s ease;</code>: Adds a smooth transition
-              effect when the hamburger menu lines change.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you open "index.html" in a web
-            browser, you'll see the styled hamburger menu icon.
-          </p>
-          <p>
-            In the next step, we'll make the navigation menu responsive for
-            different screen sizes.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Making the Navigation Menu Responsive",
-      content: (
-        <>
-          <h3>Making the Navigation Menu Responsive</h3>
-          <ScrollToTop />
-          <p>
-            Let's ensure our navigation menu looks great on various devices by
-            adding responsive design using CSS media queries.
-          </p>
-          <ol>
-            <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
-            </li>
-            <li>
-              <strong>Add Responsive Design Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    right: 0;
-    height: 92vh;
-    top: 8vh;
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
 
-  .nav-links li {
-    opacity: 0;
-  }
-
+            <li>
+              <strong>2. Add Mobile Rules</strong>
+              <p>
+                Now let's add special rules for small screens (this is called a
+                "media query"):
+              </p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media screen and (max-width: 768px) {
   .burger {
-    display: block;
+    display: block;  /* Show hamburger on mobile */
+  }
+
+  .nav-links {
+    position: fixed;
+    right: -100%;     /* Hide menu off-screen */
+    top: 70px;
+    height: 100vh;
+    background: #333;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  /* When menu is active */
+  .nav-links.active {
+    right: 0;       /* Slide menu in */
   }
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>@media screen and (max-width: 768px)</code>: Applies
+                    styles to screens smaller than 768px
+                  </li>
+                  <li>
+                    <code>{`.burger { display: block; }`}</code>: Shows the
+                    hamburger menu on mobile
+                  </li>
+                  <li>
+                    <code>{`.nav-links { position: fixed; }`}</code>: Fixes the
+                    menu to the screen
+                  </li>
+                  <li>
+                    <code>right: -100%;</code>: Hides the menu off-screen
+                  </li>
+                  <li>
+                    <code>top: 70px;</code>: Positions the menu 70px from the
+                    top
+                  </li>
+                  <li>
+                    <code>height: 100vh;</code>: Sets the height of the menu to
+                    100% of the viewport height
+                  </li>
+                  <li>
+                    <code>background: #333;</code>: Sets the background color to
+                    dark gray
+                  </li>
+                  <li>
+                    <code>flex-direction: column;</code>: Stacks the menu items
+                    vertically
+                  </li>
+                  <li>
+                    <code>width: 100%;</code>: Sets the width of the menu to
+                    100% of the viewport width
+                  </li>
+                  <li>
+                    <code>text-align: center;</code>: Centers the text in the
+                    menu items
+                  </li>
+                  <li>
+                    <code>transition: 0.5s;</code>: Adds a smooth transition
+                    effect for the menu
+                  </li>
+                  <li>
+                    <code>{`.nav-links.active { right: 0; }`}</code>: Slides the
+                    menu in when active
+                  </li>
+                </ul>
+              </div>
             </li>
           </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
-            <li>
-              <code>@media (max-width: 768px)</code>: A media query for screens
-              up to 768px wide (e.g., tablets and mobile phones).
-            </li>
-            <li>
-              <code>.nav-links</code>: Positions the navigation links off-screen
-              and sets them to display as a column.
-            </li>
-            <li>
-              <code>.nav-links li</code>: Sets the opacity of the navigation
-              links to 0 initially.
-            </li>
-            <li>
-              <code>.burger</code>: Displays the hamburger menu icon.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you resize your browser window
-            or view the navigation menu on different devices, you'll see the
-            layout adapt to different screen sizes.
-          </p>
-          <p>
-            In the next step, we'll add the final touches to the responsive
-            navigation menu.
-          </p>
+
+          <div>
+            <h4>What's Happening Here? 🤔</h4>
+            <ul>
+              <li>
+                <strong>@media screen</strong>: Like a rule that says "only do
+                this on small screens"
+              </li>
+              <li>
+                <strong>max-width: 768px</strong>: Means "when screen is smaller
+                than an iPad"
+              </li>
+              <li>
+                <strong>position: fixed</strong>: Makes menu stay in place when
+                scrolling
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Test Your Menu! 🔍</h4>
+            <p>Try these things:</p>
+            <ol>
+              <li>Make your browser window smaller</li>
+              <li>The hamburger menu should appear</li>
+              <li>Click it to see the menu slide in</li>
+              <li>Try it on your phone too!</li>
+            </ol>
+          </div>
         </>
       ),
     },
     {
-      title: "Adding Final Touches",
+      title: "Adding the Final Touches",
       content: (
         <>
+          <h3>Making Everything Perfect! ✨</h3>
           <ScrollToTop />
-          <h3>Adding Final Touches</h3>
+
           <p>
-            Let's add the final touches to our responsive navigation menu to
-            ensure it is fully functional and visually appealing.
+            We're almost done! Let's add some finishing touches to make our menu
+            extra special.
           </p>
+
+          <h4>Final Touches:</h4>
+
           <ol>
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Adding the Hamburger Menu Animation</strong>
+              <p>
+                Let's make the hamburger menu button transform into an "X" when
+                it's clicked.
+              </p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}`}
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>{`.toggle .line1 { transform: rotate(-45deg) translate(-5px, 6px); }`}</code>
+                    : Rotates the first line to form the top part of the "X"
+                  </li>
+                  <li>
+                    <code>{`.toggle .line2 { opacity: 0; }`}</code>: Hides the
+                    middle line
+                  </li>
+                  <li>
+                    <code>{`.toggle .line3 { transform: rotate(45deg) translate(-5px, -6px); }`}</code>
+                    : Rotates the third line to form the bottom part of the "X"
+                  </li>
+                </ul>
+              </div>
             </li>
+
             <li>
-              <strong>Add Final Touches:</strong> Copy and paste the following
-              CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.nav-active {
+              <strong>2. Adding the Menu Fade Animation</strong>
+              <p>
+                Let's add a smooth fade-in effect for the menu items when the
+                menu slides in.
+              </p>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-active {
   transform: translateX(0);
 }
 
@@ -642,113 +895,189 @@ const ResponsiveNavigationMenu = () => {
   }
 }
 
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+.nav-links li {
+  animation: navLinkFade 0.5s ease forwards;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
+              <div>
+                <p>Let's break down what each part does:</p>
+                <ul>
+                  <li>
+                    <code>{`.nav-active { transform: translateX(0); }`}</code>:
+                    Slides the menu in when active
+                  </li>
+                  <li>
+                    <code>@keyframes navLinkFade</code>: Defines the fade-in
+                    animation
+                  </li>
+                  <li>
+                    <code>{`from { opacity: 0; transform: translateX(50px); }`}</code>
+                    : Sets the initial state of the animation
+                  </li>
+                  <li>
+                    <code>{`to { opacity: 1; transform: translateX(0); }`}</code>
+                    : Sets the final state of the animation
+                  </li>
+                  <li>
+                    <code>{`.nav-links li { animation: navLinkFade 0.5s ease forwards; }`}</code>
+                    : Applies the fade-in animation to the menu items
+                  </li>
+                </ul>
+              </div>
             </li>
           </ol>
-          <p>Let's understand the CSS rules we just added:</p>
-          <ul>
-            <li>
-              <code>.nav-active</code>: Class to animate the navigation links
-              onto the screen.
-            </li>
-            <li>
-              <code>@keyframes navLinkFade</code>: Keyframes for animating the
-              navigation links.
-            </li>
-            <li>
-              <code>.toggle .line1</code>, <code>.toggle .line2</code>,{" "}
-              <code>.toggle .line3</code>: Styles to transform the hamburger
-              menu icon into an "X" when toggled.
-            </li>
-          </ul>
-          <p>
-            Save your "styles.css" file. Now, if you resize your browser window
-            or view the navigation menu on different devices, you'll see the
-            final touches in action.
-          </p>
-          <p>
-            Congratulations! You've completed the CSS project, "Create a
-            Responsive Navigation Menu." You've learned how to create a
-            responsive navigation menu using HTML and CSS.
-          </p>
-          <p>
-            Feel free to continue customizing your navigation menu and exploring
-            more CSS techniques. Happy coding!
-          </p>
+
+          <div>
+            <h4>What's Happening Here? 🤔</h4>
+            <ul>
+              <li>
+                <strong>.toggle .line1, .toggle .line2, .toggle .line3</strong>:
+                These rules transform the hamburger menu into an "X" when it's
+                clicked.
+              </li>
+              <li>
+                <strong>@keyframes navLinkFade</strong>: This keyframe animation
+                makes the menu items fade in smoothly.
+              </li>
+              <li>
+                <strong>.nav-links li</strong>: This applies the fade-in
+                animation to the menu items.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Test Your Menu! 🔍</h4>
+            <p>Try these things:</p>
+            <ol>
+              <li>Make your browser window smaller</li>
+              <li>Click the hamburger menu</li>
+              <li>The menu should slide in with a smooth fade-in effect</li>
+              <li>The hamburger icon should transform into an "X"</li>
+            </ol>
+          </div>
+
+          <div>
+            <h4>Congratulations! 🎉</h4>
+            <p>
+              You've built a fully responsive navigation menu! You've learned
+              how to:
+            </p>
+            <ul>
+              <li>Create the HTML structure</li>
+              <li>Style the menu with CSS</li>
+              <li>Make the menu responsive for different devices</li>
+              <li>Add smooth animations</li>
+            </ul>
+            <p>
+              Feel free to continue customizing your menu and exploring more CSS
+              techniques. Happy coding! 🚀
+            </p>
+          </div>
         </>
       ),
     },
   ];
 
-  const handleNext = () => {
-    if (currentStep < steps.length - 1) {
-      setCurrentStep(currentStep + 1);
+  const handlePrevious = () => {
+    if (step > 0) {
+      setStep(step - 1);
     }
   };
 
-  const handlePrevious = () => {
-    if (currentStep > 0) {
-      setCurrentStep(currentStep - 1);
+  const handleNext = () => {
+    if (step < steps.length - 1) {
+      setStep(step + 1);
     }
   };
 
   return (
     <div className="lesson-container">
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-        <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
-          Building a Responsive Navigation Menu with CSS
+        <div
+          className="progress-bar"
+          style={{
+            width: "100%",
+            height: "10px",
+            backgroundColor: "#eee",
+            borderRadius: "5px",
+            marginBottom: "20px",
+          }}
+        >
+          <div
+            style={{
+              width: `${((step + 1) / steps.length) * 100}%`,
+              height: "100%",
+              backgroundColor: "#28a745",
+              borderRadius: "5px",
+              transition: "width 0.3s ease-in-out",
+            }}
+          />
+        </div>
+
+        <h1
+          style={{
+            color: "#333",
+            borderBottom: "2px solid #333",
+            paddingBottom: "10px",
+          }}
+        >
+          Let's Build a Cool Website Menu Together! 🚀
         </h1>
+
         <div style={{ marginBottom: "20px" }}>
           <h2 style={{ color: "#444" }}>
-            Step {currentStep + 1}: {steps[currentStep].title}
+            Step {step + 1} of {steps.length}: {steps[step].title}
           </h2>
-          <div style={{ backgroundColor: "#f9f9f9", padding: "20px" }}>
-            {steps[currentStep].content}
+          <div
+            style={{
+              backgroundColor: "#fff",
+              padding: "20px",
+              borderRadius: "5px",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+            }}
+          >
+            {steps[step].content}
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "20px",
+          }}
+        >
           <button
             onClick={handlePrevious}
-            disabled={currentStep === 0}
+            disabled={step === 0}
             style={{
               padding: "10px 20px",
-              backgroundColor: currentStep === 0 ? "#ccc" : "#007bff",
+              backgroundColor: step === 0 ? "#ccc" : "#007bff",
               color: "white",
               border: "none",
               borderRadius: "5px",
-              cursor: currentStep === 0 ? "not-allowed" : "pointer",
+              cursor: step === 0 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            Previous
+            ← Previous Step
           </button>
+
           <button
             onClick={handleNext}
-            disabled={currentStep === steps.length - 1}
+            disabled={step === steps.length - 1}
             style={{
               padding: "10px 20px",
-              backgroundColor:
-                currentStep === steps.length - 1 ? "#ccc" : "#28a745",
+              backgroundColor: step === steps.length - 1 ? "#ccc" : "#28a745",
               color: "white",
               border: "none",
               borderRadius: "5px",
-              cursor:
-                currentStep === steps.length - 1 ? "not-allowed" : "pointer",
+              cursor: step === steps.length - 1 ? "not-allowed" : "pointer",
+              transition: "background-color 0.3s",
             }}
           >
-            {currentStep === steps.length - 1 ? "Finish" : "Next"}
+            {step === steps.length - 1 ? "Finish" : "Next Step →"}
           </button>
         </div>
       </div>

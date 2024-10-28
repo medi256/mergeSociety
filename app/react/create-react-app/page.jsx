@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import Button from "@/app/button";
 
 export const metadata = {
@@ -26,7 +26,6 @@ export const metadata = {
 const CreateReactApp = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Creating a New React Project Using Create React App</h1>
 
       <p>
@@ -125,7 +124,7 @@ const CreateReactApp = () => {
           and it will create the project in the folder you’re currently in.
         </li>
       </ul>
-      
+
       <h3>Step 3: Run the Create React App Command</h3>
       <p>
         Now comes the exciting part: creating your project! To do this, we’ll
@@ -199,18 +198,20 @@ const CreateReactApp = () => {
         correctly, you should see the default React welcome page that looks like
         this:
       </p>
-      <p>
-        <img
-          src="https://reactjs.org/logo-og.png"
-          alt="React logo"
-          style={{ width: "300px", display: "block", margin: "0 auto" }}
-        />
-      </p>
+
+      <Image
+        src="https://reactjs.org/logo-og.png"
+        alt="React logo"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+
       <p>
         Congratulations! You’ve successfully created your first React project
         and it’s running locally on your computer!
       </p>
-      
+
       <h2>What’s Inside Your New React Project?</h2>
       <p>
         Now that your React app is up and running, let’s take a quick look at
