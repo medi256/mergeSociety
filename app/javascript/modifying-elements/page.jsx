@@ -1,12 +1,10 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "Modifying DOM Elements in JavaScript | Interactive Web Development Tutorial",
+  title: "Modifying DOM Elements in JavaScript Tutorial",
   description:
     "Learn how to dynamically modify DOM elements using JavaScript. Master techniques for changing text content, styles, attributes, and classes in this comprehensive, beginner-friendly tutorial.",
   keywords: [
@@ -26,30 +24,13 @@ export const metadata = {
       "Master DOM Manipulation: Change Web Page Content Dynamically with JavaScript",
     description:
       "Boost your web development skills! Learn to modify text, styles, attributes, and classes of HTML elements using JavaScript in this interactive tutorial.",
-    type: "article",
   },
-
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "JavaScript DOM: Understanding the Document Object Model",
-    description:
-      "Comprehensive guide to the Document Object Model (DOM) in JavaScript, covering tree structure, manipulation, and event handling.",
-    author: {
-      "@type": "Person",
-      name: "MergeSociety",
-    },
-  },
-
-  authors: [{ name: "MergeSociety" }],
-  category: "Web Development Tutorials",
 };
 
 const ModifyingElements = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>Modifying Element Properties</h1>
+      <h1>Modifying DOM Elements in JavaScript:A beginner Tutorial</h1>
 
       <h2>Introduction</h2>
       <p>
@@ -179,7 +160,7 @@ console.log(paragraph.textContent); // Output: "Hello World!"
         In this example, we select the paragraph element with the ID
         "myParagraph" and log its text content to the console.
       </p>
-      
+
       <h2>Modifying Style</h2>
       <p>
         Another way to modify an element's property is to change its style. You
@@ -298,7 +279,7 @@ paragraph.style.fontFamily = 'Arial';
         In this example, we change the font size to 36px and font family to
         Arial using camel case.
       </p>
-      
+
       <h2>Modifying Attributes</h2>
       <p>
         You can also modify an element's attributes using the{" "}
@@ -464,7 +445,7 @@ paragraph.classList.remove('bold');
         "myParagraph" and remove the "bold" class from it. This is like removing
         a sticker from the paragraph element.
       </p>
-      
+
       <h2>Summary</h2>
       <p>
         In this topic, you've learned how to modify element properties in the

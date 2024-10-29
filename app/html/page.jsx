@@ -2,8 +2,7 @@ import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
-  title:
-    "Comprehensive HTML Tutorial: Learn Web Development from Basics to Advanced | MergeSociety",
+  title: "Complete HTML Tutorial: From Beginner to Pro | MergeSociety",
   description:
     "Master HTML with our in-depth tutorial. Covers everything from basic tags to advanced concepts. Perfect for beginners and intermediate web developers.",
   keywords:

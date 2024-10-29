@@ -1,9 +1,7 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
-  title:
-    "How to Install Node.js and npm: A Beginner's Guide for React Developers",
+  title: "How to Install Node.js and npm",
   description:
     "Learn how to easily install Node.js and npm on your computer. Step-by-step tutorial for beginners starting with React development.",
   keywords: [
@@ -16,7 +14,7 @@ export const metadata = {
     "beginner's guide",
   ],
   openGraph: {
-    title: "Install Node.js & npm: Essential Guide for React Beginners",
+    title: "Install Node.js & npm: A Guide for React Beginners",
     description:
       "Master the first step in React development: installing Node.js and npm. Clear instructions and expert tips for a smooth setup.",
     type: "article",
@@ -26,9 +24,7 @@ export const metadata = {
 const InstallingNode = () => {
   return (
     <div className="lesson-container">
-      
-
-      <h1>Installing Node.js and npm</h1>
+      <h1>How to Install Node.js & npm: A Guide for React Beginners</h1>
 
       <p>
         Before we start building React applications, there are two key tools we
@@ -89,11 +85,16 @@ const InstallingNode = () => {
       <h3>Step 1: Go to the Node.js Website</h3>
       <p>
         First, open your web browser and go to the official Node.js website:{" "}
-        <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
-          https://nodejs.org/
+        <a
+          href="https://www.nodejs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://www.nodejs.org/
         </a>
         .
       </p>
+
       <p>
         When you get there, you’ll see two versions of Node.js available for
         download. One is labeled as <strong> LTS (Long Term Support)</strong>,
@@ -105,7 +106,7 @@ const InstallingNode = () => {
           Click the green button that says "LTS" to start downloading Node.js.
         </strong>
       </p>
-      
+
       <h3>Step 2: Install Node.js</h3>
       <p>
         Once the download is complete, open the file to begin the installation
@@ -166,7 +167,7 @@ const InstallingNode = () => {
         If you see version numbers for both Node.js and npm, you’re good to go!
         Everything is installed correctly.
       </p>
-      
+
       <h2>What’s Next?</h2>
       <p>
         Now that Node.js and npm are installed, you’re ready to move forward and

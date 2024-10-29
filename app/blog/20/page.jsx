@@ -3,8 +3,7 @@ import Link from "next/link";
 import BlogButton from "@/app/NextBlogButton";
 
 export const metadata = {
-  title:
-    "Building Networks as Developers: A Comprehensive Guide to Professional Connections",
+  title: "Building Networks as Developers: Professional Connections",
   description:
     "Explore in-depth strategies for building and maintaining professional networks as a developer. Learn about the critical importance of networking in the tech industry and how it can significantly boost your career trajectory.",
   keywords:

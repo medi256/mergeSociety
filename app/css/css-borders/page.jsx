@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -6,8 +5,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "The Magical World of Borders in CSS - Style Your Elements with Elegance",
+  title: " Borders in CSS - Style Your Elements with Elegance",
   description:
     "Explore how to use borders in CSS to create visual hierarchies, enhance your web design, and improve user experience with styles like solid, dashed, and more.",
   keywords: [
@@ -29,8 +27,7 @@ export const metadata = {
 const CSSBorders = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>The Magical World of Borders in CSS</h1>
+      <h1>Borders in CSS - Style Your Elements with Elegance</h1>
       <p>
         Borders are like the frames that enclose your web designs, adding
         structure, emphasis, and visual appeal to your elements. They can
@@ -122,7 +119,7 @@ div {
           </tr>
         </tbody>
       </table>
-      
+
       <h2>Border Width</h2>
       <p>
         The <code>border-width</code> property allows you to adjust the
@@ -243,7 +240,7 @@ div {
         the shorthand property, like this:{" "}
         <code>border: 1px solid red; border-radius: 5px;</code>.
       </p>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor

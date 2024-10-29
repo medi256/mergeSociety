@@ -1,12 +1,10 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "Creating and Appending DOM Elements in JavaScript | Web Development Tutorial",
+  title: "Creating and Appending DOM Elements in JavaScript",
   description:
     "Master dynamic web development by learning how to create, append, insert, replace, and remove DOM elements using JavaScript. Perfect for beginners and intermediate developers looking to enhance their skills.",
   keywords: [
@@ -29,18 +27,16 @@ export const metadata = {
       "Master DOM Manipulation: Create and Append Elements Dynamically with JavaScript",
     description:
       "Learn to build dynamic web pages by creating, appending, inserting, replacing, and removing DOM elements using JavaScript in this comprehensive tutorial.",
-    type: "article",
   },
-
-  authors: [{ name: "MergeSociety" }],
-  category: "Web Development Tutorials",
 };
 
 const CreateAppend = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>Creating and Appending Elements</h1>
+      <h1>
+        Creating and Appending DOM Elements in JavaScript | Web Development
+        Tutorial
+      </h1>
 
       <h2>Introduction</h2>
       <p>
@@ -133,7 +129,7 @@ paragraph.textContent = 'Hello World!';
         element. The <code>textContent</code> property sets the text content of
         the element to the specified value.
       </p>
-      
+
       <p>
         You can also add other types of content to an element, such as images or
         other elements. For example, let's create an image element and a
@@ -223,7 +219,7 @@ document.body.appendChild(paragraph);
         child nodes. If the parent element already has other child elements, the
         new element will be added after the last child element.
       </p>
-      
+
       <p>
         You can also use the <code>appendChild</code> method to add an element
         to a specific parent element, not just the body.
@@ -365,7 +361,7 @@ container.replaceChild(paragraph, oldParagraph);
         structure of the DOM dynamically. Instead of just modifying an existing
         element, you replace it entirely with a new one.
       </p>
-      
+
       <h2>Removing Elements</h2>
       <p>
         You can use the <code>removeChild</code> method to remove an element
@@ -409,7 +405,7 @@ container.removeChild(paragraph);
         certain elements are no longer needed, such as removing items from a
         list or deleting user inputs after processing them.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         Creating, appending, inserting, replacing, and removing elements are

@@ -1,9 +1,7 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
-  title:
-    "Understanding React Project Structure: A Comprehensive Guide for Beginners",
+  title: "Understanding React Project Structure",
   description:
     "Learn the ins and outs of React project structure. Detailed explanations of folders, files, and how they work together in a React application created with Create React App.",
   keywords: [
@@ -26,8 +24,10 @@ export const metadata = {
 const PageStructure = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>Understanding the Project Structure</h1>
+      <h1>
+        Understanding React Project Structure: A Comprehensive Guide for
+        Beginners
+      </h1>
 
       <p>
         When you first create a new React project, you might feel a little
@@ -103,7 +103,7 @@ my-first-react-app/
         <strong> index.html </strong>
         file.
       </p>
-      
+
       <h3>
         Key Files Inside <code>public/</code>:
       </h3>
@@ -214,7 +214,7 @@ my-first-react-app/
           development mode. You’ll usually run this using `npm start`.
         </li>
       </ul>
-      
+
       <h3>
         The <code>README.md</code> File
       </h3>

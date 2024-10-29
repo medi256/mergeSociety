@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -26,8 +25,7 @@ export const metadata = {
 const InlineStyles = () => {
   return (
     <div className="lesson-container">
-      
-      <h2>Applying Inline Styles in React: Dynamic Styling</h2>
+      <h1>Applying Inline Styles in React: Dynamic Styling</h1>
 
       <p>
         Styling in React can be a challenging task, but with inline styles, it
@@ -37,7 +35,7 @@ const InlineStyles = () => {
         and apply styles in your React components.
       </p>
 
-      <h3>Understanding Inline Styles</h3>
+      <h2>Understanding Inline Styles</h2>
 
       <p>
         Inline styles in React are a way to apply styles directly to JSX
@@ -47,7 +45,7 @@ const InlineStyles = () => {
         without the need for separate stylesheet files.
       </p>
 
-      <h4>What are Inline Styles?</h4>
+      <h3>What are Inline Styles?</h3>
 
       <p>
         Inline styles in React are a way to apply styles directly to JSX
@@ -120,7 +118,6 @@ fontSize: '24px'
         JSX elements.
       </p>
 
-      
       <h4>2. Applying Inline Styles</h4>
 
       <p>Now, let's apply the inline styles to our JSX elements:</p>

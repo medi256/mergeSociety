@@ -1,11 +1,9 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "Understanding HTML Entities: Proper Usage for Special Characters and Symbols",
+  title: "HTML Entities: Proper Usage for Special Characters and Symbols",
   description:
     "Explore how to use HTML entities to include special characters like ©, ™, and non-breaking spaces in your web pages. This guide covers character and numeric entities with examples and best practices.",
   keywords:
@@ -21,7 +19,6 @@ export const metadata = {
 const HTMLEntity = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Entities in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring entities in HTML -
@@ -117,7 +114,7 @@ const HTMLEntity = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h3>Exploring More Entities</h3>
       <p>
         If you need to use special characters or symbols in your HTML, you can
@@ -126,15 +123,6 @@ const HTMLEntity = () => {
         include:
       </p>
       <ul>
-        <li>
-          <a
-            href="https://dev.w3.org/html5/html-author/charref"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            W3C HTML Character Reference
-          </a>
-        </li>
         <li>
           <a
             href="https://www.toptal.com/designers/htmlarrows/"
@@ -150,7 +138,7 @@ const HTMLEntity = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            HTML Living Standard - Named Character References
+            WHATWG HTML Specification
           </a>
         </li>
       </ul>
@@ -219,7 +207,7 @@ const HTMLEntity = () => {
           </pre>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored entities in HTML, including their

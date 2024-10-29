@@ -1,31 +1,33 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "What Are Props in React - Understanding Props in Component Communication",
+  title: "Event Handling in Functional Components",
   description:
-    "Learn about props in React, their importance in component communication, and how to use them effectively to build dynamic and interactive user interfaces.",
-  keywords:
-    "React, Props, Component Communication, React Tutorial, Web Development",
-
+    "Learn how to add interactivity to your React applications by handling events in functional components. This tutorial covers the basics of event handling, with examples and practical applications, to help beginners create dynamic and interactive UIs.",
+  keywords: [
+    "React",
+    "Functional Components",
+    "Event Handling",
+    "React Tutorial",
+    "Interactive UI",
+    "Beginner Tutorial",
+    "Event Handlers",
+    "React Button Click",
+  ],
   openGraph: {
-    title: "What Are Props in React",
+    title: "Event Handling in Functional Components",
     description:
-      "Discover how props work in React and their role in component interaction.",
-
-    type: "article",
+      "Learn how to add interactivity to your React applications by handling events in functional components. This tutorial covers the basics of event handling, with examples and practical applications, to help beginners create dynamic and interactive UIs.",
   },
 };
 
 const FunctionalEventHandler = () => {
   return (
     <div className="lesson-container">
-      
-      <h2>Event Handling in Functional Components: Adding Interactivity</h2>
+      <h1>Event Handling in Functional Components: Adding Interactivity</h1>
 
       <p>
         Event handling in functional components is like giving them superpowers.
@@ -35,7 +37,7 @@ const FunctionalEventHandler = () => {
         Let's dive into the world of event handling and explore its superpowers!
       </p>
 
-      <h3>Understanding Event Handling</h3>
+      <h2>Understanding Event Handling</h2>
 
       <p>
         Event handling in functional components involves defining functions,
@@ -100,7 +102,7 @@ function MyComponent() {
           it to different UI elements, reducing code duplication.
         </li>
       </ul>
-      
+
       <h3>Using Event Handling in Practice</h3>
 
       <p>

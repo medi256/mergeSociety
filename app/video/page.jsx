@@ -2,14 +2,13 @@ import ScrollToTop from "../ScrollToTop";
 import Link from "next/link";
 
 export const metadata = {
-  title:
-    "Learn Web Development Through Engaging Video Tutorials | YourPlatform",
+  title: "Learn Web Development Through Engaging Video Tutorials  ",
   description:
     "Explore our extensive library of video tutorials covering HTML, JavaScript, and React.js. Perfect for beginners and experienced developers looking to enhance their skills. Start your coding journey today!",
   keywords:
     "web development tutorials, video tutorials, HTML tutorials, JavaScript videos, React.js courses, coding for beginners, learn to code, online programming courses, front-end development, web design tutorials",
   openGraph: {
-    title: "Master Web Development with Video Tutorials | YourPlatform",
+    title: "Master Web Development with Video Tutorials ",
     description:
       "Join our interactive platform to learn web development with step-by-step video tutorials. From HTML basics to advanced React.js concepts, we've got you covered!",
   },
@@ -20,6 +19,7 @@ const LearnByWatchingVideos = () => {
     <div>
       <div className="welcome-header">
         <ScrollToTop />
+        <h1>Learn Web Development Through Engaging Video Tutorials</h1>
         <p>
           Welcome to our web development learning platform! Dive into the world
           of web development with easy-to-follow video tutorials. Whether you're

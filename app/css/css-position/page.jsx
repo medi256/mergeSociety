@@ -4,10 +4,8 @@ import Image from "next/image";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-
 export const metadata = {
-  title:
-    "CSS Position Explained: Static, Relative, Absolute, Fixed, and Sticky | Web Design Tutorial",
+  title: "CSS Position Explained:|Web Design Tutorial",
   description:
     "Learn how to use the CSS position property to layout elements on your website. Understand the differences between static, relative, absolute, fixed, and sticky positioning with practical examples.",
   keywords:
@@ -22,8 +20,7 @@ export const metadata = {
 const CSSposition = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>CSS position</h1>
+      <h1>CSS Position: Static, Relative, Absolute, Fixed, and Sticky</h1>
       <p>
         {" "}
         Using CSS position to layout elements on your website can be hard to
@@ -311,7 +308,7 @@ const CSSposition = () => {
         So what happens if a child element is absolutely positioned, but the
         parent element doesn’t have a position set?
       </p>
-      
+
       <h4>Here’s our CSS for this illustration:</h4>
       <pre>
         <code>
@@ -517,7 +514,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           CanIUse.com
         </i>
       </p>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -545,7 +542,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           stacking with z-index, or creating sticky headers or sidebars.
         </li>
       </ol>
-      
+
       <p>
         Remember, position is a powerful tool in CSS that gives you control over
         the placement and arrangement of elements. Choose position options that

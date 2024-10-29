@@ -1,11 +1,10 @@
-
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "JavaScript Assignment Operators: Simplifying Your Code",
+  title: "JavaScript Assignment Operators",
   description:
     "Learn about assignment operators in JavaScript, including basic assignment, addition assignment, subtraction assignment, and more, and how they streamline variable updates.",
   category: "JavaScript Tutorials",
@@ -24,25 +23,13 @@ export const metadata = {
     description:
       "Explore how assignment operators in JavaScript help you update variables efficiently and write cleaner code.",
   },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "JavaScript Assignment Operators: A Comprehensive Guide",
-    description:
-      "A detailed tutorial on JavaScript assignment operators, their usage, and their role in simplifying variable assignments.",
-    keywords:
-      "JavaScript, Assignment Operators, Basic Assignment, Addition Assignment, Subtraction Assignment, Programming, Coding",
-    articleSection: "JavaScript Tutorials",
-    wordCount: 1200,
-  },
 };
 
 const AssignmentOperators = () => {
   return (
     <div className="lesson-container">
-      
       <section>
-        <h2>4. Assignment Operators: Simplifying Your Code</h2>
+        <h1>4. Assignment Operators: Simplifying Your Code</h1>
         <p>
           Now that we’ve covered arithmetic, comparison, and logical operators,
           it’s time to look at assignment operators. These operators not only
@@ -56,7 +43,7 @@ const AssignmentOperators = () => {
           and faster.
         </p>
 
-        <h3>The Basic Assignment Operator (=)</h3>
+        <h2>The Basic Assignment Operator (=)</h2>
         <p>
           The simplest assignment operator is the equal sign (<code>=</code>).
           It assigns a value to a variable. For example:
@@ -157,7 +144,7 @@ console.log("Remaining apples:", apples); // Output: Remaining apples: 5
             </SyntaxHighlighter>
           </code>
         </pre>
-        
+
         <h4>Modulus Assignment (%=)</h4>
         <p>
           The modulus assignment operator gives the remainder when dividing the
@@ -217,7 +204,7 @@ console.log("New experience:", experience); // Output: New experience: 550
           make them truly interactive.
         </p>
       </section>
-      
+
       <section>
         <h2>Practice Time!</h2>
         <p>

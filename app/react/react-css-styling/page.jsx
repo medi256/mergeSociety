@@ -1,11 +1,10 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "React CSS Styling: A Comprehensive Guide to Efficient Techniques",
+  title: "React CSS Styling: A beginner's Guide ",
   description:
     "Explore the world of React CSS styling. Learn how to style your components using class names, inline styles, CSS-in-JS, and more.",
   keywords: [
@@ -26,8 +25,7 @@ export const metadata = {
 const ReactStyling = () => {
   return (
     <div className="lesson-container">
-      
-      <h2>React CSS Styling: Efficient Styling Techniques</h2>
+      <h1>React CSS Styling: Efficient Styling Techniques</h1>
 
       <p>
         Styling in React can be a challenging task, but with the right
@@ -37,7 +35,7 @@ const ReactStyling = () => {
         in your React applications.
       </p>
 
-      <h3>Understanding React CSS Styling</h3>
+      <h2>Understanding React CSS Styling</h2>
 
       <p>
         React CSS styling involves applying styles to your React components
@@ -47,7 +45,7 @@ const ReactStyling = () => {
         dive into the world of React CSS styling and unlock its superpowers!
       </p>
 
-      <h4>What is React CSS Styling?</h4>
+      <h3>What is React CSS Styling?</h3>
 
       <p>
         React CSS styling refers to the process of applying styles to your React
@@ -159,7 +157,6 @@ export default MyComponent;
         In this CSS file, we define styles for the <code>.container</code> and{" "}
         <code>.title</code> classes.
       </p>
-      
 
       <h4>3. Applying Styles</h4>
 

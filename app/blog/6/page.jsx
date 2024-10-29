@@ -2,8 +2,7 @@ import BlogButton from "@/app/NextBlogButton";
 import React from "react";
 
 export const metadata = {
-  title:
-    "Monetization Strategies for Tech Professionals: Maximizing Your Skills in the Digital Economy",
+  title: "Monetization Strategies for Tech Professionals",
   description:
     "Explore diverse ways for tech professionals to monetize their skills, from freelancing and digital products to SaaS, consulting, content creation, and more. A comprehensive guide to financial success in the digital age.",
   category: "Career",

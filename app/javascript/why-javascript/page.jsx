@@ -1,9 +1,7 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
-  title:
-    "JavaScript: The Ultimate Guide to Unlocking Interactivity and Web Development",
+  title: "JavaScript: Why Learn JavaScript?",
   description:
     "Dive into the world of JavaScript and discover why it's the go-to language for creating dynamic and interactive web experiences. From beginner-friendly coding to advanced web development, this guide explores JavaScript's versatility, popularity, and the endless opportunities it offers.",
   keywords: [
@@ -29,8 +27,6 @@ export const metadata = {
 const WhyJavascript = () => {
   return (
     <div className="lesson-container">
-      
-
       <h1>Why Learn JavaScript?</h1>
       <p>
         JavaScript is an incredibly useful and versatile programming language
@@ -119,7 +115,6 @@ const WhyJavascript = () => {
           front end to the back end, using just one language.
         </li>
       </ul>
-      
 
       <h2>Community and Support</h2>
       <p>

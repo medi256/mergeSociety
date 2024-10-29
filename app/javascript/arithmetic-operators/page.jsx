@@ -1,11 +1,10 @@
-
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "JavaScript Operators: Your First Steps in Code Magic",
+  title: "Understand JavaScript Operators",
   description:
     "An introduction to JavaScript operators, including arithmetic, comparison, logical, and assignment operators, and how they work.",
   category: "JavaScript Tutorials",
@@ -24,24 +23,12 @@ export const metadata = {
     description:
       "Learn about the different types of operators in JavaScript and how they can be used to manipulate data and control program flow.",
   },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "JavaScript Operators: A Beginner's Guide",
-    description:
-      "A comprehensive guide to JavaScript operators, their usage, and their role in writing interactive programs.",
-    keywords:
-      "JavaScript, Operators, Arithmetic, Comparison, Logical, Assignment, Programming, Coding",
-    articleSection: "JavaScript Tutorials",
-    wordCount: 2500,
-  },
 };
 
 const JavaScriptOperatorsLesson = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>JavaScript Operators: Your First Steps in Code Magic</h1>
+      <h1>Understand JavaScript Operators</h1>
 
       <section>
         <h2>What are Operators in JavaScript?</h2>
@@ -138,7 +125,7 @@ console.log("Total money:", money); // Output: Total money: 15.75
           programs, like summing up scores in a game or calculating the total
           cost of items in a shopping cart.
         </p>
-        
+
         <h3>The Subtraction Operator (-)</h3>
         <p>
           This one takes things away. In real life, it's like removing items
@@ -312,7 +299,7 @@ console.log("Fraction:", fraction); // Output: Fraction: 0.5
           you more and more powerful in the world of JavaScript!
         </p>
       </section>
-      
+
       <section>
         <h2>Practice Time!</h2>
         <p>

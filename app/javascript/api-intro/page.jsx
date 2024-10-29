@@ -1,29 +1,21 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
-  title:
-    "Understanding APIs: A Beginner-Friendly Guide to Application Programming Interfaces",
+  title: "What is an API (Application Programming Interface)?",
   description:
     "Learn what APIs are, how they work, and why they're crucial in modern software development. Discover real-world examples of APIs in action, from social media to online payments.",
   keywords:
     "API, Application Programming Interface, web development, software integration, RESTful API, API examples, beginner programming, tech concepts",
   openGraph: {
-    title:
-      "Master the Basics of APIs: Your Gateway to Modern Software Development",
+    title: "What is an API (Application Programming Interface)?",
     description:
       "Unlock the power of APIs! Learn how these digital messengers connect apps and services, revolutionizing the way we use technology in our daily lives.",
-
-    type: "article",
   },
-
-  category: "Web Development",
 };
 
 const APIintro = () => {
   return (
     <div className="lesson-container">
-      
       <h1>What is an API (Application Programming Interface)?</h1>
 
       <p>
@@ -141,7 +133,7 @@ const APIintro = () => {
         account. You don’t need to log into Facebook or Twitter separately—an
         API handles the communication for you.
       </p>
-      
+
       <h3>2. Logging in with Google or Facebook</h3>
       <p>
         Many websites and apps allow you to log in using your Google or Facebook
@@ -245,7 +237,7 @@ const APIintro = () => {
           you by the API.
         </li>
       </ul>
-      
+
       <h2>How Does an API Work?</h2>
 
       <p>
@@ -353,7 +345,7 @@ const APIintro = () => {
         the background, making sure that different systems can share data and
         communicate efficiently.
       </p>
-      
+
       <h2>Key Takeaways</h2>
 
       <ul>

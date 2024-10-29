@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -6,8 +5,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title:
-    "JSX Structure and Container Elements: A Comprehensive Beginner's Guide",
+  title: "JSX Structure and Container Elements",
   description:
     "Discover how to effectively structure your JSX in React. This beginner's guide covers the one parent rule, container elements, nesting, fragments, and adding JavaScript to JSX.",
   keywords: [
@@ -26,18 +24,15 @@ export const metadata = {
       "JSX Structure and Container Elements: A Comprehensive Beginner's Guide",
     description:
       "Learn how to structure your JSX code effectively in React. Understand container elements, nesting, and using JavaScript within JSX for dynamic content.",
-
-    type: "article",
   },
 };
 
 const Struture = () => {
   return (
     <div className="lesson-container">
-      
-      <h2>
+      <h1>
         JSX Structure and Container Elements: A Comprehensive Beginner's Guide
-      </h2>
+      </h1>
 
       <p>
         Hello there! 👋 You've already learned about JSX, and now we're going to
@@ -47,7 +42,7 @@ const Struture = () => {
         everything clear and working smoothly.
       </p>
 
-      <h3>Why Do We Need to Structure Our JSX?</h3>
+      <h2>Why Do We Need to Structure Our JSX?</h2>
       <p>
         Think of JSX like building blocks in a game or stacking bricks to build
         a tower. If you don't arrange the blocks correctly, the tower will fall.
@@ -138,7 +133,7 @@ function GoodExample() {
         <code>&lt;div&gt;</code> is grouped together, so it’s happy and can
         render your component.
       </p>
-      
+
       <h3>Using Container Elements</h3>
       <p>
         A container element is like a box that holds other elements inside it.
@@ -256,7 +251,7 @@ function NestedExample() {
         content—information about products—grouped together in one section.
         Nesting helps you organize and structure your content logically.
       </p>
-      
+
       <h3>Introducing Fragments: A Special Container</h3>
       <p>
         Sometimes, you don’t want to add an extra HTML element like a{" "}
@@ -316,7 +311,7 @@ function ShortFragmentExample() {
         Both versions do the same thing: group elements without adding extra
         HTML tags to your page.
       </p>
-      
+
       <h3>Adding JavaScript to Your JSX</h3>
       <p>
         One of the coolest things about JSX is that it allows you to combine

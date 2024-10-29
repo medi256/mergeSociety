@@ -1,11 +1,10 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Handling Events in React (Functional Components) - MergeSociety",
+  title: "Handling Events in React (Functional Components)",
   description:
     "Master event handling in React functional components. Learn how to handle button clicks, pass arguments to event handlers, and understand the differences between React events and regular HTML events.",
   keywords:
@@ -23,7 +22,6 @@ export const metadata = {
 const EventHandlers = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Handling Events in React (Functional Components)</h1>
       <p>
         In web development, events are actions that occur when the user
@@ -176,7 +174,7 @@ export default App;`}
         arrow function <code>{`() => handleClick('First')`}</code>, it only runs
         when the button is actually clicked.
       </p>
-      
+
       <h2>How React Event Handling Works Under the Hood</h2>
       <p>
         React uses something called Synthetic Events to handle events across
@@ -237,7 +235,7 @@ export default App;`}
         mastering event handling will give you more control over how your app
         behaves.
       </p>
-      
+
       <h3>Recap:</h3>
       <ul>
         <li>

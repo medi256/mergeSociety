@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -22,7 +21,6 @@ export const metadata = {
 const CSSIcons = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Icons in CSS: The Ultimate Guide</h1>
       <p>
         Icons are a fundamental aspect of web design, enhancing the user
@@ -116,7 +114,11 @@ const CSSIcons = () => {
 
       <p>
         Make sure to copy the correct link from the{" "}
-        <a href="https://www.cdnjs.com/libraries/font-awesome">
+        <a
+          href="https://www.cdnjs.com/libraries/font-awesome"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Font Awesome website
         </a>
         , as the URL may change over time.
@@ -126,8 +128,14 @@ const CSSIcons = () => {
       <p>
         Font Awesome offers an extensive collection of icons to choose from. To
         explore the available icons, visit the{" "}
-        <a href="https://fontawesome.com/icons">Font Awesome Icons Gallery</a>.
-        You can search for specific icons, browse by category, or filter by
+        <a
+          href="https://fontawesome.com/icons"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Font Awesome Icons Gallery
+        </a>
+        . You can search for specific icons, browse by category, or filter by
         style. Once you find the icon you want to use, simply click on it to
         view the code snippet and usage instructions.
       </p>
@@ -155,7 +163,7 @@ const CSSIcons = () => {
         <code>fa-facebook</code> with any other icon name from the Font Awesome
         library.
       </p>
-      
+
       <h3>Bootstrap Icons</h3>
       <p>
         Bootstrap Icons is another popular icon library, especially if you're
@@ -280,7 +288,7 @@ const CSSIcons = () => {
         explore some advanced techniques to take your icon usage to the next
         level:
       </p>
-      
+
       <h3>Icon Sizing</h3>
       <p>
         You can adjust the size of icons by applying CSS properties like{" "}
@@ -360,7 +368,7 @@ const CSSIcons = () => {
           various devices to ensure they remain visible and functional.
         </li>
       </ul>
-      
+
       <h2>Conclusion</h2>
       <p>
         Icons are a powerful tool in your web design toolkit. By incorporating

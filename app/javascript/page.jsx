@@ -2,7 +2,7 @@ import Link from "next/link";
 import ScrollToTop from "../ScrollToTop";
 
 export const metadata = {
-  title: "Complete JavaScript Course: From Basics to Advanced | MergeSociety",
+  title: "Complete JavaScript Course: From Basics to Advanced",
   description:
     "Master JavaScript with our comprehensive course. Learn everything from fundamentals to advanced concepts like async programming and API integration. Ideal for beginners and intermediate developers.",
   keywords:
@@ -20,7 +20,7 @@ const Jscourse = () => {
     <div className="container">
       <ScrollToTop />
       <main>
-        <h1>JavaScript Course</h1>
+        <h1>JavaScript Course for beginners</h1>
 
         <p>
           Don't know where to begin? <Link href={"/guide"}>click here</Link>

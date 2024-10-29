@@ -2,8 +2,7 @@ import Image from "next/image";
 import Button from "@/app/button";
 
 export const metadata = {
-  title:
-    "How to Create Your First React App: A Beginner's Guide to Create React App",
+  title: "How to Create Your First React App",
   description:
     "Learn how to set up your first React project using Create React App. Step-by-step tutorial for beginners, including project structure and running your app.",
   keywords: [
@@ -16,7 +15,7 @@ export const metadata = {
     "start React app",
   ],
   openGraph: {
-    title: "Create Your First React App in Minutes: Beginner's Guide",
+    title: "Create Your First React App in Minutes",
     description:
       "Master Create React App with our easy-to-follow tutorial. Set up your React project, understand its structure, and start coding in no time!",
     type: "article",
