@@ -7,7 +7,6 @@ const NavBar = () => {
         <div className="logo-home">
           <Link href="/">MergeSociety</Link>{" "}
         </div>
-        {/* <button className="btn-signIn">Sign In</button> */}
         <Link className="navLink" href={"/projects"}>
           Projects
         </Link>
