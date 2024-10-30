@@ -191,7 +191,7 @@ const APIintro = () => {
         Now that you understand the basics of what an API is, we’ll soon dive
         into how to use them in your code to fetch data from different services.
       </p>
-      <h1>What is an API (Application Programming Interface)?</h1>
+      <h2>What is an API (Application Programming Interface)?</h2>
 
       <p>
         If you’ve heard the term <strong>API</strong> before, it might sound a

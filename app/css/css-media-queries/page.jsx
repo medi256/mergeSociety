@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +21,6 @@ export const metadata = {
 const CSSMedia = () => {
   return (
     <div className="lesson-container">
-      
       <h1>CSS Media Query</h1>
       <p>
         When designing a website, it's crucial to ensure your content looks good
@@ -176,7 +174,7 @@ const CSSMedia = () => {
         Inside the media query, we change the background styles for the body to
         background-color: #87ceeb;.
       </p>
-      
+
       <h4>Here is the complete media query:</h4>
       <pre>
         <code>
@@ -221,10 +219,10 @@ const CSSMedia = () => {
         if the width of the screen is below 600px or above 768px.
       </p>
 
-      <h1>
+      <h2>
         Should you write separate media queries for every single device on the
         market?
-      </h1>
+      </h2>
       <p>The short answer to that question is no.</p>
       <p>
         There are way too many devices out on the market to try to write a media
@@ -271,7 +269,7 @@ const CSSMedia = () => {
         operators. If the media type is omitted then the media query will target
         all devices.
       </p>
-      
+
       <p>
         For more details, check out the{" "}
         <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
