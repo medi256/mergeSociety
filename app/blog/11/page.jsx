@@ -8,7 +8,7 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 export const metadata = {
   title: "Understanding JavaScript Closures: A Comprehensive Guide",
   description:
-    "Explore the concept of JavaScript closures, how they work, and their practical applications. Learn to manage scope, encapsulate data, and write efficient, modular code.",
+    "Explore the concept of JavaScript closures, how they work, and their practical applications. Learn to manage scope and encapsulate data and write efficient code",
   category: "JavaScript Tutorial",
   keywords: [
     "JavaScript",

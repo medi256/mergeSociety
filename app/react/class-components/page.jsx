@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -7,7 +6,7 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 export const metadata = {
   title: "Understanding Class Components in React",
   description:
-    "Learn about Class Components in React, including their creation, state management, lifecycle methods, and how they compare to Functional Components. This comprehensive guide helps you understand the significance of Class Components in React's evolution.",
+    "Learn about Class Components in React, including their creation, state management, lifecycle methods, and how they compare to Functional Components.",
   keywords: [
     "React",
     "Class Components",
@@ -30,7 +29,6 @@ export const metadata = {
 const ClassComponent = () => {
   return (
     <div className="lesson-container">
-      
       <h1>What Are Class Components?</h1>
       <p>
         Class Components are one of the two types of components in React. They
@@ -166,7 +164,7 @@ export default Counter;
           <code>onClick</code> event to call the increment method when clicked.
         </li>
       </ul>
-      
+
       <h2>Lifecycle Methods</h2>
       <p>
         Class Components have special methods called lifecycle methods that you
@@ -228,7 +226,7 @@ export default LifecycleExample;
           <strong>Less Boilerplate:</strong> No need for constructor or this.
         </li>
       </ul>
-      
+
       <h2>Summary</h2>
       <p>
         Class Components were the primary way to create components in React

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -8,7 +7,8 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 export const metadata = {
   title: "JavaScript Arrow Functions: A Comprehensive Guide",
   description:
-    "Unleash the power of arrow functions in JavaScript. Learn how to write concise and readable functions with this beginner-friendly tutorial. Explore the benefits of arrow functions, their syntax, and how they simplify your code. This guide will help you master the art of using arrow functions effectively.",
+    "Master JavaScript arrow functions with this beginner-friendly guide. Learn syntax, benefits, and tips to write clean, readable code.",
+
   keywords: [
     "javascript",
     "arrow functions",
@@ -23,14 +23,13 @@ export const metadata = {
   openGraph: {
     title: "JavaScript Arrow Functions: The Ultimate Guide",
     description:
-      "Discover the magic of arrow functions in JavaScript. This comprehensive tutorial will teach you how to write clean and concise functions, making your code more readable and maintainable. Learn the syntax, benefits, and best practices of arrow functions to enhance your JavaScript skills.",
+      "Master JavaScript arrow functions with this beginner-friendly guide. Learn syntax, benefits, and tips to write clean, readable code.",
   },
 };
 
 const ArrowFuc = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Arrow Functions in JavaScript</h1>
       <p>
         We've learned about regular functions, function parameters, and how to
@@ -103,7 +102,7 @@ const sayHello = name => 'Hello, ' + name + '!';
           keyword. The result of the single line is automatically returned.
         </li>
       </ul>
-      
+
       <h2>Arrow Functions with Curly Braces</h2>
       <p>
         Sometimes, you need to write more than one line of code in a function.
@@ -192,7 +191,7 @@ console.log(isEven(7)); // Output: false
         not. The arrow function makes it easy to perform this check in a compact
         and readable way.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         Arrow functions are a neat and simple way to write functions in

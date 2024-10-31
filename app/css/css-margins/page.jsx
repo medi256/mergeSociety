@@ -1,27 +1,36 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Master CSS Margins: Create Perfect Layouts in Web Design",
+  title: "Mastering CSS Margins: Create Perfect Spacing in Web Design",
   description:
-    "Learn to use CSS margins effectively. Explore margin properties, shorthand notation, negative margins, and percentage values to enhance your web layouts and improve user experience.",
-  keywords:
-    "CSS margins, web design, margin-top, margin-right, margin-bottom, margin-left, margin shorthand, negative margins, CSS layout",
+    "Explore how CSS margins create space around elements, improve layout and readability, and enhance the user experience with this beginner-friendly guide.",
+  keywords: [
+    "CSS margins",
+    "CSS margin tutorial",
+    "margin property in CSS",
+    "CSS layout",
+    "CSS spacing",
+    "CSS beginner guide",
+    "CSS visual hierarchy",
+    "CSS for beginners",
+    "web design margins",
+  ],
+
   openGraph: {
-    title: "Master CSS Margins: Create Perfect Layouts in Web Design",
+    title: "Mastering CSS Margins: Create Perfect Spacing in Web Design",
     description:
-      "Discover how to use CSS margins to create visually appealing and well-spaced web layouts with our comprehensive guide.",
-    type: "article",
+      "Explore how CSS margins create space around elements, improve layout and readability, and enhance the user experience with this beginner-friendly guide.",
+    type: "website",
+    url: "https://www.mergesociety.com/css-margins",
   },
 };
 
 const CSSMargins = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Margins in CSS</h1>
       <p>
         Margins are like the invisible spaces that surround your web designs,
@@ -176,7 +185,7 @@ div {
         you want to add extra space to the left of the element, such as creating
         a margin between the element and other elements on the left side.
       </p>
-      
+
       <h2>Margin Shorthand</h2>
       <p>
         CSS provides a shorthand property for margins that allows you to specify
@@ -268,7 +277,7 @@ div {
         and create a new HTML file. Let's explore the wonderful world of
         margins:
       </p>
-      
+
       <ol>
         <li>
           Create a simple HTML structure with div elements to serve as
@@ -301,7 +310,7 @@ div {
           your designs.
         </li>
       </ol>
-      
+
       <p>
         Remember, margins play a crucial role in creating visually appealing and
         user-friendly designs. They help create breathing room between elements,

@@ -3,7 +3,7 @@ import Button from "@/app/button";
 export const metadata = {
   title: "JavaScript: Why Learn JavaScript?",
   description:
-    "Dive into the world of JavaScript and discover why it's the go-to language for creating dynamic and interactive web experiences. From beginner-friendly coding to advanced web development, this guide explores JavaScript's versatility, popularity, and the endless opportunities it offers.",
+    "Dive into the world of JavaScript and discover why it's the go-to language for creating dynamic and interactive web experiences. From beginner-friendly coding to advanced web development, this guide explores JavaScript's versatility and  popularity.",
   keywords: [
     "javascript",
     "learn javascript",
