@@ -17,11 +17,15 @@ export const metadata = {
     "Teaching",
     "Open Source",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title:
       "Monetization Mastery: Unlocking Financial Opportunities in the Digital Economy",
     description:
       "A tech professional's guide to maximizing income through various monetization strategies. From freelancing gigs to digital products and consulting, discover the path to financial independence.",
+    url: "https://www.mergesociety.com/blog/6",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

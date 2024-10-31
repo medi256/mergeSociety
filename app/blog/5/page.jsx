@@ -17,28 +17,14 @@ export const metadata = {
     "OWASP",
     "Secure Coding",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Cybersecurity for Web Developers: A Complete Guide",
     description:
       "A detailed guide to cybersecurity essentials for web developers, covering common threats, security measures, and best practices.",
-
+    url: "https://www.mergesociety.com/blog/5",
     type: "article",
-  },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "Cybersecurity Essentials for Web Developers: A Comprehensive Guide",
-    description:
-      "A comprehensive tutorial on cybersecurity for web developers, covering threats, security measures, and best practices.",
-    author: {
-      "@type": "Person",
-      name: "Merge Society",
-    },
-
-    keywords:
-      "Cybersecurity, Web Security, Web Development, Threats, Security Measures, Best Practices",
-    articleSection: "Cybersecurity Tutorials",
-    wordCount: 4500,
   },
 };
 

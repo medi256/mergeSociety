@@ -16,10 +16,14 @@ export const metadata = {
     "Community Building",
     "Tech Influencer",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Online Courses and YouTube Channels: Impacting Lives Through Tech",
     description:
       "A comprehensive guide to creating online courses and starting a tech YouTube channel. Learn how to share your expertise, build a community, and make a difference.",
+    url: "https://www.mergesociety.com/blog/17",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -19,10 +19,14 @@ export const metadata = {
     "Responsive Design",
     "Front-End Development",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "CSS Grid vs. Flexbox: A Comprehensive Comparison",
     description:
       "Dive into the world of CSS layout systems and learn when to use Grid or Flexbox for your web projects.",
+    url: "https://www.mergesociety.com/blog/12",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

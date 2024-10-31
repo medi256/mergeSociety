@@ -6,6 +6,7 @@ export const metadata = {
   description:
     "Explore the critical role of version control systems like Git in managing code changes, facilitating collaboration, and maintaining project history.",
   category: "Software Development",
+
   keywords: [
     "Version Control",
     "Git",
@@ -17,10 +18,14 @@ export const metadata = {
     "Merging",
     "Open-Source",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Mastering Version Control for Efficient Development",
     description:
       "Learn how version control systems revolutionize software development, enabling seamless collaboration and project tracking.",
+    url: "https://www.mergesociety.com/blog/19",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

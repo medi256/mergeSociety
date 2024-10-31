@@ -21,10 +21,15 @@ export const metadata = {
     "JavaScript",
     "Web Development",
   ],
+  url: "https://www.mergesociety.com/blog/13",
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "React Hooks: Unlocking Functional Component Power",
     description:
       "A detailed guide to React Hooks, covering their use cases, benefits, and practical examples. Learn how to build modern React applications.",
+    url: "https://www.mergesociety.com/blog/13",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

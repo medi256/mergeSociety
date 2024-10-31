@@ -15,10 +15,14 @@ export const metadata = {
     "Digital Transformation",
     "AI in Development",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "No-Code Platforms: Unlocking Digital Innovation",
     description:
       "Discover how no-code and low-code platforms are democratizing web development, empowering citizen developers, and reshaping the tech industry.",
+    url: "https://www.mergesociety.com/blog/8",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -16,10 +16,14 @@ export const metadata = {
     "Online Presence",
     "SEO",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Domain Names: Understanding and Choosing the Right One",
     description:
       "A detailed guide to domain names, their functionality, and the process of selecting and setting up a domain for your website or business.",
+    url: "https://www.mergesociety.com/blog/15",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -1,11 +1,37 @@
-"use client";
+import { Project } from "../NextBlogButton";
 
-import { useRouter } from "next/navigation";
+export const metadata = {
+  title: "About MergeSociety | Empowering Web Developers",
+  description:
+    "Learn about MergeSociety's mission to make web development accessible to all through expert-led tutorials on HTML, CSS, JavaScript, and React. Join our community and start your web development journey today.",
+  keywords: [
+    "web development",
+    "HTML tutorials",
+    "CSS tutorials",
+    "JavaScript tutorials",
+    "React tutorials",
+    "MergeSociety",
+    "learn web development",
+    "web development for beginners",
+    "accessible coding education",
+    "free coding resources",
+  ],
+  author: "MergeSociety",
+  url: "https://www.mergesociety.com/about",
+  type: "website",
+  locale: "en_US",
+  openGraph: {
+    title: "About MergeSociety",
+    description:
+      "MergeSociety empowers web developers with accessible, high-quality tutorials in HTML, CSS, JavaScript, and React. Join our community and start learning today.",
+    type: "website",
+    url: "https://www.mergesociety.com/about",
+  },
+};
 
 const AboutPage = () => {
-  let router = useRouter();
   return (
-    <div>
+    <div className="lesson-container">
       <div className="container">
         <header className="hero">
           <h1>About MergeSociety</h1>
@@ -55,7 +81,7 @@ const AboutPage = () => {
         </section>
       </div>
       <div>
-        <button onClick={() => router.back()}>Back</button>
+        <Project />
       </div>
     </div>
   );

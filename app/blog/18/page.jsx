@@ -16,10 +16,14 @@ export const metadata = {
     "cybersecurity",
     "user trust",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "SSL Certificates: Securing Your Website and User Data",
     description:
       "Learn about the importance of SSL certificates in website security and how to implement them effectively.",
+    url: "https://www.mergesociety.com/blog/18",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -20,11 +20,13 @@ export const metadata = {
     "Push Notifications",
     "App Shell Architecture",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Progressive Web Apps: The Ultimate Guide",
     description:
       "A comprehensive tutorial on building PWAs, with real-world examples and best practices.",
-
+    url: "https://www.mergesociety.com/blog/2",
     type: "article",
   },
   schema: {
@@ -35,7 +37,7 @@ export const metadata = {
       "A detailed guide to building Progressive Web Apps, covering service workers, web app manifest, testing, and real-world case studies.",
     author: {
       "@type": "Person",
-      name: "Merge  Society",
+      name: "MergeSociety",
     },
 
     keywords: "PWA, Web Development, Service Workers, Web App Manifest",

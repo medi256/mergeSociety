@@ -17,10 +17,14 @@ export const metadata = {
     "Coverage Report",
     "Structured Data",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Google Search Console: Master SEO in 2024",
     description:
       "Explore the power of Google Search Console and its impact on SEO. Learn to optimize your website's visibility and performance in search results.",
+    url: "https://www.mergesociety.com/blog/14",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -14,10 +14,14 @@ export const metadata = {
     "Productivity",
     "AI in Coding",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "AI in Coding: The Future is Here",
     description:
       "Discover how AI tools are revolutionizing the way developers code. From ChatGPT to GitHub Copilot, learn about the AI-powered assistants that are boosting productivity and creativity in software development.",
+    url: "https://www.mergesociety.com/blog/7",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

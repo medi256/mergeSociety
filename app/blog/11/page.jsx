@@ -19,10 +19,15 @@ export const metadata = {
     "Function Factories",
     "JavaScript Best Practices",
   ],
+  type: "article",
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Mastering JavaScript Closures: A Developer's Guide",
     description:
       "A deep dive into JavaScript closures, their use cases, and potential pitfalls. Learn to leverage closures for efficient, modular code.",
+    url: "https://www.mergesociety.com/blog/11",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

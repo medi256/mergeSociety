@@ -2,6 +2,47 @@ import BlogButton from "@/app/NextBlogButton";
 import React from "react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "How the Internet Works: A Beginner’s Guide to Web Development",
+  description:
+    "Explore the fundamentals of the internet, from its history to how data flows through networks. This guide breaks down essential concepts, helping beginners understand web development basics.",
+  keywords: [
+    "How the Internet Works",
+    "Beginner’s Guide to Web Development",
+    "Internet history",
+    "TCP/IP",
+    "Web 1.0 to Web 3.0",
+    "HTTP and HTTPS",
+    "Internet protocols",
+    "Web development basics",
+  ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
+  image:
+    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
+  altText: "Diagram of the Internet's Structure",
+  url: "https://www.mergesociety.com/blog/1",
+  type: "article",
+  twitter: {
+    card: "summary_large_image",
+    title: "How the Internet Works: A Beginner’s Guide to Web Development",
+    description:
+      "Discover the journey of data, from IP addresses to HTTP protocols, in this introductory guide to the internet and web development.",
+    image:
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
+    alt: "Diagram of the Internet's Structure",
+  },
+  og: {
+    title: "How the Internet Works: A Beginner’s Guide to Web Development",
+    description:
+      "This beginner’s guide covers the internet’s structure, protocols, and key concepts, helping newcomers understand how web data flows seamlessly.",
+    url: "https://www.mergesociety.com/blog/1",
+    image:
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
+    type: "article",
+  },
+};
+
 const Blog1 = () => {
   return (
     <article className="lesson-container">

@@ -8,11 +8,17 @@ export const metadata = {
     "Explore in-depth strategies for building and maintaining professional networks as a developer. Learn about the critical importance of networking in the tech industry and how it can significantly boost your career trajectory.",
   keywords:
     "developer networking, professional connections, tech industry, career growth, software development, community building, mentorship, online presence",
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
+  url: "https://www.mergesociety.com/blog/20",
+  type: "article",
   openGraph: {
     title:
       "Building Networks as Developers: A Comprehensive Guide to Professional Connections",
     description:
       "Explore in-depth strategies for building and maintaining professional networks as a developer. Learn about the critical importance of networking in the tech industry and how it can significantly boost your career trajectory.",
+    url: "https://www.mergesociety.com/blog/20",
+    type: "article",
   },
 };
 

@@ -1,10 +1,33 @@
-"use client";
+import { Project } from "../NextBlogButton";
 
-import { useRouter } from "next/navigation";
+export const metadata = {
+  title: "Policies | MergeSociety",
+  description:
+    "Learn about MergeSociety's commitment to user privacy, terms and conditions, and cookie policies. Understand our approach to data collection, user rights, and website usage.",
+  keywords: [
+    "privacy policy",
+    "terms and conditions",
+    "cookie policy",
+    "data collection",
+    "MergeSociety policies",
+    "user privacy",
+    "web development resources",
+    "Google Analytics",
+    "Clicky analytics",
+  ],
+  author: "MergeSociety",
+  url: "https://www.mergesociety.com/policies",
+  type: "website",
+  openGraph: {
+    title: "MergeSociety Policies",
+    description:
+      "MergeSociety outlines its policies on privacy, terms and conditions, and cookie usage to protect user data and enhance user experience. Learn more about our data practices.",
+    type: "website",
+    url: "https://www.mergesociety.com/policies",
+  },
+};
 
 const Policies = () => {
-  const router = useRouter();
-
   return (
     <div className="policies-container">
       <h1 className="policies-title">Policies</h1>
@@ -128,9 +151,7 @@ const Policies = () => {
         .
       </p>
       <div className="button-container">
-        <button className="back-button" onClick={() => router.push("/")}>
-          Back
-        </button>
+        <Project />
       </div>
     </div>
   );

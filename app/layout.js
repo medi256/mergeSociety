@@ -23,7 +23,7 @@ export const metadata = {
   description:
     "Master web development with MergeSociety. Learn HTML, CSS, JavaScript, and React through interactive tutorials and stay updated with our web dev blog.",
   keywords:
-    "web development, HTML, CSS, JavaScript, React, coding tutorials, web dev blog, web development courses, learn HTML5, learn CSS, JavaScript tutorials, React tutorials",
+    "web development, HTML, CSS, JavaScript, React, coding tutorials, web dev blog, web development courses, learn HTML5, learn CSS, JavaScript tutorials, React tutorials, MergeSociety",
   openGraph: {
     title: "MergeSociety - Learn Web Development",
     description:

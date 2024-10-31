@@ -7,10 +7,16 @@ export const metadata = {
     "Explore the fascinating world of the Internet of Things (IoT) and how it is transforming industries, homes, and cities. Learn about its history, architecture, use cases, and the future of IoT with 5G and AI integration. Understand the security and ethical considerations in this rapidly growing field.",
   keywords:
     "Internet of Things, IoT, smart devices, connected world, IoT architecture, IoT use cases, IoT security, IoT ethics, 5G, AI, edge computing, quantum computing",
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
+  url: "https://www.mergesociety.com/blog/21",
+  type: "article",
   openGraph: {
     title: "The Internet of Things (IoT) Revolution",
     description:
       "Discover the impact of IoT on our lives and the world around us. Learn about its historical development, architecture, and real-world applications. Explore the future of IoT with 5G, AI, and emerging technologies.",
+    url: "https://www.mergesociety.com/blog/21",
+    type: "article",
   },
 };
 

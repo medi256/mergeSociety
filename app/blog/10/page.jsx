@@ -16,21 +16,14 @@ export const metadata = {
     "Virtual DOM",
     "React Native",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "React in 2024: The Future of Web Development",
     description:
       "Discover why React continues to dominate the web development landscape in 2024. Learn about its component-based architecture, Virtual DOM, strong community support, and how it shapes the future of web apps.",
-  },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "Why Learn React in 2024: A Comprehensive Guide",
-    description:
-      "Understand why React is still a top choice for web developers in 2024. Explore its component-based architecture, Virtual DOM, strong community, and how it's shaping the future of web development.",
-    keywords:
-      "React, Web Development, JavaScript, Frontend, Component-Based Architecture, Virtual DOM, React Native",
-    articleSection: "Tech Education",
-    wordCount: 2500,
+    url: "https://www.mergesociety.com/blog/10",
+    type: "article",
   },
 };
 

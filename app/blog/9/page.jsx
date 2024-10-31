@@ -14,21 +14,14 @@ export const metadata = {
     "Cryptocurrencies",
     "dApps",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Blockchain and Web3: Redefining the Internet",
     description:
       "Explore the future of the internet with blockchain and Web3. Learn how these technologies are changing the way we interact online, from decentralized finance to digital identity and NFTs.",
-  },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "Blockchain and Web3: The Future of the Internet Explained",
-    description:
-      "A simple guide to understanding how blockchain and Web3 are reshaping the internet. Discover the potential of decentralized finance, digital identity, and NFTs, and how they might impact your daily life.",
-    keywords:
-      "Blockchain, Web3, DeFi, Digital Identity, NFTs, Cryptocurrencies, dApps",
-    articleSection: "Tech Education",
-    wordCount: 1500,
+    url: "https://www.mergesociety.com/blog/9",
+    type: "article",
   },
 };
 

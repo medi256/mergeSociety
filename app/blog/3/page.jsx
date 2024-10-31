@@ -19,11 +19,13 @@ export const metadata = {
     "Content Creation",
     "Analytics",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Search Engine Optimization (SEO) Starter Guide",
     description:
       "A comprehensive tutorial on SEO and content marketing strategies for online success.",
-
+    url: "https://www.mergesociety.com/blog/3",
     type: "article",
   },
   schema: {
@@ -34,7 +36,7 @@ export const metadata = {
       "A detailed guide to SEO and content marketing, covering on-page SEO, off-page SEO, content creation, and analytics.",
     author: {
       "@type": "Person",
-      name: "Merge Society",
+      name: "MergeSociety",
     },
 
     keywords: "SEO, Content Marketing, Digital Marketing, Online Visibility",

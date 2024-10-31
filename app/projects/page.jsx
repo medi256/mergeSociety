@@ -7,11 +7,18 @@ export const metadata = {
   description:
     "Explore a wide range of coding projects to enhance your HTML, CSS, and JavaScript skills. Dive into different challenges and start building.",
   keywords:
-    "HTML, CSS, JavaScript, projects, coding challenges, beginner projects, advanced projects",
+    "HTML, CSS, JavaScript, projects, coding challenges, beginner projects, advanced projects, web development projects,HTML projects, CSS projects,JavaScript projects, beginner HTML, CSS animations, JavaScript applications, coding practice, project categories",
+
+  author: "MergeSociety",
+  url: "https://mergesociety.com/projects",
+  type: "website",
   openGraph: {
     title: "Explore Coding Projects | HTML, CSS, JavaScript",
     description:
       "Explore a wide range of coding projects to enhance your HTML, CSS, and JavaScript skills. Dive into different challenges and start building.",
+    author: "MergeSociety",
+    url: "https://mergesociety.com/projects",
+    type: "website",
   },
 };
 

@@ -7,10 +7,16 @@ export const metadata = {
     "Explore cutting-edge tech insights on web development, SEO, AI, cybersecurity, and emerging technologies. Stay informed with our expert articles and tutorials.",
   keywords:
     "web development, SEO, AI, cybersecurity, blockchain, React, JavaScript, CSS, digital marketing",
+  url: "https://www.mergesociety.com/blog",
+  type: "article",
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Tech Insights Blog | Web Development, SEO, AI, and More",
     description:
       "Explore cutting-edge tech insights on web development, SEO, AI, cybersecurity, and emerging technologies. Stay informed with our expert articles and tutorials.",
+    url: "https://www.mergesociety.com/blog",
+    type: "article",
   },
 };
 

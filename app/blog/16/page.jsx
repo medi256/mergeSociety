@@ -17,10 +17,14 @@ export const metadata = {
     "Web Development",
     "Website Hosting",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "Web Hosting: Choosing the Right Provider for Your Website",
     description:
       "Explore the various types of web hosting, their pros and cons, and how to select the best provider for your website's needs. Learn to avoid common hosting pitfalls.",
+    url: "https://www.mergesociety.com/blog/16",
+    type: "article",
   },
   schema: {
     "@context": "https://schema.org",

@@ -17,22 +17,13 @@ export const metadata = {
     "Crazy Egg",
     "Data-Driven Decisions",
   ],
+  author: "MergeSociety",
+  publishDate: new Date().toISOString().split("T")[0],
   openGraph: {
     title: "What is Web Analytics and Why it's Important to Your Goals",
+    url: "https://www.mergesociety.com/blog/4",
     description:
       "A detailed guide to mastering web analytics for exceptional UX. Learn how to track and analyze user behavior to improve your website.",
-  },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    name: "Web Analytics: Mastering User Behavior Tracking for Exceptional UX",
-    description:
-      "A comprehensive tutorial on web analytics, covering Google Analytics, user behavior tracking, and UX optimization strategies.",
-
-    keywords:
-      "Web Analytics, User Behavior, UX, Google Analytics, Hotjar, Crazy Egg, Data-Driven Decisions",
-    articleSection: "Web Analytics Tutorials",
-    wordCount: 4000,
   },
 };
 
