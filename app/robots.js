@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/privacy/",
     },
-    sitemap: `https://mergesociety.com/sitemap.xml`,
+    sitemap: `https://www.mergesociety.com/sitemap.xml`,
   };
 }
