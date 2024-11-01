@@ -1,20 +1,27 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
-
+import Link from "next/link";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Introduction to HTML: Learn the Basics of Web Development",
+  title: "Introduction to HTML | Learn the Basics of HTML for Web Development",
   description:
-    "Discover the fundamentals of HTML, its history, and how it works with CSS and JavaScript. Learn to set up your coding environment and create your first webpage.",
+    "Dive into the fundamentals of HTML with our beginner-friendly guide. Explore the history, structure, and essential role of HTML in web development. Learn how HTML works alongside CSS and JavaScript to create modern websites. Start your HTML journey here!",
   keywords:
-    "HTML, web development, coding for beginners, HTML basics, HTML tutorial",
+    "HTML basics, HTML introduction, learn HTML, HTML for beginners, web development HTML, HTML course, HTML tags, HTML structure, CSS and HTML, HTML tutorial",
+  author: "MergeSociety",
+  alternates: {
+    canonical: "https://www.mergesocietry.com/html-introduction",
+  },
+
   openGraph: {
     title:
-      "Introduction to HTML: Learn the Basics of Web Development | MergeSociety",
+      "Introduction to HTML | Learn the Basics of HTML for Web Development",
     description:
-      "Discover the fundamentals of HTML, its history, and how it works with CSS and JavaScript. Learn to set up your coding environment and create your first webpage.",
+      "Begin your journey into HTML, the backbone of web development. This guide covers HTML basics, history, and its role with CSS and JavaScript. Perfect for beginners.",
+    type: "website",
+    siteName: "MergeSociety",
+    url: "https://www.mergesocietry.com/html-introduction",
   },
 };
 
@@ -22,7 +29,6 @@ const HTMLIntroduction = () => {
   return (
     <div className="lesson-container">
       <section>
-        
         <h1>Introduction to HTML</h1>
         <p>
           Welcome to the exciting world of HTML! In this course, you will learn
@@ -30,7 +36,14 @@ const HTMLIntroduction = () => {
           backbone of every website you visit on the internet. HTML is a simple
           yet powerful language that allows us to create structured and
           interactive web pages. Let's dive in and explore its history, purpose,
-          and how it works alongside other technologies like CSS and JavaScript
+          and how it works alongside other technologies like{" "}
+          <Link href={"/css"} passHref>
+            CSS
+          </Link>{" "}
+          and{" "}
+          <Link href={"/javascript"} passHref>
+            JavaScript
+          </Link>{" "}
           to bring websites to life!
         </p>
 
@@ -55,13 +68,18 @@ const HTMLIntroduction = () => {
 
         <h2>How HTML Works with CSS and JavaScript</h2>
         <p>
-          HTML is often used alongside two other essential web technologies: CSS
+          HTML is often used alongside two other essential web technologies:{" "}
+          <Link href={"/css"} passHref>
+            CSS
+          </Link>
           (Cascading Style Sheets) and JavaScript. CSS is responsible for the
           styling and layout of the HTML content, making it visually appealing.
-          JavaScript, on the other hand, adds interactivity to the web page,
-          enabling dynamic behavior and responsive user interfaces. Together,
-          HTML, CSS, and JavaScript form the foundation of modern web
-          development.
+          <Link href={"/javascript"} passHref>
+            JavaScript
+          </Link>
+          , on the other hand, adds interactivity to the web page, enabling
+          dynamic behavior and responsive user interfaces. Together, HTML, CSS,
+          and JavaScript form the foundation of modern web development.
         </p>
 
         <h2>The Power of HTML: What Can It Do?</h2>
@@ -87,9 +105,11 @@ const HTMLIntroduction = () => {
         <ol>
           <li>
             <strong>Download VSCode:</strong> Head over to the VSCode website
-            <a href="https://code.visualstudio.com">(visit to download)</a> and
-            download the installer for your operating system. Install VSCode on
-            your computer by following the installation wizard.
+            <a href="https://code.visualstudio.com" target="_blank">
+              (visit to download)
+            </a>{" "}
+            and download the installer for your operating system. Install VSCode
+            on your computer by following the installation wizard.
           </li>
           <li>
             <strong>Create a New Folder:</strong> Open Windows Explorer or
@@ -139,7 +159,7 @@ const HTMLIntroduction = () => {
             the code; we'll break down each part in the upcoming lessons.
           </li>
         </ol>
-        
+
         <h3>For Mobile Users</h3>
         <p>
           If you're using a mobile device, there are several code editors
@@ -182,7 +202,7 @@ const HTMLIntroduction = () => {
           ".css" for CSS files and ".js" for JavaScript files. This helps both
           humans and computers quickly identify the type of content in a file.
         </p>
-        
+
         <p>
           Remember, this is just an introduction to what your appetite! In the
           upcoming lessons, we'll dive deeper into each aspect of HTML,

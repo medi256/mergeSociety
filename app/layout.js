@@ -35,6 +35,18 @@ export const metadata = {
   },
   authors: [{ name: "MergeSociety" }],
   category: "Advanced Web Development Tutorial",
+  tags: [
+    "web development",
+    "coding",
+    "tutorials",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+  ],
+  publisher: "MergeSociety",
+  copyright: `© ${new Date().getFullYear()} MergeSociety. All rights reserved.`,
+
   alternates: {
     canonical: "https://www.mergesociety.com",
   },
