@@ -26,7 +26,9 @@ const ProjectCategories = () => {
   return (
     <div className="categories-container">
       <ScrollToTop />
-      <h1 className="categories-title">Explore Projects by Category</h1>
+      <h1 className="categories-title">
+        Explore HTML, CSS and javascript Projects for beginners
+      </h1>
       <div className="categories-links">
         <Link href="/projects/htmlP" passHref>
           <div className="category-card">
