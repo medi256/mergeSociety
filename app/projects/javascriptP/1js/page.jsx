@@ -13,7 +13,7 @@ const ToDolistApp = () => {
       title: "Introduction to the To-Do List App",
       content: (
         <>
-          <h3>Welcome to Building a To-Do List App with JavaScript!</h3>
+          <h3>Welcome to Building a To-Do List App with JavaScript! 🚀</h3>
           <ScrollToTop />
           <p>
             In this project, we'll create a simple to-do list app where users
@@ -46,57 +46,132 @@ const ToDolistApp = () => {
           <p>
             Before we start coding, let's set up a workspace for our project:
           </p>
-          <ol>
-            <li>
-              On Windows: Right-click on your desktop, select "New" &gt;
-              "Folder", and name it "to-do-list-app".
-            </li>
-            <li>
-              On Mac: Right-click on your desktop, select "New Folder", and name
-              it "to-do-list-app".
-            </li>
-            <li>
-              <strong>Open the Folder in a Text Editor:</strong>
-              <ul>
-                <li>
-                  <strong>Visual Studio Code:</strong> If you have VS Code,
-                  right-click on the "to-do-list-app" folder and select "Open
-                  with Code".
-                </li>
-                <li>
-                  <strong>Other Text Editors:</strong> For Notepad or TextEdit,
-                  simply double-click on the folder to open it.
-                </li>
-              </ul>
-            </li>
-
-            <strong>Create HTML, CSS, and JavaScript Files:</strong>
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#fff3e0",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 1: Create Your Project Folder</h4>
+            <p>
+              Think of this folder like a container where we'll keep all our
+              project files - just like having a special drawer for your art
+              supplies!
+            </p>
             <ul>
               <li>
-                In VS Code: Right-click in the file explorer panel, select "New
-                File", and create three files: "index.html", "styles.css", and
-                "script.js".
+                <strong>On Windows:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New" &gt; "Folder"</li>
+                  <li>Name it "to-do-list-app"</li>
+                </ol>
               </li>
               <li>
-                In Notepad/TextEdit: Create a new file, then immediately "Save
-                As" and create three files: "index.html", "styles.css", and
-                "script.js". Make sure to save them in your "to-do-list-app"
-                folder.
+                <strong>On Mac:</strong>
+                <ol>
+                  <li>Right-click on your desktop</li>
+                  <li>Choose "New Folder"</li>
+                  <li>Name it "to-do-list-app"</li>
+                </ol>
               </li>
             </ul>
-          </ol>
-          <p>
-            <strong>Explanation:</strong> We create a new folder to keep our
-            project organized. The "index.html" file will contain the HTML
-            structure, "styles.css" will hold our CSS rules for styling, and
-            "script.js" will contain our JavaScript code. The "index.html" file
-            is the main page of our to-do list app, and it's standard to name it
-            "index.html".
-          </p>
-          <p>
-            Great job! You've set up your workspace. In the next step, we'll
-            start building the HTML structure for our to-do list.
-          </p>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e3f2fd",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 2: Get Your Text Editor Ready</h4>
+            <p>
+              A text editor is like your crafting tool - it's where we'll write
+              our code. We recommend Visual Studio Code because it's free and
+              beginner-friendly!
+            </p>
+            <ol>
+              <li>
+                Download Visual Studio Code from{" "}
+                <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>{" "}
+                if you haven't already
+              </li>
+              <li>Install it on your computer</li>
+              <li>
+                Open VS Code and drag your "to-do-list-app" folder into the
+                window
+              </li>
+            </ol>
+          </div>
+
+          <div
+            className="step-box"
+            style={{
+              backgroundColor: "#e8f5e9",
+              padding: "20px",
+              borderRadius: "5px",
+              marginBottom: "20px",
+            }}
+          >
+            <h4>Step 3: Create Your Project Files</h4>
+            <p>
+              We need three special files - think of them as three pieces of
+              paper where we'll write different things:
+            </p>
+            <ul>
+              <li>
+                <strong>index.html</strong> - This is like the blueprint of our
+                to-do list app (the structure)
+              </li>
+              <li>
+                <strong>styles.css</strong> - This is like our painting palette
+                (where we make things pretty)
+              </li>
+              <li>
+                <strong>script.js</strong> - This is like our magic wand (where
+                we make things interactive)
+              </li>
+            </ul>
+            <p>To create these files:</p>
+            <ol>
+              <li>Click "New File" in VS Code</li>
+              <li>Save it as "index.html"</li>
+              <li>Create another new file</li>
+              <li>Save it as "styles.css"</li>
+              <li>Create one more new file</li>
+              <li>Save it as "script.js"</li>
+            </ol>
+          </div>
+
+          <div
+            className="tip-box"
+            style={{
+              backgroundColor: "#f0f7ff",
+              padding: "15px",
+              borderRadius: "5px",
+              marginTop: "20px",
+            }}
+          >
+            <p>
+              <strong>🎯 Success Check:</strong> At this point, you should have:
+            </p>
+            <ul>
+              <li>A folder named "to-do-list-app" on your desktop</li>
+              <li>Visual Studio Code open with your folder</li>
+              <li>Three empty files: index.html, styles.css, and script.js</li>
+            </ul>
+            <p>
+              <strong>👉 Need Help?</strong> If something's not working, try
+              closing VS Code and opening it again, or create the files using
+              the "File → New File" menu.
+            </p>
+          </div>
         </>
       ),
     },
@@ -110,18 +185,16 @@ const ToDolistApp = () => {
             Before we dive into CSS and JavaScript, let's set up the HTML
             structure for our to-do list app:
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "index.html":</strong> Open your "index.html" file in
-              your code editor.
+              <strong>1. Open "index.html":</strong> Open your "index.html" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add the To-Do List HTML:</strong> Copy and paste the
+              <strong>2. Add the To-Do List HTML:</strong> Copy and paste the
               following code into your "index.html" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="html" style={docco}>
-                    {`<!DOCTYPE html>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -141,9 +214,7 @@ const ToDolistApp = () => {
   <script src="script.js"></script>
 </body>
 </html>`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the HTML structure:</p>
@@ -198,18 +269,16 @@ const ToDolistApp = () => {
             Let's start by styling the to-do list app to ensure a consistent and
             clean layout.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add To-Do List Styles:</strong> Copy and paste the
+              <strong>2. Add To-Do List Styles:</strong> Copy and paste the
               following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`body {
+              <SyntaxHighlighter language="css" style={docco}>
+                {`body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -294,9 +363,7 @@ li button {
 li button:hover {
   background-color: #ff1a1a;
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -370,25 +437,21 @@ li button:hover {
             Let's start adding JavaScript to handle user interactions, such as
             adding tasks.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "script.js":</strong> Open the "script.js" file in
+              <strong>1. Open "script.js":</strong> Open the "script.js" file in
               your code editor.
             </li>
             <li>
-              <strong>Selecting Elements:</strong> Copy and paste the following
-              JavaScript code into your "script.js" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="javascript" style={docco}>
-                    {`document.addEventListener('DOMContentLoaded', () => {
+              <strong>2. Selecting Elements:</strong> Copy and paste the
+              following JavaScript code into your "script.js" file:
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const todoInput = document.getElementById('todo-input');
   const todoList = document.getElementById('todo-list');
 });`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the JavaScript code we just added:</p>
@@ -435,18 +498,16 @@ li button:hover {
             Let's add the functionality to handle the form submission and add
             new tasks to the to-do list.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "script.js":</strong> Open the "script.js" file in
+              <strong>1. Open "script.js":</strong> Open the "script.js" file in
               your code editor.
             </li>
             <li>
-              <strong>Handling Form Submission:</strong> Copy and paste the
+              <strong>2. Handling Form Submission:</strong> Copy and paste the
               following JavaScript code into your "script.js" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="javascript" style={docco}>
-                    {`document.addEventListener('DOMContentLoaded', () => {
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const todoInput = document.getElementById('todo-input');
   const todoList = document.getElementById('todo-list');
@@ -464,9 +525,7 @@ li button:hover {
     todoList.appendChild(li);
   }
 });`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the JavaScript code we just added:</p>
@@ -520,18 +579,16 @@ li button:hover {
           <h3>Adding Functionality to Delete Tasks</h3>
           <ScrollToTop />
           <p>Let's add functionality to delete tasks from the to-do list.</p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "script.js":</strong> Open the "script.js" file in
+              <strong>1. Open "script.js":</strong> Open the "script.js" file in
               your code editor.
             </li>
             <li>
-              <strong>Adding Delete Functionality:</strong> Copy and paste the
-              following JavaScript code into your "script.js" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="javascript" style={docco}>
-                    {`document.addEventListener('DOMContentLoaded', () => {
+              <strong>2. Adding Delete Functionality:</strong> Copy and paste
+              the following JavaScript code into your "script.js" file:
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const todoInput = document.getElementById('todo-input');
   const todoList = document.getElementById('todo-list');
@@ -556,9 +613,7 @@ li button:hover {
     todoList.appendChild(li);
   }
 });`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the JavaScript code we just added:</p>
@@ -602,18 +657,16 @@ li button:hover {
           <ScrollToTop />
           <h3>Adding Functionality to Edit Tasks</h3>
           <p>Let's add functionality to edit tasks in our to-do list app.</p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "script.js":</strong> Open the "script.js" file in
+              <strong>1. Open "script.js":</strong> Open the "script.js" file in
               your code editor.
             </li>
             <li>
-              <strong>Adding Edit Functionality:</strong> Copy and paste the
+              <strong>2. Adding Edit Functionality:</strong> Copy and paste the
               following JavaScript code into your "script.js" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="javascript" style={docco}>
-                    {`document.addEventListener('DOMContentLoaded', () => {
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`document.addEventListener('DOMContentLoaded', () => {
   const todoForm = document.getElementById('todo-form');
   const todoInput = document.getElementById('todo-input');
   const todoList = document.getElementById('todo-list');
@@ -648,9 +701,7 @@ li button:hover {
     todoList.appendChild(li);
   }
 });`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the JavaScript code we just added:</p>
@@ -706,18 +757,16 @@ li button:hover {
             Let's ensure our to-do list app looks great on various devices by
             adding responsive design using CSS media queries.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Responsive Design Styles:</strong> Copy and paste the
-              following CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`@media (max-width: 600px) {
+              <strong>2. Add Responsive Design Styles:</strong> Copy and paste
+              the following CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media (max-width: 600px) {
   .container {
     width: 90%;
   }
@@ -740,9 +789,7 @@ li button:hover {
     font-size: 0.7rem;
   }
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -793,18 +840,16 @@ li button:hover {
             Let's add the final touches to our to-do list app to ensure it is
             fully functional and visually appealing.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
-              <strong>Open "styles.css":</strong> Open the "styles.css" file in
-              your code editor.
+              <strong>1. Open "styles.css":</strong> Open the "styles.css" file
+              in your code editor.
             </li>
             <li>
-              <strong>Add Final Touches:</strong> Copy and paste the following
-              CSS code into your "styles.css" file:
-              <pre>
-                <code>
-                  <SyntaxHighlighter language="css" style={docco}>
-                    {`.container {
+              <strong>2. Add Final Touches:</strong> Copy and paste the
+              following CSS code into your "styles.css" file:
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.container {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -823,9 +868,7 @@ li button {
 li button:hover {
   transform: scale(1.1);
 }`}
-                  </SyntaxHighlighter>
-                </code>
-              </pre>
+              </SyntaxHighlighter>
             </li>
           </ol>
           <p>Let's understand the CSS rules we just added:</p>
@@ -863,7 +906,7 @@ li button:hover {
           </p>
           <p>
             Feel free to continue customizing your to-do list app and exploring
-            more JavaScript techniques. Happy coding!
+            more JavaScript techniques. Happy coding! 🚀
           </p>
         </>
       ),
@@ -886,7 +929,7 @@ li button:hover {
     <div className="lesson-container">
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
         <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
-          Building a To-Do List App with JavaScript
+          Building a Random Quote Generator with JavaScript
         </h1>
         <div style={{ marginBottom: "20px" }}>
           <h2 style={{ color: "#444" }}>
