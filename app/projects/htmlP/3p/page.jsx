@@ -19,7 +19,6 @@ export const metadata = {
     title: "Creating an HTML Table for Weekly Schedules",
     description:
       "A beginner's guide to creating a weekly schedule using HTML tables. Perfect for learning how to structure data with HTML.",
-    type: "website",
   },
 };
 
