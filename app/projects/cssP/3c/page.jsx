@@ -233,8 +233,10 @@ const ResponsiveNavigationMenu = () => {
             Copy this code into your index.html file - don't worry, we'll
             explain every part! 🧩 :
           </p>
-          <SyntaxHighlighter language="html" style={docco}>
-            {`<!DOCTYPE html>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -246,7 +248,9 @@ const ResponsiveNavigationMenu = () => {
   <!-- Our menu will go here! -->
 </body>
 </html>`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>
               🎓 Think of this like a recipe card: it tells the browser what
@@ -287,8 +291,10 @@ const ResponsiveNavigationMenu = () => {
         <li>
           <strong>2. Add Our Navigation Menu Structure</strong>
           <p>Now let's add our menu's building blocks:</p>
-          <SyntaxHighlighter language="html" style={docco}>
-            {`<nav>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<nav>
   <div class="logo">
     <a href="#">My Website</a>
   </div>
@@ -304,7 +310,9 @@ const ResponsiveNavigationMenu = () => {
     <div class="line3"></div>
   </div>
 </nav>`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -391,15 +399,19 @@ const ResponsiveNavigationMenu = () => {
             Copy this code into your styles.css file - don't worry, we'll
             explain every part! 🧩 :
           </p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`/* This makes sure our page looks consistent everywhere */
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`/* This makes sure our page looks consistent everywhere */
 body {
   font-family: Arial, sans-serif;  /* Easy to read font */
   margin: 0;                       /* No extra space around edges */
   padding: 0;                      /* No inner spacing */
   box-sizing: border-box;          /* Makes size calculations easier */
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>
               🎨 Think of this like preparing a canvas before painting - we're
@@ -429,8 +441,10 @@ body {
         <li>
           <strong>2. Styling Our Navigation Container</strong>
           <p>Now let's style the main navigation bar:</p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`nav {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`nav {
   background-color: #333;          /* Dark gray background */
   color: white;                    /* White text */
   display: flex;                   /* Makes items line up nicely */
@@ -439,7 +453,9 @@ body {
   padding: 1rem;                   /* Adds some breathing room */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Adds a subtle shadow */
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -517,15 +533,19 @@ body {
       <ol>
         <li>
           <strong>1. Styling the Link Container</strong>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`.nav-links {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-links {
   display: flex;          /* Makes links go horizontal */
   list-style: none;      /* Removes bullet points */
   margin: 0;             /* No extra space outside */
   padding: 0;            /* No extra space inside */
   gap: 2rem;             /* Space between links */
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -554,8 +574,10 @@ body {
 
         <li>
           <strong>2. Making Links Look Pretty</strong>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`.nav-links a {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-links a {
   color: white;                /* White text */
   text-decoration: none;       /* Removes underline */
   font-size: 1.1rem;          /* Makes text bigger */
@@ -567,7 +589,9 @@ body {
   color: #ffd700;             /* Changes to gold color */
   transform: translateY(-2px); /* Slight lift effect */
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -639,8 +663,10 @@ body {
         <li>
           <strong>1. Add the Hamburger Menu Style</strong>
           <p>First, let's style our mobile menu button (the "hamburger"):</p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`.burger {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.burger {
   display: none;  /* Hide by default on big screens */
   cursor: pointer;
 }
@@ -652,7 +678,9 @@ body {
   margin: 5px;
   transition: all 0.3s ease;
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -692,8 +720,10 @@ body {
             Now let's add special rules for small screens (this is called a
             "media query"):
           </p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`@media screen and (max-width: 768px) {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media screen and (max-width: 768px) {
   .burger {
     display: block;  /* Show hamburger on mobile */
   }
@@ -715,7 +745,9 @@ body {
     right: 0;       /* Slide menu in */
   }
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -816,8 +848,10 @@ body {
             Let's make the hamburger menu button transform into an "X" when it's
             clicked.
           </p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`.toggle .line1 {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
 
@@ -828,7 +862,9 @@ body {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
@@ -854,8 +890,10 @@ body {
             Let's add a smooth fade-in effect for the menu items when the menu
             slides in.
           </p>
-          <SyntaxHighlighter language="css" style={docco}>
-            {`.nav-active {
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.nav-active {
   transform: translateX(0);
 }
 
@@ -873,7 +911,9 @@ body {
 .nav-links li {
   animation: navLinkFade 0.5s ease forwards;
 }`}
-          </SyntaxHighlighter>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
           <div>
             <p>Let's break down what each part does:</p>
             <ul>
