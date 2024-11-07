@@ -1,5 +1,7 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import Link from "next/link";
 
 export const metadata = {
   title: "Creating an HTML Table for Weekly Schedules | HTML Tutorial",
@@ -43,7 +45,7 @@ const WeeklyScheduleHtml = () => {
         </h1>
       </div>
 
-      <h2>Introduction to HTML Tables for Weekly Schedules </h2>
+      <h2>Introduction to HTML Tables for Weekly Schedules</h2>
       <h3>Welcome to the HTML Weekly Schedule Tutorial</h3>
 
       <div>
@@ -51,8 +53,11 @@ const WeeklyScheduleHtml = () => {
           <p>
             In this tutorial, we'll guide you through creating a weekly schedule
             using HTML tables. This project is perfect for beginners who want to
-            practice their HTML skills and learn how to structure data using
-            tables.
+            practice their{" "}
+            <Link href="html" passHref>
+              HTML
+            </Link>{" "}
+            skills and learn how to structure data using tables.
           </p>
         </div>
 
@@ -181,19 +186,82 @@ const WeeklyScheduleHtml = () => {
         </div>
 
         <div>
-          <h4>The Basic Structure</h4>
+          <h4>Step 1: Adding the Document Type Declaration</h4>
           <p>Open your "index.html" file and add the following code:</p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<!DOCTYPE html>
-<html lang="en">
-<head>
+                {`<!DOCTYPE html>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>
+            This line tells the browser that this document is written in HTML5.
+          </p>
+        </div>
+
+        <div>
+          <h4>Step 2: Adding the HTML Tag</h4>
+          <p>Next, add the following code:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<html lang="en">`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>
+            This line starts your HTML document and specifies that the language
+            is English.
+          </p>
+        </div>
+
+        <div>
+          <h4>Step 3: Adding the Head Section</h4>
+          <p>Now, add the following code:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Weekly Schedule</title>
-</head>
-<body>
+</head>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Let's understand each line:</p>
+          <ul>
+            <li>
+              <code>&lt;head&gt;</code> contains meta information about the
+              document.
+            </li>
+            <li>
+              <code>&lt;meta charset="UTF-8"&gt;</code> sets the character
+              encoding to UTF-8, supporting various languages.
+            </li>
+            <li>
+              <code>
+                &lt;meta name="viewport" content="width=device-width,
+                initial-scale=1.0"&gt;
+              </code>{" "}
+              ensures that the schedule looks good on different devices and
+              screen sizes.
+            </li>
+            <li>
+              <code>&lt;title&gt;</code> sets the title of the webpage, which
+              appears in the browser tab.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 4: Adding the Body Section</h4>
+          <p>Finally, add the following code:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<body>
   <h1>My Weekly Schedule</h1>
   <!-- We'll add our table here -->
 </body>
@@ -201,85 +269,29 @@ const WeeklyScheduleHtml = () => {
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Let's break this down - piece by piece:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <!DOCTYPE html>`}</p>
-                <p>
-                  This is like a note at the top of a letter, telling the
-                  browser that this document is written in HTML5.
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <html lang="en">`}</p>
-                <p>
-                  This is the root tag, like the cover of a book. The{" "}
-                  <code>lang="en"</code> attribute tells the browser that the
-                  content is in English.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <head>`}</p>
-                <p>
-                  This section is like the back cover of a book, where you put
-                  information about the document itself, like the title and
-                  character encoding.
-                </p>
-              </div>
-
-              <div>
-                <p>{`4. <meta charset="UTF-8">`}</p>
-                <p>
-                  This tag sets the character encoding to UTF-8, which is like a
-                  language that the browser uses to understand all the
-                  characters in your document.
-                </p>
-              </div>
-
-              <div>
-                <p>{`5. <meta name="viewport" ...>`}</p>
-                <p>
-                  This tag ensures that your webpage looks good on different
-                  devices, like a map that adjusts to fit your screen size.
-                </p>
-              </div>
-
-              <div>
-                <p>{`6. <title>`}</p>
-                <p>
-                  This tag sets the title of the webpage, which appears in the
-                  browser tab, like the title of a book on a shelf.
-                </p>
-              </div>
-
-              <div>
-                <p>{`7. <body>`}</p>
-                <p>
-                  This is where you put all the visible content of your webpage,
-                  like the pages inside a book.
-                </p>
-              </div>
-
-              <div>
-                <p>{`8. <h1>`}</p>
-                <p>
-                  This is the main heading for your page, like the title of a
-                  chapter in a book.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p>What are these for?</p>
+          <ul>
+            <li>
+              <code>&lt;body&gt;</code> is where all the visible content goes
+              (like text and images).
+            </li>
+            <li>
+              <code>&lt;/html&gt;</code> closes your HTML document.
+            </li>
+            <li>
+              <code>&lt;h1&gt;</code> is the main heading for your page, like
+              the title of a chapter in a book.
+            </li>
+          </ul>
         </div>
 
         <div>
           <h4>👉 Try It Out!</h4>
           <ol>
-            <li>Copy the code above into your "index.html" file</li>
+            <li>
+              Make sure you have added all the code provide above in your HTML
+              file you created
+            </li>
             <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
             <li>Find your file in your folder and double-click it</li>
             <li>It should open in your web browser!</li>
@@ -291,8 +303,8 @@ const WeeklyScheduleHtml = () => {
         </div>
       </div>
 
-      <h2>Creating the Basic HTML Structure</h2>
-      <h3>Building the Basic Table Structure</h3>
+      <h2>Building the Basic Table Structure</h2>
+      <h3>Creating the Table for Your Weekly Schedule</h3>
 
       <div>
         <div>
@@ -304,82 +316,97 @@ const WeeklyScheduleHtml = () => {
         </div>
 
         <div>
-          <h4>Adding the Table Structure</h4>
+          <h4>Step 1: Adding the Table Tag</h4>
           <p>
             Add the following code inside the <code>&lt;body&gt;</code> tag,
             just below the <code>&lt;h1&gt;</code> element:
           </p>
-
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<table border="1">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thursday</th>
-      <th>Friday</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- We'll add time slots and activities here -->
-  </tbody>
-</table>`}
+                {`<table border="1">`}
               </SyntaxHighlighter>
             </code>
           </pre>
+          <p>
+            This creates a table with a visible border. The <code>border</code>{" "}
+            attribute is like drawing a line around each cell to make it easier
+            to see. In modern web development, we typically use CSS for styling,
+            but this is useful for demonstration.
+          </p>
+        </div>
 
-          <div>
-            <h5>Let's break this down - piece by piece:</h5>
+        <div>
+          <h4>Step 2: Adding the Table Head (Thead)</h4>
+          <p>
+            Inside the <code>&lt;table&gt;</code> tag, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<thead>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+</thead>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;thead&gt;</code> contains the header content of the
+              table, like the header of a spreadsheet.
+            </li>
+            <li>
+              <code>&lt;tr&gt;</code> stands for "table row". It defines a row
+              in the table, like a row in a spreadsheet.
+            </li>
+            <li>
+              <code>&lt;th&gt;</code> stands for "table header". It's used for
+              header cells, like the column headers in a spreadsheet.
+            </li>
+          </ul>
+        </div>
 
-            <div>
-              <div>
-                <p>{`1. <table border="1">`}</p>
-                <p>
-                  This creates a table with a visible border. The{" "}
-                  <code>border</code> attribute is like drawing a line around
-                  each cell to make it easier to see. In modern web development,
-                  we typically use CSS for styling, but this is useful for
-                  demonstration.
-                </p>
-              </div>
+        <div>
+          <h4>Step 3: Adding the Table Body (Tbody)</h4>
+          <p>
+            Below the <code>&lt;/thead&gt;</code> tag, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<tbody>
+  <!-- We'll add time slots and activities here -->
+</tbody>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new part:</p>
+          <ul>
+            <li>
+              <code>&lt;tbody&gt;</code> will contain the main content of the
+              table, like the body of a spreadsheet.
+            </li>
+          </ul>
+        </div>
 
-              <div>
-                <p>{`2. <thead>`}</p>
-                <p>
-                  This section contains the header content of the table, like
-                  the header of a spreadsheet.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <tr>`}</p>
-                <p>
-                  This stands for "table row". It defines a row in the table,
-                  like a row in a spreadsheet.
-                </p>
-              </div>
-
-              <div>
-                <p>{`4. <th>`}</p>
-                <p>
-                  This stands for "table header". It's used for header cells,
-                  like the column headers in a spreadsheet.
-                </p>
-              </div>
-
-              <div>
-                <p>{`5. <tbody>`}</p>
-                <p>
-                  This section will contain the main content of the table, like
-                  the body of a spreadsheet.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h4>Step 4: Closing the Table Tag</h4>
+          <p>Finally, add the closing table tag:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`</table>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
         </div>
 
         <div>
@@ -407,92 +434,116 @@ const WeeklyScheduleHtml = () => {
         </div>
 
         <div>
-          <h4>Adding Time Slots and Activities</h4>
+          <h4>Step 1: Adding the First Time Slot</h4>
           <p>
-            Replace the <code>&lt;tbody&gt;</code> section of your table with
-            the following code:
+            Inside the <code>&lt;tbody&gt;</code> tag, add the following code:
           </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<tbody>
-  <tr>
-    <th>9:00 AM</th>
-    <td>Math</td>
-    <td>Science</td>
-    <td>English</td>
-    <td>History</td>
-    <td>Art</td>
-  </tr>
-  <tr>
-    <th>10:00 AM</th>
-    <td>Physics</td>
-    <td>Chemistry</td>
-    <td>Biology</td>
-    <td>Geography</td>
-    <td>Music</td>
-  </tr>
-  <tr>
-    <th>11:00 AM</th>
-    <td>Break</td>
-    <td>Break</td>
-    <td>Break</td>
-    <td>Break</td>
-    <td>Break</td>
-  </tr>
-  <tr>
-    <th>12:00 PM</th>
-    <td>Lunch</td>
-    <td>Lunch</td>
-    <td>Lunch</td>
-    <td>Lunch</td>
-    <td>Lunch</td>
-  </tr>
-  <tr>
-    <th>1:00 PM</th>
-    <td>Computer Science</td>
-    <td>Physical Education</td>
-    <td>Literature</td>
-    <td>Foreign Language</td>
-    <td>Economics</td>
-  </tr>
-</tbody>`}
+                {`<tr>
+  <th>9:00 AM</th>
+  <td>Math</td>
+  <td>Science</td>
+  <td>English</td>
+  <td>History</td>
+  <td>Art</td>
+</tr>`}
               </SyntaxHighlighter>
             </code>
           </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;tr&gt;</code> represents a row in our schedule,
+              corresponding to a specific time slot.
+            </li>
+            <li>
+              <code>&lt;th&gt;</code> shows the time slot. It's like the label
+              for each row in a spreadsheet.
+            </li>
+            <li>
+              <code>&lt;td&gt;</code> (table data) cells represent activities or
+              classes for that time slot on a specific day.
+            </li>
+          </ul>
+        </div>
 
-          <div>
-            <h5>Let's understand the structure we've added:</h5>
+        <div>
+          <h4>Step 2: Adding More Time Slots</h4>
+          <p>
+            Below the first <code>&lt;tr&gt;</code>, add the following code:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<tr>
+  <th>10:00 AM</th>
+  <td>Physics</td>
+  <td>Chemistry</td>
+  <td>Biology</td>
+  <td>Geography</td>
+  <td>Music</td>
+</tr>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>
+            This adds another row for the 10:00 AM time slot with different
+            activities.
+          </p>
+        </div>
 
-            <div>
-              <div>
-                <p>{`1. <tr>`}</p>
-                <p>
-                  Each <code>&lt;tr&gt;</code> represents a row in our schedule,
-                  corresponding to a specific time slot. Think of it as a row in
-                  a spreadsheet.
-                </p>
-              </div>
+        <div>
+          <h4>Step 3: Adding Break and Lunch Time</h4>
+          <p>
+            Continue adding more time slots and activities. For the break and
+            lunch time, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<tr>
+  <th>11:00 AM</th>
+  <td>Break</td>
+  <td>Break</td>
+  <td>Break</td>
+  <td>Break</td>
+  <td>Break</td>
+</tr>
+<tr>
+  <th>12:00 PM</th>
+  <td colspan="5">Lunch Break</td>
+</tr>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>colspan="5"</code> makes the lunch break cell span across
+              all five weekdays, creating a unified lunch break row.
+            </li>
+          </ul>
+        </div>
 
-              <div>
-                <p>{`2. <th>`}</p>
-                <p>
-                  The first <code>&lt;th&gt;</code> in each row shows the time
-                  slot. It's like the label for each row in a spreadsheet.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <td>`}</p>
-                <p>
-                  Each <code>&lt;td&gt;</code> (table data) cell represents an
-                  activity or class for that time slot on a specific day. Think
-                  of it as a cell in a spreadsheet where you write down your
-                  activities.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h4>Step 4: Adding Afternoon Classes</h4>
+          <p>Finally, add the afternoon classes:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<tr>
+  <th>1:00 PM</th>
+  <td>Computer Science</td>
+  <td>Physical Education</td>
+  <td>Literature</td>
+  <td>Foreign Language</td>
+  <td>Economics</td>
+</tr>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
         </div>
 
         <div>
@@ -508,7 +559,7 @@ const WeeklyScheduleHtml = () => {
         </div>
       </div>
 
-      <h2> Adding Finishing Touches</h2>
+      <h2>Adding Finishing Touches</h2>
       <h3>Enhancing Your Weekly Schedule</h3>
 
       <div>
@@ -523,12 +574,46 @@ const WeeklyScheduleHtml = () => {
         </div>
 
         <div>
-          <h4>Adding a Caption and Lunch Break</h4>
-          <p>Update your table code as follows:</p>
+          <h4>Step 1: Adding a Caption</h4>
+          <p>
+            Add the following code right after the{" "}
+            <code>&lt;table border="1"&gt;</code> tag:
+          </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<table border="1">
+                {`<caption>My Class Schedule for Fall 2024</caption>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new part:</p>
+          <ul>
+            <li>
+              <code>&lt;caption&gt;</code> adds a title or explanation for the
+              table, like a title for a book. It's typically displayed above the
+              table.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 2: Final Table Structure</h4>
+          <p>Now, your complete table structure should look like this:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Weekly Schedule</title>
+</head>
+<body>
+  <h1>My Weekly Schedule</h1>               
+          
+<table border="1">
   <caption>My Class Schedule for Fall 2024</caption>
   <thead>
     <tr>
@@ -578,33 +663,13 @@ const WeeklyScheduleHtml = () => {
       <td>Economics</td>
     </tr>
   </tbody>
-</table>`}
+</table>
+</body>
+</html>
+`}
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Let's break down the new elements we've added:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <caption>`}</p>
-                <p>
-                  This tag adds a title or explanation for the table, like a
-                  title for a book. It's typically displayed above the table.
-                </p>
-              </div>
-
-              <div>
-                <p>2. colspan="5"</p>
-                <p>
-                  This attribute makes the lunch break cell span across all five
-                  weekdays, creating a unified lunch break row. It's like
-                  merging cells in a spreadsheet to create a larger cell.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div>

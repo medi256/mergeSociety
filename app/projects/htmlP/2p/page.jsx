@@ -279,7 +279,10 @@ const HtmlResume = () => {
         <div>
           <h4>👉 Try It Out!</h4>
           <ol>
-            <li>Make sure you have added all the code provide above </li>
+            <li>
+              Make sure you have added all the code provide above in your HTML
+              file you created
+            </li>
             <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
             <li>Find your file in your folder and double-click it</li>
             <li>It should open in your web browser!</li>
