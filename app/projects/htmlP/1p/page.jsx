@@ -1,5 +1,7 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import Link from "next/link";
 
 export const metadata = {
   title: "Build Your First Website: Step-by-Step HTML Project Tutorial",
@@ -48,179 +50,189 @@ const PersonalWebpage = () => {
             paddingBottom: "10px",
           }}
         >
-          Building Your First Website: A Beginner's Journey
+          Building Your First Website: A Complete Step-by-Step Guide for
+          Beginners
         </h1>
-      </div>
+        <h2>Welcome to Your Web Development Journey! 🌟</h2>
+        <p>
+          Hello future web developer! Before we start our exciting journey
+          together, let's understand what we're going to create and learn. By
+          the end of this guide, you'll have your very own website that looks
+          professional and works great!
+        </p>
 
-      <h2>Understanding HTML - Your Website's Building Blocks</h2>
-      <h3>Let's Start Our Web Journey!</h3>
+        <h3>What You'll Build</h3>
+        <p>
+          Think of this website as your digital home. Just like a real house has
+          different rooms, your website will have different sections:
+        </p>
+        <ul>
+          <li>A welcoming entrance (header with your name)</li>
+          <li>
+            A living room where people can learn about you (About Me section)
+          </li>
+          <li>A trophy room to show your achievements (Skills section)</li>
+          <li>A mailbox where people can reach you (Contact section)</li>
+        </ul>
 
-      <div>
-        <div>
-          <p>
-            Imagine you're building a house 🏠. Just like a house needs a
-            foundation, walls, and a roof, a webpage needs something to give it
-            structure. That's where HTML comes in!
-          </p>
-        </div>
+        <h3>What You'll Need</h3>
+        <ul>
+          <li>A computer (any type is fine!)</li>
+          <li>About 1-2 hours of your time</li>
+          <li>
+            A positive attitude - remember, everyone starts as a beginner!
+          </li>
+        </ul>
 
-        <div>
-          <h4>What exactly is HTML?</h4>
-          <p>
-            HTML is like a set of building blocks for websites. Think of it this
-            way:
-          </p>
-          <ul>
-            <li>
-              HTML stands for <span>HyperText Markup Language</span>
-              (don't worry about memorizing this - just remember it's the
-              language websites are built with!)
-            </li>
-            <li>
-              If a webpage was a sandwich, HTML would be the bread that holds
-              everything together
-            </li>
-            <li>
-              HTML uses special "tags" - they're like containers that tell your
-              browser "hey, this is a heading" or "this is a paragraph"
-            </li>
-          </ul>
-        </div>
+        <h2>Part 1: Setting Up Your Workspace 🏗️</h2>
 
-        <div>
-          <h4>👉 What We'll Build Together:</h4>
-          <p>
-            We're going to create your very own personal webpage! Think of it as
-            your digital business card. It will have:
-          </p>
-          <ul>
-            <li>Your name at the top (like a welcome sign)</li>
-            <li>A section about you (your digital introduction)</li>
-            <li>Your awesome skills (showing what you can do)</li>
-            <li>Ways to contact you (helping others reach out)</li>
-          </ul>
-        </div>
+        <h3>Step 1: Creating Your Project Folder</h3>
+        <p>
+          First, we need to create a special place on your computer for your
+          website files. Think of this like creating a new folder for an
+          important school project.
+        </p>
+        <p>For Windows Users:</p>
+        <ol>
+          <li>Look at your desktop (the main screen of your computer)</li>
+          <li>Right-click on any empty space</li>
+          <li>Move your mouse to where it says "New"</li>
+          <li>Click "Folder"</li>
+          <li>Type "my-first-website"</li>
+          <li>Press Enter</li>
+        </ol>
+        <p>For Mac Users:</p>
+        <ol>
+          <li>Look at your desktop</li>
+          <li>Right-click on any empty space (or Control + click)</li>
+          <li>Click "New Folder"</li>
+          <li>Type "my-first-website"</li>
+          <li>Press Return</li>
+        </ol>
+        <p>Great! Now you have a home for your website files! 🏠</p>
 
-        <div>
-          <p>✨ Don't worry if you're completely new to this!</p>
-          <p>
-            We'll take it step by step, explain everything in simple terms, and
-            use lots of examples. It's like following a recipe - we'll add one
-            ingredient at a time!
-          </p>
-        </div>
-      </div>
+        <h3>Step 2: Getting Your Text Editor</h3>
+        <p>
+          Now we need a special program to write our code. Think of this like
+          getting a really smart notebook that helps you write correctly.
+        </p>
+        <p>We'll use Visual Studio Code (VS Code) because it's:</p>
+        <ul>
+          <li>Free (very important!)</li>
+          <li>Easy to use (perfect for beginners!)</li>
+          <li>Really helpful (it helps you find mistakes)</li>
+          <li>Used by professional developers (you're learning real tools!)</li>
+        </ul>
+        <p>Let's get VS Code:</p>
+        <ol>
+          <li>Open your web browser (like Chrome, Firefox, or Safari)</li>
+          <li>
+            Go to:{" "}
+            <a href="https://code.visualstudio.com">code.visualstudio.com</a>
+          </li>
+          <li>Click the big download button</li>
+          <li>When it downloads, click the file to install it</li>
+          <li>
+            Follow the installation steps (just click "Next" if you're unsure)
+          </li>
+        </ol>
 
-      <h2>Getting Ready - Setting Up Your Workspace </h2>
-      <h3>Let's Get Your Workspace Ready!</h3>
+        <h3>Step 3: Creating Your First HTML File</h3>
+        <p>Now comes the exciting part - creating your first webpage file!</p>
+        <ol>
+          <li>Open VS Code (the program you just installed)</li>
+          <li>Click "File" at the top</li>
+          <li>Click "Open Folder"</li>
+          <li>Find and select your "my-first-website" folder</li>
+          <li>Click "Select Folder" or "Open"</li>
+          <li>
+            You might see a message asking if you trust the authors - click
+            "Yes"
+          </li>
+          <li>
+            Click the "New File" icon (or press Ctrl+N on Windows, Cmd+N on Mac)
+          </li>
+          <li>
+            Click "File" → "Save" (or press Ctrl+S on Windows, Cmd+S on Mac)
+          </li>
+          <li>Type "index.html" (this is always the main page of a website)</li>
+          <li>Click "Save"</li>
+        </ol>
+        <p>Congratulations! You've created your first HTML file! 🎉</p>
 
-      <div>
-        <div>
-          <p>
-            Before we start coding, we need to set up our workspace. It's just
-            like preparing your desk before starting homework - you need
-            everything in the right place! 📚
-          </p>
-        </div>
+        <h2>Part 2: Writing Your First HTML Code 📝</h2>
 
-        <div>
-          <h4>Step 1: Create Your Project Folder</h4>
-          <div>
-            <p>
-              Think of this folder as a special drawer just for your website
-              files:
-            </p>
-
-            <div>
-              <p>👉 If you're using Windows:</p>
-              <ol>
-                <li>Right-click on your desktop</li>
-                <li>Move your mouse to "New"</li>
-                <li>Click "Folder"</li>
-                <li>Name it "my-first-website"</li>
-              </ol>
-
-              <p>👉 If you're using Mac:</p>
-              <ol>
-                <li>Right-click on your desktop</li>
-                <li>Click "New Folder"</li>
-                <li>Name it "my-first-website"</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h4>Step 2: Choose Your Text Editor</h4>
-          <div>
-            <p>
-              A text editor is like your digital pencil and paper. We recommend
-              Visual Studio Code (VS Code) because it's:
-            </p>
-            <ul>
-              <li>Free to download</li>
-              <li>Easy to use</li>
-              <li>Helps you write code better with helpful hints</li>
-            </ul>
-            <div>
-              <p>🔍 How to get VS Code:</p>
-              <ol>
-                <li>Go to "code.visualstudio.com"</li>
-                <li>Click the big download button</li>
-                <li>Install it just like any other program</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h4>Step 3: Create Your First HTML File</h4>
-          <div>
-            <p>Now let's create your website's main file:</p>
-            <ol>
-              <li>Open VS Code</li>
-              <li>Click "File" → "Open Folder"</li>
-              <li>Find and select your "my-first-website" folder</li>
-              <li>
-                Click "New File" (or press Ctrl+N on Windows, Cmd+N on Mac)
-              </li>
-              <li>
-                Save it as "index.html" (this is always the main page of a
-                website)
-              </li>
-            </ol>
-          </div>
-        </div>
-
-        <div>
-          <p>🎉 Congratulations!</p>
-          <p>
-            You've just set up your web development workspace! Think of it as
-            having your artist's studio ready - now we can start creating! In
-            the next step, we'll start writing our first HTML code.
-          </p>
-        </div>
-      </div>
-
-      <h2> Writing Your First HTML - The Building Blocks</h2>
-      <h3>Let's Write Our First HTML!</h3>
-
-      <div>
-        <div>
-          <p>
-            Think of HTML like building with LEGO® blocks. Each piece has a
-            specific shape and purpose, and when you put them together, you
-            create something amazing! 🏗️
-          </p>
-        </div>
-
-        <div>
-          <h4>The Basic Structure</h4>
-          <p>Copy this code into your index.html file:</p>
-          <pre>
+        <h3>Step 1: The Basic Structure</h3>
+        <p>
+          Let's start with the basic structure of every webpage. We'll add this
+          piece by piece so it's easier to understand.
+        </p>
+        <p>First, type these lines:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<!DOCTYPE html>
+<html lang="en">`}
+        </SyntaxHighlighter>
+        <p>What do these lines mean?</p>
+        <ul>
+          <li>
+            <code>&lt;!DOCTYPE html&gt;</code> is like telling your browser
+            "Hey, this is a webpage!"
+          </li>
+          <li>
+            <code>&lt;html lang="en"&gt;</code> starts your webpage and tells
+            browsers it's in English
+          </li>
+        </ul>
+        <p>Now add:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+</head>`}
+        </SyntaxHighlighter>
+        <p>Let's understand each line:</p>
+        <ul>
+          <li>
+            <code>&lt;head&gt;</code> is like the brain of your webpage - it
+            contains important information
+          </li>
+          <li>
+            <code>&lt;meta charset="UTF-8"&gt;</code> helps your webpage show
+            special characters correctly
+          </li>
+          <li>
             <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<!DOCTYPE html>
+              &lt;meta name="viewport" content="width=device-width,
+              initial-scale=1.0"&gt;
+            </code>{" "}
+            makes your website look good on phones and tablets
+          </li>
+          <li>
+            <code>&lt;title&gt;</code> is what people see at the top of their
+            browser window
+          </li>
+        </ul>
+        <p>Finally, add:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<body>
+
+</body>
+</html>`}
+        </SyntaxHighlighter>
+        <p>What are these for?</p>
+        <ul>
+          <li>
+            <code>&lt;body&gt;</code> is where all the visible content goes
+            (like text and images)
+          </li>
+          <li>
+            <code>&lt;/html&gt;</code> closes your webpage (like closing a book)
+          </li>
+        </ul>
+        <p>Now your complete basic structure looks like this:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -228,359 +240,366 @@ const PersonalWebpage = () => {
     <title>My Personal Website</title>
 </head>
 <body>
-    
+
 </body>
 </html>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
+        </SyntaxHighlighter>
 
-          <div>
-            <h5>Let's break this down - piece by piece:</h5>
+        <h3>Step 2: Testing Your Page</h3>
+        <p>Let's make sure everything is working:</p>
+        <ol>
+          <li>Save your file (Ctrl+S or Cmd+S)</li>
+          <li>Find your file in your folder (my-first-website folder)</li>
+          <li>Double-click it</li>
+          <li>Your web browser should open with a blank page</li>
+        </ol>
+        <p>
+          Don't worry if the page is blank - that's perfect! It means everything
+          is working, and we're ready to add content.
+        </p>
 
-            <div>
-              <div>
-                <p>{`1. <!DOCTYPE html>`}</p>
-                <p>
-                  This is like telling your browser "Hey, this is a webpage!"
-                  It's like putting a label on a box so everyone knows what's
-                  inside.
-                </p>
-              </div>
+        <h2>Part 3: Adding Your Header (The Welcome Sign) 👋</h2>
 
-              <div>
-                <p>{`2. <html lang="en">`}</p>
-                <p>
-                  This is the container for your entire webpage. Think of it as
-                  the outer walls of your house - everything goes inside here!
-                </p>
-              </div>
+        <h3>Step 1: Creating the Header Section</h3>
+        <p>
+          Inside your <code>&lt;body&gt;</code> tags, let's add a welcoming
+          header. We'll do this in small steps:
+        </p>
+        <p>First, add this:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<header>
+    <h1>Your Name</h1>
+</header>`}
+        </SyntaxHighlighter>
+        <p>What does this do?</p>
+        <ul>
+          <li>
+            <code>&lt;header&gt;</code> creates a special section at the top of
+            your page
+          </li>
+          <li>
+            <code>&lt;h1&gt;</code> makes the biggest heading (like a title)
+          </li>
+        </ul>
+        <p>Now change "Your Name" to your actual name!</p>
 
-              <div>
-                <p>{`3. <head>`}</p>
-                <p>
-                  This is like the control room of your webpage. It contains
-                  important information that visitors don't see but your browser
-                  needs to know.
-                </p>
-              </div>
+        <h3>Step 2: Adding Your Title</h3>
+        <p>
+          Under your name, let's add what you do. Inside the{" "}
+          <code>&lt;header&gt;</code> tags, add:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<header>
+    <h1>Your Name</h1>
+    <h2>Web Developer in Training</h2>
+</header>`}
+        </SyntaxHighlighter>
+        <p>Understanding this:</p>
+        <ul>
+          <li>
+            <code>&lt;h2&gt;</code> is a smaller heading than{" "}
+            <code>&lt;h1&gt;</code>
+          </li>
+          <li>
+            "Web Developer in Training" tells visitors what you're learning
+          </li>
+          <li>You can change this to anything you want!</li>
+        </ul>
 
-              <div>
-                <p>{`4. <body>`}</p>
-                <p>
-                  This is where all the visible stuff goes - your text, images,
-                  everything visitors will see. Think of it as the furnished
-                  rooms in your house.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2>Part 4: Creating Your About Me Section 👤</h2>
 
-        <div>
-          <h4>👉 Try It Out!</h4>
-          <ol>
-            <li>Copy the code above into your index.html file</li>
-            <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
-            <li>Find your file in your folder and double-click it</li>
-            <li>It should open in your web browser!</li>
-          </ol>
-          <p>
-            Right now you'll see a blank page - that's normal! In the next step,
-            we'll start adding content to make it look awesome! 🌟
-          </p>
-        </div>
-      </div>
+        <h3>Step 1: Setting Up the About Section</h3>
+        <p>
+          Let's add a section where you can tell visitors about yourself. Under
+          your <code>&lt;/header&gt;</code> tag, add:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
+    <h2>About Me</h2>
+</section>`}
+        </SyntaxHighlighter>
+        <p>Why are we doing this?</p>
+        <ul>
+          <li>
+            <code>&lt;section&gt;</code> is like creating a new chapter in your
+            website
+          </li>
+          <li>This helps organize your content neatly</li>
+          <li>
+            The <code>&lt;h2&gt;</code> shows visitors what this section is
+            about
+          </li>
+        </ul>
 
-      <h2>Adding Your Header - Making It Personal </h2>
-
-      <h3>Creating Your Website Header</h3>
-
-      <div>
-        <div>
-          <p>
-            Think of a header like the cover of a book - it's the first thing
-            people see! Let's make yours stand out with your name and what you
-            do. 📚
-          </p>
-        </div>
-
-        <div>
-          <h4>Adding Your Name and Title</h4>
-          <p>
-            Add this code inside your <code>body</code> tags:
-          </p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-    <header>
-        <h1>Your Name</h1>
-        <h2>Web Developer in Training</h2>
-    </header>
-</body>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-
-          <div>
-            <h5>Understanding Each Part:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <header>`}</p>
-                <p>
-                  This is like the front door of your website. It's where you
-                  make your first impression!
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <h1>`}</p>
-                <p>
-                  This is the biggest heading - like your name on a giant
-                  welcome sign. You only use one h1 per page because it's the
-                  main title.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <h2>`}</p>
-                <p>
-                  This is a slightly smaller heading - perfect for your title or
-                  what you do. Think of it as your subtitle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h4>👉 Make It Yours!</h4>
-          <div>
-            <p>Let's personalize it! Here's what to change:</p>
-            <ol>
-              <li>Replace "Your Name" with... well, your actual name! 😄</li>
-              <li>
-                Change "Web Developer in Training" to whatever describes you:
-                <ul>
-                  <li>Student</li>
-                  <li>Future Programmer</li>
-                  <li>Tech Enthusiast</li>
-                  <li>Or anything else that fits you!</li>
-                </ul>
-              </li>
-            </ol>
-          </div>
-        </div>
-
-        <div>
-          <h4>🎨 Try This:</h4>
-          <p>
-            After you save and refresh your page, you'll see your name and
-            title! If they look too plain, don't worry - we'll make them look
-            prettier later with CSS (that's like the paint and decorations for
-            your webpage).
-          </p>
-        </div>
-      </div>
-
-      <h2>Creating Your About Me Section </h2>
-      <h3>Telling Your Story</h3>
-
-      <div>
-        <div>
-          <p>
-            The "About Me" section is like having a friendly conversation with
-            your website visitors! Let's create a space where you can share your
-            story. 🗣️
-          </p>
-        </div>
-
-        <div>
-          <h4>Creating Your About Section</h4>
-          <p>Add this code after your header:</p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<section>
+        <h3>Step 2: Adding Your Introduction</h3>
+        <p>
+          Inside your <code>&lt;section&gt;</code> tags, after the{" "}
+          <code>&lt;h2&gt;</code>, add:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
     <h2>About Me</h2>
     <p>Hi there! I'm excited to share my journey into web development.</p>
-    <p>When I'm not coding, I love [your hobbies or interests here].</p>
 </section>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
+        </SyntaxHighlighter>
+        <p>Understanding this new part:</p>
+        <ul>
+          <li>
+            <code>&lt;p&gt;</code> stands for paragraph
+          </li>
+          <li>This tag makes your text look neat and properly spaced</li>
+          <li>
+            Think of <code>&lt;p&gt;</code> tags like paragraphs in a book
+          </li>
+        </ul>
 
-          <div>
-            <h5>Understanding the Parts:</h5>
-            <div>
-              <div>
-                <p>{`1. <section>`}</p>
-                <p>
-                  Think of this like a chapter in a book - it groups related
-                  content together
-                </p>
-              </div>
-              <div>
-                <p>{`2. <p> (paragraph)`}</p>
-                <p>
-                  Each {` <p> `} tag is like a new paragraph in your story. Use
-                  multiple paragraphs to make your text easier to read!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h3>Step 3: Making It Personal</h3>
+        <p>Let's add more about you. Add these paragraphs:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
+    <h2>About Me</h2>
+    <p>Hi there! I'm excited to share my journey into web development.</p>
+    <p>I'm learning how to build websites and loving every minute of it!</p>
+    <p>When I'm not coding, I enjoy [write your hobbies here].</p>
+</section>`}
+        </SyntaxHighlighter>
+        <p>Customizing Your About Section:</p>
+        <ul>
+          <li>Replace the text with your own story</li>
+          <li>Add what you like to do</li>
+          <li>Share what made you interested in web development</li>
+          <li>Keep it friendly and personal!</li>
+        </ul>
 
-        <div>
-          <h4>👉 Make It Personal:</h4>
-          <p>
-            Replace the placeholder text with your own story. For example, you
-            might write:
-          </p>
-          <ul>
-            <li>
-              Hi there! I'm [Your Name], and I'm excited to share my journey
-              into web development.
-            </li>
-            <li>
-              When I'm not coding, I love hiking, reading science fiction, and
-              playing video games.
-            </li>
-          </ul>
-        </div>
-      </div>
+        <h2>Part 5: Adding Your Skills Section 🌟</h2>
 
-      <h2>Showing Off Your Skills </h2>
-      <h3>Creating Your Skills Showcase</h3>
+        <h3>Step 1: Creating the Skills Structure</h3>
+        <p>
+          After your About Me section, let's show what you're learning. Add:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
+    <h2>My Skills</h2>
+</section>`}
+        </SyntaxHighlighter>
 
-      <div>
-        <div>
-          <p>
-            Time to show off what you can do! Think of this section like your
-            trophy case - it's where you display your abilities. 🏆
-          </p>
-        </div>
-
-        <div>
-          <h4>Making Your Skills List</h4>
-          <p>Add this code after your About Me section:</p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<section>
+        <h3>Step 2: Creating Your Skills List</h3>
+        <p>Inside this section, let's add a list of your skills:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
     <h2>My Skills</h2>
     <ul>
         <li>HTML Basics</li>
-        <li>Learning CSS</li>
+        <li>Learning Web Development</li>
         <li>Problem Solving</li>
-        <li>Eager to Learn!</li>
     </ul>
 </section>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
+        </SyntaxHighlighter>
+        <p>What's happening here?</p>
+        <ul>
+          <li>
+            <code>&lt;ul&gt;</code> creates an "unordered list" (with bullet
+            points)
+          </li>
+          <li>
+            <code>&lt;li&gt;</code> is for each "list item"
+          </li>
+          <li>
+            Each skill gets its own <code>&lt;li&gt;</code> tag
+          </li>
+        </ul>
 
-          <div>
-            <h5>Let's Break It Down:</h5>
-            <div>
-              <div>
-                <p>{`1. <ul> (Unordered List)`}</p>
-                <p>
-                  This creates a bullet-point list - perfect for skills! Think
-                  of it like making a shopping list.
-                </p>
-              </div>
-              <div>
-                <p>{`2. <li> (List Item)`}</p>
-                <p>
-                  Each skill goes in its own {` <li> `} tag - like each item on
-                  your shopping list
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h3>Step 3: Personalizing Your Skills</h3>
+        <p>You can add more skills! Here's how:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML Basics</li>
+        <li>Learning Web Development</li>
+        <li>Problem Solving</li>
+        <li>Creative Thinking</li>
+        <li>Eager to Learn More!</li>
+    </ul>
+</section>`}
+        </SyntaxHighlighter>
+        <p>Tips for Your Skills List:</p>
+        <ul>
+          <li>Start with basic skills you're learning</li>
+          <li>Include soft skills (like problem solving)</li>
+          <li>Show your enthusiasm to learn</li>
+          <li>Be honest - you're just starting!</li>
+        </ul>
 
-        <div>
-          <h4>👉 Make It Personal:</h4>
-          <p>Replace the placeholder skills with your own. For example:</p>
-          <ul className="list-disc ml-6 mt-2">
-            <li>HTML5 and CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Git and GitHub</li>
-            <li>Responsive Web Design</li>
-            <li>UI/UX Design Principles</li>
-          </ul>
-        </div>
-      </div>
+        <h2>Part 6: Adding Contact Information 📧</h2>
 
-      <h2>Adding Contact Information </h2>
-      <h3>Let's Help People Reach You!</h3>
+        <h3>Step 1: Creating the Contact Section</h3>
+        <p>
+          At the bottom of your webpage (before the closing{" "}
+          <code>&lt;/body&gt;</code> tag), add:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<footer>
+    <h2>Get In Touch</h2>
+</footer>`}
+        </SyntaxHighlighter>
+        <p>
+          Why use <code>&lt;footer&gt;</code>?
+        </p>
+        <ul>
+          <li>
+            <code>&lt;footer&gt;</code> is a special tag for the bottom of your
+            webpage
+          </li>
+          <li>It's where contact information usually goes</li>
+          <li>It helps organize your page structure</li>
+        </ul>
 
-      <div>
-        <div>
-          <p>
-            The contact section is like leaving your business card for visitors.
-            Let's make it easy for people to get in touch! 📫
-          </p>
-        </div>
+        <h3>Step 2: Adding Contact Details</h3>
+        <p>
+          Inside your <code>&lt;footer&gt;</code>, let's add ways for people to
+          reach you:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<footer>
+    <h2>Get In Touch</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+</footer>`}
+        </SyntaxHighlighter>
+        <p>Understanding the new parts:</p>
+        <ul>
+          <li>
+            <code>&lt;a&gt;</code> creates a link
+          </li>
+          <li>
+            <code>href="mailto:"</code> makes it open an email program
+          </li>
+          <li>Replace "your.email@example.com" with your real email</li>
+        </ul>
 
-        <div>
-          <h4>Creating Your Contact Section</h4>
-          <p>Add this code at the end of your body section:</p>
-          <pre>
-            <code>
-              <SyntaxHighlighter language="html" style={docco}>
-                {`<footer>
+        <h3>Step 3: Adding Social Links (Optional)</h3>
+        <p>If you want, add links to your social profiles:</p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<footer>
     <h2>Get In Touch</h2>
     <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
     <p>GitHub: <a href="https://github.com/yourusername">My GitHub Profile</a></p>
 </footer>`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
+        </SyntaxHighlighter>
 
-          <div>
-            <h5>Understanding the New Parts:</h5>
-            <div>
-              <div>
-                <p>{`1. <footer>`}</p>
-                <p>
-                  This is like the last page of a book - it's where you put
-                  contact info and final notes
-                </p>
-              </div>
-              <div>
-                <p>{`2. <a> (Link)`}</p>
-                <p>
-                  These are like magical doors - when clicked, they take
-                  visitors to your email or social profiles!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2>Part 7: The Complete Code 🎯</h2>
+        <p>
+          Now that we've built everything piece by piece, here's how your
+          complete website should look:
+        </p>
+        <SyntaxHighlighter language="html" style={docco}>
+          {`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Your Name</h1>
+        <h2>Web Developer in Training</h2>
+    </header>
 
-        <div>
-          <h4>🎉 Congratulations!</h4>
-          <p>
-            You've built your first webpage! It has all the important parts:
-          </p>
-          <ul>
-            <li>A welcoming header</li>
-            <li>Your personal story</li>
-            <li>Your growing skills</li>
-            <li>Ways to contact you</li>
-          </ul>
-          <p>
-            Remember: Every professional web developer started exactly where you
-            are now. Keep practicing and building more! 💪
-          </p>
-        </div>
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>Hi there! I'm excited to share my journey into web development.</p>
+        <p>I'm learning how to build websites and loving every minute of it!</p>
+        <p>When I'm not coding, I enjoy [your hobbies here].</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML Basics</li>
+            <li>Learning Web Development</li>
+            <li>Problem Solving</li>
+            <li>Creative Thinking</li>
+            <li>Eager to Learn More!</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <footer>
+        <h2>Get In Touch</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername">My GitHub Profile</a></p>
+    </footer>
+</body>
+</html>`}
+        </SyntaxHighlighter>
+
+        <h2>Part 8: Final Steps and Checking Your Work 🔍</h2>
+
+        <h3>Testing Everything</h3>
+        <p>Save your file (Ctrl+S or Cmd+S)</p>
+        <p>Open it in your web browser</p>
+        <p>Check that:</p>
+        <ul>
+          <li>Your name appears at the top</li>
+          <li>All sections are visible</li>
+          <li>Links work when you click them</li>
+          <li>Everything is in the right order</li>
+        </ul>
+
+        <h3>Common Problems and Solutions</h3>
+        <p>If something doesn't look right:</p>
+        <ul>
+          <li>Make sure all tags are properly closed</li>
+          <li>Check that you replaced all placeholder text</li>
+          <li>
+            Verify that all <code>&lt;&gt;</code> symbols are typed correctly
+          </li>
+          <li>Make sure you saved the file after changes</li>
+        </ul>
+
+        <h2>What You've Achieved! 🎉</h2>
+        <p>Congratulations! You've just:</p>
+        <ul>
+          <li>Created your first webpage from scratch</li>
+          <li>Learned basic HTML tags and their purposes</li>
+          <li>Built a professional-looking personal website</li>
+          <li>Created something you can show to friends and family!</li>
+        </ul>
+
+        <h2>Next Steps 🚀</h2>
+        <p>To keep improving:</p>
+        <ul>
+          <li>Practice changing the content</li>
+          <li>Try adding new sections</li>
+          <li>Share your website with friends</li>
+          <li>
+            Start learning about <Link href="/html/html-favicon">CSS</Link>{" "}
+            (coming in our next tutorial!)
+          </li>
+        </ul>
+        <p>
+          Remember: Every professional web developer started exactly where you
+          are now. Be proud of what you've built, and keep practicing! You're
+          doing great! 💪
+        </p>
+
+        <h2>Practice Ideas 📚</h2>
+        <p>Try these changes to practice:</p>
+        <ul>
+          <li>Add a favorite quotes section</li>
+          <li>Create a list of your goals</li>
+          <li>Add more details to your About Me section</li>
+          <li>Customize the text to tell your unique story</li>
+        </ul>
+
+        <p>
+          Keep building and learning - you're now officially on your way to
+          becoming a web developer! 🌟
+        </p>
       </div>
     </div>
   );
