@@ -1,15 +1,13 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-
 import Link from "next/link";
-import { Project } from "@/app/NextBlogButton";
 
 export const metadata = {
-  title: "Building an HTML Resume - Step-by-Step Tutorial",
+  title: "Build Your First HTML Resume: Step-by-Step Tutorial",
   description:
-    "Learn how to create a professional HTML resume for 2024 with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
+    "Learn how to create a professional HTML resume with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
   keywords: [
-    "HTML resume 2024",
     "HTML resume tutorial",
     "HTML for beginners",
     "build resume with HTML",
@@ -22,13 +20,13 @@ export const metadata = {
 
   openGraph: {
     type: "website",
-    title: "Building an HTML Resume for 2024 - Step-by-Step Tutorial",
+    title: "Build Your First HTML Resume: Step-by-Step Tutorial",
     description:
-      "This guide walks you through creating an HTML resume for 2024, covering everything from setting up your workspace to structuring your resume with HTML elements.",
+      "This guide walks you through creating an HTML resume, covering everything from setting up your workspace to structuring your resume with HTML elements.",
   },
 };
 
-const HtmlResume2024 = () => {
+const HtmlResume = () => {
   return (
     <div className="lesson-container">
       <div
@@ -45,21 +43,20 @@ const HtmlResume2024 = () => {
             paddingBottom: "10px",
           }}
         >
-          Learn how to create a professional HTML resume for 2024 with this
-          step-by-step tutorial.
+          Learn How to Create a Professional Resume Using HTML
         </h1>
       </div>
 
-      <h2>Welcome to the HTML Resume Tutorial for 2024</h2>
+      <h2>Welcome to the HTML Resume Tutorial</h2>
       <h3>Let's Build Your HTML Resume!</h3>
 
       <div>
         <div>
           <p>
             In this tutorial, we'll guide you through creating a modern and
-            effective resume using HTML. As of 2024, HTML resumes are still a
-            great way to showcase your skills and experience, especially for
-            beginners who are just starting to learn web development.
+            effective HTML resume. HTML resumes are a great way to showcase your
+            skills and experience, especially for beginners who are just
+            starting to learn web development.
           </p>
         </div>
 
@@ -111,22 +108,20 @@ const HtmlResume2024 = () => {
               files:
             </p>
 
-            <div>
-              <p>👉 If you're using Windows:</p>
-              <ol>
-                <li>Right-click on your desktop</li>
-                <li>Move your mouse to "New"</li>
-                <li>Click "Folder"</li>
-                <li>Name it "my-resume-2024"</li>
-              </ol>
+            <p>For Windows Users:</p>
+            <ol>
+              <li>Right-click on your desktop</li>
+              <li>Move your mouse to "New"</li>
+              <li>Click "Folder"</li>
+              <li>Name it "my-resume-2024"</li>
+            </ol>
 
-              <p>👉 If you're using Mac:</p>
-              <ol>
-                <li>Right-click on your desktop</li>
-                <li>Click "New Folder"</li>
-                <li>Name it "my-resume-2024"</li>
-              </ol>
-            </div>
+            <p>For Mac Users:</p>
+            <ol>
+              <li>Right-click on your desktop</li>
+              <li>Click "New Folder"</li>
+              <li>Name it "my-resume-2024"</li>
+            </ol>
           </div>
         </div>
 
@@ -196,91 +191,95 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>The Basic Structure</h4>
+          <h4>Step 1: The Basic Structure</h4>
           <p>Open your "index.html" file and add the following code:</p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<!DOCTYPE html>
-<html lang="en">
-<head>
+                {`<!DOCTYPE html>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>
+            This line tells the browser that this document is written in HTML5.
+          </p>
+
+          <p>Next, add:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<html lang="en">`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>
+            This line starts your HTML document and specifies that the language
+            is English.
+          </p>
+
+          <p>Now, add:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Resume 2024</title>
-</head>
-<body>
+  <title>Your Name - Resume</title>
+</head>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Let's understand each line:</p>
+          <ul>
+            <li>
+              <code>&lt;head&gt;</code> contains meta information about the
+              document.
+            </li>
+            <li>
+              <code>&lt;meta charset="UTF-8"&gt;</code> sets the character
+              encoding to UTF-8, supporting various languages.
+            </li>
+            <li>
+              <code>
+                &lt;meta name="viewport" content="width=device-width,
+                initial-scale=1.0"&gt;
+              </code>{" "}
+              ensures that the resume looks good on different devices and screen
+              sizes.
+            </li>
+            <li>
+              <code>&lt;title&gt;</code> sets the title of the webpage, which
+              appears in the browser tab.
+            </li>
+          </ul>
+
+          <p>Finally, add:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<body>
   <!-- We'll add our resume content here -->
 </body>
 </html>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Let's break this down - piece by piece:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <!DOCTYPE html>`}</p>
-                <p>
-                  This declaration informs the browser that this document is
-                  written in HTML5.
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <html lang="en">`}</p>
-                <p>
-                  The root element of the HTML page. The <code>lang="en"</code>{" "}
-                  attribute specifies the language as English.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <head>`}</p>
-                <p>
-                  This section contains meta information about the document.
-                </p>
-              </div>
-
-              <div>
-                <p>{`4. <meta charset="UTF-8">`}</p>
-                <p>
-                  Sets the character encoding to UTF-8, supporting various
-                  languages.
-                </p>
-              </div>
-
-              <div>
-                <p>{`5. <meta name="viewport" ...>`}</p>
-                <p>
-                  Ensures that the resume looks good on different devices and
-                  screen sizes.
-                </p>
-              </div>
-
-              <div>
-                <p>{`6. <title>`}</p>
-                <p>
-                  Sets the title of the webpage, which appears in the browser
-                  tab.
-                </p>
-              </div>
-
-              <div>
-                <p>{`7. <body>`}</p>
-                <p>
-                  This is where we'll add the visible content of your resume.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p>What are these for?</p>
+          <ul>
+            <li>
+              <code>&lt;body&gt;</code> is where all the visible content goes
+              (like text and images).
+            </li>
+            <li>
+              <code>&lt;/html&gt;</code> closes your HTML document.
+            </li>
+          </ul>
         </div>
 
         <div>
           <h4>👉 Try It Out!</h4>
           <ol>
-            <li>Copy the code above into your "index.html" file</li>
+            <li>Make sure you have added all the code provide above </li>
             <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
             <li>Find your file in your folder and double-click it</li>
             <li>It should open in your web browser!</li>
@@ -291,8 +290,8 @@ const HtmlResume2024 = () => {
           </p>
         </div>
       </div>
-      <h2>Adding the Header Section</h2>
 
+      <h2>Adding the Header Section</h2>
       <h3>Creating the Header for Your Resume</h3>
 
       <div>
@@ -305,63 +304,58 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>Adding Your Name and Job Title</h4>
+          <h4>Step 1: Adding Your Name</h4>
           <p>
-            Insert the following code inside the <code>body</code> tags:
+            Insert the following code inside the <code>&lt;body&gt;</code> tags:
           </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<body>
-  <header>
-    <h1>Your Name</h1>
-    <h2>Your Job Title</h2>
-  </header>
-  
-  <!-- More sections will be added here -->
-</body>`}
+                {`<header>
+  <h1>Your Name</h1>
+</header>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Understanding Each Part:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <header>`}</p>
-                <p>
-                  This tag defines a header section for the document or a
-                  specific part of it.
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <h1>`}</p>
-                <p>The main heading tag, used for your name.</p>
-              </div>
-
-              <div>
-                <p>{`3. <h2>`}</p>
-                <p>A secondary heading, used for your job title.</p>
-              </div>
-            </div>
-          </div>
+          <p>What does this do?</p>
+          <ul>
+            <li>
+              <code>&lt;header&gt;</code> creates a special section at the top
+              of your page.
+            </li>
+            <li>
+              <code>&lt;h1&gt;</code> makes the biggest heading (like a title).
+            </li>
+          </ul>
+          <p>Now change "Your Name" to your actual name!</p>
         </div>
 
         <div>
-          <h4>👉 Make It Personal:</h4>
+          <h4>Step 2: Adding Your Job Title</h4>
           <p>
-            Replace "Your Name" with your actual name, and "Your Job Title" with
-            your desired job title or the position you're seeking. For example:
+            Under your name, let's add what you do. Inside the{" "}
+            <code>&lt;header&gt;</code> tags, add:
           </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<header>
+  <h1>Your Name</h1>
+  <h2>Your Job Title</h2>
+</header>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding this:</p>
           <ul>
             <li>
-              <h1>John Doe</h1>
+              <code>&lt;h2&gt;</code> is a smaller heading than{" "}
+              <code>&lt;h1&gt;</code>.
             </li>
             <li>
-              <h2>Web Developer in Training</h2>
+              "Your Job Title" tells visitors what you're learning or doing.
             </li>
+            <li>You can change this to anything you want!</li>
           </ul>
         </div>
 
@@ -389,9 +383,37 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>Creating Your Contact Section</h4>
+          <h4>Step 1: Creating the Contact Section</h4>
           <p>
             Add this code right after the <code>&lt;/header&gt;</code> tag:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Contact Information</h2>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;section&gt;</code> defines a section in the document,
+              helping us organize related content (in this case, your contact
+              information).
+            </li>
+            <li>
+              <code>&lt;h2&gt;</code> is the heading for the contact information
+              section.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 2: Adding Contact Details</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
           </p>
           <pre>
             <code>
@@ -408,52 +430,40 @@ const HtmlResume2024 = () => {
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Understanding the New Parts:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <section>`}</p>
-                <p>
-                  This tag defines a section in the document, helping us
-                  organize related content (in this case, your contact
-                  information).
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <h2>`}</p>
-                <p>The heading for the contact information section.</p>
-              </div>
-
-              <div>
-                <p>{`3. <ul>`}</p>
-                <p>Creates an unordered list for your contact details.</p>
-              </div>
-
-              <div>
-                <p>{`4. <li>`}</p>
-                <p>
-                  List items representing each piece of contact information.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;ul&gt;</code> creates an unordered list for your contact
+              details.
+            </li>
+            <li>
+              <code>&lt;li&gt;</code> represents each piece of contact
+              information.
+            </li>
+          </ul>
         </div>
 
         <div>
-          <h4>👉 Make It Personal:</h4>
+          <h4>Step 3: Make It Personal</h4>
           <p>
             Replace the placeholder information with your actual contact
             details. You can add or remove list items as needed. For example:
           </p>
-          <ul>
-            <li>Email: john.doe@example.com</li>
-            <li>Phone: (123) 456-7890</li>
-            <li>Location: New York, NY</li>
-            <li>LinkedIn: linkedin.com/in/johndoe</li>
-          </ul>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Contact Information</h2>
+  <ul>
+    <li>Email: john.doe@example.com</li>
+    <li>Phone: (123) 456-7890</li>
+    <li>Location: New York, NY</li>
+    <li>LinkedIn: linkedin.com/in/johndoe</li>
+  </ul>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
         </div>
 
         <div>
@@ -466,7 +476,6 @@ const HtmlResume2024 = () => {
       </div>
 
       <h2>Adding a Summary or Objective</h2>
-
       <h3>Creating Your Professional Summary</h3>
 
       <div>
@@ -479,8 +488,33 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>Creating Your Professional Summary</h4>
+          <h4>Step 1: Creating the Summary Section</h4>
           <p>Add this code after your contact information section:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Professional Summary</h2>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding each part:</p>
+          <ul>
+            <li>
+              <code>&lt;section&gt;</code> is used to group related content.
+            </li>
+            <li>
+              <code>&lt;h2&gt;</code> is the heading for your summary section.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 2: Adding the Summary Text</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -494,34 +528,17 @@ const HtmlResume2024 = () => {
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Understanding Each Part:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <section>`}</p>
-                <p>Again, we're using this to group related content.</p>
-              </div>
-
-              <div>
-                <p>{`2. <h2>`}</p>
-                <p>The heading for your summary section.</p>
-              </div>
-
-              <div>
-                <p>{`3. <p>`}</p>
-                <p>
-                  This tag defines a paragraph of text for your summary
-                  statement.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p>Understanding each part:</p>
+          <ul>
+            <li>
+              <code>&lt;p&gt;</code> defines a paragraph of text for your
+              summary statement.
+            </li>
+          </ul>
         </div>
 
         <div>
-          <h4>👉 Make It Personal:</h4>
+          <h4>Step 3: Make It Personal</h4>
           <p>
             Replace the placeholder text with your own professional summary.
             Keep it concise and tailored to the type of job you're seeking. For
@@ -530,10 +547,13 @@ const HtmlResume2024 = () => {
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
-                {`<p>
-  Dedicated web developer with a passion for creating user-friendly interfaces. Proficient in modern HTML and CSS techniques. 
-  Seeking a role where I can contribute to innovative web projects and grow my skills in a dynamic team.
-</p>`}
+                {`<section>
+  <h2>Professional Summary</h2>
+  <p>
+    Dedicated web developer with a passion for creating user-friendly interfaces. Proficient in modern HTML and CSS techniques. 
+    Seeking a role where I can contribute to innovative web projects and grow my skills in a dynamic team.
+  </p>
+</section>`}
               </SyntaxHighlighter>
             </code>
           </pre>
@@ -547,8 +567,8 @@ const HtmlResume2024 = () => {
           </p>
         </div>
       </div>
-      <h2>Adding Education and Work Experience</h2>
 
+      <h2>Adding Education and Work Experience</h2>
       <h3>Including Your Educational Background and Work Experience</h3>
 
       <div>
@@ -561,8 +581,60 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>Adding Your Education and Work Experience</h4>
-          <p>Add the following code after your summary section:</p>
+          <h4>Step 1: Creating the Education Section</h4>
+          <p>Add this code after your summary section:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Education</h2>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;h2&gt;</code> is the main heading for the education
+              section.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 2: Adding Education Details</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Education</h2>
+  <h3>Degree Name</h3>
+  <p>University Name, Graduation Year</p>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;h3&gt;</code> is used for the degree name, a level below
+              the section header.
+            </li>
+            <li>
+              <code>&lt;p&gt;</code> contains the university name and graduation
+              year.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 3: Adding Coursework and Achievements</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -574,68 +646,24 @@ const HtmlResume2024 = () => {
     <li>Relevant coursework: List some courses</li>
     <li>Achievements: Any academic honors or awards</li>
   </ul>
-</section>
-
-<section>
-  <h2>Work Experience</h2>
-  <h3>Job Title</h3>
-  <p>Company Name, Employment Period</p>
-  <ul>
-    <li>Responsibilities: List your key responsibilities</li>
-    <li>Achievements: Highlight your accomplishments</li>
-  </ul>
 </section>`}
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Understanding the Structure:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <h2>`}</p>
-                <p>
-                  The main heading for each section (Education and Work
-                  Experience).
-                </p>
-              </div>
-
-              <div>
-                <p>{`2. <h3>`}</p>
-                <p>
-                  Used for the degree name and job title, a level below the
-                  section header.
-                </p>
-              </div>
-
-              <div>
-                <p>{`3. <p>`}</p>
-                <p>
-                  Contains the university name and graduation year or company
-                  name and employment period.
-                </p>
-              </div>
-
-              <div>
-                <p>{`4. <ul> and <li>`}</p>
-                <p>
-                  Used to list relevant coursework, achievements,
-                  responsibilities, and accomplishments.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> are used to
+              list relevant coursework and achievements.
+            </li>
+          </ul>
         </div>
 
         <div>
-          <h4>👉 Make It Personal:</h4>
+          <h4>Step 4: Make It Personal</h4>
           <p>
             Replace the placeholder information with your actual educational
-            background and work experience. You can add more entries by
-            repeating the <code>&lt;h3&gt;</code>,<code>&lt;p&gt;</code>, and{" "}
-            <code>&lt;ul&gt;</code>
-            structure for each position or degree. For example:
+            background. For example:
           </p>
           <pre>
             <code>
@@ -648,9 +676,101 @@ const HtmlResume2024 = () => {
     <li>Relevant coursework: Data Structures, Algorithms, Web Development</li>
     <li>Achievements: Dean's List, Best Project Award</li>
   </ul>
-</section>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </div>
 
-<section>
+        <div>
+          <h4>Step 5: Creating the Work Experience Section</h4>
+          <p>Add this code after your education section:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Work Experience</h2>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;h2&gt;</code> is the main heading for the work
+              experience section.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 6: Adding Work Experience Details</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Work Experience</h2>
+  <h3>Job Title</h3>
+  <p>Company Name, Employment Period</p>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;h3&gt;</code> is used for the job title, a level below
+              the section header.
+            </li>
+            <li>
+              <code>&lt;p&gt;</code> contains the company name and employment
+              period.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 7: Adding Responsibilities and Achievements</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Work Experience</h2>
+  <h3>Job Title</h3>
+  <p>Company Name, Employment Period</p>
+  <ul>
+    <li>Responsibilities: List your key responsibilities</li>
+    <li>Achievements: Highlight your accomplishments</li>
+  </ul>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding the new parts:</p>
+          <ul>
+            <li>
+              <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> are used to
+              list responsibilities and achievements.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 8: Make It Personal</h4>
+          <p>
+            Replace the placeholder information with your actual work
+            experience. For example:
+          </p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
   <h2>Work Experience</h2>
   <h3>Junior Web Developer</h3>
   <p>ABC Tech, 2022 - Present</p>
@@ -675,7 +795,6 @@ const HtmlResume2024 = () => {
       </div>
 
       <h2>Adding Skills Section</h2>
-
       <h3>Listing Your Skills</h3>
 
       <div>
@@ -688,8 +807,30 @@ const HtmlResume2024 = () => {
         </div>
 
         <div>
-          <h4>Creating Your Skills Section</h4>
+          <h4>Step 1: Creating the Skills Section</h4>
           <p>Add this code after your work experience section:</p>
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<section>
+  <h2>Skills</h2>
+</section>`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+          <p>Understanding each part:</p>
+          <ul>
+            <li>
+              <code>&lt;h2&gt;</code> is the heading for your skills section.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Step 2: Adding the Skills List</h4>
+          <p>
+            Inside the <code>&lt;section&gt;</code> tags, add:
+          </p>
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -707,36 +848,23 @@ const HtmlResume2024 = () => {
               </SyntaxHighlighter>
             </code>
           </pre>
-
-          <div>
-            <h5>Understanding Each Part:</h5>
-
-            <div>
-              <div>
-                <p>{`1. <h2>`}</p>
-                <p>The heading for your skills section.</p>
-              </div>
-
-              <div>
-                <p>{`2. <ul>`}</p>
-                <p>Creates an unordered list for your skills.</p>
-              </div>
-
-              <div>
-                <p>{`3. <li>`}</p>
-                <p>List items representing each skill.</p>
-              </div>
-            </div>
-          </div>
+          <p>Understanding each part:</p>
+          <ul>
+            <li>
+              <code>&lt;ul&gt;</code> creates an unordered list for your skills.
+            </li>
+            <li>
+              <code>&lt;li&gt;</code> represents each skill.
+            </li>
+          </ul>
         </div>
 
         <div>
-          <h4>👉 Make It Personal:</h4>
+          <h4>Step 3: Make It Personal</h4>
           <p>
             Replace the placeholder skills with your own. You can add or remove
             list items as needed. For example:
           </p>
-
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -764,33 +892,153 @@ const HtmlResume2024 = () => {
             see a list of your skills displayed on your resume.
           </p>
         </div>
-
-        <div>
-          <h4>🎉 Congratulations!</h4>
-          <p>
-            You've successfully created an HTML resume for 2024. This tutorial
-            focused solely on HTML, providing a solid foundation for your
-            resume.
-          </p>
-          <p>
-            As a next step, you can consider learning{" "}
-            <Link href="/css" passHref>
-              {" "}
-              CSS
-            </Link>{" "}
-            to style your resume and make it visually appealing. Additionally,
-            exploring JavaScript and modern web development frameworks can
-            further enhance your resume and web development skills.
-          </p>
-          <p>
-            Keep learning, practicing, and building. Every project you create
-            will contribute to your growth as a web developer. Happy coding! 💪
-          </p>
-        </div>
       </div>
-      <Project />
+
+      <h2>Final Steps and Checking Your Work</h2>
+
+      <h3>Testing Everything</h3>
+      <p>Save your file (Ctrl+S or Cmd+S)</p>
+      <p>Open it in your web browser</p>
+      <p>Check that:</p>
+      <ul>
+        <li>Your name appears at the top</li>
+        <li>All sections are visible</li>
+        <li>Links work when you click them</li>
+        <li>Everything is in the right order</li>
+      </ul>
+
+      <h3>Common Problems and Solutions</h3>
+      <p>If something doesn't look right:</p>
+      <ul>
+        <li>Make sure all tags are properly closed</li>
+        <li>Check that you replaced all placeholder text</li>
+        <li>
+          Verify that all <code>&lt;&gt;</code> symbols are typed correctly
+        </li>
+        <li>Make sure you saved the file after changes</li>
+      </ul>
+
+      <h2>What You've Achieved! 🎉</h2>
+      <p>Congratulations! You've just:</p>
+      <ul>
+        <li>Created your first webpage from scratch</li>
+        <li>Learned basic HTML tags and their purposes</li>
+        <li>Built a professional-looking personal website</li>
+        <li>Created something you can show to friends and family!</li>
+      </ul>
+
+      <h2>Next Steps 🚀</h2>
+      <p>To keep improving:</p>
+      <ul>
+        <li>Practice changing the content</li>
+        <li>Try adding new sections</li>
+        <li>Share your website with friends</li>
+        <li>
+          Start learning about{" "}
+          <Link href="/css" passHref>
+            CSS
+          </Link>{" "}
+          (coming in our next tutorial!)
+        </li>
+      </ul>
+      <p>
+        Remember: Every professional web developer started exactly where you are
+        now. Be proud of what you've built, and keep practicing! You're doing
+        great! 💪
+      </p>
+
+      <h2>Practice Ideas 📚</h2>
+      <p>Try these changes to practice:</p>
+      <ul>
+        <li>Add a favorite quotes section</li>
+        <li>Create a list of your goals</li>
+        <li>Add more details to your About Me section</li>
+        <li>Customize the text to tell your unique story</li>
+      </ul>
+
+      <p>
+        Keep building and learning - you're now officially on your way to
+        becoming a web developer! 🌟
+      </p>
+
+      <h2>Complete HTML Code</h2>
+      <p>
+        Now that we've built everything piece by piece, here's the complete HTML
+        code for your resume:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <h2>Your Job Title</h2>
+  </header>
+
+  <section>
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: john.doe@example.com</li>
+      <li>Phone: (123) 456-7890</li>
+      <li>Location: New York, NY</li>
+      <li>LinkedIn: linkedin.com/in/johndoe</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Dedicated web developer with a passion for creating user-friendly interfaces. Proficient in modern HTML and CSS techniques. 
+      Seeking a role where I can contribute to innovative web projects and grow my skills in a dynamic team.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <h3>Bachelor of Science in Computer Science</h3>
+    <p>University of XYZ, 2021</p>
+    <ul>
+      <li>Relevant coursework: Data Structures, Algorithms, Web Development</li>
+      <li>Achievements: Dean's List, Best Project Award</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <h3>Junior Web Developer</h3>
+    <p>ABC Tech, 2022 - Present</p>
+    <ul>
+      <li>Responsibilities: Developed and maintained web applications using HTML, CSS, and JavaScript</li>
+      <li>Achievements: Successfully launched 3 major projects, improved website performance by 20%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>Git</li>
+      <li>Responsive Web Design</li>
+    </ul>
+  </section>
+</body>
+</html>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
     </div>
   );
 };
 
-export default HtmlResume2024;
+export default HtmlResume;
