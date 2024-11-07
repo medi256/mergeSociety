@@ -577,8 +577,8 @@ const PersonalWebpage = () => {
           <li>Try adding new sections</li>
           <li>Share your website with friends</li>
           <li>
-            Start learning about <Link href="/html/html-favicon">CSS</Link>{" "}
-            (coming in our next tutorial!)
+            Start learning about <Link href="/css">CSS</Link> (coming in our
+            next tutorial!)
           </li>
         </ul>
         <p>
