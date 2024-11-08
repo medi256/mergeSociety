@@ -54,7 +54,7 @@ const WeeklyScheduleHtml = () => {
             In this tutorial, we'll guide you through creating a weekly schedule
             using HTML tables. This project is perfect for beginners who want to
             practice their{" "}
-            <Link href="html" passHref>
+            <Link href="/html" passHref>
               HTML
             </Link>{" "}
             skills and learn how to structure data using tables.
