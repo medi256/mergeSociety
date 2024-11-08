@@ -1,29 +1,23 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Building Your First Photo Gallery with HTML | Beginner's Guide",
+  title:
+    "Learn HTML: Build a Restaurant Menu Website | Web Development Tutorial",
   description:
-    "Learn to build a basic photo gallery using HTML! This beginner-friendly tutorial covers everything from setting up your workspace to adding photos and captions. Perfect for first-time coders!",
-  keywords: [
-    "HTML tutorial",
-    "beginner HTML project",
-    "photo gallery HTML",
-    "how to create a photo gallery",
-    "HTML for beginners",
-    "HTML project",
-    "building photo gallery",
-    "coding project for beginners",
-  ],
+    "Learn how to create your first restaurant menu website using HTML. Step-by-step tutorial perfect for beginners, including navigation, styling, and best practices.",
+  keywords:
+    "HTML tutorial, restaurant menu, web development, beginner coding, HTML for beginners, website creation, menu design",
 
   openGraph: {
-    title: "Building Your First Photo Gallery with HTML | Beginner's Guide",
+    title: "Create Your First Restaurant Menu Website | HTML Tutorial",
     description:
-      "A step-by-step tutorial for building a photo gallery in HTML, perfect for beginners.",
+      "Step-by-step guide to building a professional restaurant menu website. Perfect for coding beginners!",
   },
 };
 
-const PhotoGallery = () => {
+const RestaurantMenuHtml = () => {
   return (
     <div className="lesson-container">
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
@@ -34,497 +28,873 @@ const PhotoGallery = () => {
             paddingBottom: "10px",
           }}
         >
-          Building Your First Photo Gallery with HTML
+          Building Your First Restaurant Menu Website with HTML
         </h1>
       </div>
 
-      <h2> Let's Start Building Our Photo Gallery!</h2>
-      <h3>Welcome to Your First Photo Gallery Project! 📸</h3>
+      <h2>Let's Build a Restaurant Menu Together!</h2>
+      <h3>Welcome to Your First HTML Project! 🎉</h3>
 
       <p>
-        Hey there! Today, we're going to build something really cool - your very
-        own photo gallery! Think of it like creating a digital photo album where
-        you can show off your favorite pictures with nice descriptions.
+        Imagine you're helping a friend open a new restaurant. They need a menu
+        to show their customers, but instead of using paper, we're going to
+        create it for their website! Think of it like building a digital version
+        of those menus you see at restaurants.
       </p>
 
-      <div>
-        <h3>🎯 What We'll Create</h3>
+      <h3>Why Are We Building This?</h3>
+      <p>
+        Before we jump in, let's understand why this project is great for
+        beginners like you:
+      </p>
+      <ul>
+        <li>
+          <strong>It's Real-World:</strong> Just like building with LEGO, we'll
+          put together different HTML pieces to create something people actually
+          use every day!
+        </li>
+        <li>
+          <strong>Perfect for Learning:</strong> You'll learn how to organize
+          information (like food items and prices) in a way that makes sense -
+          it's like arranging items on a shelf so people can easily find what
+          they want.
+        </li>
+        <li>
+          <strong>Great Practice:</strong> You'll use the most common HTML tags
+          - think of them as your basic building blocks, like the different LEGO
+          pieces you need to build something cool.
+        </li>
+      </ul>
+
+      <h3>What Will We Create?</h3>
+      <p>By the end of this tutorial, you'll have built:</p>
+      <ul>
+        <li>
+          A beautiful restaurant name at the top (like a restaurant's sign)
+        </li>
+        <li>
+          Different menu sections (think of these as different pages in a paper
+          menu)
+        </li>
+        <li>
+          Food items with descriptions and prices (just like you see in real
+          menus!)
+        </li>
+        <li>
+          A nice footer with the restaurant's information (like their business
+          card)
+        </li>
+      </ul>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          borderLeft: "5px solid #28a745",
+          marginTop: "20px",
+        }}
+      >
+        <h4>👋 Beginner's Tip:</h4>
         <p>
-          Imagine you're creating a beautiful photo album, but on a webpage.
-          Just like how a physical photo album has:
-        </p>
-        <ul>
-          <li>Pictures you can see clearly</li>
-          <li>Labels under each photo explaining what it is</li>
-          <li>A nice organization that makes sense</li>
-        </ul>
-        <p>That's exactly what we'll build, but on a webpage!</p>
-      </div>
-
-      <div>
-        <h3>🌟 What You'll Learn</h3>
-        <p>By the end of this tutorial, you'll know how to:</p>
-        <ul>
-          <li>
-            <strong>Add Pictures to Your Webpage:</strong> Just like putting
-            photos in an album, but digitally!
-          </li>
-          <li>
-            <strong>Write Good Picture Descriptions:</strong> So everyone,
-            including people using screen readers, can enjoy your gallery
-          </li>
-          <li>
-            <strong>Organize Everything Neatly:</strong> Make your gallery look
-            clean and professional
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>🤔 What You Need</h3>
-        <p>Before we start, make sure you have:</p>
-        <ul>
-          <li>A computer (any kind will work!)</li>
-          <li>A simple text editor (we'll help you choose one)</li>
-          <li>Some pictures you'd like to show in your gallery</li>
-        </ul>
-        <p>
-          Don't worry if you're new to this - we'll go through everything
-          step-by-step, using simple explanations and real-world examples!
-        </p>
-      </div>
-
-      <h2> Getting Your Workspace Ready</h2>
-      <h3>Setting Up Your Project Space 🎨</h3>
-
-      <div>
-        <h3>Think of it Like This...</h3>
-        <p>
-          Setting up your workspace is like preparing to cook in a kitchen: you
-          need a clean counter (your folder), your recipe book (text editor),
-          and your ingredients (your pictures)! Let's get everything organized.
-        </p>
-      </div>
-
-      <div>
-        <h3>Step 1: Create Your Project Folder</h3>
-        <p>
-          First, let's create a special folder for your project. Think of this
-          as your photo album's home!
-        </p>
-
-        <div>
-          <strong>On Windows:</strong>
-          <ol>
-            <li>Right-click on your desktop</li>
-            <li>Click "New"</li>
-            <li>Click "Folder"</li>
-            <li>Name it "my-photo-gallery"</li>
-          </ol>
-        </div>
-
-        <div>
-          <strong>On Mac:</strong>
-          <ol>
-            <li>Right-click on your desktop</li>
-            <li>Click "New Folder"</li>
-            <li>Name it "my-photo-gallery"</li>
-          </ol>
-        </div>
-      </div>
-
-      <div>
-        <h3>Step 2: Choose Your Text Editor</h3>
-        <p>
-          A text editor is like your digital notepad. Here are some free,
-          beginner-friendly options:
-        </p>
-        <ul>
-          <li>
-            <strong>Visual Studio Code (VS Code)</strong> - Like a Swiss Army
-            knife for coding. It's free and super helpful!
-            <a href="https://code.visualstudio.com" target="_black">
-              Download here
-            </a>
-          </li>
-          <li>
-            <strong>Notepad++</strong> - Simple and easy to use, perfect for
-            beginners (Windows only)
-          </li>
-          <li>
-            <strong>Sublime Text</strong> - Fast and lightweight, works on all
-            computers
-          </li>
-        </ul>
-        <p>
-          <strong>Recommendation for Beginners:</strong> We suggest using VS
-          Code because it's like having a helpful assistant while you code!
+          Don't worry if you're new to HTML! We'll explain everything step by
+          step, just like following a recipe. If you get stuck, that's totally
+          normal - even experienced developers use Google and ask questions all
+          the time!
         </p>
       </div>
 
-      <div>
-        <h3>🎉 Success Check!</h3>
-        <p>Before moving on, make sure you have:</p>
-        <ul>
-          <li>✅ Created your "my-photo-gallery" folder</li>
-          <li>✅ Downloaded and installed a text editor</li>
-          <li>✅ Found some pictures you want to use</li>
-        </ul>
-        <p>
-          If you've got all these ready, you're all set to start building your
-          gallery in the next step! 🚀
-        </p>
-      </div>
+      <h2>Getting Your Workspace Ready</h2>
+      <h3>Setting Up Your Digital Kitchen 👩‍💻</h3>
 
-      <h2>Creating Your First HTML Page </h2>
-      <h3>Building Your Gallery's Foundation 🏗️</h3>
+      <p>
+        Before a chef starts cooking, they set up their kitchen with all the
+        tools they need. Similarly, we need to set up our "digital kitchen" -
+        our workspace where we'll build our menu!
+      </p>
 
-      <div>
-        <h3>Let's Use an Analogy!</h3>
-        <p>Think of HTML like building a house:</p>
-        <ul>
-          <li>
-            The <code>&lt;!DOCTYPE html&gt;</code> is like your building permit
-          </li>
-          <li>
-            The <code>&lt;html&gt;</code> tag is your foundation
-          </li>
-          <li>
-            The <code>&lt;head&gt;</code> is like your house's blueprint
-          </li>
-          <li>
-            The <code>&lt;body&gt;</code> is where you'll put all your furniture
-            (content)
-          </li>
-        </ul>
-      </div>
+      <h3>Step 1: Creating Your Project Folder</h3>
+      <p>
+        Think of a project folder like a recipe box where you keep all your
+        ingredients and instructions together. Here's how to make one:
+      </p>
 
-      <div>
-        <h3>Step 1: Create Your HTML File</h3>
+      <div
+        className="windows-instructions"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginBottom: "15px",
+        }}
+      >
+        <h4>🪟 If you're using Windows:</h4>
         <ol>
-          <li>Open your text editor (like VS Code)</li>
-          <li>Click "File" → "New File"</li>
-          <li>Click "File" → "Save As"</li>
-          <li>Find your "my-photo-gallery" folder</li>
-          <li>Name your file "index.html" (this name is important!)</li>
+          <li>
+            Right-click on your desktop (that's your computer's main screen)
+          </li>
+          <li>Look for "New" in the menu that pops up</li>
+          <li>Click on "Folder"</li>
+          <li>Name it "my-restaurant-menu"</li>
         </ol>
       </div>
 
-      <div>
-        <h3>Step 2: Add Your Basic HTML</h3>
-        <p>Copy this code exactly as shown:</p>
-        <pre>
+      <div
+        className="mac-instructions"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginBottom: "15px",
+        }}
+      >
+        <h4>🍎 If you're using Mac:</h4>
+        <ol>
+          <li>Right-click anywhere on your desktop</li>
+          <li>Click "New Folder"</li>
+          <li>Name it "my-restaurant-menu"</li>
+        </ol>
+      </div>
+
+      <h3>Step 2: Getting a Text Editor</h3>
+      <p>
+        A text editor is like your chef's knife - it's the main tool you'll use
+        to create your HTML. We recommend Visual Studio Code (VS Code) because:
+      </p>
+      <ul>
+        <li>It's free!</li>
+        <li>
+          It helps you write code by highlighting things (like spell-check, but
+          for code)
+        </li>
+        <li>
+          It can autocomplete stuff for you (like your phone's keyboard
+          suggestions)
+        </li>
+      </ul>
+
+      <div
+        className="download-instructions"
+        style={{
+          backgroundColor: "#e9ecef",
+          padding: "15px",
+          marginTop: "15px",
+        }}
+      >
+        <h4>📥 How to Get VS Code:</h4>
+        <ol>
+          <li>
+            Go to <code>code.visualstudio.com</code>
+          </li>
+          <li>Click the big download button</li>
+          <li>Install it just like any other program</li>
+        </ol>
+      </div>
+
+      <h3>Step 3: Creating Your HTML File</h3>
+      <p>Now, let's create the file where we'll write our menu:</p>
+      <ol>
+        <li>Open VS Code</li>
+        <li>Go to File → Open Folder</li>
+        <li>Find and select your "my-restaurant-menu" folder</li>
+        <li>Click "Select Folder"</li>
+        <li>
+          Click the "New File" button (usually looks like a page with a '+'
+          sign)
+        </li>
+        <li>Name it "index.html"</li>
+      </ol>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          borderLeft: "5px solid #28a745",
+          marginTop: "20px",
+        }}
+      >
+        <h4>🤔 Why "index.html"?</h4>
+        <p>
+          We use "index.html" because it's like the front door of your website.
+          When someone visits your website, the browser automatically looks for
+          an "index.html" file first - just like how you'd look for the front
+          door when visiting a restaurant!
+        </p>
+      </div>
+
+      <h2>Creating Our Menu's Foundation</h2>
+      <h3>Building the Basic Structure 🏗️</h3>
+
+      <p>
+        Just like a building needs a strong foundation, our menu needs a basic
+        HTML structure to build upon. Think of it as the blueprint for our
+        digital restaurant menu.
+      </p>
+
+      <h3>Step 1: Adding the Document Type Declaration</h3>
+      <p>Open your "index.html" file and add the following code:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<!DOCTYPE html>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>This line tells the browser that this document is written in HTML5.</p>
+
+      <h3>Step 2: Adding the HTML Tag</h3>
+      <p>Next, add the following code:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<html lang="en">`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>
+        This line starts your HTML document and specifies that the language is
+        English.
+      </p>
+
+      <h3>Step 3: Adding the Head Section</h3>
+      <p>Now, add the following code:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Restaurant Menu</title>
+</head>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Let's understand each line:</p>
+      <ul>
+        <li>
+          <code>&lt;head&gt;</code> contains meta information about the
+          document.
+        </li>
+        <li>
+          <code>&lt;meta charset="UTF-8"&gt;</code> sets the character encoding
+          to UTF-8, supporting various languages.
+        </li>
+        <li>
           <code>
-            <SyntaxHighlighter language="html" style={docco}>
-              {`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Photo Gallery</title>
-</head>
-<body>
-    <h1>My Photo Gallery</h1>
+            &lt;meta name="viewport" content="width=device-width,
+            initial-scale=1.0"&gt;
+          </code>{" "}
+          ensures that the menu looks good on different devices and screen
+          sizes.
+        </li>
+        <li>
+          <code>&lt;title&gt;</code> sets the title of the webpage, which
+          appears in the browser tab.
+        </li>
+      </ul>
+
+      <h3>Step 4: Adding the Body Section</h3>
+      <p>Finally, add the following code:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<body>
+  <header>
+    <h1>Yummy Restaurant</h1>
+  </header>
+  <main>
+    <!-- We'll add our menu here soon! -->
+  </main>
+  <footer>
+    <p>© 2024 Yummy Restaurant</p>
+  </footer>
 </body>
 </html>`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>What are these for?</p>
+      <ul>
+        <li>
+          <code>&lt;body&gt;</code> is where all the visible content goes (like
+          text and images).
+        </li>
+        <li>
+          <code>&lt;header&gt;</code> is the top part of the page, like the
+          restaurant's sign.
+        </li>
+        <li>
+          <code>&lt;main&gt;</code> is the main content area, where we'll put
+          our menu items.
+        </li>
+        <li>
+          <code>&lt;footer&gt;</code> is the bottom part of the page, like the
+          restaurant's business card.
+        </li>
+      </ul>
 
-        <div>
-          <h4>Let's Understand Each Part:</h4>
-          <ul>
-            <li>
-              <code>&lt;!DOCTYPE html&gt;</code>: Tells the browser this is a
-              modern webpage
-            </li>
-            <li>
-              <code>&lt;html lang="en"&gt;</code>: Says our page is in English
-            </li>
-            <li>
-              <code>&lt;head&gt;</code>: Contains information about our webpage
-            </li>
-            <li>
-              <code>&lt;title&gt;</code>: The name that appears on the browser
-              tab
-            </li>
-            <li>
-              <code>&lt;body&gt;</code>: Where all your visible content will go
-            </li>
-            <li>
-              <code>&lt;h1&gt;</code>: Your main heading (like a book title)
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div>
-        <h3>👀 Let's See It in Action!</h3>
+      <div
+        className="try-it-yourself"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginTop: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>👉 Try It Out!</h4>
         <ol>
-          <li>Save your file (Press Ctrl+S or Cmd+S)</li>
-          <li>Find your file in your folder</li>
-          <li>Double-click to open it in your web browser</li>
-        </ol>
-        <p>
-          You should see "My Photo Gallery" as a big heading on a white page.
-          That's your first webpage! 🎉
-        </p>
-      </div>
-
-      <div>
-        <h3>✨ Quick Tips</h3>
-        <ul>
-          <li>Save your file often (every few minutes)</li>
-          <li>Refresh your browser to see changes (F5 key)</li>
-          <li>Don't worry if it looks plain - we'll add style later!</li>
-        </ul>
-      </div>
-
-      <h2>Adding Your Photos</h2>
-      <h3>Time to Add Your Photos! 📸</h3>
-
-      <div>
-        <h3>Think of it Like...</h3>
-        <p>
-          Adding photos to your webpage is like putting photos in a physical
-          album: each photo needs its own space and a nice caption. On a
-          webpage, we use special "containers" (called{" "}
-          <code>&lt;figure&gt;</code>) to hold each photo and its caption - just
-          like how each photo in an album has its own pocket and label!
-        </p>
-      </div>
-
-      <div>
-        <h3>Step 1: Prepare Your Photos</h3>
-        <ol>
+          <li>Copy the complete structure into your "index.html" file</li>
+          <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
           <li>
-            <strong>Choose Your Photos:</strong>
-            <ul>
-              <li>Pick 3-5 photos you'd like to show</li>
-              <li>Make sure they're not too large (under 1MB each is good)</li>
-              <li>
-                Rename them to simple names like "photo1.jpg", "photo2.jpg"
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Copy Photos to Your Folder:</strong>
-            <ul>
-              <li>Open your "my-photo-gallery" folder</li>
-              <li>Copy your chosen photos into this folder</li>
-            </ul>
+            Open the file in your web browser (double-click the file, or drag it
+            into your browser)
           </li>
         </ol>
+        <p>
+          You should see "Yummy Restaurant" at the top of a mostly blank page.
+          That's perfect! We'll add the delicious details in the next steps.
+        </p>
       </div>
 
-      <div>
-        <h3>Step 2: Add Photos to Your HTML</h3>
-        <p>
-          Let's add this code inside your <code>&lt;body&gt;</code> tag:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="html" style={docco}>
-              {`<section>
-    <h1>My Photo Gallery</h1>
+      <h2>Creating Our Menu Sections</h2>
+      <h3>Organizing Our Menu Like a Real Restaurant 🍽️</h3>
 
-    <!-- First Photo -->
-    <figure>
-        <img src="photo1.jpg" alt="Description of your first photo - be specific!">
-        <figcaption>My First Photo - Add an interesting caption here!</figcaption>
-    </figure>
+      <p>
+        When you go to a restaurant, the menu is usually divided into sections
+        like appetizers, main courses, and desserts. We're going to create these
+        sections in our digital menu!
+      </p>
 
-    <!-- Second Photo -->
-    <figure>
-        <img src="photo2.jpg" alt="Description of your second photo - be specific!">
-        <figcaption>My Second Photo - Add an interesting caption here!</figcaption>
-    </figure>
-
-    <!-- Third Photo -->
-    <figure>
-        <img src="photo3.jpg" alt="Description of your third photo - be specific!">
-        <figcaption>My Third Photo - Add an interesting caption here!</figcaption>
-    </figure>
+      <h3>Step 1: Adding the Appetizers Section</h3>
+      <p>
+        Let's add the appetizers section inside the <code>&lt;main&gt;</code>
+        tag:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<section id="appetizers">
+  <h2>Tasty Starters</h2>
+  <div class="menu-section">
+    <!-- We'll add appetizer items here -->
+  </div>
 </section>`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Understanding the new parts:</p>
+      <ul>
+        <li>
+          <code>&lt;section&gt;</code> is like a different area in your
+          restaurant, one for appetizers.
+        </li>
+        <li>
+          <code>id="appetizers"</code> is like putting a label on the section.
+        </li>
+        <li>
+          <code>&lt;h2&gt;</code> is the section title, like the heading in a
+          paper menu.
+        </li>
+        <li>
+          <code>&lt;div class="menu-section"&gt;</code> is a container for the
+          menu items.
+        </li>
+      </ul>
 
-        <div>
-          <h4>Understanding Each Part:</h4>
-          <ul>
-            <li>
-              <code>&lt;section&gt;</code>: Like a chapter in your photo album
-            </li>
-            <li>
-              <code>&lt;figure&gt;</code>: A container for each photo and its
-              caption
-            </li>
-            <li>
-              <code>&lt;img src="..."&gt;</code>: Shows your photo
-            </li>
-            <li>
-              <code>alt="..."</code>: A description of the photo for
-              accessibility
-            </li>
-            <li>
-              <code>&lt;figcaption&gt;</code>: The caption for your photo
-            </li>
-          </ul>
-        </div>
-      </div>
+      <h3>Step 2: Adding the Main Courses Section</h3>
+      <p>Below the appetizers section, add the main courses section:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<section id="main-courses">
+  <h2>Main Dishes</h2>
+  <div class="menu-section">
+    <!-- We'll add main course items here -->
+  </div>
+</section>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Understanding the new parts:</p>
+      <ul>
+        <li>
+          <code>&lt;section id="main-courses"&gt;</code> is the section for main
+          dishes.
+        </li>
+        <li>
+          <code>&lt;h2&gt;</code> is the section title for main dishes.
+        </li>
+      </ul>
 
-      <div>
-        <h3>👀 Let's See It in Action!</h3>
-        <ol>
-          <li>Save your file (Press Ctrl+S or Cmd+S)</li>
-          <li>Find your file in your folder</li>
-          <li>Double-click to open it in your web browser</li>
-        </ol>
+      <h3>Step 3: Adding the Desserts Section</h3>
+      <p>Below the main courses section, add the desserts section:</p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<section id="desserts">
+  <h2>Sweet Endings</h2>
+  <div class="menu-section">
+    <!-- We'll add dessert items here -->
+  </div>
+</section>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Understanding the new parts:</p>
+      <ul>
+        <li>
+          <code>&lt;section id="desserts"&gt;</code> is the section for
+          desserts.
+        </li>
+        <li>
+          <code>&lt;h2&gt;</code> is the section title for desserts.
+        </li>
+      </ul>
+
+      <div
+        className="try-it-yourself"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginTop: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>👉 Try It Out!</h4>
         <p>
-          You should see your photos with captions displayed on the page. That's
-          your photo gallery! 🎉
+          Save your file and refresh it in your web browser. You should now see
+          the section titles for appetizers, main courses, and desserts.
         </p>
       </div>
 
-      <div>
-        <h3>💡 Helpful Tips</h3>
+      <h2>Adding Menu Items</h2>
+      <h3>Filling Our Menu with Delicious Items 🍕</h3>
+
+      <p>
+        Now comes the fun part - adding actual food items to our menu! Think of
+        this like writing down all the dishes your restaurant serves, complete
+        with descriptions and prices.
+      </p>
+
+      <h3>Step 1: Adding Appetizer Items</h3>
+      <p>
+        Inside the <code>&lt;div class="menu-section"&gt;</code> of the
+        appetizers section, add the following code:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<div class="menu-item">
+  <h3>Crispy Mozzarella Sticks <span class="price">$7.99</span></h3>
+  <p class="description">
+    Golden-brown on the outside, melty on the inside. Served with our 
+    special marinara sauce.
+  </p>
+</div>
+
+<div class="menu-item">
+  <h3>Garden Fresh Salad <span class="price">$6.99</span></h3>
+  <p class="description">
+    Crisp lettuce, cherry tomatoes, cucumbers, and carrots with your 
+    choice of dressing.
+  </p>
+</div>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Understanding the new parts:</p>
+      <ul>
+        <li>
+          <code>&lt;div class="menu-item"&gt;</code> is a container for each
+          menu item.
+        </li>
+        <li>
+          <code>&lt;h3&gt;</code> is the name of the dish, with the price in a
+          <code>&lt;span&gt;</code> tag.
+        </li>
+        <li>
+          <code>&lt;p class="description"&gt;</code> is the description of the
+          dish.
+        </li>
+      </ul>
+
+      <h3>Step 2: Adding Main Course Items</h3>
+      <p>
+        Inside the <code>&lt;div class="menu-section"&gt;</code> of the main
+        courses section, add the following code:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<div class="menu-item">
+  <h3>Cheeseburger with Fries <span class="price">$12.99</span></h3>
+  <p class="description">
+    A juicy cheeseburger served with crispy fries and a side of ketchup.
+  </p>
+</div>
+
+<div class="menu-item">
+  <h3>Grilled Salmon with Vegetables <span class="price">$18.99</span></h3>
+  <p class="description">
+    Freshly grilled salmon served with a side of seasonal vegetables.
+  </p>
+</div>
+
+<div class="menu-item">
+  <h3>Chicken Alfredo Pasta <span class="price">$15.99</span></h3>
+  <p class="description">
+    Tender chicken breast in a creamy Alfredo sauce over fettuccine pasta.
+  </p>
+</div>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <h3>Step 3: Adding Dessert Items</h3>
+      <p>
+        Inside the <code>&lt;div class="menu-section"&gt;</code> of the desserts
+        section, add the following code:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<div class="menu-item">
+  <h3>Chocolate Lava Cake <span class="price">$8.99</span></h3>
+  <p class="description">
+    Warm chocolate cake with a gooey center, served with vanilla ice cream.
+  </p>
+</div>
+
+<div class="menu-item">
+  <h3>Apple Pie <span class="price">$7.99</span></h3>
+  <p class="description">
+    Homemade apple pie with a flaky crust, served with whipped cream.
+  </p>
+</div>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <div
+        className="try-it-yourself"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginTop: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>👉 Try It Out!</h4>
+        <p>
+          Save your file and refresh it in your web browser. You should now see
+          all the menu items listed in their respective sections.
+        </p>
+      </div>
+
+      <h2>Adding Navigation</h2>
+      <h3>Making Our Menu Look Professional 🎨</h3>
+
+      <p>
+        Right now, our menu has all the right information, but it might look a
+        bit plain. Let's add some navigation links and basic styling to make it
+        more user-friendly!
+      </p>
+
+      <h3>Step 1: Adding Navigation Links</h3>
+      <p>
+        Add the following code right after your <code>&lt;header&gt;</code>
+        section:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<nav>
+  <ul>
+    <li><a href="#appetizers">Starters</a></li>
+    <li><a href="#main-courses">Main Dishes</a></li>
+    <li><a href="#desserts">Desserts</a></li>
+  </ul>
+</nav>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+      <p>Understanding the new parts:</p>
+      <ul>
+        <li>
+          <code>&lt;nav&gt;</code> is used to define a set of navigation links.
+        </li>
+        <li>
+          <code>&lt;ul&gt;</code> is an unordered list, used to group the
+          navigation links.
+        </li>
+        <li>
+          <code>&lt;li&gt;</code> is a list item, each containing a navigation
+          link.
+        </li>
+        <li>
+          <code>&lt;a href="#appetizers"&gt;</code> is a hyperlink that links to
+          the appetizers section.
+        </li>
+      </ul>
+
+      <div
+        className="try-it-yourself"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginTop: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>👉 Try It Out!</h4>
+        <p>
+          Save your file and refresh it in your web browser. You should now see
+          a navigation bar at the top of the page, and clicking the links should
+          take you to the corresponding sections.
+        </p>
+      </div>
+
+      <h2>Final Touches and Testing</h2>
+      <h3>Making Sure Everything Works! 🚀</h3>
+
+      <p>
+        We're almost done! Just like a chef tastes their dishes before serving
+        them, we need to test our menu to make sure everything works perfectly.
+      </p>
+
+      <h3>Final Checklist</h3>
+      <div
+        className="checklist"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>Check These Things:</h4>
         <ul>
-          <li>Always save your file after making changes</li>
-          <li>Refresh your browser to see updates</li>
-          <li>Keep your photo sizes small for faster loading</li>
           <li>
-            Write meaningful descriptions in the alt text for accessibility
+            ✅ Does your menu have all three sections (appetizers, main courses,
+            desserts)?
           </li>
-          <li>Have fun experimenting with different styles!</li>
+          <li>✅ Do all your navigation links work when you click them?</li>
+          <li>✅ Are all your prices clearly visible?</li>
+          <li>✅ Do your food descriptions make sense?</li>
+          <li>✅ Does everything look good on both your computer and phone?</li>
         </ul>
       </div>
 
-      <h2>Finalizing Your Gallery </h2>
-      <h3>Finishing Touches and Best Practices 🎨</h3>
+      <h3>Adding the Final Professional Touches</h3>
+      <p>
+        Let's add some information at the bottom of your menu (in the footer):
+      </p>
 
-      <div>
-        <h3>Let's Add Some Final Touches!</h3>
-        <p>
-          Your photo gallery is almost complete! Let's add some final touches
-          and ensure it follows best practices.
-        </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<footer>
+  <div class="restaurant-info">
+    <h3>Visit Us</h3>
+    <p>123 Tasty Street, Food City, FC 12345</p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Open Daily: 11:00 AM - 10:00 PM</p>
+  </div>
+  <div class="social-media">
+    <p>Follow us on social media for daily specials!</p>
+    <p>@YummyRestaurant</p>
+  </div>
+  <p class="copyright">© 2024 Yummy Restaurant. All rights reserved.</p>
+</footer>`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <h3>Common Problems and Solutions</h3>
+      <div className="troubleshooting" style={{ marginTop: "20px" }}>
+        <h4>If Things Don't Look Right:</h4>
+        <ul>
+          <li>
+            <strong>Problem:</strong> Text is too big/small
+            <strong>Solution:</strong> Check your font-size in the style section
+          </li>
+          <li>
+            <strong>Problem:</strong> Navigation links don't work
+            <strong>Solution:</strong> Make sure your section IDs match your
+            link hrefs exactly
+          </li>
+          <li>
+            <strong>Problem:</strong> Prices aren't aligned
+            <strong>Solution:</strong> Check if all prices have the "price"
+            class
+          </li>
+        </ul>
       </div>
 
-      <div>
-        <h3>Step 1: Image Optimization</h3>
-        <p>
-          If your images are large, consider optimizing them to improve page
-          load times. Tools like TinyPNG or online image compressors can help
-          reduce file sizes without compromising quality.
-        </p>
-      </div>
+      <h2>Testing Your Code</h2>
+      <h3>Verifying Your Work</h3>
 
-      <div>
-        <h3>Step 2: Image Alt Text</h3>
-        <p>
-          Make sure your <code>alt</code> text accurately describes the image
-          content. This is essential for accessibility and SEO.
-        </p>
-      </div>
+      <p>Here's the complete HTML code for your restaurant menu:</p>
 
-      <div>
-        <h3>Step 3: Image Sizes</h3>
-        <p>
-          Use consistent image sizes to maintain a clean layout. You can adjust
-          image dimensions using image editing tools.
-        </p>
-      </div>
-
-      <div>
-        <h3>Step 4: Additional Content</h3>
-        <p>
-          If you wish to add more information about each image, you can include
-          a paragraph or additional text within the <code>&lt;figure&gt;</code>{" "}
-          tag.
-        </p>
-      </div>
-
-      <div>
-        <h3>Final HTML Example</h3>
-        <p>
-          Here's an example of the final HTML code with some additional images
-          and captions:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="html" style={docco}>
-              {`<!DOCTYPE html>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="html" style={docco}>
+            {`<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Photo Gallery</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Restaurant Menu</title>
 </head>
 <body>
-    <section>
-        <h1>My Photo Gallery</h1>
-
-        <!-- First Photo -->
-        <figure>
-            <img src="photo1.jpg" alt="A beautiful sunset over the ocean">
-            <figcaption>Beautiful Sunset</figcaption>
-            <p>This image captures a breathtaking sunset over the ocean, with vibrant colors and a serene atmosphere.</p>
-        </figure>
-
-        <!-- Second Photo -->
-        <figure>
-            <img src="photo2.jpg" alt="A vibrant cityscape at night">
-            <figcaption>Cityscape at Night</figcaption>
-            <p>The city comes alive at night with its dazzling lights and bustling streets.</p>
-        </figure>
-
-        <!-- Third Photo -->
-        <figure>
-            <img src="photo3.jpg" alt="A peaceful forest with sunlight streaming through the trees">
-            <figcaption>Peaceful Forest</figcaption>
-            <p>A serene forest scene where sunlight filters through the trees, creating a magical atmosphere.</p>
-        </figure>
+  <header>
+    <h1>Yummy Restaurant</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#appetizers">Starters</a></li>
+      <li><a href="#main-courses">Main Dishes</a></li>
+      <li><a href="#desserts">Desserts</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="appetizers">
+      <h2>Tasty Starters</h2>
+      <div class="menu-section">
+        <div class="menu-item">
+          <h3>Crispy Mozzarella Sticks <span class="price">$7.99</span></h3>
+          <p class="description">
+            Golden-brown on the outside, melty on the inside. Served with our 
+            special marinara sauce.
+          </p>
+        </div>
+        <div class="menu-item">
+          <h3>Garden Fresh Salad <span class="price">$6.99</span></h3>
+          <p class="description">
+            Crisp lettuce, cherry tomatoes, cucumbers, and carrots with your 
+            choice of dressing.
+          </p>
+        </div>
+      </div>
     </section>
+    <section id="main-courses">
+      <h2>Main Dishes</h2>
+      <div class="menu-section">
+        <div class="menu-item">
+          <h3>Cheeseburger with Fries <span class="price">$12.99</span></h3>
+          <p class="description">
+            A juicy cheeseburger served with crispy fries and a side of ketchup.
+          </p>
+        </div>
+        <div class="menu-item">
+          <h3>Grilled Salmon with Vegetables <span class="price">$18.99</span></h3>
+          <p class="description">
+            Freshly grilled salmon served with a side of seasonal vegetables.
+          </p>
+        </div>
+        <div class="menu-item">
+          <h3>Chicken Alfredo Pasta <span class="price">$15.99</span></h3>
+          <p class="description">
+            Tender chicken breast in a creamy Alfredo sauce over fettuccine pasta.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="desserts">
+      <h2>Sweet Endings</h2>
+      <div class="menu-section">
+        <div class="menu-item">
+          <h3>Chocolate Lava Cake <span class="price">$8.99</span></h3>
+          <p class="description">
+            Warm chocolate cake with a gooey center, served with vanilla ice cream.
+          </p>
+        </div>
+        <div class="menu-item">
+          <h3>Apple Pie <span class="price">$7.99</span></h3>
+          <p class="description">
+            Homemade apple pie with a flaky crust, served with whipped cream.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="restaurant-info">
+      <h3>Visit Us</h3>
+      <p>123 Tasty Street, Food City, FC 12345</p>
+      <p>Phone: (555) 123-4567</p>
+      <p>Open Daily: 11:00 AM - 10:00 PM</p>
+    </div>
+    <div class="social-media">
+      <p>Follow us on social media for daily specials!</p>
+      <p>@YummyRestaurant</p>
+    </div>
+    <p class="copyright">© 2024 Yummy Restaurant. All rights reserved.</p>
+  </footer>
 </body>
 </html>`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
+
+      <div
+        className="try-it-yourself"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "15px",
+          marginTop: "20px",
+          borderRadius: "5px",
+        }}
+      >
+        <h4>👉 Try It Out!</h4>
+        <ol>
+          <li>Make sure your code looks the same as that one</li>
+          <li>Save the file (Ctrl+S on Windows, Cmd+S on Mac)</li>
+          <li>
+            Open the file in your web browser (double-click the file, or drag it
+            into your browser)
+          </li>
+        </ol>
+        <p>
+          You should see the complete restaurant menu with all sections, items,
+          and navigation links working correctly.
+        </p>
       </div>
 
-      <div>
+      <div
+        className="congratulations"
+        style={{
+          backgroundColor: "#d4edda",
+          padding: "20px",
+          borderRadius: "5px",
+          marginTop: "20px",
+        }}
+      >
         <h3>🎉 Congratulations!</h3>
         <p>
-          You've now created a fully functional photo gallery with images,
-          captions, and additional content. This gallery is accessible, follows
-          HTML5 semantics, and provides a great user experience.
+          You've built your first complete web page! This menu isn't just a
+          practice project - it's a real-world example of what you might create
+          for an actual restaurant. You've learned:
         </p>
-      </div>
-
-      <div>
-        <h3>💡 Next Steps</h3>
         <ul>
-          <li>
-            Add more photos by copying the <code>&lt;figure&gt;</code> section
-          </li>
-          <li>
-            Change the colors in the CSS by modifying the color codes (once you
-            learn CSS!)
-          </li>
-          <li>
-            Adjust the spacing by changing the padding and margin values (once
-            you learn CSS!)
-          </li>
-          <li>Share your gallery with friends and family!</li>
-          <li>
-            Continue exploring HTML and CSS to create even more amazing
-            projects!
-          </li>
+          <li>How to structure content with HTML</li>
+          <li>How to organize information in a clear way</li>
+          <li>How to style your content to make it look professional</li>
+          <li>How to add navigation to help users find what they want</li>
         </ul>
+        <p>Feel free to customize this menu further by:</p>
+        <ul>
+          <li>Adding more menu items</li>
+          <li>Changing the restaurant name and details</li>
+          <li>Adding images to make it more visually appealing</li>
+          <li>Experimenting with different styles and layouts</li>
+        </ul>
+        <p>
+          Keep practicing and exploring HTML. The more you build, the more
+          comfortable you'll become with creating amazing web content!
+        </p>
       </div>
     </div>
   );
 };
 
-export default PhotoGallery;
+export default RestaurantMenuHtml;
