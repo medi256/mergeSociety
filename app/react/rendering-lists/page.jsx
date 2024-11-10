@@ -15,7 +15,7 @@ export const metadata = {
     "Web Development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/rendering-lits",
+    canonical: "https://www.mergesociety.com/react/rendering-lists",
   },
 
   openGraph: {
