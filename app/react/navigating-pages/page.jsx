@@ -13,7 +13,7 @@ export const metadata = {
       "Explore the world of React Router navigation. Discover how to create seamless user experiences with dynamic routing and URL manipulation.",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/react/navagating-pages",
+    canonical: "https://www.mergesociety.com/react/navigating-pages",
   },
 
   keywords: [
