@@ -22,6 +22,10 @@ export const metadata = {
     "replaceChild method",
     "removeChild method",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/create-append",
+  },
+
   openGraph: {
     title:
       "Master DOM Manipulation: Create and Append Elements Dynamically with JavaScript",

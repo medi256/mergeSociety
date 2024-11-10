@@ -20,6 +20,9 @@ export const metadata = {
     "code readability",
     "code simplicity",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/arrow-functions",
+  },
   openGraph: {
     title: "JavaScript Arrow Functions: The Ultimate Guide",
     description:

@@ -15,15 +15,20 @@ export const metadata = {
     "Google Analytics",
     "Clicky analytics",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/privacy",
+  },
+
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/policies",
+  url: "https://www.mergesociety.com/privacy",
   type: "website",
   openGraph: {
     title: "MergeSociety Policies",
     description:
       "MergeSociety outlines its policies on privacy, terms and conditions, and cookie usage to protect user data and enhance user experience. Learn more about our data practices.",
     type: "website",
-    url: "https://www.mergesociety.com/policies",
+    url: "https://www.mergesociety.com/privacy",
   },
 };
 

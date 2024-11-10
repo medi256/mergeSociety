@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,9 @@ export const metadata = {
     "data structures",
     "javascript coding",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/array-methods",
+  },
   openGraph: {
     title: "JavaScript Array Methods: The Ultimate Guide",
     description:
@@ -29,7 +31,6 @@ export const metadata = {
 const ArrayMethods = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Array Methods in JavaScript</h1>
       <h2>Connecting to Arrays</h2>
       <p>
@@ -125,7 +126,6 @@ console.log(fruits); // Output: ['apple', 'banana']
         from the <code>fruits</code> array. The method returns the removed
         element.
       </p>
-      
 
       <h3>
         <code>shift()</code>
@@ -211,7 +211,6 @@ console.log(fruits); // Output: ['apple', 'banana', 'fig', 'grape', 'elderberry'
         and add 'fig' and 'grape' at the same position. The method returns the
         removed elements, and the original array is modified.
       </p>
-      
 
       <h2>
         Combining Arrays: <code>concat()</code>
@@ -322,7 +321,7 @@ console.log(hasDate); // Output: false
         Here, <code>includes()</code> returns <code>true</code> for 'banana' and{" "}
         <code>false</code> for 'date'.
       </p>
-      
+
       <h2>
         Reversing Elements: <code>reverse()</code>
       </h2>

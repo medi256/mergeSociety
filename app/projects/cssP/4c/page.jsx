@@ -17,6 +17,9 @@ export const metadata = {
     "responsive layout",
     "web design",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP/4c",
+  },
 
   openGraph: {
     title: "Designing an Advanced Pricing Table with CSS Grid",

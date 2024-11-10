@@ -7,6 +7,9 @@ export const metadata = {
     "Master JavaScript with our comprehensive course. Learn everything from fundamentals to advanced concepts like async programming and API integration. Ideal for beginners and intermediate developers.",
   keywords:
     "JavaScript course, web development, JS tutorial, learn JavaScript, coding, front-end development, ES6, DOM manipulation, asynchronous JavaScript",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript",
+  },
   openGraph: {
     title:
       "Master JavaScript: Comprehensive Web Development Course | MergeSociety",

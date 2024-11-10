@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -10,6 +9,9 @@ export const metadata = {
     "Learn how to create and style buttons in HTML. This lesson covers various types of buttons, their usage, and best practices for ensuring smooth user interaction in web development.",
   keywords:
     "HTML, buttons, interactive elements, web development, button creation, user interfaces, coding for beginners, button types, button best practices",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-buttons",
+  },
   openGraph: {
     title: "Buttons in HTML: Creating Interactive Elements | MergeSociety",
     description:
@@ -20,8 +22,7 @@ export const metadata = {
 const HTMLButtons = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>Buttons in HTML</h1>
+      <h1>How to Create Buttons in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring buttons in HTML - one of
         the most commonly used interactive elements on web pages. Buttons allow
@@ -111,7 +112,7 @@ const HTMLButtons = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h2>Best Practices for Buttons in HTML</h2>
       <ul>
         <li>
@@ -178,7 +179,7 @@ const HTMLButtons = () => {
           </pre>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored buttons in HTML, including their purpose,

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to use unordered and ordered lists in HTML to present information clearly and effectively. Explore best practices for structuring lists and creating nested lists with practical examples.",
   keywords:
     "HTML, lists in HTML, unordered lists, ordered lists, web development, structured content, coding for beginners, HTML tutorial, web design, best practices for lists, nested lists",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-lists",
+  },
   openGraph: {
     title:
       "HTML Lists: Organize Content with Unordered and Ordered Lists | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLLists = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Lists in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring lists in HTML. Lists are
@@ -120,7 +121,7 @@ const HTMLLists = () => {
         creating a nested list structure. You can nest lists within lists to
         create more complex hierarchies.
       </p>
-      
+
       <h2>Best Practices for Using Lists</h2>
       <ul>
         <li>
@@ -199,7 +200,7 @@ const HTMLLists = () => {
           Experiment with different levels of nesting.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the basics of lists in HTML, including

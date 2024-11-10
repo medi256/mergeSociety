@@ -9,6 +9,9 @@ export const metadata = {
     "web development, SEO, AI, cybersecurity, blockchain, React, JavaScript, CSS, digital marketing",
   url: "https://www.mergesociety.com/blog",
   type: "article",
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

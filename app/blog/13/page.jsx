@@ -21,6 +21,9 @@ export const metadata = {
     "JavaScript",
     "Web Development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/13",
+  },
   url: "https://www.mergesociety.com/blog/13",
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],

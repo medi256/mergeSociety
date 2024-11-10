@@ -11,6 +11,9 @@ export const metadata = {
   publishDate: new Date().toISOString().split("T")[0],
   url: "https://www.mergesociety.com/blog/21",
   type: "article",
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/21",
+  },
   openGraph: {
     title: "The Internet of Things (IoT) Revolution",
     description:

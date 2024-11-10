@@ -16,6 +16,9 @@ export const metadata = {
     "Community Building",
     "Tech Influencer",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/17",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

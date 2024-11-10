@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to embed audio in HTML using the <audio> tag. Explore how to provide multiple formats, customize playback controls, and follow best practices for incorporating sound into web pages.",
   keywords:
     "HTML, audio in HTML, embedding audio, web development, HTML tutorial, audio formats, autoplay audio, looping audio, best practices for audio, sound on web pages",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-audio",
+  },
   openGraph: {
     title: "Audio in HTML: Embedding and Customizing Sound | MergeSociety",
     description:
@@ -19,8 +21,7 @@ export const metadata = {
 const HTMLAudio = () => {
   return (
     <div className="lesson-container">
-      
-      <h1>Audio in HTML</h1>
+      <h1>How to add Audio in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring audio - another exciting
         multimedia element that you can incorporate into your web pages. Audio
@@ -179,7 +180,7 @@ const HTMLAudio = () => {
           and optimize your audio files without sacrificing quality.`}
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -222,7 +223,7 @@ const HTMLAudio = () => {
           structure of the <code>{`<audio>`}</code> tag.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored audio in HTML, including how to embed

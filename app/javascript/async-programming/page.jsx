@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,19 +20,20 @@ export const metadata = {
     "web development",
     "JavaScript tutorials",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/async-programming",
+  },
 
   openGraph: {
     title: "Understanding Asynchronous Programming in JavaScript",
     description:
       "Learn the key concepts of asynchronous programming in JavaScript, including setTimeout, setInterval, and the event loop. Keep your web applications responsive with non-blocking code.",
-    type: "article",
   },
 };
 
 const AsyncProgram = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding Asynchronous Programming in JavaScript</h1>
 
       <p>

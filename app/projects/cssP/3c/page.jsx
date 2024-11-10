@@ -14,6 +14,10 @@ export const metadata = {
     "CSS",
     "css project step by step",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP/3c",
+  },
+
   openGraph: {
     title: "Responsive Navigation Menu",
     description:

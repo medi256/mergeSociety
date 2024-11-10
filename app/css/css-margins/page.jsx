@@ -18,12 +18,14 @@ export const metadata = {
     "CSS for beginners",
     "web design margins",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-margins",
+  },
 
   openGraph: {
     title: "Mastering CSS Margins: Create Perfect Spacing in Web Design",
     description:
       "Explore how CSS margins create space around elements, improve layout and readability, and enhance the user experience with this beginner-friendly guide.",
-    type: "website",
     url: "https://www.mergesociety.com/css-margins",
   },
 };

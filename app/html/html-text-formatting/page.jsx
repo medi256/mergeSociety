@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Explore the various text formatting options in HTML to improve content readability and engagement. Learn how to use tags like <strong>, <em>, and <mark> effectively with practical examples.",
   keywords:
     "HTML, text formatting, HTML tags, web development, content readability, web design, coding for beginners, HTML tutorial, text styles, best practices for text formatting, web accessibility",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-text-formatting",
+  },
   openGraph: {
     title: "HTML Text Formatting: Enhance Content with Style | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const TextFormatting = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Text Formatting in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring the wonderful world of
@@ -133,7 +134,7 @@ const TextFormatting = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h2>
         Using the <code>{`<sup>`}</code> and <code>{`<sub>`}</code> Tags
       </h2>
@@ -184,7 +185,7 @@ The <abbr title="World Wide Web">WWW</abbr> is a global information system.
         In this example, hovering over "WWW" will display "World Wide Web" as a
         tooltip.
       </p>
-      
+
       <h2>Best Practices for Text Formatting</h2>
       <ul>
         <li>
@@ -253,7 +254,7 @@ E=mc<sup>2</sup>.</p>`}
           affects the appearance and readability of your content.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the various text formatting options

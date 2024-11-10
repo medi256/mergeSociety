@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,20 +18,20 @@ export const metadata = {
     "JavaScript for beginners",
     "understanding Math object",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/math-object",
+  },
 
   openGraph: {
     title: "Understanding the Math Object in JavaScript",
     description:
       "Explore how to use the Math object in JavaScript effectively. This guide includes essential methods, practical examples, and exercises to enhance your programming skills.",
-
-    type: "article",
   },
 };
 
 const MAthMethod = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding the Math Object in JavaScript</h1>
       <p>
         The <code>Math</code> object in JavaScript provides a variety of
@@ -74,7 +73,7 @@ console.log("Value of PI:", piValue);
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>
         2. <code>Math.E</code>
       </h3>
@@ -177,7 +176,7 @@ console.log("Rounded down:", floorDown);
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>
         4. <code>Math.ceil()</code>
       </h3>
@@ -303,7 +302,7 @@ console.log("Square root of 25:", sqrtOf25);
         dishes, you use different methods and properties for different
         calculations.
       </p>
-      
+
       <h2>Practice: Using the Math Object</h2>
       <p>
         Try these examples to practice using the <code>Math</code> object:

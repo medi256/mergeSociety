@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,19 +18,20 @@ export const metadata = {
     "CSS tutorials",
     "creative web design",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-forms",
+  },
 
   openGraph: {
     title: "Mastering Form Styling in CSS: Create Engaging User Interfaces",
     description:
       "Explore the world of CSS form styling and discover how to design visually appealing, user-friendly forms. With practical examples and expert insights, transform your web applications into stunning experiences.",
-    type: "article",
   },
 };
 
 const CSSForms = () => {
   return (
     <div className="lesson-container">
-      
       <h1> Form Styling in CSS</h1>
       <p>
         Form styling in CSS is an exciting aspect of web design. Forms are
@@ -156,7 +156,7 @@ input[type="text"] {
           them stand out.
         </li>
       </ul>
-      
+
       <h2>Challenges of Form Styling</h2>
       <p>While form styling is powerful, it also comes with some challenges:</p>
 
@@ -202,7 +202,7 @@ input[type="text"] {
           adding validation indicators, or styling form placeholders.
         </li>
       </ol>
-      
+
       <p>
         Remember, form styling in CSS allows you to enhance the user experience,
         add creativity, and make your forms visually appealing. Choose form

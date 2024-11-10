@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,11 +17,13 @@ export const metadata = {
     "JavaScript async",
     "front-end development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/callbacks",
+  },
   openGraph: {
     title: "JavaScript Callbacks Explained | Interactive Coding Lesson",
     description:
       "Dive into JavaScript callbacks with hands-on examples. Perfect for beginners and intermediate developers looking to level up their skills.",
-    type: "article",
   },
 
   authors: [{ name: "MergeSociety" }],
@@ -49,7 +50,6 @@ export const metadata = {
 const CallBack = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding Callbacks in JavaScript</h1>
 
       <p>
@@ -121,7 +121,7 @@ processUserInput(greet);
           the <code>greet</code> function after getting the user’s name.
         </li>
       </ul>
-      
+
       <h2>Callbacks and Asynchronous Programming</h2>
       <p>
         Callbacks become especially useful when dealing with{" "}
@@ -227,7 +227,7 @@ fetchData(displayData);
           Then, <code>displayData</code> logs the data to the console.
         </li>
       </ul>
-      
+
       <h2>Callback Hell</h2>
       <p>
         While callbacks are very useful, they can sometimes lead to something
@@ -269,7 +269,7 @@ console.log('Task 3 done');
         This is how callbacks work – they notify you when an asynchronous task
         is done so you can continue working on other things in the meantime.
       </p>
-      
+
       <h2>Summary</h2>
       <ul>
         <li>

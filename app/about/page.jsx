@@ -16,6 +16,9 @@ export const metadata = {
     "accessible coding education",
     "free coding resources",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/about",
+  },
   author: "MergeSociety",
   url: "https://www.mergesociety.com/about",
   type: "website",

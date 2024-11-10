@@ -18,7 +18,9 @@ export const metadata = {
     "web development tutorials",
     "programming for beginners",
   ],
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/jsx-structure",
+  },
   openGraph: {
     title:
       "JSX Structure and Container Elements: A Comprehensive Beginner's Guide",

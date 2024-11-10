@@ -1,7 +1,6 @@
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
-
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
@@ -10,6 +9,9 @@ export const metadata = {
     "Learn the core principles of HTML, from elements and tags to structuring web pages. Understand the difference between container and empty elements, and explore real code examples.",
   keywords:
     "HTML, web development, HTML elements, HTML tutorial, HTML basics, coding for beginners, container elements, empty elements, web design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-basics",
+  },
   openGraph: {
     title: "HTML Basics: The Building Blocks of Web Development | MergeSociety",
     description:
@@ -21,7 +23,6 @@ const HTMLBasics = () => {
   return (
     <div className="lesson-container">
       <section>
-        
         <h1>HTML Basics</h1>
         <p>
           Welcome back, aspiring web developer! In this lesson, we'll dive into
@@ -159,7 +160,7 @@ const HTMLBasics = () => {
           specifies the type of input, such as "text," "email," or "password."`}
           </li>
         </ul>
-        
+
         <h2>Why Do Elements Have Opening and Closing Tags?</h2>
         <p>
           {`You might be wondering why some elements have both opening and closing
@@ -208,7 +209,7 @@ const HTMLBasics = () => {
         elements wrap the content within them, while the empty elements, like
         <img> and <br>, stand alone.`}
         </p>
-        
+
         <h2>Conclusion</h2>
         <p>
           In this lesson, we explored the fundamental building blocks of HTML -

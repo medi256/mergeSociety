@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -17,14 +16,13 @@ export const metadata = {
     "web development",
     "coding tutorial",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/async-await",
+  },
   openGraph: {
     title: "Mastering Async/Await in JavaScript",
     description:
       "Simplify your asynchronous JavaScript code with our in-depth async/await tutorial. Perfect for beginners and intermediate developers.",
-    type: "article",
-    article: {
-      tags: ["JavaScript", "Async/Await", "Web Development"],
-    },
   },
 
   schema: {
@@ -46,7 +44,6 @@ export const metadata = {
 const AsyncAwait = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding Async/Await in JavaScript</h1>
 
       <p>

@@ -19,6 +19,9 @@ export const metadata = {
     "Function Factories",
     "JavaScript Best Practices",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/11",
+  },
   type: "article",
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],

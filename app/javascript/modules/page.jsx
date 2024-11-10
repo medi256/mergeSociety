@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,20 +17,20 @@ export const metadata = {
     "Web Development",
     "Programming Best Practices",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/modules",
+  },
 
   openGraph: {
     title: "Understanding JavaScript Modules",
     description:
       "Dive into JavaScript Modules to learn how to organize your code effectively. Understand the concepts of exporting, importing, and the differences between named and default exports.",
-
-    type: "article",
   },
 };
 
 const Modules = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Advanced JavaScript Concepts: Modules</h1>
       <p>
         As you advance in your JavaScript journey, you’ll encounter larger and
@@ -89,7 +88,7 @@ const Modules = () => {
           collisions and keeping your global namespace clean.
         </li>
       </ul>
-      
+
       <h2>How Do JavaScript Modules Work?</h2>
       <p>
         JavaScript modules work by using the <code>import</code> and{" "}
@@ -211,7 +210,7 @@ const Modules = () => {
         the default export. This is a key difference between named exports and
         default exports.
       </p>
-      
+
       <h3>Named Exports vs. Default Exports</h3>
       <p>
         It’s important to understand the difference between named exports and
@@ -243,7 +242,7 @@ const Modules = () => {
         tree shaking (removing unused code) and lazy loading (loading code only
         when it’s needed), which can significantly improve performance.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         JavaScript Modules are a powerful feature that helps you manage and

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,6 +17,9 @@ export const metadata = {
     "HSL",
     "opacity",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-colors",
+  },
   openGraph: {
     title: "Master CSS Colors for Web Design",
     description:
@@ -30,7 +32,6 @@ export const metadata = {
 const CSSColors = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Colors in CSS</h1>
       <p>
         Colors are like the paintbrushes that bring your web designs to life!
@@ -210,7 +211,7 @@ div {
         </a>
         .
       </p>
-      
+
       <h2>Color Opacity</h2>
       <p>
         Color opacity refers to the transparency or opacity of a color. You can
@@ -323,7 +324,7 @@ p {
           for your projects.
         </li>
       </ol>
-      
+
       <p>
         Remember, colors have a powerful impact on your designs. Choose colors
         that align with your brand, convey the right emotions, and ensure

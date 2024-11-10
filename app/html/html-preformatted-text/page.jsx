@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to use the <pre> tag in HTML to preserve whitespace, line breaks, and indentation. This tutorial covers its purpose, best practices, and real-world examples for displaying code snippets, poetry, and ASCII art.",
   keywords:
     "HTML <pre> tag, HTML whitespace, HTML formatting, code snippets, ASCII art, HTML best practices, preformatted text, web development, display code in HTML, HTML coding",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-preformatted-text",
+  },
   openGraph: {
     title:
       "Mastering the <pre> Tag in HTML: Display Code, ASCII Art, and More | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLPre = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         The <code>{`<pre>`}</code> Tag in HTML
       </h1>
@@ -167,7 +168,7 @@ const HTMLPre = () => {
           for content that doesn't need this level of formatting control.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, {` let's `} put your knowledge into practice! Open your code editor
@@ -218,7 +219,7 @@ line breaks and indentation.
           </pre>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the <code>{`<pre>`}</code> tag in HTML,

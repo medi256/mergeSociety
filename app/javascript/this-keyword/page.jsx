@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -15,9 +14,11 @@ export const metadata = {
     "JavaScript classes",
     "functions",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/this-keyword",
+  },
 
   openGraph: {
-    type: "article",
     title: "Understanding the 'this' Keyword in JavaScript",
     description:
       "Explore the concept of the 'this' keyword in JavaScript, its role in object context, and practical examples to enhance your understanding.",
@@ -27,7 +28,6 @@ export const metadata = {
 const ThisKeyWord = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Understanding the <code>this</code> Keyword in JavaScript
       </h1>
@@ -169,7 +169,7 @@ const ThisKeyWord = () => {
         <code>Bob</code> anymore because <code>this</code> has lost its
         connection to the <code>person</code> object.
       </p>
-      
+
       <h2>
         Solving the <code>this</code> Problem
       </h2>
@@ -243,7 +243,7 @@ const ThisKeyWord = () => {
         typically more useful when nested inside other functions or methods
         where <code>this</code> is inherited from the surrounding code.
       </p>
-      
+
       <h2>
         Practice: Using <code>this</code> in Your Own Code
       </h2>

@@ -7,6 +7,10 @@ export const metadata = {
     "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
   keywords:
     "CSS projects, beginner CSS, advanced CSS, web design, CSS tutorials",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP",
+  },
+
   openGraph: {
     title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
     description:

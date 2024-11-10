@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -20,6 +19,9 @@ export const metadata = {
     "Decision Making",
     "Conditionals",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/logical-operators",
+  },
   openGraph: {
     title: "Mastering JavaScript Logical Operators",
     description:
@@ -27,21 +29,18 @@ export const metadata = {
   },
   schema: {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "website",
     name: "JavaScript Logical Operators: A Comprehensive Guide",
     description:
       "A detailed tutorial on logical operators in JavaScript, their usage, and their role in creating complex conditional statements.",
     keywords:
       "JavaScript, Logical Operators, AND, OR, NOT, Programming, Coding, Decision Making, Conditionals",
-    articleSection: "JavaScript Tutorials",
-    wordCount: 2000,
   },
 };
 
 const JavaScriptOperatorsLesson = () => {
   return (
     <div className="lesson-container">
-      
       <section>
         <h1>3. Logical Operators: Making Decisions in Code</h1>
         <p>
@@ -195,7 +194,7 @@ console.log("Is the light on now?", lightOn); // Output: Is the light on now? fa
           You might use it to check if a user is not logged in, or to switch a
           game character between two modes (like visible/invisible).
         </p>
-        
+
         <h3>Combining Logical Operators</h3>
         <p>
           Just like we can create complex math expressions, we can also create
@@ -291,7 +290,7 @@ console.log("Should we go to the beach?", goToBeach); // Output: Should we go to
             on the final exam.
           </li>
         </ul>
-        
+
         <p>
           Remember, every skilled programmer started exactly where you are now.
           Don't be discouraged if things don't work perfectly right away –

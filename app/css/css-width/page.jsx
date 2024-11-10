@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,18 +15,19 @@ export const metadata = {
     "layout",
     "CSS properties",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-width",
+  },
   openGraph: {
     title: "CSS Width Mastery: From Basics to Advanced Techniques",
     description:
       "Dive into the world of CSS width. Learn how to create flexible, responsive layouts that look great on any device.",
-    type: "article",
   },
 };
 
 const CSSWidth = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Width in CSS</h1>
       <p>
         Width is a fundamental property in CSS that determines the horizontal
@@ -125,7 +125,7 @@ img {
         elements that need to maintain their original aspect ratio while fitting
         within their container.
       </p>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -163,7 +163,7 @@ img {
           various devices.
         </li>
       </ol>
-      
+
       <p>
         Remember, width is a powerful tool in web design. It helps define the
         layout, appearance, and responsiveness of your designs. Choose width

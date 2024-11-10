@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -11,20 +10,19 @@ export const metadata = {
     "Learn about React components in this detailed guide. Understand what components are, how to create and use them, and practice with simple examples.",
   keywords:
     "React, components, beginner guide, functional components, JavaScript, web development",
-  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/functional-components",
+  },
   openGraph: {
     title: "React Components: A Comprehensive Beginner's Guide",
     description:
       "Discover the basics of React components in this friendly guide. Perfect for beginners who want to learn how to create reusable components.",
-
-    type: "article",
   },
 };
 
 const Component = () => {
   return (
     <div className="lesson-container">
-      
       <h1>React Components: A Comprehensive Beginner's Guide</h1>
 
       <p>
@@ -111,7 +109,7 @@ return <h1>Hello, friend!</h1>;
         Whenever we use the <code>Welcome</code> component, it will display this
         heading.
       </p>
-      
+
       <h3>Step 3: Export Your Component</h3>
       <p>
         To use your component in other parts of your app, you need to{" "}
@@ -205,7 +203,7 @@ export default App;`}
           write when building web pages.
         </li>
       </ul>
-      
+
       <h3>Wrapping Multiple Elements</h3>
       <p>
         Sometimes, you'll want to return more than one element from your
@@ -276,7 +274,7 @@ export default App;`}
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h2>Wrapping Up</h2>
       <p>Here are the key points to remember:</p>
       <ul>

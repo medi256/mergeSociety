@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,6 +9,9 @@ export const metadata = {
     "Learn how to use HTML headings to structure your content, improve readability, and boost SEO. Understand the importance of hierarchical headings and best practices for accessible web design.",
   keywords:
     "HTML, HTML headings, web development, SEO, content structure, HTML tutorial, coding for beginners, web accessibility, headings in HTML, best practices for headings",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-headings",
+  },
   openGraph: {
     title:
       "Understanding HTML Headings: Structuring Content Effectively | MergeSociety",
@@ -21,7 +23,6 @@ export const metadata = {
 const HTMLHeadings = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Headings in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring one of the fundamental
@@ -115,7 +116,7 @@ const HTMLHeadings = () => {
         website more accessible to users with disabilities. Ensure that your
         headings accurately represent the content they introduce.
       </p>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -155,7 +156,7 @@ const HTMLHeadings = () => {
           a clear structure and hierarchy for your content.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the importance of headings in HTML and

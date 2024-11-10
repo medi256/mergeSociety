@@ -16,6 +16,9 @@ export const metadata = {
     "web development tutorial",
     "event invitation web page",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP/6p",
+  },
 
   openGraph: {
     title: "Build Your First Web Page: Event Invitation",

@@ -16,6 +16,9 @@ export const metadata = {
     "Internet protocols",
     "Web development basics",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/1",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   image:

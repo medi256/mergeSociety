@@ -8,6 +8,9 @@ export const metadata = {
   description:
     "An introduction to JavaScript operators, including arithmetic, comparison, logical, and assignment operators, and how they work.",
   category: "JavaScript Tutorials",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/arithmetic-operators",
+  },
   keywords: [
     "JavaScript",
     "Operators",

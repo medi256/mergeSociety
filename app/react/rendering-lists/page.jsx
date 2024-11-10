@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -15,6 +14,9 @@ export const metadata = {
     "React Tutorial",
     "Web Development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/rendering-lits",
+  },
 
   openGraph: {
     title: "Rendering Lists in React",
@@ -26,7 +28,6 @@ export const metadata = {
 const RenderingLists = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Rendering Lists in React</h1>
       <p>
         Hello, new React learners! Today, we're diving into an exciting topic:
@@ -124,7 +125,7 @@ const RenderingLists = () => {
         So, in simple terms, this code is saying: "For each fruit in our list,
         create a new list item with the fruit's name in it."
       </p>
-      
+
       <h2>Step 3: Putting It All Together</h2>
       <p>
         Now, let's see how this looks in a full React component. A component is
@@ -187,7 +188,7 @@ export default FruitList;`}
           available for use in other parts of our app.
         </li>
       </ul>
-      
+
       <h2>What's Happening When This Runs?</h2>
       <p>When React runs this code, here's what happens:</p>
       <ul>
@@ -283,7 +284,7 @@ export default FruitList;`}
         you'll understand them. Don't be afraid to experiment and make mistakes
         – that's how we learn!
       </p>
-      
+
       <h2>What's Next?</h2>
       <p>
         Great job! You've learned the basics of rendering lists in React. But

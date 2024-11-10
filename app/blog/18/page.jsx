@@ -16,6 +16,9 @@ export const metadata = {
     "cybersecurity",
     "user trust",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/18",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

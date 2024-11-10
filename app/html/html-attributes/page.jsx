@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn about HTML attributes, how they modify element behavior, and best practices for using them effectively in your web development projects.",
   keywords:
     "HTML, attributes in HTML, web development, coding for beginners, HTML tutorial, commonly used attributes, best practices for attributes, customizing HTML elements",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-attributes",
+  },
   openGraph: {
     title: "Attributes in HTML: Enhancing Web Elements | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLAttributes = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Attributes in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring attributes in HTML.
@@ -153,7 +154,7 @@ const HTMLAttributes = () => {
           </code>
         </li>
       </ul>
-      
+
       <h2>Best Practices for Using Attributes</h2>
       <ul>
         <li>
@@ -222,7 +223,7 @@ const HTMLAttributes = () => {
           </code>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored attributes in HTML, including what they

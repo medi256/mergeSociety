@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -13,6 +12,11 @@ export const metadata = {
     description:
       "Explore the world of API integration in React. Fetch and display real-time data to build dynamic applications.",
   },
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/fetching-api",
+  },
+
   keywords: [
     "React",
     "APIs",
@@ -26,7 +30,6 @@ export const metadata = {
 const fetchData = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Working with APIs in React: Fetching Dynamic Data</h1>
 
       <p>
@@ -93,7 +96,7 @@ const fetchData = () => {
           prices, and reviews from a database.
         </li>
       </ul>
-      
+
       <h3>Steps to Work with APIs in React</h3>
 
       <p>Here are the steps to work with APIs in React:</p>
@@ -265,7 +268,7 @@ export default App;
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>Explanation</h3>
 
       <ul>

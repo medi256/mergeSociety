@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,11 @@ export const metadata = {
     "react hooks ref",
     "useRef example",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/useref-hook",
+  },
+
   openGraph: {
     title: "React useRef: The Ultimate Guide to DOM Access and Mutable Values",
     description:
@@ -26,7 +30,6 @@ export const metadata = {
 const UseRef = () => {
   return (
     <div className="lesson-container">
-      
       <h1>useRef Hook in React</h1>
 
       <h2>What Is useRef?</h2>
@@ -222,7 +225,7 @@ inputRef.current.focus();
           state needs, prefer using <code>useState</code>.
         </li>
       </ul>
-      
+
       <h2>More Real-Life Examples</h2>
       <p>
         Here are some examples of how you might use <code>useRef</code> in

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -19,6 +18,9 @@ export const metadata = {
     "commenting techniques",
     "code maintenance",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/comments",
+  },
   openGraph: {
     title: "JavaScript Comments: The Ultimate Guide to Code Clarity",
     description:
@@ -26,13 +28,9 @@ export const metadata = {
   },
 };
 
-export const dynamic = "force-static";
-export const revalidate = 43200;
-
 const Comments = () => {
   return (
     <div className="lesson-container">
-      
       <h1> Comments in JavaScript</h1>
       <p>
         Just like how we use comments in our daily lives to explain things or
@@ -91,7 +89,7 @@ let message = "Hello, world!";
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>Multi-line Comments:</h3>
       <ul>
         <li> Use /* and */ to create comments that span multiple lines.</li>

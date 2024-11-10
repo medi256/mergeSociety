@@ -17,6 +17,9 @@ export const metadata = {
     "Crazy Egg",
     "Data-Driven Decisions",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/4",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

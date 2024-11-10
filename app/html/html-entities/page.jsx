@@ -8,6 +8,9 @@ export const metadata = {
     "Explore how to use HTML entities to include special characters like ©, ™, and non-breaking spaces in your web pages. This guide covers character and numeric entities with examples and best practices.",
   keywords:
     "HTML entities, special characters in HTML, character entities, numeric entities, HTML symbols, ©, ™, non-breaking spaces, HTML coding, web development, accessible HTML",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-entities",
+  },
   openGraph: {
     title:
       "Mastering HTML Entities: A Guide to Special Characters and Symbols | MergeSociety",

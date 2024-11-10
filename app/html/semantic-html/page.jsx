@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to use Semantic HTML effectively to create well-structured, accessible, and SEO-friendly web pages. Explore common semantic elements like <header>, <nav>, <article>, <section>, and more with best practices and practical examples.",
   keywords:
     "Semantic HTML, web development, accessibility, SEO, HTML tags, semantic elements, <header>, <nav>, <article>, best practices, front-end development, coding tutorials",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/semantic-html",
+  },
   openGraph: {
     title:
       "Semantic HTML: A Complete Guide for Structured and Accessible Web Design | YourSiteName",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLSemantic = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Semantic HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring Semantic HTML - a
@@ -167,7 +168,7 @@ const HTMLSemantic = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h2>Best Practices for Semantic HTML</h2>
       <ul>
         <li>
@@ -222,7 +223,7 @@ const HTMLSemantic = () => {
           structure it with headings, paragraphs, and images.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored Semantic HTML, including its purpose,

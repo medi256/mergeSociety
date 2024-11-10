@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,20 +15,20 @@ export const metadata = {
     "frontend development",
     "coding tutorials",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-min-width",
+  },
 
   openGraph: {
     title: "Min-Width in CSS: Ensure Element Width Responsively",
     description:
       "Master the min-width property in CSS for responsive web design. Explore techniques and examples to improve user experience on all devices.",
-
-    type: "article",
   },
 };
 
 const CSSMinWidth = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The World of Min-Width in CSS</h1>
       <p>
         Min-width is a powerful property in CSS that allows you to set a minimum
@@ -121,7 +120,7 @@ div {
           becoming too narrow and causing content to wrap or become unreadable.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to experiment with min-width in CSS! Open your code editor
@@ -150,7 +149,7 @@ div {
           content visibility.
         </li>
       </ol>
-      
+
       <p>
         Remember, min-width is a powerful tool in CSS. It helps create
         responsive and flexible designs that work well on various devices.

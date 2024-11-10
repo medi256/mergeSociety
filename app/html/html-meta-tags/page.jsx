@@ -8,6 +8,9 @@ export const metadata = {
     "Learn how the <meta> tag plays a critical role in responsive web design. This guide explains viewport settings and best practices for ensuring your website adapts to various devices and screen sizes.",
   keywords:
     "responsive web design, HTML meta tag, viewport settings, mobile-friendly websites, media queries, flexible layouts, web development tutorial, responsive design examples",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-meta-tags",
+  },
   openGraph: {
     title:
       "Responsive Web Design: Mastering the <meta> Tag and Viewport Settings | MergeSociety",

@@ -17,6 +17,11 @@ export const metadata = {
     "Event Handlers",
     "React Button Click",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/functional-event-handling",
+  },
+
   openGraph: {
     title: "Event Handling in Functional Components",
     description:

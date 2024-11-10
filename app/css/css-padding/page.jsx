@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,18 +9,19 @@ export const metadata = {
     "Learn to use CSS padding effectively. Explore padding properties, shorthand notation, and percentage values to enhance your web layouts and improve user experience.",
   keywords:
     "CSS padding, web design, padding-top, padding-right, padding-bottom, padding-left, padding shorthand, CSS layout",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-padding",
+  },
   openGraph: {
     title: "Master CSS Padding: Create Perfect Spacing in Web Design",
     description:
       "Discover how to use CSS padding to create visually appealing and user-friendly web layouts with our comprehensive guide.",
-    type: "article",
   },
 };
 
 const CSSPadding = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Padding in CSS</h1>
       <p>
         Padding is like a clear space around the content of your boxes (like
@@ -152,7 +152,7 @@ div {
         space below the content, such as creating separation between paragraphs
         or adding emphasis to a specific element.
       </p>
-      
+
       <h2>Padding Left</h2>
       <p>
         The <code>padding-left</code> property lets you control the space on the
@@ -246,7 +246,7 @@ div {
         can be useful when you want the padding to scale proportionally with the
         parent element's size.
       </p>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -286,7 +286,7 @@ div {
           experience of your designs.
         </li>
       </ol>
-      
+
       <p>
         Remember, padding is a powerful tool in web design. It helps create
         breathing room for your content, improves readability, and adds a sense

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,11 @@ export const metadata = {
     "react form submission",
     "react form input",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/form-handling",
+  },
+
   openGraph: {
     title: "React Forms: A Beginner's Guide to Input Handling",
     description:
@@ -26,7 +30,6 @@ export const metadata = {
 const FormHandle = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Handling Form Input in React: A Beginner's Guide</h1>
 
       <p>
@@ -148,8 +151,6 @@ export default SimpleForm;`}
         it's just displaying a form. In the next steps, we'll add functionality
         to it.
       </p>
-
-      
 
       <h2>3. Handling Form Submission</h2>
       <p>
@@ -293,8 +294,6 @@ export default SimpleForm;`}
         input as the user types? For these more advanced use cases, we need to
         introduce the concept of state.
       </p>
-
-      
 
       <h2>5. Introduction to State</h2>
       <p>

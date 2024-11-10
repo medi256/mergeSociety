@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,18 +9,19 @@ export const metadata = {
     "Learn how to transform your HTML tables with CSS styling techniques. Explore border properties, alternating row colors, and improve user experience with our comprehensive guide.",
   keywords:
     "CSS, table styling, web design, HTML tables, CSS borders, tr:nth-child, web development tutorial",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-tables",
+  },
   openGraph: {
     title: "Master CSS Table Styling | Web Design Tutorial",
     description:
       "Discover the magic of CSS table styling. Learn to create visually appealing and functional tables for better user experience and design aesthetics.",
-    type: "article",
   },
 };
 
 const CSStables = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Table Styling in CSS</h1>
       <p>
         Table styling in CSS is an essential aspect of creating visually
@@ -147,7 +147,7 @@ tr:nth-child(even) {
         colors, text formatting, and cell spacing. Let's explore some of these
         properties:
       </p>
-      
+
       <h3>Background Colors and Text Formatting</h3>
       <p>
         Background colors and text formatting can be used to enhance the
@@ -266,7 +266,7 @@ td {
           effects, or formatting specific columns differently.
         </li>
       </ol>
-      
+
       <p>
         Remember, table styling is a powerful tool in CSS. It helps create
         visually appealing and functional tables that enhance the user

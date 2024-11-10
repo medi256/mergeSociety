@@ -9,6 +9,9 @@ export const metadata = {
     "Learn how to create your first restaurant menu website using HTML. Step-by-step tutorial perfect for beginners, including navigation, styling, and best practices.",
   keywords:
     "HTML tutorial, restaurant menu, web development, beginner coding, HTML for beginners, website creation, menu design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP/4p",
+  },
 
   openGraph: {
     title: "Create Your First Restaurant Menu Website | HTML Tutorial",

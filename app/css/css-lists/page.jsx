@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,24 +17,19 @@ export const metadata = {
     "list-style-image",
     "front-end development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-lists",
+  },
   openGraph: {
     title: "Transform Your Web Lists: CSS Styling Secrets Revealed",
     description:
       "Unlock the power of CSS list styling. Create visually appealing, functional lists that enhance user experience and elevate your web design skills.",
-
-    type: "article",
-    article: {
-      authors: ["MergeSociety"],
-      tags: ["CSS", "Web Development", "UI Design", "Frontend"],
-      section: "Web Development Tutorials",
-    },
   },
 };
 
 const CSSStyleLists = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of List Styling in CSS</h1>
       <p>
         List styling in CSS is an essential aspect of creating visually
@@ -203,7 +197,7 @@ ul {
         You can also use other CSS properties on lists just like any other
         element. You can apply color, background, font, and many others.
       </p>
-      
+
       <h2>Benefits of List Styling</h2>
       <p>Using list styling offers several advantages for your designs:</p>
 
@@ -266,7 +260,7 @@ ul {
           list items.
         </li>
       </ol>
-      
+
       <p>
         Remember, list styling is a powerful tool in CSS. It helps create
         visually appealing and functional lists that enhance the user

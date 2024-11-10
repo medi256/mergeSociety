@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,8 +8,11 @@ export const metadata = {
     "Discover the role of spans in HTML as inline elements used for styling and functionality. Learn how to effectively group and manipulate text with practical examples and best practices.",
   keywords:
     "HTML, spans, inline elements, web development, CSS styling, JavaScript functionality, coding for beginners, best practices for spans",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-span-element",
+  },
   openGraph: {
-    title: "Spans in HTML: Understanding Inline Elements | YourSiteName",
+    title: "Spans in HTML: Understanding Inline Elements",
     description:
       "Dive into the essential features of spans in HTML. This lesson covers their purpose, usage for styling and interactivity, and best practices to enhance your web content.",
   },
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLSpan = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Spans in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring spans - another
@@ -103,7 +104,7 @@ const HTMLSpan = () => {
         JavaScript to detect when the user hovers over the span and display a
         tooltip or perform other actions.
       </p>
-      
+
       <h2>Best Practices for Using Spans</h2>
       <ul>
         <li>
@@ -164,7 +165,7 @@ const HTMLSpan = () => {
           an event, such as displaying a popup or toggling a menu.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored spans in HTML, including their purpose,

@@ -7,6 +7,10 @@ export const metadata = {
     "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
   keywords:
     "JavaScript, JS projects, beginner JS, advanced JavaScript, coding challenges, interactive web apps",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP",
+  },
+
   openGraph: {
     title: "JavaScript Projects | Beginner to Advanced Challenges",
     description:

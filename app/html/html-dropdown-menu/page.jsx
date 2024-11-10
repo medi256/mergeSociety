@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -10,6 +9,9 @@ export const metadata = {
     "Explore the interactive elements of HTML, including dropdown menus, the <details> and <summary> tags. Learn how to create collapsible content and improve user experience with practical examples and best practices.",
   keywords:
     "HTML, dropdown menus, <details> tag, <summary> tag, web development, interactive elements, coding for beginners, collapsible content, best practices for dropdowns",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html/dropdown-menu",
+  },
   openGraph: {
     title:
       "Dropdown Menus, <details>, <summary>, and Related Tags in HTML | MergeSociety",
@@ -21,7 +23,6 @@ export const metadata = {
 const HTMLDropDownMenue = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Dropdown Menus, <code>{`<details>`}</code>, <code>{`<summary>`}</code>,
         and Related Tags in HTML
@@ -111,7 +112,7 @@ const HTMLDropDownMenue = () => {
         content. Clicking on the summary will toggle the visibility of the
         content within the <code>{`<details>`}</code> tag.
       </p>
-      
+
       <h2>
         Related Tags: <code>{`<datalist>`}</code>, <code>{`<optgroup>`}</code>,
         and <code>{`<option>`}</code>{" "}
@@ -280,7 +281,7 @@ const HTMLDropDownMenue = () => {
           <code>{`<input>`}</code> element, such as a color picker.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored dropdown menus, the{" "}

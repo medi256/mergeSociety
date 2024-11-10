@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,11 @@ export const metadata = {
     "react hooks state",
     "useState example",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/usestate-hook",
+  },
+
   openGraph: {
     title: "React useState: The Ultimate Beginner's Guide",
     description:
@@ -26,7 +30,6 @@ export const metadata = {
 const UseState = () => {
   return (
     <div className="lesson-container">
-      
       <h1>useState Hook in React</h1>
 
       <h2>What Is useState?</h2>
@@ -152,7 +155,7 @@ export default ExampleComponent;`}
           the component loads.
         </li>
       </ul>
-      
+
       <h4>Display the State Value</h4>
       <p>
         Inside the return part of the component, we show the current value of{" "}
@@ -260,7 +263,7 @@ onChange={(e) => setName(e.target.value)}
         <code>setName</code> updates the state every time the user types
         something new in the input field.
       </p>
-      
+
       <h3>Toggling Visibility</h3>
       <pre>
         <code>

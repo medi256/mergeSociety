@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,7 +9,9 @@ export const metadata = {
     "Learn how to use CSS variables to store and reuse values throughout your stylesheet. Explore their benefits, challenges, and practical applications for maintaining consistency and flexibility in your designs.",
   keywords:
     "CSS variables, CSS tutorials, web design, responsive design, color consistency, font sizes, web development",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-variables",
+  },
   openGraph: {
     title: "The World of Variables in CSS",
     description:
@@ -21,7 +22,6 @@ export const metadata = {
 const CSSVariables = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The World of Variables in CSS</h1>
       <p>
         Variables in CSS allow you to store and reuse values throughout your
@@ -166,7 +166,7 @@ body {
           readable and understandable by giving meaningful names to values.
         </li>
       </ul>
-      
+
       <h2>Challenges of Variables</h2>
       <p>
         While variables are powerful, there are a few challenges to keep in
@@ -212,7 +212,7 @@ body {
           consistency, or building responsive layouts.
         </li>
       </ol>
-      
+
       <p>
         Remember, variables in CSS provide a powerful way to manage and reuse
         values, ensuring consistency and flexibility in your designs. Choose

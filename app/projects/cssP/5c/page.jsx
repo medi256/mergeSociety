@@ -7,6 +7,9 @@ export const metadata = {
     "Learn how to create a visually engaging parallax scrolling effect using CSS. This step-by-step tutorial covers setting up HTML, applying CSS, and making the effect responsive.",
   keywords:
     "parallax scrolling, CSS tutorial, css project, beginner css project,  web development, HTML, responsive design, parallax effect, CSS design, beginner tutorial",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP/5c",
+  },
 
   openGraph: {
     title: "Building a Parallax Scrolling Effect with CSS",

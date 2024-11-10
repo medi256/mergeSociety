@@ -10,11 +10,13 @@ export const metadata = {
     "Master the art of using icons in CSS with this comprehensive guide. Learn about popular icon libraries like Font Awesome, Bootstrap Icons, and Google Material Icons, and discover advanced techniques to enhance your web designs.",
   keywords:
     "CSS icons, Font Awesome, Bootstrap Icons, Google Material Icons, web design, icon libraries, icon animations, icon sizing, responsive icons, how to use icons in CSS",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-icons",
+  },
   openGraph: {
     title: "Icons in CSS: The Ultimate Guide",
     description:
       "Explore the world of icons in CSS and enhance your web design with popular icon libraries like Font Awesome, Bootstrap Icons, and Google Material Icons. Learn advanced techniques and best practices for using icons in web projects.",
-    type: "article",
   },
 };
 

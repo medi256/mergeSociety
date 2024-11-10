@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import Image from "next/image";
@@ -21,6 +20,9 @@ export const metadata = {
     "Responsive Design",
     "Web Development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-box-model",
+  },
   author: "MergeSociety",
   date: new Date().toISOString(),
   category: "CSS Tutorials",
@@ -35,7 +37,6 @@ export const metadata = {
 const CSSBoxModel = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of the Box Model in CSS</h1>
       <p>
         The box model is a fundamental concept in CSS that defines how elements
@@ -135,7 +136,7 @@ div {
         be used to highlight important elements, create visual boundaries, or
         add decorative touches to your designs.
       </p>
-      
+
       <h2>Margin</h2>
       <p>
         Margin is the space outside the border. It provides separation between
@@ -318,7 +319,7 @@ div {
           how it affects the layout and responsiveness of your designs.
         </li>
       </ol>
-      
+
       <p>
         Remember, the box model plays a crucial role in web design. It helps
         define the size, spacing, and positioning of your elements. Choose box

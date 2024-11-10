@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,18 +15,19 @@ export const metadata = {
     "RGBA colors",
     "web design tips",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-opacity",
+  },
   openGraph: {
     title: "The Magic of Opacity in CSS",
     description:
       "Master the CSS opacity property to enhance your web designs with transparency effects.",
-    type: "article",
   },
 };
 
 const CSSopacity = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magic of Opacity in CSS</h1>
       <p>
         The CSS opacity property allows you to control the transparency of an
@@ -265,7 +265,7 @@ button:hover {
         techniques involving opacity. These techniques can help you create more
         dynamic and engaging designs:
       </p>
-      
+
       <h3>Opacity and RGBA Colors</h3>
       <p>
         Instead of using the opacity property, you can achieve similar effects
@@ -312,7 +312,7 @@ div {
         </li>
         <li>Try using RGBA colors to control transparency.</li>
       </ol>
-      
+
       <p>
         Understanding and using the opacity property in CSS will help you create
         more engaging and visually appealing designs. Keep experimenting and

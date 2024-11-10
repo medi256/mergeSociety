@@ -15,6 +15,11 @@ export const metadata = {
     "react css",
     "inline styles example",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/inline-styles",
+  },
+
   openGraph: {
     title: "React Inline Styles: Dynamic Styling Made Easy",
     description:

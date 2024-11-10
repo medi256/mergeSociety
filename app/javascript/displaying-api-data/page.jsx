@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,12 +9,13 @@ export const metadata = {
     "Master the art of fetching and displaying API data using JavaScript. This step-by-step tutorial covers HTML setup, JavaScript implementation, and practical examples using the Dog CEO's Dog API.",
   keywords:
     "API data display, JavaScript fetch, DOM manipulation, web development, Dog API, beginner coding, HTML and JavaScript",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/displaying-api-data",
+  },
   openGraph: {
     title: "From API to Webpage: Display Dynamic Data with JavaScript",
     description:
       "Unlock the power of APIs! Learn how to fetch dog images and display them on your webpage using JavaScript. Perfect for beginners looking to create dynamic web content.",
-
-    type: "article",
   },
 
   authors: [{ name: "MergeSociety" }],
@@ -42,7 +42,6 @@ export const metadata = {
 const DisplayData = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Displaying API Data in JavaScript</h1>
       <p>
         In our previous lesson, we learned how to fetch data from an API using
@@ -154,7 +153,6 @@ console.error('Error fetching data:', error);
           store to ask why our picture didn’t arrive.
         </li>
       </ul>
-      
       <h2>3. How It All Connects</h2>
       <p>This lesson builds on our previous knowledge of fetching data:</p>
       <ul>
@@ -239,7 +237,6 @@ console.error('Error fetching data:', error);
         With these skills, you can now fetch and display data from APIs, making
         your web pages more engaging and responsive to real-time information.
       </p>
-      
       <h2>7. Practice Challenge</h2>
       <p>
         Try using a different API to fetch and display other types of data, such

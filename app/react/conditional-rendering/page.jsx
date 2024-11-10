@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,6 +17,9 @@ export const metadata = {
     "if Statements",
     "React Components",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/conditional-rendering",
+  },
 
   openGraph: {
     type: "article",
@@ -30,7 +32,6 @@ export const metadata = {
 const Conditional = () => {
   return (
     <div className="lesson-container">
-      
       <h1>What is Conditional Rendering?</h1>
       <p>
         In React, <strong>conditional rendering</strong> means showing (or
@@ -116,7 +117,7 @@ export default ConditionalRenderingExample;
         it displays "Welcome back!". If false, it displays "Please log in." This
         approach is shorter and useful for simple conditions.
       </p>
-      
+
       <h3>3. Using && (Logical AND)</h3>
       <p>
         The <code>&&</code> operator renders content only when a condition is
@@ -225,7 +226,7 @@ export default ConditionalRenderingExample;
         Here, we check two conditions: if the user is logged in and if they have
         messages. The output depends on both conditions.
       </p>
-      
+
       <h3>6. Conditional Rendering with null</h3>
       <p>
         Sometimes, you don’t want to show anything when a condition is false. In
@@ -264,7 +265,7 @@ export default ConditionalRenderingExample;
         show or hide parts of the UI, display error messages, or handle
         different states like loading or success.
       </p>
-      
+
       <h2>Summary</h2>
       <p>
         Conditional rendering in React lets you control what users see based on

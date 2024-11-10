@@ -7,6 +7,9 @@ export const metadata = {
     "Master CSS with our in-depth tutorial covering everything from basic syntax to advanced layout techniques like Flexbox and Grid. Perfect for beginners and experienced developers alike.",
   keywords:
     "CSS, web development, HTML, styling, layout, Flexbox, Grid, responsive design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css",
+  },
   openGraph: {
     title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",
     description:

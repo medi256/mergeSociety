@@ -6,6 +6,9 @@ export const metadata = {
     "Learn what APIs are, how they work, and why they're crucial in modern software development. Discover real-world examples of APIs in action, from social media to online payments.",
   keywords:
     "API, Application Programming Interface, web development, software integration, RESTful API, API examples, beginner programming, tech concepts",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/api-intro",
+  },
   openGraph: {
     title: "What is an API (Application Programming Interface)?",
     description:

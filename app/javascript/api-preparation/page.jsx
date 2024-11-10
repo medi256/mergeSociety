@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -7,19 +6,20 @@ export const metadata = {
     "Master the fundamentals of APIs with our comprehensive guide. Learn about Web APIs, API keys, endpoints, and how to read API documentation. Perfect for beginners and intermediate developers looking to enhance their API knowledge.",
   keywords:
     "API types, Web API, API key, API endpoint, API documentation, free APIs, paid APIs, fetch method, JavaScript API, beginner programming, web development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/api-preparation",
+  },
   openGraph: {
     title: "Unlock the Power of APIs: From Basics to Implementation",
     description:
       "Dive deep into the world of APIs. Understand different types, learn about keys and endpoints, and prepare to make your first API call with JavaScript's fetch method.",
-
-    type: "article",
   },
 
   category: "Web Development",
 
   schema: {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "website",
     headline:
       "Understanding APIs in Depth: Types, Keys, Endpoints, and Documentation",
     description:
@@ -30,7 +30,6 @@ export const metadata = {
 const APIPreparation = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding APIs in Depth</h1>
 
       <p>
@@ -101,7 +100,7 @@ const APIPreparation = () => {
         For now, we’ll keep our focus on Web APIs, as they are the most relevant
         for building web apps.
       </p>
-      
+
       <h2>2. Who Creates APIs? (Free vs. Paid)</h2>
       <p>
         APIs are created by developers or companies who want to share their data
@@ -171,7 +170,7 @@ const APIPreparation = () => {
         endpoint serves a specific purpose, such as getting weather data,
         searching for movies, or retrieving user information.
       </p>
-      
+
       <h2>4. What is an API Key?</h2>
       <p>
         An API key is like a secret password or a VIP pass that lets you access
@@ -254,7 +253,7 @@ const APIPreparation = () => {
         <li>API keys are like passwords that give you access to an API.</li>
         <li>Documentation is your guide to using an API correctly.</li>
       </ul>
-      
+
       <h2>Summary</h2>
       <p>
         In this lesson, we’ve covered what APIs are, the different types, how

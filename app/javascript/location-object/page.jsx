@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,20 +22,20 @@ export const metadata = {
     "dynamic URL",
     "JavaScript tutorial",
   ],
-  author: "Your Name",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/location-object",
+  },
+
   openGraph: {
     title: "Exploring the Location Object | BOM JavaScript Tutorial",
     description:
       "Discover the Location object in JavaScript and learn how to use its properties and methods to manipulate URLs and navigate web pages.",
-
-    type: "article",
   },
 };
 
 const LocationObject = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Exploring the Location Object</h1>
 
       <h2>Introduction</h2>
@@ -81,7 +80,7 @@ const LocationObject = () => {
         window or tab. This is why we often use the syntax{" "}
         <code>window.location</code> to interact with the Location object.
       </p>
-      
+
       <h2>Properties of the Location Object</h2>
       <p>
         The Location object has several properties that provide information
@@ -141,7 +140,7 @@ const LocationObject = () => {
         These methods can be used to navigate between pages, or to load new
         content.
       </p>
-      
+
       <h2>Example: Using the Location Object</h2>
       <p>
         Let's see some examples of how we can use the Location object. We'll use
@@ -207,7 +206,7 @@ console.log("Hash: " + hash);
         <code>window.location.reload</code> to see how these methods work in
         action.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the Location object and its

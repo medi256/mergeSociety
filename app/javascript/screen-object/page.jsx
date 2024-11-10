@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,21 +18,19 @@ export const metadata = {
     "responsive design",
     "web development",
   ],
-  author: "Your Name",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/screen-object",
+  },
   openGraph: {
     title: "Understanding the Screen Object in JavaScript",
     description:
       "Explore the properties of the Screen object in JavaScript and learn how to access and use screen information for better responsive web design.",
-
-    type: "article",
   },
 };
 
 const ScreenObject = () => {
   return (
     <div className="lesson-container">
-      
-
       <h1>Exploring the Screen Object</h1>
 
       <h2>Introduction</h2>
@@ -96,7 +93,7 @@ const ScreenObject = () => {
         which can be useful for designing and developing web pages that look
         great on different devices.
       </p>
-      
+
       <h2>Example: Using the Screen Object</h2>
       <p>
         Let's start by looking at an example that uses the <code>screen</code>{" "}
@@ -241,7 +238,7 @@ paragraph.textContent = 'Screen Width:'+ screenWidth +'pixels';
           We update the text inside the paragraph to display the screen width.
         </li>
       </ul>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the Screen object and its

@@ -14,11 +14,13 @@ export const metadata = {
     "React project structure",
     "start React app",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/create-react-app",
+  },
   openGraph: {
     title: "Create Your First React App in Minutes",
     description:
       "Master Create React App with our easy-to-follow tutorial. Set up your React project, understand its structure, and start coding in no time!",
-    type: "article",
   },
 };
 

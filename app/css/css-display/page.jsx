@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,6 +17,9 @@ export const metadata = {
     "CSS responsive design",
     "CSS display tutorial",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-display",
+  },
   openGraph: {
     title: "CSS Display | Mastering Layout Techniques",
     description:
@@ -29,7 +31,6 @@ export const metadata = {
 const CSSDisplay = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Diving Deep into the CSS Display Property</h1>
       <p>
         The CSS display property is a fundamental concept in web development
@@ -165,7 +166,7 @@ span {
         setting the display of list items to inline, or you can give an inline
         element a specific width and height by changing it to a block element.
       </p>
-      
+
       <h2>Hiding Elements with "None"</h2>
       <p>
         The <code>none</code> value of the display property allows you to
@@ -282,7 +283,7 @@ span {
           <code>inline-block</code>.
         </li>
       </ol>
-      
+
       <p>
         Remember, the display property is a versatile tool that empowers you to
         create dynamic and visually stunning web designs. By understanding and

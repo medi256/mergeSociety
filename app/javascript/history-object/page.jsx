@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,20 +22,20 @@ export const metadata = {
     "JavaScript browser navigation",
     "JavaScript history example",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/history-object",
+  },
 
   openGraph: {
     title: "Understanding the History Object in JavaScript",
     description:
       "Learn how to use the History object to navigate through session history in JavaScript. Understand its methods like back(), forward(), and go(), and see examples of browser navigation.",
-
-    type: "article",
   },
 };
 
 const HistoryObject = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding the History Object</h1>
 
       <h2>Introduction</h2>
@@ -80,7 +79,7 @@ const HistoryObject = () => {
           session history, but only if you have gone back before.
         </li>
       </ul>
-      
+
       <h2>Properties of the History Object</h2>
       <p>
         The History object has some properties that give us information about
@@ -120,7 +119,7 @@ const HistoryObject = () => {
           page.
         </li>
       </ul>
-      
+
       <h2>Example: Using the History Object</h2>
       <p>
         Let's look at some examples of how we can use the History object to
@@ -175,7 +174,7 @@ history.go(number);
         to the next page, and the <code>goToPage()</code> function moves to a
         specific page in the history based on the number you provide.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've learned about the History object and its

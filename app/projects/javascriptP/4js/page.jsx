@@ -12,6 +12,9 @@ export const metadata = {
     description:
       "Complete guide to building a weather app with JavaScript and API integration. Perfect for web development beginners.",
   },
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP/4js",
+  },
 
   keywords:
     "weather app, JavaScript tutorial, javascript weather project API integration, web development, frontend development, responsive design",

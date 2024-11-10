@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -7,19 +6,19 @@ export const metadata = {
     "Learn the basics of CSS, its history, and its crucial role in web development. Discover why CSS is essential for creating visually appealing and user-friendly websites.",
   keywords:
     "CSS, web development, styling, cascading style sheets, HTML, JavaScript, responsive design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-introduction",
+  },
   openGraph: {
     title: "Introduction to CSS for Web Developers",
     description:
       "Master CSS to create stunning, responsive websites. Learn its history, purpose, and how it works with HTML and JavaScript.",
-    type: "article",
-    authors: ["MergeSociety"],
   },
 };
 
 const CSSIntroduction = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to CSS</h1>
 
       <p>
@@ -93,7 +92,7 @@ const CSSIntroduction = () => {
         screen sizes and devices, ensuring that their websites look great on any
         platform.
       </p>
-      
+
       <h2>Combining CSS with HTML and JavaScript</h2>
 
       <p>
@@ -124,7 +123,7 @@ const CSSIntroduction = () => {
         adapt to different screen sizes and devices, ensuring that their
         websites look great on any platform.
       </p>
-      
+
       <h2>Conclusion</h2>
 
       <p>

@@ -16,6 +16,10 @@ export const metadata = {
     "javascript tutorials",
     "javascript resources",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/why-javascript",
+  },
+
   openGraph: {
     title:
       "JavaScript 101: Your Comprehensive Guide to Interactive Web Development",

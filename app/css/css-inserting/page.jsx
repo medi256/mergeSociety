@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,19 +9,19 @@ export const metadata = {
     "Learn how to insert CSS into your HTML documents using external stylesheets, internal styles, and inline CSS. Master the art of styling web pages with practical examples and best practices.",
   keywords:
     "CSS insertion, external CSS, internal CSS, inline CSS, web design, HTML styling, stylesheet linking",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-inserting",
+  },
   openGraph: {
     title: "Master CSS Insertion Techniques for Web Design",
     description:
       "Explore different methods to insert CSS into HTML: external stylesheets, internal styles, and inline CSS. Includes practical examples and exercises for hands-on learning.",
-    type: "article",
-    authors: ["MergeSociety"],
   },
 };
 
 const HTMLInserting = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Inserting CSS</h1>
       <p>
         Welcome back! In this section, we'll dive into the world of CSS and
@@ -155,7 +154,7 @@ h1 {
           organization and make collaboration with other developers smoother.
         </li>
       </ul>
-      
+
       <h2>Internal CSS</h2>
       <p>
         Internal CSS involves embedding styles directly within your HTML
@@ -330,7 +329,7 @@ h1 {
           best to master how to insert and create rules.
         </li>
       </ol>
-      
+
       <p>
         Remember, practice makes perfect! The more you experiment and play with
         CSS, the better you'll become at styling your web pages.

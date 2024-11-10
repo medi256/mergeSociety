@@ -10,6 +10,9 @@ export const metadata = {
     "Learn how to use the CSS position property to layout elements on your website. Understand the differences between static, relative, absolute, fixed, and sticky positioning with practical examples.",
   keywords:
     "CSS position, static position, relative position, absolute position, fixed position, sticky position, CSS layout, web design tutorial, CSS examples",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-position",
+  },
   openGraph: {
     title: "CSS Position: Static, Relative, Absolute, Fixed, and Sticky",
     description:

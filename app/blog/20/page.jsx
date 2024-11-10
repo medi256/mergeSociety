@@ -12,6 +12,9 @@ export const metadata = {
   publishDate: new Date().toISOString().split("T")[0],
   url: "https://www.mergesociety.com/blog/20",
   type: "article",
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/20",
+  },
   openGraph: {
     title:
       "Building Networks as Developers: A Comprehensive Guide to Professional Connections",

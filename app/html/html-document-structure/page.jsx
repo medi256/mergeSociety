@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Master the basics of HTML document structure. Learn how the head and body sections work, including key tags like <!DOCTYPE>, <html>, <head>, <title>, and more.",
   keywords:
     "HTML document structure, web development, head and body tags, HTML basics, HTML elements, metadata, block-level elements, inline elements, front-end development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-document-structure",
+  },
   openGraph: {
     title: "HTML Document Structure: A Step-by-Step Guide | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLStructure = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Basic Structure of an HTML Document</h1>
       <p>
         Hello there! In this lesson, we'll dive deep into the basic structure of
@@ -165,7 +166,7 @@ const HTMLStructure = () => {
           </p>
         </li>
       </ul>
-      
+
       <h2>Putting It All Together</h2>
       <p>
         Now, let's put all the pieces together to create a basic HTML document:
@@ -267,7 +268,7 @@ const HTMLStructure = () => {
           creative!
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, {` we've `} explored the basic structure of an HTML

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -13,6 +12,11 @@ export const metadata = {
     description:
       "Explore the world of nested routes in React Router. Enhance your application structure and improve user navigation.",
   },
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/nesting-routes",
+  },
+
   keywords: [
     "React Router",
     "Nested Routes",
@@ -26,7 +30,6 @@ export const metadata = {
 const NestingRoutes = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Nesting Routes in React Router: Efficient Routing Structure</h1>
 
       <p>
@@ -181,7 +184,7 @@ export default News;
         <code>element</code> prop to indicate the component that should be
         rendered for each child route.
       </p>
-      
+
       <h4>3. Setting a Default Route with Index</h4>
 
       <p>

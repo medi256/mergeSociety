@@ -16,13 +16,13 @@ export const metadata = {
     "JavaScript",
     "Web Development",
   ],
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/class-components",
+  },
   openGraph: {
     title: "Understanding Class Components in React",
     description:
       "Explore Class Components in React and learn how they work, including state, lifecycle methods, and their role in React development.",
-
-    type: "article",
   },
 };
 

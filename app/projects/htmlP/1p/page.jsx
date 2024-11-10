@@ -24,6 +24,9 @@ export const metadata = {
     "coding projects for portfolio",
     "HTML hands on projects",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP/1p",
+  },
 
   openGraph: {
     type: "website",

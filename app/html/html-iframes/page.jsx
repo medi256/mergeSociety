@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to use the HTML <iframe> element to embed external content like videos, maps, and social media posts. Explore customization options, security practices, and responsive design techniques.",
   keywords:
     "HTML, iframe element, embedding external content, web development, HTML tutorial, iframe customization, embedding videos, embedding maps, responsive iframe, sandbox attribute, web security",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-iframes",
+  },
   openGraph: {
     title:
       "HTML Iframe: Embedding External Content and Customization | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLIframe = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         The <code>{`<iframe>`}</code> Element in HTML
       </h1>
@@ -144,7 +145,7 @@ const HTMLIframe = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h2>
         Advanced Features of the <code>{`<iframe>`}</code> Element
       </h2>
@@ -233,7 +234,7 @@ const HTMLIframe = () => {
           the embedded content.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, {` we've `} explored the <code>{`<iframe>`}</code>{" "}

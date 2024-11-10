@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -13,6 +12,10 @@ export const metadata = {
     description:
       "Explore the world of error handling in React. Build resilient applications and provide a seamless user experience.",
   },
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/error-handling",
+  },
+
   keywords: [
     "React",
     "Error Handling",
@@ -26,7 +29,6 @@ export const metadata = {
 const ErrorReact = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Error Handling in React: Robust and User-Friendly Applications</h1>
 
       <p>
@@ -148,7 +150,7 @@ export default App;
         caught by the catch block, and we can log the error or perform any
         necessary error handling.
       </p>
-      
+
       <h4>2. Error Boundaries</h4>
 
       <p>

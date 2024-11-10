@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,15 +15,14 @@ export const metadata = {
     "error message analysis",
     "web development troubleshooting",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/debugging",
+  },
   openGraph: {
     title: "JavaScript Debugging Mastery: From Novice to Pro",
     description:
       "Unlock the secrets of efficient JavaScript debugging. Learn essential techniques to squash bugs and write cleaner, more robust code.",
-    type: "article",
   },
-
-  authors: [{ name: "MergeSociety" }],
-  category: "Web Development Tutorials",
 
   schema: {
     "@context": "https://schema.org",
@@ -43,7 +41,6 @@ export const metadata = {
 const Debugging = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Debugging Techniques in JavaScript</h1>
 
       <p>
@@ -128,7 +125,7 @@ console.log(multiply(5, 2)); // This will print 10, but also log the values of a
         problem occurred. This can be extremely helpful for locating and fixing
         issues.
       </p>
-      
+
       <h3>3. Using Breakpoints</h3>
       <p>
         Breakpoints allow you to pause your code at a specific point and examine
@@ -188,7 +185,7 @@ console.log(divide(10, 2)); // This will trigger the debugger
         You can place the <code>debugger</code> statement anywhere in your code
         where you want to pause and inspect what’s happening.
       </p>
-      
+
       <h3>5. Reading Error Messages</h3>
       <p>
         Error messages provide crucial information about what went wrong in your
@@ -269,7 +266,7 @@ Uncaught TypeError: Cannot read property 'name' of undefined
         someone in a pair programming setup. This can lead to quicker
         identification of problems and better solutions.
       </p>
-      
+
       <h2>Tips for Effective Debugging</h2>
       <ul>
         <li>

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,7 +9,9 @@ export const metadata = {
     "Learn how to control content overflow in CSS using the overflow property. Explore its different values: visible, hidden, scroll, and auto, and see practical examples.",
   keywords:
     "CSS overflow, CSS properties, visible, hidden, scroll, auto, web design, layout",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-overflow",
+  },
   openGraph: {
     title: "Mastering Overflow in CSS",
     description:
@@ -21,7 +22,6 @@ export const metadata = {
 const CSSOverFlow = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Mastering Overflow in CSS</h1>
       <p>
         The CSS overflow property is crucial when it comes to controlling how
@@ -116,7 +116,7 @@ div {
         help maintain a clean and tidy layout without any overflowing content
         disrupting the design.
       </p>
-      
+
       <h3>Example: Overflow Scroll</h3>
       <p>
         Now, let's see how overflow scroll works. The overflowing content will
@@ -262,7 +262,7 @@ div {
           content.
         </li>
       </ol>
-      
+
       <p>
         Understanding how to control overflow in CSS will help you create better
         layouts and improve the user experience on your website. Keep

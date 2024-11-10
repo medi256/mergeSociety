@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,7 +21,10 @@ export const metadata = {
     title: "Master DOM Element Selection: The Key to Dynamic Web Pages",
     description:
       "Dive into DOM element selection techniques. Learn how to use JavaScript to select and manipulate specific elements on your web pages for interactive user experiences.",
-    type: "article",
+  },
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/selecting-elements",
   },
 
   authors: [{ name: "MergeSociety" }],
@@ -50,7 +52,6 @@ export const metadata = {
 const SelectingElement = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Selecting Elements in the DOM</h1>
 
       <h2>Introduction</h2>
@@ -126,7 +127,7 @@ console.log(paragraph.textContent); // Output: "Hello World!"
         <code>getElementById</code>, which we can use to select an element by
         its <strong>ID</strong>.
       </p>
-      
+
       <h2>
         Selecting Elements by <strong>ID</strong>
       </h2>
@@ -228,7 +229,7 @@ console.log(paragraphs.length); // Output: 2
         collection, which is an array-like object that contains the selected
         elements.
       </p>
-      
+
       <h2>
         Selecting Elements by <strong>Tag Name</strong>
       </h2>
@@ -280,7 +281,7 @@ console.log(paragraphs.length); // Output: 2
         collection, which is an array-like object that contains the selected
         elements.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this article, we learned how to select elements in the DOM using

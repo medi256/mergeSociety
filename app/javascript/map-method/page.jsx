@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -17,20 +16,20 @@ export const metadata = {
     "JavaScript for beginners",
     "functional programming in JavaScript",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/map-method",
+  },
 
   openGraph: {
     title: "Understanding the map Method in JavaScript",
     description:
       "Dive into the map method in JavaScript. This guide provides syntax details, usage examples, and exercises for practicing your coding skills.",
-
-    type: "article",
   },
 };
 
 const MapMethod = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Understanding the <code>map</code> Method in JavaScript
       </h1>
@@ -95,7 +94,7 @@ const newArray = array.map(function(element, index, array) {
           new array for each element.
         </li>
       </ul>
-      
+
       <h2>
         Example: Using <code>map</code> to Modify an Array
       </h2>
@@ -218,7 +217,7 @@ console.log(uppercasedWords); // Output: ["HELLO", "WORLD", "JAVASCRIPT"]
           uppercase.
         </li>
       </ul>
-      
+
       <h2>Practice: Try it Yourself</h2>
       <p>
         Now it’s your turn! Try using the <code>map</code> method with different

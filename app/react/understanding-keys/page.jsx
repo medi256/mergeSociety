@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,10 @@ export const metadata = {
     "React Tutorial",
   ],
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/understanding-keys",
+  },
+
   openGraph: {
     title: "Understanding Keys in React",
     description:
@@ -26,7 +29,6 @@ export const metadata = {
 const KeysUnderstanding = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding Keys in React</h1>
       <p>
         Hello again, React learners! In our last lesson, we learned how to
@@ -105,7 +107,7 @@ const KeysUnderstanding = () => {
           each <code>&lt;li&gt;</code> element.
         </li>
       </ul>
-      
+
       <h2>Rules for Keys</h2>
       <ul>
         <li>
@@ -190,7 +192,7 @@ const KeysUnderstanding = () => {
           the changes smoothly with keys!
         </li>
       </ul>
-      
+
       <h2>What Have We Learned?</h2>
       <ul>
         <li>Keys are special labels for list items in React.</li>

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Discover how to create and customize links in HTML to enhance web navigation. Learn best practices for link text, appearance, and how to open links in new tabs.",
   keywords:
     "HTML, links in HTML, hyperlinks, web development, coding for beginners, HTML tutorial, creating links, customizing links, web navigation, best practices for links",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-links",
+  },
   openGraph: {
     title:
       "Links in HTML: Mastering Hyperlinks for Web Navigation | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLLinks = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Links in HTML</h1>
       <p>
         Welcome back, aspiring web developer! In this lesson, we'll be exploring
@@ -121,7 +122,7 @@ const HTMLLinks = () => {
           make sure they are up-to-date and functional.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -173,7 +174,7 @@ const HTMLLinks = () => {
           </pre>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the basics of links in HTML, including

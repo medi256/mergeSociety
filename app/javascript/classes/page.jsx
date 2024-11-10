@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -17,20 +16,20 @@ export const metadata = {
     "Programming Concepts",
     "Web Development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/classes",
+  },
 
   openGraph: {
     title: "Mastering JavaScript Classes",
     description:
       "Explore JavaScript classes, how to create them, and their role in object-oriented programming. Learn with examples and practical exercises.",
-
-    type: "article",
   },
 };
 
 const Classes = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to JavaScript Classes</h1>
       <p>
         Imagine you're building a toy car collection. Each toy car has the same
@@ -101,7 +100,7 @@ const Classes = () => {
           It defines an action that objects created from the class can perform.
         </li>
       </ul>
-      
+
       <h2>Creating Your Own Class</h2>
       <p>
         Now that we’ve covered the basic syntax, let’s create a simple class.
@@ -190,7 +189,7 @@ const Classes = () => {
           you’ve set.
         </li>
       </ul>
-      
+
       <h2>Practice: Create Your Own Class</h2>
       <p>
         Now it’s your turn! Try creating a class for something else. It could be
@@ -223,7 +222,7 @@ const Classes = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <p>
         Remember, classes are a powerful way to structure your code, especially
         as your projects get bigger and more complex. Start simple, and with

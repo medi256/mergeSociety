@@ -19,6 +19,11 @@ export const metadata = {
     "classList property",
     "interactive coding examples",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/modifying-elements",
+  },
+
   openGraph: {
     title:
       "Master DOM Manipulation: Change Web Page Content Dynamically with JavaScript",

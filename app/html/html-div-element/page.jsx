@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn about divs in HTML, one of the fundamental building blocks for structuring web pages. Explore their uses, best practices, and how to apply styles effectively with practical examples.",
   keywords:
     "HTML, divs, web development, block-level elements, layout structure, coding for beginners, CSS styling, best practices for divs",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-div-element",
+  },
   openGraph: {
     title: "Divs in HTML: Understanding Structure and Layout | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLDiv = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Divs in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring divs - one of the most
@@ -146,7 +147,7 @@ Content goes here
           styling without any structural purpose.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -189,7 +190,7 @@ Content goes here
           height of the divs.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored divs in HTML, including their purpose,

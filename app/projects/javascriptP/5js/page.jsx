@@ -7,6 +7,9 @@ export const metadata = {
     "Learn how to build a fully functional JavaScript calculator with advanced operations, event listeners, and DOM manipulation.",
   keywords:
     "JavaScript, calculator, tutorial, web development, DOM manipulation, event listeners, coding projects, beginner projects, advanced projects",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP/5js",
+  },
 
   openGraph: {
     title: "JavaScript Calculator - Build a Fully Functional Calculator",

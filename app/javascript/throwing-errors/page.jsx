@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -17,11 +16,13 @@ export const metadata = {
     "JavaScript debugging",
     "error management web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/throwing-errors",
+  },
   openGraph: {
     title: "JavaScript Error Handling Tutorial: Throw and Catch Like a Pro",
     description:
       "Master the art of throwing and catching errors in JavaScript. Boost your coding skills and create more robust applications.",
-    type: "article",
   },
 
   authors: [{ name: "MergeSociety" }],
@@ -31,7 +32,6 @@ export const metadata = {
 const ThrowingError = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Throwing and Handling Errors in JavaScript</h1>
 
       <p>
@@ -124,7 +124,7 @@ try {
         action, such as showing an error message to the user or logging the
         issue for debugging.
       </p>
-      
+
       <h2>Throwing Custom Errors</h2>
       <p>
         While JavaScript provides some built-in errors (like{" "}
@@ -214,7 +214,7 @@ try {
         <code>catch</code> block will log the error message and provide a
         user-friendly message like "Please enter a valid email address."
       </p>
-      
+
       <h2>Important Notes About Error Handling</h2>
       <ul>
         <li>
@@ -234,7 +234,7 @@ try {
           without fixing the underlying issue.
         </li>
       </ul>
-      
+
       <h2>Conclusion</h2>
       <p>
         By throwing and handling errors, you gain more control over how your

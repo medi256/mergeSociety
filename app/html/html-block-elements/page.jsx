@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to effectively use HTML block-level elements for creating structured layouts. This guide covers essential elements like div, p, h1-h6, ul, ol, and more, with best practices and hands-on exercises.",
   keywords:
     "HTML block elements, block-level elements, web development, HTML structure, div, p, headings, lists, coding best practices, front-end development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-block-elements",
+  },
   openGraph: {
     title:
       "HTML Block-Level Elements: A Guide to Structure and Layout | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLBlockElements = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Block-Level Elements in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring block-level elements -
@@ -113,7 +114,7 @@ const HTMLBlockElements = () => {
           line or occupies a significant portion of the page.
         </li>
       </ul>
-      
+
       <h2>Best Practices for Using Block-Level Elements</h2>
       <ul>
         <li>
@@ -176,7 +177,7 @@ const HTMLBlockElements = () => {
           lists.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored block-level elements in HTML, including

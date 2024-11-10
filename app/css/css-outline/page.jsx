@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,19 +17,20 @@ export const metadata = {
     "frontend development",
     "CSS examples",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-outline",
+  },
 
   openGraph: {
     title: "The Magical World of Outline in CSS",
     description:
       "Explore the versatile outline property in CSS and its applications in modern web design. Master the art of non-blocking borders and visual emphasis through hands-on examples and tips for best practices.",
-    type: "article",
   },
 };
 
 const CSSOutline = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Outline in CSS</h1>
       <p>
         Outline is a CSS property that allows you to create a decorative border
@@ -196,7 +196,7 @@ img {
           for users.
         </li>
       </ul>
-      
+
       <h2>Challenges of Outline</h2>
       <p>
         While outline is a powerful tool, it also comes with some challenges:
@@ -242,7 +242,7 @@ img {
           accessibility, or adding decorative borders.
         </li>
       </ol>
-      
+
       <p>
         Remember, outline is a powerful tool in CSS that allows you to create
         non-blocking borders and visual emphasis. Choose outline options that

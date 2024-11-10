@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Unlock the potential of HTML spans for styling and functionality. Learn how to use spans effectively for text grouping, customization, and dynamic interaction with CSS and JavaScript.",
   keywords:
     "HTML spans, inline elements, web development, text customization, CSS, JavaScript, coding basics, spans best practices",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-inline-elements",
+  },
   openGraph: {
     title:
       "Mastering HTML Spans: Enhance Web Content with Inline Elements | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLInline = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Inline Elements in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring inline elements - an
@@ -113,7 +114,7 @@ const HTMLInline = () => {
           navigate to different locations.
         </li>
       </ul>
-      
+
       <h2>Best Practices for Using Inline Elements</h2>
       <ul>
         <li>
@@ -169,7 +170,7 @@ const HTMLInline = () => {
           elements for emphasis or links.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored inline elements in HTML, including their

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -18,19 +17,20 @@ export const metadata = {
     "web development",
     "frontend design",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-flexbox",
+  },
 
   openGraph: {
     title: "Mastering Flexbox in CSS",
     description:
       "Discover how to use Flexbox to create responsive layouts in CSS. Dive into practical examples and enhance your web development skills.",
-    type: "article",
   },
 };
 
 const CSSFlex = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Flexbox in CSS</h1>
       <p>
         Flex is a powerful CSS property that allows you to create flexible and
@@ -158,7 +158,7 @@ const CSSFlex = () => {
         Flex can be used in various ways to create visually appealing and
         functional designs. Let's explore some common use cases for flex:
       </p>
-      
+
       <h3>Responsive Layouts</h3>
       <p>
         Flex is commonly used to create responsive layouts that adapt to
@@ -280,7 +280,7 @@ const CSSFlex = () => {
           building complex layouts.
         </li>
       </ol>
-      
+
       <p>
         Remember, flex is a powerful tool in CSS that gives you control over the
         layout and arrangement of items within a container. Choose flex options

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,25 +9,19 @@ export const metadata = {
     "Dive into the concept of the Event Loop in JavaScript, exploring how it manages asynchronous operations and ensures non-blocking execution. This lesson breaks down the event-driven nature of JavaScript, making it accessible for beginners.",
   keywords:
     "JavaScript, Event Loop, asynchronous programming, non-blocking execution, web development",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/event-loop",
+  },
   openGraph: {
     title: "Understanding the Event Loop in JavaScript",
     description:
       "Learn about the Event Loop in JavaScript and how it handles asynchronous operations.",
-    type: "article",
   },
-
-  educationalLevel: "Beginner to Intermediate",
-  learningResourceType: "Lesson",
-  inLanguage: "en",
-  isAccessibleForFree: true,
-  category: "Web Development Tutorial",
 };
 
 const EventLoop = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding the Event Loop in JavaScript</h1>
 
       <p>
@@ -85,7 +78,7 @@ greet(); // This function gets added to the call stack and executed
         runs), it is removed from the stack. The stack allows JavaScript to keep
         track of what task is running and what to do next.
       </p>
-      
+
       <h3>The Queue</h3>
       <p>
         While the call stack handles tasks that are being executed immediately,
@@ -187,7 +180,7 @@ console.log('Task 3: End');
         cake to bake), the manager ensures the chefs keep working on other
         orders in the meantime.
       </p>
-      
+
       <h2>Summary</h2>
       <p>To summarize:</p>
       <ul>

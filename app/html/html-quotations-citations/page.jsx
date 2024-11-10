@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to effectively use HTML elements like <q> and <blockquote> for quoting text. This tutorial covers when to use each element and provides examples for implementing inline and block-level quotations in your HTML.",
   keywords:
     "HTML quotations, HTML <q> element, HTML blockquote, HTML best practices, inline quotations, block-level quotations, HTML coding, semantic HTML, web development, accessible HTML",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-quotations-citations",
+  },
   openGraph: {
     title:
       "Guide to HTML Quotations: Mastering <q> and <blockquote> for Clean Code | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLQuotation = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Quotations in HTML</h1>
       <p>
         Quotations can enhance your HTML content by providing additional context
@@ -95,7 +96,7 @@ const HTMLQuotation = () => {
           highlight the quoted passage.
         </p>
       </blockquote>
-      
+
       <h5>
         Example of <code> {`<blockquote>`} </code> Element:
       </h5>
@@ -137,7 +138,6 @@ const HTMLQuotation = () => {
           egestas.
         </p>
       </blockquote>
-      
 
       <Button whereToGo={"html-entities"} />
     </div>

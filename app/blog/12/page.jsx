@@ -19,6 +19,9 @@ export const metadata = {
     "Responsive Design",
     "Front-End Development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/12",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

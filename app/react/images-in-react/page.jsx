@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,20 +9,19 @@ export const metadata = {
     "Discover how to work with images in React, including how to import, display, and style images in your components. This step-by-step guide covers common issues and best practices.",
   keywords:
     "React, images in React, importing images, displaying images, styling images, React tutorial, web development, MergeSociety",
-  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/images-in-react",
+  },
   openGraph: {
     title: "Working with Images in React - MergeSociety",
     description:
       "A comprehensive guide on working with images in React, covering how to import, display, and style images within your applications.",
-
-    type: "article",
   },
 };
 
 const Images = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Working with Images in React</h1>
       <p>
         When working with images in React, there are a few important things to
@@ -154,7 +152,7 @@ export default App;`}
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h2>4. Using Dynamic Image Paths</h2>
       <p>
         Sometimes, you might want to display images based on certain conditions
@@ -258,7 +256,7 @@ export default App;`}
         If your image loads slowly, optimize its file size before using it in
         your app.
       </p>
-      
+
       <h2>7. Summary</h2>
       <p>
         Working with images in React is straightforward. Store images in the{" "}

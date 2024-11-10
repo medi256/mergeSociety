@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,9 @@ export const metadata = {
     "CSS tutorials",
     "responsive columns",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-columns",
+  },
   openGraph: {
     title: "CSS Columns: A Complete Guide to Creating Structured Layouts",
     description:
@@ -31,7 +33,6 @@ export const metadata = {
 const CSSColumns = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Columns in CSS</h1>
       <p>
         Columns are a powerful tool in CSS that allow you to create visually
@@ -177,7 +178,7 @@ const CSSColumns = () => {
           focus on specific sections or articles.
         </li>
       </ul>
-      
+
       <h2>Challenges of Columns</h2>
       <p>While columns are powerful, they also come with some challenges:</p>
 
@@ -222,7 +223,7 @@ const CSSColumns = () => {
           to individual columns, or managing content overflow.
         </li>
       </ol>
-      
+
       <p>
         Remember, columns are a powerful tool in CSS that allow you to create
         visually appealing and functional designs. Choose column options that

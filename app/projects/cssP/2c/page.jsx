@@ -14,6 +14,10 @@ export const metadata = {
     "web design basics",
   ],
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP/2c",
+  },
+
   openGraph: {
     title: "Style Your First Blog Post with CSS",
     description:

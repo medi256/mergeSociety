@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -17,6 +16,9 @@ export const metadata = {
     "CSS best practices",
     "styling all elements",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-universal-selector",
+  },
 
   openGraph: {
     title: "The World of the Universal Selector in CSS",
@@ -30,7 +32,6 @@ export const metadata = {
 const CSSUniversalSelector = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The World of the Universal Selector in CSS</h1>
       <p>
         The universal selector is a powerful tool in CSS that allows you to
@@ -157,7 +158,7 @@ const CSSUniversalSelector = () => {
           over the specificity of your styles.
         </li>
       </ul>
-      
+
       <h2>Challenges of the Universal Selector</h2>
       <p>
         While the universal selector is powerful, it also comes with some
@@ -204,7 +205,7 @@ const CSSUniversalSelector = () => {
           consistent styles, or managing performance.
         </li>
       </ol>
-      
+
       <p>
         Remember, the universal selector is a powerful tool in CSS that gives
         you the ability to target all elements on the page. Use it wisely to

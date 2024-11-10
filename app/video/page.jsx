@@ -7,6 +7,10 @@ export const metadata = {
     "Explore our extensive library of video tutorials covering HTML, JavaScript, and React.js. Perfect for beginners and experienced developers looking to enhance their skills. Start your coding journey today!",
   keywords:
     "web development tutorials, video tutorials, HTML tutorials, JavaScript videos, React.js courses, coding for beginners, learn to code, online programming courses, front-end development, web design tutorials",
+  alternates: {
+    canonical: "https://www.mergesociety.com/video",
+  },
+
   openGraph: {
     title: "Master Web Development with Video Tutorials ",
     description:

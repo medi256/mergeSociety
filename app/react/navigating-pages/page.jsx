@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -13,6 +12,10 @@ export const metadata = {
     description:
       "Explore the world of React Router navigation. Discover how to create seamless user experiences with dynamic routing and URL manipulation.",
   },
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/navagating-pages",
+  },
+
   keywords: [
     "React Router",
     "Page Navigation",
@@ -27,7 +30,6 @@ export const metadata = {
 const ReactNavigation = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Navigating between Pages in React Router: Enhancing User Experience
       </h1>
@@ -182,7 +184,7 @@ export default Home;
         create a clickable link that navigates to the about page (
         <code>/about</code>) when clicked.
       </p>
-      
+
       <h4>3. Programmatic Navigation with useNavigate</h4>
 
       <p>

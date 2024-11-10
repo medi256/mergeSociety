@@ -18,20 +18,20 @@ export const metadata = {
     "user experience",
     "transition effects",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-transitions",
+  },
 
   openGraph: {
     title: "Understanding CSS Transitions: A Guide",
     description:
       "Discover how to enhance your web designs with CSS transitions. Master the art of smooth animations.",
-
-    type: "article",
   },
 };
 
 const CSSTransition = () => {
   return (
     <div className="lesson-container">
-      
       <h1> Transition in CSS</h1>
       <p>
         Transition is a powerful CSS property that allows you to create smooth
@@ -184,7 +184,6 @@ const CSSTransition = () => {
         </code>
       </pre>
 
-      
       <h3>Combining Multiple Transitions</h3>
       <p>
         You can apply transitions to multiple properties to create complex
@@ -269,7 +268,7 @@ const CSSTransition = () => {
           interactive elements, or achieving subtle visual effects.
         </li>
       </ol>
-      
+
       <p>
         Remember, transition is a powerful tool in CSS that allows you to create
         smooth and seamless animations. Choose transition options that align

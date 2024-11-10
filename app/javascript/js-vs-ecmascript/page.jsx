@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -14,20 +13,20 @@ export const metadata = {
     "JavaScript features",
     "programming languages",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/js-vs-ecmascript",
+  },
 
   openGraph: {
     title: "JavaScript vs. ECMAScript Explained",
     description:
       "Explore the key differences between JavaScript and ECMAScript, their relationship, and the importance of understanding ECMAScript versions in web development.",
-
-    type: "article",
   },
 };
 
 const JSvsES6 = () => {
   return (
     <div className="lesson-container">
-      
       <h1>JavaScript vs. ECMAScript: What's the Difference?</h1>
       <p>
         If you’ve been learning JavaScript, you might have come across the term
@@ -65,7 +64,6 @@ const JSvsES6 = () => {
         brought in major enhancements like arrow functions, classes, and the
         <code>let</code> and <code>const</code> keywords.
       </p>
-      
 
       <h2>JavaScript and ECMAScript: The Relationship</h2>
       <p>
@@ -114,7 +112,7 @@ const JSvsES6 = () => {
           grasp the material and know what features are being discussed.
         </li>
       </ul>
-      
+
       <h2>In Summary</h2>
       <p>
         JavaScript and ECMAScript are closely related: JavaScript is the

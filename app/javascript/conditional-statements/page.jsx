@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,9 @@ export const metadata = {
     "javascript programming",
     "javascript tutorials",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/conditional-statements",
+  },
   openGraph: {
     title: "JavaScript Conditional Statements: The Ultimate Guide",
     description:
@@ -32,7 +34,6 @@ export const revalidate = 36000;
 const Conditoional = () => {
   return (
     <div className="lesson-container">
-      
       <h1>JavaScript Conditional Statements</h1>
 
       <h2>Introduction</h2>
@@ -178,7 +179,7 @@ console.log('The number is zero.');
         messages "The number is positive.", "The number is negative.", or "The
         number is zero." will be displayed.
       </p>
-      
+
       <h2>switch Statements</h2>
       <p>
         The <code>switch</code> statement provides another way to handle
@@ -311,7 +312,7 @@ console.log('Regular day.');
         These examples showcase the versatility and usefulness of the switch
         statement in real-world scenarios.
       </p>
-      
+
       <h2>Real-World Examples</h2>
       <p>
         Let's explore some practical uses of conditional statements in

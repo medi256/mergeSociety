@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -11,19 +10,20 @@ export const metadata = {
   keywords:
     "JSX, React, creating JSX files, rendering components, React tutorial, web development, MergeSociety",
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/creating-rendering-jsx",
+  },
+
   openGraph: {
     title: "Creating and Rendering JSX Files - MergeSociety",
     description:
       "Step-by-step guide to creating and rendering JSX files in React. Enhance your web development skills with our interactive tutorials.",
-
-    type: "article",
   },
 };
 
 const RenderingJSX = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Creating and Rendering JSX Files</h1>
 
       <p>
@@ -168,7 +168,6 @@ document.getElementById('root') // This is where your app will be rendered in th
 
       <p>Just remember to save your files, and React will handle the rest!</p>
 
-      
       <h2>Wrapping Up</h2>
       <p>
         Creating and rendering JSX files is a fundamental part of building React

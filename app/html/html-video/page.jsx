@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -10,6 +9,9 @@ export const metadata = {
     "Learn how to embed and customize video content in HTML. Explore the <video> tag, video formats, autoplay, looping, and best practices for optimizing videos for the web.",
   keywords:
     "HTML, videos in HTML, embedding videos, web development, HTML tutorial, video formats, autoplay video, looping video, best practices for videos, video player customization",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-video",
+  },
   openGraph: {
     title:
       "Videos in HTML: Embedding and Customizing Multimedia Content | MergeSociety",
@@ -21,7 +23,6 @@ export const metadata = {
 const HTMLVideo = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Videos in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring videos - a powerful
@@ -190,7 +191,7 @@ const HTMLVideo = () => {
           quality.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -234,7 +235,7 @@ const HTMLVideo = () => {
           structure of the <code>{`<video>`}</code> tag.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored videos in HTML, including how to embed

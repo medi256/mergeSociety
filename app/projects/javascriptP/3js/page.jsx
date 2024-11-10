@@ -7,6 +7,9 @@ export const metadata = {
     "Learn how to build a JavaScript quiz game with this step-by-step tutorial. From setting up your workspace to implementing quiz logic, we'll guide you through each step to create a fun, interactive game.",
   keywords:
     "JavaScript, quiz game, beginner tutorial, HTML, CSS, JavaScript quiz,javascript project, beginner javascript project,  tutorial, web development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP/3js",
+  },
 
   openGraph: {
     title: "Build a JavaScript Quiz Game - Tutorial for Beginners",

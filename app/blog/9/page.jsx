@@ -14,6 +14,9 @@ export const metadata = {
     "Cryptocurrencies",
     "dApps",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/9",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

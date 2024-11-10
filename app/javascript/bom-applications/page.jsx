@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -15,20 +14,20 @@ export const metadata = {
     "JavaScript",
     "web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/bom-applications",
+  },
 
   openGraph: {
     title: "Creating Interactive Web Experiences with BOM",
     description:
       "Learn how to leverage the Browser Object Model (BOM) for building interactive web applications. Discover practical examples and techniques.",
-
-    type: "article",
   },
 };
 
 const BomApplication = () => {
   return (
     <div className="lesson-container">
-      
       <h1>BOM Applications: Interactive Web Experiences</h1>
       <p>
         Now that we’ve learned about different objects in the Browser Object

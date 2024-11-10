@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -20,6 +19,9 @@ export const metadata = {
     "javascript debugging",
     "console.log",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/variables",
+  },
   openGraph: {
     title: "JavaScript Variables 101: The Ultimate Beginner's Guide",
     description:
@@ -30,7 +32,6 @@ export const metadata = {
 const Variables = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Variables in JavaScript</h1>
       <p>
         Welcome back, aspiring JavaScript developer! In this lesson, we'll
@@ -128,7 +129,6 @@ pi = 3; // This will result in an error
         <code>let</code> and <code>const</code> instead, as they provide more
         control over variable scope.
       </p>
-      
 
       <h2>Why Do We Have Different Ways to Declare Variables?</h2>
       <p>

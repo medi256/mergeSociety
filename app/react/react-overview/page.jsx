@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -11,12 +10,10 @@ export const metadata = {
     title: "Master React: Your Gateway to Building Dynamic Web Applications",
     description:
       "Unlock the world of React! Learn why it's a game-changer in web development, its key concepts, and how it fits into modern web applications. Start your React journey today!",
-
-    type: "article",
   },
-
-  authors: [{ name: "MergeSociety" }],
-  category: "Web Development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/react-overview",
+  },
 
   schema: {
     "@context": "https://schema.org",
@@ -40,7 +37,6 @@ export const metadata = {
 const Overview = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to React</h1>
 
       <p>
@@ -124,7 +120,7 @@ const Overview = () => {
         like Airbnb, Netflix, and Instagram all use React to build their user
         interfaces.
       </p>
-      
+
       <h2>Benefits of Using React</h2>
       <p>
         Now that you have a sense of what React is and why it’s popular, let's
@@ -180,7 +176,7 @@ const Overview = () => {
         application, React gives you the tools to build dynamic user interfaces
         that are fast, flexible, and scalable.
       </p>
-      
+
       <h2>What You’ll Learn in This React Course</h2>
       <p>
         In this React course, we’ll cover all the essential topics to get you

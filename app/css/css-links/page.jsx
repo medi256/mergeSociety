@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,19 +9,19 @@ export const metadata = {
     "Explore the magic of CSS link styling. Learn how to create visually appealing and user-friendly links with color, hover effects, and transitions. Perfect for web designers and developers.",
   keywords:
     "CSS, link styling, web design, hyperlinks, hover effects, CSS transitions, web development tutorial",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-links",
+  },
   openGraph: {
     title: "Transform Your Links with CSS Styling | Web Design Guide",
     description:
       "Dive into CSS link styling techniques. From color changes to hover effects, learn to create engaging and interactive links for better user experience.",
-
-    type: "article",
   },
 };
 
 const CSSLinks = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Link Styling in CSS</h1>
       <p>
         Link styling in CSS is an essential aspect of creating visually
@@ -162,7 +161,7 @@ a {
         also use other cursor values, such as <code>crosshair</code> or{" "}
         <code>move</code>, depending on the context of your design.
       </p>
-      
+
       <h2>Using Link Styling</h2>
       <p>
         Link styling can be used to create visually appealing and functional
@@ -290,7 +289,7 @@ a {
           navigation menus.
         </li>
       </ol>
-      
+
       <p>
         Remember, link styling is a powerful tool in CSS. It helps create
         visually appealing and functional links that enhance the user

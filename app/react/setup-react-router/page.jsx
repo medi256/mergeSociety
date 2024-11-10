@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,10 @@ export const metadata = {
     "react router dom",
     "react router example",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/setup-react-router",
+  },
+
   openGraph: {
     title: "React Router: Smooth Navigation for Your React Apps",
     description:
@@ -26,7 +29,6 @@ export const metadata = {
 const RouterSet = () => {
   return (
     <div className="lesson-container">
-      
       <h1>React Router: Your Website's GPS</h1>
 
       <p>
@@ -149,7 +151,7 @@ const RouterSet = () => {
           "When the user goes to this path, show them this component (or page)."{" "}
         </li>
       </ul>
-      
+
       <h4>Step 3: Wrap Your App with BrowserRouter</h4>
 
       <p>
@@ -297,7 +299,7 @@ export default App;`}
         And when you go to /about, you’ll see the About Us page. React Router
         handles this navigation smoothly, without refreshing the page.
       </p>
-      
+
       <h3>Congratulations!</h3>
 
       <p>

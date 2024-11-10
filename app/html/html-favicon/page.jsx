@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to create and add favicons to your HTML documents. This lesson covers the importance of favicons, how to design and link them, and best practices for ensuring browser compatibility and a polished user experience.",
   keywords:
     "HTML, favicon, web development, favicons in HTML, favicon tutorial, web design, favicon creation, branding, user experience, web browser icons, favicon best practices, favicon in HTML5",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-favicon",
+  },
   openGraph: {
     title:
       "Favicons in HTML: Adding Icons for Branding and User Experience | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLFavicon = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Favicon in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring the world of favicons -
@@ -105,7 +106,7 @@ const HTMLFavicon = () => {
           </pre>
         </li>
       </ol>
-      
+
       <h2>Best Practices for Favicons</h2>
       <ul>
         <li>
@@ -160,7 +161,7 @@ const HTMLFavicon = () => {
           see how the favicon helps identify your website.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the importance of favicons and how to

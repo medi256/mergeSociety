@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -17,20 +16,20 @@ export const metadata = {
     "JavaScript for beginners",
     "JavaScript functional programming",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/foreach-method",
+  },
 
   openGraph: {
     title: "Mastering the forEach Method in JavaScript",
     description:
       "Learn how to use the forEach method in JavaScript with this detailed guide, featuring examples, tips, and practical exercises.",
-
-    type: "article",
   },
 };
 
 const ForEach = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Understanding the <code>forEach</code> Method in JavaScript
       </h1>
@@ -80,7 +79,6 @@ array.forEach(function(element, index, array) {
           <code>array</code>: The original array (optional).
         </li>
       </ul>
-      
       <h2>
         Using <code>forEach</code> with an Array
       </h2>
@@ -151,7 +149,6 @@ fruits.forEach(function(fruit, index, array) {
           if needed.
         </li>
       </ul>
-      
       <h2>
         Using Arrow Functions with <code>forEach</code>
       </h2>
@@ -232,7 +229,6 @@ console.log("Lengths of strings:", lengths);
           </SyntaxHighlighter>
         </code>
       </pre>
-      
       <h2>Summary</h2>
       <p>
         The <code>forEach</code> method is a useful way to loop through each

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -23,22 +22,20 @@ export const metadata = {
     "user interaction",
     "dynamic web pages",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/event-handling",
+  },
   openGraph: {
     title:
       "Master JavaScript Event Handling: Create Interactive Web Experiences",
     description:
       "Dive into JavaScript event handling! Learn to respond to user actions, create dynamic interfaces, and build engaging web applications in this comprehensive tutorial.",
-    type: "article",
   },
-
-  authors: [{ name: "MergeSociety" }],
-  category: "Web Development Tutorials",
 };
 
 const EventHandling = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Event Handling</h1>
 
       <h2>Introduction</h2>
@@ -85,7 +82,7 @@ const EventHandling = () => {
         <strong>function()</strong>: The JavaScript function that will be called
         when the event occurs.
       </p>
-      
+
       <h3>Example</h3>
       <p>
         Here’s an example of how to use the <code>onclick</code> attribute to
@@ -194,7 +191,7 @@ alert('Button clicked!');
         This approach is more versatile and keeps your HTML and JavaScript code
         separate, making it easier to update and maintain.
       </p>
-      
+
       <h2>Common Event Types</h2>
       <p>Here are some common types of events you might use:</p>
       <ul>
@@ -323,7 +320,7 @@ paragraph.style.backgroundColor = 'yellow';
         In this example, hovering over the paragraph changes its background
         color to yellow.
       </p>
-      
+
       <h2>Mouseout Event</h2>
       <h3>Syntax</h3>
       <p>
@@ -476,7 +473,7 @@ alert('Key released: ' + event.key);
         In this example, releasing any key will display an alert showing the key
         that was released.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         Understanding how to handle events is a fundamental part of web

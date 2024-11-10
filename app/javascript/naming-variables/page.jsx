@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,10 @@ export const metadata = {
     "javascript coding standards",
     "variable naming guide",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/naming-variables",
+  },
   openGraph: {
     title: "JavaScript Variable Naming: The Ultimate Clean Code Guide",
     description:
@@ -29,7 +32,6 @@ export const metadata = {
 const NamingVariables = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Best Practices for Variable Naming in JavaScript</h1>
       <p>
         Welcome to a comprehensive guide on best practices for naming variables
@@ -86,7 +88,6 @@ let isStudentActive = true;
         This convention enhances readability and consistency across your
         codebase.
       </p>
-      
 
       <h2>3. Avoid Reserved Keywords</h2>
       <p>

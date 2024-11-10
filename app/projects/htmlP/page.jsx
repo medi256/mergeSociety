@@ -7,6 +7,10 @@ export const metadata = {
     "Explore step-by-step HTML projects designed to help beginners and advanced users. Build exciting web pages using only HTML.",
   keywords:
     "HTML projects, beginner HTML, advanced HTML, web development, HTML tutorials",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP",
+  },
+
   openGraph: {
     title:
       "HTML Projects | Step-by-Step Guide for Beginners and Advanced Users",

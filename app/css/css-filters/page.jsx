@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,19 +9,19 @@ export const metadata = {
     "Learn how to use CSS filters to create stunning visual effects on your web pages. Discover various effects like blur, grayscale, brightness, and more with practical examples.",
   keywords:
     "CSS filters, web design, visual effects, blur, grayscale, brightness, contrast, hue-rotate, drop-shadow, interactive design",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-filters",
+  },
   openGraph: {
     title: "Understanding CSS Filters - Enhance Your Web Design",
     description:
       "Unlock the power of CSS filters! Explore how to apply effects like blur and brightness to enhance your website's visual appeal.",
-    type: "article",
   },
 };
 
 const CSSFilters = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding CSS Filters</h1>
       <p>
         CSS filters allow you to apply visual effects to elements, such as
@@ -143,7 +142,7 @@ const CSSFilters = () => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>hue-rotate()</h3>
       <p>
         The <code>hue-rotate()</code> filter applies a hue rotation to the
@@ -226,7 +225,7 @@ const CSSFilters = () => {
 </html>`}
         title="Grayscale Effect"
       ></iframe>
-      
+
       <h3>Brightness Effect</h3>
       <iframe
         width="100%"
@@ -323,7 +322,7 @@ const CSSFilters = () => {
         Experiment with different filter effects and values to create unique
         visual effects for your webpage!
       </p>
-      
+
       <p>
         For more details and additional filter effects, check out the
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">

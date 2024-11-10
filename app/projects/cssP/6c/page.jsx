@@ -13,6 +13,9 @@ export const metadata = {
     "CSS transitions",
     "web development tutorial",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/cssP/6c",
+  },
 
   openGraph: {
     title: "Creating a CSS Animation for Button Hover Effects",

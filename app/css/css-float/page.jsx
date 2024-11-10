@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -20,18 +19,19 @@ export const metadata = {
     "CSS columns float",
     "float challenges",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-float",
+  },
   openGraph: {
     title: "CSS Float | Learn CSS Layout Techniques",
     description:
       "Master the CSS float property for creating dynamic layouts, wrapping text around images, and managing float behavior in your web designs.",
-    type: "article",
   },
 };
 
 const CSSFloat = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Float in CSS</h1>
       <p>
         Float is a powerful CSS property that allows you to control the layout
@@ -163,7 +163,7 @@ img {
         should appear below floated elements, ensuring they clear the floats and
         start on a new line.
       </p>
-      
+
       <h2>Benefits of Float</h2>
       <p>Using float offers several advantages for your designs:</p>
 
@@ -235,7 +235,7 @@ img {
           elements.
         </li>
       </ol>
-      
+
       <p>
         Remember, float is a powerful tool in CSS that allows you to create
         visually appealing and functional designs. Choose float options that

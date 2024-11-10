@@ -7,6 +7,9 @@ export const metadata = {
     "Master HTML with our in-depth tutorial. Covers everything from basic tags to advanced concepts. Perfect for beginners and intermediate web developers.",
   keywords:
     "HTML tutorial, web development, HTML basics, HTML5, learn HTML, coding for beginners, web design, front-end development",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html",
+  },
   openGraph: {
     title: "Complete HTML Tutorial: From Beginner to Pro | MergeSociety",
     description:

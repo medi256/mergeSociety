@@ -15,6 +15,10 @@ export const metadata = {
     "css-in-js",
     "react styled-components",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/react-css-styling",
+  },
+
   openGraph: {
     title: "React CSS Styling: Master the Art of Component Styling",
     description:

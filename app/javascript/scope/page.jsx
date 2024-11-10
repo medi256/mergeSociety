@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,18 +17,19 @@ export const metadata = {
     "ES6",
     "programming tutorial",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/scope",
+  },
   openGraph: {
     title: "Master JavaScript Scopes: Global, Local, and Block",
     description:
       "Dive deep into JavaScript scopes and level up your coding skills. Learn how to manage variable accessibility and write cleaner, more efficient code.",
-    type: "article",
   },
 };
 
 const Scope = () => {
   return (
     <div className="lesson-container">
-      
       <h1>JavaScript Scope</h1>
 
       <h2>Introduction to Scope</h2>
@@ -113,7 +113,7 @@ console.log(localVariable); // Error: localVariable is not defined
         function but not outside of it, which causes an error when we try to log
         it outside the function.
       </p>
-      
+
       <h2>Block Scope</h2>
       <p>
         Block scope refers to variables that are accessible only within the
@@ -187,7 +187,7 @@ displayAppName(); // Output: My App
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>Local Scope Example</h3>
       <pre>
         <code>

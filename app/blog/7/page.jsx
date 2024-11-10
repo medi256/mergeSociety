@@ -14,6 +14,9 @@ export const metadata = {
     "Productivity",
     "AI in Coding",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/7",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

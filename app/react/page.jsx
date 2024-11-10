@@ -7,6 +7,9 @@ export const metadata = {
     "Master React.js with our comprehensive course. Learn everything from React fundamentals to advanced concepts like hooks, state management, and API integration. Ideal for beginners and intermediate developers.",
   keywords:
     "React.js course, web development, React tutorial, learn React, coding, front-end development, JSX, React hooks, state management, API integration",
+  alternates: {
+    canonical: "https://www.mergesociety.com/react",
+  },
   openGraph: {
     title:
       "Master React.js: Comprehensive Web Development Course | MergeSociety",

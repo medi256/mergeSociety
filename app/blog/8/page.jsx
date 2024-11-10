@@ -24,6 +24,9 @@ export const metadata = {
     url: "https://www.mergesociety.com/blog/8",
     type: "article",
   },
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/8",
+  },
   schema: {
     "@context": "https://schema.org",
     "@type": "Article",

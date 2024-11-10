@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -17,6 +16,9 @@ export const metadata = {
     "CSS best practices",
     "web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-comments",
+  },
   openGraph: {
     title: "The Power of Comments in CSS",
     description:
@@ -27,7 +29,6 @@ export const metadata = {
 const CSSComments = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Power of Comments in CSS</h1>
       <p>
         Comments are like hidden notes in your CSS code. They allow you to add
@@ -131,7 +132,7 @@ const CSSComments = () => {
         by the browser. You can use this technique to experiment with different
         styles or to temporarily disable certain rules while troubleshooting.
       </p>
-      
+
       <h2>Best Practices for Comments</h2>
       <ul>
         <li>
@@ -180,7 +181,7 @@ const CSSComments = () => {
           developers.
         </li>
       </ol>
-      
+
       <p>
         Remember, comments are an important tool for code documentation and
         collaboration. They help improve code readability, facilitate

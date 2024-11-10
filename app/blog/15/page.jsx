@@ -16,6 +16,9 @@ export const metadata = {
     "Online Presence",
     "SEO",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/15",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

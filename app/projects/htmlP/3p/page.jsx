@@ -16,6 +16,9 @@ export const metadata = {
     "web development",
     "HTML basics",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP/3p",
+  },
 
   openGraph: {
     title: "Creating an HTML Table for Weekly Schedules",

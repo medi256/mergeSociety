@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Master essential HTML best practices that enhance readability, accessibility, and maintainability. Learn how to properly structure HTML elements, use attributes like alt and title effectively, and follow accessibility standards for forms and images.",
   keywords:
     "HTML best practices, clean HTML, accessible HTML, alt attributes, title attributes, HTML forms, fieldset, web accessibility, HTML validation, semantic HTML",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-head-element",
+  },
   openGraph: {
     title: "Guide to Writing Clean and Accessible HTML | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLHead = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         The <code>{`<head>`}</code> Element in HTML
       </h1>
@@ -166,7 +167,7 @@ alert("Hello, world!");
           </pre>
         </li>
       </ul>
-      
+
       <h2>
         Why Is the <code>{`<head>`}</code> Element Important?
       </h2>
@@ -265,7 +266,7 @@ alert("Hello, world!");
           JavaScript code snippet, such as displaying an alert message.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, {` we've `} explored the <code>{`<head>`}</code> element

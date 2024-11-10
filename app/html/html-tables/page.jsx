@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to create accessible HTML tables that ensure usability for all audiences, including users with disabilities. This tutorial covers proper HTML structure with <th>, <td>, and scope attributes, and offers tips for complex table headers and captions.",
   keywords:
     "accessible HTML tables, web accessibility, HTML table structure, screen readers, WCAG compliance, table headers, <th> element, <td> element, scope attribute, data tables, caption, WAI tutorial",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-tables",
+  },
   openGraph: {
     title:
       "Accessible HTML Tables: A Guide for Better Web Accessibility | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLTables = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Tables in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring tables - a powerful tool
@@ -185,7 +186,7 @@ const HTMLTables = () => {
           .
         </li>
       </ul>
-      
+
       <h2>Best Practices for Using Tables</h2>
       <ul>
         <li>
@@ -267,7 +268,7 @@ const HTMLTables = () => {
           border around the table or adjust the spacing between cells.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored tables in HTML, including how to create

@@ -17,6 +17,9 @@ export const metadata = {
     "border-color",
     "web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-borders",
+  },
   openGraph: {
     title: "The Magical World of Borders in CSS",
     description:

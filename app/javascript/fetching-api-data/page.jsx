@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -11,19 +10,19 @@ export const metadata = {
     "Master the art of fetching data from APIs using JavaScript. This lesson covers everything from basic fetch requests, handling API keys, and managing different response types to async/await techniques. Perfect for beginners and those looking to enhance their API integration skills.",
   keywords:
     "fetch API, JavaScript API tutorial, API integration, async await, fetch requests, handle API response, JavaScript fetch method, API key usage, fetch error handling, coding tutorial",
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/fetching-api-data",
+  },
   openGraph: {
     title: "Learn How to Fetch Data from APIs in JavaScript",
     description:
       "In this detailed guide, learn how to effectively fetch and handle data from APIs using JavaScript. Includes practical examples for API requests with fetch, error handling, and async/await.",
-
-    type: "article",
   },
 };
 
 const fetchData = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Fetching Data from APIs</h1>
 
       <p>
@@ -121,7 +120,7 @@ fetch('https://api.example.com/data?api_key=YOUR_API_KEY')
           query parameter in the URL (after the <code>?</code>).
         </li>
       </ul>
-      
+
       <h3>c. Handling Different Response Types</h3>
       <p>
         Sometimes, the API might send different types of responses. For
@@ -207,7 +206,7 @@ fetchData();
           occurred during the fetch process.
         </li>
       </ul>
-      
+
       <h2>5. Summary</h2>
       <p>To recap, fetching data from an API involves:</p>
 

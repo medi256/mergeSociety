@@ -20,6 +20,9 @@ export const metadata = {
     "Push Notifications",
     "App Shell Architecture",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/2",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

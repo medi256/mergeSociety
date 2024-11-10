@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -11,19 +10,19 @@ export const metadata = {
     "Learn about CSS selectors including element, class, ID, attribute, and descendant selectors. Discover how to effectively target and style HTML elements with practical examples and exercises.",
   keywords:
     "CSS selectors, element selector, class selector, ID selector, attribute selector, descendant selector, web design, HTML styling",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-selectors",
+  },
   openGraph: {
     title: "Mastering CSS Selectors: From Basics to Advanced Techniques",
     description:
       "Explore various CSS selectors and learn how to target HTML elements precisely. Includes hands-on exercises and real-world examples for effective web styling.",
-    type: "article",
-    authors: ["MergeSociety"],
   },
 };
 
 const CSSSelectors = () => {
   return (
     <div className="lesson-container">
-      
       <h1>CSS Selectors</h1>
       <p>
         Selectors are one of the most fundamental concepts in CSS. They are like
@@ -141,7 +140,7 @@ p {
         Keep in mind that IDs should be unique, so you can use them to target
         specific elements on your page.
       </p>
-      
+
       <h2>Attribute Selector</h2>
       <p>
         The attribute selector is like a detective that targets elements based
@@ -252,7 +251,7 @@ ul li {
           additional guidance and inspiration.
         </li>
       </ol>
-      
+
       <p>
         Remember, practice makes perfect! The more you experiment with
         selectors, the better you'll become at targeting and styling elements on

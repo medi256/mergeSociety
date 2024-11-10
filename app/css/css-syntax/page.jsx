@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,19 +9,19 @@ export const metadata = {
     "Learn the fundamental structure of CSS syntax, including selectors, properties, and values. Master basic and advanced CSS techniques for effective web design.",
   keywords:
     "CSS syntax, selectors, properties, values, web design, styling, cascading style sheets",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-syntax",
+  },
   openGraph: {
     title: "CSS Syntax Guide: From Basics to Advanced Techniques",
     description:
       "Dive deep into CSS syntax. Understand selectors, properties, values, and explore advanced features like pseudo-classes, media queries, and CSS variables.",
-    type: "article",
-    authors: ["MergeSociety"],
   },
 };
 
 const CSSSyntax = () => {
   return (
     <div className="lesson-container">
-      
       <h1>CSS Syntax</h1>
       <p>
         CSS (Cascading Style Sheets) is a styling language used to design and
@@ -97,7 +96,7 @@ const CSSSyntax = () => {
           <code>float</code>.
         </li>
       </ul>
-      
+
       <h3>Values</h3>
       <p>
         Values are assigned to properties to define their specific behavior or
@@ -152,7 +151,7 @@ h1 {
         <code>font-size: 24px</code>. This rule sets the text color of
         <code> {`<h1>`}</code> elements to red and their font size to 24 pixels.
       </p>
-      
+
       <h2>Advanced CSS Syntax</h2>
       <p>
         While the basics of CSS syntax are relatively straightforward, the

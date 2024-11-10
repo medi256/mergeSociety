@@ -17,6 +17,9 @@ export const metadata = {
     "OWASP",
     "Secure Coding",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/5",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

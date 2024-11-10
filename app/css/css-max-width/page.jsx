@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -18,18 +17,20 @@ export const metadata = {
     "coding tutorials",
   ],
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-max-width",
+  },
+
   openGraph: {
     title: "Max-Width in CSS: Create Responsive Designs",
     description:
       "Explore the powerful max-width property in CSS for responsive web design. Enhance readability and layout on all devices.",
-    type: "article",
   },
 };
 
 const CSSMaxWidth = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Max-Width in CSS</h1>
       <p>
         Max-width is a powerful tool in CSS that allows you to set a maximum
@@ -120,7 +121,7 @@ div {
           designs will look proportionate and well-organized.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -149,7 +150,7 @@ div {
           or interactive elements.
         </li>
       </ol>
-      
+
       <p>
         Remember, max-width is a powerful tool in your CSS toolbox. It helps
         create responsive and user-friendly designs that work well on any

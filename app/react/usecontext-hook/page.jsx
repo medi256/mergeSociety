@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,10 @@ export const metadata = {
     "react hooks context",
     "useContext example",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/usecontext-hook",
+  },
+
   openGraph: {
     title: "React useContext: A Beginner's Guide to Sharing Data",
     description:
@@ -26,7 +29,6 @@ export const metadata = {
 const UseContex = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Super Easy Guide to useContext in React for Complete Beginners</h1>
 
       <h2>Hello, new React friends!</h2>
@@ -138,7 +140,7 @@ return (
         <code>useContext</code> to listen for the school name. We can then use
         this to show the school name in our header.
       </p>
-      
+
       <h2>Let's put it all together!</h2>
       <p>
         Here's a small, complete example of how all these pieces work together:
@@ -224,7 +226,7 @@ export default App;`}
         And that's it! Now you can use the school name anywhere in your app
         without passing it to every component. It's like magic!
       </p>
-      
+
       <p>
         Remember, <code>useContext</code> is great for information that many
         parts of your app need to know about. It helps keep your code simple and

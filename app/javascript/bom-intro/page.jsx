@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -19,21 +18,24 @@ export const metadata = {
     "dynamic web pages",
     "browser interaction",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/bom-intro",
+  },
+
   openGraph: {
     title:
       "Master the Browser Object Model (BOM): Interactive JavaScript Guide",
     description:
       "Explore the Browser Object Model (BOM) in JavaScript with this comprehensive guide. Learn how to interact with browser components like window, location, and history, and understand how the BOM differs from the DOM.",
-    type: "article",
   },
-  authors: [{ name: "MergeSociety" }],
+
   category: "Web Development Tutorials",
 };
 
 const BomIntro = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to the Browser Object Model (BOM)</h1>
 
       <p>
@@ -82,7 +84,7 @@ const BomIntro = () => {
           you information about the screen size and resolution.
         </li>
       </ul>
-      
+
       <h2>BOM Applications</h2>
       <p>
         The BOM allows you to create interactive and dynamic experiences beyond
@@ -133,7 +135,7 @@ const BomIntro = () => {
           related to the browser itself.
         </li>
       </ul>
-      
+
       <h2>Conclusion</h2>
       <p>
         The BOM is like the control panel of your web browser spaceship, giving

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -20,6 +19,9 @@ export const metadata = {
     "CSS effects on images",
     "image frame styling CSS",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-images",
+  },
   openGraph: {
     title: "CSS Image Styling Guide: Enhance Your Web Design",
     description:
@@ -31,7 +33,6 @@ export const metadata = {
 const CSSImages = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Image Styling in CSS</h1>
       <p>
         Image styling in CSS is an essential aspect of creating visually
@@ -170,7 +171,7 @@ img {
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h3>Box Shadows</h3>
       <p>
         Box shadows can be used to create a sense of depth and make images stand
@@ -255,7 +256,7 @@ img {
           galleries, or applying unique filters.
         </li>
       </ol>
-      
+
       <p>
         Remember, image styling is a powerful tool in CSS. It helps create
         visually appealing and functional designs that enhance the user

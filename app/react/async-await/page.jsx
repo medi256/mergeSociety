@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -13,6 +12,10 @@ export const metadata = {
     description:
       "Explore the world of async/await in React. Write cleaner and more maintainable asynchronous code.",
   },
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/async-await",
+  },
+
   keywords: [
     "React",
     "Async/Await",
@@ -26,7 +29,6 @@ export const metadata = {
 const AsyncAwait = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Async/Await Syntax in React: Efficient Asynchronous Code</h1>
 
       <p>
@@ -178,7 +180,7 @@ setData(data);
         <code>await</code> again to wait for the response data to be parsed as
         JSON. This allows us to work with the data as if it were synchronous.
       </p>
-      
+
       <h4>3. Handling Errors</h4>
 
       <p>Let's add error handling using try/catch blocks:</p>

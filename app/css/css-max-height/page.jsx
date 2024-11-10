@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,20 +15,20 @@ export const metadata = {
     "frontend development",
     "coding tutorials",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-max-height",
+  },
 
   openGraph: {
     title: "Max-Height in CSS: Control Element Height Responsively",
     description:
       "Master the max-height property in CSS for responsive web design. Discover techniques and examples to enhance user experience on all devices.",
-
-    type: "article",
   },
 };
 
 const CSSMaxHight = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The World of Max-Height in CSS</h1>
       <p>
         Max-height is a powerful property in CSS that allows you to set a
@@ -121,7 +120,7 @@ div {
           maintaining a harmonious and aesthetically pleasing appearance.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to experiment with max-height in CSS! Open your code
@@ -150,7 +149,7 @@ div {
           content areas.
         </li>
       </ol>
-      
+
       <p>
         Remember, max-height is a powerful tool in CSS. It helps create
         responsive and flexible designs that work well on various devices.

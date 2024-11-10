@@ -7,6 +7,9 @@ export const metadata = {
     "Learn and visualize sorting algorithms like Bubble Sort, Quick Sort, and Merge Sort. Enhance your understanding of complex algorithms with this interactive visualizer.",
   keywords:
     "JavaScript, sorting algorithms, Bubble Sort, Quick Sort, Merge Sort, algorithm visualization, web development, interactive projects, coding projects",
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP/6js",
+  },
 
   openGraph: {
     title: "Sorting Algorithm Visualizer - Explore Sorting Algorithms",

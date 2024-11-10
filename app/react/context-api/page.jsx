@@ -15,6 +15,11 @@ export const metadata = {
     "react data sharing",
     "react hooks context api",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/context-api",
+  },
+
   openGraph: {
     title: "React Context API: A Comprehensive Guide to Data Sharing",
     description:

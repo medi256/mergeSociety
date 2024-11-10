@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Learn how to add comments in HTML to document your code, temporarily disable sections, and provide notes for collaboration. Explore best practices and practical examples in this detailed guide.",
   keywords:
     "HTML comments, HTML code documentation, disable HTML code, HTML best practices, web development, HTML comments tutorial, commenting in HTML, code collaboration",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-comments",
+  },
   openGraph: {
     title:
       "Mastering HTML Comments: Best Practices and Real-World Examples | MergeSociety",
@@ -20,7 +22,6 @@ export const metadata = {
 const HTMLComments = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Comments in HTML</h1>
       <p>
         Hello there! In this lesson, we'll be exploring comments in HTML - a
@@ -141,7 +142,7 @@ const HTMLComments = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h2>Best Practices for Comments in HTML</h2>
       <ul>
         <li>
@@ -203,7 +204,7 @@ const HTMLComments = () => {
           </pre>
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored comments in HTML, including their

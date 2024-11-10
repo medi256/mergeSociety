@@ -16,6 +16,9 @@ export const metadata = {
     "Virtual DOM",
     "React Native",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/blog/10",
+  },
   author: "MergeSociety",
   publishDate: new Date().toISOString().split("T")[0],
   openGraph: {

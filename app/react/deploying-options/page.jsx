@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -10,6 +9,11 @@ export const metadata = {
     description:
       "Discover the world of React deployment. Choose the right platform and deploy your app seamlessly.",
   },
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/deploying-options",
+  },
+
   keywords: [
     "React",
     "Deployment",
@@ -25,7 +29,6 @@ export const metadata = {
 const Deploying = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Deploying Options in React: Netlify, Vercel, and GitHub Pages</h1>
       <p>
         Deploying your React application is an exciting step towards making it
@@ -129,7 +132,6 @@ const Deploying = () => {
           of your application, ready to be uploaded to a web server.
         </li>
       </ol>
-      
 
       <h3>Steps to Deploy on Netlify</h3>
       <p>Here are the steps to deploy your React application on Netlify:</p>

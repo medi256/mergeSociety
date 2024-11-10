@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,11 +9,14 @@ export const metadata = {
     "Learn how to style text with CSS fonts. Explore font-family, font-size, font-weight, font-style, text-decoration, text-transform, and line-height properties to enhance your web designs.",
   keywords:
     "CSS fonts, web typography, font-family, font-size, font-weight, font-style, text-decoration, text-transform, line-height, web design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-fonts",
+  },
   openGraph: {
     title: "The Art of Fonts in CSS: Mastering Typography for Web Design",
     description:
       "Discover the power of CSS fonts and learn how to create stunning typography for your web projects.",
-    type: "article",
+
     authors: ["MergeSociety"],
   },
 };
@@ -22,7 +24,6 @@ export const metadata = {
 const CSSFonts = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Art of Fonts in CSS</h1>
       <p>
         Fonts are like the brushstrokes that bring your web designs to life!
@@ -253,7 +254,6 @@ a {
         </tbody>
       </table>
 
-      
       <h2>Text Transform</h2>
       <p>
         The <code>text-transform</code> property allows you to control the
@@ -379,7 +379,7 @@ p {
           complementary fonts for your designs.
         </li>
       </ol>
-      
+
       <p>
         Remember, fonts have a significant impact on the user experience. Choose
         fonts that are legible, appropriate for your audience, and consistent

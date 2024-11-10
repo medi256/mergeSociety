@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,20 +9,19 @@ export const metadata = {
     "Learn about props in React, how to pass data between components, and their importance in building reusable and customizable applications. Explore examples, default props, and the differences between props and state.",
   keywords:
     "React, props, components, web development, programming, JavaScript, reusable components, default props, state",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/props",
+  },
   openGraph: {
     title: "What Are Props in React? - MergeSociety",
     description:
       "Discover how to use props in React for effective component communication and customization. Enhance your React skills with our comprehensive lesson.",
-
-    type: "article",
   },
 };
 
 const Props = () => {
   return (
     <div className="lesson-container">
-      
       <h1>What Are Props in React?</h1>
       <p>
         In React, <strong>props</strong> (short for "properties") are used to
@@ -123,7 +121,7 @@ export default App;
           being displayed.
         </li>
       </ul>
-      
+
       <h2>Why Are Props Read-Only?</h2>
       <p>
         It’s important to understand that <strong>props are read-only</strong>.
@@ -248,7 +246,7 @@ export default App;
         pass functions as props to allow child components to interact with their
         parent components.
       </p>
-      
+
       <h2>Summary</h2>
       <p>Let’s recap what we’ve learned about props:</p>
       <ul>

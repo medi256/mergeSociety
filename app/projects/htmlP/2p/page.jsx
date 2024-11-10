@@ -17,6 +17,9 @@ export const metadata = {
     "resume HTML example",
     "HTML resume guide",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/htmlP/2p",
+  },
 
   openGraph: {
     type: "website",

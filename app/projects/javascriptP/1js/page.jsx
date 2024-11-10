@@ -6,6 +6,10 @@ export const metadata = {
   description:
     "Learn how to create a responsive To-Do List application using JavaScript, HTML, and CSS. Step-by-step tutorial perfect for beginners learning web development.",
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/projects/javascriptP/1js",
+  },
+
   openGraph: {
     title:
       "Build a To-Do List App with JavaScript | Beginner-Friendly Tutorial",

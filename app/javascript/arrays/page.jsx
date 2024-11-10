@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,9 @@ export const metadata = {
     "data structures",
     "javascript coding",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/arrays",
+  },
   openGraph: {
     title: "JavaScript Arrays: The Ultimate Guide",
     description:
@@ -29,7 +31,6 @@ export const metadata = {
 const Arrays = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Arrays in JavaScript</h1>
 
       <h2>Understanding Arrays: An Analogy</h2>
@@ -158,7 +159,7 @@ console.log(fruits); // Output: ['apple', 'blueberry', 'cherry']
         Here, we changed the value of the second element (index 1) from 'banana'
         to 'blueberry'.
       </p>
-      
+
       <h2>Array Length</h2>
       <p>
         The length of an array is the number of elements it contains. You can
@@ -276,7 +277,7 @@ console.log(fruits); // Output: ['banana', 'cherry']
         <code>shift()</code> method returns the removed element, which we stored
         in the <code>firstFruit</code> variable.
       </p>
-      
+
       <h2>Iterating Over Arrays</h2>
       <p>
         You can loop through the elements of an array using a <code>for</code>{" "}

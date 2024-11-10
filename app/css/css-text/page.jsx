@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -21,19 +20,20 @@ export const metadata = {
     "CSS properties",
     "web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-text",
+  },
   openGraph: {
     title:
       "Styling Text in CSS: Word, Letter Spacing, Line Height, and Alignment",
     description:
       "Explore various CSS properties for text styling, including word spacing, letter spacing, line height, and text alignment. Learn how these properties can enhance readability and create visually engaging designs.",
-    type: "article",
   },
 };
 
 const CSSStyleText = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical Art of Styling Text in CSS</h1>
       <p>
         Styling text in CSS is like giving your words a magical makeover! You
@@ -193,7 +193,6 @@ div {
         </tbody>
       </table>
 
-      
       <h2>Practice Time!</h2>
       <p>
         Now it's time to put your knowledge into practice! Open your code editor
@@ -232,7 +231,7 @@ div {
           effects, or combining multiple text styling properties.
         </li>
       </ol>
-      
+
       <p>
         Remember, text styling plays a crucial role in web design. It helps
         convey the right tone, adds emphasis, and enhances the user experience.

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 export const metadata = {
@@ -18,21 +17,20 @@ export const metadata = {
     "beginner JavaScript",
     "JavaScript tutorial",
   ],
+  alternates: {
+    canonical:
+      "https://www.mergesociety.com/javascript/introduction-to-javascript",
+  },
   openGraph: {
     title: "Master JavaScript: The Essential Language for Web Developers",
     description:
       "Dive into JavaScript's rich history, current capabilities, and future potential. Start your journey to becoming a skilled web developer today!",
-    type: "article",
   },
-
-  category: "Web Development",
 };
 
 const JavascriptIntroduction = () => {
   return (
     <div className="lesson-container">
-      
-
       <h1>What is JavaScript?</h1>
       <p>
         Welcome to the fascinating world of JavaScript! JavaScript is a
@@ -97,7 +95,6 @@ const JavascriptIntroduction = () => {
         from the server and update the webpage without requiring a full page
         reload. This creates a seamless and responsive browsing experience.
       </p>
-      
 
       <h2>Getting Started with JavaScript</h2>
       <p>

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -20,6 +19,9 @@ export const metadata = {
     "programming tutorials",
     "web development",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/string-methods",
+  },
   openGraph: {
     title: "JavaScript String Methods: The Ultimate Guide",
     description:
@@ -30,7 +32,6 @@ export const metadata = {
 const StringMethods = () => {
   return (
     <div className="lesson-container">
-      
       <h1>String Methods in JavaScript</h1>
       <p>
         Strings in JavaScript are sequences of characters used to represent
@@ -122,7 +123,7 @@ console.log(message); // Output: Hello, Alice!
         simplicity. For instance:{" "}
         <code>const message = greeting + ', ' + name + '!';</code>
       </p>
-      
+
       <h2>
         3. The <code>search()</code> Method
       </h2>
@@ -220,7 +221,7 @@ console.log(lower); // Output: hello, world!
         formatting text to ensure consistency, such as converting user input to
         a standard case.
       </p>
-      
+
       <h2>
         6. The <code>slice()</code> Method
       </h2>
@@ -316,7 +317,7 @@ console.log(result2); // Output: false
         value exists in a string, such as validating input or searching for
         keywords.
       </p>
-      
+
       <h2>
         9. The <code>split()</code> Method
       </h2>

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -11,9 +10,10 @@ export const metadata = {
     "Learn how to effectively use attributes in JSX to enhance your React applications. Understand the differences between HTML and JSX attributes, camelCase syntax, embedding JavaScript, and self-closing tags. Perfect for beginners in web development.",
   keywords:
     "JSX, React, JSX attributes, web development, JavaScript, HTML, React components, coding tutorials",
-
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/jsx-attributes",
+  },
   openGraph: {
-    type: "article",
     title: "Mastering JSX Attributes in React",
     description:
       "Dive deep into JSX attributes in React. Explore how to modify UI elements, understand attribute syntax differences, and learn best practices for dynamic content.",
@@ -23,7 +23,6 @@ export const metadata = {
 const JSXAttribute = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Attributes in JSX: Enhancing UI Elements</h1>
       <p>
         In JSX, attributes work similarly to HTML. These attributes allow you to
@@ -100,7 +99,7 @@ const JSXAttribute = () => {
         <strong>class</strong>. This is one of the most important things to
         remember when adding classes to JSX elements.
       </p>
-      
+
       <strong>3. CamelCase for Attributes</strong>
       <p>
         Another key difference in JSX is how certain attributes are written. In
@@ -191,7 +190,7 @@ return <img src={imageUrl} alt="Dynamic Logo" />;
         Always remember to close self-closing tags with a slash (
         <strong>/</strong>) in JSX, or it will cause an error.
       </p>
-      
+
       <h2>Wrapping Up JSX Attributes</h2>
       <p>
         JSX attributes allow you to enhance your UI elements by adding

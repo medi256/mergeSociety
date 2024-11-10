@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -12,6 +11,10 @@ export const metadata = {
   keywords:
     "JSX, JavaScript XML, React, React tutorials, learn JSX, web development, front-end development, JavaScript, UI development",
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/jsx-intro",
+  },
+
   openGraph: {
     title: "Introduction to JSX: Learn JavaScript XML in React",
     description:
@@ -22,7 +25,6 @@ export const metadata = {
 const JSX = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to JSX (JavaScript XML)</h1>
 
       <p>
@@ -95,7 +97,7 @@ const element = <h1>Hello, world!</h1>;
         into that <strong>{`div`}</strong> . This is how everything you build
         using JSX shows up in the browser.
       </p>
-      
+
       <h2>JSX is More Powerful Than HTML</h2>
       <p>
         Unlike regular HTML, JSX allows you to embed JavaScript code inside it.
@@ -122,7 +124,7 @@ const element = <h1>Hello, {name}!</h1>;
         When this runs, the browser will display <strong>Hello, Medi! </strong>{" "}
         .
       </p>
-      
+
       <h2>Wrapping Up JSX</h2>
       <p>
         JSX is an important concept to understand because it forms the

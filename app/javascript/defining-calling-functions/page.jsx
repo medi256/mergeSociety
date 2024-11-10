@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -19,6 +18,11 @@ export const metadata = {
     "programming tutorials",
     "web development",
   ],
+  alternates: {
+    canonical:
+      "https://www.mergesociety.com/javascript/defining-calling-functions",
+  },
+
   openGraph: {
     title: "JavaScript Functions: The Ultimate Guide to Code Efficiency",
     description:
@@ -29,7 +33,6 @@ export const metadata = {
 const DefiningFunction = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Introduction to Functions</h1>
       <p>
         Welcome everyone! Today, we're going to learn about functions in
@@ -108,7 +111,7 @@ function walkForward() {
           when the function is called.
         </li>
       </ul>
-      
+
       <h2>Calling a Function</h2>
       <p>
         Defining a function doesn't execute it. To execute the code inside a
@@ -214,7 +217,7 @@ farewellUser(); // Output: Goodbye, User!
         <code>farewellUser</code>. Each function performs a specific task,
         making our code more organized and easier to read.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         Functions are a powerful tool in JavaScript that help you organize,

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,6 +9,9 @@ export const metadata = {
     "Learn how to use HTML paragraphs to improve text readability and content structure on your web pages. Discover best practices and practical examples for effective web development.",
   keywords:
     "HTML, HTML paragraphs, web development, improve readability, content structure, text formatting, coding for beginners, web design, SEO best practices, user engagement, HTML tutorial, web accessibility",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-paragraphs",
+  },
   openGraph: {
     title:
       "Mastering HTML Paragraphs: Enhance Readability and Structure | MergeSociety",
@@ -21,7 +23,6 @@ export const metadata = {
 const HTMLParagraphs = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Paragraphs in HTML</h1>
       <p>
         Welcome back, aspiring web developer! In this lesson, we'll be focusing
@@ -85,7 +86,7 @@ const HTMLParagraphs = () => {
           paragraphs to add space.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now, let's put your knowledge into practice! Open your code editor and
@@ -117,7 +118,7 @@ const HTMLParagraphs = () => {
           structure your content.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the basics of paragraphs in HTML and how

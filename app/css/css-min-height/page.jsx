@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -19,19 +18,20 @@ export const metadata = {
     "web layout",
   ],
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-min-height",
+  },
+
   openGraph: {
     title: "The World of Min-Height in CSS",
     description:
       "Discover the power of the min-height property in CSS for responsive and flexible web designs.",
-
-    type: "article",
   },
 };
 
 const CSSMinHeight = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The World of Min-Height in CSS</h1>
       <p>
         Min-height is a powerful property in CSS that allows you to set a
@@ -124,7 +124,7 @@ div {
           maintaining a harmonious and aesthetically pleasing appearance.
         </li>
       </ul>
-      
+
       <h2>Practice Time!</h2>
       <p>
         Now it's time to experiment with min-height in CSS! Open your code
@@ -153,7 +153,7 @@ div {
           content visibility.
         </li>
       </ol>
-      
+
       <p>
         Remember, min-height is a powerful tool in CSS. It helps create
         responsive and flexible designs that work well on various devices.

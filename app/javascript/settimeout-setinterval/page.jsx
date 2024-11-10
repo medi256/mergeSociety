@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -18,19 +17,20 @@ export const metadata = {
     "coding",
     "asynchronous JavaScript",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/settimeout-setinterval",
+  },
 
   openGraph: {
     title: "Understanding setTimeout and setInterval in JavaScript",
     description:
       "Master the use of setTimeout and setInterval in JavaScript with this comprehensive lesson featuring clear examples and practical applications.",
-    type: "article",
   },
 };
 
 const Time = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Understanding <code>setTimeout</code> and <code>setInterval</code> in
         JavaScript
@@ -85,7 +85,7 @@ setTimeout(function, delay);
           running the function. 1 second = 1000 milliseconds.
         </li>
       </ul>
-      
+
       <h3>
         Example of <code>setTimeout</code>
       </h3>
@@ -179,7 +179,7 @@ setInterval(function, interval);
           repetition of the function.
         </li>
       </ul>
-      
+
       <h3>
         Example of <code>setInterval</code>
       </h3>
@@ -316,7 +316,7 @@ setTimeout(() => {
           </SyntaxHighlighter>
         </code>
       </pre>
-      
+
       <h2>Practice: Try it Yourself</h2>
       <p>
         Now that you understand <code>setTimeout</code> and{" "}

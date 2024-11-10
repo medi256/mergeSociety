@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -17,19 +16,20 @@ export const metadata = {
     "Web Development",
     "JavaScript",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/component-hierarchy",
+  },
 
   openGraph: {
     title: "Understanding Component Hierarchy in React",
     description:
       "Learn about Component Hierarchy in React, its key concepts, and how to effectively manage components to create complex UIs.",
-    type: "article",
   },
 };
 
 const Hierarchy = () => {
   return (
     <div className="lesson-container">
-      
       <h1>What is Component Hierarchy?</h1>
       <p>
         In React, Component Hierarchy refers to the way components are organized
@@ -197,7 +197,7 @@ App
         In React, props and state play crucial roles in how components
         communicate and maintain data.
       </p>
-      
+
       <h3>Props</h3>
       <p>
         Props (short for properties) are used to pass data from a parent
@@ -270,7 +270,7 @@ export default Counter;
           <code>onClick</code> event triggers the handleIncrement function.
         </li>
       </ul>
-      
+
       <h2>Summary</h2>
       <p>
         Component Hierarchy and Nesting help in organizing and structuring your

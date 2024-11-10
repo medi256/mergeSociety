@@ -11,6 +11,10 @@ export const metadata = {
   keywords:
     "CSS media queries, responsive design, web development, media query examples, CSS tutorials, mobile-first design",
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-media-queries",
+  },
+
   openGraph: {
     title: "Mastering CSS Media Queries for Responsive Design",
     description:

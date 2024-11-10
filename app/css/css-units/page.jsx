@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -22,19 +21,20 @@ export const metadata = {
     "CSS properties",
   ],
 
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-units",
+  },
+
   openGraph: {
     title: "CSS Units | The Magical World of Units in CSS",
     description:
       "Discover the key CSS units like pixels, percentages, ems, rems, and time units. Learn how to use them for scalable and responsive web design.",
-
-    type: "article",
   },
 };
 
 const CSSUnits = () => {
   return (
     <div className="lesson-container">
-      
       <h1>The Magical World of Units in CSS</h1>
       <p>
         Units in CSS are like the building blocks of measurements. They allow
@@ -128,7 +128,7 @@ div {
           300ms for a subtle transition effect.
         </li>
       </ul>
-      
+
       <h2>Using Time Units</h2>
       <p>Here's an example of how to use time units in CSS:</p>
 
@@ -170,7 +170,7 @@ div {
           larger and smaller values to see the impact on the design.
         </li>
       </ol>
-      
+
       <p>
         Remember, units play a crucial role in CSS. They provide precision,
         consistency, and flexibility in your designs. Choose units that align

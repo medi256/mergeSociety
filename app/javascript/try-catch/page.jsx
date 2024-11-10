@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -18,17 +17,15 @@ export const metadata = {
     "Web Development",
     "Coding Tutorial",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/try-catch",
+  },
   openGraph: {
     title: "Master JavaScript Error Handling with Try/Catch",
     description:
       "Discover how to write robust JavaScript code using Try/Catch statements. Perfect for beginners and intermediate developers looking to level up their error handling skills.",
-    type: "article",
-    article: {
-      tags: ["JavaScript", "Try/Catch", "Error Handling", "Web Development"],
-    },
   },
 
-  themeColor: "#4285f4",
   schema: {
     "@context": "https://schema.org",
     "@type": "TechArticle",
@@ -48,7 +45,6 @@ export const metadata = {
 const tryCatch = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Understanding Try/Catch Statements in JavaScript</h1>
 
       <p>
@@ -157,7 +153,7 @@ try {
         <code>catch</code> block will catch that error, and we can handle it (in
         this case, by logging the error message to the console).
       </p>
-      
+
       <h2>Why Use the "throw" Keyword?</h2>
       <p>
         You might want to use the <code>throw</code> keyword when you need to
@@ -246,7 +242,7 @@ fetchData(); // Calling the async function
         <li>Allows you to control what happens when an error is detected.</li>
         <li>Makes debugging easier by providing error messages.</li>
       </ul>
-      
+
       <h2>Conclusion</h2>
       <p>
         <code>Try/Catch Statements</code> are essential for writing reliable

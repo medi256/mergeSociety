@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -10,19 +9,19 @@ export const metadata = {
     "Discover the power of CSS animations! Learn how to create dynamic visual effects and improve user experience with keyframe animations, properties, and practical examples.",
   keywords:
     "CSS animations, keyframes, web design, user experience, visual effects, CSS properties, interactive design",
+  alternates: {
+    canonical: "https://www.mergesociety.com/css/css-animations",
+  },
   openGraph: {
     title: "Animation in CSS - Enhance Your Web Designs",
     description:
       "Unlock the potential of CSS animations to create visually stunning web designs that engage users and enhance interactivity.",
-
-    type: "article",
   },
 };
 
 const CSSAnimations = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Animation in CSS</h1>
       <p>
         Animation is a powerful CSS feature that allows you to bring your
@@ -128,7 +127,7 @@ const CSSAnimations = () => {
           <code>normal</code>, <code>alternate</code>, or <code>reverse</code>.
         </li>
       </ul>
-      
+
       <h2>Using Animation</h2>
       <p>
         Animation can be used in various ways to create visually appealing and
@@ -248,7 +247,7 @@ const CSSAnimations = () => {
           flexibility to stand out.
         </li>
       </ul>
-      
+
       <h2>Challenges of Animation</h2>
       <p>
         While animation is a powerful tool, it also comes with some challenges:
@@ -294,7 +293,7 @@ const CSSAnimations = () => {
           interactive elements, or achieving subtle visual effects.
         </li>
       </ol>
-      
+
       <p>
         Remember, animation is a powerful tool in CSS that allows you to bring
         your designs to life. Choose animation options that align with your

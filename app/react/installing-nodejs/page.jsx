@@ -13,11 +13,13 @@ export const metadata = {
     "package manager",
     "beginner's guide",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/installing-nodejs",
+  },
   openGraph: {
     title: "Install Node.js & npm: A Guide for React Beginners",
     description:
       "Master the first step in React development: installing Node.js and npm. Clear instructions and expert tips for a smooth setup.",
-    type: "article",
   },
 };
 

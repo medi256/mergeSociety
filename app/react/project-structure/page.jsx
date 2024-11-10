@@ -13,11 +13,14 @@ export const metadata = {
     "React for beginners",
     "React application architecture",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/project-structure",
+  },
   openGraph: {
     title: "Master React Project Structure: From Beginner to Pro",
     description:
       "Dive deep into React project structure. Understand every folder and file in your React app, and learn how they work together to create powerful web applications.",
-    type: "article",
   },
 };
 

@@ -9,13 +9,14 @@ export const metadata = {
     "Master event handling in React functional components. Learn how to handle button clicks, pass arguments to event handlers, and understand the differences between React events and regular HTML events.",
   keywords:
     "React, event handling, functional components, button clicks, onClick, web development, JavaScript, programming, interactive applications",
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/event-handlers",
+  },
 
   openGraph: {
     title: "Handling Events in React (Functional Components) - MergeSociety",
     description:
       "Explore how to handle events in React, focusing on button clicks and passing arguments to event handlers. Enhance your React skills with this comprehensive lesson.",
-
-    type: "article",
   },
 };
 

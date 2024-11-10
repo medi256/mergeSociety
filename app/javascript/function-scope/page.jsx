@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -21,6 +20,10 @@ export const metadata = {
     "javascript coding",
     "code organization",
   ],
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/function-scope",
+  },
+
   openGraph: {
     title: "Mastering Function Scope in JavaScript",
     description:
@@ -31,7 +34,6 @@ export const metadata = {
 const Scope = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Function Scope in JavaScript</h1>
       <p>
         Welcome back! We've learned how to define and call functions, use
@@ -123,7 +125,7 @@ console.log(tool); // Error: tool is not defined
         available to that student. Similarly, locally scoped variables are only
         available within the function they are declared in.
       </p>
-      
+
       <h2>Why is Scope Important?</h2>
       <p>
         Understanding scope helps you avoid errors and write cleaner code. It
@@ -211,7 +213,7 @@ outerFunction();
         Similarly, nested functions can access variables from their own scope
         and the scope of the function they are nested within.
       </p>
-      
+
       <h2>Conclusion</h2>
       <p>
         Understanding scope is crucial for managing variables and functions

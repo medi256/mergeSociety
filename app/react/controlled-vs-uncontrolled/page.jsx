@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -16,6 +15,11 @@ export const metadata = {
     "controlled vs uncontrolled",
     "react forms tutorial",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/react/controlled-vs-uncontrolled",
+  },
+
   openGraph: {
     title: "React Forms: Controlled vs Uncontrolled Components",
     description:
@@ -26,7 +30,6 @@ export const metadata = {
 const ControlledeUncrolled = () => {
   return (
     <div className="lesson-container">
-      
       <h1>
         Controlled vs Uncontrolled Components in React: A Beginner's Guide
       </h1>
@@ -193,7 +196,7 @@ export default UncontrolledForm;`}
           direct DOM access.
         </li>
       </ul>
-      
+
       <h2>4. Conclusion</h2>
       <p>
         We've explored Controlled and Uncontrolled Components in React.

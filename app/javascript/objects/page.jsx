@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -20,6 +19,11 @@ export const metadata = {
     "data structures",
     "javascript coding",
   ],
+
+  alternates: {
+    canonical: "https://www.mergesociety.com/javascript/objects",
+  },
+
   openGraph: {
     title: "JavaScript Objects: The Ultimate Guide",
     description:
@@ -30,7 +34,6 @@ export const metadata = {
 const Objects = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Objects in JavaScript</h1>
 
       <h2>Introduction</h2>
@@ -99,7 +102,7 @@ console.log(carMake);     // Output: Toyota
         Here, <code>car.make</code> retrieves the value of the <code>make</code>{" "}
         property from the <code>car</code> object.
       </p>
-      
+
       <h3>Bracket Notation</h3>
       <p>
         Bracket notation is useful when property names are dynamic or contain
@@ -221,7 +224,7 @@ console.log('owner' in car); // Output: false
         The <code>in</code> operator returns <code>true</code> if the property
         exists in the object, and <code>false</code> otherwise.
       </p>
-      
+
       <h3>
         <code>hasOwnProperty()</code> Method
       </h3>
@@ -303,7 +306,7 @@ console.log(combinedCar);
         from <code>carDetails</code> and <code>carSpecs</code> into a new object{" "}
         <code>combinedCar</code>.
       </p>
-      
+
       <h3>Spread Operator</h3>
       <p>
         The spread operator <code>...</code> allows you to create a new object

@@ -1,4 +1,3 @@
-
 import Button from "@/app/button";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -9,6 +8,9 @@ export const metadata = {
     "Dive into the world of HTML forms in this comprehensive lesson. Learn how to create various input fields, implement form validation, and follow best practices for effective user interaction.",
   keywords:
     "HTML, forms in HTML, input fields, web development, coding for beginners, HTML tutorial, form validation, best practices for forms",
+  alternates: {
+    canonical: "https://www.mergesociety.com/html/html-forms",
+  },
   openGraph: {
     title: "Forms in HTML: Creating Interactive User Inputs | MergeSociety",
     description:
@@ -19,7 +21,6 @@ export const metadata = {
 const HTMLForms = () => {
   return (
     <div className="lesson-container">
-      
       <h1>Forms in HTML</h1>
       <p>
         Welcome back, aspiring web developer! In this lesson, we'll dive deep
@@ -187,7 +188,7 @@ const HTMLForms = () => {
         customize the input fields using attributes like "placeholder," "value,"
         "required," and more.
       </p>
-      
+
       <h2>Input Field Attributes</h2>
       <p>
         There are several attributes that you can use with the{" "}
@@ -338,7 +339,7 @@ const HTMLForms = () => {
           </pre>
         </li>
       </ul>
-      
+
       <h2>Form Validation</h2>
       <p>
         Form validation is the process of checking the user's input for accuracy
@@ -461,7 +462,7 @@ const HTMLForms = () => {
           <code>{`<select>`}</code> , to create more complex forms.
         </li>
       </ol>
-      
+
       <h2>Conclusion</h2>
       <p>
         In this lesson, we've explored the world of forms in HTML, including the
