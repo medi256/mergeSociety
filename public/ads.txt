@@ -1,4 +1,4 @@
-# Ads.txt v20241105
+# Ads.txt v20241111
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -7,14 +7,12 @@ journeymv.com, cf5f27a3-d540-40ea-b0a8-f30418314d5d, DIRECT, 1363c924529b3998
 google.com, pub-1601477034266482, DIRECT, f08c47fec0942fa0
 google.com, pub-1601477034266482, RESELLER, f08c47fec0942fa0
 media.net, 8CU41446D, DIRECT
-pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
 openx.com, 537100188, RESELLER, 6a698e2ec38604c6
 rubiconproject.com, 19396, RESELLER, 0bfd66d529a55807
 onetag.com, 5d49f482552c9b6, RESELLER
 improvedigital.com, 2368, DIRECT
 yieldmo.com, 3443142311460937743, DIRECT
 rubiconproject.com, 17070, RESELLER, 0bfd66d529a55807
-pubmatic.com, 160648, RESELLER, 5d62403b186f2ace
 openx.com, 558228330, RESELLER, 6a698e2ec38604c6
 contextweb.com, 561118, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 100270, RESELLER, 03113cd04947736d
@@ -35,11 +33,8 @@ google.com, pub-6358294573682566, RESELLER, f08c47fec0942fa0
 aps.amazon.com, 91667ea5-81f1-433a-99ca-8c9df5934ce7, RESELLER
 Triplelift.com, 11584-EB, RESELLER, 6c33edb13117fd86
 appnexus.com, 7424, RESELLER
-pubmatic.com, 160247, RESELLER, 5d62403b186f2ace
-pubmatic.com, 160382, RESELLER, 5d62403b186f2ace
 openx.com, 537153564, RESELLER, 6a698e2ec38604c6
 rubiconproject.com, 22412, RESELLER, 0bfd66d529a55807
-pubmatic.com, 160318, RESELLER, 5d62403b186f2ace
 indexexchange.com, 197137, RESELLER, 50b1c356f2c5c8fc
 sharethrough.com, PgB8P48H, RESELLER, d53b998a7bd4ecd2
 Media.net, 8CUA286RD, RESELLER
@@ -55,7 +50,6 @@ openx.com, 560606532, DIRECT, 6a698e2ec38604c6
 triplelift.com, 14132, DIRECT, 6c33edb13117fd86
 minutemedia.com, 01hkmpfn2nne, DIRECT
 minutemedia.com, 01hkmpfn2nne, RESELLER
-pubmatic.com, 161683, RESELLER, 5d62403b186f2ace
 appnexus.com, 8381, RESELLER, f5ab79cb980f11d1
 triplelift.com, 6030, RESELLER, 6c33edb13117fd86
 openx.com, 540780517, RESELLER, 6a698e2ec38604c6
@@ -79,7 +73,6 @@ freewheel.tv,1577878,RESELLER
 freewheel.tv,1577888,RESELLER
 adyoulike.com, 53264963677efeda057eef7db2cb305f, RESELLER, 4ad745ead2958bf7
 risecodes.com, 65a3efa13a58f100018b923c, DIRECT
-pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 xandr.com, 14082, RESELLER
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
 openx.com, 537140488, RESELLER, 6a698e2ec38604c6
@@ -91,7 +84,6 @@ yieldmo.com, 2754490424016969782, RESELLER
 themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
 33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
 aps.amazon.com,fc983fef-a09b-46c9-b3c8-44d705e51b5d,DIRECT
-pubmatic.com,157150,RESELLER,5d62403b186f2ace
 openx.com,540191398,RESELLER,6a698e2ec38604c6
 rubiconproject.com,18020,RESELLER,0bfd66d529a55807
 appnexus.com,1908,RESELLER,f5ab79cb980f11d1
@@ -104,8 +96,6 @@ appnexus.com,3663,RESELLER,f5ab79cb980f11d1
 rhythmone.com,1654642120,RESELLER,a670c89d4a324e47
 smartadserver.com,4125,RESELLER,060d053dcf45cbf3
 indexexchange.com,192410,RESELLER,50b1c356f2c5c8fc
-pubmatic.com,160006,RESELLER,5d62403b186f2ace
-pubmatic.com,160096,RESELLER,5d62403b186f2ace
 undertone.com,4205,RESELLER,d954590d0cb265b9
 sharethrough.com,7144eb80,RESELLER,d53b998a7bd4ecd2
 appnexus.com,1356,RESELLER,f5ab79cb980f11d1
@@ -127,7 +117,6 @@ yieldmo.com, 3078438591206989879, RESELLER
 aniview.com, 66ba73a97566d9303e011704, RESELLER, 78b21b97965ec3f8
 sharethrough.com, zLsEa05k, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
-pubmatic.com, 161335, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 13918, RESELLER, 0bfd66d529a55807
 richaudience.com, 1ru8dKmJJV, RESELLER
 rubiconproject.com, 13510, RESELLER, 0bfd66d529a55807
@@ -135,6 +124,7 @@ themediagrid.com, 72YI3C, DIRECT, 35d5010d7789b49d
 emxdgt.com, 1403, DIRECT, 1e1d41537f7cad7f
 conversantmedia.com, 100316, RESELLER, 03113cd04947736d
 video.unrulymedia.com, 232050197, DIRECT
+trustx.org, 5606, DIRECT, 1d2c8a747a749d25
 
 
 
