@@ -1,3 +1,4 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
@@ -14,11 +15,20 @@ export const metadata = {
     title:
       "Build a Random Quote Generator with JavaScript | Beginner-Friendly Tutorial",
     description:
-      "Create your own random quote generator from scratch. Master JavaScript API calls, DOM manipulation, and responsive design in this comprehensive tutorial.",
+      "Create a random quote generator and learn API integration, DOM manipulation, and responsive design. A perfect project for beginners!",
   },
-
-  keywords:
-    "javascript, web development, api integration, dom manipulation, css styling, responsive design, quote generator, javascript project  for beginners, js  project, html css javascript project",
+  keywords: [
+    "javascript",
+    "web development",
+    "api integration",
+    "dom manipulation",
+    "css styling",
+    "responsive design",
+    "quote generator",
+    "javascript project for beginners",
+    "js project",
+    "html css javascript project",
+  ],
 };
 
 const RandomQuoteGenerator = () => {
@@ -31,31 +41,21 @@ const RandomQuoteGenerator = () => {
       </div>
 
       <h2>Introduction to the Random Quote Generator</h2>
-      <h3>Welcome to Building a Random Quote Generator with JavaScript! 🚀</h3>
-
       <p>
-        In this project, we'll create a simple app that fetches random quotes
-        from an API and updates the UI dynamically. This project will help you
-        learn the basics of API integration and UI updates in JavaScript.
-      </p>
-      <p>Here's what we'll cover in this tutorial:</p>
-      <ul>
-        <li>Setting up the HTML structure for the quote generator.</li>
-        <li>Applying basic styling to the quote generator.</li>
-        <li>Adding JavaScript to handle user interactions and API calls.</li>
-        <li>Displaying random quotes from an API.</li>
-        <li>
-          Making the quote generator responsive for different screen sizes.
-        </li>
-      </ul>
-      <p>
-        By the end of this project, you'll have a fully functional random quote
-        generator. Let's get started by setting up our project files!
+        Welcome to the beginner-friendly tutorial on building a Random Quote
+        Generator with JavaScript! In this project, we'll create a simple app
+        that fetches random quotes from an API and displays them dynamically.
+        This project is an excellent way to learn API integration and UI updates
+        in JavaScript.
       </p>
 
       <h2>Setting Up Your Workspace</h2>
       <h3>Creating Your Project Folder and Files</h3>
-      <p>Before we start coding, let's set up a workspace for our project:</p>
+      <p>
+        Before we begin coding, let's set up a workspace for our project. Think
+        of this folder as your digital canvas, where you'll keep all the project
+        files organized.
+      </p>
       <div
         className="step-box"
         style={{
@@ -67,27 +67,21 @@ const RandomQuoteGenerator = () => {
       >
         <h4>Step 1: Create Your Project Folder</h4>
         <p>
-          Think of this folder like a container where we'll keep all our project
-          files - just like having a special drawer for your art supplies!
+          Create a new folder on your computer to store all your project files.
+          You can name it "random-quote-generator".
         </p>
-        <ul>
-          <li>
-            <strong>On Windows:</strong>
-            <ol>
-              <li>Right-click on your desktop</li>
-              <li>Choose "New" &gt; "Folder"</li>
-              <li>Name it "random-quote-generator"</li>
-            </ol>
-          </li>
-          <li>
-            <strong>On Mac:</strong>
-            <ol>
-              <li>Right-click on your desktop</li>
-              <li>Choose "New Folder"</li>
-              <li>Name it "random-quote-generator"</li>
-            </ol>
-          </li>
-        </ul>
+        <strong>On Windows:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New" &gt; "Folder"</li>
+          <li>Name it "random-quote-generator"</li>
+        </ol>
+        <strong>On Mac:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New Folder"</li>
+          <li>Name it "random-quote-generator"</li>
+        </ol>
       </div>
 
       <div
@@ -101,20 +95,18 @@ const RandomQuoteGenerator = () => {
       >
         <h4>Step 2: Get Your Text Editor Ready</h4>
         <p>
-          A text editor is like your crafting tool - it's where we'll write our
-          code. We recommend Visual Studio Code because it's free and
-          beginner-friendly!
+          You'll need a text editor to write your code. We recommend Visual
+          Studio Code, which is free and beginner-friendly.
         </p>
         <ol>
           <li>
             Download Visual Studio Code from{" "}
-            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span> if
-            you haven't already
+            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>.
           </li>
-          <li>Install it on your computer</li>
+          <li>Install it on your computer.</li>
           <li>
             Open VS Code and drag your "random-quote-generator" folder into the
-            window
+            window.
           </li>
         </ol>
       </div>
@@ -129,32 +121,36 @@ const RandomQuoteGenerator = () => {
         }}
       >
         <h4>Step 3: Create Your Project Files</h4>
-        <p>
-          We need three special files - think of them as three pieces of paper
-          where we'll write different things:
-        </p>
+        <p>We need three essential files for our project:</p>
         <ul>
           <li>
-            <strong>index.html</strong> - This is like the blueprint of our
-            quote generator (the structure)
+            <strong>index.html</strong> - The HTML file is like the blueprint of
+            our app.
           </li>
           <li>
-            <strong>styles.css</strong> - This is like our painting palette
-            (where we make things pretty)
+            <strong>styles.css</strong> - The CSS file is where we'll add styles
+            to make our app look beautiful.
           </li>
           <li>
-            <strong>script.js</strong> - This is like our magic wand (where we
-            make things interactive)
+            <strong>script.js</strong> - The JavaScript file is where the magic
+            happens, making our app interactive.
           </li>
         </ul>
         <p>To create these files:</p>
         <ol>
-          <li>Click "New File" in VS Code</li>
-          <li>Save it as "index.html"</li>
-          <li>Create another new file</li>
-          <li>Save it as "styles.css"</li>
-          <li>Create one more new file</li>
-          <li>Save it as "script.js"</li>
+          <li>Open VS Code.</li>
+          <li>
+            <strong>index.html</strong> - Click "New File" and save it as
+            "index.html".
+          </li>
+          <li>
+            <strong>styles.css</strong> - Click "New File" again and save it as
+            "styles.css".
+          </li>
+          <li>
+            <strong>script.js</strong> - Click "New File" once more and save it
+            as "script.js".
+          </li>
         </ol>
       </div>
 
@@ -168,26 +164,24 @@ const RandomQuoteGenerator = () => {
         }}
       >
         <p>
-          <strong>🎯 Success Check:</strong> At this point, you should have:
+          <strong>🎯 Success Check:</strong> You should now have:
         </p>
         <ul>
-          <li>A folder named "random-quote-generator" on your desktop</li>
-          <li>Visual Studio Code open with your folder</li>
-          <li>Three empty files: index.html, styles.css, and script.js</li>
+          <li>A folder named "random-quote-generator" on your desktop.</li>
+          <li>Visual Studio Code open with your folder.</li>
+          <li>Three empty files: index.html, styles.css, and script.js.</li>
         </ul>
         <p>
-          <strong>👉 Need Help?</strong> If something's not working, try closing
-          VS Code and opening it again, or create the files using the "File →
-          New File" menu.
+          <strong>👉 Tip:</strong> If something's not working, try restarting VS
+          Code or creating the files using the "File → New File" menu.
         </p>
       </div>
 
       <h2>Setting Up the HTML Structure</h2>
       <h3>Creating the Quote Generator HTML</h3>
-
       <p>
-        Before we dive into CSS and JavaScript, let's set up the HTML structure
-        for our random quote generator:
+        Let's start by building the HTML structure for our random quote
+        generator. HTML is like the foundation of our app.
       </p>
       <ol className="space-y-6">
         <li>
@@ -224,15 +218,15 @@ const RandomQuoteGenerator = () => {
           </pre>
         </li>
       </ol>
-      <p>Let's understand the HTML structure:</p>
+      <p>Let's break down the HTML structure:</p>
       <ul>
         <li>
-          <code>&lt;div class="container"&gt;</code>: Represents the container
-          for the quote generator.
+          <code>&lt;div class="container"&gt;</code>: This is the main container
+          for our app.
         </li>
         <li>
           <code>&lt;h1&gt;Random Quote Generator&lt;/h1&gt;</code>: The title of
-          the quote generator.
+          our app.
         </li>
         <li>
           <code>&lt;div class="quote-container"&gt;</code>: The container for
@@ -256,15 +250,14 @@ const RandomQuoteGenerator = () => {
       </ul>
       <p>
         Save your "index.html" file. Now we have the basic HTML structure in
-        place. In the next step, we'll start applying CSS styles to our quote
-        generator.
+        place. In the next step, we'll add some styling to make it look nice!
       </p>
 
       <h2>Styling the Quote Generator</h2>
-      <h3>Styling the Quote Generator</h3>
+      <h3>Adding CSS Styles</h3>
       <p>
-        Let's start by styling the quote generator to ensure a consistent and
-        clean layout.
+        CSS is like the paint and brushes we use to make our app visually
+        appealing. Let's add some styles to our random quote generator.
       </p>
       <ol className="space-y-6">
         <li>
@@ -335,13 +328,12 @@ button:hover {
       <p>Let's understand the CSS rules we just added:</p>
       <ul>
         <li>
-          <code>body</code>: Sets the default font, removes default margin and
-          padding, sets a light gray background, and centers the content using
-          flexbox.
+          <code>body</code>: Sets the default font, removes margins and padding,
+          and centers the content on the screen.
         </li>
         <li>
           <code>.container</code>: Styles the container with a white background,
-          padding, rounded corners, a shadow, and a fixed width.
+          padding, rounded corners, and a shadow.
         </li>
         <li>
           <code>h1</code>: Styles the title with a larger font size and margin.
@@ -367,17 +359,18 @@ button:hover {
         Save your "styles.css" file. Now, if you open "index.html" in a web
         browser, you'll see the styled quote generator.
       </p>
+
+      <h2>Adding JavaScript for User Interactions</h2>
+      <h3>Handling Form Submission and Adding Tasks</h3>
       <p>
-        In the next step, we'll start adding JavaScript to handle user
-        interactions and fetch random quotes from an API.
+        Now, let's add JavaScript to make our app interactive! We'll start by
+        handling user interactions and fetching quotes from the API.
       </p>
 
-      <h2>Adding JavaScript for User Interactions: Part 1</h2>
-      <h3>Adding JavaScript for User Interactions: Part 1</h3>
-
+      <h4>Selecting HTML Elements</h4>
       <p>
-        Let's start adding JavaScript to handle user interactions, such as
-        fetching random quotes from an API.
+        First, we need to select the HTML elements we want to work with. We'll
+        select the button and the paragraph element.
       </p>
       <ol className="space-y-6">
         <li>
@@ -390,115 +383,76 @@ button:hover {
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`document.addEventListener('DOMContentLoaded', () => {
-  const getQuoteButton = document.getElementById('get-quote');
-  const quoteElement = document.getElementById('quote');
-});`}
+                {`// Selecting HTML elements
+const getQuoteButton = document.getElementById('get-quote');
+const quoteElement = document.getElementById('quote');`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`document.addEventListener('DOMContentLoaded', () => { ... })`}</code>
-          : Ensures that the JavaScript code runs only after the DOM has been
-          fully loaded.
-        </li>
-        <li>
-          <code>
-            const getQuoteButton = document.getElementById('get-quote');
-          </code>
-          : Selects the button element.
-        </li>
-        <li>
-          <code>const quoteElement = document.getElementById('quote');</code>:
-          Selects the paragraph element where the quote will be displayed.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. Now, we have selected the necessary elements
-        from the DOM. In the next step, we'll add the functionality to fetch a
-        random quote from an API.
+        Here, we're using the <code>getElementById</code> method to select the
+        HTML elements with specific IDs.
       </p>
 
-      <h2>Adding JavaScript for User Interactions: Part 2</h2>
-      <h3>Adding JavaScript for User Interactions: Part 2</h3>
+      <h4>Handling Button Click</h4>
       <p>
-        Let's add the functionality to fetch a random quote from an API and
-        update the UI.
+        Next, we'll add an event listener to the button to handle the click
+        event. We'll fetch a random quote from the API and update the UI.
       </p>
-      <ol className="space-y-6">
+      <ol className="space-y-6" start={3}>
         <li>
-          <strong>1. Open "script.js":</strong> Open the "script.js" file in
-          your code editor.
-        </li>
-        <li>
-          <strong>2. Fetching a Random Quote:</strong> Copy and paste the
+          <strong>3. Handling Button Click:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`document.addEventListener('DOMContentLoaded', () => {
-  const getQuoteButton = document.getElementById('get-quote');
-  const quoteElement = document.getElementById('quote');
-
-  getQuoteButton.addEventListener('click', () => {
-    fetch('https://api.quotable.io/random')
-      .then(response => response.json())
-      .then(data => {
-        quoteElement.textContent = \`\${data.content} - \${data.author}\`;
-      })
-      .catch(error => { console.error('Error fetching quote:', error); });
-  });
+                {`// Handling button click
+getQuoteButton.addEventListener('click', () => {
+  fetch('https://quotes-api-self.vercel.app/quote')
+    .then(response => response.json())
+    .then(data => {
+      quoteElement.textContent = \`\${data.quote} - \${data.author}\`;
+    })
+    .catch(error => { console.error('Error fetching quote:', error); });
 });`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`getQuoteButton.addEventListener('click', () => { ... })`}</code>
-          : Adds an event listener to the button to handle the click event.
-        </li>
-        <li>
-          <code>fetch('https://api.quotable.io/random')</code>: Sends a GET
-          request to the API to fetch a random quote.
-        </li>
-        <li>
-          <code>{`.then(response => response.json())`}</code>: Converts the
-          response to JSON format.
-        </li>
-        <li>
-          <code>{`.then(data => { ... })`}</code>: Handles the JSON data and
-          updates the quote element with the fetched quote and author.
-        </li>
-        <li>
-          <code>
-            {`
-                quoteElement.textContent = \`\${data.content} - \${data.author}
-                \`;`}
-          </code>
-          : Sets the text content of the quote element to the fetched quote and
-          author.
-        </li>
-        <li>
-          <code>{`.catch(error => { console.error('Error fetching quote:', error); })`}</code>
-          : Handles any errors that occur during the fetch request.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. Now, if you open "index.html" in a web
-        browser, you'll be able to fetch and display random quotes by clicking
-        the "Get Quote" button.
+        In this part, we're using the <code>addEventListener</code> method to
+        listen for the 'click' event on the button. We fetch a random quote from
+        the API, update the UI with the quote and author, and handle any errors
+        that might occur during the fetch request.
       </p>
+
+      <h3>Putting It All Together</h3>
       <p>
-        In the next step, we'll make the quote generator responsive for
-        different screen sizes.
+        Now, let's put everything together. If you've been following along and
+        pasting the code into your "script.js" file, it should look like this:
       </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`// Selecting HTML elements
+const getQuoteButton = document.getElementById('get-quote');
+const quoteElement = document.getElementById('quote');
+
+// Handling button click
+getQuoteButton.addEventListener('click', () => {
+  fetch('https://quotes-api-self.vercel.app/quote')
+    .then(response => response.json())
+    .then(data => {
+      quoteElement.textContent = \`\${data.quote} - \${data.author}\`;
+    })
+    .catch(error => { console.error('Error fetching quote:', error); });
+});`}
+          </SyntaxHighlighter>
+        </code>
+      </pre>
 
       <h2>Making the Quote Generator Responsive</h2>
       <h3>Making the Quote Generator Responsive</h3>
