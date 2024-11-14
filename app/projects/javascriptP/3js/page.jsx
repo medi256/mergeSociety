@@ -1,121 +1,196 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Build a JavaScript Quiz Game - Tutorial for Beginners",
+  title: "Build a JavaScript Quiz Game | Beginner-Friendly Tutorial",
   description:
-    "Learn how to build a JavaScript quiz game with this step-by-step tutorial. From setting up your workspace to implementing quiz logic, we'll guide you through each step to create a fun, interactive game.",
-  keywords:
-    "JavaScript, quiz game, beginner tutorial, HTML, CSS, JavaScript quiz,javascript project, beginner javascript project,  tutorial, web development",
+    "Learn how to create a fun quiz game using JavaScript, HTML, and CSS. This step-by-step tutorial covers arrays, functions, and quiz logic. Perfect for beginners!",
   alternates: {
     canonical: "https://www.mergesociety.com/projects/javascriptP/3js",
   },
-
   openGraph: {
-    title: "Build a JavaScript Quiz Game - Tutorial for Beginners",
+    title: "Build a JavaScript Quiz Game | Beginner-Friendly Tutorial",
     description:
-      "Master JavaScript by building a quiz game in this step-by-step tutorial. Learn HTML, CSS, and JavaScript while creating a fun quiz game from scratch.",
+      "Create a fun quiz game and learn arrays, functions, and quiz logic. A perfect project for beginners!",
   },
+  keywords: [
+    "javascript",
+    "web development",
+    "arrays",
+    "functions",
+    "quiz logic",
+    "css styling",
+    "responsive design",
+    "quiz game",
+    "javascript project for beginners",
+    "js project",
+    "html css javascript project",
+    "follow  a  beginner  javascript  project  step  by  step",
+    "build a quiz game  with  javascript ",
+  ],
 };
 
-const JavaScriptQuizGame = () => {
+const QuizGame = () => {
   return (
     <div className="lesson-container">
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
         <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
-          Build a JavaScript Quiz Game - Tutorial for Beginners
+          Building a JavaScript Quiz Game
         </h1>
       </div>
 
       <h2>Introduction to the JavaScript Quiz Game</h2>
-      <h3>Welcome to Building a JavaScript Quiz Game!</h3>
-
       <p>
-        In this project, we'll create a simple quiz game where users can answer
-        multiple-choice questions. This project will help you learn the basics
-        of arrays, functions, and quiz logic in JavaScript.
-      </p>
-      <p>Here's what we'll cover in this tutorial:</p>
-      <ul>
-        <li>Setting up the HTML structure for the quiz game.</li>
-        <li>Applying basic styling to the quiz game.</li>
-        <li>Adding JavaScript to handle quiz logic and user interactions.</li>
-        <li>Managing questions, tracking scores, and displaying results.</li>
-        <li>Making the quiz game responsive for different screen sizes.</li>
-      </ul>
-      <p>
-        By the end of this project, you'll have a fully functional JavaScript
-        quiz game. Let's get started by setting up our project files!
+        Welcome to the beginner-friendly tutorial on building a JavaScript Quiz
+        Game! In this project, we'll create a fun quiz game where users can
+        answer multiple-choice questions. This project is an excellent way to
+        learn how to use arrays and functions to manage questions, track scores,
+        and display results.
       </p>
 
       <h2>Setting Up Your Workspace</h2>
       <h3>Creating Your Project Folder and Files</h3>
-      <p>Before we start coding, let's set up a workspace for our project:</p>
-      <ol>
-        <li>
-          On Windows: Right-click on your desktop, select "New" &gt; "Folder",
-          and name it "javascript-quiz-game".
-        </li>
-        <li>
-          On Mac: Right-click on your desktop, select "New Folder", and name it
-          "javascript-quiz-game".
-        </li>
-        <li>
-          <strong>Open the Folder in a Text Editor:</strong>
-          <ul>
-            <li>
-              <strong>Visual Studio Code:</strong> If you have VS Code,
-              right-click on the "javascript-quiz-game" folder and select "Open
-              with Code".
-            </li>
-            <li>
-              <strong>Other Text Editors:</strong> For Notepad or TextEdit,
-              simply double-click on the folder to open it.
-            </li>
-          </ul>
-        </li>
+      <p>
+        Before we begin coding, let's set up a workspace for our project. This
+        folder will be your digital canvas, where you'll keep all the project
+        files organized.
+      </p>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#fff3e0",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 1: Create Your Project Folder</h4>
+        <p>
+          Create a new folder on your computer to store all your project files.
+          You can name it "javascript-quiz-game".
+        </p>
+        <strong>On Windows:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New" &gt; "Folder".</li>
+          <li>Name it "javascript-quiz-game".</li>
+        </ol>
+        <strong>On Mac:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New Folder".</li>
+          <li>Name it "javascript-quiz-game".</li>
+        </ol>
+      </div>
 
-        <strong>Create HTML, CSS, and JavaScript Files:</strong>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e3f2fd",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 2: Get Your Text Editor Ready</h4>
+        <p>
+          You'll need a text editor to write your code. We recommend Visual
+          Studio Code, which is free and beginner-friendly.
+        </p>
+        <ol>
+          <li>
+            Download Visual Studio Code from{" "}
+            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>.
+          </li>
+          <li>Install it on your computer.</li>
+          <li>
+            Open VS Code and drag your "javascript-quiz-game" folder into the
+            window.
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e8f5e9",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 3: Create Your Project Files</h4>
+        <p>We need three essential files for our project:</p>
         <ul>
           <li>
-            In VS Code: Right-click in the file explorer panel, select "New
-            File", and create three files: "index.html", "styles.css", and
-            "script.js".
+            <strong>index.html</strong> - The HTML file is like the blueprint of
+            our app.
           </li>
           <li>
-            In Notepad/TextEdit: Create a new file, then immediately "Save As"
-            and create three files: "index.html", "styles.css", and "script.js".
-            Make sure to save them in your "javascript-quiz-game" folder.
+            <strong>styles.css</strong> - The CSS file is where we'll add styles
+            to make our app look beautiful.
+          </li>
+          <li>
+            <strong>script.js</strong> - The JavaScript file is where the magic
+            happens, making our app interactive.
           </li>
         </ul>
-      </ol>
-      <p>
-        <strong>Explanation:</strong> We create a new folder to keep our project
-        organized. The "index.html" file will contain the HTML structure,
-        "styles.css" will hold our CSS rules for styling, and "script.js" will
-        contain our JavaScript code. The "index.html" file is the main page of
-        our quiz game, and it's standard to name it "index.html".
-      </p>
-      <p>
-        Great job! You've set up your workspace. In the next step, we'll start
-        building the HTML structure for our quiz game.
-      </p>
+        <p>To create these files:</p>
+        <ol>
+          <li>Open VS Code.</li>
+          <li>
+            <strong>index.html</strong> - Click "New File" and save it as
+            "index.html".
+          </li>
+          <li>
+            <strong>styles.css</strong> - Click "New File" again and save it as
+            "styles.css".
+          </li>
+          <li>
+            <strong>script.js</strong> - Click "New File" once more and save it
+            as "script.js".
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f0f7ff",
+          padding: "15px",
+          borderRadius: "5px",
+          marginTop: "20px",
+        }}
+      >
+        <p>
+          <strong>🎯 Success Check:</strong> You should now have:
+        </p>
+        <ul>
+          <li>A folder named "javascript-quiz-game" on your desktop.</li>
+          <li>Visual Studio Code open with your folder.</li>
+          <li>Three empty files: index.html, styles.css, and script.js.</li>
+        </ul>
+        <p>
+          <strong>👉 Tip:</strong> If something's not working, try restarting VS
+          Code or creating the files using the "File → New File" menu.
+        </p>
+      </div>
 
       <h2>Setting Up the HTML Structure</h2>
       <h3>Creating the Quiz Game HTML</h3>
-
       <p>
-        Before we dive into CSS and JavaScript, let's set up the HTML structure
-        for our quiz game:
+        Let's start by building the HTML structure for our quiz game. HTML is
+        like the foundation of our app.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "index.html":</strong> Open your "index.html" file in
+          <strong>1. Open "index.html":</strong> Open your "index.html" file in
           your code editor.
         </li>
         <li>
-          <strong>Add the Quiz Game HTML:</strong> Copy and paste the following
-          code into your "index.html" file:
+          <strong>2. Add the Quiz Game HTML:</strong> Copy and paste the
+          following code into your "index.html" file:
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -131,14 +206,18 @@ const JavaScriptQuizGame = () => {
   <div class="container">
     <h1>JavaScript Quiz Game</h1>
     <div id="quiz-container">
-      <div id="question"></div>
-      <ul id="options"></ul>
-      <button id="next-button" disabled>Next Question</button>
-    </div>
-    <div id="result" style="display: none;">
-      <h2>Quiz Results</h2>
-      <p id="score"></p>
-      <button id="restart-button">Restart Quiz</button>
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="button-grid"></div>
+      </div>
+      <div id="controls">
+        <button id="start-btn" class="start-btn">Start Quiz</button>
+        <button id="next-btn" class="next-btn hide">Next</button>
+      </div>
+      <div id="results" class="hide">
+        <h2>Results</h2>
+        <p id="score">Score: 0</p>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>
@@ -149,51 +228,57 @@ const JavaScriptQuizGame = () => {
           </pre>
         </li>
       </ol>
-      <p>Let's understand the HTML structure:</p>
+      <p>Let's break down the HTML structure:</p>
       <ul>
         <li>
-          <code>&lt;div class="container"&gt;</code>: Represents the container
-          for the quiz game.
+          <code>&lt;div class="container"&gt;</code>: The main container for our
+          app.
         </li>
         <li>
           <code>&lt;h1&gt;JavaScript Quiz Game&lt;/h1&gt;</code>: The title of
-          the quiz game.
+          our app.
         </li>
         <li>
           <code>&lt;div id="quiz-container"&gt;</code>: The container for the
-          quiz questions and options.
+          quiz.
+        </li>
+        <li>
+          <code>&lt;div id="question-container" class="hide"&gt;</code>: The
+          container for the question and answer buttons.
         </li>
         <li>
           <code>&lt;div id="question"&gt;</code>: The element for displaying the
-          current question.
+          question.
         </li>
         <li>
-          <code>&lt;ul id="options"&gt;&lt;/ul&gt;</code>: The unordered list
-          for displaying the answer options.
+          <code>&lt;div id="answer-buttons" class="button-grid"&gt;</code>: The
+          container for the answer buttons.
         </li>
         <li>
-          <code>
-            &lt;button id="next-button" disabled&gt;Next Question&lt;/button&gt;
-          </code>
-          : The button for navigating to the next question, initially disabled.
-        </li>
-        <li>
-          <code>&lt;div id="result" style="display: none;"&gt;</code>: The
-          container for displaying the quiz results, initially hidden.
-        </li>
-        <li>
-          <code>&lt;h2&gt;Quiz Results&lt;/h2&gt;</code>: The title for the quiz
-          results.
-        </li>
-        <li>
-          <code>&lt;p id="score"&gt;&lt;/p&gt;</code>: The element for
-          displaying the user's score.
+          <code>&lt;div id="controls"&gt;</code>: The container for the start
+          and next buttons.
         </li>
         <li>
           <code>
-            &lt;button id="restart-button"&gt;Restart Quiz&lt;/button&gt;
+            &lt;button id="start-btn" class="start-btn"&gt;Start
+            Quiz&lt;/button&gt;
           </code>
-          : The button for restarting the quiz.
+          : The button to start the quiz.
+        </li>
+        <li>
+          <code>
+            &lt;button id="next-btn" class="next-btn
+            hide"&gt;Next&lt;/button&gt;
+          </code>
+          : The button to move to the next question.
+        </li>
+        <li>
+          <code>&lt;div id="results" class="hide"&gt;</code>: The container for
+          displaying the results.
+        </li>
+        <li>
+          <code>&lt;p id="score"&gt;Score: 0&lt;/p&gt;</code>: The element for
+          displaying the score.
         </li>
         <li>
           <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: Includes
@@ -202,23 +287,22 @@ const JavaScriptQuizGame = () => {
       </ul>
       <p>
         Save your "index.html" file. Now we have the basic HTML structure in
-        place. In the next step, we'll start applying CSS styles to our quiz
-        game.
+        place. In the next step, we'll add some styling to make it look nice!
       </p>
 
       <h2>Styling the Quiz Game</h2>
-      <h3>Styling the Quiz Game</h3>
+      <h3>Adding CSS Styles</h3>
       <p>
-        Let's start by styling the quiz game to ensure a consistent and clean
-        layout.
+        CSS is like the paint and brushes we use to make our app visually
+        appealing. Let's add some styles to our quiz game.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
         </li>
         <li>
-          <strong>Add Quiz Game Styles:</strong> Copy and paste the following
+          <strong>2. Add Quiz Game Styles:</strong> Copy and paste the following
           CSS code into your "styles.css" file:
           <pre>
             <code>
@@ -250,35 +334,30 @@ h1 {
 }
 
 #quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#question-container {
   margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
 }
 
 #question {
   font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-#options {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#options li {
-  background-color: #f9f9f9;
-  padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
 }
 
-#options li:hover {
-  background-color: #e0e0e0;
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
 }
 
-button {
+.button-grid button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -289,17 +368,41 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.button-grid button:hover {
   background-color: #0056b3;
 }
 
-#result {
+#controls {
   margin-top: 20px;
+}
+
+#controls button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  margin-top: 20px;
+  text-align: center;
 }
 
 #score {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.hide {
+  display: none;
 }`}
               </SyntaxHighlighter>
             </code>
@@ -309,313 +412,418 @@ button:hover {
       <p>Let's understand the CSS rules we just added:</p>
       <ul>
         <li>
-          <code>body</code>: Sets the default font, removes default margin and
-          padding, sets a light gray background, and centers the content using
-          flexbox.
+          <code>body</code>: Sets the default font, removes margins and padding,
+          and centers the content on the screen.
         </li>
         <li>
           <code>.container</code>: Styles the container with a white background,
-          padding, rounded corners, a shadow, and a fixed width.
+          padding, rounded corners, and a shadow.
         </li>
         <li>
           <code>h1</code>: Styles the title with a larger font size and margin.
         </li>
         <li>
-          <code>#quiz-container</code>: Adds margin to the quiz container.
+          <code>#quiz-container</code>: Styles the quiz container with flexbox
+          for layout.
+        </li>
+        <li>
+          <code>#question-container</code>: Adds margin and text alignment for
+          better readability.
         </li>
         <li>
           <code>#question</code>: Styles the question with a larger font size
           and margin.
         </li>
         <li>
-          <code>#options</code>: Removes the default list style and padding from
-          the options list.
+          <code>.button-grid</code>: Uses grid layout to arrange answer buttons.
         </li>
         <li>
-          <code>#options li</code>: Styles the list items for the answer options
-          with a light gray background, padding, margin, border-radius, cursor,
-          and transition for smooth changes.
+          <code>.button-grid button</code>: Styles the answer buttons with a
+          blue background, white text, no border, padding, border-radius,
+          cursor, and transition for smooth changes.
         </li>
         <li>
-          <code>#options li:hover</code>: Changes the background color of the
-          list items on hover.
+          <code>#controls</code>: Adds margin to the control buttons.
         </li>
         <li>
-          <code>button</code>: Styles the buttons with a blue background, white
-          text, no border, padding, border-radius, cursor, and transition for
-          smooth changes.
+          <code>#controls button</code>: Styles the start and next buttons.
         </li>
         <li>
-          <code>button:hover</code>: Changes the background color of the buttons
-          on hover.
+          <code>#results</code>: Styles the results container with margin and
+          text alignment.
         </li>
         <li>
-          <code>#result</code>: Adds margin to the result container.
-        </li>
-        <li>
-          <code>#score</code>: Styles the score with a larger font size and
+          <code>#score</code>: Styles the score text with a larger font size and
           margin.
+        </li>
+        <li>
+          <code>.hide</code>: Hides elements that should not be visible
+          initially.
         </li>
       </ul>
       <p>
         Save your "styles.css" file. Now, if you open "index.html" in a web
         browser, you'll see the styled quiz game.
       </p>
-      <p>
-        In the next step, we'll start adding JavaScript to handle quiz logic and
-        user interactions.
-      </p>
 
-      <h2>Adding JavaScript for Quiz Logic: Part 1</h2>
-      <h3>Adding JavaScript for Quiz Logic: Part 1</h3>
-
+      <h2>Adding JavaScript for User Interactions</h2>
+      <h3>Selecting HTML Elements</h3>
       <p>
-        Let's start adding JavaScript to handle the quiz logic and user
-        interactions.
+        First, we need to select the HTML elements we want to work with. We'll
+        select the question container, answer buttons, start button, next
+        button, and score element.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
+          <strong>1. Open "script.js":</strong> Open the "script.js" file in
+          your code editor.
         </li>
         <li>
-          <strong>Defining the Quiz Data:</strong> Copy and paste the following
+          <strong>2. Selecting Elements:</strong> Copy and paste the following
           JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const quizData = [
-  {
-    question: "What is the capital of France?",
-    options: ["Paris", "London", "Berlin", "Madrid"],
-    answer: "Paris"
-  },
-  {
-    question: "What is the largest planet in our solar system?",
-    options: ["Earth", "Mars", "Jupiter", "Saturn"],
-    answer: "Jupiter"
-  },
-  {
-    question: "Who wrote 'Romeo and Juliet'?",
-    options: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Leo Tolstoy"],
-    answer: "William Shakespeare"
-  }
-];`}
+                {`// Selecting HTML elements
+const startBtn = document.getElementById('start-btn');
+const nextBtn = document.getElementById('next-btn');
+const questionContainer = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const answerButtonsElement = document.getElementById('answer-buttons');
+const resultsContainer = document.getElementById('results');
+const scoreElement = document.getElementById('score');`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>const quizData = [ ... ]</code>: Defines an array of objects
-          containing the quiz questions, options, and answers.
-        </li>
-        <li>
-          Each object in the array represents a question and includes:
-          <ul>
-            <li>
-              <code>question</code>: The text of the question.
-            </li>
-            <li>
-              <code>options</code>: An array of possible answers.
-            </li>
-            <li>
-              <code>answer</code>: The correct answer to the question.
-            </li>
-          </ul>
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. In the next step, we'll add the
-        initialization code and select the necessary DOM elements.
+        Here, we're using the <code>getElementById</code> method to select the
+        HTML elements with specific IDs.
       </p>
 
-      <h2>Adding JavaScript for Quiz Logic: Part 2</h2>
-      <h3>Adding JavaScript for Quiz Logic: Part 2</h3>
+      <h3>Defining Quiz Data</h3>
       <p>
-        Let's add the initialization code and select the necessary DOM elements.
+        Next, we'll define the quiz data. This will include the questions and
+        their corresponding answers.
       </p>
-      <ol>
+      <ol className="space-y-6" start={3}>
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
+          <strong>3. Defining Quiz Data:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Quiz data
+const questions = [
+  {
+    question: 'What is the capital of France?',
+    answers: [
+      { text: 'Paris', correct: true },
+      { text: 'Berlin', correct: false },
+      { text: 'Madrid', correct: false },
+      { text: 'Rome', correct: false },
+    ],
+  },
+  {
+    question: 'What is 2 + 2?',
+    answers: [
+      { text: '3', correct: false },
+      { text: '4', correct: true },
+      { text: '5', correct: false },
+      { text: '6', correct: false },
+    ],
+  },
+  {
+    question: 'What is the largest planet in our solar system?',
+    answers: [
+      { text: 'Mars', correct: false },
+      { text: 'Jupiter', correct: true },
+      { text: 'Saturn', correct: false },
+      { text: 'Neptune', correct: false },
+    ],
+  },
+];
+
+let currentQuestionIndex = 0;
+let score = 0;`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
         </li>
+      </ol>
+      <p>
+        Here, we define an array of questions, each with a question and an array
+        of answers. Each answer has a <code>text</code> and a{" "}
+        <code>correct</code>
+        property.
+      </p>
+
+      <h3>Function to Start the Quiz</h3>
+      <p>
+        Now, let's create a function to start the quiz. This function will
+        initialize the quiz and show the first question.
+      </p>
+      <ol className="space-y-6" start={4}>
         <li>
-          <strong>Initialization and DOM Selection:</strong> Copy and paste the
+          <strong>4. Function to Start the Quiz:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`let currentQuestionIndex = 0;
-let score = 0;
-
-document.addEventListener('DOMContentLoaded', () => {
-  const questionElement = document.getElementById('question');
-  const optionsElement = document.getElementById('options');
-  const nextButton = document.getElementById('next-button');
-  const resultContainer = document.getElementById('result');
-  const scoreElement = document.getElementById('score');
-  const restartButton = document.getElementById('restart-button');
-
-  // Function to load the current question
-  function loadQuestion() {
-    const currentQuestion = quizData[currentQuestionIndex];
-    questionElement.textContent = currentQuestion.question;
-    optionsElement.innerHTML = '';
-
-    currentQuestion.options.forEach(option => {
-      const li = document.createElement('li');
-      li.textContent = option;
-      li.addEventListener('click', () => checkAnswer(option));
-      optionsElement.appendChild(li);
-    });
-
-    nextButton.disabled = true;
-  }
-
-  // Function to check the selected answer
-  function checkAnswer(selectedOption) {
-    const currentQuestion = quizData[currentQuestionIndex];
-    if (selectedOption === currentQuestion.answer) {
-      score++;
-    }
-
-    nextButton.disabled = false;
-  }
-
-  // Function to show the quiz results
-  function showResult() {
-    resultContainer.style.display = 'block';
-    scoreElement.textContent = \`You scored \${score} out of \${quizData.length}\`;
-  }
-
-  // Event listener for the next button
-  nextButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < quizData.length) {
-      loadQuestion();
-    } else {
-      showResult();
-    }
-  });
-
-  // Event listener for the restart button
-  restartButton.addEventListener('click', () => {
-    currentQuestionIndex = 0;
-    score = 0;
-    resultContainer.style.display = 'none';
-    loadQuestion();
-  });
-
-  // Load the first question
-  loadQuestion();
-});`}
+                {`// Function to start the quiz
+function startQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
+  nextBtn.classList.add('hide');
+  questionContainer.classList.remove('hide');
+  resultsContainer.classList.add('hide');
+  showQuestion();
+}`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>let currentQuestionIndex = 0</code>: Initializes the index of
-          the current question to 0.
-        </li>
-        <li>
-          <code>let score = 0</code>: Initializes the user's score to 0.
-        </li>
-        <li>
-          <code>{`document.addEventListener('DOMContentLoaded', () => { ... })`}</code>
-          : Ensures that the JavaScript code runs only after the DOM has been
-          fully loaded.
-        </li>
-        <li>
-          <code>
-            const questionElement = document.getElementById('question');
-          </code>
-          : Selects the element for displaying the question.
-        </li>
-        <li>
-          <code>
-            const optionsElement = document.getElementById('options');
-          </code>
-          : Selects the element for displaying the answer options.
-        </li>
-        <li>
-          <code>
-            const nextButton = document.getElementById('next-button');
-          </code>
-          : Selects the "Next Question" button.
-        </li>
-        <li>
-          <code>
-            const resultContainer = document.getElementById('result');
-          </code>
-          : Selects the container for displaying the quiz results.
-        </li>
-        <li>
-          <code>const scoreElement = document.getElementById('score');</code>:
-          Selects the element for displaying the user's score.
-        </li>
-        <li>
-          <code>
-            const restartButton = document.getElementById('restart-button');
-          </code>
-          : Selects the "Restart Quiz" button.
-        </li>
-        <li>
-          <code>{`function loadQuestion() { ... }`}</code>: Defines the function
-          to load the current question and its options.
-        </li>
-        <li>
-          <code>{`function checkAnswer(selectedOption) { ... }`}</code>: Defines
-          the function to check the selected answer and update the score.
-        </li>
-        <li>
-          <code>{`function showResult() { ... }`}</code>: Defines the function
-          to display the quiz results.
-        </li>
-        <li>
-          <code>{`nextButton.addEventListener('click', () => { ... })`}</code>:
-          Adds an event listener to the "Next Question" button to handle the
-          click event and load the next question or show the results.
-        </li>
-        <li>
-          <code>{`restartButton.addEventListener('click', () => { ... })`}</code>
-          : Adds an event listener to the "Restart Quiz" button to handle the
-          click event and reset the quiz.
-        </li>
-        <li>
-          <code>loadQuestion();</code>: Calls the <code>loadQuestion</code>
-          function to load the first question when the page loads.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. Now, if you open "index.html" in a web
-        browser, you'll be able to play the quiz game, answer questions, and see
-        your score at the end.
+        In this function, we reset the current question index and score, hide
+        the next button, show the question container, hide the results
+        container, and call the <code>showQuestion</code> function to display
+        the first question.
       </p>
+
+      <h3>Function to Show the Current Question</h3>
       <p>
-        In the next step, we'll make the quiz game responsive for different
-        screen sizes.
+        Next, let's create a function to show the current question. This
+        function will display the question and its answer options.
+      </p>
+      <ol className="space-y-6" start={5}>
+        <li>
+          <strong>5. Function to Show the Current Question:</strong> Copy and
+          paste the following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to show the current question
+function showQuestion() {
+  resetState();
+  const currentQuestion = questions[currentQuestionIndex];
+  questionElement.innerText = currentQuestion.question;
+  currentQuestion.answers.forEach((answer) => {
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('btn');
+    if (answer.correct) {
+      button.dataset.correct = true;
+    }
+    button.addEventListener('click', selectAnswer);
+    answerButtonsElement.appendChild(button);
+  });
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this function, we call the <code>resetState</code> function to reset
+        the state of the quiz, set the question text, and create answer buttons
+        for each answer. We also add an event listener to each button to handle
+        answer selection.
+      </p>
+
+      <h3>Function to Reset the State of the Quiz</h3>
+      <p>
+        Now, let's create a function to reset the state of the quiz. This
+        function will remove all answer buttons from the previous question.
+      </p>
+      <ol className="space-y-6" start={6}>
+        <li>
+          <strong>6. Function to Reset the State of the Quiz:</strong> Copy and
+          paste the following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to reset the state of the quiz
+function resetState() {
+  while (answerButtonsElement.firstChild) {
+    answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+  }
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this function, we remove all child elements from the
+        <code>answerButtonsElement</code> to reset the state for the next
+        question.
+      </p>
+
+      <h3>Function to Handle Answer Selection</h3>
+      <p>
+        Next, let's create a function to handle answer selection. This function
+        will check if the selected answer is correct, update the score, and
+        handle the next question or show the results.
+      </p>
+      <ol className="space-y-6" start={7}>
+        <li>
+          <strong>7. Function to Handle Answer Selection:</strong> Copy and
+          paste the following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to handle answer selection
+function selectAnswer(e) {
+  const selectedButton = e.target;
+  const correct = selectedButton.dataset.correct;
+  if (correct) {
+    selectedButton.classList.add('correct');
+    score++;
+  } else {
+    selectedButton.classList.add('incorrect');
+  }
+  Array.from(answerButtonsElement.children).forEach((button) => {
+    if (button.dataset.correct) {
+      button.classList.add('correct');
+    }
+    button.disabled = true;
+  });
+  if (questions.length > currentQuestionIndex + 1) {
+    nextBtn.classList.remove('hide');
+  } else {
+    showResults();
+  }
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this function, we check if the selected answer is correct, update the
+        score, and add the appropriate class to the button. We also disable all
+        buttons and show the next button if there are more questions, or show
+        the results if it's the last question.
+      </p>
+
+      <h3>Function to Show the Results</h3>
+      <p>
+        Now, let's create a function to show the results. This function will
+        display the final score.
+      </p>
+      <ol className="space-y-6" start={8}>
+        <li>
+          <strong>8. Function to Show the Results:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to show the results
+function showResults() {
+  questionContainer.classList.add('hide');
+  resultsContainer.classList.remove('hide');
+  scoreElement.innerText = \`Score: \${score}/\${questions.length}\`;
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this function, we hide the question container, show the results
+        container, and update the score text.
+      </p>
+
+      <h3>Function to Handle the Next Button Click</h3>
+      <p>
+        Finally, let's create a function to handle the next button click. This
+        function will move to the next question.
+      </p>
+      <ol className="space-y-6" start={9}>
+        <li>
+          <strong>9. Function to Handle the Next Button Click:</strong> Copy and
+          paste the following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to handle the next button click
+function handleNextButton() {
+  currentQuestionIndex++;
+  showQuestion();
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this function, we increment the current question index and call the
+        <code>showQuestion</code> function to display the next question.
+      </p>
+
+      <h3>Event Listeners</h3>
+      <p>
+        Now, let's add event listeners to the start button and next button to
+        handle user interactions.
+      </p>
+      <ol className="space-y-6" start={10}>
+        <li>
+          <strong>10. Event Listeners:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Event listeners
+startBtn.addEventListener('click', startQuiz);
+nextBtn.addEventListener('click', handleNextButton);`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this section, we add event listeners to the start button and next
+        button to call the appropriate functions when they are clicked.
+      </p>
+
+      <h3>Initial State</h3>
+      <p>Finally, let's set the initial state of the quiz.</p>
+      <ol className="space-y-6" start={11}>
+        <li>
+          <strong>11. Initial State:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Initial state
+startBtn.classList.remove('hide');
+nextBtn.classList.add('hide');
+resultsContainer.classList.add('hide');`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this section, we ensure that the start button is visible, the next
+        button is hidden, and the results container is hidden initially.
       </p>
 
       <h2>Making the Quiz Game Responsive</h2>
       <h3>Making the Quiz Game Responsive</h3>
-
       <p>
         Let's ensure our quiz game looks great on various devices by adding
         responsive design using CSS media queries.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
         </li>
         <li>
-          <strong>Add Responsive Design Styles:</strong> Copy and paste the
+          <strong>2. Add Responsive Design Styles:</strong> Copy and paste the
           following CSS code into your "styles.css" file:
           <pre>
             <code>
@@ -629,12 +837,12 @@ document.addEventListener('DOMContentLoaded', () => {
     font-size: 1rem;
   }
 
-  #options li {
+  .button-grid button {
+    padding: 8px 16px;
     font-size: 0.9rem;
-    padding: 8px;
   }
 
-  button {
+  #controls button {
     padding: 8px 16px;
     font-size: 0.9rem;
   }
@@ -663,12 +871,12 @@ document.addEventListener('DOMContentLoaded', () => {
           better readability on smaller screens.
         </li>
         <li>
-          <code>#options li</code>: Adjusts the font size and padding of the
-          answer options for better readability on smaller screens.
+          <code>.button-grid button</code>: Adjusts the padding and font size of
+          the answer buttons for better readability on smaller screens.
         </li>
         <li>
-          <code>button</code>: Adjusts the padding and font size of the buttons
-          for better readability on smaller screens.
+          <code>#controls button</code>: Adjusts the padding and font size of
+          the control buttons for better readability on smaller screens.
         </li>
         <li>
           <code>#score</code>: Adjusts the font size of the score for better
@@ -680,81 +888,21 @@ document.addEventListener('DOMContentLoaded', () => {
         view the quiz game on different devices, you'll see the layout adapt to
         different screen sizes.
       </p>
-      <p>In the next step, we'll add final touches to the quiz game.</p>
 
-      <h2>Adding Final Touches</h2>
-
-      <h3>Adding Final Touches</h3>
+      <h2>Final Thoughts</h2>
       <p>
-        Let's add the final touches to our quiz game to ensure it is fully
-        functional and visually appealing.
-      </p>
-      <ol>
-        <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Add Final Touches:</strong> Copy and paste the following CSS
-          code into your "styles.css" file:
-          <pre>
-            <code>
-              <SyntaxHighlighter language="css" style={docco}>
-                {`.container {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-button {
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-button:hover {
-  transform: scale(1.05);
-}
-
-#options li:hover {
-  transform: scale(1.05);
-}`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-        </li>
-      </ol>
-      <p>Let's understand the CSS rules we just added:</p>
-      <ul>
-        <li>
-          <code>.container</code>: Adds a more pronounced shadow to the
-          container for a better visual effect.
-        </li>
-        <li>
-          <code>button</code>: Adds a transition effect for background color and
-          transform to the buttons.
-        </li>
-        <li>
-          <code>button:hover</code>: Scales the buttons slightly larger on hover
-          to create a subtle zoom effect.
-        </li>
-        <li>
-          <code>#options li:hover</code>: Scales the answer options slightly
-          larger on hover to create a subtle zoom effect.
-        </li>
-      </ul>
-      <p>
-        Save your "styles.css" file. Now, if you open "index.html" in a web
-        browser, you'll see the final touches in action.
+        Congratulations! You've completed the JavaScript Quiz Game project.
+        You've learned how to create a fun quiz game where users can answer
+        multiple-choice questions. This project introduced you to using arrays
+        and functions to manage questions, track scores, and display results.
       </p>
       <p>
-        Congratulations! You've completed the JavaScript project, "JavaScript
-        Quiz Game." You've learned how to create a simple quiz game where users
-        can answer multiple-choice questions. You've also learned the basics of
-        arrays, functions, and quiz logic in JavaScript.
-      </p>
-      <p>
-        Feel free to continue customizing your quiz game and exploring more
-        JavaScript techniques. Happy coding!
+        Feel free to customize and expand your quiz game further. You can add
+        more questions, improve the design, or even create a mobile version.
+        Happy coding and exploring the world of web development! 🚀
       </p>
     </div>
   );
 };
 
-export default JavaScriptQuizGame;
+export default QuizGame;
