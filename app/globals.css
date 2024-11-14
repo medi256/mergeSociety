@@ -12,8 +12,8 @@
 
 body {
   font-family: var(--font-montserrat), var(--font-roboto), var(--font-fallback);
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 20px; /* Increased font size to 20px */
+  line-height: 1.5; /* Adjusted line height to 1.5 (30px for 20px font size) */
 }
 
 h1,
@@ -563,9 +563,9 @@ pre {
 }
 
 .section p {
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
   color: #555;
-  line-height: 1.6; /* Adjust line height */
+  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
 }
 
 .section ul {
@@ -574,9 +574,9 @@ pre {
 }
 
 .section ul li {
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
   color: #555;
-  line-height: 1.6; /* Adjust line height */
+  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
 }
 
 .welcome-header {
@@ -648,7 +648,7 @@ pre {
 
 .loading-text {
   margin-top: 20px;
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
   color: #333;
 }
 
@@ -712,10 +712,10 @@ pre {
 }
 
 .post-content {
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
   color: #444;
   margin-bottom: 1rem;
-  line-height: 1.6; /* Adjust line height */
+  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
 }
 
 .post-tags {
@@ -763,7 +763,8 @@ pre {
 
 .policies-paragraph {
   margin-bottom: 15px;
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
+  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
 }
 
 .policies-list {
@@ -891,8 +892,8 @@ pre {
 
 .lesson-container p {
   margin-bottom: 15px;
-  font-size: 18px; /* Adjust font size */
-  line-height: 1.6; /* Adjust line height */
+  font-size: 20px; /* Adjust font size to 20px */
+  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
 }
 
 .lesson-container td,
@@ -1008,7 +1009,7 @@ th {
 }
 
 .message {
-  font-size: 18px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size to 20px */
   color: #6c757d;
   margin-bottom: 1.5rem;
 }
@@ -1063,7 +1064,7 @@ th {
   justify-content: center;
   min-height: 100vh;
   background-color: #f0f0f0;
-  padding: 2rem;
+  padding: 20px;
 }
 
 .categories-title {
@@ -1140,7 +1141,6 @@ th {
   font-weight: 500;
   color: #fff;
   outline: 2px solid #0070f3;
-
   text-decoration: none;
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
   border-radius: 6px;
