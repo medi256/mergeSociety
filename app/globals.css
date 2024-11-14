@@ -12,8 +12,9 @@
 
 body {
   font-family: var(--font-montserrat), var(--font-roboto), var(--font-fallback);
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 20px;
+  line-height: 20px;
+  color: #313131;
 }
 
 h1,
