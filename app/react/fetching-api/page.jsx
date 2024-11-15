@@ -295,6 +295,12 @@ export default App;
       <iframe
         width="560"
         height="315"
+        style={{
+          width: "100%",
+          height: "calc(100vw * 9 / 16)",
+          maxWidth: "560px",
+          maxHeight: "315px",
+        }}
         src="https://www.youtube.com/embed/27f3B1qndW8?si=lTGEELhQ4tU499Cv"
         title="YouTube video player"
         frameBorder="0"

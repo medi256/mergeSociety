@@ -325,7 +325,10 @@ const CSSFilters = () => {
 
       <p>
         For more details and additional filter effects, check out the
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter"
+          target="_blank"
+        >
           MDN Web Docs
         </a>
         .

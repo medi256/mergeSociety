@@ -266,8 +266,12 @@ div {
         If you are still confused with the Box Model, watch this Youtube video
       </h2>
       <iframe
-        width="560"
-        height="315"
+        style={{
+          width: "100%",
+          height: "calc(100vw * 9 / 16)",
+          maxWidth: "560px",
+          maxHeight: "315px",
+        }}
         src="https://www.youtube.com/embed/rIO5326FgPE?si=O9BvvO9xkoB083aT"
         title="YouTube video player"
         frameBorder="0"
