@@ -207,12 +207,9 @@ const CSSFlex = () => {
       </h2>
 
       <iframe
-        style={{
-          width: "100%",
-          height: "calc(100vw * 9 / 16)",
-          maxWidth: "560px",
-          maxHeight: "315px",
-        }}
+        width="560"
+        height="315"
+        className="iframeWH"
         src="https://www.youtube.com/embed/u044iM9xsWU?si=mnZNFlsc6ojO6jdQ"
         title="YouTube video player"
         frameBorder="0"

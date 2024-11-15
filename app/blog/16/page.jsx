@@ -211,12 +211,9 @@ const Blog16 = () => {
               Check out this video on how to upload your website on GitHub
             </h2>
             <iframe
-              style={{
-                width: "100%",
-                height: "calc(100vw * 9 / 16)",
-                maxWidth: "560px",
-                maxHeight: "315px",
-              }}
+              width="560"
+              height="315"
+              className="iframeWH"
               src="https://www.youtube.com/embed/e5AwNU3Y2es?si=sBl-e1rxp4NqJbxd"
               title="YouTube video player"
               frameBorder="0"
@@ -232,12 +229,9 @@ const Blog16 = () => {
             updates automatically with each change.
             <h2>Watch this video on how to upload your website on Netlify</h2>
             <iframe
-              style={{
-                width: "100%",
-                height: "calc(100vw * 9 / 16)",
-                maxWidth: "560px",
-                maxHeight: "315px",
-              }}
+              width="560"
+              height="315"
+              className="iframeWH"
               src="https://www.youtube.com/embed/YrUnrkG-iK0?si=9CKfvjt-pJjJjlyB"
               title="YouTube video player"
               frameBorder="0"
@@ -256,12 +250,9 @@ const Blog16 = () => {
               through GitHub
             </h2>
             <iframe
-              style={{
-                width: "100%",
-                height: "calc(100vw * 9 / 16)",
-                maxWidth: "560px",
-                maxHeight: "315px",
-              }}
+              width="560"
+              height="315"
+              className="iframeWH"
               src="https://www.youtube.com/embed/aBRss9JAC30?si=PYZ4RJXd-BVKLIle"
               title="YouTube video player"
               frameBorder="0"

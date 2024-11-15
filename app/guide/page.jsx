@@ -260,12 +260,9 @@ const BeginnerGuide = () => {
       {view === "watch" && (
         <div className="video-container">
           <iframe
-            style={{
-              width: "100%",
-              height: "calc(100vw * 9 / 16)",
-              maxWidth: "560px",
-              maxHeight: "315px",
-            }}
+            width="560"
+            height="315"
+            className="iframeWH"
             src="https://www.youtube.com/embed/CxGSnA-RTsA?si=ij1RrHygP7vKf7u0"
             title="YouTube video player"
             frameBorder="0"
@@ -280,12 +277,9 @@ const BeginnerGuide = () => {
         <div className="both-content">
           <div className="video-container">
             <iframe
-              style={{
-                width: "100%",
-                height: "calc(100vw * 9 / 16)",
-                maxWidth: "560px",
-                maxHeight: "315px",
-              }}
+              width="560"
+              height="315"
+              className="iframeWH"
               src="https://www.youtube.com/embed/CxGSnA-RTsA?si=ij1RrHygP7vKf7u0"
               title="YouTube video player"
               frameBorder="0"
