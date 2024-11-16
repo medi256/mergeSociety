@@ -1,21 +1,32 @@
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
-  title: "Sorting Algorithm Visualizer - Explore Sorting Algorithms",
+  title: "Build a Sorting Algorithm Visualizer | Beginner-Friendly Tutorial",
   description:
-    "Learn and visualize sorting algorithms like Bubble Sort, Quick Sort, and Merge Sort. Enhance your understanding of complex algorithms with this interactive visualizer.",
-  keywords:
-    "JavaScript, sorting algorithms, Bubble Sort, Quick Sort, Merge Sort, algorithm visualization, web development, interactive projects, coding projects",
+    "Develop a sorting algorithm visualizer that demonstrates algorithms like Bubble Sort, Quick Sort, and Merge Sort. This project will help you understand complex algorithms and visualize how they work. Perfect for beginners!",
   alternates: {
     canonical: "https://www.mergesociety.com/projects/javascriptP/6js",
   },
-
   openGraph: {
-    title: "Sorting Algorithm Visualizer - Explore Sorting Algorithms",
+    title: "Build a Sorting Algorithm Visualizer | Beginner-Friendly Tutorial",
     description:
-      "Learn and visualize sorting algorithms like Bubble Sort, Quick Sort, and Merge Sort. Enhance your understanding of complex algorithms with this interactive visualizer.",
+      "Create a sorting algorithm visualizer and learn algorithms, visualization, and web development. A perfect project for beginners!",
   },
+  keywords: [
+    "javascript",
+    "web development",
+    "algorithms",
+    "sorting",
+    "visualization",
+    "bubble sort",
+    "quick sort",
+    "merge sort",
+    "javascript project for beginners",
+    "js project",
+    "html css javascript project",
+  ],
 };
 
 const SortingAlgorithmVisualizer = () => {
@@ -27,102 +38,157 @@ const SortingAlgorithmVisualizer = () => {
         </h1>
       </div>
 
-      <h2>Introduction to the Sorting Algorithm Visualizer </h2>
-      <h3>Welcome to Building a Sorting Algorithm Visualizer!</h3>
-
+      <h2>Introduction to the Sorting Algorithm Visualizer</h2>
       <p>
-        In this project, we'll create a sorting algorithm visualizer that
+        Welcome to the beginner-friendly tutorial on building a Sorting
+        Algorithm Visualizer! In this project, we'll create a visualizer that
         demonstrates algorithms like Bubble Sort, Quick Sort, and Merge Sort.
         This project will help you understand complex algorithms and visualize
         how they work.
       </p>
-      <p>Here's what we'll cover in this tutorial:</p>
-      <ul>
-        <li>Setting up the HTML structure for the visualizer.</li>
-        <li>Applying basic styling to the visualizer.</li>
-        <li>
-          Adding JavaScript to handle user interactions and sorting algorithms.
-        </li>
-        <li>Implementing the Bubble Sort algorithm.</li>
-        <li>Implementing the Quick Sort algorithm.</li>
-        <li>Implementing the Merge Sort algorithm.</li>
-        <li>Making the visualizer responsive for different screen sizes.</li>
-      </ul>
-      <p>
-        By the end of this project, you'll have a fully functional sorting
-        algorithm visualizer. Let's get started by setting up our project files!
-      </p>
 
       <h2>Setting Up Your Workspace</h2>
       <h3>Creating Your Project Folder and Files</h3>
-      <p>Before we start coding, let's set up a workspace for our project:</p>
-      <ol>
-        <li>
-          On Windows: Right-click on your desktop, select "New" &gt; "Folder",
-          and name it "sorting-algorithm-visualizer".
-        </li>
-        <li>
-          On Mac: Right-click on your desktop, select "New Folder", and name it
-          "sorting-algorithm-visualizer".
-        </li>
-        <li>
-          <strong>Open the Folder in a Text Editor:</strong>
-          <ul>
-            <li>
-              <strong>Visual Studio Code:</strong> If you have VS Code,
-              right-click on the "sorting-algorithm-visualizer" folder and
-              select "Open with Code".
-            </li>
-            <li>
-              <strong>Other Text Editors:</strong> For Notepad or TextEdit,
-              simply double-click on the folder to open it.
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>Create HTML, CSS, and JavaScript Files:</strong>
-          <ul>
-            <li>
-              In VS Code: Right-click in the file explorer panel, select "New
-              File", and create three files: "index.html", "styles.css", and
-              "script.js".
-            </li>
-            <li>
-              In Notepad/TextEdit: Create a new file, then immediately "Save As"
-              and create three files: "index.html", "styles.css", and
-              "script.js". Make sure to save them in your
-              "sorting-algorithm-visualizer" folder.
-            </li>
-          </ul>
-        </li>
-      </ol>
       <p>
-        <strong>Explanation:</strong> We create a new folder to keep our project
-        organized. The "index.html" file will contain the HTML structure,
-        "styles.css" will hold our CSS rules for styling, and "script.js" will
-        contain our JavaScript code. The "index.html" file is the main page of
-        our visualizer, and it's standard to name it "index.html".
+        Before we begin coding, let's set up a workspace for our project. This
+        folder will be your digital canvas, where you'll keep all the project
+        files organized.
       </p>
-      <p>
-        Great job! You've set up your workspace. In the next step, we'll start
-        building the HTML structure for our visualizer.
-      </p>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#fff3e0",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 1: Create Your Project Folder</h4>
+        <p>
+          Create a new folder on your computer to store all your project files.
+          You can name it "sorting-visualizer".
+        </p>
+        <strong>On Windows:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New" &gt; "Folder".</li>
+          <li>Name it "sorting-visualizer".</li>
+        </ol>
+        <strong>On Mac:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New Folder".</li>
+          <li>Name it "sorting-visualizer".</li>
+        </ol>
+      </div>
+
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e3f2fd",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 2: Get Your Text Editor Ready</h4>
+        <p>
+          You'll need a text editor to write your code. We recommend Visual
+          Studio Code, which is free and beginner-friendly.
+        </p>
+        <ol>
+          <li>
+            Download Visual Studio Code from{" "}
+            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>.
+          </li>
+          <li>Install it on your computer.</li>
+          <li>
+            Open VS Code and drag your "sorting-visualizer" folder into the
+            window.
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e8f5e9",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 3: Create Your Project Files</h4>
+        <p>We need three essential files for our project:</p>
+        <ul>
+          <li>
+            <strong>index.html</strong> - The HTML file is like the blueprint of
+            our app.
+          </li>
+          <li>
+            <strong>styles.css</strong> - The CSS file is where we'll add styles
+            to make our app look beautiful.
+          </li>
+          <li>
+            <strong>script.js</strong> - The JavaScript file is where the magic
+            happens, making our app interactive.
+          </li>
+        </ul>
+        <p>To create these files:</p>
+        <ol>
+          <li>Open VS Code.</li>
+          <li>
+            <strong>index.html</strong> - Click "New File" and save it as
+            "index.html".
+          </li>
+          <li>
+            <strong>styles.css</strong> - Click "New File" again and save it as
+            "styles.css".
+          </li>
+          <li>
+            <strong>script.js</strong> - Click "New File" once more and save it
+            as "script.js".
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f0f7ff",
+          padding: "15px",
+          borderRadius: "5px",
+          marginTop: "20px",
+        }}
+      >
+        <p>
+          <strong>🎯 Success Check:</strong> You should now have:
+        </p>
+        <ul>
+          <li>A folder named "sorting-visualizer" on your desktop.</li>
+          <li>Visual Studio Code open with your folder.</li>
+          <li>Three empty files: index.html, styles.css, and script.js.</li>
+        </ul>
+        <p>
+          <strong>👉 Tip:</strong> If something's not working, try restarting VS
+          Code or creating the files using the "File → New File" menu.
+        </p>
+      </div>
 
       <h2>Setting Up the HTML Structure</h2>
       <h3>Creating the Visualizer HTML</h3>
-
       <p>
-        Before we dive into CSS and JavaScript, let's set up the HTML structure
-        for our visualizer:
+        Let's start by building the HTML structure for our visualizer. HTML is
+        like the foundation of our app.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "index.html":</strong> Open your "index.html" file in
+          <strong>1. Open "index.html":</strong> Open your "index.html" file in
           your code editor.
         </li>
         <li>
-          <strong>Add the Visualizer HTML:</strong> Copy and paste the following
-          code into your "index.html" file:
+          <strong>2. Add the Visualizer HTML:</strong> Copy and paste the
+          following code into your "index.html" file:
           <pre>
             <code>
               <SyntaxHighlighter language="html" style={docco}>
@@ -135,21 +201,18 @@ const SortingAlgorithmVisualizer = () => {
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="visualizer">
+  <div class="container">
     <h1>Sorting Algorithm Visualizer</h1>
     <div class="controls">
-      <label for="array-size">Array Size:</label>
-      <input type="number" id="array-size" min="10" max="100" step="1" value="20">
-      <button id="generate-array">Generate Array</button>
-      <label for="algorithm">Algorithm:</label>
       <select id="algorithm">
         <option value="bubble">Bubble Sort</option>
         <option value="quick">Quick Sort</option>
         <option value="merge">Merge Sort</option>
       </select>
-      <button id="start-sort">Start Sorting</button>
+      <button id="generate">Generate Array</button>
+      <button id="sort">Sort</button>
     </div>
-    <div class="array-container" id="array-container"></div>
+    <div id="bars-container"></div>
   </div>
   <script src="script.js"></script>
 </body>
@@ -159,76 +222,60 @@ const SortingAlgorithmVisualizer = () => {
           </pre>
         </li>
       </ol>
-      <p>Let's understand the HTML structure:</p>
+      <p>Let's break down the HTML structure:</p>
       <ul>
         <li>
-          <code>&lt;div class="visualizer"&gt;</code>: Represents the container
-          for the visualizer.
+          <code>&lt;div class="container"&gt;</code>: The main container for our
+          app.
         </li>
         <li>
           <code>&lt;h1&gt;Sorting Algorithm Visualizer&lt;/h1&gt;</code>: The
-          title of the visualizer.
+          title of our app.
         </li>
         <li>
           <code>&lt;div class="controls"&gt;</code>: The container for the
-          controls (array size, algorithm selection, and start sorting button).
-        </li>
-        <li>
-          <code>&lt;label for="array-size"&gt;Array Size:&lt;/label&gt;</code>:
-          The label for the array size input.
-        </li>
-        <li>
-          <code>
-            &lt;input type="number" id="array-size" min="10" max="100" step="1"
-            value="20"&gt;
-          </code>
-          : The input field for setting the array size.
-        </li>
-        <li>
-          <code>
-            &lt;button id="generate-array"&gt;Generate Array&lt;/button&gt;
-          </code>
-          : The button for generating a random array.
-        </li>
-        <li>
-          <code>&lt;label for="algorithm"&gt;Algorithm:&lt;/label&gt;</code>:
-          The label for the algorithm selection.
+          control elements.
         </li>
         <li>
           <code>&lt;select id="algorithm"&gt;</code>: The dropdown for selecting
           the sorting algorithm.
         </li>
         <li>
-          <code>
-            &lt;button id="start-sort"&gt;Start Sorting&lt;/button&gt;
-          </code>
-          : The button for starting the sorting process.
+          <code>&lt;button id="generate"&gt;Generate Array&lt;/button&gt;</code>
+          : The button to generate a random array.
         </li>
         <li>
-          <code>&lt;div class="array-container" id="array-container"&gt;</code>:
-          The container for displaying the array bars.
+          <code>&lt;button id="sort"&gt;Sort&lt;/button&gt;</code>: The button
+          to start the sorting process.
+        </li>
+        <li>
+          <code>&lt;div id="bars-container"&gt;&lt;/div&gt;</code>: The
+          container for the bars representing the array elements.
+        </li>
+        <li>
+          <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: Includes
+          the JavaScript file for handling the app's functionality.
         </li>
       </ul>
       <p>
         Save your "index.html" file. Now we have the basic HTML structure in
-        place. In the next step, we'll start applying CSS styles to our
-        visualizer.
+        place. In the next step, we'll add some styling to make it look nice! 🎨
       </p>
 
       <h2>Styling the Visualizer</h2>
-      <h3>Styling the Visualizer</h3>
+      <h3>Adding CSS Styles</h3>
       <p>
-        Let's start by styling the visualizer to ensure a consistent and clean
-        layout.
+        CSS is like the paint and brushes we use to make our app visually
+        appealing. Let's add some styles to our visualizer.
       </p>
-      <ol>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
         </li>
         <li>
-          <strong>Add Visualizer Styles:</strong> Copy and paste the following
-          CSS code into your "styles.css" file:
+          <strong>2. Add Visualizer Styles:</strong> Copy and paste the
+          following CSS code into your "styles.css" file:
           <pre>
             <code>
               <SyntaxHighlighter language="css" style={docco}>
@@ -244,42 +291,51 @@ const SortingAlgorithmVisualizer = () => {
   height: 100vh;
 }
 
-.visualizer {
+.container {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  width: 800px;
   text-align: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 1.5rem;
 }
 
 .controls {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-.array-container {
+select, button {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#bars-container {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  gap: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  height: 300px;
 }
 
 .bar {
-  background-color: #333;
+  background-color: #3498db;
+  margin: 0 1px;
   width: 20px;
-  margin: 2px;
-  border-radius: 2px;
-  transition: height 0.3s ease;
 }
 
-.bar:hover {
-  background-color: #555;
+.bar.sorted {
+  background-color: #2ecc71;
+}
+
+.bar.comparing {
+  background-color: #e74c3c;
 }`}
               </SyntaxHighlighter>
             </code>
@@ -289,784 +345,449 @@ const SortingAlgorithmVisualizer = () => {
       <p>Let's understand the CSS rules we just added:</p>
       <ul>
         <li>
-          <code>body</code>: Sets the default font, removes default margin and
-          padding, sets a light gray background, and centers the content using
-          flexbox.
+          <code>body</code>: Sets the default font, removes margins and padding,
+          and centers the content on the screen.
         </li>
         <li>
-          <code>.visualizer</code>: Styles the container for the visualizer.
+          <code>.container</code>: Styles the container with a white background,
+          padding, rounded corners, and a shadow.
         </li>
         <li>
-          <code>.controls</code>: Styles the container for the controls (array
-          size, algorithm selection, and start sorting button).
+          <code>h1</code>: Styles the title with a larger font size and margin.
         </li>
         <li>
-          <code>.array-container</code>: Styles the container for displaying the
-          array bars.
+          <code>.controls</code>: Adds margin to the control elements.
         </li>
         <li>
-          <code>.bar</code>: Styles the individual bars in the array container.
+          <code>select, button</code>: Styles the select dropdown and buttons
+          with padding, margin, border, and font size.
+        </li>
+        <li>
+          <code>#bars-container</code>: Uses flex layout to arrange the bars and
+          sets the height of the container.
+        </li>
+        <li>
+          <code>.bar</code>: Styles the bars with a blue background, margin, and
+          width.
+        </li>
+        <li>
+          <code>.bar.sorted</code>: Changes the background color of sorted bars
+          to green.
+        </li>
+        <li>
+          <code>.bar.comparing</code>: Changes the background color of comparing
+          bars to red.
         </li>
       </ul>
       <p>
         Save your "styles.css" file. Now, if you open "index.html" in a web
-        browser, you'll see the styled visualizer.
+        browser, you'll see the styled visualizer. 🎉
       </p>
+
+      <h2>Adding JavaScript for User Interactions</h2>
+      <h3>Handling User Interactions</h3>
       <p>
-        In the next step, we'll add the JavaScript to handle user interactions
-        and sorting algorithms.
+        Now, let's add JavaScript to make our visualizer interactive! We'll
+        handle user interactions and implement the sorting algorithms.
       </p>
 
-      <h2>Adding JavaScript for User Interactions: Part 1</h2>
-      <h3>Adding JavaScript for User Interactions: Part 1</h3>
-
-      <p>Let's start by adding JavaScript to handle user interactions.</p>
-      <ol>
+      <h4>Selecting HTML Elements</h4>
+      <p>
+        First, we need to select the HTML elements we want to work with. We'll
+        select the control elements and the bars container.
+      </p>
+      <ol className="space-y-6">
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
+          <strong>1. Open "script.js":</strong> Open the "script.js" file in
+          your code editor.
         </li>
         <li>
-          <strong>Selecting Elements:</strong> Copy and paste the following
+          <strong>2. Selecting Elements:</strong> Copy and paste the following
           JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const arraySizeInput = document.getElementById('array-size');
-const generateArrayButton = document.getElementById('generate-array');
+                {`// Selecting HTML elements
 const algorithmSelect = document.getElementById('algorithm');
-const startSortButton = document.getElementById('start-sort');
-const arrayContainer = document.getElementById('array-container');`}
+const generateButton = document.getElementById('generate');
+const sortButton = document.getElementById('sort');
+const barsContainer = document.getElementById('bars-container');`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
+      </ol>
+      <p>
+        Here, we're using the <code>getElementById</code> method to select the
+        control elements and the bars container.
+      </p>
+
+      <h4>Generating a Random Array</h4>
+      <p>
+        Next, let's create a function to generate a random array and display it
+        as bars.
+      </p>
+      <ol className="space-y-6" start={3}>
         <li>
-          <strong>Generating a Random Array:</strong> Copy and paste the
+          <strong>3. Generating a Random Array:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const generateRandomArray = () => {
-  const arraySize = parseInt(arraySizeInput.value);
-  arrayContainer.innerHTML = '';
+                {`// Function to generate a random array
+function generateArray() {
+  const array = [];
+  const arraySize = 50;
+  const maxBarHeight = 300;
 
   for (let i = 0; i < arraySize; i++) {
+    const randomHeight = Math.floor(Math.random() * maxBarHeight) + 1;
+    array.push(randomHeight);
+  }
+
+  displayArray(array);
+}
+
+// Function to display the array as bars
+function displayArray(array) {
+  barsContainer.innerHTML = '';
+
+  array.forEach((height, index) => {
     const bar = document.createElement('div');
-    bar.className = 'bar';
-    const height = Math.floor(Math.random() * 300) + 1; // Random height between 1 and 300
-    bar.style.height = \${height}px;
-    arrayContainer.appendChild(bar);
-  }
-};`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-        </li>
-        <li>
-          <strong>Adding Event Listener for Generate Array Button:</strong>
-          Copy and paste the following JavaScript code into your "script.js"
-          file:
-          <pre>
-            <code>
-              <SyntaxHighlighter language="javascript" style={docco}>
-                {`generateArrayButton.addEventListener('click', generateRandomArray);`}
+    bar.classList.add('bar');
+    bar.style.height = \`\${height}px\`;
+    bar.style.backgroundColor = '#3498db';
+    barsContainer.appendChild(bar);
+  });
+}`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>
-            const arraySizeInput = document.getElementById('array-size');
-          </code>
-          : Selects the input element for the array size.
-        </li>
-        <li>
-          <code>
-            const generateArrayButton =
-            document.getElementById('generate-array');
-          </code>
-          : Selects the button for generating the array.
-        </li>
-        <li>
-          <code>
-            const algorithmSelect = document.getElementById('algorithm');
-          </code>
-          : Selects the dropdown for selecting the sorting algorithm.
-        </li>
-        <li>
-          <code>
-            const startSortButton = document.getElementById('start-sort');
-          </code>
-          : Selects the button for starting the sorting process.
-        </li>
-        <li>
-          <code>
-            const arrayContainer = document.getElementById('array-container');
-          </code>
-          : Selects the container for the array bars.
-        </li>
-        <li>
-          <code>{`const generateRandomArray = () => { ... }`}</code>: Defines a
-          function to generate a random array of bars.
-        </li>
-        <li>
-          <code>const arraySize = parseInt(arraySizeInput.value);</code>: Gets
-          the value of the array size input and converts it to an integer.
-        </li>
-        <li>
-          <code>arrayContainer.innerHTML = '';</code>: Clears the container
-          before generating a new array.
-        </li>
-        <li>
-          <code>{`for (let i = 0; i < arraySize; i++) { ... }`}</code>: Loops
-          through the array size and creates a bar for each element.
-        </li>
-        <li>
-          <code>const bar = document.createElement('div');</code>: Creates a new
-          bar element.
-        </li>
-        <li>
-          <code>bar.className = 'bar';</code>: Sets the class name for the bar.
-        </li>
-        <li>
-          <code>const height = Math.floor(Math.random() * 300) + 1;</code>:
-          Generates a random height for the bar.
-        </li>
-        <li>
-          <code>{`bar.style.height = \${height}px;`}</code>: Sets the height of
-          the bar.
-        </li>
-        <li>
-          <code>arrayContainer.appendChild(bar);</code>: Appends the bar to the
-          container.
-        </li>
-        <li>
-          <code>
-            generateArrayButton.addEventListener('click', generateRandomArray);
-          </code>
-          : Adds an event listener to the "Generate Array" button to handle the
-          click event.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. Now, if you open "index.html" in a web
-        browser, you can generate a random array of bars.
-      </p>
-      <p>
-        In the next step, we'll add the function to start the sorting process.
+        The <code>generateArray</code> function creates a random array of 50
+        elements with heights between 1 and 300. The <code>displayArray</code>
+        function displays the array as bars in the bars container.
       </p>
 
-      <h2>Adding JavaScript for User Interactions: Part 2</h2>
-      <h3>Adding JavaScript for User Interactions: Part 2</h3>
+      <h4>Adding Event Listeners to Buttons</h4>
       <p>
-        Let's add the function to start the sorting process based on the
-        selected algorithm.
+        Now, let's add event listeners to the buttons to handle user
+        interactions.
       </p>
-      <ol>
+      <ol className="space-y-6" start={4}>
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Adding the Start Sorting Function:</strong> Copy and paste the
-          following JavaScript code into your "script.js" file:
+          <strong>4. Adding Event Listeners to Buttons:</strong> Copy and paste
+          the following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const startSorting = async () => {
-  const algorithm = algorithmSelect.value;
-
-  switch (algorithm) {
-    case 'bubble':
-      await bubbleSort();
-      break;
-    case 'quick':
-      await quickSort();
-      break;
-    case 'merge':
-      await mergeSort();
-      break;
-    default:
-      alert('Please select a sorting algorithm.');
-  }
-};`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-        </li>
-        <li>
-          <strong>Adding Event Listener for Start Sorting Button:</strong>
-          Copy and paste the following JavaScript code into your "script.js"
-          file:
-          <pre>
-            <code>
-              <SyntaxHighlighter language="javascript" style={docco}>
-                {`startSortButton.addEventListener('click', startSorting);`}
+                {`// Adding event listeners to buttons
+generateButton.addEventListener('click', generateArray);
+sortButton.addEventListener('click', sortArray);`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`const startSorting = async () => { ... }`}</code>: Defines an
-          asynchronous function to start the sorting process.
-        </li>
-        <li>
-          <code>const algorithm = algorithmSelect.value;</code>: Gets the value
-          of the selected algorithm.
-        </li>
-        <li>
-          <code>{`switch (algorithm) { ... }`}</code>: Uses a switch statement
-          to handle different sorting algorithms.
-        </li>
-        <li>
-          <code>case 'bubble': await bubbleSort(); break;</code>: Calls the{" "}
-          <code>bubbleSort</code> function if Bubble Sort is selected.
-        </li>
-        <li>
-          <code>case 'quick': await quickSort(); break;</code>: Calls the{" "}
-          <code>quickSort</code> function if Quick Sort is selected.
-        </li>
-        <li>
-          <code>case 'merge': await mergeSort(); break;</code>: Calls the{" "}
-          <code>mergeSort</code> function if Merge Sort is selected.
-        </li>
-        <li>
-          <code>default: alert('Please select a sorting algorithm.');</code>:
-          Shows an alert if no algorithm is selected.
-        </li>
-        <li>
-          <code>startSortButton.addEventListener('click', startSorting);</code>:
-          Adds an event listener to the "Start Sorting" button to handle the
-          click event.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. In the next step, we'll implement the Bubble
-        Sort algorithm.
+        This code adds a click event listener to the "Generate Array" button,
+        which calls the <code>generateArray</code> function, and another event
+        listener to the "Sort" button, which calls the <code>sortArray</code>{" "}
+        function.
       </p>
 
-      <h2>Implementing the Bubble Sort Algorithm</h2>
-      <h3>Implementing the Bubble Sort Algorithm</h3>
-
+      <h4>Implementing the Sorting Algorithms</h4>
       <p>
-        Let's implement the Bubble Sort algorithm to sort the array of bars.
+        Now, let's implement the sorting algorithms. We'll start with Bubble
+        Sort.
       </p>
-      <ol>
+      <ol className="space-y-6" start={5}>
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Adding the Bubble Sort Function:</strong> Copy and paste the
+          <strong>5. Implementing Bubble Sort:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const bubbleSort = async () => {
-  const array = arrayContainer.children;
+                {`// Function to perform Bubble Sort
+async function bubbleSort(array) {
   const n = array.length;
 
   for (let i = 0; i < n - 1; i++) {
     for (let j = 0; j < n - 1 - i; j++) {
-      const bar1 = array[j];
-      const bar2 = array[j + 1];
-      const height1 = parseInt(bar1.style.height);
-      const height2 = parseInt(bar2.style.height);
+      const bar1 = barsContainer.children[j];
+      const bar2 = barsContainer.children[j + 1];
 
-      if (height1 > height2) {
-        await swapBars(bar1, bar2);
+      bar1.classList.add('comparing');
+      bar2.classList.add('comparing');
+
+      if (array[j] > array[j + 1]) {
+        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+        await sleep(100);
+        displayArray(array);
       }
+
+      bar1.classList.remove('comparing');
+      bar2.classList.remove('comparing');
     }
   }
-};
 
-const swapBars = (bar1, bar2) => {
-  return new Promise((resolve) => {
-    const temp = bar1.style.height;
-    bar1.style.height = bar2.style.height;
-    bar2.style.height = temp;
-    setTimeout(resolve, 50); // Delay for visualization
+  array.forEach((_, index) => {
+    barsContainer.children[index].classList.add('sorted');
   });
-};`}
+}`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`const bubbleSort = async () => { ... }`}</code>: Defines an
-          asynchronous function to implement the Bubble Sort algorithm.
-        </li>
-        <li>
-          <code>const array = arrayContainer.children;</code>: Selects all the
-          bar elements.
-        </li>
-        <li>
-          <code>const n = array.length;</code>: Gets the length of the array.
-        </li>
-        <li>
-          <code>{`for (let i = 0; i < n - 1; i++) { ... }`}</code>: Outer loop
-          to iterate through the array.
-        </li>
-        <li>
-          <code>{`for (let j = 0; j < n - 1 - i; j++) { ... }`}</code>: Inner
-          loop to compare adjacent elements.
-        </li>
-        <li>
-          <code>const bar1 = array[j];</code>: Selects the first bar.
-        </li>
-        <li>
-          <code>const bar2 = array[j + 1];</code>: Selects the second bar.
-        </li>
-        <li>
-          <code>const height1 = parseInt(bar1.style.height);</code>: Gets the
-          height of the first bar.
-        </li>
-        <li>
-          <code>const height2 = parseInt(bar2.style.height);</code>: Gets the
-          height of the second bar.
-        </li>
-        <li>
-          <code>{`if (height1 > height2) { await swapBars(bar1, bar2); }`}</code>
-          : Swaps the bars if the first bar is taller than the second bar.
-        </li>
-        <li>
-          <code>{`const swapBars = (bar1, bar2) => { ... }`}</code>: Defines a
-          function to swap two bars.
-        </li>
-        <li>
-          <code>const temp = bar1.style.height;</code>: Temporarily stores the
-          height of the first bar.
-        </li>
-        <li>
-          <code>bar1.style.height = bar2.style.height;</code>: Sets the height
-          of the first bar to the height of the second bar.
-        </li>
-        <li>
-          <code>bar2.style.height = temp;</code>: Sets the height of the second
-          bar to the temporary height.
-        </li>
-        <li>
-          <code>setTimeout(resolve, 50);</code>: Adds a delay for visualization.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. In the next step, we'll implement the Quick
-        Sort algorithm.
+        The <code>bubbleSort</code> function implements the Bubble Sort
+        algorithm and updates the display after each comparison and swap. The{" "}
+        <code>sleep</code>
+        function is used to introduce a delay, making the sorting process
+        visible.
       </p>
 
-      <h2>Implementing the Quick Sort Algorithm</h2>
-
-      <h3>Implementing the Quick Sort Algorithm</h3>
-      <p>Let's implement the Quick Sort algorithm to sort the array of bars.</p>
-      <ol>
+      <h4>Implementing Quick Sort</h4>
+      <p>Next, let's implement the Quick Sort algorithm.</p>
+      <ol className="space-y-6" start={6}>
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Adding the Quick Sort Function:</strong> Copy and paste the
+          <strong>6. Implementing Quick Sort:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const quickSort = async (array, left, right) => {
+                {`// Function to perform Quick Sort
+async function quickSort(array, left, right) {
   if (left < right) {
-    const pivotIndex = await partition(array, left, right);
-    await quickSort(array, left, pivotIndex - 1);
-    await quickSort(array, pivotIndex + 1, right);
+    const partitionIndex = await partition(array, left, right);
+    await quickSort(array, left, partitionIndex - 1);
+    await quickSort(array, partitionIndex + 1, right);
   }
-};
+}
 
-const partition = async (array, left, right) => {
-  const pivot = parseInt(array[right].style.height);
+// Function to partition the array
+async function partition(array, left, right) {
+  const pivot = array[right];
   let i = left - 1;
 
   for (let j = left; j < right; j++) {
-    const height = parseInt(array[j].style.height);
-    if (height < pivot) {
+    const bar1 = barsContainer.children[j];
+    const bar2 = barsContainer.children[right];
+
+    bar1.classList.add('comparing');
+    bar2.classList.add('comparing');
+
+    if (array[j] < pivot) {
       i++;
-      await swapBars(array[i], array[j]);
+      [array[i], array[j]] = [array[j], array[i]];
+      await sleep(100);
+      displayArray(array);
     }
+
+    bar1.classList.remove('comparing');
+    bar2.classList.remove('comparing');
   }
 
-  await swapBars(array[i + 1], array[right]);
+  [array[i + 1], array[right]] = [array[right], array[i + 1]];
+  await sleep(100);
+  displayArray(array);
+
   return i + 1;
-};`}
+}`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`const quickSort = async (array, left, right) => { ... }`}</code>
-          : Defines an asynchronous function to implement the Quick Sort
-          algorithm.
-        </li>
-        <li>
-          <code>{`if (left < right) { ... }`}</code>: Checks if the left index
-          is less than the right index.
-        </li>
-        <li>
-          <code>const pivotIndex = await partition(array, left, right);</code>:
-          Finds the pivot index using the partition function.
-        </li>
-        <li>
-          <code>await quickSort(array, left, pivotIndex - 1);</code>:
-          Recursively sorts the left subarray.
-        </li>
-        <li>
-          <code>await quickSort(array, pivotIndex + 1, right);</code>:
-          Recursively sorts the right subarray.
-        </li>
-        <li>
-          <code>{`const partition = async (array, left, right) => { ... }`}</code>
-          : Defines an asynchronous function to partition the array.
-        </li>
-        <li>
-          <code>const pivot = parseInt(array[right].style.height);</code>:
-          Selects the pivot element.
-        </li>
-        <li>
-          <code>let i = left - 1;</code>: Initializes the index for the
-          partition.
-        </li>
-        <li>
-          <code>{`for (let j = left; j < right; j++) { ... }`}</code>: Loops
-          through the array to partition it.
-        </li>
-        <li>
-          <code>const height = parseInt(array[j].style.height);</code>: Gets the
-          height of the current element.
-        </li>
-        <li>
-          <code>{`if (height < pivot) { i++; await swapBars(array[i], array[j]); }`}</code>
-          : Swaps elements if the current element is less than the pivot.
-        </li>
-        <li>
-          <code>await swapBars(array[i + 1], array[right]);</code>: Swaps the
-          pivot element with the element at the partition index.
-        </li>
-        <li>
-          <code>return i + 1;</code>: Returns the partition index.
-        </li>
-      </ul>
       <p>
-        Save your "script.js" file. In the next step, we'll implement the Merge
-        Sort algorithm.
+        The <code>quickSort</code> function implements the Quick Sort algorithm
+        recursively, and the <code>partition</code> function is used to
+        partition the array. The <code>sleep</code> function is used to
+        introduce a delay, making the sorting process visible.
       </p>
 
-      <h2>Implementing the Merge Sort Algorithm</h2>
-      <h3>Implementing the Merge Sort Algorithm</h3>
-
-      <p>Let's implement the Merge Sort algorithm to sort the array of bars.</p>
-      <ol>
+      <h4>Implementing Merge Sort</h4>
+      <p>Finally, let's implement the Merge Sort algorithm.</p>
+      <ol className="space-y-6" start={7}>
         <li>
-          <strong>Open "script.js":</strong> Open the "script.js" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Adding the Merge Sort Function:</strong> Copy and paste the
+          <strong>7. Implementing Merge Sort:</strong> Copy and paste the
           following JavaScript code into your "script.js" file:
           <pre>
             <code>
               <SyntaxHighlighter language="javascript" style={docco}>
-                {`const mergeSort = async (array, left, right) => {
+                {`// Function to perform Merge Sort
+async function mergeSort(array, left, right) {
   if (left < right) {
-    const mid = Math.floor((left + right) / 2);
-    await mergeSort(array, left, mid);
-    await mergeSort(array, mid + 1, right);
-    await merge(array, left, mid, right);
+    const middle = Math.floor((left + right) / 2);
+    await mergeSort(array, left, middle);
+    await mergeSort(array, middle + 1, right);
+    await merge(array, left, middle, right);
   }
-};
+}
 
-const merge = async (array, left, mid, right) => {
-  const leftArray = Array.from(array).slice(left, mid + 1);
-  const rightArray = Array.from(array).slice(mid + 1, right + 1);
-  let i = 0;
-  let j = 0;
-  let k = left;
+// Function to merge two subarrays
+async function merge(array, left, middle, right) {
+  const n1 = middle - left + 1;
+  const n2 = right - middle;
 
-  while (i < leftArray.length && j < rightArray.length) {
-    const leftHeight = parseInt(leftArray[i].style.height);
-    const rightHeight = parseInt(rightArray[j].style.height);
+  const L = array.slice(left, left + n1);
+  const R = array.slice(middle + 1, middle + 1 + n2);
 
-    if (leftHeight <= rightHeight) {
-      array[k].style.height = leftArray[i].style.height;
+  let i = 0, j = 0, k = left;
+
+  while (i < n1 && j < n2) {
+    const bar1 = barsContainer.children[k];
+    const bar2 = barsContainer.children[k + 1];
+
+    bar1.classList.add('comparing');
+    bar2.classList.add('comparing');
+
+    if (L[i] <= R[j]) {
+      array[k] = L[i];
       i++;
     } else {
-      array[k].style.height = rightArray[j].style.height;
+      array[k] = R[j];
       j++;
     }
+
+    await sleep(100);
+    displayArray(array);
+
+    bar1.classList.remove('comparing');
+    bar2.classList.remove('comparing');
+
     k++;
-    await delay(50);
   }
 
-  while (i < leftArray.length) {
-    array[k].style.height = leftArray[i].style.height;
+  while (i < n1) {
+    array[k] = L[i];
     i++;
     k++;
-    await delay(50);
   }
 
-  while (j < rightArray.length) {
-    array[k].style.height = rightArray[j].style.height;
+  while (j < n2) {
+    array[k] = R[j];
     j++;
     k++;
-    await delay(50);
-  }
-};
-
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));`}
-              </SyntaxHighlighter>
-            </code>
-          </pre>
-        </li>
-      </ol>
-      <p>Let's understand the JavaScript code we just added:</p>
-      <ul>
-        <li>
-          <code>{`const mergeSort = async (array, left, right) => { ... }`}</code>
-          : Defines an asynchronous function to implement the Merge Sort
-          algorithm.
-        </li>
-        <li>
-          <code>{`if (left < right) { ... }`}</code>: Checks if the left index
-          is less than the right index.
-        </li>
-        <li>
-          <code>{`const mid = Math.floor((left + right) / 2);`}</code>: Finds
-          the midpoint of the array.
-        </li>
-        <li>
-          <code>await mergeSort(array, left, mid);</code>: Recursively sorts the
-          left subarray.
-        </li>
-        <li>
-          <code>await mergeSort(array, mid + 1, right);</code>: Recursively
-          sorts the right subarray.
-        </li>
-        <li>
-          <code>await merge(array, left, mid, right);</code>: Merges the sorted
-          subarrays.
-        </li>
-        <li>
-          <code>{`const merge = async (array, left, mid, right) => { ... }`}</code>
-          : Defines an asynchronous function to merge two sorted subarrays.
-        </li>
-        <li>
-          <code>const leftArray = Array.from(array).slice(left, mid + 1);</code>
-          : Creates a copy of the left subarray.
-        </li>
-        <li>
-          <code>
-            const rightArray = Array.from(array).slice(mid + 1, right + 1);
-          </code>
-          : Creates a copy of the right subarray.
-        </li>
-        <li>
-          <code>let i = 0; let j = 0; let k = left;</code>: Initializes indices
-          for merging.
-        </li>
-        <li>
-          <code>{`while (i < leftArray.length && j < rightArray.length) { ... }`}</code>
-          : Merges elements from the left and right subarrays.
-        </li>
-        <li>
-          <code>const leftHeight = parseInt(leftArray[i].style.height);</code>:
-          Gets the height of the current element in the left subarray.
-        </li>
-        <li>
-          <code>const rightHeight = parseInt(rightArray[j].style.height);</code>
-          : Gets the height of the current element in the right subarray.
-        </li>
-        <li>
-          <code>{`if (leftHeight <= rightHeight) { ... }`}</code>: Merges the
-          element from the left subarray.
-        </li>
-        <li>
-          <code>{`else { ... }`}</code>: Merges the element from the right
-          subarray.
-        </li>
-        <li>
-          <code>{`while (i < leftArray.length) { ... }`}</code>: Merges
-          remaining elements from the left subarray.
-        </li>
-        <li>
-          <code>{`while (j < rightArray.length) { ... }`}</code>: Merges
-          remaining elements from the right subarray.
-        </li>
-        <li>
-          <code>{`const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));`}</code>
-          : Defines a function to add a delay for visualization.
-        </li>
-      </ul>
-      <p>
-        Save your "script.js" file. In the next step, we'll make the visualizer
-        responsive for different screen sizes.
-      </p>
-
-      <h2> Making the Visualizer Responsive</h2>
-
-      <h3>Making the Visualizer Responsive</h3>
-      <p>
-        Let's ensure our visualizer looks great on various devices by adding
-        responsive design using CSS media queries.
-      </p>
-      <ol>
-        <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Add Responsive Design Styles:</strong> Copy and paste the
-          following CSS code into your "styles.css" file:
-          <pre>
-            <code>
-              <SyntaxHighlighter language="css" style={docco}>
-                {`@media (max-width: 600px) {
-  .visualizer {
-    width: 90%;
   }
 
-  .controls {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .bar {
-    width: 10px;
-  }
+  await sleep(100);
+  displayArray(array);
 }`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the CSS rules we just added:</p>
-      <ul>
-        <li>
-          <code>@media (max-width: 600px)</code>: A media query for screens up
-          to 600px wide (e.g., mobile phones).
-        </li>
-        <li>
-          <code>.visualizer</code>: Adjusts the width of the visualizer to 90%
-          for better visibility on smaller screens.
-        </li>
-        <li>
-          <code>.controls</code>: Changes the flex direction to column and
-          aligns items to the start for better layout on smaller screens.
-        </li>
-        <li>
-          <code>.bar</code>: Adjusts the width of the bars for better visibility
-          on smaller screens.
-        </li>
-      </ul>
       <p>
-        Save your "styles.css" file. Now, if you resize your browser window or
-        view the visualizer on different devices, you'll see the layout adapt to
-        different screen sizes.
+        The <code>mergeSort</code> function implements the Merge Sort algorithm
+        recursively, and the <code>merge</code> function is used to merge two
+        subarrays. The <code>sleep</code> function is used to introduce a delay,
+        making the sorting process visible.
       </p>
-      <p>In the next step, we'll add final touches to the visualizer.</p>
 
-      <h2>Adding Final Touches</h2>
-      <h3>Adding Final Touches</h3>
-
+      <h4>Handling the Sort Button Click</h4>
       <p>
-        Let's add the final touches to our visualizer to ensure it is fully
-        functional and visually appealing.
+        Now, let's create a function to handle the "Sort" button click and call
+        the appropriate sorting algorithm based on the selected algorithm.
       </p>
-      <ol>
+      <ol className="space-y-6" start={8}>
         <li>
-          <strong>Open "styles.css":</strong> Open the "styles.css" file in your
-          code editor.
-        </li>
-        <li>
-          <strong>Add Final Touches:</strong> Copy and paste the following CSS
-          code into your "styles.css" file:
+          <strong>8. Handling the Sort Button Click:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
           <pre>
             <code>
-              <SyntaxHighlighter language="css" style={docco}>
-                {`.visualizer {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to handle the Sort button click
+async function sortArray() {
+  const algorithm = algorithmSelect.value;
+  const array = Array.from(barsContainer.children).map(bar => parseInt(bar.style.height));
 
-.bar {
-  transition: height 0.3s ease, background-color 0.3s ease;
-}
+  if (algorithm === 'bubble') {
+    await bubbleSort(array);
+  } else if (algorithm === 'quick') {
+    await quickSort(array, 0, array.length - 1);
+  } else if (algorithm === 'merge') {
+    await mergeSort(array, 0, array.length - 1);
+  }
 
-.bar:hover {
-  background-color: #555;
-}
-
-.controls input, .controls button, .controls select {
-  margin: 5px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.controls input:focus, .controls button:focus, .controls select:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  array.forEach((_, index) => {
+    barsContainer.children[index].classList.add('sorted');
+  });
 }`}
               </SyntaxHighlighter>
             </code>
           </pre>
         </li>
       </ol>
-      <p>Let's understand the CSS rules we just added:</p>
-      <ul>
-        <li>
-          <code>.visualizer</code>: Adds a more pronounced shadow to the
-          visualizer for a better visual effect.
-        </li>
-        <li>
-          <code>.bar</code>: Adds a transition effect for height and background
-          color to the bars.
-        </li>
-        <li>
-          <code>.bar:hover</code>: Changes the background color of the bars on
-          hover.
-        </li>
-        <li>
-          <code>.controls input, .controls button, .controls select</code>:
-          Styles the input, button, and select elements in the controls.
-        </li>
-        <li>
-          <code>
-            .controls input:focus, .controls button:focus, .controls
-            select:focus
-          </code>
-          : Changes the border color and adds a box shadow to the input, button,
-          and select elements when they are focused.
-        </li>
-      </ul>
       <p>
-        Save your "styles.css" file. Now, if you open "index.html" in a web
-        browser, you'll see the final touches in action.
+        The <code>sortArray</code> function determines the selected sorting
+        algorithm and calls the appropriate sorting function. After sorting, it
+        marks all bars as sorted.
+      </p>
+
+      <h4>Adding the Sleep Function</h4>
+      <p>
+        Finally, let's add the <code>sleep</code> function to introduce delays
+        in the sorting process.
+      </p>
+      <ol className="space-y-6" start={9}>
+        <li>
+          <strong>9. Adding the Sleep Function:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to introduce a delay
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}`}
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        The <code>sleep</code> function returns a promise that resolves after
+        the specified number of milliseconds, allowing us to introduce delays in
+        the sorting process.
+      </p>
+
+      <h3>Putting It All Together</h3>
+      <p>
+        Now that we have the HTML, CSS, and JavaScript in place, let's put it
+        all together and test our visualizer.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Save Your Files:</strong> Save the "index.html",
+          "styles.css", and "script.js" files.
+        </li>
+        <li>
+          <strong>2. Open "index.html" in a Web Browser:</strong> Open your
+          "index.html" file in a web browser to see your visualizer in action.
+        </li>
+      </ol>
+      <p>
+        If everything is working correctly, you should be able to generate a
+        random array and sort it using different sorting algorithms.
+      </p>
+
+      <h2>Final Thoughts</h2>
+      <p>
+        Congratulations! You've completed the Sorting Algorithm Visualizer
+        project. You've learned how to create a visualizer that demonstrates
+        complex sorting algorithms like Bubble Sort, Quick Sort, and Merge Sort.
+        This project introduced you to working with algorithms, visualization,
+        and web development.
       </p>
       <p>
-        Congratulations! You've completed the JavaScript project, "Sorting
-        Algorithm Visualizer." You've learned how to create a fully functional
-        visualizer for sorting algorithms. You've also learned the basics of
-        working with event listeners, complex algorithms, and DOM manipulation.
-      </p>
-      <p>
-        Feel free to continue customizing your visualizer and exploring more
-        JavaScript techniques. Happy coding!
+        Feel free to customize and expand your visualizer further. You can add
+        more sorting algorithms, improve the design, or even create a mobile
+        version. Happy coding and exploring the world of web development! 🚀
       </p>
     </div>
   );
