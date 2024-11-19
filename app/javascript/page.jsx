@@ -35,6 +35,12 @@ const Jscourse = () => {
             Click here to explore coding projects!
           </Link>
         </p>
+        <p>
+          You can also take some HTML, CSS, and JavaScript quizzes here:
+          <Link href="/quizzes" passHref>
+            Take Quizzes
+          </Link>
+        </p>
         <br />
         <p>Choose a topic to start learning:</p>
         {/* Introduction Section */}

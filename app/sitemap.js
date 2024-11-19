@@ -872,5 +872,57 @@ export default function sitemap() {
       url: `https://www.mergesociety.com/blog/21`,
       lastModified: new Date(),
     },
+    {
+      url: `https://www.mergesociety.com/quizzes`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/cssQuiz`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/cssQuiz/1q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/cssQuiz/2q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/cssQuiz/3q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/htmlQ`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/htmlQ/1q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/htmlQ/2q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/htmlQ/3q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/javascriptQuiz`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/javascriptQuiz/1q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/javascriptQuiz/2q`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/quizzes/javascriptQuiz/3q`,
+      lastModified: new Date(),
+    },
   ];
 }

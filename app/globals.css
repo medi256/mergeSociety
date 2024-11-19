@@ -94,10 +94,21 @@ pre {
   color: #e74c3c;
 }
 
+.land-link {
+  background: linear-gradient(to right, #93c5fd, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.3s;
+}
+.land-link:hover {
+  color: #007bff;
+}
+
 .home-section {
   text-align: center;
   padding: 4rem 0;
-  background: linear-gradient(135deg, #3498db, #8e44ad);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: #fff;
 }
 
@@ -1160,4 +1171,90 @@ th {
 .iframeWH {
   max-width: 100%;
   /* height: 100%; */
+}
+
+/* Global styles for the quiz page */
+.categories-containers {
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Title style */
+.categories-titles {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Description paragraph style */
+.categories-descriptions {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* Container for the quiz category links */
+.categories-link {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Style for each category card */
+.category-cards {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.category-cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.category-cards h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.category-cards p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .categories-titles {
+    font-size: 2rem;
+  }
+
+  .categories-descriptions {
+    font-size: 1rem;
+  }
+
+  .categories-link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-cards {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
 }

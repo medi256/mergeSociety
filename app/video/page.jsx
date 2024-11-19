@@ -43,6 +43,12 @@ const LearnByWatchingVideos = () => {
             Click here to explore coding projects!
           </Link>
         </p>
+        <p>
+          You can also take some HTML, CSS, and JavaScript quizzes here:
+          <Link href="/quizzes" passHref>
+            Take Quizzes
+          </Link>
+        </p>
 
         <h2>HTML videos</h2>
 

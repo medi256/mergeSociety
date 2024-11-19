@@ -14,11 +14,24 @@ export default function Home() {
             <button className="btn-start">Start Learning Now </button>
           </Link>
           <section className="guide">
-            <h2 className="">Ready to start?</h2>
-            <p className="">
+            <h2>Ready to start?</h2>
+            <p>
               Don't know where to begin?{" "}
-              <Link href="/guide">Click here ➡️</Link> to get an introduction!
+              <Link className="land-link" href="/guide">
+                Click here
+              </Link>{" "}
+              to get an introduction!
             </p>
+          </section>
+          <section class="guide">
+            <h2>Test Your Skills!</h2>
+            <p>
+              If you want to take some HTML, CSS, and JavaScript quizzes, click
+              below:
+            </p>
+            <Link className="land-link" href="/quizzes">
+              Take a Quiz
+            </Link>
           </section>
         </section>
         <section className="section-padding">
