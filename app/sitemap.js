@@ -893,19 +893,19 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/quizzes/htmlQ`,
+      url: `https://www.mergesociety.com/quizzes/htmlQuiz`,
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/quizzes/htmlQ/1q`,
+      url: `https://www.mergesociety.com/quizzes/htmlQuiz/1q`,
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/quizzes/htmlQ/2q`,
+      url: `https://www.mergesociety.com/quizzes/htmlQuiz/2q`,
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/quizzes/htmlQ/3q`,
+      url: `https://www.mergesociety.com/quizzes/htmlQuiz/3q`,
       lastModified: new Date(),
     },
     {
