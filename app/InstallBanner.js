@@ -58,27 +58,29 @@ const InstallPrompt = () => {
     <div
       style={{
         position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        backgroundColor: "white",
-        border: "1px solid #ccc",
-        borderRadius: "8px",
+        top: "0", // Changed from bottom to top
+        left: "0",
+        right: "0",
+        backgroundColor: "#007bff", // Updated background color
+        color: "white", // Updated text color
         padding: "16px",
-        maxWidth: "300px",
-        boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
         zIndex: 1000,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
       }}
     >
       <h3 style={{ margin: "0 0 8px" }}>Install Our App</h3>
       <p style={{ margin: "0 0 16px" }}>
         Get quick access to our website from your home screen!
       </p>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", gap: "8px" }}>
         <button
           onClick={handleInstall}
           style={{
-            backgroundColor: "#007bff",
-            color: "white",
+            backgroundColor: "white",
+            color: "#007bff",
             border: "none",
             padding: "8px 16px",
             borderRadius: "4px",
