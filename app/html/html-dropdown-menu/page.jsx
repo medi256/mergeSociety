@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, dropdown menus, <details> tag, <summary> tag, web development, interactive elements, coding for beginners, collapsible content, best practices for dropdowns",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/dropdown-menu",
+    canonical: "https://www.mergesociety.com/html/html-dropdown-menu",
   },
   openGraph: {
     title:
