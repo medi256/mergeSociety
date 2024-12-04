@@ -1,4 +1,4 @@
-# Ads.txt v20241119
+# Ads.txt v20241125
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -67,14 +67,7 @@ risecodes.com, 65a3efa13a58f100018b923c, DIRECT
 pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 xandr.com, 14082, RESELLER
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
-openx.com, 537140488, RESELLER, 6a698e2ec38604c6
 sharethrough.com, 5926d422, RESELLER, d53b998a7bd4ecd2
-media.net, 8CUQ6928Q, RESELLER
-sonobi.com, 4a289cdd79, RESELLER, d1a215d9eb5aee9e
-video.unrulymedia.com, 335119963, RESELLER
-yieldmo.com, 2754490424016969782, RESELLER
-themediagrid.com, 4DQHAP, RESELLER, 35d5010d7789b49d
-33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
 aps.amazon.com,fc983fef-a09b-46c9-b3c8-44d705e51b5d,DIRECT
 pubmatic.com,157150,RESELLER,5d62403b186f2ace
 openx.com,540191398,RESELLER,6a698e2ec38604c6
