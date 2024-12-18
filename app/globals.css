@@ -871,10 +871,9 @@ pre {
   }
 }
 
-/* Lesson container with sidebar ad adjustments */
 .lesson-container {
-  max-width: 800px;
-  margin: 0 50px;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
   color: #333;
@@ -904,8 +903,8 @@ pre {
 
 .lesson-container p {
   margin-bottom: 15px;
-  font-size: 20px; /* Adjust font size to 20px */
-  line-height: 1.5; /* Adjust line height to 1.5 (30px for 20px font size) */
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .lesson-container td,
@@ -951,7 +950,7 @@ th {
   margin: 20px 0;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .lesson-container pre {
@@ -968,11 +967,9 @@ th {
   border-radius: 4px;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 600px) {
   .lesson-container {
     padding: 15px;
-    margin: 0 auto;
   }
 
   .lesson-container h1 {
