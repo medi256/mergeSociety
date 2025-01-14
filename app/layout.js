@@ -34,7 +34,6 @@ export const metadata = {
     siteName: "MergeSociety",
   },
   authors: [{ name: "MergeSociety" }],
-  category: "Advanced Web Development Tutorial",
   tags: [
     "web development",
     "coding",
@@ -65,6 +64,24 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#3498db" />
         <Script
           strategy="afterInteractive"
@@ -102,7 +119,7 @@ export default function RootLayout({ children }) {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Tutorials",
-                  "item": "https://www.mergesociety.com/tutorials"
+                  "item": "https://www.mergesociety.com/projects"
                 }
               ]
             }

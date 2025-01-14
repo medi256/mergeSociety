@@ -3,7 +3,6 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/privacy/",
     },
     sitemap: `https://www.mergesociety.com/sitemap.xml`,
   };

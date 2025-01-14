@@ -2,6 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Build Your First Website: Step-by-Step HTML Project Tutorial",
@@ -23,6 +24,14 @@ export const metadata = {
     "HTML5 website examples",
     "coding projects for portfolio",
     "HTML hands on projects",
+    "HTML project tutorial",
+    "HTML project for beginners",
+    "HTML website project",
+    "HTML project ideas for beginners",
+    "HTML project examples",
+    "HTML project for practice",
+    "HTML project for beginners with code",
+    "HTML project for beginners step by step",
   ],
   alternates: {
     canonical: "https://www.mergesociety.com/projects/htmlP/1p",
@@ -38,25 +47,43 @@ export const metadata = {
 
 const PersonalWebpage = () => {
   return (
-    <div className="lesson-container">
-      <div
+    <div className="project-container">
+      <article
         style={{
           maxWidth: "800px",
           margin: "0 auto",
           padding: "20px",
         }}
       >
-        <h1
-          style={{
-            color: "#333",
-            borderBottom: "2px solid #333",
-            paddingBottom: "10px",
-          }}
-        >
-          Building Your First Website: A Complete Step-by-Step Guide for
-          Beginners
-        </h1>
-        <h2>Welcome to Your Web Development Journey! 🌟</h2>
+        <h1>Build Your First Website: Step-by-Step HTML Project Tutorial</h1>
+
+        <Image
+          src={
+            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736496972/resume_l9lnxg.jpg"
+          }
+          alt={"Personal Website Example"}
+          width={600}
+          height={400}
+          className="project-image"
+          priority
+        />
+        <h3 className="project-info">
+          <Image
+            src={
+              "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
+            }
+            alt={"Personal Website Example"}
+            width={600}
+            height={400}
+            className="founders-image"
+            priority
+          />
+          <span className="project-title">
+            <Link href={"/about"}>Written by Massa Medi</Link>
+          </span>
+          <span className="project-date">| January 15, 2025</span>
+        </h3>
+
         <p>
           Hello future web developer! Before we start our exciting journey
           together, let's understand what we're going to create and learn. By
@@ -606,9 +633,102 @@ const PersonalWebpage = () => {
           Keep building and learning - you're now officially on your way to
           becoming a web developer! 🌟
         </p>
-      </div>
+      </article>
+      <h3>Recommended</h3>
+      <HtmlProjectss />
     </div>
   );
 };
 
 export default PersonalWebpage;
+
+export const HtmlProjectss = () => {
+  const htmlOnlyProjectTitles = [
+    {
+      id: "2p",
+      title: "Build a Professional Resume with HTML",
+      description:
+        "Design a structured and professional resume using HTML. This project teaches you how to use tables, lists, and semantic HTML tags to represent work experience, skills, and education. Great for showcasing your HTML skills!",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497289/portfolio_zv717y.jpg",
+      alt: "HTML Resume Example",
+      date: "January 20, 2025",
+    },
+    {
+      id: "3p",
+      title: "Create a Weekly Schedule with HTML Tables",
+      description:
+        "Master HTML tables by creating a weekly schedule. This project demonstrates how to use table rows, columns, and headers to organize information effectively. Ideal for beginners learning HTML structure.",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497470/skedule_le1iyh.jpg",
+      alt: "Weekly Schedule Example",
+      date: "January 25, 2025",
+    },
+    {
+      id: "4p",
+      title: "Design a Restaurant Menu Using Semantic HTML",
+      description:
+        "Create a restaurant menu using semantic HTML elements like sections, articles, and lists. This project focuses on organizing content with proper HTML structure and accessibility. Perfect for advanced learners!",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497900/restuarat_p5vq9d.jpg",
+      alt: "Restaurant Menu Example",
+      date: "February 1, 2025",
+    },
+    {
+      id: "5p",
+      title: "Build a Photo Gallery with HTML",
+      description:
+        "Learn how to create a static photo gallery using HTML image tags and captions. This project emphasizes the use of alt attributes for accessibility and proper image embedding. Great for practicing HTML media elements!",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
+      alt: "Photo Gallery Example",
+      date: "February 5, 2025",
+    },
+    {
+      id: "6p",
+      title: "Create an Event Invitation Page with HTML",
+      description:
+        "Design an event invitation page using only HTML. This project covers headings, paragraphs, lists, and hyperlinks to create a visually appealing and functional page. Perfect for advanced HTML learners!",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498445/event_iu3yfu.jpg",
+      alt: "Event Invitation Example",
+      date: "February 10, 2025",
+    },
+  ];
+
+  return (
+    <div className="blog-posts-container">
+      <div className="posts-grid">
+        {htmlOnlyProjectTitles.map((project) => (
+          <Link
+            key={project.id}
+            href={`/projects/htmlP/${project.id}`}
+            passHref
+            className="post-description"
+          >
+            <article className="post-card">
+              <div className="post-image">
+                <Image
+                  src={project.image}
+                  alt={project.alt}
+                  width={600}
+                  height={400}
+                  className="project-image"
+                  priority
+                />
+              </div>
+              <div className="post-content">
+                <h2 className="post-title">{project.title}</h2>
+                <p className="post-date">{project.date}</p>
+                <p className="post-description">{project.description}</p>
+                <button className="post-button ct-button">
+                  Start Tutorial
+                </button>
+              </div>
+            </article>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};

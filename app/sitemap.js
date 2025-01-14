@@ -924,5 +924,13 @@ export default function sitemap() {
       url: `https://www.mergesociety.com/quizzes/javascriptQuiz/3q`,
       lastModified: new Date(),
     },
+    {
+      url: `https://www.mergesociety.com/terms`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/contact`,
+      lastModified: new Date(),
+    },
   ];
 }

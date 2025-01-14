@@ -11,7 +11,7 @@ export const metadata = {
     "HTML basics, HTML introduction, learn HTML, HTML for beginners, web development HTML, HTML course, HTML tags, HTML structure, CSS and HTML, HTML tutorial",
   author: "MergeSociety",
   alternates: {
-    canonical: "https://www.mergesocietry.com/html-introduction",
+    canonical: "https://www.mergesocietry.com/html/html-introduction",
   },
 
   openGraph: {
@@ -21,7 +21,7 @@ export const metadata = {
       "Begin your journey into HTML, the backbone of web development. This guide covers HTML basics, history, and its role with CSS and JavaScript. Perfect for beginners.",
     type: "website",
     siteName: "MergeSociety",
-    url: "https://www.mergesocietry.com/html-introduction",
+    url: "https://www.mergesocietry.com/html/html-introduction",
   },
 };
 
