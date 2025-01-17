@@ -67,7 +67,9 @@ const ParallaxScrollingEffect = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <span className="project-date">| January 15, 2025</span>
+        <time className="project-date" datetime="2025-3-15">
+          | January 3, 2025
+        </time>
       </h2>
 
       <p>
@@ -635,7 +637,7 @@ export const CssProjectssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577431/cssblog_stuovd.jpg",
       alt: "Style a Blog Post with CSS",
-      date: "January 11, 2025",
+      date: "January 5, 2025",
       description:
         "Style a simple blog post using CSS. Learn how to apply font families, text colors, and adjust line height and spacing to enhance readability.",
     },
@@ -655,7 +657,7 @@ export const CssProjectssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg",
       alt: "Design an Advanced Pricing Table",
-      date: "January 20, 2025",
+      date: "January 16, 2025",
       description:
         "Create a fully responsive pricing table with CSS grid. Learn to use grid properties to structure rows and columns, adding hover effects for interaction.",
     },

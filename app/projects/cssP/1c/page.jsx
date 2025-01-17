@@ -72,7 +72,9 @@ const PortfolioLayout = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <span className="project-date">| January 15, 2025</span>
+        <time className="project-date" datetime="2025-01-15">
+          | January 15, 2025
+        </time>
       </h2>
       <p>
         Creating a personal portfolio website is an excellent way to showcase
@@ -960,7 +962,7 @@ export const CssProjectss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577431/cssblog_stuovd.jpg",
       alt: "Style a Blog Post with CSS",
-      date: "January 11, 2025",
+      date: "January 5, 2025",
       description:
         "Style a simple blog post using CSS. Learn how to apply font families, text colors, and adjust line height and spacing to enhance readability.",
     },
@@ -980,7 +982,7 @@ export const CssProjectss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg",
       alt: "Design an Advanced Pricing Table",
-      date: "January 20, 2025",
+      date: "January 16, 2025",
       description:
         "Create a fully responsive pricing table with CSS grid. Learn to use grid properties to structure rows and columns, adding hover effects for interaction.",
     },
@@ -990,7 +992,7 @@ export const CssProjectss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577912/csstype_prlpwm.jpg",
       alt: "Build a Parallax Scrolling Effect",
-      date: "January 25, 2025",
+      date: "January 3, 2025",
       description:
         "Learn how to create a parallax scrolling effect using CSS. This project covers how to manipulate background images and layers for a visually engaging web experience.",
     },
