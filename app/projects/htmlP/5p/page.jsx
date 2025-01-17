@@ -80,7 +80,9 @@ const RestaurantMenuHtml = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <span className="project-date">| January 20, 2025</span>
+        <time className="project-date" datetime="2025-01-5">
+          | January 5, 2025
+        </time>
       </h3>
       <h3>Let's Build a Restaurant Menu Together!</h3>
 

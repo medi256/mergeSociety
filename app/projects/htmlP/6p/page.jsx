@@ -77,7 +77,9 @@ const EventInvitation = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <span className="project-date">| January 20, 2025</span>
+        <time className="project-date" datetime="2025-01-12">
+          | January 12, 2025
+        </time>
       </h3>
 
       <h3>Let's Build an Event Invitation Together!</h3>
