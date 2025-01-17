@@ -67,7 +67,9 @@ const WeatherApp = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <span className="project-date">| January 15, 2025</span>
+        <time className="project-date" datetime="2025-01-9">
+          | January 9, 2025
+        </time>
       </h2>
 
       <p>

@@ -53,7 +53,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584631/todo-list_bcl3hp.png",
       alt: "To-Do List App in javascript",
-      date: "January 15, 2025",
+      date: "January 4, 2025",
       description:
         "Create a simple to-do list app where users can add, edit, and remove tasks. Learn the basics of DOM manipulation and event handling in JavaScript.",
     },
@@ -63,7 +63,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584814/javascript_randomquote_el9bfx.jpg",
       alt: "Random Quote Generator javascript project",
-      date: "January 17, 2025",
+      date: "January 7, 2025",
       description:
         "Build a random quote generator that displays a new quote every time the user clicks a button. Use JavaScript to fetch random quotes and update the UI dynamically.",
     },
@@ -73,7 +73,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584905/Quiz-App-01_zwez9e.png",
       alt: "JavaScript Quiz Game javascript project",
-      date: "January 25, 2025",
+      date: "January 15, 2025",
       description:
         "Develop a fun quiz game where users answer multiple-choice questions. Use arrays and functions to manage questions, track scores, and display results.",
     },
@@ -83,7 +83,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736585719/weather-app_nynylh.jpg",
       alt: "Weather App with API javascript project",
-      date: "January 15, 2025",
+      date: "January 9, 2025",
       description:
         "Create a weather app that fetches real-time weather data from an API. Learn how to work with APIs, handle async functions, and display the data on your webpage.",
     },
@@ -93,7 +93,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736585940/javascript_fjhd7p.jpg",
       alt: "JavaScript Calculator javascript project",
-      date: "January 9, 2025",
+      date: "January 17, 2025",
       description:
         "Build a fully functional calculator with advanced operations. Practice working with event listeners, complex logic, and DOM manipulation for a real-world challenge.",
     },
@@ -103,7 +103,7 @@ const JSProjects = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736587158/js_hjlvsn.jpg",
       alt: "Sorting Algorithm Visualizer javascript project",
-      date: "January 19, 2025",
+      date: "January 7, 2025",
       description:
         "Develop a sorting algorithm visualizer that demonstrates algorithms like Bubble Sort, Quick Sort, and Merge Sort. This project will help you understand complex algorithms and visualize how they work.",
     },
