@@ -32,192 +32,194 @@ export const metadata = {
 
 const SimpleToDoListApp = () => {
   return (
-    <div className="project-container">
-      <article style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-        <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
-          Building a Simple To-Do List App with JavaScript
-        </h1>
+    <article
+      className="project-container"
+      style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+    >
+      <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
+        Building a Simple To-Do List App with JavaScript
+      </h1>
+      <Image
+        src={
+          "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584631/todo-list_bcl3hp.png"
+        }
+        alt={"Personal Website Example"}
+        width={600}
+        height={400}
+        className="project-image"
+        priority
+      />
+      <h2 className="project-info">
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584631/todo-list_bcl3hp.png"
+            "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
           }
           alt={"Personal Website Example"}
           width={600}
           height={400}
-          className="project-image"
+          className="founders-image"
           priority
         />
-        <h2 className="project-info">
-          <Image
-            src={
-              "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
-            }
-            alt={"Personal Website Example"}
-            width={600}
-            height={400}
-            className="founders-image"
-            priority
-          />
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <span className="project-date">| January 15, 2025</span>
-        </h2>
+        <span className="project-title">
+          <Link href={"/about"}>Written by Massa Medi</Link>
+        </span>
+        <span className="project-date">| January 15, 2025</span>
+      </h2>
+      <p>
+        Welcome to the beginner-friendly tutorial on building a Simple To-Do
+        List App with JavaScript! In this project, we'll create a
+        straightforward to-do list application where users can add and delete
+        tasks. This project is an excellent starting point for learning DOM
+        manipulation and event handling in JavaScript.
+      </p>
+
+      <h2>Setting Up Your Workspace</h2>
+      <h3>Creating Your Project Folder and Files</h3>
+      <p>
+        Before we begin coding, let's set up a workspace for our project. Think
+        of this as preparing your art supplies!
+      </p>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#fff3e0",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 1: Create Your Project Folder</h4>
         <p>
-          Welcome to the beginner-friendly tutorial on building a Simple To-Do
-          List App with JavaScript! In this project, we'll create a
-          straightforward to-do list application where users can add and delete
-          tasks. This project is an excellent starting point for learning DOM
-          manipulation and event handling in JavaScript.
+          Create a new folder on your computer to store all your project files.
+          You can name it "simple-todo-list-app".
         </p>
+        <strong>On Windows:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New" &gt; "Folder"</li>
+          <li>Name it "simple-todo-list-app"</li>
+        </ol>
+        <strong>On Mac:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New Folder"</li>
+          <li>Name it "simple-todo-list-app"</li>
+        </ol>
+      </div>
 
-        <h2>Setting Up Your Workspace</h2>
-        <h3>Creating Your Project Folder and Files</h3>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e3f2fd",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 2: Get Your Text Editor Ready</h4>
         <p>
-          Before we begin coding, let's set up a workspace for our project.
-          Think of this as preparing your art supplies!
+          You'll need a text editor to write your code. We recommend Visual
+          Studio Code, which is free and beginner-friendly.
         </p>
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#fff3e0",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 1: Create Your Project Folder</h4>
-          <p>
-            Create a new folder on your computer to store all your project
-            files. You can name it "simple-todo-list-app".
-          </p>
-          <strong>On Windows:</strong>
-          <ol>
-            <li>Right-click on your desktop.</li>
-            <li>Choose "New" &gt; "Folder"</li>
-            <li>Name it "simple-todo-list-app"</li>
-          </ol>
-          <strong>On Mac:</strong>
-          <ol>
-            <li>Right-click on your desktop.</li>
-            <li>Choose "New Folder"</li>
-            <li>Name it "simple-todo-list-app"</li>
-          </ol>
-        </div>
-
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#e3f2fd",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 2: Get Your Text Editor Ready</h4>
-          <p>
-            You'll need a text editor to write your code. We recommend Visual
-            Studio Code, which is free and beginner-friendly.
-          </p>
-          <ol>
-            <li>
-              Download Visual Studio Code from{" "}
-              <span style={{ color: "#0066cc" }}>code.visualstudio.com</span> if
-              you haven't already.
-            </li>
-            <li>Install it on your computer.</li>
-            <li>
-              Open VS Code and drag your "simple-todo-list-app" folder into the
-              window.
-            </li>
-          </ol>
-        </div>
-
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#e8f5e9",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 3: Create Your Project Files</h4>
-          <p>We need three essential files for our project:</p>
-          <ul>
-            <li>
-              <strong>index.html</strong> - The HTML file is like the blueprint
-              of our app.
-            </li>
-            <li>
-              <strong>styles.css</strong> - The CSS file is where we'll add
-              styles to make our app look beautiful.
-            </li>
-            <li>
-              <strong>script.js</strong> - The JavaScript file is where the
-              magic happens, making our app interactive.
-            </li>
-          </ul>
-          <p>To create these files:</p>
-          <ol>
-            <li>Open VS Code.</li>
-            <li>
-              <strong>index.html</strong> - Click "New File" and save it as
-              "index.html".
-            </li>
-            <li>
-              <strong>styles.css</strong> - Click "New File" again and save it
-              as "styles.css".
-            </li>
-            <li>
-              <strong>script.js</strong> - Click "New File" once more and save
-              it as "script.js".
-            </li>
-          </ol>
-        </div>
-
-        <div
-          className="tip-box"
-          style={{
-            backgroundColor: "#f0f7ff",
-            padding: "15px",
-            borderRadius: "5px",
-            marginTop: "20px",
-          }}
-        >
-          <p>
-            <strong>🎯 Success Check:</strong> You should now have:
-          </p>
-          <ul>
-            <li>A folder named "simple-todo-list-app" on your desktop.</li>
-            <li>Visual Studio Code open with your folder.</li>
-            <li>Three empty files: index.html, styles.css, and script.js.</li>
-          </ul>
-          <p>
-            <strong>👉 Tip:</strong> If you encounter any issues, try restarting
-            VS Code or creating the files using the "File → New File" menu.
-          </p>
-        </div>
-
-        <h2>Setting Up the HTML Structure</h2>
-        <h3>Creating the Simple To-Do List HTML</h3>
-        <p>
-          Let's start by building the HTML structure for our simple to-do list
-          app. HTML is like the foundation of a house, providing the structure
-          for our app.
-        </p>
-        <ol className="space-y-6">
+        <ol>
           <li>
-            <strong>1. Open "index.html":</strong> Open your "index.html" file
-            in your code editor.
+            Download Visual Studio Code from{" "}
+            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span> if
+            you haven't already.
+          </li>
+          <li>Install it on your computer.</li>
+          <li>
+            Open VS Code and drag your "simple-todo-list-app" folder into the
+            window.
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e8f5e9",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 3: Create Your Project Files</h4>
+        <p>We need three essential files for our project:</p>
+        <ul>
+          <li>
+            <strong>index.html</strong> - The HTML file is like the blueprint of
+            our app.
           </li>
           <li>
-            <strong>2. Add the Simple To-Do List HTML:</strong> Copy and paste
-            the following code into your "index.html" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="html" style={docco}>
-                  {`<!DOCTYPE html>
+            <strong>styles.css</strong> - The CSS file is where we'll add styles
+            to make our app look beautiful.
+          </li>
+          <li>
+            <strong>script.js</strong> - The JavaScript file is where the magic
+            happens, making our app interactive.
+          </li>
+        </ul>
+        <p>To create these files:</p>
+        <ol>
+          <li>Open VS Code.</li>
+          <li>
+            <strong>index.html</strong> - Click "New File" and save it as
+            "index.html".
+          </li>
+          <li>
+            <strong>styles.css</strong> - Click "New File" again and save it as
+            "styles.css".
+          </li>
+          <li>
+            <strong>script.js</strong> - Click "New File" once more and save it
+            as "script.js".
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f0f7ff",
+          padding: "15px",
+          borderRadius: "5px",
+          marginTop: "20px",
+        }}
+      >
+        <p>
+          <strong>🎯 Success Check:</strong> You should now have:
+        </p>
+        <ul>
+          <li>A folder named "simple-todo-list-app" on your desktop.</li>
+          <li>Visual Studio Code open with your folder.</li>
+          <li>Three empty files: index.html, styles.css, and script.js.</li>
+        </ul>
+        <p>
+          <strong>👉 Tip:</strong> If you encounter any issues, try restarting
+          VS Code or creating the files using the "File → New File" menu.
+        </p>
+      </div>
+
+      <h2>Setting Up the HTML Structure</h2>
+      <h3>Creating the Simple To-Do List HTML</h3>
+      <p>
+        Let's start by building the HTML structure for our simple to-do list
+        app. HTML is like the foundation of a house, providing the structure for
+        our app.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "index.html":</strong> Open your "index.html" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add the Simple To-Do List HTML:</strong> Copy and paste the
+          following code into your "index.html" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -237,68 +239,68 @@ const SimpleToDoListApp = () => {
   <script src="script.js"></script>
 </body>
 </html>`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's break down the HTML structure:</p>
-        <ul>
-          <li>
-            <code>&lt;div class="container"&gt;</code>: This is the main
-            container for our app, like a frame for a painting.
-          </li>
-          <li>
-            <code>&lt;h1&gt;Simple To-Do List&lt;/h1&gt;</code>: This is the
-            title of our app, displayed at the top.
-          </li>
-          <li>
-            <code>&lt;form id="todo-form"&gt;</code>: This is the form where
-            users can add new tasks.
-          </li>
-          <li>
-            <code>
-              &lt;input type="text" id="todo-input" placeholder="Add a new task"
-              required&gt;
+              </SyntaxHighlighter>
             </code>
-            : This is the input field where users type their tasks.
-          </li>
-          <li>
-            <code>&lt;button type="submit"&gt;Add Task&lt;/button&gt;</code>:
-            This button submits the form to add the task to the list.
-          </li>
-          <li>
-            <code>&lt;ul id="todo-list"&gt;&lt;/ul&gt;</code>: This unordered
-            list will display the tasks added by the user.
-          </li>
-          <li>
-            <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: This
-            includes the JavaScript file where we'll write the interactive code.
-          </li>
-        </ul>
-        <p>
-          Save your "index.html" file. Now we have the basic HTML structure in
-          place. In the next step, we'll add some styling to make it look nice!
-        </p>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's break down the HTML structure:</p>
+      <ul>
+        <li>
+          <code>&lt;div class="container"&gt;</code>: This is the main container
+          for our app, like a frame for a painting.
+        </li>
+        <li>
+          <code>&lt;h1&gt;Simple To-Do List&lt;/h1&gt;</code>: This is the title
+          of our app, displayed at the top.
+        </li>
+        <li>
+          <code>&lt;form id="todo-form"&gt;</code>: This is the form where users
+          can add new tasks.
+        </li>
+        <li>
+          <code>
+            &lt;input type="text" id="todo-input" placeholder="Add a new task"
+            required&gt;
+          </code>
+          : This is the input field where users type their tasks.
+        </li>
+        <li>
+          <code>&lt;button type="submit"&gt;Add Task&lt;/button&gt;</code>: This
+          button submits the form to add the task to the list.
+        </li>
+        <li>
+          <code>&lt;ul id="todo-list"&gt;&lt;/ul&gt;</code>: This unordered list
+          will display the tasks added by the user.
+        </li>
+        <li>
+          <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: This
+          includes the JavaScript file where we'll write the interactive code.
+        </li>
+      </ul>
+      <p>
+        Save your "index.html" file. Now we have the basic HTML structure in
+        place. In the next step, we'll add some styling to make it look nice!
+      </p>
 
-        <h2>Styling the Simple To-Do List</h2>
-        <h3>Adding CSS Styles</h3>
-        <p>
-          CSS is like the paint and brushes we use to make our app visually
-          appealing. Let's add some styles to our simple to-do list.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Add Simple To-Do List Styles:</strong> Copy and paste the
-            following CSS code into your "styles.css" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="css" style={docco}>
-                  {`body {
+      <h2>Styling the Simple To-Do List</h2>
+      <h3>Adding CSS Styles</h3>
+      <p>
+        CSS is like the paint and brushes we use to make our app visually
+        appealing. Let's add some styles to our simple to-do list.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add Simple To-Do List Styles:</strong> Copy and paste the
+          following CSS code into your "styles.css" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -383,160 +385,158 @@ li button {
 li button:hover {
   background-color: #ff1a1a;
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's understand the CSS rules we just added:</p>
-        <ul>
-          <li>
-            <code>body</code>: Sets the default font, removes margins and
-            padding, and centers the content on the screen.
-          </li>
-          <li>
-            <code>.container</code>: Styles the container with a white
-            background, padding, rounded corners, and a shadow.
-          </li>
-          <li>
-            <code>h1</code>: Styles the title with a larger font size and
-            margin.
-          </li>
-          <li>
-            <code>form</code>: Adds margin to the form.
-          </li>
-          <li>
-            <code>input[type="text"]</code>: Styles the input field with a fixed
-            width, padding, border, and font size.
-          </li>
-          <li>
-            <code>button</code>: Styles the add task button with a blue
-            background, white text, and a hover effect.
-          </li>
-          <li>
-            <code>ul</code>: Removes the default list style.
-          </li>
-          <li>
-            <code>li</code>: Styles the list items with a light gray background,
-            padding, and flexbox for layout.
-          </li>
-          <li>
-            <code>li button</code>: Styles the delete button within the list
-            items with a red background and a hover effect.
-          </li>
-        </ul>
-        <p>
-          Save your "styles.css" file. Now, if you open "index.html" in a web
-          browser, you'll see the styled simple to-do list app.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's understand the CSS rules we just added:</p>
+      <ul>
+        <li>
+          <code>body</code>: Sets the default font, removes margins and padding,
+          and centers the content on the screen.
+        </li>
+        <li>
+          <code>.container</code>: Styles the container with a white background,
+          padding, rounded corners, and a shadow.
+        </li>
+        <li>
+          <code>h1</code>: Styles the title with a larger font size and margin.
+        </li>
+        <li>
+          <code>form</code>: Adds margin to the form.
+        </li>
+        <li>
+          <code>input[type="text"]</code>: Styles the input field with a fixed
+          width, padding, border, and font size.
+        </li>
+        <li>
+          <code>button</code>: Styles the add task button with a blue
+          background, white text, and a hover effect.
+        </li>
+        <li>
+          <code>ul</code>: Removes the default list style.
+        </li>
+        <li>
+          <code>li</code>: Styles the list items with a light gray background,
+          padding, and flexbox for layout.
+        </li>
+        <li>
+          <code>li button</code>: Styles the delete button within the list items
+          with a red background and a hover effect.
+        </li>
+      </ul>
+      <p>
+        Save your "styles.css" file. Now, if you open "index.html" in a web
+        browser, you'll see the styled simple to-do list app.
+      </p>
 
-        <h2>Adding JavaScript for User Interactions</h2>
-        <h3>Handling Form Submission and Adding Tasks</h3>
-        <p>
-          Now, let's add JavaScript to make our app interactive! We'll start by
-          handling form submission and adding tasks to the to-do list.
-        </p>
+      <h2>Adding JavaScript for User Interactions</h2>
+      <h3>Handling Form Submission and Adding Tasks</h3>
+      <p>
+        Now, let's add JavaScript to make our app interactive! We'll start by
+        handling form submission and adding tasks to the to-do list.
+      </p>
 
-        <h4>Selecting HTML Elements</h4>
-        <p>
-          First, we need to select the HTML elements we want to work with. We'll
-          select the form, input field, and the unordered list.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "script.js":</strong> Open the "script.js" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Selecting Elements:</strong> Copy and paste the following
-            JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Selecting HTML elements
+      <h4>Selecting HTML Elements</h4>
+      <p>
+        First, we need to select the HTML elements we want to work with. We'll
+        select the form, input field, and the unordered list.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "script.js":</strong> Open the "script.js" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Selecting Elements:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Selecting HTML elements
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          Here, we're using the <code>getElementById</code> method to select the
-          HTML elements with specific IDs.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        Here, we're using the <code>getElementById</code> method to select the
+        HTML elements with specific IDs.
+      </p>
 
-        <h4>Handling Form Submission</h4>
-        <p>
-          Next, we'll add an event listener to the form to handle the submit
-          event. We'll prevent the default form submission behavior and call a
-          function to add the task to the list.
-        </p>
-        <ol className="space-y-6" start={3}>
-          <li>
-            <strong>3. Handling Form Submission:</strong> Copy and paste the
-            following JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Handling form submission
+      <h4>Handling Form Submission</h4>
+      <p>
+        Next, we'll add an event listener to the form to handle the submit
+        event. We'll prevent the default form submission behavior and call a
+        function to add the task to the list.
+      </p>
+      <ol className="space-y-6" start={3}>
+        <li>
+          <strong>3. Handling Form Submission:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Handling form submission
 todoForm.addEventListener('submit', (e) => {
   e.preventDefault();
   addTask(todoInput.value);
   todoInput.value = '';
 });`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          In this part, we're using the <code>addEventListener</code> method to
-          listen for the 'submit' event on the form. We prevent the default form
-          submission behavior using <code>e.preventDefault()</code> and then
-          call the <code>addTask</code> function to add the task to the list.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this part, we're using the <code>addEventListener</code> method to
+        listen for the 'submit' event on the form. We prevent the default form
+        submission behavior using <code>e.preventDefault()</code> and then call
+        the <code>addTask</code> function to add the task to the list.
+      </p>
 
-        <h4>Adding Tasks to the List</h4>
-        <p>
-          Now, let's define the <code>addTask</code> function to add tasks to
-          the to-do list.
-        </p>
-        <ol className="space-y-6" start={4}>
-          <li>
-            <strong>4. Adding Tasks:</strong> Copy and paste the following
-            JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Adding tasks to the list
+      <h4>Adding Tasks to the List</h4>
+      <p>
+        Now, let's define the <code>addTask</code> function to add tasks to the
+        to-do list.
+      </p>
+      <ol className="space-y-6" start={4}>
+        <li>
+          <strong>4. Adding Tasks:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Adding tasks to the list
 function addTask(task) {
   const li = document.createElement('li');
   li.textContent = task;
   todoList.appendChild(li);
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          Here, we create a new list item using <code>createElement</code>, set
-          its text content to the task, and then append it to the to-do list
-          using
-          <code>appendChild</code>.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        Here, we create a new list item using <code>createElement</code>, set
+        its text content to the task, and then append it to the to-do list using
+        <code>appendChild</code>.
+      </p>
 
-        <h3>Putting It All Together</h3>
-        <p>
-          Now, let's put everything together. If you've been following along and
-          pasting the code into your "script.js" file, it should look like this:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="javascript" style={docco}>
-              {`// Selecting HTML elements
+      <h3>Putting It All Together</h3>
+      <p>
+        Now, let's put everything together. If you've been following along and
+        pasting the code into your "script.js" file, it should look like this:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`// Selecting HTML elements
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
@@ -554,35 +554,35 @@ function addTask(task) {
   li.textContent = task;
   todoList.appendChild(li);
 }`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
 
-        <h2>Adding Functionality to Delete Tasks</h2>
-        <h3>Deleting Tasks from the To-Do List</h3>
-        <p>
-          Now, let's add the functionality to delete tasks from the to-do list.
-          We'll create a delete button for each task and handle the click event
-          to remove the corresponding list item.
-        </p>
+      <h2>Adding Functionality to Delete Tasks</h2>
+      <h3>Deleting Tasks from the To-Do List</h3>
+      <p>
+        Now, let's add the functionality to delete tasks from the to-do list.
+        We'll create a delete button for each task and handle the click event to
+        remove the corresponding list item.
+      </p>
 
-        <h4>Adding Delete Functionality</h4>
-        <p>
-          First, we'll define a function to create and add the delete button to
-          each task.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "script.js":</strong> Open the "script.js" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Adding Delete Functionality:</strong> Copy and paste the
-            following JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Function to add a delete button to each task
+      <h4>Adding Delete Functionality</h4>
+      <p>
+        First, we'll define a function to create and add the delete button to
+        each task.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "script.js":</strong> Open the "script.js" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Adding Delete Functionality:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Function to add a delete button to each task
 function addDeleteButton(li) {
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Delete';
@@ -591,57 +591,56 @@ function addDeleteButton(li) {
   });
   li.appendChild(deleteButton);
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          In this section, we're defining the <code>addDeleteButton</code>{" "}
-          function to create a delete button, set its text content to 'Delete',
-          and add an event listener to handle the click event.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this section, we're defining the <code>addDeleteButton</code>{" "}
+        function to create a delete button, set its text content to 'Delete',
+        and add an event listener to handle the click event.
+      </p>
 
-        <h4>Modifying the addTask Function</h4>
-        <p>
-          Now, let's modify the <code>addTask</code> function to include the
-          delete button.
-        </p>
-        <ol className="space-y-6" start={3}>
-          <li>
-            <strong>3. Modifying the addTask Function:</strong> Copy and paste
-            the following JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Adding tasks to the list
+      <h4>Modifying the addTask Function</h4>
+      <p>
+        Now, let's modify the <code>addTask</code> function to include the
+        delete button.
+      </p>
+      <ol className="space-y-6" start={3}>
+        <li>
+          <strong>3. Modifying the addTask Function:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Adding tasks to the list
 function addTask(task) {
   const li = document.createElement('li');
   li.textContent = task;
   todoList.appendChild(li);
   addDeleteButton(li);
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          Here, we're calling the <code>addDeleteButton</code> function within
-          the
-          <code>addTask</code> function to add the delete button to each task.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        Here, we're calling the <code>addDeleteButton</code> function within the
+        <code>addTask</code> function to add the delete button to each task.
+      </p>
 
-        <h3>Putting It All Together</h3>
-        <p>
-          Now, let's put everything together. If you've been following along and
-          pasting the code into your "script.js" file, it should now look like
-          this:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="javascript" style={docco}>
-              {`// Selecting HTML elements
+      <h3>Putting It All Together</h3>
+      <p>
+        Now, let's put everything together. If you've been following along and
+        pasting the code into your "script.js" file, it should now look like
+        this:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`// Selecting HTML elements
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
@@ -670,29 +669,29 @@ function addTask(task) {
   todoList.appendChild(li);
   addDeleteButton(li);
 }`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
 
-        <h2>Making the Simple To-Do List Responsive</h2>
-        <h3>Adjusting for Different Screen Sizes</h3>
-        <p>
-          Let's make our simple to-do list app responsive so that it looks great
-          on various devices. We'll use CSS media queries to adjust the layout
-          for smaller screens.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Add Responsive Design Styles:</strong> Copy and paste the
-            following CSS code into your "styles.css" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="css" style={docco}>
-                  {`@media (max-width: 600px) {
+      <h2>Making the Simple To-Do List Responsive</h2>
+      <h3>Adjusting for Different Screen Sizes</h3>
+      <p>
+        Let's make our simple to-do list app responsive so that it looks great
+        on various devices. We'll use CSS media queries to adjust the layout for
+        smaller screens.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add Responsive Design Styles:</strong> Copy and paste the
+          following CSS code into your "styles.css" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media (max-width: 600px) {
   .container {
     width: 90%;
   }
@@ -715,34 +714,33 @@ function addTask(task) {
     font-size: 0.7rem;
   }
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          Here, we're using a media query to target screens with a maximum width
-          of 600px (e.g., mobile phones). We adjust the container width, font
-          sizes, and button padding to make the layout more suitable for smaller
-          screens.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        Here, we're using a media query to target screens with a maximum width
+        of 600px (e.g., mobile phones). We adjust the container width, font
+        sizes, and button padding to make the layout more suitable for smaller
+        screens.
+      </p>
 
-        <h2>Final Thoughts</h2>
-        <p>
-          Congratulations! You've completed the Simple To-Do List App project
-          with JavaScript. You've learned how to create a basic to-do list app
-          where users can add and delete tasks. This project introduced you to
-          DOM manipulation, event handling, and responsive design.
-        </p>
-        <p>
-          Feel free to customize and expand your simple to-do list app further.
-          You can add more features, improve the design, or even create a mobile
-          version. Happy coding and exploring the world of web development! 🚀
-        </p>
-      </article>
+      <h2>Final Thoughts</h2>
+      <p>
+        Congratulations! You've completed the Simple To-Do List App project with
+        JavaScript. You've learned how to create a basic to-do list app where
+        users can add and delete tasks. This project introduced you to DOM
+        manipulation, event handling, and responsive design.
+      </p>
+      <p>
+        Feel free to customize and expand your simple to-do list app further.
+        You can add more features, improve the design, or even create a mobile
+        version. Happy coding and exploring the world of web development! 🚀
+      </p>
       <h3>Recommended </h3>
       <JSProjectss />
-    </div>
+    </article>
   );
 };
 
@@ -813,7 +811,7 @@ export const JSProjectss = () => {
             href={`/projects/javascriptP/${project.id}`}
             passHref
           >
-            <article className="post-card">
+            <div className="post-card">
               <div className="post-image">
                 <Image
                   src={project.image}
@@ -831,7 +829,7 @@ export const JSProjectss = () => {
 
                 <div className="post-button ct-button">Start Tutorial</div>
               </div>
-            </article>
+            </div>
           </Link>
         ))}
       </div>

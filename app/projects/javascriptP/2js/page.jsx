@@ -38,192 +38,194 @@ export const metadata = {
 
 const RandomQuoteGenerator = () => {
   return (
-    <div className="project-container">
-      <article style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-        <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
-          Building a Random Quote Generator with JavaScript
-        </h1>
+    <article
+      className="project-container"
+      style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+    >
+      <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
+        Building a Random Quote Generator with JavaScript
+      </h1>
+      <Image
+        src={
+          "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584814/javascript_randomquote_el9bfx.jpg"
+        }
+        alt={"Personal Website Example"}
+        width={600}
+        height={400}
+        className="project-image"
+        priority
+      />
+      <h2 className="project-info">
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584814/javascript_randomquote_el9bfx.jpg"
+            "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
           }
           alt={"Personal Website Example"}
           width={600}
           height={400}
-          className="project-image"
+          className="founders-image"
           priority
         />
-        <h2 className="project-info">
-          <Image
-            src={
-              "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
-            }
-            alt={"Personal Website Example"}
-            width={600}
-            height={400}
-            className="founders-image"
-            priority
-          />
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <span className="project-date">| January 15, 2025</span>
-        </h2>
+        <span className="project-title">
+          <Link href={"/about"}>Written by Massa Medi</Link>
+        </span>
+        <span className="project-date">| January 15, 2025</span>
+      </h2>
 
+      <p>
+        Welcome to the beginner-friendly tutorial on building a Random Quote
+        Generator with JavaScript! In this project, we'll create a simple app
+        that fetches random quotes from an API and displays them dynamically.
+        This project is an excellent way to learn API integration and UI updates
+        in JavaScript.
+      </p>
+
+      <h2>Setting Up Your Workspace</h2>
+      <h3>Creating Your Project Folder and Files</h3>
+      <p>
+        Before we begin coding, let's set up a workspace for our project. Think
+        of this folder as your digital canvas, where you'll keep all the project
+        files organized.
+      </p>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#fff3e0",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 1: Create Your Project Folder</h4>
         <p>
-          Welcome to the beginner-friendly tutorial on building a Random Quote
-          Generator with JavaScript! In this project, we'll create a simple app
-          that fetches random quotes from an API and displays them dynamically.
-          This project is an excellent way to learn API integration and UI
-          updates in JavaScript.
+          Create a new folder on your computer to store all your project files.
+          You can name it "random-quote-generator".
         </p>
+        <strong>On Windows:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New" &gt; "Folder"</li>
+          <li>Name it "random-quote-generator"</li>
+        </ol>
+        <strong>On Mac:</strong>
+        <ol>
+          <li>Right-click on your desktop.</li>
+          <li>Choose "New Folder"</li>
+          <li>Name it "random-quote-generator"</li>
+        </ol>
+      </div>
 
-        <h2>Setting Up Your Workspace</h2>
-        <h3>Creating Your Project Folder and Files</h3>
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e3f2fd",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 2: Get Your Text Editor Ready</h4>
         <p>
-          Before we begin coding, let's set up a workspace for our project.
-          Think of this folder as your digital canvas, where you'll keep all the
-          project files organized.
+          You'll need a text editor to write your code. We recommend Visual
+          Studio Code, which is free and beginner-friendly.
         </p>
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#fff3e0",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 1: Create Your Project Folder</h4>
-          <p>
-            Create a new folder on your computer to store all your project
-            files. You can name it "random-quote-generator".
-          </p>
-          <strong>On Windows:</strong>
-          <ol>
-            <li>Right-click on your desktop.</li>
-            <li>Choose "New" &gt; "Folder"</li>
-            <li>Name it "random-quote-generator"</li>
-          </ol>
-          <strong>On Mac:</strong>
-          <ol>
-            <li>Right-click on your desktop.</li>
-            <li>Choose "New Folder"</li>
-            <li>Name it "random-quote-generator"</li>
-          </ol>
-        </div>
-
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#e3f2fd",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 2: Get Your Text Editor Ready</h4>
-          <p>
-            You'll need a text editor to write your code. We recommend Visual
-            Studio Code, which is free and beginner-friendly.
-          </p>
-          <ol>
-            <li>
-              Download Visual Studio Code from{" "}
-              <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>.
-            </li>
-            <li>Install it on your computer.</li>
-            <li>
-              Open VS Code and drag your "random-quote-generator" folder into
-              the window.
-            </li>
-          </ol>
-        </div>
-
-        <div
-          className="step-box"
-          style={{
-            backgroundColor: "#e8f5e9",
-            padding: "20px",
-            borderRadius: "5px",
-            marginBottom: "20px",
-          }}
-        >
-          <h4>Step 3: Create Your Project Files</h4>
-          <p>We need three essential files for our project:</p>
-          <ul>
-            <li>
-              <strong>index.html</strong> - The HTML file is like the blueprint
-              of our app.
-            </li>
-            <li>
-              <strong>styles.css</strong> - The CSS file is where we'll add
-              styles to make our app look beautiful.
-            </li>
-            <li>
-              <strong>script.js</strong> - The JavaScript file is where the
-              magic happens, making our app interactive.
-            </li>
-          </ul>
-          <p>To create these files:</p>
-          <ol>
-            <li>Open VS Code.</li>
-            <li>
-              <strong>index.html</strong> - Click "New File" and save it as
-              "index.html".
-            </li>
-            <li>
-              <strong>styles.css</strong> - Click "New File" again and save it
-              as "styles.css".
-            </li>
-            <li>
-              <strong>script.js</strong> - Click "New File" once more and save
-              it as "script.js".
-            </li>
-          </ol>
-        </div>
-
-        <div
-          className="tip-box"
-          style={{
-            backgroundColor: "#f0f7ff",
-            padding: "15px",
-            borderRadius: "5px",
-            marginTop: "20px",
-          }}
-        >
-          <p>
-            <strong>🎯 Success Check:</strong> You should now have:
-          </p>
-          <ul>
-            <li>A folder named "random-quote-generator" on your desktop.</li>
-            <li>Visual Studio Code open with your folder.</li>
-            <li>Three empty files: index.html, styles.css, and script.js.</li>
-          </ul>
-          <p>
-            <strong>👉 Tip:</strong> If something's not working, try restarting
-            VS Code or creating the files using the "File → New File" menu.
-          </p>
-        </div>
-
-        <h2>Setting Up the HTML Structure</h2>
-        <h3>Creating the Quote Generator HTML</h3>
-        <p>
-          Let's start by building the HTML structure for our random quote
-          generator. HTML is like the foundation of our app.
-        </p>
-        <ol className="space-y-6">
+        <ol>
           <li>
-            <strong>1. Open "index.html":</strong> Open your "index.html" file
-            in your code editor.
+            Download Visual Studio Code from{" "}
+            <span style={{ color: "#0066cc" }}>code.visualstudio.com</span>.
+          </li>
+          <li>Install it on your computer.</li>
+          <li>
+            Open VS Code and drag your "random-quote-generator" folder into the
+            window.
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="step-box"
+        style={{
+          backgroundColor: "#e8f5e9",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <h4>Step 3: Create Your Project Files</h4>
+        <p>We need three essential files for our project:</p>
+        <ul>
+          <li>
+            <strong>index.html</strong> - The HTML file is like the blueprint of
+            our app.
           </li>
           <li>
-            <strong>2. Add the Quote Generator HTML:</strong> Copy and paste the
-            following code into your "index.html" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="html" style={docco}>
-                  {`<!DOCTYPE html>
+            <strong>styles.css</strong> - The CSS file is where we'll add styles
+            to make our app look beautiful.
+          </li>
+          <li>
+            <strong>script.js</strong> - The JavaScript file is where the magic
+            happens, making our app interactive.
+          </li>
+        </ul>
+        <p>To create these files:</p>
+        <ol>
+          <li>Open VS Code.</li>
+          <li>
+            <strong>index.html</strong> - Click "New File" and save it as
+            "index.html".
+          </li>
+          <li>
+            <strong>styles.css</strong> - Click "New File" again and save it as
+            "styles.css".
+          </li>
+          <li>
+            <strong>script.js</strong> - Click "New File" once more and save it
+            as "script.js".
+          </li>
+        </ol>
+      </div>
+
+      <div
+        className="tip-box"
+        style={{
+          backgroundColor: "#f0f7ff",
+          padding: "15px",
+          borderRadius: "5px",
+          marginTop: "20px",
+        }}
+      >
+        <p>
+          <strong>🎯 Success Check:</strong> You should now have:
+        </p>
+        <ul>
+          <li>A folder named "random-quote-generator" on your desktop.</li>
+          <li>Visual Studio Code open with your folder.</li>
+          <li>Three empty files: index.html, styles.css, and script.js.</li>
+        </ul>
+        <p>
+          <strong>👉 Tip:</strong> If something's not working, try restarting VS
+          Code or creating the files using the "File → New File" menu.
+        </p>
+      </div>
+
+      <h2>Setting Up the HTML Structure</h2>
+      <h3>Creating the Quote Generator HTML</h3>
+      <p>
+        Let's start by building the HTML structure for our random quote
+        generator. HTML is like the foundation of our app.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "index.html":</strong> Open your "index.html" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add the Quote Generator HTML:</strong> Copy and paste the
+          following code into your "index.html" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="html" style={docco}>
+                {`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -242,64 +244,64 @@ const RandomQuoteGenerator = () => {
   <script src="script.js"></script>
 </body>
 </html>`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's break down the HTML structure:</p>
-        <ul>
-          <li>
-            <code>&lt;div class="container"&gt;</code>: This is the main
-            container for our app.
-          </li>
-          <li>
-            <code>&lt;h1&gt;Random Quote Generator&lt;/h1&gt;</code>: The title
-            of our app.
-          </li>
-          <li>
-            <code>&lt;div class="quote-container"&gt;</code>: The container for
-            the quote and the button.
-          </li>
-          <li>
-            <code>
-              &lt;p id="quote"&gt;Click the button to get a random
-              quote.&lt;/p&gt;
+              </SyntaxHighlighter>
             </code>
-            : The paragraph element for displaying the quote.
-          </li>
-          <li>
-            <code>&lt;button id="get-quote"&gt;Get Quote&lt;/button&gt;</code>:
-            The button for fetching a new quote.
-          </li>
-          <li>
-            <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: Includes
-            the JavaScript file for handling the app's functionality.
-          </li>
-        </ul>
-        <p>
-          Save your "index.html" file. Now we have the basic HTML structure in
-          place. In the next step, we'll add some styling to make it look nice!
-        </p>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's break down the HTML structure:</p>
+      <ul>
+        <li>
+          <code>&lt;div class="container"&gt;</code>: This is the main container
+          for our app.
+        </li>
+        <li>
+          <code>&lt;h1&gt;Random Quote Generator&lt;/h1&gt;</code>: The title of
+          our app.
+        </li>
+        <li>
+          <code>&lt;div class="quote-container"&gt;</code>: The container for
+          the quote and the button.
+        </li>
+        <li>
+          <code>
+            &lt;p id="quote"&gt;Click the button to get a random
+            quote.&lt;/p&gt;
+          </code>
+          : The paragraph element for displaying the quote.
+        </li>
+        <li>
+          <code>&lt;button id="get-quote"&gt;Get Quote&lt;/button&gt;</code>:
+          The button for fetching a new quote.
+        </li>
+        <li>
+          <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>: Includes
+          the JavaScript file for handling the app's functionality.
+        </li>
+      </ul>
+      <p>
+        Save your "index.html" file. Now we have the basic HTML structure in
+        place. In the next step, we'll add some styling to make it look nice!
+      </p>
 
-        <h2>Styling the Quote Generator</h2>
-        <h3>Adding CSS Styles</h3>
-        <p>
-          CSS is like the paint and brushes we use to make our app visually
-          appealing. Let's add some styles to our random quote generator.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Add Quote Generator Styles:</strong> Copy and paste the
-            following CSS code into your "styles.css" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="css" style={docco}>
-                  {`body {
+      <h2>Styling the Quote Generator</h2>
+      <h3>Adding CSS Styles</h3>
+      <p>
+        CSS is like the paint and brushes we use to make our app visually
+        appealing. Let's add some styles to our random quote generator.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add Quote Generator Styles:</strong> Copy and paste the
+          following CSS code into your "styles.css" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -349,96 +351,95 @@ button {
 button:hover {
   background-color: #0056b3;
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's understand the CSS rules we just added:</p>
-        <ul>
-          <li>
-            <code>body</code>: Sets the default font, removes margins and
-            padding, and centers the content on the screen.
-          </li>
-          <li>
-            <code>.container</code>: Styles the container with a white
-            background, padding, rounded corners, and a shadow.
-          </li>
-          <li>
-            <code>h1</code>: Styles the title with a larger font size and
-            margin.
-          </li>
-          <li>
-            <code>.quote-container</code>: Adds margin to the quote container.
-          </li>
-          <li>
-            <code>#quote</code>: Styles the quote paragraph with a larger font
-            size and margin.
-          </li>
-          <li>
-            <code>button</code>: Styles the button with a blue background, white
-            text, no border, padding, border-radius, cursor, and transition for
-            smooth changes.
-          </li>
-          <li>
-            <code>button:hover</code>: Changes the background color of the
-            button on hover.
-          </li>
-        </ul>
-        <p>
-          Save your "styles.css" file. Now, if you open "index.html" in a web
-          browser, you'll see the styled quote generator.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's understand the CSS rules we just added:</p>
+      <ul>
+        <li>
+          <code>body</code>: Sets the default font, removes margins and padding,
+          and centers the content on the screen.
+        </li>
+        <li>
+          <code>.container</code>: Styles the container with a white background,
+          padding, rounded corners, and a shadow.
+        </li>
+        <li>
+          <code>h1</code>: Styles the title with a larger font size and margin.
+        </li>
+        <li>
+          <code>.quote-container</code>: Adds margin to the quote container.
+        </li>
+        <li>
+          <code>#quote</code>: Styles the quote paragraph with a larger font
+          size and margin.
+        </li>
+        <li>
+          <code>button</code>: Styles the button with a blue background, white
+          text, no border, padding, border-radius, cursor, and transition for
+          smooth changes.
+        </li>
+        <li>
+          <code>button:hover</code>: Changes the background color of the button
+          on hover.
+        </li>
+      </ul>
+      <p>
+        Save your "styles.css" file. Now, if you open "index.html" in a web
+        browser, you'll see the styled quote generator.
+      </p>
 
-        <h2>Adding JavaScript for User Interactions</h2>
-        <h3>Handling Form Submission and Adding Tasks</h3>
-        <p>
-          Now, let's add JavaScript to make our app interactive! We'll start by
-          handling user interactions and fetching quotes from the API.
-        </p>
+      <h2>Adding JavaScript for User Interactions</h2>
+      <h3>Handling Form Submission and Adding Tasks</h3>
+      <p>
+        Now, let's add JavaScript to make our app interactive! We'll start by
+        handling user interactions and fetching quotes from the API.
+      </p>
 
-        <h4>Selecting HTML Elements</h4>
-        <p>
-          First, we need to select the HTML elements we want to work with. We'll
-          select the button and the paragraph element.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "script.js":</strong> Open the "script.js" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Selecting Elements:</strong> Copy and paste the following
-            JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Selecting HTML elements
+      <h4>Selecting HTML Elements</h4>
+      <p>
+        First, we need to select the HTML elements we want to work with. We'll
+        select the button and the paragraph element.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "script.js":</strong> Open the "script.js" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Selecting Elements:</strong> Copy and paste the following
+          JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Selecting HTML elements
 const getQuoteButton = document.getElementById('get-quote');
 const quoteElement = document.getElementById('quote');`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          Here, we're using the <code>getElementById</code> method to select the
-          HTML elements with specific IDs.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        Here, we're using the <code>getElementById</code> method to select the
+        HTML elements with specific IDs.
+      </p>
 
-        <h4>Handling Button Click</h4>
-        <p>
-          Next, we'll add an event listener to the button to handle the click
-          event. We'll fetch a random quote from the API and update the UI.
-        </p>
-        <ol className="space-y-6" start={3}>
-          <li>
-            <strong>3. Handling Button Click:</strong> Copy and paste the
-            following JavaScript code into your "script.js" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="javascript" style={docco}>
-                  {`// Handling button click
+      <h4>Handling Button Click</h4>
+      <p>
+        Next, we'll add an event listener to the button to handle the click
+        event. We'll fetch a random quote from the API and update the UI.
+      </p>
+      <ol className="space-y-6" start={3}>
+        <li>
+          <strong>3. Handling Button Click:</strong> Copy and paste the
+          following JavaScript code into your "script.js" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`// Handling button click
 getQuoteButton.addEventListener('click', () => {
   fetch('https://quotes-api-self.vercel.app/quote')
     .then(response => response.json())
@@ -447,27 +448,27 @@ getQuoteButton.addEventListener('click', () => {
     })
     .catch(error => { console.error('Error fetching quote:', error); });
 });`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>
-          In this part, we're using the <code>addEventListener</code> method to
-          listen for the 'click' event on the button. We fetch a random quote
-          from the API, update the UI with the quote and author, and handle any
-          errors that might occur during the fetch request.
-        </p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>
+        In this part, we're using the <code>addEventListener</code> method to
+        listen for the 'click' event on the button. We fetch a random quote from
+        the API, update the UI with the quote and author, and handle any errors
+        that might occur during the fetch request.
+      </p>
 
-        <h3>Putting It All Together</h3>
-        <p>
-          Now, let's put everything together. If you've been following along and
-          pasting the code into your "script.js" file, it should look like this:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="javascript" style={docco}>
-              {`// Selecting HTML elements
+      <h3>Putting It All Together</h3>
+      <p>
+        Now, let's put everything together. If you've been following along and
+        pasting the code into your "script.js" file, it should look like this:
+      </p>
+      <pre>
+        <code>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`// Selecting HTML elements
 const getQuoteButton = document.getElementById('get-quote');
 const quoteElement = document.getElementById('quote');
 
@@ -480,29 +481,29 @@ getQuoteButton.addEventListener('click', () => {
     })
     .catch(error => { console.error('Error fetching quote:', error); });
 });`}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
+          </SyntaxHighlighter>
+        </code>
+      </pre>
 
-        <h2>Making the Quote Generator Responsive</h2>
-        <h3>Making the Quote Generator Responsive</h3>
+      <h2>Making the Quote Generator Responsive</h2>
+      <h3>Making the Quote Generator Responsive</h3>
 
-        <p>
-          Let's ensure our quote generator looks great on various devices by
-          adding responsive design using CSS media queries.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Add Responsive Design Styles:</strong> Copy and paste the
-            following CSS code into your "styles.css" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="css" style={docco}>
-                  {`@media (max-width: 600px) {
+      <p>
+        Let's ensure our quote generator looks great on various devices by
+        adding responsive design using CSS media queries.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add Responsive Design Styles:</strong> Copy and paste the
+          following CSS code into your "styles.css" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`@media (max-width: 600px) {
   .container {
     width: 90%;
   }
@@ -516,55 +517,55 @@ getQuoteButton.addEventListener('click', () => {
     font-size: 0.9rem;
   }
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's understand the CSS rules we just added:</p>
-        <ul>
-          <li>
-            <code>@media (max-width: 600px)</code>: A media query for screens up
-            to 600px wide (e.g., mobile phones).
-          </li>
-          <li>
-            <code>.container</code>: Adjusts the width of the container to 90%
-            for better visibility on smaller screens.
-          </li>
-          <li>
-            <code>#quote</code>: Adjusts the font size of the quote for better
-            readability on smaller screens.
-          </li>
-          <li>
-            <code>button</code>: Adjusts the padding and font size of the button
-            for better readability on smaller screens.
-          </li>
-        </ul>
-        <p>
-          Save your "styles.css" file. Now, if you resize your browser window or
-          view the quote generator on different devices, you'll see the layout
-          adapt to different screen sizes.
-        </p>
-        <p>In the next step, we'll add final touches to the quote generator.</p>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's understand the CSS rules we just added:</p>
+      <ul>
+        <li>
+          <code>@media (max-width: 600px)</code>: A media query for screens up
+          to 600px wide (e.g., mobile phones).
+        </li>
+        <li>
+          <code>.container</code>: Adjusts the width of the container to 90% for
+          better visibility on smaller screens.
+        </li>
+        <li>
+          <code>#quote</code>: Adjusts the font size of the quote for better
+          readability on smaller screens.
+        </li>
+        <li>
+          <code>button</code>: Adjusts the padding and font size of the button
+          for better readability on smaller screens.
+        </li>
+      </ul>
+      <p>
+        Save your "styles.css" file. Now, if you resize your browser window or
+        view the quote generator on different devices, you'll see the layout
+        adapt to different screen sizes.
+      </p>
+      <p>In the next step, we'll add final touches to the quote generator.</p>
 
-        <h2>Adding Final Touches</h2>
-        <h3>Adding Final Touches</h3>
-        <p>
-          Let's add the final touches to our quote generator to ensure it is
-          fully functional and visually appealing.
-        </p>
-        <ol className="space-y-6">
-          <li>
-            <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
-            your code editor.
-          </li>
-          <li>
-            <strong>2. Add Final Touches:</strong> Copy and paste the following
-            CSS code into your "styles.css" file:
-            <pre>
-              <code>
-                <SyntaxHighlighter language="css" style={docco}>
-                  {`.container {
+      <h2>Adding Final Touches</h2>
+      <h3>Adding Final Touches</h3>
+      <p>
+        Let's add the final touches to our quote generator to ensure it is fully
+        functional and visually appealing.
+      </p>
+      <ol className="space-y-6">
+        <li>
+          <strong>1. Open "styles.css":</strong> Open the "styles.css" file in
+          your code editor.
+        </li>
+        <li>
+          <strong>2. Add Final Touches:</strong> Copy and paste the following
+          CSS code into your "styles.css" file:
+          <pre>
+            <code>
+              <SyntaxHighlighter language="css" style={docco}>
+                {`.container {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -575,45 +576,43 @@ button {
 button:hover {
   transform: scale(1.05);
 }`}
-                </SyntaxHighlighter>
-              </code>
-            </pre>
-          </li>
-        </ol>
-        <p>Let's understand the CSS rules we just added:</p>
-        <ul>
-          <li>
-            <code>.container</code>: Adds a more pronounced shadow to the
-            container for a better visual effect.
-          </li>
-          <li>
-            <code>button</code>: Adds a transition effect for background color
-            and transform to the button.
-          </li>
-          <li>
-            <code>button:hover</code>: Scales the button slightly larger on
-            hover to create a subtle zoom effect.
-          </li>
-        </ul>
-        <p>
-          Save your "styles.css" file. Now, if you open "index.html" in a web
-          browser, you'll see the final touches in action.
-        </p>
-        <p>
-          Congratulations! You've completed the JavaScript project, "Random
-          Quote Generator." You've learned how to create a simple app that
-          fetches random quotes from an API and updates the UI dynamically.
-          You've also learned the basics of API integration and UI updates in
-          JavaScript.
-        </p>
-        <p>
-          Feel free to continue customizing your quote generator and exploring
-          more JavaScript techniques. Happy coding! 🚀
-        </p>
-      </article>
+              </SyntaxHighlighter>
+            </code>
+          </pre>
+        </li>
+      </ol>
+      <p>Let's understand the CSS rules we just added:</p>
+      <ul>
+        <li>
+          <code>.container</code>: Adds a more pronounced shadow to the
+          container for a better visual effect.
+        </li>
+        <li>
+          <code>button</code>: Adds a transition effect for background color and
+          transform to the button.
+        </li>
+        <li>
+          <code>button:hover</code>: Scales the button slightly larger on hover
+          to create a subtle zoom effect.
+        </li>
+      </ul>
+      <p>
+        Save your "styles.css" file. Now, if you open "index.html" in a web
+        browser, you'll see the final touches in action.
+      </p>
+      <p>
+        Congratulations! You've completed the JavaScript project, "Random Quote
+        Generator." You've learned how to create a simple app that fetches
+        random quotes from an API and updates the UI dynamically. You've also
+        learned the basics of API integration and UI updates in JavaScript.
+      </p>
+      <p>
+        Feel free to continue customizing your quote generator and exploring
+        more JavaScript techniques. Happy coding! 🚀
+      </p>
       <h3>Recommended</h3>
       <JSProjectsss />
-    </div>
+    </article>
   );
 };
 
@@ -684,7 +683,7 @@ export const JSProjectsss = () => {
             href={`/projects/javascriptP/${project.id}`}
             passHref
           >
-            <article className="post-card">
+            <div className="post-card">
               <div className="post-image">
                 <Image
                   src={project.image}
@@ -702,7 +701,7 @@ export const JSProjectsss = () => {
 
                 <div className="post-button ct-button">Start Tutorial</div>
               </div>
-            </article>
+            </div>
           </Link>
         ))}
       </div>
