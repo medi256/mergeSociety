@@ -973,7 +973,7 @@ export const HtmlProjectssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497289/portfolio_zv717y.jpg",
       alt: "HTML Resume Example",
-      date: "January 20, 2025",
+      date: "January 17, 2025",
     },
     {
       id: "3p",
@@ -983,9 +983,8 @@ export const HtmlProjectssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497470/skedule_le1iyh.jpg",
       alt: "Weekly Schedule Example",
-      date: "January 25, 2025",
+      date: "January 14, 2025",
     },
-
     {
       id: "5p",
       title: "Build a Photo Gallery with HTML",
@@ -994,7 +993,7 @@ export const HtmlProjectssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
       alt: "Photo Gallery Example",
-      date: "February 5, 2025",
+      date: "january 5, 2025",
     },
     {
       id: "6p",
@@ -1004,7 +1003,7 @@ export const HtmlProjectssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498445/event_iu3yfu.jpg",
       alt: "Event Invitation Example",
-      date: "February 10, 2025",
+      date: "February 12, 2025",
     },
   ];
 

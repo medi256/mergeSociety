@@ -797,7 +797,7 @@ export const HtmlProjectssssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497289/portfolio_zv717y.jpg",
       alt: "HTML Resume Example",
-      date: "January 20, 2025",
+      date: "January 17, 2025",
     },
     {
       id: "3p",
@@ -807,9 +807,8 @@ export const HtmlProjectssssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497470/skedule_le1iyh.jpg",
       alt: "Weekly Schedule Example",
-      date: "January 25, 2025",
+      date: "January 14, 2025",
     },
-
     {
       id: "4p",
       title: "Design a Restaurant Menu Using Semantic HTML",
@@ -818,7 +817,7 @@ export const HtmlProjectssssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497900/restuarat_p5vq9d.jpg",
       alt: "Restaurant Menu Example",
-      date: "February 1, 2025",
+      date: "january 17, 2025",
     },
     {
       id: "5p",
@@ -828,7 +827,7 @@ export const HtmlProjectssssssss = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
       alt: "Photo Gallery Example",
-      date: "February 5, 2025",
+      date: "january 5, 2025",
     },
   ];
 
