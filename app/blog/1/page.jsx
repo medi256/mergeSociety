@@ -2,346 +2,173 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata = {
-  title: "How the Internet Works: A Beginner’s Guide to Web Development",
-  description:
-    "Explore the fundamentals of the internet, from its history to how data flows through networks. This guide breaks down essential concepts, helping beginners understand web development basics.",
-  keywords: [
-    "How the Internet Works",
-    "Beginner’s Guide to Web Development",
-    "Internet history",
-    "TCP/IP",
-    "Web 1.0 to Web 3.0",
-    "HTTP and HTTPS",
-    "Internet protocols",
-    "Web development basics",
-    "How the Internet Works: A Beginner’s Guide to Web Development",
-    "history of the internet ",
-  ],
-  alternates: {
-    canonical: "https://www.mergesociety.com/blog/1",
-  },
-
-  image:
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
-  altText: "Diagram of the Internet's Structure",
-  url: "https://www.mergesociety.com/blog/1",
-  type: "article",
-  twitter: {
-    card: "summary_large_image",
-    title: "How the Internet Works: A Beginner’s Guide to Web Development",
-    description:
-      "Discover the journey of data, from IP addresses to HTTP protocols, in this introductory guide to the internet and web development.",
-    image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
-    alt: "Diagram of the Internet's Structure",
-  },
-  og: {
-    title: "How the Internet Works: A Beginner’s Guide to Web Development",
-    description:
-      "This beginner’s guide covers the internet’s structure, protocols, and key concepts, helping newcomers understand how web data flows seamlessly.",
-    url: "https://www.mergesociety.com/blog/1",
-    image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
-    type: "article",
-  },
-};
-
-const Blog1 = () => {
+const page = () => {
   return (
-    <article
-      style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
-      className="project-container"
-    >
-      <h1>How the Internet Works: A Beginner’s Guide to Web Development</h1>
-      <Image
-        src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg"
-        width={500}
-        height={300}
-        layout="responsive"
-        alt="Diagram of the Internet's Structure"
-      />
-
-      <h2 className="project-info">
+    <main className="lesson-container">
+      <article>
+        <h1>HOW I WOULD LEARN TO CODE AGAIN IN 2025</h1>
         <Image
-          src={
-            "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
-          }
-          alt={"Personal Website Example"}
-          width={600}
+          width={800}
           height={400}
-          className="founders-image"
-          priority
+          layout="responsive"
+          alt="How i would learn to code  again in 2025"
+          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1737209667/Your_paragraph_text_ql8o1k.png"
         />
-        <span className="project-title">
-          <Link href={"/about"}>Written by Massa Medi</Link>
-        </span>
-        <span className="project-date">| January 13, 2025</span>
-      </h2>
 
-      <p>
-        Imagine a vast library where every book is instantly accessible with
-        just a few clicks. This library is the internet—a global network of
-        interconnected devices that allows us to access a wealth of information
-        in seconds. But have you ever wondered how this magic works? In this
-        guide, we’ll explore the inner workings of the internet, from its
-        history to the technologies that make it possible.
-      </p>
-
-      <h2>The History of the Internet</h2>
-      <p>
-        The internet has a rich and fascinating history that dates back to the
-        1960s. Here’s a brief overview:
-      </p>
-
-      <ul>
-        <li>
-          <strong>1960s: ARPANET</strong> - The internet’s predecessor, ARPANET,
-          was created by the U.S. Department of Defense. It was designed to
-          allow multiple computers to communicate over a single network.
-        </li>
-        <li>
-          <strong>1970s: TCP/IP</strong> - The Transmission Control
-          Protocol/Internet Protocol (TCP/IP) was developed, which became the
-          standard for data communication over the internet.
-        </li>
-        <li>
-          <strong>1980s: Domain Name System (DNS)</strong> - The DNS was
-          introduced to make it easier to access websites using domain names
-          instead of IP addresses.
-        </li>
-        <li>
-          <strong>1990s: World Wide Web</strong> - Tim Berners-Lee invented the
-          World Wide Web, which revolutionized the way we use the internet by
-          introducing hypertext and web browsers.
-        </li>
-        <li>
-          <strong>2000s: Web 2.0</strong> - The internet evolved into a more
-          interactive and user-generated content platform, with the rise of
-          social media and blogging.
-        </li>
-        <li>
-          <strong>2010s: Web 3.0</strong> - The internet is moving towards a
-          more decentralized and intelligent future with the advent of
-          blockchain, AI, and the Internet of Things (IoT).
-        </li>
-      </ul>
-
-      <h2>How the Internet Works: A Step-by-Step Guide</h2>
-      <p>Let’s break down the process of how a web page is loaded:</p>
-
-      <ol>
-        <li>
-          <strong>Data and Protocols</strong>
-          <ul>
-            <li>
-              <strong>Data</strong>: When you browse the internet, you’re
-              essentially sending and receiving data. This data can be text,
-              images, videos, or any other form of information.
-            </li>
-            <li>
-              <strong>Protocols</strong>: These are the rules that govern how
-              data is transmitted. The most important protocol is the Hypertext
-              Transfer Protocol (HTTP) and its secure version, HTTPS.
-            </li>
-          </ul>
-        </li>
-        <li>
-          <strong>The Journey of a Web Page</strong>
+        <h2 className="project-info">
+          <Image
+            src={
+              "https://kbldpypjgtjbrzmcoqcg.supabase.co/storage/v1/object/public/programming/php/MEDI.jpeg"
+            }
+            alt={"Personal Website Example"}
+            width={600}
+            height={400}
+            className="founders-image"
+            priority
+          />
+          <span className="project-title">
+            <Link href={"/about"}>Written by Massa Medi</Link>
+          </span>
+          <span className="project-date">| January 18, 2025</span>
+        </h2>
+        <h2>Start with a purpose</h2>
+        <p>
+          Finding your <strong>emotionally triggering purpose</strong>. This
+          will help you to keep going even when you are not feeling it.
+        </p>
+        <h3>Mine is:</h3>
+        <ol>
+          <li>
+            I don't like the idea of being a wasted potential so will do
+            anything in my power to fight it.
+          </li>
+          <li>
+            Am so much influenced by Zuck, Elon and Bill so will work hard to
+            Build wealth like the way they did
+          </li>
+          <li>
+            I come from a poor family, so i have to work hard and create
+            something which can that can generate income to take care of my
+            beloved ones.
+          </li>
+          <li>
+            I have a deep passion for creating something through programming. As
+            I mentioned earlier, I am inspired by Bill, Zuck, and Elon, and I
+            aspire to build a generational tech company like they did.
+          </li>
+        </ol>
+        <h2>Choose a field & a programming language</h2>
+        <p>
+          Spend the time and research what field you want to do, then choose the
+          <strong>popular programming language</strong> for that path.
+        </p>
+        <h3>
+          Here are some popular programming languages and the type of fields
+          they can be used in:
+        </h3>
+        <ol>
+          <li>
+            <strong>Python</strong>: It is a programming language used in a
+            variety of fields. It is particularly popular for data science,
+            machine learning, and game development, with libraries like Pandas
+            and TensorFlow commonly used in data analysis and AI development.
+          </li>
+          <li>
+            <strong>JavaScript:</strong> It is a programming language primarily
+            used in web development, along with HTML and CSS, to add
+            interactivity to webpages.
+          </li>
+          <li>
+            <strong>Java:</strong>Is another popular programming language used
+            in building mobile apps
+          </li>
+        </ol>
+        <h2>Stick to study plan</h2>
+        <p>
+          Find a study plan that works for you and grow yourself to it. This is
+          very important to the next steps
+        </p>
+        <h2>How to study</h2>
+        <p>
+          Instead of airfying my brain cells with a long course. I will hunt for
+          the information using my study plan
+        </p>
+        <ul>
+          <li>Look what topic to do: eg loops</li>
+          <li>Search the topic only :</li>
           <ol>
-            <li>
-              <strong>DNS Lookup</strong> - When you type a URL into your
-              browser, the first step is to find the IP address of the server
-              hosting the website. This is done using the Domain Name System
-              (DNS), which acts like an address book for the internet.
-            </li>
-            <li>
-              <strong>Sending a Request</strong> - Once the IP address is
-              determined, your browser sends a request to the server. This
-              request is a digital message asking the server to send the webpage
-              back to you.
-            </li>
-            <li>
-              <strong>Server Response</strong> - The server receives the request
-              and processes it. If the page exists, it sends the necessary data
-              (HTML, CSS, and images) back to your browser.
-            </li>
-            <li>
-              <strong>Rendering the Page</strong> - Your browser takes the
-              received data and assembles it into the webpage you see on your
-              screen.
-            </li>
+            <li>Watch a short video</li>
+            <li>Read docs or articles</li>
           </ol>
-        </li>
-      </ol>
+          <li>Ask AI to clear doubts</li>
+        </ul>
+        <h2>Why go hunting</h2>
+        <p>
+          Searching for information is a huge part of being a good programmer.
+          tbh this what will be the rest life look like (no exaggeration )
+        </p>
+        <h2>Focus on understanding</h2>
+        <p>
+          Don't rush to zombie code, but try to actively understand the
+          different parts of your code by asking questions{" "}
+        </p>
+        <h2>Topic Focused Exercise </h2>
+        <p>
+          After learning a topic do exercise on them so you are comfortable with
+          everything{" "}
+        </p>
+        <p>
+          Code is like building muscles, to train specific muscles grow you do
+          specific exercise.
+        </p>
+        <h2>Connecting The Points</h2>
+        <p>
+          Being good at just one part isn’t enough; we need to spend more time
+          connecting everything we’ve learned. So, every time you move on to a
+          new topic, think of it as a challenge where you can apply what you’ve
+          learned so far
+        </p>
+        <h3>Resources</h3>
+        <h4>Roadmaps/study plan</h4>
+        <ol>
+          <li>roadmap.sh</li>
+          <h4>Learning Resources</h4>
+          <li>mergesociety.com</li>
+          <li>w3schools.com</li>
+          <li>freecodecamp.org</li>
+          <li>codecademy</li>
+        </ol>
+        <h3>Conclusion</h3>
 
-      <h2>Key Components of the Internet</h2>
-      <p>Here are the essential components that make the internet work:</p>
-
-      <ul>
-        <li>
-          <strong>IP Addresses</strong> - Every device connected to the internet
-          has a unique IP address. This address tells other devices where to
-          send the requested information. For example, when you request a
-          webpage, the server knows where to send the data by using your
-          device’s IP address.
-        </li>
-        <li>
-          <strong>Routers</strong> - Routers are devices that direct traffic
-          between different networks. They break down data into packets, send
-          them across the network, and reassemble them at the destination. Think
-          of routers as traffic cops ensuring that data packets don’t collide.
-        </li>
-        <li>
-          <strong>Packets</strong> - Data doesn’t travel in one large block.
-          Instead, it is broken down into smaller, more manageable pieces called
-          packets. Each packet contains part of the information you’re trying to
-          access, along with details like the destination IP address. When all
-          the packets arrive at their destination, they are reassembled to
-          display the webpage or video.
-        </li>
-      </ul>
-
-      <h2>The Role of Internet Service Providers (ISPs)</h2>
-      <p>
-        To connect to the internet, you need an Internet Service Provider (ISP).
-        These are companies that offer access to the internet for a fee. Your
-        ISP provides the physical connection (through cables or wireless
-        networks) and ensures your device can communicate with the broader
-        internet.
-      </p>
-
-      <h2>Types of Internet Connections</h2>
-      <p>
-        Not all internet connections are created equal. Depending on where you
-        live and your ISP, you may encounter different types of connections:
-      </p>
-
-      <ul>
-        <li>
-          <strong>Dial-Up</strong> - An old and slow method of connecting to the
-          internet using a telephone line. It’s largely outdated but still
-          exists in some rural areas.
-        </li>
-        <li>
-          <strong>DSL (Digital Subscriber Line)</strong> - This uses telephone
-          lines but is much faster than dial-up. It’s a popular option in areas
-          without fiber optics.
-        </li>
-        <li>
-          <strong>Cable</strong> - Many homes use cable connections, which offer
-          high-speed internet via the same cables that transmit cable TV.
-        </li>
-        <li>
-          <strong>Fiber Optics</strong> - The fastest and most reliable internet
-          connection available. It transmits data as light through glass or
-          plastic fibers, offering lightning-fast speeds.
-        </li>
-        <li>
-          <strong>Satellite</strong> - In remote areas, satellite internet is
-          used. It involves transmitting data to a satellite in space, which
-          beams it down to your dish. It’s slower and more expensive but offers
-          connectivity where other options aren’t available.
-        </li>
-      </ul>
-
-      <h2>What is HTTP and HTTPS?</h2>
-      <p>
-        If you look closely at website URLs, you’ll often see them begin with
-        "http://" or "https://". These stand for Hypertext Transfer Protocol
-        (HTTP) and its secure version, HTTPS. When you use HTTPS, your data is
-        encrypted to protect sensitive information (like passwords or credit
-        card numbers) from being intercepted.
-      </p>
-
-      <h2>The Evolution of the Internet: From Web 1.0 to Web 3.0</h2>
-      <p>
-        The internet has come a long way since its inception. Here’s a brief
-        overview of its evolution:
-      </p>
-
-      <ul>
-        <li>
-          <strong>Web 1.0</strong> - The "read-only" web. Websites were static,
-          and users could only consume content without interacting with it.
-        </li>
-        <li>
-          <strong>Web 2.0</strong> - The "read-write" web. This era brought
-          dynamic content and user interaction, allowing people to comment,
-          post, and create content (e.g., blogs, social media).
-        </li>
-        <li>
-          <strong>Web 3.0</strong> - The "read-write-execute" web. This is the
-          current phase, characterized by decentralized applications (dApps),
-          blockchain, and artificial intelligence. Users have more control over
-          their data, and AI helps in customizing the web experience.
-        </li>
-      </ul>
-
-      <h2>Practical Examples and Real-World Applications</h2>
-      <p>
-        To better understand how the internet works, let’s look at a few
-        practical examples:
-      </p>
-
-      <ul>
-        <li>
-          <strong>Online Shopping</strong> - When you shop online, your browser
-          sends a request to the server of the e-commerce website. The server
-          processes the request, retrieves the product information, and sends it
-          back to your browser. The entire process happens in seconds, allowing
-          you to browse and purchase products seamlessly.
-        </li>
-        <li>
-          <strong>Streaming Services</strong> - When you stream a video, your
-          device sends a request to the server of the streaming service. The
-          server then sends the video data in small packets, which your device
-          reassembles and plays. This allows you to watch high-quality videos
-          without downloading the entire file.
-        </li>
-        <li>
-          <strong>Social Media</strong> - Social media platforms use the
-          internet to connect people from all over the world. When you post a
-          status update, your device sends the data to the server, which then
-          distributes it to your followers. This real-time communication is made
-          possible by the internet’s robust infrastructure.
-        </li>
-      </ul>
-
-      <h2>Conclusion: Why Understanding the Internet Matters</h2>
-      <p>
-        The internet is an essential part of our daily lives, and understanding
-        how it works can help you appreciate its complexity and power. Whether
-        you’re a web developer, a business owner, or simply a curious
-        individual, knowing the basics of the internet can empower you to make
-        informed decisions about your online activities.
-      </p>
-
-      <p>
-        So the next time you’re browsing the web, remember the journey your data
-        takes to bring you the information you need. The internet may seem like
-        magic, but it’s a well-oiled machine running on a blend of data,
-        protocols, and clever engineering.
-      </p>
-      <h3>Recommended</h3>
-      <BlogPostss />
-    </article>
+        <p>
+          {" "}
+          Learning to code in 2025 is an achievable goal with the right approach
+          and resources. By understanding the importance of coding, choosing the
+          appropriate programming language, leveraging AI-powered tools,
+          engaging in practical projects, joining communities, staying updated
+          with industry trends, and practicing consistently, you can embark on a
+          successful coding journey.
+        </p>
+        <h3>Recommended</h3>
+        <BlogPostDinah />
+      </article>
+    </main>
   );
 };
 
-export default Blog1;
+export default page;
 
-export const BlogPostss = () => {
+export const BlogPostDinah = () => {
   const blogPosts = [
     {
-      id: 2,
-      title: "Progressive Web Apps: A Step-by-Step Guide",
+      id: 1,
+      title: "Understanding How the Internet Works",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736669823/Progressive_Web_Apps_Logo.svg_utovcn.png",
-      alt: "Build a Parallax Scrolling Effect",
-      date: "January 14, 2025",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
+      alt: "Understanding How the Internet Works",
+      date: "January 13, 2025",
       description:
-        "Learn the essentials of building Progressive Web Apps (PWAs) that combine the best of web and mobile apps. This guide covers service workers, manifest files, and offline capabilities to create a seamless user experience.",
+        "Learn how the internet functions, from the basics of networking to protocols like HTTP. Understand key concepts like IP addresses, DNS, and data packet routing.",
     },
     {
       id: 3,
@@ -568,4 +395,37 @@ export const BlogPostss = () => {
       </div>
     </div>
   );
+};
+
+export const metadata = {
+  title: "HOW I WOULD LEARN TO CODE AGAIN IN 2025 - Massa Medi",
+  description:
+    "Discover how to learn to code effectively in 2025 with a step-by-step guide. Explore popular programming languages, study plans, and resources to kickstart your coding journey.",
+  openGraph: {
+    title: "HOW I WOULD LEARN TO CODE AGAIN IN 2025 - Massa Medi",
+    description:
+      "Discover how to learn to code effectively in 2025 with a step-by-step guide. Explore popular programming languages, study plans, and resources to kickstart your coding journey.",
+    url: "https://yourwebsite.com/how-i-would-learn-to-code-again-in-2025",
+    type: "article",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1737209667/Your_paragraph_text_ql8o1k.png",
+        width: 800,
+        height: 400,
+        alt: "How I would learn to code again in 2025",
+      },
+    ],
+    siteName: "Massa Medi's Blog",
+    publishedTime: "2025-01-18T00:00:00.000Z",
+    authors: ["Massa Medi"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HOW I WOULD LEARN TO CODE AGAIN IN 2025 - Massa Medi",
+    description:
+      "Discover how to learn to code effectively in 2025 with a step-by-step guide. Explore popular programming languages, study plans, and resources to kickstart your coding journey.",
+    images: [
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1737209667/Your_paragraph_text_ql8o1k.png",
+    ],
+  },
 };

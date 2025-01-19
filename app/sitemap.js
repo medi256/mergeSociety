@@ -873,6 +873,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/blog/22`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/quizzes`,
       lastModified: new Date(),
     },

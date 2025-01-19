@@ -87,14 +87,15 @@ const BlogPosts = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Understanding How the Internet Works",
+      title: "HOW I WOULD LEARN TO CODE AGAIN IN 2025",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
-      alt: "Understanding How the Internet Works",
-      date: "January 13, 2025",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1737209667/Your_paragraph_text_ql8o1k.png",
+      alt: "HOW I WOULD LEARN TO CODE AGAIN IN 2025",
+      date: "January 18, 2025",
       description:
-        "Learn how the internet functions, from the basics of networking to protocols like HTTP. Understand key concepts like IP addresses, DNS, and data packet routing.",
+        "Here is my useful  insight on how i would  learn to code again in 2025",
     },
+
     {
       id: 2,
       title: "Progressive Web Apps: A Step-by-Step Guide",
@@ -298,6 +299,16 @@ const BlogPosts = () => {
       date: "January 5, 2025",
       description:
         "The Internet of Things (IoT) is transforming the way we live and work by connecting everyday devices to the internet, allowing them to exchange data. This article explores IoT, its history, architecture, real-world applications, and its future impact on industries like healthcare, agriculture, and smart cities. It also discusses the role of AI in IoT, security challenges, and ethical implications.",
+    },
+    {
+      id: 22,
+      title: "Understanding How the Internet Works",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
+      alt: "Understanding How the Internet Works",
+      date: "January 13, 2025",
+      description:
+        "Learn how the internet functions, from the basics of networking to protocols like HTTP. Understand key concepts like IP addresses, DNS, and data packet routing.",
     },
   ];
 

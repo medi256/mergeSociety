@@ -49,11 +49,11 @@ const PersonalWebpage = () => {
   return (
     <article
       style={{
-        maxWidth: "800px",
+        maxWidth: "900px",
         margin: "0 auto",
         padding: "20px",
       }}
-      className="project-container"
+      className="lesson-container"
     >
       <h1>Build Your First Website: Step-by-Step HTML Project Tutorial</h1>
 

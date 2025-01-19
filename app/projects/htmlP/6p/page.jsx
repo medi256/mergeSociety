@@ -40,7 +40,7 @@ export const metadata = {
 const EventInvitation = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1

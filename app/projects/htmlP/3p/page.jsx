@@ -44,7 +44,7 @@ const WeeklyScheduleHtml = () => {
         margin: "0 auto",
         padding: "20px",
       }}
-      className="project-container"
+      className="lesson-container"
     >
       <h1
         style={{
@@ -79,7 +79,7 @@ const WeeklyScheduleHtml = () => {
         <span className="project-title">
           <Link href={"/about"}>Written by Massa Medi</Link>
         </span>
-        <time className="project-date" datetime="2025-01-14">
+        <time className="project-date" dateTime="2025-01-14">
           | January 14, 2025
         </time>
       </h3>

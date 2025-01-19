@@ -33,7 +33,7 @@ export const metadata = {
 const SimpleToDoListApp = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>

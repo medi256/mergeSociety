@@ -38,7 +38,10 @@ export const metadata = {
 
 const ParallaxScrollingEffect = () => {
   return (
-    <article style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+    <article
+      style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+      className="lesson-container"
+    >
       <h1 style={{ color: "#333", borderBottom: "2px solid #333" }}>
         Building a Parallax Scrolling Effect with CSS
       </h1>

@@ -45,7 +45,7 @@ const HtmlResume = () => {
         margin: "0 auto",
         padding: "20px",
       }}
-      className="project-container"
+      className="lesson-container"
     >
       <h1
         style={{
