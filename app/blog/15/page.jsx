@@ -43,7 +43,7 @@ export const metadata = {
 const page = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1>Domain Names: Understanding and Choosing the Right One</h1>

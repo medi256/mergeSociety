@@ -45,7 +45,7 @@ export const metadata = {
 const VersionControlBlog = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1>The Importance of Version Control in Software Development</h1>

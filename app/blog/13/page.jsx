@@ -48,7 +48,7 @@ export const metadata = {
 const Blog13 = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1>React Hooks: A Comprehensive Guide for 2025</h1>

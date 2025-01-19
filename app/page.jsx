@@ -288,13 +288,13 @@ export default function Home() {
               },
               {
                 id: 1,
-                title: "Understanding How the Internet Works",
+                title: "HOW I WOULD LEARN TO CODE AGAIN IN 2025",
                 image:
-                  "https://res.cloudinary.com/dhgjhspsp/image/upload/v1729264510/internet_rsw2y5.jpg",
-                alt: "Understanding How the Internet Works",
-                date: "January 13, 2025",
+                  "https://res.cloudinary.com/dhgjhspsp/image/upload/v1737209667/Your_paragraph_text_ql8o1k.png",
+                alt: "HOW I WOULD LEARN TO CODE AGAIN IN 2025",
+                date: "January 18, 2025",
                 description:
-                  "Learn how the internet functions, from the basics of networking to protocols like HTTP. Understand key concepts like IP addresses, DNS, and data packet routing.",
+                  "Here is my useful  insight on how i would  learn to code again in 2025",
               },
               {
                 id: 2,

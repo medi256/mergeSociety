@@ -33,7 +33,7 @@ const Blog4 = () => {
   return (
     <article
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
-      className="project-container"
+      className="lesson-container"
     >
       <h1>What is Web Analytics and Why it's Important to Your Goals</h1>
 

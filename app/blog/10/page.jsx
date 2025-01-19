@@ -35,7 +35,7 @@ export const metadata = {
 const Blog10Expanded = () => {
   return (
     <article
-      className="project-container"
+      className="lesson-container"
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
     >
       <h1>Why Learn React in 2025?</h1>

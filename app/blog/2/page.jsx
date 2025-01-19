@@ -53,7 +53,7 @@ const Blog2 = () => {
   return (
     <article
       style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
-      className="project-container"
+      className="lesson-container"
     >
       <h1>Progressive Web Apps: A Comprehensive Step-by-Step Guide</h1>
 
@@ -526,9 +526,9 @@ if ('serviceWorker' in navigator) {
           Progressive Web Apps and start building the next generation of web
           experiences.
         </p>
+        <h3>Recommended</h3>
+        <BlogPostsss />
       </section>
-      <h3>Recommended</h3>
-      <BlogPostsss />
     </article>
   );
 };
