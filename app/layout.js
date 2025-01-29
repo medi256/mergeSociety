@@ -132,13 +132,13 @@ export default function RootLayout({ children }) {
         </Script>
 
         {/* Add the Journey monetization script */}
-        <Script
-          src="//scripts.scriptwrapper.com/tags/cf5f27a3-d540-40ea-b0a8-f30418314d5d.js"
-          async
-          data-noptimize="1"
-          data-cfasync="false"
-          strategy="afterInteractive"
-        />
+        // <Script
+        //   src="//scripts.scriptwrapper.com/tags/cf5f27a3-d540-40ea-b0a8-f30418314d5d.js"
+        //   async
+        //   data-noptimize="1"
+        //   data-cfasync="false"
+        //   strategy="afterInteractive"
+        // />
       </head>
       <body className={`${montserrat.variable} ${roboto.variable}`}>
         <NavBar />
