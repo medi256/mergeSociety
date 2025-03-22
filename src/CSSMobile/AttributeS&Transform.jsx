@@ -65,12 +65,12 @@ a[target="_blank"] {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/universalMob")}>
+        {/* <button onClick={() => (window.location.href = "/universalMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/transformMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -280,12 +280,12 @@ export const Transform = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/attributeMob")}>
+        {/* <button onClick={() => (window.location.href = "/attributeMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/transitionMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

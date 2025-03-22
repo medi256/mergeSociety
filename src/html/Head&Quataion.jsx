@@ -1,4 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
+import { NavLink } from "react-router-dom";
 
 const Head = () => {
   return (
@@ -258,12 +259,21 @@ alert("Hello, world!");
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "semantic")}>
+        {/* <button onClick={() => (window.location.href = "semantic")}>
           back
-        </button>
-        <button onClick={() => (window.location.href = "quotation")}>
+        </button> */}
+        {/* <button onClick={() => (window.location.href = "quotation")}>
           Next
-        </button>
+        </button> */}
+
+
+
+         <NavLink to={"/HTMLcourse/Semantic"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Quotation"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -391,10 +401,18 @@ export const Quotation = () => {
       </blockquote>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "head")}>back</button>
+        {/* <button onClick={() => (window.location.href = "head")}>back</button>
         <button onClick={() => (window.location.href = "entities")}>
           Next
-        </button>
+        </button> */}
+        
+
+        <NavLink to={"/HTMLcourse/Head"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Entities"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

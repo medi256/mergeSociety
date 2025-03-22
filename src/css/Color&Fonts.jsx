@@ -306,10 +306,10 @@ p {
         accessibility for all users. Happy coding and happy coloring!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "selectors")}>
+        {/* <button onClick={() => (window.location.href = "selectors")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "fonts")}>Next</button>
+        <button onClick={() => (window.location.href = "fonts")}>Next</button> */}
       </div>
     </div>
   );
@@ -677,10 +677,10 @@ p {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "color")}>back</button>
+        {/* <button onClick={() => (window.location.href = "color")}>back</button>
         <button onClick={() => (window.location.href = "background")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

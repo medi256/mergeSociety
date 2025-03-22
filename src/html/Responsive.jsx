@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const ResponsiveHTML = () => {
   return (
     <div className="comments-container">
@@ -184,9 +184,14 @@ const ResponsiveHTML = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "dropdown")}>
+        {/* <button onClick={() => (window.location.href = "dropdown")}>
           back
-        </button>
+        </button> */}
+        
+        
+                      { <NavLink to={"/HTMLcourse/Dropdown"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Back</span>
+                     </NavLink> }
       </div>
     </div>
   );

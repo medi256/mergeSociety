@@ -256,12 +256,12 @@ span {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/floatMob")}>
+        {/* <button onClick={() => (window.location.href = "/floatMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/positionMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -757,12 +757,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/displayMob")}>
+        {/* <button onClick={() => (window.location.href = "/displayMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/zIndexMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

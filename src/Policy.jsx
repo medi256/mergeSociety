@@ -130,20 +130,22 @@ export const PolicyView = () => {
   return (
     <div
       style={{
-        backgroundColor: "#f9f9f9",
+        backgroundColor: "#191B21",
         padding: "20px",
-        borderBottom: "1px solid #ddd",
-        marginBottom: "20px",
+     
       }}
     >
       <Link
         to={"policy"}
         style={{
           textDecoration: "none",
-          color: "#337ab7",
+          color:"#ffc107",
           fontSize: "16px",
           fontWeight: "bold",
           textAlign: "center",
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center"
         }}
       >
         Terms of Use · Privacy Policy

@@ -245,10 +245,10 @@ ul {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "minHeight")}>
+        {/* <button onClick={() => (window.location.href = "minHeight")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "tables")}>Next</button>
+        <button onClick={() => (window.location.href = "tables")}>Next</button> */}
       </div>
     </div>
   );
@@ -517,8 +517,8 @@ td {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "lists")}>back</button>
-        <button onClick={() => (window.location.href = "links")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "lists")}>back</button>
+        <button onClick={() => (window.location.href = "links")}>Next</button> */}
       </div>
     </div>
   );

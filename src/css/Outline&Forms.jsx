@@ -222,8 +222,8 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "opacity")}>back</button>
-        <button onClick={() => (window.location.href = "forms")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "opacity")}>back</button>
+        <button onClick={() => (window.location.href = "forms")}>Next</button> */}
       </div>
     </div>
   );
@@ -415,8 +415,8 @@ input[type="text"] {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "outline")}>back</button>
-        <button onClick={() => (window.location.href = "flex")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "outline")}>back</button>
+        <button onClick={() => (window.location.href = "flex")}>Next</button> */}
       </div>
     </div>
   );

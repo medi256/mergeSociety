@@ -242,12 +242,12 @@ const MediaQuaries = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/variableMob")}>
+        {/* <button onClick={() => (window.location.href = "/variableMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/universalMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -442,12 +442,12 @@ export const Universal = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/mediaQMob")}>
+        {/* <button onClick={() => (window.location.href = "/mediaQMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/attributeMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

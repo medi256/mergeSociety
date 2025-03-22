@@ -618,10 +618,10 @@ align-content: space-evenly;
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "flex")}>back</button>
+        {/* <button onClick={() => (window.location.href = "flex")}>back</button>
         <button onClick={() => (window.location.href = "variable")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -832,8 +832,8 @@ body {
         Happy coding!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "grid")}>back</button>
-        <button onClick={() => (window.location.href = "mediaQ")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "grid")}>back</button>
+        <button onClick={() => (window.location.href = "mediaQ")}>Next</button> */}
       </div>
     </div>
   );

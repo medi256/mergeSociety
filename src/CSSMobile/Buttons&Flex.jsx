@@ -271,12 +271,12 @@ export const Flex = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/formMob")}>
+        {/* <button onClick={() => (window.location.href = "/formMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/gridMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

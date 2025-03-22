@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const ImagesH = () => {
   return (
     <div className="comments-container">
@@ -211,10 +211,20 @@ alt="Sunset over the ocean" width="500" height="400">
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "attribute")}>
+        {/* <button onClick={() => (window.location.href = "attribute")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "audio")}>Next</button>
+        <button onClick={() => (window.location.href = "audio")}>Next</button> */}
+
+
+        
+        
+<NavLink to={"/HTMLcourse/Attribute"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+          <span title="HTML course">Back</span>
+         </NavLink>
+    { <NavLink to={"/HTMLcourse/Audio"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+     <span title="HTML course">Next</span>
+   </NavLink> }
       </div>
     </div>
   );
@@ -432,8 +442,15 @@ export const Audio = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "imagesH")}>back</button>
-        <button onClick={() => (window.location.href = "video")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "imagesH")}>back</button>
+        <button onClick={() => (window.location.href = "video")}>Next</button> */}
+
+<NavLink to={"/HTMLcourse/ImagesH"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+          <span title="HTML course">Back</span>
+         </NavLink>
+    { <NavLink to={"/HTMLcourse/Video"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+     <span title="HTML course">Next</span>
+   </NavLink> }
       </div>
     </div>
   );

@@ -297,12 +297,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/paddingMob")}>
+        {/* <button onClick={() => (window.location.href = "/paddingMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/widthMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -459,12 +459,12 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/marginMob")}>
+        {/* <button onClick={() => (window.location.href = "/marginMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/heightMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

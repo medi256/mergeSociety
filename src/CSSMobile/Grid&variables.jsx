@@ -618,12 +618,12 @@ align-content: space-evenly;
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/flexMob")}>
+        {/* <button onClick={() => (window.location.href = "/flexMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/variableMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -835,12 +835,12 @@ body {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/gridMob")}>
+        {/* <button onClick={() => (window.location.href = "/gridMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/mediaQMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

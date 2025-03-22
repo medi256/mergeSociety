@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const Favicon = () => {
   return (
     <div className="comments-container">
@@ -156,10 +156,17 @@ const Favicon = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "iframe")}>back</button>
+        {/* <button onClick={() => (window.location.href = "iframe")}>back</button>
         <button onClick={() => (window.location.href = "dropdown")}>
           Next
-        </button>
+        </button> */}
+
+<NavLink to={"/HTMLcourse/Iframe"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Dropdown"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -435,10 +442,18 @@ export const DropDown = () => {
         different screen sizes and devices. Stay tuned, and happy coding!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "favicon")}>back</button>
+        {/* <button onClick={() => (window.location.href = "favicon")}>back</button>
         <button onClick={() => (window.location.href = "responsiveMeta")}>
           Next
-        </button>
+        </button> */}
+
+        
+<NavLink to={"/HTMLcourse/Favicon"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/ResponsiveMeta"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

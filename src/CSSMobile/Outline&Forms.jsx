@@ -221,12 +221,12 @@ img {
         interfaces. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/opacityMob")}>
+        {/* <button onClick={() => (window.location.href = "/opacityMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/formMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -418,12 +418,12 @@ input[type="text"] {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/outlineMob")}>
+        {/* <button onClick={() => (window.location.href = "/outlineMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/flexMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

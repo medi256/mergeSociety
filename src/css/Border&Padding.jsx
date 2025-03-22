@@ -268,10 +268,10 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "comments")}>
+        {/* <button onClick={() => (window.location.href = "comments")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "padding")}>Next</button>
+        <button onClick={() => (window.location.href = "padding")}>Next</button> */}
       </div>
     </div>
   );
@@ -549,8 +549,8 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "border")}>back</button>
-        <button onClick={() => (window.location.href = "margin")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "border")}>back</button>
+        <button onClick={() => (window.location.href = "margin")}>Next</button> */}
       </div>
     </div>
   );

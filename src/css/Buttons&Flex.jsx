@@ -269,8 +269,8 @@ export const Flex = () => {
         engaging interfaces. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "forms")}>back</button>
-        <button onClick={() => (window.location.href = "grid")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "forms")}>back</button>
+        <button onClick={() => (window.location.href = "grid")}>Next</button> */}
       </div>
     </div>
   );

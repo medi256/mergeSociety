@@ -301,12 +301,12 @@ const Filter = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "animation")}>
+        {/* <button onClick={() => (window.location.href = "animation")}>
           back
         </button>
         <button onClick={() => (window.location.href = "responsive")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -478,7 +478,7 @@ export const Responsive = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "filter")}>back</button>
+        {/* <button onClick={() => (window.location.href = "filter")}>back</button> */}
       </div>
     </div>
   );

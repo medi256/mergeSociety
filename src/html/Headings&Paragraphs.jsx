@@ -1,4 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
+import { NavLink } from "react-router-dom";
 
 const Headings = () => {
   return (
@@ -148,13 +149,20 @@ const Headings = () => {
         Stay tuned, and happy coding!`}
       </p>
 
-      <div className="button-container">
-        <button onClick={() => (window.location.href = "HTMLBasics")}>
+       <div className="button-container">
+        {/* <button onClick={() => (window.location.href = "HTMLBasics")}>
           back
         </button>
         <button onClick={() => (window.location.href = "paragraphs")}>
           Next
-        </button>
+        </button> } */}
+          <NavLink to={"/HTMLcourse/HTMLBasics"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                    <span title="HTML course">Back</span>
+                  </NavLink>
+                   
+                    { <NavLink to={"/HTMLcourse/Paragraphs"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                            <span title="HTML course">Next</span>
+                          </NavLink> }
       </div>
     </div>
   );
@@ -266,12 +274,19 @@ export const Paragraphs = () => {
         Stay tuned, and happy coding!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "headings")}>
+        {/* <button onClick={() => (window.location.href = "headings")}>
           back
         </button>
         <button onClick={() => (window.location.href = "Formatting")}>
           Next
-        </button>
+        </button> */}
+            <NavLink to={"/HTMLcourse/Headings"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                    <span title="HTML course">Back</span>
+                  </NavLink>
+                   
+                    { <NavLink to={"/HTMLcourse/Formatting"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                            <span title="HTML course">Next</span>
+                          </NavLink> }
       </div>
     </div>
   );

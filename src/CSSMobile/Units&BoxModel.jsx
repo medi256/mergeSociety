@@ -149,12 +149,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/styleMob")}>
+        {/* <button onClick={() => (window.location.href = "/styleMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/boxModelMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -459,12 +459,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/unitsMob")}>
+        {/* <button onClick={() => (window.location.href = "/unitsMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/maxWidthMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

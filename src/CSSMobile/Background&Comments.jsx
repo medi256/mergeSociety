@@ -264,12 +264,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/fontMob")}>
+        {/* <button onClick={() => (window.location.href = "/fontMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/commentsMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -436,12 +436,12 @@ export const Comments = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/backgroundMob")}>
+        {/* <button onClick={() => (window.location.href = "/backgroundMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/borderMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

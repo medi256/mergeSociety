@@ -11,10 +11,10 @@ const CourseNavLinks = () => {
           {" "}
           <span title="CSS course">CSS</span>{" "}
         </NavLink>
-        <NavLink to={"/videoTutorial"}>
+        {/* <NavLink to={"/videoTutorial"}>
           {" "}
           <span title="Learn by watching video tutorials">Videos</span>{" "}
-        </NavLink>
+        </NavLink> */}
         <NavLink to={"/javascriptCourse"}>
           {" "}
           <span title="Javascript course">JavaScript</span>{" "}

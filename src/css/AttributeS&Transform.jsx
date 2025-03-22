@@ -65,12 +65,12 @@ a[target="_blank"] {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "universalS")}>
+        {/* <button onClick={() => (window.location.href = "universalS")}>
           back
         </button>
         <button onClick={() => (window.location.href = "transform")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -280,12 +280,12 @@ export const Transform = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "attributeS")}>
+        {/* <button onClick={() => (window.location.href = "attributeS")}>
           back
         </button>
         <button onClick={() => (window.location.href = "transition")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

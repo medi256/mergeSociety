@@ -283,12 +283,12 @@ a {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/tablesMob")}>
+        {/* <button onClick={() => (window.location.href = "/tablesMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/imagesMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -533,12 +533,12 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/linksMob")}>
+        {/* <button onClick={() => (window.location.href = "/linksMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/iconsMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const CommentsH = () => {
   return (
     <div className="comments-container">
@@ -186,10 +186,17 @@ const CommentsH = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "pre")}>back</button>
+        {/* <button onClick={() => (window.location.href = "pre")}>back</button>
         <button onClick={() => (window.location.href = "HTMLStructure")}>
           Next
-        </button>
+        </button> */}
+
+<NavLink to={"/HTMLcourse/Pre"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/HTMLStructure"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -457,12 +464,21 @@ export const HTMLStructure = () => {
         coding!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "commentsH")}>
+        {/* <button onClick={() => (window.location.href = "commentsH")}>
           back
         </button>
         <button onClick={() => (window.location.href = "CreateButtons")}>
           Next
-        </button>
+        </button> */}
+
+
+        
+<NavLink to={"/HTMLcourse/CommentsH"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/CreateButtons"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

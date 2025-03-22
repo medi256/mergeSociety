@@ -254,12 +254,12 @@ div {
         experimenting and happy coding!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/columnMob")}>
+        {/* <button onClick={() => (window.location.href = "/columnMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/opacityMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -553,12 +553,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/overFlowMob")}>
+        {/* <button onClick={() => (window.location.href = "/overFlowMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/outlineMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

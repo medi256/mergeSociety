@@ -20,14 +20,14 @@ const AdUnit = () => {
 
   return (
     <div>
-      <ins
+      {/* <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
+        style={{ display: "block" , height:"1px !important"}}
         data-ad-client="ca-pub-6271278895910760"
         data-ad-slot="8956915466"
         data-ad-format="auto"
         data-full-width-responsive="true"
-      />
+      /> */}
       <br />
     </div>
   );
@@ -55,14 +55,14 @@ export const InArticleAdUnit = () => {
 
   return (
     <div>
-      <ins
+      {/* <ins
         className="adsbygoogle"
-        style={{ display: "block", textAlign: "center" }}
+        style={{ display: "block", textAlign: "center" , height:"1px" }}
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-6271278895910760"
         data-ad-slot="4958406847"
-      />
+      /> */}
       <br />
     </div>
   );

@@ -149,12 +149,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "stylingText")}>
+        {/* <button onClick={() => (window.location.href = "stylingText")}>
           back
         </button>
         <button onClick={() => (window.location.href = "boxModel")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -459,10 +459,10 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "units")}>back</button>
+        {/* <button onClick={() => (window.location.href = "units")}>back</button>
         <button onClick={() => (window.location.href = "maxWidth")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

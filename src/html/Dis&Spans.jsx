@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const Div = () => {
   return (
     <div className="comments-container">
@@ -180,8 +180,14 @@ const Div = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "formsH")}>back</button>
-        <button onClick={() => (window.location.href = "span")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "formsH")}>back</button>
+        <button onClick={() => (window.location.href = "span")}>Next</button> */}
+        <NavLink to={"/HTMLcourse/FormsH"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Span"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -344,8 +350,14 @@ export const Spans = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "div")}>back</button>
-        <button onClick={() => (window.location.href = "inline")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "div")}>back</button>
+        <button onClick={() => (window.location.href = "inline")}>Next</button> */}
+       <NavLink to={"/HTMLcourse/Div"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Inline"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

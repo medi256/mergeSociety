@@ -254,8 +254,8 @@ div {
         experimenting and happy coding!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "columns")}>back</button>
-        <button onClick={() => (window.location.href = "opacity")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "columns")}>back</button>
+        <button onClick={() => (window.location.href = "opacity")}>Next</button> */}
       </div>
     </div>
   );
@@ -549,10 +549,10 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "overflow")}>
+        {/* <button onClick={() => (window.location.href = "overflow")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "outline")}>Next</button>
+        <button onClick={() => (window.location.href = "outline")}>Next</button> */}
       </div>
     </div>
   );

@@ -326,12 +326,12 @@ const Icon = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/imagesMob")}>
+        {/* <button onClick={() => (window.location.href = "/imagesMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/floatMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -556,12 +556,12 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/iconsMob")}>
+        {/* <button onClick={() => (window.location.href = "/iconsMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/displayMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

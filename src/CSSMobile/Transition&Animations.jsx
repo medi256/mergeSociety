@@ -251,12 +251,12 @@ const Transition = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/transformMob")}>
+        {/* <button onClick={() => (window.location.href = "/transformMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/animationMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -550,12 +550,12 @@ export const Animations = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/transitionMob")}>
+        {/* <button onClick={() => (window.location.href = "/transitionMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/filterMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

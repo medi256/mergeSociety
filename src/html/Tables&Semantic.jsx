@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const Tables = () => {
   return (
     <div className="comments-container">
@@ -238,10 +238,17 @@ const Tables = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "block")}>back</button>
+        {/* <button onClick={() => (window.location.href = "block")}>back</button>
         <button onClick={() => (window.location.href = "semantic")}>
           Next
-        </button>
+        </button> */}
+        
+<NavLink to={"/HTMLcourse/Block"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Semantic"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -459,8 +466,15 @@ export const Semantic = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "tables")}>back</button>
-        <button onClick={() => (window.location.href = "head")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "tables")}>back</button>
+        <button onClick={() => (window.location.href = "head")}>Next</button> */}
+        
+<NavLink to={"/HTMLcourse/Tables"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Head"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

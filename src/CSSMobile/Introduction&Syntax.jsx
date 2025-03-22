@@ -138,9 +138,9 @@ const Introduction = () => {
       <p>Ready to get started with CSS? {`Let's dive in!`}</p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/syntaxMob")}>
+        {/* <button onClick={() => (window.location.href = "/syntaxMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -317,12 +317,12 @@ h1 {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/introMob")}>
+        {/* <button onClick={() => (window.location.href = "/introMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/insertMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 import AdUnit, { InArticleAdUnit } from "../AdUnit";
 import "./html.css";
-
+import { NavLink } from "react-router-dom";
 const IntroductionH = () => {
+
   return (
     <div className="comments-container">
       <AdUnit />
@@ -179,9 +180,9 @@ const IntroductionH = () => {
         <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1714906080/myFirstWebsite_baseb1.mov" />
       </video>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "HTMLBasics")}>
-          Next
-        </button>
+      <NavLink to={"/HTMLcourse/HTMLBasics"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                    <span title="HTML course">Next</span>
+                  </NavLink>
       </div>
     </div>
   );
@@ -382,12 +383,17 @@ export const HTMLBasics = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "IntroductionH")}>
-          back
-        </button>
-        <button onClick={() => (window.location.href = "headings")}>
-          Next
-        </button>
+      {<NavLink to={"/HTMLcourse/IntroductionH"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                    <span title="HTML course">Back</span>
+                  </NavLink>
+           }
+            { <NavLink to={"/HTMLcourse/headings"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                    <span title="HTML course">Next</span>
+                  </NavLink> }
+                  {/* { <button         onClick={() => navigate(-1)}
+                  >back</button>
+                  <button         onClick={() => navigate(1)}
+                  >next</button> } */}
       </div>
     </div>
   );

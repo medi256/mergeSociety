@@ -127,12 +127,12 @@ div {
         readability, and create visually appealing interfaces. Happy coding!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/maxHeightMob")}>
+        {/* <button onClick={() => (window.location.href = "/maxHeightMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/minHeightMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -268,12 +268,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/minWidthMob")}>
+        {/* <button onClick={() => (window.location.href = "/minWidthMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/listMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -255,10 +255,10 @@ span {
         coding and designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "float")}>back</button>
+        {/* <button onClick={() => (window.location.href = "float")}>back</button>
         <button onClick={() => (window.location.href = "position")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -753,9 +753,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
         interfaces. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "display")}>back</button>
-        <button onClick={() => (window.location.href = "Zindex")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "display")}>back</button>
+        <button onClick={() => (window.location.href = "Zindex")}>Next</button> */}
       </div>
     </div>
   );
-};
+}

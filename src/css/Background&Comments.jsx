@@ -264,10 +264,10 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "fonts")}>back</button>
+        {/* <button onClick={() => (window.location.href = "fonts")}>back</button>
         <button onClick={() => (window.location.href = "comments")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -434,10 +434,10 @@ export const Comments = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "background")}>
+        {/* <button onClick={() => (window.location.href = "background")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "border")}>Next</button>
+        <button onClick={() => (window.location.href = "border")}>Next</button> */}
       </div>
     </div>
   );

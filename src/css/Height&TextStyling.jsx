@@ -145,10 +145,10 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "width")}>back</button>
+        {/* <button onClick={() => (window.location.href = "width")}>back</button>
         <button onClick={() => (window.location.href = "stylingText")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -363,8 +363,8 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "height")}>back</button>
-        <button onClick={() => (window.location.href = "units")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "height")}>back</button>
+        <button onClick={() => (window.location.href = "units")}>Next</button> */}
       </div>
     </div>
   );

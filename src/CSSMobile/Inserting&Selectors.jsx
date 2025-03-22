@@ -311,12 +311,12 @@ h1 {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/syntaxMob")}>
+        {/* <button onClick={() => (window.location.href = "/syntaxMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/selectMobile")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -577,12 +577,12 @@ ul li {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/insertMob")}>
+        {/* <button onClick={() => (window.location.href = "/insertMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/colorMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

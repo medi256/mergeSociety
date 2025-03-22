@@ -250,12 +250,12 @@ const Transition = () => {
         interfaces. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "transform")}>
+        {/* <button onClick={() => (window.location.href = "transform")}>
           back
         </button>
         <button onClick={() => (window.location.href = "animation")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -549,10 +549,10 @@ export const Animations = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "transition")}>
+        {/* <button onClick={() => (window.location.href = "transition")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "filter")}>Next</button>
+        <button onClick={() => (window.location.href = "filter")}>Next</button> */}
       </div>
     </div>
   );

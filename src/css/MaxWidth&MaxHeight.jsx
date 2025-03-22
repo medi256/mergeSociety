@@ -135,12 +135,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "boxModel")}>
+        {/* <button onClick={() => (window.location.href = "boxModel")}>
           back
         </button>
         <button onClick={() => (window.location.href = "maxHeight")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -278,12 +278,12 @@ div {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "maxWidth")}>
+        {/* <button onClick={() => (window.location.href = "maxWidth")}>
           back
         </button>
         <button onClick={() => (window.location.href = "minWidth")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

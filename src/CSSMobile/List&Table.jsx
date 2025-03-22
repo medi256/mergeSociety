@@ -245,12 +245,12 @@ ul {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/minHeightMob")}>
+        {/* <button onClick={() => (window.location.href = "/minHeightMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/tablesMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -519,12 +519,12 @@ td {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/listMob")}>
+        {/* <button onClick={() => (window.location.href = "/listMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/linksMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

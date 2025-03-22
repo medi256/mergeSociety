@@ -306,12 +306,12 @@ p {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/selectMobile")}>
+        {/* <button onClick={() => (window.location.href = "/selectMobile")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/fontMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -656,12 +656,12 @@ p {
         with your brand identity. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/colorMob")}>
+        {/* <button onClick={() => (window.location.href = "/colorMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/backgroundMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -199,12 +199,12 @@ const ZIndex = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/positionMob")}>
+        {/* <button onClick={() => (window.location.href = "/positionMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/columnMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -413,12 +413,12 @@ export const Columns = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "/zIndexMob")}>
+        {/* <button onClick={() => (window.location.href = "/zIndexMob")}>
           back
         </button>
         <button onClick={() => (window.location.href = "/overFlowMob")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

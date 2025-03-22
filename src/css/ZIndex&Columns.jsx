@@ -199,10 +199,10 @@ const ZIndex = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "position")}>
+        {/* <button onClick={() => (window.location.href = "position")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "columns")}>Next</button>
+        <button onClick={() => (window.location.href = "columns")}>Next</button> */}
       </div>
     </div>
   );
@@ -410,10 +410,10 @@ export const Columns = () => {
         interfaces. Happy coding and happy designing!
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "Zindex")}>back</button>
+        {/* <button onClick={() => (window.location.href = "Zindex")}>back</button>
         <button onClick={() => (window.location.href = "overflow")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );

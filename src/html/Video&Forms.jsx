@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 const Video = () => {
   return (
     <div className="comments-container">
@@ -218,8 +218,14 @@ const Video = () => {
         your website. Stay tuned, and happy coding!`}
       </p>
       <div className="button-container">
-        <button onClick={() => (window.location.href = "audio")}>back</button>
-        <button onClick={() => (window.location.href = "formsH")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "audio")}>back</button>
+        <button onClick={() => (window.location.href = "formsH")}>Next</button> */}
+        <NavLink to={"/HTMLcourse/Audio"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/FormsH"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

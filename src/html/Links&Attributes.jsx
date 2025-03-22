@@ -1,5 +1,5 @@
 import { InArticleAdUnit } from "../AdUnit";
-
+import { NavLink } from "react-router-dom";
 function LinksH() {
   return (
     <div className="comments-container">
@@ -164,10 +164,17 @@ function LinksH() {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "lists")}>back</button>
-        <button onClick={() => (window.location.href = "attribute")}>
+        {/* <button onClick={() => (window.location.href = "lists")}>back</button>
+        <button onClick={() => (window.location.href = "attribute")}> 
           Next
-        </button>
+        </button> */}
+
+<NavLink to={"/HTMLcourse/List"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/Attribute"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );
@@ -369,8 +376,16 @@ export function Attributes() {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "linksH")}>back</button>
-        <button onClick={() => (window.location.href = "imagesH")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "linksH")}>back</button>
+        <button onClick={() => (window.location.href = "imagesH")}>Next</button> */}
+
+        
+<NavLink to={"/HTMLcourse/LinksH"} style={{textDecoration:"none",margin:"0 20px",fontSize:"large", color:"#ffc107"}}>
+                            <span title="HTML course">Back</span>
+                          </NavLink>
+                      { <NavLink to={"/HTMLcourse/ImagesH"} style={{textDecoration:"none", fontSize:"large",color:"#ffc107"}}>
+                      <span title="HTML course">Next</span>
+                     </NavLink> }
       </div>
     </div>
   );

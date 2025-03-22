@@ -326,8 +326,8 @@ const Icon = () => {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "images")}>back</button>
-        <button onClick={() => (window.location.href = "float")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "images")}>back</button>
+        <button onClick={() => (window.location.href = "float")}>Next</button> */}
       </div>
     </div>
   );
@@ -552,8 +552,8 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "icons")}>back</button>
-        <button onClick={() => (window.location.href = "display")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "icons")}>back</button>
+        <button onClick={() => (window.location.href = "display")}>Next</button> */}
       </div>
     </div>
   );

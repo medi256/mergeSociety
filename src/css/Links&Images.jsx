@@ -283,8 +283,8 @@ a {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "tables")}>back</button>
-        <button onClick={() => (window.location.href = "images")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "tables")}>back</button>
+        <button onClick={() => (window.location.href = "images")}>Next</button> */}
       </div>
     </div>
   );
@@ -529,8 +529,8 @@ img {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "links")}>back</button>
-        <button onClick={() => (window.location.href = "icons")}>Next</button>
+        {/* <button onClick={() => (window.location.href = "links")}>back</button>
+        <button onClick={() => (window.location.href = "icons")}>Next</button> */}
       </div>
     </div>
   );

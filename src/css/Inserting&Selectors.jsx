@@ -311,10 +311,10 @@ h1 {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "syntax")}>back</button>
+        {/* <button onClick={() => (window.location.href = "syntax")}>back</button>
         <button onClick={() => (window.location.href = "selectors")}>
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
@@ -575,10 +575,10 @@ ul li {
       </p>
 
       <div className="button-container">
-        <button onClick={() => (window.location.href = "inserting")}>
+        {/* <button onClick={() => (window.location.href = "inserting")}>
           back
         </button>
-        <button onClick={() => (window.location.href = "color")}>Next</button>
+        <button onClick={() => (window.location.href = "color")}>Next</button> */}
       </div>
     </div>
   );
