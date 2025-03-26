@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 import React from "react";
 import Footer from "./Footer";
-
+import CustomerReview from "./CustomerReview";
+import GetInTouchForm from "./GetInTouchForm";
+import ArticlesSection from "./ArticlesSection"
 const courses = {
   HTML: [
     { title: "HTML Full Course", url: "https://www.youtube.com/watch?v=pQN-pnXPaVg", thumbnail: "https://img.youtube.com/vi/pQN-pnXPaVg/hqdefault.jpg" },
@@ -101,10 +103,11 @@ const LandingPage = () => {
       {Object.entries(courses).map(([category, courseList]) => (
         <CourseSection key={category} title={category} courses={courseList} />
       ))}
-
+    <CustomerReview />
+    <GetInTouchForm/>
+    <ArticlesSection/>
       <Footer />
     </div>
   );
 };
-
 export default LandingPage;
