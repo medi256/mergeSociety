@@ -8,94 +8,64 @@ const IntroductionH = () => {
       <AdUnit />
       <h1>Introduction to HTML</h1>
       <p>
-        {`Welcome to the exciting world of HTML! In this course, you will learn
-        about the fundamentals of Hypertext Markup Language (HTML), the backbone
-        of every website you visit on the internet. HTML is a simple yet
-        powerful language that allows us to create structured and interactive
-        web pages. Let's dive in and explore its history, purpose, and how it
-        works alongside other technologies like CSS and JavaScript to bring
-        websites to life!`}
+        {`Hello World! This course is for everyone interested in the basics of Hypertext Markup Language (HTML) — the very core of every website you visit over internet. HTML is a basic and easy-to-understand language that enables us to build a structured content in interactive web pages. Ok, let's get stuck in and talk about the history, why we do (and should) implement it with other technologies such as CSS & JavaScript to make websites functional.
+`}
       </p>
 
       <h2>A Brief History of HTML</h2>
       <p>
-        HTML was created by Tim Berners-Lee in the late 1980s while he was
-        working at CERN, the European Organization for Nuclear Research. The
-        goal was to create a system for sharing and distributing information
-        among researchers easily. HTML became the standard markup language for
-        creating web pages and has evolved over the years with various versions,
-        such as HTML+, HTML 2.0, and the current HTML5.
+     
+Tim Berners-Lee, in the late eighties when he was working at CERN who created HTML ( the European Organization for Nuclear Research) The aim was simple- to find a solution for easy sharing and spreading of the information among researchers. HTML became the standard to markup web documents and many versions have popped up in the time (HTML, HTML+ etc… and current HTML5)
+
       </p>
 
       <h2>What is HTML?</h2>
       <p>
-        HTML is the standard markup language for creating web pages and web
-        applications. It uses a set of tags and attributes to define the
-        structure and content of a web page. HTML tells the web browser what to
-        display and how to interpret the content, such as headings, paragraphs,
-        images, videos, and links.
+      HTML is the most common markup language used for web pages and web applications. It includes rules and properties in the set of tags that differentiates how a web page has defined, what is its structure and content. HTML describes what the web browser must show/say and how to show headings, paragraphs, images, videos or links
       </p>
 
       <h2>How HTML Works with CSS and JavaScript</h2>
       <p>
-        HTML is often used alongside two other essential web technologies: CSS
-        (Cascading Style Sheets) and JavaScript. CSS is responsible for the
-        styling and layout of the HTML content, making it visually appealing.
-        JavaScript, on the other hand, adds interactivity to the web page,
-        enabling dynamic behavior and responsive user interfaces. Together,
-        HTML, CSS, and JavaScript form the foundation of modern web development.
+      HTML is frequently combined with two other key web technologies: CSS(Cascading Style Sheets) and JavaScript[43]
+
+Make sure you are using HTML in conjunction with another equally important web technologies, CSS (Cascading Style Sheets) and JavaScript fully CSS dictates the look and structure of HTML content, improving easy visualization. While JavaScript provides interactivity on the page (dynamic behaviour, and responsive user interface). HTML CSS JavaScript are building blocks of current web development.
       </p>
 
       <h2>The Power of HTML: What Can It Do?</h2>
       <p>
-        {`HTML is everywhere on the web! It helps us display text, images, videos,
-        forms, tables, and much more. With HTML, you can create informative web
-        pages, build interactive forms for user input, embed multimedia content,
-        and structure your website's content logically. Companies and
-        organizations of all sizes rely on HTML to build their websites, from
-        small startups to large enterprises like Google, Facebook, and Amazon.`}
+        {`
+HTML is sematically ubiquitous on the web! enables us to type text, images and videos forms a table and more With HTML you can create, compelling website components organize your site's content; make simple forms for user input and include whatever multimedia content you're interested in. HTML is used by companies and organizations, large or small — to build their sites; websites like Google, Facebook, Amazon (small one is in preparation) are built on HTML.
+`}
       </p>
       <InArticleAdUnit />
       <h2>Your HTML Workspace: Setting Up Your Environment</h2>
       <h3>For PC Users</h3>
       <p>
-        {`To start your HTML journey, you'll need a code editor - a special
-        program designed for writing and editing code. There are many code
-        editors available, but for this course, we recommend using Visual Studio
-        Code (also known as VSCode). It's a free, powerful, and user-friendly
-        editor that will make your coding experience enjoyable.`}
+        {`If you want to begin writing HTML, you require a code editor, a particular tool customized for coding purposes. A few code editors exist, however for this course the one we recommend using is Visual Studio Code (or VSCode). It is a free open-source,ble strength, and quite a simple way to churn out code.`}
       </p>
       <ol>
         <li>
-          <strong>Download VSCode:</strong> Head over to the VSCode website
-          <a href="https://code.visualstudio.com">(visit to download)</a> and
-          download the installer for your operating system. Install VSCode on
-          your computer by following the installation wizard.
+          <strong>Download VSCode:</strong> Navigate to the VSCode webpage
+          <a href="https://code.visualstudio.com">(visit to download)</a> and get an installer for your OS. The next step is installing VSCode on your computer and you would perform the installation wizard.
         </li>
         <li>
-          <strong>Create a New Folder:</strong> Open Windows Explorer or Finder
-          (on Mac) and create a new folder for your HTML projects. You can name
-          it anything you like, or simply leave it as it is.
+          <strong>Make a New Folder:</strong>Windows Explorer (on Windows) / Finder (on Mac) → Create New Folder for HTML Projects Right click to create and name it whatever you like, or whatever name that says when
         </li>
         <li>
-          <strong>Open VSCode:</strong> Launch VSCode and drag and drop your new
-          folder into the VSCode window. This will set the folder as your
-          workspace.
+          <strong>Open VSCode:</strong>  Open the VSCode and drag and drop your just created folder at VSCode GUI. Which will set your folder as workspace 
+
         </li>
         <li>
           <strong>Create Your First HTML File:</strong>{" "}
-          {`In VSCode, navigate to
-          the "Explorer" tab on the left sidebar. Click on the "New File" icon
-          (or press Ctrl+N on Windows or Cmd+N on Mac) to create a new file.
-          Name it "index.html" (the ".html" extension is important!). Save the
-          file by pressing Ctrl+S (Windows) or Cmd+S (Mac) or clicking the
-          "Save" icon.`}
+          {`Open VS code, Go to the left side "Explorer" tab of VsCode This creates a new file for you by clicking the "New File" icon, (or pressing Ctrl+N on Windows/Cmd+N on Mac) and also create a file call: name it "index.html" (the ".html" is important! actually! ) To save your file press Ctrl+S (Windows) or /Cmd+S(Mac) or just click "Save" button.`}
         </li>
         <li>
           <strong>View Your HTML in the Browser:</strong>{" "}
-          {`Now, let's write some
-          basic HTML code! Copy and paste the following code into your
-          "index.html" file:`}
+          {`Alright now lets write some minimun html using this View Copy and paste the below code in your "index.html" :
+
+
+Save the file once more. To see your creation, simply open your file explorer find the folder you created there, right click and then click "open with -> web browser" on the "index.html". You just made and seen your first website!! All you got to do is not memorize the code, in next lessons we will digest each part.
+`}
           <pre>
             <code>
               {`
@@ -123,54 +93,39 @@ const IntroductionH = () => {
 
       <h3>For Mobile Users</h3>
       <p>
-        {`If you're using a mobile device, there are several code editors
-        available on iOS and Android that you can use. We recommend editors with
-        built-in browsers for convenience. Here are the steps to get started:`}
+        {`
+
+For mobile devices there are various code editors on iOS and Android that you can use if fact. We would like to see editors with embed browsers. To get started:
+`}
       </p>
       <ol>
         <li>
-          <strong>Download a Mobile Code Editor:</strong>{" "}
-          {`Search for "code
-          editor" on your device's app store and download one with good reviews
-          and a built-in browser (e.g., "Dcoder," "Code Editor," or "Coding
-          Studio").`}
+          <strong>Get a Mobile Code Editor:</strong>{" "}
+          {` Search for code editor in your device app store and download one with positive review which has built-in browser (example app names : “Dcoder”, “Code Editor” or “Coding Studio”).`}
         </li>
         <li>
           <strong>Create a New File:</strong>{" "}
-          {`Open the app and create a new
-          file. Name it "index.html" and make sure to save it.`}
+          {`Launch the app and create a new file. Save it as “index.html” and do not forget to name. `}
         </li>
         <li>
           <strong>Write Your First HTML Code:</strong>{" "}
-          {`Copy and paste the same
-          HTML code provided earlier into your "index.html" file. Save your
-          changes.`}
+          {`(Paste Here)- Just copy and past the same HTML code you've pasted earlier into your "index.html" file. Save your changes. `}
         </li>
         <li>
           <strong>View Your HTML in the Browser:</strong>{" "}
-          {`Most mobile code
-          editors will have a "Run" or "Preview" button. Tap that button to view
-          your HTML code in the built-in browser. If your editor doesn't have a
-          built-in browser, you may need to copy the file to a cloud storage
-          service (like Dropbox) and open it from there in a mobile browser.`}
+          {`Run, or Preview should be in most mobile code editors `}
         </li>
       </ol>
       <AdUnit />
-      <h2>{`Understanding the ".html" Extension`}</h2>
+      <h2>{` What is the meaning of ".html" File Extension
+`}</h2>
       <p>
-        {`You might be wondering why we use the ".html" extension for our HTML
-        files. This extension is essential because it tells the web browser that
-        the file contains HTML code and should be interpreted as such. Other
-        programming and markup languages have their own extensions, like ".css"
-        for CSS files and ".js" for JavaScript files. This helps both humans and
-        computers quickly identify the type of content in a file.`}
+        {`Maybe you’re scratching you head right now and thinking, Why are we using ".html" for the HTML? It is a very important extension because it tells the web browser that the file it holds HTML and should be treat like this. Every programming and markup language have its own extensions like ".css" for CSS files, ".js" for Javascript files etc. This makes the content recognizable to both you and your computer in a fraction of a second the next time you see a file.
+`}
       </p>
 
       <p>
-        {`Remember, this is just an introduction to what your appetite! In the
-        upcoming lessons, we'll dive deeper into each aspect of HTML, exploring
-        tags, attributes, and more. So, get ready to embark on an exciting
-        journey as we unlock the secrets of HTML together!`}
+        {`This is just an appetizer to your hunger! We will be exploring the various aspects of HTML, and we shall involve with tags, attributes etc on the coming lessons. So let us dive into our adventure to learn secrets of HTML!`}
       </p>
       <h3>
         {`You can watch this video to help you set up your Visual Studio Code if
@@ -196,20 +151,12 @@ export const HTMLBasics = () => {
       <AdUnit />
       <h1>HTML Basics</h1>
       <p>
-        {`Welcome back, aspiring web developer! In this lesson, we'll dive into the
-        fundamentals of HTML structure and explore the different types of tags
-        that make up the language. By the end of this section, you'll have a
-        clear understanding of how HTML elements work and how they tell the web
-        browser what to display. Let's get started!`}
+        {`Ahoy there, future web developer! We will now take a closer look at the core HTML structure and how different kinds of tags play in it for this lesson. Upon completing this section, you should have a firm grasp of the HTML elements and the respective signals they send to your web browser. So, let’s begin`}
       </p>
 
       <h2>The Building Blocks: HTML Elements</h2>
       <p>
-        {`HTML is made up of a series of elements, and these elements are the
-        building blocks of any web page. Each element is defined by a specific
-        tag, and these tags tell the web browser what to display and how to
-        interpret the content. Think of elements as the Lego bricks that come
-        together to build a website. Here's a simple example:`}
+        {`HTML comprises various elements and this elements are what compose any page you visit on internet. These tags are what tell the web browser what to show and how to present the content of each individual element. Think of elements as Lego blocks that together build your website. One of the very simple examples is:`}
       </p>
       <pre>
         <code>
@@ -229,19 +176,13 @@ export const HTMLBasics = () => {
       </pre>
 
       <p>
-        {`In the above code, we have several HTML elements: <html>,
-        <head>, <title>, <body>, <h1>, and <p>. Each
-        element serves a specific purpose and contributes to the overall
-        structure of the web page.`}
+        {`HTML elements in above code: <htm>l, <head>, < title>,< body>, <h1></h1> and <P>. Every element have its importance and are a part of overall structure of a HTML webpage. `}
       </p>
 
       <h3>Container Elements and Empty Elements</h3>
       <p>
-        {`There are two main types of HTML elements: container elements and empty
-        elements. Container elements have both an opening tag and a closing tag,
-        and they can contain other elements or text within them. For example,
-        the <body> element is a container element because it can hold
-        headings, paragraphs, images, and other content.`}
+        {`In HTML there are two primary classes of elements: container elements and empty elements. Container elements have both the opening tag and the closing tag in them and they can have child elements or text portions And empty elements are not followed by a closing tag, used for standalone elements that never hold any text or other elements. Add an < img> tag for example is an empty element and it used to insert an image inside your web page.
+`}
       </p>
 
       <pre>
@@ -271,44 +212,39 @@ export const HTMLBasics = () => {
         </code>
       </pre>
 
-      <p>{`Let's explore some common container elements and their usage:`}</p>
+      <p>{`Let's go through some basic container elements and their purpose:`}</p>
 
       <ul>
         <li>
           <strong>{`<h1> to <h6>`}:</strong>{" "}
-          {`These tags are used for headings
-          of different sizes. <h1> represents the largest heading,
-          while <h6> represents the smallest.`}
+          {`These elements are used for various sized headings. This means <h1> for largest heading and <h6> for the smallest.
+
+ `}
         </li>
         <li>
           <strong>{`<p>`}:</strong>{" "}
-          {`This tag is used to create paragraphs of
-          text. It's perfect for displaying blocks of text content.`}
+          {` to write paragraphs of text This is perfect for blocks of textual content.`}
         </li>
         <li>
           <strong>{`<div>`}:</strong>{" "}
-          {`The <div> tag is a generic container
-          used to group other elements together. It doesn't have any specific
-          semantic meaning but is often used for layout purposes.`}
+          {`div HTML tag is used for creating a generic container to hold other elements. It is non-semantic but generally applied to lay out css.
+`}
         </li>
         <li>
-          <strong>{`<ul> and <ol>`}:</strong> These tags are used to create
-          unordered (bulleted) and ordered (numbered) lists, respectively. List
-          items are nested within these container elements.
+          <strong>{`<ul> and <ol>`}:</strong> these tags are used to create ordered (numbering) and unordered (bulleted) list. These containers are wrapped in these two elements, list items are nested.
+
         </li>
       </ul>
 
       <p>
-        {`Now, let's take a look at some common empty elements and their usage:`}
+        {`Here are some frequently used empty elements, with their purpose explained:
+`}
       </p>
 
       <ul>
         <li>
           <strong>{`<img>`}:</strong>{" "}
-          {`As mentioned earlier, this tag is used to
-          embed images in the web page. The "src" attribute specifies the
-          image source, and the "alt" attribute provides alternative text for
-          screen readers and when the image cannot be displayed.`}
+          {` Already discussed, it is the tag to include an image in a webpage. The image source is set with the "src" attribute and the "alt" attributes are used for screen readers as well as when image is not available`}
         </li>
         <li>
           <strong>{`<br>`}:</strong>{" "}
