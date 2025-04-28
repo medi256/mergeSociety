@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "../ScrollToTop";
+import "../html/course.css";
 
 export const metadata = {
   title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",
@@ -20,13 +20,12 @@ export const metadata = {
 const CSSCourse = () => {
   return (
     <div className="container">
-      <ScrollToTop />
       <main>
         <h1>CSS Tutorial</h1>
-        <p>
+        {/* <p>
           Don't know where to begin? <Link href={"/guide"}>click here</Link>
           ➡️ to get an introduction!
-        </p>
+        </p> */}
         <p>
           Looking for practice projects?{" "}
           <Link href="/projects" passHref>

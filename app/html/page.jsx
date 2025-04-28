@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "../ScrollToTop";
+import "./course.css";
 
 export const metadata = {
   title: "Complete HTML Tutorial: From Beginner to Pro | MergeSociety",
@@ -20,13 +20,12 @@ export const metadata = {
 const HTMLCourse = () => {
   return (
     <div className="container">
-      <ScrollToTop />
       <main>
         <h1>HTML Tutorial</h1>
-        <p>
+        {/* <p>
           Don't know where to begin? <Link href={"/guide"}>click here</Link>
           ➡️ to get an introduction!
-        </p>
+        </p> */}
         <p>
           Looking for practice projects?{" "}
           <Link href="/projects" passHref>

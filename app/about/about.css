@@ -1,0 +1,85 @@
+.about-container {
+  padding: 2rem;
+  /* background: var(--background); */
+  /* color: var(--text); */
+  font-family: "Inter", sans-serif;
+}
+
+.about-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-section p,
+.about-section li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.founder-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.founder-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.founder-info h3 {
+  margin-top: 0;
+}
+
+.about-cta {
+  background-color: var(--accent-light);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+.cta-button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  /* background-color: var(--accent); */
+  /* color: white; */
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-dark);
+}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "../ScrollToTop";
+import "../html/course.css";
 
 export const metadata = {
   title: "Complete React Course: From Basics to Advanced | MergeSociety",
@@ -21,14 +21,13 @@ export const metadata = {
 const ReactCourse = () => {
   return (
     <div className="container">
-      <ScrollToTop />
       <main>
         <h1>React.js Course</h1>
         <br />
-        <p>
+        {/* <p>
           Don't know where to begin? <Link href={"/guide"}>click here</Link>
           ➡️ to get an introduction!
-        </p>
+        </p> */}
         <p>
           Looking for practice projects?{" "}
           <Link href="/projects" passHref>

@@ -1,0 +1,98 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+main h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+main p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+main a {
+  color: var(--link-color);
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+main a:hover {
+  color: var(--link-hover);
+}
+
+.section {
+  margin-top: 3rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+  }
+
+  main h1,
+  .section h2,
+  .card h3 {
+    color: #fff;
+  }
+
+  main p,
+  .card p {
+    color: #ccc;
+  }
+
+  main a {
+    color: #4fc3f7;
+  }
+
+  main a:hover {
+    color: #81d4fa;
+  }
+}

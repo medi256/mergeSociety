@@ -31,8 +31,8 @@ export const metadata = {
 
 const PrivacyPolicy = () => {
   return (
-    <div className="privacy-container">
-      <div className="privacy-content">
+    <div className="legal-container">
+      <div>
         <h1>Privacy Policy</h1>
         <p>
           At <strong>MergeSociety</strong>, we are committed to protecting your

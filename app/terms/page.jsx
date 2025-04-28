@@ -31,8 +31,8 @@ export const metadata = {
 
 const TermsOfService = () => {
   return (
-    <div className="terms-container">
-      <div className="terms-content">
+    <div className="legal-container">
+      <div>
         <h1>Terms of Service</h1>
         <p>
           Welcome to <strong>MergeSociety</strong>! These Terms of Service

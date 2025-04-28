@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import ScrollToTop from "@/app/ScrollToTop";
+import "../project.css";
 
 export const metadata = {
   title:
@@ -30,6 +30,17 @@ export const metadata = {
     "HTML projects for beginners with tutorial",
     "HTML projects for beginners with explanation",
   ],
+
+  authors: [
+    {
+      name: "Merge Society",
+      url: "https://www.mergesociety.com/projects/htmlP",
+    },
+  ],
+  creator: "Merge Society",
+  publisher: "Merge Society",
+  applicationName: "Merge Society",
+
   alternates: {
     canonical: "https://www.mergesociety.com/projects/htmlP",
   },
@@ -38,7 +49,43 @@ export const metadata = {
       "HTML Projects | Step-by-Step Tutorials for Beginners and Advanced Users",
     description:
       "Explore step-by-step HTML projects designed to help beginners and advanced users. Build exciting web pages using only HTML. Perfect for learning web development!",
+    url: "https://www.mergesociety.com/projects/htmlP",
+    siteName: "Merge Society",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        width: 1200,
+        height: 630,
+        alt: "Merge Society preview image",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "HTML Projects | Step-by-Step Tutorials for Beginners and Advanced Users",
+    description:
+      "Explore step-by-step HTML projects designed to help beginners and advanced users. Build exciting web pages using only HTML. Perfect for learning web development!",
+    images: [
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
+  },
+  category: "Technology",
 };
 
 const HtmlProjects = () => {
@@ -49,7 +96,7 @@ const HtmlProjects = () => {
       description:
         "Learn how to build a simple personal profile page using only HTML. This project covers essential HTML elements like headings, paragraphs, lists, and links. Perfect for beginners who want to practice structuring web pages.",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736496972/resume_l9lnxg.jpg",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736751796/searchengine_d6udik.jpg",
       alt: "Personal Profile Page Example",
       date: "January 15, 2025",
     },
@@ -69,7 +116,7 @@ const HtmlProjects = () => {
       description:
         "Master HTML tables by creating a weekly schedule. This project demonstrates how to use table rows, columns, and headers to organize information effectively. Ideal for beginners learning HTML structure.",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497470/skedule_le1iyh.jpg",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736673928/no-code_zdelwk.jpg",
       alt: "Weekly Schedule Example",
       date: "January 14, 2025",
     },
@@ -107,7 +154,6 @@ const HtmlProjects = () => {
 
   return (
     <div className="blog-posts-container">
-      <ScrollToTop />
       <h1 className="blog-title">HTML Projects</h1>
       <p className="blog-description">
         Explore step-by-step HTML projects designed for beginners and advanced
@@ -121,7 +167,7 @@ const HtmlProjects = () => {
             href={`/projects/htmlP/${project.id}`}
             passHref
           >
-            <article className="post-card">
+            <section className="post-card">
               <div className="post-image">
                 <Image
                   src={project.image}
@@ -139,7 +185,7 @@ const HtmlProjects = () => {
 
                 <div className="post-button ct-button">Start Tutorial</div>
               </div>
-            </article>
+            </section>
           </Link>
         ))}
       </div>

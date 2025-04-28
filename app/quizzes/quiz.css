@@ -1,0 +1,217 @@
+/* === Main Container for Quiz Categories === */
+.categories-containers-q {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* === Title for the Quiz Section === */
+.categories-titles-q {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+/* === Description Below the Title === */
+.categories-descriptions-q {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Flex Container for Quiz Cards === */
+.categories-link-q {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* === Each Individual Card === */
+.category-cards-q {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  text-align: left;
+}
+
+.category-cards-q:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category-cards-q h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.category-cards-q p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* === Dark Mode Support === */
+@media (prefers-color-scheme: dark) {
+  .categories-titles-q {
+    color: #fff;
+  }
+
+  .categories-descriptions-q {
+    color: #ccc;
+  }
+
+  .category-cards-q {
+    background-color: #1e1e1e;
+    border-color: #333;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  }
+
+  .category-cards-q h2 {
+    color: #fff;
+  }
+
+  .category-cards-q p {
+    color: #bbb;
+  }
+
+  .category-cards-q:hover {
+    box-shadow: 0 4px 14px rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 640px) {
+  .categories-link-q {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-cards-q {
+    width: 100%;
+  }
+}
+
+/* === Main Quiz Container === */
+.blog-posts-container-q {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* === Title for the Quiz Section === */
+.blog-title-q {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* === Grid for Quiz Cards === */
+.posts-grid-q {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* === Each Quiz Card === */
+.post-card-q {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.post-card-q:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* === Title of Each Quiz === */
+.post-title-q {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* === Difficulty Label === */
+.post-category-q {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+/* === Description Text === */
+.post-content-q {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* === Tags Section === */
+.post-tags-q {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tag-q {
+  background-color: #e3e3e3;
+  color: #222;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* === Dark Mode Support === */
+@media (prefers-color-scheme: dark) {
+  .blog-title-q {
+    color: #fff;
+  }
+
+  .post-card-q {
+    background-color: #1f1f1f;
+    border-color: #333;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  }
+
+  .post-title-q {
+    color: #fff;
+  }
+
+  .post-category-q {
+    color: #aaa;
+  }
+
+  .post-content-q {
+    color: #ccc;
+  }
+
+  .post-tag-q {
+    background-color: #333;
+    color: #ddd;
+  }
+}
+
+/* === Responsive Tuning === */
+@media (max-width: 480px) {
+  .post-card-q {
+    padding: 1rem;
+  }
+}

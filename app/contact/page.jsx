@@ -29,7 +29,7 @@ export const metadata = {
 
 const ContactPage = () => {
   return (
-    <div className="contact-container">
+    <div className="legal-container">
       <div className="contact-content">
         <h1>Contact Us</h1>
         <p>

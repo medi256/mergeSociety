@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ScrollToTop from "@/app/ScrollToTop";
+import "../project.css";
 import Image from "next/image";
 
 export const metadata = {
@@ -34,15 +34,60 @@ export const metadata = {
     "Sorting Algorithm Visualizer project",
     "beginner  Sorting Algorithm Visualizer with javascript",
   ],
+
+  authors: [
+    {
+      name: "Merge Society",
+      url: "https://www.mergesociety.com/projects/javascriptP",
+    },
+  ],
+  creator: "Merge Society",
+  publisher: "Merge Society",
+  applicationName: "Merge Society",
+
   alternates: {
     canonical: "https://www.mergesociety.com/projects/javascriptP",
   },
-
   openGraph: {
     title: "JavaScript Projects | Beginner to Advanced Challenges",
     description:
       "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
+    url: "https://www.mergesociety.com/projects/javascriptP",
+    siteName: "Merge Society",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        width: 1200,
+        height: 630,
+        alt: "Merge Society preview image",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "JavaScript Projects | Beginner to Advanced Challenges",
+    description:
+      "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
+    images: [
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
+  },
+  category: "Technology",
 };
 
 const JSProjects = () => {
@@ -91,7 +136,7 @@ const JSProjects = () => {
       id: "5js",
       title: "JavaScript Calculator",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736585940/javascript_fjhd7p.jpg",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
       alt: "JavaScript Calculator javascript project",
       date: "January 17, 2025",
       description:
@@ -111,7 +156,6 @@ const JSProjects = () => {
 
   return (
     <div className="blog-posts-container">
-      <ScrollToTop />
       <h1 className="blog-title">JavaScript Projects</h1>
 
       <div className="posts-grid">
@@ -121,7 +165,7 @@ const JSProjects = () => {
             href={`/projects/javascriptP/${project.id}`}
             passHref
           >
-            <article className="post-card">
+            <section className="post-card">
               <div className="post-image">
                 <Image
                   src={project.image}
@@ -139,7 +183,7 @@ const JSProjects = () => {
 
                 <div className="post-button ct-button">Start Tutorial</div>
               </div>
-            </article>
+            </section>
           </Link>
         ))}
       </div>

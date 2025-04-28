@@ -9,6 +9,42 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/acquisitions`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/interviews`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/robots`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/css`,
       lastModified: new Date(),
     },
@@ -21,7 +57,203 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/blog`,
+      url: `https://www.mergesociety.com/latest/ai-is-officially-here`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/friendship-that-saved-google`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/1990s-Internet`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/how-graphics-cards-work`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/why-my-side-hustle-failed`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/link-in`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/mincraft`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/ai-agents`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/ai-mcp`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/llms`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/rise-of-ai`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/google-ais`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/ai-with-jobs`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/future-of-jobs`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/online-shopping`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/will-programmers-vanish`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/cheating`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/computer-components`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/palantir`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/operating-systems`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/chrome`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/wifi`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/free-apps`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/best-apps`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/favorite-apps`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/crypto`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/error`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/god-father-of-ai`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/god-father-of-ai`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/pony-ma`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/pony-ma`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/fake-it`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/snap-chat`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/hiring`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/startup-stories/satya`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/saas`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/saas`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/best-framework`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/tech-stack`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/labing`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/algorithms`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/algorithms`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/interviews/google-intern`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/algorithms/get-hired`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/interviews/google-inter`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/interviews/prepare`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/interviews/the-truth`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/acquisitions/turning`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/acquisitions/big-tech`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech`,
       lastModified: new Date(),
     },
     {
@@ -790,90 +1022,6 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/react/deploying-options`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/1`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/2`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/3`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/4`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/6`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/7`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/8`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/9`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/10`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/11`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/12`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/13`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/14`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/15`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/16`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/17`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/18`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/19`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/20`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/21`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/blog/22`,
       lastModified: new Date(),
     },
     {

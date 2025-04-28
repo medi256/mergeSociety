@@ -401,7 +401,6 @@ const HTMLQuiz = () => {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background: white;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           }
@@ -479,7 +478,7 @@ const HTMLQuiz = () => {
               : "Next Question"}
           </button>
         )}
-        <div className="progress">
+        <div className="progress-w">
           <span>Score: {score}</span>
           <span>
             Progress:{" "}
@@ -493,7 +492,6 @@ const HTMLQuiz = () => {
           max-width: 800px;
           margin: 0 auto;
           padding: 20px;
-          background: white;
           border-radius: 10px;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
@@ -507,7 +505,6 @@ const HTMLQuiz = () => {
           font-size: 20px;
           margin-bottom: 20px;
           font-weight: 500;
-          color: #333;
         }
         .options {
           display: flex;
@@ -578,7 +575,6 @@ const HTMLQuiz = () => {
         }
         h2 {
           font-size: 24px;
-          color: #1e293b;
           margin: 0;
           text-align: center;
         }

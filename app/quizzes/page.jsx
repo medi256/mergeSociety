@@ -1,6 +1,7 @@
 import Link from "next/link";
-import ScrollToTop from "../ScrollToTop";
-import { Project } from "../NextBlogButton";
+
+import "./quiz.css";
+// import { Project } from "../NextBlogButton";
 
 export const metadata = {
   title: "Test Your Skills with Quizzes | HTML, CSS, JavaScript",
@@ -26,18 +27,17 @@ export const metadata = {
 
 const QuizCategories = () => {
   return (
-    <div className="categories-containers">
-      <ScrollToTop />
-      <h1 className="categories-titles">
+    <div className="categories-containers-q">
+      <h1 className="categories-titles-q">
         HTML, CSS, and JavaScript Quizzes to Test Your Skills
       </h1>
-      <p className="categories-descriptions">
+      <p className="categories-descriptions-q">
         Explore our quizzes to challenge your coding knowledge and improve your
         web development skills.
       </p>
-      <div className="categories-link">
+      <div className="categories-link-q">
         <Link href="/quizzes/htmlQuiz" passHref>
-          <div className="category-cards">
+          <div className="category-cards-q">
             <h2>HTML Quizzes</h2>
             <p>
               Test your understanding of HTML basics, tags, forms, and semantic
@@ -46,7 +46,7 @@ const QuizCategories = () => {
           </div>
         </Link>
         <Link href="/quizzes/cssQuiz" passHref>
-          <div className="category-cards">
+          <div className="category-cards-q">
             <h2>CSS Quizzes</h2>
             <p>
               Improve your CSS skills with quizzes on selectors, layouts,
@@ -55,7 +55,7 @@ const QuizCategories = () => {
           </div>
         </Link>
         <Link href="/quizzes/javascriptQuiz" passHref>
-          <div className="category-cards">
+          <div className="category-cards-q">
             <h2>JavaScript Quizzes</h2>
             <p>
               Challenge your logic and coding skills with JavaScript quizzes for

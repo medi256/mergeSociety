@@ -368,7 +368,7 @@ const CSSQuizTwo = () => {
             ? "Show Results"
             : "Next Question"}
         </button>
-        <div className="progress">
+        <div className="progress-w">
           <span>Score: {score}</span>
           <span>
             Progress:{" "}
@@ -386,7 +386,6 @@ const CSSQuizTwo = () => {
           max-width: 800px;
           margin: 0 auto;
           padding: 20px;
-          background: white;
           border-radius: 10px;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
@@ -400,7 +399,6 @@ const CSSQuizTwo = () => {
           font-size: 20px;
           margin-bottom: 20px;
           font-weight: 500;
-          color: #333;
         }
         .options {
           display: flex;
@@ -467,12 +465,11 @@ const CSSQuizTwo = () => {
         .progress {
           display: flex;
           justify-content: space-between;
-          color: #64748b;
+          color: black;
           font-size: 14px;
         }
         h2 {
           font-size: 24px;
-          color: #1e293b;
           margin: 0;
           text-align: center;
         }
@@ -488,7 +485,7 @@ const CSSQuizTwo = () => {
         }
         .percentage {
           font-size: 24px;
-          color: #64748b;
+          color: black;
           margin-bottom: 32px;
         }
         .retry-button {

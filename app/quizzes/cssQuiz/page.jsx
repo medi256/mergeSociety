@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../quiz.css";
 
 export const metadata = {
   title:
@@ -12,7 +13,7 @@ export const metadata = {
   alternates: {
     canonical: "https://www.mergesociety.com/quizzes/cssQuiz",
   },
-  type: "website",
+  type: "article",
   openGraph: {
     title:
       "Test Your CSS Skills with Interactive Quizzes | Selectors, Layouts, Animations",
@@ -68,18 +69,18 @@ const CssQuizzes = () => {
   ];
 
   return (
-    <div className="blog-posts-container">
-      <h1 className="blog-title">CSS Quizzes</h1>
-      <div className="posts-grid">
+    <div className="blog-posts-container-q">
+      <h1 className="blog-title-q">CSS Quizzes</h1>
+      <div className="posts-grid-q">
         {cssQuizzes.map((quiz) => (
           <Link key={quiz.id} href={`/quizzes/cssQuiz/${quiz.id}`} passHref>
-            <article className="post-card">
-              <h2 className="post-title">{quiz.title}</h2>
-              <p className="post-category">Difficulty: {quiz.difficulty}</p>
-              <p className="post-content">{quiz.description}</p>
-              <div className="post-tags">
+            <article className="post-card-q">
+              <h2 className="post-title-q">{quiz.title}</h2>
+              <p className="post-category-q">Difficulty: {quiz.difficulty}</p>
+              <p className="post-content-q">{quiz.description}</p>
+              <div className="post-tags-q">
                 {quiz.keywords.map((keyword, index) => (
-                  <span key={index} className="post-tag">
+                  <span key={index} className="post-tag-q">
                     {keyword}
                   </span>
                 ))}

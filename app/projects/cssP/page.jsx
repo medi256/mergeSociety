@@ -1,6 +1,7 @@
 import Link from "next/link";
-import ScrollToTop from "@/app/ScrollToTop";
+import "../project.css";
 import Image from "next/image";
+import "../project.css";
 
 export const metadata = {
   title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
@@ -30,15 +31,60 @@ export const metadata = {
     "CSS advanced projects",
     "CSS projects for practice",
   ],
+
+  authors: [
+    {
+      name: "Merge Society",
+      url: "https://www.mergesociety.com/projects/cssP",
+    },
+  ],
+  creator: "Merge Society",
+  publisher: "Merge Society",
+  applicationName: "Merge Society",
+
   alternates: {
     canonical: "https://www.mergesociety.com/projects/cssP",
   },
-
   openGraph: {
     title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
     description:
-      "Step-by-step CSS projects for learning web design and styling using only CSS.",
+      "Stay updated with the latest trends in AI, including latest models, startups, and innovations in the tech industry.",
+    url: "https://www.mergesociety.com/projects/cssP",
+    siteName: "Merge Society",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        width: 1200,
+        height: 630,
+        alt: "Merge Society preview image",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
+    description:
+      "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
+    images: [
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
+  },
+  category: "Technology",
 };
 
 const CssProjects = () => {
@@ -107,13 +153,12 @@ const CssProjects = () => {
 
   return (
     <div className="blog-posts-container">
-      <ScrollToTop />
       <h1 className="blog-title">CSS-Only Projects</h1>
 
       <div className="posts-grid">
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
-            <article className="post-card">
+            <section className="post-card">
               <div className="post-image">
                 <Image
                   src={project.image}
@@ -130,7 +175,7 @@ const CssProjects = () => {
                 <p className="post-description">{project.description}</p>
                 <div className="post-button ct-button">Start Tutorial</div>
               </div>
-            </article>
+            </section>
           </Link>
         ))}
       </div>

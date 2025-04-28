@@ -1,0 +1,276 @@
+/* === Wrapper for Author Info === */
+.project-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* === Small Circular Founder Image === */
+.founders-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* === Author Name Link === */
+.project-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.project-title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+/* === Date Element Styling === */
+.project-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* === Dark Mode Support === */
+@media (prefers-color-scheme: dark) {
+  .project-info {
+    color: #ccc;
+  }
+
+  .founders-image {
+    border-color: #444;
+  }
+
+  .project-title a {
+    color: #58a6ff;
+  }
+
+  .project-date {
+    color: #aaa;
+  }
+}
+
+/* === Container Wrapper === */
+.categories-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* === Section Layout === */
+.c-l {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* === Section Title === */
+.categories-title {
+  grid-column: 1 / -1;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* === Project Link Wrapper === */
+.c-l a {
+  display: block;
+  background-color: var(--bg-color, #ffffff);
+  color: inherit;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+/* === Hover Effects === */
+.c-l a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* === Project Image === */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+/* === Project Headings === */
+.c-l h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+
+/* === Project Description Text === */
+.c-l p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* === Call to Action Button === */
+.ct-button {
+  display: inline-block;
+  background-color: #ff6303; /* Accent hover color */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.ct-button:hover {
+  background-color: #d53500;
+}
+
+/* === Dark Mode Support === */
+@media (prefers-color-scheme: dark) {
+  .c-l a {
+    background-color: #1a1a1a;
+    border-color: #333;
+  }
+
+  .ct-button {
+    background-color: #ff6303;
+  }
+
+  .ct-button:hover {
+    background-color: #d62e00;
+  }
+}
+
+/* === Blog Section Wrapper === */
+.blog-posts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* === Section Title === */
+.blog-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* === Responsive Grid Layout === */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* === Post Card Styling === */
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color, #fff);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* === Hover Effects === */
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* === Post Image Section === */
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* === Post Content Section === */
+.post-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* === Post Title === */
+.post-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* === Post Date === */
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* === Post Description === */
+.post-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* === CTA Button (Reuses .ct-button) === */
+.post-button {
+  margin-top: auto;
+  align-self: flex-start;
+  background-color: #ff6303;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-button:hover {
+  background-color: #ff2503;
+}
+
+/* === Dark Mode Support === */
+@media (prefers-color-scheme: dark) {
+  .post-card {
+    background-color: #1a1a1a;
+    border-color: #333;
+  }
+
+  .post-date {
+    color: #aaa;
+  }
+
+  .post-button {
+    background-color: #ff6303;
+  }
+
+  .post-button:hover {
+    background-color: #d61500;
+  }
+}
