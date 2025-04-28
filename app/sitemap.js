@@ -141,7 +141,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/wifi`,
+      url: `https://www.mergesociety.com/tech/wifi`,
       lastModified: new Date(),
     },
     {

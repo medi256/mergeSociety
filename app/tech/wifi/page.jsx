@@ -30,7 +30,7 @@ export const metadata = {
       "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
     description:
       "Explore the science behind Wi-Fi and how it has evolved from dial-up modems to seamless, wireless internet connectivity.",
-    url: "https://www.mergesociety.com/wifi",
+    url: "https://www.mergesociety.com/tech/wifi",
     siteName: "Merge Society",
     images: [
       {
@@ -72,12 +72,12 @@ export const metadata = {
   creator: "Merge Society",
   publisher: "Merge Society Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/wifi",
+    canonical: "https://www.mergesociety.com/tech/wifi",
     languages: {
-      "en-US": "https://www.mergesociety.com/wifi",
-      "es-ES": "https://www.mergesociety.com/wifi",
-      "de-DE": "https://www.mergesociety.com/wifi",
-      "fr-FR": "https://www.mergesociety.com/wifi",
+      "en-US": "https://www.mergesociety.com/tech/wifi",
+      "es-ES": "https://www.mergesociety.com/tech/wifi",
+      "de-DE": "https://www.mergesociety.com/tech/wifi",
+      "fr-FR": "https://www.mergesociety.com/tech/wifi",
     },
   },
   twitter: {
@@ -157,7 +157,7 @@ export const metadata = {
       "Discover the fascinating science behind Wi-Fi and how it has transformed our digital lives from dial-up modems to seamless connectivity.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/wifi",
+      "@id": "https://www.mergesociety.com/tech/wifi",
     },
     keywords:
       "Wi-Fi, IEEE 802.11, radio waves, internet connectivity, networking, data packets, router, IP address, 2.4 GHz, data transmission, digital handshake, network security, internet technology, wireless communication, home networking",
