@@ -34,7 +34,7 @@ export const metadata = {
       "Inside a Google Technical Interview: Mock Session Analysis & Success Strategies",
     description:
       "Watch a Google research scientist tackle a dynamic programming challenge in this authentic mock interview, with step-by-step solution approaches and insider advice from a Google technical recruiter.",
-    url: "https://www.mergesociety.com/interviws/google-inter",
+    url: "https://www.mergesociety.com/interviews/google-inter",
     siteName: "Tech Interview Insider",
     images: [
       {
@@ -72,13 +72,13 @@ export const metadata = {
   creator: "Tech Interview Insider Editorial Team",
   publisher: "Tech Interview Knowledge Network, Inc.",
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws/google-inter",
+    canonical: "https://www.mergesociety.com/interviews/google-inter",
     languages: {
-      "en-US": "https://www.mergesociety.com/interviws/google-inter",
-      "es-ES": "https://www.mergesociety.com/interviws/google-inter",
-      "zh-CN": "https://www.mergesociety.com/interviws/google-inter",
-      "ru-RU": "https://www.mergesociety.com/interviws/google-inter",
-      "pt-BR": "https://www.mergesociety.com/interviws/google-inter",
+      "en-US": "https://www.mergesociety.com/interviews/google-inter",
+      "es-ES": "https://www.mergesociety.com/interviews/google-inter",
+      "zh-CN": "https://www.mergesociety.com/interviews/google-inter",
+      "ru-RU": "https://www.mergesociety.com/interviews/google-inter",
+      "pt-BR": "https://www.mergesociety.com/interviews/google-inter",
     },
   },
   twitter: {
@@ -200,7 +200,7 @@ export const metadata = {
       "Google Interview, Software Engineering Interview, Technical Interview, Dynamic Programming",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/interviws/google-inter",
+      "@id": "https://www.mergesociety.com/interviews/google-inter",
     },
     about: [
       {

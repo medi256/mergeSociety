@@ -30,7 +30,7 @@ export const metadata = {
       "Mastering Tricky Interview Questions: Strategies for Turning Challenging Questions Into Opportunities",
     description:
       "Discover expert techniques for handling unexpected interview questions with confidence and poise. Learn to showcase your analytical thinking and character while staying calm under pressure.",
-    url: "https://www.mergesociety.com/interviws/prepare",
+    url: "https://www.mergesociety.com/interviews/prepare",
     siteName: "Career Navigator",
     images: [
       {
@@ -68,13 +68,13 @@ export const metadata = {
   creator: "Career Navigator Editorial Team",
   publisher: "Professional Development Network, Inc.",
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws/prepare",
+    canonical: "https://www.mergesociety.com/interviews/prepare",
     languages: {
-      "en-US": "https://www.mergesociety.com/interviws/prepare",
-      "es-ES": "https://www.mergesociety.com/interviws/prepare",
-      "fr-FR": "https://www.mergesociety.com/interviws/prepare",
-      "de-DE": "https://www.mergesociety.com/interviws/prepare",
-      "zh-CN": "https://www.mergesociety.com/interviws/prepare",
+      "en-US": "https://www.mergesociety.com/interviews/prepare",
+      "es-ES": "https://www.mergesociety.com/interviews/prepare",
+      "fr-FR": "https://www.mergesociety.com/interviews/prepare",
+      "de-DE": "https://www.mergesociety.com/interviews/prepare",
+      "zh-CN": "https://www.mergesociety.com/interviews/prepare",
     },
   },
   twitter: {

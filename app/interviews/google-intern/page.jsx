@@ -30,7 +30,7 @@ export const metadata = {
       "Cracking the Code: How to Ace Google's Software Engineering Interviews",
     description:
       "Beyond LeetCode: The essential three-stage framework that helps candidates succeed in Google's technical interviews where 99% fail.",
-    url: "https://www.mergesociety.com/interviws/google-intern",
+    url: "https://www.mergesociety.com/interviews/google-intern",
     siteName: "Tech Career Guru",
     images: [
       {
@@ -67,12 +67,12 @@ export const metadata = {
   creator: "Tech Career Guru Editorial",
   publisher: "Tech Career Advancement Network, LLC",
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws/google-intern",
+    canonical: "https://www.mergesociety.com/interviews/google-intern",
     languages: {
-      "en-US": "https://www.mergesociety.com/interviws/google-intern",
-      "es-ES": "https://www.mergesociety.com/interviws/google-intern",
-      "fr-FR": "https://www.mergesociety.com/interviws/google-intern",
-      "zh-CN": "https://www.mergesociety.com/interviws/google-intern",
+      "en-US": "https://www.mergesociety.com/interviews/google-intern",
+      "es-ES": "https://www.mergesociety.com/interviews/google-intern",
+      "fr-FR": "https://www.mergesociety.com/interviews/google-intern",
+      "zh-CN": "https://www.mergesociety.com/interviews/google-intern",
     },
   },
   twitter: {
@@ -172,7 +172,7 @@ export const metadata = {
       name: "Tech Career Advancement Network, LLC",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.techcareerguru.com/branding/logo.png",
+        url: "https://www.mergesociety.com/MS.png",
       },
     },
     description:
@@ -181,7 +181,7 @@ export const metadata = {
       "Google Interview, Software Engineering, Coding Interview, Technical Interview, Interview Framework",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/interviws/google-intern",
+      "@id": "https://www.mergesociety.com/interviews/google-intern",
     },
     about: [
       {

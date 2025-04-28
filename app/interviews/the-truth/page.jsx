@@ -30,7 +30,7 @@ export const metadata = {
       "Top Tech Interview Secrets: Why You're (Probably) Doing LeetCode Wrong – Inside Advice from a Google Engineer",
     description:
       "Former Google engineer Anthony D. Mays breaks down what interviewers really want to see beyond memorized LeetCode solutions. Learn the right approach to problem-solving, communication, and pattern recognition that top tech companies actually look for.",
-    url: "https://www.mergesociety.com/interviws/the-truth",
+    url: "https://www.mergesociety.com/interviews/the-truth",
     siteName: "Tech Career Insider",
     images: [
       {
@@ -68,13 +68,13 @@ export const metadata = {
   creator: "Tech Career Insider Editorial Team",
   publisher: "Tech Career Media, Inc.",
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws/the-truth",
+    canonical: "https://www.mergesociety.com/interviews/the-truth",
     languages: {
-      "en-US": "https://www.mergesociety.com/interviws/the-truth",
-      "es-ES": "https://www.mergesociety.com/interviws/the-truth",
-      "pt-BR": "https://www.mergesociety.com/interviws/the-truth",
-      "ja-JP": "https://www.mergesociety.com/interviws/the-truth",
-      "ko-KR": "https://www.mergesociety.com/interviws/the-truth",
+      "en-US": "https://www.mergesociety.com/interviews/the-truth",
+      "es-ES": "https://www.mergesociety.com/interviews/the-truth",
+      "pt-BR": "https://www.mergesociety.com/interviews/the-truth",
+      "ja-JP": "https://www.mergesociety.com/interviews/the-truth",
+      "ko-KR": "https://www.mergesociety.com/interviews/the-truth",
     },
   },
   twitter: {
@@ -196,7 +196,7 @@ export const metadata = {
       "LeetCode, Tech Interviews, Coding Interviews, Google Interview, Programming Patterns",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/interviws/the-truth",
+      "@id": "https://www.mergesociety.com/interviews/the-truth",
     },
     about: [
       {
