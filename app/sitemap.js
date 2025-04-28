@@ -229,7 +229,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/algorithms/get-hired`,
+      url: `https://www.mergesociety.com/interviews/get-hired`,
       lastModified: new Date(),
     },
     {

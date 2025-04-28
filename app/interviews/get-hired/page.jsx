@@ -30,7 +30,7 @@ export const metadata = {
       "The Secret Weapon That Gets You Hired: Storytelling in Job Interviews",
     description:
       "Beyond generic answers: Learn how strategic storytelling creates genuine connection in interviews, transforms the candidate experience, and dramatically increases your chances of getting hired.",
-    url: "https://www.mergesociety.com/interviws/get-hired",
+    url: "https://www.mergesociety.com/interviews/get-hired",
     siteName: "Career Strategist",
     images: [
       {
@@ -67,13 +67,13 @@ export const metadata = {
   creator: "Career Strategist Editorial Team",
   publisher: "Career Advancement Network, Inc.",
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws/get-hired",
+    canonical: "https://www.mergesociety.com/interviews/get-hired",
     languages: {
-      "en-US": "https://www.mergesociety.com/interviws/get-hired",
-      "es-ES": "https://www.mergesociety.com/interviws/get-hired",
-      "fr-FR": "https://www.mergesociety.com/interviws/get-hired",
-      "de-DE": "https://www.mergesociety.com/interviws/get-hired",
-      "zh-CN": "https://www.mergesociety.com/interviws/get-hired",
+      "en-US": "https://www.mergesociety.com/interviews/get-hired",
+      "es-ES": "https://www.mergesociety.com/interviews/get-hired",
+      "fr-FR": "https://www.mergesociety.com/interviews/get-hired",
+      "de-DE": "https://www.mergesociety.com/interviews/get-hired",
+      "zh-CN": "https://www.mergesociety.com/interviews/get-hired",
     },
   },
   twitter: {
@@ -149,7 +149,7 @@ export const metadata = {
         available: true,
         duration: "7:45",
         narrator: "Alex Morgan",
-        url: "https://www.mergesociety.com/interviws/get-hired",
+        url: "https://www.mergesociety.com/interviews/get-hired",
       },
     },
     subscriptionPrompt: {
@@ -187,7 +187,7 @@ export const metadata = {
       "Job Interview Tips, Storytelling in Interviews, Interview Preparation, Career Advancement",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/interviws/get-hired",
+      "@id": "https://www.mergesociety.com/interviews/get-hired",
     },
     about: [
       {

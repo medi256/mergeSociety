@@ -10,21 +10,21 @@ export const metadata = {
   keywords: [],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/interviws" },
+    { name: "Merge Society", url: "https://www.mergesociety.com/interviews" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/interviws",
+    canonical: "https://www.mergesociety.com/interviews",
   },
   openGraph: {
     title: "Merge Society | Tech Interviews",
     description:
       "We share practical insights, expert tips, and real experiences to help you prepare and succeed in your next tech interview.",
 
-    url: "https://www.mergesociety.com/interviws",
+    url: "https://www.mergesociety.com/interviews",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",
