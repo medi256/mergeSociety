@@ -170,6 +170,26 @@ const Section3 = () => {
       date: "April 29, 2025",
       articleRoute: "palantir2",
     },
+    {
+      id: 7,
+      title:
+        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
+      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
+      date: "April 29, 2025",
+      articleRoute: "dev-fluencer",
+    },
+    {
+      id: 8,
+      title:
+        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
+      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
+      date: "April 29, 2025",
+      articleRoute: "linux",
+    },
   ];
 
   return (

@@ -37,6 +37,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/dev-fluencer`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/linux`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/ai-vs-jobs`,
       lastModified: new Date(),
     },
