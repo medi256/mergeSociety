@@ -79,7 +79,7 @@ export const metadata = {
     title: "Inside the Secret World of Technical Interview Cheating",
     description:
       "With an estimated 10% of candidates attempting to cheat, this article reveals the methods used in remote technical interviews and why integrity pays off in the long run.",
-    creator: "@thecodereport",
+    creator: "@manager70191",
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745672006/cheating_b3duti.jpg",
     ],

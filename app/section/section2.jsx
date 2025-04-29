@@ -115,6 +115,36 @@ const Section2 = () => {
       date: "April 25, 2025",
       articleRoute: "ai-agents",
     },
+    {
+      id: 12,
+      title:
+        "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745919088/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss.jpg",
+      alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
+      date: "April 29, 2025",
+      articleRoute: "is-ai-making-us-dumb",
+    },
+    {
+      id: 13,
+      title:
+        "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745932417/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut.jpg",
+      alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
+      date: "April 29, 2025",
+      articleRoute: "ai-vs-jobs",
+    },
+    {
+      id: 14,
+      title:
+        "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745934102/Demis_Hassabis_qjtfky.webp",
+      alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
+      date: "April 29, 2025",
+      articleRoute: "whats-next",
+    },
   ];
 
   return (

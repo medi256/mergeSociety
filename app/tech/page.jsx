@@ -160,6 +160,16 @@ const Section3 = () => {
       date: "April 26, 2025",
       articleRoute: "wifi",
     },
+    {
+      id: 6,
+      title:
+        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
+      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
+      date: "April 29, 2025",
+      articleRoute: "palantir2",
+    },
   ];
 
   return (

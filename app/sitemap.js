@@ -33,6 +33,22 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/is-ai-making-us-dumb`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/ai-vs-jobs`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/whats-next`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/palantir2`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/startup-stories`,
       lastModified: new Date(),
     },
