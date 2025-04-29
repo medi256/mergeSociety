@@ -33,10 +33,6 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/robots`,
-      lastModified: new Date(),
-    },
-    {
       url: `https://www.mergesociety.com/startup-stories`,
       lastModified: new Date(),
     },
