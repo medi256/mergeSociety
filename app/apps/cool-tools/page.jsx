@@ -35,7 +35,7 @@ export const metadata = {
       "10 Game-Changing Developer Tools That Top Engineers Are Using in 2025",
     description:
       "The ultimate insider guide to the tools revolutionizing development workflows in 2025. These hidden gems have transformed how leading developers work—from AI-powered editing to effortless API testing. Discover the secret arsenal top engineers don't want you to know about.",
-    url: "https://www.mergesociety.com/apps/coo-tools",
+    url: "https://www.mergesociety.com/apps/cool-tools",
     siteName: "DevTools Master",
     images: [
       {
@@ -85,12 +85,12 @@ export const metadata = {
   creator: "DevTools Master",
   publisher: "DevTools Master Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/coo-tools",
+    canonical: "https://www.mergesociety.com/apps/cool-tools",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/coo-tools",
-      "es-ES": "https://www.mergesociety.com/apps/coo-tools",
-      "ja-JP": "https://www.mergesociety.com/apps/coo-tools",
-      "de-DE": "https://www.mergesociety.com/apps/coo-tools",
+      "en-US": "https://www.mergesociety.com/apps/cool-tools",
+      "es-ES": "https://www.mergesociety.com/apps/cool-tools",
+      "ja-JP": "https://www.mergesociety.com/apps/cool-tools",
+      "de-DE": "https://www.mergesociety.com/apps/cool-tools",
     },
   },
   twitter: {
@@ -180,7 +180,7 @@ export const metadata = {
       "Discover the ultimate collection of hidden gem developer tools for 2025 that will dramatically boost your productivity. From AI-powered coding assistants to lightweight Docker alternatives, these are the must-have tools transforming how top developers work.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/coo-tools",
+      "@id": "https://www.mergesociety.com/apps/cool-tools",
     },
     keywords:
       "developer tools, software development, productivity tools, AI development, code editor, GitHub, API testing",

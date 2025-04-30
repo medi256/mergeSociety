@@ -121,7 +121,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/tech/bird/flu`,
+      url: `https://www.mergesociety.com/tech/bird-flu`,
       lastModified: new Date(),
     },
     {
@@ -129,7 +129,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/apps/coo-tools`,
+      url: `https://www.mergesociety.com/apps/cool-tools`,
       lastModified: new Date(),
     },
     {
