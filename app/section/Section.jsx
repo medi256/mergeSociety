@@ -8,24 +8,24 @@ export default function GridNews() {
       <div className="h-ai">
         <h2>Latest</h2>
         <h1>
-          How Smart Developers Really Use AI—From Tutor to Supercharged Intern
-          (and Why You Should Too)
+          Google Internship & Entry-Level Applications: Myths, Truths, and How
+          to Actually Get Hired
         </h1>
       </div>
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
-            <Link href="/latest/ai-is-officially-here">
+            <Link href="/latest/internship-at-google">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745577861/ai-is-here_ny0xf8.jpg"
-                alt=" How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746014182/growtika-183Yxo3vsGY-unsplash_bqlqeh.jpg"
+                alt="Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired"
                 width={400}
                 height={250}
               />
               <h3>
                 {" "}
-                How Smart Developers Really Use AI—From Tutor to Supercharged
-                Intern (and Why You Should Too)
+                Google Internship & Entry-Level Applications: Myths, Truths, and
+                How to Actually Get Hired
               </h3>
             </Link>
           </div>

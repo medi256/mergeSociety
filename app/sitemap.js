@@ -37,6 +37,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/get-job-at-google`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/40-projects`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/dev-fluencer`,
       lastModified: new Date(),
     },
@@ -102,6 +110,10 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/latest/mincraft`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/internship-at-google`,
       lastModified: new Date(),
     },
     {

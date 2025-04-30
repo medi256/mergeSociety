@@ -190,6 +190,24 @@ const Section3 = () => {
       date: "April 29, 2025",
       articleRoute: "linux",
     },
+    {
+      id: 9,
+      title: "How to apply for a job at Google",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
+      alt: "How to apply for a job at Google",
+      date: "April 30, 2025",
+      articleRoute: "get-job-at-google",
+    },
+    {
+      id: 10,
+      title: "40 Programming Projects That Will Make You a Better Developer",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
+      alt: "40 Programming Projects That Will Make You a Better Developer",
+      date: "April 30, 2025",
+      articleRoute: "40-projects",
+    },
   ];
 
   return (
