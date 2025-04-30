@@ -208,6 +208,26 @@ const Section3 = () => {
       date: "April 30, 2025",
       articleRoute: "40-projects",
     },
+    {
+      id: 11,
+      title:
+        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
+      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
+      date: "April 30, 2025",
+      articleRoute: "bird-flu",
+    },
+    {
+      id: 12,
+      title:
+        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
+      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
+      date: "April 30, 2025",
+      articleRoute: "reddit",
+    },
   ];
 
   return (

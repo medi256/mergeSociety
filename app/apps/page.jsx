@@ -139,6 +139,25 @@ const Section4 = () => {
       date: "April 27, 2025",
       articleRoute: "crypto",
     },
+    {
+      id: 6,
+      title:
+        "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
+      alt: "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
+      date: "April 30, 2025",
+      articleRoute: "cool-tools",
+    },
+    {
+      id: 7,
+      title: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746033938/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex.jpg",
+      alt: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
+      date: "April 30, 2025",
+      articleRoute: "another-tool",
+    },
   ];
 
   return (

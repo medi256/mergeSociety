@@ -168,6 +168,16 @@ const Section5 = () => {
       date: " April 27, 2025",
       articleRoute: "satya",
     },
+    {
+      id: 6,
+      title:
+        "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+      alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
+      date: " April 30, 2025",
+      articleRoute: "invidia",
+    },
   ];
 
   return (

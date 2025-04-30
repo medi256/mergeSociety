@@ -117,6 +117,26 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/startup-stories/invidia`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/bird/flu`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/reddit`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/coo-tools`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/apps/another-tool`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/ai-agents`,
       lastModified: new Date(),
     },
