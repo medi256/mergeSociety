@@ -273,7 +273,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/tech/learn-to-code`,
+      url: `https://www.mergesociety.com/latest/learn-to-code`,
       lastModified: new Date(),
     },
     {

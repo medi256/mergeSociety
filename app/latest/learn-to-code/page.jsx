@@ -35,7 +35,7 @@ export const metadata = {
       "EXPOSED: The 'Learn to Code' Scam That Deceived a Generation | May 2025 Reality Check",
     description:
       "May Day special report: How universities, bootcamps, and politicians pushed the 'coding for all' myth that led to massive student debt, flooded job markets, and crushed tech career dreams.",
-    url: "https://www.mergesociety.com/tech/learn-to-code",
+    url: "https://www.mergesociety.com/latest/learn-to-code",
     siteName: "Tech Truth Report",
     images: [
       {
@@ -77,12 +77,12 @@ export const metadata = {
   creator: "Tech Truth Report Editorial Team",
   publisher: "Tech Truth Report",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/learn-to-code",
+    canonical: "https://www.mergesociety.com/latest/learn-to-code",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/learn-to-code",
-      "es-ES": "https://www.mergesociety.com/tech/learn-to-code",
-      "de-DE": "https://www.mergesociety.com/tech/learn-to-code",
-      "fr-FR": "https://www.mergesociety.com/tech/learn-to-code",
+      "en-US": "https://www.mergesociety.com/latest/learn-to-code",
+      "es-ES": "https://www.mergesociety.com/latest/learn-to-code",
+      "de-DE": "https://www.mergesociety.com/latest/learn-to-code",
+      "fr-FR": "https://www.mergesociety.com/latest/learn-to-code",
     },
   },
   twitter: {
@@ -163,7 +163,7 @@ export const metadata = {
       "Explosive investigation reveals the dark truth behind America's decade-long 'Learn to Code' obsession: 1,000% university enrollment surge, bootcamp bubble, tech layoffs, and shattered dreams. What went wrong and what's next for tech careers in 2025?",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/learn-to-code",
+      "@id": "https://www.mergesociety.com/latest/learn-to-code",
     },
     keywords:
       "learn to code failure, coding bootcamp bubble, tech layoffs 2025, computer science degree crisis",
