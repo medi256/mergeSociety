@@ -35,7 +35,7 @@ export const metadata = {
       "REVEALED: Inside the Mind of AI - How Neural Networks Organize Knowledge | May 2025 Special",
     description:
       "May Day exclusive: Journey inside the hidden geometry of AI models and discover how neural networks like AlexNet and ChatGPT organize knowledge in high-dimensional spaces. Uncover the mathematical landscapes where machine intelligence emerges.",
-    url: "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
+    url: "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
     siteName: "AI Architecture Insights",
     images: [
       {
@@ -79,14 +79,14 @@ export const metadata = {
   creator: "Advanced AI Research Initiative",
   publisher: "Neural Architecture Publishing",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
+    canonical: "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
-      "zh-CN": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
-      "de-DE": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
-      "fr-FR": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
-      "es-ES": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
-      "ja-JP": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
+      "en-US": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "zh-CN": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "de-DE": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "fr-FR": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "es-ES": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "ja-JP": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
     },
   },
   twitter: {
@@ -177,7 +177,7 @@ export const metadata = {
       "Explore the revolutionary world of neural network architecture, activation spaces, and embedding dimensions. Discover how AI models like AlexNet and transformers organize knowledge in high-dimensional spaces.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/we-stopped-understaning-ai",
+      "@id": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
     },
     keywords:
       "neural networks, AlexNet, embedding spaces, transformer architecture, AI knowledge representation",
