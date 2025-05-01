@@ -370,14 +370,6 @@ export default function Article() {
           >
             Patreon
           </a>{" "}
-          or even{" "}
-          <a
-            href="buymeacoffee.com/massa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            buying me a coffee
-          </a>
           . Your support helps keep these stories alive — thanks for reading,
           reminiscing, and maybe even feeling that old urge to click “View Page
           Source” just to see what made the magic work.
