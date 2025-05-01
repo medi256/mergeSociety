@@ -245,6 +245,34 @@ const Section2 = () => {
       date: "April 29, 2025",
       articleRoute: "whats-next",
     },
+    {
+      id: 15,
+      title: "The moment we stopped understanding AI [AlexNet]",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
+      alt: "The moment we stopped understanding AI [AlexNet]",
+      date: "May 1, 2025",
+      articleRoute: "we-stopped-understanding-ai",
+    },
+    {
+      id: 16,
+      title:
+        "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746107634/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7.jpg",
+      alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
+      date: "May 1, 2025",
+      articleRoute: "majorana",
+    },
+    {
+      id: 17,
+      title: "All Machine Learning algorithms explained",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746109286/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n.jpg",
+      alt: "All Machine Learning algorithms explained",
+      date: "May 1, 2025",
+      articleRoute: "all-ai-algorithms",
+    },
   ];
 
   return (

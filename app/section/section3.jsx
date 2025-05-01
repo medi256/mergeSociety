@@ -143,6 +143,33 @@ const Section3 = () => {
       date: "May 1, 2025",
       articleRoute: "tech-jobs-in-freefall",
     },
+    {
+      id: 15,
+      title: "The Greatest Hack in History",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
+      alt: "The Greatest Hack in History",
+      date: "May 1, 2025",
+      articleRoute: "greatest-hack",
+    },
+    {
+      id: 16,
+      title: "But what is quantum computing? (Grover's Algorithm)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
+      alt: "But what is quantum computing? (Grover's Algorithm)",
+      date: "May 1, 2025",
+      articleRoute: "what-is-quantam",
+    },
+    {
+      id: 17,
+      title: "But what is a neural network? | Deep learning",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
+      alt: "But what is a neural network? | Deep learning",
+      date: "May 1, 2025",
+      articleRoute: "neural-network",
+    },
   ];
 
   return (

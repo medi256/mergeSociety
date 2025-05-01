@@ -277,6 +277,30 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/greatest-hack`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/what-is-quantam`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/neural-network`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/we-stopped-understaning-ai`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/majorana`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/all-ai-algorithms`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/labing`,
       lastModified: new Date(),
     },
