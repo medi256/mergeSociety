@@ -265,6 +265,18 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/will-tech-jobs-bounce-back`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/tech-jobs-in-freefall`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/learn-to-code`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/labing`,
       lastModified: new Date(),
     },
@@ -306,10 +318,6 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/tech`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/guide`,
       lastModified: new Date(),
     },
     {

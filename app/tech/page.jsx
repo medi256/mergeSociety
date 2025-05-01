@@ -228,6 +228,26 @@ const Section3 = () => {
       date: "April 30, 2025",
       articleRoute: "reddit",
     },
+    {
+      id: 13,
+      title:
+        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
+      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
+      date: "May 1, 2025",
+      articleRoute: "will-tech-jobs-bounce-back",
+    },
+    {
+      id: 14,
+      title:
+        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
+      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
+      date: "May 1, 2025",
+      articleRoute: "tech-jobs-in-freefall",
+    },
   ];
 
   return (

@@ -168,6 +168,15 @@ const GridNews = () => {
       date: " April 27, 2025",
       articleRoute: "link-in",
     },
+    {
+      id: 9,
+      title: `Why America Became Obsessed with "Learn to Code"—And Where That Strategy Went Wrong`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746094162/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha.jpg",
+      alt: "Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong",
+      date: "May 1, 2025",
+      articleRoute: "learn-to-code",
+    },
   ];
 
   return (

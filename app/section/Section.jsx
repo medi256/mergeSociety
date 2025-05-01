@@ -6,11 +6,13 @@ export default function GridNews() {
   return (
     <>
       <div className="h-ai">
+        <Link href="/latest/learn-to-code">
+          <h1>
+            Why America Became Obsessed with "Learn to Code"—And Where That
+            Strategy Went Wrong
+          </h1>
+        </Link>
         <h2>Latest</h2>
-        <h1>
-          Google Internship & Entry-Level Applications: Myths, Truths, and How
-          to Actually Get Hired
-        </h1>
       </div>
       <section className="grid-news-section">
         <aside className="grid-news-left">
@@ -63,17 +65,16 @@ export default function GridNews() {
 
         <main className="grid-news-featured">
           <div>
-            <Link href="/latest/why-my-side-hustle-failed">
+            <Link href="/latest/learn-to-code">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745589711/why-my-side-hustle-failed_gez4na.jpg"
-                alt=" Why My Side Hustle Is Failing: Brutally Honest Lessons from Building
-          in Public"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746094162/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha.jpg"
+                alt="Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong"
                 width={600}
                 height={350}
               />
               <h2>
-                Why My Side Hustle Is Failing: Brutally Honest Lessons from
-                Building in Public
+                Why America Became Obsessed with "Learn to Code"—And Where That
+                Strategy Went Wrong
               </h2>
             </Link>
           </div>
