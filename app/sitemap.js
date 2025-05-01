@@ -289,7 +289,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/ai/we-stopped-understaning-ai`,
+      url: `https://www.mergesociety.com/ai/we-stopped-understanding-ai`,
       lastModified: new Date(),
     },
     {
