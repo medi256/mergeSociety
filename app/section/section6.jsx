@@ -55,6 +55,15 @@ const Section6 = () => {
       date: " April 27, 2025",
       articleRoute: "algorithms",
     },
+    {
+      id: 6,
+      title: "Every Python Library and Frameworks Explained",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
+      alt: "Every Python Library and Frameworks Explained",
+      date: "May 2, 2025",
+      articleRoute: "python-libraries",
+    },
   ];
 
   return (

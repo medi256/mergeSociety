@@ -345,6 +345,34 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/python-libraries`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/all-react-concepts`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/all-react-concepts`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/react-you-need`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/how-to-learn-javascript`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/react-hooks`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/fullstack-roadmap`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },
