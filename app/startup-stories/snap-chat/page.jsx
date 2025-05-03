@@ -731,7 +731,102 @@ export default function Article() {
           fast-paced world of digital trends and app survival. Until next time,
           I'm Hari—thanks for reading!
         </p>
+        <h2>Recommended Articles</h2>
+        <Section5 />
       </article>
     </div>
   );
 }
+
+const Section5 = () => {
+  const blogPosts = [
+    {
+      id: 1,
+      title:
+        "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+      alt: "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
+      date: " April 27, 2025",
+      articleRoute: "pony-ma",
+    },
+    {
+      id: 2,
+      title:
+        "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745751197/fakeit-800x445_zlq56h.jpg",
+      alt: "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
+      date: " April 27, 2025",
+      articleRoute: "fake-it",
+    },
+    {
+      id: 4,
+      title:
+        "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745752778/clem-onojeghuo-fY8Jr4iuPQM-unsplash_io8ddi.jpg",
+      alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
+      date: " April 27, 2025",
+      articleRoute: "hiring",
+    },
+    {
+      id: 5,
+      title:
+        "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745753955/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv.jpg",
+      alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
+      date: " April 27, 2025",
+      articleRoute: "satya",
+    },
+    {
+      id: 6,
+      title:
+        "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+      alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
+      date: " April 30, 2025",
+      articleRoute: "invidia",
+    },
+  ];
+
+  return (
+    <>
+      <div className="h-ai">
+        <h2>Startup Stories</h2>
+      </div>
+
+      <div className="bg-grid-4">
+        {blogPosts.map((project) => (
+          <Link
+            key={project.id}
+            href={`/startup-stories/${project.articleRoute}`}
+            passHref
+          >
+            <div className="bg-image-4">
+              <Image
+                src={project.image}
+                alt={project.alt}
+                width={600}
+                height={400}
+                className="bg-image-4"
+                priority
+              />
+            </div>
+            <div className="bg-content-4">
+              <h2 className="bg-title-4">{project.title}</h2>
+              <time
+                className="bg-date-4"
+                dateTime={new Date(project.date).toISOString()}
+              >
+                {project.date}
+              </time>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+};

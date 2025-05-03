@@ -926,8 +926,67 @@ export default function Article() {
             of Acquisition Lab. None of the content here is legal or investment
             advice—do your own due diligence!
           </p>
+          <h2>Recommended Articles</h2>
+          <Section9 />
         </footer>
       </article>
     </div>
   );
 }
+
+const Section9 = () => {
+  const blogPosts = [
+    {
+      id: 2,
+      title:
+        "Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple, and the Art of Mega Acquisitions",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745826004/stock-birken-J36Z5hLlnvk-unsplash_rzbfjk.jpg",
+      alt: "Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple, and the Art of Mega Acquisitions",
+      date: " April 28, 2025",
+      articleRoute: "big-tech",
+    },
+  ];
+
+  return (
+    <section>
+      <div className="h-ai">
+        <h1>
+          Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple,
+          and the Art of Mega Acquisitions
+        </h1>
+        <h2>Acquisitions</h2>
+      </div>
+
+      <div className="bg-grid-4">
+        {blogPosts.map((project) => (
+          <Link
+            key={project.id}
+            href={`/acquisitions/${project.articleRoute}`}
+            passHref
+          >
+            <div className="bg-image-4">
+              <Image
+                src={project.image}
+                alt={project.alt}
+                width={600}
+                height={400}
+                className="bg-image-4"
+                priority
+              />
+            </div>
+            <div className="bg-content-4">
+              <h2 className="bg-title-4">{project.title}</h2>
+              <time
+                className="bg-date-4"
+                dateTime={new Date(project.date).toISOString()}
+              >
+                {project.date}
+              </time>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+};

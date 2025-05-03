@@ -275,6 +275,16 @@ const Section3 = () => {
       date: "May 1, 2025",
       articleRoute: "neural-network",
     },
+    {
+      id: 18,
+      title:
+        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
+      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
+      date: "May 3, 2025",
+      articleRoute: "roy-lee",
+    },
   ];
 
   return (

@@ -708,7 +708,66 @@ export default function Article() {
           every source cited here is available in the description below. Stay
           tuned!
         </p>
+        <h2>Recommended Articles</h2>
+        <Section9 />
       </article>
     </div>
   );
 }
+
+const Section9 = () => {
+  const blogPosts = [
+    {
+      id: 1,
+      title:
+        "How to Transform $100,000 into $50 Million: An Advanced Business Acquisition Playbook",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745822936/stock-birken-9S3JMbqI5ng-unsplash_bkgrtz.jpg",
+      alt: "How to Transform $100,000 into $50 Million: An Advanced Business Acquisition Playbook",
+      date: " April 28, 2025",
+      articleRoute: "turning",
+    },
+  ];
+
+  return (
+    <section>
+      <div className="h-ai">
+        <h1>
+          Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple,
+          and the Art of Mega Acquisitions
+        </h1>
+        <h2>Acquisitions</h2>
+      </div>
+
+      <div className="bg-grid-4">
+        {blogPosts.map((project) => (
+          <Link
+            key={project.id}
+            href={`/acquisitions/${project.articleRoute}`}
+            passHref
+          >
+            <div className="bg-image-4">
+              <Image
+                src={project.image}
+                alt={project.alt}
+                width={600}
+                height={400}
+                className="bg-image-4"
+                priority
+              />
+            </div>
+            <div className="bg-content-4">
+              <h2 className="bg-title-4">{project.title}</h2>
+              <time
+                className="bg-date-4"
+                dateTime={new Date(project.date).toISOString()}
+              >
+                {project.date}
+              </time>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+};
