@@ -55,7 +55,7 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/tech" },
+    { name: "Merge Society", url: "https://www.mergesociety.com/about" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
@@ -284,6 +284,55 @@ const Section3 = () => {
       alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
       date: "May 3, 2025",
       articleRoute: "roy-lee",
+    },
+    {
+      id: 19,
+      title:
+        "What It's Really Like to Study Computer Science: Reality of CS Majors",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg",
+      alt: "What It's Really Like to Study Computer Science: Reality of CS Majors",
+      date: "May 3, 2025",
+      articleRoute: "reality-of-cs",
+    },
+    {
+      id: 20,
+      title:
+        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
+      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
+      date: "May 3, 2025",
+      articleRoute: "50-top-aws",
+    },
+    {
+      id: 21,
+      title:
+        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg",
+      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
+      date: "May 3, 2025",
+      articleRoute: "cloud-service",
+    },
+    {
+      id: 22,
+      title: "Docker 101: Mastering Modern Software Delivery with Containers",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
+      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
+      date: "May 3, 2025",
+      articleRoute: "docker-explained",
+    },
+    {
+      id: 23,
+      title:
+        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
+      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
+      date: "May 3, 2025",
+      articleRoute: "cs-major",
     },
   ];
 

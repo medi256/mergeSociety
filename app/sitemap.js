@@ -377,6 +377,26 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/reality-of-cs`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/50-top-aws`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/cloud-service`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/docker-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/cs-major`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },

@@ -92,7 +92,7 @@ export const metadata = {
       "The Roy Lee Saga: How One Scandal Exposed Everything Wrong With Tech Hiring",
     description:
       "From AI cheating tools to broken interview processes - why tech recruiting is in crisis and what it means for your next job interview.",
-    creator: "@alexchen_tech",
+    creator: "@manager70191",
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
     ],
@@ -341,8 +341,8 @@ export const metadata = {
     translationAvailability: ["es", "fr", "de", "zh", "ja", "ko", "ru", "pt"],
     regionalVariations: {
       "en-US": "default",
-      "en-GB": "/uk/careers/roy-lee-interview-controversy",
-      "en-IN": "/in/careers/roy-lee-interview-controversy",
+      "en-GB": "/tech/roy-lee",
+      "en-IN": "/tech/roy-lee",
     },
   },
 
