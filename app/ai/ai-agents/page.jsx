@@ -649,6 +649,34 @@ const Section2 = () => {
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
     },
+    {
+      id: 18,
+      title:
+        "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png",
+      alt: "Best ai girlfriend",
+      date: "May 5, 2025",
+      articleRoute: "best-ai-girlfriend",
+    },
+    {
+      id: 19,
+      title: "Best AI Apps for College Student",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
+      alt: "Best AI Apps for College Student",
+      date: "May 6, 2025",
+      articleRoute: "best-ai-apps",
+    },
+    {
+      id: 20,
+      title: "Best AI Stocks to buy now",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746481809/ChatGPT_Image_May_6_2025_12_49_26_AM_f1ainj.png",
+      alt: "Best AI Stocks to buy now",
+      date: "May 6, 2025",
+      articleRoute: "best-ai-stock",
+    },
   ];
 
   return (

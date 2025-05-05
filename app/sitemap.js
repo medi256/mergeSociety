@@ -397,6 +397,18 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/best-ai-girlfriend`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/best-ai-apps`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/best-ai-apps/best-ai-stock`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },
