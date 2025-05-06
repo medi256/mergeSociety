@@ -968,6 +968,24 @@ const Section2 = () => {
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
     },
+    {
+      id: 21,
+      title: "Top 5 Free AI Apps For iPhone & Android in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746522301/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej.png",
+      alt: "Best free AI apps for mobile devices",
+      date: "May 6, 2025",
+      articleRoute: "best-ai-app-for-iphone",
+    },
+    {
+      id: 22,
+      title: "Best AI Tools for Research",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
+      alt: "illustration Best AI Tools for Research",
+      date: "May 6, 2025",
+      articleRoute: "best-ai-tools-for-research",
+    },
   ];
 
   return (

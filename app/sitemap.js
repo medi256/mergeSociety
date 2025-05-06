@@ -409,6 +409,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/best-ai-app-for-iphone`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/best-ai-tools-for-research`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },
