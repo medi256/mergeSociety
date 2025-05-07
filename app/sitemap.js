@@ -417,6 +417,18 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/ai-ml-dp`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/ai-ml-dp`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/ai/what-is-agents`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/projects`,
       lastModified: new Date(),
     },

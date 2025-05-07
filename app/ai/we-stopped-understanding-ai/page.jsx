@@ -1028,6 +1028,25 @@ const Section2 = () => {
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
     },
+    {
+      id: 23,
+      title:
+        "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
+      alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
+      date: "May 6, 2025",
+      articleRoute: "ai-ml-dp",
+    },
+    {
+      id: 24,
+      title: "What are AI Agents?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
+      alt: "Visualization of AI agents orchestrating tools and systems autonomously",
+      date: "May 6, 2025",
+      articleRoute: "what-is-agents",
+    },
   ];
 
   return (
