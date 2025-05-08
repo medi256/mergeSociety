@@ -194,6 +194,25 @@ const Section6 = () => {
       date: "May 2, 2025",
       articleRoute: "fullstack-roadmap",
     },
+    {
+      id: 12,
+      title: "APIs Explained (in 4 Minutes)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
+      alt: "Visual representation of API communication between applications",
+      date: "May 7, 2025",
+      articleRoute: "apis-explained",
+    },
+    {
+      id: 13,
+      title:
+        "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
+      alt: "MongoDB database architecture visualization",
+      date: "May 7, 2025",
+      articleRoute: "mongodb-explained",
+    },
   ];
 
   return (

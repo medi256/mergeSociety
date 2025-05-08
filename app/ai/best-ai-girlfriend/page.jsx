@@ -84,14 +84,13 @@ export default function Article() {
           Best ai girlfriend: How Sesame AI and Manus Herald a New Era of
           Machine Intelligence
         </h1>
-        <img
+
+        <Image
           src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png"
           alt="Best ai girlfriend"
-          width="600"
-          height="400"
-          loading="lazy"
-          decoding="async"
-          fetchPriority="low"
+          width={600}
+          height={400}
+          priority
         />
 
         <h2 className="project-info">

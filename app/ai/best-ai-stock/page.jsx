@@ -90,14 +90,12 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>Best AI Stocks to buy now​</h1>
-        <img
+        <Image
           src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746481809/ChatGPT_Image_May_6_2025_12_49_26_AM_f1ainj.png"
           alt="Best AI Stocks to buy now"
-          width="600"
-          height="400"
-          loading="lazy"
-          decoding="async"
-          fetchPriority="low"
+          width={600}
+          height={400}
+          priority
         />
 
         <h2 className="project-info">

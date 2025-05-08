@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 export const metadata = {
   title: "7 Best Free AI Tools for Academic Research in 2025",
@@ -423,14 +423,12 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>Best AI Tools for Research</h1>
-        <img
+        <Image
           src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg"
           alt="illustration Best AI Tools for Research"
-          width="600"
-          height="400"
-          loading="lazy"
-          decoding="async"
-          fetchPriority="low"
+          width={600}
+          height={400}
+          priority
         />
 
         <h2 className="project-info">
@@ -877,14 +875,12 @@ const Section2 = () => {
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
-              <img
+              <Image
                 src={project.image}
                 alt={project.alt}
-                width="600"
-                height="400"
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
+                width={600}
+                height={400}
+                priority
                 className="bg-image"
               />
             </div>

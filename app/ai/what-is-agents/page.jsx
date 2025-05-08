@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 export const metadata = {
   title: "AI Agents: The Next Evolution of Artificial Intelligence in 2025",
   description:
@@ -521,14 +521,12 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>What are AI Agents?</h1>
-        <img
+        <Image
           src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
           alt="Visualization of AI agents orchestrating tools and systems autonomously"
-          width="600"
-          height="400"
-          loading="lazy"
-          decoding="async"
-          fetchPriority="low"
+          width={600}
+          height={400}
+          priority
         />
 
         <h2 className="project-info">
@@ -1030,14 +1028,12 @@ const Section2 = () => {
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
-              <img
+              <Image
                 src={project.image}
                 alt={project.alt}
-                width="600"
-                height="400"
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
+                width={600}
+                height={400}
+                priority
                 className="bg-image"
               />
             </div>

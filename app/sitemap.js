@@ -345,6 +345,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/programming-myth`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/developer-roadmaps`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/python-libraries`,
       lastModified: new Date(),
     },
@@ -426,6 +434,14 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/ai/what-is-agents`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/apis-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/mongodb-explained`,
       lastModified: new Date(),
     },
     {

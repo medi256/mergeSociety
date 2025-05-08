@@ -1074,6 +1074,26 @@ export const Section3 = () => {
       date: "May 3, 2025",
       articleRoute: "roy-lee",
     },
+    {
+      id: 24,
+      title:
+        "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
+      alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
+      date: "May 8, 2025",
+      articleRoute: "programming-myth",
+    },
+    {
+      id: 25,
+      title:
+        "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg",
+      alt: "Programming language roadmap showing the progression from beginner to expert languages",
+      date: "May 8, 2025",
+      articleRoute: "developer-roadmaps",
+    },
   ];
 
   return (

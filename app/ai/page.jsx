@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import "../section/section.css";
 
 export const metadata = {
@@ -355,14 +355,12 @@ const Section2 = () => {
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
-              <img
+              <Image
                 src={project.image}
                 alt={project.alt}
-                width="600"
-                height="400"
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
+                width={600}
+                height={400}
+                priority
                 className="bg-image"
               />
             </div>

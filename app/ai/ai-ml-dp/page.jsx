@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "AI vs Machine Learning vs Deep Learning vs Generative AI: Explained",
@@ -472,14 +473,13 @@ export default function Article() {
           AI, Machine Learning, Deep Learning & Generative AI: What’s the Real
           Difference?
         </h1>
-        <img
+
+        <Image
           src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg"
           alt="Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each"
-          width="600"
-          height="400"
-          loading="lazy"
-          decoding="async"
-          fetchPriority="low"
+          width={600}
+          height={400}
+          priority
         />
 
         <h2 className="project-info">
@@ -940,14 +940,12 @@ const Section2 = () => {
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
-              <img
+              <Image
                 src={project.image}
                 alt={project.alt}
-                width="600"
-                height="400"
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
+                width={600}
+                height={400}
+                priority
                 className="bg-image"
               />
             </div>
