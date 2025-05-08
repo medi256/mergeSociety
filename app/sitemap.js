@@ -413,7 +413,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/ai/best-ai-apps/best-ai-stock`,
+      url: `https://www.mergesociety.com/ai/best-ai-stock`,
       lastModified: new Date(),
     },
     {

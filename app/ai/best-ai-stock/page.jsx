@@ -23,7 +23,7 @@ export const metadata = {
       "Best AI Stocks to Buy Now – Is Alphabet (GOOG) Undervalued in 2025?",
     description:
       "Explore Alphabet's booming AI user growth, Gemini product integration, and valuation metrics. Find out if GOOG is the right AI stock to buy in 2025.",
-    url: "https://www.mergesociety.com/ai/best-ai-apps/best-ai-stock",
+    url: "https://www.mergesociety.com/ai/best-ai-stock",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -56,7 +56,7 @@ export const metadata = {
     },
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/best-ai-apps/best-ai-stock",
+    canonical: "https://www.mergesociety.com/ai/best-ai-stock",
   },
   category: "AI Investing",
   tags: [
