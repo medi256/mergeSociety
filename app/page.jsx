@@ -1,4 +1,5 @@
 import NewsTicker from "./main/Main";
+import MoreArticles from "./moreButton";
 import GridNews from "./section/Section";
 import Section2 from "./section/section2";
 import Section3 from "./section/section3";
@@ -17,14 +18,26 @@ export default function Home() {
       <GridNews />
       <section>
         <Section2 />
+
+        <MoreArticles route={"/ai"} />
         <Section5 />
+        <MoreArticles route={"/startup-stories"} />
+
         <Section3 />
+        <MoreArticles route={"/tech"} />
       </section>
       <Section4 />
+      <MoreArticles route={"/apps"} />
       <Section6 />
+
+      <MoreArticles route={"/code-report"} />
       {/* <Section7 /> */}
       <Section8 />
+
+      <MoreArticles route={"/interviews"} />
       <Section9 />
+      <MoreArticles route={"/acquisitions"} />
+
       <footer className="homepage-footer">
         <div className="footer-container">
           <div className="footer-social">

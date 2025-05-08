@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./section.css";
+import MoreArticles from "../moreButton";
 
 export default function GridNews() {
   return (
@@ -126,6 +127,7 @@ export default function GridNews() {
             </Link>
           </div>
         </aside>
+        <MoreArticles route={"/latest"} />
       </section>
     </>
   );

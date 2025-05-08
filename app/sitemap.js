@@ -273,6 +273,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/google-coding-ai`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest/learn-to-code`,
       lastModified: new Date(),
     },

@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import "./section.css";
-
 const Section2 = () => {
   const blogPosts = [
     {

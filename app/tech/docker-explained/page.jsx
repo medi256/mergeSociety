@@ -1055,6 +1055,16 @@ const Section3 = () => {
       date: "May 3, 2025",
       articleRoute: "cs-major",
     },
+    {
+      id: 26,
+      title:
+        "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746714642/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le.jpg",
+      alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
+      date: "May 8, 2025",
+      articleRoute: "google-coding-ai",
+    },
   ];
 
   return (
