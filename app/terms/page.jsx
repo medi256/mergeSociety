@@ -91,15 +91,6 @@ const TermsOfService = () => {
           performance or reliability. Use such content at your own risk.
         </p>
 
-        <h2>6. Third-Party Links</h2>
-        <p>
-          Our website may contain links to third-party websites, such as{" "}
-          <Link href="https://www.devgallary.com">DevGallery</Link>. These sites
-          have their own terms and policies, and we are not responsible for
-          their content or practices. We encourage you to review their terms
-          before using their services.
-        </p>
-
         <h2>7. Changes to These Terms</h2>
         <p>
           We reserve the right to update or modify these Terms of Service at any

@@ -95,15 +95,6 @@ const PrivacyPolicy = () => {
           (PII), and we do not have access to any personal data they may gather.
         </p>
 
-        <h2>Third-Party Links</h2>
-        <p>
-          Our website may contain links to third-party websites, such as{" "}
-          <Link href="https://www.devgallary.com">DevGallery</Link>. These sites
-          have their own privacy policies, and we are not responsible for their
-          content or practices. We encourage you to review their policies before
-          providing any personal information.
-        </p>
-
         <h2>Future Changes to Data Collection</h2>
         <p>
           In the future, we may introduce features that require collecting user

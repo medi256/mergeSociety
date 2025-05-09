@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import "./about.css";
 
@@ -51,8 +50,8 @@ const AboutPage = () => {
         <section className="about-hero">
           <h1>About MergeSociety</h1>
           <p>
-            Welcome to MergeSociety — a modern space where technology, coding,
-            and stories about the future come together. We're more than just a
+            Welcome to MergeSociety a modern space where technology, coding, and
+            stories about the future come together. We're more than just a
             learning platform. We're a tech media space for curious developers,
             dreamers, and creators.
           </p>
@@ -63,13 +62,13 @@ const AboutPage = () => {
           <h2>What is MergeSociety?</h2>
           <p>
             MergeSociety started as a platform to teach HTML, CSS, JavaScript,
-            and React.js in a simple and beginner-friendly way. But now, we've
-            grown into something more — a place where coding tutorials meet tech
+            and React.js in a simple and beginner friendly way. But now, we've
+            grown into something more a place where coding tutorials meet tech
             journalism.
           </p>
           <p>
-            From hands-on projects and quizzes to startup stories and code
-            reports — MergeSociety blends learning and inspiration into one
+            From hands on projects and quizzes to startup stories and code
+            reports MergeSociety blends learning and inspiration into one
             engaging platform.
           </p>
         </section>
@@ -79,7 +78,7 @@ const AboutPage = () => {
           <h2>What We Offer</h2>
           <ul>
             <li>
-              <strong>Beginner-Friendly Tutorials:</strong> Learn the web
+              <strong>Beginner Friendly Tutorials:</strong> Learn the web
               development basics step by step.
             </li>
             <li>
@@ -106,7 +105,7 @@ const AboutPage = () => {
           <h2>Who is MergeSociety For?</h2>
           <p>
             Whether you're a beginner just learning to code, a developer looking
-            for fresh insights, or a tech enthusiast curious about what’s next —
+            for fresh insights, or a tech enthusiast curious about what’s next
             MergeSociety is your home.
           </p>
         </section>
@@ -116,12 +115,12 @@ const AboutPage = () => {
           <h2>Our Story</h2>
           <p>
             MergeSociety was born from the challenges of being a self-taught
-            developer. Finding beginner-friendly, real-world-focused content
-            wasn’t easy. That’s why we created this platform — to simplify
+            developer. Finding beginner friendly, real world focused content
+            wasn’t easy. That’s why we created this platform to simplify
             learning and amplify voices in tech.
           </p>
           <p>
-            What started as tutorials is now a growing tech ecosystem — for
+            What started as tutorials is now a growing tech ecosystem for
             learners, readers, and builders.
           </p>
         </section>
@@ -133,15 +132,9 @@ const AboutPage = () => {
             <div className="founder-info">
               <h3>Massa Medi</h3>
               <p>
-                I'm Massa Medi, a 22-year-old frontend developer and the founder
+                I'm Massa Medi, a 22 year old frontend developer and the founder
                 of MergeSociety. I created this platform to help developers like
-                me — to make learning simpler and storytelling smarter.
-              </p>
-              <p>
-                I've built{" "}
-                <Link href="https://www.devgallary.com">DevGallery</Link> and{" "}
-                <Link href="/">MergeSociety</Link>, and I'm on a mission to
-                create value for the global developer community.
+                me to make learning simpler and storytelling smarter.
               </p>
             </div>
           </div>
