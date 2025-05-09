@@ -277,6 +277,22 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/vibe-coding`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/ruby-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/21-devTools`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/javascript-features`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest/learn-to-code`,
       lastModified: new Date(),
     },

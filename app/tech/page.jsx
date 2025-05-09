@@ -364,6 +364,46 @@ const Section3 = () => {
       date: "May 8, 2025",
       articleRoute: "google-coding-ai",
     },
+    {
+      id: 27,
+      title:
+        "Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+      alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
+      date: "May 9, 2025",
+      articleRoute: "vibe-coding",
+    },
+    {
+      id: 28,
+      title:
+        "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746772728/pexels-digitalbuggu-374559_yqicxw.jpg",
+      alt: "Ruby on Rails framework diagram showing MVC architecture with code examples",
+      date: "May 9, 2025",
+      articleRoute: "ruby-explained",
+    },
+    {
+      id: 29,
+      title:
+        "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+      alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",
+      date: "May 9, 2025",
+      articleRoute: "21-devTools",
+    },
+    {
+      id: 30,
+      title:
+        "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746776022/7040859_sp09q7.jpg",
+      alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
+      date: "May 9, 2025",
+      articleRoute: "javascript-features",
+    },
   ];
 
   return (
