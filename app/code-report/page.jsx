@@ -213,6 +213,64 @@ const Section6 = () => {
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",
     },
+    {
+      id: 14,
+      title:
+        "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg",
+      alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
+      date: "May 9, 2025",
+      articleRoute: "databases",
+    },
+    {
+      id: 15,
+      title:
+        "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg",
+      alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
+      date: "May 9, 2025",
+      articleRoute: "ApachevsNGINX",
+    },
+    {
+      id: 16,
+      title:
+        "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
+      alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
+      date: "May 9, 2025",
+      articleRoute: "web-server",
+    },
+    {
+      id: 17,
+      title: "Define Domain Name System (DNS)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp",
+      alt: "DNS explanation diagram showing how domains resolve to IP addresses",
+      date: "May 9, 2025",
+      articleRoute: "what-is-dns",
+    },
+    {
+      id: 18,
+      title:
+        "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
+      alt: "DNS Records Infographic showing how domain names connect to IP addresses",
+      date: "May 9, 2025",
+      articleRoute: "dns-records",
+    },
+    {
+      id: 19,
+      title: "Easy Definition of VPN",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg",
+      alt: "Visual explanation of how a VPN protects your internet connection",
+      date: "May 9, 2025",
+      articleRoute: "vpn-explained",
+    },
   ];
 
   return (

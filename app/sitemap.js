@@ -333,6 +333,30 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/databases`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/ApachevsNGINX`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/web-server`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/what-is-dns`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/dns-records`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/vpn-explained`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/interviews/google-intern`,
       lastModified: new Date(),
     },
