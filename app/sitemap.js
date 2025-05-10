@@ -357,6 +357,30 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/algorithms-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/rest-api`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/sdk-vs-api`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/http1-http2-http3`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/websocket-polling`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/docker-explained/websocets-explained`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/interviews/google-intern`,
       lastModified: new Date(),
     },

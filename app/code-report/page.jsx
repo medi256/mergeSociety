@@ -271,6 +271,65 @@ const Section6 = () => {
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
     },
+    {
+      id: 20,
+      title:
+        "Let's Learn Something! Algorithms Explained in 5 Levels – From Peanut Butter Sandwiches to Artificial Intelligence",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg",
+      alt: "Visual representation of algorithms from simple tasks to AI neural networks",
+      date: "May 10, 2025",
+      articleRoute: "algorithms-explained",
+    },
+    {
+      id: 21,
+      title:
+        "REST API Meaning: The Backbone of Modern Cloud Application Development",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746862287/7015995_iwu9fs.jpg",
+      alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
+      date: "May 10, 2025",
+      articleRoute: "rest-api",
+    },
+    {
+      id: 22,
+      title:
+        "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746863874/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf.jpg",
+      alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
+      date: "May 10, 2025",
+      articleRoute: "sdk-vs-api",
+    },
+    {
+      id: 23,
+      title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+      alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
+      date: "May 10, 2025",
+      articleRoute: "http1-http2-http3",
+    },
+    {
+      id: 24,
+      title:
+        "WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746868335/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy.jpg",
+      alt: "Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns",
+      date: "May 10, 2025",
+      articleRoute: "websocket-polling",
+    },
+    {
+      id: 25,
+      title:
+        "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+      alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
+      date: "May 10, 2025",
+      articleRoute: "websocets-explained",
+    },
   ];
 
   return (
