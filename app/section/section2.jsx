@@ -107,6 +107,16 @@ const Section2 = () => {
       date: "May 6, 2025",
       articleRoute: "what-is-agents",
     },
+    {
+      id: 25,
+      title:
+        "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746953738/pexels-tara-winstead-8849295_hlz6r3.jpg",
+      alt: "AI Trends for 2025",
+      date: "May 11, 2025",
+      articleRoute: "ai-trends-2025",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

@@ -177,6 +177,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/ai-trends-2025`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/computer-components`,
       lastModified: new Date(),
     },
@@ -306,6 +310,14 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/tech/neural-network`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/malware-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/why-linux`,
       lastModified: new Date(),
     },
     {

@@ -404,6 +404,26 @@ const Section3 = () => {
       date: "May 9, 2025",
       articleRoute: "javascript-features",
     },
+    {
+      id: 31,
+      title:
+        "What is malware in simple words?: How Malware Spreads - Inside a Crypto Mining Botnet Targeting Gamers",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746957800/michael-geiger-JJPqavJBy_k-unsplash_lhsizr.jpg",
+      alt: "illustration of malware",
+      date: "May 11, 2025",
+      articleRoute: "malware-explained",
+    },
+    {
+      id: 32,
+      title:
+        "Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most Powerful Operating System",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
+      alt: "illustration of linux",
+      date: "May 11, 2025",
+      articleRoute: "why-linux",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
