@@ -424,6 +424,16 @@ const Section3 = () => {
       date: "May 11, 2025",
       articleRoute: "why-linux",
     },
+    {
+      id: 33,
+      title:
+        "The TRUTH about C++: Should You Actually Learn It? The Truth Behind Its Power, Pitfalls, and Controversy",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746978372/pexels-punttim-52608_oxusa4.jpg",
+      alt: "C++ programming language",
+      date: "May 11, 2025",
+      articleRoute: "c++",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

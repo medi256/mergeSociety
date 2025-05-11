@@ -348,6 +348,16 @@ const Section2 = () => {
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",
     },
+    {
+      id: 26,
+      title:
+        "Torvalds Speaks: Impact of Artificial Intelligence on Programming",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746980180/Linus-Torvalds_kcaenk.webp",
+      alt: "Torvalds Speaks",
+      date: "May 11, 2025",
+      articleRoute: "tovard-on-ai",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

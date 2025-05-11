@@ -321,6 +321,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/c++`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/tovard-on-ai`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/we-stopped-understanding-ai`,
       lastModified: new Date(),
     },
