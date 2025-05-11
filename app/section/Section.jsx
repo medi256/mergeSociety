@@ -7,75 +7,64 @@ export default function GridNews() {
   return (
     <>
       <div className="h-ai">
-        <Link href="/latest/learn-to-code">
-          <h1>
-            Why America Became Obsessed with "Learn to Code"—And Where That
-            Strategy Went Wrong
-          </h1>
-        </Link>
-        <h2>Latest</h2>
+        <h1>Latest</h1>
       </div>
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
-            <Link href="/latest/internship-at-google">
+            <Link href="/tech/21-devTools">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746014182/growtika-183Yxo3vsGY-unsplash_bqlqeh.jpg"
-                alt="Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg"
+                alt="21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025"
                 width={400}
                 height={250}
               />
-              <h3>
+              <h2>
                 {" "}
-                Google Internship & Entry-Level Applications: Myths, Truths, and
-                How to Actually Get Hired
-              </h3>
+                21 Powerful Chrome DevTools Tips Every Web Developer Should Be
+                Using in 2025
+              </h2>
             </Link>
           </div>
           <div>
-            <Link href="/latest/friendship-that-saved-google">
+            <Link href="/tech/vibe-coding">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745576048/two_google_employes_ciaxcf.jpg"
-                alt=" The Unsung Friendship That Saved Google—and Invented the Modern
-          Internet"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg"
+                alt="Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)"
                 width={400}
                 height={250}
               />
-              <h3>
-                The Unsung Friendship That Saved Google—and Invented the Modern
-                Internet
-              </h3>
+              <h2>
+                Vibe Coding: The AI Revolution That's Changing Programming (and
+                Breaking the Internet)
+              </h2>
             </Link>
           </div>
           <div>
-            <Link href="/latest/1990s-Internet">
+            <Link href="/ai/what-is-agents">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745575607/1990s_Internet_blg5oq.jpg"
-                alt="  The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
+                alt="What are AI Agents?"
                 width={400}
                 height={250}
               />
-              <h3>
-                {" "}
-                The Wild West of the 1990s Internet: From Nick.com to the
-                Dot-Com Bubble
-              </h3>
+              <h2> What are AI Agents?</h2>
             </Link>
           </div>
         </aside>
 
         <main className="grid-news-featured">
           <div>
-            <Link href="/latest/learn-to-code">
+            <Link href="/ai/ai-ml-dp">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746094162/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha.jpg"
-                alt="Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg"
+                alt="AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?"
                 width={600}
                 height={350}
               />
               <h2>
-                Why America Became Obsessed with "Learn to Code"—And Where That
-                Strategy Went Wrong
+                AI, Machine Learning, Deep Learning & Generative AI: What’s the
+                Real Difference?
               </h2>
             </Link>
           </div>
@@ -83,47 +72,44 @@ export default function GridNews() {
 
         <aside className="grid-news-right">
           <div>
-            <Link href="/latest/mincraft">
+            <Link href="/code-report/websocets-explained">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745586078/mincraft_kmdjhr.jpg"
-                alt="Minecraft Redstone computer with visible logic circuits"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746949778/websoket_fi0nin.jpg"
+                alt="WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication"
                 width={400}
                 height={250}
               />
-              <h3>
+              <h2>
                 {" "}
-                From Redstone to RAM: How Minecraft’s In-Game Logic Lets You
-                Build a Real Computer
-              </h3>
+                WebSockets in 100 Seconds: An In Depth Guide to WebSockets,
+                Socket.IO, and the Future of Real Time Communication
+              </h2>
             </Link>
           </div>
           <div>
-            <Link href="latest/how-graphics-cards-work">
+            <Link href="code-report/websocket-polling">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745588163/gpus_bmtfwz.jpg"
-                alt="Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746868335/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy.jpg"
+                alt="WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics"
                 width={600}
                 height={350}
               />
               <h2>
                 {" "}
-                Inside the Mind of Modern GPUs: How Graphics Cards Power Your
-                Games, AI, and the Future of Computing
+                WebSockets vs. Polling vs. Long Polling: How Web Sockets work |
+                System Design Interview Basics
               </h2>
             </Link>
           </div>
           <div>
-            <Link href="/latest/link-in">
+            <Link href="/code-report/http1-http2-http3">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745593266/link-in_vsxalr.jpg"
-                alt="LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform Is So Weird—and Here to Stay"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg"
+                alt="HTTP 1 Vs HTTP 2 Vs HTTP 3!"
                 width={400}
                 height={250}
               />
-              <h3>
-                LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform
-                Is So Weird—and Here to Stay
-              </h3>
+              <h2>HTTP 1 Vs HTTP 2 Vs HTTP 3!</h2>
             </Link>
           </div>
         </aside>

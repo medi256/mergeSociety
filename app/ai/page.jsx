@@ -340,19 +340,17 @@ const Section2 = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
   return (
     <>
       <div className="h-ai">
-        <h2>
-          Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural
-          Nets to Nobel Prizes and the Uncharted Future of Artificial
-          Intelligence
-        </h2>
-        <h2>AI</h2>
+        <h1>AI</h1>
       </div>
 
       <div className="bg-grid">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
               <Image

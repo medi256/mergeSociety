@@ -117,18 +117,18 @@ const Section8 = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
   return (
     <section>
       <div className="h-ai">
-        <h1>
-          Cracking the Code: The Essential Framework to Ace Google’s Software
-          Engineering Interviews
-        </h1>
-        <h2>Interviews</h2>
+        <h1>Interviews</h1>
       </div>
 
       <div className="bg-grid">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/interviews/${project.articleRoute}`}

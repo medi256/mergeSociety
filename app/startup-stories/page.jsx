@@ -180,14 +180,17 @@ const Section5 = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
   return (
     <>
       <div className="h-ai">
-        <h2>Startup Stories</h2>
+        <h1>Startup Stories</h1>
       </div>
 
       <div className="bg-grid-4">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/startup-stories/${project.articleRoute}`}

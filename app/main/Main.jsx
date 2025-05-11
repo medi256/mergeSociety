@@ -6,15 +6,14 @@ import "./main.css";
 const news = [
   {
     id: 1,
-    title:
-      "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
-    articleRoute: "/ai/ai-agents",
+    title: "What are AI Agents?",
+    articleRoute: "/ai/what-is-agents",
   },
   {
     id: 2,
     title:
-      "Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple, and the Art of Mega Acquisitions",
-    articleRoute: "/acquisitions/big-tech",
+      "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
+    articleRoute: "/ai/ai-ml-dp",
   },
   {
     id: 3,
@@ -23,27 +22,79 @@ const news = [
   },
   {
     id: 4,
-    title:
-      "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-    articleRoute: "/code-report/best-framework",
+    title: "Best AI Tools for Research",
+    articleRoute: "/ai/best-ai-tools-for-research",
   },
   {
     id: 5,
     title:
-      "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
-    articleRoute: "/latest/ai-is-officially-here",
+      "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
+    articleRoute: "/code-report/websocets-explained",
   },
   {
     id: 6,
+    title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
+    articleRoute: "/code-report/http1-http2-http3",
+  },
+  {
+    id: 7,
+    title:
+      "WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics",
+    articleRoute: "/code-report/websocket-polling",
+  },
+  {
+    id: 8,
+    title:
+      "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
+    articleRoute: "/code-report/sdk-vs-api",
+  },
+  {
+    id: 9,
     title:
       "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
     articleRoute: "/startup-stories/hiring",
   },
   {
-    id: 7,
+    id: 10,
     title:
-      "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-    articleRoute: "/tech/chrome",
+      "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
+    articleRoute: "/startup-stories/invidia",
+  },
+  {
+    id: 11,
+    title:
+      "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
+    articleRoute: "/tech/javascript-features",
+  },
+  {
+    id: 12,
+    title:
+      "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+    articleRoute: "/tech/21-devTools",
+  },
+  {
+    id: 13,
+    title:
+      "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
+    articleRoute: "/tech/ruby-explained",
+  },
+  {
+    id: 14,
+    title:
+      "Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)",
+    articleRoute: "/tech/vibe-coding",
+  },
+  {
+    id: 15,
+    title:
+      "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
+    articleRoute: "/tech/google-coding-ai",
+  },
+  {
+    id: 16,
+    title:
+      "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
+    articleRoute: "/tech/developer-roadmaps",
   },
 ];
 

@@ -6,114 +6,6 @@ import "./section.css";
 const Section3 = () => {
   const blogPosts = [
     {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        " Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
       id: 12,
       title:
         "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
@@ -229,7 +121,81 @@ const Section3 = () => {
       date: "May 3, 2025",
       articleRoute: "cs-major",
     },
+    {
+      id: 24,
+      title:
+        "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
+      alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
+      date: "May 8, 2025",
+      articleRoute: "programming-myth",
+    },
+    {
+      id: 25,
+      title:
+        "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg",
+      alt: "Programming language roadmap showing the progression from beginner to expert languages",
+      date: "May 8, 2025",
+      articleRoute: "developer-roadmaps",
+    },
+    {
+      id: 26,
+      title:
+        "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746714642/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le.jpg",
+      alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
+      date: "May 8, 2025",
+      articleRoute: "google-coding-ai",
+    },
+    {
+      id: 27,
+      title:
+        "Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+      alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
+      date: "May 9, 2025",
+      articleRoute: "vibe-coding",
+    },
+    {
+      id: 28,
+      title:
+        "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746772728/pexels-digitalbuggu-374559_yqicxw.jpg",
+      alt: "Ruby on Rails framework diagram showing MVC architecture with code examples",
+      date: "May 9, 2025",
+      articleRoute: "ruby-explained",
+    },
+    {
+      id: 29,
+      title:
+        "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+      alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",
+      date: "May 9, 2025",
+      articleRoute: "21-devTools",
+    },
+    {
+      id: 30,
+      title:
+        "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746776022/7040859_sp09q7.jpg",
+      alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
+      date: "May 9, 2025",
+      articleRoute: "javascript-features",
+    },
   ];
+
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
 
   return (
     <section className="section3">
@@ -238,7 +204,7 @@ const Section3 = () => {
       </div>
 
       <div className="bg-grid">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/tech/${project.articleRoute}`}

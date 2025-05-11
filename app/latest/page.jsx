@@ -179,14 +179,18 @@ const GridNews = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
   return (
     <>
       <div className="h-ai">
-        <h2>Latest</h2>
+        <h1>Latest</h1>
       </div>
 
       <div className="bg-grid-4">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/latest/${project.articleRoute}`}

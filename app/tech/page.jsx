@@ -406,14 +406,18 @@ const Section3 = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
   return (
     <section className="section3">
       <div className="h-ai">
-        <h2>Tech</h2>
+        <h1>Tech</h1>
       </div>
 
       <div className="bg-grid">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/tech/${project.articleRoute}`}
