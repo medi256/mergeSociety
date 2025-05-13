@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "APIs Explained: Understanding the Backbone of Modern Software (2025)",
@@ -736,6 +737,7 @@ export default function Article() {
             check out the Exponent article linked in the description below.
           </em>
         </p>
+        <CommentSection />
       </article>
     </div>
   );

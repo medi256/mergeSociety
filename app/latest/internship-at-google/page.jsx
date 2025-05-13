@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -823,9 +824,10 @@ export default function Article() {
             Good luck from Jules, Okus, and everyone on the Google recruiting
             team!
           </em>
-          <h2>Recommended Articles</h2>
-          <GridNews />
         </p>
+        <h2>Recommended Articles</h2>
+        <GridNews />
+        <CommentSection />
       </article>
     </div>
   );
@@ -916,10 +918,6 @@ const GridNews = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>Latest</h2>
-      </div>
-
       <div className="bg-grid-4">
         {blogPosts.map((project) => (
           <Link

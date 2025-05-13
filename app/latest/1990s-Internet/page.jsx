@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -374,16 +375,16 @@ export default function Article() {
           reminiscing, and maybe even feeling that old urge to click “View Page
           Source” just to see what made the magic work.
         </p>
-        <footer>
-          <p>
-            <em>
-              “Thank you for reading — and for exploring the heart of the 90s
-              internet with me.”
-            </em>
-          </p>
-          <h2>Recommended Articles</h2>
-          <GridNews />
-        </footer>
+
+        <p>
+          <em>
+            “Thank you for reading — and for exploring the heart of the 90s
+            internet with me.”
+          </em>
+        </p>
+        <h2>Recommended Articles</h2>
+        <GridNews />
+        <CommentSection />
       </article>
     </div>
   );

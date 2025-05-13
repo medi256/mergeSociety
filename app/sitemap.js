@@ -321,7 +321,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/tech/c++`,
+      url: `https://www.mergesociety.com/tech/cplus`,
       lastModified: new Date(),
     },
     {

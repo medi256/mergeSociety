@@ -5,6 +5,7 @@ import Image from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -970,6 +971,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <Section8 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1021,14 +1023,6 @@ const Section8 = () => {
 
   return (
     <section>
-      <div className="h-ai">
-        <h1>
-          Cracking the Code: The Essential Framework to Ace Google’s Software
-          Engineering Interviews
-        </h1>
-        <h2>Interviews</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link

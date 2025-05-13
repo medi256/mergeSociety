@@ -1,3 +1,4 @@
+import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -208,8 +209,8 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using
-          Real Life Examples
+          AI Agents Explained: The Step-by-Step Guide for Non Techies Using Real
+          Life Examples
         </h1>
 
         <Image
@@ -234,15 +235,15 @@ export default function Article() {
         <p>
           <strong>AI, AI AI AI AI, AI.</strong> There’s a lot of noise out
           there—“agentic this,” “AI agent that,” and workflows that sound
-          straight out of a sci-fi novel. Most explanations seem to either
-          deep-dive into technical jargon or skate along the surface so lightly
-          that you end up more confused than you started.
+          straight out of a sci-fi novel. Most explanations seem to either deep
+          dive into technical jargon or skate along the surface so lightly that
+          you end up more confused than you started.
         </p>
         <p>
           But what if you’re someone who has <em>zero</em> technical background,
           yet you’re using AI tools every day? Maybe you’re curious about AI
           agents, but don’t know where to begin. If that’s you, you’re in the
-          right place. This article follows a simple, three-step journey: we’ll
+          right place. This article follows a simple, three step journey: we’ll
           build on what you already know (think ChatGPT), then ramp up to AI
           workflows, and finally, crack open the world of AI agents. And don’t
           worry: we’ll use plenty of practical, real-world examples you’ll
@@ -251,11 +252,11 @@ export default function Article() {
         <p>
           And, seriously, all those intimidating acronyms and words you see like
           “RAG” (not a cleaning cloth!) or “React” (not the JavaScript
-          framework!) are way simpler than you think. Ready for a plain-speak
+          framework!) are way simpler than you think. Ready for a plain speak
           rundown? Let’s go.
         </p>
 
-        <h2>Level 1: Large Language Models—The Chatbots You Already Know</h2>
+        <h2>Level 1: Large Language Models The Chatbots You Already Know</h2>
         <p>
           Let’s start at basecamp: Large Language Models, or LLMs. These are the
           backbone behind popular AI chatbots like <strong>ChatGPT</strong>,{" "}
@@ -301,7 +302,7 @@ export default function Article() {
           <em>Hold on to these two facts as we move onward.</em>
         </p>
 
-        <h2>Level 2: AI Workflows—Moving From Q&amp;A to Automated Tasks</h2>
+        <h2>Level 2: AI Workflows Moving From Q&amp;A to Automated Tasks</h2>
         <p>
           Let’s build up from our coffee chat scenario. What if we took things a
           step further: <br />
@@ -310,30 +311,30 @@ export default function Article() {
         </p>
         <p>
           With this logic, next time you ask, “When’s my chat with Elon
-          Hussler?” the chatbot can tap into your calendar, find the answer,
-          and—voilà!—give you the info you need.
+          Hussler?” the chatbot can tap into your calendar, find the answer, and
+          voilà! give you the info you need.
         </p>
         <p>
           <strong>But there’s a hitch.</strong> What if your very next question
           is: “What will the weather be like that day?” The workflow fails here,
-          because our setup only tells the LLM to check your calendar—there’s no
+          because our setup only tells the LLM to check your calendar there’s no
           pathway to the weather report.
         </p>
         <p>
           <strong>
             AI workflows follow pre-defined paths, known as “control logic.”
           </strong>{" "}
-          They only do what you program them to do. If you want more steps—like
+          They only do what you program them to do. If you want more steps like
           checking the weather or using a text-to-audio model to read the answer
-          aloud—you need to add those steps yourself. No matter how many steps
+          aloud you need to add those steps yourself. No matter how many steps
           you create, as long as a human (that’s you) is making the decisions
-          and programming the route, it remains just an AI workflow—
+          and programming the route, it remains just an AI workflow
           <strong>not</strong> an agent.
         </p>
         <p>
           <strong>Pro Tip: What is RAG?</strong>
           <br />
-          You’ll see “RAG” everywhere—it stands for Retrieval Augmented
+          You’ll see “RAG” everywhere it stands for Retrieval Augmented
           Generation. In plain English, this just means giving an AI model a way
           to “look things up” (e.g., fetching your calendar or the weather)
           before answering. RAG is simply an AI workflow that pulls in outside
@@ -346,7 +347,7 @@ export default function Article() {
         <ol>
           <li>
             <strong>Compile news article links</strong> in a{" "}
-            <strong>Google Sheet</strong>—think of it as your personal news
+            <strong>Google Sheet</strong> think of it as your personal news
             database.
           </li>
           <li>
@@ -365,13 +366,13 @@ export default function Article() {
         </ol>
         <p>
           What you see here: each step is planned and programmed by a human. If
-          you’re not happy with the output—say your latest LinkedIn post isn’t
-          hilarious enough (and you know you’re naturally funny)—you have to
+          you’re not happy with the output say your latest LinkedIn post isn’t
+          hilarious enough (and you know you’re naturally funny) you have to
           manually go back and tweak the prompts, then test it all over again.
           In traditional workflows, <strong>iteration is human-driven</strong>.
         </p>
 
-        <h2>Level 3: AI Agents—When AI Becomes the Decision-Maker</h2>
+        <h2>Level 3: AI Agents When AI Becomes the Decision-Maker</h2>
         <p>
           Let’s take that workflow and ask: What’s different if we want to
           upgrade to a genuine AI agent?
@@ -389,8 +390,8 @@ export default function Article() {
           </li>
         </ol>
         <p>
-          Now—for an AI workflow to become an <strong>AI agent</strong>, you—the
-          human decision-maker—must get replaced by the LLM. In short:
+          Now for an AI workflow to become an <strong>AI agent</strong>, you the
+          human decision-maker must get replaced by the LLM. In short:
         </p>
         <blockquote>
           <strong>
@@ -401,7 +402,7 @@ export default function Article() {
         </blockquote>
         <p>
           Imagine the agent thinking, “What’s the most efficient way to gather
-          news articles? Copy and paste them all into Word? Nah—let’s stick to
+          news articles? Copy and paste them all into Word? Nah let’s stick to
           compiling links in a spreadsheet and then fetch content as needed.” It
           will decide, “Should I use Excel or Google Sheets? Well, the user’s
           already connected Google to make.com, so Sheets it is.”
@@ -411,14 +412,14 @@ export default function Article() {
           <br />
           Not to be confused with Facebook’s JavaScript UI library, the “React”
           in this context refers to the cycle of <strong>RE</strong>ason and{" "}
-          <strong>ACT</strong>—the essential workflow for any AI agent. Every
+          <strong>ACT</strong> the essential workflow for any AI agent. Every
           agent must independently reason (plan) <em>and</em> act (do stuff).
         </p>
         <p>
           There’s one more trick: <strong>iteration.</strong> Previously, if
           your LinkedIn post wasn’t funny enough, you’d adjust the prompt and
           rerun the workflow yourself. With an AI agent, it can critique{" "}
-          <em>its own work</em>—drafting content, then having another LLM review
+          <em>its own work</em> drafting content, then having another LLM review
           it based on best practices, and automatically revising until the
           quality is high enough. That loop can happen, start to finish, without
           human involvement.
@@ -430,7 +431,7 @@ export default function Article() {
           Andrew Ng, one of the big names in AI.
         </p>
         <p>
-          On this demo website, you input a keyword—say, “skier.” The AI vision
+          On this demo website, you input a keyword say, “skier.” The AI vision
           agent reasons, “What does a skier look like?” (It imagines: a person
           on skis, whizzing down a snowy mountain.) Then, it{" "}
           <strong>acts</strong> by sifting through clips in a video, analyzing
@@ -439,12 +440,12 @@ export default function Article() {
         </p>
         <p>
           Here’s what’s special: this agent does it all automatically, no human
-          needed to pre-tag footage or label scenes as “skier,” “mountain,” or
+          needed to pre tag footage or label scenes as “skier,” “mountain,” or
           “snow.” The tech under the hood is advanced, but from the user’s
-          perspective, it’s seamless and simple—search, and results appear.
+          perspective, it’s seamless and simple search, and results appear.
         </p>
         <p>
-          And that’s the magic: making high-tech workflows accessible to
+          And that’s the magic: making high tech workflows accessible to
           everyday users who just want things to work.
         </p>
         <p>
@@ -471,19 +472,20 @@ export default function Article() {
           </li>
           <li>
             <strong>Level 3: AI Agents</strong> – The LLM receives a broad goal,
-            devises its own plan for how to achieve it, acts using tools,
-            self-critiques and iterates, and returns a finished result—the agent
-            is now the decision-maker.
+            devises its own plan for how to achieve it, acts using tools, self
+            critiques and iterates, and returns a finished result the agent is
+            now the decision-maker.
           </li>
         </ol>
 
         <p>
           If you found this guide helpful and want your AI skills to level up
           further, check out my tutorial on building a prompts database in
-          Notion. See you next time—and until then, happy automating!
+          Notion. See you next time and until then, happy automating!
         </p>
         <h2>Recommended Articles</h2>
         <Section2 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -544,7 +546,7 @@ const Section2 = () => {
     },
     {
       id: 6,
-      title: "Why Human Connection Still Beats Technology—Even in the AI Era",
+      title: "Why Human Connection Still Beats Technology Even in the AI Era",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745660247/motivation_dimnjq.jpg",
       alt: "Why Human Connection Still Beats Technology—Even in the AI Era",
@@ -699,15 +701,6 @@ const Section2 = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>
-          Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural
-          Nets to Nobel Prizes and the Uncharted Future of Artificial
-          Intelligence
-        </h2>
-        <h2>AI</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>

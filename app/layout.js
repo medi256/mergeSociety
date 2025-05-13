@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "./nav/NavBar";
 import Script from "next/script";
 import Head from "next/head";
+import Footer from "./footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -281,6 +282,7 @@ export default function RootLayout({ children }) {
       >
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

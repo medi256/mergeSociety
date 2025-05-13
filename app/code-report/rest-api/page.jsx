@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "REST API Explained: The Backbone of Modern Cloud Development in 2025",
@@ -778,10 +779,10 @@ export default function Article() {
           Want more insightful guides and resources? Like, subscribe, and keep
           your edge in the world of cloud computing!
         </p>
-        <footer>
-          <h2>Recommended Articles</h2>
-          <Section6 />
-        </footer>
+
+        <h2>Recommended Articles</h2>
+        <Section6 />
+        <CommentSection />
       </article>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -802,16 +803,15 @@ export default function Article() {
           </p>
         </section>
 
-        <footer>
-          <p>
-            Thanks for dropping by Dave’s garage! Keep innovating, keep
-            learning, and remember: In the era of AI, there’s more opportunity
-            than ever for great software engineers—especially those who never
-            stop improving. Until next time, see you in Dave’s garage.
-          </p>
-          <h2>Recommended Articles</h2>
-          <Section2 />
-        </footer>
+        <p>
+          Thanks for dropping by Dave’s garage! Keep innovating, keep learning,
+          and remember: In the era of AI, there’s more opportunity than ever for
+          great software engineers—especially those who never stop improving.
+          Until next time, see you in Dave’s garage.
+        </p>
+        <h2>Recommended Articles</h2>
+        <Section2 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1000,15 +1000,6 @@ const Section2 = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>
-          Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural
-          Nets to Nobel Prizes and the Uncharted Future of Artificial
-          Intelligence
-        </h2>
-        <h2>AI</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>

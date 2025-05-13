@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
@@ -670,6 +671,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <Section2 />
+        <CommentSection />
       </article>
     </div>
   );

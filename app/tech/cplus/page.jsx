@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
@@ -43,7 +44,7 @@ export const metadata = {
     title: "The TRUTH About C++: Should You Actually Learn It in 2025?",
     description:
       "Uncover the real power behind C++, why it divides programmers, and whether its challenging reputation is deserved. Expert analysis on when C++ is the right choice for your programming journey.",
-    url: "https://www.mergesociety.com/tech/c++",
+    url: "https://www.mergesociety.com/tech/cplus",
     siteName: "Merge Society",
     images: [
       {
@@ -83,13 +84,13 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/c++",
+    canonical: "https://www.mergesociety.com/tech/cplus",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/c++",
-      "es-ES": "https://www.mergesociety.com/tech/c++",
-      "de-DE": "https://www.mergesociety.com/tech/c++",
-      "fr-FR": "https://www.mergesociety.com/tech/c++",
-      "ru-RU": "https://www.mergesociety.com/tech/c++",
+      "en-US": "https://www.mergesociety.com/tech/cplus",
+      "es-ES": "https://www.mergesociety.com/tech/cplus",
+      "de-DE": "https://www.mergesociety.com/tech/cplus",
+      "fr-FR": "https://www.mergesociety.com/tech/cplus",
+      "ru-RU": "https://www.mergesociety.com/tech/cplus",
     },
   },
 
@@ -174,7 +175,7 @@ export const metadata = {
       "Discover why C++ remains essential in 2025 despite controversy. Learn about its unique strengths, common pitfalls, and whether this powerful language deserves a place in your programming toolkit.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/c++",
+      "@id": "https://www.mergesociety.com/tech/cplus",
     },
     keywords:
       "c++, programming languages, bjarne stroustrup, memory management, systems programming, object-oriented programming",
@@ -666,6 +667,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <Section3 />
+        <CommentSection />
       </article>
     </div>
   );

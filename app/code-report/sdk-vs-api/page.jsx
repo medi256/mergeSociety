@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -804,10 +805,9 @@ String petName = analyzerResponse.getName();
           earn a digital badge you can show off in your portfolio!
         </p>
 
-        <footer>
-          <h2>Recommended Articles</h2>
-          <Section6 />
-        </footer>
+        <h2>Recommended Articles</h2>
+        <Section6 />
+        <CommentSection />
       </article>
     </div>
   );

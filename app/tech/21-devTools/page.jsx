@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "21 Powerful Chrome DevTools Tips Web Developers Need in 2025",
@@ -782,15 +783,14 @@ export default function Article() {
           your advice could win you a free T-shirt and help the community.
         </p>
 
-        <footer>
-          <p>
-            <strong>Want more advanced tricks?</strong> Hit the like & subscribe
-            buttons and stay tuned for the next deep dive into modern web
-            development!
-          </p>
-          <h2>Recommended Articles</h2>
-          <Section3 />
-        </footer>
+        <p>
+          <strong>Want more advanced tricks?</strong> Hit the like & subscribe
+          buttons and stay tuned for the next deep dive into modern web
+          development!
+        </p>
+        <h2>Recommended Articles</h2>
+        <Section3 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1085,40 +1085,29 @@ const Section3 = () => {
   ];
 
   return (
-    <section className="section3">
-      <div className="h-ai">
-        <h2>Tech</h2>
-      </div>
+    <div className="bg-grid">
+      {blogPosts.map((project) => (
+        <Link key={project.id} href={`/tech/${project.articleRoute}`} passHref>
+          <Image
+            src={project.image}
+            alt={project.alt}
+            width={600}
+            height={400}
+            className="bg-image"
+            priority
+          />
 
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
+          <div className="bg-content">
+            <h2 className="bg-title">{project.title}</h2>
+            <time
+              className="bg-date"
+              dateTime={new Date(project.date).toISOString()}
+            >
+              {project.date}
+            </time>
+          </div>
+        </Link>
+      ))}
+    </div>
   );
 };

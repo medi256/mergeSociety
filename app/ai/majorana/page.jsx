@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -819,21 +820,21 @@ export default function Article() {
           attention—to watch, question, challenge, and celebrate as we push
           against the limits of what seemed impossible.
         </p>
-        <footer>
-          <p>
-            Want more on quantum breakthroughs? Follow for future deep-dives and
-            exclusive interviews with Microsoft’s quantum pioneers. If you’re a
-            channel member, full interviews with Zulfi, Chetan, and Nathan will
-            be made available soon.
-          </p>
-          <p>
-            Like what you read? Leave a comment below, or spread the word. Until
-            next time—stay curious.
-          </p>
 
-          <h2>Recommended Articles</h2>
-          <Section2 />
-        </footer>
+        <p>
+          Want more on quantum breakthroughs? Follow for future deep-dives and
+          exclusive interviews with Microsoft’s quantum pioneers. If you’re a
+          channel member, full interviews with Zulfi, Chetan, and Nathan will be
+          made available soon.
+        </p>
+        <p>
+          Like what you read? Leave a comment below, or spread the word. Until
+          next time—stay curious.
+        </p>
+
+        <h2>Recommended Articles</h2>
+        <Section2 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1003,15 +1004,6 @@ const Section2 = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>
-          Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural
-          Nets to Nobel Prizes and the Uncharted Future of Artificial
-          Intelligence
-        </h2>
-        <h2>AI</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>

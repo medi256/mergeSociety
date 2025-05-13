@@ -432,7 +432,7 @@ const Section3 = () => {
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746978372/pexels-punttim-52608_oxusa4.jpg",
       alt: "C++ programming language",
       date: "May 11, 2025",
-      articleRoute: "c++",
+      articleRoute: "cplus",
     },
   ];
 

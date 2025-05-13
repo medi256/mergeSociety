@@ -1,3 +1,4 @@
+import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -468,6 +469,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <GridNews />
+        <CommentSection />
       </article>
     </div>
   );
@@ -558,10 +560,6 @@ const GridNews = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>Latest</h2>
-      </div>
-
       <div className="bg-grid-4">
         {blogPosts.map((project) => (
           <Link

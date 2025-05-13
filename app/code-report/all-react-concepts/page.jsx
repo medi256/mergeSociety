@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -934,6 +935,7 @@ export default function Article() {
         <p>We hope you learned a lot in this guide—see you in the next one!</p>
         <h2>Recommended Articles</h2>
         <Section6 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1042,10 +1044,6 @@ const Section6 = () => {
 
   return (
     <section>
-      <div className="h-ai">
-        <h2>Code Report</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link

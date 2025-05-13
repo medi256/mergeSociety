@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "HTTP/1 vs HTTP/2 vs HTTP/3: Evolution of Web Performance in 2025",
@@ -800,10 +801,10 @@ export default function Article() {
             trends, and more.{" "}
           </em>
         </p>
-        <footer>
-          <h2>Recommended Articles</h2>
-          <Section6 />
-        </footer>
+
+        <h2>Recommended Articles</h2>
+        <Section6 />
+        <CommentSection />
       </article>
     </div>
   );

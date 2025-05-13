@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -449,7 +450,7 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Why America Became Obsessed with "Learn to Code"—And Where That
+          Why America Became Obsessed with "Learn to Code" And Where That
           Strategy Went Wrong
         </h1>
         <Image
@@ -476,7 +477,7 @@ export default function Article() {
           troubling trends emerge: layoffs, degree inflation, overwhelmed
           students, and fewer actual jobs. What sparked this boom in computer
           science, why did it spiral out of control, and what does this teach us
-          about the future of tech careers—and the myths we tell ourselves?
+          about the future of tech careers and the myths we tell ourselves?
         </p>
 
         <h2>
@@ -494,8 +495,8 @@ export default function Article() {
         <p>
           Berkeley isn’t even the reigning champion of coding obsession. Take a
           tour around American academia and you’ll find even more dramatic
-          numbers. At MIT—home to the birth of radar, spreadsheet software, and
-          the lithium-ion battery—nearly{" "}
+          numbers. At MIT home to the birth of radar, spreadsheet software, and
+          the lithium ion battery nearly{" "}
           <strong>40% of all undergraduates major in computer science</strong>.
           For context, just <strong>seven</strong> students graduated with a
           Bachelor of Science in Chemistry last year. In contrast,{" "}
@@ -508,7 +509,7 @@ export default function Article() {
           a smorgasbord of majors to becoming Microsoft and Google training
           grounds, squeezing in a little philosophy and physics on the side. In
           2023, Berkeley followed the lead of MIT and Cornell by launching a
-          dedicated College of Computing—their first new school since Dwight
+          dedicated College of Computing their first new school since Dwight
           Eisenhower was in the White House.
         </p>
 
@@ -531,7 +532,7 @@ export default function Article() {
           to the middle class, launched Computer Science Education Week, and
           promoted “Hour of Code.” Warnings of a coming "shortfall of 1 million
           STEM graduates by 2022" became gospel. Even New York Mayor Michael
-          Bloomberg famously pledged in 2012 to learn to code himself—though,
+          Bloomberg famously pledged in 2012 to learn to code himself though,
           for the record, nobody has evidence that he actually did.
         </p>
         <p>
@@ -539,7 +540,7 @@ export default function Article() {
         </p>
         <ul>
           <li>Republicans saw it as practical, vocational education.</li>
-          <li>Corporations glimpsed a pipeline of cheap, pre-trained labor.</li>
+          <li>Corporations glimpsed a pipeline of cheap, pre trained labor.</li>
           <li>
             National security hawks rallied behind its potential to keep America
             globally competitive.
@@ -548,20 +549,20 @@ export default function Article() {
             Diversity advocates pitched it as a way to expand opportunity.
           </li>
           <li>
-            For Democrats engineering the post-recession recovery, it sounded
-            hopeful and conveniently vague—ready to absorb complex questions
+            For Democrats engineering the post recession recovery, it sounded
+            hopeful and conveniently vague ready to absorb complex questions
             about globalization and job losses.
           </li>
         </ul>
         <p>
           The media echoed: “Learn to code.” Suddenly, computer science classes
-          were as common as calculus—offered in nearly 15,000 high schools and
+          were as common as calculus offered in nearly 15,000 high schools and
           37% of all middle schools. Eleven states now <strong>require</strong>{" "}
           every student to take a CS class to graduate.
         </p>
 
         <h2>
-          The Coding Mirage: What Rom-Coms, Politicians, and Pop Culture Got
+          The Coding Mirage: What Rom Coms, Politicians, and Pop Culture Got
           Wrong
         </h2>
         <p>
@@ -571,14 +572,14 @@ export default function Article() {
           throw coal into a furnace can learn how to program, for God’s sake.”
           One 2012 article, published while U.S. unemployment soared above 8%,
           promised anxious job seekers not just a new job, but a <em>fun</em>{" "}
-          one—“more like architecture than mathematics.”
+          one “more like architecture than mathematics.”
         </p>
         <p>
-          No wonder an entire generation—older Gen Z, younger
-          millennials—flocked to CS degrees and coding bootcamps, especially
-          after watching their siblings struggle through the Great Recession.
-          The siren song was irresistible: six-figure jobs! Hoodies instead of
-          suits! The freedom to work from a beanbag rather than a cubicle.
+          No wonder an entire generation older Gen Z, younger millennials
+          flocked to CS degrees and coding bootcamps, especially after watching
+          their siblings struggle through the Great Recession. The siren song
+          was irresistible: six figure jobs! Hoodies instead of suits! The
+          freedom to work from a beanbag rather than a cubicle.
         </p>
 
         <h2>
@@ -586,23 +587,23 @@ export default function Article() {
         </h2>
         <p>
           Yet, for all of Big Tech’s readiness to soak up new talent, America’s
-          universities were blindsided. Fads in college majors are nothing
-          new—law schools booming after TV dramas, pharmacy’s spike amid a
-          pharmacist shortage—but nothing matched the scale or speed of the CS
+          universities were blindsided. Fads in college majors are nothing new
+          law schools booming after TV dramas, pharmacy’s spike amid a
+          pharmacist shortage but nothing matched the scale or speed of the CS
           explosion. Within a decade, undergraduate enrollments{" "}
-          <strong>tripled</strong>. But the number of new PhDs—needed to teach
-          the rapidly swelling undergraduate classes—remained flat. Why? Put
+          <strong>tripled</strong>. But the number of new PhDs needed to teach
+          the rapidly swelling undergraduate classes remained flat. Why? Put
           simply, the money wasn’t there: a CS PhD student could fetch $40,000 a
           year, maybe, compared to $200,000 or more at Amazon or Netflix.
         </p>
         <p>
-          The outcome: impersonal, factory-like department cultures. Professors
+          The outcome: impersonal, factory like department cultures. Professors
           stretched past their limits, classes ballooning to 400, even 600
           students. Peer teaching exploded; the only person you could turn to
           might be another undergrad who'd just survived the same grind last
           semester. Some universities, desperate to control the flood, made
-          applicants re-apply to CS programs mid-degree, or, like at Swarthmore,
-          University of Maryland, and UCSD, used pure lottery systems—paying
+          applicants re apply to CS programs mid degree, or, like at Swarthmore,
+          University of Maryland, and UCSD, used pure lottery systems paying
           over $90,000 in tuition, only to be denied, by the roll of electronic
           dice, your preferred major.
         </p>
@@ -611,32 +612,32 @@ export default function Article() {
           scant career support, minimal faculty interaction, and often only a
           shallow grasp of practical programming. Most programs focused on
           foundational algorithms and theoretical constructs, spread across a
-          dozen languages but mastering none—hardly ideal for landing a modern
-          tech job hungry for specific frameworks and hands-on skills.
+          dozen languages but mastering none hardly ideal for landing a modern
+          tech job hungry for specific frameworks and hands on skills.
         </p>
 
-        <h2>Bootcamp Hype and Reality: A Short-Cut With Hidden Costs</h2>
+        <h2>Bootcamp Hype and Reality: A Short Cut With Hidden Costs</h2>
         <p>
           Predictably, Silicon Valley’s disruptors sniffed an opportunity. Why
           wade through four years of general education when bootcamps, for
-          $10,000 to $30,000, could promise a six-figure salary after just
+          $10,000 to $30,000, could promise a six figure salary after just
           twelve weeks? Bootcamps pitched themselves with the promise of “tech
-          interview prep,” churning out grads at half the rate of four-year CS
+          interview prep,” churning out grads at half the rate of four year CS
           programs and vacuuming up over $200 million per year at their peak.
         </p>
         <p>
           But as their numbers swelled, bootcamps confronted painful realities.
-          First, student reputations became a double-edged sword—if a graduate
+          First, student reputations became a double edged sword if a graduate
           floundered or got fired, it hurt future alumni job prospects. Only the
-          best applicants were accepted, with some bootcamps boasting
-          Harvard-level selectivity (Hack Reactor’s acceptance rate? Just 3%).
-          Teacher shortages loomed, salaries couldn’t match industry,
-          and—mirroring academia—bootcamps hired their own recent grads, further
-          inflating employment statistics.
+          best applicants were accepted, with some bootcamps boasting Harvard
+          level selectivity (Hack Reactor’s acceptance rate? Just 3%). Teacher
+          shortages loomed, salaries couldn’t match industry, and mirroring
+          academia bootcamps hired their own recent grads, further inflating
+          employment statistics.
         </p>
         <p>
-          Prices rose. Desperate for funding, they eyed federally-backed student
-          loans but, lacking accreditation, couldn’t qualify—until a Department
+          Prices rose. Desperate for funding, they eyed federally backed student
+          loans but, lacking accreditation, couldn’t qualify until a Department
           of Education loophole in 2011. Through partnerships with universities
           and “online program managers” (OPMs), bootcamps could court students
           under prestigious academic brands, take a 40% revenue cut, and gain
@@ -644,9 +645,9 @@ export default function Article() {
         </p>
         <p>
           Ironically, in their rush to disrupt academia, bootcamps became just
-          as bureaucratic and unwieldy as the colleges they aimed to
-          replace—and, eventually, were absorbed by the very universities they
-          sought to out-innovate.
+          as bureaucratic and unwieldy as the colleges they aimed to replace
+          and, eventually, were absorbed by the very universities they sought to
+          out innovate.
         </p>
 
         <h2>The Crash: Tech Layoffs and the Limits of “Learn to Code”</h2>
@@ -654,8 +655,8 @@ export default function Article() {
           All of this seemed to "work" while tech growth soared, but as the
           pandemic waned and the industry cooled, the bubble burst. In 2023,
           nearly half a million tech workers lost their jobs. In both 2022 and
-          again in 2024, another quarter-million layoffs followed. That’s as
-          many jobs as vanished in America’s much-lamented China manufacturing
+          again in 2024, another quarter million layoffs followed. That’s as
+          many jobs as vanished in America’s much lamented China manufacturing
           shock.
         </p>
         <p>
@@ -671,8 +672,8 @@ export default function Article() {
           <strong>
             fewer software developers employed today than it did six years ago
           </strong>
-          . We were warned there would be a shortfall of a million STEM
-          jobs—somehow, we got the opposite. What happened? The answer isn’t
+          . We were warned there would be a shortfall of a million STEM jobs
+          somehow, we got the opposite. What happened? The answer isn’t
           complicated: supply and demand. UC Berkeley’s 1,000% growth couldn’t
           have been sustainable. “Learn to code” didn’t cause the tech downturn
           (interest rates and investment trends played a huge part), but it did
@@ -681,9 +682,9 @@ export default function Article() {
         </p>
         <p>
           The Bureau of Labor Statistics predicts 11% growth for the sector by
-          2033, but that’s cold comfort to the “starry-eyed” students who bought
+          2033, but that’s cold comfort to the “starry eyed” students who bought
           into the limitless promise of tech. “Learn to code” became an article
-          of faith—an all-purpose solution, unmoored from economic reality.
+          of faith an all purpose solution, unmoored from economic reality.
         </p>
 
         <h2>
@@ -693,60 +694,60 @@ export default function Article() {
           At its peak, “Learn to code” was presented as the new literacy. Some
           thought every American, from teachers to electricians to nurses, would
           soon be programming daily. That premise, if accepted, made a 1,000%
-          surge in CS grads seem logical. But tech remains a niche career—only
-          about 2.3% of the U.S. workforce even with generous estimates—far less
+          surge in CS grads seem logical. But tech remains a niche career only
+          about 2.3% of the U.S. workforce even with generous estimates far less
           than the 7 million unemployed “Learn to code” was supposed to save.
         </p>
         <p>
-          Even in a world building ever-smarter AI and endless apps, someone
+          Even in a world building ever smarter AI and endless apps, someone
           still has to manufacture keyboards, fix broadband, and manage all the
           offline infrastructure that digital transformation overlooks. Worse,
-          tech is volatile—AI today, some new disruption tomorrow. This
+          tech is volatile AI today, some new disruption tomorrow. This
           generation’s endless tech boom was an anomaly, not a guarantee.
         </p>
 
         <h2>Real Skills, Real People: Coding Isn’t for Everyone</h2>
         <p>
           Beyond economics, “Learn to code” ignored a simple truth: human
-          variety. Some people thrive at complex problem-solving under
-          pressure—many simply don’t, or don’t want to. Not everyone wants to
-          sit in front of a monitor, or collaborate on Scrum boards, or hack
-          away into the night. If you swapped in any other job—welding, nursing,
-          epidemiology—the absurdity becomes clear. The soundbite was seductive,
+          variety. Some people thrive at complex problem solving under pressure
+          many simply don’t, or don’t want to. Not everyone wants to sit in
+          front of a monitor, or collaborate on Scrum boards, or hack away into
+          the night. If you swapped in any other job welding, nursing,
+          epidemiology the absurdity becomes clear. The soundbite was seductive,
           but in practice exploitative: it boiled everyone down to
-          interchangeable labor, promising that anyone—from a single parent
-          working two jobs, to a layoff survivor, to a privileged
-          18-year-old—could emerge as a six-figure developer after 12 weeks.
+          interchangeable labor, promising that anyone from a single parent
+          working two jobs, to a layoff survivor, to a privileged 18 year old
+          could emerge as a six figure developer after 12 weeks.
         </p>
         <p>
           Reality was much harsher. Single parents found no support for their
-          needs in high-intensity bootcamps. Contractors and other
-          career-changers were told coding was “so easy” only to struggle,
+          needs in high intensity bootcamps. Contractors and other career
+          changers were told coding was “so easy” only to struggle,
           internalizing blame for not catching up with classmates who already
           had a head start. Many graduates found only a $20,000 debt, lost
-          wages, and a resume line that—far from impressing future
-          employers—worked against them. Some did find success, only to be laid
-          off in the next contraction, disposable regardless of their effort or
+          wages, and a resume line that far from impressing future employers
+          worked against them. Some did find success, only to be laid off in the
+          next contraction, disposable regardless of their effort or
           credentials.
         </p>
 
         <h2>What Actually Matters: Adaptability, Not Trends</h2>
         <p>
           “Learn to code” was never a magic fix for economic insecurity. Just as
-          “learn to service wind turbines” or “learn occupational
-          therapy”—fields projected to grow much faster than software—coding is
-          simply one of many good careers. Labor markets are fickle; everyone is
+          “learn to service wind turbines” or “learn occupational therapy”
+          fields projected to grow much faster than software coding is simply
+          one of many good careers. Labor markets are fickle; everyone is
           subject to their tides. The best strategy? Diversify your skills,
-          emphasize adaptability, and invest in timeless abilities like
-          problem-solving and creative thinking.
+          emphasize adaptability, and invest in timeless abilities like problem
+          solving and creative thinking.
         </p>
         <p>
           That’s why educational tools like <strong>Brilliant</strong> (today’s
           sponsor) are so valuable: they go beyond Python or JavaScript syntax
-          and help you sharpen real-world, high-level thinking, fostering
+          and help you sharpen real world, high level thinking, fostering
           strategies that last well beyond the lifespan of any single
-          programming language. Their engaging, interactive courses—from logic
-          puzzles and data analysis to scientific thinking—aim to nurture your
+          programming language. Their engaging, interactive courses from logic
+          puzzles and data analysis to scientific thinking aim to nurture your
           most versatile asset: curiosity and critical reasoning.
         </p>
         <p>
@@ -764,6 +765,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <GridNews />
+        <CommentSection />
       </article>
     </div>
   );
@@ -774,7 +776,7 @@ const GridNews = () => {
     {
       id: 1,
       title:
-        "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
+        "Google Internship & Entry Level Applications: Myths, Truths, and How to Actually Get Hired",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746014182/growtika-183Yxo3vsGY-unsplash_bqlqeh.jpg",
       alt: "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
@@ -784,7 +786,7 @@ const GridNews = () => {
     {
       id: 2,
       title:
-        "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
+        "How Smart Developers Really Use AI From Tutor to Supercharged Intern (and Why You Should Too)",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745577861/ai-is-here_ny0xf8.jpg",
       alt: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
@@ -855,10 +857,6 @@ const GridNews = () => {
 
   return (
     <>
-      <div className="h-ai">
-        <h2>Latest</h2>
-      </div>
-
       <div className="bg-grid-4">
         {blogPosts.map((project) => (
           <Link
@@ -872,7 +870,6 @@ const GridNews = () => {
                 alt={project.alt}
                 width={600}
                 height={400}
-                className="bg-image-4"
                 priority
               />
             </div>

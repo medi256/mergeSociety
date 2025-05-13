@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -851,6 +852,7 @@ socket.onmessage = (event) => {
         </p>
         <h2>Recommended Articles</h2>
         <Section6 />
+        <CommentSection />
       </article>
     </div>
   );

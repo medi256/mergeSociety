@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -710,6 +711,7 @@ export default function Article() {
         </p>
         <h2>Recommended Articles</h2>
         <Section9 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -731,14 +733,6 @@ const Section9 = () => {
 
   return (
     <section>
-      <div className="h-ai">
-        <h1>
-          Inside Big Tech’s Billion-Dollar Shopping Sprees: Microsoft, Apple,
-          and the Art of Mega Acquisitions
-        </h1>
-        <h2>Acquisitions</h2>
-      </div>
-
       <div className="bg-grid-4">
         {blogPosts.map((project) => (
           <Link

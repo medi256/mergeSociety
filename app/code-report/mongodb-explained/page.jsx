@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "MongoDB : The Evolution of NoSQL Databases for Modern Applications",
@@ -714,6 +715,7 @@ export default function Article() {
           Thanks for reading! Be sure to bookmark for more cutting edge guides
           and updates.
         </p>
+        <CommentSection />
       </article>
     </div>
   );

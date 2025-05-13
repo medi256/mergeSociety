@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "What Is a Web Server? A Beginner's Guide With Clear Examples",
@@ -886,15 +887,14 @@ export default function Article() {
           subscribing for more developer friendly explanations and real-world
           examples.
         </p>
-        <footer>
-          <p>
-            Written by a fellow developer who remembers the first time a “web
-            server” seemed like magic. Keep exploring every programmer Googles
-            their way to clarity eventually!
-          </p>
-          <h2>Recommended Articles</h2>
-          <Section6 />
-        </footer>
+        <p>
+          Written by a fellow developer who remembers the first time a “web
+          server” seemed like magic. Keep exploring every programmer Googles
+          their way to clarity eventually!
+        </p>
+        <h2>Recommended Articles</h2>
+        <Section6 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -1079,10 +1079,6 @@ const Section6 = () => {
 
   return (
     <section>
-      <div className="h-ai">
-        <h2>Code Report</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link

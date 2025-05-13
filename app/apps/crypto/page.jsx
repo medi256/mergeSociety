@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
@@ -706,20 +707,20 @@ export default function Article() {
         </p>
         <p>
           <b>How do digital signatures work?</b>
-          <ol>
-            <li>
-              The sender <b>hashes the original message</b>.
-            </li>
-            <li>
-              They use their <b>private key</b> to sign that hash, creating a
-              unique <b>signature</b>.
-            </li>
-            <li>
-              The recipient can use the sender’s <b>public key</b> to verify
-              that the signature matches and hasn’t been forged or altered.
-            </li>
-          </ol>
         </p>
+        <ol>
+          <li>
+            The sender <b>hashes the original message</b>.
+          </li>
+          <li>
+            They use their <b>private key</b> to sign that hash, creating a
+            unique <b>signature</b>.
+          </li>
+          <li>
+            The recipient can use the sender’s <b>public key</b> to verify that
+            the signature matches and hasn’t been forged or altered.
+          </li>
+        </ol>
         <h3>Signing in Node.js</h3>
         <p>
           Use Node’s <code>createSign</code> function with an algorithm like{" "}
@@ -761,6 +762,7 @@ export default function Article() {
         <p>Thanks for reading, and see you for the next deep dive!</p>
         <h2>Recommended Articles</h2>
         <Section4 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -830,10 +832,6 @@ const Section4 = () => {
 
   return (
     <section>
-      <div className="h-ai">
-        <h2>Apps</h2>
-      </div>
-
       <div className="bg-grid-4">
         {blogPosts.map((project) => (
           <Link

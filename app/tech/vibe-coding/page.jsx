@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title: "Vibe Coding: The 2025 AI Revolution Changing How We Program",
@@ -661,16 +662,15 @@ export default function Article() {
           </p>
         </section>
 
-        <footer>
-          <p>
-            This has been <strong>The Code Report</strong>. Thanks for reading
-            and remember, whether you're coding on vibes or building something
-            bulletproof, the future is here, and it's weirdly wonderful. See you
-            in the next one!
-          </p>
-          <h2>Recommended Articles</h2>
-          <Section3 />
-        </footer>
+        <p>
+          This has been <strong>The Code Report</strong>. Thanks for reading and
+          remember, whether you're coding on vibes or building something
+          bulletproof, the future is here, and it's weirdly wonderful. See you
+          in the next one!
+        </p>
+        <h2>Recommended Articles</h2>
+        <Section3 />
+        <CommentSection />
       </article>
     </div>
   );
@@ -966,10 +966,6 @@ const Section3 = () => {
 
   return (
     <section className="section3">
-      <div className="h-ai">
-        <h2>Tech</h2>
-      </div>
-
       <div className="bg-grid">
         {blogPosts.map((project) => (
           <Link
