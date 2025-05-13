@@ -337,6 +337,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/10x-developers`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/should-you`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/all-ai-algorithms`,
       lastModified: new Date(),
     },

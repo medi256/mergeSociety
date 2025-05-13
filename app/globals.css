@@ -5,6 +5,9 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+html {
+  font-size: 1.125rem;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -40,6 +43,7 @@ body {
   color: var(--foreground);
   border-bottom: 1px solid #ccc;
   position: fixed;
+  font-size: 1rem;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -51,6 +55,7 @@ body {
   max-width: 1200px;
   margin: auto;
   display: flex;
+  font-size: 1rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;

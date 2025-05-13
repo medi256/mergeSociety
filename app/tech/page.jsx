@@ -434,6 +434,25 @@ const Section3 = () => {
       date: "May 11, 2025",
       articleRoute: "cplus",
     },
+    {
+      id: 34,
+      title:
+        "The Most Legendary Programmers Of All Time: The Best Programmers in History",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747146327/next-academy-G6k_uEjXygE-unsplash_x1jtdf.jpg",
+      alt: "The Best Programmers in History",
+      date: "May 13, 2025",
+      articleRoute: "10x-developers",
+    },
+    {
+      id: 35,
+      title: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747150651/cs_moponk.jpg",
+      alt: "Should I Get a CS Degree in 2025",
+      date: "May 13, 2025",
+      articleRoute: "should-you",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
