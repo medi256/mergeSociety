@@ -453,6 +453,54 @@ const Section3 = () => {
       date: "May 13, 2025",
       articleRoute: "should-you",
     },
+    {
+      id: 36,
+      title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
+      alt: "SEO Strategies for 2025",
+      date: "May 14, 2025",
+      articleRoute: "seo-wins",
+    },
+    {
+      id: 37,
+      title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png",
+      alt: "Neovim Modern Guide",
+      date: "May 14, 2025",
+      articleRoute: "neovim-explained",
+    },
+    {
+      id: 38,
+      title:
+        "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230241/pexels-sharad-7199194_w5uzmv.jpg",
+      alt: "PC Components Overview Guide",
+      date: "May 14, 2025",
+      articleRoute: "pc-overview",
+    },
+    {
+      id: 39,
+      title:
+        "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
+      alt: "PC Gaming Components Guide",
+      date: "May 14, 2025",
+      articleRoute: "pc-gaming-parts",
+    },
+    {
+      id: 40,
+      title:
+        "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747238168/pexels-athena-2582930_afjwie.jpg",
+      alt: "PC Gaming Components Guide 2025",
+      date: "May 14, 2025",
+      articleRoute: "recommended-gaming-pc-builds",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

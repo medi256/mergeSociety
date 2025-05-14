@@ -869,3 +869,35 @@ button:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
+
+/* Blog Post Styles - Global File */
+
+/* FAQ Section */
+.faq-section h3 {
+  font-weight: 700;
+  color: deepskyblue;
+  margin-top: 35px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.faq-section h3:before {
+  content: "Q.";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 800;
+}
+
+.faq-section p {
+  position: relative;
+  padding-left: 30px;
+}
+
+.faq-section p:before {
+  content: "A.";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+}

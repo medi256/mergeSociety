@@ -345,6 +345,26 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/seo-wins`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/neovim-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/pc-overview`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/pc-gaming-parts`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/tech/recommended-gaming-pc-builds`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/all-ai-algorithms`,
       lastModified: new Date(),
     },
