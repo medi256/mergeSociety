@@ -129,6 +129,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/binary-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/computer-science-basics`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/apps/cool-tools`,
       lastModified: new Date(),
     },

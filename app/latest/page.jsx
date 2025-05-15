@@ -177,6 +177,24 @@ const GridNews = () => {
       date: "May 1, 2025",
       articleRoute: "learn-to-code",
     },
+    {
+      id: 10,
+      title: `Binary Explained: How Computers Use Ones and Zeros to Power the Digital World`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747327529/pexels-ron-lach-9783346_n9rpik.jpg",
+      alt: "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
+      date: "May 15, 2025",
+      articleRoute: "binary-explained",
+    },
+    {
+      id: 11,
+      title: `Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
+      alt: "Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts",
+      date: "May 15, 2025",
+      articleRoute: "computer-science-basics",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
