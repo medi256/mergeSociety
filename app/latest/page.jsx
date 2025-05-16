@@ -195,6 +195,33 @@ const GridNews = () => {
       date: "May 15, 2025",
       articleRoute: "computer-science-basics",
     },
+    {
+      id: 15,
+      title: `Best Programming Language for Each Tech Career Job in 2025: A Comprehensive Beginner’s Guide`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747387243/pexels-mart-production-7709168_oee7dw.jpg",
+      alt: "Best Programming Language for Each Tech Career Job in 2025",
+      date: "May 16, 2025",
+      articleRoute: "best-programming-language-for-each-job",
+    },
+    {
+      id: 16,
+      title: `Best Programming Languages to Learn for High Paying Tech Jobs in 2025`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747385355/kobu-agency-67L18R4tW_w-unsplash_pnwolr.jpg",
+      alt: " Best Programming Languages to Learn for High Paying Tech Jobs in 2025",
+      date: "May 16, 2025",
+      articleRoute: "best-programming-languages-high-paying-tech-jobs",
+    },
+    {
+      id: 17,
+      title: `Best Programming Language for AI and Machine Learning`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747398547/pexels-markus-winkler-1430818-18512795_vozwoe.jpg",
+      alt: "Best Programming Language for AI and Machine Learning",
+      date: "May 16, 2025",
+      articleRoute: "top-languages-for-ai-2025",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

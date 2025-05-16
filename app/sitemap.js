@@ -413,6 +413,18 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/best-programming-language-for-each-job`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/top-languages-for-ai-2025`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/algorithms-explained`,
       lastModified: new Date(),
     },
