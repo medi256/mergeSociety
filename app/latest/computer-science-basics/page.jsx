@@ -598,7 +598,7 @@ export default function Article() {
           together by invisible tech glue. Today, pull up a (virtual) chair for
           Computer Science 101, where we’re breaking down 101 computer science
           terms and concepts that will transform your “garbage code” into a
-          masterpiece—or at least help you explain to Grandma why her printer
+          masterpiece or at least help you explain to Grandma why her printer
           isn’t working.
         </p>
 
@@ -610,7 +610,7 @@ export default function Article() {
             sequences of ones and zeros. This, coupled with a simple device that
             can read (and write) those numbers, forms what’s called a{" "}
             <strong>Turing Machine.</strong> In tinkerer’s theory, this humble
-            machine can compute anything—from the awe-inspiring graphics on your
+            machine can compute anything from the awe inspiring graphics on your
             favorite game to the mysterious algorithms that led you to this very
             article.
           </p>
@@ -626,10 +626,10 @@ export default function Article() {
           <p>
             But a solo bit is hardly more useful than a single grain of rice.
             What you’re really working with are groups of 8 bits, known as a{" "}
-            <strong>byte</strong>. Each byte can represent 256 different
-            values—enough to encode every letter, number, and symbol on your
-            keyboard. In fact, when you type a character, it’s mapped to a
-            binary number through encoding systems like ASCII or UTF-8.
+            <strong>byte</strong>. Each byte can represent 256 different values
+            enough to encode every letter, number, and symbol on your keyboard.
+            In fact, when you type a character, it’s mapped to a binary number
+            through encoding systems like ASCII or UTF-8.
           </p>
           <p>
             Binary is computers’ native tongue: a base-2 system of only 1s and
@@ -657,7 +657,7 @@ export default function Article() {
             lightning speed.
           </p>
           <p>
-            Together, the CPU and RAM are your computer’s brain—the fast
+            Together, the CPU and RAM are your computer’s brain the fast
             thinking, high-speed part of hardware.
           </p>
           <h3>Handling Input and Output (I/O)</h3>

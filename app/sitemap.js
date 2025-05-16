@@ -333,7 +333,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/tech/tovard-on-ai`,
+      url: `https://www.mergesociety.com/ai/tovard-on-ai`,
       lastModified: new Date(),
     },
     {
@@ -433,7 +433,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/tech/docker-explained/websocets-explained`,
+      url: `https://www.mergesociety.com/code-report/websocets-explained`,
       lastModified: new Date(),
     },
     {

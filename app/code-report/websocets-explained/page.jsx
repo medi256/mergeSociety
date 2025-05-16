@@ -48,7 +48,7 @@ export const metadata = {
     title: "WebSockets Masterclass: Building Modern Real-Time Applications",
     description:
       "Learn how WebSockets and Socket.IO power the real-time web experiences users demand in 2025. Comprehensive guide from basics to production deployment.",
-    url: "https://www.mergesociety.com/tech/docker-explained/websocets-explained",
+    url: "https://www.mergesociety.com/code-report/websocets-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -88,11 +88,9 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical:
-      "https://www.mergesociety.com/tech/docker-explained/websocets-explained",
+    canonical: "https://www.mergesociety.com/code-report/websocets-explained",
     languages: {
-      "en-US":
-        "https://www.mergesociety.com/tech/docker-explained/websocets-explained",
+      "en-US": "https://www.mergesociety.com/code-report/websocets-explained",
     },
   },
 
@@ -157,8 +155,8 @@ export const metadata = {
       "WebSockets in 2025: The Ultimate Guide to Real-Time Web Communication",
     image:
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
-    datePublished: "2025-05-10T08:00:00Z",
-    dateModified: "2025-05-10T08:00:00Z",
+    datePublished: "2025-05-16T08:00:00Z",
+    dateModified: "2025-05-16T08:00:00Z",
     author: {
       "@type": "Person",
       name: "Medi",
@@ -179,8 +177,7 @@ export const metadata = {
       "Master WebSockets, Socket.IO, WebRTC, and WebTransport with this comprehensive guide to building lightning-fast real-time applications.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id":
-        "https://www.mergesociety.com/tech/docker-explained/websocets-explained",
+      "@id": "https://www.mergesociety.com/code-report/websocets-explained",
     },
     keywords:
       "websockets, socket.io, real-time communication, node.js, webrtc, webtransport",
@@ -543,8 +540,8 @@ export default function Article() {
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
           </span>
-          <time className="project-date" dateTime="2025-05-10">
-            | May 10, 2025
+          <time className="project-date" dateTime="2025-05-16">
+            | May 16, 2025
           </time>
         </h2>
         <p>

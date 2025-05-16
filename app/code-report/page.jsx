@@ -327,7 +327,7 @@ const Section6 = () => {
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
       alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
-      date: "May 10, 2025",
+      date: "May 16, 2025",
       articleRoute: "websocets-explained",
     },
   ];
