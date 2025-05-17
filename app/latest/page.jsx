@@ -222,6 +222,24 @@ const GridNews = () => {
       date: "May 16, 2025",
       articleRoute: "top-languages-for-ai-2025",
     },
+    {
+      id: 18,
+      title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747472691/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx.jpg",
+      alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
+      date: "May 17, 2025",
+      articleRoute: "git-explained",
+    },
+    {
+      id: 19,
+      title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747483676/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j.jpg",
+      alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
+      date: "May 17, 2025",
+      articleRoute: "aws-explained",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

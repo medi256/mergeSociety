@@ -425,6 +425,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/git-explained`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/aws-explained`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/algorithms-explained`,
       lastModified: new Date(),
     },
