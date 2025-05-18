@@ -240,6 +240,33 @@ const GridNews = () => {
       date: "May 17, 2025",
       articleRoute: "aws-explained",
     },
+    {
+      id: 20,
+      title: `Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to FullStack Web Development`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
+      alt: "Full Stack Developer Roadmap 2025",
+      date: "May 18, 2025",
+      articleRoute: "full-stack-developer-roadmap",
+    },
+    {
+      id: 21,
+      title: `Rust Programming Language: Memory Safety and Performance Explained`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747559679/rust_q0urkm.webp",
+      alt: "Rust Programming Language: Memory Safety and Performance Explained",
+      date: "May 18, 2025",
+      articleRoute: "rust-programming-language",
+    },
+    {
+      id: 22,
+      title: `Linux vs Windows vs Mac: Why Linux is Simply Better for Your Computer Freedom`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747560830/theregisti-6km3qNqc8fk-unsplash_cjxbvw.jpg",
+      alt: "Linux vs Windows vs Mac",
+      date: "May 18, 2025",
+      articleRoute: "Linux-vs-Windows-vs-Mac",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

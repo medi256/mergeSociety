@@ -433,6 +433,18 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/full-stack-developer-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/rust-programming-language`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/Linux-vs-Windows-vs-Mac`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/algorithms-explained`,
       lastModified: new Date(),
     },
