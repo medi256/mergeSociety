@@ -268,14 +268,14 @@ export default function RootLayout({ children }) {
             !(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTpjZjVmMjdhMy1kNTQwLTQwZWEtYjBhOC1mMzA0MTgzMTRkNWQ=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();
           `}
       </Script>
-
+      {/* 
       <Script
         src="//scripts.scriptwrapper.com/tags/cf5f27a3-d540-40ea-b0a8-f30418314d5d.js"
         async
         data-noptimize="1"
         data-cfasync="false"
         strategy="afterInteractive"
-      />
+      /> */}
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
