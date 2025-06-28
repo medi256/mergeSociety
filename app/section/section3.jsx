@@ -154,7 +154,7 @@ const Section3 = () => {
     {
       id: 27,
       title:
-        "Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)",
+        "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
       alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
@@ -174,7 +174,7 @@ const Section3 = () => {
     {
       id: 29,
       title:
-        "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+        " Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
       alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",

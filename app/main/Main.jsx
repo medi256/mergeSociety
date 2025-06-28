@@ -69,7 +69,7 @@ const news = [
   {
     id: 12,
     title:
-      "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+      " Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
     articleRoute: "/tech/21-devTools",
   },
   {
@@ -81,7 +81,7 @@ const news = [
   {
     id: 14,
     title:
-      "Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)",
+      "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
     articleRoute: "/tech/vibe-coding",
   },
   {

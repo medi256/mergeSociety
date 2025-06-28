@@ -1054,7 +1054,7 @@ const Section3 = () => {
     {
       id: 29,
       title:
-        "21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025",
+        " Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
       alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",

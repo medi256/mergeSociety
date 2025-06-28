@@ -15,14 +15,14 @@ export default function GridNews() {
             <Link href="/tech/21-devTools">
               <Image
                 src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg"
-                alt="21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using in 2025"
+                alt="21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using"
                 width={400}
                 height={250}
               />
               <h2>
                 {" "}
-                21 Powerful Chrome DevTools Tips Every Web Developer Should Be
-                Using in 2025
+                Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every
+                Web Developer Needs (Most Pros Miss #13)
               </h2>
             </Link>
           </div>
@@ -30,13 +30,13 @@ export default function GridNews() {
             <Link href="/tech/vibe-coding">
               <Image
                 src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg"
-                alt="Vibe Coding: The AI Revolution That's Changing Programming (and Breaking the Internet)"
+                alt="Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)"
                 width={400}
                 height={250}
               />
               <h2>
-                Vibe Coding: The AI Revolution That's Changing Programming (and
-                Breaking the Internet)
+                Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And
+                How to Beat the 2025 Mind Virus)
               </h2>
             </Link>
           </div>

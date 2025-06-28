@@ -859,6 +859,16 @@ const Section6 = () => {
       date: "May 2, 2025",
       articleRoute: "fullstack-roadmap",
     },
+    {
+      id: 26,
+      title:
+        "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
+      alt: "Software engineering career advice: Building projects for real users vs localhost development",
+      date: "June 28, 2025",
+      articleRoute: "real-world-coding-career-advice",
+    },
   ];
 
   return (

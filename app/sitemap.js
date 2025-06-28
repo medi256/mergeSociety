@@ -65,6 +65,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/real-world-coding-career-advice`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/startup-stories`,
       lastModified: new Date(),
     },
