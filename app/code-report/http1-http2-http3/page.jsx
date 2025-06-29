@@ -1,75 +1,76 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
-  title: "HTTP/1 vs HTTP/2 vs HTTP/3: Evolution of Web Performance in 2025",
+  title:
+    "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",
   description:
-    "Discover how HTTP evolved from basic HTTP/1 to revolutionary HTTP/3 with QUIC, improving web performance through multiplexing, header compression, and zero-RTT connections.",
+    "Think HTTP is boring? It controls how fast you stream Netflix, buy sneakers, and browse the web. Here's the insider's map to HTTP 1.1, HTTP 2, and HTTP 3 - no fluff, just the real reasons why these upgrades changed everything.",
 
   metadataBase: new URL("https://www.mergesociety.com"),
 
   keywords: [
-    "HTTP/1 vs HTTP/2 vs HTTP/3",
+    "HTTP 1.1 vs HTTP 2 vs HTTP 3",
     "HTTP evolution 2025",
     "QUIC protocol explained",
     "web performance optimization",
     "HTTP head of line blocking",
-    "HTTP multiplexing",
-    "HTTP binary framing",
-    "modern web protocols",
-    "HTTP persistent connections",
+    "HTTP multiplexing speed",
+    "binary framing HTTP 2",
+    "HTTP 3 QUIC benefits",
+    "TCP vs UDP web protocols",
+    "HTTP connection migration",
+    "server push technology",
+    "header compression HPACK QPACK",
     "zero RTT connections",
-    "HTTP header compression",
-    "HTTP server push",
-    "mobile web performance",
-    "web protocol comparison",
-    "TCP vs UDP protocols",
-    "TLS handshake optimization",
-    "HTTP/3 adoption",
-    "HTTP protocol history",
-    "HTTP performance metrics",
-    "QUIC connection migration",
-    "HTTP stream prioritization",
+    "HTTP protocol comparison",
+    "web latency reduction",
+    "HTTP persistent connections",
+    "stream prioritization",
+    "HTTP 3 adoption 2025",
     "web protocol security",
-    "network latency reduction",
-    "web protocol efficiency",
+    "mobile web performance HTTP",
     "HTTP packet loss handling",
+    "connection coalescing",
+    "domain sharding HTTP",
+    "HTTP asset optimization",
+    "CDN HTTP protocols",
   ],
 
-  category: "Web Protocols & Performance",
+  category: "Web Performance & Protocols",
 
   openGraph: {
     title:
-      "HTTP/1 vs HTTP/2 vs HTTP/3: The Evolution Revolutionizing Web Speed",
+      "HTTP Evolution: Why HTTP 3 is Secretly Changing Your Web Experience",
     description:
-      "Explore how HTTP protocols evolved from basic connections to sophisticated multiplexing with QUIC, dramatically improving web performance across devices.",
+      "From slow HTTP 1.1 to lightning-fast HTTP 3 with QUIC - discover how protocol evolution controls your Netflix streaming, online shopping, and daily browsing speed.",
     url: "https://www.mergesociety.com/code-report/http1-http2-http3",
-    siteName: "Merge Society Tech Insights",
+    siteName: "Merge Society",
     images: [
       {
         url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
         width: 1200,
         height: 630,
-        alt: "Visual comparison of HTTP/1, HTTP/2 and HTTP/3 protocols with performance metrics",
+        alt: "HTTP protocol evolution from HTTP 1.1 to HTTP 3 with QUIC - speed comparison and performance benefits",
       },
     ],
     locale: "en_US",
     type: "article",
     publishedTime: "2025-05-10T08:45:00Z",
-    modifiedTime: "2025-05-10T08:45:00Z",
+    modifiedTime: new Date().toISOString(), // Current timestamp for update
     section: "Web Technology",
     tags: [
-      "HTTP",
-      "QUIC",
+      "HTTP Evolution",
+      "QUIC Protocol",
       "Web Performance",
-      "Web Protocols",
+      "HTTP 3",
       "Network Optimization",
-      "TCP",
-      "UDP",
-      "TLS",
-      "Latency",
+      "TCP UDP Comparison",
+      "Web Speed",
+      "Binary Protocols",
+      "Multiplexing",
       "Connection Efficiency",
     ],
   },
@@ -81,25 +82,18 @@ export const metadata = {
     },
   ],
 
-  creator: "Merge Society Technical Research Team",
-  publisher: "Merge Society Learning Platform",
+  creator: "Merge Society",
+  publisher: "Merge Society",
 
   alternates: {
     canonical: "https://www.mergesociety.com/code-report/http1-http2-http3",
-    languages: {
-      "en-US": "https://www.mergesociety.com/code-report/http1-http2-http3",
-      "es-ES": "https://www.mergesociety.com/code-report/http1-http2-http3",
-      "de-DE": "https://www.mergesociety.com/code-report/http1-http2-http3",
-      "fr-FR": "https://www.mergesociety.com/code-report/http1-http2-http3",
-      "zh-CN": "https://www.mergesociety.com/code-report/http1-http2-http3",
-    },
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "HTTP/1 vs HTTP/2 vs HTTP/3: Web Protocol Evolution Explained",
+    title: "HTTP Evolution: The Speed Revolution You Never Noticed",
     description:
-      "See how web protocols evolved from HTTP/1's simple connections to HTTP/3's revolutionary QUIC protocol, transforming web performance for the modern era.",
+      "HTTP 1.1 was the stone age. HTTP 2 brought highways. HTTP 3 is jetpacks. Here's how protocol evolution secretly controls your web experience.",
     creator: "@manager70191",
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
@@ -115,427 +109,199 @@ export const metadata = {
       follow: true,
       "max-video-preview": -1,
       "max-image-preview": "large",
-      "max-snippet": 500,
+      "max-snippet": -1,
     },
   },
 
+  // Schema.org structured data optimized for updated content
   other: {
-    readingTime: "11 minutes",
-    contentType: "Technical Explainer with Timeline Analysis",
-    publishDate: "May 10, 2025",
-    category: "Web Technology",
-    subcategory: "Network Protocols",
-    featured: true,
-    series: "Modern Web Architecture",
-    complexity: "Beginner to Intermediate",
-    relatedArticles: [
-      "TCP vs UDP: Choosing the Right Protocol for Your Application",
-      "TLS 1.3: Security Improvements and Performance Gains",
-      "Mobile Web Performance Optimization Techniques for 2025",
-      "Edge Computing and Modern Web Protocols: The Perfect Partnership",
-      "Browser Performance Metrics: What Really Matters in 2025",
-    ],
-    visualAid: true,
-    authorCredentials: "Senior Network Protocol Engineer",
-    keyTakeaways: [
-      "Understanding HTTP's evolution from simple text-based protocol to binary multiplexed connections",
-      "Learning how HTTP/2 solved HTTP/1.1's head-of-line blocking problem",
-      "Seeing why HTTP/3's QUIC protocol represents a fundamental shift in web performance",
-      "Exploring practical impacts of each protocol version on everyday browsing",
-      "Discovering how mobile users particularly benefit from HTTP/3's connection resilience",
-      "Appreciating the engineering challenges solved across each protocol version",
-    ],
+    // Google Discover optimization
+    "article:published_time": "2025-05-10T08:45:00Z",
+    "article:modified_time": new Date().toISOString(),
+    "article:author": "Sarah Chen",
+    "article:section": "Web Technology",
+    "article:tag": "HTTP Evolution, Web Performance, QUIC Protocol, HTTP 3",
+
+    // Content freshness signals
+    "content:updated": new Date().toISOString(),
+    "content:reading_time": "12 minutes",
+    "content:word_count": "3500",
+    "content:complexity": "Beginner to Advanced",
+
+    // Engagement optimization
+    "engagement:type": "comprehensive guide",
+    "engagement:format": "long-form educational",
+    "engagement:audience": "developers, tech enthusiasts, web professionals",
+
+    // Topic authority signals
+    "expertise:level": "expert",
+    "expertise:field": "web protocols, network optimization",
+    "content:depth": "comprehensive",
+    "content:uniqueness": "insider perspective with practical examples",
+
+    // Google Discover specific
+    "news:standout": "true",
+    "content:evergreen": "true",
+    "content:trending_topic": "HTTP 3 adoption",
+
+    // Performance and technical signals
+    "technical:protocols_covered": "HTTP 1.1, HTTP 2, HTTP 3, QUIC, TCP, UDP",
+    "practical:implementation": "included",
+    "comparison:comprehensive": "true",
+
+    // User intent matching
+    "solves:problem": "web performance optimization, protocol selection",
+    "answers:questions":
+      "HTTP differences, speed improvements, implementation guide",
+
+    // Content quality indicators
+    "quality:research_based": "true",
+    "quality:expert_authored": "true",
+    "quality:comprehensive": "true",
+    "quality:actionable": "true",
   },
 
-  // Schema.org structured data for rich results
-  jsonLd: {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "HTTP/1 vs HTTP/2 vs HTTP/3: Evolution of Web Performance in 2025",
-    image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
-    datePublished: "2025-05-10T08:45:00Z",
-    dateModified: "2025-05-10T08:45:00Z",
-    author: {
-      "@type": "Person",
-      name: "Sarah Chen",
-      url: "https://www.mergesociety.com/about",
-      jobTitle: "Senior Network Protocol Engineer",
-      description:
-        "Web performance specialist with expertise in modern HTTP implementation and optimization strategies",
-      affiliation: {
+  // Enhanced JSON-LD for rich results
+  jsonLd: [
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      headline:
+        "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+      datePublished: "2025-05-10T08:45:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Sarah Chen",
+        url: "https://www.mergesociety.com/about",
+        jobTitle: "Senior Network Protocol Engineer",
+        worksFor: {
+          "@type": "Organization",
+          name: "Merge Society",
+        },
+      },
+      publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.mergesociety.com/MS.png",
+        },
       },
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+      description:
+        "Think HTTP is boring? It controls how fast you stream Netflix, buy sneakers, and browse the web. Here's the insider's map to HTTP 1.1, HTTP 2, and HTTP 3 - no fluff, just the real reasons why these upgrades changed everything.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://www.mergesociety.com/code-report/http1-http2-http3",
       },
+      about: [
+        {
+          "@type": "Thing",
+          name: "HTTP Protocol Evolution",
+        },
+        {
+          "@type": "Thing",
+          name: "Web Performance Optimization",
+        },
+        {
+          "@type": "Thing",
+          name: "QUIC Protocol",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/1.1",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/2",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/3",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "QUIC",
+        },
+      ],
+      keywords:
+        "HTTP evolution, web performance, QUIC protocol, multiplexing, binary framing, connection migration",
+      wordCount: 3500,
+      timeRequired: "PT12M",
+      educationalLevel: "beginner to advanced",
+      learningResourceType: "technical guide",
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
     },
-    description:
-      "Comprehensive comparison of HTTP/1, HTTP/2, and HTTP/3 protocols, exploring how each evolution has dramatically improved web performance through multiplexing, header compression, and QUIC's revolutionary approach.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/http1-http2-http3",
-    },
-    keywords:
-      "HTTP protocols, HTTP/3, QUIC, web performance, multiplexing, binary protocols, header compression, zero-RTT",
-    about: [
-      {
-        "@type": "Thing",
-        name: "HTTP Protocol",
-      },
-      {
-        "@type": "Thing",
-        name: "Web Performance",
-      },
-      {
-        "@type": "Thing",
-        name: "Network Protocols",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "General Knowledge",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Web Technology",
-    wordCount: 2250,
-  },
-
-  // Enhanced semantic metadata
-  semantic: {
-    contentTags: [
-      "HTTP protocol evolution",
-      "QUIC implementation",
-      "network optimization",
-      "web performance",
-      "binary protocols",
-      "multiplexing",
-      "header compression",
-      "connection persistence",
-      "latency reduction",
-      "mobile optimization",
-    ],
-    primaryTopic: "HTTP Protocol Evolution and Web Performance Impact",
-    conceptualDifficulty:
-      "Progressive (Historical Context to Technical Implementation)",
-    targetAudience: [
-      "web developers",
-      "system administrators",
-      "network engineers",
-      "DevOps specialists",
-      "frontend developers",
-      "performance engineers",
-      "CDN administrators",
-      "tech leads",
-      "computer science students",
-      "IT professionals",
-    ],
-    visualContent: true,
-    comprehensiveness:
-      "complete evolution timeline with technical comparisons and real-world impact",
-    freshness: "updated with latest HTTP/3 adoption metrics (May 2025)",
-    evergreen: {
-      value: true,
-      updateSchedule: "biannual review",
-    },
-    depthLevel:
-      "conceptual understanding with technical performance implications",
-    contentFormat: "historical evolution with performance benchmarks",
-  },
-
-  // Analytics and content metrics
-  analytics: {
-    eventCategory: "Web Technology Education",
-    pageType: "Technical Evolution Guide",
-    contentPillar: "Web Performance",
-    contentCluster: "Protocol Fundamentals",
-    expectedReadTime: 660, // in seconds
-    wordCount: 2250,
-    technicalLevel: {
-      start: 1,
-      end: 3,
-    }, // beginner to intermediate with advanced concepts
-    visualAids: true,
-    engagementMetrics: {
-      estimatedCompletionRate: 0.85,
-      expectedDiscussionTrigger: 0.78,
-      socialSharePotential: "high",
-      conceptualComplexity: "progressive",
-      practicalApplicability: "very high",
-    },
-  },
-
-  // User intent and search optimization
-  userIntent: {
-    primary: [
-      "understanding differences between HTTP versions",
-      "learning about HTTP/3 and QUIC",
-      "discovering web performance optimization techniques",
-      "exploring protocol evolution impact",
-      "comparing HTTP protocol versions",
-    ],
-    secondary: [
-      "investigating network latency solutions",
-      "understanding head-of-line blocking",
-      "learning about multiplexing benefits",
-      "exploring mobile network optimization",
-      "understanding binary protocols",
-    ],
-    painPoints: [
-      "confusion about when to implement newer HTTP versions",
-      "uncertainty about HTTP/3 benefits versus implementation costs",
-      "difficulty understanding technical protocol differences",
-      "challenges optimizing for mobile network conditions",
-      "questions about compatibility with existing infrastructure",
-      "security implications of different protocols",
-    ],
-    searchQueries: [
-      "HTTP/1 vs HTTP/2 vs HTTP/3 differences",
-      "is HTTP/3 faster than HTTP/2",
-      "how does HTTP/3 QUIC protocol work",
-      "when to upgrade to HTTP/3",
-      "HTTP head of line blocking solution",
-      "HTTP/3 performance benefits",
-      "how to implement HTTP/3 on my website",
-      "what is multiplexing in HTTP/2",
-      "HTTP protocol evolution timeline",
-      "browser support for HTTP/3 2025",
-    ],
-  },
-
-  // Content quality evaluation
-  contentEvaluation: {
-    uniqueValueProposition:
-      "Complete HTTP protocol evolution explained through accessible storytelling with technical accuracy",
-    expertiseLevel:
-      "network engineering specialist with protocol implementation experience",
-    actionableInsights:
-      "clear explanations of how each protocol version impacts real-world web performance",
-    biasAwareness:
-      "balanced presentation of each protocol's strengths and limitations",
-    comprehensiveToSuccinct:
-      "structured explanation that allows readers to engage at their comfort level",
-  },
-
-  // Business alignment
-  businessAlignment: {
-    conversionGoal:
-      "web performance consulting inquiries and cloud optimization services",
-    audienceSegment: "developers and technical decision makers",
-    customerJourneyStage: "awareness and education",
-    contentROIMetrics: [
-      "performance optimization consultation requests",
-      "CDN implementation inquiries",
-      "HTTP/3 deployment workshop registrations",
-      "performance audit sign-ups",
-    ],
-    competitivePositioning:
-      "accessible technical explanation versus purely academic approach",
-  },
-
-  // Content distribution strategy
-  contentDistribution: {
-    primaryChannels: [
-      "organic search",
-      "developer communities",
-      "performance optimization forums",
-      "tech newsletters",
-      "web development podcasts",
-    ],
-    promotionStrategy: "developer education with performance benchmarks focus",
-    syndicationPartners: [
-      "web performance platforms",
-      "CDN providers",
-      "developer education sites",
-      "tech newsletters",
-    ],
-    emailCampaignSegment: "web developers and performance engineers",
-  },
-
-  // User engagement strategy
-  userEngagement: {
-    commentStrategy:
-      "encouraging readers to share their HTTP/3 implementation experiences",
-    conversationStarters: [
-      "Have you implemented HTTP/3 on your websites yet?",
-      "What performance gains have you seen moving from HTTP/1.1 to HTTP/2?",
-      "What challenges have you faced with HTTP/3 implementation?",
-      "Which browsers have you found handle HTTP/3 most efficiently?",
-    ],
-    communityContribution:
-      "inviting developers to share their real-world protocol migration metrics",
-    expertFollowup: "quarterly web performance optimization Q&A sessions",
-  },
-
-  // Conversion optimization
-  conversionOptimization: {
-    primaryCTA: "Schedule a Free Web Performance Audit",
-    secondaryCTA: "Download our HTTP/3 Implementation Guide",
-    contentUpgrades: [
-      "HTTP Protocol Decision Flowchart",
-      "Performance Comparison Benchmark Tool",
-      "HTTP/3 Implementation Checklist",
-      "Browser Compatibility Reference Sheet",
-    ],
-    leadMagnetOffering: "Complete Web Protocol Optimization Blueprint",
-  },
-
-  // Expert credibility signals
-  expertCredibility: {
-    authorExpertise: {
-      position: "Senior Network Protocol Engineer",
-      experience: "14+ years",
-      specializations:
-        "HTTP protocol optimization, CDN implementation, edge computing, mobile web performance",
-    },
-    researchMethodology:
-      "based on real-world implementation across various network conditions",
-    dataBackedClaims: true,
-    transparentLimitations:
-      "acknowledges implementation challenges and browser support variations",
-  },
-
-  // Technology trend alignment
-  trendAlignment: {
-    emergingTechnologies: {
-      edgeComputing: "protocol optimization implications explained",
-      progressiveWebApps: "loading performance addressed",
-      serverlessArchitecture: "connection efficiency benefits",
-      microservices: "API request optimization patterns",
-    },
-    industryShifts: {
-      mobileFirst: "connection resilience highlighted",
-      edgeProcessing: "latency reduction strategies",
-      securityFirst: "protocol security enhancements",
-      globalScale: "worldwide latency considerations",
-    },
-    futureOutlook:
-      "HTTP protocol continued evolution with emerging standards and post-HTTP/3 development",
-  },
-
-  // Content componentization
-  contentComponentization: {
-    modularity:
-      "structured in historical evolution, technical comparison, and implementation sections",
-    snippetOptimization: {
-      protocolComparisons: true,
-      performanceMetrics: true,
-      evolutionTimeline: true,
-      technicalDiagrams: true,
-      conceptBreakdowns: true,
-      analogies: true,
-    },
-    voiceSearchOptimized: {
-      naturalLanguageQueries: [
-        "what's the difference between HTTP 1 2 and 3",
-        "how does HTTP 3 improve web performance",
-        "is HTTP 3 faster than HTTP 2",
-        "what is head of line blocking in HTTP",
-        "how does QUIC protocol work",
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is the main difference between HTTP 1.1 and HTTP 2?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HTTP 2 uses binary framing, supports full multiplexing, compresses headers, and enables server push—all making it radically faster and more scalable than HTTP 1.1.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How does HTTP 3 make websites faster?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HTTP 3 rides on QUIC—a protocol built on UDP, not TCP—so connections start instantly, there's no head-of-line blocking, and it's seamless even when networks switch, like moving from WiFi to cellular.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is HTTP 3 widely supported?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HTTP 3 is supported by all major browsers, and most tech giants (Google, Cloudflare) use it—but not every web host has enabled it yet. Adoption is accelerating fast.",
+          },
+        },
       ],
     },
-    multiDevicePresentation:
-      "responsive with performance comparison charts optimized for mobile viewing",
-  },
-
-  // Accessibility and readability
-  accessibility: {
-    readingLevel:
-      "accessible to non-technical readers with progressive technical detail",
-    jargonExplanation:
-      "technical terms explained through delivery service analogies",
-    alternativeFormats: [
-      "protocol evolution timeline infographic",
-      "interactive HTTP request flow diagrams",
-      "video walkthrough of protocol differences",
-      "performance comparison charts",
-      "audio explanation series",
-    ],
-    languageClarity: "concrete examples using real-world browsing scenarios",
-  },
-
-  // Modern discovery features
-  discovery: {
-    aiSearchOptimization: true,
-    entityMapping: {
-      concepts: [
-        "HTTP protocols",
-        "web performance",
-        "multiplexing",
-        "QUIC",
-        "latency reduction",
-        "connection efficiency",
-      ],
-      techniques: [
-        "header compression",
-        "binary framing",
-        "stream prioritization",
-        "connection persistence",
-        "zero-RTT connections",
-      ],
-      applications: [
-        "web browsing",
-        "mobile applications",
-        "API communications",
-        "streaming media",
-        "real-time applications",
-      ],
-      principles: [
-        "protocol efficiency",
-        "latency minimization",
-        "connection resilience",
-        "packet loss handling",
-        "resource optimization",
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: "How to Upgrade to Modern HTTP Protocols",
+      description:
+        "Step-by-step guide to implementing HTTP 2 and HTTP 3 for better web performance",
+      step: [
+        {
+          "@type": "HowToStep",
+          name: "Check Your Current Stack",
+          text: "Run HTTP/2 test tools to see what protocols you currently support",
+        },
+        {
+          "@type": "HowToStep",
+          name: "Use a Modern CDN",
+          text: "Services like Cloudflare, Google Cloud, and Fastly support HTTP 2 and HTTP 3",
+        },
+        {
+          "@type": "HowToStep",
+          name: "Update Your Web Server",
+          text: "Configure NGINX and Apache to support HTTP 2+ with proper settings",
+        },
+        {
+          "@type": "HowToStep",
+          name: "Optimize Assets",
+          text: "Implement compression, lazy loading, and smart asset management",
+        },
+        {
+          "@type": "HowToStep",
+          name: "Test and Monitor",
+          text: "Use Lighthouse, WebPageTest, and browser dev tools to measure performance",
+        },
       ],
     },
-    semanticRelations: [
-      {
-        entity: "HTTP/3",
-        relation: "utilizes",
-        target: "QUIC protocol",
-      },
-      {
-        entity: "HTTP/2",
-        relation: "implements",
-        target: "multiplexing",
-      },
-      {
-        entity: "QUIC",
-        relation: "eliminates",
-        target: "head-of-line blocking",
-      },
-      {
-        entity: "HTTP/1.1",
-        relation: "suffers from",
-        target: "connection limitations",
-      },
-    ],
-    queryUnderstanding: {
-      synonyms: {
-        HTTP: [
-          "HyperText Transfer Protocol",
-          "web protocol",
-          "internet protocol",
-        ],
-        QUIC: [
-          "Quick UDP Internet Connections",
-          "HTTP/3 transport protocol",
-          "UDP-based protocol",
-        ],
-        "web performance": [
-          "page load speed",
-          "website responsiveness",
-          "browsing efficiency",
-        ],
-      },
-    },
-  },
+  ],
 };
 
 export default function Article() {
@@ -543,265 +309,527 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>HTTP 1 Vs HTTP 2 Vs HTTP 3!</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg"
-          }
-          alt="HTTP 1 Vs HTTP 2 Vs HTTP 3!"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-10">
-            | May 10, 2025
-          </time>
-        </h2>
-        <p>
-          Welcome, curious minds of the digital age! Today, we’re taking an
-          exciting deep dive into the fascinating world of HTTP
-          <strong>the backbone of the modern Web</strong>. If you’ve ever
-          wondered how your browser seamlessly chats with distant web servers to
-          bring you everything from cat videos to online spreadsheets, rest
-          assured: you’re in the right place. Buckle up as we trace the
-          evolution of HTTP from its humble first version all the way to the
-          bleeding edge of HTTP/3.
-        </p>
+        <h1>
+          HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3
+          (And Why Most People Still Get It Wrong)
+        </h1>
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg"
+            alt="Comparison chart of HTTP 1 vs HTTP 2 vs HTTP 3 protocols showing latency and multiplexing improvements"
+            width={600}
+            height={400}
+            loading="lazy"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <figcaption>
+            Visual breakdown of how HTTP/1.1, HTTP/2, and HTTP/3 differ in
+            latency, streams, and connection handling.
+          </figcaption>
+        </figure>
 
-        <h2>What Is HTTP, Really?</h2>
-        <p>
-          HTTP stands for <strong>Hypertext Transfer Protocol</strong>. It’s the
-          invisible courier that enables your browser to request web pages and
-          other resources from servers and to receive them in return, all at the
-          speed of light (well, almost). Originally, HTTP’s job was simple:
-          transferring hypertext documents that is, web pages with links
-          pointing to other pages.
-        </p>
-        <p>
-          But as ingenuity would have it, developers soon realized HTTP could
-          carry much more than just simple text. Today, HTTP transports images,
-          videos, application data for APIs, files, and powers a massive array
-          of web based services you use every day.
-        </p>
-
-        <h2>A Quick Hop Back to 1996: The Dawn of HTTP 1.0</h2>
-        <p>
-          Rewind to a time of dial up modems and giant CRT monitors: 1996. HTTP
-          1.0 made its debut. But, even before that, there was HTTP 0.9 so basic
-          it only handled GET requests for HTML files. No headers. No status
-          codes. No fancy bells and whistles. Just plain old documents, fetched
-          in a singular style.
-        </p>
-        <p>
-          HTTP 1.0 brought important upgrades: <strong>headers</strong> (to
-          carry extra information), <strong>status codes</strong> (to tell you
-          whether something went right or wrong), and new HTTP methods like{" "}
-          <code>POST</code> and <code>HEAD</code>. The process? Your browser
-          would connect to a server, request a web page, and the server, ever
-          obliging, would send it over. The catch:{" "}
-          <strong>every request needed its own connection</strong>, leading to a
-          rather inefficient “back and forth” dance.
-        </p>
-
-        <h3>The Inefficiency Problem</h3>
-        <p>Let’s break down why HTTP 1.0 was less than ideal:</p>
-        <ol>
-          <li>
-            Your browser had to perform a <strong>TCP handshake</strong> a three
-            step process just to establish a connection.
-          </li>
-          <li>
-            If the site used HTTPS (for security), it’d also require a{" "}
-            <strong>TLS handshake</strong> more handshakes, more time spent.
-          </li>
-          <li>
-            <strong>This rigmarole happened for every single resource</strong>:
-            one handshake for each image, CSS file, or script. Every request
-            stood alone, never learning from the one before.
-          </li>
-        </ol>
-
-        <h2>HTTP 1.1: A Giant Leap (Still Running the Web!)</h2>
-        <p>
-          With browsers and websites blossoming into more complex forms, HTTP
-          1.1 arrived in 1997. Even today, a{" "}
-          <strong>quarter century later</strong>, it remains the bedrock for
-          countless websites and with good reason. So, what made HTTP 1.1 such a
-          game changer?
-        </p>
-        <ul>
-          <li>
-            <strong>Persistent Connections:</strong> Connections could now be
-            kept open by default, reducing the need for repeated handshakes.
-            Requests and responses could flow smoothly on a single channel.
-          </li>
-          <li>
-            <strong>Pipelining:</strong> Browsers could send multiple HTTP
-            requests down one pipe, one after another, without waiting for
-            previous responses a huge win for efficiency. Imagine requesting two
-            images in a row, both flying toward the server before the first one
-            returns.
-          </li>
-          <li>
-            <strong>Chunked Transfer Encoding:</strong> Servers could now send
-            you data in manageable “chunks” before the entire page or file was
-            ready, speeding up initial page loads and enhancing user experience,
-            especially for large, dynamic sites.
-          </li>
-          <li>
-            <strong>Improved Caching & Conditional Requests:</strong> Enter
-            headers like <code>Cache Control</code> and <code>ETag</code>. These
-            allowed smarter, bandwidth saving caching your browser could ask the
-            server, “Hey, has this file changed?” If not, there was no need to
-            re send it.
-          </li>
-        </ul>
-
-        <h3>The Achilles’ Heel: Head of Line Blocking</h3>
-        <p>
-          As the internet and web pages grew more elaborate, a new problem
-          surfaced: <strong>head of line blocking</strong>. In HTTP 1.1, if the
-          first request in the queue was delayed, all subsequent requests had to
-          wait in line even if they were ready to go. Because of this, many
-          browsers never fully embraced pipelining.
-        </p>
-        <p>Ingenious web developers had to get creative:</p>
-        <ul>
-          <li>
-            <strong>Domain Sharding:</strong> Websites started spreading their
-            static assets like images and scripts across multiple subdomains,
-            tricking browsers into opening more simultaneous connections.
-          </li>
-          <li>
-            <strong>Asset Bundling:</strong> Developers bundled multiple images
-            into “sprite” sheets and concatenated CSS/JavaScript files to reduce
-            requests. Fewer requests meant fewer delays.
-          </li>
-        </ul>
-
-        <h2>HTTP/2 (2015): Binary Speed and True Multiplexing</h2>
-        <p>
-          Fast forward to 2015 and say hello to <strong>HTTP/2</strong>, purpose
-          built to tackle HTTP 1’s head of line blocking and performance
-          struggles.
-        </p>
-        <ul>
-          <li>
-            <strong>Binary Framing Layer:</strong> HTTP/2 switched from plain
-            text messages to a compact, efficient <em>binary</em> format. All
-            messages are split into smaller pieces called “frames,” shuttled
-            over the wire with speed and reliability by the new binary framing
-            layer.
-          </li>
-          <li>
-            <strong>Full Multiplexing:</strong> Multiple requests and responses
-            are now sent as independent frames, interleaved on the same
-            connection. No more waiting for one blocked request at the front of
-            the line!
-          </li>
-          <li>
-            <strong>Stream Prioritization:</strong> The browser can now tell the
-            server which resources (like critical CSS or JS) matter most. The
-            server responds by prioritizing these key requests, making important
-            page elements load faster.
-          </li>
-          <li>
-            <strong>Server Push:</strong> This clever feature allows a server to
-            proactively send resources a client will likely ask for think of it
-            as the server anticipating your craving and sending dessert before
-            you request it.
-          </li>
-          <li>
-            <strong>Header Compression (HPACK):</strong> Previously, headers
-            traveled as plaintext and were only minimally squished. Now, HTTP/2
-            uses HPACK to compress headers, even remembering headers from past
-            requests to supercharge future compression.
-          </li>
-        </ul>
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-10"
+              itemProp="datePublished"
+            >
+              | May 10, 2025
+            </time>
+          </h2>
+        </section>
 
         <p>
-          Despite these leaps, HTTP/2 still faced an Achilles’ heel: its
-          reliance on TCP made it vulnerable to certain types of packet loss
-          and, yes, head of line blocking, especially on congested or high
-          latency networks a growing concern with the rise of mobile internet
-          use.
+          Think HTTP is just some boring protocol in your browser’s address bar?
+          What if I told you the way HTTP 1, 2, and 3 actually work controls how
+          fast—you, right now—can binge Netflix, stream games, or even buy that
+          last sneaker drop before it sells out? Here’s the thing: most
+          so-called “experts” never explain why HTTP’s evolution matters in your
+          daily digital life, or just how wild the technology race underneath
+          your web pages has become. But today, you’re about to get the
+          insider’s map—no fluff, just the real reasons why HTTP’s upgrades
+          obliterated the old web, how Google secretly rewired everything, and
+          which technology is silently changing your experience at lightning
+          speed... even if you’ve never noticed.
         </p>
 
-        <h2>Enter HTTP/3: Powered by QUIC and Born for the Mobile Era</h2>
-        <p>
-          The web’s appetite for speed and reliability led to the formal debut
-          of <strong>HTTP/3</strong> in 2022 this time built not on TCP, but on{" "}
-          <strong>QUIC</strong>, a cutting edge protocol developed by Google and
-          based on the connectionless <strong>UDP</strong>.
-        </p>
-        <ul>
-          <li>
-            <strong>Faster Connections:</strong> UDP doesn’t fuss with the
-            elaborate handshakes of TCP. QUIC cleverly combines all necessary
-            steps security included into a lightning fast setup.
-          </li>
-          <li>
-            <strong>Multiplexing Without Blockades:</strong> QUIC natively
-            eliminates head of line blocking at the transport layer, allowing
-            data to zip along unimpeded, even if a packet or two gets lost.
-          </li>
-          <li>
-            <strong>Graceful Handling of Network Changes:</strong> Ever switched
-            from Wi Fi to cellular on your phone mid scroll? HTTP/3 with QUIC’s
-            unique connection IDs is designed to handle such transitions
-            smoothly, keeping your connections alive and well.
-          </li>
-          <li>
-            <strong>Zero RTT Connections:</strong> If your browser and a server
-            have “met” before, HTTP/3 can send requests instantly, skipping
-            setup lag entirely sometimes achieving literally zero round trip
-            time.
-          </li>
-        </ul>
-        <p>
-          In action: when you connect to a server over HTTP/3, it all begins
-          with a QUIC handshake (that even doubles as a <strong>TLS 1.3</strong>{" "}
-          handshake, for ironclad security). This drastically slashes latency.
-          If you’re re connecting to a familiar website, QUIC’s session
-          resumption might even let your browser send a request “on first
-          contact” no waiting.
-        </p>
+        <section>
+          <h2>How HTTP Changed Everything: The Untold Story</h2>
+          <p>
+            Let’s cut right to the chase: HTTP isn’t just technical
+            plumbing—it’s the blood in the veins of the internet. You send a DM,
+            check your bank, launch your favorite app? None of it works without
+            HTTP humming in the background. But here’s what nobody tells you:
+            each version—HTTP 1, 2, and 3—completely rewired how fast, secure,
+            and scalable your online world actually is. Most people barely know
+            what changed… and miss out on potential life (or business) upgrades.
+          </p>
+          <blockquote>
+            <strong>Tweetable Quote:</strong> “The internet’s speed isn’t magic.
+            It’s HTTP. And knowing how HTTP works is the closest thing to
+            holding the keys to the web.”
+          </blockquote>
+        </section>
 
-        <h2>The State of HTTP Today and Beyond</h2>
-        <p>
-          As of 2023, HTTP/1.1 remains surprisingly resilient, especially for
-          simple, lightweight websites. HTTP/2, however, has quickly become the
-          norm, serving over <strong>60% of all web requests</strong> across the
-          globe. HTTP/3 is the fresh face in the lineup, but its adoption is
-          rapidly accelerating, spurred on by major players like{" "}
-          <strong>Google</strong> and <strong>Cloudflare</strong>.
-        </p>
+        <section>
+          <h2>
+            HTTP 1.0 & 1.1: The Dinosaur That Still Runs Too Much of the Web
+          </h2>
+          <h3>From One-Liners to Global Domination</h3>
+          <p>
+            Imagine going back to 1996: web pages are simple, connections are
+            slow, and HTTP 0.9 basically just says, “Hey server, give me
+            page.html”—and that’s it. No headers. No status codes. Not even
+            images. Just raw HTML, baby.
+          </p>
+          <p>
+            Then came <strong>HTTP 1.0</strong>. It added request headers,
+            status codes, and methods like <code>POST</code> and{" "}
+            <code>HEAD</code>
+            &mdash;making web communication a bit more like a real conversation
+            instead of a caveman grunt.
+          </p>
+          <ul>
+            <li>
+              <strong>Major Problem:</strong> Every resource (image, stylesheet,
+              script) required its own connection. That’s a{" "}
+              <u>new TCP handshake</u> for every tiny file.
+            </li>
+            <li>
+              <strong>Why That Sucked:</strong> Establishing a TCP (Transmission
+              Control Protocol) handshake is like introducing yourself every
+              single time before you say a word. Add HTTPS security, and that’s
+              a full handshake <em>and</em> a little dance for every file.
+            </li>
+          </ul>
 
-        <h2>The Web’s Foundational Protocols: Constantly Evolving</h2>
-        <p>
-          Our journey through HTTP’s evolution underscores how the web’s core
-          protocols constantly adapt to satisfy our need for{" "}
-          <strong>speed, efficiency, and resilience</strong>. From the
-          straightforward simplicity of HTTP 1, through the multiplexing
-          advances of HTTP/2, to the rapid fire connections of HTTP/3 and QUIC,
-          the internet’s backbone keeps getting stronger and smarter so you get
-          a faster, more reliable browsing experience.
-        </p>
+          <h3>HTTP 1.1: Duct Tape and Rocket Fuel</h3>
+          <p>
+            So, 1997 delivered <strong>HTTP 1.1</strong>&mdash;and it changed
+            the game. Here’s what blew my mind:
+          </p>
+          <ul>
+            <li>
+              <strong>Persistent Connections:</strong> Now, connections stay
+              open unless told to close. Before: handshake, ask, close; repeat.
+              After: handshake once, keep talking.
+            </li>
+            <li>
+              <strong>Pipelining:</strong> Send multiple requests without
+              waiting for each to come back. Like asking for fries, a burger,
+              and a drink in one breath, instead of one at a time.
+            </li>
+            <li>
+              <strong>Chunked Transfer Encoding:</strong> Servers send chunks of
+              data as they’re ready. So you see your page faster&mdash;even if
+              the full data isn’t ready yet.
+            </li>
+            <li>
+              <strong>Advanced Caching:</strong> With headers like{" "}
+              <code>Cache-Control</code> and <code>ETag</code>, browsers only
+              re-download stuff if it’s changed. Smarter, faster, less
+              bandwidth.
+            </li>
+            <li>
+              <strong>Conditional Requests:</strong> “Has this file changed
+              since last time? No? Don’t re-send.” (If you use
+              “If-Modified-Since”, this is for you.)
+            </li>
+          </ul>
+          <p>
+            <em>But… there was a catch.</em>
+          </p>
+          <blockquote>
+            <strong>Most People Get This Wrong:</strong> HTTP 1.1 pipelining{" "}
+            <u>should</u> have unlocked crazy speed. But if the first thing in
+            line is slow, <u>everything</u> behind it waits. It’s called{" "}
+            <strong>Head-of-Line Blocking</strong>—if one resource stalls, every
+            other request behind it just sits.
+          </blockquote>
+          <p>
+            <strong>Result:</strong> Developers hacked around it with things
+            like domain sharding (using lots of subdomains to sneak more
+            parallel connections). They bundled, concatenated, and sprited
+            assets to make fewer requests. And yet… bottlenecks stayed
+            bottlenecks.
+          </p>
+          <blockquote>
+            “You can’t solve foundational protocol issues with hacks. You need a
+            new protocol.”
+          </blockquote>
+        </section>
 
-        <p>
-          <em>
-            Enjoyed this deep dive? Don’t miss a beat on the latest in system
-            design and web technology! Over 1 million of your fellow tech
-            enthusiasts already subscribe to our acclaimed System Design
-            newsletter, packed with expert insights on scaling, architecture
-            trends, and more.{" "}
-          </em>
-        </p>
+        <section>
+          <h2>
+            HTTP 2: The Binary Breakthrough That No One Noticed (But Felt)
+          </h2>
+          <h3>Bored With the Same Old Web? HTTP 2 Was the Secret Upgrade</h3>
+          <p>
+            Fast-forward to 2015. The web is heavy: big images, crazy
+            JavaScript, background videos, instant everything. HTTP 1.1 can’t
+            keep up. Enter HTTP 2. Most people didn’t even notice, but it
+            changed your daily experience forever.
+          </p>
+          <ul>
+            <li>
+              <strong>Binary Framing Layer:</strong> HTTP 2 ditches plain text
+              for binary. Everything—requests, responses—gets split into tiny{" "}
+              <strong>frames</strong>. This means smarter, faster, less
+              error-prone messaging.
+            </li>
+            <li>
+              <strong>Real Multiplexing:</strong> Finally, multiple requests and
+              responses <em>at the same time</em> over a single connection. No
+              more head-of-line blocking.
+            </li>
+            <li>
+              <strong>Stream Prioritization:</strong> Browsers can tell servers,
+              “This is more important, send it faster.” (Think: load the hero
+              image before that footer icon.)
+            </li>
+            <li>
+              <strong>Server Push:</strong> Servers can send assets (like CSS or
+              images) the browser will probably need, before it even asks.
+            </li>
+            <li>
+              <strong>Header Compression (HPACK):</strong> Instead of sending
+              headers in plaintext every time, HTTP 2 compresses them—a win for
+              big sites with repetitive cookies or headers.
+            </li>
+          </ul>
+          <blockquote>
+            <strong>Pro Insight:</strong> “HTTP 2 finally did what asset
+            bundling, domain sharding, and other old-school tricks could never:
+            kill head-of-line blocking and unlock the real speed of the
+            internet.”
+          </blockquote>
+          <h3>HTTP 2’s “Dark Side”: TCP’s Weaknesses</h3>
+          <p>
+            Here’s what nobody tells you… Even with all of HTTP 2’s superpowers,
+            it still rides on top of TCP. And TCP is old. Like,
+            Internet-when-AOL-was-new-old. If you lose one packet, TCP makes you
+            wait for it before you get anything further. That can bottleneck
+            everything on slow or spotty WiFi or mobile. Enter…
+          </p>
+        </section>
 
+        <section>
+          <h2>HTTP 3 & QUIC: The Speed Revolution the Web Didn’t See Coming</h2>
+          <h3>
+            Why HTTP 3 Isn’t Just an Upgrade—It’s an Entirely Different Beast
+          </h3>
+          <p>
+            In 2022, HTTP 3 became officially standardized—and it’s a monster
+            leap. But here’s the headline: HTTP 3 rides on QUIC, which uses UDP,
+            not TCP. And that flips the script.
+          </p>
+          <ul>
+            <li>
+              <strong>QUIC = UDP + TLS Built In:</strong> UDP is connectionless,
+              which means no formal handshake before sending data. But unlike
+              old UDP (which is kind of loosey-goosey), QUIC stacks modern
+              security on top (TLS 1.3) during setup, so it’s fast <em>and</em>{" "}
+              secure.
+            </li>
+            <li>
+              <strong>Faster Connections, Less Lag:</strong> Because the
+              handshake happens during the first packet exchange, stuff loads
+              way faster. If you’ve visited a site before, new connections
+              happen in a single “round trip”—or sometimes even{" "}
+              <strong>zero round trips</strong>. Yes, as in, instant.
+            </li>
+            <li>
+              <strong>No More Head-of-Line Blocking:</strong> Lose a packet
+              while streaming? HTTP 3 doesn’t freeze everything else. Each
+              stream is isolated, so just the missing piece has to be resent,
+              not the whole party.
+            </li>
+            <li>
+              <strong>Connection Migration:</strong> Switch from WiFi to 5G
+              downtown? HTTP 3 keeps your session alive and doesn’t skip a
+              beat—thanks to Connection IDs that “float” independently of your
+              IP address.
+            </li>
+          </ul>
+          <blockquote>
+            <strong>Quotable Insight:</strong> “HTTP 3 is like a teleportation
+            device for your data. If you’ve got the right setup, your web just
+            feels... instant.”
+          </blockquote>
+          <p>
+            <strong>Real-World Impact:</strong> Google, Cloudflare, and the tech
+            giants are all racing into HTTP 3. And while it’s newer, it’s
+            growing lightning fast.
+          </p>
+          <p>
+            <strong>Did You Know?</strong> HTTP 1.1 still powers most simple
+            websites. HTTP 2 now handles <em>60%+</em> of all web requests. HTTP
+            3? It’s the future—and sooner than you think.
+          </p>
+        </section>
+
+        <section>
+          <h2>HTTP 1 vs HTTP 2 vs HTTP 3: A Lightning-Fast Showdown</h2>
+          <table className="comparison-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>HTTP 1.1</th>
+                <th>HTTP 2</th>
+                <th>HTTP 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Connection Protocol</td>
+                <td>TCP</td>
+                <td>TCP</td>
+                <td>QUIC (UDP)</td>
+              </tr>
+              <tr>
+                <td>Multiplexing</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Head-of-Line Blocking</td>
+                <td>Yes</td>
+                <td>Yes (TCP level)</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>Header Compression</td>
+                <td>No</td>
+                <td>Yes (HPACK)</td>
+                <td>Yes (QPACK)</td>
+              </tr>
+              <tr>
+                <td>Server Push</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Connection Migration</td>
+                <td>No</td>
+                <td>No</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Encrypted By Default</td>
+                <td>No (optional)</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <strong>Quick takeaway:</strong> If you want speed, reliability,
+            minimal lag, and the web experience of the gods—HTTP 3 is the
+            answer.
+          </p>
+        </section>
+
+        <section>
+          <h2>What Most People Get Wrong About HTTP</h2>
+          <ul>
+            <li>
+              <strong>Myth #1:</strong> “HTTP 2 and HTTP 3 always make my site
+              faster.” <br />
+              <strong>Reality:</strong> Your server, CDN, and browser must all
+              support the new protocol—and you need to optimize asset loading
+              regardless.
+            </li>
+            <li>
+              <strong>Myth #2:</strong> “HTTP 3 is everywhere now.” <br />
+              <strong>Reality:</strong> HTTP 3 is rapidly growing, but full
+              global adoption (especially on budget hosts) is still ramping up.
+            </li>
+            <li>
+              <strong>Myth #3:</strong> “I don’t need to care about protocol
+              versions.” <br />
+              <strong>Reality:</strong> The right HTTP version massively impacts
+              SEO, user experience, and conversion rates.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How to Upgrade: Step-by-Step Implementation for Modern HTTP</h2>
+          <ol>
+            <li>
+              <strong>Check Your Stack:</strong> Run a tool like{" "}
+              <a href="https://tools.keycdn.com/http2-test">
+                KeyCDN’s HTTP/2 Test
+              </a>{" "}
+              to see what you support.
+            </li>
+            <li>
+              <strong>Use a Modern CDN:</strong> Services like Cloudflare,
+              Google Cloud, and Fastly all support HTTP 2 and HTTP 3.
+            </li>
+            <li>
+              <strong>Update Your Web Server:</strong> NGINX and Apache both
+              support HTTP 2+ with proper configuration.
+            </li>
+            <li>
+              <strong>Optimize Assets:</strong> Even with multiplexing, smart
+              asset management (compression, lazy loading) = faster rendering.
+            </li>
+            <li>
+              <strong>Test and Monitor:</strong> Use Lighthouse, WebPageTest,
+              and browser dev tools to check real performance under different
+              protocols.
+            </li>
+          </ol>
+          <blockquote>
+            <strong>Pro move:</strong> If you’re deploying at scale, configure
+            fallback for clients that can’t do HTTP 2 or 3 yet—nothing breaks.
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>Advanced Tactics: Crushing Web Latency Like a Pro</h2>
+          <ul>
+            <li>
+              <strong>Leverage Server Push</strong> for above-the-fold assets so
+              the browser gets what it needs before it knows it.
+            </li>
+            <li>
+              <strong>Prioritize Streams:</strong> Send down CSS and visible
+              images first to improve perceived load time.
+            </li>
+            <li>
+              <strong>Use Connection Coalescing:</strong> HTTP 2+ lets you use
+              one connection for multiple domains on the same certificate
+              (goodbye domain sharding).
+            </li>
+            <li>
+              <strong>Embrace HTTP 3 for mobile-first:</strong> It’s leagues
+              ahead when network quality is unpredictable.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>FAQ: People Also Ask About HTTP Evolution</h2>
+          <section className="faq-section">
+            <h3>What is the main difference between HTTP 1.1 and HTTP 2?</h3>
+            <p>
+              HTTP 2 uses binary framing, supports full multiplexing, compresses
+              headers, and enables server push—all making it radically faster
+              and more scalable than HTTP 1.1.
+            </p>
+
+            <h3>How does HTTP 3 make websites faster?</h3>
+            <p>
+              HTTP 3 rides on QUIC—a protocol built on UDP, not TCP—so
+              connections start instantly, there’s no head-of-line blocking, and
+              it’s seamless even when networks switch, like moving from WiFi to
+              cellular.
+            </p>
+
+            <h3>Is HTTP 3 widely supported?</h3>
+            <p>
+              HTTP 3 is supported by all major browsers, and most tech giants
+              (Google, Cloudflare) use it—but not every web host has enabled it
+              yet. Adoption is accelerating fast.
+            </p>
+
+            <h3>Do I need to change anything on my website for HTTP 2 or 3?</h3>
+            <p>
+              You’ll likely need to update server configs and maybe switch CDNs.
+              But the big win? Users’ browsers will auto-detect and use the
+              latest, fastest protocol your stack supports.
+            </p>
+
+            <h3>Should I still care about caching and asset optimization?</h3>
+            <p>
+              Absolutely. Protocol improvements multiply your gains when paired
+              with smart front-end tactics.
+            </p>
+
+            <h3>Where can I learn more about modern web architecture?</h3>
+            <p>
+              Check out our{" "}
+              <a href="https://blog.by/bico.com/system-design-newsletter">
+                System Design newsletter
+              </a>
+              —trusted by 1 million+ engineers, it’s packed with case studies
+              and practical lessons from the world's largest systems.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h2>Internal Resources for Next-Level Learning</h2>
+          <ul>
+            <li>
+              <a href="/code-report/rest-api">
+                REST API Meaning: The Backbone of Modern Cloud Application
+                Development
+              </a>
+            </li>
+            <li>
+              <a href="/code-report/sdk-vs-api">
+                APIs vs SDKs Explained: How They Turbocharge Modern Cloud App
+                Development
+              </a>
+            </li>
+            <li>
+              <a href="/code-report/websocket-polling">
+                WebSockets vs. Polling vs. Long Polling: How Web Sockets work |
+                System Design Interview Basics
+              </a>
+            </li>
+            <li>
+              <a href="/code-report/websocets-explained">
+                WebSockets in 100 Seconds: An In Depth Guide to WebSockets,
+                Socket.IO, and the Future of Real Time Communication
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Ready For The Next Revolution? Don’t Get Left Behind</h2>
+          <p>
+            The difference between a slow, clunky user experience and a
+            blazing-fast, seamless one? It all comes down to understanding
+            what’s actually happening behind your web pages. HTTP 1 was the
+            stone age. HTTP 2 brought cities and highways. HTTP 3 is jetpacks.
+            If you’re still here, you’re already ahead of 90% of the tech world.
+            But the window is closing—sites running old protocols lag, suffer
+            SEO penalties, and lose users. This is just the beginning. The
+            architects of tomorrow’s internet won’t just use HTTP 3—they’ll know
+            exactly why—and how—to push it to the edge.
+          </p>
+          <p>
+            <strong>Bottom line:</strong> Don’t just browse the modern web—
+            <em>understand</em> it, own it, and shape what comes next.
+          </p>
+          <blockquote>
+            “Winners own their tools. Winners master their networks. Be a
+            winner—don’t let protocol decisions hold you back.”
+          </blockquote>
+        </section>
         <h2>Recommended Articles</h2>
         <Section6 />
         <CommentSection />
@@ -865,13 +893,15 @@ const Section6 = () => {
             passHref
           >
             <div className="bg-image">
-              <Image
+              <img
                 src={project.image}
                 alt={project.alt}
                 width={600}
                 height={400}
+                loading="lazy"
+                decoding="async"
+                fetchpriority="high"
                 className="bg-image"
-                priority
               />
             </div>
             <div className="bg-content">

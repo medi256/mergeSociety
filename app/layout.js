@@ -245,6 +245,60 @@ export default function RootLayout({ children }) {
           "position": 6,
           "name": "Real World Coding Career Advice",
           "item": "https://www.mergesociety.com/code-report/real-world-coding-career-advice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Tech Insights",
+          "item": "https://www.mergesociety.com/code-report"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "AI Insights",
+          "item": "https://www.mergesociety.com/ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "What is AI Agent",
+          "item": "https://www.mergesociety.com/ai/what-is-agents"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Artificial Intelligence vs Machine Learning vs Deep Learning",
+          "item": "https://www.mergesociety.com/ai/ai-ml-dp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "WebSockets vs Socket.IO",
+          "item": "https://www.mergesociety.com/code-report/websockets-explained"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "WebSocket vs Polling",
+          "item": "https://www.mergesociety.com/code-report/websocket-polling"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "HTTP 1.1 vs HTTP 2 vs HTTP 3",
+          "item": "https://www.mergesociety.com/code-report/http1-http2-http3"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "AI Trends 2025",
+          "item": "https://www.mergesociety.com/ai/ai-trends-2025"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "AI Tools for Research",
+          "item": "https://www.mergesociety.com/ai/ai-tools-research-2025"
         }
       ]
     }
