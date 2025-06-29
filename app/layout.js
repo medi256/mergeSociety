@@ -206,50 +206,51 @@ export default function RootLayout({ children }) {
       />
       <Script id="structured-data" type="application/ld+json">
         {`
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://www.mergesociety.com/"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Tutorials",
-                  "item": "https://www.mergesociety.com/projects"
-                },
-                     {
-        "@type": "ListItem", 
-        position: 3,
-        name: "Tech",
-        item: "https://www.mergesociety.com/tech"
-      },
-      {
-        "@type": "ListItem",
-        position: 4,
-        name: "Chrome DevTools Guide",
-        item: "https://www.mergesociety.com/tech/21-devTools"
-      },
-           {
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
           "@type": "ListItem",
-          position: 5, 
-          name: "Vibe Coding Guide",
-          item: "https://www.mergesociety.com/tech/vibe-coding"
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mergesociety.com/"
         },
-           {
+        {
           "@type": "ListItem",
-          position: 6, 
-          name: "Real World Coding Career Advice",
-          item: "https://www.mergesociety.com/code-report/real-world-coding-career-advice"
+          "position": 2,
+          "name": "Tutorials",
+          "item": "https://www.mergesociety.com/projects"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tech",
+          "item": "https://www.mergesociety.com/tech"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Chrome DevTools Guide",
+          "item": "https://www.mergesociety.com/tech/21-devTools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Vibe Coding Guide",
+          "item": "https://www.mergesociety.com/tech/vibe-coding"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Real World Coding Career Advice",
+          "item": "https://www.mergesociety.com/code-report/real-world-coding-career-advice"
         }
-              ]
-            }
-          `}
+      ]
+    }
+  `}
       </Script>
+
       {/* yandex   script  */}
 
       <Script id="yandex-metrika" strategy="afterInteractive">
