@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/ai-research-tools-2025_updated.jpg",
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
         width: 1200,
         height: 630,
         alt: "AI research tools dashboard showing Jenny AI, Paperpal, Julius AI, and Research Rabbit interfaces for academic research automation",
@@ -94,7 +94,7 @@ export const metadata = {
       "These 10 free AI tools cut research time by months. Jenny AI, Paperpal, Julius AI + 7 more game-changers that eliminate the research grind forever.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/ai-research-tools-2025_updated.jpg",
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
     ],
   },
 
@@ -180,7 +180,7 @@ export const metadata = {
     headline:
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/ai-research-tools-2025_updated.jpg",
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
     datePublished: "2024-11-15T09:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
@@ -427,7 +427,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             Best AI Tools for Research: Explore top platforms that enhance

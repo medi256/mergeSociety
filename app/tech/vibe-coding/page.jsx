@@ -307,7 +307,7 @@ export default function Article() {
             height={400}
             loading="eager"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             Conceptual image of AI-assisted Vibe Coding – blending intuition and
@@ -802,7 +802,7 @@ const Section3 = () => {
                 height={400}
                 loading="eager"
                 decoding="async"
-                fetchpriority="high"
+                fetchPriority="high"
               />
             </div>
             <div className="bg-content">

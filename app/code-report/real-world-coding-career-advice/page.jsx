@@ -336,7 +336,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="low"
+            fetchPriority="high"
           />
           <figcaption>
             Real-world coding focus: Building for actual users accelerates
@@ -903,7 +903,7 @@ const Section6 = () => {
                 height={400}
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
+                fetchPriority="high"
               />
             </div>
             <div className="bg-content">

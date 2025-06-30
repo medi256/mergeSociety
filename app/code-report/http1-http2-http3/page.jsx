@@ -321,7 +321,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             Visual breakdown of how HTTP/1.1, HTTP/2, and HTTP/3 differ in
@@ -900,7 +900,7 @@ const Section6 = () => {
                 height={400}
                 loading="lazy"
                 decoding="async"
-                fetchpriority="high"
+                fetchPriority="high"
                 className="bg-image"
               />
             </div>

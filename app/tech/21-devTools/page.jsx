@@ -357,7 +357,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="low"
+            fetchPriority="high"
           />
           <figcaption>
             Chrome DevTools console and performance tools demo – great for

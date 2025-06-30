@@ -282,7 +282,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             AI vs Machine Learning vs Deep Learning vs Generative AI — a visual
@@ -797,7 +797,7 @@ const Section2 = () => {
                 height={400}
                 loading="lazy"
                 decoding="async"
-                fetchpriority="high"
+                fetchPriority="high"
                 className="bg-image"
               />
             </div>

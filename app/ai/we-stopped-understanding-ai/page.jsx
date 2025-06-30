@@ -238,7 +238,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             The moment we stopped understanding AI — how AlexNet sparked an era

@@ -270,7 +270,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             Architecture diagram illustrating how WebSockets enable real-time,
@@ -885,7 +885,7 @@ const Section6 = () => {
                 height={400}
                 loading="lazy"
                 decoding="async"
-                fetchpriority="high"
+                fetchPriority="high"
                 className="bg-image"
               />
             </div>

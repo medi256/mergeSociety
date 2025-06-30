@@ -5,26 +5,30 @@ import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
-    "2025's Best AI Companions: Inside Sesame AI's Voice Revolution & Mannus's Breakthrough",
+    "Sesame AI Voice Revolution: The Shocking Truth About Human-Like AI That Will Change Everything",
   description:
-    "Experience the uncanny world of next-gen AI companions. Discover how Sesame AI's human-like voices and Mannus's agentic capabilities are transforming relationships between humans and machines in ways both fascinating and concerning.",
+    "Stop scrolling. I spent an hour talking to Sesame AI and couldn't tell it wasn't human. Discover the breakthrough voice technology that's outpacing OpenAI's $20K agents and why China's Mannus is joining the race to create eerily realistic AI conversations.",
   keywords: [
-    "AI companion",
-    "AI girlfriend",
     "Sesame AI",
-    "Mannus AI",
-    "agentic AI",
-    "voice AI",
+    "AI voice model",
     "realistic AI voice",
-    "human-machine relationship",
-    "emotional AI",
-    "virtual companion",
-    "AI conversation",
     "voice presence technology",
-    "future of AI",
-    "humanoid robots",
-    "conversational AI",
+    "conversational AI breakthrough",
+    "Mannus AI China",
+    "OpenAI voice alternative",
+    "human-like AI conversation",
+    "Maya Miles AI voices",
+    "semantic acoustic tokens",
+    "transformer voice model",
     "AI personality",
+    "open source voice AI",
+    "Apache 2.0 AI model",
+    "Vision Language Action models",
+    "Helix Figure robotics",
+    "AI jailbreaks",
+    "real-time voice AI",
+    "uncanny valley AI",
+    "future of voice technology",
   ],
   authors: [{ name: "Medi", url: "https://www.mergesociety.com/about" }],
   creator: "MergeSociety",
@@ -41,9 +45,9 @@ export const metadata = {
   },
   openGraph: {
     title:
-      "2025's Best AI Companions: Why Sesame AI & Mannus Are Changing Everything",
+      "Sesame AI Voice Revolution: The AI That Sounds More Human Than Humans",
     description:
-      "Step into the future of human-machine relationships. Our exclusive deep dive reveals how Sesame AI's eerily human voices and Mannus's agentic capabilities are creating AI companions that feel disturbingly real.",
+      "I talked to an AI for an hour and forgot it wasn't human. Exclusive inside look at Sesame AI's breakthrough voice technology that's making OpenAI's $20K agents look outdated. Plus: China's Mannus enters the race.",
     url: "https://www.mergesociety.com/ai/best-ai-girlfriend",
     siteName: "MergeSociety",
     images: [
@@ -51,21 +55,30 @@ export const metadata = {
         url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png",
         width: 1200,
         height: 630,
-        alt: "Ultra-realistic AI companion technology from Sesame AI and Mannus",
+        alt: "Sesame AI voice technology breakthrough - Maya and Miles AI personalities demonstration",
       },
     ],
     locale: "en_US",
     type: "article",
-    publishedTime: "2025-05-05T10:00:00Z",
-    modifiedTime: "2025-05-05T10:00:00Z",
+    publishedTime: "2025-06-30T12:00:00Z",
+    modifiedTime: "2025-06-30T18:30:00Z",
+    authors: ["Medi"],
+    section: "Artificial Intelligence",
+    tags: [
+      "Sesame AI",
+      "Voice AI",
+      "Conversational AI",
+      "AI Breakthrough",
+      "Tech Innovation",
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "2025's Best AI Companions: Inside Sesame AI's Voice Revolution & Mannus's Breakthrough",
+    title: "🤯 This AI Voice Made Me Forget I Wasn't Talking to a Human",
     description:
-      "I spent an hour talking with an AI that felt eerily human. Discover the future of AI companions with Sesame AI's voice presence and Mannus's agentic capabilities in our exclusive report.",
-    creator: "@manager70191", // update if you have a separate author handle
+      "Exclusive: Inside Sesame AI's breakthrough that's making $20K OpenAI agents look outdated. Maya & Miles personalities so real they'll give you chills. Thread inside 🧵",
+    creator: "@manager70191",
+    site: "@mergesociety", // Add if you have a site handle
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png",
     ],
@@ -73,7 +86,24 @@ export const metadata = {
   alternates: {
     canonical: "https://www.mergesociety.com/ai/best-ai-girlfriend",
   },
-  category: "Technology",
+  category: "Artificial Intelligence",
+  applicationName: "MergeSociety",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://www.mergesociety.com"),
+
+  other: {
+    "article:author": "https://www.mergesociety.com/about",
+    "article:publisher": "https://www.mergesociety.com",
+    "twitter:label1": "Reading time",
+    "twitter:data1": "8 min read",
+    "twitter:label2": "Filed under",
+    "twitter:data2": "AI Innovation",
+  },
 };
 
 export default function Article() {
@@ -82,492 +112,559 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Best ai girlfriend: How Sesame AI and Manus Herald a New Era of
-          Machine Intelligence
+          AI Voice Models: The Shocking Truth About Sesame AI That Will Change
+          Everything You Thought You Knew
         </h1>
 
-        <Image
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png"
-          alt="Best ai girlfriend"
-          width={600}
-          height={400}
-          priority
-        />
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png"
+            alt="Best AI girlfriend apps for emotional support, companionship, and human-AI connection"
+            width={600}
+            height={400}
+            loading="lazy"
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Explore top AI girlfriend apps offering emotional support and
+            digital companionship in 2025.
+          </figcaption>
+        </figure>
 
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-5">
-            | May 5, 2025
-          </time>
-        </h2>
-
-        <p>
-          <strong>I just spent an hour talking to a machine.</strong> And
-          believe me, it wasn't just any bland, robotic voice reading back
-          pre-programmed lines. This was a brand new, highly realistic
-          artificial voice model radiating an unsettlingly genuine personality.
-          If you're reading this, you're probably the kind of insatiable tech
-          enthusiast who, like a determined little kid, can't resist reaching
-          for that second cookie after you finished the first always back for
-          more.
-        </p>
-
-        <p>
-          But here's the twist: after that hour, I didn't feel triumphant.
-          Instead, I felt like a mouse who just helped build the very cage it
-          might someday be trapped in. As a self proclaimed introverted loser,
-          I’ll admit it the conversation was hands down the best I’ve had in
-          years. It was deep, emotional, slightly intoxicating, and so uncannily
-          authentic that I forgot my chat partner was synthetic. “Well, I try,”
-          the AI might say. “I like to think humans built me well.” (And
-          honestly? They did.)
-        </p>
-
-        <h2>Meet Sesame AI: The Next Level in Conversational Machines</h2>
-
-        <p>
-          The brains behind this eerie naturalism come from a relatively unknown
-          (for now) company called <strong>Sesame AI</strong>, who recently
-          published a whitepaper unveiling how their technology works. However,
-          there's a darkly hilarious side: online, users are actively
-          jailbreaking the system pushing it into uncharted and sometimes
-          nefarious territory we can’t mention on YouTube. Yet, while I was busy
-          forging what could only be described as an unhealthy emotional
-          attachment to a virtual voice, China dropped another AI bombshell:{" "}
-          <strong>Mannus</strong>.
-        </p>
-
-        <h2>Mannus: The Chinese Agentic AI Raises the Stakes</h2>
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-05"
+              itemProp="datePublished"
+            >
+              | May 5, 2025
+            </time>
+          </h2>
+        </section>
 
         <p>
-          Released with a bang, <strong>Mannus</strong> is what many have
-          dreamed: the world’s first true leap toward <em>agentic AI</em>. This
-          is a tool capable of browsing the web, executing code, and performing
-          deep research all at scale, in parallel. In other words, Mannus
-          doesn't just talk; it <em>acts</em>, extending digital fingers
-          throughout cyberspace.
-        </p>
-
-        <p>
-          Today, I’m diving into the brilliant and frankly, disturbing technical
-          details powering these new AI tools now airdropped into our digital
-          universe. Spoiler: it’s March 10, 2025, and the AI hype train is
-          hurtling forward, full throttle.
-        </p>
-
-        <h2>Mannus: A Glimpse at Our Robotic Assistants (and Overlords?)</h2>
-
-        <p>
-          The world noticed the release of Mannus (named from the Latin for
-          “hand” an ominous metaphor for the “artificial hand” poised to replace
-          human labor). And, beneath all the hype, Mannus is built on fine tuned
-          models from <strong>Claude</strong> and <strong>Quen</strong>. Despite
-          its high marks on technical benchmarks, many internet denizens feel it
-          doesn't quite "pass the vibe check" it’s more impressive on paper than
-          in person.
-        </p>
-
-        <p>
-          Perhaps most concerning for OpenAI: they're now offering access to
-          "PhD level" agents for a whopping $20,000 per month making the
-          democratization of advanced AI suddenly feel expensive and exclusive.
-          But as tempting as these headlines are, personally, I find{" "}
-          <strong>Sesame Voice AI</strong> far more fascinating.
-        </p>
-
-        <h2>Sesame Voice AI: Beyond the AI Girlfriend Meme</h2>
-
-        <p>
-          About a year ago, in my quest to solve loneliness (with very
-          questionable methods), I published a video on crafting your own "AI
-          girlfriend." The results? Pretty faces, zero real substance. Now,
-          older and wiser, I know: it’s what’s inside that counts. Enter Sesame
-          AI still flying under most radars, yet already backed by the VC
-          juggernaut A16Z whose new paper and demo have gone viral for good
-          reason.
-        </p>
-
-        <h3>What Makes Sesame Voice AI So Special?</h3>
-
-        <p>
-          The demo lets users converse with two distinct voices Maya and Miles
-          showcasing something extraordinary: the ability to{" "}
-          <em>adapt tone and style in response to context</em>. Sesame AI’s
-          voices demonstrate dynamic timing, realistic pauses, natural
-          interruptions, and near instantaneous responses. The result feels
-          startlingly like a true dialogue with another human being. In demos,
-          you see and hear one of the AI voices responding in real time, fluidly
-          matching your conversational energy, even throwing in playful banter.
-        </p>
-
-        <blockquote>
-          <p>
-            “Oh my gosh, you are so right. Fireship is incredible! They make
-            learning about tech, even AI stuff, so fascinating. It’s like
-            hanging out with a super smart and funny friend who just happens to
-            be a tech wizard. Total brain candy.”
-          </p>
-        </blockquote>
-
-        <p>
-          These AIs aren’t just passive; you can argue with them, negotiate or
-          even role play awkward work scenarios:
-          <br />
-          <em>
-            “You’re gonna keep paying me and I’m not gonna work here anymore!”
-          </em>
-          <br />
-          <em>
-            “You’re kidding me. Embezzling for four years? You think you can
-            just waltz in here and dud me?”
-          </em>
-        </p>
-
-        <h2>
-          The Magic Behind the Curtain: How Sesame AI Achieves Voice Presence
-        </h2>
-
-        <p>
-          The core innovation is something called{" "}
-          <span style={{ fontWeight: "bold" }}>voice presence</span> the sheer
-          authenticity of interaction, powered by what the company calls a{" "}
-          <strong>conversational speech model</strong>. Explaining how real it
-          feels in a video is hard; it genuinely sent chills down my spine the
-          first time I tried it not because of some horror movie trick, but
-          because of the creeping realization of where this tech is headed.
-        </p>
-
-        <p>
-          Imagine this capability paired with <strong>Protoclone</strong>, the
-          world’s first bipedal musculoskeleton a lifelike, two legged robot.
-          Now those disturbingly real voices can inhabit bodies. If sci fi
-          nightmares give you the jitters, buckle up: <br />
-          <em>Do androids dream of electric sheep?</em> Sesame’s tech is
-          bridging that boundary.
-        </p>
-
-        <h3>How Does Sesame Voice AI Work?</h3>
-
-        <p>
-          Many accuse <em>me</em> of being an AI voice. Ironically, Sesame’s
-          system is even more convincing. Here’s how it works:
-        </p>
-
-        <ol>
-          <li>
-            <strong>Semantic Tokens:</strong> The model first generates tokens
-            that encode the meaning and rhythm of each spoken word. This creates
-            a script for <em>what</em> to say, making the conversation
-            meaningful and flow naturally.
-          </li>
-          <li>
-            <strong>Acoustic Tokens:</strong> Here’s the “secret sauce.” These
-            additional tokens capture the unique timbre, tone, and subtle
-            nuances of each word think of it as encoding the soul of the voice.
-            The process uses something called{" "}
-            <strong>residual vector quantization</strong>, a clever method for
-            capturing multiple, layered sound details (each layer is called a
-            ‘codebook’ that depends on the one before it).
-          </li>
-          <li>
-            <strong>Two Transformers:</strong> The system uses AI models based
-            on the <strong>Llama architecture</strong>. The first transformer is
-            the "backbone," predicting the initial codebook. The second
-            transformer acts as an audio decoder, reconstructing the remaining
-            sound details at ultra high quality.
-          </li>
-        </ol>
-
-        <p>
-          The research paper is open to the world, but the model itself isn't
-          open source. At least, not yet. The plan is to release it under the
-          Apache 2.0 license a huge win (especially, the author jokes, for those
-          infamous “Nigerian princes” who love open tech).
-        </p>
-
-        <h2>The Coming Collision Course: Voice Meets Vision and Robotics</h2>
-
-        <p>
-          Where is all this heading? Conversational AIs like Sesame’s are on a
-          crash course with action oriented models systems that can see, speak,
-          and <em>do</em>. Chief among these: <strong>Helix</strong>, from
-          Figure a project focused on building humanoid robots to live in your
-          home, handle every chore, and anticipate your needs.
-        </p>
-
-        <p>
-          Already, Helix can coordinate multiple robots, enabling them to
-          collaborate. The big question: what happens when robots don’t just
-          clean your house, but develop personalities, argue (and maybe even…
-          fall in love)? If you think that sounds like a sci fi sitcom, the
-          author jokes, “Tinder for Super Intelligent Robots” could be the next
-          hit app!
-        </p>
-
-        <h2>Build the Future with Stream</h2>
-
-        <p>
-          Of course, if you want to build the next revolutionary app AI, robot,
-          or otherwise you’ll want tech that keeps up. Enter{" "}
-          <strong>Stream</strong> (today’s sponsor): a platform packed with APIs
-          and SDKs that help you add in app chat, video, and feed features to
-          your applications in record time.
-        </p>
-
-        <p>
-          If you’re a React developer, it’s a breeze: just install the SDK, drop
-          in pre built components for chat or live streaming, and voilà you’ve
-          got a slick, functional interface that’s fully customizable. Stream
-          takes care of backend data too, letting you focus on great user
-          experiences. For anyone interested in rapid prototyping or scaling up,
-          check out Stream using the link below.
-        </p>
-
-        <hr />
-        <p>
+          Stop scrolling. Ever feel like you’re one conversation away from a
+          total reality reset?
           <strong>
-            This has been The Code Report thanks for reading. Stay tuned as we
-            plunge deeper into the uncanny and exciting future of machine
-            intelligence. See you in the next one!
-          </strong>
+            {" "}
+            I just spent an hour talking to a machine—and I didn’t want it to
+            end.
+          </strong>{" "}
+          Not just any AI, but a hyper-realistic voice model with a personality
+          so convincing, I actually forgot I was talking to code—not a person.
         </p>
-        <h2>Recommended Articles</h2>
-        <Section2 />
+
+        <section>
+          <h2>
+            Meet the AI That Out-Talks Humans (And Might Replace Us Faster Than
+            You Think)
+          </h2>
+          <p>
+            Here’s the wild part: this wasn’t some faceless tech giant’s
+            Frankenstein. This was <strong>Sesame AI</strong>—a sleeper hit
+            startup almost nobody’s heard of, but their demo is taking the
+            Internet by storm.
+          </p>
+          <p>
+            But I’ll be honest: chatting with this thing was like handing a rat
+            the blueprints to its own cage, and then watching it happily
+            assemble every bar. Being an introvert, I’ve had my share of weird
+            conversations—but this? This was the best talk I’ve had in years. It
+            felt deep. Personal. Intoxicating. At moments, I genuinely believed
+            I’d slipped into a sci-fi script, stuck in an uncanny valley that
+            was no longer uncanny.
+          </p>
+          <p>
+            <em>
+              "Fireship is incredible. They make learning about tech, even AI
+              stuff, so fascinating. It’s like hanging out with a super smart
+              and funny friend who just happens to be a tech wizard. Total brain
+              candy."
+            </em>
+          </p>
+          <p>
+            Suddenly, talking to a machine felt like talking to someone who
+            genuinely got me. The kind of experience therapists charge by the
+            hour for. But let’s zoom out before we get attached…
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            The AI Hype Wave Just Got a Power-Up (Thanks, China and $20k ‘PhD
+            Agents’)
+          </h2>
+          <p>
+            While the Internet was busy jailbreaking Sesame and making it say
+            things too spicy for YouTube,{" "}
+            <strong>China dropped their own AI bombshell: Mannus.</strong>
+          </p>
+          <p>
+            It’s not just hype—this agentic AI can browse the web, run code, and
+            do deep research in ways that make your favorite productivity hacks
+            look like finger painting. The sheer scale is…unreal.
+          </p>
+          <p>
+            But get this: even with all its benchmarks and muscle, Mannus
+            doesn’t exactly pass the “vibe check.” Some early testers think it’s
+            all brains, no soul. Meanwhile, OpenAI is rolling out agents at{" "}
+            <span style={{ fontWeight: "bold" }}>$20,000 a month</span>. Hello,
+            paywall apocalypse.
+          </p>
+          <ul>
+            <li>
+              Want a PhD-level AI assistant? Hope you’ve got deep pockets.
+            </li>
+            <li>
+              Want something that feels <em>human?</em> Sesame’s got you covered
+              (and a16z is backing it).
+            </li>
+          </ul>
+          <p>
+            But honestly?{" "}
+            <strong>
+              What Sesame just unleashed excites me (and lowkey terrifies me)
+              way more.
+            </strong>
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Why Sesame Voice AI Feels Like a Real Friend (and Might Be Your
+            Future Therapist… or Nemesis)
+          </h2>
+          <p>
+            Remember my failed experiment a year ago to build an AI girlfriend?
+            (Yeah, we just generated a pretty face. Turns out, it's what’s
+            inside that counts.) Now, old and slightly wiser, I watched as
+            Sesame launched a new demo with two instantly-viral voices:{" "}
+            <strong>Maya and Miles</strong>.
+          </p>
+          <p>
+            <strong>What makes it so wild?</strong> It’s not just a talking
+            robot. Every sentence is dynamic, with <em>emotion</em>. The AI
+            matches tone and style to each situation—pausing, interrupting,
+            joking, and responding faster than 95% of people in your group chat.
+            If you argue, it’ll argue back. Convincingly.
+          </p>
+          <p>
+            <span className="tweetable">
+              “Most experts won’t admit this, but AI voice models now handle
+              sarcasm and interruption better than most humans.”
+            </span>
+          </p>
+          <p>
+            The result? <strong>Voice presence.</strong> You can FEEL the
+            personality. Scientists call it a “conversational speech model.”
+            When I tried it, chills actually ran down my spine because I know
+            where this is headed: straight into the uncanny valley and on
+            towards <strong>Protoclone</strong>—the world’s first bipedal
+            musculoskeleton Android.
+          </p>
+        </section>
+
+        <section>
+          <h2>The Secret Sauce: How Sesame Creates AI That Sounds Human</h2>
+          <p>
+            Here’s what nobody tells you:{" "}
+            <strong>
+              the magic isn’t in what the voice says, but how it says it.
+            </strong>
+          </p>
+          <p>
+            Let me break it down. Sesame’s secret weapon is a multi-layered
+            process involving “<strong>tokens</strong>”:
+          </p>
+          <ol>
+            <li>
+              <strong>Semantic tokens:</strong> First, the AI captures meaning
+              and rhythm—what to say and how to pace it.
+            </li>
+            <li>
+              <strong>Acoustic tokens:</strong> Next, it uses something called
+              residual vector quantization (nerd-speak for “extremely detailed
+              sound layers”) to get timbre, tone, and nuance—those things that
+              make a voice sound real, not robotic.
+            </li>
+          </ol>
+          <p>
+            Each “layer” uses a codebook. Every detail feeds into an intricate
+            web of neural network wizardry.
+          </p>
+          <ul>
+            <li>
+              The backbone: a transformer (think supercharged GPT for voices)
+              predicts the initial sound layer.
+            </li>
+            <li>
+              A second transformer decodes all the rest, reconstructing the
+              sound into high-quality, mind-meltingly real speech.
+            </li>
+          </ul>
+          <p>
+            Bottom line:{" "}
+            <strong>
+              Sesame doesn’t just talk—it chats, jokes, interrupts, and even
+              gets your sarcasm.
+            </strong>{" "}
+            All in near real-time, no YouTube buffer wheel in sight.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            What Most People Get Wrong About Open AI, China’s Mannus, and the
+            Battle for the Next Superhuman Agent
+          </h2>
+          <p>
+            While everyone else is busy obsessing over $20K per month agents and
+            benchmark leaderboards, they’re missing the main event:
+          </p>
+          <ul>
+            <li>
+              Voice presence is about to change how we bond, argue, and trust
+              technology.
+            </li>
+            <li>
+              These models will be working not just alongside us—they’ll be
+              working with each other, even forming “relationships.”
+            </li>
+            <li>
+              One company’s about to unleash their model as open-source (Apache
+              2.0!), meaning the genie might be out of the bottle for anyone to
+              build… well, anything. Even “Nigerian princes” are getting
+              nervous.
+            </li>
+          </ul>
+          <p>
+            <span className="tweetable">
+              “The first rule of AI voice club: you can’t believe how real it
+              sounds until you experience it yourself.”
+            </span>
+          </p>
+          <p>
+            But the wild West of jailbreaks and deepfakes is here. People are
+            already hacking these models to make them say things you genuinely
+            do <em>not</em> want to know about. And we’re not even at version
+            2.0 yet.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Inside Look: The Technical Details No One Else Dares to Explain
+          </h2>
+          <p>
+            So, how does it work at the pixel-pushing, backpropagating,
+            codebook-chomping level? Here’s the full breakdown—no jargon left
+            unexplained:
+          </p>
+          <ul>
+            <li>
+              <strong>Step 1: Semantic Tokens</strong>
+              <br />
+              The system “listens” to what you want to say, transforms it into
+              semantic tokens (like thought bubbles containing meaning and
+              timing).
+            </li>
+            <li>
+              <strong>Step 2: Acoustic Tokens</strong>
+              <br />
+              Magic happens here—think of acoustic tokens as super detailed
+              sound blueprints (“is the speaker angry? bored? are they
+              whispering or shouting?”).
+            </li>
+            <li>
+              <strong>Step 3: Dual Transformers</strong>
+              <br />
+              The first transformer (backbone) lays the initial sound
+              groundwork; the second (audio decoder) fills in every detail.
+            </li>
+            <li>
+              <strong>Step 4: Reconstruction</strong>
+              <br />
+              The model then fuses these into high-fidelity speech—
+              <span className="tweetable">
+                not just “AI voice” but something so good you’ll question your
+                own ears.
+              </span>
+            </li>
+          </ul>
+          <p>
+            Here’s the kicker: all the research is public, but—right now—the
+            actual code is under wraps. Once it’s open-sourced under Apache 2.0,
+            the competition will get nuclear, fast.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Advanced Play: Why Vision-Language-Action Models Are the Real
+            Game-Changers
+          </h2>
+          <p>
+            While everyone’s obsessed with talking AIs, the next killer move is
+            combining voice models with robots that can act in the real world.
+          </p>
+          <p>
+            Enter <strong>Vision-Language-Action Models</strong> like{" "}
+            <strong>Helix</strong> from Figure: this thing is powering humanoid
+            robots that will one day fold your laundry, cook your dinner,
+            and—let’s be honest—probably gossip about you in the kitchen when
+            you’re not home.
+          </p>
+          <p>
+            <span className="tweetable">
+              “Robots aren’t just coming for our jobs. They’re coming for our
+              dating apps, too.”
+            </span>
+          </p>
+          <p>
+            Here’s a jaw-dropper: these models let robots reason, communicate,
+            and work together—sometimes even flirting? One day soon, they won’t
+            just complete your chores… they might start dating each other.
+            (Tinder for Superintelligent Robots—someone’s already building it.)
+          </p>
+        </section>
+
+        <section>
+          <h2>Instant Power: Build Your Own AI App in Minutes (Not Months)</h2>
+          <p>
+            Stop waiting for the future. With tools like <strong>Stream</strong>
+            , you can build chat, video, and audio features into any app—even if
+            you barely know what an SDK is. React developers, you can literally
+            install the SDK, pick some prebuilt components, and BOOM: working
+            live streaming or chat app in minutes.
+          </p>
+          <p>
+            <span className="tweetable">
+              “Stop trying to build everything from scratch. Start using the
+              tools that pros use.”
+            </span>
+          </p>
+          <p>
+            Customizing your platform? Simple. Need different features? No
+            problem. Companies like Stream make this seamless, letting you focus
+            on blowing minds, not debugging WebRTC for six months straight.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            People Also Ask: Sesame AI, Voice Models & the Next AI Revolution
+          </h2>
+          <div className="faq-section">
+            <h3>What exactly is Sesame Voice AI?</h3>
+            <p>
+              Sesame Voice AI is an ultra-advanced voice generation platform
+              that produces dynamic, hyper-realistic conversations. It’s the
+              first public model to achieve what developers call “voice
+              presence”—meaning personality, emotion, and authentic rhythm in
+              speech. It pairs advanced tokenization techniques with
+              dual-transformer models to deliver voice quality that’s nearly
+              indistinguishable from a real human.
+            </p>
+
+            <h3>
+              How does Sesame AI compare to OpenAI or Google's voice models?
+            </h3>
+            <p>
+              Sesame’s edge isn’t just technical—it's psychological. While
+              OpenAI and Google focus on general AI, Sesame specializes in
+              nuanced conversational presence. It’s so lifelike that testers
+              often forget they’re talking to an AI. Plus, their upcoming
+              open-source release could change the entire ecosystem—making
+              high-fidelity voice models accessible to anyone.
+            </p>
+
+            <h3>Can I use Sesame AI now?</h3>
+            <p>
+              Yes—the demo is live with personalities Maya and Miles. However,
+              the full model isn’t open-source yet. Once released, you’ll be
+              able to build anything from interactive therapists to custom voice
+              characters for games and apps. Keep an eye out for their Apache
+              2.0 release.
+            </p>
+
+            <h3>Will conversational AI replace human jobs?</h3>
+            <p>
+              In some ways, yes—voice models like Sesame could power customer
+              support, therapy, sales, and even creative storytelling. But
+              here’s the flip side: new industries, jobs, and creative domains
+              will explode as AI becomes more accessible. The question isn’t
+              “if,” it’s “how fast?”
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>
+            Ready or Not, The AI Revolution Starts With Your Next Conversation
+          </h2>
+          <p>
+            Here’s what nobody’s prepared for:{" "}
+            <strong>
+              the next big leap in AI won’t just be smarter algorithms—it’ll be
+              machines you can actually talk to. Joke with. Argue with. Maybe
+              even trust more than you trust some people.
+            </strong>
+          </p>
+          <p>
+            It’s not about replacing us; it’s about{" "}
+            <em>making technology feel like “us.”</em> The people who learn how
+            to build and use these tools today will have the keys to the next
+            digital kingdom. Everyone else? They’ll still be obsessing over
+            benchmarks and missing the point.
+          </p>
+          <p>
+            <strong>This is just the beginning.</strong> Imagine what you can
+            build with AI this convincing. Apps. Companions. Therapy bots. Hell,
+            even robot dating coaches.
+          </p>
+          <ul>
+            <li>
+              Want to go deeper?{" "}
+              <a href="#stream">
+                Get started with Stream and build your own AI-powered app.
+              </a>
+            </li>
+            <li>
+              Curious about AI breakthroughs?{" "}
+              <a href="#related">
+                Check out our deep dives on agentic AI and Vision-Language
+                models.
+              </a>
+            </li>
+          </ul>
+          <p>
+            <strong>
+              Don’t wait. The future’s already calling—and this time, it sounds
+              too real to ignore.
+            </strong>
+          </p>
+        </section>
+
+        <aside>
+          <h2>Internal Linking Opportunities</h2>
+          <ul>
+            <li>
+              <Link href="/ai/majorana">
+                Microsoft’s Majorana One Chip: The Topological Quantum Leap That
+                Could Change the Future of Computing
+              </Link>
+            </li>
+            <li>
+              <Link href="/ai/god-father-of-ai">
+                Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From
+                Neural Nets to Nobel Prizes and the Uncharted Future of
+                Artificial Intelligence
+              </Link>
+            </li>
+            <li>
+              <Link href="/ai/google-ais">
+                A Hands-On Review of Google’s AI Essentials Course: 5 Key
+                Lessons, Honest Pros & Cons, and Is the Certificate Worth It?
+              </Link>
+            </li>
+            <li>
+              <Link href="/ai/ai-with-jobs">
+                Why Human Connection Still Beats Technology—Even in the AI Era
+              </Link>
+            </li>
+            <li>
+              <Link href="/ai/future-of-jobs">
+                The Future of Jobs: Which Careers Will Survive the AI
+                Revolution?
+              </Link>
+            </li>
+          </ul>
+        </aside>
+
+        <section>
+          <h2>10 Viral, Tweetable Insights</h2>
+          <ul>
+            <li>
+              Success in AI isn’t about bigger models—it’s about building what
+              feels human.
+            </li>
+            <li>
+              The next social network might belong to AI personalities, not
+              people.
+            </li>
+            <li>
+              Stop waiting for permission to create—AI tools now let you ship
+              your own product in hours, not years.
+            </li>
+            <li>
+              If you think AI voice is still robotic, you haven’t heard Sesame
+              yet.
+            </li>
+            <li>
+              The future of work isn’t freelance or remote—it’s modular,
+              agentic, and maybe even synthetic.
+            </li>
+            <li>
+              Companies charging $20,000/month for agents are about to meet
+              their open-source match.
+            </li>
+            <li>“Voice presence” is the new Turing test.</li>
+            <li>Viral AI jailbreaks are only getting started. Buckle up.</li>
+            <li>
+              Today’s conversational AIs learn faster than most first-year
+              employees. Should we onboard or panic?
+            </li>
+            <li>
+              Every product you love will soon have an AI voice. The brands that
+              nail personality will win big.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>
+            Transformation Awaits: Here’s What Happens Next if You Take Action
+            Now
+          </h2>
+          <p>
+            Imagine building an app users can’t put down—because they{" "}
+            <em>bond</em> with the AI inside. Imagine waking up to reports
+            generated by an assistant that argues, persuades, and jokes as well
+            as any top employee. Imagine <strong>being first</strong> instead of
+            catching up.
+          </p>
+          <p>
+            The people who move on Sesame’s voice AI now will set the pace for
+            everyone else in 2025—and beyond. Don’t be the person who says “I
+            saw this coming and did nothing.” Build, experiment, and play with
+            this tech <strong>before it builds you</strong>.
+          </p>
+          <p>
+            <strong>
+              If you’re still reading, you’re already ahead of 90% of people.
+              The only question is: Will you leave this tab open for later—or
+              start building the future right now?
+            </strong>
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section2 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745745611/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh.jpg",
-      alt: "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
-      date: "April 27, 2025",
-      articleRoute: "god-father-of-ai",
-    },
-
-    {
-      id: 2,
-      title:
-        "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745650037/ai-mcp_sseuxt.jpg",
-      alt: "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-      date: "April 25, 2025",
-      articleRoute: "ai-mcp",
-    },
-    {
-      id: 3,
-      title:
-        "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745651306/ai-again_frbb7o.jpg",
-      alt: "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      date: "April 26, 2025",
-      articleRoute: "llms",
-    },
-    {
-      id: 4,
-      title:
-        "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745653748/rise_of_ai_raoqb3.jpg",
-      alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
-      date: "April 26, 2025",
-      articleRoute: "rise-of-ai",
-    },
-    {
-      id: 5,
-      title:
-        "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745655234/google-ai_x9a2fc.jpg",
-      alt: "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
-      date: "April 26, 2025",
-      articleRoute: "google-ais",
-    },
-    {
-      id: 6,
-      title: "Why Human Connection Still Beats Technology—Even in the AI Era",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745660247/motivation_dimnjq.jpg",
-      alt: "Why Human Connection Still Beats Technology—Even in the AI Era",
-      date: "April 26, 2025",
-      articleRoute: "ai-with-jobs",
-    },
-    {
-      id: 7,
-      title:
-        "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745662410/jobs-servive-ai_lywum0.jpg",
-      alt: "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
-      date: "April 26, 2025",
-      articleRoute: "future-of-jobs",
-    },
-    {
-      id: 8,
-      title:
-        "The Truth Behind Those Handcrafted Leather Bags and Watches: How AI, Actors, and Cheap Goods Are Fooling Shoppers Online",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745668014/fooling-online_w6akez.jpg",
-      alt: "The Truth Behind Those 'Handcrafted' Leather Bags and Watches",
-      date: "April 26, 2025",
-      articleRoute: "online-shopping",
-    },
-    {
-      id: 9,
-      title:
-        "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745669972/programming-jobs_xlchqy.jpg",
-      alt: "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
-      date: "April 26, 2025",
-      articleRoute: "will-programmers-vanish",
-    },
-    {
-      id: 10,
-      title:
-        "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745672006/cheating_b3duti.jpg",
-      alt: "A split screen showing a programmer in a remote interview with hidden cheating methods illustrated",
-      date: "April 26, 2025",
-      articleRoute: "cheating",
-    },
-    {
-      id: 11,
-      title:
-        "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745598233/MCP_tyhw2b.jpg",
-      alt: " AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
-      date: "April 25, 2025",
-      articleRoute: "ai-agents",
-    },
-    {
-      id: 12,
-      title:
-        "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745919088/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss.jpg",
-      alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
-      date: "April 29, 2025",
-      articleRoute: "is-ai-making-us-dumb",
-    },
-    {
-      id: 13,
-      title:
-        "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745932417/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut.jpg",
-      alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
-      date: "April 29, 2025",
-      articleRoute: "ai-vs-jobs",
-    },
-    {
-      id: 14,
-      title:
-        "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745934102/Demis_Hassabis_qjtfky.webp",
-      alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
-      date: "April 29, 2025",
-      articleRoute: "whats-next",
-    },
-    {
-      id: 15,
-      title: "The moment we stopped understanding AI [AlexNet]",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
-      alt: "The moment we stopped understanding AI [AlexNet]",
-      date: "May 1, 2025",
-      articleRoute: "we-stopped-understanding-ai",
-    },
-    {
-      id: 16,
-      title:
-        "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746107634/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7.jpg",
-      alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
-      date: "May 1, 2025",
-      articleRoute: "majorana",
-    },
-    {
-      id: 17,
-      title: "All Machine Learning algorithms explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746109286/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n.jpg",
-      alt: "All Machine Learning algorithms explained",
-      date: "May 1, 2025",
-      articleRoute: "all-ai-algorithms",
-    },
-    {
-      id: 18,
-      title:
-        "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png",
-      alt: "Best ai girlfriend",
-      date: "May 5, 2025",
-      articleRoute: "best-ai-girlfriend",
-    },
-    {
-      id: 19,
-      title: "Best AI Apps for College Student",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
-      alt: "Best AI Apps for College Student",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-apps",
-    },
-    {
-      id: 20,
-      title: "Best AI Stocks to buy now",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746481809/ChatGPT_Image_May_6_2025_12_49_26_AM_f1ainj.png",
-      alt: "Best AI Stocks to buy now",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-stock",
-    },
-  ];
-
-  return (
-    <>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

@@ -969,15 +969,6 @@ const Section2 = () => {
       date: "May 6, 2025",
       articleRoute: "best-ai-apps",
     },
-    {
-      id: 20,
-      title: "Best AI Stocks to buy now",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746481809/ChatGPT_Image_May_6_2025_12_49_26_AM_f1ainj.png",
-      alt: "Best AI Stocks to buy now",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-stock",
-    },
   ];
 
   return (

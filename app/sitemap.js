@@ -573,10 +573,6 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/ai/best-ai-stock`,
-      lastModified: new Date(),
-    },
-    {
       url: `https://www.mergesociety.com/ai/best-ai-app-for-iphone`,
       lastModified: new Date(),
     },

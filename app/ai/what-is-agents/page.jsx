@@ -227,7 +227,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="high"
+            fetchPriority="high"
           />
           <figcaption>
             Concept illustration of autonomous AI agents managing tools, APIs,
@@ -806,7 +806,7 @@ const Section2 = () => {
                 height={400}
                 loading="lazy"
                 decoding="async"
-                fetchpriority="high"
+                fetchPriority="high"
                 className="bg-image"
               />
             </div>

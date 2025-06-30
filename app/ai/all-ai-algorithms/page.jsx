@@ -297,7 +297,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="low"
+            fetchPriority="high"
           />
           <figcaption>
             A complete overview of all major machine learning algorithms — from

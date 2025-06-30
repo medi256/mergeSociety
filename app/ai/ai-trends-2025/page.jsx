@@ -320,7 +320,7 @@ export default function Article() {
             height={400}
             loading="lazy"
             decoding="async"
-            fetchpriority="low"
+            fetchPriority="high"
           />
           <figcaption>
             AI Trends 2025: A look into agentic AI systems, exponential model
