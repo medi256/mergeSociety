@@ -37,7 +37,7 @@ export const metadata = {
     title: "WebSockets vs Socket.IO: Ultimate Real-Time JavaScript Guide 2025",
     description:
       "Learn WebSockets and Socket.IO with step-by-step tutorials. Build chat apps, multiplayer games, and live dashboards with our complete 2025 guide.",
-    url: "https://www.mergesociety.com/code-report/websockets-explained",
+    url: "https://www.mergesociety.com/code-report/websocets-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -75,7 +75,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/websockets-explained",
+    canonical: "https://www.mergesociety.com/code-report/websocets-explained",
   },
 
   robots: {
@@ -170,7 +170,7 @@ export const metadata = {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/websockets-explained",
+      "@id": "https://www.mergesociety.com/code-report/websocets-explained",
     },
     description:
       "Comprehensive guide to WebSockets and Socket.IO for building real-time web applications. Includes step-by-step tutorials, code examples, and best practices for 2025.",

@@ -38,7 +38,7 @@ export const metadata = {
     title: "10 AI Tools That Cut Research Time by Months - Free in 2025",
     description:
       "Stop wasting months on outdated research methods. Top researchers secretly use these 10 free AI tools to dominate literature reviews, data analysis, and paper writing. Get the insider playbook.",
-    url: "https://www.mergesociety.com/ai/ai-tools-research-2025",
+    url: "https://www.mergesociety.com/ai/best-ai-tools-for-research",
     siteName: "MergeSociety",
     images: [
       {
@@ -80,12 +80,9 @@ export const metadata = {
   publisher: "MergeSociety",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-tools-research-2025",
+    canonical: "https://www.mergesociety.com/ai/best-ai-tools-for-research",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-tools-research-2025",
-      "es-ES":
-        "https://www.mergesociety.com/es/ai/herramientas-ia-investigacion-2025",
-      "de-DE": "https://www.mergesociety.com/de/ai/ki-tools-forschung-2025",
+      "en-US": "https://www.mergesociety.com/ai/best-ai-tools-for-research",
     },
   },
 
@@ -95,7 +92,7 @@ export const metadata = {
       "Secret AI Tools Top Researchers Use to Dominate Their Field in 2025",
     description:
       "These 10 free AI tools cut research time by months. Jenny AI, Paperpal, Julius AI + 7 more game-changers that eliminate the research grind forever.",
-    creator: "@mergesociety",
+    creator: "@manager70191",
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/ai-research-tools-2025_updated.jpg",
     ],
@@ -189,14 +186,10 @@ export const metadata = {
 
     author: {
       "@type": "Person",
-      name: "Neha Grwal",
-      url: "https://www.mergesociety.com/author/neha-grwal",
+      name: "Massa medi",
+      url: "https://www.mergesociety.com/about",
       description:
         "Founder of WiseUp, helped tens of thousands of researchers publish with less pain and more impact",
-      sameAs: [
-        "https://www.linkedin.com/in/neha-grwal",
-        "https://twitter.com/nehagrwal",
-      ],
     },
 
     publisher: {
@@ -213,7 +206,7 @@ export const metadata = {
 
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-tools-research-2025",
+      "@id": "https://www.mergesociety.com/ai/best-ai-tools-for-research",
     },
 
     about: [

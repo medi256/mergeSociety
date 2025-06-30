@@ -804,7 +804,7 @@ export default function Article() {
               AI and machine learning roadmap
             </a>{" "}
             for hands on, project focused learning or check out
-            <Link href={"/best-programming-language-for-each-job"}>
+            <Link href={"/latest/best-programming-language-for-each-job"}>
               best Programming Language for Each Job
             </Link>
           </p>
