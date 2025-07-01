@@ -1,34 +1,35 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
-  title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+  title: "SEO Steps to Rank #1 in Google (2025 SEO Plan) - 97% Are Failing",
   description:
-    "Unlock the secrets to SEO success! Discover the fastest ways to rank higher on Google in 2025 with these proven strategies.",
+    "Discover the exact 4-pillar SEO process that puts websites in the top 3% of Google rankings. Learn how to analyze competitors, leverage NLP, create converting pages, and build topical authority to dominate search results in 2025.",
   keywords: [
     "SEO 2025",
-    "google ranking tips",
-    "SEO strategies",
+    "rank #1 on Google",
+    "SEO blueprint",
+    "top 3% SEO strategy",
+    "Google ranking factors",
+    "NLP for SEO",
+    "topical authority",
+    "content clusters",
     "on-page SEO",
-    "backlinking tips",
-    "keyword optimization",
-    "SEO for beginners",
-    "SEO wins",
-    "Google ranking 2025",
-    "how to rank on google",
-    "how to rank on bing",
-    "best seo practices",
-    "learn seo practices",
-    "learn seo",
-    "optimize site for seo",
+    "SEO competitor analysis",
+    "conversion optimization",
+    "link building strategy",
+    "Google algorithm updates",
+    "SEO for lawyers",
+    "SEO for SaaS",
+    "SEO for healthcare",
   ],
 
   openGraph: {
-    title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+    title: "SEO Steps to Rank #1 in Google (2025 SEO Plan) - 97% Are Failing",
     description:
-      "Learn the quickest ways to boost your Google rankings with these expert SEO strategies — perfect for beginners and pros alike.",
+      "The exact 4-pillar process that puts websites in the top 3% of Google rankings. Learn competitor analysis, NLP optimization, and conversion-focused SEO tactics.",
     url: "https://www.mergesociety.com/tech/seo-wins",
     siteName: "Merge Society",
     type: "article",
@@ -37,16 +38,19 @@ export const metadata = {
         url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
         width: 1200,
         height: 630,
-        alt: "SEO Strategies for 2025",
+        alt: "SEO Blueprint to Rank #1 on Google",
       },
     ],
+    publishedTime: "2025-05-14T08:00:00Z",
+    modifiedTime: "2025-07-01T00:00:00Z", // Updated date
+    authors: ["Medi"],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+    title: "SEO Steps to Rank #1 in Google (2025 SEO Plan) - 97% Are Failing",
     description:
-      "Unlock the quickest ways to rank higher on Google with expert SEO strategies. Ideal for anyone looking to improve their website's visibility.",
+      "Discover why 97% of websites fail at SEO and the exact blueprint to break into the top 3% of Google rankings.",
     creator: "@manager70191",
     images: [
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
@@ -61,6 +65,7 @@ export const metadata = {
       follow: true,
       "max-image-preview": "large",
       "max-snippet": 350,
+      "max-video-preview": -1,
     },
   },
 
@@ -78,96 +83,98 @@ export const metadata = {
   category: "SEO",
 
   other: {
-    readingTime: "10 minutes",
+    readingTime: "12 minutes",
     publishDate: "May 14, 2025",
+    modifiedDate: "July 1, 2025", // Added modified date
     featured: true,
-    complexity: "Beginner to Intermediate",
+    complexity: "Intermediate to Advanced",
     relatedArticles: [
-      "On-Page SEO Optimization: Tips and Tricks",
-      "Backlinking Strategies for 2025: Boost Your Rankings",
-      "SEO for Beginners: A Complete Guide to Getting Started",
-      "How to Improve Your Google Rankings with Keyword Research",
-      "SEO in 2025: What You Need to Know to Stay Ahead",
+      "Advanced Competitor Analysis for SEO",
+      "Building Topical Authority in 2025",
+      "Conversion-Focused SEO: Turning Traffic into Leads",
+      "NLP for SEO: How to Optimize for Google's Algorithms",
+      "Link Building Strategies That Actually Work",
     ],
   },
 
   searchFeatures: {
     peopleAlsoAskTargeting: [
-      "What are the fastest ways to rank higher on Google?",
-      "How long does it take to improve Google rankings?",
-      "What are some easy SEO wins?",
-      "How can I improve my SEO for free?",
-      "SEO ranking tips for beginners",
+      "How to rank #1 on Google in 2025?",
+      "What percentage of websites get no Google traffic?",
+      "What are the 4 pillars of SEO?",
+      "How to use NLP for SEO?",
+      "What is topical authority in SEO?",
+      "How to analyze competitors for SEO?",
+      "Best conversion optimization techniques for SEO",
     ],
   },
 
   jsonLd: {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+    "@type": "HowTo",
+    name: "SEO Steps to Rank #1 in Google (2025 SEO Plan)",
+    description:
+      "A step-by-step guide to implementing the 4-pillar SEO strategy that puts websites in the top 3% of Google rankings.",
     image:
       "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
     datePublished: "2025-05-14T08:00:00Z",
-    dateModified: "2025-05-14T08:00:00Z",
+    dateModified: "2025-07-01T00:00:00Z",
     author: {
       "@type": "Person",
       name: "Medi",
       url: "https://www.mergesociety.com/about",
-      jobTitle: "SEO Expert & Web Developer",
+      jobTitle: "SEO Strategist",
     },
     publisher: {
       "@type": "Organization",
-      name: "Merge Society Blog",
+      name: "Merge Society",
       logo: {
         "@type": "ImageObject",
         url: "https://www.mergesociety.com/MS.png",
       },
     },
-    description:
-      "Learn the fastest SEO strategies to rank higher on Google in 2025. From quick wins to long-term strategies, this guide covers it all.",
-    keywords:
-      "SEO, Google ranking, SEO tips, SEO strategy, SEO optimization, SEO for beginners",
-    articleSection: "SEO",
-    wordCount: 2200,
-    isAccessibleForFree: true,
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/seo-wins",
+    estimatedCost: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: "0",
     },
-    mainEntity: [
+    supply: [
       {
-        "@type": "Question",
-        name: "What are the fastest ways to rank higher on Google?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The fastest ways to rank higher on Google include optimizing your on-page SEO, improving page load speed, creating quality backlinks, and targeting long-tail keywords. Additionally, leveraging structured data and creating engaging, high-quality content can boost your rankings quickly.",
-        },
+        "@type": "HowToSupply",
+        name: "SEO analysis tools",
       },
       {
-        "@type": "Question",
-        name: "How long does it take to improve Google rankings?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Improving Google rankings typically takes 1-3 months, depending on the competitiveness of the keywords, the quality of the content, and the effectiveness of your SEO efforts. However, some quick wins can bring noticeable improvements within a few weeks.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are some easy SEO wins?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Easy SEO wins include optimizing your title tags and meta descriptions, adding alt text to images, improving internal linking, and ensuring your website is mobile-friendly. These quick fixes can lead to noticeable improvements in your rankings.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How can I improve my SEO for free?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "To improve SEO for free, focus on creating high-quality content, optimizing on-page elements like titles and headings, building internal links, and ensuring your website is technically sound. Free tools like Google Analytics and Google Search Console can also help you track and improve your SEO efforts.",
-        },
+        "@type": "HowToSupply",
+        name: "Google Search Console",
       },
     ],
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Analyze top competitors",
+        text: "Study the top 5 ranking pages for your target keyword and document their on-page elements.",
+        url: "https://www.mergesociety.com/tech/seo-wins#competitor-analysis",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Optimize for NLP and topical coverage",
+        text: "Use tools to identify and cover all relevant subtopics for comprehensive content.",
+        url: "https://www.mergesociety.com/tech/seo-wins#nlp-optimization",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Create conversion-focused pages",
+        text: "Design pages with clear CTAs, social proof, and elements that drive user engagement.",
+        url: "https://www.mergesociety.com/tech/seo-wins#conversion-optimization",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Build topical authority",
+        text: "Create content clusters and strategic internal links to establish authority.",
+        url: "https://www.mergesociety.com/tech/seo-wins#topical-authority",
+      },
+    ],
+    totalTime: "PT4H",
   },
 
   breadcrumbLd: {
@@ -177,13 +184,19 @@ export const metadata = {
       {
         "@type": "ListItem",
         position: 1,
-        name: "Tech News",
+        name: "Tech",
         item: "https://www.mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
-        name: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
+        name: "SEO",
+        item: "https://www.mergesociety.com/tech/seo",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Rank #1 on Google (2025 Plan)",
         item: "https://www.mergesociety.com/tech/seo-wins",
       },
     ],
@@ -195,509 +208,573 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg"
-          }
-          alt="SEO Strategies for 2025"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-14">
-            | May 14, 2025
-          </time>
-        </h2>
+        <h1>
+          SEO Steps to Rank #1 in Google (2025 SEO Plan) (97% Are Failing—Here’s
+          Why)
+        </h1>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg"
+            alt="SEO Strategies for 2025 — How to Rank in an AI-Driven Search World"
+            width={600}
+            height={400}
+            loading="lazy"
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Discover future-proof SEO tactics for 2025—from AI-generated content
+            to search intent optimization and multimodal indexing.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-14"
+              itemProp="datePublished"
+            >
+              | May 14, 2025
+            </time>
+          </h2>
+        </section>
 
         <p>
-          If you’re seeking quick and actionable SEO wins to rank higher on
-          Google, you’ve come to the right place. With over 10 years of hands on
-          SEO experience, I’ve refined the fastest ways to recover lost traffic
-          and trust from Google no drawn out processes or wait times. Whether
-          you’ve inherited a neglected site, are onboarding a new client, or
-          simply want to refresh your own web presence, these tried and tested
-          SEO tactics will help you move the needle <strong>immediately</strong>
-          . Stay with me until the end for three bonus advanced strategies that
-          can propel your rankings even faster.
+          97%. That’s the percentage of webpages getting ZERO organic search
+          traffic from Google right now, according to fresh data from Ahrefs. If
+          that stat doesn’t shock you, you’re not paying attention. The
+          microscopic top 3%? They’re dominating page one and siphoning all the
+          clicks. The difference isn’t luck. It’s a battle-tested SEO formula
+          that almost nobody actually uses—and today, I’m giving you the
+          blueprint.
         </p>
 
-        <section>
-          <h2>
-            Immediate Technical SEO Audits: The Foundation of Fast SEO Wins
-          </h2>
-          <p>
-            Before diving into on page changes, always begin with a technical
-            SEO audit. Ignoring technical issues can cripple your chances for
-            visibility in Google’s search results making this an absolute
-            priority for any new or stale website.
-          </p>
-          <h3>How to Run a Technical SEO Audit Fast with Screaming Frog</h3>
-          <ul>
-            <li>
-              Use <strong>Screaming Frog</strong> (the free version is great for
-              sites under 500 URLs).
-            </li>
-            <li>
-              Pop your domain into the crawl, then review the{" "}
-              <strong>Issues</strong> tab for high priority errors.
-            </li>
-            <li>
-              Check for:
-              <ul>
-                <li>
-                  Blocked resources in <code>robots.txt</code>
-                </li>
-                <li>4xx/5xx errors</li>
-                <li>
-                  Duplicate, missing, or problematic meta
-                  titles/descriptions/H1s
-                </li>
-                <li>Large/unoptimized images slowing page load</li>
-                <li>Noindexed, deep, or orphaned pages</li>
-                <li>Schema/structured data issues</li>
-                <li>Incomplete or missing XML sitemap</li>
-              </ul>
-            </li>
-          </ul>
-          <p>
-            <em>
-              Pro tip: Tools like{" "}
-              <a
-                href="https://www.detailed.com/"
-                target="_blank"
-                rel="noopener"
-              >
-                Detailed
-              </a>{" "}
-              can quickly visualize your site’s heading structure.
-            </em>
-          </p>
-        </section>
+        <h2>
+          Why 97% of Websites Fail at SEO (And How You’ll Break Into the Top 3%)
+        </h2>
+        <p>
+          Let’s get one thing straight: Most “SEO advice” is nothing but
+          recycled myths. Want to see what actually moves the needle in 2024?
+          How about growing a site’s traffic by 214% in just 30 days, or jacking
+          up organic visitors by 300%? These aren’t hypothetical numbers. I’ve
+          run hundreds of SEO campaigns in cutthroat industries—legal, health,
+          SaaS—you name it. Today, I’m handing you the exact four-pillar process
+          I use (and trust me, nobody out there is doing it like this).
+        </p>
+
+        <h2>SEO Blueprint Pillar #1: Weaponize Your Competitors’ Weaknesses</h2>
+        <h3>Steal Their Playbook—Then Beat Them at Their Own Game</h3>
+        <p>
+          Here’s what nobody tells you: Every competitor ranking above you is
+          leaking clues about how to crush them. Ready to start exploiting them?
+        </p>
+        <ol>
+          <li>
+            Open Google and search your target keyword.
+            <br />
+            Open the top five ranking competitors—right in front of you are
+            their secrets.
+          </li>
+          <li>Create a Google Sheet. It’s your hit list.</li>
+          <li>
+            Document everything: Title tag, meta description, H1, first
+            paragraph. Copy, paste, repeat for all five.
+          </li>
+          <li>
+            Run their URLs through a tool like <b>Rankability</b> (pro move: use
+            the Content Optimizer and snag the “Rankability score” to see if
+            their topical coverage even stacks up).
+          </li>
+        </ol>
+        <blockquote>
+          "Most people obsess over backlinks. But if your on-page details are
+          sloppy, Google will ignore you no matter how many links you’ve got."
+        </blockquote>
+        <h3>
+          Busting the Biggest Myths: URL Structures Matter More Than You Think
+        </h3>
+        <p>Let me show you what most “SEO pros” get totally wrong.</p>
+        <ul>
+          <li>
+            <b>The URL:</b> If you can’t guess a page’s topic just by looking at
+            its URL (without the brand domain)? Google probably can’t either.
+            For example, missing key phrases like <i>Chicago logo</i> in
+            “Chicago logo design” smothers relevance.
+          </li>
+          <li>
+            <b>Title tags:</b> Exact-match keywords still matter. That’s not
+            speculation—it's in Google’s own leaked ranking documents (Title
+            Match Score is real). Don’t overthink it. Don’t get clever. Just say
+            what people search.
+          </li>
+          <li>
+            <b>Meta descriptions:</b> Small factor? Sure. But skipping it—or
+            jamming your phone number in—can tank your click-through rates. CTR
+            boosts rankings. Meta descriptions are not your sales letter.
+            They’re your hook.
+          </li>
+        </ul>
+        <h3>
+          Get Surgical With Your On-Page SEO (Not Just “Best Practices,” but
+          What Works Right Now)
+        </h3>
+        <ul>
+          <li>
+            <b>H1 tag:</b> If your main heading doesn’t contain your primary
+            keyword, you’re making it too easy for your competition.
+          </li>
+          <li>
+            <b>First paragraph:</b> Jam that primary keyword in, naturally. The
+            fastest route from Google’s eyes to your intent is line one.
+          </li>
+          <li>
+            <b>Topic Coverage:</b> Don’t just “touch” your keyword. Obliterate
+            it. The best competitors answer more questions, go deeper, and stay
+            laser-focused. (I’ll show you how in the next section.)
+          </li>
+        </ul>
+        <blockquote>
+          "Stop trying to be perfect. Start trying to be remarkable."
+        </blockquote>
+
+        <h3>How to Analyze: The Ruthless Way</h3>
+        <p>
+          Once you’ve captured all the data, look for these gaps in your
+          competitors:
+        </p>
+        <ul>
+          <li>Does their URL structure fully describe their topic?</li>
+          <li>Are exact-match keywords dominating their title tags?</li>
+          <li>Missing keywords or generic headings?</li>
+          <li>Is the main keyword front-and-center in the intro?</li>
+          <li>
+            Do they cover the topic completely, or leave readers on the hook?
+          </li>
+        </ul>
+        <p>
+          By spoon-feeding Google the right inputs (just like you’d feed a
+          one-year-old), you’re making it idiot-proof for the algo to rank you
+          higher.
+        </p>
+
+        <h2>How to Spot—and Exploit—Competitive Differentiation Angles</h2>
+        <h3>Angle #1: 100% Keyword Intent Match</h3>
+        <p>
+          This changed everything for me: If someone searches{" "}
+          <i>motorcycle accident attorney</i>, they don’t want{" "}
+          <b>safety tips</b>. They want proof, trust, and action. Blow your
+          competitors out of the water with:
+        </p>
+        <ul>
+          <li>Testimonials and reviews</li>
+          <li>Case studies</li>
+          <li>Clear, unique selling propositions</li>
+          <li>Comparison tables (why YOU vs. “the other guys”)</li>
+          <li>Anything that moves them from “maybe” to “call me now”</li>
+        </ul>
+        <p>
+          You know what’s crazy? Most top-ranking “conversion” pages don’t even
+          try to help the searcher make a decision. Don’t fall for that trap:
+          delete the “blog fluff” that kills leads.
+        </p>
+
+        <h3>Angle #2: Content Design That Crushes Boring Competition</h3>
+        <p>
+          Words don’t convert. <b>Pages</b> convert. Every section, every
+          visual… it’s either pulling your lead closer, or pushing them away.
+          Ask yourself:{" "}
+          <b>Does this help the prospect become a lead RIGHT NOW?</b> If not,
+          nuke it.
+        </p>
+        <p>
+          Real-life examples coming up (keep reading—this is where most give up
+          and get left behind).
+        </p>
+
+        <h3>Angle #3: Trigger Deep User Engagement</h3>
+        <p>
+          Here’s a fact: Google now rewards authentic user engagement. That’s
+          more than bounce rates—it’s real interaction. Want a shortcut? Try
+          these:
+        </p>
+        <ul>
+          <li>
+            Embed killer video (not cheap stock clips, real personality or
+            data-filled explainers)
+          </li>
+          <li>
+            Add interactive calculators (e.g., “What’s my motorcycle case
+            worth?”)
+          </li>
+          <li>
+            Quizzes and micro-surveys that get people to stick around just a few
+            seconds longer
+          </li>
+        </ul>
+        <p>
+          If your competitors don’t do this, their rankings are on a ticking
+          clock.
+        </p>
+        <blockquote>
+          "The difference between winners and losers? Winners do what losers
+          won't."
+        </blockquote>
+
+        <h2>
+          Pillar #2: Feed the Machine — Outperform Google’s Algorithms with NLP
+          & Topical Authority
+        </h2>
+        <h3>
+          How Natural Language Processing (NLP) Can Make or Break Your Rankings
+        </h3>
+        <p>
+          Want an edge over every copy-paste SEO hack? Use NLP, the same tech
+          that powers Google, Amazon, and Facebook, to supercharge your
+          content’s relevance.
+        </p>
+        <ol>
+          <li>
+            Plug your keyword into Rankability. Extract the exact topics your
+            competitors cover. (The tool does the heavy lifting.)
+          </li>
+          <li>Copy those “NLP topics.”</li>
+          <li>
+            Fire up ChatGPT and paste them—with this prompt: “Using these NLP
+            topics, write an outline for the most comprehensive,
+            conversion-focused page in [your industry].”
+          </li>
+          <li>
+            Grab your About page, paste that into ChatGPT to personalize your
+            new outline.
+          </li>
+          <li>
+            Refine, then upload your outline back into Rankability (for tracking
+            and scoring).
+          </li>
+        </ol>
+        <p>
+          Don’t forget the human touch: you’re writing for people first, not
+          robots.
+        </p>
+
+        <h3>Pro Tip: AI Content vs. Human Copy (What Actually Wins?)</h3>
+        <p>
+          I analyzed the top 5 ranking sites for the hyper-competitive “Chicago
+          Motorcycle Accident Lawyer.” Three out of five winners used human
+          writers (including spot #1). So, for now? The smart move is to blend
+          AI for research, but lean on humans for copy that actually converts
+          and sticks.
+        </p>
+        <ul>
+          <li>
+            <b>
+              Share your Rankability-generated brief with your writer (use a
+              simple share link).
+            </b>
+          </li>
+          <li>
+            <b>Tell them to aim LOW on word count.</b> Shorter is almost always
+            stronger—forces sharper, punchier copy.
+          </li>
+          <li>
+            <b>Don’t stress about keyword frequency.</b> It’s about coverage,
+            not awkward repetition.
+          </li>
+        </ul>
+        <blockquote>
+          "If you’re still reading this, you’re already ahead of 90% of people."
+        </blockquote>
+
+        <h2>
+          Pillar #3: Create an Addictive Page—Design for Maximum Conversions
+        </h2>
+        <h3>It’s Not Enough to Rank—You Need to Convert Ruthlessly</h3>
+        <p>
+          Here’s what most “SEO pros” miss: Your page is{" "}
+          <b>salesmanship-in-print</b>. If you don’t make every pixel persuade,
+          your rankings are pointless.
+        </p>
+        <ol>
+          <li>
+            <b>Brainstorm a REAL Offer.</b> “Free consultation” isn’t an
+            offer—it’s table stakes. Use ChatGPT to brainstorm irresistible
+            offers that make them raise their hand now.
+          </li>
+          <li>
+            <b>Design to Steal the Click (and the Call).</b> Keep a swipe file
+            of killer designs, hero sections, CTAs, testimonials, trust
+            badges—the works.
+          </li>
+          <li>
+            <b>Above the Fold Is Do or Die.</b> Most users never scroll. Want
+            proof? Install Mouseflow or Hotjar, watch recordings—see how{" "}
+            <b>80%</b> only see your headline/CTA.
+          </li>
+          {/* Visual description */}
+          <li>
+            <b>Pour On the Social Proof.</b> 97% of buyers read reviews before
+            acting. Add testimonials, video success stories, awards, real
+            customer results—any proof that you’re the real deal.
+            <br />
+            Pro tip: Testimonials can bump conversion rates by 34%.
+          </li>
+          <li>
+            <b>Balance Emotion & Logic.</b> Zig Ziglar nailed it: People decide
+            on emotion, then justify with logic. Your page needs emotional
+            triggers (pictures, stories, CTAs) AND logic (processes, unique
+            selling points, guarantees).
+          </li>
+        </ol>
+        <blockquote>
+          "While everyone else is fighting over scraps, you’ll be dominating the
+          feast."
+        </blockquote>
+
+        <h2>
+          Pillar #4: Make Google Trust You—Build Supporting Assets & Smart Link
+          Networks
+        </h2>
+        <h3>Why “Topical Clusters” Destroy Broad, Unfocused Content</h3>
+        <p>
+          Google confessed: its ranking systems look for sites that stay inside
+          a clear area of expertise. Want authority? Build clusters. Here’s your
+          battle plan:
+        </p>
+        <ol>
+          <li>
+            Type your keyword into Google and scan the “People Also Ask” box.
+            (Examples: “How much are motorcycle accident settlements in
+            Chicago?” “Why do Chicago insurance companies total motorcycles for
+            minor damage?”)
+          </li>
+          <li>
+            For every topic, create a supporting asset—blog posts, guides, case
+            studies—and always link back to your main commercial page.
+          </li>
+          <li>
+            Cross-link your supporting assets to each other so Google sees a
+            tight-knit topical cluster. It works insanely well.
+          </li>
+          <li>
+            <b>Leverage Internal Links Like a Pro.</b> Open Semrush, check your
+            Indexed Pages (Backlink Analytics) and spot your highest-authority
+            pages. Add links to your new commercial page—watch the rankings bump
+            in days.
+          </li>
+          <li>
+            <b>Launch Linkable Assets.</b> Not every page gets links. But if you
+            craft a stat-driven, unique, or resource-rich piece (“75 Chicago
+            Motorcycle Accident Statistics for 2025”), you can outreach and
+            build backlinks non-stop.
+          </li>
+          <li>
+            <b>Spy On What Works, then Multiply It.</b> Use Semrush to
+            reverse-engineer your competitors’ top-linked pages—then just do it
+            better.
+          </li>
+          <li>
+            <b>Don’t Stop at Brainstorming.</b> Paste successful formats into
+            ChatGPT and ask for a year’s worth of link-bait ideas—never run out
+            of ammo again.
+          </li>
+        </ol>
+        <blockquote>
+          "The window for this opportunity is closing fast—by the time everyone
+          catches on, it’ll be too late."
+        </blockquote>
 
         <section>
-          <h2>Boost Your Page Speed for Instant Google Ranking Improvements</h2>
-          <p>
-            Page speed is a Google ranking factor, especially for mobile. Test
-            your site with{" "}
-            <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">
-              PageSpeed Insights
-            </a>{" "}
-            and fix core issues:
-          </p>
+          <h2>Step-by-Step Quick Wins: How to Implement This Today</h2>
           <ol>
             <li>
-              Install an <strong>image optimization plugin</strong> like Smush
-              to automatically compress images.
+              Run a Google search for your prime keyword. Analyze the top five
+              results—headings, URLs, intros, and meta tags. How do you stack
+              up?
             </li>
             <li>
-              Add a caching plugin such as <strong>WP Fastest Cache</strong> for
-              WordPress.
+              Fire up Rankability, Semrush, or your favorite optimizer—measure
+              your relevance and topic coverage. Fix what’s missing.
             </li>
             <li>
-              Leverage a CDN like <strong>Cloudflare</strong> to speed up
-              content delivery worldwide.
+              Start a Google Sheet. Turn competitor gaps into actionable to-dos.
+            </li>
+            <li>
+              Map out supporting assets using People Also Ask (turn those into
+              your content cluster). Link them tightly.
+            </li>
+            <li>
+              Craft a unique, non-boring offer for your commercial page—make the
+              CTA irresistible.
+            </li>
+            <li>
+              Overhaul your page design with real social proof and clarity—use
+              video, testimonials, comparison tables.
+            </li>
+            <li>
+              Launch a link-building sprint using your new linkable asset
+              ideas—reach out to influencers, news outlets, or partners.
             </li>
           </ol>
-          <p>
-            <strong>Tip:</strong> Check both mobile and desktop scores, since
-            mobile often lags behind and can hurt rankings disproportionately.
-          </p>
-          {/* Visual suggestion: Screenshot of PageSpeed Insights with mobile and desktop scores side by side */}
-          <Image
-            src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747219633/Screen_Shot_2025-05-14_at_1.31.43_PM_mo9tvp.png"
-            }
-            alt="Screenshot of PageSpeed Insights with mobile and desktop scores side by side"
-            width={600}
-            height={400}
-            priority
-          />
         </section>
 
         <section>
-          <h2>Strategic Internal Linking for Massive SEO Gains</h2>
-          <p>
-            Contextual internal links are among the most overlooked and potent
-            SEO tactics for quick ranking wins. Audit how many internal links
-            each important page has (tools like <strong>Rank Math</strong> or{" "}
-            <strong>Link Whisper</strong> can help), aiming for at least{" "}
-            <strong>5+ contextual internal links per page</strong>.
-          </p>
-          <h3>How to Find Internal Link Opportunities</h3>
+          <h2>Common Mistakes That Keep You Invisible on Google</h2>
           <ul>
+            <li>Ignoring search intent and stuffing irrelevant info</li>
             <li>
-              Use Google: <code>site:yourdomain.com “main keyword”</code> to
-              find relevant internal pages.
+              Over-optimizing or “keyword stuffing” instead of focusing on REAL
+              topic coverage
             </li>
+            <li>Weak above-the-fold design—no clear CTA or offer</li>
+            <li>Missing internal links or topical clusters</li>
+            <li>Zero social proof or persuasive copy</li>
             <li>
-              Manually add links in content (not navigation menus) using natural
-              anchor text.
-            </li>
-            <li>
-              Leverage plugins to automate, but review recommendations for
-              accuracy and context.
+              Relying entirely on AI for writing—humans still win the conversion
+              game
             </li>
           </ul>
-          <h3>Anchor Text Best Practices</h3>
-          <p>
-            Unlike backlinks, internal anchor text diversity is less critical
-            but avoid using the same anchor every time. Use a mix of exact,
-            partial, and related anchor variants for a natural link profile.
-          </p>
-          {/* Visual suggestion: Table outlining anchor text variations and their contextual uses */}
-          <Image
-            src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747220039/Screen_Shot_2025-05-14_at_1.53.39_PM_d312es.png"
-            }
-            alt="Table outlining anchor text variations and their contextual uses"
-            width={600}
-            height={400}
-            priority
-          />
         </section>
 
         <section>
           <h2>
-            Optimize Headings: How H Tags Help Google Understand Your Content
-            Fast
+            Advanced SEO Tactics for Pros (How to Absolutely Pulverize Your
+            Competition)
           </h2>
-          <p>
-            Headings aren’t just for readers they guide Google by breaking up
-            your content into scannable, logical sections. Audit each article
-            with a headings tool: look for thin sections of text lacking
-            subheadings, and add more <strong>H2s and H3s</strong> using
-            semantic and related keywords (naturally, not spammed).
-          </p>
           <ul>
             <li>
-              Every page needs a single, keyword targeted <strong>H1</strong>.
+              Leverage scroll maps and heatmaps (Mouseflow, Hotjar) to optimize
+              page sections users actually see
             </li>
             <li>
-              Break up large blocks of text with meaningful <strong>H2</strong>{" "}
-              and <strong>H3</strong> subheadings.
+              Implement schema markup for FAQs and reviews to grab more SERP
+              real estate
             </li>
             <li>
-              Integrate keyword variations and LSI terms into your headings for
-              topical depth.
+              Use “hero” storytelling in testimonials—real names, faces,
+              settlement amounts
+            </li>
+            <li>
+              Test interactive tools (calculators, mini-assessments) to
+              skyrocket engagement and rankings
+            </li>
+            <li>
+              Create “ego-bait” assets (e.g., expert roundups, statistics pages)
+              to attract natural backlinks
             </li>
           </ul>
-          {/* Internal Link Opportunity: Link to a detailed guide on “How To Structure Headings for SEO” */}
         </section>
 
         <section>
-          <h2>
-            Add keyword rich FAQs: Capture More Semantic Search and Featured
-            Snippets
+          <h2 id="people-also-ask">
+            People Also Ask: SEO Blueprint & Ranking #1 on Google
           </h2>
-          <p>
-            Adding a <strong>FAQ section</strong> to underperforming or even all
-            articles is powerful for increasing topical authority and targeting
-            "People Also Ask" queries. Use tools like ChatGPT to draft FAQs
-            based on your main keywords, and review Google SERPs for “People
-            Also Ask” ideas. Supplement with competitor research and your own
-            expertise.
-          </p>
-          <ol>
-            <li>
-              Research: Use ChatGPT, Google PAA boxes, and top ranking articles
-              to compile relevant questions.
-            </li>
-            <li>
-              Optimize: Add target keywords and semantically related entities
-              into the questions and answers for maximum relevance.
-            </li>
-            <li>
-              Validate: Edit AI generated content for accuracy, tone, and value.
-              Use an AI content checklist for quality control.
-            </li>
-          </ol>
-          {/* Internal Link Opportunity: Link to a post about “How to Use FAQ Schema for SEO” */}
+          <div className="faq-section">
+            <h3>What are the four pillars of SEO?</h3>
+            <p>
+              The four pillars are: Exploiting your competitors, feeding
+              Google's algorithms with relevant signals, creating addictive
+              pages that convert, and earning Google’s trust via content
+              clusters and links.
+            </p>
+            <h3>How long does it take to rank #1 using this SEO blueprint?</h3>
+            <p>
+              It depends on competition, but results like 214% traffic growth in
+              30 days are absolutely possible when you execute these strategies
+              ruthlessly.
+            </p>
+            <h3>Is keyword stuffing still effective for SEO in 2024?</h3>
+            <p>
+              Not anymore. Google cares more about complete topic coverage and
+              relevance. Aim for depth, not awkward repetitions.
+            </p>
+            <h3>
+              What’s the fastest way to find ranking opportunities right now?
+            </h3>
+            <p>
+              Reverse-engineer the “People Also Ask” topics and internal linking
+              patterns in your niche. Attack unclaimed keyword gaps with better
+              content and irresistible offers.
+            </p>
+            <h3>Can using AI-written content hurt your rankings?</h3>
+            <p>
+              If you rely on generic, unedited AI content, yes. The top sites
+              blend AI research with authentic, persuasive human copy.
+            </p>
+          </div>
         </section>
 
-        <section>
-          <h2>Title, URL, and H1 Best Practices: Essential On Page SEO Wins</h2>
-          <p>
-            Ensure that your{" "}
-            <strong>main keyword appears at the very beginning</strong> of your
-            title tag, H1, and URL slug. This simple adjustment often delivers a
-            fast ranking boost with minimal effort. If you change URLs, always:
-          </p>
-          <ul>
-            <li>
-              Implement 301 redirects from the old URL to the new, SEO optimized
-              URL.
-            </li>
-            <li>
-              Update all internal and menu links to reflect new page addresses.
-            </li>
-            <li>
-              Use plugins like <strong>WP404 Autoredirect</strong> as a safety
-              net for missed redirects.
-            </li>
-          </ul>
-          <p>
-            <strong>Note:</strong> Keyword in URL is one of the strongest on
-            page ranking signals handle URL changes with care to avoid broken
-            pages and lost value.
-          </p>
-          {/* Visual suggestion: Annotated screenshot showing optimized title, URL, and H1 on a WordPress post */}
-        </section>
-
-        <section>
-          <h2>Identify and Fix Thin Content for Better Rankings</h2>
-          <p>
-            Google dislikes thin or duplicate content. Scan your site for pages
-            with less than 500 words or those with boilerplate, duplicate
-            sections, or minimal unique information. Expand and enrich low value
-            pages to compete with top ranking articles in your niche.
-          </p>
-          <ol>
-            <li>
-              Check word counts and compare against competitors for your target
-              keyword.
-            </li>
-            <li>
-              Ensure unique, useful content appears above the fold and in main
-              page areas not just in footers or sidebars.
-            </li>
-            <li>Use structured outlines and relevant headings to add value.</li>
-          </ol>
-          <p>
-            <strong>Pro tip:</strong> When using AI to speed up content
-            expansion, always manually review and edit output.
-          </p>
-        </section>
-
-        <section>
-          <h2>Regular Content Updates: Keep Google Coming Back</h2>
-          <p>
-            Google favors fresh content. Even if a page isn’t thin, regular
-            improvements can push it higher in the SERPs. Use tools like ChatGPT
-            to analyze your article and suggest missing subtopics, or pit your
-            article against competitors to find coverage gaps. Tactics include:
-          </p>
-          <ul>
-            <li>
-              Adding new sections in response to emerging trends or user
-              questions.
-            </li>
-            <li>
-              Rewriting outdated or unclear copy for clarity and conciseness.
-            </li>
-            <li>
-              Adding or updating unique images screenshots, AI art, or Canva
-              graphics work great.
-            </li>
-          </ul>
-          <p>
-            Don’t forget: Unique visuals offer a ranking and UX edge over plain
-            text content.
-          </p>
-        </section>
-
-        <section>
-          <h2>Three Bonus Quick SEO Win Tactics for 2025</h2>
-          <h3>YouTube Video SEO for Fast Google Rankings</h3>
-          <p>
-            Creating keyword optimized YouTube videos can land you on Google’s
-            first page via the videos carousel. Optimize your video title, tags,
-            and description use relevant keywords, and match the intent of high
-            performing SERPs that show video results. Sometimes, videos will
-            rank within a day or two!
-          </p>
-
-          <h3>Parasite SEO: Leverage High Authority Domains</h3>
-          <p>
-            Parasite SEO involves publishing your optimized article on a third
-            party, high authority site like Medium, LinkedIn Pulse, or Quora.
-            Since these domains already have Google’s trust, your content can
-            rank much faster than on your own (less authoritative) site. Use{" "}
-            <a href="https://parasiteseo.com/" target="_blank" rel="noopener">
-              parasiteseo.com
-            </a>{" "}
-            to find potential domains for your topic.
-          </p>
-          <h3>Free Parasite Platforms: Reddit, Medium, Quora, LinkedIn</h3>
-          <p>
-            Repurpose your best articles by rewriting them for platforms with
-            high domain authority. This tactic is so effective right now that
-            Google may eventually clamp down on it, but for now, it’s a powerful
-            way to land instant search visibility, referral traffic, and
-            authority signals. Always funnel users back to your main website or
-            offers.
-          </p>
-        </section>
-
-        {/* FAQ Section with semantic H3s, mapping People Also Ask & related queries */}
-        <section className="faq-section">
-          <h2>
-            Frequently Asked Questions: Quick SEO Wins & Ranking Higher on
-            Google
-          </h2>
-
-          <h3>
-            What are the fastest ways to increase my website's Google rankings?
-          </h3>
-          <p>
-            The fastest SEO wins come from technical audits (fixing crawl
-            errors, speed, and metadata), internal linking, optimizing headings,
-            adding keyword rich FAQs, updating content, refining titles and
-            URLs, fixing thin content, and leveraging YouTube and high authority
-            external sites for content distribution.
-          </p>
-
-          <h3>How quickly can I see SEO results from these tactics?</h3>
-          <p>
-            Some changes (like fixing broken links or adding internal links and
-            FAQs) can show a noticeable ranking increase within days to a few
-            weeks, especially if your site is already crawled frequently by
-            Google.
-          </p>
-
-          <h3>What is internal linking and why does it matter for SEO?</h3>
-          <p>
-            Internal links connect related content within your website,
-            distributing link equity and helping search engines (and users) find
-            and prioritize your best pages. Well optimized internal linking is
-            one of the fastest, highest ROI on page SEO actions you can take.
-          </p>
-
-          <h3>How do I use FAQs to improve SEO?</h3>
-          <p>
-            FAQs help target long tail and semantic queries. With proper FAQ
-            schema markup, they also increase the chances of appearing in
-            Google’s "People Also Ask" and featured snippet sections, driving
-            more traffic and authority.
-          </p>
-
-          <h3>What should I do if my website has thin or duplicate content?</h3>
-          <p>
-            Identify thin or duplicate content using crawling tools or manual
-            review. Expand each page to at least match the word count and
-            topical depth of top competitors. Make sure all content is unique
-            and adds value, not just filler text.
-          </p>
-
-          <h3>Is it risky to change URLs to add keywords?</h3>
-          <p>
-            Changing URLs is powerful but risky if mishandled. Always use proper
-            301 redirects and update all links to preserve SEO value. Use
-            plugins as a fallback, but manual verification is best practice.
-          </p>
-
-          <h3>Does adding images help SEO?</h3>
-          <p>
-            Yes images improve user engagement, increase average time on page,
-            and can boost rankings if optimized (compressed, relevant,
-            descriptive alt text). Unique visuals, especially custom graphics or
-            annotated screenshots, work better than stock photos.
-          </p>
-
-          <h3>
-            What are Google’s “People Also Ask” questions and how do I use them
-            for SEO?
-          </h3>
-          <p>
-            "People Also Ask" (PAA) questions aggregate frequent user queries
-            related to your target keyword. Incorporate these into your FAQs or
-            article body with concise, helpful answers to grab more SERP real
-            estate and win featured snippet spots.
-          </p>
-        </section>
-
+        {/* Internal linking opportunities */}
         <aside>
-          <h3>More Topics</h3>
-          <Section3 />
+          <h3>Want more insights?</h3>
+          <ul>
+            <li>
+              <Link href="/tech/chrome">
+                Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers &
+                More: Your Wild, Weird Week in Tech
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/palantir">
+                Palantir: How a Silicon Valley Unicorn Rewrote the Rules on
+                Tech, Data, and Defense
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/wifi">
+                The Secret Magic of Wi-Fi: How Invisible Waves Power Your
+                Internet Obsession
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/docker-explained">
+                Docker 101: Mastering Modern Software Delivery with Containers
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/developer-roadmaps">
+                God-Tier Developer Roadmap: From Scratch to the Limits of Human
+                Knowledge
+              </Link>
+            </li>
+          </ul>
         </aside>
+
+        <section>
+          <h2>Your Transformation: Are You Ready to Become the 3%?</h2>
+          <p>
+            You now have a blueprint most will never see, let alone implement.
+            The window is open right now—while the majority are still obsessing
+            over quick fixes, worthless checklists, and copycat content. Keep
+            scrolling through Instagram tips… or go build something that
+            dominates. This is just the beginning of what’s possible if you
+            commit. If these “basics” can triple traffic in 30 days, just
+            imagine what happens when you master every pillar.
+          </p>
+          <p>Bottom line: Winners act. Losers watch. What will you do?</p>
+          <blockquote>
+            "Most people will ignore this and wonder why they're stuck... Don't
+            let that be you."
+          </blockquote>
+        </section>
+
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 37,
-      title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png",
-      alt: "Neovim Modern Guide",
-      date: "May 14, 2025",
-      articleRoute: "neovim-explained",
-    },
-    {
-      id: 38,
-      title:
-        "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230241/pexels-sharad-7199194_w5uzmv.jpg",
-      alt: "PC Components Overview Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-overview",
-    },
-    {
-      id: 39,
-      title:
-        "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
-      alt: "PC Gaming Components Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-gaming-parts",
-    },
-    {
-      id: 40,
-      title:
-        "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747238168/pexels-athena-2582930_afjwie.jpg",
-      alt: "PC Gaming Components Guide 2025",
-      date: "May 14, 2025",
-      articleRoute: "recommended-gaming-pc-builds",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <section>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};
