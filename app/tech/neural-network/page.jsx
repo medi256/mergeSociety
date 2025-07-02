@@ -546,538 +546,511 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>But what is a neural network? | Deep learning</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg"
-          }
-          alt="But what is a neural network? | Deep learning"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-1">
-            | May 1, 2025
-          </time>
+        <h1>
+          Neural Networks Explained: How Your Brain Outsmarts Computers at
+          Recognizing Digits (Even at 28x28 Pixels)
+        </h1>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg"
+            alt="But what is a neural network? | Deep learning"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Conceptual illustration of a neural network — the backbone of modern
+            deep learning.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-01"
+              itemProp="datePublished"
+            >
+              | May 1, 2025
+            </time>
+          </h2>
+        </section>
+
+        <p>
+          Imagine this: You glance at a blurry, almost pixelated 28x28 image of
+          a number. Somehow, in a fraction of a second, your brain screams,
+          “That’s a 3!”—without breaking a sweat, without second-guessing
+          itself, without pausing for even a blink. But if someone handed you a
+          computer and said, “Hey, write a program that does the same thing,
+          every time, with no mistakes…” You’d probably panic. Sound familiar?
+          Here’s the secret: It’s not easy for a computer. In fact, building a
+          machine that recognizes handwriting is one of the hardest, craziest
+          challenges in all of tech—and that’s exactly why neural networks are
+          such a mind-blowing breakthrough. Today, I’m going to show you, step
+          by step, how a neural network actually works (not just the buzzwords),
+          all without any math background required. By the time you’re done
+          reading, you’ll see these mysterious “layers” and “neurons” in a
+          totally new way—and you’ll understand why this matters in our
+          AI-driven world.
+        </p>
+
+        <h2>
+          Forget What You Think You Know: The Real Reason Digit Recognition Is a
+          Nightmare for Computers
         </h2>
         <p>
-          Neural networks have revolutionized the world of machine learning,
-          powering everything from automated bank check readings to breakthrough
-          image recognition systems. But have you ever wondered what actually
-          happens beneath the surface when a computer “sees” a handwritten
-          digit? In this deep dive, we’ll break down, layer by layer, exactly
-          how neural networks decipher scrappy, pixelated digits—no advanced
-          math degree required. We’ll explore the math, demystify the jargon,
-          and get you inspired by how these models “think,” whether you’re a
-          total newcomer or an aspiring AI architect.
-        </p>
-
-        <h2>Astonishing Human Pattern Recognition</h2>
-        <p>
-          Imagine glancing at a blurry “3,” hastily scribbled and rendered at a
-          hilariously low resolution of just <strong>28 by 28 pixels</strong>.
-          Your brain barely flinches—it just knows it’s a “3.” Now pause and
-          take a moment to reflect on just how wild that is. You, mere human,
-          can instantly recognize an array of awkward threes—a shaky “3”, a bold
-          “3”, a skinny “3”—even though the exact pixels, the specific
-          light-sensitive cells in your retina firing with each different shape,
-          change every time. Despite these variations, your{" "}
-          <strong>visual cortex</strong> makes sense of the chaos and recognizes
-          the underlying concept of “three.”
-        </p>
-        <p>
-          Computers, in contrast, face a daunting challenge. If someone
-          challenged you to write a program that takes a 28x28 grid of pixels
-          and reliably outputs the correct digit, that leap from human intuition
-          to code is, frankly, enormous. The task balloons from “comically
-          trivial” for our brains to “formidably complex” for a line-by-line
-          computer program.
-        </p>
-
-        <h2>Why Machine Learning and Neural Networks Matter</h2>
-        <p>
-          In today’s world, the relevance—and necessity—of{" "}
-          <strong>machine learning</strong> and <strong>neural networks</strong>{" "}
-          is almost beyond question. These technologies power self-driving cars,
-          speech recognition, medical image analysis, and so much more. But
-          while we constantly hear terms like “deep learning” and “AI,” what do
-          they actually mean? And how are neural networks more than just
-          buzzwords?
-        </p>
-        <p>
-          The goal here is no mere surface tour. We’re rolling up our sleeves,
-          starting from scratch, to build and visualize a neural network
-          designed to recognize handwritten digits. This classic example serves
-          as the perfect on-ramp to neural network theory—and, by the end,
-          you’ll not only understand the structure, but also what happens when
-          you hear about a neural network “learning.”
-        </p>
-
-        <h2>Unpacking the Neural Network: From Pixels to Predictions</h2>
-        <p>
-          At its heart, a neural network is a digital homage to the brain,
-          loosely inspired by networks of neurons firing in biological tissue.
-          But let’s break it down—what is a “neuron” in this context, and how
-          are they connected?
-        </p>
-        <h3>What Is a Digital “Neuron”?</h3>
-        <p>
-          In the context of neural networks, a “neuron” is a very simple
-          element: it’s something that holds a single number, specifically
-          between <strong>0 and 1</strong>. For example, the network’s input is
-          fed through 784 neurons, one for each pixel in a 28x28 grayscale digit
-          image. Each of these neurons holds a value representing how bright the
-          corresponding pixel is: <strong>0</strong> for a black pixel and{" "}
-          <strong>1</strong> for white, with values in-between for various
-          shades of gray. The technical term for this number is the neuron’s{" "}
-          <strong>activation</strong>.
-        </p>
-        <p>
-          Think of it like lights lighting up on a grid: the brighter the
-          neuron, the higher its activation.
-        </p>
-
-        <h3>Layers Upon Layers</h3>
-        <p>
-          The <strong>first layer</strong> of the network holds these 784
-          activations. Jump to the <strong>last layer</strong>—there are 10
-          neurons, each representing one of the digits, 0 through 9. The
-          activation level here indicates how confident the network is that the
-          input image matches that particular digit. In between, sit the “hidden
-          layers”—the enigmatic middlemen whose roles we’ll soon clarify.
-        </p>
-        <p>
-          For our purposes, let’s stick to a classic, “plain vanilla”
-          architecture: two hidden layers, each with 16 neurons—an arbitrary but
-          visually handy number for illustration. In reality, architectures can
-          vary, sometimes wildly so, but this structure is the ideal learning
-          ground for neural network basics.
-        </p>
-
-        <h2>How Do Layers Interact?</h2>
-        <p>
-          The magic of a neural network lies in how the{" "}
-          <strong>activations</strong> in one layer influence those in the next.
-          As in the brain, where groups of neurons firing can trigger others,
-          each neuron in one layer is connected to every neuron in the layer
-          ahead via so-called “weights.” After training, these connections
-          encode the logic of recognition.
-        </p>
-        <p>
-          Feed in an image—say, a digit “9.” All 784 input neurons light up
-          according to each pixel’s brightness. This pattern triggers a series
-          of activations in the first hidden layer, which in turn triggers the
-          next hidden layer, then the output. The neuron in the output layer
-          with the highest activation is the network’s “guess” as to which digit
-          has been shown.
-        </p>
-
-        <h2>Why Do Layered Networks Work?</h2>
-        <p>
-          What’s our intuition for thinking this sort of layered setup might
-          exhibit intelligent behavior?
+          Here’s the thing that blew my mind: Even when you scribble the number
+          3 a hundred different ways—sloppy, clean, twisted, upside down—your
+          brain instantly recognizes every single version. But if you tell a
+          computer, “Look at this grid of 28 by 28 pixels and tell me what digit
+          it is,” the task explodes from absurdly simple to mind-numbingly hard.
         </p>
         <ul>
           <li>
-            <strong>Feature Decomposition:</strong> When you recognize digits,
-            you break the task down—an “8” has two loops, a “4” has three
-            straight lines, a “9” has a loop and a stalk. The hope is that, in a
-            perfect scenario, each neuron in the penultimate layer corresponds
-            to a sub-component like a loop or a line. When an image contains a
-            feature (a loop up top, say), the relevant neuron “lights up.”
+            Your eye’s sensors are firing in totally different ways when you see
+            one “3” versus another
           </li>
           <li>
-            <strong>Edge Detection:</strong> Hidden layers may detect smaller
-            features: the first hidden layer might capture tiny edge segments;
-            subsequent layers combine edges into bigger structures, like loops
-            or lines, eventually piecing these into digits.
+            Computers see numbers—pixels!—not meaning, shapes, or patterns
           </li>
           <li>
-            <strong>Versatility Across Domains:</strong> This abstraction works
-            beyond digits. Image and speech recognition both thrive on
-            transforming raw sensor data into increasingly sophisticated
-            patterns—first sounds or edges, then syllables or shapes, then words
-            or objects.
+            If you tried to write out the rules by hand, you’d need a million
+            lines of if-then-else logic
           </li>
         </ul>
-
-        <h2>How Does a Neuron “Detect” a Pattern?</h2>
         <p>
-          Suppose we want a neuron in the second layer to spot a specific
-          edge—say, a horizontal stroke in the upper left. How is this possible?
-          That’s where the network’s parameters—<strong>weights</strong>—enter.
+          Here’s what nobody talks about: Neural networks changed everything.
+          They didn’t just get a little better—they’ve become the only practical
+          way for machines to rival the human eye at recognizing digits, faces,
+          voices, anything. And if you care about where the world is going—AI,
+          automation, self-driving cars—this story is everything.
         </p>
+
+        <h2>Neural Networks, Stripped Bare: What Actually Happens Inside</h2>
+        <p>
+          Most people hear “neural network” and picture some weird, sci-fi brain
+          diagram. Let’s cut through the hype.
+        </p>
+        <ul>
+          <li>
+            The simplest possible neural network for digit classification:
+            <ul>
+              <li>
+                <strong>Input Layer:</strong> 784 “neurons” (one for each pixel
+                in a 28x28 image), each holding a number between 0 and 1 (how
+                light or dark the pixel is)
+              </li>
+              <li>
+                <strong>Hidden Layers:</strong> The magic middle. In our
+                example, 2 layers with 16 neurons each (but that count is
+                tweakable—no magic formula)
+              </li>
+              <li>
+                <strong>Output Layer:</strong> 10 neurons—one for each digit,
+                0-9. The brightest one is the network’s “guess.”
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>What’s a neuron in this context?</strong> Forget biology
+            textbooks. Here, a “neuron” is just a glorified number-holder.
+            Specifically, it holds a value between 0 and 1.
+          </li>
+        </ul>
+        <p>
+          You know what’s crazy about this? Everything happening between layers
+          is just plain math. No magic. Just numbers swirling, multiplying,
+          adding up.
+        </p>
+
+        <h3>
+          Why This Layered Structure Is Genius (And What It’s REALLY Doing)
+        </h3>
+        <p>
+          Let’s talk about what most people get wrong: They think the magic is
+          in the network’s depth, or its size, or the fact that it mimics a
+          brain. Wrong. The real breakout is how these “hidden layers” can build
+          up complexity, one step at a time:
+        </p>
+        <ul>
+          <li>
+            Lower-level layers “combine” pixels to recognize{" "}
+            <strong>edges</strong> and <strong>lines</strong>. Imagine a neuron
+            lighting up when it “sees” a slanted line.
+          </li>
+          <li>
+            Middle layers piece those lines into <strong>loops</strong>,{" "}
+            <strong>corners</strong>, <strong>shapes</strong>. (Think: a “loop
+            at the top” for an 8 or 9.)
+          </li>
+          <li>
+            At the highest level, final layers mix-and-match those shapes to
+            “vote” for a particular digit.
+          </li>
+        </ul>
+        <p>
+          Visualize it: When you sketch a “9,” it lights up the “upper loop” and
+          “vertical line” detectors. That pattern pushes the output layer to
+          favor “nine.” It’s like building thoughts from Lego bricks: edges →
+          shapes → digits!
+        </p>
+
+        <h2>Inside the Network: The Math That Powers the Magic</h2>
+        <p>
+          Here’s the real secret sauce: Every connection between neurons—the
+          lines you see in diagrams—has a <strong>weight</strong>. This is a
+          number the network can “tune” to get better at its job. Each neuron
+          also gets a special number called a bias, which kind of acts like a
+          “threshold” or “calibration knob.”
+        </p>
+        <ul>
+          <li>
+            <strong>Weights:</strong> Numbers attached to every connection.
+            Positive weights encourage, negative weights discourage, zeros mean
+            “don’t care.”
+          </li>
+          <li>
+            <strong>Bias:</strong> Shifts the neuron’s threshold for “lighting
+            up.”
+          </li>
+        </ul>
+        <p>To see if a neuron should activate, you:</p>
         <ol>
           <li>
-            <strong>Each neuron is connected to all 784 input neurons.</strong>{" "}
-            Each connection has a weight—a number reflecting how much importance
-            to give to that specific pixel.
+            Multiply each incoming neuron’s value by its connection’s weight
           </li>
           <li>
-            <strong>The neuron computes a “weighted sum”:</strong> Multiplying
-            each pixel’s activation by its corresponding weight, then adding
-            them up. If we only care about a specific region, weights outside
-            that region go to zero.
+            Add all those up (this is your <strong>weighted sum</strong>)
           </li>
+          <li>Add in the bias</li>
           <li>
-            <strong>Edge Detection:</strong> To detect edges, the neuron can
-            assign positive weights to the central pixels and negative weights
-            to the edge pixels (imagine a glowing green/red heatmap!). This way,
-            the neuron activates strongly if a line appears in the intended
-            spot.
-          </li>
-          <li>
-            <strong>Bias:</strong> To ensure a neuron only activates when the
-            pattern is convincingly present, we add a <strong>bias</strong>—an
-            extra number (like minus 10) before passing the sum through the
-            final activation function.
-          </li>
-          <li>
-            <strong>Activation Function:</strong> We want every neuron’s output
-            to land between 0 and 1. For that, a{" "}
-            <strong>sigmoid function</strong>, or “logistic curve,” is commonly
-            used: super negative inputs get squished toward 0, very positive
-            ones toward 1. Very dramatic slopes happen around zero.
-          </li>
-          <li>
-            <strong>Multiple Neurons, Multiple Features:</strong> Each neuron in
-            a layer can “look for” totally different patterns, each with its own
-            weights and bias. For 16 neurons in a layer, that’s 784 connections
-            per neuron, each with its own weight, plus a bias—so{" "}
-            <strong>12,544</strong> parameters (just for the first hidden
-            layer). Add up all the layers, and it’s nearly{" "}
-            <strong>13,000</strong> parameters for this small network!
+            Squeeze the result between 0 and 1 using a function (usually sigmoid
+            or ReLU—more on that in a moment)
           </li>
         </ol>
+        <blockquote>
+          “A neural network isn’t mysterious. It’s just a giant heap of
+          math—multiplying, adding, squishing, repeating.”
+        </blockquote>
 
-        <h2>The Core of Learning: Tuning Weights and Biases</h2>
+        <h3>Case Study: Building an Edge Detector from Scratch</h3>
         <p>
-          The <strong>learning</strong> part of machine learning is all about
-          finding the right values for all those weights and biases—those
-          13,000+ dials and knobs—so the network performs its
-          pattern-recognition magic.
-        </p>
-        <p>
-          Imagine, for a moment, trying to set them all by hand. Painstakingly
-          zeroing in on which neurons should activate for every edge, loop, or
-          squiggle. It’s both a fascinating intellectual exercise and a reminder
-          that these algorithms aren’t just black boxes. Understanding what
-          weights and biases do gives you a foundation to analyze why a network
-          succeeds—or struggles—and helps demystify the whole “AI” thing.
-        </p>
-
-        <h2>Math Made Beautiful: Matrix Notation</h2>
-        <p>
-          Here’s where a little notation elegance comes in. Rather than tracking
-          thousands of numbers one by one, we group:
+          Want to know the real secret? You can “sculpt” a neuron to pick out
+          any pattern you want—just by setting its weights.
         </p>
         <ul>
           <li>
-            <strong>Activations:</strong> All the neurons’ activations in a
-            layer become a single column vector.
+            Make every weight <strong>zero</strong>, except for a cluster in the
+            “top left.” Now your neuron fires if those pixels are bright.
           </li>
           <li>
-            <strong>Weights:</strong> All connections between two layers are
-            captured in a matrix—the row representing connections to a single
-            neuron in the next layer.
+            Want to spot an <strong>edge</strong>? Make “inside” weights
+            positive, “outside” weights negative. Bright middle, dark surround =
+            high activation.
           </li>
           <li>
-            <strong>Matrix Multiplication:</strong> To get the next set of
-            activations, multiply your weight matrix by the activation vector.
-            Add a bias vector. Then feed each component through a sigmoid (or
-            other) function.
+            Adjust the bias so it only lights up if the result is very
+            strong—like raising the bar for entry.
           </li>
         </ul>
         <p>
-          Why does this matter? It makes the code simple (and blazing fast,
-          thanks to optimized matrix libraries). So, the network as a whole is
-          nothing more than a complex mathematical function: input{" "}
-          <strong>784 numbers</strong> (pixels), output{" "}
-          <strong>10 numbers</strong> (digits), with matrix multiplications and
-          non-linear squishification along the way.
+          This is how your computer goes from clueless gray boxes to “Whoa,
+          that’s a digit!” (And yes, every single neuron in every layer gets its
+          own custom weights and bias. Feeling the complexity yet?)
         </p>
 
-        <h2>Reality Check: Why So Complicated?</h2>
+        <h2>13,000 Knobs to Turn: The Surprising Scale of Simple Networks</h2>
         <p>
-          Neural networks may seem (and often are) complicated—with thousands of
-          parameters and matrix math galore. But that’s actually a reassuring
-          sign: if we want computers to take on “messy” pattern recognition, it
-          needs this complexity. And, crucially, we need methods that let the
-          network <strong>learn</strong> those tweaks automatically by analyzing
-          mountains of sample data—a topic for the next article.
+          Get this: In a basic digit-recognition network (784 input neurons, 2
+          hidden layers of 16, 10 outputs), you’ve got almost{" "}
+          <strong>13,000 weights and biases</strong> to set. That’s 13,000
+          little dials… for a baby-sized AI. Imagine tuning those by hand.
+          (Spoiler: you’d lose your mind.)
         </p>
-
-        <h2>A Nod to the Activation Wars: Sigmoid vs ReLU</h2>
-        <p>
-          Before we wrap up, a quick side note on activation functions—a topic
-          that sparks debate within deep learning circles. In early neural
-          networks, the sigmoid “S-curve” function was the workhorse, inspired
-          by biological neurons flipping “on” and “off.” But over time, the{" "}
-          <strong>ReLU</strong> (Rectified Linear Unit) became the new standard.
-          It’s simple: output zero for negative values, or the input itself for
-          positives. This function not only sped up and stabilized training, but
-          also worked wonders for very deep networks. While sigmoids linger in
-          textbooks and legacy code, ReLU is the practical star of most
-          production networks today.
-        </p>
-
-        <h2>Looking Forward: What’s Next?</h2>
-        <p>
-          That’s a full tour of structure—how a neural network is wired up, what
-          neurons, weights, and biases actually mean, and how the whole thing
-          turns pixel grids into digit predictions. In the sequel, we’ll
-          demystify <strong>learning</strong>—how all those weights and biases
-          are tuned using raw data and clever optimization.
-        </p>
-        <p>
-          For hands-on learners: at the end of this small series, you’ll be
-          pointed to resources where you can <strong>download the code</strong>,
-          tinker, and explore neural networks on your own computer.
-        </p>
-
-        <h2>Bonus: Expert Insights—Sigmoid vs. ReLU</h2>
-        <p>
-          To bring another voice into this, let’s hear from Lisha Lee, a
-          PhD-trained deep learning theorist and venture capital pro. Reflecting
-          on activation functions:
-        </p>
+        <ul>
+          <li>
+            784 inputs &times; 16 neurons (first hidden layer) = loads of
+            weights
+          </li>
+          <li>Add more layers = exponential explosion of numbers</li>
+          <li>
+            Every connection = learnable “tweak point” (where learning lives)
+          </li>
+        </ul>
         <blockquote>
-          Early neural networks used the sigmoid function, motivated by the idea
-          of neurons being “on” or “off.” But in modern networks, that’s
-          considered a bit old-school. Tools like the Rectified Linear Unit
-          (ReLU) make networks much easier to train, especially as they get
-          deeper and more complex. ReLUs are motivated partly by how biological
-          neurons function—if activated, they output their input directly; if
-          not, they stay silent. It simplifies the math and, as it turns out,
-          improves training in practice.
+          “Learning” in neural networks just means automatically adjusting those
+          weights and biases, over and over, until the machine gets better at
+          its job.
         </blockquote>
 
-        <h2>Final Thoughts & Resources</h2>
+        <h3>
+          How It All Feeds Forward: From Pixels to Predictions (Matrix Style)
+        </h3>
         <p>
-          This article is only the beginning. Stay tuned for our next deep dive
-          into how neural networks learn, adapt, and sometimes surprise us. And
-          if you’re keen to see more, subscribe—the next installment will cover
-          the full training process and offer pointers to further reading and
-          hands-on resources.
+          Let me show you exactly what I mean: Rather than handling all 13,000
+          numbers separately, there’s a super-slick mathematical shortcut. Input
+          values get bundled into a <strong>vector</strong> (a list of numbers).
+          Weights and biases get bundled up as <strong>matrices</strong> (tables
+          of numbers). Each “layer” just means multiplying vectors by matrices,
+          plopping on a bias, and squeezing through a function.
+        </p>
+        <ul>
+          <li>
+            <strong>Step 1:</strong> Multiply input vector by weight matrix
+          </li>
+          <li>
+            <strong>Step 2:</strong> Add bias vector
+          </li>
+          <li>
+            <strong>Step 3:</strong> Apply sigmoid (or ReLU) to each result
+          </li>
+          <li>
+            <strong>Repeat for each layer, until final output</strong>
+          </li>
+        </ul>
+        <p>
+          That’s why anyone serious in machine learning gets obsessed with
+          linear algebra. It’s the backbone of deep learning. And it makes
+          training way, way faster than handling each connection individually.
+        </p>
+
+        <blockquote>
+          “Most experts won’t admit this, but: If you understand matrix
+          multiplication, neural networks stop being mysterious and start making
+          sense.”
+        </blockquote>
+
+        <h2>Numbers or Functions? The Hidden Truth About Neurons</h2>
+        <p>
+          Think a neuron just “holds a value”? Not quite. In operation, each
+          neuron is more like a <strong>function</strong>: it takes in dozens or
+          hundreds of numbers, and spits out one. The network as a whole? It’s a
+          wild, custom-built mathematical function… with{" "}
+          <strong>13,000 dialing knobs</strong>. And when you hear “the network
+          learns,” what’s really happening is the network is updating those
+          dials to improve its accuracy.
+        </p>
+
+        <h3>What Most Beginners Get Wrong About Neural Networks</h3>
+        <ul>
+          <li>
+            Thinking the “layers” themselves are magic. (It’s the{" "}
+            <i>connections</i> and <i>weights</i> that do all the heavy
+            lifting.)
+          </li>
+          <li>
+            Believing there’s a perfect structure/layout. (In real life, most
+            designs are experiments and educated guesses.)
+          </li>
+          <li>
+            Ignoring the weights and biases. (That’s the whole point—they’re the
+            “memory” of the network!)
+          </li>
+        </ul>
+        <blockquote>
+          “Stop trying to make neural nets perfect. Start making them flexible
+          and powerful.”
+        </blockquote>
+
+        <h2>Activation Functions: Sigmoid vs. ReLU (And Why It Matters NOW)</h2>
+        <p>
+          Here’s what nobody tells you: The <strong>sigmoid function</strong>
+          —the classic “S-shaped squish”—used to be everywhere, because it
+          smoothly maps numbers to 0-to-1 and fits a handwavey “biology” analogy
+          for neurons firing. It’s still a good starting point for beginners,
+          but...
+        </p>
+        <blockquote>
+          “Modern neural networks mostly use ReLU: If the input’s positive, you
+          keep it. If not, you throw it away (make it zero). And for very deep
+          networks, ReLU makes training vastly easier—period.”
+        </blockquote>
+        <p>
+          Quoting Lisha Lee, deep learning expert: “Using sigmoids didn’t help
+          training—or it was very difficult to train at some point… and people
+          just tried ReLU, and it happened to work very well for these
+          incredibly deep networks.”
+        </p>
+        <ul>
+          <li>
+            <strong>Sigmoid:</strong> Good for S-curves and outputs you want
+            between 0-1. Simple, but can “saturate.”
+          </li>
+          <li>
+            <strong>ReLU (Rectified Linear Unit):</strong> Just{" "}
+            <code>max(0, a)</code>. Fast, simple, almost always works better in
+            deep architectures.
+          </li>
+        </ul>
+        <p>
+          Bottom line: If you’re tinkering with neural nets in 2025 and beyond,
+          use ReLU by default. Sigmoid is classic but increasingly outdated for
+          hidden layers.
+        </p>
+
+        <blockquote>
+          “Success in neural nets isn’t about fancy features. It’s about turning
+          dials, testing, and letting the algorithm grind its way to good
+          results.”
+        </blockquote>
+
+        <h2>
+          Why This Isn’t “Just Math”—It’s the Future of Artificial Intelligence
+        </h2>
+        <p>
+          Right now, neural networks underpin Google Search, YouTube
+          recommendations, voice assistants, even automated cars. Every time you
+          see “machine learning” in the news, odds are, there’s a neural net at
+          its core. That’s why understanding these layers—pixels to edges, edges
+          to shapes, shapes to digits—is a superpower in today’s world.
         </p>
         <p>
-          Special thanks to everyone supporting this work—especially on Patreon,
-          and to voice-of-experience guests who make the big ideas clearer for
-          everyone.
+          And here’s the wildest part: Even the “simple” network we built here
+          can recognize handwritten digits with superhuman accuracy. Once you
+          “train it” (the subject of the next feature), it can achieve things no
+          hand-coded logic ever could.
         </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
+        <blockquote>
+          “The people who master neural networks are the ones who shape what AI
+          will become.”
+        </blockquote>
+        <p>
+          While everyone else is fighting over scraps—“Can my code solve this
+          tiny problem?”—you’ll be building systems that learn vast, messy,
+          real-world patterns. But you have to start with these basics.
+        </p>
+
+        <h3>What’s Next? Training the Network—and Finding the Magic Weights</h3>
+        <p>
+          This piece covered structure. The next step? Learning: the process of
+          adjusting 13,000+ weights and biases until the AI gets more and more
+          confident, accurate, and reliable. It’s where the science meets the
+          black magic. And if you want to experiment for yourself, you’ll want
+          to see the follow-up for code, tools, and hands-on tinkering.
+        </p>
+
+        <section className="faq-section">
+          <h2>People Also Ask about Neural Networks</h2>
+          <div>
+            <h3>How does a neural network recognize handwritten digits?</h3>
+            <p>
+              Neural networks use layers of artificial “neurons” to gradually
+              transform pixel data (from images) into higher-level
+              patterns—starting with edges or lines, building up to loops or
+              corners, and ultimately arriving at full digit recognition. Each
+              connection has learned “weights,” and the network adjusts these
+              through training so it can classify even messy or varied
+              handwriting.
+            </p>
+
+            <h3>What do weights and biases do in a neural network?</h3>
+            <p>
+              Weights control how strongly each input influences a neuron, while
+              biases act as a “threshold” to shift the activation. Learning
+              means continuously updating these values so the network’s
+              predictions get better over time.
+            </p>
+
+            <h3>
+              What is the difference between sigmoid and ReLU in neural
+              networks?
+            </h3>
+            <p>
+              Sigmoid squishes all values between 0 and 1 with a smooth
+              S-shape—good for outputs you want in that range, but tricky for
+              deep networks because it can “saturate.” ReLU (Rectified Linear
+              Unit) outputs zero for negatives and keeps positives
+              unchanged—making it fast, simple, and much better for training
+              deep neural nets.
+            </p>
+
+            <h3>Why do neural networks use layers?</h3>
+            <p>
+              Layers allow neural nets to “build up” complexity: early layers
+              detect simple features (like edges), later layers combine those
+              into patterns or objects (like shapes or full digits). Layered
+              abstraction is key to recognizing complex patterns in data.
+            </p>
+
+            <h3>
+              How many parameters does a simple digit-recognition neural network
+              have?
+            </h3>
+            <p>
+              Even a simple network with 2 hidden layers of 16 neurons each and
+              a 28x28 input has close to 13,000 learnable parameters (weights
+              and biases). That’s why neural nets can be powerful—but also why
+              they need so much data to train well.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Want to Go Deeper? Internal Links for Your Next Brain Boost</h2>
+          <ul>
+            <li>
+              <Link href="/tech/what-is-quantam">
+                But what is quantum computing? (Grover's Algorithm)
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/computer-components">
+                The Essential Guide to Computer Components: Understanding the
+                Heart and Brain of Your PC
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/operating-systems">
+                The Ultimate Guide to Major Operating Systems: From Windows to
+                Unix and Beyond
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/linux">
+                The Life Cycle of a Linux User: From Awareness to Enlightenment
+                (and Everything in Between)
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>The Bottom Line: This Is Just the Beginning</h2>
+          <p>
+            Here’s what makes this so explosive: If you’ve wrapped your head
+            around the <strong>structure</strong> of a neural network, you’re
+            already ahead of 90% of people trying to “get into AI.” Once you see
+            the learning process (coming up next), you’ll have the foundation to
+            build, experiment, and—yes—train real neural networks yourself. If
+            this is what the basic version can do, just imagine the power of the
+            next-generation models.
+          </p>
+          <p>
+            So, what are you waiting for? Save this article. Come back for the
+            follow-up on training. And let the machines of the future know:
+            you’re ready to understand them, inside and out.
+          </p>
+        </section>
         <CommentSection />
+
+        {/* Tweetable, viral one-liners embedded above */}
       </article>
     </div>
   );
 }
-
-export const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 14,
-      title:
-        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
-      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      date: "May 1, 2025",
-      articleRoute: "tech-jobs-in-freefall",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

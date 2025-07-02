@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -195,436 +195,469 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>Neovim: The Ultimate Guide to Modern Code Editing with Neovim</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png"
-          }
-          alt="Neovim Modern Guide"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-14">
-            | May 14, 2025
-          </time>
-        </h2>
+        <h1>
+          Neovim: The Ultimate Modern Vim Replacement Revealed – Why Every
+          Programmer Is Switching To Neovim
+        </h1>
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png"
+            alt="Neovim Modern Guide"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Neovim 2025 edition — A modern workflow for developers seeking power
+            and speed.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-14"
+              itemProp="datePublished"
+            >
+              | May 14, 2025
+            </time>
+          </h2>
+        </section>
+
         <p>
-          <strong>Neovim</strong> stands at the forefront of modern code
-          editing, offering a lightning fast, keyboard centric environment
-          coupled with a robust ecosystem of community driven plugins and
-          flexible configuration. Whether you're a Vim veteran or new to
-          extensible code editors, this guide dives deep into all things Neovim:{" "}
-          <strong>
-            how it started, why developers love it, and actionable steps to
-            maximize your development workflow
-          </strong>{" "}
-          with this truly next level code editor.
+          Brace yourself: There’s a new king in the world of code editors, and
+          it’s <strong>not</strong> the same Vim you memorized cheat-sheets for
+          in your college days. If you haven’t tried Neovim yet, you’re missing
+          out on secret productivity power-ups, a plugin ecosystem that’s
+          exploded past everyone’s expectations, and features that make even
+          seasoned devs say: “Why did nobody tell me about this sooner?” The
+          wildest part? It’s still 99% Vim – but with superpowers. Let’s dive
+          into why Neovim is dominating programmer workflows… and whether it’ll
+          turn you into the mythical 10x engineer you keep seeing memes about.
         </p>
 
         <section>
-          <h2>
-            The Evolution of Neovim: From Vi to Today’s Most Extensible Editor
-          </h2>
+          <h2>Neovim vs Vim: What Most People Get Completely Wrong</h2>
           <p>
-            <strong>Neovim</strong>'s history is intertwined with the very roots
-            of text editing. It all began in <strong>1976</strong> when Bill Joy
-            introduced <em>Vi</em> a revolutionary modal editor for its time. In{" "}
-            <strong>1991</strong>, Bram Moolenaar improved upon Vi, releasing{" "}
-            <em>Vim</em> ("Vi Improved"), which quickly became a staple among
-            programmers. Fast forward to <strong>2014</strong>: dissatisfied
-            with Vim’s aging code base and lack of certain modern features,
-            dedicated contributors forked Vim to create <strong>Neovim</strong>.
+            If you think Neovim is just “Vim with a fresh coat of paint,” you’re
+            making the classic rookie mistake. Here’s what nobody talks about:
+            Neovim isn’t just a drop-in replacement. It’s a ruthless upgrade,
+            designed not only to keep the Vim die-hards happy, but to obliterate
+            the ancient limits that kept Vim out of the modern dev toolkit.
           </p>
-          <p>
-            Neovim retains Vim’s beloved modal editing model and keystroke
-            commands meaning all those classic “Help, I can’t exit Vim!” memes
-            are still relevant! However, its{" "}
-            <strong>refactored codebase</strong> now offers a{" "}
-            <strong>modern plugin architecture</strong>, well documented{" "}
-            <abbr title="Application Programming Interface">APIs</abbr>, and an
-            emphasis on community driven development. This restructuring has
-            been instrumental in fueling a vibrant plugin ecosystem unmatched by
-            its predecessors.
-          </p>
-        </section>
-
-        <section>
-          <h2>
-            What Makes Neovim Different? Key Features for Modern Programming
-          </h2>
           <ul>
             <li>
-              <strong>Scripting in Lua:</strong> Neovim moves beyond traditional
-              vimscript, empowering users to configure and script the editor in{" "}
-              <strong>Lua</strong>, a fast, easy to learn, and widely used
-              language adopted in platforms like Roblox.
+              Speed? Check. Neovim starts up lightning-fast, even with heavy
+              plugins.
             </li>
             <li>
-              <strong>Language Server Protocol (LSP) Built in:</strong> Thanks
-              to Lua, Neovim offers native integration with{" "}
-              <abbr title="Language Server Protocol">LSP</abbr> for{" "}
-              <strong>code autocompletion and intelligence</strong> out of the
-              box.
+              Extensibility? Next-level. Welcome to <strong>Lua-first</strong>{" "}
+              configuration and scripting, taking over for the cryptic,
+              infamously grumpy vimscript.
             </li>
             <li>
-              <strong>Scriptable Terminal Emulator:</strong> Enjoy a
-              productivity boost with a built in, customizable terminal.
-            </li>
-            <li>
-              <strong>Massive Plugin Ecosystem:</strong> Leverage powerful
-              plugins like <strong>Telescope</strong> for fuzzy file finding,{" "}
-              <strong>Tree sitter</strong> for advanced syntax highlighting, and{" "}
-              <strong>NVIMTree</strong> for intuitive file navigation.
-            </li>
-            <li>
-              <strong>Drop in Compatibility:</strong> Neovim is 99% compatible
-              with Vim, so your muscle memory and most Vim config remains
-              relevant.
+              Plugin ecosystem? Exploded. You’ve never seen more next-gen
+              features drop so fast in any text editor – period.
             </li>
           </ul>
         </section>
 
         <section>
-          <h2>Getting Started with Neovim: Installation and Basic Usage</h2>
+          <h2>The Secret Evolution: From Vi to Vim to Neovim</h2>
+          <p>
+            Most coders worship Vim’s “cult classics” – but few know its full
+            backstory. In 1976, Bill Joy created Vi. Fast-forward to 1991: Bram
+            Moolenaar makes Vim, adding just enough features to make everyone’s
+            brain melt (“Wait, you can copy – and paste?!”). Then came 2014 –
+            Neovim’s creators forked Vim, pulling off a codebase heist that left
+            old Vim intact, but turbocharged. Bottom line: Everything you{" "}
+            <em>loved</em> about Vim is here – but now it actually works for
+            today’s codebases, stacks, and frameworks.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Why Programmers Are Ditching VSCode and Going All-In on Neovim
+          </h2>
+          <p>
+            Here’s what blew my mind: The Neovim core is surgically rebuilt to
+            “embrace new features from the community,” but still familiar enough
+            that your <em>‘help I can’t exit Vim’</em> memes remain 100%
+            relevant.
+            <br />
+            The magic lies in its <strong>well-documented APIs</strong>, and a
+            thriving plugin ecosystem where stuff just works – and even better,
+            empowers you to script in Lua (not just vimscript).
+          </p>
+          <ul>
+            <li>
+              <strong>Lua scripting:</strong> Easy to learn, deadly powerful. If
+              you’ve ever built anything on Roblox, you already know Lua. Now,
+              that same power turbocharges your editor.
+            </li>
+            <li>
+              <strong>Built-in LSP (Language Server Protocol):</strong> That
+              means auto-completion, inline linting, and every trick VSCode
+              spoiled you with – but supercharged.
+            </li>
+            <li>
+              <strong>Scriptable Terminal Emulator:</strong> Run commands,
+              integrate builds, or use a full shell{" "}
+              <em>without ever leaving Neovim</em>.
+            </li>
+            <li>
+              <strong>
+                Killer plugins (Telescope, Tree-sitter, nvim-tree):
+              </strong>{" "}
+              Instantly search files, see syntax highlighted perfectly, and
+              browse your codebase in seconds.
+            </li>
+          </ul>
+          <blockquote>
+            <strong>Tweetable Insight:</strong> “90% of modern coding is
+            fighting your tools. Switch to Neovim, and your editor finally
+            fights for you.”
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>How to Get Started with Neovim (Even If You’re a Vim Newbie)</h2>
+          <p>
+            Scared? Don’t be. Here’s how to turn Neovim from intimidating to
+            second nature in 60 seconds (or less):
+          </p>
           <ol>
             <li>
-              <strong>Install Neovim:</strong> Download Neovim from the{" "}
+              <strong>Install Neovim:</strong> Use your OS’s package manager (
+              <code>brew install neovim</code>,{" "}
+              <code>sudo apt install neovim</code>, etc.), or grab binaries from{" "}
               <a
-                href="https://neovim.io/"
+                href="https://neovim.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                official website
+                neovim.io
+              </a>
+              .
+            </li>
+            <li>
+              <strong>Launch It:</strong> Hit <code>nvim</code> in your
+              terminal. Yep, that’s it.
+            </li>
+            <li>
+              <strong>Insert Mode:</strong> Press <strong>I</strong> to start
+              typing. (You’re in insert mode!) Hit <strong>Escape</strong> to
+              return to normal mode. No mouse needed – turbo productivity begins
+              now.
+            </li>
+            <li>
+              <strong>Command Mode:</strong> Press <strong>:</strong> (colon) to
+              drop into command mode. This is the “hacker power prompt,” where
+              you can save, quit, or script your way to glory.
+            </li>
+          </ol>
+          <p>
+            Most beginners blow it here by over-complicating.{" "}
+            <strong>Neovim’s default config will feel like vanilla Vim</strong>{" "}
+            – but the real fun starts when you customize.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            The Dangerous Power of Customization – Do This to Become Unstoppable
+          </h2>
+          <p>
+            Here’s what nobody tells you: The most explosive part of Neovim
+            isn’t its speed. It’s that every last element of your workflow can
+            be sculpted into exactly what you want – thanks to its configuration
+            strategy that ditches the old init.vim in favor of Lua-powered{" "}
+            <strong>init.lua</strong>.
+          </p>
+          <h3>How to Build Your Dream Setup:</h3>
+          <ol>
+            <li>
+              <strong>
+                Write Lua code in <code>init.lua</code>:
+              </strong>{" "}
+              Use real programming logic for settings. Tabs vs. spaces? Custom
+              keybindings? Tailor your editor like a bespoke suit.
+            </li>
+            <li>
+              <strong>Break config into modules:</strong> Create a{" "}
+              <code>lua/</code> folder. Each file inside becomes a module you
+              can load on demand. Tidy, logical, hacker-approved.
+            </li>
+            <li>
+              <strong>Pick a package manager:</strong>{" "}
+              <a
+                href="https://github.com/wbthomason/packer.nvim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Packer
               </a>{" "}
-              or use your system’s package manager (
-              <code>brew install neovim</code> on macOS,{" "}
-              <code>sudo apt install neovim</code> on Linux).
+              is a favorite. It unlocks rapid plugin management – update,
+              remove, or add themes and tools in seconds.
+            </li>
+          </ol>
+          <blockquote>
+            <strong>Pro Tip:</strong> “Dangerous productivity happens when
+            config code is as clean as your Python.”
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            Absolute Must-Have Plugins for Neovim (And What Each One Actually
+            Does)
+          </h2>
+          <ul>
+            <li>
+              <strong>One Dark color theme</strong>: Turns your editor into a
+              visual masterpiece.
             </li>
             <li>
-              <strong>Launch Neovim:</strong> Open a terminal and run{" "}
-              <code>nvim</code>. You’ll be greeted with a familiar (or perhaps
-              mysterious) modal interface.
+              <strong>nvim-tree</strong>: Breeze through the file system like
+              you have X-ray vision.
             </li>
             <li>
-              <strong>Basic Modes:</strong>
-              <ul>
-                <li>
-                  <code>i</code> for <strong>Insert Mode</strong>: Start typing
-                  code or text.
-                </li>
-                <li>
-                  <code>&lt;Esc&gt;</code> to return to{" "}
-                  <strong>Normal Mode</strong>: Navigate and manipulate text
-                  using commands.
-                </li>
-                <li>
-                  <code>:</code> for <strong>Command Mode</strong>: Run commands
-                  like saving files or quitting Neovim.
-                </li>
-              </ul>
+              <strong>Tree-sitter</strong>: Syntax highlighting so crisp it
+              makes other editors look broken.
+            </li>
+            <li>
+              <strong>Telescope</strong>: The fuzzy finder that makes searching
+              projects as easy as stalking your ex on social media.
+            </li>
+            <li>
+              <strong>LSP server</strong>: Real, context-aware code completion.
+              No more copypasta errors.
+            </li>
+          </ul>
+          <h3>How to Install Plugins Fast:</h3>
+          <ol>
+            <li>
+              Add to your <code>packer</code> config. Example:{" "}
+              <code>use 'nvim-telescope/telescope.nvim'</code>
+            </li>
+            <li>
+              Run <code>:PackerInstall</code> in Neovim. Bam – plugins, managed.
+            </li>
+          </ol>
+          <blockquote>
+            <strong>Tweetable Insight:</strong> “Old Vim was LEGO. Neovim is
+            Minecraft. The only limit is your imagination.”
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>What If You Want EZ-Mode? The Secret of Starter Configs</h2>
+          <p>
+            Here’s the little-known hack: If customizing Neovim sounds like
+            torture, <strong>grab a prebuilt starter config</strong> (like{" "}
+            <a
+              href="https://nvchad.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NvChad
+            </a>
+            ). You get all the sick features – syntax highlighting, code
+            auto-completion, essential tools – with{" "}
+            <em>zero config headaches</em>.
+          </p>
+          <p>
+            Think: VSCode, but with superhero speed, keyboard-only navigation,
+            and no analytics spyware.
+          </p>
+        </section>
+
+        <section>
+          <h2>Common Mistakes Most New Neovim Users Make</h2>
+          <ul>
+            <li>
+              Getting overwhelmed by plugins – start simple, evolve your setup
+              as you go.
+            </li>
+            <li>
+              Ignoring Lua and sticking to vimscript – you’ll miss out on
+              next-gen features.
+            </li>
+            <li>
+              Not modularizing config – your <code>init.lua</code> quickly
+              becomes a spaghetti monster.
+            </li>
+          </ul>
+          <h3>Fixes:</h3>
+          <ol>
+            <li>
+              Pick <em>one</em> plugin at a time. Learn it, then move on.
+            </li>
+            <li>
+              Throw out your old <code>init.vim</code> – embrace{" "}
+              <code>init.lua</code> from day one.
+            </li>
+            <li>
+              Read community configs, but <em>never copy blindly</em>.
+              Understand what every line does.
             </li>
           </ol>
         </section>
 
         <section>
-          <h2>Customizing Neovim: Configuration with Lua and Vimscript</h2>
-          <h3>init.vim vs. init.lua: Where to Begin?</h3>
-          <p>Neovim introduces two ways to configure your setup:</p>
-          <ul>
-            <li>
-              <strong>init.vim:</strong> Use Vim’s familiar scripting syntax for
-              a drop in configuration.
-            </li>
-            <li>
-              <strong>init.lua:</strong> Leverage the speed and flexibility of
-              Lua for modern, readable, and modular configs. This opens the door
-              for advanced scripting and plugin management.
-            </li>
-          </ul>
+          <h2>
+            Can Neovim Make You a 10x Engineer? The Real Reason Elite Devs Swear
+            By It
+          </h2>
           <p>
-            With <strong>init.lua</strong>, you can set preferences such as
-            indentation style (tabs vs spaces), color themes, keyboard
-            shortcuts, and more. As your configuration grows, neatly separate
-            settings into modules within a <code>lua/</code> folder making it
-            easy to maintain and extend.
+            Let’s set the record straight: Neovim <em>won’t</em> magically code
+            your startup for you. But with its streamlined, distraction-free
+            interface and tailored keybinds, you’ll find yourself in that
+            mythical “flow state” for hours. Your hands never leave the
+            keyboard. Your tools bend to your style. You ship faster & better.
+            That’s why high-performance hackers – and major OSS contributors –
+            won’t touch anything else.
           </p>
+          <blockquote>
+            <strong>Tweetable Insight:</strong> “Real power isn’t about
+            memorizing key commands. It’s about building a setup where every
+            command is muscle memory.”
+          </blockquote>
         </section>
 
         <section>
-          <h2>Building a Productive Neovim Setup: Plugins and Extensions</h2>
-          <h3>Essential Plugins for an Enhanced Workflow</h3>
-          <ul>
-            <li>
-              <strong>
-                <a
-                  href="https://github.com/wbthomason/packer.nvim"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Packer
-                </a>
-                :
-              </strong>{" "}
-              The modern, asynchronous plugin manager for Neovim, making it easy
-              to add, update, or remove plugins.
-            </li>
-            <li>
-              <strong>Color Schemes:</strong> Transform your coding environment
-              with popular themes like <strong>One Dark</strong>.
-            </li>
-            <li>
-              <strong>nvim web devicons:</strong> Add beautiful file icons for
-              improved navigation.
-            </li>
-            <li>
-              <strong>LSP Servers:</strong> Enable language aware code
-              completion and diagnostics for Python, JavaScript, Go, and more.
-            </li>
-            <li>
-              <strong>NVIMTree:</strong> Visualize and navigate your project
-              folder structure intuitively.
-            </li>
-            <li>
-              <strong>Tree sitter:</strong> Next generation syntax highlighting
-              for accurate language parsing.
-            </li>
-            <li>
-              <strong>Telescope:</strong> Versatile fuzzy finder for quickly
-              searching files, buffers, git commits, and more.
-            </li>
-          </ul>
+          <h2>
+            Bonus: The “How to Exit Vim” Secret (But You Didn’t Hear It From Me)
+          </h2>
           <p>
-            <strong>Tip:</strong> Each of these plugins can be fully customized
-            to suit your personal workflow, often by creating separate Lua
-            configuration files within your <code>lua/</code> folder.
-          </p>
-        </section>
-
-        <section>
-          <h2>Starter Configurations: Get Up and Running Quickly</h2>
-          <p>
-            Not ready to invest hours tweaking settings? The Neovim community
-            offers “starter kits” like{" "}
+            Okay, let’s end the meme war for good:{" "}
             <strong>
-              <a
-                href="https://github.com/NvChad/NvChad"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                NvChad
-              </a>
-            </strong>{" "}
-            or{" "}
-            <strong>
-              <a
-                href="https://github.com/LunarVim/LunarVim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LunarVim
-              </a>
+              Type <code>:q!</code> to exit without saving, <code>:wq</code> to
+              save and quit
             </strong>
-            pre configured setups that include syntax highlighting, LSP support,
-            fuzzy finding, file navigation, and more out of the box.
+            . Tell your friends.
+            <br />
+            But seriously… once you master Neovim, you’ll realize you’ll never{" "}
+            <em>want</em> to leave.
           </p>
-          <p>
-            With these, you can write code with all the power of an IDE, but
-            with minimal setup ideal for new users or anyone who wants a no fuss
-            start.
-          </p>
+          <blockquote>
+            <strong>Tweetable Insight:</strong> “Still can’t exit Vim? That’s
+            just the editor begging you to stay productive.”
+          </blockquote>
         </section>
 
         <section>
-          <h2>Learning Resources: Become a Neovim Power User</h2>
+          <h2>People Also Ask: Neovim FAQ</h2>
+          <div className="faq-section">
+            <h3>Is Neovim better than Vim?</h3>
+            <p>
+              For most modern developers, yes. Neovim offers improved
+              extensibility, a larger plugin ecosystem, and Lua scripting that
+              opens up endless custom workflows. For pure Vim purists, it’s
+              still 99% compatible.
+            </p>
+            <h3>Is Neovim harder to learn than VSCode?</h3>
+            <p>
+              The keyboard-driven workflow takes getting used to, but starter
+              configs like NvChad make onboarding easy. Plus, the knowledge you
+              gain will pay off for the rest of your dev career.
+            </p>
+            <h3>Can Neovim replace my IDE?</h3>
+            <p>
+              Totally. With LSP, Tree-sitter, and the right plugins, Neovim can
+              match – or even surpass – most IDEs, all while staying fast and
+              light on your machine.
+            </p>
+            <h3>Where can I learn advanced Neovim tips?</h3>
+            <p>
+              Subscribe to{" "}
+              <a
+                href="https://www.youtube.com/@teej_dv"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TJ DeVries
+              </a>
+              , Neovim’s go-to guru. Join the vibrant{" "}
+              <a
+                href="https://reddit.com/r/neovim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /r/neovim
+              </a>{" "}
+              community for help.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>More Neovim & Productivity Hacks</h2>
           <ul>
             <li>
-              <strong>
-                <a
-                  href="https://youtube.com/c/tjdevries"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  TJ DeVries
-                </a>
-                :
-              </strong>{" "}
-              One of the leading Neovim experts, offering in depth tutorials and
-              community discussions.
+              <Link href="/tech/developer-roadmaps">
+                God-Tier Developer Roadmap: From Scratch to the Limits of Human
+                Knowledge
+              </Link>
             </li>
             <li>
-              <strong>Neovim Documentation and Wiki:</strong> Up to date
-              official docs, user guides, and plugin documentation.
+              <Link href="/tech/programming-myth">
+                Programming Myths That Waste Your Time: Debunking the
+                Productivity Traps Every Coder Falls For
+              </Link>
             </li>
             <li>
-              <strong>Community Forums and Discord:</strong> Join active
-              communities to discover tips, ask questions, and stay on top of
-              new developments.
+              <Link href="/tech/cs-major">
+                Should You Study Computer Science? A Realistic Look At The
+                Modern Tech Job Market (With Sloth Level Humor and Honesty)
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/docker-explained">
+                Docker 101: Mastering Modern Software Delivery with Containers
+              </Link>
             </li>
           </ul>
         </section>
 
-        <section className="faq section">
-          <h2>Frequently Asked Questions</h2>
-          <h3>What is Neovim and how is it different from Vim?</h3>
+        <section>
+          <h2>Your Next Steps: Become Unstoppable with Neovim</h2>
           <p>
-            Neovim is a modern, open source fork of Vim. It aims to improve
-            maintainability, extend usability with Lua scripting, and foster a
-            richer plugin ecosystem. Unlike Vim, Neovim offers a refactored
-            architecture, official APIs, and built in features like an embedded
-            terminal and Language Server Protocol support.
+            If you’re one of the few people who will actually try this, congrats
+            – you’re already ahead of 90% of developers who never optimize their
+            workflow. While everyone else is stuck on bloated IDEs, you’ll be
+            shipping, customizing, and dominating your stack faster than ever.
           </p>
-
-          <h3>Why use Lua for Neovim configuration?</h3>
           <p>
-            Lua is efficient, easy to read, and supported natively in Neovim.
-            With Lua, you can write cleaner, more modular configurations, take
-            advantage of performance improvements, and build more powerful
-            automations than with traditional vimscript.
+            This is just the tip of the iceberg. The deeper you go, the more
+            power you unlock. Don’t wait – open your terminal, install Neovim,
+            and step into the future of code editing <strong>right now</strong>.
           </p>
-
-          <h3>How do I install plugins in Neovim?</h3>
-          <p>
-            Use a plugin manager like <strong>Packer</strong> or{" "}
-            <strong>Plug</strong> to declare and install plugins in your
-            configuration file. For example, with Packer, add plugins to your{" "}
-            <code>init.lua</code> under the <code>use()</code> function, then
-            run the <code>:PackerSync</code> command in Neovim to install.
-          </p>
-
-          <h3>Can Neovim be used as a full featured IDE?</h3>
-          <p>
-            Yes! With plugins for LSP (code completion and diagnostics), file
-            tree navigation, fuzzy search, git integration, and more, Neovim can
-            rival or surpass traditional IDEs in speed and flexibility, all
-            within a minimal interface.
-          </p>
-
-          <h3>How do you exit Neovim?</h3>
-          <p>
-            Like classic Vim, press <code>:q</code> to quit, <code>:wq</code> to
-            save and quit, or <code>:q!</code> to force quit without saving. If
-            you’re ever stuck, these commands are your lifeline!
-          </p>
-
-          <h3>What are the best starter configs for Neovim?</h3>
-          <p>
-            Community favorites include <strong>NvChad</strong>,{" "}
-            <strong>LunarVim</strong>, and <strong>AstroNvim</strong>. These
-            kits bundle the most essential tools, so you can start coding
-            productively with zero hassle.
-          </p>
-
-          <h3>How do I update Neovim or my plugins?</h3>
-          <p>
-            Update Neovim through your system package manager (e.g.,{" "}
-            <code>brew upgrade neovim</code> or{" "}
-            <code>sudo apt get upgrade neovim</code>). For plugins, use your
-            chosen manager’s command (such as <code>:PackerSync</code> or{" "}
-            <code>:PlugUpdate</code>).
-          </p>
-
-          <h3>Is Neovim good for beginners?</h3>
-          <p>
-            Absolutely! While it has a learning curve, Neovim’s configurability
-            and community resources make it accessible to both new and
-            experienced developers. With starter configs, you can get up and
-            running instantly.
-          </p>
+          <blockquote>
+            <strong>Final Quotable Moment:</strong> “Vim survived 48 years.
+            Neovim proves the best tools keep evolving. The real question: will
+            you?”
+          </blockquote>
         </section>
-
-        <aside>
-          <h3>More Topics</h3>
-          <Section3 />
-        </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 36,
-      title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
-      alt: "SEO Strategies for 2025",
-      date: "May 14, 2025",
-      articleRoute: "seo-wins",
-    },
-    {
-      id: 38,
-      title:
-        "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230241/pexels-sharad-7199194_w5uzmv.jpg",
-      alt: "PC Components Overview Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-overview",
-    },
-    {
-      id: 39,
-      title:
-        "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
-      alt: "PC Gaming Components Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-gaming-parts",
-    },
-    {
-      id: 40,
-      title:
-        "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747238168/pexels-athena-2582930_afjwie.jpg",
-      alt: "PC Gaming Components Guide 2025",
-      date: "May 14, 2025",
-      articleRoute: "recommended-gaming-pc-builds",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <section>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

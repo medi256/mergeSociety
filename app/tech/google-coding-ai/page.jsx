@@ -498,471 +498,401 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s
-          Strategic Shakeups, and What Every Developer Needs to Know
+          Google Gemini 2.5, Gemini AI Ultra, and the End of Web Design: 11
+          Insane Reveals from Google I/O 2025
         </h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746714642/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le.jpg"
-          }
-          alt="Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-8">
-            | May 8, 2025
-          </time>
-        </h2>
-
         <p>
-          In a move that set the tech world abuzz, Google has just released
-          Gemini 2.5 Pro, a development so significant that what many thought
-          would never happen in the realm of AI coding models has, at last,
-          become reality. Gemini 2.5 Pro isn't just another update it has
-          stormed to the very top, now ranked the undisputed number one coding
-          AI in all ELM (Evaluation Language Model) arenas.
+          Yesterday, Google didn’t just drop news—they detonated the AI arms
+          race. Their latest Gemini 2.5 DeepThink didn’t quietly outperform
+          competitors; it obliterated the old guard, benched O3, and sent the
+          industry’s biggest names scrambling. Sound dramatic? Wait until you
+          see how web design, coding, and even YouTube content creation will
+          never be the same after what’s coming next. And that’s barely
+          scratching the surface of what went down at Google I/O 2025.
         </p>
 
-        <p>
-          The timing of this release is intriguing, to say the least. With
-          Google’s annual developer extravaganza Google IO just around the
-          corner (only two weeks away!), the company usually reserves its
-          biggest tech surprises for the stage. The fact that they’re dropping
-          Gemini 2.5 Pro well ahead of the conference signals that something
-          even larger could be brewing. Gemini 3 or perhaps Gemini 2.5 Ultra?
-          Only time will tell, but the rumor mill is already churning.
-        </p>
+        <section>
+          <h2>Gemini 2.5 DeepThink: The AI Kingpin Nobody Can Touch</h2>
+          <p>
+            Here’s what nobody’s admitting out loud: Gemini 2.5 DeepThink didn’t
+            just “edge out” the competition against O3, it torched them all.
+            Even the “budget” Gemini Flash model muscled its way to the top of
+            the Chrome browser AI rankings. So, if you thought the AI battle was
+            stabilizing—think again. Gemini is about to start doing what nobody
+            else has managed: navigating and using websites <em>for you</em>.
+          </p>
+          <ul>
+            <li>
+              <strong>Why this matters:</strong> The era of “click here” is
+              dead. AI agents will do it all—filling forms, clicking buttons,
+              and yes, even typing up spicy YouTube comments for you.
+            </li>
+            <li>
+              <strong>Insider scoop:</strong> The new Agent mode (if the name
+              sounds familiar, it's because OpenAI, GitHub, and now Google are
+              all racing for the same throne) means you could have AI operating
+              your browser while you binge on Netflix, not even lifting a
+              finger.
+            </li>
+          </ul>
+          <blockquote>
+            “If you’re still reading this, you’re already ahead of 90% of
+            people. Most will never adapt, and they’ll be left behind. Are you
+            ready?”
+          </blockquote>
+        </section>
 
-        <h2>AI Built by AI: Breaking New Ground</h2>
-        <p>
-          What makes this leap even more remarkable is that Google’s approach
-          has been to use AI to craft even better AI models a harmony of
-          generative AI fueled by the very tech it’s improving. This self
-          reinforcing cycle of innovation sparks speculation that the next act
-          (potentially revealed at the IO keynote) will be even grander.
-        </p>
-        <p>
-          Meanwhile, a <strong>leaked blog post</strong> has let slip that
-          Android 16’s UI will soon receive a major overhaul designed to make
-          the user experience more emotional and expressive. In other words,
-          Android is about to get way better at reflecting how we feel.
-        </p>
+        <section>
+          <h2>
+            Stytch & Jules: The AI Tools Making Web Designers and Coders,
+            Well... Redundant?
+          </h2>
+          <p>
+            Stytch is the new silent assassin for web designers. Bottom line? It
+            auto-generates and perfects UIs for AI agents to use in an
+            AI-powered browser world. Translation: if you design websites for a
+            living, you need to seriously level up your game <em>right now</em>.
+            Want more pain? Jules—an async, agentic coding tool—writes AI
+            agents… that code AI agents.
+          </p>
+          <h3>Here’s exactly what this means</h3>
+          <ul>
+            <li>
+              <strong>Stytch:</strong> Just tell it what you want. It designs
+              user interfaces, anticipating agent and even (gasp) human
+              interactions.
+            </li>
+            <li>
+              <strong>Jules:</strong> It’s a code-writing agent that writes…
+              code-writing agents. Looping the infinite recursion of coder
+              layoffs.
+            </li>
+          </ul>
+          <p>
+            Most people think web design is “future-proof.” But if AI is
+            designing for AI, and coding for itself, you need to pivot to what
+            only humans can do (for now)—creativity, context, taste, and
+            storytelling.
+          </p>
+          <blockquote>
+            "Stop trying to outcompete AI at its own game. Start doing what AI
+            can’t—yet.”
+          </blockquote>
+        </section>
 
-        <h2>Testing Gemini 2.5 Pro: Real World Coding Challenges</h2>
-        <p>
-          Today, we’re diving deep to test drive Google’s model and shine a
-          light on other seismic shifts in the AI landscape that every modern
-          coder especially those who thrive on “vibe coding” should have on
-          their radar.
-        </p>
+        <section>
+          <h2>Face It: AI ‘Flow’ Might Be the End of Lazy YouTube Content</h2>
+          <p>
+            I’m not scared of much, but Google Flow? This one gives me
+            chills—and not the fun kind. It’s the AI you’ve been secretly
+            praying wouldn’t exist: a tool that generates entire cinematic
+            narratives with just a prompt. If your hustle is faceless,
+            low-effort YouTube… sorry, this might be YOUR end credits.
+          </p>
+          <ul>
+            <li>Generative video? Check.</li>
+            <li>AI Storyboarding? Already here.</li>
+            <li>Effortless cinematic adventures? Just a few clicks away.</li>
+          </ul>
+          <p>
+            Want to be future-proof? Double down on what makes you, well,{" "}
+            <em>you</em>. Because everything else? That's Flow’s playground now.
+          </p>
+        </section>
 
-        <h2>OpenAI’s Corporate Pivot: A Win for Humanity or Just Optics?</h2>
-        <p>
-          While Google’s news makes waves, OpenAI is in its own headline
-          grabbing moment. The company, once expected to morph into a for profit
-          behemoth, has announced it will not be going that route after all.
-          This comes after widespread public push back, notably from Elon Musk
-          and others worried about AI for purely commercial gain. At face value,
-          this pivot appears to be “a huge win for humanity.”
-        </p>
-        <p>
-          But, as always, the devil lurks in the details. Rather than becoming a
-          for profit LLC, OpenAI’s tech arm will transition to an{" "}
-          <strong>uncapped profit public benefit corporation (PBC)</strong>.
-          Here’s the critical part: since the new PBC is “uncapped,” there is
-          theoretically no upper limit to OpenAI’s potential earnings. The
-          original nonprofit will still have oversight, serving as a shareholder
-          in the new entity. While this structure is more palatable to
-          regulators and the public, it cleverly lays the groundwork for OpenAI
-          to scale its profits provided it maintains the image of “safe” AI and
-          continues to assure politicians and the public it’s committed to
-          responsible development.
-        </p>
-        <p>
-          It’s a notable strategy one echoed by other AI powerhouses like{" "}
-          <strong>Anthropic</strong> and <strong>XAI</strong>, both of which
-          have adopted public benefit corporation models.
-        </p>
+        <section>
+          <h2>
+            Gemini AI Ultra Subscription: The Price Tag That Broke the Internet
+            (And Your Bank Account)
+          </h2>
+          <p>
+            You thought $20 a month for AI access was bad? Google AI Ultra
+            launches at $124.99/month for three months, then jumps to a monster
+            $249/month. Yes, you read that right. But they’ll throw in a month
+            free and a comical 30 terabytes of slop-storage (for all those AI
+            experiments you’ll never look at again).
+            <br />
+            Is it worth it? For now, Gemini is <em>the</em> top dog across all
+            LM Arena categories—even beating its own notoriously vague “trust me
+            bro” benchmarks.
+          </p>
+          <blockquote>
+            "Success isn’t about working harder—it's paying for what others
+            can’t afford.”
+          </blockquote>
+        </section>
 
-        <h2>OpenAI’s $3 Billion Bet on Productivity: Acquiring Windsurf</h2>
-        <p>
-          Despite boasting some of the world’s most sophisticated AI models,
-          OpenAI took many by surprise when it agreed to acquire{" "}
-          <strong>Windsurf</strong> (a customized fork of Visual Studio Code)
-          for an astounding $3 billion. OpenAI’s claim? Their AI is among the
-          “top 50 programmers worldwide.” That sounds impressive, but it begs
-          the question: If their AI is so advanced, why pay so much for a code
-          editor they could arguably build themselves?
-        </p>
-        <p>
-          This acquisition signals a shift: OpenAI, once viewed as the
-          unchallenged leader in applied AI, is now showing signs of playing
-          catch up or hedging bets especially as Google’s Gemini continues to
-          outpace in specific domains.
-        </p>
+        <section>
+          <h2>Developers: Open, Fast, and (Maybe) Not Google-Impossible?</h2>
+          <p>
+            This is where it gets wild in a good way. To everyone’s shock,
+            Google is supporting the <strong>Model Context Protocol</strong>,
+            making it easier for developers to integrate all this new tech. No
+            more Google-only, soon-to-be-abandoned APIs.
+          </p>
+          <ul>
+            <li>
+              <strong>Gemma 3N:</strong> Open, lightning-fast, already matching
+              Claude’s top scores. If you’re a dev, this is your ticket to
+              building monetizable AI experiences, <em>now</em>.
+            </li>
+            <li>
+              Integration with tools like Stytch, Jules, Figma...it's a
+              builder’s wildest dream.
+            </li>
+          </ul>
+          <blockquote>
+            "Winners aren’t the ones who spot trends—they build the tech when it
+            matters."
+          </blockquote>
+        </section>
 
-        <h2>Benchmarks: Gemini 2.5 vs. OpenAI – Who’s Really Ahead?</h2>
-        <p>
-          According to <strong>L Arena</strong> (a blind taste test style
-          leaderboard where real users rate AI generated coding responses),
-          Gemini 2.5 Pro is currently dominating not just in general coding but
-          also in web development challenges. This approach has added validity
-          because users don’t know which model they’re evaluating, making the
-          results less biased.
-        </p>
-        <p>
-          However, if we turn to <strong>LiveBench</strong> a more scientific
-          benchmarking system designed to eliminate “question contamination”
-          (where questions used for testing have already appeared in a model’s
-          training data) the leaderboard looks different. Here, OpenAI still
-          comes out on top, with Gemini a close runner up. Intriguingly, Gemini
-          2.5 appears to underperform in its own benchmarks except when it comes
-          to raw coding ability, where it shines brighter than ever.
-        </p>
-        <p>
-          The lesson? Never put blind faith in benchmarks. The true test is what
-          happens when you roll up your sleeves and try these models for
-          yourself.
-        </p>
+        <section>
+          <h2>Project Astra & Live AI: See the World, For Real</h2>
+          <p>
+            Want Terminator-vision with a user-friendly UI? Meet{" "}
+            <strong>Project Astra</strong>. Feeding a live video stream, Astra’s
+            low latency AI describes whatever’s in front of you. Find the safe
+            mushrooms. Identify that breed of dog on the street. Know what
+            cheese is on your pizza—almost instantly.
+          </p>
+          <ul>
+            <li>
+              <strong>Real-world example:</strong> Stream a forest walk using
+              sunglasses equipped with Astra. You’ll get live calls: “That
+              mushroom is edible!” “That’s poison oak!” “Don’t pet that
+              squirrel.”
+            </li>
+            <li>
+              <strong>Advanced:</strong> Android XR integration is coming—real
+              Smart Ray-Bans competition is on the horizon.
+            </li>
+          </ul>
+          <p>
+            Brace yourself: The “always-on expert” lives in your glasses now.
+          </p>
+          <blockquote>
+            "While everyone else is fighting over scraps, you’ll be living in
+            the future.”
+          </blockquote>
+        </section>
 
-        <h2>Real World Experiments: Gemini 2.5 In Action</h2>
-        <p>
-          To cut through the hype, I conducted hands on tests starting with a
-          simple “Hello World” in <strong>Svelte 5 runecode</strong>. My prompt
-          to Gemini 2.5: build a basic to do app. The syntax it returned looked
-          accurate, giving the impression that success was within reach.
-          However, the finer details were a bit off and, unfortunately, the app
-          failed to run as is. It wasn’t the instant success story I’d hoped
-          for, but it nonetheless points in the right direction.
-        </p>
-        <p>
-          Next, I challenged Gemini 2.5 to generate a complete game from scratch
-          using <strong>Three.js</strong>. The result? Respectably solid not at
-          a jaw dropping leap ahead of competitors, but definitely capable and
-          creative.
-        </p>
-        <p>
-          Where Gemini 2.5 truly dazzled, though, was with its{" "}
-          <strong>vision prompt capabilities</strong>. To push its limits, I
-          literally sketched my application design on a piece of toilet paper
-          (yes, you read that right), snapped a photo, and asked Gemini to use
-          this as the blueprint for a full stack app with a Postgres database.
-          The resulting code genuinely captured the “vibes” I was after, and the
-          model seemed remarkably attuned to the rough, quirky rendering of my
-          original sketch.
-        </p>
+        <section>
+          <h2>
+            Project Beam & 3D AI Magic: Your Meetings, But Actually Interesting?
+          </h2>
+          <p>
+            “Flat Zoom calls are boring.” Heard that before?{" "}
+            <strong>Project Beam</strong> uses AI to turn 2D video (yes, your
+            Teams meeting) into a dynamic 3D experience. This could actually
+            make daily standup meetings less mind-numbing and more immersive.
+            (Imagine: your boss’s PowerPoint, but now in 3D—maybe that’s not a
+            good thing.)
+          </p>
+          <blockquote>
+            "The future of office meetings: no more ‘Can you see my screen?’
+            Only, ‘Can you see my hologram?’”
+          </blockquote>
+        </section>
 
-        <h2>Closing Thoughts: The AI Coding Race Is Just Getting Started</h2>
-        <p>
-          This wraps up today’s deep dive into the rapidly evolving world of
-          coding AI. With Google’s Gemini 2.5 Pro setting a new bar and OpenAI
-          evolving both its business and its technical strategy, the competition
-          is hotter and more fascinating than ever for developers worldwide.
-        </p>
-        <p>
-          As always, in the world of AI, the best advice is to experiment
-          directly and keep an open mind. Expect even bigger announcements at
-          Google IO. Until then: stay curious, keep coding, and never
-          underestimate the power of a model that can turn toilet paper sketches
-          into web apps.
-        </p>
-        <p>
-          This has been The Code Report. Thanks for reading, and see you in the
-          next update!
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
+        <section>
+          <h2>
+            Google Veo & Imagen: Video, Image, and Sound...AI Just Leveled Up
+            Again
+          </h2>
+          <p>
+            The best AI creative tools can now generate video <em>with</em>{" "}
+            sound effects and mix dazzling visuals on command. Welcome to the
+            new era of AI-powered awe. Hollywood’s not ready, but you are.
+          </p>
+          <ul>
+            <li>Create video, images, and audio with one platform.</li>
+            <li>
+              This goes straight into Flow—your full-stack, end-to-end
+              generative content pipeline.
+            </li>
+          </ul>
+          <blockquote>
+            "Stop trying to be perfect. Start trying to be remarkable.”
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            CSS Carousels: The UNTHINKABLE Has Happened (No More 10,000 Lines of
+            jQuery)
+          </h2>
+          <p>
+            Get this: CSS now has{" "}
+            <strong>official primitives for building carousels</strong>. No more
+            hacks, script-libraries, or jQuery frankensteins. Build slick,
+            modern sliders with just a couple hundred lines of actual CSS.
+            Developers have demanded this for ages—now it’s real.
+          </p>
+          <ul>
+            <li>
+              <strong>Quick win:</strong> Your next portfolio or product
+              walkthrough just got ten times easier.
+            </li>
+          </ul>
+          <p>
+            And when you’re done? Deploy that shiny site on an affordable,
+            powerful server…
+          </p>
+        </section>
+
+        <section>
+          <h2>DevOps Power-up: Next.js On Your Own Dedicated VPS, Instantly</h2>
+          <p>
+            That brings us to the true sleeper hit for builders: Deploy your
+            site on a private server <em>for under $10/month</em>. Hostinger’s
+            new managed hosting and VPS offering lets you launch Next.js,
+            Coolify, or nearly any stack, with 2 CPUs and 8GB RAM. Automated
+            setup? Yes. Pain-free? As close as it gets.
+          </p>
+        </section>
+
+        {/* Social Sharing & Quotable Bombs */}
+        <aside>
+          <h3>Tweetable Hot Takes & Viral Quotes</h3>
+          <ul>
+            <li>
+              "Success isn’t about working harder—it's about working on what
+              nobody else sees."
+            </li>
+            <li>"The future doesn't wait for old code to catch up."</li>
+            <li>"Why code in circles when agents will run your loops?"</li>
+            <li>
+              "Paying $249/month for AI? You're not crazy, you're in the top 1%
+              of early adopters."
+            </li>
+            <li>"Stop fearing the AI. Start learning how to command it."</li>
+            <li>
+              "Code, design, deploy—the new triple threat, all in one AI-powered
+              sprint."
+            </li>
+            <li>"The only real moat left is taste, vision, and courage."</li>
+            <li>"You can't out-work the AI, but you can out-human it."</li>
+            <li>
+              "If you wait until everyone's using it, you’re already obsolete."
+            </li>
+          </ul>
+        </aside>
+
+        {/* Internal Linking Opportunities */}
+        <aside>
+          <h3>Dig Deeper into AI and Tech</h3>
+          <ul>
+            <li>
+              <Link href="/tech/chrome">
+                Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers &
+                More: Your Wild, Weird Week in Tech
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/get-job-at-google">
+                How to apply for a job at Google
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/reddit">
+                AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power
+                High-Tech Scams: What You Need To Know in 2025
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/will-tech-jobs-bounce-back">
+                Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as
+                AI Takes Hold?
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/tech-jobs-in-freefall">
+                Tech Jobs in Freefall: Why Top Companies Are Slashing Job
+                Postings Despite Record Profits
+              </Link>
+            </li>
+          </ul>
+        </aside>
+
+        {/* SEO-Friendly FAQs */}
+        <section className="faq-section">
+          <h2>
+            People Also Ask: Key Questions about Google Gemini 2.5 & Google I/O
+            2025
+          </h2>
+          <h3>
+            What is Google Gemini 2.5 and how is it different from previous
+            models?
+          </h3>
+          <p>
+            Gemini 2.5 DeepThink is Google's latest AI language and reasoning
+            model. It leaps past competitors in live benchmarks, reasoning
+            ability, and hands-on web interaction. Its biggest difference?
+            Gemini 2.5 features agentic capabilities—meaning it can take actions
+            on your behalf online and adapt to complex, open-ended tasks.
+          </p>
+          <h3>
+            What is the new Google AI Ultra plan and is it worth the price?
+          </h3>
+          <p>
+            The Ultra plan gives you the full firepower of Gemini—including
+            premium speeds, agent features, massive storage (30TB), and early
+            access tools. At $124.99/month for three months ($249/month after),
+            it's aimed at professionals, researchers, and bleeding-edge devs. If
+            you’re pushing AI limits for work, yes—it could be worth every
+            penny.
+          </p>
+          <h3>
+            Will web designers and coders be replaced by AI tools like Stytch
+            and Jules?
+          </h3>
+          <p>
+            Not overnight. But roles are shifting fast. Routine UI and back-end
+            tasks are rapidly becoming the domain of AI. To future-proof, you
+            need to focus on creative direction, UX strategy, or
+            orchestration—areas AI still struggles with.
+          </p>
+          <h3>What is Project Astra and what can it do in real life?</h3>
+          <p>
+            Project Astra is a live AI “perception engine” that can interpret,
+            narrate, and assist with real world scenes via a live camera feed.
+            Imagine always having an expert in your pocket—or on your face (with
+            XR glasses).
+          </p>
+          <h3>How soon will these AI-powered browsing agents be available?</h3>
+          <p>
+            Google’s Agent mode is set for wide release by the end of 2024.
+            Early access and beta features are rolling out right now.
+          </p>
+        </section>
+
+        {/* Conversion & Closing */}
+        <section>
+          <h2>What’s Next? Only the Bold Will Survive AI’s Revolution</h2>
+          <p>
+            You’re witnessing history. There’s zero question: AI agents,
+            zero-latency perception tools, agentic coding powerhouses, and even
+            AI-first web design are here—not tomorrow, not “someday,” but now.
+            The only real question: Are you adapting, or are you about to be
+            left in the dust?
+          </p>
+          <p>
+            Implement what you’ve read today <strong>before</strong> your
+            competition even wakes up to what’s happening. This wave won’t pass
+            you by unless you move.
+          </p>
+          <p>
+            This is just the beginning. Imagine what you could do not with just
+            these basics, but the <strong>next</strong> generation of these
+            breakthroughs. Bookmark this, share with your team, and act now.
+            Because by the time everyone else catches up, it’ll already be too
+            late.
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 14,
-      title:
-        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
-      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      date: "May 1, 2025",
-      articleRoute: "tech-jobs-in-freefall",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 17,
-      title: "But what is a neural network? | Deep learning",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
-      alt: "But what is a neural network? | Deep learning",
-      date: "May 1, 2025",
-      articleRoute: "neural-network",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-    {
-      id: 19,
-      title:
-        "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg",
-      alt: "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      date: "May 3, 2025",
-      articleRoute: "reality-of-cs",
-    },
-    {
-      id: 20,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "50-top-aws",
-    },
-    {
-      id: 21,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "cloud-service",
-    },
-    {
-      id: 22,
-      title: "Docker 101: Mastering Modern Software Delivery with Containers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
-      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
-      date: "May 3, 2025",
-      articleRoute: "docker-explained",
-    },
-    {
-      id: 23,
-      title:
-        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
-      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      date: "May 3, 2025",
-      articleRoute: "cs-major",
-    },
-    {
-      id: 24,
-      title:
-        "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
-      alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
-      date: "May 8, 2025",
-      articleRoute: "programming-myth",
-    },
-    {
-      id: 25,
-      title:
-        "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg",
-      alt: "Programming language roadmap showing the progression from beginner to expert languages",
-      date: "May 8, 2025",
-      articleRoute: "developer-roadmaps",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -359,409 +359,426 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings
-          Despite Record Profits
+          Tech Job Postings Collapse 2025: Why AI Is Reshaping the Tech Job
+          Market Faster Than Anyone Predicted
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg"
-          }
-          alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-1">
-            | May 1, 2025
-          </time>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg"
+            alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Tech jobs decline despite historic profits — what's really going on?
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-01"
+              itemProp="datePublished"
+            >
+              | May 1, 2025
+            </time>
+          </h2>
+        </section>
+
+        <p>
+          Imagine waking up to find nearly half the tech jobs you thought were
+          safe have simply… disappeared overnight. Job postings in technology
+          have dropped nearly <strong>40%</strong> in just one month. It’s not a
+          glitch. It’s not a blip. It’s the start of the biggest talent shakeup
+          in tech history—and nobody’s talking about what’s really driving it.
+        </p>
+
+        <h2>
+          How Did We Get Here? The Tech Hiring Boom Just Swerved Off a Cliff
         </h2>
         <p>
-          Tech job postings are vanishing at a historic rate—even as Silicon
-          Valley giants announce blockbuster earnings. Software engineers, once
-          considered untouchable, are now facing fierce competition for fewer
-          openings, with AI and automation forcing a dramatic reshape of hiring
-          across Amazon, Meta, Microsoft, and beyond. Is this the end of the
-          post-pandemic tech hiring boom, or the beginning of a radical new era
-          for the workforce? Here’s what’s really happening inside the tech job
-          crunch of 2025.
+          Remember the days when tech giants were tripping over each other to
+          hire you? Those days are done. Over the past five years, job openings
+          for software engineers have crashed by more than <strong>33%</strong>.
+          The 2020s hiring boom that turned tech into a gold rush? That’s
+          history. From Amazon to Meta, the old rules are out—replaced with mass
+          layoffs, hiring freezes, and vanishing job postings faster than you
+          can reload LinkedIn.
         </p>
 
-        <h2>America’s Tech Job Market: From Boom to Sudden Slowdown</h2>
+        <h3>
+          This Isn’t Just a Downturn—It’s a Mass Extinction Event for Tech Jobs
+        </h3>
         <p>
-          Unless you’ve been living under a Wi-Fi-less rock, you’ve probably
-          felt the chill blowing across the American tech job market. In just
-          the past month, tech job postings have plummeted an astonishing{" "}
-          <strong>40%</strong> nationwide. Dig a little deeper, and the pain is
-          widespread: job openings for software engineers have dropped by more
-          than <strong>33%</strong> over the past five years. That’s not just a
-          dip—that’s a structural change.
+          Think this is just a speed bump? Here’s what everyone misses: tech’s
+          hiring freeze is no temporary glitch. In 2025, tech companies are
+          erasing job postings at a scale nobody predicted.
         </p>
+        <ul>
+          <li>
+            Salesforce shares doubled in a year—yet they’re{" "}
+            <strong>shrinking</strong> teams, not hiring.
+          </li>
+          <li>
+            Amazon slashed job postings and extended hiring freezes—again.
+          </li>
+          <li>
+            Meta gutted middle management, targeting “low performers” in a
+            ruthless stack ranking revival.
+          </li>
+          <li>
+            Microsoft axed <strong>1,900</strong> jobs in its gaming arm, even
+            as revenue spiked.
+          </li>
+        </ul>
         <p>
-          What’s behind this abrupt shift? After a frenzied post-pandemic hiring
-          boom—where companies scrambled for talent and posted thousands of new
-          jobs—2025 is quietly drawing the curtain on that golden era. All the
-          big names, from Amazon to Meta, are reporting reductions in their
-          workforces. Headlines about tech layoffs aren’t flukes; they’re a new
-          norm, driven as much by internal strategy as external economics.
-        </p>
-
-        <h2>From Expansion to Efficiency: What’s Really Going On?</h2>
-        <p>
-          In the past, tech titans competed fiercely for the world’s best
-          engineers, fueling rapid job creation thanks to years of breakneck
-          growth. Take Salesforce: its shares have doubled over twelve months,
-          boasting a market cap north of $51 billion. But markets evolve—and
-          today’s story isn’t one of expansion, but optimization. Companies are
-          quietly erasing job postings, hitting pause on new hires, and
-          rethinking how they organize their teams.
-        </p>
-        <p>
-          The catalyst? The rise of <strong>automation</strong> and, more
-          specifically, the skyrocketing capabilities of{" "}
-          <strong>artificial intelligence</strong>. Executives at firms like
-          Salesforce admit AI has supercharged their software engineers’
-          productivity—doing more with leaner teams than ever before. That means
-          smaller, more skilled teams are producing as much (or more) output,
-          prying open the door to a new age of corporate efficiency.
+          Here’s the part that’ll keep you up at night:{" "}
+          <strong>these companies are making more money than ever.</strong>
         </p>
 
-        <h2>AI’s Ripple: Why Fewer People Can Do More</h2>
+        <blockquote>
+          "The difference between winners and losers? Winners adapt while losers
+          cling to the past."
+        </blockquote>
+
+        <h2>AI Has Changed Everything—And Almost No One Is Ready</h2>
         <p>
-          The use of AI in the workplace is spreading with viral intensity—as
-          every tech employer races to boost productivity. Consider Amazon,
-          which sparked this trend with an abrupt hiring freeze in 2022 that,
-          initially slated as temporary, endures to this day. The e-commerce
-          behemoth hasn’t just stopped growing: it’s aggressively removing job
-          listings and making targeted cuts, like in its Prime Video division.
+          Why kill off jobs when business is booming? The real reason is
+          ruthless and simple:{" "}
+          <strong>AI-driven productivity has exploded.</strong> Executives at
+          major players—think Salesforce and beyond—are finally saying it out
+          loud: one engineer with AI produces the work of five. Smaller teams,
+          bigger output. Artificial intelligence is bulldozing decades-old
+          hiring logic overnight.
         </p>
         <p>
-          Meanwhile, Meta’s story is even starker. Facing a dip in revenue—even
-          as its workforce ballooned to nearly 87,000—Meta unleashed one of the
-          industry’s most sweeping hiring freezes and surgically reduced layers
-          of middle management. It announced plans to trim 5% of staff,
-          specifically targeting those considered “low performers.” The infamous
-          practice of <em>stack ranking</em> (where employees are force-ranked
-          and the lowest cut) appears to be back in style in Silicon Valley.
-        </p>
-        <p>
-          Even Microsoft, long considered a steady hand, is trimming management
-          roles and eliminating non-programming positions. Just in its gaming
-          division, 1,900 jobs have disappeared. Here’s the critical detail:
-          these listings are vanishing from public job boards—not just going
-          unfilled, but being erased entirely. Tech companies are fundamentally
-          reassessing their talent needs as a tidal wave of automation changes
-          what—and who—they need.
+          If you thought automation would threaten factory workers first, this
+          will catch you off guard: the knowledge jobs, the software roles once
+          called ‘recession proof’? They’re the first on the chopping block.
         </p>
 
-        <h2>The Numbers Don’t Lie: Behind the Statistical Shift</h2>
+        <h3>PROOF: The Numbers Nobody Wants to Admit</h3>
+        <ul>
+          <li>
+            IT hiring: <strong>down 27%</strong>
+          </li>
+          <li>
+            Quality Assurance job posts: <strong>down 32%</strong>
+          </li>
+          <li>
+            Engineering openings: <strong>down 26%</strong>
+          </li>
+        </ul>
         <p>
-          Data from LinkedIn lays bare the transformation. Hiring for IT roles
-          has tumbled 27%, with quality assurance down 32% and engineering jobs
-          (long thought recession-proof) slipping by 26%. These declines are
-          happening <strong>in spite</strong> of historic profitability: Amazon,
-          for instance, crushed expectations with a 14% revenue jump (reaching
-          $170 billion), yet quickly axed 1,000 jobs. Microsoft followed suit,
-          boasting a 17.6% revenue bump to $62 billion while trimming staff just
-          days before its earnings call.
+          Picture this: blockbuster earnings drop week after week—Amazon beats
+          forecasts, Microsoft’s revenue rockets to <strong>$62 billion</strong>
+          —and then… layoffs. Massive, surgical cuts, sometimes{" "}
+          <strong>just days</strong> before announcing record profits.
+        </p>
+
+        <h2>Why Are There “Plenty of Jobs”—But No One’s Getting Hired?</h2>
+        <p>
+          Here’s what nobody talks about: there are <strong>470,000+</strong>{" "}
+          open tech jobs, but the unemployment rate just jumped to 2.9% from
+          2%—that’s an explosion in the talent mismatch. Why? Because most of
+          these jobs have become ultra specialized.
+        </p>
+        <ul>
+          <li>
+            60% of U.S. tech managers only want <strong>AI-related</strong>{" "}
+            talent.
+          </li>
+          <li>
+            Jobs mentioning “generative AI” are up <strong>500%</strong> since
+            last year.
+          </li>
+          <li>
+            Demand from job seekers for AI roles?{" "}
+            <strong>6,000% increase.</strong> (Yes, that extra zero is real.)
+          </li>
+        </ul>
+        <p>
+          Let me show you exactly what I mean: the people who mastered old tech
+          stacks—Java, Python, .NET—are suddenly “not enough” for jobs that now
+          demand AI-mastery, LLM prompt engineering, or end-to-end MLOps
+          pipelines. If you stopped learning in 2020, you’re invisible in 2025.
+        </p>
+        <blockquote>
+          "Success isn't about working harder—it's about working on what
+          everyone else ignores."
+        </blockquote>
+
+        <h2>Stack Ranking, Layoffs, and the Death of “Safe” Tech Careers</h2>
+        <p>
+          Thoughts of job security in tech? Scrap them. Meta is slashing 5% of
+          its workforce, explicitly labeling some as “low performers.” The hated
+          “stack ranking” (remember Microsoft’s infamous up-or-out approach?) is
+          back. Microsoft’s not holding back: being a top coder may save you,
+          but entire managerial layers and non-programming jobs are vanishing.
         </p>
         <p>
-          For job seekers, it’s a contradictory landscape. On one hand, there’s
-          an eye-catching 470,000 open tech jobs in the US. On the other, the{" "}
+          But wait, the plot thickens—most companies aren’t even{" "}
+          <i>advertising</i> these changes. Job board listings are silently
+          vanishing. Qualified people are applying to now-invisible roles and
+          hitting brick walls—often after weeks of “hiring freeze” silence.
+        </p>
+
+        <h3>What Most People Get Wrong: The Myth of “Temporary Slowdown”</h3>
+        <ul>
+          <li>This isn’t about a cycle. It’s a total reset.</li>
+          <li>
+            This isn’t about saving money. It’s about doubling profits while
+            cutting people.
+          </li>
+          <li>
+            This isn’t about “bad luck.” It’s intentional, systemic, and
+            spreading fast.
+          </li>
+        </ul>
+
+        <h2>
+          Flexible, Freelance, and Ruthlessly Lean: The New Hiring Models in
+          2025
+        </h2>
+        <p>
+          While everyone else is fighting over scraps of full-time work, the
+          real story is the stealth boom in contract and project-based hiring.{" "}
+          <strong>28%</strong> of tech leaders now say they prefer contractors
+          to permanent staff. Why? It means fewer costs and maximal flexibility
+          as economic clouds gather and bosses panic about “potential
+          recession.”
+        </p>
+        <p>
+          Even inside companies, the ground is shifting: nearly half (48%) of
+          organizations are doing <strong>more reskilling internally</strong>{" "}
+          instead of hiring fresh blood. Translation? If you’re not aggressively
+          learning new tools—especially AI—you’re already walking the plank.
+        </p>
+
+        <blockquote>
+          "The people who master this are the ones who shape the future others
+          envy."
+        </blockquote>
+
+        <h2>Hiring Requirements Are Being Torn Up—But Don’t Get Comfortable</h2>
+        <p>
+          Here’s what’s crazy: 56% of hiring managers are{" "}
+          <strong>loosening</strong> old standards. College degree? Years in the
+          trenches? Not always needed if you can <strong>learn fast</strong>.
+          Companies now want adaptability and hands-on skill, not dusty
+          diplomas.
+        </p>
+        <p>
+          But before you celebrate, remember: it’s because what’s needed is
+          changing so rapidly, nobody can keep up. This isn’t a free-for-all.
+          The bar has just moved—in ways few are prepared for.
+        </p>
+
+        <h2>
+          Why This Isn’t Tech’s Death Spiral—But the Most Ruthless Talent
+          Upgrade Ever
+        </h2>
+        <p>
+          Let’s make one thing clear: tech jobs aren’t vanishing forever. In
+          fact, long-term forecasts say U.S. tech employment is set to surge
+          from 6 million to 7.1 million by 2034.
+        </p>
+        <p>
+          So what’s really happening? The system is upgrading itself—faster,
+          leaner, more AI-driven, more cutthroat. Investors demand profit.
+          Global competition cuts deep. Uncertainty (think tariffs, election
+          chaos, economic swings) forces leaders to get <strong>brutal</strong>{" "}
+          about costs. Result? The industry now rewards those at the
+          cutting-edge, and mercilessly leaves the rest behind.
+        </p>
+        <blockquote>
+          "Stop trying to be perfect. Start trying to be remarkable—and
+          impossible to replace."
+        </blockquote>
+
+        <h2>
+          The Hidden Cost: Is “Efficiency” Just Code for Worker Disposability?
+        </h2>
+        <p>
+          This is the part they’ll never tell you in a quarterly report: record
+          profits, slashed teams, and “efficiency” are <strong>not</strong>{" "}
+          always synonymous. For thousands, it means watching your role erased
+          in the name of higher margins—and hearing that “growth” means{" "}
+          <i>someone</i> else enjoys the rewards.
+        </p>
+        <p>
+          Yes, job openings exist. But try landing one without a bleeding-edge
+          AI toolkit and a super-niche specialization. Even if unemployment
+          stays relatively low, the competition is now global and relentless.
+          Tech’s open-door era is officially over. Now it’s a zero-sum game for
+          who gets in next.
+        </p>
+
+        <aside>
+          <h3>People Also Ask</h3>
+          <ul>
+            <li>
+              <strong>Why are tech companies slashing job postings now?</strong>{" "}
+              – A mix of AI-driven productivity, investor pressure, global
+              economic uncertainty, and new business models.
+            </li>
+            <li>
+              <strong>Is the demand for AI skills really that high?</strong> –
+              Yes. AI-related job postings and skills demand have exploded
+              (500%-6,000% growth) in under a year.
+            </li>
+            <li>
+              <strong>Is it still possible to break into tech in 2025?</strong>{" "}
+              – Yes, but you have to target AI-centric and highly specialized
+              roles. Traditional jobs are fading.
+            </li>
+            <li>
+              <strong>Are tech jobs gone forever?</strong> – No, but they’re
+              morphing. The next decade will reward constant learners and those
+              mastering new stacks.
+            </li>
+          </ul>
+        </aside>
+
+        <h2>How to Survive (and Dominate) the 2025 Tech Hiring Meltdown</h2>
+        <section>
+          <h3>Step 1: Become an AI Power User—Right Now</h3>
+          <ul>
+            <li>
+              Don’t wait. Master popular AI frameworks, prompt engineering, and
+              automation tools.
+            </li>
+            <li>Build real-world projects. Show, don’t just tell.</li>
+            <li>
+              Join online communities for LLMs, MLOps, and generative AI—what’s
+              new today will be “basic” tomorrow.
+            </li>
+          </ul>
+
+          <h3>Step 2: Go Deep, Not Wide—Niche Down Your Expertise</h3>
+          <ul>
+            <li>
+              Pick a domain (fintech AI, AI-powered ops, scalable cloud
+              robotics, etc.) and crush it. Generalists are out, specialists are
+              in.
+            </li>
+            <li>
+              Create public proof—demos, open source, case studies—of your
+              ability to solve real business problems with tech.
+            </li>
+          </ul>
+
+          <h3>Step 3: Reskill Relentlessly—Or Get Sidelined</h3>
+          <ul>
+            <li>
+              Don’t count on your employer for training. Take ownership, and
+              learn faster than the change curve.
+            </li>
+            <li>
+              Pinpoint “future-proof” skills nobody else in your team has—and
+              become the go-to person for them.
+            </li>
+          </ul>
+
+          <h3>Step 4: Flex Like a Freelancer—The Future is Project-Based</h3>
+          <ul>
+            <li>Build a portfolio of gig and project-based success stories.</li>
+            <li>
+              Network with remote-first employers and global opportunities—the
+              next premium job posting might not even be in your country.
+            </li>
+          </ul>
+        </section>
+
+        <h2>The Bottom Line: Will You Adapt or Get Left Behind?</h2>
+        <p>
+          Here’s the blunt truth: the rules of tech hiring are being rewritten
+          in real time, and almost nobody is prepared. Those who cling to the
+          old playbook—job postings, resumes, prestige degrees—are being left in
+          the dust. The people who <strong>learn faster</strong>, adapt to AI,
+          and prove their worth through results? They’ll dominate the new era of
+          tech.
+        </p>
+        <blockquote>
+          "If you're still reading this, you're already ahead of 90% of people.
+          Now go become the top 1%."
+        </blockquote>
+        <p>
+          Don’t wait for things to ‘bounce back’—the window to pivot is now. If
+          you want to help shape the future (and get paid for it), start
+          reskilling, niching down, and building projects today. Because in this
+          new world, waiting is the only way to guarantee you’ll regret it.
+        </p>
+        <p>
           <strong>
-            unemployment rate among tech workers has jumped to 2.9%
-          </strong>
-          , up from 2% a month prior. What gives? The devil, as always, is in
-          the details. The new roles cropping up often require hyper-specialized
-          skills—think deep AI expertise—leaving many previously in-demand
-          professionals on the outside looking in.
-        </p>
-        <p>
-          That decline is especially evident in repeated numbers: software
-          engineer openings are down <strong>one-third over five years</strong>.
-          At the same time, hiring for AI roles is exploding, with 60% of US
-          tech managers now recruiting specifically for artificial intelligence,
-          a leap from just 35% the year before. The supply-demand imbalance is
-          extreme—a 500% surge in jobs mentioning “generative AI,” matched by a
-          mind-blowing 6,000% increase in candidate interest.
-        </p>
-
-        <h2>Contract Work Rises, Degrees Matter Less: The New Hiring Trends</h2>
-        <p>
-          In response to all this disruption, companies are rewiring their
-          hiring models. Full-time jobs are giving way to flexible,
-          project-based contracts—28% of US tech leaders now{" "}
-          <strong>prioritize contractors</strong> over permanent staff. The
-          advantage? Lower fixed costs, and more agility in riding out
-          unpredictable business cycles.
-        </p>
-        <p>
-          Internal upskilling is also on the rise: 48% of tech leaders favor
-          developing existing teams rather than importing talent. Some business
-          owners, cautious about a potential recession, are quietly dialing back
-          hiring and slowing new job creation.
-        </p>
-        <p>
-          Most intriguingly, hiring requirements are shifting. No more hard
-          lines on years of experience or shiny university degrees—56% of tech
-          hiring managers are{" "}
-          <strong>loosening traditional requirements</strong> to keep their
-          pipelines full. Credentials are being replaced by adaptability and the
-          capacity to learn fast, not just formal pedigrees.
-        </p>
-
-        <h2>The Big Picture: Tech Isn’t Dying, But It Is Transforming</h2>
-        <p>
-          Is this a death knell for tech jobs? Hardly. Projections remain
-          positive: the total number of US tech jobs is forecast to climb from
-          six million today to 7.1 million by 2034—driven both by new
-          technologies and broader economic shifts.
-        </p>
-        <p>
-          However, turbulent macroeconomic winds are blowing. Investors, after
-          years of tolerating lavish spending, now demand tighter margins.
-          Geopolitical uncertainty and new tariffs are adding volatility,
-          compelling companies to do more with less. And as President Trump’s
-          new economic policies stir further unpredictability, large US tech
-          companies are hunkering down—often at the expense of hiring.
-        </p>
-        <p>
-          It’s vital to see what’s really at stake. Sure, workforce cuts and
-          vanishing job listings can look like prudent business. But for
-          thousands of workers, this supposed “efficiency” means being abruptly
-          excluded from the industry they helped build—especially as corporate
-          profits soar ever higher. While opportunities persist, they’ve grown
-          more exclusive and require ever-narrower skill sets.
-        </p>
-
-        <h2>Why This Transformation Demands Close Attention</h2>
-        <p>
-          This isn’t just another stage in the evolution of tech employment.
-          It’s a transformation that reshuffles who wins—and who gets left
-          behind. If left unchallenged, these changes threaten to concentrate
-          opportunity and wealth within an ever-shrinking elite, rather than
-          preserving the shared growth that fueled the industry’s golden age.
-        </p>
-        <p>
-          What’s your take? Is the rise of AI-powered productivity a justifiable
-          reason for shrinking opportunities—or is something being lost in the
-          name of efficiency?{" "}
-          <strong>
-            Join the conversation below—at Economy Media, your perspective
-            matters!
+            This is just the beginning of what's possible. Ready to build your
+            next chapter?
           </strong>
         </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
+        <section className="faq-section">
+          <h2>FAQ: Tech Job Market 2025—What Else You Need To Know</h2>
+          <div>
+            <h3>
+              1. Why are software engineering jobs disappearing while tech
+              profits are up?
+            </h3>
+            <p>
+              AI tools now let smaller teams achieve more, so companies can
+              slash hiring—even during record-breaking quarters.
+            </p>
+            <h3>2. Will normal programming skills be enough to get hired?</h3>
+            <p>
+              Not likely. Companies want proof you can apply cutting-edge AI,
+              automation, and solve ultra-specific business problems.
+            </p>
+            <h3>3. Are contract and freelance opportunities really growing?</h3>
+            <p>
+              Yes—28% of tech leaders now hire contractors over full-time staff.
+              Flexibility and cost-cutting are driving the shift.
+            </p>
+            <h3>4. Should I bother with a CS degree?</h3>
+            <p>
+              It’s less important than ever—hiring managers value adaptability,
+              learning capacity, and real results over formal credentials.
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2>Related Topics</h2>
+          <ul>
+            <li>
+              <Link href="/tech/get-job-at-google">
+                How to apply for a job at Google
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/will-tech-jobs-bounce-back">
+                Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as
+                AI Takes Hold?
+              </Link>
+            </li>
+          </ul>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 17,
-      title: "But what is a neural network? | Deep learning",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
-      alt: "But what is a neural network? | Deep learning",
-      date: "May 1, 2025",
-      articleRoute: "neural-network",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

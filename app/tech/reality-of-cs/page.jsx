@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -436,436 +436,523 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
+        {/* SEO-optimized H1 with main target keyword at the beginning */}
         <h1>
-          What It's Really Like to Study Computer Science: Reality of CS Majors
+          Computer Science Degree Reality: Does It Matter for High-Paying Tech
+          Jobs?
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg"
-          }
-          alt="What It's Really Like to Study Computer Science: Reality of CS Majors"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-3">
-            | May 3, 2025
-          </time>
-        </h2>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg"
+            alt="What It's Really Like to Study Computer Science: Reality of CS Majors"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            The real-world experiences of CS majors—beyond code, grades, and
+            algorithms.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-03"
+              itemProp="datePublished"
+            >
+              | May 3, 2025
+            </time>
+          </h2>
+        </section>
 
         <p>
-          Let’s set the record straight: most of us venturing into computer
-          science aren’t overnight prodigies streaming from dorm rooms at
-          Harvard despite what TikTok or Instagram might have you believe. The
-          real university experience? It’s a wild ride, shaped less by “life
-          hacks” and more by which country you’re in, how long your degree lasts
-          (three, four, or sometimes a punishing five years), and whether you
-          can keep your laptop safe from rain, thieves, or yourself.
+          What if I told you the <strong>computer science degree</strong> you’re
+          studying so hard for might not be what actually gets you that dreamy
+          $500K tech job—or even make you a good coder? The truth is, most of
+          what you <em>think</em> you know about CS degrees is dead wrong. And
+          if you’re not careful, you’ll end up missing the real chance everyone
+          else is sleeping on. Here’s the explosive reality about computer
+          science in 2025—what works, who wins, who wastes years, and how YOU
+          can actually use it to dominate your career (even if the classes are
+          useless).
         </p>
 
-        <h2>Year One: Where It All Begins (and Many Fall Off)</h2>
-        <p>
-          The first year is all about getting thrown into the deep end, starting
-          with the infamous <strong>Intro to Computer Science</strong> class.
-          Consider it a trial by fire or, more accurately, a <em>weeder</em>{" "}
-          designed to separate those genuinely interested in code from those who
-          picked their degree after watching a flashy viral video.
-        </p>
-
-        <p>
-          Your journey through the basics begins with learning programming
-          fundamentals: variables, loops, functions, and tackling a seemingly
-          endless stream of classic coding problems. Don’t get too attached to
-          your fancy MacBook, though. Surreally, some universities still expect
-          you to handwrite code on pen and paper, as if debugging an array error
-          weren’t torture enough without smudged ink and cramped hands.
-        </p>
-
-        <p>
-          Next comes <strong>Intro to Programming Paradigms</strong>. Here,
-          you’ll wrestle with “ancient” (read: actually foundational) styles
-          like functional and object oriented programming. Despite all the hype,
-          you’ll soon realize that massive, real world codebases are only
-          organized in one paradigm: <strong>Spaghetti React</strong>. (Kidding
-          sort of.)
-        </p>
-
-        <p>
-          And that’s it for coding in your first year. Most of your schedule is
-          stuffed with math classes, as well as mandatory electives sometimes
-          barely related to software or engineering. Getting a CS degree to
-          become a software engineer is a bit like getting a chemistry degree to
-          become a chef: technically possible, questionable in practice.
-        </p>
-
-        <h2>Year Two: The Sleep Deprived, Caffeine Fueled Grind</h2>
-        <p>
-          Congratulations, you’ve survived the first year without switching to a
-          business major or starting an OnlyFans for tuition money. Now things
-          get real. Second year courses introduce you to more core CS topics:
-        </p>
-        <ul>
-          <li>
-            <strong>Intro to Computer Systems</strong> where your mind gets
-            blown by how computers actually work, bridging the gap between
-            hardware and software.
-          </li>
-          <li>
-            <strong>Introduction to Computational Logic</strong> a deep dive
-            into the reasoning that underpins code and circuits.
-          </li>
-          <li>
-            <strong>Algorithms &amp; Data Structures</strong> the notorious
-            class everyone dreads, mostly spent drawing diagrams, chasing{" "}
-            <em>Big O</em> complexity like a game of “Where’s Waldo?”, and
-            occasionally squeezing in a little bit of actual coding.
-          </li>
-        </ul>
-
-        <p>
-          At this point, sacrificing sleep, a social life, and your sanity is
-          the norm. You’ll find yourself listening to online lectures at 2 a.m.,
-          clutching a can of Red Bull with one hand and a bowl of instant
-          noodles with the other. The math ramps up too with subjects like
-          discrete math, statistics, calculus, and algebra sneaking into your
-          timetable. And yes, these will (allegedly) be useful at your future
-          job.
-        </p>
-
-        <h2>The Secret Curriculum: Projects, Leetcode, and Reality Checks</h2>
-        <p>
-          All the while, you’re balancing 40 to 60 hours of coursework and maybe
-          a part time gig, but employers expect more:{" "}
-          <strong>personal projects</strong> in trendy tech, and a serious grind
-          on Leetcode or other coding challenges just to land an interview. The
-          reward? Rejection emails and lots of them.
-        </p>
-        <p>
-          Survive this long, and you’ll notice your classes get emptier. The
-          student with the battered Arch Linux ThinkPad is now interning at
-          Google, and you’re starting to forget even the basics because you
-          haven’t seen sunlight (or a real human) in weeks.
-        </p>
-
-        <h2>Advanced Years: The Deep End & “Big Boy” Coding</h2>
-        <p>
-          By the time unpaid internships and mysterious coding assessments
-          become routine, your coursework escalates:
-        </p>
-        <ul>
-          <li>
-            <strong>Compilers</strong> Build your own programming language from
-            scratch (and wonder why you ever thought C was hard).
-          </li>
-          <li>
-            <strong>Cryptography</strong> More math. Lots more math. The code is
-            just the disguise.
-          </li>
-          <li>
-            <strong>Graphics Engines</strong> Rendering pretty visual effects
-            and understanding the science that makes gaming possible.
-          </li>
-        </ul>
-        <p>
-          Juggling all this, you’ll also have to choose electives ranging from
-          surprisingly fascinating to painfully useless, depending on your luck
-          (and advisor). And don’t forget: deep dives into theories and
-          principles don’t stop just because you’re building something cool.
-        </p>
-
-        <h2>The Final Year: Capstone Chaos and Reality Bites</h2>
-        <p>
-          Senior year brings you to the legendary{" "}
-          <strong>capstone project</strong> often your first brush with “the
-          real world.” Here, you’ll tackle a project for a real company under
-          the proud (but distractingly unhelpful) gaze of your university. The
-          reality? You’ll probably deal with missing in action teammates,
-          supervisors who think “guidance” is just a word, and the challenge of
-          delivering a barely functional product by the deadline.
-        </p>
-        <p>
-          Alternatively, if you’re the academic type, you might go deep into
-          research on machine learning, cryptography, or computer vision. But
-          let’s be honest most of us are here for one thing: a life after
-          university. Which, all too often, means anxiously watching former
-          classmates land jobs at FAANG while you contemplate your
-          overqualification for burger flipping gigs.
-        </p>
-
-        <blockquote>
+        {/* Section 1: The Great Salary Illusion */}
+        <section>
+          <h2>
+            Shocking Truth: The Highest Tech Salaries Aren’t Where You Think
+          </h2>
           <p>
-            If you’re still determined to pursue a CS degree despite the stress,
-            debt, and existential dread and you genuinely love programming good
-            luck. The journey is tough, but it can be deeply rewarding… if you
-            survive.
+            Forget what Google tells you. Forget what your college career fair
+            pretends. Let’s destroy the myth together: The highest-paying jobs
+            in tech aren’t at Google, Amazon, Apple, or Facebook anymore. The
+            real money flows through elite quantitative trading firms—places
+            like <strong>Citadel</strong>, <strong>Jane Street</strong>, and{" "}
+            <strong>Two Sigma</strong>. These aren’t your ordinary coding gigs.
+            We’re talking:
           </p>
-        </blockquote>
+          <ul>
+            <li>
+              <strong>Citadel:</strong> Software engineer average salary of
+              $250K. Total compensation—after stocks and bonuses—rockets to
+              $500K+.
+            </li>
+            <li>
+              <strong>Jane Street:</strong> Total comp hovers around $480K.
+            </li>
+            <li>
+              <strong>Two Sigma:</strong> Almost every offer puts FAANG
+              companies to shame.
+            </li>
+          </ul>
+          <p>
+            Here’s the thing that blew my mind: <em>Everyone</em> assumes Google
+            and Facebook pay the most. But look at leveled salary data or hop
+            over to Levels.FYI—trading firms take the throne. Want to know the
+            real reason? Trading firms take machine learning and high-frequency
+            algorithm design to the extreme. Imagine the stock market as a
+            roller coaster for the day. Their engineers are paid to find the
+            lowest dips, buy, and sell at the highest peaks—sometimes every
+            second. That’s why they want—and pay for—the best, and make you
+            fight through brutally rigorous interviews.
+          </p>
+          <blockquote>
+            "Success isn't about working harder—it's about working where
+            everyone else is too scared to compete."
+          </blockquote>
+        </section>
 
-        <p>
-          Article by <strong>Massa Medi</strong> giving you a real look behind
-          the curtain at computer science.
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
+        {/* Section 2: The Startup Dream (and Its Brutal Reality) */}
+        <section>
+          <h2>Chasing Startup Glory: Why Only 43% Make It (If You’re Lucky)</h2>
+          <p>
+            So maybe you want to skip the corporate grind and launch the next
+            unicorn. Think again. Everyone races to places like{" "}
+            <strong>Y Combinator</strong>, hungry for a $500K seed check at 7%
+            equity—but here’s what nobody talks about:
+          </p>
+          <ul>
+            <li>
+              Less than half (<strong>43%</strong>) of funded startups in the US
+              actually use that money to create something valuable. Most burn
+              through the cash, invest in the wrong things, or just… disappear.
+            </li>
+            <li>
+              Even those who make it face brutal odds—over 60% of startups fail
+              fast, sometimes before even hitting the market.
+            </li>
+          </ul>
+          <p>
+            Most people screw this up by chasing the funding, not the product.
+            But when you get it right? The results are insane.{" "}
+            <strong>DoorDash</strong> exploded from a student startup (Stanford,
+            2013) into a $12 billion behemoth with 1 billion+ fulfilled orders
+            and over 1 million “Dashers.” (If you’re in India: think Zomato,
+            Swiggy—the pattern is global.)
+          </p>
+          <blockquote>
+            "The difference between winners and losers? Winners build what the
+            market wants. Losers chase checks."
+          </blockquote>
+          <p>
+            Want to try? Just remember: If you’re not obsessed, prepared for
+            pain, and freakishly adaptable, you’ll end up part of that 60%
+            carnage.
+          </p>
+        </section>
+
+        {/* Section 3: Becoming a Research Machine (and the Real Cost) */}
+        <section>
+          <h2>
+            Should You Chase a Computer Science PhD? Read This Before Deciding
+          </h2>
+          <p>
+            You’re thinking about research—grad school, maybe even a PhD? Here’s
+            what most students don’t realize:
+          </p>
+          <ul>
+            <li>
+              Most undergrad/master’s “research” involves you grinding out
+              papers… usually as cut-rate labor for your professor.
+            </li>
+            <li>
+              Your PhD often benefits your mentor and boosts the university’s
+              ranking more than it transforms your career.
+            </li>
+            <li>
+              Research is the right path ONLY if you actually want to make
+              research your life—professor track, Facebook/Google AI labs, etc.
+            </li>
+          </ul>
+          <p>
+            Bottom line:{" "}
+            <em>
+              If you only like the idea of research, don’t do it. If you burn
+              for it, nothing else will satisfy.
+            </em>
+          </p>
+        </section>
+
+        {/* Section 4: When (and How) Computer Science Degree Actually Matters */}
+        <section>
+          <h2>
+            Does a Computer Science Degree Actually Matter? Only If You Do This…
+          </h2>
+          <p>
+            Here’s where most people get it wrong. A computer science degree
+            isn’t magic. It isn’t useless either. It’s exactly what you make of
+            it.
+          </p>
+          <ul>
+            <li>
+              The “Jordan shoe” paradox: Just like a Jordan shoe is just a shoe
+              until you play in it—a CS degree is only “useful” if you put it to
+              work.
+            </li>
+            <li>
+              Most top students I met (myself included) didn’t obsess over
+              grades. Their real goal?{" "}
+              <strong>Internships, networking, projects</strong>.
+            </li>
+            <li>
+              The true value: Building a killer project portfolio. Connecting
+              with classmates. Learning <em>how</em> to learn, not just ticking
+              boxes.
+            </li>
+          </ul>
+          <blockquote>
+            "Stop trying to be perfect. Start trying to be remarkable."
+          </blockquote>
+          <p>
+            So what’s the step-by-step here? How do you squeeze real value out
+            of your degree, unlike 90% of students who drift through on
+            autopilot?
+          </p>
+
+          <h3>Step 1: Forget GPA Obsession—Prioritize Real-World Results</h3>
+          <ul>
+            <li>
+              Don’t waste all your energy maxing out grades at the cost of
+              everything else. That “A” in Theory of Computation doesn’t cut it
+              if your GitHub is empty.
+            </li>
+            <li>
+              Find internships STAT—even in first year. The harsh truth?{" "}
+              <strong>Internship &gt; Class project &gt; Grades</strong> for
+              almost every recruiter.
+            </li>
+          </ul>
+
+          <h3>Step 2: Network Like a Pro (This Is Where Jobs Happen)</h3>
+          <ul>
+            <li>
+              Your classmates today? They’re future founders, recruiters, hiring
+              managers. Don’t be invisible—collaborate, help, code together.
+            </li>
+            <li>
+              Connect with alumni, get involved in hackathons, and don’t be shy
+              about DM’ing people for advice.
+            </li>
+          </ul>
+
+          <h3>Step 3: Build, Build, Build: Projects Trump Everything</h3>
+          <ul>
+            <li>
+              Pick real problems and build actual solutions. Every project =
+              potential talking point in interviews.
+            </li>
+            <li>
+              Show off teamwork. Learning “how to learn” and “how to solve with
+              a group” is the secret skill you’ll use forever.
+            </li>
+          </ul>
+        </section>
+
+        {/* Section 5: The Dirty Secret About CS Coursework */}
+        <section>
+          <h2>
+            Why Most Computer Science Classes Are Outdated (And What To Do About
+            It)
+          </h2>
+          <p>
+            Here’s what nobody talks about: Most CS classes are dusty relics.
+            Let me show you exactly what I mean:
+          </p>
+          <ul>
+            <li>
+              <strong>Computer Networks:</strong> In the real world, you’ll be
+              configuring NGINX, debugging load balancers—stuff your textbook
+              never even mentions.
+            </li>
+            <li>
+              <strong>Operating Systems:</strong> Great theory, but you’ll
+              rarely touch the kernel at work.
+            </li>
+            <li>
+              <strong>Machine Learning/AI:</strong> Unless you’re a dedicated
+              researcher or data scientist, most ML/AI models are plug-and-play
+              APIs now. You won’t code the algorithms from scratch.
+            </li>
+          </ul>
+          <p>
+            So, why does this happen? CS moves at hyper-speed. By the time a
+            course textbook is printed, the industry already changed the rules.
+            Schools can’t (or won’t) keep up.
+          </p>
+          <blockquote>
+            "If the knowledge isn’t evolving as fast as the tech, you’re already
+            behind."
+          </blockquote>
+          <p>
+            This is where most students screw up: They trust the syllabus
+            blindly, and never bother learning the rapid-fire tools actually
+            used on real jobs.
+          </p>
+        </section>
+
+        {/* Section 6: The REAL Value: Projects, Network, and Learning to Learn */}
+        <section>
+          <h2>
+            The Hidden ROI: How to Make Your Degree Pay Off (Even If Classes
+            Suck)
+          </h2>
+          <p>
+            Listen carefully, because this changes everything: The classes might
+            be outdated, but the <em>process</em> of learning, problem-solving,
+            and collaborating—that’s gold. Senior engineers don’t care if you
+            aced Data Structures 101. They want to know:
+          </p>
+          <ul>
+            <li>Can you solve real problems—fast?</li>
+            <li>Can you adapt to fast-changing tools?</li>
+            <li>Can you work well as a team?</li>
+          </ul>
+          <p>
+            If you say “yes” to those, you’re already ahead of 90% of people who
+            treat their degree like a box to tick. That’s the hidden key.
+          </p>
+        </section>
+
+        {/* Section 7: Most People Get It Wrong (Plus, Common Mistakes to Dodge) */}
+        <section>
+          <h2>What Most People Get Wrong (And How to Crush the Competition)</h2>
+          <ul>
+            <li>
+              Focusing 100% on academics and ignoring networking and projects.
+            </li>
+            <li>Never learning beyond the dusty textbook.</li>
+            <li>Obsessing about the GPA, ignoring the real job hunt.</li>
+            <li>
+              Skipping internships "to focus on studies" (spoiler: huge error).
+            </li>
+          </ul>
+          <p>
+            Let me say it again: Your CS degree is a multiplier only if you
+            combine academics, real-world projects, internships, and relentless
+            networking. Do that, and suddenly doors fly open—regardless of
+            school “prestige.”
+          </p>
+          <blockquote>
+            "Most people won't have the discipline for what I'm about to share.
+            If you're still reading, you're already ahead of 90%."
+          </blockquote>
+        </section>
+
+        {/* Section 8: The Online Learning Revolution (And How to Leapfrog Classmates) */}
+        <section>
+          <h2>
+            The 2024 Hack: Why Online CS Courses Will Outpace Your College
+            Syllabus
+          </h2>
+          <p>
+            Here’s what nobody talks about:{" "}
+            <strong>The future belongs to self-learners.</strong> Every year,
+            the gap between university CS courses and what’s actually needed in
+            tech grows wider. Want to leap ahead of your peers?
+          </p>
+          <ul>
+            <li>
+              Take charge: Dive into specialized online courses in AI, Machine
+              Learning, Cloud Computing. Don’t rely just on university
+              curriculum.
+            </li>
+            <li>
+              Consider hybrid paths: Some programs let you study in India while
+              working (and finish your Master’s “in” the US without $100K debt).
+            </li>
+            <li>
+              Bonus: Top platforms even help with complicated stuff like visa
+              processes, making global opportunities a reality.
+            </li>
+          </ul>
+          <p>
+            The people who master this are the ones who will never be stuck
+            waiting for approval from a professor or a curriculum revision.
+            They’ll create their own future, instantly.
+          </p>
+          <blockquote>
+            "Stop waiting for permission. Start building skills that pay NOW."
+          </blockquote>
+          <p>
+            Want to know the best way to start? Online courses in AI are getting
+            so hands-on that you can build projects, join global teams, and even
+            land US interviews—without ever stepping into an old-school
+            classroom.
+          </p>
+        </section>
+
+        {/* Section 9: Quick Wins for CS Students—Start Now, Not “Someday” */}
+        <section>
+          <h2>
+            Quick Wins: How to Use Your CS Degree for Explosive Results (Even If
+            You Start Late)
+          </h2>
+          <ul>
+            <li>
+              Skip “perfect” grades—aim for solid, consistent growth over time.
+            </li>
+            <li>
+              Do at least 2 real-world projects per year. Publish everything.
+            </li>
+            <li>
+              Do mock interviews. Practice LeetCode for your dream companies.
+            </li>
+            <li>Intern early, even if it pays nothing but experience.</li>
+            <li>
+              Network with at least 1 new, ambitious CS student every week.
+            </li>
+          </ul>
+          <p>
+            Remember: Most people will ignore this, stay in their comfort zone,
+            and wonder why they aren’t getting call-backs. The window to get
+            ahead is now—and most won’t take it.
+          </p>
+        </section>
+
+        {/* SEO/FAQ Section */}
+        <section className="faq-section">
+          <h2>People Also Ask</h2>
+          <dl>
+            <dt>Is a computer science degree worth it in 2024?</dt>
+            <dd>
+              Only if you use it as a platform for networking, projects, and
+              self-driven learning. The classes themselves rarely prepare you
+              directly for the top-paying jobs—but the credibility, connections,
+              and problem-solving skills do.
+            </dd>
+            <dt>What tech jobs pay the most for new grads?</dt>
+            <dd>
+              Quantitative trading firms like Citadel, Jane Street, and Two
+              Sigma lead in total compensation, outpacing Google, Facebook, and
+              other FAANG companies (see Levels.FYI for current data).
+            </dd>
+            <dt>Should I focus on GPA or internships/projects?</dt>
+            <dd>
+              Internship and real project experience matter much more to tech
+              recruiters than your GPA. A healthy balance is best, but never at
+              the expense of practical skills.
+            </dd>
+            <dt>
+              What’s the failure rate for startups out of college incubators?
+            </dt>
+            <dd>
+              Over 60% of college incubator-funded startups fail. Fewer than
+              half use their initial funding effectively.
+            </dd>
+            <dt>
+              How do I make my degree “useful” if my classes are outdated?
+            </dt>
+            <dd>
+              Learn modern tools and frameworks on your own, build real-world
+              projects, network constantly, and leverage your university for
+              connections—not just lectures.
+            </dd>
+          </dl>
+          <h3>Related Topics</h3>
+          <ul>
+            <li>
+              <a href="/tech/get-job-at-google">
+                How to apply for a job at Google
+              </a>
+            </li>
+            <li>
+              <a href="/tech/tech-jobs-in-freefall">
+                Tech Jobs in Freefall: Why Top Companies Are Slashing Job
+                Postings Despite Record Profits
+              </a>
+            </li>
+            <li>
+              <a href="/tech/will-tech-jobs-bounce-back">
+                Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as
+                AI Takes Hold?
+              </a>
+            </li>
+            <li>
+              <a href="/tech/cs-major">
+                Should You Study Computer Science? A Realistic Look At The
+                Modern Tech Job Market (With Sloth Level Humor and Honesty)
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Bottom Line: This Is Just the Beginning</h2>
+          <p>
+            Here’s what I wish someone told me on day one: The degree is just a
+            ticket—what you DO with it is the ride. While everyone else is stuck
+            grinding for the “right” grades, you’ll be out there:
+          </p>
+          <ul>
+            <li>
+              Outearning your classmates by landing interviews at trading firms
+              nobody talks about.
+            </li>
+            <li>
+              Building founder-level skills by shipping projects, hacking on
+              teams, and actually trying (and sometimes failing) to build a
+              company.
+            </li>
+            <li>
+              Sidestepping the herd and learning at the bleeding edge—because
+              you’re not waiting for a syllabus to update.
+            </li>
+          </ul>
+          <p>
+            <strong>
+              The clock is ticking. The highest-paying opportunities reward
+              action, ambition, and relentless self-learning—not a perfect
+              transcript.
+            </strong>{" "}
+            Will you be the one everyone else asks for advice in two years? Or
+            the one asking what went wrong?
+          </p>
+          <blockquote>
+            "What I've shared here is powerful, but it's only scratching the
+            surface. Your career isn't built in the classroom—it's built by how
+            you use every chance you get. Start today, and thank me tomorrow."
+          </blockquote>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 14,
-      title:
-        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
-      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      date: "May 1, 2025",
-      articleRoute: "tech-jobs-in-freefall",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 17,
-      title: "But what is a neural network? | Deep learning",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
-      alt: "But what is a neural network? | Deep learning",
-      date: "May 1, 2025",
-      articleRoute: "neural-network",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-    {
-      id: 20,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "50-top-aws",
-    },
-    {
-      id: 21,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "cloud-service",
-    },
-    {
-      id: 22,
-      title: "Docker 101: Mastering Modern Software Delivery with Containers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
-      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
-      date: "May 3, 2025",
-      articleRoute: "docker-explained",
-    },
-    {
-      id: 23,
-      title:
-        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
-      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      date: "May 3, 2025",
-      articleRoute: "cs-major",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

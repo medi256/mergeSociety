@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -495,544 +495,471 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          A Deep Dive into Cloud Services: Why Everything is Just Layers on a
-          Virtual Machine
+          AWS Cloud Services: The Truth No One Tells You (And Why You Only Need
+          These 5)
         </h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg"
-          }
-          alt="Top 50+ AWS Services Explained: What They Do and How They Power the Cloud"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-3">
-            | May 3, 2025
-          </time>
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg"
+            alt="AWS Services Explained: What They Do and How They Power the Cloud"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Visual overview of AWS services powering the modern cloud ecosystem.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-03"
+              itemProp="datePublished"
+            >
+              | May 3, 2025
+            </time>
+          </h2>
+        </section>
+
+        <p>
+          What if I told you that 95% of everything you're confused about on
+          AWS—or any cloud platform—is just smoke and mirrors? That behind all
+          the jargon, hundreds of "new" products, and quarterly launches, it all
+          boils down to a handful of building blocks... and if you master those,
+          you’ll have the keys to the entire cloud kingdom.
+        </p>
+        <p>
+          Here’s the thing nobody admits: nobody WANTS to host their own
+          database. Not you, not the startups raising millions, not even the
+          gigantic industry players. So if AWS and the other cloud giants aren’t
+          inventing radically new tech every quarter, why does it feel like
+          there are a hundred new services every time you blink? Let me pull
+          back the curtain—and once you see it, you can’t unsee it.
+        </p>
+
+        <h2>
+          Why Most Cloud Services Are Basically the Same (And How to Stop
+          Feeling Overwhelmed)
         </h2>
-
         <p>
-          Let's face it nobody gets out of bed in the morning excited to host
-          their own database. And when it comes to innovation, mega cloud
-          platforms like AWS aren’t reinventing the wheel every day. What they
-          often do is take open source technology and wrap it up in a shiny,
-          scalable, managed service. If you've ever felt overwhelmed by the
-          dizzying menu of cloud services (“Wait, what does AWS DynamoDB
-          actually do again?”), you're not alone. The good news? Most cloud
-          services are, under the hood, more alike than different.
-        </p>
-
-        <p>
-          This article will not only break down why most cloud services are
-          variations on the same theme, but also spotlight my top five core
-          services you actually need to understand. Learn these, and you’ll see
-          that almost everything else in the cloud ecosystem is just a flavor or
-          hybrid of these key building blocks.
-        </p>
-
-        <h2>Understanding Managed vs. Unmanaged Services (and Beyond!)</h2>
-
-        <p>
-          There’s plenty of jargon in the cloud world. "Managed services,"
-          "unmanaged services," "serverless" these are all buzzwords, but what
-          do they truly mean for you, the developer or startup founder? Here,
-          we’ll go beyond definitions, breaking down real differences and how
-          they affect your applications and business decisions. Plus, we’ll
-          clarify “regional” versus “global” cloud services a distinction that
-          only gets more relevant as your software scales.
-        </p>
-
-        <h2>The Core: Renting a Virtual Machine (VM)</h2>
-
-        <p>
-          At the very heart of cloud computing is a simple, powerful idea: you
-          can rent a computer as a service. This is the virtual machine (VM),
-          and if you've ever used AWS EC2 (Elastic Compute Cloud), Google’s
-          Compute Engine, or an Azure VM, you’ve already experienced this.
-        </p>
-
-        <p>
-          Imagine renting a fully customizable computer. You control the CPU,
-          RAM, and disk space. While you may not get a physical box shipped to
-          your doorstep, everything you need is there a real machine in the
-          cloud, ready to SSH into and configure for your needs.
-        </p>
-
-        <p>
-          Here’s the kicker: almost every cloud service you can think of is, in
-          essence, built on top of these VMs. Whether you’re running a backend
-          server, a file store, a database, or even a load balancer, deep down
-          it’s all just computers working together in the data center.
-        </p>
-
-        <h2>Unmanaged vs. Managed Services: Where’s the Line?</h2>
-
-        <p>
-          When you set up your own VM, you’re given the keys to the kingdom it’s{" "}
-          <b>unmanaged</b>. The cloud provider supplies resources, but you do
-          all the rest: setup, security, scaling, backups. With VMs, you could,
-          in theory, rebuild any cloud service from scratch if you had the time
-          and inclination.
-        </p>
-
-        <p>
-          A <b>managed service</b> takes those nuts and bolts and hides them
-          away. Take AWS S3, for example. It's an "object store" the cloud
-          native way to stash hundreds, thousands, or millions of files without
-          thinking about disk space or server maintenance. You get a simple
-          programmatic interface: upload, download, delete files. Done.
-        </p>
-
-        <p>
-          The beauty? S3 abstracts away all file management and scaling. Need
-          more space? It automatically expands. Need global replication? S3
-          handles that, too. The trade off is you lose some fine grained control
-          (for power users), but you gain peace of mind and almost unlimited
-          scalability.
-        </p>
-
-        <h3>Managed Databases (Why Bother Hosting Your Own?)</h3>
-
-        <p>
-          Databases are complex, and running them yourself on VMs isn’t for the
-          faint of heart. You might run MySQL or PostgreSQL containerized across
-          multiple VMs with your own sharding and backup logic, but... why?
-          Cloud providers offer fully managed databases, handing maintenance,
-          replication, and resilience.
-        </p>
-
-        <p>
-          On AWS, that’s <b>RDS</b> (Relational Database Service) for SQL and{" "}
-          <b>DynamoDB</b> for high scale, NoSQL workloads. On Google Cloud, it
-          might be Cloud SQL or Firestore. Microsoft Azure brings Cosmos DB.
-          Bottom line: managed database services mean you focus on using your
-          data, not wrestling with storage engines.
-        </p>
-
-        <h3>Open Source, Proprietary Services, and Vendor Lock in</h3>
-
-        <p>
-          Here’s something you may not realize: many managed cloud databases are
-          just hosted, polished versions of open source projects. AWS RDS can
-          run open source MySQL or Postgres. The value comes in not having to
-          manage updates, storage, backups they do the heavy lifting for you.
-        </p>
-
-        <p>
-          But sometimes, providers build proprietary services you can’t find
-          elsewhere. For instance, <b>DynamoDB</b> is AWS only. Move to another
-          provider? You’re migrating all that data welcome to the world of{" "}
-          <b>vendor lock in</b>. It’s not a concern for small apps, but when
-          your data outgrows your wallet, it becomes a very real issue.
-        </p>
-
-        <p>
-          The good news: nearly every cloud has rough equivalents. Learn one,
-          and you’ll recognize them all.
-        </p>
-
-        <h2>Serverless Computing: Lambda and Friends</h2>
-
-        <p>
-          Not all innovation is repackaged. With <b>AWS Lambda</b>, Amazon
-          introduced “functions as a service.” Instead of provisioning servers,
-          you upload a snippet of code, define triggers, and the cloud executes
-          your code as needed no server management or scaling headaches
-          required.
-        </p>
-
-        <p>
-          Google Cloud, Azure, and other providers have rushed to match this
-          model (e.g., Google Cloud Functions). Serverless is now a spectrum:
+          AWS wants you to think their platform is endlessly complex. And, to be
+          fair, even memorizing a fraction of their service names is a Herculean
+          task. But here’s what blew my mind: almost every flashy new service is
+          just a fancy repackaging of a few core building blocks.
         </p>
         <ul>
-          <li>At one extreme is the totally unmanaged VM.</li>
+          <li>You DON’T need to learn 100+ AWS services.</li>
           <li>
-            In the middle are managed databases (you own the data, they own the
-            hardware).
+            Once you understand the top five, everything else clicks into place.
           </li>
           <li>
-            At the other extreme, services like Lambda abstract away everything
-            except your code.
+            Every “advanced” cloud provider is standing on the same old
+            foundation.
+          </li>
+        </ul>
+        <p>
+          Most people paralyze themselves trying to keep up with the new
+          launches. I’m going to show you the five services that matter—so you
+          can finally focus on what actually moves the needle.
+        </p>
+
+        <h2>1. Virtual Machines: The Oldest Trick That Never Dies</h2>
+        <p>
+          You want absolute power and control? Enter the virtual machine (VM).
+          It's the godfather of cloud compute, and every other AWS service is
+          built squarely on top of it. When you “rent” a VM (AWS calls this EC2,
+          Google calls it Compute Engine), you’re renting a chunk of another
+          computer—CPU, RAM, disk. From your perspective? You’ve got a server in
+          the cloud.
+        </p>
+        <p>
+          Here’s what nobody talks about: with just VMs, you could build
+          literally ANYTHING in the cloud. Yes, anything. All the databases,
+          object storages, web servers, analytic platforms—under the surface,
+          they’re running on VMs.
+        </p>
+        <p className="tweetable">
+          "Every cloud service is just another abstraction sitting on top of a
+          VM somewhere. Don’t let anyone overcomplicate it."
+        </p>
+        <h3>Unmanaged vs Managed: What’s the Difference?</h3>
+        <p>
+          VMs are the definition of "unmanaged" services: AWS provisions the
+          resources, then leaves you to do what you want. You could log in over
+          SSH and run anything from a Minecraft server to a multi-tenant
+          startup. Maximum control, but also, *maximum responsibility* for
+          maintenance, patching, and scaling.
+        </p>
+        <h3>Common VM Mistakes Most Newbies Make</h3>
+        <ul>
+          <li>
+            Running everything on a single VM (hello, single point of failure!)
+          </li>
+          <li>Ignoring security patches</li>
+          <li>Thinking you’ll never need backups… until you do</li>
+        </ul>
+        <p>
+          Want to know the secret? Start with VMs to learn the fundamentals. But
+          as soon as you crave less maintenance and more focus ON your product
+          (instead of infrastructure), it’s time for abstractions—aka managed
+          services.
+        </p>
+
+        <h2>
+          2. Object Storage: The Unsung Hero (and Why You’ll Never Run Out of
+          Space Again)
+        </h2>
+        <p>
+          Most people default to storing files on their VMs. Wrong move. VMs
+          have finite disk space, and scaling storage is a headache. Instead,
+          use an object store—like AWS S3. This is where clouds shine.
+        </p>
+        <h3>
+          Why Object Storage Is Everything Your Hard Drive Wishes It Could Be
+        </h3>
+        <p>Imagine a magical bucket that:</p>
+        <ul>
+          <li>
+            Lets you drop any file—images, videos, log archives—without size
+            worries.
+          </li>
+          <li>Scales instantly, behind the scenes.</li>
+          <li>Survives hardware failures, disasters, whatever.</li>
+          <li>
+            Gives you a dead-simple API: just upload, download, list, and delete
+            files.
+          </li>
+        </ul>
+        <p>
+          That’s S3, baby. Or Google Cloud Storage. Or Azure Blob Storage. Or…
+          you get the idea.
+        </p>
+        <h3>Here’s Where Most Developers Screw Up…</h3>
+        <ol>
+          <li>
+            They treat S3 like a regular disk and expect blazing-fast reads for
+            millions of tiny files. (That’s not what it’s built for.)
+          </li>
+          <li>
+            They forget about access permissions. One mis-click, and your entire
+            bucket is public.
+          </li>
+        </ol>
+        <h3>Step-By-Step: How to Store Files the Cloud Way</h3>
+        <ol>
+          <li>Sign up for your provider’s object storage (ex: S3)</li>
+          <li>Create a bucket in your target region</li>
+          <li>Upload a test file via UI or CLI</li>
+          <li>Configure access policies</li>
+          <li>Integrate with your app using SDKs</li>
+        </ol>
+        <p className="tweetable">
+          "Stop worrying about disk space. Start using object stores and never
+          run out of room again."
+        </p>
+        <h3>Managed Magic: Why Object Storage Is “Serverless”</h3>
+        <p>
+          Here’s the wild part: you never deal with the underlying
+          infrastructure. No servers, scaling, or hardware headaches. Cloud
+          providers replicate your files automatically so one disk failure won't
+          tank your data.
+        </p>
+        <p>
+          Downsides? Less granular control. But for 99% of scenarios, it’s a
+          game-changer.
+        </p>
+
+        <h2>
+          3. Databases: The "Just Use Ours" Trap (And the Vendor Lock-In Nobody
+          Warns You About)
+        </h2>
+        <p>
+          Quick question: do you really want to configure and patch your own
+          MySQL cluster? Or—be honest—do you want AWS to handle that with RDS
+          (or GCP’s Cloud SQL)? No judgment. That’s why managed databases exist.
+        </p>
+        <h3>
+          The Dirty Secret: Most “Cloud Databases” Are Just Hosted Open Source
+        </h3>
+        <p>
+          For relational data, most cloud platforms just wrap open source
+          software (MySQL, Postgres) and manage it for you. Super convenient.
+          Downside: it’s often not “innovative” tech, just easier packaging and
+          less stress.
+        </p>
+        <h3>But Wait: Proprietary Databases = Golden Handcuffs</h3>
+        <p>
+          Some databases—like AWS’s DynamoDB—are cloud-only. You can’t take your
+          code elsewhere easily. Want to move to GCP or self-host? Good luck
+          wrestling your data out. This is vendor lock-in, and you only feel the
+          pain once your bills hit five figures every month.
+        </p>
+        <h3>Quick Comparison: How the Big Players Stack Up</h3>
+        <ul>
+          <li>
+            <b>AWS:</b> RDS (relational), DynamoDB (proprietary NoSQL)
+          </li>
+          <li>
+            <b>Google:</b> Cloud SQL (relational), Firestore or Cloud Spanner
+            (NoSQL/proprietary distributed)
+          </li>
+          <li>
+            <b>Azure:</b> CosmosDB (proprietary NoSQL)
+          </li>
+        </ul>
+        <p>
+          Once you’ve worked with one, the rest feel oddly familiar. The real
+          pain? Migrating between them once you’re locked in.
+        </p>
+
+        <h2>
+          4. Functions as a Service (“Serverless”): The Fastest, Easiest API
+          Builder (With Some Hidden Downsides)
+        </h2>
+        <p>
+          Here’s what’s wild: AWS Lambda (and its clones—Cloud Functions, Azure
+          Functions) let you run your code without ever touching a server or
+          worrying about VMs. Just write your logic, deploy, and boom—AWS
+          handles scaling, execution, even cold-starts.
+        </p>
+        <h3>Why Everyone Is Obsessed With Lambda</h3>
+        <ul>
+          <li>No infrastructure to manage</li>
+          <li>Just deploy code, set resource limits, and let it run</li>
+          <li>Perfect for APIs, microservices, and background jobs</li>
+        </ul>
+        <h3>Here’s the Catch (Nobody Talks About):</h3>
+        <ul>
+          <li>No persistent state—every function run is its own universe</li>
+          <li>Can't write to disk (must use external storage)</li>
+          <li>Hard to run long-lived processes or real-time workloads</li>
+        </ul>
+        <p>
+          <b>Bottom line:</b> Most modern APIs fit this pattern beautifully. For
+          anything else, you need “stickier” compute, or… VMs.
+        </p>
+        <p className="tweetable">
+          "Serverless isn’t magic. It’s just another way to outsource the grunt
+          work—and if you don’t need total control, why not take the shortcut?"
+        </p>
+
+        <h2>
+          5. Observability & Analytics: Seeing Everything (Before It Blows Up)
+        </h2>
+        <p>
+          Ever seen an app crater because nobody checked the logs? Yeah.
+          Observability—knowing how your app’s behaving *right now*—is your
+          cloud safety net. Cloud providers (AWS CloudWatch, Google Stackdriver)
+          all have built-in tools, but third-party experts like Datadog,
+          Snowflake, Databricks, etc. sometimes do it better.
+        </p>
+        <ul>
+          <li>Logs: Who did what, and when?</li>
+          <li>Metrics: How long did that request take? Is my CPU melting?</li>
+          <li>
+            Alerts: Is my app in trouble, and do I need to wake up at 3AM?
+          </li>
+        </ul>
+        <h3>Pro Tip:</h3>
+        <p>
+          While integrated cloud tools are solid, sometimes using outside
+          services brings crazy useful features (and dashboards you'll actually
+          look at).
+        </p>
+
+        <h2>
+          Everything Else: Just Abstractions and Wrappers (Vercel, Snowflake,
+          Datadog & the Modern Cloud Food Chain)
+        </h2>
+        <p>
+          Here’s what’s crazy: the “easiest” cloud providers—think Vercel for
+          frontend, Snowflake for analytics—are often slick wrappers over AWS
+          (or another giant’s) existing services. No shade intended. In fact,
+          AWS itself is just wrapper after wrapper over open source foundations.
+        </p>
+        <p>
+          The food chain is real: AWS wraps Linux, Vercel wraps AWS, and
+          tomorrow? Someone's going to wrap Vercel. All to make developer life
+          easier.
+        </p>
+
+        <h2>Regional vs. Global: Read This Before You Launch in 5 Countries</h2>
+        <p>
+          <b>Regional service:</b> Lives in a single physical location (a single
+          AWS zone or region). Example: your VM in “us-east-1.” Latency outside
+          that region? Tough luck—unless you add more VMs.
+        </p>
+        <p>
+          <b>Global service:</b> Works everywhere, like CDN edge networks or
+          globally-distributed databases (Google Cloud Spanner, DynamoDB global
+          tables). Data is close to every user on Earth.
+        </p>
+        <ul>
+          <li>
+            CDNs are inherently global; you couldn’t have a “regional CDN,” it
+            misses the point.
+          </li>
+          <li>
+            Output-sensitive apps (maps, real-time chat, gaming) often demand
+            global data—expect to pay for the privilege.
+          </li>
+        </ul>
+        <p>
+          <b>Pro tip:</b> Global services come with a price. More management =
+          more $$$. If your app is teeny, regional is probably fine (for now).
+        </p>
+
+        <h2>Here’s What Most People Get Dead Wrong About Cloud Services</h2>
+        <ul>
+          <li>
+            They think the services are fundamentally new or unique—almost
+            always, it’s the same ingredients, just a different package.
+          </li>
+          <li>
+            They try to learn *everything* instead of the essential 5–10 core
+            building blocks.
+          </li>
+          <li>
+            They’re terrified of vendor lock-in before they even have traction
+            (it’s only an issue once the scale—and costs—are massive).
+          </li>
+          <li>
+            They beat their heads against “management” when the point of the
+            cloud is to <b>not</b> manage infrastructure directly!
           </li>
         </ul>
 
-        <p>
-          Naturally, this comes with trade offs especially around persistence
-          and managing state. Lambda functions, by design, shouldn’t (and mostly
-          can’t) store local data between runs. For stateless APIs and
-          microservices, functions as a service are perfect. Need state? You’ll
-          have to rely on external storage.
-        </p>
-
-        <h2>The Four Building Blocks (And a Note on Networking)</h2>
-
-        <p>
-          Armed with VMs, object storage, managed databases, and serverless
-          compute, you can architect nearly anything from a simple API backend
-          to a planet scale social network. Everything else is just permutations
-          or abstractions of these core pieces.
-        </p>
-
-        <p>
-          Networking services (like load balancers or Content Delivery Networks,
-          CDNs) play key roles, but the main paradigm still holds: it’s all
-          built on clusters of computers, managed or managed for you, serving
-          traffic and distributing data as needed. Though we won’t dive deep
-          into networking here, know that most compute, storage, and database
-          services integrate seamlessly with these networking layers.
-        </p>
-
-        <h2>Observability: Seeing Inside the Cloud</h2>
-
-        <p>
-          Once your app is live, you’ll want to keep tabs on it logging,
-          monitoring, alerting. The big cloud providers bundle in observability
-          tools, but third parties like <b>Datadog</b> have carved out a niche
-          by making monitoring easier and more powerful than built in options.
-          External platforms often require agents or integrations (a bit more
-          work), but the payoff is richer, consolidated, often cross provider
-          insight.
-        </p>
-
-        <h2>Data Warehouses: Redshift, BigQuery, and Beyond</h2>
-
-        <p>
-          When your data outgrows even your biggest transactional database, you
-          turn to a <b>data warehouse</b>. AWS <b>Redshift</b>, Google{" "}
-          <b>BigQuery</b>, and emerging stars like <b>Snowflake</b> and{" "}
-          <b>Databricks</b> offer petabyte scale analytics, sophisticated query
-          tools, and blazing performance often backed by deeper expertise than
-          the big clouds themselves.
-        </p>
-
-        <p>
-          These specialized companies pour all their resources into one type of
-          service, and that focus often results in better performance or simpler
-          developer experiences.
-        </p>
-
-        <h2>Ultimate Abstraction: Developer Platforms (Vercel and Friends)</h2>
-
-        <p>
-          Complexity breeds opportunity. AWS is powerful, but also notoriously
-          labyrinthine. Enter Vercel and similar developer tools. These
-          platforms layer even more abstraction on top of AWS and friends,
-          providing an easier, streamlined developer experience. Don’t scoff
-          they’re simply doing for AWS what AWS did for open source. At each
-          layer, the goal is to reduce friction and let software creators focus
-          on what matters: building apps.
-        </p>
-
-        <h2>Regional vs. Global Cloud Services: What’s the Difference?</h2>
-
-        <p>
-          These words get tossed around often, but here’s what they really mean:
-        </p>
-        <ul>
+        <h2>Step-By-Step: Mastering the Only 5 Cloud Services You Need</h2>
+        <ol>
           <li>
-            <strong>Regional Services:</strong> Tied to a single geographical
-            area. For example, a VM has to exist in a specific AWS region. You
-            can spin up clones elsewhere, but each is region bound.
+            <b>VM (EC2, Compute Engine, etc.):</b> Spin up a vanilla server, run
+            your own stack, learn the basics.
           </li>
           <li>
-            <strong>Global Services:</strong> Span the world. Content Delivery
-            Networks (CDNs) like AWS CloudFront or Google’s global load
-            balancers distribute static data across continents. Some cutting
-            edge managed databases (like Google’s Cloud Spanner or DynamoDB
-            global tables) distribute, shard, and replicate your data worldwide
-            for ultra low latency.
+            <b>Object Storage (S3, Cloud Storage):</b> Upload, download, get
+            familiar with buckets and access controls.
+          </li>
+          <li>
+            <b>Cloud Database (RDS/Cloud SQL, Dynamo/Firestore):</b> Launch a
+            managed database, migrate a small dataset, practice scaling up/down.
+          </li>
+          <li>
+            <b>Functions as a Service (Lambda, Cloud Functions):</b> Build a
+            simple API, experiment with stateless requests and limits.
+          </li>
+          <li>
+            <b>Observability (CloudWatch, Datadog):</b> Set up basic logging,
+            add an alert, check a usage dashboard.
+          </li>
+        </ol>
+        <p>
+          That’s it. Learn these? You’re now more cloud fluent than 90% of the
+          people copying and pasting Terraform scripts from StackOverflow.
+        </p>
+
+        <section className="faq-section">
+          <h2>People Also Ask</h2>
+          <h3>What are the core AWS cloud services everyone should know?</h3>
+          <p>
+            The only AWS services you NEED to really know are EC2 (virtual
+            machines), S3 (object storage), RDS/DynamoDB (managed databases),
+            Lambda (functions as a service), and CloudWatch
+            (monitoring/observability). Everything else is usually a wrapper
+            around these.
+          </p>
+          <h3>
+            What is the difference between managed and unmanaged services?
+          </h3>
+          <p>
+            Managed services (like S3, RDS, Lambda) mean AWS does the heavy
+            lifting—scaling, patching, backups—so you focus on logic, not
+            infrastructure. Unmanaged services (like EC2 VMs) give you absolute
+            control, but you manage everything yourself.
+          </p>
+          <h3>Should I worry about cloud vendor lock-in?</h3>
+          <p>
+            Until your business is spending thousands a month, vendor lock-in is
+            mostly a non-issue. Migration gets painful only at scale—so focus on
+            launching and growing first, then optimize later.
+          </p>
+          <h3>
+            How do new cloud tools like Vercel, Snowflake, or Datadog fit in?
+          </h3>
+          <p>
+            Most of these are powerful abstractions on top of AWS/GCP/Azure,
+            focused on making some part of cloud development (deploys,
+            analytics, observability) even easier or more specialized.
+          </p>
+          <h3>
+            What’s the biggest mistake beginners make with cloud providers?
+          </h3>
+          <p>
+            Trying to learn everything at once. Master the 5 essentials here,
+            then “level up” as needed—don’t drown in the service catalog!
+          </p>
+        </section>
+
+        <h2>Where to Level Up Next: Resources & Related Reads</h2>
+        <ul>
+          <li>
+            <Link href="/tech/50-top-aws">
+              Top 50+ AWS Services Explained: What They Do and How They Power
+              the Cloud
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/cs-major">
+              Should You Study Computer Science? A Realistic Look At The Modern
+              Tech Job Market (With Sloth Level Humor and Honesty)
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/reality-of-cs">
+              What It's Really Like to Study Computer Science: Reality of CS
+              Majors
+            </Link>
           </li>
         </ul>
 
+        <h2>Final Word: Stop Chasing the New, Start Mastering the Real</h2>
         <p>
-          Deciding between the two comes down to need (and budget). Global
-          services almost always cost more, but especially when trying to serve
-          users everywhere quickly can be worth every penny. You likely don’t
-          want to try to roll your own global database solution!
+          Bottom line: The cloud isn’t an endless parade of new tech tricks—it’s
+          the same handful of &gt;20-year-old concepts, endlessly remixed.
+          Master these five services, and you’ll demolish 90% of the competition
+          still lost in the AWS documentation maze.
+        </p>
+        <p>
+          But you can’t win by reading or spectating. Open an AWS account, spin
+          up a VM, deploy a Lambda function, break a few things, and learn by
+          doing. If you’re reading this, you’re already ahead of the crowd—it’s
+          time to grab those cloud keys. The window is wide open.
+        </p>
+        <p className="tweetable">
+          "If you only learn the cloud’s top five services, you’ll build faster,
+          scale smarter, and avoid vendor trapdoors—while everyone else is still
+          memorizing the marketing page."
         </p>
 
-        <h2>Everything is Layers And That’s the Point</h2>
-
-        <p>
-          If this sounds open ended, that’s because cloud architecture is all
-          about choosing the right trade offs and layers of abstraction. You
-          don’t have to build everything from the ground up and you probably
-          shouldn’t. Hands on experience is the best way to learn: build an app
-          using these services, see how they fit together, and the cloud’s
-          patterns will quickly click into place.
-        </p>
-
-        <p>
-          The takeaway? Every tool in the cloud toolbox no matter how flashy or
-          buzzword laden is built on the same foundation: networks of computers,
-          run for you or by you, woven together by simple abstractions, and
-          packaged for ease of use. Learn the fundamentals, and you’ll have the
-          keys to build (and scale) just about anything.
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 14,
-      title:
-        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
-      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      date: "May 1, 2025",
-      articleRoute: "tech-jobs-in-freefall",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 17,
-      title: "But what is a neural network? | Deep learning",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
-      alt: "But what is a neural network? | Deep learning",
-      date: "May 1, 2025",
-      articleRoute: "neural-network",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-    {
-      id: 19,
-      title:
-        "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg",
-      alt: "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      date: "May 3, 2025",
-      articleRoute: "reality-of-cs",
-    },
-    {
-      id: 20,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "50-top-aws",
-    },
-    {
-      id: 22,
-      title: "Docker 101: Mastering Modern Software Delivery with Containers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
-      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
-      date: "May 3, 2025",
-      articleRoute: "docker-explained",
-    },
-    {
-      id: 23,
-      title:
-        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
-      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      date: "May 3, 2025",
-      articleRoute: "cs-major",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -389,528 +389,496 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Programming Myths That Waste Your Time: Debunking the Productivity
-          Traps Every Coder Falls For
+          Coding Time Wasters: 9 Programming Myths That Are Killing Your
+          Productivity (and How to Escape Them)
         </h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg"
-          }
-          alt="Illustration showing a developer surrounded by programming myths and productivity traps"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-8">
-            | May 8, 2025
-          </time>
-        </h2>
-        <p>
-          <strong>Have you ever had a midlife crisis?</strong> Well, recently I
-          had a rather programming specific one. As I stared into the abyss of
-          my GitHub repositories, a sinking realization dawned on me: most of my
-          adult life has been spent writing code, and{" "}
-          <strong>most of that code is, well… garbage.</strong> We're talking
-          code that never saw the light of a production server. Code that was
-          abandoned, refactored, or left to haunt the graveyard of side projects
-          long since forgotten.
-        </p>
-        <p>
-          As I reflected, a cold, hard truth emerged: many of the so called
-          “best practices,” shiny new frameworks, and pixel perfect folder
-          structures those things we obsess over as developers
-          <strong>don’t even matter to the end user</strong>. Countless hours
-          have been lost to chasing productivity dragons mythical beasts
-          promising velocity and relevance, but in truth, leading nowhere.
-        </p>
-        <h2>9 Programming Myths You Should Stop Believing</h2>
-        <p>
-          In this article, we're going to debunk{" "}
-          <strong>
-            nine “smart ideas” that waste your time as a programmer
-          </strong>
-          . For each myth, we’ll dive into how it seduces you, why it’s a clever
-          trap, and most importantly how to avoid repeating my painful mistakes.
-        </p>
-        <p>
-          While this platform is all about keeping you up to date with the
-          latest technology, here’s the surprising truth:{" "}
-          <strong>
-            you don’t always need the newest tech to be relevant or successful.
-          </strong>
-        </p>
-
-        <h2>Myth 1: “You MUST Master the Latest Tech To Stay Hirable”</h2>
-        <p>
-          In reality, you might actually{" "}
-          <strong>increase your employability</strong> by mastering so called
-          “dinosaur” tech! Did you know WordPress and PHP still run most of the
-          web? Java powers a lion’s share of the enterprise world, the majority
-          of databases are SQL based, and low level systems run on good old C.
-          These technologies are anything but obsolete.
-        </p>
-        <ul>
-          <li>
-            <strong>Classic Technologies:</strong> WordPress, PHP, Java, SQL, C
-          </li>
-          <li>
-            <strong>“Shiny” Alternatives:</strong> Next.js, Kotlin, NoSQL
-            databases, Rust
-          </li>
-        </ul>
-        <p>
-          The fear of missing out (FOMO) on bleeding edge tech can be
-          overwhelming. But here’s the reality:{" "}
-          <strong>
-            most real world jobs aren’t rushing to migrate their robust systems
-            to the latest JavaScript flavor of the month.
-          </strong>{" "}
-          Critical banking infrastructure still runs on COBOL and Java. Let that
-          sink in these stacks aren’t going anywhere soon.
-        </p>
-        <h3>A Real World Cautionary Tale: The Fauna Database Fiasco</h3>
-        <p>
-          Remember when Twitter engineers hyped up a revolutionary new database
-          called Fauna? It turned heads. I even made a video about it. Fauna was
-          slick, fast, and the catch proprietary and VC funded. Like so many
-          startups, it <strong>eventually shut down</strong>. And if you jumped
-          on board early, you probably wish you had stuck with a boring but
-          stable SQL database.
-        </p>
-        <p>
-          <em>Lesson learned:</em>{" "}
-          <strong>
-            Adopting tech too early puts you at risk especially when the tech
-            isn’t proven or open source. Let the dust settle before you overhaul
-            your stack.
-          </strong>
-        </p>
-
-        <h2>Myth 2: “There Is One ‘Right’ Way To Write Code”</h2>
-        <p>
-          Programming is an art as much as it is a science. But you wouldn’t
-          know it from the <strong>Programming Cults</strong>: the Object
-          Oriented Purists versus Functional Programming Extremists.
-          (Confession: I’ve campaigned on both sides.) Each cult claims ONE TRUE
-          WAY to structure code, and anything else is heresy.
-        </p>
-        <p>
-          Here’s the thing: languages like JavaScript are{" "}
-          <strong>multi paradigm</strong>. You can use functional patterns,
-          object oriented styles, or any blend in between. For a while,
-          especially around 2018, functional programming enjoyed a renaissance.
-          Back then, if you used a “class” keyword, you risked being
-          excommunicated from the web dev community. No mutable state! Higher
-          order functions everywhere!
-        </p>
-        <p>
-          Eventually, I realized moderation was key.{" "}
-          <strong>
-            Classes, for example, are incredibly useful in many scenarios.
-          </strong>{" "}
-          These days my code is a patchwork of patterns from both camps a rich
-          tapestry, not a monolith.
-        </p>
-
-        <h2>Myth 3: “Perfect Clean Code Is All That Matters”</h2>
-        <p>
-          Clean Code, enshrined by Uncle Bob Martin’s legendary book, offers
-          sage advice: Use meaningful names, keep functions small, enforce
-          consistent formatting. But there’s a slippery slope overzealous
-          pursuit of cleanliness often means bloated layers of abstractions,
-          endless wrappers, and analysis paralysis.
-        </p>
-        <figure>
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg"
+            alt="Illustration showing a developer surrounded by programming myths and productivity traps"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
           <figcaption>
-            <em>Paralysis by Analysis:</em> Instead of delivering features,
-            you’re stuck endlessly moving code around, hunting for the “perfect”
-            level of abstraction. Users don’t care how elegant your services are
-            if they never ship.
+            Common traps in programming: myths, misconceptions, and mental
+            blocks holding devs back.
           </figcaption>
         </figure>
-        <h3>When DRY Becomes a Trap</h3>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-08"
+              itemProp="datePublished"
+            >
+              | May 8, 2025
+            </time>
+          </h2>
+        </section>
+
         <p>
-          The DRY principle (Don’t Repeat Yourself) sounds great, but taken too
-          far, it leads to premature abstraction.{" "}
-          <strong>It’s okay to repeat yourself a little.</strong> My advice:
-          follow “RUG” <strong>Repeat Until Good</strong>. At first, duplicate
-          code. Only refactor once the pain is real and recurring.
+          What if I told you that most of the “smart” programming advice
+          clogging up your timeline is actually sabotaging your career? That the
+          so-called secrets holding millions of devs hostage are, in reality,
+          the biggest time-wasters in tech? If you’re sick of chasing your tail
+          through endless tech tutorials, you’re not alone. I just hit "midlife
+          crisis: developer edition"—and I’ll show you why everything you
+          thought made you a better programmer might be trapping you on the
+          productivity hamster wheel. Ready to get uncomfortable…and
+          unstoppable?
         </p>
 
-        <h2>Myth 4: “100% Test Coverage Means Quality”</h2>
-        <p>
-          Test driven development, when used well, is powerful. But{" "}
-          <strong>100% test coverage is a vanity metric</strong> that often
-          misleads. High coverage can be achieved by writing pointless tests
-          that only touch lines, not actual bugs.
-        </p>
-        <ul>
-          <li>
-            <strong>False Security:</strong> Coverage tools can mislead
-            management into a false sense of safety.
-          </li>
-          <li>
-            <strong>Hidden Costs:</strong> Writing and maintaining tests for
-            every single trivial line slows down builds (and increases cloud CI
-            costs).
-          </li>
-        </ul>
-        <p>
-          <strong>
-            It’s the test quality, not quantity, that guards you from
-            regressions.
-          </strong>
-        </p>
+        <section>
+          <h2>
+            The Shocking Truth About Most Code (And Why No One Wants to Admit
+            It)
+          </h2>
+          <p>
+            You know what's crazy? I've spent most of my adult life writing
+            code—after years of caffeine, Stack Overflow binges, and obsession
+            with the perfect folder structure, I realized something
+            soul-crushing:
+          </p>
+          <blockquote>
+            Most of my code is garbage. Abandoned, forgotten, or living in the
+            graveyard of GitHub repos. Never reaching production. Never helping
+            a single real user.
+          </blockquote>
+          <p>
+            Sound familiar? Here’s the bitter pill: So many of the “best
+            practices,” hot frameworks, and perfect folder hierarchies you see
+            hyped up are just developer catnip. They make us feel productive,
+            but 99% of the time, they don’t matter to the end user. I wasted
+            years chasing these programming dragons (and liked it)—but you don’t
+            have to.
+          </p>
+        </section>
 
-        <h2>Myth 5: “Performance Optimization Should Be Top Priority”</h2>
-        <p>
-          We all dream of code that runs at lightspeed. But{" "}
-          <strong>
-            focusing on performance before correctness is pointless
-          </strong>
-          . Unless you’re at the scale of Facebook or Google, benchmarking and
-          optimizing every function is probably not worth your time.
-        </p>
-        <ul>
-          <li>
-            <strong>Build First, Optimize When Needed:</strong> Ensure code
-            correctness. Only tune for speed when your production metrics make
-            it painfully obvious.
-          </li>
-        </ul>
+        <section>
+          <h2>9 “Genius” Coding Ideas That Secretly Waste Your Life</h2>
+          <p>
+            Here’s the stuff nobody talks about: There are nine shiny
+            programming “truths” that seem smart on the surface—and I believed
+            every single one at some point. For each one, I’ll show you:
+          </p>
+          <ul>
+            <li>How it lures you in (and why FOMO is your worst enemy)</li>
+            <li>Why it’s a trap that drains your time, energy, and sanity</li>
+            <li>How to escape with your career (and brain cells) intact</li>
+          </ul>
+          <blockquote className="tweet">
+            "Most coding mistakes aren’t bugs in your code—they’re bugs in your
+            thinking. Stop wasting your dev life on the wrong optimizations."
+          </blockquote>
+        </section>
 
-        <h2>Myth 6: “You Need Complex Infrastructure To Be Successful”</h2>
-        <p>
-          Back in the day, I believed my tiny web app needed a serverless,
-          globally distributed microservice architecture complete with edge
-          caching and global sharding. In reality?{" "}
-          <strong>
-            One moderately sized VPS server was more than enough for my five
-            users
-          </strong>
-          .
-        </p>
-        <p>
-          Don’t over engineer. Start simple, then scale when you actually have
-          users demanding it.
-        </p>
+        <section>
+          <h2>
+            Programming Myth #1: You Have to Use the Latest, Bleeding-Egde Tech
+            to Stay Relevant
+          </h2>
+          <p>
+            Let’s shred the “hot new framework” myth. You’ve heard it: If you
+            want to be relevant, land the job, or not look like a dinosaur, you{" "}
+            <span style={{ fontWeight: "bold" }}>must</span> master every new JS
+            framework, NoSQL tool, or language du jour. Here’s the secret:
+            nobody actually updates their stack that fast. Most of the world
+            runs on so-called “old” tech—and pays top dollar for it.
+          </p>
+          <h3>Shocking Proof: The Most “Boring” Tech Makes the Most Money</h3>
+          <ul>
+            <li>
+              WordPress + PHP: Still running a ridiculous slice of the internet
+              (yep, <i>most</i> websites)
+            </li>
+            <li>
+              Java: Enterprise workhorse, quietly powering the bank behind your
+              credit card
+            </li>
+            <li>
+              SQL: The backbone of more production data than all NoSQLs combined
+            </li>
+            <li>
+              C + Cobol: The underappreciated infrastructure for everything “too
+              big to fail”
+            </li>
+          </ul>
+          <p>
+            Sure, there are shiny new tools—Next.js, Kotlin, NoSQL, Rust—and it
+            feels like you’ll be irrelevant if you’re not on the edge. But the
+            harsh reality? The “dream jobs” are often maintaining dinosaur
+            stacks for serious money. Most CTOs live by one rule:
+          </p>
+          <blockquote>“If it ain’t broke, don’t fix it.”</blockquote>
+          <p>
+            <strong>Want a real-world horror story?</strong>
+            <br />
+            Twitter’s engineers released a hot new database, Fauna. People
+            raved. It was fast, hyped, and got VC cash. Then the startup failed,
+            the servers shut down, and anyone who’d bet their product on it was
+            instantly hosed. Meanwhile, those who stuck to boring old SQL were
+            totally fine.
+          </p>
+          <blockquote className="tweet">
+            "Chasing new tech for the sake of it is a fast-track ticket to
+            irrelevance. Master what works, not what’s trendy."
+          </blockquote>
+        </section>
 
-        <h2>Myth 7: “AI Will Replace All Developers Any Day Now”</h2>
-        <p>
-          AI powered tools like Claude Sonnet 3.7 and others are, frankly,
-          astonishingly good at writing code. But there’s a dark side:{" "}
-          <strong>over reliance on AI can make you less effective.</strong>{" "}
-          These models tend to produce verbose, over complicated code. If you
-          rely on them blindly, approving whatever they conjure, you might lose
-          sight of the underlying logic or worse, forget how to code for
-          yourself.
-        </p>
-        <p>
-          Used wisely, AI is the greatest productivity booster of my career.
-          Abused, it’s a spectacular time waster.
-        </p>
+        <section>
+          <h2>
+            Programming Myth #2: There’s Only One True Way to Write Code
+            (Dogmatic Programming)
+          </h2>
+          <p>
+            Here’s what most developers get wrong: They join the code religion
+            wars—object-oriented purists vs. functional extremists—thinking
+            there’s a <i>single</i> “right” way to write software.
+          </p>
+          <h3>The Cult Mentality Trap (and How I Escaped)</h3>
+          <p>
+            I’ve worshipped at both altars. Once, back in 2018, functional
+            programming was so cool in web dev that using <code>class</code>{" "}
+            meant you were basically ostracized. Everyone wanted functional
+            everything—no mutable state, higher-order functions everywhere.
+          </p>
+          <p>
+            But here’s what nobody talks about: JavaScript is actually a{" "}
+            <i>multi-paradigm</i> language. It lets you pick whatever works.
+            Today, my code is a hybrid—object style here, functional patterns
+            there, all optimized for clarity and speed.
+          </p>
+          <blockquote className="tweet">
+            "Dogma doesn’t ship features—real-world code is messy, stitched
+            together from every school of thought."
+          </blockquote>
+        </section>
 
-        <h2>The Key: Build Strong Problem Solving Foundations</h2>
-        <p>
-          <strong>
-            Code is useless if you don’t understand the underlying math and
-            computer science.
-          </strong>{" "}
-          Want to truly future proof your career? Master the timeless
-          principles: logic, data structures, algorithms, and computational
-          thinking. Hands on, interactive learning (not just passively watching
-          tutorials), will make all the difference.
-        </p>
-        <hr />
-        <p>
-          <strong>Thanks for reading!</strong> Take these myths with a grain of
-          salt, keep building, and remember: don’t sweat perfect code or the
-          latest tools. Build, learn, and evolve on your own terms. I wish you
-          happy coding, fewer distractions, and absolutely no midlife
-          programming crises.
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section3 />
+        <section>
+          <h2>
+            Programming Myth #3: Clean Code Above All (and the DRY Trap That
+            Destroys Productivity)
+          </h2>
+          <p>
+            Look, I love Uncle Bob Martin’s “Clean Code”—who doesn’t want clear
+            names, tiny functions, and gorgeous formatting? But here’s what’s
+            crazy: Sometimes “cleanliness” becomes a time-wasting black hole.
+          </p>
+          <h3>
+            “Don’t Repeat Yourself” (DRY): Genius Principle or Recipe for
+            Disaster?
+          </h3>
+          <p>
+            DRY says: never duplicate code, always abstract. But here’s how most
+            people screw up: In the quest for zero duplication, you end up
+            creating endless wrappers, interfaces, and pointless indirection.
+            Features grind to a halt because you’re too busy refactoring “just
+            one more thing.”
+          </p>
+          <blockquote>
+            Paralysis by analysis is <i>real.</i>
+          </blockquote>
+          <ul>
+            <li>
+              <strong>The fix:</strong> Follow RUG: <b>Repeat Until Good.</b>{" "}
+              Write ugly, duplicate code at first. When repetition gets actually
+              painful—then abstract.
+            </li>
+          </ul>
+          <blockquote className="tweet">
+            "Stop obsessing over single sources of truth. Repeat until good,
+            then abstract."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            Programming Myth #4: 100% Test Coverage Means Bulletproof Code
+          </h2>
+          <p>
+            If you think hitting 100% on your code coverage meter means your app
+            is unbreakable, here’s a wake-up call. Chasing test coverage for the
+            sake of the number is a seductive lie—and your boss probably loves
+            it because it “looks good.”
+          </p>
+          <h3>The Hidden Costs of the Coverage Obsession</h3>
+          <ul>
+            <li>
+              Developers write pointless tests just to bump up the coverage
+              number
+            </li>
+            <li>
+              Real bugs slip through gaps between unit and integration tests
+            </li>
+            <li>
+              False sense of security—code “looks” safe but is one edge-case
+              away from disaster
+            </li>
+            <li>Slower CI builds = more wasted money</li>
+          </ul>
+          <blockquote>
+            High coverage does <b>not</b> equal high quality.
+          </blockquote>
+          <blockquote className="tweet">
+            "Chasing 100% test coverage is like measuring your gym progress by
+            the color of your shoes."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>Programming Myth #5: Always Optimize for Performance</h2>
+          <p>
+            The gut punch: Most performance optimizations are *massive* time
+            wasters. Here’s the pattern most people don’t see: Devs spend hours
+            benchmarking imagined bottlenecks that never happen “at scale”—while
+            the product limps along unfinished.
+          </p>
+          <h3>Optimizing Too Early: How I Lost Weeks of My Life</h3>
+          <p>
+            I once spent days designing “the perfect” microservice setup for an
+            app with exactly… five users. One small VPS would have done the job
+            (and saved me money and hair loss). Only optimize when your app is
+            clearly struggling in the wild—not before.
+          </p>
+          <blockquote className="tweet">
+            "Real performance isn’t about shaving microseconds—it’s about making
+            it work. Then making it fast."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            Programming Myth #6: Your Cloud Isn’t Big Enough Unless You’re
+            Facebook
+          </h2>
+          <p>
+            You do <b>not</b> need a serverless, globally sharded microservice
+            empire for your side project. Overengineering your cloud setup for
+            imaginary traffic will just drain your wallet and sanity. One VPS
+            often beats fancy cloud orchestration for 95% of projects.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Programming Myth #7: AI is About to Replace All Programmers (and Why
+            Relying on It Too Much Will Wreck You)
+          </h2>
+          <p>
+            Let’s go nuclear: AI code tools like Claude Sonnet 3.7 are
+            mind-blowing productivity boosters—but millions of devs are now
+            wasting insane amounts of time letting AI “think” for them. Sure,
+            it'll spit out working code. But try asking for a simple site and
+            you’ll often get a bizarre, over-engineered JS framework you neither
+            wanted nor understand. Approving AI code without understanding it?
+            That’s a recipe for disaster masquerading as efficiency.
+          </p>
+          <blockquote className="tweet">
+            "AI is a force multiplier... unless it multiplies your confusion.
+            You still need to know how to solve real problems."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>The Brutal Truth: Code Is Useless Without Real Understanding</h2>
+          <p>
+            Here’s what nobody talks about: You can copy/paste, use all the
+            “productivity hacks,” and ask ChatGPT all day, but code is just text
+            unless you get the <i>math</i> and <i>computer science</i> behind
+            it. Want to become <b>truly</b> unstoppable? Build your critical
+            thinking foundation. Don’t just memorize syntax—learn how to{" "}
+            <b>think like a programmer.</b>
+          </p>
+          <p>
+            My top recommendation for this?{" "}
+            <b>Take real, interactive courses.</b> Nerd out on the “Thinking in
+            Code” foundations that never go out of style. You’ll never be
+            replaced by a tool if you understand the problems better than the
+            tool ever could.
+          </p>
+          <blockquote className="tweet">
+            "The only programmers who should fear AI are the ones who never
+            learned how to think."
+          </blockquote>
+          <p className="conversion-cta">
+            <strong>This is just the beginning of what's possible.</strong> If
+            these strategies can save you a year of wasted work, imagine what a
+            solid problem-solving foundation will do for your career, your bank
+            balance, and your sanity. Most people will ignore this and wonder
+            why they’re stuck—don’t be most people.
+          </p>
+        </section>
+
+        <section className="faq-section">
+          <h2>People Also Ask: Viral Programming Productivity</h2>
+          <h3>
+            Should I always use the latest programming languages and frameworks?
+          </h3>
+          <p>
+            No—you’re better off mastering the technologies hiring managers and
+            companies actually use. Old tech stacks power most critical systems
+            (and pay the bills).
+          </p>
+          <h3>Is test coverage the best measure of code quality?</h3>
+          <p>
+            Not by a long shot. Test coverage numbers can be gamed, and high
+            coverage ≠ high quality. Focus on meaningful, effective tests.
+          </p>
+          <h3>When is it worth optimizing code for performance?</h3>
+          <p>
+            Only when real-world usage proves it’s slow. Premature optimization
+            burns time and money—don’t optimize for scale you don’t actually
+            have.
+          </p>
+          <h3>Do all programmers need to use AI tools daily?</h3>
+          <p>
+            AI is a fantastic booster <i>if</i> you understand your tools and
+            outputs. But over-reliance without foundational problem-solving
+            skills can make you less effective, not more.
+          </p>
+          <h3>How can I build a timeless programming foundation?</h3>
+          <p>
+            Focus on critical thinking, math, and true computer science
+            principles—the stuff that won’t be replaced by next year’s
+            framework.
+          </p>
+        </section>
+
+        <section>
+          <h2>Related Articles You’ll Regret Missing</h2>
+          <ul>
+            <li>
+              <Link href="/tech/dev-fluencer">
+                Inside Tech’s Wild Subcultures: From Devfluencers to
+                Codepreneurs—A Candid Exposé
+              </Link>
+            </li>
+            <li>
+              <Link href="/javascript">Learn javascript for beginners</Link>
+            </li>
+            <li>
+              <Link href="/tech/40-projects">
+                40 Programming Projects That Will Make You a Better Developer
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/neural-network">
+                But what is a neural network? | Deep learning
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/reality-of-cs">
+                What It's Really Like to Study Computer Science: Reality of CS
+                Majors
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/50-top-aws">
+                Top 50+ AWS Services Explained: What They Do and How They Power
+                the Cloud
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Rapid-Fire Tweetable Truth Bombs (Share These, Start Debates)</h2>
+          <ul>
+            <li>
+              "Success as a dev isn't about learning more. It’s about unlearning
+              what doesn't matter."
+            </li>
+            <li>
+              "The real reason you’re stuck? You keep chasing trends instead of
+              mastering value."
+            </li>
+            <li>
+              "Your code will be forgotten, but your problem-solving skills
+              never die."
+            </li>
+            <li>
+              "Stop writing tests for the metric. Write tests for the user."
+            </li>
+            <li>"Don’t optimize for scale you'll never reach."</li>
+            <li>
+              "AI can’t replace you if you know how to ask the right questions."
+            </li>
+            <li>
+              "Being 'well-architected' is a trap. Ship features, then clean
+              up."
+            </li>
+            <li>
+              "Most people will waste a year building the 'best' system. Winners
+              build what customers actually need."
+            </li>
+            <li>"Repeat until good, then abstract. DRY isn’t a religion."</li>
+            <li>
+              "If you’re reading this, you’re already ahead of 90% of devs…
+              because you care about what matters."
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How to Escape the Productivity Trap and Become Irreplaceable</h2>
+          <p>
+            Bottom line? If you stop wasting time on these nine myths—and start
+            doing the <i>unsexy</i> work of shipping value, learning
+            fundamentals, and thinking for yourself—you’ll dominate in a world
+            where most devs are still stuck chasing their tails.
+          </p>
+          <ul>
+            <li>
+              Focus on what makes real users happy, not what impresses other
+              devs
+            </li>
+            <li>Don’t rush into every new framework—master the boring stuff</li>
+            <li>
+              Write code that solves real problems—even if it isn’t “clean”
+            </li>
+            <li>
+              Use AI <i>with</i> your own judgment, not as a mindless crutch
+            </li>
+          </ul>
+          <blockquote>
+            You can do this too. The difference between the devs who make it and
+            the ones who burn out? They do what others won’t: question the
+            status quo, ignore pointless trends, and work on what{" "}
+            <b>actually matters.</b>
+          </blockquote>
+          <p>
+            <strong>
+              Don’t settle for “busy.” Build value. Your future self—
+              <i>and your bank account</i>—will thank you.
+            </strong>
+          </p>
+          <p>
+            <b>If you only do one thing today:</b> Bookmark this, send it to a
+            friend, and—honestly—pick any single section to start living
+            differently. By the time everyone else catches on, you’ll be miles
+            ahead.
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
-      alt: "The Essential Guide to Computer Components",
-      date: "April 26, 2025",
-      articleRoute: "computer-components",
-    },
-    {
-      id: 2,
-      title:
-        "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745675333/chrome-isdone_dorn2u.jpg",
-      alt: "Google’s Antitrust Battles, AI Shenanigans",
-      date: "April 26, 2025",
-      articleRoute: "chrome",
-    },
-    {
-      id: 3,
-      title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
-      alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
-      date: "April 26, 2025",
-      articleRoute: "operating-systems",
-    },
-    {
-      id: 4,
-      title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
-      alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      date: "April 26, 2025",
-      articleRoute: "palantir",
-    },
-    {
-      id: 5,
-      title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
-      alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      date: "April 26, 2025",
-      articleRoute: "wifi",
-    },
-    {
-      id: 6,
-      title:
-        "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745927099/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o.jpg",
-      alt: "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future",
-      date: "April 29, 2025",
-      articleRoute: "palantir2",
-    },
-    {
-      id: 7,
-      title:
-        "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745940889/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun.jpg",
-      alt: "Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
-      date: "April 29, 2025",
-      articleRoute: "dev-fluencer",
-    },
-    {
-      id: 8,
-      title:
-        "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745941798/linux_hffokn.jpg",
-      alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      date: "April 29, 2025",
-      articleRoute: "linux",
-    },
-    {
-      id: 9,
-      title: "How to apply for a job at Google",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      alt: "How to apply for a job at Google",
-      date: "April 30, 2025",
-      articleRoute: "get-job-at-google",
-    },
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 11,
-      title:
-        "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746027826/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc.jpg",
-      alt: "Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready",
-      date: "April 30, 2025",
-      articleRoute: "bird-flu",
-    },
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-    {
-      id: 14,
-      title:
-        "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg",
-      alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
-      date: "May 1, 2025",
-      articleRoute: "tech-jobs-in-freefall",
-    },
-    {
-      id: 15,
-      title: "The Greatest Hack in History",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg",
-      alt: "The Greatest Hack in History",
-      date: "May 1, 2025",
-      articleRoute: "greatest-hack",
-    },
-    {
-      id: 16,
-      title: "But what is quantum computing? (Grover's Algorithm)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
-      alt: "But what is quantum computing? (Grover's Algorithm)",
-      date: "May 1, 2025",
-      articleRoute: "what-is-quantam",
-    },
-    {
-      id: 17,
-      title: "But what is a neural network? | Deep learning",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg",
-      alt: "But what is a neural network? | Deep learning",
-      date: "May 1, 2025",
-      articleRoute: "neural-network",
-    },
-    {
-      id: 18,
-      title:
-        "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
-      alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      date: "May 3, 2025",
-      articleRoute: "roy-lee",
-    },
-    {
-      id: 19,
-      title:
-        "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg",
-      alt: "What It's Really Like to Study Computer Science: Reality of CS Majors",
-      date: "May 3, 2025",
-      articleRoute: "reality-of-cs",
-    },
-    {
-      id: 20,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "50-top-aws",
-    },
-    {
-      id: 21,
-      title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg",
-      alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      date: "May 3, 2025",
-      articleRoute: "cloud-service",
-    },
-    {
-      id: 22,
-      title: "Docker 101: Mastering Modern Software Delivery with Containers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
-      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
-      date: "May 3, 2025",
-      articleRoute: "docker-explained",
-    },
-    {
-      id: 23,
-      title:
-        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
-      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      date: "May 3, 2025",
-      articleRoute: "cs-major",
-    },
-    {
-      id: 25,
-      title:
-        "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg",
-      alt: "Programming language roadmap showing the progression from beginner to expert languages",
-      date: "May 8, 2025",
-      articleRoute: "developer-roadmaps",
-    },
-  ];
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

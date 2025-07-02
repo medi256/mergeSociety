@@ -308,7 +308,7 @@ const Section3 = () => {
     {
       id: 21,
       title:
-        "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
+        "AWS Services Explained: What They Do and How They Power the Cloud",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg",
       alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
