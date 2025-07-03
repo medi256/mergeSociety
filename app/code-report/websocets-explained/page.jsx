@@ -479,23 +479,21 @@ export default function Article() {
               with <code>node index.js</code>, and you’re live.
             </li>
           </ol>
-          <p>
-            Here’s what happens next:
-            <ul>
-              <li>
-                The frontend connects using the Socket.IO client library (make
-                sure you grab it from a CDN or add it via NPM to your project).
-              </li>
-              <li>
-                Users simply type messages into a form—on submit, the client
-                emits a <code>message</code> event.
-              </li>
-              <li>
-                Every connected client sees new messages instantly, with zero
-                refreshes and zero hacks.
-              </li>
-            </ul>
-          </p>
+          <p>Here’s what happens next:</p>
+          <ul>
+            <li>
+              The frontend connects using the Socket.IO client library (make
+              sure you grab it from a CDN or add it via NPM to your project).
+            </li>
+            <li>
+              Users simply type messages into a form—on submit, the client emits
+              a <code>message</code> event.
+            </li>
+            <li>
+              Every connected client sees new messages instantly, with zero
+              refreshes and zero hacks.
+            </li>
+          </ul>
           <blockquote>
             "While everyone else is fighting over scraps, you'll be building
             features users can’t live without."

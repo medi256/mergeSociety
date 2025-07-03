@@ -582,10 +582,11 @@ export default function Article() {
             won’t be you."
           </blockquote>
           <p>
-            Want even more visual note-taking secrets?{" "}
-            <a href="/best-visual-note-taking-apps">
-              Check this deep dive into the best visual note-taking apps
-            </a>
+            Want even more secrets?{" "}
+            <Link href="/ai/best-ai-tools-for-research">
+              Check this deep dive into the Best AI Tools for Research and
+              Writing
+            </Link>
             .
           </p>
         </section>

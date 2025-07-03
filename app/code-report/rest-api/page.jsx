@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
+
+import SyntaxHighlighter from "react-syntax-highlighter";
+
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const metadata = {
   title: "REST API Explained: The Backbone of Modern Cloud Development in 2025",
@@ -529,339 +533,447 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          REST API Meaning: The Backbone of Modern Cloud Application Development
+          RESTful API: How to Build a Real REST API with Node and Express
+          (Step-by-Step Breakdown)
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746862287/7015995_iwu9fs.jpg"
-          }
-          alt="REST API Meaning: The Backbone of Modern Cloud Application Development"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-10">
-            | May 10, 2025
-          </time>
+        <p>
+          Think building a REST API is complicated? What if I told you you could
+          create a battle-tested API using Node.js and Express in just
+          minutes—no textbook jargon, no confusing diagrams, just real-world
+          results… even if you’re a beginner? Most developers waste hours
+          wrestling with outdated tutorials and bloated frameworks. But you?
+          You’re about to see the insider method to spin up a production-ready
+          API, understand how REST really works, and even tap into secret tools
+          the pros use—without a single wasted step. Ready to see how the web
+          *actually* talks behind the scenes? Let’s obliterate the confusion and
+          level up your skills right now.
+        </p>
+
+        <h2>What Is an API (and Why Should You Care)?</h2>
+        <p>
+          Imagine if your laptop could whisper secrets to NASA's supercomputer.
+          That's what an API (application programming interface) lets computers
+          do: talk directly to each other, passing data like secret notes in
+          class—at lightning speed.
+        </p>
+        <p>
+          Here’s what nobody tells you: Using an API is 100x faster than
+          clicking around a website. Instead of clicking buttons or filling
+          forms, you write code to grab exactly the information you need. Want
+          to see all asteroid data from NASA? You could scroll their site… or
+          just type a single API request and grab the real, raw JSON powering
+          those graphs instantly.
+        </p>
+
+        <h2>RESTful API: The Real Secret Behind Modern Web Apps</h2>
+        <p>
+          Most APIs aren’t just random doors into a website’s data—they’re
+          *RESTful*. No, that doesn’t mean they’re taking naps. REST
+          (Representational State Transfer) is a set of rules most APIs follow.
+          Think of it as a universal playbook for online communication. Since
+          the early 2000s, REST has been the gold standard for API design,
+          powering everything from TikTok to your online banking.
+        </p>
+        <ul>
+          <li>
+            <strong>Resources:</strong> RESTful APIs organize data into unique
+            URLs, technically called URIs (Uniform Resource Identifiers). Each
+            resource, like a user or a T-shirt, gets its own address.
+          </li>
+          <li>
+            <strong>HTTP Methods:</strong> You choose what you want to do:
+            <ul>
+              <li>GET: Read data</li>
+              <li>POST: Create new resources</li>
+              <li>PATCH: Update existing stuff</li>
+              <li>DELETE: Remove things for good</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Headers:</strong> Like secret notes, headers tell the server
+            what you want (such as the <code>Accept</code> format or your
+            credentials with the <code>Authorization</code> header).
+          </li>
+          <li>
+            <strong>Body:</strong> The juicy data payload (often in JSON).
+          </li>
+        </ul>
+
+        <blockquote>
+          “Success isn’t about working harder—it’s about working on what
+          everyone else ignores.”
+        </blockquote>
+
+        <h2>Inside the HTTP Request-Response Cycle (No Fluff, Just Truth)</h2>
+        <p>
+          Here’s the crazy part: Every API call is a full conversation, but the
+          parties don’t remember each other. They're <em>stateless</em>—each
+          request stands alone, making web apps more reliable and less buggy.
+        </p>
+        <ol>
+          <li>
+            <strong>You send a request</strong>: This includes a start line (the
+            method and URI), headers (like “send JSON!”), and sometimes a body
+            (your data in JSON).
+          </li>
+          <li>
+            <strong>The server gets to work</strong>: Runs code, maybe hits a
+            database, figures out what to say back.
+          </li>
+          <li>
+            <strong>The response comes back</strong>: A status code (200 series
+            means all good, 400-500 means errors), headers, and then—finally—the
+            data payload, usually in JSON.
+          </li>
+        </ol>
+        <p>
+          Want to know the real secret? Most bugs and misunderstandings come
+          from not following these invisible rules. Read the HTTP docs for fun,
+          and you'll spot them everywhere in the wild.
+        </p>
+
+        <h2>
+          Real-World Example: Spinning Up Your First RESTful API with Node and
+          Express
         </h2>
         <p>
-          <strong>What is a REST API?</strong> Why have they become the gold
-          standard for application communication in the cloud era and how do
-          they supercharge your business projects? I’m Nathan Heckman from IBM
-          Cloud, and today, I’ll break down REST APIs with real world relevance
-          and a scoop of fun (ice cream shop, anyone?). But before we roll up
-          our sleeves, consider hitting that <strong>subscribe</strong> button
-          to stay up to date with essential cloud know how!
+          Let’s stop theorizing and build an API from scratch—right now. Most
+          Node.js developers use Express.js for one big reason: it’s minimal,
+          proven, and gets out of your way. If you know a little JavaScript, you
+          can dominate with Express.
         </p>
-
-        <h2>Let’s Dive Into a Tasty Example</h2>
-        <p>
-          Imagine you’re working for a bustling ice cream shop. You’re tasked
-          with building a web application that shows which ice cream flavors are
-          currently in stock. To help your in store staff keep things accurate,
-          you also want them to quickly update these flavors in real time right
-          from a computer or tablet.
-        </p>
-        <p>
-          Here’s where the concept of a REST API comes to the rescue. This is
-          the bridge that allows your web app (the “client”) to send and receive
-          information to a cloud based server. Let’s break down exactly how this
-          works step by step.
-        </p>
-
-        <h2>What Does REST Stand For?</h2>
-        <p>
-          REST is an acronym for{" "}
-          <strong>Representational State Transfer</strong>. While the term
-          sounds technical, at its core REST defines a standardized
-          architectural pattern for building APIs that let computer systems
-          communicate reliably. In fact, REST APIs are used all over the
-          industry so learning their ins and outs is essential for any
-          developer.
-        </p>
-
-        <h2>The Heart of REST APIs: Communication</h2>
-        <p>
-          At its core, a REST API enables communication between clients (think:
-          browsers, mobile apps, other servers) and servers (where your
-          application logic and database live). You might also hear terms like
-          “RESTful web services” these simply refer to any web service using
-          REST APIs to do the talking.
-        </p>
-
-        <h2>Why REST APIs Are So Powerful: Key Benefits</h2>
+        <h3>Step 1: Prepare for Takeoff (Your Dev Environment)</h3>
         <ul>
+          <li>Open Visual Studio Code to an empty folder.</li>
           <li>
-            <strong>Simple & Standardized Communication:</strong> REST APIs
-            follow industry standards. You don’t need to reinvent the wheel for
-            each data exchange they define agreed upon formats both for requests
-            and responses, so it’s easy to build and consume APIs.
+            Make sure Node.js is installed (v12+ is safe). Type{" "}
+            <code>node -v</code> in your terminal to check.
           </li>
           <li>
-            <strong>Scalable and Stateless:</strong> Because each REST API call
-            contains all the information the server needs, there’s no need to
-            keep track of past requests. This “statelessness” makes it simple to
-            scale servers don’t overwhelm themselves keeping up with session
-            details.
+            Initialize a Node project: <code>npm init -y</code>
           </li>
           <li>
-            <strong>High Performance (Thanks to Caching):</strong> REST APIs are
-            designed for speed. By supporting caching, they keep responses fast,
-            even as user requests pile up.
-          </li>
-        </ul>
-        <p>
-          In short, REST APIs are perfect for applications that need to grow,
-          evolve, and perform under pressure ideal for any modern cloud based
-          service.
-        </p>
-
-        <h2>Back to the Ice Cream Shop: What Does a REST API Look Like?</h2>
-        <p>
-          Let’s visualize your API as a series of logical “endpoints.” For
-          example: <code>https://icecream.com/api/flavors</code>.
-        </p>
-        <ul>
-          <li>
-            <strong>api</strong>: Signals this portion of the URL is where your
-            API lives.
+            Install Express: <code>npm install express</code>
           </li>
           <li>
-            <strong>flavors</strong>: The resource you care about. In REST
-            speak, “flavors” is a <em>resource</em> the type of data you’re
-            managing.
-          </li>
-        </ul>
-        <p>
-          In day to day use, interactions with a REST API follow a predictable
-          pattern: the <strong>client</strong> sends a <strong>request</strong>{" "}
-          to an endpoint, and the <strong>server</strong> responds with the
-          requested data or an update acknowledgment.
-        </p>
-
-        <h2>Breaking Down REST API Requests</h2>
-        <p>
-          Your RESTful API interactions boil down to four key operations,
-          frequently referred to as <strong>CRUD</strong> Create, Read, Update,
-          Delete. Let’s map these to their HTTP method cousins:
-        </p>
-        <ul>
-          <li>
-            <strong>Create</strong>: <code>POST</code> Making something new
-          </li>
-          <li>
-            <strong>Read</strong>: <code>GET</code> Fetching data (like a menu
-            of today’s flavors)
-          </li>
-          <li>
-            <strong>Update</strong>: <code>PUT</code> Changing something (such
-            as updating an out of stock flavor)
-          </li>
-          <li>
-            <strong>Delete</strong>: <code>DELETE</code> Removing something
-          </li>
-        </ul>
-        <p>
-          A typical REST API <strong>request</strong> includes:
-        </p>
-        <ul>
-          <li>
-            <strong>Operation:</strong> The HTTP method (POST, GET, PUT, DELETE)
-          </li>
-          <li>
-            <strong>Endpoint:</strong> The URL where your resource lives (e.g.,{" "}
-            <code>/api/flavors</code>)
-          </li>
-          <li>
-            <strong>Parameters or Body:</strong> Data you might send for the
-            operation (like specifying “chocolate” as a new flavor)
-          </li>
-          <li>
-            <strong>Headers:</strong> Meta information, such as authentication
-            keys
+            Create an <code>index.js</code> file—you’ll write all your server
+            code here.
           </li>
         </ul>
 
-        <h2>The REST API Response</h2>
-        <p>
-          Once your request reaches the server, you’ll receive a{" "}
-          <strong>response</strong>. In REST APIs, this is typically in the
-          lightweight, human readable <strong>JSON</strong> format.
-        </p>
-
-        <h2>Showtime: REST API in Action for Our Ice Cream Shop</h2>
-        <h3>1. Displaying Available Flavors (GET)</h3>
-        <p>
-          The shop wants to show a list of all flavors currently in stock. You’d
-          make a <strong>GET</strong> request to <code>/api/flavors</code>. The
-          server would respond with something like:
-        </p>
+        <h3>Step 2: Your First Lines of API Code</h3>
         <pre>
-          {`[
-  { "id": 1, "flavor": "Strawberry" },
-  { "id": 2, "flavor": "Mint Chocolate" }
-]`}
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+const express = require('express');
+const app = express();
+const PORT = 8080;
+
+app.listen(PORT, () => {
+  console.log(\`API is alive at http://localhost:\${PORT}\`);
+});
+`}
+          </SyntaxHighlighter>
         </pre>
         <p>
-          Voilà! Your app now displays “Strawberry” and “Mint Chocolate” in the
-          interface. (And yes, the customers are drooling.)
+          Run <code>node index.js</code>. If you see “API is alive at
+          http://localhost:8080”, congrats—your API zombie just sat up. If you
+          paste that URL in your browser, you’ll see a 404 error. That’s good—it
+          means Express is listening, even though you haven’t added any real
+          endpoints yet.
         </p>
+        <blockquote>
+          “Stop trying to be perfect. Start trying to be remarkable.”
+        </blockquote>
 
-        <h3>2. Updating Out of Stock Flavors (PUT)</h3>
+        <h3>Step 3: Testing Like a Pro (Insomnia, Postman & More)</h3>
         <p>
-          Suppose “Mint Chocolate” ran out tragedy! The staff decides to replace
-          it with a time tested favorite: “Chocolate.” To make this update,
-          you’d:
+          Debugging APIs in the browser? Painful. The pros use dedicated tools:
         </p>
         <ul>
           <li>
-            Send a <strong>PUT</strong> request to <code>/api/flavors/1</code>{" "}
-            (assuming ID 1 is for Mint Chocolate)
+            <strong>Insomnia</strong> (the one used in this guide): Clean
+            interface, quick to switch HTTP verbs, easy to see history and
+            responses in color-coded glory.
           </li>
+          <li>Postman: Great all-rounder, tons of features.</li>
           <li>
-            In the request body, specify the new flavor:{" "}
-            <code>&#123; "flavor": "Chocolate" &#125;</code>
+            Curl: Classic command-line power for scripts and quick checks.
           </li>
-          <li>Receive a confirmation response from the server.</li>
         </ul>
-        <p>
-          Now, everyone can see that “Chocolate” is in stock, thanks to your
-          swift update customers rejoice!
-        </p>
 
-        <h3>3. Creating a New Experimental Flavor (POST)</h3>
+        <h2>Building Endpoints That Actually Work</h2>
         <p>
-          The shop receives a mysterious new shipment: “Restful Raspberry.” To
-          add it to the menu, the staff:
+          Time to make your API *do something*. Here’s the insider move: In
+          Express, you chain HTTP verbs to your <code>app</code> instance. Each
+          endpoint is a function that takes a <code>request</code> and{" "}
+          <code>response</code> object.
+        </p>
+        <pre>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+app.get('/tshirt', (req, res) => {
+  res.status(200).json({ message: "You've got your t-shirt!" });
+});
+`}
+          </SyntaxHighlighter>
+        </pre>
+        <p>
+          Save and restart the server. Make a GET request in Insomnia to{" "}
+          <code>http://localhost:8080/tshirt</code>. BAM: JSON payload, 200
+          status, instant win. You’re officially talking to your own REST API.
+        </p>
+        <blockquote>
+          “The difference between winners and losers? Winners do what losers
+          won't.”
+        </blockquote>
+
+        <h3>Advanced Move: Dynamic Parameters and POST Requests</h3>
+        <p>
+          Real APIs aren’t just giving you static data—they interact using
+          dynamic parameters and input.
         </p>
         <ul>
           <li>
-            Sends a <strong>POST</strong> request to <code>/api/flavors</code>
+            <strong>The why:</strong> There could be millions of T-shirts (or
+            users, or tweets…). Dynamic URLs let one endpoint handle them all.
           </li>
           <li>
-            Includes <code>&#123; "flavor": "Restful Raspberry" &#125;</code> in
-            the request body
+            <strong>POST = Create:</strong> If someone wants to make a *new*
+            T-shirt, they send a POST request, not GET.
+          </li>
+        </ul>
+        <pre>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+app.post('/tshirt/:id', (req, res) => {
+  const { id } = req.params;
+  const { logo } = req.body;
+  if (!logo) {
+    res.status(418).json({ message: 'We need a logo!' });
+  } else {
+    res.status(200).json({ tshirt: { id, logo } });
+  }
+});
+`}
+          </SyntaxHighlighter>
+        </pre>
+        <h3>Wait—Why Isn’t Express Parsing My JSON?</h3>
+        <p>
+          Here’s where most people screw up: Express doesn’t parse JSON bodies
+          by default! It’s not a bug; it’s by design (not everyone uses JSON).
+        </p>
+        <p>
+          <strong>Fix it with middleware: </strong>
+        </p>
+        <pre>
+          <SyntaxHighlighter language="javascript" style={docco}>
+            {`
+app.use(express.json());
+`}
+          </SyntaxHighlighter>
+        </pre>
+        <p>
+          Now, before every endpoint runs, Express will first parse JSON out of
+          incoming requests, making it available at <code>req.body</code>.
+        </p>
+        <blockquote>
+          “You’re probably one of the few people who will actually implement
+          this…”
+        </blockquote>
+
+        <h3>Testing POST in Insomnia (or Postman)</h3>
+        <ul>
+          <li>
+            Make a POST request to <code>http://localhost:8080/tshirt/123</code>
           </li>
           <li>
-            The server creates the new resource and sends back something like{" "}
-            <code>&#123; "id": 3, "flavor": "Restful Raspberry" &#125;</code>
+            Body (JSON):
+            <pre>
+              <SyntaxHighlighter language="javascript" style={docco}>
+                {`{
+  "logo": "🦄"
+}`}
+              </SyntaxHighlighter>
+            </pre>
+          </li>
+          <li>Hit send and marvel at your returned T-shirt object.</li>
+          <li>
+            Try with no logo—get a 418 error (a playful HTTP code, by the way:
+            "I'm a teapot").
+          </li>
+        </ul>
+
+        <h2>Taking It Further: The OpenAPI Spec & Swagger</h2>
+        <p>
+          Let’s talk pro-level stuff: How do huge companies document and
+          standardize their APIs? With the <strong>OpenAPI spec</strong>{" "}
+          (formerly Swagger).
+        </p>
+        <ul>
+          <li>Define your whole API in a single YAML file</li>
+          <li>Humans & machines alike can understand it</li>
+          <li>
+            API tools like AWS API Gateway or Google Cloud Platform can{" "}
+            <em>read</em> this spec to auto-generate docs, client code, even
+            server scaffolds
           </li>
         </ul>
         <p>
-          Instantly, “Restful Raspberry” is now listed and ready to tempt your
-          daring dessert seekers.
+          Tools like <strong>SwaggerHub</strong> let you export boilerplate code
+          and documentation in seconds. Even if you hate code generators, this
+          is a game-changer for collaboration and onboarding.
+        </p>
+        <blockquote>
+          “If you’re still reading this, you’re already ahead of 90% of people…”
+        </blockquote>
+        <h3>Why Use OpenAPI? (Beyond the Obvious)</h3>
+        <ol>
+          <li>Auto-generate awesome docs—make your API a pleasure to use.</li>
+          <li>Easy versioning for upgrades and migrations</li>
+          <li>
+            Plug directly into cloud tools for security, monitoring, and instant
+            deployment (especially critical for serious teams)
+          </li>
+        </ol>
+        <p>
+          Want more? Let me know if you need a full deep-dive tutorial on API
+          Gateways and industrial-scale API deployment.
         </p>
 
-        <h2>Why REST APIs are Essential for Cloud Development</h2>
-        <p>
-          In cloud application development, REST APIs provide universal,
-          standardized, and scalable ways for services to communicate whether
-          it’s updating your ice cream menu or managing global enterprise
-          workflows. They allow seamless connectivity between browser apps,
-          mobile clients, IoT devices, and more with unparalleled flexibility.
-        </p>
+        <section className="faq-section">
+          <h2>RESTful API with Node and Express: People Also Ask</h2>
+          <h3>What is a RESTful API?</h3>
+          <p>
+            A RESTful API is an interface that allows systems to communicate
+            over HTTP using standardized URLs (URIs), methods (GET, POST, PATCH,
+            DELETE), and stateless requests. It structures access to web
+            resources in a predictable, scalable way.
+          </p>
 
-        <h2>Wrapping Up</h2>
-        <p>
-          We’ve broken down what a REST API is, highlighted its benefits,
-          explored a real world scenario, and revealed how REST is fundamental
-          for building robust, scalable cloud applications. Got questions? Drop
-          a comment below! And if you’re passionate about leveling up your cloud
-          native skills, be sure to check out <strong>IBM Cloud Labs</strong>{" "}
-          with free browser based interactive Kubernetes labs and the chance to
-          earn a digital badge!
-        </p>
-        <p>
-          Want more insightful guides and resources? Like, subscribe, and keep
-          your edge in the world of cloud computing!
-        </p>
+          <h3>How do I build a REST API with Node.js and Express?</h3>
+          <p>
+            Start by initializing a Node.js project (<code>npm init -y</code>),
+            installing Express (<code>npm install express</code>), creating an{" "}
+            <code>index.js</code> file, setting up endpoints using{" "}
+            <code>app.get</code> or <code>app.post</code>, and using{" "}
+            <code>app.use(express.json())</code> for JSON parsing.
+          </p>
 
-        <h2>Recommended Articles</h2>
-        <Section6 />
+          <h3>
+            Why doesn't my Express API parse JSON in POST requests by default?
+          </h3>
+          <p>
+            Express doesn’t parse JSON automatically—you must enable it using{" "}
+            <code>app.use(express.json())</code> as middleware. This lets your
+            API accept and handle JSON payloads in requests.
+          </p>
+
+          <h3>What is the OpenAPI (Swagger) specification?</h3>
+          <p>
+            OpenAPI is a standard for describing REST APIs in a machine- and
+            human-readable format (usually YAML). Tools like SwaggerHub use it
+            to auto-generate documentation, code, and integrate directly with
+            cloud providers.
+          </p>
+
+          <h3>What are common pitfalls when building RESTful APIs?</h3>
+          <ul>
+            <li>Forgetting to use middleware for parsing request data</li>
+            <li>Not following proper HTTP method conventions</li>
+            <li>Returning inconsistent status codes</li>
+            <li>Neglecting to document endpoints</li>
+          </ul>
+        </section>
+
+        <h2>Quick Wins: What Most People Get Wrong About RESTful APIs</h2>
+        <ul>
+          <li>
+            Ignoring status codes—these tell users (and machines) what actually
+            happened.
+          </li>
+          <li>
+            Not using dynamic route params effectively (everything isn’t just
+            /user/123!)
+          </li>
+          <li>
+            Testing with only browsers—instead, use Insomnia or Postman for real
+            feedback.
+          </li>
+          <li>
+            Missing out on auto-generated docs (OpenAPI will 10x your team’s
+            speed)
+          </li>
+          <li>Forgetting the stateless rule—each request must stand alone.</li>
+        </ul>
+
+        <h2>How to Implement This Today (Step-by-Step Recap)</h2>
+        <ol>
+          <li>Initialize a Node project and install Express</li>
+          <li>Create your JS file and require Express</li>
+          <li>
+            Add <code>app.use(express.json())</code> for JSON parsing
+          </li>
+          <li>Design endpoints using REST conventions</li>
+          <li>Test every endpoint with Insomnia or Postman</li>
+          <li>Document your API with OpenAPI spec as soon as possible</li>
+        </ol>
+
+        <h2>Advanced Pro Strategies</h2>
+        <ul>
+          <li>Integrate JWT authentication for secure endpoints</li>
+          <li>
+            Use middleware for logging, rate limiting, validation, and error
+            handling
+          </li>
+          <li>
+            Deploy with Docker, AWS Lambda, or Google Cloud Run for rock-solid
+            scaling
+          </li>
+          <li>Set up CI/CD pipelines to ship safely and instantly</li>
+          <li>Leverage OpenAPI for rapid prototyping and collaboration</li>
+        </ul>
+
+        <aside>
+          <h3>Internal Link Opportunities</h3>
+          <ul>
+            <li>
+              <Link href="/code-report/sdk-vs-api">APIs vs SDKs Explained</Link>
+            </li>
+            <li>
+              <Link href="/code-report/http1-http2-http3">
+                HTTP 1 Vs HTTP 2 Vs HTTP 3!
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/web-server">What is a web server</Link>
+            </li>
+            <li>
+              <Link href="/code-report/apis-explained">What is an API</Link>
+            </li>
+            <li>
+              <Link href="/code-report/dns-records">DNS Records Explained</Link>
+            </li>
+          </ul>
+        </aside>
+
+        <h2>Transform Your Dev Career—Start Building Real RESTful APIs Now</h2>
+        <p>
+          Most devs will read this and never act. But not you. By creating your
+          own Node.js + Express RESTful API, you’ll unlock a whole new world:
+          building apps, automating data, landing higher-paying gigs. And that’s
+          just the beginning—imagine what’ll happen when you start combining
+          OpenAPI specs, smart middleware, and production-grade cloud
+          deployments. The window for legacy web skills is closing. RESTful APIs
+          are the language of the future. Will you be fluent… or left behind?
+        </p>
+        <p>
+          Bookmark this article, share it with your friends, and try building
+          your first endpoint *right now*. If you’re hungry for more advanced
+          secrets, stay tuned… because we’re just getting started.
+        </p>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 22,
-      title:
-        "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746863874/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf.jpg",
-      alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      date: "May 10, 2025",
-      articleRoute: "sdk-vs-api",
-    },
-    {
-      id: 23,
-      title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
-      alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      date: "May 10, 2025",
-      articleRoute: "http1-http2-http3",
-    },
-    {
-      id: 24,
-      title:
-        "WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746868335/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy.jpg",
-      alt: "Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns",
-      date: "May 10, 2025",
-      articleRoute: "websocket-polling",
-    },
-    {
-      id: 25,
-      title:
-        "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
-      alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
-      date: "May 10, 2025",
-      articleRoute: "websocets-explained",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

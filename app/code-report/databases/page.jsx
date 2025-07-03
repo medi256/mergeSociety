@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -523,430 +523,392 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          PostgreSQL vs. MySQL: Which Relational Database Should You Choose?
+          PostgreSQL vs MySQL: The Brutally Honest Guide You Never Knew You
+          Needed
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg"
-          }
-          alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-9">
-            | May 9, 2025
-          </time>
-        </h2>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg"
+            alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            PostgreSQL vs. MySQL — Breaking down features, performance, and
+            real-world use cases.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-09"
+              itemProp="datePublished"
+            >
+              | May 9, 2025
+            </time>
+          </h2>
+        </section>
+
         <p>
-          If you’re on the hunt for the right relational database and find
-          yourself torn between PostgreSQL and MySQL, you’re not alone. These
-          two giants of the database world may, at first glance, seem quite
-          similar but under the hood, they offer very different value
-          propositions. Give me a few minutes, and I’ll help untangle their
-          strengths, show you where each one shines, and even sprinkle in a bit
-          of AI powered humor along the way. Let’s jump in!
+          Quick question: If you had to bet your job on a database right
+          now—PostgreSQL or MySQL—which would you pick? Most people freeze,
+          mumble something about “use case,” and pray no one notices. But here’s
+          what’s wild: Pick wrong, and you’ll spend years fighting bugs,
+          bottlenecks, and “Why is this SO SLOW?” Slack messages at 2 a.m. Pick
+          right? You look like a genius. <strong>PostgreSQL vs MySQL</strong> is
+          NOT just a boring tech showdown, it’s the fork in the road that can
+          decide your fate as a developer, CTO, or data geek. Ready to finally
+          get the real answers? Good. Strap in—and yes, I even have an
+          AI-generated database joke that’ll make you question your life choices
+          as a techie.
         </p>
 
-        <h2>Similarities: The Shared Foundation</h2>
-        <p>
-          Let’s begin with the basics. Both <strong>PostgreSQL</strong> (often
-          simply called “Postgres”) and <strong>MySQL</strong> belong to the
-          family of <strong>relational database management systems</strong>,
-          commonly abbreviated as <strong>RDBMS</strong>. At their core, these
-          systems organize data into connected tables, making it easy to store
-          and retrieve complex information.
-        </p>
-        <p>
-          Both Postgres and MySQL rely on <strong>SQL</strong> that’s Structured
-          Query Language as the universal medium for managing, searching, and
-          connecting your precious data. Thanks to SQL, analysts or developers
-          don’t need to worry about the granular technical details: Where
-          exactly is the <code>orders</code> table physically located on your
-          storage disk? How do we connect it seamlessly with the{" "}
-          <code>customers</code>
-          table? SQL lets you ask high level questions, and the database figures
-          out the rest, compiling your query and returning just what you need.
-        </p>
-        <p>
-          Both databases also support{" "}
-          <strong>JSON (JavaScript Object Notation)</strong>, expanding their
-          usefulness for modern applications that need to store or transport
-          semi structured data alongside traditional tables.
-        </p>
-
-        <h2>PostgreSQL: The King of Compliance and Complexity</h2>
-        <p>
-          While both databases can handle the basics,{" "}
-          <strong>PostgreSQL</strong>
-          is well known as one of the most compliant, stable, and mature
-          relational databases available today. If your application requires
-          heavy duty data processing and complex queries especially in an
-          enterprise environment Postgres is a clear frontrunner.
-        </p>
-
-        <h3>Designed for Complexity and Enterprise Scale</h3>
-        <p>
-          Postgres is often described as an “<strong>object relational</strong>”
-          database. This means it takes the standard relational database
-          approach and adds even more power, such as supporting custom data
-          types, advanced joins, and triggers. It is especially appealing for
-          enterprise database administrators (DBAs) overseeing mission critical{" "}
-          <strong>Online Transaction Processing (OLTP)</strong>. This category
-          covers the bread and butter of business activities think ecommerce
-          transactions, customer relationship management, and financial ledgers.
-        </p>
-        <p>
-          Not only does Postgres provide a rock solid environment for business
-          activities, but it also excels at <strong>analytics</strong> crunching
-          through the vast amounts of data your company receives, creates, or
-          generates over time.
-        </p>
-
-        <h3>Key Benefits of PostgreSQL</h3>
-        <ul>
-          <li>
-            <strong>Performance &amp; Scalability:</strong> Postgres is packed
-            with performance optimization features, especially when juggling
-            multiple data types and supporting large scale analytics.
-          </li>
-          <li>
-            <strong>MVCC (Multi Version Concurrency Control):</strong> This
-            sophisticated system allows multiple users to read and write data at
-            the same time without stepping on each other’s toes ideal for
-            collaborative, high load environments.
-          </li>
-          <li>
-            <strong>Business Continuity &amp; High Availability:</strong>{" "}
-            Postgres supports both asynchronous and synchronous replication
-            methods across servers, ensuring your data is there when you need
-            it, even in the rare event of hiccups or hardware failures.
-          </li>
-        </ul>
-        <p>
-          If your project requires the ability to process complex queries,
-          support a wide array of data types, and scale to meet the needs of a
-          data hungry enterprise, PostgreSQL should be at the top of your short
-          list.
-        </p>
-
-        <h2>MySQL: Simplicity, Speed, and The Web’s Favorite Workhorse</h2>
-        <p>
-          On the flip side, <strong>MySQL</strong> is a well established, open
-          source RDBMS known for its <strong>simplicity</strong> and blazing
-          speed. While it’s a workhorse that can handle larger applications,
-          it’s especially beloved for <strong>web applications</strong> powering
-          everything from personal blogs to small and medium sized business
-          websites.
-        </p>
-
-        <h3>Why Is MySQL So Popular?</h3>
-        <p>
-          MySQL’s ease of use is legendary. Whether you’re spinning up a new
-          database for the first time or deploying at scale for a small team,
-          the intuitive setup and straightforward management tools get you up
-          and running with minimal fuss.
-        </p>
-
-        <h3>Key Benefits of MySQL</h3>
-        <ul>
-          <li>
-            <strong>User Friendly:</strong> The learning curve is gentle, making
-            MySQL accessible for students, hobbyists, and professionals alike.
-          </li>
-          <li>
-            <strong>Speed:</strong> With advanced features like high speed
-            partial indexes, full text search indexes, and finely tuned memory
-            caches, MySQL delivers rapid query results perfect for read heavy
-            web apps.
-          </li>
-          <li>
-            <strong>Scalability:</strong> Supports unlimited storage growth
-            while maintaining a small installation footprint.
-          </li>
-        </ul>
-        <p>
-          If your primary needs revolve around creating fast, responsive, and
-          easy to manage web or small to medium business applications, MySQL
-          often takes the cake.
-        </p>
-
-        <h2>An AI Generated Database Joke (You’re Welcome!)</h2>
-        <p>
-          What comparison would be complete without a bit of levity? Here’s a
-          joke devised by a state of the art generative AI model:
-        </p>
-        <blockquote>
+        {/* Well-structured body with proper H2s and H3s */}
+        <section>
+          <h2>How PostgreSQL and MySQL Are Weirdly (But Importantly) Alike</h2>
           <p>
-            <em>
-              A MySQL database administrator is showing a PostgreSQL admin
-              around his office. He takes her to the server room, and she’s
-              wowed by racks of servers humming with activity. Next, he leads
-              her to the backup room, which is lined wall to wall with storage
-              racks again, she’s impressed. Finally, they visit the developers’
-              office. To the Postgres admin’s surprise, there’s just one
-              developer sitting at a desk.
-              <br />
-              <br />
-              “Why only one developer?” she asks.
-              <br />
-              The MySQL admin grins: “Because with MySQL, we don’t need any
-              more!”
-            </em>
+            Here’s what nobody talks about:{" "}
+            <strong>PostgreSQL and MySQL</strong> are so similar on the surface,
+            it’s almost suspicious. Both are called Relational Database
+            Management Systems (<strong>RDBMS</strong>). Which is basically a
+            nerdy way to say: “We organize your messy data into neat little
+            tables so you can sleep at night.” Both use{" "}
+            <strong>SQL (Structured Query Language)</strong>—the “secret code”
+            that lets you find what you want from those tables without knowing
+            where it’s stored, how it’s indexed, or whether it’s buried in a
+            data center under a volcano.
           </p>
-        </blockquote>
-        <p>
-          Maybe it’s just me, but there’s a nugget of truth behind the
-          punchline: MySQL is designed to be so approachable and streamlined
-          that a single developer can often manage the whole show.
-        </p>
+          <ul>
+            <li>
+              Both can handle <strong>JOINs</strong>,{" "}
+              <strong>transactions</strong>, and even love playing with{" "}
+              <strong>JSON</strong> (JavaScript Object Notation) nowadays.
+            </li>
+            <li>
+              Both are open source, powerful, and have armies of fans who’ll
+              defend their honor on Reddit until their Wi-Fi dies.
+            </li>
+          </ul>
+          <p>
+            But relying only on similarities is like saying a Ford and a Ferrari
+            are “both cars.” True, but only one makes your neighbors jealous.
+          </p>
+        </section>
 
-        <h2>Making Your Choice: Should You Use PostgreSQL or MySQL?</h2>
-        <p>Let’s boil it all down:</p>
-        <ul>
-          <li>
-            If you’re building an <strong>enterprise application</strong> with
-            complex data structures and need to manage lots of different data
-            types and relationships, <strong>PostgreSQL</strong> is probably
-            your ideal tool.
-          </li>
-          <li>
-            If your focus is on a <strong>fast, easy to use database</strong>{" "}
-            for web or small to medium scale apps, you’ll likely be happiest
-            with
-            <strong>MySQL</strong>.
-          </li>
-          <li>
-            And if you’re looking to write sensational database jokes… well,
-            maybe leave it to the AI (for now).
-          </li>
-        </ul>
+        <section>
+          <h2>
+            The Secret Sauce: Why PostgreSQL Might Obliterate Every Other Option
+            for Enterprise
+          </h2>
+          <p>
+            <strong>
+              Here’s the thing that blew my mind about PostgreSQL:
+            </strong>{" "}
+            It’s not just another database. It’s the go-to for power users who
+            need their database to be{" "}
+            <u>rock-solid, future-proof, and totally unbreakable</u>.
+          </p>
+          <h3>Why PostgreSQL Dominates Complex, High-Stakes Applications</h3>
+          <p>
+            Imagine you’re running a global e-commerce site, managing financial
+            transactions, or handling data that has to be accurate, fast, and
+            never, ever lost. PostgreSQL is built for that kind of stress. It’s
+            “object-relational”—which means it goes beyond basic tables, letting
+            you model complex data real-world entities, relationships, and
+            nuances.
+          </p>
+          <ul>
+            <li>
+              <strong>Unmatched OLTP firepower:</strong> PostgreSQL is the home
+              turf of <strong>online transaction processing (OLTP)</strong> —
+              think financial ledgers, CRM tools, real-time analytics, and
+              anything where “Oops, we lost your order” is unacceptable.
+            </li>
+            <li>
+              <strong>Analytics, data warehousing, and more:</strong> It's not
+              just about transactions—Postgres also excels at analyzing,
+              summarizing, and reporting on huge, complex datasets.
+            </li>
+            <li>
+              <strong>Enterprise features you actually need:</strong> MVCC
+              (Multi-Version Concurrency Control) lets you handle simultaneous
+              reads/writes without deadlocks or race conditions. It’s like
+              giving every user their own copy of the data to play with—no
+              waiting, no drama.
+            </li>
+            <li>
+              <strong>True business continuity:</strong> Postgres gives you{" "}
+              <u>serious high availability</u> with asynchronous and synchronous
+              replication—meaning you always have a backup ready to go, even if
+              a meteor hits your main server.
+            </li>
+            <li>
+              <strong>Scalability that doesn’t punish growth:</strong> You can
+              scale up, out, or sideways with PostgreSQL, managing everything
+              from small apps to multinational monsters.
+            </li>
+          </ul>
+          <blockquote>
+            “Success isn’t about working harder—it’s about working on what
+            everyone else ignores.”
+          </blockquote>
+          <p>
+            Want your app to survive Black Friday without melting down? This is
+            why seasoned database admins whisper “Go Postgres” in the halls.
+          </p>
+          <h3>Real-World Example: Postgres in Enterprise E-Commerce</h3>
+          <p>
+            Picture an e-commerce giant processing millions of orders a day.
+            Orders, payments, customer loyalty points—all flowing through
+            PostgreSQL with millisecond precision. If even one transaction went
+            missing, chaos would ensue. That’s why Fortune 500s bet on
+            Postgres—and sleep soundly.
+          </p>
+        </section>
 
-        <p>
-          In short: know your project requirements, align them with each
-          database’s strengths, and you’ll be set up for success whether you go
-          with PostgreSQL, MySQL, or even both!
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+        <section>
+          <h2>MySQL: Built for Speed, Simplicity, and the Web</h2>
+          <blockquote>
+            “The difference between winners and losers? Winners do what losers
+            won’t.”
+          </blockquote>
+          <p>
+            MySQL is the database that{" "}
+            <u>put blogs, startups, and the early web on the map</u>. Speed?
+            Ridiculous. Spin up a webapp in two hours? Absolutely. MySQL is the
+            workhorse of small to medium web apps—think WordPress, online
+            forums, or any SaaS MVP you slap together over a weekend sprint.
+          </p>
+          <ul>
+            <li>
+              <strong>Ease of Use: </strong> MySQL is basically plug-and-play.
+              Your first database will be up and running before your coffee gets
+              cold.
+            </li>
+            <li>
+              <strong>Performance: </strong> It’s so fast, some developers think
+              it cheats. Features like high-speed partial indexes and memory
+              caches mean web pages load before your boss can ask “Is it up
+              yet?”
+            </li>
+            <li>
+              <strong>Speed to launch: </strong> Full-text indexes, optimized
+              queries, and a “just works” ethos get you building NOW, not six
+              weeks from now.
+            </li>
+            <li>
+              <strong>Scalability for growing apps: </strong> Unlimited storage,
+              tiny server footprint, and yes—scaling options as your side
+              project becomes your main gig.
+            </li>
+          </ul>
+          <h3>Case Study: Lean Startup Gets to 1 Million Users on MySQL</h3>
+          <p>
+            Imagine a scrappy SaaS startup, no budget for DBAs, running on four
+            Red Bulls and a dream. Their MVP launches on MySQL
+            and—boom—overnight, a million users. They never touch a config file.
+            It Just. Works. Suddenly, they’re the next big thing—thanks to
+            MySQL’s no-nonsense simplicity and speed.
+          </p>
+        </section>
+
+        <section>
+          <h2>“Wait, Is That an AI-Generated Database Joke?” (Yes, It Is.)</h2>
+          <p>
+            Okay, you waited this long. Here’s the joke, fresh from the silicon
+            mind of an AI (and probably funnier than my last progress report):
+          </p>
+          <aside
+            className="funny-db-joke"
+            style={{
+              fontStyle: "italic",
+              padding: "10px",
+            }}
+          >
+            There’s a MySQL administrator giving a PostgreSQL admin a tour. The
+            server room? Stacked to the ceiling with machines—Postgres admin
+            impressed.
+            <br />
+            Next, rows of backup drives—still impressive.
+            <br />
+            But then: The developer room, and there’s only ONE developer inside.
+            “Why so few devs?” asks the Postgres admin.
+            <br />
+            The response: “With MySQL, we don’t need any more.”
+            <br />
+            (Cue nerd laughter and possibly existential crisis.)
+          </aside>
+          <p>
+            The punchline?{" "}
+            <strong>
+              MySQL’s so simple, even a solo coder looks like a DevOps hero.
+            </strong>
+          </p>
+        </section>
+
+        <section>
+          <h2>PostgreSQL vs MySQL: The Blunt Truth about When to Use Each</h2>
+          <p>
+            Here’s what most people get wrong: They pick a database because it’s
+            “popular,” or because they saw a meme about it on Twitter. But if
+            you choose based on Blind FOMO, you lose.
+            <br />
+            <strong>The real secret?</strong>
+          </p>
+          <ul>
+            <li>
+              <strong>
+                Enterprise, complex analytics, financial apps, or anything
+                mission-critical?
+              </strong>{" "}
+              <u>Go PostgreSQL</u>. It’ll grow with you, let you sleep at night,
+              and save your reputation.
+            </li>
+            <li>
+              <strong>
+                Lightweight web apps, rapid MVPs, small SaaS, or WordPress?
+              </strong>{" "}
+              <u>Go MySQL</u>. Fast, easy, and won’t require an army of DBAs.
+            </li>
+          </ul>
+          <blockquote>
+            “Stop trying to be perfect. Start trying to be remarkable.”
+          </blockquote>
+          <p>
+            If you want to write database jokes, well… you’re probably already
+            up too late.
+          </p>
+        </section>
+
+        <section>
+          <h3>
+            People Also Ask: Unpacking Common PostgreSQL vs MySQL Questions
+          </h3>
+          <div className="faq-section">
+            <strong>Which is faster, MySQL or PostgreSQL?</strong>
+            <p>
+              For read-heavy, small-to-medium web apps, MySQL often edges out
+              PostgreSQL due to its streamlined engine. But for complex queries,
+              analytics, or high-concurrency environments? PostgreSQL can
+              actually outperform MySQL, especially as your data grows.
+            </p>
+            <strong>
+              Which is better for analytics or business intelligence?
+            </strong>
+            <p>
+              PostgreSQL. Its support for advanced data types, window functions,
+              and heavy-duty queries makes it a powerhouse for analytics and
+              reporting.
+            </p>
+            <strong>Can you use MySQL for enterprise-scale projects?</strong>
+            <p>
+              Some do, but you’ll likely hit scaling or feature gaps for
+              ultra-complex, high-volume workloads. That’s why banks, telecoms,
+              and Fortune 500s overwhelmingly choose PostgreSQL.
+            </p>
+            <strong>Is PostgreSQL harder to use than MySQL?</strong>
+            <p>
+              Slightly steeper learning curve, but the trade-off is massive
+              power and flexibility. For simple CRUD apps, MySQL wins
+              convenience. For pro-level control, Postgres is worth the ramp-up.
+            </p>
+            <strong>Can both handle JSON and NoSQL-style data?</strong>
+            <p>
+              Yes, both support JSON fields. PostgreSQL’s implementation is more
+              robust and flexible, making it a favorite for hybrid projects
+              needing NoSQL-like storage.
+            </p>
+            <strong>What about licensing and open-source?</strong>
+            <p>
+              Both are open-source, widely supported, and have huge communities.
+              You won’t get boxed in either way—but PostgreSQL’s license is
+              slightly less restrictive.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Your Next Steps: Make the Smart Pick (Or Live to Regret It)</h2>
+          <ul>
+            <li>
+              <strong>
+                If you’re scaling fast, chasing enterprise clients, or dreaming
+                of IPOs? PostgreSQL.
+              </strong>
+            </li>
+            <li>
+              <strong>
+                Just building your MVP, blog, or SaaS side hustle? MySQL.
+              </strong>
+            </li>
+            <li>
+              <strong>
+                If you need something in between: Learn both—your future self
+                will thank you.
+              </strong>
+            </li>
+          </ul>
+          <p>
+            Here’s what nobody tells you: By the time everyone else catches on
+            to these advantages, it’ll be too late. The best time to level up
+            was yesterday. The next best time? Right now.
+          </p>
+          <p>
+            This is just the beginning of what’s possible with PostgreSQL and
+            MySQL. Want to go deeper? Keep reading, test both in YOUR stack, and
+            bookmark this page—you’ll want to reference it when the “database
+            war stories” start flying in your next standup.
+          </p>
+        </section>
+
+        {/* Internal linking opportunities */}
+        <section>
+          <h3>Related Reads (Don’t Miss These)</h3>
+          <ul>
+            <li>
+              <Link href="/code-report/apis-explained">APIs Explained</Link>
+            </li>
+            <li>
+              <Link href="/code-report/fullstack-roadmap">
+                The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer:
+                Practical Steps from a Senior Engineer
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/mongodb-explained">
+                MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing
+                Modern Development
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/ApachevsNGINX">
+                Apache vs. NGINX: A Complete Guide to Modern Web Server and
+                Proxy Architecture
+              </Link>
+            </li>
+          </ul>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 7,
-      title: "Every React Concept Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
-      alt: "Every React Concept Explained",
-      date: "May 2, 2025",
-      articleRoute: "all-react-concepts",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 10,
-      title:
-        "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
-      alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      date: "May 2, 2025",
-      articleRoute: "react-hooks",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-    {
-      id: 12,
-      title: "APIs Explained (in 4 Minutes)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
-      alt: "Visual representation of API communication between applications",
-      date: "May 7, 2025",
-      articleRoute: "apis-explained",
-    },
-    {
-      id: 13,
-      title:
-        "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
-      alt: "MongoDB database architecture visualization",
-      date: "May 7, 2025",
-      articleRoute: "mongodb-explained",
-    },
-    {
-      id: 15,
-      title:
-        "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg",
-      alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
-      date: "May 9, 2025",
-      articleRoute: "ApachevsNGINX",
-    },
-    {
-      id: 16,
-      title:
-        "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
-      alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
-      date: "May 9, 2025",
-      articleRoute: "web-server",
-    },
-    {
-      id: 17,
-      title: "Define Domain Name System (DNS)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp",
-      alt: "DNS explanation diagram showing how domains resolve to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "what-is-dns",
-    },
-    {
-      id: 18,
-      title:
-        "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
-      alt: "DNS Records Infographic showing how domain names connect to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "dns-records",
-    },
-    {
-      id: 19,
-      title: "Easy Definition of VPN",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg",
-      alt: "Visual explanation of how a VPN protects your internet connection",
-      date: "May 9, 2025",
-      articleRoute: "vpn-explained",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

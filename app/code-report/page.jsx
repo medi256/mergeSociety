@@ -335,8 +335,8 @@ const Section6 = () => {
       title:
         "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
-      alt: "Software engineering career advice: Building projects for real users vs localhost development",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+      alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
       date: "June 28, 2025",
       articleRoute: "real-world-coding-career-advice",
     },

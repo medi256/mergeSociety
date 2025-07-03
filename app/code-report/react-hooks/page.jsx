@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
-import SyntaxHighlighter from "react-syntax-highlighter";
+// import SyntaxHighlighter from "react-syntax-highlighter";
 
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+// import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -454,498 +454,559 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
+        {/* SEO-optimized content structure here */}
         <h1>
-          ALL React Hooks Explained: When, Why, and How to Use Every Hook in
-          Your React Toolkit
+          React Hooks: The Complete Map for Mastering State, Effects &
+          Performance in 2025
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg"
-          }
-          alt="ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-2">
-            | May 2, 2025
-          </time>
-        </h2>
+
+        <figure className="blog-image">
+          <img
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg"
+            alt="ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit"
+            width={600}
+            height={400}
+            decoding="async"
+            fetchPriority="high"
+          />
+          <figcaption>
+            Explaining every React hook—what it does, when to use it, and why it
+            matters.
+          </figcaption>
+        </figure>
+
+        <section
+          className="blog-meta"
+          itemScope
+          itemType="https://schema.org/Article"
+        >
+          <h2 className="project-info">
+            <span
+              className="project-title"
+              itemProp="author"
+              itemScope
+              itemType="https://schema.org/Person"
+            >
+              <Link href="/about" itemProp="url">
+                <span itemProp="name">Written by Massa Medi</span>
+              </Link>
+            </span>
+            <time
+              className="project-date"
+              dateTime="2025-05-02"
+              itemProp="datePublished"
+            >
+              | May 2, 2025
+            </time>
+          </h2>
+        </section>
+
         <p>
-          So, you’ve decided to build a React app. Fantastic! That likely means
-          you’ll spend some quality time with React hooks—the powerful functions
-          that let you manage state, side effects, refs, context, and more
-          within your components. The only catch: React has quite a bouquet of
-          hooks, and it’s not always obvious which one to reach for in a given
-          situation.
+          What if I told you that almost everything you've heard about React
+          hooks is wrong—or at least, incomplete? That there’s a hidden pattern
+          behind the chaos, and you could finally understand which hooks matter,
+          which are a total waste, and how to hack React itself to actually
+          enjoy building apps? Prepare to have every question you've ever had
+          about hooks destroyed, because I'm about to map out every core React
+          hook, the real reasons you should or shouldn't use them, the pro-level
+          tricks nobody is talking about, and exactly how to never get lost in
+          hook hell again.
         </p>
-        <p>
-          Let’s embark on a guided tour through every major React hook. We’ll
-          explore exactly what each hook does, outline the best ways to use
-          them, and break down how often you’ll find them useful—from the go-to,
-          daily-use hooks to the rare gems you might only need for advanced
-          scenarios. To make this grand tour easier, I’ve built a mental “map”
-          of React hooks, grouping them into eight major categories. You’ll see
-          how each fits into the bigger picture as you build scalable,
-          maintainable React apps.
-        </p>
-        <h2>
-          State Management Hooks: useState, useReducer, and useSyncExternalStore
-        </h2>
-        <p>
-          <strong>useState</strong> is the bread and butter of any React
-          developer. If you’re not using a larger framework for state
-          management, you’ll use <code>useState</code> a lot. In fact, the very
-          reason React exists is to help us manage state and re-render
-          components as that state changes.
-        </p>
-        <p>
-          <code>useState</code> shines in client components with their own
-          simple, component-specific state. Its versatility is unmatched:
-          capture user input in form fields, show or hide modals, tooltips, or
-          dropdowns with booleans, conditionally add CSS classes, or keep track
-          of numbers for things like shopping carts or counters.
-        </p>
-        <p>
-          To use <code>useState</code>, you provide an initial value (really,
-          any JavaScript value)—that value lands in a state variable, which
-          React keeps track of. You’ll receive an array with two items: the
-          state value and a function to update it. In code, you typically
-          destructure them like so:
-        </p>
-        <pre>
-          <code>{`const [count, setCount] = useState(0);`}</code>
-        </pre>
-        <p>
-          Whenever you call the updater function, React re-renders the component
-          with the new state.
-        </p>
-        <p>
-          <strong>useReducer</strong> is another state hook, but you’ll reach
-          for it less often. It works wonders for more complex, interrelated
-          state—think forms with lots of inputs, or game states where several
-          values change together. <code>useReducer</code> takes a reducer
-          function (which receives state and an action, then returns new state)
-          and an initial value. It returns the current state and a{" "}
-          <code>dispatch</code> function to trigger updates.
-        </p>
-        <p>
-          This centralizes all state updates in a single function, making your
-          codebase much easier to maintain as your apps scale. For example:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="jsx" style={docco}>
-              {`
-  const initialState = { count: 0 };
-  function reducer(state, action) {
-    switch (action.type) {
-      case 'increment': return { count: state.count + 1 };
-      default: return state;
-    }
-  }
-  const [state, dispatch] = useReducer(reducer, initialState);
-          `}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
-        <p>
-          <strong>useSyncExternalStore</strong>, on the other hand, is—let’s be
-          honest—pretty niche. You probably won’t use it unless you’re writing
-          your own state management solution from scratch, or need to sync
-          non-React data stores into React’s ecosystem. Most developers can
-          safely skip this one.
-        </p>
-        <h2>
-          Effect Hooks: useEffect, useLayoutEffect, and useInsertionEffect
-        </h2>
-        <p>
-          Time to talk side effects! “Side effects” are any interactions with
-          systems outside of React—like updating the browser title, fetching
-          data, or synchronizing with browser APIs.
-        </p>
-        <p>
-          <strong>useEffect</strong> is the familiar workhorse here. You give it
-          a function to run, and by default, React runs it after every render.
-          You can limit when it runs by supplying a dependencies array. When a
-          value in that array changes, the effect runs again. For example,
-          changing the browser tab’s title when a button is clicked:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="jsx" style={docco}>
-              {`
-  useEffect(() => {
-    document.title = \`Count: \${count}\`;
-  }, [count]);
-          `}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
-        <p>There are two broad types of side effects:</p>
-        <ul>
-          <li>
-            <strong>Event-based side effects</strong>: things that happen in
-            response to a user event, like a button press.
-          </li>
-          <li>
-            <strong>Render-based side effects</strong>: things that run after a
-            component renders, like fetching data from an API.
-          </li>
-        </ul>
-        <p>
-          But here’s a power tip: in modern React, don’t use{" "}
-          <code>useEffect</code> for everything! For event-based effects, put
-          the logic straight in your event handler. For data fetching, libraries
-          like React Query or your framework’s own tools (such as Next.js data
-          fetching methods) are often superior.
-        </p>
-        <p>
-          So when <em>should</em> you use <code>useEffect</code>? Primarily to
-          synchronize React with browser APIs or other external systems. For
-          example, synchronizing component state with the browser’s media API to
-          play or pause a video.
-        </p>
-        <p>
-          <strong>useLayoutEffect</strong> is a special variant that runs{" "}
-          <em>before</em> React paints the UI, synchronously. It’s useful when
-          you need to measure or update the DOM before the user sees any
-          changes—such as measuring the height of a tooltip and setting it in
-          state before it appears onscreen. (This technique ensures the layout
-          is accurate on first visual paint!)
-        </p>
-        <p>
-          <strong>useInsertionEffect</strong> is even more niche, usually
-          relevant only to library authors creating CSS-in-JS libraries like
-          Styled Components or Framer Motion. This hook runs before{" "}
-          <code>useEffect</code> and <code>useLayoutEffect</code>, allowing the
-          insertion of styles just in time for them to be read by other effect
-          hooks.
-        </p>
-        <h2>Ref Hooks: useRef and useImperativeHandle</h2>
-        <p>
-          Refs let you hang on to a value across renders without triggering
-          re-renders if that value changes. <strong>useRef</strong> is a bit
-          like <code>useState</code>, but for non-display data. It returns a
-          single object with a <code>current</code> property:
-        </p>
-        <pre>
-          <code>{`const timerRef = useRef(null);`}</code>
-        </pre>
-        <p>
-          You can set <code>timerRef.current</code> directly, making this
-          perfect for non-stateful data like interval IDs, or referencing DOM
-          elements. Here’s how you might store an interval ID for a timer, so
-          you can clear it in a <code>stopTimer</code> function.
-        </p>
-        <p>
-          <strong>useRef</strong> also shines for DOM access—just connect the
-          returned ref to the <code>ref</code> prop of any React element, and
-          then use <code>ref.current</code> to directly access the underlying
-          DOM node.
-        </p>
-        <p>
-          <strong>useImperativeHandle</strong>, meanwhile, is quite rare. It’s
-          used when a parent needs to call a function (like <code>focus()</code>
-          ) on a child component via refs. To do this, you combine{" "}
-          <code>forwardRef</code> with <code>useImperativeHandle</code>—a
-          pattern that lets you expose only specific functions (not the whole
-          instance) to the parent. Note: in React 19, this whole (slightly
-          clunky) dance gets much simpler.
-        </p>
-        <h2>Performance Hooks: useMemo and useCallback</h2>
-        <p>
-          When it comes to optimizing React applications, two hooks deserve
-          special mention: <strong>useMemo</strong> and{" "}
-          <strong>useCallback</strong>.
-        </p>
-        <p>
-          <code>useMemo</code> helps you avoid expensive recalculations by{" "}
-          <em>memoizing</em> the result of a function—only recomputing it when
-          its dependencies change. Think: running an intensive calculation (like
-          summing a large array) only when absolutely necessary.
-        </p>
-        <pre>
-          <code>{`const sum = useMemo(() => numbers.reduce((a, b) => a + b, 0), [numbers]);`}</code>
-        </pre>
-        <p>
-          <code>useMemo</code> looks similar to <code>useEffect</code>, but{" "}
-          <strong>it always returns a value</strong> and{" "}
-          <strong>never produces side effects</strong>.
-        </p>
-        <p>
-          <code>useCallback</code> is closely related. Instead of memoizing a
-          value, it memoizes a function. This is especially important for
-          callback functions passed to deeply nested child components. Without
-          it, a new function gets created on every render—sometimes triggering
-          unnecessary renders in optimized child components.
-        </p>
-        <pre>
-          <code>{`const increment = useCallback(() => setCount(c => c + 1), []);`}</code>
-        </pre>
-        <p>
-          Pass <code>increment</code> to your <code>&lt;Button /&gt;</code>{" "}
-          components with confidence—React won’t re-create the function unless
-          its dependencies change.
-        </p>
-        <h2>Context Hook: useContext</h2>
-        <p>
-          <strong>useContext</strong> lets you read values from a React Context.
-          It’s incredibly simple: as long as your component is rendered inside a
-          Provider (no matter how many components deep), you can call{" "}
-          <code>useContext</code> to access the context’s value:
-        </p>
-        <pre>
-          <code>{`const theme = useContext(ThemeContext);`}</code>
-        </pre>
-        <p>
-          That’s it! It’s a clean and powerful way to share data down the tree
-          without prop drilling.
-        </p>
-        <h2>Transition Hooks: useTransition and useDeferredValue</h2>
-        <p>
-          Traditionally, any state update in React is treated as
-          urgent—everything re-renders immediately. But what if you’re running a
-          really heavy computation or updating a giant list? That can make your
-          UI feel sluggish or unresponsive.
-        </p>
-        <p>
-          <strong>useTransition</strong> offers a way to mark certain state
-          updates as “not urgent.” You wrap these updates in a{" "}
-          <code>startTransition</code> callback. React knows it can defer this
-          work until a less busy moment—keeping your app snappy. It also
-          provides an <code>isPending</code> boolean so you can show loading
-          indicators while transitions are happening. For example, filtering a
-          list as users type, without making every keystroke slow things down:
-        </p>
-        <pre>
-          <code>
-            <SyntaxHighlighter language="jsx" style={docco}>
-              {`
-  const [isPending, startTransition] = useTransition();
-  
-  function handleInputChange(e) {
-    startTransition(() => {
-      setFilter(e.target.value);
-    });
-  }
-          `}
-            </SyntaxHighlighter>
-          </code>
-        </pre>
-        <p>
-          <strong>useDeferredValue</strong> works similarly, but with a slightly
-          different approach. Instead of wrapping a callback, you pass the{" "}
-          <em>value</em> you want to defer directly to the hook. React schedules
-          the update at the optimal time for performance. This is handy for
-          things like list filtering as well, and—bonus—you don’t have to manage
-          any pending state yourself!
-        </p>
-        <h2>Miscellaneous Hooks: useDebugValue and useId</h2>
-        <p>
-          <strong>useDebugValue</strong> is mainly for library and advanced
-          custom hook authors, especially if you use React DevTools. By labeling
-          your hooks with a string, you make debugging easier and faster when
-          tracking down custom hook usage.
-        </p>
-        <p>
-          <strong>useId</strong> does exactly what the name implies: generates a
-          unique ID for each call. A common use case is giving form inputs and
-          their labels matching, unique IDs—especially important when those
-          components might appear multiple times on one page. For instance, if
-          you reuse an <code>&lt;EmailInput /&gt;</code> component twice in a
-          form, <code>useId</code> ensures each has a collision-proof ID.
-        </p>
-        <p className="alert alert-warning">
-          <strong>Pro tip:</strong> Don’t use <code>useId</code> for React list
-          keys. It’s designed for IDs needed at the DOM level, not for uniquely
-          identifying React list items.
-        </p>
-        <h2>New and Notable: React 19 Hooks</h2>
-        <p>
-          React 19 introduces even more powerful hooks and patterns. If you’re
-          curious about what’s new and want to master the latest additions,
-          check out the in-depth video linked at{" "}
-          <a
-            href="https://reactbootcamp.dev"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            ReactBootcamp.dev
-          </a>
-          , where you’ll find a dedicated walkthrough on all the new React 19
-          hooks—what they do, and how to start using them today.
-        </p>
-        <h2>Level Up Your React Skills!</h2>
-        <p>
-          We’ve covered every major hook in React, what it does, and when you’ll
-          want to use it. If you’re itching to master every nuance, build
-          real-world projects, and tackle a mountain of hands-on challenges, the{" "}
-          <a
-            href="https://reactbootcamp.dev"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            React Bootcamp
-          </a>{" "}
-          course is an excellent place to dive in. Expect interactive problems,
-          fun video lessons, and comprehensive cheat sheets covering all these
-          hooks and more!
-        </p>
-        <p>
-          🎥 Want to go deeper into the latest hooks?{" "}
-          <a
-            href="https://reactbootcamp.dev"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Click here to watch the full React 19 video guide
-          </a>
-          . Thanks for reading—and happy coding!
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+
+        {/* Well-structured body with proper H2s and H3s */}
+        <section>
+          <h2>
+            Stop Guessing: See All Major React Hooks Categorized & Explained
+          </h2>
+          <p>
+            If you've opened up a React project and seen imports like{" "}
+            <code>useState</code>, <code>useEffect</code>, <code>useRef</code>,
+            and a dozen others, you're not alone—most people treat hooks like a
+            trivia challenge. Here’s what nobody tells you: React hooks fall
+            into just eight categories. Nail these categories and suddenly,
+            every new hook makes sense—even the weird ones found deep in the
+            docs or released in React 19.
+          </p>
+          <ul>
+            <li>
+              <strong>State Management Hooks</strong>: Controlling data inside
+              your app
+            </li>
+            <li>
+              <strong>Effect Hooks</strong>: Syncing with the world outside
+              React
+            </li>
+            <li>
+              <strong>Ref Hooks</strong>: Hanging onto values or elements
+            </li>
+            <li>
+              <strong>Performance Hooks</strong>: Speeding things up
+            </li>
+            <li>
+              <strong>Context Hooks</strong>: Sharing data (global and local)
+              like a pro
+            </li>
+            <li>
+              <strong>Transition Hooks</strong>: Smoothing out user experience
+            </li>
+            <li>
+              <strong>Random & Niche Hooks</strong>: Toolbox secrets (debugging,
+              IDs, etc.)
+            </li>
+            <li>
+              <strong>React 19 Hooks</strong>: Fresh power-ups for insiders
+            </li>
+          </ul>
+          <blockquote>
+            "Most people treat hooks like scattered tools. Pros see the hidden
+            map. Which one are you?"
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>State Management Hooks: Your New Secret Weapon</h2>
+          <h3>
+            useState: The Bread and Butter (And Why You’re Probably Misusing It)
+          </h3>
+          <p>
+            Here's the truth that blew my mind the first time:{" "}
+            <strong>
+              React exists almost entirely to make local state easy
+            </strong>
+            . <code>useState</code> is the default tool for 90% of your state
+            needs. Every time you want an input, a toggle, a number—literally
+            any value that changes—this is what you reach for:
+          </p>
+          <ul>
+            <li>
+              Capture user input for forms (<code>&lt;input /&gt;</code>, text
+              areas, selects...)
+            </li>
+            <li>
+              Show/hide UI like modals or dropdowns (just use a boolean state)
+            </li>
+            <li>Handle numbers in counters, carts, scoring, and more</li>
+          </ul>
+          <p>
+            <strong>How it Actually Works:</strong> Call <code>useState</code>{" "}
+            with any value (number, string, boolean, array, object), get back
+            two things: the state variable, and a function to update it. Update
+            your UI by just calling that updater. That’s it.
+            <br />
+          </p>
+          <blockquote>
+            "Stop trying to be perfect. Start trying to be remarkable."
+          </blockquote>
+          <h4>Common Mistakes Most Beginners Make with useState</h4>
+          <ul>
+            <li>Trying to mutate state directly (always use the updater!)</li>
+            <li>Confusing initial value with current value</li>
+            <li>
+              Stuffing everything into a single state variable (when you could
+              split it out)
+            </li>
+          </ul>
+          <h4>Pro Tip:</h4>
+          <p>
+            If your state is getting tangled (too many related values), don’t
+            jam it all into useState.
+          </p>
+        </section>
+
+        <section>
+          <h3>useReducer: When State Gets Serious</h3>
+          <p>
+            Think <code>useReducer</code> is only for Redux-fans and
+            architecture astronauts? Think again. This hook destroys complexity
+            in real-world forms, games, and situations where state changes in
+            many ways or depends on other values. Instead of a thousand{" "}
+            <code>useState</code> calls, one reducer does it all.
+          </p>
+          <blockquote>
+            "Winners do what losers won't—combine related state the smart way."
+          </blockquote>
+          <h4>When to Use:</h4>
+          <ul>
+            <li>
+              Multiple related pieces of state (multi-step forms, complex
+              objects)
+            </li>
+            <li>State values that depend on each other</li>
+            <li>Game state, undo/redo, toggle logic, shopping carts</li>
+          </ul>
+          <h4>Step-by-Step: The Reducer Power Move</h4>
+          <ol>
+            <li>Create a reducer function that takes state and an 'action'</li>
+            <li>
+              Pass this function and an initial state to <code>useReducer</code>
+            </li>
+            <li>Destructure out [state, dispatch] from the result</li>
+            <li>
+              Call <code>dispatch(action)</code> every time you want state to
+              change
+            </li>
+          </ol>
+          <h4>Common Mistake:</h4>
+          <p>
+            Trying to use <code>useReducer</code> for the same things as{" "}
+            <code>useState</code>. Only reach for <code>useReducer</code> when
+            update logic feels painful or repetitive.
+          </p>
+        </section>
+
+        <section>
+          <h3>
+            useSyncExternalStore: Advanced State Power You’ll (Almost) Never Use
+          </h3>
+          <p>
+            You know what's crazy about <code>useSyncExternalStore</code>? Only
+            state library creators and hardcore React hackers ever touch this.
+            If you’re not building a global state management library from
+            scratch, you can skip this. For nearly everyone else—it’ll never
+            show up in your imports.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Effect Hooks: How to Break Out of the React Bubble (Without Going
+            Insane)
+          </h2>
+          <h3>What Is a Side Effect—and Why Should You Care?</h3>
+          <p>
+            Let’s cut the confusion: A <strong>side effect</strong> is anything
+            that messes with the world outside React (fetching data, accessing
+            browser APIs, timers, etc.). Most people think{" "}
+            <code>useEffect</code> is for everything “extra.” But here’s the
+            unpopular truth: <strong>It’s best used sparingly</strong>.
+          </p>
+
+          <h3>useEffect: The Most Overused and Misunderstood Hook in React</h3>
+          <blockquote>
+            "Most experts won't admit this, but you should be using useEffect
+            way less than you think."
+          </blockquote>
+          <ul>
+            <li>
+              Want to fetch data on component mount? Use data fetching hooks
+              from React Query or Next.js, not <code>useEffect</code>.
+            </li>
+            <li>
+              Want to run something after a button click? Put it in your event
+              handler, not <code>useEffect</code>.
+            </li>
+          </ul>
+          <h4>
+            When <strong>should</strong> you actually use it?
+          </h4>
+          <ul>
+            <li>
+              Syncing React state with browser APIs (media events, localStorage,
+              etc.)
+            </li>
+            <li>
+              Listening to window or third-party changes not handled inside
+              React
+            </li>
+          </ul>
+          <h4>Quick Win:</h4>
+          <p>
+            Use the <code>dependencies</code> array to control exactly when your
+            effect runs, or risk creating infinite loops and hard-to-track bugs.
+          </p>
+
+          <h3>useLayoutEffect: The Sledgehammer for Synchronous DOM Tasks</h3>
+          <ul>
+            <li>
+              Runs <strong>before</strong> browser paint (a step ahead of{" "}
+              <code>useEffect</code>)
+            </li>
+            <li>
+              Perfect for measuring elements (like tooltip heights) before
+              showing them to the user
+            </li>
+            <li>
+              Almost never needed—unless you need a perfect UI measurement right
+              before render
+            </li>
+          </ul>
+
+          <h3>useInsertionEffect: The CSS-in-JS Hacker's Secret</h3>
+          <p>
+            This is the niche hook for Styled Components and Emotion devs,
+            running even before <code>useLayoutEffect</code> to ensure styles
+            are loaded exactly when you need them. Unless you’re building a
+            CSS-in-JS library, you probably won’t need this in your toolkit.
+          </p>
+        </section>
+
+        <section>
+          <h2>Ref Hooks: Hanging onto the Stuff React Can't Remember</h2>
+          <h3>useRef: The Swiss Army Knife of Hooks</h3>
+          <p>
+            Here’s why <code>useRef</code> is misunderstood: It’s not just a
+            “reference” for DOM elements. It lets you hang onto any value{" "}
+            <strong>without</strong> triggering rerenders. You can use it for:
+          </p>
+          <ul>
+            <li>
+              Storing timeout or interval IDs (clear them whenever you want)
+            </li>
+            <li>
+              Persisting mutable values across rerenders (like draft form data,
+              video state, etc.)
+            </li>
+            <li>Referencing DOM nodes to manage focus or measure dimensions</li>
+          </ul>
+          <p>
+            <strong>Pattern Break:</strong> Want to access a DOM node? Attach
+            your ref to its <code>ref</code> prop and call <code>.current</code>{" "}
+            to get the real element.
+          </p>
+          <h4>What most people mess up:</h4>
+          <ul>
+            <li>
+              Confusing refs with state (remember: refs don’t cause rerenders!)
+            </li>
+            <li>Trying to derive data from refs in your UI. Don’t do it!</li>
+          </ul>
+
+          <h3>
+            useImperativeHandle: When You *Have* to Call a Child's Method (Rare,
+            But Powerful)
+          </h3>
+          <p>
+            Picture this: You want a parent component to focus an input deep in
+            a child. Don’t hack it. <code>useImperativeHandle</code> lets you
+            expose a safe, controlled method on the ref—but only if you
+            intentionally setup <code>forwardRef</code> on the child. Insider’s
+            tip: This will change in React 19 to require less boilerplate.
+          </p>
+        </section>
+
+        <section>
+          <h2>Performance Hooks: Destroy Slow React Once and For All</h2>
+          <h3>useMemo: Memoize Heavy Calculations</h3>
+          <blockquote>
+            "Success isn't about working harder—it's about working on what
+            everyone else ignores."
+          </blockquote>
+          <p>
+            Imagine running a massive calculation (sorting, filtering, crunching
+            numbers) every single render. Nightmare, right? <code>useMemo</code>{" "}
+            rushes in to cache expensive results. It re-runs your function only
+            when its dependencies change:
+          </p>
+          <ul>
+            <li>Array math? Cache the sum until the array changes</li>
+            <li>Object shape? Only recalculate when inputs change</li>
+          </ul>
+          <h4>Common Mistake:</h4>
+          <p>
+            Wrapping everything in <code>useMemo</code> “just in case.” Only use
+            it when there’s a real, noticeable performance bottleneck.
+          </p>
+
+          <h3>useCallback: Stop Recreating Functions Every Render</h3>
+          <ul>
+            <li>
+              Passing a callback to a child component? Use{" "}
+              <code>useCallback</code> to memoize it—so your child only
+              rerenders when it actually has to.
+            </li>
+            <li>
+              Helpful for big, complex component trees or for preventing
+              unnecessary renders.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>
+            Context & Transition Hooks: The Power to Share & Smooth Everything
+          </h2>
+          <h3>useContext: Instant Access to Shared State</h3>
+          <p>
+            React’s <code>useContext</code> is almost cheating. Wrap your
+            components in a Provider (for themes, user data, etc.), then
+            anywhere deep in that tree, just call <code>useContext</code> to
+            grab the value. No props. No drilling. Just magic.
+          </p>
+          <blockquote>
+            "Context is global state for people who hate global state."
+          </blockquote>
+          <h3>useTransition & useDeferredValue: Smoother UX for Heavy Tasks</h3>
+          <ul>
+            <li>
+              <strong>useTransition:</strong> Want instant UI feedback, even if
+              the full calculation is slow? Mark updates as “not urgent.” The UI
+              updates instantly, and the slow stuff happens after. Use{" "}
+              <code>startTransition</code> and track pending state to show
+              loading.
+            </li>
+            <li>
+              <strong>useDeferredValue:</strong> Want the same effect, but even
+              less manual? Pass a prop to <code>useDeferredValue</code>, and
+              React will handle the timing.
+            </li>
+          </ul>
+          <h4>Typical Win:</h4>
+          <p>
+            Filtering long lists, processing big data, and keeping the interface
+            feeling lightning-fast—these hooks are your secret weapon.
+          </p>
+        </section>
+
+        <section>
+          <h2>Rare & Random Hooks: Debugging & IDs Like a Pro</h2>
+          <h3>useDebugValue: Flex for the DevTools</h3>
+          <p>
+            If you’re building custom hooks for teams and you want them to look
+            killer in React Dev Tools, slap a <code>useDebugValue</code> in
+            there to label the value however you want. Never hunt for bugs blind
+            again.
+          </p>
+          <h3>useId: Unique IDs for Dynamic Form Inputs</h3>
+          <p>
+            Contrary to common belief,{" "}
+            <strong>
+              don’t use <code>useId</code> for React list keys!
+            </strong>{" "}
+            This hook is for cases where you need dynamic, unique IDs for form
+            labels and inputs that might be used multiple times per page.
+            Finally, no more duplicate-label bugs.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Advanced: React 19 Hooks and the Next Generation (Why You Can't
+            Ignore Them)
+          </h2>
+          <p>
+            With every new React version, fresh powers are unlocked: performance
+            optimizations, more flexible contexts, smarter effects. React 19
+            dramatically expands what’s possible—and if you want to crush it in
+            the next year, you’ll want to start exploring these changes{" "}
+            <strong>now</strong>.
+          </p>
+          <p>
+            “This is just the beginning of what’s possible with React hooks. If
+            you’re hungry to dominate every aspect of state, performance, and
+            next-level interactivity, it's time to go deeper.”
+          </p>
+          <ul>
+            <li>
+              Explore interactive challenges, cheat sheets, and next-level React
+              insights at{" "}
+              <a
+                href="https://www.reactbootcamp.com"
+                target="_blank"
+                rel="noopener"
+              >
+                React Bootcamp
+              </a>
+            </li>
+            <li>
+              Watch in-depth demos of every React 19 hook in action (video link
+              at the end!)
+            </li>
+          </ul>
+          <blockquote>
+            "Most people will ignore this and wonder why they're stuck."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>People Also Ask: React Hooks FAQ</h2>
+          <div className="faq-section">
+            <h3>What is the difference between useState and useReducer?</h3>
+            <p>
+              <strong>useState</strong> is perfect for simple, single
+              values—think toggles, numeric counters, or single input controls.{" "}
+              <strong>useReducer</strong> shines when your state logic is
+              complex, involves multiple pieces, or values that change together
+              (like form wizards or managing game logic).
+            </p>
+            <h3>When should I use useEffect?</h3>
+            <p>
+              Only when you need to synchronize your component with something
+              “outside” React—like listening for window events, synchronizing
+              with browser APIs, or integrating external data not handled by a
+              dedicated library.
+            </p>
+            <h3>What's the point of useRef?</h3>
+            <p>
+              Use <code>useRef</code> to persist values that don’t cause
+              re-renders. This is ideal for tracking timers, storing previous
+              values, or referencing DOM elements for direct manipulation or
+              measurement.
+            </p>
+            <h3>How does useMemo help performance?</h3>
+            <p>
+              <code>useMemo</code> caches expensive calculations and re-computes
+              them only when dependencies change. This can massively boost your
+              performance on big arrays, objects, or slow computations.
+            </p>
+            <h3>Can useId be used for list keys?</h3>
+            <p>
+              No! <code>useId</code> is designed for generating unique IDs for
+              accessibility and form label pairing—never for React’s list keys.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Internal Linking Opportunities</h2>
+          <ul>
+            <li>
+              <Link href="/react">Get started with React</Link>
+            </li>
+            <li>
+              <Link href="/react/usestate-hook">Learn useState</Link>
+            </li>
+            <li>
+              <Link href="/react/usestate-hook">Learn useEffect</Link>
+            </li>
+            <li>
+              <Link href="/code-report/all-react-concepts">
+                Every React Concept Explained
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/fullstack-roadmap">
+                Full Stack Developer Roadmap
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>
+            The Takeaway: The Hidden Power of React Hooks (And Why You Need to
+            Start Now)
+          </h2>
+          <p>
+            If you’ve made it this far, you’re in the top 10% of React
+            developers—not because you know every hook, but because you get{" "}
+            <strong>why</strong> each one exists, how to wield it, and when to
+            ignore the hype. Want to level up? Build something with each hook
+            today, before your motivation fades. The React landscape is evolving
+            faster than ever—and those who adapt will obliterate everyone
+            competing for top jobs and high-impact projects.
+          </p>
+          <blockquote>
+            “The real winners don’t just know the API. They understand the
+            map—and move faster because of it.”
+          </blockquote>
+          <p>
+            Bookmark this article, share it with your team, and come back as you
+            encounter new challenges. This is just the start. Are you ready to
+            build the future—or will you be stuck watching from the sidelines?
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 7,
-      title: "Every React Concept Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
-      alt: "Every React Concept Explained",
-      date: "May 2, 2025",
-      articleRoute: "all-react-concepts",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};
