@@ -336,9 +336,18 @@ const Section6 = () => {
         "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
-      alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
+      alt: "real world coding career advice",
       date: "June 28, 2025",
       articleRoute: "real-world-coding-career-advice",
+    },
+    {
+      id: 27,
+      title: "AI Coding Tools",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751617376/Best_AI_tools_for_coding_ohlocx.png",
+      alt: "AI Coding Tools",
+      date: "July 4, 2025",
+      articleRoute: "best-ai-tool-for-coding",
     },
   ];
 

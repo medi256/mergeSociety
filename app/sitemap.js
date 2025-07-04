@@ -333,6 +333,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/uc-berkeley-computer-science-admission-requirements-2025`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/cplus`,
       lastModified: new Date(),
     },
@@ -466,6 +470,10 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/code-report/websocket-polling`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/code-report/best-ai-tool-for-coding`,
       lastModified: new Date(),
     },
     {

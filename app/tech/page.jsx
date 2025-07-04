@@ -501,6 +501,15 @@ const Section3 = () => {
       date: "May 14, 2025",
       articleRoute: "recommended-gaming-pc-builds",
     },
+    {
+      id: 41,
+      title: "UC Berkeley Computer Science Admission Requirements 2025",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751611626/uc_barkly_ilppxp.png",
+      alt: "UC Berkeley Admissions CS students",
+      date: "June 4, 2025",
+      articleRoute: "uc-berkeley-computer-science-admission-requirements-2025",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

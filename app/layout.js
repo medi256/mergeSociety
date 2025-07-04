@@ -299,6 +299,12 @@ export default function RootLayout({ children }) {
           "position": 15,
           "name": "AI Tools for Research",
           "item": "https://www.mergesociety.com/ai/ai-tools-research-2025"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "AI Coding Tools",
+          "item": "https://www.mergesociety.com/code-report/best-ai-tool-for-coding"
         }
       ]
     }
