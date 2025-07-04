@@ -344,7 +344,7 @@ const Section6 = () => {
       id: 27,
       title: "AI Coding Tools",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751617376/Best_AI_tools_for_coding_ohlocx.png",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751618356/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx.png",
       alt: "AI Coding Tools",
       date: "July 4, 2025",
       articleRoute: "best-ai-tool-for-coding",

@@ -7,7 +7,7 @@ export const metadata = {
   title:
     "AI Coding Tools: Best AI Tools for Coding (What Most Developers Miss)",
   description:
-    "Discover the best AI coding tools in 2024 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results and avoid the #1 mistake that kills productivity.",
+    "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results and avoid the #1 mistake that kills productivity.",
   keywords:
     "AI coding tools, best AI tools for coding, AI coding assistants, Cursor IDE, Claude AI, ChatGPT coding, Gemini AI, AI code generation, context engineering, AI debugging tools, Warp IDE, Bolt no-code, AI code review, mintlify documentation, AI development tools",
   authors: [{ name: "AI Coding Expert" }],
@@ -23,12 +23,12 @@ export const metadata = {
     title:
       "AI Coding Tools: Best AI Tools for Coding (What Most Developers Miss)",
     description:
-      "Discover the best AI coding tools in 2024 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
+      "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
     url: "https://www.mergesociety.com/code-report/best-ai-tool-for-coding",
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751617376/Best_AI_tools_for_coding_ohlocx.png",
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751618356/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx.png",
         width: 1200,
         height: 630,
         alt: "AI Coding Tools - Best AI Tools for Coding",
@@ -44,9 +44,9 @@ export const metadata = {
     title:
       "AI Coding Tools: Best AI Tools for Coding (What Most Developers Miss)",
     description:
-      "Discover the best AI coding tools in 2024 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
+      "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751617376/Best_AI_tools_for_coding_ohlocx.png",
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751618356/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx.png",
     ],
     creator: "@manager70191",
   },
@@ -72,8 +72,8 @@ export const metadata = {
 
   // Article-specific metadata
   other: {
-    "article:published_time": "2024-01-01T00:00:00.000Z",
-    "article:modified_time": "2024-01-01T00:00:00.000Z",
+    "article:published_time": "2025-01-01T00:00:00.000Z",
+    "article:modified_time": "2025-01-01T00:00:00.000Z",
     "article:section": "Technology",
     "article:tag": "AI, Coding, Development, Tools, Programming",
     "article:author": "AI Coding Expert",
@@ -99,7 +99,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751617376/Best_AI_tools_for_coding_ohlocx.png"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751618356/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx.png"
             alt="Best AI Tools for Coding"
             width={600}
             height={400}
@@ -474,7 +474,7 @@ export default function Article() {
             People Also Ask (Google): Key AI Coding Tool Questions Answered
           </h2>
           <div className="faq-section">
-            <h3>What are the best AI tools for coding in 2024?</h3>
+            <h3>What are the best AI tools for coding in 2025?</h3>
             <p>
               The top AI coding tools right now are Cursor, Warp, ChatGPT,
               Claude, Gemini, Bolt, Lovable, mintlify, Code Rabbit, and Snyk.
