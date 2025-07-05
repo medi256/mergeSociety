@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -308,402 +308,433 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>Easy Definition of VPN</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg"
-          }
-          alt="Visual explanation of how a VPN protects your internet connection"
-          width={600}
-          height={400}
-          priority
-        />
+        <h1>
+          VPN Explained: The Shocking Truth About How Virtual Private Networks
+          Actually Protect (or Expose) You Online
+        </h1>
         <p>
-          Have you ever wondered what a VPN is and why everyone seems to be
-          talking about it when discussing internet safety and privacy? You’re
-          in the right place! In this comprehensive article, we’re diving deep
-          into the world of VPNs what they are, how they work, why you need one,
-          and how they can shield your digital life from prying eyes.
+          What if your Internet provider, advertisers, or even hackers knew your
+          every online move—and you had no idea? Here’s the wild part: most
+          people don’t realize just how exposed they really are every time they
+          open a browser or fire up a public Wi-Fi connection. But today, I’m
+          pulling back the curtain on VPNs—the technology some call the
+          “invisibility cloak” for the Internet. If you ever browse the web,
+          this is one article you cannot afford to ignore.
         </p>
 
-        <h2>Definition: What Is a VPN?</h2>
-        <p>
-          Let’s start from the top. VPN stands for{" "}
-          <strong>Virtual Private Network</strong>. At its core, a VPN creates a
-          secure, encrypted connection over an otherwise unsecure network such
-          as the public internet. By doing this, it not only protects your
-          online activity from being viewed but also disguises your digital
-          identity as you surf the web.
-        </p>
+        <section>
+          <h2>What Is a VPN? (And The One Thing You've Never Been Told)</h2>
+          <p>
+            Let’s skip the jargon and get real. VPN stands for{" "}
+            <strong>Virtual Private Network</strong>. But here’s what that
+            actually means: A VPN builds an encrypted tunnel between your device
+            and the internet, letting you surf, stream, and work with a level of
+            privacy your regular Internet connection simply can’t touch.
+          </p>
+          <blockquote>
+            Success online isn’t about what you do in public—it’s about the
+            secrets you keep private.
+          </blockquote>
+          <p>
+            You know what’s crazy? Every time you go online without a VPN, your
+            Internet Service Provider (ISP) can see and log <em>everything</em>
+            —every website you visit, every video you stream, every click you
+            make. It’s like your whole Internet life is playing on the jumbotron
+            for them, advertisers, and sometimes even the government.
+          </p>
+          <p>
+            Sure, maybe you trust your ISP not to gossip about your activity.
+            But what if they share—or even sell—that info to third parties?
+            Suddenly, “privacy” is just an illusion.
+          </p>
+          <h3>How a VPN Short-Circuits Nosy Strangers</h3>
+          <p>
+            Here’s where VPNs flip the script: instead of your traffic going
+            through your ISP (where they can peep at everything), it gets
+            redirected—<strong>encrypted</strong>—to a VPN server. So your
+            provider, advertisers, and anyone else eavesdropping are shut out.
+            All they see is that you’re connected to a VPN, not what you’re
+            actually doing.
+          </p>
+          <ul>
+            <li>
+              <strong>Cloak your identity:</strong> No more showing your IP
+              address (which websites use to figure out who—and where—you are).
+              With a VPN, all they see is the VPN server.
+            </li>
+            <li>
+              <strong>Encrypt your activity:</strong> Every website you visit,
+              file you download, or video you watch gets hidden behind
+              tough-as-nails encryption. Even if someone intercepts those data
+              packets (especially on sketchy public Wi-Fi), they see nothing but
+              gibberish.
+            </li>
+            <li>
+              <strong>Break content barriers:</strong> Think a show is “not
+              available in your region”? Switch your VPN to another country and
+              suddenly, you’re in. It’s almost unfair.
+            </li>
+            <li>
+              <strong>Secure remote work:</strong> Need access to your company’s
+              private files from home, overseas, or the corner coffee shop? VPN
+              is your lifeline.
+            </li>
+          </ul>
+          <blockquote>
+            The difference between winners and losers? Winners take control of
+            their digital privacy—losers leave it to chance.
+          </blockquote>
+        </section>
 
-        <h2>How Does Your Internet Normally Work?</h2>
-        <p>
-          Picture this: you call up your Internet Service Provider (ISP) and
-          order internet service. Once your connection is up and running, every
-          action you take online searching, browsing, streaming is routed
-          directly through your ISP’s servers. This means your ISP can see every
-          single website you visit and all of your online activities.
-        </p>
-        <p>
-          While you might assume this isn’t a big problem <em>if</em> your ISP
-          keeps this information private, there’s a catch: in many cases, ISPs
-          share or even sell your data to advertisers or may be compelled to
-          hand it over to government authorities. Suddenly, your personal
-          internet activity isn’t so private anymore.
-        </p>
+        <section>
+          <h2>How Does a VPN Actually Work? (No Geek Speak Required)</h2>
+          <p>
+            Imagine your internet traffic as postcards sent through the mail.
+            Normally, anyone—your ISP, hackers, even rogue employees—can read
+            what’s written on them. But when you use a VPN, every postcard is
+            stuffed inside a locked, armored box—nobody can see what’s inside or
+            where it’s going.
+          </p>
+          <h3>Tunneling and Encryption: The Magic Duo</h3>
+          <p>
+            VPNs take every bit of data—photos, messages, web requests—and wrap
+            them in industrial-strength encryption. This process, called{" "}
+            <strong>tunneling</strong>, means that your info travels invisibly
+            across the web, protected from ISPs, governments, and hackers alike.
+          </p>
+          <ul>
+            <li>
+              <strong>Unsafe:</strong> You’re at a coffee shop using the “free
+              Wi-Fi.” Every snoop nearby can potentially grab your data.
+            </li>
+            <li>
+              <strong>Safe with VPN:</strong> The same Wi-Fi. But your data is
+              locked up, invisible, un-interceptable.
+            </li>
+          </ul>
+          <blockquote>
+            Want to know the real secret? Hackers don't target the most
+            secure—they hunt for the easy prey.
+          </blockquote>
+          <p>VPNs simply take you off the menu. Period.</p>
+          <h3>Real-World Example #1: The Netflix “Region Swap” Hack</h3>
+          <p>
+            Ever see a show on YouTube or Netflix that’s only available in
+            another country? Sites check your IP address to decide if you get
+            access. With a VPN, flip your virtual location to any country where
+            your content is available. That’s how people in South America
+            binge-watch U.S.-exclusive shows—all by picking a U.S. VPN server.
+          </p>
+          <h3>Real-World Example #2: Companies Saving Thousands with VPNs</h3>
+          <p>
+            Old-school companies used “leased lines”: expensive, dedicated
+            Internet links between offices. Monthly bills? Sky-high. With VPNs,
+            those same offices connect securely{" "}
+            <strong>across any regular Internet connection</strong>, slashing
+            costs and boosting flexibility overnight.
+          </p>
+        </section>
 
-        <h2>How a VPN Shields Your Activity</h2>
-        <p>
-          Enter the VPN! When you connect to the internet using a VPN, your data
-          no longer goes straight from your device to your ISP to the web.
-          Instead, it’s <strong>redirected to the VPN’s secure server</strong>.
-          From this point on, your ISP and any third party snooping can no
-          longer see the websites you’re visiting or what you’re doing online.
-          The VPN server acts as your new gateway to the internet.
-        </p>
+        <section>
+          <h2>Who Actually Needs a VPN? (Hint: Probably You)</h2>
+          <p>
+            Here’s what nobody talks about:{" "}
+            <strong>
+              If you use public Wi-Fi—even once—you’re putting your digital life
+              at risk.
+            </strong>{" "}
+            Seriously. Hotels, airports, coffee shops… hackers love these places
+            because they can set up fake “free Wi-Fi” networks that look 100%
+            legit. You think you’re connecting safely, but you’re actually
+            handing your data right to a cybercriminal.
+          </p>
+          <ul>
+            <li>
+              <strong>Remote workers:</strong> Secure access to files—no matter
+              where in the world you are.
+            </li>
+            <li>
+              <strong>Travelers and expats:</strong> Access home country content
+              as if you never left.
+            </li>
+            <li>
+              <strong>Privacy freaks (like me):</strong> Keep ISPs, advertisers,
+              and government agencies in the dark.
+            </li>
+            <li>
+              <strong>Everyday people:</strong> If you just want peace of mind
+              that your Internet isn’t being watched, you want a VPN.
+            </li>
+          </ul>
+          <blockquote>
+            If you’re still reading this, you’re already ahead of 90% of people
+            who will ignore the risks until it’s too late.
+          </blockquote>
+          <p>
+            <strong>Bottom line:</strong> For anyone who values privacy,
+            anonymity, and true Internet freedom, a VPN isn’t optional. It’s
+            mandatory.
+          </p>
+        </section>
 
-        <h2>Benefits of Using a VPN</h2>
-        <h3>1. Disguises Your Digital Identity</h3>
-        <p>
-          First up, a VPN helps you surf anonymously by hiding your internet
-          protocol (IP) address. Your IP is like your home’s postcard address on
-          the web every website you visit sees it. When using a VPN, that
-          website only sees the IP address of the VPN server, not yours. This
-          makes you much harder to track and drastically increases your privacy
-          online.
-        </p>
+        <section>
+          <h2>Free vs. Paid VPNs: The Ruthless Truth Nobody Wants to Admit</h2>
+          <p>
+            Here’s what most people get wrong:{" "}
+            <strong>Not all VPNs are created equal.</strong> Some are “free”—but
+            at what cost?
+          </p>
+          <ul>
+            <li>
+              <strong>Free VPNs:</strong> Sounds appealing. But they typically
+              log your activity and sell your data to advertisers. You’re the
+              product, not the customer. And yes, your data is probably less
+              private than before.
+            </li>
+            <li>
+              <strong>Paid VPNs:</strong> These put your privacy first. Most
+              reputable providers have a strict “no logging” policy—which means
+              they don’t record or sell what you do online. It’s the closest
+              thing to true Internet anonymity you can get without building your
+              own server farm.
+            </li>
+          </ul>
+          <h3>How to Pick a VPN That Won't Betray You</h3>
+          <ol>
+            <li>
+              Check for a written “no logging” policy—if they don’t spell it
+              out, run.
+            </li>
+            <li>Look at reviews and reputation—not just slick marketing.</li>
+            <li>
+              Consider server locations. Need access to specific countries? Make
+              sure they have servers there.
+            </li>
+            <li>
+              Test compatibility. Desktops, laptops, tablets, smartphones—your
+              VPN should cover them all.
+            </li>
+          </ol>
+          <p>
+            Want the one I use? (Yep, I’m a paying customer—because free VPNs
+            are a trap.) Scroll to the end for the exclusive discount link.
+          </p>
+          <blockquote>
+            Stop trying to save a few bucks by risking your entire online
+            identity. Pay for privacy now, or pay for regret later.
+          </blockquote>
+        </section>
 
-        <h3>2. Encrypts and Protects Your Data</h3>
-        <p>
-          Every time you send data over the internet whether loading web pages
-          or transferring files it’s broken down into packets, which travel
-          through countless public networks before reaching their destination.
-          Along the way, these packets can potentially be intercepted by ISPs,
-          governments, and, most alarmingly, hackers especially if you’re using
-          public Wi Fi, like at a coffee shop or airport.
-        </p>
-        <p>
-          Here’s where a VPN shines: it wraps every data packet with robust
-          encryption, a process sometimes referred to as{" "}
-          <strong>tunneling</strong>. Imagine each of your internet data packets
-          sealed in a protective, secret tunnel as they traverse risky terrain.
-          The contents are hidden from everyone except you and your intended
-          destination making it exceedingly difficult for hackers or snooping
-          entities to intercept or decipher your info.
-        </p>
+        <section>
+          <h2>VPNs on Every Device: Don’t Leave Any Door Unlocked</h2>
+          <p>
+            Think VPNs are just for your work laptop? Think again. Today’s best
+            VPNs support every device you own—desktop, laptop, phone, tablet,
+            even your smart TV. Why’s this so important? Because cybercriminals
+            aren’t picky. If a device connects to the Internet, it’s a potential
+            target.
+          </p>
+          <ul>
+            <li>Use VPN apps for Windows, Mac, iOS, Android, and Linux</li>
+            <li>Cross-protect all your gadgets with the same log-in</li>
+            <li>
+              Set up your router to protect everyone in your household
+              automatically
+            </li>
+          </ul>
+          <blockquote>
+            Most people won’t have the discipline to protect every device. But
+            if you do, you’ll dominate the privacy game.
+          </blockquote>
+        </section>
 
-        <h3>3. Access Content from Anywhere in the World</h3>
-        <p>
-          The internet may seem borderless, but there are plenty of region
-          restricted sites and services think YouTube videos, Netflix libraries,
-          or news content available in the US but blocked elsewhere. These sites
-          determine your location using your IP address.
-        </p>
-        <p>
-          With a VPN, you can{" "}
-          <strong>choose to connect to servers in different countries</strong>.
-          This changes your apparent location and IP address, letting you bypass
-          geographical restrictions and access the content you want, wherever
-          you are. So if you’re in South America but want to watch a show only
-          available in the US, connect to a US based VPN server and unlock your
-          favorite media.
-        </p>
+        <section>
+          <h2>Common Mistakes: What NOT to Do When Using a VPN</h2>
+          <ul>
+            <li>
+              <strong>
+                Forgetting to activate your VPN before connecting to public
+                Wi-Fi.
+              </strong>{" "}
+              It’s like wearing armor but forgetting your helmet.
+            </li>
+            <li>
+              <strong>Using a free VPN for sensitive tasks.</strong> Remember:
+              free comes with strings attached. Don’t trust your banking or
+              confidential work files to a company that profits from your data.
+            </li>
+            <li>
+              <strong>Relying on VPN alone for security.</strong> A VPN masks
+              your traffic, but top-tier security means keeping software
+              updated, using strong passwords, and staying alert for scams.
+            </li>
+          </ul>
+          <blockquote>
+            The harsh truth: A VPN is your first defense, not your only defense.
+          </blockquote>
+        </section>
 
-        <h3>4. Secures Remote Work Connections</h3>
-        <p>
-          In the age of remote work, secure access to corporate files is
-          crucial. Traditionally, businesses might lease dedicated lines private
-          circuits between offices and homes but these are costly, particularly
-          over long distances.
-        </p>
-        <p>
-          A VPN is the modern, cost effective solution. It uses the public
-          internet to create a secure, virtual private channel between remote
-          workers and office resources. Whether you’re at home or halfway across
-          the world, a VPN links you to the main office’s network just as
-          reliably and securely as if you were sitting at your desk.
-        </p>
+        <section>
+          <h2>How to Get Started: Your Step-by-Step VPN Setup Guide</h2>
+          <ol>
+            <li>
+              <strong>Pick a reputable VPN provider</strong> (bonus points for
+              ones with proven “no logs” policy and excellent customer reviews).
+            </li>
+            <li>
+              <strong>Download the app</strong> for all your devices.
+            </li>
+            <li>
+              <strong>Log in and connect</strong> to the VPN server closest to
+              your location for top speeds—or pick another country for
+              region-restricted content.
+            </li>
+            <li>
+              <strong>Check your IP address</strong> (use an online “what’s my
+              IP” tool)—it should now show the VPN’s server, not your real
+              location.
+            </li>
+            <li>
+              <strong>Test it out:</strong> Visit a restricted website or try
+              streaming content from another country. Enjoy the difference!
+            </li>
+          </ol>
+          <p>
+            <strong>Quick win:</strong> Set your VPN to start automatically at
+            login. You’ll never forget, and you’ll never browse without
+            protection.
+          </p>
+        </section>
 
-        <h2>Who Should Use a VPN?</h2>
-        <p>
-          In short: <strong>anyone</strong> who wants to stay extra safe and
-          private online. Using a VPN is the digital equivalent of locking your
-          doors when you leave home. It’s vital for those who frequently use
-          public Wi Fi in hotels, airports, coffee shops, or other locations
-          where hackers often set up fake, malicious networks. Connecting to one
-          of these rogue hotspots can expose all your sensitive data to
-          cybercriminals a VPN shields you against this threat.
-        </p>
+        <section>
+          <h2>Advanced VPN Tactics: Privacy on Steroids</h2>
+          <p>
+            Ready to dominate digital privacy like a pro? Here’s what power
+            users do:
+          </p>
+          <ul>
+            <li>
+              Use multi-hop VPN connections to route traffic through multiple
+              countries
+            </li>
+            <li>
+              Combine VPN with private browsers like Tor for maximum anonymity
+            </li>
+            <li>
+              Manually adjust server options for fastest speeds and lowest
+              latency
+            </li>
+            <li>
+              Audit your VPN’s privacy policy and regularly check for leaks
+              online
+            </li>
+          </ul>
+          <blockquote>
+            While everyone else is fighting over scraps, you’ll be five steps
+            ahead—untouchable, untraceable, unbothered.
+          </blockquote>
+        </section>
 
-        <h2>VPNs for Every Device</h2>
-        <p>
-          You’re not limited to using a VPN just on your desktop or laptop.
-          Today’s VPN apps protect <strong>all your devices:</strong> tablets,
-          smartphones, and even some smart home gadgets. With just a few clicks,
-          your entire digital life can be wrapped in robust security, no matter
-          where you go.
-        </p>
+        <section>
+          <h2>People Also Ask: VPN Questions You’re Probably Wondering</h2>
+          <div className="faq-section">
+            <h3>Is using a VPN legal?</h3>
+            <p>
+              In most countries, yes—using a VPN is perfectly legal. Some
+              authoritarian regimes restrict VPN use, so always check your local
+              law.
+            </p>
+            <h3>Will a VPN slow down my internet?</h3>
+            <p>
+              Minimal slowdown is possible, especially with distant servers. But
+              top-tier VPNs have fast, optimized connections—you likely won’t
+              notice on regular browsing or streaming.
+            </p>
+            <h3>Can a VPN be hacked?</h3>
+            <p>
+              The VPN tunnel itself is extremely secure, but weak passwords or
+              malware on your device are vulnerabilities. Always use strong,
+              unique credentials and keep your devices clean.
+            </p>
+            <h3>Does a VPN protect me from viruses?</h3>
+            <p>
+              No—VPNs shield your traffic, not your devices. Pair your VPN with
+              a trustworthy antivirus for complete coverage.
+            </p>
+            <h3>Can I use a VPN on my phone?</h3>
+            <p>
+              Absolutely. Top VPN providers have easy-to-use apps for Android
+              and iOS—protect your smartphone and tablet, too.
+            </p>
+          </div>
+        </section>
 
-        <h2>Free vs. Paid VPNs: What’s the Difference?</h2>
-        <p>
-          Not all VPNs are made equal! While you’ll find free VPN providers,
-          there’s often a catch: free services may collect and log your internet
-          use, selling that data to advertisers or other third parties. Paid
-          VPNs tend to have strict <strong>no logging policies</strong>, meaning
-          they don’t track or store your activity giving you genuine peace of
-          mind that your data stays private.
-        </p>
-        <p>
-          It’s always recommended to read the privacy policy of any VPN service
-          before you subscribe. When in doubt, most experts advise going with
-          reputable paid VPNs that openly advertise their zero logs policies and
-          robust encryption standards.
-        </p>
+        <section>
+          <h2>Going Deeper: Explore These Critical Security Topics Next</h2>
+          <ul>
+            <li>
+              <Link href="/code-report/databases">PostgreSQL vs. MySQL</Link>
+            </li>
+            <li>
+              <Link href="/code-report/what-is-dns">
+                Define Domain Name System (DNS)
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/dns-records">DNS Records Explained</Link>
+            </li>
+            <li>
+              <Link href="/code-report/rest-api">REST API Meaning</Link>
+            </li>
+            <li>
+              <Link href="/code-report/sdk-vs-api">APIs vs SDKs Explained</Link>
+            </li>
+            <li>
+              <Link href="/code-report/http1-http2-http3">
+                HTTP 1 Vs HTTP 2 Vs HTTP 3!
+              </Link>
+            </li>
+          </ul>
+        </section>
 
-        <h2>Getting Started with a VPN</h2>
-        <p>
-          Ready to take control of your online privacy and security? Setting up
-          a VPN is easier than ever. Choose a trusted VPN provider (many offer
-          special promotions and discounts), download their app, and follow
-          their quick start guide for your device.
-        </p>
-        <p>
-          <strong>Pro tip:</strong> Look out for exclusive VPN deals often
-          shared by technology creators and reviewers which can save you extra
-          money while giving you premium protection.
-        </p>
-
-        <h2>In Summary</h2>
-        <p>
-          In today’s digital age, a VPN isn’t just a tech luxury it’s fast
-          becoming essential for anyone concerned about privacy, security, and
-          accessing the full breadth of the internet. Whether you’re working
-          remotely, traveling the globe, or just want to binge your favorite
-          shows with peace of mind, a VPN gives you the tools to browse safely,
-          securely, and anonymously.
-        </p>
-        <p>
-          Thanks for joining us on this journey to internet safety! Stay secure,
-          stay curious, and don’t forget to subscribe for even more tech tips
-          and tricks.
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+        <section>
+          <h2>This Is Just the Beginning…</h2>
+          <p>
+            Now imagine this: You stop worrying about whether someone’s spying
+            on you just for booking a flight or Googling your medical questions.
+            You move through the Internet like a ghost—free, protected, and in
+            control. That’s the reality for people who make VPNs a daily habit.
+          </p>
+          <ul>
+            <li>
+              Stop living like the Internet belongs to corporations and
+              advertisers.
+            </li>
+            <li>
+              Start reclaiming your privacy—one encrypted packet at a time.
+            </li>
+            <li>
+              Set up your VPN, protect your devices, and change how you
+              experience the web—forever.
+            </li>
+          </ul>
+          <blockquote>
+            “Success isn’t about working harder—it’s about working smarter.
+            Privacy is power.”
+          </blockquote>
+          <p>
+            Don’t just read this and move on. Your online safety is{" "}
+            <strong>your</strong> responsibility. The sooner you act, the safer
+            you’ll be.
+          </p>
+          <p>
+            Ready to get serious? Grab my favorite VPN (discount link below),
+            set it up, and experience true Internet freedom. Your future self
+            will thank you.
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 7,
-      title: "Every React Concept Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
-      alt: "Every React Concept Explained",
-      date: "May 2, 2025",
-      articleRoute: "all-react-concepts",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 10,
-      title:
-        "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
-      alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      date: "May 2, 2025",
-      articleRoute: "react-hooks",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-    {
-      id: 12,
-      title: "APIs Explained (in 4 Minutes)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
-      alt: "Visual representation of API communication between applications",
-      date: "May 7, 2025",
-      articleRoute: "apis-explained",
-    },
-    {
-      id: 13,
-      title:
-        "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
-      alt: "MongoDB database architecture visualization",
-      date: "May 7, 2025",
-      articleRoute: "mongodb-explained",
-    },
-    {
-      id: 14,
-      title:
-        "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg",
-      alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      date: "May 9, 2025",
-      articleRoute: "databases",
-    },
-    {
-      id: 15,
-      title:
-        "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg",
-      alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
-      date: "May 9, 2025",
-      articleRoute: "ApachevsNGINX",
-    },
-    {
-      id: 16,
-      title:
-        "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
-      alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
-      date: "May 9, 2025",
-      articleRoute: "web-server",
-    },
-    {
-      id: 17,
-      title: "Define Domain Name System (DNS)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp",
-      alt: "DNS explanation diagram showing how domains resolve to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "what-is-dns",
-    },
-    {
-      id: 18,
-      title:
-        "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
-      alt: "DNS Records Infographic showing how domain names connect to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "dns-records",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

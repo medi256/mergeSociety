@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -470,566 +470,455 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>Define Domain Name System (DNS)</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp"
-          }
-          alt="DNS explanation diagram showing how domains resolve to IP addresses"
-          width={600}
-          height={400}
-          priority
-        />
+        <h1>
+          DNS Explained: The Hidden System Behind Every Website You Visit (And
+          Why Most People Completely Misunderstand It)
+        </h1>
         <p>
-          Imagine this: You type <strong>academy.networkchuck.com</strong> into
-          your browser and, within a blink, the website appears. Magic? Not
-          quite. In fact, your humble web browser is surprisingly “dumb” it
-          doesn’t actually know how to reach that website directly. Instead, it
-          relies on an invisible, lightning fast process known as DNS, or the
-          Domain Name System, to translate human friendly addresses into machine
-          friendly IP addresses. If you’ve ever wondered how the internet
-          actually finds websites (and how hackers can intercept you if you
-          aren’t careful), buckle up: This deep dive will make you picture the
-          internet like a bustling mafia drama, teach you how to secure your
-          browsing, and give you actionable steps to take control of your own
-          digital HQ.
+          Ever wonder why you can type <strong>google.com</strong> or{" "}
+          <strong>networkverge.com</strong> into any browser and land exactly
+          where you want? Here’s a secret: beneath that smooth, effortless web
+          experience lies a mind-blowingly complex system so critical, most
+          internet users have no clue it even exists. Welcome to the world of
+          Domain Name System—otherwise known as DNS—the invisible backbone of
+          the Internet.
         </p>
 
-        <h2>Why Your Browser Needs a Translator: The DNS Analogy</h2>
-        <p>
-          Let's break it down with a simple analogy. Imagine I hand you a
-          vintage rotary phone and say, “Call your friend Bernard.” You know his
-          name, but not his number you’d be stuck, right? These days, you’d grab
-          your smartphone, search for “Bernard” in your contacts, and instantly
-          find his number. DNS works exactly the same way. Your browser knows
-          the website’s name (like <strong>academy.networkchuck.com</strong>),
-          but not its “phone number” (its IP address). So, before anything else,
-          your computer must check its version of the Contacts app: the{" "}
-          <strong>DNS server</strong>.
-        </p>
-        <p>
-          The DNS server is the keeper of the map between website names and
-          their corresponding IP addresses. When you type a URL and hit Enter,
-          your browser asks the DNS server, “Hey, what’s the number for this
-          website?” The server finds the IP address, delivers it back, and just
-          like that, you’re connected. Simple, right? But under the surface, the
-          story is a surprisingly detailed adventure.
-        </p>
-
-        <h2>The Journey of a DNS Query: Step by Step</h2>
-        <ol>
-          <li>
-            <strong>You open your browser.</strong> Eager to learn, cup of
-            coffee in hand, you search for{" "}
-            <strong>academy.networkchuck.com</strong>. (Bonus points if you’re
-            heading over to study the new “Intro to Laptops and Mobile Devices”
-            course!)
-          </li>
-          <li>
-            <strong>
-              Your computer checks its own memory (the DNS cache).
-            </strong>{" "}
-            This cache is managed by the “stub resolver” a fancy term for the
-            DNS client on your device. If you’ve visited the site before, the IP
-            address might be cached. Otherwise, the adventure begins.
-          </li>
-          <li>
-            <strong>
-              If there’s no match, your computer asks its pre configured DNS
-              server.
-            </strong>{" "}
-            Commonly, this is Google’s DNS at <code>8.8.8.8</code>, but it could
-            be any number of providers (often set automatically by something
-            called a DHCP server on your network).
-          </li>
-          <li>
-            <strong>Recursive search: “I know a guy who knows a guy.”</strong>{" "}
-            If your DNS server (let's call it Google) doesn’t know the answer,
-            it doesn’t panic. Instead, it starts a process called recursion
-            asking higher authorities in the DNS mafia hierarchy.
-          </li>
-          <li>
-            <strong>Enter the DNS “Mafia Bosses”: The Root Servers.</strong>{" "}
-            Imagine a global network overseen by organizations like NASA, the US
-            Department of Defense, and VeriSign. They operate 13 authoritative
-            root server clusters, comprising over 1,800 physical servers
-            scattered globally. These root servers are too important for menial
-            tasks. Rather than providing the answer directly, they direct your
-            DNS server to the next rung of the ladder: the{" "}
-            <strong>Top Level Domain (TLD) servers</strong>.
-          </li>
-          <li>
-            <strong>
-              TLD servers handle top level domains like .com, .net, .coffee, and
-              country codes like .jp or .ph.
-            </strong>{" "}
-            The root server replies: “For <code>.com</code> domains, ask these
-            guys,” handing over addresses for the responsible TLD servers.
-          </li>
-          <li>
-            <strong>
-              TLD servers delegate to the second level domain authority.
-            </strong>{" "}
-            Now your DNS server asks, “Which authority manages{" "}
-            <strong>networkchuck.com</strong>?” The TLD server responds with
-            information about the authoritative name server for that second
-            level domain (in this case, managed by Cloudflare, with a DNS server
-            humorously named Pablo).
-          </li>
-          <li>
-            <strong>The final answer straight from Pablo.</strong> Now, your DNS
-            server finally asks: “Pablo, what’s the IP address for{" "}
-            <strong>academy.networkchuck.com</strong>?” Pablo (Cloudflare’s DNS)
-            consults the official zone file, finds the record, and replies with
-            the IP you need (e.g., <code>104.18.42.139</code>).
-          </li>
-        </ol>
-        <p>
-          And just like that, your browser is ready to connect all this
-          detective work happens in the blink of an eye, every time you visit a
-          new website! It's easy to take for granted, but the system is as
-          intricate as any crime drama, full of layers, authority, and
-          delegation.
-        </p>
-
-        <h2>DNS, Security, and the Hackers Lurking in the Shadows</h2>
-        <p>
-          Here’s the problem: Most DNS traffic takes place in{" "}
-          <strong>plain text</strong> using UDP port 53. That means anyone on
-          the same network a malicious hacker with a packet sniffer, or even
-          your own Internet Service Provider (ISP) can see every website you’re
-          looking up. Worse yet, a bad actor can intercept your DNS request and
-          reply with a bogus IP address, sending you to a fake, malicious site
-          instead. This is called <strong>DNS spoofing</strong> and it’s at the
-          root of many phishing attacks.
-        </p>
-        <p>
-          It’s not paranoia; it happens more often than you’d think. That's why
-          securing DNS is critical not just for tech geeks, but for every web
-          user.
-        </p>
-
-        <h2>Enter DNS Security: DoH, DoT, and Beyond</h2>
-        <h3>DNS over HTTPS (DoH): Encryption for Your Web Requests</h3>
-        <p>
-          The hero of our story is DoH <strong>DNS over HTTPS</strong>. This
-          standard wraps DNS queries inside the same secure, encrypted tunnel
-          you use for web browsing. Suddenly, your DNS requests are hiding among
-          all the HTTPS traffic, just like Where’s Waldo (but without the bright
-          red stripes). Even if a hacker is watching your network, your DNS
-          queries are invisible within a sea of web traffic. Major browsers and
-          public DNS servers like Google and Cloudflare now support DoH.
-        </p>
-        <h3>Other Secure DNS Protocols</h3>
-        <ul>
-          <li>
-            <strong>DNS over TLS (DoT):</strong> Uses a secure, encrypted
-            channel similar to DoH, but operates at a transport layer.
-          </li>
-          <li>
-            <strong>DNSCrypt:</strong> Adds encryption and authentication for
-            DNS traffic, making it even harder for attackers to tamper with
-            requests or responses.
-          </li>
-          <li>
-            <strong>DNSSEC:</strong> A suite of security extensions that
-            digitally sign DNS data, ensuring you’re getting real, untampered
-            information.
-          </li>
-        </ul>
-
-        <h2>Making DNS Security Easy for Everyone Meet TwinGate</h2>
-        <p>
-          Sure, tech savvy users can manually enable DoH in browsers, but what
-          about your entire household or business? That’s where tools like{" "}
-          <strong>TwinGate</strong> come in handy (and, for transparency,
-          TwinGate sponsored the referenced video).
-        </p>
-        <p>
-          TwinGate acts as a VPN replacement and remote access tool, ensuring
-          all devices (Windows, Mac, or Linux) have secure DNS enforced,
-          regardless of their physical location. You can select from reputable
-          DoH compliant providers (Cloudflare, Google, OpenDNS, and more), or
-          specify your own, with granular controls and central policy
-          management. Even if your team is scattered across the globe, TwinGate
-          guarantees DNS requests are encrypted and protected plus, you can
-          manage policies, block threats, filter sites, and more all from a
-          dashboard.
-        </p>
-        <p>
-          No more fiddling with individual settings or hoping your grandma
-          remembered to turn something on!
-        </p>
-
-        <h2>Going Further with DNS: Advanced Records Explained</h2>
-        <p>
-          DNS isn’t just about translating web addresses. Look inside a typical
-          DNS <em>zone file</em> it’s a treasure trove of technical records,
-          each serving a unique purpose:
-        </p>
-        <ul>
-          <li>
-            <strong>A Records:</strong> Map a domain name to an IPv4 address
-            (most common).
-          </li>
-          <li>
-            <strong>AAAA Records:</strong> Map a domain to an IPv6 address
-            (larger, newer IP addresses).
-          </li>
-          <li>
-            <strong>NS Records (Name Server):</strong> Point to authoritative
-            servers managing the domain’s DNS settings.
-          </li>
-          <li>
-            <strong>MX Records (Mail Exchanger):</strong> Specify which servers
-            handle email for the domain. If you send an email to{" "}
-            <code>chuck@networkchuck.com</code>, your server checks the MX
-            records to find where to deliver it.
-          </li>
-          <li>
-            <strong>PTR Records:</strong> Used for reverse DNS lookups go from
-            IP address back to domain for extra security checks.
-          </li>
-          <li>
-            <strong>CNAME Records (Canonical Name):</strong> Act as aliases,
-            letting you point <code>shop.networkchuck.com</code> or{" "}
-            <code>www.networkchuck.com</code> to the real, primary domain.
-          </li>
-          <li>
-            <strong>TXT Records:</strong> Can be used for admin messages, but
-            more commonly now for security like SPF, DKIM, or DMARC, which help
-            prevent email spoofing and phishing.
-          </li>
-        </ul>
-        <p>
-          <strong>Pro Tip:</strong> Want to practice your skills? Try querying{" "}
-          <code>secretmessage.networkchuck.com</code> (using a tool like{" "}
-          <code>nslookup</code> or <code>dig</code>) to find a hidden TXT record
-          message!
-        </p>
-
-        <h2>Want Your Own Domain? Here’s How DNS Works Behind the Scenes</h2>
-        <p>
-          Buying a domain involves two major roles: the{" "}
-          <strong>domain registrar</strong> (which brokers your purchase) and
-          the <strong>name server</strong> (which hosts your zone file and
-          responds to DNS queries). Whether you choose a big name like
-          Squarespace, GoDaddy, or another, your registrar is approved by an
-          organization called <strong>ICANN</strong> (the Internet Corporation
-          for Assigned Names and Numbers) the real authority at the top of the
-          DNS pyramid.
-        </p>
-        <p>
-          Once you pick a domain and pay for it, you can specify which name
-          servers you want to manage your DNS (for example, Cloudflare for its
-          added features and security). Your registrar updates the TLD registry
-          with these settings so the DNS hierarchy can point requests your way.
-        </p>
-        <blockquote>
+        <section>
+          <h2>
+            What Is DNS? (And Why It's the Only Reason the Internet Feels
+            Human-Friendly)
+          </h2>
           <p>
-            Want your ownership info private? Many registrars let you pay to
-            redact details from the WHOIS database, protecting your privacy.
+            Let’s cut to the chase:{" "}
+            <strong>DNS stands for Domain Name System</strong>. Its core job? It
+            turns those easy-to-remember website names (like{" "}
+            <strong>networkverge.com</strong>) into IP addresses—the raw,
+            unfriendly numerical codes computers use to find each other.
           </p>
-        </blockquote>
+          <p>
+            Here’s what nobody talks about: every laptop, phone, TV—even your
+            fridge, if it’s smart—relies on DNS to talk to anything online. If
+            DNS vanished, you’d be stuck memorizing gigabytes of numbers like{" "}
+            <code>142.250.176.206</code> (good luck with that).
+          </p>
+          <blockquote>
+            "Success online isn’t about remembering numbers. It’s about
+            understanding how DNS makes the impossible feel effortless."
+          </blockquote>
+        </section>
 
-        <h2>Leveling Up: Running Your Own DNS Server at Home</h2>
-        <p>
-          For the tinkerers out there: Yes, you can run your own recursive DNS
-          server at home! Tools like <strong>AdGuard</strong> (excellent for
-          network wide ad blocking) or <strong>Pi hole</strong> (the beloved
-          Raspberry Pi staple) make it possible. When your home server doesn’t
-          know the answer to a DNS query, it asks its own “upstream” DNS
-          provider (which you can set to Quad9, Cloudflare, Google, etc.).
-        </p>
-        <p>
-          Running your own DNS gives you control, privacy, and even the power to
-          block ads and malicious sites for every device in your network.
-        </p>
+        <section>
+          <h2>How DNS Works: The Secret Web Journey Every Click Takes</h2>
+          <p>
+            Every time you search, stream, game, or doomscroll, you’re making
+            requests that hit DNS first. Here’s exactly what happens:
+          </p>
+          <ol>
+            <li>
+              <strong>Your computer asks for an address.</strong> Type{" "}
+              <strong>google.com</strong>, hit Enter—your device contacts its
+              DNS server. This is usually your ISP for home users, or a
+              corporate DNS if you’re at work.
+            </li>
+            <li>
+              <strong>DNS server checks its 'phone book'.</strong> If it’s seen
+              the address before, you get results instantly from DNS cache.
+              Fast, simple, nearly magical.
+            </li>
+            <li>
+              <strong>No luck? The hunt begins.</strong> If your DNS server
+              doesn’t know, it climbs a vast global DNS hierarchy—root servers,
+              top-level domains (like <strong>.com</strong>), and finally the
+              authoritative server, which holds the answer.
+            </li>
+          </ol>
+          <p>
+            Sounds simple, right? But here’s the real twist: there are layers on
+            layers, caches inside caches, and thousands of DNS servers working
+            together. It’s like a chain reaction—blink-and-you-miss-it, but
+            absolutely essential.
+          </p>
+          <ul>
+            <li>
+              <strong>Root DNS servers:</strong> The global “air traffic
+              controllers” of the DNS universe, scattered across continents,
+              directing requests at light speed.
+            </li>
+            <li>
+              <strong>Top-Level Domain (TLD) servers:</strong> Handle the big
+              stuff: .com, .org, .net, and more.
+            </li>
+            <li>
+              <strong>Authoritative Name Servers:</strong> The final
+              answer-holders for specific domains.
+            </li>
+          </ul>
+          <blockquote>
+            "DNS is like Google for computers—except instead of searching web
+            pages, it connects every device on earth."
+          </blockquote>
+        </section>
 
-        <h2>Why All This Matters: The Risks and Next Steps</h2>
-        <p>
-          DNS is the beating heart of the internet: without it, you couldn’t
-          browse, send email, or access any service by name. It’s also one of
-          the internet’s weakest links if left unsecured. DNS hacking, spoofing,
-          filtering, and even censorship happen all the time unless you’re
-          proactive about security.
-        </p>
-        <p>
-          Luckily, you’re now equipped with the knowledge to secure your own
-          setup. Use modern browsers and switch on DNS over HTTPS. For
-          organization wide protection, consider solutions like TwinGate. For
-          the adventurous, try building your own DNS server at home. And stay
-          tuned the next installment will take you even deeper into DNS hacks
-          and how you can learn (ethically!) to protect yourself and your
-          network.
-        </p>
+        <section>
+          <h2>
+            Why DNS Caching Is Your Internet’s Ultimate Life Hack (But Also Its
+            Achilles Heel)
+          </h2>
+          <p>
+            Imagine if every time you called your best friend, you had to ask
+            the phone company for their number. Nightmare, right?
+          </p>
+          <p>
+            DNS solves this with caching—storing recently used addresses for
+            blazing speed. Your laptop, router, and even local DNS server
+            remember where you’ve been:
+          </p>
+          <ul>
+            <li>
+              Visit <strong>google.com</strong> once, and your computer stores
+              the answer in its DNS cache.
+            </li>
+            <li>
+              Next time, your system zips straight to Google without repeating
+              the whole DNS lookup journey.
+            </li>
+          </ul>
+          <p>
+            <strong>But here’s the catch:</strong> Everyone loves speed—until a
+            cached address goes stale or wrong. Suddenly, you’re locked out of
+            websites, or worse, redirected somewhere sketchy.
+          </p>
+          <p>
+            <strong>Quick Win:</strong> On Windows, run{" "}
+            <code>ipconfig /displaydns</code> in Command Prompt for a peek at
+            your personal DNS “address book.”
+          </p>
+          <blockquote>
+            "Most internet slowdowns aren’t from bad connections—they’re from
+            broken DNS caches."
+          </blockquote>
+        </section>
 
-        <h2>DNS FAQs and Resources</h2>
-        <ul>
-          <li>
-            <strong>Learn More:</strong> Explore beginner courses on networking,
-            DNS, and cybersecurity at{" "}
-            <a
-              href="https://academy.networkchuck.com"
-              target="_blank"
-              rel="noopener"
-            >
-              NetworkChuck Academy
-            </a>
-            .
-          </li>
-          <li>
-            <strong>Real World Practice:</strong> Try tools like{" "}
-            <code>nslookup</code> or <code>dig</code> to experiment with DNS
-            queries.
-          </li>
-          <li>
-            <strong>Protect Your Home Network:</strong> Check out videos and
-            guides on setting up{" "}
-            <a href="https://pi-hole.net/" target="_blank" rel="noopener">
-              Pi hole
-            </a>{" "}
-            or{" "}
-            <a
-              href="https://adguard.com/en/adguard-home/overview.html"
-              target="_blank"
-              rel="noopener"
-            >
-              AdGuard Home
-            </a>
-            .
-          </li>
-          <li>
-            <strong>Start Using Encrypted DNS:</strong> Enable DoH in your
-            browser (such as Chrome, Firefox, or Edge), or try TwinGate for
-            whole home or business wide protection.
-          </li>
-        </ul>
+        <section>
+          <h2>
+            Behind the Scenes: DNS Resolution Step-by-Step (And What Most
+            Techies Totally Overlook)
+          </h2>
+          <p>
+            This is where the magic gets real. Let’s peel back the curtain and
+            follow a DNS lookup all the way through:
+          </p>
+          <ol>
+            <li>
+              You ask for <strong>google.com</strong>.
+            </li>
+            <li>
+              Your <strong>local DNS server</strong> checks its own cache.
+            </li>
+            <li>
+              No luck? It asks the <strong>root DNS server</strong>—the web’s
+              ultimate traffic cop.
+            </li>
+            <li>
+              The root server points your DNS server to the{" "}
+              <strong>.com TLD DNS server</strong>.
+            </li>
+            <li>
+              The <strong>TLD server</strong> forwards your request to the{" "}
+              <strong>authoritative DNS server</strong> for google.com.
+            </li>
+            <li>
+              The authoritative server returns the golden answer—the actual IP
+              address for Google.
+            </li>
+            <li>
+              Your DNS server delivers this answer to your computer, and you
+              finally connect.
+            </li>
+          </ol>
+          <p>
+            <strong>What most people get wrong:</strong> As a network admin,
+            you’ll almost never deal directly with root or TLD servers—99% of
+            headaches are closer to home, in the client cache or your local DNS
+            server.
+          </p>
+          <blockquote>
+            "Stop chasing ‘internet-wide’ DNS problems. 90% of issues live in
+            your own backyard."
+          </blockquote>
+        </section>
 
-        <p>
-          <em>
-            Want to know how DNS can be hacked and how to defend yourself from
-            it? Watch out for part two of this guide. Until then, stay curious,
-            keep learning, and always secure your DNS.
-          </em>
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+        <section>
+          <h2>
+            Real World DNS: Troubleshooting Demystified (With NSLOOKUP and
+            Wireshark Sleuth Tricks)
+          </h2>
+          <p>
+            If you’ve ever wondered how pros actually solve DNS issues, here’s
+            the playbook:
+          </p>
+          <ul>
+            <li>
+              <strong>NSLOOKUP:</strong> The nuclear option for DNS diagnostics.
+              Want to check if your DNS is working—or which server is betraying
+              you? Just type <code>nslookup [website]</code> and get the raw IP,
+              plus which DNS server answered.
+            </li>
+            <li>
+              <strong>Wireshark:</strong> See the raw packets. Watch DNS
+              requests fly across your network in real time and pinpoint where
+              they stall.
+            </li>
+            <li>
+              <strong>ipconfig /displaydns:</strong> Reveal thousands of cached
+              DNS entries on your PC—every domain, every mapped IP. (Trust me,
+              you'll see sites you never even realized your device connected
+              to.)
+            </li>
+          </ul>
+          <p>
+            <strong>Pro Tip:</strong> In business networks, your device points
+            to a DNS server managed in-house (by your IT team). These servers
+            locally map all company devices and cross-query the wider web only
+            when needed.
+          </p>
+          <blockquote>
+            "Success isn’t about working harder—it’s about working on what
+            everyone else ignores."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            DNS in Business: Why Local Servers Rule (And How Corporate Networks
+            Stay Lean and Lightning-Fast)
+          </h2>
+          <p>
+            Here’s where things get juicier: You’re in a business, logged into
+            your company’s network. Instead of letting everyone’s laptop bombard
+            the internet, smart admins route DNS through locally controlled
+            servers.
+          </p>
+          <ul>
+            <li>
+              <strong>Active Directory DNS:</strong> If you’ve ever signed into
+              a corporate computer, you’ve used this. The local DNS maps every
+              PC and resource—server1, PC1, PC2, and more—to clean,
+              human-readable names and their private IPs.
+            </li>
+            <li>
+              <strong>DNS Zones:</strong> Think of them as custom
+              “neighborhoods” for different teams or subsidiaries—each with its
+              own address map, all manageable in one place.
+            </li>
+          </ul>
+          <p>
+            If an employee tries to reach <strong>google.com</strong> or
+            anything outside, the local DNS server becomes a gatekeeper. If it
+            doesn’t know the address, it “forwards” the request
+            upstream—sometimes to the ISP, sometimes straight to the root
+            servers.
+          </p>
+          <blockquote>
+            "Corporate DNS is about speed, control, and security—in that order."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            What Most People Get Wrong About DNS (Mistakes Even Seasoned IT Pros
+            Still Make)
+          </h2>
+          <ul>
+            <li>
+              <strong>Assuming DNS is always a Google or ISP thing.</strong>{" "}
+              False. Local, custom-managed DNS is what powers every serious
+              company.
+            </li>
+            <li>
+              <strong>Relying blindly on caches.</strong> Outdated cache =
+              broken internet. Always know how to flush and check your DNS
+              cache.
+            </li>
+            <li>
+              <strong>Ignoring wireshark/packet-level details.</strong> The
+              answer to stubborn DNS issues is often hiding in one rogue packet.
+            </li>
+          </ul>
+          <blockquote>
+            "Most DNS issues are user-created. The difference between winners
+            and losers? Winners troubleshoot their own setup first."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            How to Troubleshoot DNS Like a Pro (Step-by-Step Implementation
+            Guide)
+          </h2>
+          <ol>
+            <li>
+              <strong>Test with NSLOOKUP.</strong> Identify if the problem’s at
+              the client, server, or beyond.
+            </li>
+            <li>
+              <strong>Flush Your DNS Cache.</strong> On Windows:{" "}
+              <code>ipconfig /flushdns</code>. On Mac:{" "}
+              <code>dscacheutil -flushcache</code>.
+            </li>
+            <li>
+              <strong>Check DNS Server Settings.</strong> Make sure your device
+              points to the right IP—home ISP, Google (8.8.8.8), Cloudflare
+              (1.1.1.1), or your corporate DNS.
+            </li>
+            <li>
+              <strong>Use Wireshark or Packet Capture.</strong> Watch network
+              requests live—see exactly where the breakdown happens.
+            </li>
+            <li>
+              <strong>Inspect Local and Forwarding DNS Servers.</strong> In a
+              business: is your DNS server forwarding requests? Is the upstream
+              ISP or root server healthy?
+            </li>
+          </ol>
+          <blockquote>
+            "Stop trying to be perfect. Start trying to be remarkable. Every DNS
+            expert started as a beginner with broken internet."
+          </blockquote>
+        </section>
+
+        <section>
+          <h2>
+            Advanced DNS Moves: Power User Tactics to Lock in Speed and Security
+          </h2>
+          <ul>
+            <li>
+              <strong>
+                Set Up Custom DNS (Cloudflare, Google Public DNS):
+              </strong>{" "}
+              Bypass bad ISPs or block ads by swapping your default DNS (hint:
+              1.1.1.1 is lightning-fast).
+            </li>
+            <li>
+              <strong>Implement DNS Filtering:</strong> Use services like
+              OpenDNS to keep malware and suspicious sites off your network
+              automatically.
+            </li>
+            <li>
+              <strong>Manage Internal DNS Zones:</strong> Organize resources
+              logically for easier network management, especially in businesses.
+            </li>
+            <li>
+              <strong>Monitor DNS Traffic Regularly:</strong> Use Wireshark to
+              spot unusual spikes—could indicate a security issue.
+            </li>
+          </ul>
+          <blockquote>
+            "The window for this opportunity is closing fast—the future of
+            internet speed is all about DNS mastery."
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Related Topics Worth Exploring:</h3>
+          <ul>
+            <li>
+              <Link href="/code-report/databases">PostgreSQL vs. MySQL</Link>
+            </li>
+            <li>
+              <Link href="/code-report/ApachevsNGINX">Apache vs. NGINX</Link>
+            </li>
+            <li>
+              <Link href="/code-report/web-server">What is a web server</Link>
+            </li>
+            <li>
+              <Link href="/code-report/vpn-explained">
+                Easy Definition of VPN
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section className="faq-section">
+          <h2>People Also Ask: DNS Frequently Asked Questions</h2>
+          <h3>What is DNS and why is it important?</h3>
+          <p>
+            DNS (Domain Name System) is a critical part of the internet
+            infrastructure, translating human-friendly domain names like
+            “google.com” to IP addresses that computers use to identify each
+            other. Without DNS, web browsing as you know it would be impossible.
+          </p>
+          <h3>How does DNS caching work?</h3>
+          <p>
+            DNS caching stores domain/IP information temporarily on your device
+            or local DNS server. The main benefit? Faster browsing, since
+            repeated lookups don’t need to send requests up the DNS hierarchy
+            every time.
+          </p>
+          <h3>What are the main types of DNS servers?</h3>
+          <p>
+            The primary types are: <strong>Root DNS servers</strong> (at the top
+            of the hierarchy), <strong>Top-Level Domain (TLD) servers</strong>{" "}
+            (for .com, .org, etc.), <strong>Authoritative servers</strong> (for
+            specific domains), and{" "}
+            <strong>local or recursive DNS servers</strong> (often managed by
+            ISPs or businesses).
+          </p>
+          <h3>How can I fix DNS problems on my computer?</h3>
+          <p>
+            Start by flushing your DNS cache, changing your DNS server to a
+            public provider like Google’s (8.8.8.8) or Cloudflare’s (1.1.1.1),
+            and using NSLOOKUP to identify where the breakdown occurs. In
+            corporate environments, check your internal DNS server settings.
+          </p>
+          <h3>Can changing DNS make my internet faster?</h3>
+          <p>
+            Absolutely! Swapping to a faster or less congested DNS provider can
+            significantly reduce page load times and even bypass some ISP-level
+            content filters.
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            Bottom Line: Why DNS Mastery Will 10x Your Internet Power Forever
+          </h2>
+          <p>
+            DNS isn’t just background noise. It’s the skeleton key to faster
+            browsing, bulletproof security, and stress-free tech life. Most
+            people treat it like black magic—
+            <strong>but now you know the truth</strong>.
+          </p>
+          <ul>
+            <li>
+              You understand the journey from name to number—root, TLD,
+              authoritative, and back again.
+            </li>
+            <li>
+              You know how to debug, cache, and tweak for max speed and
+              reliability.
+            </li>
+            <li>
+              You’re ready to dominate network issues before they break a sweat.
+            </li>
+          </ul>
+          <p>
+            Here’s your call to action: Tinker. Try a new DNS server now. Dig
+            into your cache with <code>ipconfig /displaydns</code>. Up your
+            troubleshooting game with NSLOOKUP and Wireshark.{" "}
+            <strong>
+              If you master DNS, you’ll have an unfair edge—while everyone else
+              is left wondering why their internet broke.
+            </strong>
+          </p>
+          <blockquote>
+            "This is just the beginning of what’s possible once you own your DNS
+            setup. Don’t be left behind while the rest of the internet crawls."
+          </blockquote>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 7,
-      title: "Every React Concept Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
-      alt: "Every React Concept Explained",
-      date: "May 2, 2025",
-      articleRoute: "all-react-concepts",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 10,
-      title:
-        "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
-      alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      date: "May 2, 2025",
-      articleRoute: "react-hooks",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-    {
-      id: 12,
-      title: "APIs Explained (in 4 Minutes)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
-      alt: "Visual representation of API communication between applications",
-      date: "May 7, 2025",
-      articleRoute: "apis-explained",
-    },
-    {
-      id: 13,
-      title:
-        "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
-      alt: "MongoDB database architecture visualization",
-      date: "May 7, 2025",
-      articleRoute: "mongodb-explained",
-    },
-    {
-      id: 14,
-      title:
-        "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg",
-      alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      date: "May 9, 2025",
-      articleRoute: "databases",
-    },
-    {
-      id: 15,
-      title:
-        "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg",
-      alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
-      date: "May 9, 2025",
-      articleRoute: "ApachevsNGINX",
-    },
-    {
-      id: 16,
-      title:
-        "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
-      alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
-      date: "May 9, 2025",
-      articleRoute: "web-server",
-    },
-    {
-      id: 18,
-      title:
-        "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
-      alt: "DNS Records Infographic showing how domain names connect to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "dns-records",
-    },
-    {
-      id: 19,
-      title: "Easy Definition of VPN",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg",
-      alt: "Visual explanation of how a VPN protects your internet connection",
-      date: "May 9, 2025",
-      articleRoute: "vpn-explained",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

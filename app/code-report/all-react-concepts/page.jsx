@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -579,510 +579,466 @@ export default function Article() {
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
-        <h1>Every React Concept Explained</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg"
-          }
-          alt="Every React Concept Explained"
-          width={600}
-          height={400}
-          priority
-        />
-        <h2 className="project-info">
-          <span className="project-title">
-            <Link href={"/about"}>Written by Massa Medi</Link>
-          </span>
-          <time className="project-date" dateTime="2025-05-2">
-            | May 2, 2025
-          </time>
-        </h2>
-
+        <h1>
+          React Fundamentals: The Complete Breakdown of Components, Hooks, and
+          the Hidden Secrets Nobody Explains
+        </h1>
         <p>
-          React is a JavaScript library with a reputation for tossing around
-          fancy terms like <b>reconciliation</b>, <b>composition</b>, and{" "}
-          <b>error boundaries</b>. But what do all these terms actually mean? If
-          you&apos;ve felt lost in the jargon, buckle up: we&apos;re going to
-          walk through the essentials of React, from its foundational building
-          blocks to advanced architectural features—no prior experience
-          required.
+          Here’s something nobody tells you when you first crack open React:
+          Those “beginner” docs and fancy official terms are keeping REAL power
+          just out of reach. Ever wondered what “reconciliation,” “composition,”
+          or “error boundaries” actually mean—beyond the dry definitions? If
+          you’ve ever felt like React is just a pile of confusing jargon, you’re
+          about to see why everyone’s been building it wrong, and how you can
+          dominate your React journey from day one.
         </p>
 
-        <h2>Let&apos;s Start at the Beginning: Components</h2>
+        <h2>React Components: The Secret Power Move Nobody’s Teaching</h2>
         <p>
-          React applications are built with <b>components</b>—the fundamental
-          units that make up everything visible in your app. Think of components
-          like Lego blocks: you can use them to construct simple items like
-          buttons and inputs, or snap several together to build entire pages.
-          You can reuse components as often as you want, giving your projects
-          versatility and consistency.
-        </p>
-
-        <p>
-          Each React component is just a JavaScript function that <i>returns</i>{" "}
-          markup. But here&apos;s the twist: React components don&apos;t return
-          plain HTML. Instead, they use something called <b>JSX</b>—JavaScript
-          syntax that looks like HTML but is actually JavaScript in disguise.
-          JSX makes writing UIs much cleaner and easier to read than using
-          React’s <code>createElement</code> function (which, frankly, gets old{" "}
-          <i>very</i> fast).
-        </p>
-
-        <h2>JSX: JavaScript in a Fake Mustache</h2>
-        <p>
-          JSX, though optional, is nearly universal in React codebases. However,
-          since it&apos;s JavaScript, there are some differences from HTML. For
-          example, you must use <b>camelCase</b> for attributes. Instead of
-          writing <code>class</code> in HTML, React requires{" "}
-          <code>className</code>. That&apos;s because <code>class</code> is a
-          reserved word in JavaScript.
-        </p>
-
-        <p>
-          HTML is largely static and unchanging, but React and JSX shine because
-          you can inject <b>dynamic</b> JavaScript values directly into your
-          markup using curly braces (<code>{"{}"}</code>). Inside these curly
-          braces, you can use numbers, strings, variables, and even entire
-          functions. This dynamic power lets you display up-to-date values,
-          style elements conditionally, and pass logic straight into your UI.
-        </p>
-
-        <h2>Every Component Needs a Parent</h2>
-        <p>
-          Since React components are just functions that return a value, each
-          must return <b>one</b> parent element. If you try to return multiple
-          sibling elements at the root, React will throw a big error. Developers
-          often wrap their components in a <code>&lt;div&gt;</code>, but if you
-          don’t want to clutter your DOM, you can use a <b>React Fragment</b>
-          —written as <code>&lt;&gt;&lt;/&gt;</code>—to group elements without
-          adding extra nodes to the HTML page.
-        </p>
-
-        <h2>Passing Data: Props and the Magic of Composition</h2>
-        <p>
-          What if you want to pass information into a component? That&apos;s
-          where <b>props</b> come in. To define a prop, simply add it as an
-          attribute to your component (
-          <code>&lt;Hello name=&quot;Alice&quot; /&gt;</code>). Inside your
-          component, props arrive as an object and can be accessed with standard
-          JavaScript syntax: <code>props.name</code>.
-        </p>
-
-        <p>
-          Props are like custom attributes you can send to any component—and
-          yes, you can pass <i>anything</i>: strings, numbers, objects, arrays,
-          and even other components. This brings us to the <b>children prop</b>.
-          If you use both opening and closing tags for a component, you can nest
-          other React elements inside. Those become accessible as{" "}
-          <code>props.children</code>. This approach fuels <b>Composition</b>,
-          organizing your app’s building blocks in a flexible, powerful way.
-        </p>
-
-        <p>
-          The children prop shines for <b>layout components</b>. For instance,
-          you might have a <code>&lt;Card&gt;</code> component that gives its
-          children a consistent style—handy for rendering multiple unique users,
-          posts, or products in a visually uniform way.
-        </p>
-
-        <h3>The Misunderstood “Key” Prop</h3>
-        <p>
-          There&apos;s another built-in prop in React: <b>key</b>. Despite its
-          name, it doesn&apos;t unlock secret features! The key prop helps React
-          keep track of elements in lists, improving performance and stability.
-          When mapping over arrays to generate UI—say, a list of to-do
-          items—each element needs a unique <code>key</code>. If you forget,
-          React will remind you (with console warnings). If nothing unique
-          exists, use the current <code>index</code> as a fallback.
-        </p>
-
-        <h2>Rendering: From Code to Browser</h2>
-        <p>
-          You might be wondering: how does React transform your components into
-          visible content in the browser? This process is called{" "}
-          <b>rendering</b>. Under the hood, React uses a clever strategy to make
-          this fast and efficient, leveraging something called the{" "}
-          <b>virtual DOM</b> (vdom).
-        </p>
-
-        <p>
-          The <b>DOM</b>—short for Document Object Model—is how browsers
-          internally structure all the elements of a web page, typically
-          represented as a tree. React maintains its own virtual DOM in memory.
-          When the state of your app changes, React updates the virtual DOM
-          first, which is much quicker than updating the real DOM. Then, React
-          uses a process called
-          <b>diffing</b> to compare the new virtual DOM with the previous
-          version, detecting what changed. Through <b>reconciliation</b>, only
-          those changed parts are updated in the real DOM, giving you speedy,
-          efficient updates.
-        </p>
-
-        <h2>React Event Handling: Linking Users and Code</h2>
-        <p>
-          Users interact with your app through many different events—clicks,
-          mouse movements, keypresses, and more. <b>Event handling</b> lets you
-          respond to these events. React offers built-in events like{" "}
-          <code>onClick</code>,<code>onChange</code>, and <code>onSubmit</code>.
-          For example, you might attach <code>onClick</code> to a button and
-          trigger a function when that button is clicked, such as displaying an
-          alert or updating a counter.
-        </p>
-
-        <h2>State: The Lifeblood of React Apps</h2>
-        <p>
-          To keep track of data that changes over time (like a photo
-          gallery&apos;s current image, the number of “likes,” or the value in
-          an input box), React uses <b>state</b>. But don&apos;t confuse this
-          with a “state” on the map! State in React is like a camera snapshot—it
-          represents the app at a specific moment.
-        </p>
-
-        <p>
-          You can&apos;t just use regular JavaScript variables for state, since
-          updating those won&apos;t trigger a re-render. Instead, React gives us{" "}
-          <b>hooks</b> like <code>useState</code> and <code>useReducer</code> to
-          manage dynamic values. <code>useState</code> returns a pair—your state
-          variable and a function to update it. Update the state, and React
-          updates your UI. It&apos;s as simple as{" "}
-          <code>const [likes, setLikes] = useState(0);</code>, then increasing{" "}
-          <code>likes</code> each time the user clicks the “like” button.
-        </p>
-
-        <h3>Controlled Components</h3>
-        <p>
-          <b>Controlled components</b> make use of state to keep form elements
-          in sync. For example, consider a text input: with a controlled
-          component, every keystroke updates state, and the input always
-          reflects that state. Here&apos;s what happens:
-        </p>
-        <ul>
-          <li>User types into the input field.</li>
-          <li>
-            The <code>setValue</code> function puts the value into state.
-          </li>
-          <li>
-            The input&apos;s <code>value</code> prop reads from state, ensuring
-            it always displays the latest text.
-          </li>
-        </ul>
-        <p>
-          This pattern ensures your app's UI is predictable and easy to debug:
-          if you need to change the component’s behavior, simply amend the
-          controlling state.
-        </p>
-
-        <h2>React Hooks: Your Tools for Managing Everything</h2>
-        <p>
-          <b>Hooks</b> are special functions that provide access to React
-          features inside function components. The five main hook types are:
+          “Components” get thrown around everywhere—so what do they actually do?
+          Imagine your UI as a box of Legos. Every button, input, or even whole
+          page in your app? That’s a component. And the beauty? You can use each
+          piece as many times as you want. Here’s the kicker: Every React
+          component is just a normal JavaScript function. But, and this is huge,
+          it doesn’t spit out HTML—it returns something called{" "}
+          <strong>JSX</strong>, a sneaky wrapper that lets JavaScript pretend to
+          be HTML. (Trust me, using <code>createElement</code> directly gets old
+          FAST. Just use JSX.)
         </p>
         <ul>
           <li>
-            <b>State Hooks</b>: <code>useState</code> and{" "}
-            <code>useReducer</code> for managing local component state.
+            <strong>Why not HTML?</strong> Because regular HTML is frozen in
+            time—“set it and forget it.” JSX brings your interfaces to life. You
+            can embed any JavaScript value you want. That means your UI can
+            change and react in REAL time. Want to show “Hello, Bob”? Or “You
+            clicked 12 times!” on a button? Pop your variable inside{" "}
+            <code>&#123;&#125;</code> and React does the rest.
           </li>
           <li>
-            <b>Context Hooks</b>: <code>useContext</code> for accessing globally
-            shared values.
-          </li>
-          <li>
-            <b>Ref Hooks</b>: <code>useRef</code> for directly referencing DOM
-            elements or storing mutable values.
-          </li>
-          <li>
-            <b>Effect Hooks</b>: <code>useEffect</code> for interacting with
-            external systems and side effects (like AJAX calls, timers, or
-            subscriptions).
-          </li>
-          <li>
-            <b>Performance Hooks</b>: <code>useMemo</code> and
-            <code>useCallback</code>, which optimize performance by caching
-            values or functions to avoid expensive recalculations.
+            <strong>The one weird rule</strong>: Attribute names aren’t normal
+            HTML. Say goodbye to <code>class</code> and hello to{" "}
+            <code>className</code>. Everything is camelCase and dynamic.
           </li>
         </ul>
-        <p>
-          Realistically, you'll use <code>useState</code>,{" "}
-          <code>useEffect</code>, and <code>useRef</code> most often in
-          day-to-day projects.
-        </p>
+        <blockquote>
+          “Components are like Lego blocks for your UI. But React’s secret sauce
+          is that your Legos can shape-shift on command.” <br />
+          —Share this insight if you’re tired of static web UIs.
+        </blockquote>
 
-        <h2>Purity: Keeping React Components Predictable</h2>
+        <h3>How To Actually Render in React (Without Breaking Your App)</h3>
         <p>
-          In programming, “purity” refers to a function always producing the
-          same output given the same input (like a math formula).{" "}
-          <b>Pure React components</b> should only render their JSX and never
-          modify variables or objects outside their scope during render. If a
-          component mutates external state while rendering (like incrementing a
-          counter each time it displays), the output can become unreliable,
-          especially when reusing the component.
+          Let’s get real: JavaScript functions can only return one thing—that
+          means your component can’t spit out two elements side-by-side. Try it,
+          and React will throw a fit (“Adjacent JSX elements must be wrapped”).
+          Instead, wrap your stuff in a single parent element, usually a{" "}
+          <code>&lt;div&gt;</code>, or if you hate extra markup, the mystical{" "}
+          <strong>React Fragment</strong> (literally empty tags{" "}
+          <code>&lt;&gt;&lt;/&gt;</code>). No more ugly, useless wrapper{" "}
+          <code>&lt;div&gt;</code>s just to keep React happy.
         </p>
+        <blockquote>
+          “Most people pollute their markup with unnecessary wrappers. Pros use
+          React Fragments.”
+        </blockquote>
+
+        <h2>Mastering Props: The Real Reason Your Components Suck</h2>
         <p>
-          To help developers write pure components, React provides{" "}
-          <b>StrictMode</b>—a wrapper component that highlights risky or unsafe
-          patterns as you develop. Just wrap your app in{" "}
-          <code>&lt;StrictMode&gt;</code> and React will alert you to
-          anti-patterns before they break your application.
+          Ask yourself: “How do I send data to a React component?” Simple:{" "}
+          <strong>props</strong>. Think of props as custom attributes. Anything
+          you write on your component tag—
+          <code>&lt;Card title="My Card" /&gt;</code>—goes into the props
+          object, ready to use inside the component.
         </p>
+        <ul>
+          <li>
+            <strong>Yes, ANYTHING can be a prop:</strong> strings, numbers,
+            objects, even other components. Want to pass a whole paragraph or a
+            button? Use the <code>children</code> prop by wrapping the content
+            between your component’s tags. It’s the ultimate layout hack.
+          </li>
+          <li>
+            <strong>Secret Pro Trick:</strong> The “key” prop doesn’t unlock
+            anything cool—it helps React track list items. Got a list? Map over
+            your array, add <code>{`key={index}`}</code> (or, even better, a
+            unique ID), and watch your console stop screaming at you.
+          </li>
+        </ul>
+        <blockquote>
+          “Passing functions, components, or even component trees as props
+          unlocks a whole new level of reusability. This is how grown-ups build
+          scalable UI.”
+        </blockquote>
 
         <h2>
-          Working with External Systems: Effects, Side Effects, and{" "}
-          <code>useEffect</code>
+          The Truth About Rendering: VDOM, Diffing, and Why Your App Sometimes
+          Explodes
         </h2>
         <p>
-          Sometimes you need to interact with systems outside of React: for
-          example, fetching data from a server or using browser APIs. This is
-          called handling <b>side effects</b>. While many effects are best
-          handled inside event handlers (like Ping! Sending a server request
-          after someone clicks “submit”), some should run during the component’s
-          lifecycle.
-          <code>useEffect</code> is React’s hook for running side effects when
-          components mount, update, or unmount—such as fetching initial data or
-          cleaning up event listeners.
+          “How does React turn my code into something actually visible?” It’s
+          all a magic trick—except it’s real and it can blow up in your face if
+          you’re not careful. Here’s what nobody breaks down:
         </p>
+        <ul>
+          <li>
+            <strong>DOM = Document Object Model.</strong> Basically, your
+            browser’s way of tracking ALL the live HTML elements—like a giant
+            family tree of your page. Manipulating the real DOM is slow and
+            clunky.
+          </li>
+          <li>
+            <strong>React’s Virtual DOM:</strong> Instead of changing the real
+            DOM every time (and instantly tanking your app’s performance), React
+            creates a lightweight copy. When changes happen, it “diffs” the new
+            version with the old, then only makes surgical updates to the real
+            DOM. This process? <strong>Reconciliation.</strong>
+          </li>
+        </ul>
+        <blockquote>
+          “React doesn’t change the DOM. It creates a virtual copy, finds only
+          what changed, then updates. Like a surgeon instead of a wrecking
+          ball.”
+        </blockquote>
+        <ul>
+          <li>
+            <strong>Danger Zone:</strong> If you mess with state the wrong way
+            (say, updating a variable that causes infinite re-renders), React
+            can get stuck in an endless update loop. Your app slows to a
+            crawl—or crashes. That’s why you need to understand how state and
+            rendering play together.
+          </li>
+        </ul>
 
-        <h2>
-          Accessing the Real DOM: <code>useRef</code> and the <code>ref</code>{" "}
-          Prop
-        </h2>
+        <h2>State in React: Why Regular JS Variables Are Lying to You</h2>
         <p>
-          Occasionally, you need to work with the actual DOM—directly focusing
-          an input, measuring an element’s size, or integrating with third-party
-          UI libraries. In those cases, <code>useRef</code> lets you create a
-          reference object, and the <code>ref</code> attribute attaches it to a
-          React element. Unlike state, updating a ref does <i>not</i> cause a
-          re-render. This approach is often easier and more robust than trying
-          to force React to handle everything indirectly.
+          Here’s where 90% of beginners go totally wrong—they use plain JS
+          variables and wonder why nothing updates. In React,{" "}
+          <strong>state</strong> is a snapshot of your UI at any moment. And
+          only special React tools can change it.
         </p>
+        <ul>
+          <li>
+            <strong>useState Hook:</strong> This magical function gives you two
+            things: the current value, and a setter function. Want clicks to
+            show up in real time?{" "}
+            <code> {`const [clicks, setClicks] = useState(0)`} </code>. Every
+            time you call <code>{`setClicks(newValue)`}</code>, your component
+            re-renders with the new data.
+          </li>
+          <li>
+            <strong>Controlled Components:</strong> Ever wanted your form field
+            to perfectly reflect your state? Tie the input’s <code>value</code>{" "}
+            to your state variable, and on every keystroke, update state. This
+            is the secret behind robust, bug-free forms.
+          </li>
+        </ul>
+        <blockquote>
+          “If you use regular JS variables for anything dynamic, you’re just
+          lying to yourself—and your UI.”
+        </blockquote>
 
-        <h2>Sharing Data Across Components: Context</h2>
+        <h2>React Hooks: The Five Tools To Rule Them All</h2>
         <p>
-          As React apps grow, you’ll likely have deeply nested components that
-          require access to shared data (think user info, themes, or language
-          settings). Passing props down multiple levels gets unwieldy. Enter{" "}
-          <b>Context</b>: a built-in feature that lets you share values
-          throughout your component tree—without manual prop drilling.
+          Heard people say “hooks” and nodded along without really getting it?
+          Here’s the real story. Hooks let you “hook into” React’s core features
+          from regular JavaScript functions—no more class components or “this”
+          headaches. The 5 you must know:
         </p>
-        <p>To use context, you:</p>
         <ol>
-          <li>Create a context object in a parent component.</li>
           <li>
-            Wrap the target subtree in a <code>Context.Provider</code> and
-            specify the value to share.
+            <strong>useState:</strong> For storing, updating, and reacting to
+            data inside a component.
           </li>
           <li>
-            In any nested child, call <code>useContext</code> to access the
-            shared value directly, no matter how deep it sits in the tree.
+            <strong>useEffect:</strong> For side effects—fetching data, DOM
+            manipulation, subscriptions.
+          </li>
+          <li>
+            <strong>useRef:</strong> For storing a mutable value across renders
+            (think: direct DOM access, timers).
+          </li>
+          <li>
+            <strong>useContext:</strong> For sharing values and “jumping” over
+            prop chains.
+          </li>
+          <li>
+            <strong>Performance Hooks:</strong> <code>useMemo</code> and{" "}
+            <code>useCallback</code>—speed up slow code by memoizing results and
+            functions. (Warning: overuse is the enemy.)
           </li>
         </ol>
+        <blockquote>
+          “Hooks killed the class star. If you’re not using hooks, you’re not
+          playing in the big leagues.”
+        </blockquote>
+
+        <h2>Pure Components: Are Your Functions Secretly Betraying You?</h2>
         <p>
-          This powerful pattern drastically reduces complexity in large apps.
+          Want a bug magnet? Make your components impure. In React, “pure” isn’t
+          about clean water—it’s about math: Same input, same output, every
+          single time. Don’t mutate outside variables or objects in your render.
+        </p>
+        <ul>
+          <li>
+            <strong>Gotchas:</strong> If your component changes something
+            outside its own scope (like a global variable), things will break in
+            ways you won’t see until it’s too late.
+          </li>
+          <li>
+            <strong>StrictMode:</strong> Add <code>&lt;StrictMode&gt;</code>{" "}
+            around your app, and React will throw red flags wherever you risk
+            impurity.
+          </li>
+        </ul>
+        <blockquote>
+          “Pure components are your insurance policy against weird bugs. Don’t
+          learn this lesson the hard way.”
+        </blockquote>
+
+        <h2>Stepping Outside React: Effects, Refs, and the Real World</h2>
+        <h3>Side Effects: How To Play Nice With The Outside World</h3>
+        <p>
+          Changing the browser, making server calls, or talking to anything
+          outside React? That’s a “side effect.” The easiest way: tie your
+          effect to an event handler (like <code>onClick</code>). But if you
+          need to sync things with the outside when the component loads or
+          updates, use <strong>useEffect</strong>.
         </p>
 
-        <h2>Portals: Breaking Out of the DOM Hierarchy</h2>
+        <h3>Refs: Touch the DOM Without Losing Your Mind</h3>
         <p>
-          Sometimes, you want a React component to appear elsewhere in the HTML
-          structure—outside its parent container. Enter <b>Portals</b>. Portals
-          allow you to render children into any DOM node you choose. This is
-          invaluable for UI elements like modals, dropdown menus, or tooltips,
-          which might otherwise get visually trapped by their parent’s styles.
+          Sometimes, you just have to break the rules and mess with a real DOM
+          element. Enter <strong>useRef</strong>. Create a ref, attach it to an
+          element, and you can do stuff like focus an input without waiting for
+          React’s update cycle.
         </p>
+        <blockquote>
+          “Refs are your escape hatch for DOM chaos. Just don’t go overboard.”
+        </blockquote>
+
+        <h2>The Real Problem with “Prop Drilling”: Context To The Rescue</h2>
         <p>
-          To create a Portal, use the <code>createPortal</code> function. Pass
-          in your component and the DOM node where it should appear—a modal
-          dialog, for example, layered over the entire page.
+          Your app will grow. You’ll have components nested 5, 10, 20 layers
+          deep. Passing data down that tree through props is called “prop
+          drilling,” and it’s a one-way ticket to madness.{" "}
+          <strong>Context</strong> lets you skip the line: create context once,
+          put it on your Provider, and instantly access it from any child using{" "}
+          <code>useContext</code>. It’s like teleportation for data.
+        </p>
+        <blockquote>
+          “If you’re passing the same prop through three layers of components,
+          you’re doing it wrong. Context is React’s secret level.”
+        </blockquote>
+
+        <h2>Advanced Patterns: Portals, Suspense, and Error Boundaries</h2>
+        <h3>Portals: Render Where No Component Has Gone Before</h3>
+        <p>
+          Ever tried to build a modal or a tooltip and realized it’s styled all
+          wrong because of its parent’s CSS? <strong>Portals</strong> fix that.
+          Use <code>createPortal</code> to render any component into any DOM
+          node you want—outside the normal parent tree.
         </p>
 
-        <h2>Suspense: Handling Loading States Gracefully</h2>
+        <h3>Suspense: Handle Loading Like a Pro</h3>
         <p>
-          <b>Suspense</b> is a React feature that improves the user experience
-          by showing fallback content (like a spinner or custom message) while a
-          component or its data is loading. Simply wrap the slow-loading
-          component in a <code>&lt;Suspense&gt;</code> component and provide
-          fallback content. This pattern also makes <b>lazy loading</b>{" "}
-          components straightforward, helping apps feel snappy even when working
-          with large bundles or network delays.
+          Users HATE staring at blank screens. <strong>Suspense</strong> wraps
+          your slow-loading components with a fallback (like a spinner or
+          “Loading…”). Even better, with code-splitting, Suspense loads
+          components only when they’re actually needed, making your app faster.
         </p>
 
-        <h2>Error Boundaries: Keeping Your App Resilient</h2>
+        <h3>
+          Error Boundaries: Don’t Let One Little Mistake Tank Your Whole App
+        </h3>
         <p>
-          Even the best apps encounter errors, and in React, rendering errors
-          can bring down your entire UI. <b>Error boundaries</b> are specially
-          designed components that catch rendering errors in their subtree and
-          display fallback UI, preventing a total crash.
+          React apps are all JavaScript under the hood—which means a single
+          uncaught error crashes everything. <strong>Error boundaries</strong>{" "}
+          are special components that “catch” render errors and show a custom
+          fallback. No more white screens of death.
         </p>
-        <p>
-          For example, suppose a certain component throws an error if a user
-          isn’t defined. By wrapping this section in an Error Boundary, you can
-          display a custom message (such as “Oops, something went wrong!”)
-          instead of a blank screen or error dump.
-        </p>
+        <blockquote>
+          “Pro React devs build with error boundaries from the start. The
+          amateur’s app explodes and leaves users stranded.”
+        </blockquote>
 
-        <h2>Ready to Go Deeper?</h2>
-        <p>
-          React is a vast library with endless possibilities. If you’re eager to
-          master these concepts and more, check out the full bootcamp at{" "}
-          <a
-            href="https://reactbootcamp.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            reactbootcamp.dev
-          </a>
-          . Whether you’re just starting or refining your skills, there’s plenty
-          to learn and explore.
-        </p>
-        <p>We hope you learned a lot in this guide—see you in the next one!</p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+        <section>
+          <h2>Quick Wins For React Mastery</h2>
+          <ul>
+            <li>
+              Use fragments (<code>&lt;&gt;&lt;/&gt;</code>) instead of extra{" "}
+              <code>&lt;div&gt;</code>s to keep your DOM clean
+            </li>
+            <li>
+              Attach a <strong>key</strong> whenever you’re mapping arrays into
+              JSX elements
+            </li>
+            <li>
+              Tie form inputs to state for fully controlled, reliable forms
+            </li>
+            <li>
+              Only use <strong>props</strong> for data that’s truly unique to a
+              component—else, reach for <strong>context</strong>
+            </li>
+            <li>
+              Add <strong>Error Boundaries</strong> from the start—don’t wait
+              for disaster
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Common Mistakes Beginners Make (And You Should Never Repeat)</h2>
+          <ul>
+            <li>
+              Using regular JS variables for anything the UI needs to “remember”
+              or react to
+            </li>
+            <li>
+              Forgetting to give unique keys to list items (prepare for console
+              rage)
+            </li>
+            <li>
+              Mutating state or external variables in a component (say bye-bye
+              to purity)
+            </li>
+            <li>
+              Manual DOM manipulation without <strong>useRef</strong>
+            </li>
+            <li>Pass props five levels deep instead of using Context</li>
+            <li>
+              Forgetting error boundaries until your app has a catastrophic
+              crash
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Advanced Strategies: Unlocking Pro-Level React</h2>
+          <ul>
+            <li>
+              <strong>Component Composition:</strong> Use the{" "}
+              <code>children</code> prop and layout components for DRY,
+              consistent UI design. This is how design systems (like Material UI
+              or antd) scale across enterprise-grade apps.
+            </li>
+            <li>
+              <strong>Performance Optimization:</strong> Use{" "}
+              <code>useMemo</code> and <code>useCallback</code> (sparingly!) to
+              avoid rerendering trees that didn’t change. Premature optimization
+              is bad, but when your component is slow, these hooks are your best
+              friends.
+            </li>
+            <li>
+              <strong>Custom Hooks:</strong> When your logic gets repetitive,
+              pull it into a custom hook. Clean, reusable, and tested—every
+              time.
+            </li>
+            <li>
+              <strong>Lazy Loading:</strong> Implement <code>React.lazy</code>{" "}
+              and <strong>Suspense</strong> to code-split and serve lighter
+              apps.
+            </li>
+          </ul>
+        </section>
+
+        <section className="faq-section">
+          <h2>People Also Ask: React Fundamentals FAQ</h2>
+
+          <h3>What are React components?</h3>
+          <p>
+            React components are the basic building blocks of any React
+            app—they’re JavaScript functions that return user interface elements
+            using JSX, allowing for reusable, dynamic UI structures.
+          </p>
+
+          <h3>How do you pass data between React components?</h3>
+          <p>
+            Data is passed using “props”—custom properties you add to component
+            tags. For deeply nested data, use the React Context API.
+          </p>
+
+          <h3>What is JSX?</h3>
+          <p>
+            JSX is JavaScript syntax that looks like HTML but compiles down to
+            create user interface structures in React. It allows you to embed
+            JavaScript directly inside your UI.
+          </p>
+
+          <h3>How does React manage rendering efficiently?</h3>
+          <p>
+            React computes changes using a Virtual DOM, diffs the current state
+            with the new state, and only updates what's necessary in the real
+            DOM using “reconciliation.”
+          </p>
+
+          <h3>What is a controlled vs uncontrolled component?</h3>
+          <p>
+            Controlled components use React state to manage user inputs,
+            ensuring data flows one way and UI is predictable. Uncontrolled
+            components rely on DOM state, which can get messy.
+          </p>
+        </section>
+
+        <section>
+          <h2>Related Deep Dives</h2>
+          <ul>
+            <li>
+              <Link href="/code-report/react-you-need">
+                All The JavaScript You Need To Know For React
+              </Link>
+            </li>
+            <li>
+              <Link href="/react">Learn react for beginners</Link>
+            </li>
+            <li>
+              <Link href="/code-report/how-to-learn-javascript">
+                How to Learn JavaScript FAST
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/react-hooks">
+                ALL React Hooks Explained
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/fullstack-roadmap">
+                Full Stack Developer roadmap
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/best-ai-tool-for-coding">
+                Best AI Coding Tools
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Ready for the Next Level?</h2>
+          <p>
+            What I’ve shared here just scratches the surface. If you actually
+            want to become the person others come to when their React code
+            catches fire,{" "}
+            <a href="https://reactbootcamp.com">jump into the React Bootcamp</a>
+            .
+            <br />
+            The window to truly master React is wide open—but it won’t be
+            forever. Most will keep spinning their wheels and miss out. Not you.
+          </p>
+          <blockquote>
+            Success with React isn’t about memorizing terminology. It’s about
+            mastering how all these pieces fit together—so you can crush any
+            problem, build anything, and move at lightning speed.
+          </blockquote>
+          <p>
+            Bookmark this guide. Share it. Start building.
+            <br />
+            Because tomorrow, when everyone else is still fighting with
+            mysterious bugs… you’ll already be on the next level.
+          </p>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 10,
-      title:
-        "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
-      alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      date: "May 2, 2025",
-      articleRoute: "react-hooks",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-    {
-      id: 26,
-      title:
-        "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
-      alt: "Software engineering career advice: Building projects for real users vs localhost development",
-      date: "June 28, 2025",
-      articleRoute: "real-world-coding-career-advice",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

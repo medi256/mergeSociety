@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -520,437 +520,429 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>
-          Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy
-          Architecture
+          Web Application Architecture: Apache vs Nginx - The Brutally Honest
+          Guide
         </h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg"
-          }
-          alt="Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics"
-          width={600}
-          height={400}
-          priority
-        />
-
         <p>
-          If you’ve dipped even a single toe into the world of web application
-          architecture, you’ve almost certainly encountered the names{" "}
-          <strong>Apache</strong> and <strong>NGINX</strong>. Both are
-          venerable, free, open source projects and are fundamental to the way
-          the modern Internet works. But what are they, really? Why do they
-          matter? And how do they serve as HTTP and reverse proxy servers? Let’s
-          break it all down, layer by layer, and see why these powerhouse
-          technologies remain central to today’s web.
+          What if I told you everything you think you know about web servers is
+          either outdated or just plain wrong? Here’s what nobody admits: As of{" "}
+          <strong>2025</strong>, the battle between <strong>Apache</strong> and{" "}
+          <strong>nginx</strong> isn’t just a popularity contest - it’s a
+          fundamental debate that will define your app’s speed, security, and
+          survival. If you don’t understand what’s actually happening under the
+          hood, you are setting yourself up to fail, period.
         </p>
 
-        <h2>
-          How Does a Web Server Work? (And Where Do Apache and NGINX Fit In?)
-        </h2>
+        <section>
+          <h2>Stop Believing the “Simple Web Server” Myth</h2>
+          <p>
+            You click IBM.com (because what else do you do on a rainy
+            afternoon?), and your browser magically serves up a beautiful page
+            about hybrid multi-cloud security. Feels like your laptop is
+            directly talking to a mythical “IBM server,” right?
+          </p>
+          <p>
+            Here’s the thing that blew my mind: That’s how it <em>used</em> to
+            work… <strong>in 2003.</strong> Back when “a server” actually meant
+            a single box in a dusty rack somewhere, taking your HTTP request,
+            grabbing some HTML, and sending it back to your browser - all by its
+            lonesome. But the world laughed at simplicity and decided “Let’s
+            make this 100x more complicated and 10,000x more powerful.”
+          </p>
+        </section>
 
-        <p>
-          Imagine you’re at home, laptop open, browser ready. You decide to
-          visit your favorite website let’s say, <strong>IBM.com</strong> for a
-          little light reading on cloud security (hey, we all have our hobbies).
-          On the surface, it feels straightforward: your browser sends a request
-          out into the digital ether, and somewhere out there, IBM’s servers
-          reply with a shiny, fully rendered webpage about hybrid multi cloud
-          security solutions, perfect for an afternoon read.
-        </p>
+        <section>
+          <h2>Modern Web App Architecture: Why There’s No Going Back</h2>
+          <p>
+            Today, any public-facing website worth your click runs on{" "}
+            <strong>clusters</strong> of web servers. Why? The internet is a
+            traffic monster that will destroy your lone server in a heartbeat.
+            Now, you’ve got a whole farm of machines ready to serve content, and
+            they’re all behind this single ruthless gatekeeper: the{" "}
+            <strong>load balancer</strong>.
+          </p>
+          <p>
+            This isn’t some optional gizmo - load balancers make or break
+            performance. Instead of letting one server get hammered, load
+            balancers spread requests around, keeping everyone happy.
+          </p>
+          <p>
+            Here’s where it gets juicy: Load balancers can operate on totally
+            different levels. Think of layer 4 load balancers as bouncers at the
+            club door - they don’t care what’s inside the request, just the
+            destination and port. They’ll handle DNS, mail, TCP, or UDP,
+            shuffling everyone to the right place.
+          </p>
+          <p>
+            But if you like your tech like you like your bean dip - with all the
+            layers - you’ll love this: <strong>Apache and nginx</strong> operate
+            as “Layer 7” load balancers, diving deep into the HTTP protocol
+            itself.
+          </p>
+          <p className="tweetable">
+            “Most people think load balancers just shuffle connections - the
+            truth is, Apache and nginx can control every byte at the application
+            layer.”
+          </p>
+        </section>
 
-        <p>
-          This interaction is the core of web server software: it accepts{" "}
-          <strong>HTTP connections</strong>, matches them to documents, images,
-          or assorted digital resources, and then returns those resources to
-          whoever asked for them (that’s you or technically, your browser).
-        </p>
+        <section>
+          <h2>Wait… What Exactly Does a Reverse Proxy Even Do?</h2>
+          <p>
+            The term “reverse proxy” sounds like something invented by a bored
+            network engineer, but here’s what actually happens: Your request
+            hits nginx (or Apache) up front, and that server turns around and
+            talks to your private backend servers <em>for you</em>.
+          </p>
+          <ul>
+            <li>You (the browser) think “I’m talking to IBM’s main site”.</li>
+            <li>
+              Reality: You’re chatting with nginx, who’s passing your messages
+              like the world’s best middleman.
+            </li>
+          </ul>
+          <p>So what’s the point? Why go through this weird dance?</p>
+          <ul>
+            <li>
+              <strong>Load Balancing Superpowers:</strong> Easily direct traffic
+              to whatever server is least busy. No more single points of
+              failure.
+            </li>
+            <li>
+              <strong>Fortress-Level Security:</strong> Nobody from the outside
+              ever sees your real infrastructure; all they know is the proxy.
+              It’s like the face of your operation - everything behind it is
+              invisible and safe.
+            </li>
+            <li>
+              <strong>Caching (a.k.a. Super Speed):</strong> If 100,000 people
+              all want that logo at the top of your homepage, nginx can just{" "}
+              <em>cache</em> it and serve it instantly, saving network and
+              server horsepower.
+            </li>
+            <li>
+              <strong>Lightning-Fast Compression:</strong> nginx or Apache can
+              compress traffic on the fly so users see your site load faster
+              than ever.
+            </li>
+            <li>
+              <strong>SSL Termination & Offloading:</strong> Let nginx handle
+              your SSL/TLS handshake, so backend servers can zip along in plain
+              text (if security policies allow) for crazy speed boosts.
+            </li>
+          </ul>
+          <p>
+            Here’s what nobody tells you: Proxies don’t just add complexity -{" "}
+            <strong>they obliterate your old bottlenecks</strong>.
+          </p>
+          <blockquote>
+            “Success isn’t about working harder—it's about working on what
+            everyone else ignores.”
+          </blockquote>
+        </section>
 
-        <h2>The Evolution: From Simple Servers to Scalable Architectures</h2>
+        <section>
+          <h2>
+            The Truth About Apache and nginx: What Really Sets Them Apart?
+          </h2>
+          <p>
+            Let’s drop the polite corporate fluff. <strong>Apache</strong> is
+            the granddaddy - powering websites since before Y2K panic made
+            caffeine a food group. It started as a simple web server and kept
+            piling on features with a modular system. Want reverse proxy? Flip
+            on <code>mod_proxy</code> and <code>mod_http</code> modules. Want
+            something else? There’s probably a module for it.
+          </p>
+          <p>
+            <strong>Nginx</strong> exploded onto the scene in 2004 because Igor
+            Sysoev was tired of Apache’s speed limits. His goal? Outrun,
+            outscale, and out-simplify everything that came before. Spoiler: It
+            worked.
+          </p>
+          <ul>
+            <li>
+              <strong>nginx:</strong> Blazing speed, super simple config,
+              dominates static file serving, handles massive concurrency with
+              ease.
+            </li>
+            <li>
+              <strong>Apache:</strong> Deeply customizable, crazy extensible for
+              dynamic or legacy content, still holds unique edge cases.
+            </li>
+          </ul>
+          <p>
+            Here’s where most people screw up: They think one is “better.”
+            That’s like saying racing cars are better than bulldozers. It
+            depends on the mission.
+          </p>
+          <p className="tweetable">
+            “Stop asking which server is best. Start asking which server fits
+            your architecture nightmares.”
+          </p>
+        </section>
 
-        <p>
-          Years ago, this process might have been as simple as a single server
-          answering all requests. But as the web grew and public facing websites
-          started attracting tidal waves of traffic that model quickly crumbled.
-          Now, it’s typical to see <strong>multiple web servers</strong> sitting
-          behind a central point called a <strong>load balancer</strong>.
-        </p>
+        <section>
+          <h2>
+            Apache vs nginx in 2025: The Real-World Differences (and When You’ll
+            Care)
+          </h2>
+          <h3>Static vs Dynamic Content Showdown</h3>
+          <p>
+            <strong>nginx</strong> wins hands-down for serving static files.
+            Images, CSS, lightweight pages? Nginx eats them for breakfast,
+            lunch, and dinner.
+          </p>
+          <p>
+            But try to run complex dynamic applications, legacy scripts, or
+            custom URL rewrites? That’s classic <strong>Apache turf</strong>.
+            Apache’s modular system can morph into almost anything you dream up
+            - at the cost of speed in some setups.
+          </p>
+          <h3>Popularity & Modern Deployments</h3>
+          <p>
+            <strong>Nginx</strong> is now the darling of the{" "}
+            <strong>container</strong> world (think Kubernetes, Docker, and all
+            the cool kid tech). That’s because it’s lightweight, fast to spin
+            up, and plays super well in clustered or microservice environments.
+          </p>
+          <p>
+            But there’s one killer twist:{" "}
+            <strong>You can run them together.</strong> No, seriously, NGINX as
+            your reverse proxy up front, passing requests to Apache servers
+            behind it. Or, flip it - Apache up front, nginx behind. Hybrid
+            setups that punch above their weight and can scale, secure, and
+            speed up your whole stack.
+          </p>
+          <p className="tweetable">
+            “Winners don’t pick between Apache and nginx. Winners figure out how
+            to use both to obliterate the competition.”
+          </p>
+        </section>
 
-        <p>Here’s how it works:</p>
-        <ul>
-          <li>
-            <strong>The load balancer sits in front</strong>, taking in all
-            incoming requests.
-          </li>
-          <li>
-            <strong>Requests are then routed</strong> to any one of the web
-            servers sitting behind the load balancer. Each server is set up to
-            deliver the same content think of it like a team of clones, all
-            equally capable.
-          </li>
-        </ul>
-        <p>
-          <em>
-            If this were a diagram, you’d see one big “entry point” box handing
-            off requests to several identical “server” boxes. Neat, right?
-          </em>
-        </p>
+        <section>
+          <h2>Step-By-Step: Implementing Apache or nginx as a Reverse Proxy</h2>
+          <ol>
+            <li>
+              <strong>Decide Your Mission:</strong> Is speed the priority? Are
+              you dealing mostly with static assets (go nginx) or complex
+              business logic (consider Apache)?
+            </li>
+            <li>
+              <strong>Install Your Choice:</strong> Both are a one-liner on most
+              Linux distros:
+              <pre>
+                # Apache
+                <br />
+                sudo apt-get install apache2
+                <br />
+                # Nginx
+                <br />
+                sudo apt-get install nginx
+              </pre>
+            </li>
+            <li>
+              <strong>Enable Modules (For Apache):</strong>
+              <br />
+              <code>sudo a2enmod proxy proxy_http</code>
+              <br />
+              Restart Apache for these to take effect.
+            </li>
+            <li>
+              <strong>Configure Your Proxy:</strong>
+              <ul>
+                <li>
+                  <strong>nginx:</strong> Set up a <code>location</code> block
+                  with <code>proxy_pass</code> to target internal servers.
+                </li>
+                <li>
+                  <strong>Apache:</strong> Use <code>ProxyPass</code> and{" "}
+                  <code>ProxyPassReverse</code> directives for the same result.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Test Your Setup:</strong> Hit the endpoint in your
+              browser. Screenshot what you expect to see, or better yet, tail
+              your logs (<code>tail -f /var/log/nginx/access.log</code>) and
+              watch the hits.
+            </li>
+          </ol>
+          <p>
+            🚨 <strong>Pro Tip:</strong> Always benchmark before and after.
+            Bottlenecks will surprise you.
+          </p>
+        </section>
 
-        <h2>Layer Four vs. Layer Seven: What's the Difference?</h2>
+        <section>
+          <h2>Common Mistakes Every Newbie Makes (and How to Crush Them)</h2>
+          <ul>
+            <li>
+              <strong>Forgetting to secure your proxy.</strong> If your admin
+              panel is accidentally left exposed, bots <em>will</em> find it.
+            </li>
+            <li>
+              <strong>Failing to enable caching.</strong> You’re burning CPU
+              resources and robbing your users of that “instant” feel.
+            </li>
+            <li>
+              <strong>Misunderstanding SSL offloading.</strong> If your data
+              stays unencrypted farther than intended, that’s instant nightmare
+              fuel.
+            </li>
+            <li>
+              <strong>Ignoring logs.</strong> Every security breach starts as an
+              ignored warning.
+            </li>
+          </ul>
+          <p>
+            The difference between winners and losers? Winners do what losers
+            won’t. Secure, monitor, optimize, repeat.
+          </p>
+        </section>
 
-        <p>
-          Not all load balancers are created equal. Some operate as{" "}
-          <strong>Layer 4 load balancers</strong>: they work at the transport
-          level, simply routing the traffic (including DNS, mail, TCP, and UDP)
-          without peeking into its contents. It’s a bit like shuffling sealed
-          envelopes fast, but not particularly insightful.
-        </p>
+        <section>
+          <h2>
+            Advanced Architectures: When Pros Break the “One or the Other” Rule
+          </h2>
+          <p>
+            Want mind-blowing performance and bulletproof security? Top-tier
+            platforms chain nginx and Apache together, tuning each for its sweet
+            spot.
+          </p>
+          <ul>
+            <li>nginx as the caching, SSL-terminating, load-balancing edge</li>
+            <li>
+              Apache handling complex dynamic content, authentication, or legacy
+              integrations
+            </li>
+          </ul>
+          <p>
+            This only works if you start now because by next year everyone else
+            will be catching on.
+          </p>
+          <blockquote>
+            “Stop trying to be perfect. Start trying to be remarkable.”
+          </blockquote>
+        </section>
 
-        <p>
-          However, the real culinary magic (think: seven layer bean dip) happens
-          at <strong>Layer 7</strong> also known as the Application Layer. Both
-          Apache and NGINX can act as what’s called a{" "}
-          <strong>reverse proxy</strong> or{" "}
-          <strong>Layer 7 load balancer</strong>. This means they can inspect
-          incoming HTTP requests, make smarter routing decisions, and even
-          manipulate or cache content along the way.
-        </p>
+        <section>
+          <h2>People Also Ask: FAQs About Apache vs nginx</h2>
+          <section className="faq-section">
+            <h3>What is the main difference between Apache and nginx?</h3>
+            <p>
+              Apache is highly extensible and customizable, originally designed
+              for dynamic content and has a broad range of modules. Nginx is
+              lightning-fast for static content, built for speed and efficiency,
+              especially in modern, containerized, or high-traffic environments.
+            </p>
+            <h3>Can I use Apache and nginx together?</h3>
+            <p>
+              Absolutely! Many organizations run nginx as a reverse
+              proxy/caching layer with Apache running dynamic application logic
+              behind it. This hybrid approach gives you the strengths of both
+              worlds.
+            </p>
+            <h3>Which is better for WordPress?</h3>
+            <p>
+              Both servers work. Out-of-the-box, Apache’s .htaccess flexibility
+              gives it an edge for plugins, while nginx needs extra config. For
+              speed-obsessed deployments, nginx can offer advantages.
+            </p>
+            <h3>Does nginx replace Apache?</h3>
+            <p>
+              Not necessarily. nginx is leading in new, performance-first
+              designs, but Apache still dominates everything from legacy
+              enterprise apps to customizable, dynamic workloads.
+            </p>
+            <h3>How can I optimize my web server for security?</h3>
+            <p>
+              Always run behind a proxy, restrict admin interfaces, enable SSL,
+              cache static files, and monitor logs constantly. Default configs
+              are never enough!
+            </p>
+          </section>
+        </section>
 
-        <h3>What is a Reverse Proxy anyway?</h3>
-        <p>
-          In this setup, when your request comes in, the reverse proxy receives
-          it first and then establishes its own private connections to web
-          servers further inside the network. To you out there on the Internet
-          it looks like the reverse proxy is doing all the work. The real heavy
-          lifting is happening behind the scenes.
-        </p>
+        <section>
+          <h2>What Most People Get Wrong About Modern Web Servers</h2>
+          <p>
+            Here’s the real reason why most folks waste money, burn out servers,
+            or get hacked: They treat Apache and nginx as “just web servers.” In
+            2025, these tools are the foundation of{" "}
+            <strong>modern distributed architecture</strong> powering everything
+            from banking apps to global streaming giants. They’re your security
+            shield, your performance booster, and your custom logic engine - all
+            in one.
+          </p>
+          <p className="tweetable">
+            “The web is a warzone. Apache and nginx are your artillery.”
+          </p>
+        </section>
 
-        <h2>Why Use a Reverse Proxy (like Apache or NGINX)?</h2>
+        <section>
+          <h2>Ready to Dominate? Your Next Steps</h2>
+          <p>
+            If you’re still reading this, you’re already ahead of 90% of people
+            who will click away and never build real understanding. This is just
+            the beginning of what’s possible. You can install and configure a
+            basic proxy stack in 15 minutes. But the pro-level optimizations -
+            caching, SSL offload, dynamic routing, hybrid architectures - that’s
+            where the magic (and the real business edge) lives.
+          </p>
+          <p>
+            The bottom line: Whether you’re launching your first site or scaling
+            for millions, mastering Apache and nginx (and how they work
+            together) gives you an unfair advantage. Start now, and by the time
+            everyone else catches on, you’ll be ahead, optimized, and sleeping
+            easy. What are you waiting for?
+          </p>
+          <p>
+            <strong>
+              Bookmark this. Share it with your team. Implement today.
+            </strong>{" "}
+            This isn’t theory - this is how the internet really works now.
+          </p>
+        </section>
 
-        <p>This architecture unlocks a ton of advantages:</p>
-        <ol>
-          <li>
-            <strong>Load Balancing:</strong> Distribute requests evenly among
-            servers. No single server becomes overwhelmed a crucial feature for
-            high traffic sites.
-          </li>
-          <li>
-            <strong>Increased Security:</strong> The public only sees the
-            reverse proxy. The underlying servers remain invisible, hidden
-            behind a digital curtain. As far as the user knows, there’s only one
-            server answering requests even though, in reality, it’s a team
-            effort.
-          </li>
-          <li>
-            <strong>Caching:</strong> If, for example, there’s a popular image
-            featured on every single webpage, the reverse proxy can remember
-            (cache) it and serve it up instantly saving both time and network
-            bandwidth for everyone.
-          </li>
-          <li>
-            <strong>Compression:</strong> The proxy can optimize data by
-            compressing it between itself and the end user, leading to faster
-            load times.
-          </li>
-          <li>
-            <strong>SSL Termination:</strong> The proxy can handle all the SSL
-            encryption duties meaning traffic inside the protected network can
-            use plain text for better speed (while still recommending encryption
-            everywhere for safety whenever practical).
-          </li>
-        </ol>
-
-        <p>
-          In short, the reverse proxy takes the credit (sometimes a bit rudely,
-          never sharing the spotlight), but it’s genuinely working hard for both
-          the site owner and the user.
-        </p>
-
-        <h2>Apache: The Original Web Server Giant</h2>
-        <p>
-          Now let’s talk history. <strong>Apache</strong> has been serving the
-          web since before the year 2000, making it almost as old as pop up ads
-          (but much more beloved). Its power comes from its modular approach:
-          you can tack on functionality as needed, including{" "}
-          <code>mod_proxy</code> and <code>mod_http</code> for reverse proxy
-          powers. Apache is stable, versatile, and widely used for everything
-          from small websites to massive enterprise deployments.
-        </p>
-
-        <h2>NGINX: Speed Demon with a Modern Edge</h2>
-        <p>
-          Enter <strong>NGINX</strong> (pronounced “Engine X”), released in 2004
-          by Igor Sysoev specifically designed to outperform Apache. And does it
-          ever in pure speed, especially when serving simple, static files or as
-          a high volume proxy. NGINX boasts a streamlined configuration and is
-          renowned for its ability to tackle massive numbers of simultaneous
-          connections with ease.
-        </p>
-
-        <h3>But isn't Apache More Flexible?</h3>
-        <p>
-          Great question! While NGINX dominates on speed and static content, the
-          modular, extensible nature of Apache lends itself better to complex,
-          dynamic content and environments where customization is key. Sometimes
-          you trade raw speed for adaptability.
-        </p>
-
-        <p>
-          It’s also worth mentioning that Apache and NGINX handle{" "}
-          <strong>all kinds of HTTP traffic</strong> not just standard webpages,
-          but the RESTful API calls that power almost every web and mobile app
-          you use today. (If you’ve ever made a REST call or watched a video
-          about them think: these servers are on the job!)
-        </p>
-
-        <h2>Containers, Popularity, and Why You Don’t Have to Pick Sides</h2>
-
-        <p>
-          In today’s containerized world (think: Docker, Kubernetes), NGINX
-          enjoys a surge in popularity due to its efficiency and low resource
-          requirements. But the competition in the web server space is fierce
-          and evolving. Here’s the trick: you don’t actually have to choose one
-          over the other.
-        </p>
-        <p>
-          Many organizations deploy{" "}
-          <strong>NGINX as a reverse proxy front end</strong> with several{" "}
-          <strong>Apache servers</strong> running behind it (or the other way
-          around!). The core principles remain largely unchanged; it all comes
-          down to what matches your application’s needs and infrastructure.
-        </p>
-
-        <h2>Which Should You Choose?</h2>
-
-        <p>
-          The answer is, as always in tech: <strong>it depends</strong>. Both
-          Apache and NGINX provide an abundance of features to ensure your data
-          flows quickly, securely, and reliably across the web. Consider your
-          priorities speed, configurability, compatibility with tools, or legacy
-          needs and choose accordingly.
-        </p>
-
-        <p>
-          Got questions or thoughts about web servers, proxies, or anything
-          cloud related? <strong>Drop us a comment below!</strong> And if you’d
-          like more guides, tutorials, or in depth tech explainers, hit that
-          like and subscribe button to stay updated.
-        </p>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+        <section>
+          <h2>Related Topics to Skyrocket Your Knowledge</h2>
+          <ul>
+            <li>
+              <Link href="/code-report/tech-stack">
+                The Definitive Beginner’s Guide to Picking Your Tech Stack for
+                Web, Mobile, Desktop, Games, and AI
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/best-framework">
+                The Best Frameworks for Solo SaaS Builders: Navigating Laravel,
+                Next.js, and Beyond
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/labing">
+                From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS
+                Server, and Music Streaming Empire
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/algorithms">What Are Algorithms</Link>
+            </li>
+            <li>
+              <Link href="/code-report/python-libraries">
+                Every Python Library and Frameworks Explained
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/mongodb-explained">MongoDB</Link>
+            </li>
+            <li>
+              <Link href="/code-report/databases">PostgreSQL vs. MySQL</Link>
+            </li>
+          </ul>
+        </section>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
-      alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
-      date: "April 27, 2025",
-      articleRoute: "saas",
-    },
-    {
-      id: 2,
-      title:
-        "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
-      alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      date: "April 27, 2025",
-      articleRoute: "best-framework",
-    },
-    {
-      id: 3,
-      title:
-        " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
-      alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      date: "April 27, 2025",
-      articleRoute: "tech-stack",
-    },
-    {
-      id: 4,
-      title:
-        "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
-      alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      date: "April 27, 2025",
-      articleRoute: "labing",
-    },
-    {
-      id: 5,
-      title:
-        "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
-      alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      date: "April 27, 2025",
-      articleRoute: "algorithms",
-    },
-    {
-      id: 6,
-      title: "Every Python Library and Frameworks Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
-      alt: "Every Python Library and Frameworks Explained",
-      date: "May 2, 2025",
-      articleRoute: "python-libraries",
-    },
-    {
-      id: 7,
-      title: "Every React Concept Explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
-      alt: "Every React Concept Explained",
-      date: "May 2, 2025",
-      articleRoute: "all-react-concepts",
-    },
-    {
-      id: 8,
-      title: "All The JavaScript You Need To Know For React",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
-      alt: "All The JavaScript You Need To Know For React",
-      date: "May 2, 2025",
-      articleRoute: "react-you-need",
-    },
-    {
-      id: 9,
-      title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
-      alt: "How to Learn JavaScript FAST in 2025",
-      date: "May 2, 2025",
-      articleRoute: "how-to-learn-javascript",
-    },
-    {
-      id: 10,
-      title:
-        "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
-      alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
-      date: "May 2, 2025",
-      articleRoute: "react-hooks",
-    },
-    {
-      id: 11,
-      title:
-        "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
-      alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
-      date: "May 2, 2025",
-      articleRoute: "fullstack-roadmap",
-    },
-    {
-      id: 12,
-      title: "APIs Explained (in 4 Minutes)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
-      alt: "Visual representation of API communication between applications",
-      date: "May 7, 2025",
-      articleRoute: "apis-explained",
-    },
-    {
-      id: 13,
-      title:
-        "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
-      alt: "MongoDB database architecture visualization",
-      date: "May 7, 2025",
-      articleRoute: "mongodb-explained",
-    },
-    {
-      id: 14,
-      title:
-        "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg",
-      alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      date: "May 9, 2025",
-      articleRoute: "databases",
-    },
-    {
-      id: 16,
-      title:
-        "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
-      alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
-      date: "May 9, 2025",
-      articleRoute: "web-server",
-    },
-    {
-      id: 17,
-      title: "Define Domain Name System (DNS)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp",
-      alt: "DNS explanation diagram showing how domains resolve to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "what-is-dns",
-    },
-    {
-      id: 18,
-      title:
-        "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
-      alt: "DNS Records Infographic showing how domain names connect to IP addresses",
-      date: "May 9, 2025",
-      articleRoute: "dns-records",
-    },
-    {
-      id: 19,
-      title: "Easy Definition of VPN",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg",
-      alt: "Visual explanation of how a VPN protects your internet connection",
-      date: "May 9, 2025",
-      articleRoute: "vpn-explained",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};
