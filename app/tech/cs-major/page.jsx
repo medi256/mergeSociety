@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -443,13 +443,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg"
             alt="Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Honest look at the tech job market for CS majors — humor included.
