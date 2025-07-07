@@ -61,8 +61,6 @@ export default function MobileSidebar() {
             "Apps",
             "Startup Stories",
             "Code Report",
-            "Interviews",
-            "Acquisitions",
             "HTML",
             "CSS",
             "JavaScript",

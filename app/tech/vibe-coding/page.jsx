@@ -742,81 +742,33 @@ export default function Article() {
           </p>
         </section>
         <h2>Recommended Articles</h2>
-        <Section3 />
+        <ul>
+          <li>
+            <Link href="/tech/reality-of-cs">
+              What It's Really Like to Study Computer Science: Reality of CS
+              Majors
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/40-projects">
+              40 Programming Projects That Will Make You a Better Developer
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/will-tech-jobs-bounce-back">
+              Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI
+              Takes Hold?
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/tech-jobs-in-freefall">
+              Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings
+              Despite Record Profits
+            </Link>
+          </li>
+        </ul>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 12,
-      title:
-        "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746028914/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii.jpg",
-      alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      date: "April 30, 2025",
-      articleRoute: "reddit",
-    },
-    {
-      id: 13,
-      title:
-        "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg",
-      alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
-      date: "May 1, 2025",
-      articleRoute: "will-tech-jobs-bounce-back",
-    },
-
-    {
-      id: 26,
-      title:
-        "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746714642/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le.jpg",
-      alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
-      date: "May 8, 2025",
-      articleRoute: "google-coding-ai",
-    },
-  ];
-
-  return (
-    <section>
-      <div>
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <img
-                src={project.image}
-                alt={project.alt}
-                className="bg-image"
-                width={600}
-                height={400}
-                loading="eager"
-                decoding="async"
-                fetchPriority="high"
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

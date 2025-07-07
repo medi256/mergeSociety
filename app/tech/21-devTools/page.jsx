@@ -238,106 +238,6 @@ export const metadata = {
   },
 };
 
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 10,
-      title: "40 Programming Projects That Will Make You a Better Developer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746001867/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em.jpg",
-      alt: "40 Programming Projects That Will Make You a Better Developer",
-      date: "April 30, 2025",
-      articleRoute: "40-projects",
-    },
-    {
-      id: 22,
-      title: "Docker 101: Mastering Modern Software Delivery with Containers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746270617/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat.jpg",
-      alt: "Docker 101: Mastering Modern Software Delivery with Containers",
-      date: "May 3, 2025",
-      articleRoute: "docker-explained",
-    },
-    {
-      id: 23,
-      title:
-        "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746276011/freestocks-I_pOqP6kCOI-unsplash_ysz7vg.jpg",
-      alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      date: "May 3, 2025",
-      articleRoute: "cs-major",
-    },
-    {
-      id: 24,
-      title:
-        "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
-      alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
-      date: "May 8, 2025",
-      articleRoute: "programming-myth",
-    },
-    {
-      id: 25,
-      title:
-        "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg",
-      alt: "Programming language roadmap showing the progression from beginner to expert languages",
-      date: "May 8, 2025",
-      articleRoute: "developer-roadmaps",
-    },
-    {
-      id: 28,
-      title:
-        "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746772728/pexels-digitalbuggu-374559_yqicxw.jpg",
-      alt: "Ruby on Rails framework diagram showing MVC architecture with code examples",
-      date: "May 9, 2025",
-      articleRoute: "ruby-explained",
-    },
-    {
-      id: 30,
-      title:
-        "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746776022/7040859_sp09q7.jpg",
-      alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
-      date: "May 9, 2025",
-      articleRoute: "javascript-features",
-    },
-  ];
-
-  return (
-    <div className="bg-grid">
-      {blogPosts.map((project) => (
-        <Link key={project.id} href={`/tech/${project.articleRoute}`} passHref>
-          <Image
-            src={project.image}
-            alt={project.alt}
-            width={600}
-            height={400}
-            className="bg-image"
-            priority
-          />
-
-          <div className="bg-content">
-            <h2 className="bg-title">{project.title}</h2>
-            <time
-              className="bg-date"
-              dateTime={new Date(project.date).toISOString()}
-            >
-              {project.date}
-            </time>
-          </div>
-        </Link>
-      ))}
-    </div>
-  );
-};
-
 export default function Article() {
   return (
     <div className="lesson-wrapper">
@@ -885,7 +785,31 @@ export default function Article() {
           </blockquote>
         </section>
         <h2>Recommended Articles</h2>
-        <Section3 />
+        <ul>
+          <li>
+            <Link href="/tech/cs-major">
+              Computer Science Still worth learning
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/40-projects">
+              40 Programming Projects That Will Make You a Better Developer
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/programming-myth">
+              Programming Myths That Waste Your Time
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/developer-roadmaps">
+              God-Tier Programming Roadmap
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/ruby-explained">The Ruby on Rails Explained</Link>
+          </li>
+        </ul>
         <CommentSection />
       </article>
     </div>

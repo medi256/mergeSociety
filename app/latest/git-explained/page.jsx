@@ -846,72 +846,38 @@ export default function Article() {
 
         <aside>
           <h2>More Topics You Should Explore</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/aws-explained">What is AWS</Link>
+            </li>
+            <li>
+              <Link href="/latest/friendship-that-saved-google">
+                The Unsung Friendship That Saved Google—and Invented the Modern
+                Internet
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/learn-to-code">
+                Why America Became Obsessed with "Learn to Code"
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/binary-explained">What is Binary Code</Link>
+            </li>
+            <li>
+              <Link href="/latest/computer-science-basics">
+                Computer Science Basics
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/rust-programming-language">
+                Rust Programming Language
+              </Link>
+            </li>
+          </ul>
         </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 17,
-      title: `Best Programming Language for AI and Machine Learning`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747398547/pexels-markus-winkler-1430818-18512795_vozwoe.jpg",
-      alt: "Best Programming Language for AI and Machine Learning",
-      date: "May 16, 2025",
-      articleRoute: "top-languages-for-ai-2025",
-    },
-
-    {
-      id: 19,
-      title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747483676/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j.jpg",
-      alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
-      date: "May 17, 2025",
-      articleRoute: "aws-explained",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

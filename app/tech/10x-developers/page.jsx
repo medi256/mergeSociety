@@ -783,82 +783,33 @@ export default function Article() {
           more deep tech inspiration!
         </p>
         <h3>Recommended</h3>
-        <Section3 />
+        <ul>
+          <li>
+            <Link href="/tech/reality-of-cs">
+              What It's Really Like to Study Computer Science: Reality of CS
+              Majors
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/40-projects">
+              40 Programming Projects That Will Make You a Better Developer
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/will-tech-jobs-bounce-back">
+              Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI
+              Takes Hold?
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/tech-jobs-in-freefall">
+              Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings
+              Despite Record Profits
+            </Link>
+          </li>
+        </ul>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 32,
-      title:
-        "Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most Powerful Operating System",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
-      alt: "illustration of linux",
-      date: "May 11, 2025",
-      articleRoute: "why-linux",
-    },
-    {
-      id: 33,
-      title:
-        "The TRUTH about C++: Should You Actually Learn It? The Truth Behind Its Power, Pitfalls, and Controversy",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746978372/pexels-punttim-52608_oxusa4.jpg",
-      alt: "C++ programming language",
-      date: "May 11, 2025",
-      articleRoute: "cplus",
-    },
-
-    {
-      id: 35,
-      title: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747150651/cs_moponk.jpg",
-      alt: "Should I Get a CS Degree in 2025",
-      date: "May 13, 2025",
-      articleRoute: "should-you",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

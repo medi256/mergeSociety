@@ -9,10 +9,6 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/acquisitions`,
-      lastModified: new Date(),
-    },
-    {
       url: `https://www.mergesociety.com/ai`,
       lastModified: new Date(),
     },
@@ -22,10 +18,6 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/code-report`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews`,
       lastModified: new Date(),
     },
     {
@@ -478,34 +470,6 @@ export default function sitemap() {
     },
     {
       url: `https://www.mergesociety.com/code-report/websocets-explained`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews/google-intern`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews/get-hired`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews/google-inter`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews/prepare`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/interviews/the-truth`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/acquisitions/turning`,
-      lastModified: new Date(),
-    },
-    {
-      url: `https://www.mergesociety.com/acquisitions/big-tech`,
       lastModified: new Date(),
     },
     {

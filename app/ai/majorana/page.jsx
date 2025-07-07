@@ -657,6 +657,11 @@ export default function Article() {
                 Lessons, Honest Pros & Cons, and Is the Certificate Worth It?
               </Link>
             </li>
+            <li>
+              <Link href="/ai/is-ai-making-us-dumb">
+                Is AI Making Us Dumber
+              </Link>
+            </li>
           </ul>
         </section>
 

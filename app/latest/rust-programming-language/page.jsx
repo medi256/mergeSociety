@@ -760,82 +760,34 @@ export default function Article() {
 
         <aside>
           <h2>Explore More Topics</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
+                Best Programming Languages to Learn for High Paying Tech Jobs
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/binary-explained">What is Binray Code</Link>
+            </li>
+            <li>
+              <Link href="/latest/learn-to-code">
+                Why America Became Obsessed with "Learn to Code"
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/computer-science-basics">
+                Computer Science Basics
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/full-stack-developer-roadmap">
+                Full Stack Developer Roadmap
+              </Link>
+            </li>
+          </ul>
         </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 18,
-      title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747472691/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx.jpg",
-      alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
-      date: "May 17, 2025",
-      articleRoute: "git-explained",
-    },
-
-    {
-      id: 20,
-      title: `Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to FullStack Web Development`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
-      alt: "Full Stack Developer Roadmap 2025",
-      date: "May 18, 2025",
-      articleRoute: "full-stack-developer-roadmap",
-    },
-
-    {
-      id: 22,
-      title: `Linux vs Windows vs Mac: Why Linux is Simply Better for Your Computer Freedom`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747560830/theregisti-6km3qNqc8fk-unsplash_cjxbvw.jpg",
-      alt: "Linux vs Windows vs Mac",
-      date: "May 18, 2025",
-      articleRoute: "Linux-vs-Windows-vs-Mac",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

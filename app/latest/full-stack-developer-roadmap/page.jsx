@@ -928,81 +928,41 @@ export default function Article() {
 
         <aside>
           <h2>More Topics</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/ai-is-officially-here">
+                How Smart Developers Really Use AI—From Tutor to Supercharged
+                Intern
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/friendship-that-saved-google">
+                The Unsung Friendship That Saved Google—and Invented the Modern
+                Internet
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/learn-to-code">
+                Why America Became Obsessed with "Learn to Code"
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/binary-explained">What is Binary Code</Link>
+            </li>
+            <li>
+              <Link href="/latest/computer-science-basics">
+                Computer Science Basics
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/rust-programming-language">
+                Rust Programming Language
+              </Link>
+            </li>
+          </ul>
         </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 18,
-      title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747472691/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx.jpg",
-      alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
-      date: "May 17, 2025",
-      articleRoute: "git-explained",
-    },
-
-    {
-      id: 21,
-      title: `Rust Programming Language: Memory Safety and Performance Explained`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747559679/rust_q0urkm.webp",
-      alt: "Rust Programming Language: Memory Safety and Performance Explained",
-      date: "May 18, 2025",
-      articleRoute: "rust-programming-language",
-    },
-    {
-      id: 22,
-      title: `Linux vs Windows vs Mac: Why Linux is Simply Better for Your Computer Freedom`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747560830/theregisti-6km3qNqc8fk-unsplash_cjxbvw.jpg",
-      alt: "Linux vs Windows vs Mac",
-      date: "May 18, 2025",
-      articleRoute: "Linux-vs-Windows-vs-Mac",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

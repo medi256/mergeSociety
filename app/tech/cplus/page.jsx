@@ -666,82 +666,34 @@ export default function Article() {
           landscape in our in-depth overview.
         </p>
         <h2>Recommended Articles</h2>
-        <Section3 />
+        <ul>
+          <li>
+            <Link href="/tech/10x-developers">
+              The Most Legendary Programmers Of All Time
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/seo-wins">SEO Wins</Link>
+          </li>
+          <li>
+            <Link href="/tech/what-is-quantam">
+              But what is quantum computing?
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/neural-network">
+              But what is a neural network?
+            </Link>
+          </li>
+          <li>
+            <Link href="/tech/neovim-explained">Neovim vs Vim</Link>
+          </li>
+          <li>
+            <Link href="/tech/docker-explained">What is Docker 101</Link>
+          </li>
+        </ul>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 30,
-      title:
-        "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746776022/7040859_sp09q7.jpg",
-      alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
-      date: "May 9, 2025",
-      articleRoute: "javascript-features",
-    },
-    {
-      id: 31,
-      title:
-        "What is malware in simple words?: How Malware Spreads - Inside a Crypto Mining Botnet Targeting Gamers",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746957800/michael-geiger-JJPqavJBy_k-unsplash_lhsizr.jpg",
-      alt: "illustration of malware",
-      date: "May 11, 2025",
-      articleRoute: "malware-explained",
-    },
-    {
-      id: 32,
-      title:
-        "Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most Powerful Operating System",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
-      alt: "illustration of linux",
-      date: "May 11, 2025",
-      articleRoute: "why-linux",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <section className="section3">
-      <div className="bg-grid">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

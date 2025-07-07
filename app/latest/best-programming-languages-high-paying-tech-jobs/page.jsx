@@ -810,7 +810,23 @@ export default function Article() {
           </p>
           <aside>
             <h3>More Interesting Articles</h3>
-            <GridNews />
+            <ul>
+              <li>
+                <Link href="/latest/top-languages-for-ai-2025">
+                  Best Programming Language for AI and Machine Learning
+                </Link>
+              </li>
+              <li>
+                <Link href="/latest/git-explained">
+                  Git For Beginners: A Complete Step-by-Step Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/latest/full-stack-developer-roadmap">
+                  Full Stack Developer Roadmap
+                </Link>
+              </li>
+            </ul>
           </aside>
         </section>
 
@@ -897,74 +913,3 @@ export default function Article() {
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 11,
-      title: `Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
-      alt: "Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts",
-      date: "May 15, 2025",
-      articleRoute: "computer-science-basics",
-    },
-    {
-      id: 15,
-      title: `Best Programming Language for Each Tech Career Job in 2025: A Comprehensive Beginner’s Guide`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747387243/pexels-mart-production-7709168_oee7dw.jpg",
-      alt: "Best Programming Language for Each Tech Career Job in 2025",
-      date: "May 16, 2025",
-      articleRoute: "best-programming-language-for-each-job",
-    },
-
-    {
-      id: 17,
-      title: `Best Programming Language for AI and Machine Learning`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747398547/pexels-markus-winkler-1430818-18512795_vozwoe.jpg",
-      alt: "Best Programming Language for AI and Machine Learning",
-      date: "May 16, 2025",
-      articleRoute: "top-languages-for-ai-2025",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

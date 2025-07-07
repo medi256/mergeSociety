@@ -691,80 +691,40 @@ export default function Article() {
 
         <aside>
           <h2>More Topics to explore</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
+                Best Programming Languages to Learn for High Paying Tech Jobs
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/friendship-that-saved-google">
+                The Unsung Friendship That Saved Google—and Invented the Modern
+                Internet
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/learn-to-code">
+                Why America Became Obsessed with "Learn to Code"
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/binary-explained">What is Binary Code</Link>
+            </li>
+            <li>
+              <Link href="/latest/computer-science-basics">
+                Computer Science Basics
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/rust-programming-language">
+                Rust Programming Language
+              </Link>
+            </li>
+          </ul>
         </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 19,
-      title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747483676/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j.jpg",
-      alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
-      date: "May 17, 2025",
-      articleRoute: "aws-explained",
-    },
-    {
-      id: 20,
-      title: `Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to FullStack Web Development`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
-      alt: "Full Stack Developer Roadmap 2025",
-      date: "May 18, 2025",
-      articleRoute: "full-stack-developer-roadmap",
-    },
-    {
-      id: 21,
-      title: `Rust Programming Language: Memory Safety and Performance Explained`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747559679/rust_q0urkm.webp",
-      alt: "Rust Programming Language: Memory Safety and Performance Explained",
-      date: "May 18, 2025",
-      articleRoute: "rust-programming-language",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

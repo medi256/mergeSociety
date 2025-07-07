@@ -775,7 +775,28 @@ export default function Article() {
 
         <aside>
           <h2>Explore More Topics</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/top-languages-for-ai-2025">
+                Best Programming Language for AI and Machine Learning
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/git-explained">
+                Git For Beginners: A Complete Step-by-Step Guide
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
+                Best Programming Languages for high Salary
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/aws-explained">
+                AWS: The Ultimate Guide to Cloud Computing
+              </Link>
+            </li>
+          </ul>
         </aside>
 
         <section className="faq-section">
@@ -849,65 +870,3 @@ export default function Article() {
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 9,
-      title: `Why America Became Obsessed with "Learn to Code"—And Where That Strategy Went Wrong`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746094162/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha.jpg",
-      alt: "Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong",
-      date: "May 1, 2025",
-      articleRoute: "learn-to-code",
-    },
-
-    {
-      id: 11,
-      title: `Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
-      alt: "Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts",
-      date: "May 15, 2025",
-      articleRoute: "computer-science-basics",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

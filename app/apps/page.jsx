@@ -103,7 +103,7 @@ const Section4 = () => {
     {
       id: 2,
       title:
-        " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
+        "The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745738744/best_apps_iraybe.jpg",
       alt: " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",

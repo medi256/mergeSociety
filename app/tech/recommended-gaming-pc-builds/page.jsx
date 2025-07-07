@@ -799,7 +799,34 @@ export default function Article() {
         {/* H2: Internal Linking Opportunities */}
         <section>
           <h3>More Topics</h3>
-          <Section3 />
+          <ul>
+            <li>
+              <Link href="/tech/pc-gaming-parts">PC Gaming Components</Link>
+            </li>
+            <li>
+              <Link href="/tech/pc-overview">
+                PC Component Overview: The Complete Beginner’s Guide
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/operating-systems">
+                The Ultimate Guide to Major Operating Systems
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/why-linux">
+                Why You Should Learn Linux Matters
+              </Link>
+            </li>
+            <li>
+              <Link href="/tech/linux">The Life Cycle of a Linux User</Link>
+            </li>
+            <li>
+              <Link href="/tech/computer-components">
+                The Essential Guide to Computer Components
+              </Link>
+            </li>
+          </ul>
         </section>
 
         {/* FAQ Section */}
@@ -870,89 +897,9 @@ export default function Article() {
             size means easier cable management and a cleaner build.
           </p>
         </section>
+
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section3 = () => {
-  const blogPosts = [
-    {
-      id: 36,
-      title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
-      alt: "SEO Strategies for 2025",
-      date: "May 14, 2025",
-      articleRoute: "seo-wins",
-    },
-    {
-      id: 37,
-      title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png",
-      alt: "Neovim Modern Guide",
-      date: "May 14, 2025",
-      articleRoute: "neovim-explained",
-    },
-    {
-      id: 38,
-      title:
-        "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230241/pexels-sharad-7199194_w5uzmv.jpg",
-      alt: "PC Components Overview Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-overview",
-    },
-    {
-      id: 39,
-      title:
-        "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
-      alt: "PC Gaming Components Guide",
-      date: "May 14, 2025",
-      articleRoute: "pc-gaming-parts",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <section>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/tech/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image"
-                priority
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};

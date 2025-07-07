@@ -657,21 +657,6 @@ export default function Article() {
               Human Thought
             </Link>
           </li>
-          <li>
-            <Link href="/ai/all-ai-algorithms">
-              All Machine Learning algorithms explained
-            </Link>
-          </li>
-          <li>
-            <Link href="/ai/best-ai-apps">
-              Best AI Apps for College Student
-            </Link>
-          </li>
-          <li>
-            <Link href="/ai/best-ai-app-for-iphone">
-              Top 5 Free AI Apps For iPhone & Android in 2025
-            </Link>
-          </li>
         </ul>
 
         <h2>Final Thoughts: If You’re Still Reading, You’re Ahead of 90%</h2>
@@ -717,102 +702,32 @@ export default function Article() {
         </aside>
 
         <h2>Recommended Articles</h2>
-        <Section2 />
+
+        <ul>
+          <li>
+            <Link href="/ai/ai-trends-2025">AI Trends for 2025</Link>
+          </li>
+          <li>
+            <Link href="/ai/what-is-agents">What are AI Agents?</Link>
+          </li>
+          <li>
+            <Link href="/ai/tovard-on-ai">Torvalds Speaks on AI</Link>
+          </li>
+          <li>
+            <Link href="/ai/majorana">Microsoft’s Majorana One Chip</Link>
+          </li>
+          <li>
+            <Link href="/ai/ai-agents">AI Agents Explained</Link>
+          </li>
+          <li>
+            <Link href="/ai/all-ai-algorithms">
+              All Machine Learning algorithms explained
+            </Link>
+          </li>
+        </ul>
+
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section2 = () => {
-  const blogPosts = [
-    {
-      id: 3,
-      title:
-        "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745651306/ai-again_frbb7o.jpg",
-      alt: "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      date: "April 26, 2025",
-      articleRoute: "llms",
-    },
-
-    {
-      id: 17,
-      title: "All Machine Learning algorithms explained",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746109286/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n.jpg",
-      alt: "All Machine Learning algorithms explained",
-      date: "May 1, 2025",
-      articleRoute: "all-ai-algorithms",
-    },
-    {
-      id: 19,
-      title: "Best AI Apps for College Student",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
-      alt: "Best AI Apps for College Student",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-apps",
-    },
-    {
-      id: 21,
-      title: "Top 5 Free AI Apps For iPhone & Android in 2025",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746522301/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej.png",
-      alt: "Best free AI apps for mobile devices",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-app-for-iphone",
-    },
-    {
-      id: 22,
-      title: "Best AI Tools for Research",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
-      alt: "illustration Best AI Tools for Research",
-      date: "May 6, 2025",
-      articleRoute: "best-ai-tools-for-research",
-    },
-    {
-      id: 24,
-      title: "What are AI Agents?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
-      alt: "Visualization of AI agents orchestrating tools and systems autonomously",
-      date: "May 6, 2025",
-      articleRoute: "what-is-agents",
-    },
-  ];
-
-  return (
-    <>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
-            <div className="bg-image">
-              <img
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                loading="lazy"
-                decoding="async"
-                fetchPriority="high"
-                className="bg-image"
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

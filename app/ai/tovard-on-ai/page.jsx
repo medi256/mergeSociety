@@ -670,76 +670,31 @@ export default function Article() {
           will only grow.
         </p>
         <h2>Recommended Articles</h2>
-        <Section2 />
+        <ul>
+          <li>
+            <Link href="/ai/is-ai-making-us-dumb">Is AI Making Us Dumber</Link>
+          </li>
+          <li>
+            <Link href="/ai/future-of-jobs">
+              The Future of Jobs In this AI Era
+            </Link>
+          </li>
+          <li>
+            <Link href="/ai/google-ais">
+              A Hands-On Review of Google’s AI Essentials Course
+            </Link>
+          </li>
+          <li>
+            <Link href="/ai/ai-with-jobs">
+              Why Human Connection Still Beats Technology—Even in the AI Era
+            </Link>
+          </li>
+          <li>
+            <Link href="/ai/ai-vs-jobs">The Death of Coding</Link>
+          </li>
+        </ul>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section2 = () => {
-  const blogPosts = [
-    {
-      id: 23,
-      title:
-        "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
-      alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
-      date: "May 6, 2025",
-      articleRoute: "ai-ml-dp",
-    },
-    {
-      id: 24,
-      title: "What are AI Agents?",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
-      alt: "Visualization of AI agents orchestrating tools and systems autonomously",
-      date: "May 6, 2025",
-      articleRoute: "what-is-agents",
-    },
-    {
-      id: 25,
-      title:
-        "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746953738/pexels-tara-winstead-8849295_hlz6r3.jpg",
-      alt: "AI Trends for 2025",
-      date: "May 11, 2025",
-      articleRoute: "ai-trends-2025",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-  return (
-    <>
-      <div className="bg-grid">
-        {latestPosts.map((project) => (
-          <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
-            <div className="bg-image">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                priority
-                className="bg-image"
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

@@ -806,32 +806,16 @@ export default function Article() {
           <ul>
             <li>
               <strong>Want to master the details?</strong> Check out deep dives
-              on{" "}
-              <Link href="/ai/majorana">
-                Microsoft’s Majorana One Chip: The Topological Quantum Leap That
-                Could Change the Future of Computing
-              </Link>
-              ,{" "}
+              on ,{" "}
               <Link href="/ai/we-stopped-understanding-ai">
                 The moment we stopped understanding AI [AlexNet]
               </Link>
-              ,{" "}
-              <Link href="/ai/ai-vs-jobs">
-                The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke
-                in the Age of AI and Bitcoin
-              </Link>
-              , and{" "}
+              , , and{" "}
               <Link href="/ai/ai-agents">
                 AI Agents Demystified: The Step-by-Step Guide for Non-Techies
                 Using Real Life Examples
               </Link>
               .
-            </li>
-            <li>
-              <Link href="/ai/google-ais">
-                A Hands-On Review of Google’s AI Essentials Course: 5 Key
-                Lessons, Honest Pros & Cons, and Is the Certificate Worth It?
-              </Link>
             </li>
           </ul>
           <p>
@@ -869,6 +853,26 @@ export default function Article() {
             </li>
           </ul>
         </aside>
+
+        <ul>
+          <li>
+            <Link href="/ai/ai-mcp">What is MCP in AI</Link>
+          </li>
+          <li>
+            <Link href="/ai/tovard-on-ai">Torvalds Speaks on AI</Link>
+          </li>
+          <li>
+            <Link href="/ai/llms">
+              How AI Autocompletes Human Thought (inside LLMs)
+            </Link>
+          </li>
+          <li>
+            <Link href="/ai/will-programmers-vanish">
+              Will AI Replace Programmers?
+            </Link>
+          </li>
+        </ul>
+
         <CommentSection />
       </article>
     </div>

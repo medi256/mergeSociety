@@ -988,8 +988,26 @@ export default function Article() {
         {/* Internal linking opportunities */}
         <aside>
           <h3>More Guides</h3>
-
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/git-explained">Git For Beginners</Link>
+            </li>
+            <li>
+              <Link href="/latest/top-languages-for-ai-2025">
+                Best Programming Language for AI and Machine Learning
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/git-explained">
+                Git For Beginners: A Complete Step-by-Step Guide
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
+                Best Programming Languages for high Salary
+              </Link>
+            </li>
+          </ul>
         </aside>
 
         {/* FAQ Section */}
@@ -1070,74 +1088,3 @@ export default function Article() {
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 11,
-      title: `Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg",
-      alt: "Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts",
-      date: "May 15, 2025",
-      articleRoute: "computer-science-basics",
-    },
-
-    {
-      id: 16,
-      title: `Best Programming Languages to Learn for High Paying Tech Jobs in 2025`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747385355/kobu-agency-67L18R4tW_w-unsplash_pnwolr.jpg",
-      alt: " Best Programming Languages to Learn for High Paying Tech Jobs in 2025",
-      date: "May 16, 2025",
-      articleRoute: "best-programming-languages-high-paying-tech-jobs",
-    },
-    {
-      id: 17,
-      title: `Best Programming Language for AI and Machine Learning`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747398547/pexels-markus-winkler-1430818-18512795_vozwoe.jpg",
-      alt: "Best Programming Language for AI and Machine Learning",
-      date: "May 16, 2025",
-      articleRoute: "top-languages-for-ai-2025",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

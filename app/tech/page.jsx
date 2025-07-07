@@ -133,7 +133,7 @@ const Section3 = () => {
     {
       id: 3,
       title:
-        " The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
+        "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
       alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
@@ -143,7 +143,7 @@ const Section3 = () => {
     {
       id: 4,
       title:
-        " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
+        "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745681628/palantir_vii89x.jpg",
       alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
@@ -153,7 +153,7 @@ const Section3 = () => {
     {
       id: 5,
       title:
-        " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
+        "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
       image:
         "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745683592/wifi_ao8skn.jpg",
       alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",

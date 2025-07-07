@@ -1083,76 +1083,31 @@ export default function Article() {
 
         <aside>
           <h2>Explore More Topics</h2>
-          <GridNews />
+          <ul>
+            <li>
+              <Link href="/latest/Linux-vs-Windows-vs-Mac">
+                Linux vs Windows vs Mac
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/rust-programming-language">
+                Rust Programming Language
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
+                Best Programming Languages for high Salary
+              </Link>
+            </li>
+            <li>
+              <Link href="/latest/aws-explained">
+                AWS: The Ultimate Guide to Cloud Computing
+              </Link>
+            </li>
+          </ul>
         </aside>
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const GridNews = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746014182/growtika-183Yxo3vsGY-unsplash_bqlqeh.jpg",
-      alt: "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
-      date: " April 30, 2025",
-      articleRoute: "internship-at-google",
-    },
-    {
-      id: 10,
-      title: `Binary Explained: How Computers Use Ones and Zeros to Power the Digital World`,
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747327529/pexels-ron-lach-9783346_n9rpik.jpg",
-      alt: "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
-      date: "May 15, 2025",
-      articleRoute: "binary-explained",
-    },
-  ];
-
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  return (
-    <>
-      <div className="h-ai">
-        <h1>Latest</h1>
-      </div>
-
-      <div className="bg-grid-4">
-        {latestPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/latest/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image-4">
-              <Image
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                className="bg-image-4"
-                priority
-              />
-            </div>
-            <div className="bg-content-4">
-              <h2 className="bg-title-4">{project.title}</h2>
-              <time
-                className="bg-date-4"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </>
-  );
-};

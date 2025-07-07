@@ -37,12 +37,12 @@ const NavBar = () => {
             <li>
               <Link href="/code-report">Code Report</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/interviews">Interviews</Link>
             </li>
             <li>
               <Link href="/acquisitions">Acquisitions</Link>
-            </li>
+            </li> */}
           </ul>
 
           <div className="dropdown dropdown-hover">

@@ -673,11 +673,6 @@ export default function Article() {
                 All Machine Learning algorithms explained
               </Link>
             </li>
-            <li>
-              <Link href="/ai/best-ai-app-for-iphone">
-                Top 5 Free AI Apps For iPhone & Android in 2025
-              </Link>
-            </li>
           </ul>
         </aside>
 
@@ -805,6 +800,24 @@ export default function Article() {
             show up.
           </p>
         </section>
+        <h2>Recommended Articles</h2>
+        <ul>
+          <li>
+            <Link href="/ai/we-stopped-understanding-ai">
+              The moment we stopped understanding AI
+            </Link>
+          </li>
+          <li>
+            <Link href="/ai/tovard-on-ai">Torvalds Speaks on AI</Link>
+          </li>
+          <li>
+            <Link href="/ai/majorana">Microsoft’s Majorana One Chip</Link>
+          </li>
+          <li>
+            <Link href="/ai/ai-agents">AI Agents Explained</Link>
+          </li>
+        </ul>
+
         <CommentSection />
       </article>
     </div>

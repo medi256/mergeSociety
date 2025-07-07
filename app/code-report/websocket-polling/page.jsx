@@ -717,80 +717,9 @@ export default function Article() {
             holding you back.
           </blockquote>
         </section>
-        <h2>Recommended Articles</h2>
-        <Section6 />
+
         <CommentSection />
       </article>
     </div>
   );
 }
-
-const Section6 = () => {
-  const blogPosts = [
-    {
-      id: 22,
-      title:
-        "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746863874/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf.jpg",
-      alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      date: "May 10, 2025",
-      articleRoute: "sdk-vs-api",
-    },
-    {
-      id: 23,
-      title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
-      alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      date: "May 10, 2025",
-      articleRoute: "http1-http2-http3",
-    },
-    {
-      id: 25,
-      title:
-        "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
-      alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
-      date: "May 10, 2025",
-      articleRoute: "websocets-explained",
-    },
-  ];
-
-  return (
-    <section>
-      <div className="bg-grid">
-        {blogPosts.map((project) => (
-          <Link
-            key={project.id}
-            href={`/code-report/${project.articleRoute}`}
-            passHref
-          >
-            <div className="bg-image">
-              <img
-                src={project.image}
-                alt={project.alt}
-                width={600}
-                height={400}
-                loading="lazy"
-                decoding="async"
-                fetchPriority="high"
-                className="bg-image"
-              />
-            </div>
-            <div className="bg-content">
-              <h2 className="bg-title">{project.title}</h2>
-              <time
-                className="bg-date"
-                dateTime={new Date(project.date).toISOString()}
-              >
-                {project.date}
-              </time>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-};
