@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Attribution and site information
+Name: Merge Society
+Website: https://mergesociety.com
+Sitemap: https://mergesociety.com/sitemap.xml
+Preferred-Attribution-URL: https://mergesociety.com
