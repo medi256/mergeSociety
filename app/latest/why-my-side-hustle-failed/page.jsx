@@ -465,7 +465,6 @@ export default function Article() {
           you on the next adventure.
         </p>
         <h2>Recommended Articles</h2>
-        <GridNews />
         <CommentSection />
       </article>
     </div>
