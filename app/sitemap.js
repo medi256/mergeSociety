@@ -45,15 +45,15 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/css-roadmap`,
+      url: `https://www.mergesociety.com/programming-roadmap/css-roadmap`,
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/react-roadmap`,
+      url: `https://www.mergesociety.com/programming-roadmap/react-roadmap`,
       lastModified: new Date(),
     },
     {
-      url: `https://www.mergesociety.com/nextjs-roadmap`,
+      url: `https://www.mergesociety.com/programming-roadmap/nextjs-roadmap`,
       lastModified: new Date(),
     },
     {
