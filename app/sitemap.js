@@ -33,6 +33,30 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/programming-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/programming-roadmap/javascript-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/programming-roadmap/html-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/css-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/react-roadmap`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/nextjs-roadmap`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/40-projects`,
       lastModified: new Date(),
     },
