@@ -56,7 +56,7 @@ export const metadata = {
       "Next.js Roadmap: What Most Developers Miss (Features, Salaries, and Secret Resources Inside)",
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
-    url: "https://www.mergesociety.com/nextjs-roadmap",
+    url: "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -146,7 +146,8 @@ export const metadata = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/nextjs-roadmap",
+        "@id":
+          "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
       },
       articleSection: "Web Development",
       keywords:
@@ -175,7 +176,8 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/nextjs-roadmap",
+    canonical:
+      "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
 };
 
@@ -210,7 +212,7 @@ export const structuredData = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/nextjs-roadmap",
+    "@id": "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
   proficiencyLevel: "Intermediate",
   dependencies: [

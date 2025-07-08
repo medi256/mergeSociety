@@ -55,7 +55,7 @@ export const metadata = {
     title: "React Roadmap: How To Master React In 2025 (Complete Roadmap)",
     description:
       "The ultimate step-by-step guide to mastering React in 2025. Learn hooks, state management, Next.js integration, performance optimization and transform from beginner to React expert with this battle-tested roadmap.",
-    url: "https://www.mergesociety.com/react-roadmap",
+    url: "https://www.mergesociety.com/programming-roadmap/react-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -143,7 +143,7 @@ export const metadata = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/react-roadmap",
+        "@id": "https://www.mergesociety.com/programming-roadmap/react-roadmap",
       },
       articleSection: "Web Development",
       keywords:
@@ -172,7 +172,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react-roadmap",
+    canonical: "https://www.mergesociety.com/programming-roadmap/react-roadmap",
   },
 };
 
@@ -206,7 +206,7 @@ export const structuredData = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/react-roadmap",
+    "@id": "https://www.mergesociety.com/programming-roadmap/react-roadmap",
   },
   proficiencyLevel: "Beginner",
   dependencies: [

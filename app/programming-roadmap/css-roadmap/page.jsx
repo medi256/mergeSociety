@@ -58,7 +58,7 @@ export const metadata = {
       "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
-    url: "https://www.mergesociety.com/css-roadmap",
+    url: "https://www.mergesociety.com/programming-roadmap/css-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -148,7 +148,7 @@ export const metadata = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/css-roadmap",
+        "@id": "https://www.mergesociety.com/programming-roadmap/css-roadmap",
       },
       articleSection: "Web Development",
       keywords:
@@ -177,7 +177,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css-roadmap",
+    canonical: "https://www.mergesociety.com/programming-roadmap/css-roadmap",
   },
 };
 
@@ -212,7 +212,7 @@ export const structuredData = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/css-roadmap",
+    "@id": "https://www.mergesociety.com/programming-roadmap/css-roadmap",
   },
   proficiencyLevel: "Beginner",
   dependencies: [
