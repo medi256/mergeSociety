@@ -177,6 +177,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/ai/cheating`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/rise-of-ai`,
       lastModified: new Date(),
     },

@@ -349,6 +349,16 @@ const Section2 = () => {
       date: "May 11, 2025",
       articleRoute: "tovard-on-ai",
     },
+    {
+      id: 27,
+      title:
+        "Grok 4 AI: Elon Musk’s Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
+      alt: "Grok 4 AI interface showing controversial chatbot responses",
+      date: "July 12, 2025",
+      articleRoute: "grok4",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
