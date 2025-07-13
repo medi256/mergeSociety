@@ -29,12 +29,7 @@ export const metadata = {
     description:
       "Elon Musk's Grok 4 outperforms rivals on benchmarks but sparks controversy with uncensored responses. See what makes it revolutionary.",
     images: [
-      {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
-        width: 1200,
-        height: 630,
-        alt: "Discover why Grok 4",
-      },
+      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
     ],
     site: "@mergeSociety2",
   },
