@@ -28,8 +28,14 @@ export const metadata = {
     title: "Grok 4 AI: The Controversial Chatbot That's Beating GPT-4",
     description:
       "Elon Musk's Grok 4 outperforms rivals on benchmarks but sparks controversy with uncensored responses. See what makes it revolutionary.",
-    image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
+        width: 1200,
+        height: 630,
+        alt: "Discover why Grok 4",
+      },
+    ],
     site: "@mergeSociety2",
   },
 
@@ -39,8 +45,14 @@ export const metadata = {
       "Discover why Grok 4 is claiming the AI throne while sparking outrage. See benchmark results, coding capabilities, and the controversy everyone's talking about.",
     type: "article",
     url: "https://www.mergesociety.com/ai/grok4",
-    image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752311622/grok_4_jv3jmy.png",
+        width: 1200,
+        height: 630,
+        alt: "Discover why Grok 4",
+      },
+    ],
     site_name: "Merge Society",
     locale: "en_US",
   },
