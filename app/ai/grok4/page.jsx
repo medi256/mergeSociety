@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
-export const articleMetadata = {
+export const metadata = {
   title:
     "Grok 4 AI: Elon Musk's Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
   description:
