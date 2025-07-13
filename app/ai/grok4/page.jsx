@@ -130,43 +130,10 @@ export const metadata = {
   },
 };
 
-export const getMetaTags = () => [
-  { name: "description", content: articleMetadata.description },
-  { name: "keywords", content: articleMetadata.keywords.join(", ") },
-  { name: "robots", content: articleMetadata.robots },
-  { name: "language", content: articleMetadata.language },
-  { rel: "canonical", href: articleMetadata.canonical },
-
-  // OpenGraph
-  { property: "og:title", content: articleMetadata.og.title },
-  { property: "og:description", content: articleMetadata.og.description },
-  { property: "og:type", content: articleMetadata.og.type },
-  { property: "og:url", content: articleMetadata.og.url },
-  { property: "og:image", content: articleMetadata.og.image },
-
-  { name: "twitter:card", content: articleMetadata.twitter.card },
-  { name: "twitter:title", content: articleMetadata.twitter.title },
-  { name: "twitter:description", content: articleMetadata.twitter.description },
-  { name: "twitter:image", content: articleMetadata.twitter.image },
-
-  {
-    property: "article:published_time",
-    content: articleMetadata.article.published_time,
-  },
-  { property: "article:author", content: articleMetadata.article.author },
-  { property: "article:section", content: articleMetadata.article.section },
-];
-
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(articleMetadata.structuredData),
-        }}
-      />
       <article className="lesson-container">
         <h1>
           Grok 4 AI: Elon Musk’s Game-Changing Chatbot Shocks the World (and
