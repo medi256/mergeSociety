@@ -349,6 +349,16 @@ const Section6 = () => {
       date: "July 4, 2025",
       articleRoute: "best-ai-tool-for-coding",
     },
+    {
+      id: 28,
+      title:
+        "Computer Science vs Software Engineering: Your Ultimate Guide to Differences, Courses, and Careers",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752850382/softwareVScomputerscience_zuymum.webp",
+      alt: "Computer Science vs Software Engineering comparison infographic showing courses, careers, and salary differences",
+      date: "July 18, 2025",
+      articleRoute: "computer-science-vs-software-engineering",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

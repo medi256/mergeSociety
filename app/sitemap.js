@@ -65,6 +65,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/computer-science-vs-software-engineering`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/linux`,
       lastModified: new Date(),
     },
