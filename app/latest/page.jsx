@@ -267,6 +267,15 @@ const GridNews = () => {
       date: "May 18, 2025",
       articleRoute: "Linux-vs-Windows-vs-Mac",
     },
+    {
+      id: 23,
+      title: `Mixing Programming Languages in One Executable: How Compilers, Linkers, and ABIs Make It Work`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp",
+      alt: "Mixing Programming Languages in One Executable",
+      date: "August 14 , 2025",
+      articleRoute: "mixing-programming-languages-in-one-executable",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

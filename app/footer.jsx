@@ -11,42 +11,12 @@ const Footer = () => {
             <ul className="social-links">
               <li>
                 <a
-                  href="https://www.instagram.com/medi45.of?utm_source=qr&igsh=YnR4bnd4bHFzZWNo"
+                  href="https://www.instagram.com/medi45.of"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
                   <i className="fa-brands fa-instagram"></i> Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.twitter.com/@manager70191"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter"
-                >
-                  <i className="fa-brands fa-twitter"></i> Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100088699977603"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Facebook"
-                >
-                  <i className="fa-brands fa-facebook"></i> Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.tiktok.com/@merge.corp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="TikTok"
-                >
-                  <i className="fa-brands fa-tiktok"></i> TikTok
                 </a>
               </li>
               <li>

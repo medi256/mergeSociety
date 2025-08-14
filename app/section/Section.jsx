@@ -12,17 +12,17 @@ export default function GridNews() {
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
-            <Link href="/tech/21-devTools">
+            <Link href="/latest/mixing-programming-languages-in-one-executable">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg"
-                alt="21 Powerful Chrome DevTools Tips Every Web Developer Should Be Using"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp"
+                alt="Mixing Programming Languages in One Executable"
                 width={400}
                 height={250}
               />
               <h2>
                 {" "}
-                Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every
-                Web Developer Needs (Most Pros Miss #13)
+                Mixing Programming Languages in One Executable: How Compilers,
+                Linkers, and ABIs Make It Work
               </h2>
             </Link>
           </div>
