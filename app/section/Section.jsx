@@ -27,16 +27,16 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/tech/vibe-coding">
+            <Link href="/latest/devops-lifecycle">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg"
-                alt="Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp"
+                alt="DevOps Explained"
                 width={400}
                 height={250}
               />
               <h2>
-                Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And
-                How to Beat the 2025 Mind Virus)
+                DevOps Explained: Lifecycle, Phases, Tools, and Real-World
+                Stories
               </h2>
             </Link>
           </div>

@@ -276,6 +276,15 @@ const GridNews = () => {
       date: "August 14 , 2025",
       articleRoute: "mixing-programming-languages-in-one-executable",
     },
+    {
+      id: 24,
+      title: `DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp",
+      alt: "DevOps Explained",
+      date: "August 15, 2025",
+      articleRoute: "devops-lifecycle",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
