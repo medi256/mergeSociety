@@ -127,6 +127,29 @@ export default function ComputerScienceCareerDepthArticle() {
         </p>
 
         <section>
+          <p className="mt-6 text-sm sm:text-base">
+            Prefer watching instead of reading? You can watch the full
+            walkthrough below, or keep scrolling to read the complete article.
+          </p>
+
+          <div
+            className="relative mt-3 w-full overflow-hidden rounded-xl border border-gray-200 dark:border-gray-800"
+            style={{ aspectRatio: "16 / 9" }}
+          >
+            <iframe
+              className="absolute inset-0 h-full w-full"
+              src="https://www.youtube-nocookie.com/embed/RoW5E-HGP5Y?si=rlfzfKHNVXFCxqcA"
+              title="DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories"
+              loading="lazy"
+              fetchPriority="high"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
+        </section>
+
+        <section>
           <h2>Why a Computer Science Career Rewards Depth, Not Dabbling</h2>
           <p>
             When I first got into CS, I tried to learn everything in sight.
