@@ -41,14 +41,14 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/ai/what-is-agents">
+            <Link href="/latest/computer-science-career">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
-                alt="What are AI Agents?"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755336713/audio_1755334719154_bdxdsx_gkoqmw.webp"
+                alt="Computer Science Career Path"
                 width={400}
                 height={250}
               />
-              <h2> What are AI Agents?</h2>
+              <h2>Computer Science Career Path</h2>
             </Link>
           </div>
         </aside>

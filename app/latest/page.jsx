@@ -285,6 +285,15 @@ const GridNews = () => {
       date: "August 15, 2025",
       articleRoute: "devops-lifecycle",
     },
+    {
+      id: 25,
+      title: `Computer Science Career Path`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755336713/audio_1755334719154_bdxdsx_gkoqmw.webp",
+      alt: "Computer Science Career Path",
+      date: "August 16, 2025",
+      articleRoute: "computer-science-career",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
