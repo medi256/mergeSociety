@@ -294,6 +294,15 @@ const GridNews = () => {
       date: "August 16, 2025",
       articleRoute: "computer-science-career",
     },
+    {
+      id: 26,
+      title: `C vs C++ vs C#`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp",
+      alt: "C vs C++ vs C#",
+      date: "August 17, 2025",
+      articleRoute: "c-vs-cpp-vs-csharp",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

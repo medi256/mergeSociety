@@ -55,17 +55,14 @@ export default function GridNews() {
 
         <main className="grid-news-featured">
           <div>
-            <Link href="/ai/ai-ml-dp">
+            <Link href="/latest/c-vs-cpp-vs-csharp">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg"
-                alt="AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp"
+                alt="C vs C++ vs C#"
                 width={600}
                 height={350}
               />
-              <h2>
-                AI, Machine Learning, Deep Learning & Generative AI: What’s the
-                Real Difference?
-              </h2>
+              <h2>C vs C++ vs C#</h2>
             </Link>
           </div>
         </main>
