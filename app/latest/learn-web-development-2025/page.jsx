@@ -855,14 +855,12 @@ export async function addNote(userId, text) {
           </p>
         </section>
 
-        <footer>
-          <p>
-            If this roadmap helped, share it with a friend and subscribe to my
-            newsletter to become a fellow code head. Then close this tab and
-            ship something small today. Learning happens when your code hits the
-            internet.
-          </p>
-        </footer>
+        <p>
+          If this roadmap helped, share it with a friend and subscribe to my
+          newsletter to become a fellow code head. Then close this tab and ship
+          something small today. Learning happens when your code hits the
+          internet.
+        </p>
       </article>
     </div>
   );

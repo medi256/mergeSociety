@@ -80,17 +80,17 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="code-report/websocket-polling">
+            <Link href="/latest/github-repositories">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746868335/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy.jpg"
-                alt="WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755527715/audio_1755527219890_ndn0m6_qmhpsb.webp"
+                alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
                 width={600}
                 height={350}
               />
               <h2>
                 {" "}
-                WebSockets vs. Polling vs. Long Polling: How Web Sockets work |
-                System Design Interview Basics
+                GitHub Repositories: 17 must-see open source projects that will
+                level up your coding
               </h2>
             </Link>
           </div>

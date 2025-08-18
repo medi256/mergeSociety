@@ -312,6 +312,15 @@ const GridNews = () => {
       date: "August 18, 2025",
       articleRoute: "learn-web-development-2025",
     },
+    {
+      id: 28,
+      title: `GitHub Repositories: 17 must-see open source projects that will level up your coding`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755527715/audio_1755527219890_ndn0m6_qmhpsb.webp",
+      alt: "GitHub Repositories: 17 must-see open source projects that will level up your coding",
+      date: "August 18, 2025",
+      articleRoute: "github-repositories",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

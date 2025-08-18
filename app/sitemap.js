@@ -45,6 +45,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/github-repositories`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/is-ai-making-us-dumb`,
       lastModified: new Date(),
     },
