@@ -139,7 +139,7 @@ export default function ComputerScienceCareerDepthArticle() {
             <iframe
               className="absolute inset-0 h-full w-full"
               src="https://www.youtube-nocookie.com/embed/RoW5E-HGP5Y?si=rlfzfKHNVXFCxqcA"
-              title="DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories"
+              title="Computer Science Career: Depth Beats Breadth for Landing Your First Role"
               loading="lazy"
               fetchPriority="high"
               referrerPolicy="strict-origin-when-cross-origin"

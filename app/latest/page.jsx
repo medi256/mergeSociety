@@ -303,6 +303,15 @@ const GridNews = () => {
       date: "August 17, 2025",
       articleRoute: "c-vs-cpp-vs-csharp",
     },
+    {
+      id: 27,
+      title: `How to Learn Web Development in 2025`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755498401/audio_1755493130168_mnninx_bbda8r.webp",
+      alt: "How to Learn Web Development in 2025",
+      date: "August 18, 2025",
+      articleRoute: "learn-web-development-2025",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

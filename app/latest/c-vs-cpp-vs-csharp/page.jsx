@@ -148,7 +148,7 @@ export default function CvsCppVsCSharpArticle() {
             <iframe
               className="absolute inset-0 h-full w-full"
               src="https://www.youtube-nocookie.com/embed/sNMtjs_wQiE"
-              title="DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories"
+              title="C vs C++ vs C# - Complete Programming Languages Comparison Guide"
               loading="lazy"
               fetchPriority="high"
               referrerPolicy="strict-origin-when-cross-origin"

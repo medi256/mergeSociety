@@ -69,18 +69,14 @@ export default function GridNews() {
 
         <aside className="grid-news-right">
           <div>
-            <Link href="/code-report/websocets-explained">
+            <Link href="/latest/learn-web-development-2025">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746949778/websoket_fi0nin.jpg"
-                alt="WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755498401/audio_1755493130168_mnninx_bbda8r.webp"
+                alt="How to Learn Web Development in 2025"
                 width={400}
                 height={250}
               />
-              <h2>
-                {" "}
-                WebSockets in 100 Seconds: An In Depth Guide to WebSockets,
-                Socket.IO, and the Future of Real Time Communication
-              </h2>
+              <h2>How to Learn Web Development in 2025</h2>
             </Link>
           </div>
           <div>
