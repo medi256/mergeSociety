@@ -321,6 +321,15 @@ const GridNews = () => {
       date: "August 18, 2025",
       articleRoute: "github-repositories",
     },
+    {
+      id: 29,
+      title: `Computer Science Degree Worth It? The Real Answer With Careers, Salaries, AI, and Satisfaction`,
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755613615/audio_1755594314864_2a5zr_yiegud.webp",
+      alt: "Computer Science Degree Worth It?",
+      date: "August 19, 2025",
+      articleRoute: "computer-science-degree-worth-it",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

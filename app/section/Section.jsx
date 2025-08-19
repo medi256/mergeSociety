@@ -95,14 +95,17 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/code-report/http1-http2-http3">
+            <Link href="/latest/computer-science-degree-worth-it">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg"
-                alt="HTTP 1 Vs HTTP 2 Vs HTTP 3!"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755613615/audio_1755594314864_2a5zr_yiegud.webp"
+                alt="Computer Science Degree Worth It?"
                 width={400}
                 height={250}
               />
-              <h2>HTTP 1 Vs HTTP 2 Vs HTTP 3!</h2>
+              <h2>
+                Computer Science Degree Worth It? The Real Answer With Careers,
+                Salaries, AI, and Satisfaction
+              </h2>
             </Link>
           </div>
         </aside>
