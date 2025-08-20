@@ -510,6 +510,15 @@ const Section3 = () => {
       date: "June 4, 2025",
       articleRoute: "uc-berkeley-computer-science-admission-requirements-2025",
     },
+    {
+      id: 42,
+      title: "Why Learn to Code with this AI Bubble",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755680962/audio_1755679142551_7b4jhp_a2iclj.webp",
+      alt: "Why Learn to Code",
+      date: "August 20, 2025",
+      articleRoute: "learn-to-code",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
