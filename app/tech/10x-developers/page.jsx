@@ -570,6 +570,29 @@ export default function Article() {
         </p>
 
         <section>
+          <p className="mt-6 text-sm sm:text-base">
+            Prefer watching instead of reading? You can watch the full
+            walkthrough below, or keep scrolling to read the complete article.
+          </p>
+
+          <div
+            className="relative mt-3 w-full overflow-hidden rounded-xl border border-gray-200 dark:border-gray-800"
+            style={{ aspectRatio: "16 / 9" }}
+          >
+            <iframe
+              className="absolute inset-0 h-full w-full"
+              src="https://www.youtube-nocookie.com/embed/zesdXeaLCDI?si=M43W5PrrPbx5p8Dm"
+              title="Legendary Programmers"
+              loading="lazy"
+              fetchPriority="high"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
+        </section>
+
+        <section>
           <h2>
             Linus Torvalds - the Finnish right-click that changed the world
           </h2>
