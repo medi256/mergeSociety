@@ -197,6 +197,16 @@ const Section6 = () => {
       date: "May 10, 2025",
       articleRoute: "websocets-explained",
     },
+    {
+      id: 30,
+      title:
+        "Pointers in C/C++ - what a pointer is, how pointer syntax works, and why programmers care",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756137216/audio_1756133645586_ybfdxp_m0ss09.webp",
+      alt: "Pointers in C and C++",
+      date: "August 25, 2025",
+      articleRoute: "pointers-in-c-and-cpp",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
