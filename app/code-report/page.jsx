@@ -359,6 +359,16 @@ const Section6 = () => {
       date: "July 18, 2025",
       articleRoute: "computer-science-vs-software-engineering",
     },
+    {
+      id: 29,
+      title:
+        "APIs explained - what is an API, why it exists, and real examples you already use every day",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp",
+      alt: "What  is an  API?",
+      date: "August 25, 2025",
+      articleRoute: "apis-explained-to-a-kid",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
