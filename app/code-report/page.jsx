@@ -379,6 +379,16 @@ const Section6 = () => {
       date: "August 25, 2025",
       articleRoute: "pointers-in-c-and-cpp",
     },
+    {
+      id: 31,
+      title:
+        "Math for Programmers - 10 Essential Concepts explained with memes, code, and real talk",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756228930/audio_1756224766523_5ki8jf_rtels1.webp",
+      alt: "Math for Programmers",
+      date: "August 26, 2025",
+      articleRoute: "math-for-programmers",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
