@@ -27,16 +27,16 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/latest/devops-lifecycle">
+            <Link href="/code-report/tutorial-hell">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp"
-                alt="DevOps Explained"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp"
+                alt="Tutorial Hell"
                 width={400}
                 height={250}
               />
               <h2>
-                DevOps Explained: Lifecycle, Phases, Tools, and Real-World
-                Stories
+                Tutorial Hell - How to Escape Tutorial Hell and Actually Learn
+                to Code
               </h2>
             </Link>
           </div>

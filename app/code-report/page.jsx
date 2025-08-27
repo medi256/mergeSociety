@@ -389,6 +389,16 @@ const Section6 = () => {
       date: "August 26, 2025",
       articleRoute: "math-for-programmers",
     },
+    {
+      id: 32,
+      title:
+        "Tutorial Hell - How to Escape Tutorial Hell and Actually Learn to Code",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp",
+      alt: "Tutorial Hell",
+      date: "August 27, 2025",
+      articleRoute: "tutorial-hell",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
