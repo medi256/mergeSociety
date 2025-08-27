@@ -462,7 +462,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg"
             alt="ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit"
             width={600}
             height={400}

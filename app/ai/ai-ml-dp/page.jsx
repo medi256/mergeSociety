@@ -276,7 +276,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg"
             alt="Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each"
             width={600}
             height={400}

@@ -174,7 +174,7 @@ export default function ComputerScienceDegreeWorthIt() {
 
         <figure>
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755613615/audio_1755594314864_2a5zr_yiegud.webp"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1755613615/audio_1755594314864_2a5zr_yiegud.webp"
             alt="Computer Science Degree Worth It?"
             width="600"
             height="400"

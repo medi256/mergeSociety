@@ -234,7 +234,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746776022/7040859_sp09q7.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746776022/7040859_sp09q7.jpg"
             alt="JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks"
             width={600}
             height={400}

@@ -95,7 +95,7 @@ const Page = () => {
         </h1>
         <figure className="article-figure">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp"
             alt="How APIs work with real-world examples"
             width="1200"
             height="675"

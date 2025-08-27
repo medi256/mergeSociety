@@ -509,7 +509,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745738744/best_apps_iraybe.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745738744/best_apps_iraybe.jpg"
             alt="The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!"
             width={600}
             height={400}

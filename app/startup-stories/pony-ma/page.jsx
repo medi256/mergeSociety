@@ -323,7 +323,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745747700/Ma-Huateng_uii6rl.jpg"
             alt="How Tencent quietly built a tech empire — The untold story of Pony Ma and China's digital dominance"
             width={600}
             height={400}

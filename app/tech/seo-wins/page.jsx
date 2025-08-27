@@ -215,7 +215,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg"
             alt="SEO Strategies for 2025 — How to Rank in an AI-Driven Search World"
             width={600}
             height={400}

@@ -531,7 +531,7 @@ export default function Article() {
         </h1>
 
         <img
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755864260/audio_1755852514231_nsf1n_wc51oe.webp"
+          src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1755864260/audio_1755852514231_nsf1n_wc51oe.webp"
           alt="Legendary Programmers of all time"
           width="600"
           height="400"

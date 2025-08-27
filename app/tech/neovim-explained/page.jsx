@@ -201,7 +201,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1747224208/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l.png"
             alt="Neovim Modern Guide"
             width={600}
             height={400}

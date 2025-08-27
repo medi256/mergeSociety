@@ -130,13 +130,12 @@ const Page = () => {
           </h1>
           <figure className="article-figure">
             <img
-              src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1756137216/audio_1756133645586_ybfdxp_m0ss09.webp"
+              src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756137216/audio_1756133645586_ybfdxp_m0ss09.webp"
               alt="Pointers in C and C++"
               width="1200"
               height="675"
               loading="lazy"
               fetchPriority="high"
-              referrerPolicy="strict-origin-when-cross-origin"
             />
             <figcaption>
               Pointers in C/C++ — here’s what that means in practice.

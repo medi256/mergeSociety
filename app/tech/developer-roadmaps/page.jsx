@@ -196,7 +196,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746694983/pexels-realtoughcandy-11035473_lzepvy.jpg"
             alt="Programming language roadmap showing the progression from beginner to expert languages"
             width={600}
             height={400}

@@ -314,7 +314,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746953738/pexels-tara-winstead-8849295_hlz6r3.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746953738/pexels-tara-winstead-8849295_hlz6r3.jpg"
             alt="AI Trends 2025: Visual representation of artificial intelligence evolution showing agentic AI, model scaling, and next-gen intelligence"
             width={600}
             height={400}

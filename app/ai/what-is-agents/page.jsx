@@ -221,7 +221,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
             alt="Visualization of AI agents orchestrating tools and systems autonomously"
             width={600}
             height={400}

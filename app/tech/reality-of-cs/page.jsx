@@ -444,7 +444,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746264565/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi.jpg"
             alt="What It's Really Like to Study Computer Science: Reality of CS Majors"
             width={600}
             height={400}

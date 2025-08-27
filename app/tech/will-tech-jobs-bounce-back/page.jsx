@@ -251,7 +251,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746087085/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b.jpg"
             alt="Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?"
             width={600}
             height={400}

@@ -105,7 +105,7 @@ export default function LearnToCodeArticle() {
         </h1>
         <figure>
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755680962/audio_1755679142551_7b4jhp_a2iclj.webp"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1755680962/audio_1755679142551_7b4jhp_a2iclj.webp"
             alt="How to  get  good  at  coding"
             width="600"
             height="400"

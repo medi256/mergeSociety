@@ -98,7 +98,7 @@ export default function GitHubRepositoriesArticle() {
         <section>
           <figure>
             <img
-              src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755527715/audio_1755527219890_ndn0m6_qmhpsb.webp"
+              src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1755527715/audio_1755527219890_ndn0m6_qmhpsb.webp"
               alt="A chill sloth mascot wearing headphones and peeking from behind a laptop with GitHub stickers"
               width="600"
               height="400"

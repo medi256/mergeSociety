@@ -553,7 +553,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746103424/jona-UopUfxghnWo-unsplash_qxft28.jpg"
             alt="But what is a neural network? | Deep learning"
             width={600}
             height={400}

@@ -548,7 +548,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg"
             alt="Visual representation of algorithms from simple tasks to AI neural networks"
             width={600}
             height={400}

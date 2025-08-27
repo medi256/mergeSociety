@@ -524,7 +524,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746606559/api_cbneaq.jpg"
             alt="Visual representation of API communication between applications"
             width={600}
             height={400}

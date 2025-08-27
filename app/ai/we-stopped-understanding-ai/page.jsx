@@ -232,7 +232,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg"
             alt="The moment we stopped understanding AI: Visualization referencing AlexNet's impact on deep learning interpretability"
             width={600}
             height={400}

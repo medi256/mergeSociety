@@ -502,7 +502,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745735364/favorite-apps_nlfmwq.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745735364/favorite-apps_nlfmwq.jpg"
             alt="The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration"
             width={600}
             height={400}

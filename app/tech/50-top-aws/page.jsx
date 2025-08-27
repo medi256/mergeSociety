@@ -328,7 +328,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746266414/aws_lg2upw.webp"
             alt="Top 50+ AWS Services Explained: What They Do and How They Power the Cloud"
             width={600}
             height={400}

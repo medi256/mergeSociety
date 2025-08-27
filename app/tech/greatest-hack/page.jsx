@@ -307,7 +307,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746098778/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt.jpg"
             alt="The Greatest Hack in History"
             width={600}
             height={400}

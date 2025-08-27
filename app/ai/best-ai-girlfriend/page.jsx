@@ -118,7 +118,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png"
             alt="Best AI girlfriend apps for emotional support, companionship, and human-AI connection"
             width={600}
             height={400}

@@ -343,7 +343,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1745752778/clem-onojeghuo-fY8Jr4iuPQM-unsplash_io8ddi.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745752778/clem-onojeghuo-fY8Jr4iuPQM-unsplash_io8ddi.jpg"
             alt="Tech’s Hidden Shift: The 2025 job market is transforming—Why record profits don’t mean job security"
             width={600}
             height={400}

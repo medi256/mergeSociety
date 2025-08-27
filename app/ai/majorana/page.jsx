@@ -199,7 +199,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746107634/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746107634/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7.jpg"
             alt="Microsoft’s Majorana One chip breakthrough in topological quantum computing"
             width={600}
             height={400}

@@ -421,7 +421,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg"
+            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg"
             alt="Illustration of the best AI tools for research, featuring automation, data analysis, and academic productivity"
             width={600}
             height={400}
