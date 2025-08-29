@@ -519,6 +519,16 @@ const Section3 = () => {
       date: "August 20, 2025",
       articleRoute: "learn-to-code",
     },
+    {
+      id: 43,
+      title:
+        "Shadow Brokers - how the NSA Equation Group got hacked, EternalBlue escaped, and WannaCry set the world on fire",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756458377/audio_1756372888157_az7uvs_jzyqqe.webp",
+      alt: "How the NSA Equation Group got hacked",
+      date: "August 29, 2025",
+      articleRoute: "gretest-hack-of-all-time",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

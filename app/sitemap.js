@@ -133,6 +133,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/gretest-hack-of-all-time`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/real-world-coding-career-advice`,
       lastModified: new Date(),
     },
