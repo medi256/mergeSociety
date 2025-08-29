@@ -399,6 +399,16 @@ const Section6 = () => {
       date: "August 27, 2025",
       articleRoute: "tutorial-hell",
     },
+    {
+      id: 33,
+      title:
+        "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756484629/audio_1756482278183_bx5as9_sleoep.jpg",
+      alt: "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
+      date: "August 29, 2025",
+      articleRoute: "what-is-a-database",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
