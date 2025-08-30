@@ -262,7 +262,7 @@ const GridNews = () => {
       id: 22,
       title: `Linux vs Windows vs Mac: Why Linux is Simply Better for Your Computer Freedom`,
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747560830/theregisti-6km3qNqc8fk-unsplash_cjxbvw.jpg",
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756543510/audio_1756543123095_8a4545_u0bzv2.webp",
       alt: "Linux vs Windows vs Mac",
       date: "May 18, 2025",
       articleRoute: "Linux-vs-Windows-vs-Mac",
