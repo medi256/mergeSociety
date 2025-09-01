@@ -373,6 +373,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/growth-mindset-for-programmers`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/ruby-explained`,
       lastModified: new Date(),
     },
