@@ -41,14 +41,17 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/latest/computer-science-career">
+            <Link href="/code-report/what-is-a-compiler">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755336713/audio_1755334719154_bdxdsx_gkoqmw.webp"
-                alt="Computer Science Career Path"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg"
+                alt="Why We Need a Translator in Programming and What a Compiler Really Is"
                 width={400}
                 height={250}
               />
-              <h2>Computer Science Career Path</h2>
+              <h2>
+                Why We Need a Translator in Programming and What a Compiler
+                Really Is
+              </h2>
             </Link>
           </div>
         </aside>

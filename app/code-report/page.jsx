@@ -409,6 +409,16 @@ const Section6 = () => {
       date: "August 29, 2025",
       articleRoute: "what-is-a-database",
     },
+    {
+      id: 34,
+      title:
+        "Why We Need a Translator in Programming and What a Compiler Really Is",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg",
+      alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
+      date: "September 21, 2025",
+      articleRoute: "what-is-a-compiler",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

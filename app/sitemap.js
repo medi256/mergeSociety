@@ -349,6 +349,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/what-is-a-compiler`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/best-framework`,
       lastModified: new Date(),
     },
