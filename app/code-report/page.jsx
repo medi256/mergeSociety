@@ -419,6 +419,15 @@ const Section6 = () => {
       date: "September 21, 2025",
       articleRoute: "what-is-a-compiler",
     },
+    {
+      id: 35,
+      title: "So How Is Linux Developed To Achieve All Of This?",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759326194/audio_1759326035386_cek358_cdskna.webp",
+      alt: "So How Is Linux Developed To Achieve All Of This?",
+      date: "October 1, 2025",
+      articleRoute: "how-linux-is-created",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

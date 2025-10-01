@@ -834,7 +834,7 @@ const Page = () => {
             close the video and make it yours. I will see you in the next one.
             Bye bye.
           </p>
-          <h3>Here are more Topics that you acn explore</h3>
+          <h3>Here are more Topics that you can explore</h3>
           <aside aria-label="Explore next">
             <ul>
               <li>
