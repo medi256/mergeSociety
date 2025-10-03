@@ -277,6 +277,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/tech/ai-explained`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/tech/operating-systems`,
       lastModified: new Date(),
     },

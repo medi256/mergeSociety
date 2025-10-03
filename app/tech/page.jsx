@@ -539,6 +539,16 @@ const Section3 = () => {
       date: "September  1, 2025",
       articleRoute: "growth-mindset-for-programmers",
     },
+    {
+      id: 45,
+      title:
+        "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759513126/audio_1759512892275_pttyh_uh3gns.webp",
+      alt: "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
+      date: "October  3, 2025",
+      articleRoute: "ai-explained",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
