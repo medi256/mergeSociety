@@ -513,6 +513,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/how-to-build-projects`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest/best-programming-language-for-each-job`,
       lastModified: new Date(),
     },

@@ -428,6 +428,15 @@ const Section6 = () => {
       date: "October 1, 2025",
       articleRoute: "how-linux-is-created",
     },
+    {
+      id: 36,
+      title: "How To Start Programming Projects The Lazy Way",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759677489/audio_1759676146278_odcup_iywxi3.webp",
+      alt: "How To Start Programming Projects The Lazy Way",
+      date: "October 5, 2025",
+      articleRoute: "how-to-build-projects",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

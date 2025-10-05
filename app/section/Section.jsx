@@ -98,17 +98,14 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/latest/computer-science-degree-worth-it">
+            <Link href="/code-report/how-to-build-projects">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755613615/audio_1755594314864_2a5zr_yiegud.webp"
-                alt="Computer Science Degree Worth It?"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1759677489/audio_1759676146278_odcup_iywxi3.webp"
+                alt="How To Start Programming Projects The Lazy Way"
                 width={400}
                 height={250}
               />
-              <h2>
-                Computer Science Degree Worth It? The Real Answer With Careers,
-                Salaries, AI, and Satisfaction
-              </h2>
+              <h2>How To Start Programming Projects The Lazy Way</h2>
             </Link>
           </div>
         </aside>
