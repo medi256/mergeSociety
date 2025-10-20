@@ -1,4 +1,4 @@
-# Ads.txt v20250425
+# Ads.txt v20250917
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -39,6 +39,7 @@ pubmatic.com, 164271, DIRECT, 5d62403b186f2ace
 appnexus.com, 15770, DIRECT, f5ab79cb980f11d1
 openx.com, 560606532, DIRECT, 6a698e2ec38604c6
 triplelift.com, 14132, DIRECT, 6c33edb13117fd86
+themediagrid.com, GODNC4, RESELLER, 35d5010d7789b49d
 minutemedia.com, 01hkmpfn2nne, DIRECT
 minutemedia.com, 01hkmpfn2nne, RESELLER
 pubmatic.com, 161683, RESELLER, 5d62403b186f2ace
@@ -64,7 +65,7 @@ admanmedia.com, 953, RESELLER
 betweendigital.com, 44808, RESELLER
 freewheel.tv,1577878,RESELLER
 freewheel.tv,1577888,RESELLER
-adyoulike.com, 53264963677efeda057eef7db2cb305f, RESELLER, 4ad745ead2958bf7
+adyoulike.com,d759914f8b58659527a9a57b5a036424,RESELLER
 risecodes.com, 65a3efa13a58f100018b923c, DIRECT
 pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 xandr.com, 14082, RESELLER
@@ -130,8 +131,28 @@ criteo.com, B-058807, DIRECT, 9fac4a4a87c2a44f
 themediagrid.com, 72YI3C, DIRECT, 35d5010d7789b49d
 emxdgt.com, 1403, DIRECT, 1e1d41537f7cad7f
 conversantmedia.com, 100316, RESELLER, 03113cd04947736d
+ssp.cadent.com, 1403, DIRECT, 1e1d41537f7cad7f
 video.unrulymedia.com, 232050197, DIRECT
 trustx.org, 5606, DIRECT, 1d2c8a747a749d25
+smilewanted.com, 5675, DIRECT
+pubmatic.com, 158810, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 19814, RESELLER, 0bfd66d529a55807
+openx.com, 557083110, RESELLER, 6a698e2ec38604c6
+appnexus.com, 10040, RESELLER
+e-planning.net, 6aa967d41dd8d254, RESELLER, c1ba615865ed87b2
+pubmatic.com, 156631, RESELLER, 5d62403b186f2ace
+sharethrough.com, 23830661, DIRECT, d53b998a7bd4ecd2
+onetag.com, 5927d926323dc2c, DIRECT
+nextmillennium.io, 16425, DIRECT, 65bd090fa4a1e3d6
+amxrtb.com, 105199731, DIRECT
+appnexus.com, 12290, RESELLER
+lijit.com, 260380, RESELLER
+pubmatic.com, 161527, RESELLER
+rubiconproject.com, 23844, RESELLER
+adform.com, 2865, RESELLER
+smartadserver.com, 3056, RESELLER
+openx.com, 559680764, RESELLER
+sharethrough.com, a6a34444, RESELLER
 
 
 
