@@ -178,6 +178,16 @@ const Section5 = () => {
       date: " April 30, 2025",
       articleRoute: "invidia",
     },
+    {
+      id: 7,
+      title:
+        "Do People Actually Know What Cluely Does? I Took It To The Streets of San Francisco To Find Out",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg",
+      alt: "What is Cluely, really?",
+      date: "October 27, 2025",
+      articleRoute: "cluely-ai",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
