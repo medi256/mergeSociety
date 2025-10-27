@@ -269,6 +269,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/startup-stories/rob-hallam`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/ai-trends-2025`,
       lastModified: new Date(),
     },

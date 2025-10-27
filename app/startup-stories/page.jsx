@@ -188,6 +188,15 @@ const Section5 = () => {
       date: "October 27, 2025",
       articleRoute: "cluely-ai",
     },
+    {
+      id: 8,
+      title: "Growing Super X to $10,000 a Month While Traveling the World",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761560597/audio_1761559288875_xtxud_zqk8xg.jpg",
+      alt: "Growing Super X to $10,000 a Month While Traveling the World",
+      date: "October 27, 2025",
+      articleRoute: "rob-hallam",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
