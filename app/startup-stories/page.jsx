@@ -197,6 +197,16 @@ const Section5 = () => {
       date: "October 27, 2025",
       articleRoute: "rob-hallam",
     },
+    {
+      id: 9,
+      title:
+        "From Idea to First Dollar in 5 Days: How I Built and Launched a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761649847/audio_1761649599232_00l2m_ubr7mm.jpg",
+      alt: "How I Built and Launched a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads",
+      date: "October 28, 2025",
+      articleRoute: "jack-friks",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

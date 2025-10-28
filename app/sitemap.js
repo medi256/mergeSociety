@@ -273,6 +273,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/startup-stories/jack-friks`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/ai/ai-trends-2025`,
       lastModified: new Date(),
     },
