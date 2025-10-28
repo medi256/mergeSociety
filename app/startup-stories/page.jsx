@@ -207,6 +207,16 @@ const Section5 = () => {
       date: "October 28, 2025",
       articleRoute: "jack-friks",
     },
+    {
+      id: 10,
+      title:
+        "How I Built Multiple Income Streams as a Developer ($300k in Revenue)",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761663113/audio_1761661372552_svbqkj_g2owgg.webp",
+      alt: "How I Built Multiple Income Streams as a Developer",
+      date: "October 28, 2025",
+      articleRoute: "florin-pop",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
