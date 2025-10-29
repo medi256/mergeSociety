@@ -277,6 +277,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/startup-stories/interview-coder`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/startup-stories/florin-pop`,
       lastModified: new Date(),
     },

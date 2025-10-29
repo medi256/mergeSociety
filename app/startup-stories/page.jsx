@@ -217,6 +217,16 @@ const Section5 = () => {
       date: "October 28, 2025",
       articleRoute: "florin-pop",
     },
+    {
+      id: 11,
+      title:
+        "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761728423/Interview_xzyj97.png",
+      alt: "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
+      date: "October 29, 2025",
+      articleRoute: "interview-coder",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

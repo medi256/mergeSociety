@@ -72,14 +72,17 @@ export default function GridNews() {
 
         <aside className="grid-news-right">
           <div>
-            <Link href="/latest/learn-web-development-2025">
+            <Link href="/startup-stories/interview-coder">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755498401/audio_1755493130168_mnninx_bbda8r.webp"
-                alt="How to Learn Web Development in 2025"
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1761728423/Interview_xzyj97.png"
+                alt="The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG"
                 width={400}
                 height={250}
               />
-              <h2>How to Learn Web Development in 2025</h2>
+              <h2>
+                The Tool That’s Killing LeetCode: How People Are Now Cheating
+                Live Coding Interviews into FAANG
+              </h2>
             </Link>
           </div>
           <div>
