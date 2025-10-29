@@ -946,6 +946,15 @@ const InterviewCoder = () => {
           you can test it and see how it works. Don’t forget, there’s a free
           plan if you just want to give it a shot.
         </p>
+        <h3>Here is more of Roy and interview coder</h3>
+        <ul>
+          <li>
+            <Link href="/startup-stories/interview-coder">
+              I Got Kicked Out of Columbia University for Building an AI That
+              Cheats Interviews
+            </Link>
+          </li>
+        </ul>
       </article>
     </div>
   );

@@ -227,6 +227,16 @@ const Section5 = () => {
       date: "October 29, 2025",
       articleRoute: "interview-coder",
     },
+    {
+      id: 11,
+      title:
+        "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761760921/Interview_1_xlpfk4.png",
+      alt: "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
+      date: "October 29, 2025",
+      articleRoute: "story-of-roy",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
