@@ -237,6 +237,16 @@ const Section5 = () => {
       date: "October 29, 2025",
       articleRoute: "story-of-roy",
     },
+    {
+      id: 12,
+      title:
+        "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761675934/audio_1761674065685_gdbpa_oouusv.jpg",
+      alt: "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
+      date: "October 30, 2025",
+      articleRoute: "yc-startup",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
