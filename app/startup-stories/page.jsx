@@ -247,6 +247,16 @@ const Section5 = () => {
       date: "October 30, 2025",
       articleRoute: "yc-startup",
     },
+    {
+      id: 13,
+      title:
+        "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761998487/audio_1761991439097_9qz378_bq8dkv.jpg",
+      alt: "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
+      date: "November 1, 2025",
+      articleRoute: "aside-ai",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
