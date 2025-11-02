@@ -285,6 +285,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/startup-stories/cluely`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/startup-stories/story-of-roy`,
       lastModified: new Date(),
     },

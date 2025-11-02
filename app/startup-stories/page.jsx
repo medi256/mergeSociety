@@ -257,6 +257,16 @@ const Section5 = () => {
       date: "November 1, 2025",
       articleRoute: "aside-ai",
     },
+    {
+      id: 14,
+      title:
+        "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762078616/audio_1762078490592_hj6exk_lymkw6.jpg",
+      alt: "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
+      date: "November 2, 2025",
+      articleRoute: "cluely",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
