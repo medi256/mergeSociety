@@ -267,6 +267,16 @@ const Section5 = () => {
       date: "November 2, 2025",
       articleRoute: "cluely",
     },
+    {
+      id: 14,
+      title:
+        "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png",
+      alt: "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
+      date: "November 2, 2025",
+      articleRoute: "locus-ai",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
