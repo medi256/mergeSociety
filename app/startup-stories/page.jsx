@@ -277,6 +277,15 @@ const Section5 = () => {
       date: "November 2, 2025",
       articleRoute: "locus-ai",
     },
+    {
+      id: 14,
+      title: "Building and Shipping a Real Product in One Day",
+      image:
+        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg",
+      alt: "Building and Shipping a Real Product in One Day",
+      date: "November 2, 2025",
+      articleRoute: "indie-dev",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
