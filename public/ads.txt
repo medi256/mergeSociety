@@ -1,4 +1,4 @@
-# Ads.txt v20250917
+# Ads.txt v20251106
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -153,6 +153,7 @@ adform.com, 2865, RESELLER
 smartadserver.com, 3056, RESELLER
 openx.com, 559680764, RESELLER
 sharethrough.com, a6a34444, RESELLER
+smartadserver.com, 5277, DIRECT, 060d053dcf45cbf3
 
 
 
