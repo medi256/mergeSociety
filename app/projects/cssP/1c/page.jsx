@@ -43,16 +43,6 @@ const PortfolioLayout = () => {
       >
         <h1>Style Your Personal Portfolio with CSS</h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736527272/cssstyling_ouoarm.jpg"
-          }
-          alt={"Personal Portfolio Layout Example"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        />
         <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -1014,7 +1004,7 @@ export const CssProjectss = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -1023,7 +1013,7 @@ export const CssProjectss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

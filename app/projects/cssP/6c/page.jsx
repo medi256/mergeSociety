@@ -1,7 +1,7 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import "../cp.css";
 
 export const metadata = {
@@ -42,16 +42,6 @@ const ButtonHoverEffects = () => {
       <article className="lesson-container">
         <h1>Creating a CSS Animation for Button Hover Effects</h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736578044/lastCSS_wjgdhm.jpg"
-          }
-          alt={"Personal Portfolio Layout Example"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        />
         <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -635,7 +625,7 @@ export const CssProjectsssssss = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -644,7 +634,7 @@ export const CssProjectsssssss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

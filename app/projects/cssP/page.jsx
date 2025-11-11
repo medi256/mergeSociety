@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "../project.css";
-import Image from "next/image";
+// import Image from "next/image";
 import "../project.css";
 
 export const metadata = {
@@ -55,7 +55,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762774854/javascript-projects_uhalsm_ilayp7.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762774854/javascript-projects_uhalsm_ilayp7.jpg",
     ],
   },
   robots: {
@@ -159,7 +159,7 @@ const CssProjects = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <section className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -168,7 +168,7 @@ const CssProjects = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

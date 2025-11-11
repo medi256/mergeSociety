@@ -1,6 +1,5 @@
 import Link from "next/link";
 import "../project.css";
-import Image from "next/image";
 
 export const metadata = {
   title: "JavaScript Projects | Beginner to Advanced Challenges",
@@ -58,7 +57,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762773646/Web_Analytics_jzmlyv_nwoqmf.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -71,7 +70,7 @@ export const metadata = {
     description:
       "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762773646/Web_Analytics_jzmlyv_nwoqmf.jpg",
     ],
   },
   robots: {
@@ -166,16 +165,6 @@ const JSProjects = () => {
             passHref
           >
             <section className="post-card">
-              <div className="post-image">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  width={600}
-                  height={400}
-                  className="project-image"
-                  priority
-                />
-              </div>
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

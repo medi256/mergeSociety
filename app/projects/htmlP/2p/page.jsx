@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import "../cp.css";
 
 export const metadata = {
@@ -50,7 +50,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762773945/js_hjlvsn_ktm5kv.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -63,7 +63,7 @@ export const metadata = {
     description:
       "Learn how to create a professional HTML resume with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762773945/js_hjlvsn_ktm5kv.jpg",
     ],
   },
   robots: {
@@ -1179,7 +1179,7 @@ export const HtmlProjectss = () => {
             className="post-description"
           >
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -1188,7 +1188,7 @@ export const HtmlProjectss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

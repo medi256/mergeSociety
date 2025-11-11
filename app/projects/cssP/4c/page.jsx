@@ -1,6 +1,6 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import "../cp.css";
 
@@ -45,7 +45,7 @@ const AdvancedPricingTable = () => {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>Designing an Advanced Pricing Table with CSS Grid</h1>
-
+        {/* 
         <Image
           src={
             "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg"
@@ -55,7 +55,7 @@ const AdvancedPricingTable = () => {
           height={400}
           className="project-image"
           priority
-        />
+        /> */}
         <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -738,7 +738,7 @@ export const CssProjectsssss = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -747,7 +747,7 @@ export const CssProjectsssss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

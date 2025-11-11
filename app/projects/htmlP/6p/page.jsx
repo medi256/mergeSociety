@@ -1,7 +1,7 @@
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import "../cp.css";
 
@@ -48,24 +48,14 @@ const EventInvitation = () => {
       >
         <h1>Building Your First Web Page: Event Invitation with HTML</h1>
 
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498445/event_iu3yfu.jpg"
-          }
-          alt={"HTML Resume Tutorial"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        />
-        <h3 className="project-info">
+        <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
           </span>
           <time className="project-date" dateTime="2025-01-12">
             | January 12, 2025
           </time>
-        </h3>
+        </h2>
 
         <h3>Let's Build an Event Invitation Together!</h3>
 
@@ -760,7 +750,7 @@ export const HtmlProjectssssssss = () => {
             className="post-description"
           >
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -769,7 +759,7 @@ export const HtmlProjectssssssss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

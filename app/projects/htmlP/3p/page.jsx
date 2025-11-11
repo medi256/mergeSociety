@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import "../cp.css";
 
 export const metadata = {
@@ -50,16 +50,7 @@ const WeeklyScheduleHtml = () => {
         className="lesson-container"
       >
         <h1>Creating an HTML Table for Weekly Schedules</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736673928/no-code_zdelwk.jpg"
-          }
-          alt={"HTML Resume Tutorial"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        />
+
         <h3 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -802,7 +793,7 @@ export const HtmlProjectssss = () => {
             className="post-description"
           >
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -811,7 +802,7 @@ export const HtmlProjectssss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

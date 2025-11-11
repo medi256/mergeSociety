@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import "../cp.css";
 
 export const metadata = {
@@ -42,16 +42,7 @@ const JavaScriptCalculator = () => {
         style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
       >
         <h1>Building a Simple Calculator with HTML, CSS, and JavaScript</h1>
-        <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg"
-          }
-          alt={"Personal Website Example"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        />
+
         <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -828,7 +819,7 @@ export const JSProjectssssss = () => {
             passHref
           >
             <div className="post-card">
-              <div className="post-image">
+              {/* <div className="post-image">
                 <Image
                   src={project.image}
                   alt={project.alt}
@@ -837,7 +828,7 @@ export const JSProjectssssss = () => {
                   className="project-image"
                   priority
                 />
-              </div>
+              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>
