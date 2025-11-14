@@ -348,7 +348,7 @@ export default function Article() {
           <h2>CPU Explained: The Brains of the Computer</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230410/pexels-pixabay-40879_lh4t2v.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767518/pexels-pixabay-40879_lh4t2v_mskqq1.jpg"
             }
             alt="The CPU, or Central Processing Unit"
             width={600}
@@ -409,7 +409,7 @@ export default function Article() {
           <h2>RAM (Random Access Memory): Your PC’s Short Term Brain</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230551/pexels-tanasovich-2588757_fipofn.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767493/pexels-tanasovich-2588757_fipofn_nbqger.jpg"
             }
             alt="The RAM temporary memory."
             width={600}
@@ -471,7 +471,7 @@ export default function Article() {
           <h2>Motherboard: The Backbone of the PC</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230788/pexels-nicolas-foster-65973708-14887696_adakj2.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767474/pexels-nicolas-foster-65973708-14887696_adakj2_vndc7g.jpg"
             }
             alt="The motherboard of a computer"
             width={600}
@@ -509,7 +509,7 @@ export default function Article() {
           <h2>GPU (Graphics Processing Unit): The Artiste of Your PC</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230999/pexels-zeleboba-11443548_onrv70.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767459/pexels-zeleboba-11443548_onrv70_rslel7.jpg"
             }
             alt="The GPU (Graphics Processing Unit)"
             width={600}
@@ -579,7 +579,7 @@ export default function Article() {
           <h2>Storage Devices: SSDs vs Hard Drives</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747231298/pexels-zeleboba-28456609_u1xpy4.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767438/pexels-zeleboba-28456609_u1xpy4_hrt2o5.jpg"
             }
             alt="The Solid State Drives (SSDs)"
             width={600}

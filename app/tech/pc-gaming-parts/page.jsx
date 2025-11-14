@@ -455,7 +455,7 @@ export default function Article() {
           <h2>RAM (Memory): Speed and Capacity for Modern Games</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230551/pexels-tanasovich-2588757_fipofn.jpg"
+              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767493/pexels-tanasovich-2588757_fipofn_nbqger.jpg"
             }
             alt="The RAM temporary memory."
             width={600}
