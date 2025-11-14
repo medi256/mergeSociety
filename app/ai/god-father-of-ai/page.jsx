@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "TechLearning Academy",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745745611/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771526/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
         width: 1200,
         height: 630,
         alt: "AI Revolution Learning Module - The past, present and future of artificial intelligence",
@@ -81,7 +81,7 @@ export const metadata = {
       "Learn about the evolution of AI through Geoffrey Hinton's work and the challenges of managing increasingly powerful artificial intelligence systems.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745745611/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771526/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -129,7 +129,7 @@ export const metadata = {
     "@type": "Course",
     name: "AI Revolution: From Neural Networks to Global Impacts",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745745611/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771526/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     description:
       "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
     provider: {
@@ -333,7 +333,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745745611/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771526/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg"
           }
           alt=" Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial  Intelligence"
           width={600}

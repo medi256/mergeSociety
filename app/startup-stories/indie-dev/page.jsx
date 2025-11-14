@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765095/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
         width: 1200,
         height: 630,
         alt: "24-hour indie dev sprint building and shipping a product from 7pm to 5am with Next.js, Supabase, and Stripe",
@@ -102,7 +102,7 @@ export const metadata = {
       "7pm: Started. 9pm: Pizza. 11pm: F1. Midnight: Coffee. 3am: Stripe hell. 5am: Live. Morning: First sale. The unfiltered build log.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765095/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
     ],
   },
 
@@ -169,7 +169,7 @@ export const metadata = {
     headline:
       "Building and Shipping a Real Product in One Day - 24 Hour Sprint",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765095/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
     datePublished: "2025-11-02T00:00:00Z",
     dateModified: "2025-11-02T00:00:00Z",
     author: {
@@ -761,7 +761,7 @@ const IndieDev = () => {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765095/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg"
           }
           alt="Building and Shipping a Real Product in One Day"
           width={600}

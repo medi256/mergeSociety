@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746113787/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob.jpg", // <-- Replace with your Open Graph image URL
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770048/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // <-- Replace with your Open Graph image URL
         width: 1200,
         height: 630,
         alt: "How Smart Developers Use AI - Merge Society",
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "A developer-first guide on how to use AI tools like Windsurf for faster coding, deeper learning, and productivity boosts—without losing your skills.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746113787/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob.jpg", // same as Open Graph
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770048/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // same as Open Graph
     ],
   },
 };
@@ -84,7 +84,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746113787/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770048/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg"
           }
           alt="How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)"
           width={600}

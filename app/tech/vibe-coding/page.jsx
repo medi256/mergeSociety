@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768955/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
         width: 1200,
         height: 630,
         alt: "Vibe Coding 2025: AI-powered programming revolution with exponential development results",
@@ -91,7 +91,7 @@ export const metadata = {
       "Updated guide: Learn how 'vibe coding' is creating millionaire developers, the failures to avoid, and 3 proven rules for AI programming success.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768955/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
         "How to Master Vibe Coding and Join the AI Programming Revolution",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768955/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -224,7 +224,7 @@ export const metadata = {
       description:
         "Step-by-step guide to implementing vibe coding methodology for successful AI-assisted programming",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768955/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       totalTime: "PT30M",
       estimatedCost: {
         "@type": "MonetaryAmount",

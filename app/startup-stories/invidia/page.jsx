@@ -24,7 +24,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
         width: 1200,
         height: 630,
         alt: "Nvidia Headquarters",
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Explore the latest chapter in Nvidia's story: new AI milestones, revenue stats, and more.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
     ],
   },
 };

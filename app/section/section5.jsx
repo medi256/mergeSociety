@@ -10,7 +10,7 @@ const Section5 = () => {
       title:
         "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg",
       alt: "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
       date: " April 27, 2025",
       articleRoute: "pony-ma",
@@ -20,7 +20,7 @@ const Section5 = () => {
       title:
         "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745751197/fakeit-800x445_zlq56h.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg",
       alt: "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
       date: " April 27, 2025",
       articleRoute: "fake-it",
@@ -30,7 +30,7 @@ const Section5 = () => {
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745751859/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
@@ -50,7 +50,7 @@ const Section5 = () => {
       title:
         "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745753955/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771383/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv_fn8ksz.jpg",
       alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
       date: " April 27, 2025",
       articleRoute: "satya",
@@ -60,7 +60,7 @@ const Section5 = () => {
       title:
         "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
       alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       date: " April 30, 2025",
       articleRoute: "invidia",

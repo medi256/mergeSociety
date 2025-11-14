@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766137/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
         width: 600,
         height: 400,
         alt: "C vs C++ vs C# Programming Languages Comparison",
@@ -58,7 +58,7 @@ export const metadata = {
     description:
       "Complete guide comparing C, C++, and C# with examples, performance insights, and practical advice for choosing the right language for your project.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766137/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
     ],
   },
 
@@ -106,7 +106,7 @@ export default function CvsCppVsCSharpArticle() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766137/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp"
           }
           alt="C vs C++ vs C# Article Image"
           width={600}

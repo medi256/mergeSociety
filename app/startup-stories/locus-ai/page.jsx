@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765241/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png",
         width: 1200,
         height: 630,
         alt: "Locus AI showing how to safely give AI agents money with budgets, permissions, and full audit trails",
@@ -103,7 +103,7 @@ export const metadata = {
       "The fear: 'All my money is gone.' The solution: Budgets, permissions, audit trails. Locus AI makes autonomous agent payments safe without killing autonomy.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765241/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png",
     ],
   },
 
@@ -164,7 +164,7 @@ export const metadata = {
     headline:
       "Should You Give AI Agents Money? Budgets, Permissions & Audit Trails With Locus AI",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765241/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png",
     datePublished: "2025-11-02T00:00:00Z",
     dateModified: "2025-11-02T00:00:00Z",
     author: {
@@ -705,7 +705,7 @@ const Locus = () => {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765241/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png"
           }
           alt="Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI"
           width={600}

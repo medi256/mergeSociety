@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767879/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
         width: 1200,
         height: 630,
         alt: "Linux Beginner's Guide: Terminal window showing bash commands with Tux penguin logo",
@@ -99,7 +99,7 @@ export const metadata = {
       "Discover why Linux rules servers while only 4% of PC users have embraced it. Master essential Linux concepts, commands & skills to boost your tech career.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767879/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
     ],
   },
 
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "Why Linux Matters: The Beginner's Guide to Mastering the World's Most Powerful Operating System",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767879/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
     datePublished: "2025-05-11T08:00:00Z",
     dateModified: "2025-05-11T08:00:00Z",
     author: {
@@ -534,7 +534,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746959632/pexels-realtoughcandy-11035358_sdhzhm.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767879/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg"
           }
           alt="Illustration of Linux"
           width={600}

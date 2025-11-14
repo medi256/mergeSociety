@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745589711/why-my-side-hustle-failed_gez4na.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg",
         width: 1200,
         height: 630,
         alt: "Sinking ship representing a failing side hustle with lessons learned",
@@ -78,7 +78,7 @@ export const metadata = {
       "A candid post-mortem on my failing side project with practical validation strategies for developers thinking of launching their own product.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745589711/why-my-side-hustle-failed_gez4na.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -114,7 +114,7 @@ export const metadata = {
     headline:
       "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745589711/why-my-side-hustle-failed_gez4na.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg",
     datePublished: "2025-04-25T08:15:00Z",
     dateModified: "2025-04-25T08:15:00Z",
     author: {
@@ -185,7 +185,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745589711/why-my-side-hustle-failed_gez4na.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg"
           }
           alt="Minecraft Redstone computer with visible logic circuits"
           width={600}

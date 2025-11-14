@@ -52,7 +52,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765460/audio_1761485673309_yjd82_ciildh_uvzkik.jpg",
         width: 800,
         height: 400,
         alt: "Massa Medi conducting street interviews in San Francisco asking people what Cluely does - AI copilot and meeting assistant",
@@ -82,7 +82,7 @@ export const metadata = {
     description:
       'Gave out $ on SF streets testing if anyone knows what our 2B-view AI startup does. Answers ranged from "note taker" to "cheating tool" to "invisible copilot." Real interviews, real feedback on our AI meeting assistant.',
     images: {
-      url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg",
+      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765460/audio_1761485673309_yjd82_ciildh_uvzkik.jpg",
       alt: "Street interviews in San Francisco about Cluely AI meeting copilot",
     },
   },
@@ -117,7 +117,7 @@ export const jsonLd = {
   description:
     "Cluely CMO Massa Medi conducts street interviews in San Francisco to test brand awareness after 2 billion views. Real people explain what they think Cluely's AI meeting copilot does.",
   image:
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765460/audio_1761485673309_yjd82_ciildh_uvzkik.jpg",
   datePublished: "2025-10-27T00:00:00.000Z",
   dateModified: "2025-10-27T00:00:00.000Z",
   author: {
@@ -187,7 +187,7 @@ const Cluely = () => {
 
         <figure className="article-figure">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765460/audio_1761485673309_yjd82_ciildh_uvzkik.jpg"
             alt="What is Cluely, really?"
             width={800}
             height={400}

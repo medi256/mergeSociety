@@ -14,7 +14,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/mixing-programming-languages-in-one-executable">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766191/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
                 alt="Mixing Programming Languages in One Executable"
                 width={400}
                 height={250}
@@ -29,7 +29,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/tutorial-hell">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
                 alt="Tutorial Hell"
                 width={400}
                 height={250}
@@ -43,7 +43,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/what-is-a-compiler">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
                 alt="Why We Need a Translator in Programming and What a Compiler Really Is"
                 width={400}
                 height={250}
@@ -60,7 +60,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/c-vs-cpp-vs-csharp">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755439142/audio_1755435512328_9gyci_tujfgy.webp"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766137/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp"
                 alt="C vs C++ vs C#"
                 width={600}
                 height={350}
@@ -74,7 +74,7 @@ export default function GridNews() {
           <div>
             <Link href="/startup-stories/interview-coder">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1761728423/Interview_xzyj97.png"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765349/Interview_xzyj97_tolqz5.png"
                 alt="The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG"
                 width={400}
                 height={250}
@@ -88,7 +88,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/github-repositories">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1755527715/audio_1755527219890_ndn0m6_qmhpsb.webp"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766106/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
                 alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
                 width={600}
                 height={350}
@@ -103,7 +103,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/how-to-build-projects">
               <Image
-                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1759677489/audio_1759676146278_odcup_iywxi3.webp"
+                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765481/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"
                 alt="How To Start Programming Projects The Lazy Way"
                 width={400}
                 height={250}

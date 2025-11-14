@@ -89,7 +89,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405096/posi_fedygu.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762776985/posi_fedygu_o1tvzb.png"
           alt="demo-7"
         />
 
@@ -120,7 +120,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405160/zDemo_tatecd.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762776950/zDemo_tatecd_x6bqrz.png"
           alt="demo-8"
         />
         <p>
@@ -170,7 +170,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405233/stackDemo_x5h870.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762775988/stackDemo_x5h870_nmov0m.png"
           alt="demo-9"
         />
         <p>
@@ -218,7 +218,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712405317/stack3_mwtsnf.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762775627/stack3_mwtsnf_rdyxyc.png"
           alt="demo-12"
         />
         <p>

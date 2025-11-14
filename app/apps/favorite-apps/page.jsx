@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "App Reviewer",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745735364/favorite-apps_nlfmwq.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771946/favorite-apps_nlfmwq_ovuvrp.jpg",
         width: 1200,
         height: 630,
         alt: "Collage showing the 20 best Android apps of all time including Nova Launcher, Tasker, and custom apps like Palette and Shelf",
@@ -83,7 +83,7 @@ export const metadata = {
       "From Nova Launcher to my own apps like Palette and Shelf, these are the 20 Android applications I still use every day after reviewing hundreds over eight years.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745735364/favorite-apps_nlfmwq.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771946/favorite-apps_nlfmwq_ovuvrp.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -132,7 +132,7 @@ export const metadata = {
     headline:
       "The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745735364/favorite-apps_nlfmwq.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771946/favorite-apps_nlfmwq_ovuvrp.jpg",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T12:15:00Z",
     author: {
@@ -502,7 +502,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745735364/favorite-apps_nlfmwq.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762771946/favorite-apps_nlfmwq_ovuvrp.jpg"
             alt="The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration"
             width={600}
             height={400}

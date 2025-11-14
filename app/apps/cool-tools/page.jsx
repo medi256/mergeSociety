@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "DevTools Master",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
         width: 1200,
         height: 630,
         alt: "Collection of 2025's must-have developer tools showcased on a modern development workstation",
       },
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
         width: 1200,
         height: 630,
         alt: "AI-powered developer tools transforming code editing and workflow optimization",
@@ -101,7 +101,7 @@ export const metadata = {
       "Discover the secret toolkit of highly productive developers in 2025: AI-powered editors, next-gen API testing, and productivity hacks that will transform your workflow forever.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -158,8 +158,8 @@ export const metadata = {
     headline:
       "2025's Essential Developer Tools: 10 Game-Changing Apps That Will Revolutionize Your Workflow",
     image: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T11:15:00Z",
@@ -460,7 +460,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746030535/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg"
           }
           alt="Cool Tools I’ve Been Using Lately (and Why They Stuck)"
           width={600}

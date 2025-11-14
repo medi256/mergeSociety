@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Career Insights",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745662410/jobs-servive-ai_lywum0.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772197/jobs-servive-ai_lywum0_oag3ma.jpg",
         width: 1200,
         height: 630,
         alt: "AI's impact on future careers - showing job categories at risk and those that will thrive",
@@ -81,7 +81,7 @@ export const metadata = {
       "8% of jobs at high risk by 2027. See which roles are endangered and which will thrive, plus get actionable strategies to future-proof your career.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745662410/jobs-servive-ai_lywum0.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772197/jobs-servive-ai_lywum0_oag3ma.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -125,7 +125,7 @@ export const metadata = {
     headline:
       "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745662410/jobs-servive-ai_lywum0.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772197/jobs-servive-ai_lywum0_oag3ma.jpg",
     datePublished: "2025-04-26T12:00:00Z",
     dateModified: "2025-04-26T12:00:00Z",
     author: {
@@ -429,7 +429,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745662410/jobs-servive-ai_lywum0.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772197/jobs-servive-ai_lywum0_oag3ma.jpg"
           }
           alt="The Future of Jobs: Which Careers Will Survive the AI Revolution?"
           width={600}

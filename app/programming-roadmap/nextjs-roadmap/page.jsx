@@ -60,13 +60,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 1200,
         height: 630,
         alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       },
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 600,
         height: 600,
         alt: "Next.js Roadmap 2025",
@@ -97,7 +97,7 @@ export const metadata = {
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png",
     ],
   },
 
@@ -140,7 +140,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 1200,
         height: 630,
       },
@@ -206,7 +206,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png",
+    url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png",
     width: 1200,
     height: 630,
   },
@@ -281,7 +281,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751974465/next_js_developer_roadmap_qsulle.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766259/next_js_developer_roadmap_qsulle_aqajvp.png"
             alt="Next.js Roadmap 2025 - Complete Guide to Mastering Next.js"
             width={600}
             height={400}

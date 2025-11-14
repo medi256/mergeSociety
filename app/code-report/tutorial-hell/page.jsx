@@ -43,7 +43,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
         width: 1200,
         height: 630,
         alt: "Tutorial Hell - Break free from endless tutorials and learn to code independently",
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Stop being stuck in tutorial hell. Learn the GUeSS method to build real coding projects independently.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
     ],
   },
 
@@ -115,7 +115,7 @@ export const structuredData = {
   description:
     "Complete guide to escaping tutorial hell and building real coding projects independently using the proven GUeSS method.",
   image: [
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
   ],
   author: {
     "@type": "Person",
@@ -157,7 +157,7 @@ const Page = () => {
 
         <figure className="article-figure">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
             alt="Tutorial Hell"
             width={800}
             height={400}

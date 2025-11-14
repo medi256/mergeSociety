@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Tech Journeys",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771153/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
         width: 1200,
         height: 630,
         alt: "A developer standing at a crossroads with different tech stack paths",
@@ -93,7 +93,7 @@ export const metadata = {
       "Discover which technologies you actually need for your web, mobile, desktop, game, or AI project—without the overwhelming complexity.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771153/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "The Definitive Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771153/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -429,7 +429,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771153/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg"
           }
           alt="The Definitive Beginner’s Guide to Picking Your Tech Stack for Web,  Mobile, Desktop, Games, and AI"
           width={600}

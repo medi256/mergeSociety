@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769389/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
         width: 1200,
         height: 630,
         alt: "AI vs Machine Learning vs Deep Learning vs Generative AI comparison diagram 2025",
@@ -74,7 +74,7 @@ export const metadata = {
     description:
       "Updated guide explaining the differences between AI technologies with practical examples and latest developments for 2025.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769389/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
     ],
   },
 
@@ -157,7 +157,7 @@ export const metadata = {
     description:
       "Master the differences between AI, machine learning, deep learning, and generative AI. Updated guide with latest developments, practical examples, and real-world applications for 2025.",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769389/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
     datePublished: "2025-05-06T10:30:00Z",
     dateModified: "2025-06-29T14:30:00Z",
     author: {

@@ -35,7 +35,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767718/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
         width: 1200,
         height: 630,
         alt: "SEO Blueprint to Rank #1 on Google",
@@ -53,7 +53,7 @@ export const metadata = {
       "Discover why 97% of websites fail at SEO and the exact blueprint to break into the top 3% of Google rankings.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767718/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
     ],
   },
 
@@ -116,7 +116,7 @@ export const metadata = {
     description:
       "A step-by-step guide to implementing the 4-pillar SEO strategy that puts websites in the top 3% of Google rankings.",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747218727/merakist-l5if0iQfV4c-unsplash_tybhcd.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767718/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {

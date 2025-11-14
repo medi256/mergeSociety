@@ -180,7 +180,7 @@ div {
         </p>
 
         <Image
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1715875427/box-model-of-CSS_po2s9i.webp"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762775263/box-model-of-CSS_po2s9i_ijc5x7.webp"
           alt="Illustration of the box model with content, padding, border, and margin boxes"
           width={500}
           height={300}

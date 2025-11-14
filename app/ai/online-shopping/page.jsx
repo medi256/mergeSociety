@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Consumer Protect",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745668014/fooling-online_w6akez.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772173/fooling-online_w6akez_naqb3m.jpg",
         width: 1200,
         height: 630,
         alt: "Comparison of advertised 'handcrafted' products vs reality - exposing dropshipping scams",
@@ -82,7 +82,7 @@ export const metadata = {
       "Our investigation reveals how AI personas, actor testimonials, and mass-produced goods are sold as premium 'artisanal' products at 40x markups.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745668014/fooling-online_w6akez.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772173/fooling-online_w6akez_naqb3m.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -144,7 +144,7 @@ export const metadata = {
     headline:
       "The Truth Behind Drop-Shipping Scams: Exposing Fake Artisanal Products",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745668014/fooling-online_w6akez.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772173/fooling-online_w6akez_naqb3m.jpg",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {
@@ -523,7 +523,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745668014/fooling-online_w6akez.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772173/fooling-online_w6akez_naqb3m.jpg"
           }
           alt="The Truth Behind Those 'Handcrafted' Leather Bags and Watches"
           width={600}

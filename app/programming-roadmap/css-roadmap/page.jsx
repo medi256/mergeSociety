@@ -62,7 +62,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751968411/css-raodmap_vhknyz.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766303/css-raodmap_vhknyz_orugxh.png",
         width: 1200,
         height: 630,
         alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
@@ -99,7 +99,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751968411/css-raodmap_vhknyz.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766303/css-raodmap_vhknyz_orugxh.png",
     ],
   },
 
@@ -142,7 +142,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751968411/css-raodmap_vhknyz.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766303/css-raodmap_vhknyz_orugxh.png",
         width: 1200,
         height: 630,
       },
@@ -206,7 +206,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751968411/css-raodmap_vhknyz.png",
+    url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766303/css-raodmap_vhknyz_orugxh.png",
     width: 1200,
     height: 630,
   },
@@ -280,12 +280,13 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751968411/css-raodmap_vhknyz.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766303/css-raodmap_vhknyz_orugxh.png"
             alt="CSS Roadmap 2025 - Complete Guide to Mastering CSS"
             width={600}
             height={400}
             priority
           />
+
           <figcaption>
             This is a Complete CSS roadmap that you need as a beginner
           </figcaption>

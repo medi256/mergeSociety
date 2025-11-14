@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745588163/gpus_bmtfwz.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772463/gpus_bmtfwz_kpcedg.jpg",
         width: 1200,
         height: 630,
         alt: "Modern GPU architecture diagram showing CUDA cores, tensor units, and memory interfaces",
@@ -77,7 +77,7 @@ export const metadata = {
       "Discover how modern GPUs perform 36 trillion calculations per second to power gaming, AI, and the future of computing in this deep-dive technical explainer.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745588163/gpus_bmtfwz.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772463/gpus_bmtfwz_kpcedg.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -111,7 +111,7 @@ export const metadata = {
     headline:
       "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745588163/gpus_bmtfwz.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772463/gpus_bmtfwz_kpcedg.jpg",
     datePublished: "2025-04-25T10:00:00Z",
     dateModified: "2025-04-25T10:00:00Z",
     author: {
@@ -175,7 +175,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745588163/gpus_bmtfwz.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772463/gpus_bmtfwz_kpcedg.jpg"
           }
           alt="Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games,
           AI, and the Future of Computing"

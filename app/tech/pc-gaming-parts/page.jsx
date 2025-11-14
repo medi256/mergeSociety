@@ -36,7 +36,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide",
@@ -52,7 +52,7 @@ export const metadata = {
       "From graphics cards to cooling systems, this guide breaks down everything you need to know about gaming PC components to build your dream rig.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     ],
   },
 
@@ -111,7 +111,7 @@ export const metadata = {
     headline:
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -277,7 +277,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235108/pexels-alscre-3977908_xkhe5a.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg"
           }
           alt="PC Gaming Components Guide"
           width={600}

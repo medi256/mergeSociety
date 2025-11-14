@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767201/fullstack_sioshn_ptohxq.png",
         width: 1200,
         height: 630,
         alt: "Full Stack Developer Roadmap 2025 - Web Development Guide",
@@ -99,7 +99,7 @@ export const metadata = {
       "Master web development! Our beginner-friendly roadmap covers HTML, CSS, JavaScript, backend technologies, and deployment with practical examples for 2025.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767201/fullstack_sioshn_ptohxq.png",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     headline:
       "Full Stack Developer Roadmap 2025: The Ultimate Beginner's Guide",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767201/fullstack_sioshn_ptohxq.png",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -422,7 +422,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767201/fullstack_sioshn_ptohxq.png"
           }
           alt="Full Stack Developer Roadmap 2025"
           width={600}

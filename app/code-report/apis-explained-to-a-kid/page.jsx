@@ -31,7 +31,7 @@ export const metadata = {
     url: "https://www.mergesociety.com/code-report/apis-explained-to-a-kid",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766015/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
         width: 1200,
         height: 675,
         alt: "How APIs work with real-world examples",
@@ -48,7 +48,7 @@ export const metadata = {
     description:
       "Learn what APIs are with simple analogies, real-world examples, and why they power every app on your phone. Complete beginner's guide to APIs.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766015/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
     ],
   },
 

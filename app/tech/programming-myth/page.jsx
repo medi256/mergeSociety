@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769227/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
         width: 1200,
         height: 630,
         alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
@@ -95,7 +95,7 @@ export const metadata = {
       "Stop chasing the latest frameworks and obsessing over perfect code. Learn which development practices actually matter for shipping great software.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769227/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769227/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: "2025-05-08T09:00:00Z",
     author: {

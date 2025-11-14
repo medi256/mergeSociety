@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745655234/google-ai_x9a2fc.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772252/google-ai_x9a2fc_zsjzlz.jpg",
         width: 1200,
         height: 630,
         alt: "Google AI Essentials course review with key takeaways and value assessment",
@@ -80,7 +80,7 @@ export const metadata = {
       "5 key lessons from Google's AI course, who should take it, and whether the certificate is actually worth your time and money.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745655234/google-ai_x9a2fc.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772252/google-ai_x9a2fc_zsjzlz.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -124,7 +124,7 @@ export const metadata = {
     headline:
       "A Hands-On Review of Google's AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745655234/google-ai_x9a2fc.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772252/google-ai_x9a2fc_zsjzlz.jpg",
     datePublished: "2025-04-26T16:45:00Z",
     dateModified: "2025-04-26T16:45:00Z",
     author: {
@@ -396,7 +396,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745655234/google-ai_x9a2fc.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772252/google-ai_x9a2fc_zsjzlz.jpg"
           }
           alt="A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?"
           width={600}

@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
         width: 1200,
         height: 630,
         alt: "Visualization of neural network activation atlas and embedding spaces showing how AI organizes knowledge",
@@ -69,7 +69,7 @@ export const metadata = {
       "Fresh 2025 insights: Explore activation atlases and embedding spaces that reveal how AI models like AlexNet and ChatGPT secretly organize intelligence.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     headline:
       "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-06-30T12:00:00Z",
     author: {
@@ -232,7 +232,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg"
             alt="The moment we stopped understanding AI: Visualization referencing AlexNet's impact on deep learning interpretability"
             width={600}
             height={400}

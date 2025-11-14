@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
         width: 1200,
         height: 630,
         alt: "AI agents orchestrating tools and systems autonomously in 2025",
@@ -67,7 +67,7 @@ export const metadata = {
       "The explosive shift from monolithic AI to compound systems is here. See how AI agents now reason, act, and remember to solve complex problems.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     ],
   },
 
@@ -126,7 +126,7 @@ export const jsonLd = {
     "AI Agents 2025: The Explosive Shift From Static Models to Compound Systems (And Why Everyone's Getting It Wrong)",
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
+    url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     width: 1200,
     height: 630,
   },
@@ -221,7 +221,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg"
             alt="Visualization of AI agents orchestrating tools and systems autonomously"
             width={600}
             height={400}

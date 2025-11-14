@@ -60,7 +60,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769513/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
         width: 1200,
         height: 630,
         alt: "Best AI Apps for Studying - 8 Game-Changing Tools for Lightning-Fast Learning",
@@ -88,7 +88,7 @@ export const metadata = {
       "Discover 8 AI study apps that help you learn 10x faster. From Traverse to Recall - these tools will transform how you study and retain information.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769513/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
     ],
   },
   alternates: {

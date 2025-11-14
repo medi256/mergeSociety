@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Advanced Quantum Computing Insights",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770285/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of quantum computing geometry showing Grover's Algorithm rotation in state space",
@@ -101,7 +101,7 @@ export const metadata = {
       "Our May Day special cuts through quantum hype: Understand how Grover's Algorithm really works, why √N speedup matters, and the beautiful geometry behind quantum computing's true power.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770285/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
     ],
   },
   robots: {
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Quantum Computing Demystified: The Truth About Grover's Algorithm | May 2025",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770285/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [

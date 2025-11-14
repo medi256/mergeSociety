@@ -55,13 +55,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 1200,
         height: 630,
         alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       },
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 600,
         height: 600,
         alt: "Full Stack JavaScript Developer Roadmap 2025",
@@ -92,7 +92,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png", // Replace with your image
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png", // Replace with your image
         width: 1200,
         height: 630,
       },
@@ -201,7 +201,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png",
+    url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png",
     width: 1200,
     height: 630,
   },
@@ -295,7 +295,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/javascript-developer-roadmap_lukifl.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766364/javascript-developer-roadmap_lukifl_aulofo.png"
             alt="Full Stack JavaScript Developer Roadmap 2025 - Complete Guide"
             width={600}
             height={400}

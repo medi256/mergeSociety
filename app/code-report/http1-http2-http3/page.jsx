@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768490/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
         width: 1200,
         height: 630,
         alt: "HTTP protocol evolution from HTTP 1.1 to HTTP 3 with QUIC - speed comparison and performance benefits",
@@ -96,7 +96,7 @@ export const metadata = {
       "HTTP 1.1 was the stone age. HTTP 2 brought highways. HTTP 3 is jetpacks. Here's how protocol evolution secretly controls your web experience.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768490/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
     ],
   },
 
@@ -169,7 +169,7 @@ export const metadata = {
       headline:
         "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768490/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
       datePublished: "2025-05-10T08:45:00Z",
       dateModified: new Date().toISOString(),
       author: {

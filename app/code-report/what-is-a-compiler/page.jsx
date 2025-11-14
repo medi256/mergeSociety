@@ -19,7 +19,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
         width: 600,
         height: 400,
         alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Complete guide to understanding compilers in programming. Learn with practical examples and Code::Blocks walkthrough.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
     ],
   },
 
@@ -119,7 +119,7 @@ const Page = () => {
 
             <Image
               src={
-                "https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg"
+                "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
               }
               alt="Why We Need a Translator in Programming and What a Compiler Really Is"
               width={600}

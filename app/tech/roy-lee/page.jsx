@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769790/roy-lee_w0dumx_d1rshx.webp",
         width: 1200,
         height: 630,
         alt: "Illustration showing AI interview tools, coding challenges, and the divided tech community over interview practices",
@@ -95,7 +95,7 @@ export const metadata = {
       "From AI cheating tools to broken interview processes - why tech recruiting is in crisis and what it means for your next job interview.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769790/roy-lee_w0dumx_d1rshx.webp",
     ],
   },
 
@@ -145,7 +145,7 @@ export const metadata = {
     headline:
       "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769790/roy-lee_w0dumx_d1rshx.webp",
     datePublished: "2025-05-03T08:30:00Z",
     dateModified: "2025-05-03T08:30:00Z",
     author: {
@@ -459,7 +459,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746251130/roy-lee_w0dumx.webp"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769790/roy-lee_w0dumx_d1rshx.webp"
           }
           alt="The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)"
           width={600}

@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Python Mastery",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770021/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
         width: 1200,
         height: 630,
         alt: "Visual map of the Python libraries ecosystem in 2025",
@@ -103,7 +103,7 @@ export const metadata = {
       "Comprehensive breakdown of Python's most powerful libraries in 2025. From AI/ML to web development, data science & GUIs. Transform your Python skills today!",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770021/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
     ],
   },
   robots: {
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Every Python Library and Frameworks Explained",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770021/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: [

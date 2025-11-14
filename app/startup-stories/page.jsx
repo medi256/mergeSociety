@@ -123,7 +123,7 @@ const Section5 = () => {
       title:
         "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg",
       alt: "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
       date: " April 27, 2025",
       articleRoute: "pony-ma",
@@ -133,7 +133,7 @@ const Section5 = () => {
       title:
         "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745751197/fakeit-800x445_zlq56h.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg",
       alt: "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
       date: " April 27, 2025",
       articleRoute: "fake-it",
@@ -143,7 +143,7 @@ const Section5 = () => {
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745751859/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
@@ -163,7 +163,7 @@ const Section5 = () => {
       title:
         "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745753955/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771383/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv_fn8ksz.jpg",
       alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
       date: " April 27, 2025",
       articleRoute: "satya",
@@ -173,7 +173,7 @@ const Section5 = () => {
       title:
         "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
       alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       date: " April 30, 2025",
       articleRoute: "invidia",
@@ -183,7 +183,7 @@ const Section5 = () => {
       title:
         "Do People Actually Know What Cluely Does? I Took It To The Streets of San Francisco To Find Out",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761554951/audio_1761485673309_yjd82_ciildh.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765460/audio_1761485673309_yjd82_ciildh_uvzkik.jpg",
       alt: "What is Cluely, really?",
       date: "October 27, 2025",
       articleRoute: "cluely-ai",
@@ -192,7 +192,7 @@ const Section5 = () => {
       id: 8,
       title: "Growing Super X to $10,000 a Month While Traveling the World",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761560597/audio_1761559288875_xtxud_zqk8xg.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765441/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
       alt: "Growing Super X to $10,000 a Month While Traveling the World",
       date: "October 27, 2025",
       articleRoute: "rob-hallam",
@@ -202,7 +202,7 @@ const Section5 = () => {
       title:
         "From Idea to First Dollar in 5 Days: How I Built and Launched a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761649847/audio_1761649599232_00l2m_ubr7mm.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
       alt: "How I Built and Launched a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads",
       date: "October 28, 2025",
       articleRoute: "jack-friks",
@@ -212,7 +212,7 @@ const Section5 = () => {
       title:
         "How I Built Multiple Income Streams as a Developer ($300k in Revenue)",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761663113/audio_1761661372552_svbqkj_g2owgg.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765384/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
       alt: "How I Built Multiple Income Streams as a Developer",
       date: "October 28, 2025",
       articleRoute: "florin-pop",
@@ -222,7 +222,7 @@ const Section5 = () => {
       title:
         "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761728423/Interview_xzyj97.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765349/Interview_xzyj97_tolqz5.png",
       alt: "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
       date: "October 29, 2025",
       articleRoute: "interview-coder",
@@ -232,7 +232,7 @@ const Section5 = () => {
       title:
         "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761760921/Interview_1_xlpfk4.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765330/Interview_1_xlpfk4_clex4p.png",
       alt: "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
       date: "October 29, 2025",
       articleRoute: "story-of-roy",
@@ -242,7 +242,7 @@ const Section5 = () => {
       title:
         "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761675934/audio_1761674065685_gdbpa_oouusv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765366/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
       alt: "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
       date: "October 30, 2025",
       articleRoute: "yc-startup",
@@ -252,7 +252,7 @@ const Section5 = () => {
       title:
         "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1761998487/audio_1761991439097_9qz378_bq8dkv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765283/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
       alt: "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
       date: "November 1, 2025",
       articleRoute: "aside-ai",
@@ -262,7 +262,7 @@ const Section5 = () => {
       title:
         "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762078616/audio_1762078490592_hj6exk_lymkw6.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765263/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
       alt: "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
       date: "November 2, 2025",
       articleRoute: "cluely",
@@ -272,7 +272,7 @@ const Section5 = () => {
       title:
         "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762089001/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765241/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png",
       alt: "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       date: "November 2, 2025",
       articleRoute: "locus-ai",
@@ -281,7 +281,7 @@ const Section5 = () => {
       id: 14,
       title: "Building and Shipping a Real Product in One Day",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1762107101/audio_1762106886174_qhxevr_qae0d7.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765095/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
       alt: "Building and Shipping a Real Product in One Day",
       date: "November 2, 2025",
       articleRoute: "indie-dev",

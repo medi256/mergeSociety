@@ -30,7 +30,7 @@ export const metadata = {
   publisher: {
     name: "Merge Society",
     logo: {
-      url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
+      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
       width: 400,
       height: 100,
       alt: "Merge Society",
@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
         width: 1200,
         height: 630,
         alt: "Google Headquarters in Mountain View, California",
@@ -59,7 +59,9 @@ export const metadata = {
     description:
       "Google recruiters reveal the step-by-step process for landing your dream tech job in 2025. Learn what it takes to become a Googler.",
     creator: "@manager70191",
-    images: ["https://www.bbc.com/images/google-hiring-process-2025.jpg"],
+    images: [
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+    ],
   },
   alternates: {
     canonical: "https://www.mergesociety.com/tech/get-job-at-google",
@@ -86,9 +88,9 @@ export const metadata = {
     "@type": "NewsArticle",
     headline: "Google Job Application Guide 2025: Insider Tips from Recruiters",
     image: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
     ],
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T14:15:00Z",
@@ -102,7 +104,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
         width: 400,
         height: 100,
       },
@@ -145,7 +147,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745999004/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770609/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg"
           }
           alt="How to apply for a job at Google"
           width={600}

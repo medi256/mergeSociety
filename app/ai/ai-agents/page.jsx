@@ -33,7 +33,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745598233/MCP_tyhw2b.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772383/MCP_tyhw2b_umtclp.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of AI agents with three levels: chatbots, workflows, and autonomous systems",
@@ -78,7 +78,7 @@ export const metadata = {
       "Understanding AI agents through a simple 3-level approach: from chatbots to workflows to autonomous systems, explained for everyday users.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745598233/MCP_tyhw2b.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772383/MCP_tyhw2b_umtclp.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -117,7 +117,7 @@ export const metadata = {
     headline:
       "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745598233/MCP_tyhw2b.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772383/MCP_tyhw2b_umtclp.jpg",
     datePublished: "2025-04-25T08:00:00Z",
     dateModified: "2025-04-25T08:00:00Z",
     author: {
@@ -215,7 +215,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745598233/MCP_tyhw2b.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772383/MCP_tyhw2b_umtclp.jpg"
           }
           alt="AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using
           Real Life Examples"

@@ -93,7 +93,7 @@ const Section6 = () => {
       title:
         " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745755138/airfocus-x8bEZVZnG_o-unsplash_zjo2s6.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771343/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
       alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
       date: "April 27, 2025",
       articleRoute: "saas",
@@ -103,7 +103,7 @@ const Section6 = () => {
       title:
         "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745759226/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771180/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
       alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
       date: "April 27, 2025",
       articleRoute: "best-framework",
@@ -113,7 +113,7 @@ const Section6 = () => {
       title:
         " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745760892/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771153/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
       alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
       date: "April 27, 2025",
       articleRoute: "tech-stack",
@@ -123,7 +123,7 @@ const Section6 = () => {
       title:
         "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745762412/alex-knight-2EJCSULRwC8-unsplash_cpovif.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771126/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
       alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
       date: "April 27, 2025",
       articleRoute: "labing",
@@ -133,7 +133,7 @@ const Section6 = () => {
       title:
         "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745763472/markus-spiske-iar-afB0QQw-unsplash_eifg9s.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771080/markus-spiske-iar-afB0QQw-unsplash_eifg9s_od6qtp.jpg",
       alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
       date: "April 27, 2025",
       articleRoute: "algorithms",
@@ -142,7 +142,7 @@ const Section6 = () => {
       id: 6,
       title: "Every Python Library and Frameworks Explained",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746170967/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770021/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
       alt: "Every Python Library and Frameworks Explained",
       date: "May 2, 2025",
       articleRoute: "python-libraries",
@@ -151,7 +151,7 @@ const Section6 = () => {
       id: 7,
       title: "Every React Concept Explained",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746184397/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769995/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -160,7 +160,7 @@ const Section6 = () => {
       id: 8,
       title: "All The JavaScript You Need To Know For React",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769969/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
       alt: "All The JavaScript You Need To Know For React",
       date: "May 2, 2025",
       articleRoute: "react-you-need",
@@ -169,7 +169,7 @@ const Section6 = () => {
       id: 9,
       title: "How to Learn JavaScript FAST in 2025",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746189496/growtika-qaedPly-Uro-unsplash_g2ehcr.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769941/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
       alt: "How to Learn JavaScript FAST in 2025",
       date: "May 2, 2025",
       articleRoute: "how-to-learn-javascript",
@@ -179,7 +179,7 @@ const Section6 = () => {
       title:
         "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746196556/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769889/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
       alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
       date: "May 2, 2025",
       articleRoute: "react-hooks",
@@ -189,7 +189,7 @@ const Section6 = () => {
       title:
         "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746200797/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
       alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
       date: "May 2, 2025",
       articleRoute: "fullstack-roadmap",
@@ -198,7 +198,7 @@ const Section6 = () => {
       id: 12,
       title: "APIs Explained (in 4 Minutes)",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769272/api_cbneaq_bfxrcg.jpg",
       alt: "Visual representation of API communication between applications",
       date: "May 7, 2025",
       articleRoute: "apis-explained",
@@ -208,7 +208,7 @@ const Section6 = () => {
       title:
         "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746613572/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769249/rubaitul-azad-cijiWIwsMB8-unsplash_fbusr1_auqweh.jpg",
       alt: "MongoDB database architecture visualization",
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",
@@ -218,7 +218,7 @@ const Section6 = () => {
       title:
         "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746780470/6554783_amd2ad.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg",
       alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
       date: "May 9, 2025",
       articleRoute: "databases",
@@ -228,7 +228,7 @@ const Section6 = () => {
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746784148/pexels-realtoughcandy-11035538_iptnmq.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768794/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -238,7 +238,7 @@ const Section6 = () => {
       title:
         "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768709/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
       date: "May 9, 2025",
       articleRoute: "web-server",
@@ -247,7 +247,7 @@ const Section6 = () => {
       id: 17,
       title: "Define Domain Name System (DNS)",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746795757/gkhjkg_hkj_kgn74b.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768689/gkhjkg_hkj_kgn74b_bcf5ss.webp",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -257,7 +257,7 @@ const Section6 = () => {
       title:
         "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746797559/4084_qpacfm.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768669/4084_qpacfm_z9pvmi.jpg",
       alt: "DNS Records Infographic showing how domain names connect to IP addresses",
       date: "May 9, 2025",
       articleRoute: "dns-records",
@@ -266,7 +266,7 @@ const Section6 = () => {
       id: 19,
       title: "Easy Definition of VPN",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746806105/petter-lagson-NEtFkKuo7VY-unsplash_hjouju.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768709/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -276,7 +276,7 @@ const Section6 = () => {
       title:
         "Let's Learn Something! Algorithms Explained in 5 Levels – From Peanut Butter Sandwiches to Artificial Intelligence",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768558/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
       alt: "Visual representation of algorithms from simple tasks to AI neural networks",
       date: "May 10, 2025",
       articleRoute: "algorithms-explained",
@@ -286,7 +286,7 @@ const Section6 = () => {
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746862287/7015995_iwu9fs.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768543/7015995_iwu9fs_to6s06.jpg",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -296,7 +296,7 @@ const Section6 = () => {
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746863874/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768517/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf_zv6mkx.jpg",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",
@@ -305,7 +305,7 @@ const Section6 = () => {
       id: 23,
       title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746865685/pexels-padrinan-1591059_tc0afv.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768490/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
       alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
       date: "May 10, 2025",
       articleRoute: "http1-http2-http3",
@@ -315,7 +315,7 @@ const Section6 = () => {
       title:
         "WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746868335/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768448/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
       alt: "Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns",
       date: "May 10, 2025",
       articleRoute: "websocket-polling",
@@ -325,7 +325,7 @@ const Section6 = () => {
       title:
         "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1763018556/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
       alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
       date: "May 16, 2025",
       articleRoute: "websocets-explained",
@@ -335,7 +335,7 @@ const Section6 = () => {
       title:
         "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1763018556/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
       alt: "real world coding career advice",
       date: "June 28, 2025",
       articleRoute: "real-world-coding-career-advice",
@@ -344,7 +344,7 @@ const Section6 = () => {
       id: 27,
       title: "AI Coding Tools",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751618356/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1763015422/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
       alt: "AI Coding Tools",
       date: "July 4, 2025",
       articleRoute: "best-ai-tool-for-coding",
@@ -354,7 +354,7 @@ const Section6 = () => {
       title:
         "Computer Science vs Software Engineering: Your Ultimate Guide to Differences, Courses, and Careers",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1752850382/softwareVScomputerscience_zuymum.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766225/softwareVScomputerscience_zuymum_qccq5q.webp",
       alt: "Computer Science vs Software Engineering comparison infographic showing courses, careers, and salary differences",
       date: "July 18, 2025",
       articleRoute: "computer-science-vs-software-engineering",
@@ -364,7 +364,7 @@ const Section6 = () => {
       title:
         "APIs explained - what is an API, why it exists, and real examples you already use every day",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756113288/audio_1756110851790_hdqj7r_c3wqmm.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766015/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
       alt: "What  is an  API?",
       date: "August 25, 2025",
       articleRoute: "apis-explained-to-a-kid",
@@ -374,7 +374,7 @@ const Section6 = () => {
       title:
         "Pointers in C/C++ - what a pointer is, how pointer syntax works, and why programmers care",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756137216/audio_1756133645586_ybfdxp_m0ss09.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765999/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
       alt: "Pointers in C and C++",
       date: "August 25, 2025",
       articleRoute: "pointers-in-c-and-cpp",
@@ -384,7 +384,7 @@ const Section6 = () => {
       title:
         "Math for Programmers - 10 Essential Concepts explained with memes, code, and real talk",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756228930/audio_1756224766523_5ki8jf_rtels1.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765975/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
       alt: "Math for Programmers",
       date: "August 26, 2025",
       articleRoute: "math-for-programmers",
@@ -394,7 +394,7 @@ const Section6 = () => {
       title:
         "Tutorial Hell - How to Escape Tutorial Hell and Actually Learn to Code",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756302373/audio_1756289795525_wcylsp_rs9hya.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
       alt: "Tutorial Hell",
       date: "August 27, 2025",
       articleRoute: "tutorial-hell",
@@ -414,7 +414,7 @@ const Section6 = () => {
       title:
         "Why We Need a Translator in Programming and What a Compiler Really Is",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1758441658/audio_1758351295832_fnxuwq_apk5yu.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
       alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
       date: "September 21, 2025",
       articleRoute: "what-is-a-compiler",
@@ -423,7 +423,7 @@ const Section6 = () => {
       id: 35,
       title: "So How Is Linux Developed To Achieve All Of This?",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759326194/audio_1759326035386_cek358_cdskna.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765537/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
       alt: "So How Is Linux Developed To Achieve All Of This?",
       date: "October 1, 2025",
       articleRoute: "how-linux-is-created",
@@ -432,7 +432,7 @@ const Section6 = () => {
       id: 36,
       title: "How To Start Programming Projects The Lazy Way",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759677489/audio_1759676146278_odcup_iywxi3.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765481/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
       alt: "How To Start Programming Projects The Lazy Way",
       date: "October 5, 2025",
       articleRoute: "how-to-build-projects",

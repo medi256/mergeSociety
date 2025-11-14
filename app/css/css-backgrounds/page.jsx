@@ -106,7 +106,7 @@ div {
         <video
           controls
           width={"300px"}
-          src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1715756479/ImageAsBackground_zio00t.mov"
+          src="https://res.cloudinary.com/dgyofctwi/video/upload/v1762775290/ImageAsBackground_zio00t_q460jh.mov"
         >
           Your browser does not support this video format
         </video>

@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Tech Explained",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772017/operating-sytems_x0xwsi_ns3v5y.jpg",
         width: 1200,
         height: 630,
         alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
@@ -87,7 +87,7 @@ export const metadata = {
       "Everything you need to know about the world's major operating systems, their histories, strengths, weaknesses, and ideal use cases.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772017/operating-sytems_x0xwsi_ns3v5y.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -136,7 +136,7 @@ export const metadata = {
     headline:
       "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772017/operating-sytems_x0xwsi_ns3v5y.jpg",
     datePublished: "2025-04-26T12:00:00Z",
     dateModified: "2025-04-26T12:00:00Z",
     author: {
@@ -638,7 +638,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745676706/operating-sytems_x0xwsi.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772017/operating-sytems_x0xwsi_ns3v5y.jpg"
           }
           alt="Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos"
           width={600}

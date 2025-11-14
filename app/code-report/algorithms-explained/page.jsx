@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768558/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of algorithms from simple tasks to AI neural networks",
@@ -103,7 +103,7 @@ export const metadata = {
       "Discover how the same principles power everyday tasks and cutting-edge AI in this beginner-friendly guide to algorithms by Harvard's David J. Malan.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768558/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
     ],
   },
 
@@ -154,7 +154,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746861077/woman-using-calculator-near-plan-equipments_ndb3yp.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768558/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
     datePublished: "2025-05-10T08:00:00Z",
     dateModified: "2025-05-10T08:00:00Z",
     author: {

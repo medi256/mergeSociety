@@ -48,7 +48,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759513126/audio_1759512892275_pttyh_uh3gns.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765498/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
         width: 1200,
         height: 630,
         alt: "How Chatbots Work - Transformers and Attention Mechanisms Explained",
@@ -62,7 +62,7 @@ export const metadata = {
     description:
       "Learn how AI chatbots use transformer architectures, attention mechanisms, and massive training datasets to predict text one word at a time. A complete technical walkthrough.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759513126/audio_1759512892275_pttyh_uh3gns.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765498/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
     ],
   },
   robots: {
@@ -97,7 +97,7 @@ export const jsonLd = {
   description:
     "A comprehensive explanation of how modern AI chatbots function, covering transformers, attention mechanisms, training processes, and the computational scale required for large language models.",
   image:
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1759513126/audio_1759512892275_pttyh_uh3gns.webp",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765498/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
   datePublished: "2025-10-03T00:00:00.000Z",
   dateModified: "2025-10-03T00:00:00.000Z",
   author: {
@@ -171,7 +171,7 @@ const AI = () => {
 
         <figure>
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1759513126/audio_1759512892275_pttyh_uh3gns.webp"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765498/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp"
             alt="How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback"
             width="600"
             height="400"

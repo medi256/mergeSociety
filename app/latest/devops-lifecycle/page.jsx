@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
         width: 1200,
         height: 630,
         alt: "DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories",
@@ -71,7 +71,7 @@ export const metadata = {
     description:
       "Master DevOps lifecycle phases, essential tools, and real-world implementation strategies. Includes Netflix case study and practical examples.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
     ],
   },
 
@@ -120,7 +120,7 @@ export default function DevOpsExplainedArticle() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755252483/audio_1755245920448_lnxdm9_exsuiw.webp"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp"
           }
           alt="DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories"
           width={600}

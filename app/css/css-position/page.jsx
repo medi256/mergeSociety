@@ -114,7 +114,7 @@ const CSSposition = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712403417/secondPos_ruiw9t.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762784416/secondPos_ruiw9t_kqlx9f.png"
           alt="pics"
         />
         <p>
@@ -165,7 +165,7 @@ const CSSposition = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712403884/secondRelative_diieef.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762784271/secondRelative_diieef_u7y3dn.png"
           alt="demo"
         />
         <p>
@@ -212,7 +212,7 @@ const CSSposition = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712404128/secondDemo_zzdbvh.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762784213/secondDemo_zzdbvh_f84qov.png"
           alt="demo-2"
         />
         <p>
@@ -272,7 +272,7 @@ const CSSposition = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712404536/lets_vnqh1p.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762960191/lets_vnqh1p_tfho5c.png"
           alt="demo-3"
         />
         <p>
@@ -340,7 +340,7 @@ const CSSposition = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712404629/demo_ctlwht.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762784010/demo_ctlwht_o7hvwp.png"
           alt="demo-5"
         />
         <p>
@@ -427,7 +427,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712404720/fixed_zruxdj.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762778917/fixed_zruxdj_qwl457.png"
           alt="demo-5"
         />
         <p>
@@ -505,7 +505,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1712404804/sticky_kjwqmb.png"
+          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762778602/sticky_kjwqmb_ncelb8.png"
           alt="demo-6"
         />
         <p>

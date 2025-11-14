@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769272/api_cbneaq_bfxrcg.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of API communication between applications",
@@ -93,7 +93,7 @@ export const metadata = {
       "From restaurant analogies to real-world tech examples - understand what APIs are, how they work, and why they're crucial in modern software development.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769272/api_cbneaq_bfxrcg.jpg",
     ],
   },
 
@@ -145,7 +145,7 @@ export const metadata = {
     headline:
       "APIs Explained: Understanding the Backbone of Modern Software (2025)",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746606559/api_cbneaq.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769272/api_cbneaq_bfxrcg.jpg",
     datePublished: "2025-05-07T12:00:00Z",
     dateModified: "2025-05-07T12:00:00Z",
     author: {

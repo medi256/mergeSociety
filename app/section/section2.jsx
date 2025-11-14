@@ -9,7 +9,7 @@ const Section2 = () => {
       title:
         "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745934102/Demis_Hassabis_qjtfky.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770840/Demis_Hassabis_qjtfky_s4xyfx.webp",
       alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       date: "April 29, 2025",
       articleRoute: "whats-next",
@@ -18,7 +18,7 @@ const Section2 = () => {
       id: 15,
       title: "The moment we stopped understanding AI [AlexNet]",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746105277/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
       alt: "The moment we stopped understanding AI [AlexNet]",
       date: "May 1, 2025",
       articleRoute: "we-stopped-understanding-ai",
@@ -28,7 +28,7 @@ const Section2 = () => {
       title:
         "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746107634/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770124/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
       alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       date: "May 1, 2025",
       articleRoute: "majorana",
@@ -37,7 +37,7 @@ const Section2 = () => {
       id: 17,
       title: "All Machine Learning algorithms explained",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746109286/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770076/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
       alt: "All Machine Learning algorithms explained",
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
@@ -47,7 +47,7 @@ const Section2 = () => {
       title:
         "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746475087/AI_Companion_and_Human_Connection_nwhjvx.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769576/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
       alt: "Best ai girlfriend",
       date: "May 5, 2025",
       articleRoute: "best-ai-girlfriend",
@@ -56,7 +56,7 @@ const Section2 = () => {
       id: 19,
       title: "Best AI Apps for College Student",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769513/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
       alt: "Best AI Apps for College Student",
       date: "May 6, 2025",
       articleRoute: "best-ai-apps",
@@ -65,7 +65,7 @@ const Section2 = () => {
       id: 21,
       title: "Top 5 Free AI Apps For iPhone & Android in 2025",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746522301/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej.png",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
       alt: "Best free AI apps for mobile devices",
       date: "May 6, 2025",
       articleRoute: "best-ai-app-for-iphone",
@@ -74,7 +74,7 @@ const Section2 = () => {
       id: 22,
       title: "Best AI Tools for Research",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746544091/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769414/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
       alt: "illustration Best AI Tools for Research",
       date: "May 6, 2025",
       articleRoute: "best-ai-tools-for-research",
@@ -84,7 +84,7 @@ const Section2 = () => {
       title:
         "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746551037/possessed-photography-g29arbbvPjo-unsplash_ug6art.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769389/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
       alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
       date: "May 6, 2025",
       articleRoute: "ai-ml-dp",
@@ -93,7 +93,7 @@ const Section2 = () => {
       id: 24,
       title: "What are AI Agents?",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746601327/julien-tromeur-6UDansS-rPI-unsplash_ugchfx.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
       alt: "Visualization of AI agents orchestrating tools and systems autonomously",
       date: "May 6, 2025",
       articleRoute: "what-is-agents",
@@ -103,7 +103,7 @@ const Section2 = () => {
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746953738/pexels-tara-winstead-8849295_hlz6r3.jpg",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768287/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",

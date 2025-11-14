@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768908/971_dx26ro_qm5n0m.jpg",
         width: 1200,
         height: 630,
         alt: "Chrome DevTools interface showing advanced debugging features and performance panels",
@@ -66,7 +66,7 @@ export const metadata = {
       "Discover console tricks, design mode hacks, and performance debugging techniques that most developers never learn. Updated for 2025!",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768908/971_dx26ro_qm5n0m.jpg",
     ],
   },
 
@@ -112,7 +112,7 @@ export const metadata = {
       "Master hidden Chrome DevTools secrets for debugging, performance optimization, and productivity hacks. Includes console tricks, design mode, and advanced techniques most developers never discover.",
     image: {
       "@type": "ImageObject",
-      url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768908/971_dx26ro_qm5n0m.jpg",
       width: 1200,
       height: 630,
     },
@@ -188,7 +188,7 @@ export const metadata = {
   // Performance and Core Web Vitals hints
   performance: {
     preload: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746774652/971_dx26ro.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768908/971_dx26ro_qm5n0m.jpg",
     ],
     prefetch: ["/tech/javascript-features", "/tech/docker-explained"],
   },

@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769722/aws_lg2upw_ilakce.webp",
         width: 1200,
         height: 630,
         alt: "Updated 2025 AWS services guide - developer navigating cloud tools with latest insights",
@@ -93,7 +93,7 @@ export const metadata = {
       "Just updated our comprehensive AWS guide. 200+ services analyzed, costs revealed, architecture patterns that actually work in production.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769722/aws_lg2upw_ilakce.webp",
     ],
   },
 
@@ -181,7 +181,7 @@ export const metadata = {
     headline:
       "AWS Services Explained: Complete 2025 Guide to 50+ Amazon Cloud Products",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746266414/aws_lg2upw.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769722/aws_lg2upw_ilakce.webp",
     datePublished: "2024-05-03T08:30:00Z",
     dateModified: "2025-07-01T10:15:00Z",
     author: {

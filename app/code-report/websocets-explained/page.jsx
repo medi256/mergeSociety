@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1763018556/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
         width: 1200,
         height: 630,
         alt: "WebSockets vs Socket.IO comparison diagram showing real-time communication flow between client and server",
@@ -70,7 +70,7 @@ export const metadata = {
       "Master real-time web development with WebSockets and Socket.IO. Step-by-step tutorials for chat apps, games, and live dashboards.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1763018556/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
     ],
   },
 
@@ -139,7 +139,7 @@ export const metadata = {
     alternativeHeadline: "Complete WebSocket and Socket.IO Tutorial 2025",
     image: {
       "@type": "ImageObject",
-      url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746885298/pexels-danny-meneses-340146-943096_na23qm.jpg",
+      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1763018556/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
       width: 1200,
       height: 630,
       caption: "WebSockets vs Socket.IO real-time communication architecture",

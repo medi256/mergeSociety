@@ -49,7 +49,7 @@ export const metadata = {
     ],
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_1200,h_630/v1756715326/audio_1756629337986_121o9s_clovvx.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765851/audio_1756629337986_121o9s_clovvx_situ67.webp",
         width: 1200,
         height: 630,
         alt: "Growth Mindset for Programmers - You do not need to be a genius to code",
@@ -63,7 +63,7 @@ export const metadata = {
     description:
       "Programming success isn't about intelligence - it's about perseverance. Learn the mindset that actually matters for coding.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_1200,h_630/v1756715326/audio_1756629337986_121o9s_clovvx.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765851/audio_1756629337986_121o9s_clovvx_situ67.webp",
     ],
   },
 
@@ -103,7 +103,7 @@ export const jsonLd = {
   description:
     "Learn why programming success isn't about intelligence but perseverance. Discover how to develop a growth mindset, overcome imposter syndrome, and build coding skills through deliberate practice and resilience.",
   image:
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_1200,h_630/v1756715326/audio_1756629337986_121o9s_clovvx.webp",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765851/audio_1756629337986_121o9s_clovvx_situ67.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",

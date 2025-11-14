@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "TechHistory Archives",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg",
         width: 1200,
         height: 630,
         alt: "Ma Huateng (Pony Ma) - The quiet founder who built Tencent's digital empire and revolutionized the tech industry",
@@ -84,7 +84,7 @@ export const metadata = {
       "The untold story of Tencent's rise: How a shy engineer from Shenzhen broke every Silicon Valley rule to build China's most powerful tech empire.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg",
     ],
   },
 
@@ -160,7 +160,7 @@ export const metadata = {
 
     image: {
       "@type": "ImageObject",
-      url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745747700/Ma-Huateng_uii6rl.jpg",
+      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg",
       width: 1200,
       height: 630,
       caption:
@@ -323,7 +323,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1745747700/Ma-Huateng_uii6rl.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762771497/Ma-Huateng_uii6rl_nthmg3.jpg"
             alt="How Tencent quietly built a tech empire — The untold story of Pony Ma and China's digital dominance"
             width={600}
             height={400}

@@ -55,13 +55,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png",
         width: 1200,
         height: 630,
         alt: "HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery",
       },
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png",
         width: 600,
         height: 600,
         alt: "HTML Roadmap 2025 Complete Guide",
@@ -91,7 +91,7 @@ export const metadata = {
     description:
       "Complete HTML roadmap for 2025. Master HTML fundamentals, semantic tags, and modern web development. Step-by-step guide from beginner to advanced with real-world projects.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
       dateModified: "2025-07-08T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png",
         width: 1200,
         height: 630,
       },
@@ -241,7 +241,7 @@ export const structuredData = {
   dateModified: "2025-07-08T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png",
+    url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png",
     width: 1200,
     height: 630,
   },
@@ -336,7 +336,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1751966620/html-roadmap_cug0c3.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766326/html-roadmap_cug0c3_chzvfq.png"
             alt="HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery"
             width={600}
             height={400}

@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745576048/two_google_employes_ciaxcf.jpg",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
         width: 1200,
         height: 630,
         alt: "Jeff Dean and Sanjay Ghemawat - The engineers who saved Google",
@@ -66,7 +66,7 @@ export const metadata = {
       "How two engineers' partnership saved Google in 2000 and built the foundations of modern internet infrastructure with MapReduce, BigTable, and GFS.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745576048/two_google_employes_ciaxcf.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
     ],
   },
 
@@ -93,7 +93,7 @@ export const metadata = {
     headline:
       "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
     image:
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745576048/two_google_employes_ciaxcf.jpg",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {
@@ -126,7 +126,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745576048/two_google_employes_ciaxcf.jpg"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766172/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp"
           }
           alt=" The Unsung Friendship That Saved Google—and Invented the Modern Internet"
           width={600}

@@ -15,7 +15,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755680962/audio_1755679142551_7b4jhp_a2iclj.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766070/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
         width: 600,
         height: 400,
         alt: "How to get good at coding - Complete learning roadmap",
@@ -43,7 +43,7 @@ export const metadata = {
     description:
       "Complete guide to learning programming from zero to building real projects and passing interviews.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755680962/audio_1755679142551_7b4jhp_a2iclj.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766070/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
     ],
   },
 

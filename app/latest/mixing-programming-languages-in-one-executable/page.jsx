@@ -63,7 +63,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp",
+        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766191/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
         width: 1200,
         height: 800,
         alt: "Mixing Programming Languages in One Executable",
@@ -79,7 +79,7 @@ export const metadata = {
     description:
       "Step-by-step guide on combining multiple programming languages into a single executable using compilers, linkers, and ABIs.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp",
+      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766191/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
     ],
   },
 };
@@ -95,7 +95,7 @@ export default function MixingLanguagesExecutableArticle() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1755183273/audio_1755156447127_jxw889_dpoz18.webp"
+            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766191/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
           }
           alt="Mixing Programming Languages in One Executable: How Compilers, Linkers, and ABIs Make It Work"
           width={600}
