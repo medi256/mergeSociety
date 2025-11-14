@@ -534,7 +534,7 @@ const Section3 = () => {
       title:
         "Growth Mindset for Programmers - you do not need to be a genius to code",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756715326/audio_1756629337986_121o9s_clovvx.webp",
+        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765851/audio_1756629337986_121o9s_clovvx_situ67.webp",
       alt: "Growth Mindset for Programmers - you do not need to be a genius to code",
       date: "September  1, 2025",
       articleRoute: "growth-mindset-for-programmers",

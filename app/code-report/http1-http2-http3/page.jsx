@@ -315,7 +315,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746865685/pexels-padrinan-1591059_tc0afv.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768490/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg"
             alt="Comparison chart of HTTP 1 vs HTTP 2 vs HTTP 3 protocols showing latency and multiplexing improvements"
             width={600}
             height={400}

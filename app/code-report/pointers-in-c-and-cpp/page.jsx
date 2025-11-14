@@ -130,7 +130,7 @@ const Page = () => {
           </h1>
           <figure className="article-figure">
             <img
-              src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1756137216/audio_1756133645586_ybfdxp_m0ss09.webp"
+              src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765999/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp"
               alt="Pointers in C and C++"
               width="1200"
               height="675"

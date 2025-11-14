@@ -251,7 +251,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746774652/971_dx26ro.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768908/971_dx26ro_qm5n0m.jpg"
             alt="Chrome DevTools interface showing console and performance panels with visual debugging aids"
             width={600}
             height={400}

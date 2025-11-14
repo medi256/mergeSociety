@@ -211,7 +211,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746772728/pexels-digitalbuggu-374559_yqicxw.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768931/pexels-digitalbuggu-374559_yqicxw_hck973.jpg"
             alt="Ruby on Rails framework diagram showing MVC architecture with code examples"
             width={600}
             height={400}

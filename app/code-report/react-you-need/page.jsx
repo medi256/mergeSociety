@@ -443,7 +443,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746187246/rahul-mishra-JpF58ANavoc-unsplash_eb19pv.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769969/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg"
             alt="All The JavaScript You Need To Know For React"
             width={600}
             height={400}

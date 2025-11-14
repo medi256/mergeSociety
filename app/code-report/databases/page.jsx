@@ -529,7 +529,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746780470/6554783_amd2ad.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg"
             alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
             width={600}
             height={400}

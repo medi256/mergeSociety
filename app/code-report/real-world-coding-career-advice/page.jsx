@@ -330,7 +330,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1747330186/pexels-energepic-com-27411-313690_uzkvfv.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762767278/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg"
             alt="Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career"
             width={600}
             height={400}

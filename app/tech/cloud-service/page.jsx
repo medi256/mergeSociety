@@ -501,7 +501,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746267358/growtika-Am6pBe2FpJw-unsplash_iwabef.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769697/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg"
             alt="AWS Services Explained: What They Do and How They Power the Cloud"
             width={600}
             height={400}

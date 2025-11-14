@@ -395,7 +395,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746691589/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769227/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg"
             alt="Illustration showing a developer surrounded by programming myths and productivity traps"
             width={600}
             height={400}

@@ -111,7 +111,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746522301/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png"
             alt="Best free AI apps for mobile devices — tools for on-the-go productivity, creativity, and learning"
             width={600}
             height={400}

@@ -522,7 +522,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768448/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg"
             alt="Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic"
             width={600}
             height={400}

@@ -301,7 +301,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746771091/pexels-shkrabaanthony-5475784_zkjf9p.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768955/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg"
             alt="Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming"
             width={600}
             height={400}

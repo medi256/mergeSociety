@@ -365,7 +365,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746091887/david-schultz-zIq30tCncWk-unsplash_gwiqzy.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770366/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg"
             alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
             width={600}
             height={400}

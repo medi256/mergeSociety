@@ -60,7 +60,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746025578/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg"
             alt="Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down"
             width={600}
             height={400}

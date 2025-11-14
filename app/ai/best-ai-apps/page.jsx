@@ -115,7 +115,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746480455/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr.png"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769513/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png"
             alt="Best AI apps for college students — tools for productivity, research, and learning"
             width={600}
             height={400}
