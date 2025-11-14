@@ -291,7 +291,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746109286/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770076/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg"
             alt="Illustration showing all major machine learning algorithms including supervised, unsupervised, reinforcement, and deep learning techniques"
             width={600}
             height={400}

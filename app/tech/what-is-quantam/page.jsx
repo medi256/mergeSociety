@@ -559,7 +559,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dhgjhspsp/image/upload/f_auto,q_auto,w_800/v1746101784/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd.jpg"
+            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770285/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg"
             alt="But what is quantum computing? (Grover's Algorithm)"
             width={600}
             height={400}
