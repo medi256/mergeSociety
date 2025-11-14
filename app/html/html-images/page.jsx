@@ -147,7 +147,7 @@ alt="Encoded image">.
           computer
         </p>
         <video controls width="300px" height="300px">
-          <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712418881/imageUpload_tsuisi.mov" />
+          <source src="https://res.cloudinary.com/dgyofctwi/video/upload/v1762775511/imageUpload_tsuisi_vthu93.mov" />
         </video>
 
         <h2>Best Practices for Using Images</h2>

@@ -220,7 +220,7 @@ const HTMLIntroduction = () => {
             if you haven't gotten things right.
           </h3>
           <video controls width={"300px"}>
-            <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1714906080/myFirstWebsite_baseb1.mov" />
+            <source src="https://res.cloudinary.com/dgyofctwi/video/upload/v1762775345/myFirstWebsite_baseb1_dwfd4f.mov" />
           </video>
           <Button whereToGo={"html-basics"} />
         </section>

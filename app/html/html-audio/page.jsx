@@ -129,7 +129,7 @@ const HTMLAudio = () => {
 
         <p>You can also watch a video on how to upload from your computer</p>
         <video controls width="300px">
-          <source src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712418645/audioUpload_guktfk.mov" />
+          <source src="https://res.cloudinary.com/dgyofctwi/video/upload/v1762775530/audioUpload_guktfk_lw9mzw.mov" />
         </video>
 
         <h2>Customizing Audio Player Appearance</h2>

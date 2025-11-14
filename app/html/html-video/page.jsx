@@ -118,12 +118,16 @@ const HTMLVideo = () => {
         </p>
         <p>You can also watch a video on how to upload from your computer</p>
         <pre>
-          <video controls width="300px">
-            <source
-              src="https://res.cloudinary.com/dhgjhspsp/video/upload/v1712412958/javascript_ebrm8u.mp4"
-              type="video/mp4"
-            />
-          </video>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Ki_0iES2cGI?si=bkABaH9WwNwXciZX"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </pre>
 
         <h2>Customizing Video Player Appearance</h2>

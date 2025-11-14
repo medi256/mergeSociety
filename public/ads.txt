@@ -1,4 +1,4 @@
-# Ads.txt v20251106
+# Ads.txt v20251112
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -27,6 +27,7 @@ gumgum.com, 15958, RESELLER, ffdef49475d318a9
 rubiconproject.com, 26278, DIRECT, 0bfd66d529a55807
 indexexchange.com, 207882, DIRECT, 50b1c356f2c5c8fc
 indexexchange.com, 208002, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 214230, DIRECT, 50b1c356f2c5c8fc 
 kargo.com, 8851, DIRECT
 rubiconproject.com, 11864, RESELLER, 0bfd66d529a55807
 appnexus.com, 8173, RESELLER, f5ab79cb980f11d1
@@ -154,6 +155,7 @@ smartadserver.com, 3056, RESELLER
 openx.com, 559680764, RESELLER
 sharethrough.com, a6a34444, RESELLER
 smartadserver.com, 5277, DIRECT, 060d053dcf45cbf3
+trustedstack.com, TSUKNZU26, DIRECT
 
 
 
