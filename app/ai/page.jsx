@@ -110,7 +110,7 @@ const Section2 = () => {
       title:
         "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771526/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+        "/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
       alt: "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       date: "April 27, 2025",
       articleRoute: "god-father-of-ai",
@@ -121,7 +121,7 @@ const Section2 = () => {
       title:
         "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772360/ai-mcp_sseuxt_ajwoxg.jpg",
+        "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
       alt: "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
       date: "April 25, 2025",
       articleRoute: "ai-mcp",
@@ -131,7 +131,7 @@ const Section2 = () => {
       title:
         "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772340/ai-again_frbb7o_etkpee.jpg",
+        "/mergesociety/ai-again_frbb7o_etkpee.jpg",
       alt: "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
       date: "April 26, 2025",
       articleRoute: "llms",
@@ -141,7 +141,7 @@ const Section2 = () => {
       title:
         "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772324/rise_of_ai_raoqb3_fmmfwu.jpg",
+        "/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
       alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
       date: "April 26, 2025",
       articleRoute: "rise-of-ai",
@@ -151,7 +151,7 @@ const Section2 = () => {
       title:
         "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772252/google-ai_x9a2fc_zsjzlz.jpg",
+        "/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
       alt: "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
       date: "April 26, 2025",
       articleRoute: "google-ais",
@@ -160,7 +160,7 @@ const Section2 = () => {
       id: 6,
       title: "Why Human Connection Still Beats Technology—Even in the AI Era",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772226/motivation_dimnjq_kbo00z.jpg",
+        "/mergesociety/motivation_dimnjq_kbo00z.jpg",
       alt: "Why Human Connection Still Beats Technology—Even in the AI Era",
       date: "April 26, 2025",
       articleRoute: "ai-with-jobs",
@@ -170,7 +170,7 @@ const Section2 = () => {
       title:
         "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772197/jobs-servive-ai_lywum0_oag3ma.jpg",
+        "/mergesociety/jobs-servive-ai_lywum0_oag3ma.jpg",
       alt: "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
       date: "April 26, 2025",
       articleRoute: "future-of-jobs",
@@ -180,7 +180,7 @@ const Section2 = () => {
       title:
         "The Truth Behind Those Handcrafted Leather Bags and Watches: How AI, Actors, and Cheap Goods Are Fooling Shoppers Online",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772173/fooling-online_w6akez_naqb3m.jpg",
+        "/mergesociety/fooling-online_w6akez_naqb3m.jpg",
       alt: "The Truth Behind Those 'Handcrafted' Leather Bags and Watches",
       date: "April 26, 2025",
       articleRoute: "online-shopping",
@@ -190,7 +190,7 @@ const Section2 = () => {
       title:
         "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772133/programming-jobs_xlchqy_x6fx4p.jpg",
+        "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
       alt: "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
       date: "April 26, 2025",
       articleRoute: "will-programmers-vanish",
@@ -200,7 +200,7 @@ const Section2 = () => {
       title:
         "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772111/cheating_b3duti_irxoxq.jpg",
+        "/mergesociety/cheating_b3duti_irxoxq.jpg",
       alt: "A split screen showing a programmer in a remote interview with hidden cheating methods illustrated",
       date: "April 26, 2025",
       articleRoute: "cheating",
@@ -210,7 +210,7 @@ const Section2 = () => {
       title:
         "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772383/MCP_tyhw2b_umtclp.jpg",
+        "/mergesociety/MCP_tyhw2b_umtclp.jpg",
       alt: " AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
       date: "April 25, 2025",
       articleRoute: "ai-agents",
@@ -220,7 +220,7 @@ const Section2 = () => {
       title:
         "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770908/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+        "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
       alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       date: "April 29, 2025",
       articleRoute: "is-ai-making-us-dumb",
@@ -230,7 +230,7 @@ const Section2 = () => {
       title:
         "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770858/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+        "/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
       alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       date: "April 29, 2025",
       articleRoute: "ai-vs-jobs",
@@ -240,7 +240,7 @@ const Section2 = () => {
       title:
         "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770840/Demis_Hassabis_qjtfky_s4xyfx.webp",
+        "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
       alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       date: "April 29, 2025",
       articleRoute: "whats-next",
@@ -259,7 +259,7 @@ const Section2 = () => {
       title:
         "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770124/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+        "/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
       alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       date: "May 1, 2025",
       articleRoute: "majorana",
@@ -268,7 +268,7 @@ const Section2 = () => {
       id: 17,
       title: "All Machine Learning algorithms explained",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770076/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+        "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
       alt: "All Machine Learning algorithms explained",
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
@@ -278,7 +278,7 @@ const Section2 = () => {
       title:
         "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769576/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
+        "/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
       alt: "Best ai girlfriend",
       date: "May 5, 2025",
       articleRoute: "best-ai-girlfriend",
@@ -287,7 +287,7 @@ const Section2 = () => {
       id: 19,
       title: "Best AI Apps for College Student",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769513/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
       alt: "Best AI Apps for College Student",
       date: "May 6, 2025",
       articleRoute: "best-ai-apps",
@@ -296,7 +296,7 @@ const Section2 = () => {
       id: 21,
       title: "Top 5 Free AI Apps For iPhone & Android in 2025",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
       alt: "Best free AI apps for mobile devices",
       date: "May 6, 2025",
       articleRoute: "best-ai-app-for-iphone",
@@ -305,7 +305,7 @@ const Section2 = () => {
       id: 22,
       title: "Best AI Tools for Research",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769414/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+        "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
       alt: "illustration Best AI Tools for Research",
       date: "May 6, 2025",
       articleRoute: "best-ai-tools-for-research",
@@ -315,7 +315,7 @@ const Section2 = () => {
       title:
         "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769389/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+        "/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
       alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
       date: "May 6, 2025",
       articleRoute: "ai-ml-dp",
@@ -324,7 +324,7 @@ const Section2 = () => {
       id: 24,
       title: "What are AI Agents?",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769283/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
       alt: "Visualization of AI agents orchestrating tools and systems autonomously",
       date: "May 6, 2025",
       articleRoute: "what-is-agents",
@@ -334,7 +334,7 @@ const Section2 = () => {
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768287/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",
@@ -344,7 +344,7 @@ const Section2 = () => {
       title:
         "Torvalds Speaks: Impact of Artificial Intelligence on Programming",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767832/Linus-Torvalds_kcaenk_ekh2rc.webp",
+        "/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
       alt: "Torvalds Speaks",
       date: "May 11, 2025",
       articleRoute: "tovard-on-ai",
@@ -354,7 +354,7 @@ const Section2 = () => {
       title:
         "Grok 4 AI: Elon Musk’s Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766244/grok_4_jv3jmy_o1gw76.png",
+        "/mergesociety/grok_4_jv3jmy_o1gw76.png",
       alt: "Grok 4 AI interface showing controversial chatbot responses",
       date: "July 12, 2025",
       articleRoute: "grok4",

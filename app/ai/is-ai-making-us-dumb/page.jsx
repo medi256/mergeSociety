@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "ColdFusion",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770908/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+        url: "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
         width: 1200,
         height: 630,
         alt: "A human brain connected to AI neural networks, illustrating the cognitive relationship between humans and artificial intelligence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Explore how AI may be affecting our ability to think critically, with practical advice on preserving cognitive abilities in an increasingly automated world.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770908/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
     ],
   },
   robots: {
@@ -126,7 +126,7 @@ export const metadata = {
     headline:
       "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770908/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -643,7 +643,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770908/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg"
+            "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg"
           }
           alt="Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age"
           width={600}

@@ -13,8 +13,8 @@ const CONFIG = {
 
   // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
   urlMappings: {
-    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg":
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772133/programming-jobs_xlchqy_x6fx4p.jpg":
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
   },
 
   // Create backup before modifying files

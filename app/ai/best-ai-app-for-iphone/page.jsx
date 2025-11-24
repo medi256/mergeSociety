@@ -40,7 +40,7 @@ export const metadata = {
       "Transform your phone into a productivity powerhouse with these 10 completely free AI apps. Photo editing, voice assistants, 3D scanning, image generation & more - no subscriptions required!",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
+        url: "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
         width: 1200,
         height: 630,
         alt: "10 best free AI apps for iPhone and Android smartphones",
@@ -58,7 +58,7 @@ export const metadata = {
     description:
       "Stop using basic apps! These 10 free AI tools will make your smartphone insanely powerful. Photo editing, voice AI, 3D scanning & more - completely free!",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
+      "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
     ],
     creator: "@manager70191",
   },
@@ -111,7 +111,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769440/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png"
+            src="/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png"
             alt="Best free AI apps for mobile devices — tools for on-the-go productivity, creativity, and learning"
             width={600}
             height={400}
