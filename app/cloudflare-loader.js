@@ -1,23 +1,33 @@
-// app/cloudflare-loader.js
-export default function cloudflareLoader({ src, width, quality }) {
-  const q = quality || 75;
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
 
-  // CRITICAL: In development (localhost), return original image
-  if (process.env.NODE_ENV === "development") {
-    // For Supabase images, return full URL
-    if (!src.startsWith("http")) {
-      return `https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public${src}`;
+    // Log for debugging (check Worker logs)
+    console.log("Worker received:", url.pathname);
+
+    // Handle proxy requests
+    if (url.pathname.startsWith("/proxy/")) {
+      const imagePath = url.pathname.replace("/proxy", "");
+      const supabaseURL = `https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public${imagePath}`;
+
+      console.log("Fetching from Supabase:", supabaseURL);
+
+      try {
+        const response = await fetch(supabaseURL);
+
+        // Add CORS headers
+        const newResponse = new Response(response.body, response);
+        newResponse.headers.set("Access-Control-Allow-Origin", "*");
+        newResponse.headers.set("Cache-Control", "public, max-age=31536000");
+
+        return newResponse;
+      } catch (error) {
+        return new Response("Error fetching image: " + error.message, {
+          status: 500,
+        });
+      }
     }
-    return src;
-  }
 
-  // PRODUCTION ONLY: Use Cloudflare optimization
-  // If it's a Next.js internal file, don't use proxy
-  if (src.startsWith("/_next/")) {
-    return `/cdn-cgi/image/width=${width},quality=${q},format=auto${src}`;
-  }
-
-  // For Supabase images, use the proxy
-  const path = src.startsWith("/") ? src : `/${src}`;
-  return `/cdn-cgi/image/width=${width},quality=${q},format=auto/proxy${path}`;
-}
+    return new Response("Not a proxy request", { status: 404 });
+  },
+};
