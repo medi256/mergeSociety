@@ -69,9 +69,7 @@ export const metadata = {
     description:
       "Revisit the glory days of quirky 90s websites when the internet was a playground of neon animations, Flash games, and experimental design.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
-    ],
+    images: ["/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg"],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
   robots: {
@@ -96,8 +94,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
-    image:
-      "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
+    image: "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
     datePublished: "2025-04-25T09:00:00Z",
     dateModified: "2025-04-25T09:00:00Z",
     author: {
@@ -134,7 +131,7 @@ export default function Article() {
           Bubble
         </h1>
         <Image
-          src="/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg"
+          src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg"
           alt="Collage of iconic 90s websites including Nick.com and Blockbuster"
           width={1200}
           height={630}
