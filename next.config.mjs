@@ -1,13 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true,
+    loader: "custom",
+    loaderFile: "./app/cloudflare-loader.js",
 
     domains: [
       "res.cloudinary.com",
       "www.freecodecamp.org",
       "reactjs.org",
-      "kbldpypjgtjbrzmcoqcg.supabase.co",
+      "afeoolopdqmqjcvsgdxc.supabase.co",
     ],
   },
 };

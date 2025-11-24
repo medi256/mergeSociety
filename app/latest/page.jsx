@@ -123,7 +123,7 @@ const GridNews = () => {
       title:
         "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772633/1990s_Internet_blg5oq_pgx9vk.jpg",
+        "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
       alt: "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
       date: " April 27, 2025",
       articleRoute: "1990s-Internet",
