@@ -131,7 +131,7 @@ export default function Article() {
           Bubble
         </h1>
         <Image
-          src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg"
+          src="/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg"
           alt="Collage of iconic 90s websites including Nick.com and Blockbuster"
           width={1200}
           height={630}
