@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769209/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+        url: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
         width: 1200,
         height: 630,
         alt: "Programming language roadmap showing the progression from beginner to expert languages",
@@ -89,7 +89,7 @@ export const metadata = {
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769209/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769209/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -196,7 +196,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769209/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"
+            src="/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"
             alt="Programming language roadmap showing the progression from beginner to expert languages"
             width={600}
             height={400}

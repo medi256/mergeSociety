@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "Health Intelligence",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+        url: "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
         width: 1200,
         height: 630,
         alt: "Veterinarians in full protective gear examining infected dairy cattle on a farm affected by H5N1 bird flu",
       },
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+        url: "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
         width: 1200,
         height: 630,
         alt: "Map showing the rapid spread of H5N1 across US states affecting cattle and poultry",
@@ -107,7 +107,7 @@ export const metadata = {
       "Inside the failed response to America's escalating bird flu crisis: 70 infected, 1 dead, and experts warning 'this could make COVID look like a walk in the park.' Why veterinarians say they're 'fighting with blindfolds on.'",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+      "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
     ],
   },
   robots: {
@@ -161,8 +161,8 @@ export const metadata = {
     headline:
       "Bird Flu Crisis: How H5N1's Unprecedented Jump to Cattle and Humans Threatens a New Pandemic",
     image: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+      "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+      "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T11:30:00Z",
@@ -449,7 +449,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770500/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg"
+            "/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg"
           }
           alt="Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and the World Isn’t Ready"
           width={600}

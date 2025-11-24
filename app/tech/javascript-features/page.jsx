@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768867/7040859_sp09q7_oelsvn.jpg",
+        url: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
         width: 1200,
         height: 630,
         alt: "Updated JavaScript frameworks landscape 2025 showing latest features",
       },
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768867/7040859_sp09q7_oelsvn.jpg",
+        url: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
         width: 1200,
         height: 200,
         alt: "Updated May 2025 badge",
@@ -78,7 +78,7 @@ export const metadata = {
       "Just revised with the latest details on React 19, Next.js 15, Svelte 5 Runes and other framework innovations you can't ignore.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768867/7040859_sp09q7_oelsvn.jpg",
+      "/mergesociety/7040859_sp09q7_oelsvn.jpg",
     ],
   },
 
@@ -111,7 +111,7 @@ export const metadata = {
     headline:
       "JavaScript Framework Updates 2025: 15 Game-Changing Features (Revised)",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768867/7040859_sp09q7_oelsvn.jpg",
+      "/mergesociety/7040859_sp09q7_oelsvn.jpg",
     datePublished: "2025-05-09T12:00:00Z",
     dateModified: "2025-06-30T09:00:00Z",
     version: "2.0",
@@ -234,7 +234,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768867/7040859_sp09q7_oelsvn.jpg"
+            src="/mergesociety/7040859_sp09q7_oelsvn.jpg"
             alt="JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks"
             width={600}
             height={400}

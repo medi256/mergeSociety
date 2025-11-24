@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Big Box Sweet Tech",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770676/linux_hffokn_okg892.jpg",
+        url: "/mergesociety/linux_hffokn_okg892.jpg",
         width: 1200,
         height: 630,
         alt: "The evolutionary stages of a Linux user illustrated with penguins",
@@ -81,7 +81,7 @@ export const metadata = {
       "A humorous journey through Linux user archetypes: the Normie, the Ricer, the Arch user with colorful socks, and the Gentoo hermit. Where do you fit in?",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770676/linux_hffokn_okg892.jpg",
+      "/mergesociety/linux_hffokn_okg892.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -144,7 +144,7 @@ export const metadata = {
     "@type": "Article",
     headline: "The Life Cycle of a Linux User: From Awareness to Enlightenment",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770676/linux_hffokn_okg892.jpg",
+      "/mergesociety/linux_hffokn_okg892.jpg",
     datePublished: "2025-04-29T09:00:00Z",
     dateModified: "2025-04-29T09:00:00Z",
     author: {
@@ -570,7 +570,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770676/linux_hffokn_okg892.jpg"
+            "/mergesociety/linux_hffokn_okg892.jpg"
           }
           alt="The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)"
           width={600}

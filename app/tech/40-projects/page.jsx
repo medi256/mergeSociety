@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Developer Junction",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770592/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+        url: "/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
         width: 1200,
         height: 630,
         alt: "Collage showing code editor, web apps, mobile interfaces, and AI visualizations representing 40 diverse programming projects for developers",
@@ -86,7 +86,7 @@ export const metadata = {
       "Discover practical coding projects from web apps to AI systems that will expand your skills and supercharge your portfolio.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770592/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+      "/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -134,7 +134,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "40 Programming Projects That Will Make You a Better Developer",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770592/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+      "/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T08:30:00Z",
     author: {
@@ -610,7 +610,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770592/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg"
+            "/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg"
           }
           alt="40 Programming Projects That Will Make You a Better Developer"
           width={600}

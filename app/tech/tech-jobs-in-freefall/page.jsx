@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770366/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+        url: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
         width: 1200,
         height: 630,
         alt: "Dramatic visualization of tech job market contraction in 2025 showing AI impact on employment rates versus corporate profits",
@@ -89,7 +89,7 @@ export const metadata = {
       "Our International Workers' Day investigation reveals how tech giants are slashing jobs while posting record profits. Is AI creating an employment crisis?",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770366/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+      "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
     ],
   },
   robots: {
@@ -138,7 +138,7 @@ export const metadata = {
     headline:
       "The Great Tech Job Contraction: AI Transforms Employment While Profits Soar [May 2025]",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770366/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+      "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
     datePublished: "2025-05-01T07:00:00Z",
     dateModified: "2025-05-01T07:00:00Z",
     author: {
@@ -365,7 +365,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770366/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg"
+            src="/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg"
             alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
             width={600}
             height={400}

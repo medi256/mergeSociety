@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769669/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+        url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
         width: 1200,
         height: 630,
         alt: "Docker 2025 containerization workflow from development to production deployment",
@@ -95,7 +95,7 @@ export const metadata = {
       "Just updated! Learn Docker from scratch to production deployment with latest security practices and optimization techniques.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769669/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
     ],
   },
 
@@ -169,7 +169,7 @@ export const metadata = {
       "Complete Docker Guide: From Development to Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769669/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
       width: 1200,
       height: 630,
     },
@@ -260,7 +260,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769669/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg"
+            src="/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg"
             alt="Docker 101: Mastering Modern Software Delivery with Containers"
             width={600}
             height={400}
