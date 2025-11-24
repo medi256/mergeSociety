@@ -13,9 +13,6 @@ const CONFIG = {
   urlMappings: {
     "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg":
       "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
-
-    // Add more mappings here:
-    // 'old-url': 'new-url',
   },
 
   // Create backup before replacing
