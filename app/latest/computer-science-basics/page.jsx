@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767278/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        url: "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
         width: 1200,
         height: 630,
         alt: "Computer Science Basics: A visual representation of essential computer science concepts",
@@ -96,7 +96,7 @@ export const metadata = {
       "Master computer science fundamentals from binary and Turing machines to cloud computing and APIs in our comprehensive beginner's guide.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767278/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Computer Science Basics: A Beginner's Guide to 101 Essential Terms and Concepts",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767278/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -568,7 +568,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767278/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg"
+            "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg"
           }
           alt="Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts"
           width={600}

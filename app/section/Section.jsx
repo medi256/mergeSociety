@@ -14,7 +14,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/mixing-programming-languages-in-one-executable">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766191/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
+                src="/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
                 alt="Mixing Programming Languages in One Executable"
                 width={400}
                 height={250}
@@ -60,7 +60,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/c-vs-cpp-vs-csharp">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766137/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp"
+                src="/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp"
                 alt="C vs C++ vs C#"
                 width={600}
                 height={350}
@@ -88,7 +88,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/github-repositories">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766106/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
+                src="/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
                 alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
                 width={600}
                 height={350}

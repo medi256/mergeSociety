@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772547/mincraft_kmdjhr_zrylau.jpg",
+        url: "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
         width: 1200,
         height: 630,
         alt: "Minecraft Redstone computer with visible logic circuits",
@@ -71,7 +71,7 @@ export const metadata = {
       "Learn how to build a functioning computer inside Minecraft using Redstone - from basic logic gates to a full CPU with memory and display systems.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772547/mincraft_kmdjhr_zrylau.jpg",
+      "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -99,7 +99,7 @@ export const metadata = {
     headline:
       "From Redstone to RAM: How Minecraft's In-Game Logic Lets You Build a Real Computer",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772547/mincraft_kmdjhr_zrylau.jpg",
+      "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
     datePublished: "2025-04-25T09:00:00Z",
     dateModified: "2025-04-25T09:00:00Z",
     author: {
@@ -137,7 +137,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772547/mincraft_kmdjhr_zrylau.jpg"
+            "/mergesociety/mincraft_kmdjhr_zrylau.jpg"
           }
           alt="Minecraft Redstone computer with visible logic circuits"
           width={600}

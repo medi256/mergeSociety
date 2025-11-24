@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Cloud Experts",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767119/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+        url: "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
         width: 1200,
         height: 630,
         alt: "AWS Cloud Computing Guide - Visual Overview of Amazon Web Services",
@@ -93,7 +93,7 @@ export const metadata = {
       "Our brutally honest AWS guide explains everything from bizarre UIs to cost traps and why it's still the most powerful cloud platform in 2025.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767119/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     ],
   },
 
@@ -144,7 +144,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767119/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     datePublished: "2025-05-17T10:00:00Z",
     dateModified: "2025-05-17T10:00:00Z",
     author: {
@@ -409,7 +409,7 @@ export default function Article() {
         <h1>AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster</h1>
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767119/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg"
+            "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg"
           }
           alt="Git For Beginners: A Complete Step-by-Step Guide to Version Control"
           width={600}

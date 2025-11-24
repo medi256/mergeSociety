@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767323/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+        url: "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
         width: 1200,
         height: 630,
         alt: "Binary code visualization showing the transformation from ones and zeros to complex digital applications",
@@ -95,7 +95,7 @@ export const metadata = {
       "Dive into how the simple binary system of ones and zeros creates the foundation for all digital technology and modern computing.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767323/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767323/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -529,7 +529,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767323/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg"
+            "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg"
           }
           alt="Binary Explained: How Computers Use Ones and Zeros to Power the Digital World"
           width={600}

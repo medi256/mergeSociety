@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767140/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        url: "/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
         width: 1200,
         height: 630,
         alt: "Git for Beginners Tutorial - Version Control Simplified",
@@ -93,7 +93,7 @@ export const metadata = {
       "Master Git in minutes! Our beginner-friendly tutorial covers installation, core commands, and version tracking concepts with easy examples.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767140/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+      "/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
     ],
   },
 
@@ -145,7 +145,7 @@ export const metadata = {
     headline:
       "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767140/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+      "/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
     datePublished: "2025-05-17T09:00:00Z",
     dateModified: "2025-05-17T09:00:00Z",
     author: {
@@ -413,7 +413,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767140/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg"
+            "/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg"
           }
           alt="Git For Beginners: A Complete Step-by-Step Guide to Version Control"
           width={600}

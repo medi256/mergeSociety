@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766106/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+        url: "/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
         width: 600,
         height: 400,
         alt: "A chill sloth mascot wearing headphones and coding - GitHub repositories guide",
@@ -53,7 +53,7 @@ export const metadata = {
     description:
       "Discover 17 essential GitHub repositories for developers. Learn algorithms, build projects, find free resources, and level up your programming skills.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766106/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+      "/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
     ],
   },
   robots: {
@@ -98,7 +98,7 @@ export default function GitHubRepositoriesArticle() {
         <section>
           <figure>
             <img
-              src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766106/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
+              src="/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
               alt="A chill sloth mascot wearing headphones and peeking from behind a laptop with GitHub stickers"
               width="600"
               height="400"

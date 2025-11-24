@@ -1,23 +1,49 @@
 const fs = require("fs").promises;
 const path = require("path");
 
-// Configuration
+// ============================================
+// CONFIGURATION
+// ============================================
 const CONFIG = {
   // Directory containing your blog files (MDX, MD, JS, JSX, etc.)
-  contentDir: "./app", // Change this to your blog directory
+  contentDir: "./app",
 
-  // File extensions to search through
+  // File extensions to scan
   fileExtensions: [".mdx", ".md", ".js", ".jsx", ".tsx", ".ts"],
 
-  // URL mappings: old Cloudinary URL -> new Supabase URL
+  // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
   urlMappings: {
-    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg":
-      "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762772437/why-my-side-hustle-failed_gez4na_imjequ.jpg":
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
   },
 
-  // Create backup before replacing
+  // Create backup before modifying files
   createBackup: true,
 };
+
+// ============================================
+// HELPERS
+// ============================================
+
+// Extracts ONLY the "/mergesociety/..." part of a Supabase URL
+function shortenSupabaseUrl(url) {
+  const match = url.match(/\/mergesociety\/.+$/);
+  return match ? match[0] : url;
+}
+
+// Automatically shorten all new Supabase URLs in the mapping
+function normalizeMappings(mappings) {
+  const normalized = {};
+  for (const [oldUrl, newUrl] of Object.entries(mappings)) {
+    normalized[oldUrl] = shortenSupabaseUrl(newUrl);
+  }
+  return normalized;
+}
+
+// Escape special characters so URLs work inside RegExp
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
 async function getAllFiles(dir, extensions) {
   const files = [];
@@ -46,8 +72,9 @@ async function replaceUrlsInFile(filePath, mappings) {
   const foundUrls = [];
 
   for (const [oldUrl, newUrl] of Object.entries(mappings)) {
-    const count = (content.match(new RegExp(escapeRegex(oldUrl), "g")) || [])
-      .length;
+    const escapedOldUrl = escapeRegex(oldUrl);
+    const count = (content.match(new RegExp(escapedOldUrl, "g")) || []).length;
+
     if (count > 0) {
       content = content.replaceAll(oldUrl, newUrl);
       replacements += count;
@@ -62,23 +89,28 @@ async function replaceUrlsInFile(filePath, mappings) {
   return { replacements, foundUrls };
 }
 
-function escapeRegex(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
 async function createBackupDir() {
   const backupDir = path.join(process.cwd(), "backup_" + Date.now());
   await fs.mkdir(backupDir, { recursive: true });
   return backupDir;
 }
 
+// ============================================
+// MAIN FUNCTION
+// ============================================
 async function main() {
   console.log("🚀 Starting URL replacement...\n");
 
   const startTime = Date.now();
   let backupDir;
 
-  // Create backup if enabled
+  // Normalize mapping (convert long Supabase URLs → short paths)
+  const normalizedMappings = normalizeMappings(CONFIG.urlMappings);
+
+  console.log("🔧 Normalized URL mappings:");
+  console.log(JSON.stringify(normalizedMappings, null, 2) + "\n");
+
+  // Create backup
   if (CONFIG.createBackup) {
     backupDir = await createBackupDir();
     console.log(`📦 Backup directory created: ${backupDir}\n`);
@@ -99,7 +131,7 @@ async function main() {
   const modifiedFiles = [];
 
   for (const file of files) {
-    // Backup file if enabled
+    // Backup file
     if (CONFIG.createBackup) {
       const relativePath = path.relative(CONFIG.contentDir, file);
       const backupPath = path.join(backupDir, relativePath);
@@ -107,8 +139,8 @@ async function main() {
       await fs.copyFile(file, backupPath);
     }
 
-    // Replace URLs
-    const result = await replaceUrlsInFile(file, CONFIG.urlMappings);
+    // Replace URLs using normalized mappings
+    const result = await replaceUrlsInFile(file, normalizedMappings);
 
     if (result.replacements > 0) {
       totalReplacements += result.replacements;
