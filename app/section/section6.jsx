@@ -133,7 +133,7 @@ const Section6 = () => {
       id: 19,
       title: "Easy Definition of VPN",
       image:
-        "/mergesociety/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
+        "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",

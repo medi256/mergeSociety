@@ -92,8 +92,7 @@ const GridNews = () => {
       id: 1,
       title:
         "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
-      image:
-        "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.jpg",
+      image: "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.jpg",
       alt: "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
       date: " April 30, 2025",
       articleRoute: "internship-at-google",
@@ -103,7 +102,7 @@ const GridNews = () => {
       title:
         "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745577861/ai-is-here_ny0xf8.jpg",
+        "/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg",
       alt: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       date: " April 27, 2025",
       articleRoute: "ai-is-officially-here",
@@ -112,8 +111,7 @@ const GridNews = () => {
       id: 3,
       title:
         "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
-      image:
-        "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
+      image: "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
       alt: "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
       date: " April 27, 2025",
       articleRoute: "friendship-that-saved-google",
@@ -122,8 +120,7 @@ const GridNews = () => {
       id: 4,
       title:
         "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
-      image:
-        "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
+      image: "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
       alt: "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
       date: " April 27, 2025",
       articleRoute: "1990s-Internet",
@@ -132,8 +129,7 @@ const GridNews = () => {
       id: 5,
       title:
         "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
-      image:
-        "/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+      image: "/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
       alt: "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
       date: " April 27, 2025",
       articleRoute: "why-my-side-hustle-failed",
@@ -142,8 +138,7 @@ const GridNews = () => {
       id: 6,
       title:
         "From Redstone to RAM: How Minecraft’s In-Game Logic Lets You Build a Real Computer",
-      image:
-        "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+      image: "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
       alt: "From Redstone to RAM: How Minecraft’s In-Game Logic Lets You Build a Real Computer",
       date: " April 27, 2025",
       articleRoute: "mincraft",
@@ -152,8 +147,7 @@ const GridNews = () => {
       id: 7,
       title:
         "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
-      image:
-        "/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+      image: "/mergesociety/gpus_bmtfwz_kpcedg.jpg",
       alt: "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
       date: " April 27, 2025",
       articleRoute: "how-graphics-cards-work",
@@ -162,8 +156,7 @@ const GridNews = () => {
       id: 8,
       title:
         "LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform Is So Weird—and Here to Stay",
-      image:
-        "/mergesociety/link-in_vsxalr_skvenq.jpg",
+      image: "/mergesociety/link-in_vsxalr_skvenq.jpg",
       alt: "LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform Is So Weird—and Here to Stay",
       date: " April 27, 2025",
       articleRoute: "link-in",
@@ -171,8 +164,7 @@ const GridNews = () => {
     {
       id: 9,
       title: `Why America Became Obsessed with "Learn to Code"—And Where That Strategy Went Wrong`,
-      image:
-        "/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
+      image: "/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
       alt: "Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong",
       date: "May 1, 2025",
       articleRoute: "learn-to-code",
@@ -180,8 +172,7 @@ const GridNews = () => {
     {
       id: 10,
       title: `Binary Explained: How Computers Use Ones and Zeros to Power the Digital World`,
-      image:
-        "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      image: "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
       alt: "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
       date: "May 15, 2025",
       articleRoute: "binary-explained",
@@ -198,8 +189,7 @@ const GridNews = () => {
     {
       id: 15,
       title: `Best Programming Language for Each Tech Career Job in 2025: A Comprehensive Beginner’s Guide`,
-      image:
-        "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      image: "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
       alt: "Best Programming Language for Each Tech Career Job in 2025",
       date: "May 16, 2025",
       articleRoute: "best-programming-language-for-each-job",
@@ -207,8 +197,7 @@ const GridNews = () => {
     {
       id: 16,
       title: `Best Programming Languages to Learn for High Paying Tech Jobs in 2025`,
-      image:
-        "/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+      image: "/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
       alt: " Best Programming Languages to Learn for High Paying Tech Jobs in 2025",
       date: "May 16, 2025",
       articleRoute: "best-programming-languages-high-paying-tech-jobs",
@@ -243,8 +232,7 @@ const GridNews = () => {
     {
       id: 20,
       title: `Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to FullStack Web Development`,
-      image:
-        "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
+      image: "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
       alt: "Full Stack Developer Roadmap 2025",
       date: "May 18, 2025",
       articleRoute: "full-stack-developer-roadmap",
@@ -252,8 +240,7 @@ const GridNews = () => {
     {
       id: 21,
       title: `Rust Programming Language: Memory Safety and Performance Explained`,
-      image:
-        "/mergesociety/rust_q0urkm_g4ly43.webp",
+      image: "/mergesociety/rust_q0urkm_g4ly43.webp",
       alt: "Rust Programming Language: Memory Safety and Performance Explained",
       date: "May 18, 2025",
       articleRoute: "rust-programming-language",
@@ -261,8 +248,7 @@ const GridNews = () => {
     {
       id: 22,
       title: `Linux vs Windows vs Mac: Why Linux is Simply Better for Your Computer Freedom`,
-      image:
-        "/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+      image: "/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
       alt: "Linux vs Windows vs Mac",
       date: "May 18, 2025",
       articleRoute: "Linux-vs-Windows-vs-Mac",
@@ -270,8 +256,7 @@ const GridNews = () => {
     {
       id: 23,
       title: `Mixing Programming Languages in One Executable: How Compilers, Linkers, and ABIs Make It Work`,
-      image:
-        "/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
+      image: "/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
       alt: "Mixing Programming Languages in One Executable",
       date: "August 14 , 2025",
       articleRoute: "mixing-programming-languages-in-one-executable",
@@ -279,8 +264,7 @@ const GridNews = () => {
     {
       id: 24,
       title: `DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories`,
-      image:
-        "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
+      image: "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
       alt: "DevOps Explained",
       date: "August 15, 2025",
       articleRoute: "devops-lifecycle",
@@ -288,8 +272,7 @@ const GridNews = () => {
     {
       id: 25,
       title: `Computer Science Career Path`,
-      image:
-        "/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
+      image: "/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
       alt: "Computer Science Career Path",
       date: "August 16, 2025",
       articleRoute: "computer-science-career",
@@ -297,8 +280,7 @@ const GridNews = () => {
     {
       id: 26,
       title: `C vs C++ vs C#`,
-      image:
-        "/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
+      image: "/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
       alt: "C vs C++ vs C#",
       date: "August 17, 2025",
       articleRoute: "c-vs-cpp-vs-csharp",
@@ -306,8 +288,7 @@ const GridNews = () => {
     {
       id: 27,
       title: `How to Learn Web Development in 2025`,
-      image:
-        "/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
+      image: "/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
       alt: "How to Learn Web Development in 2025",
       date: "August 18, 2025",
       articleRoute: "learn-web-development-2025",
@@ -315,8 +296,7 @@ const GridNews = () => {
     {
       id: 28,
       title: `GitHub Repositories: 17 must-see open source projects that will level up your coding`,
-      image:
-        "/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+      image: "/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
       alt: "GitHub Repositories: 17 must-see open source projects that will level up your coding",
       date: "August 18, 2025",
       articleRoute: "github-repositories",
@@ -324,8 +304,7 @@ const GridNews = () => {
     {
       id: 29,
       title: `Computer Science Degree Worth It? The Real Answer With Careers, Salaries, AI, and Satisfaction`,
-      image:
-        "/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+      image: "/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
       alt: "Computer Science Degree Worth It?",
       date: "August 19, 2025",
       articleRoute: "computer-science-degree-worth-it",

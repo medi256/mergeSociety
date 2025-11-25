@@ -249,7 +249,7 @@ const Section2 = () => {
       id: 15,
       title: "The moment we stopped understanding AI [AlexNet]",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770146/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
       alt: "The moment we stopped understanding AI [AlexNet]",
       date: "May 1, 2025",
       articleRoute: "we-stopped-understanding-ai",

@@ -114,8 +114,7 @@ const Section3 = () => {
       id: 1,
       title:
         "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745674201/computer-compopnents_spj8rl.jpg",
+      image: "/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
       alt: "The Essential Guide to Computer Components",
       date: "April 26, 2025",
       articleRoute: "computer-components",
@@ -124,8 +123,7 @@ const Section3 = () => {
       id: 2,
       title:
         "Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More: Your Wild, Weird Week in Tech",
-      image:
-        "/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
+      image: "/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
       alt: "Google’s Antitrust Battles, AI Shenanigans",
       date: "April 26, 2025",
       articleRoute: "chrome",
@@ -134,8 +132,7 @@ const Section3 = () => {
       id: 3,
       title:
         "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-      image:
-        "/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
+      image: "/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
       alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
       date: "April 26, 2025",
       articleRoute: "operating-systems",
@@ -144,8 +141,7 @@ const Section3 = () => {
       id: 4,
       title:
         "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-      image:
-        "/mergesociety/palantir_vii89x_zvzatj.jpg",
+      image: "/mergesociety/palantir_vii89x_zvzatj.jpg",
       alt: " Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
       date: "April 26, 2025",
       articleRoute: "palantir",
@@ -154,8 +150,7 @@ const Section3 = () => {
       id: 5,
       title:
         "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
-      image:
-        "/mergesociety/wifi_ao8skn_orx8zn.jpg",
+      image: "/mergesociety/wifi_ao8skn_orx8zn.jpg",
       alt: " The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
       date: "April 26, 2025",
       articleRoute: "wifi",
@@ -184,8 +179,7 @@ const Section3 = () => {
       id: 8,
       title:
         "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
-      image:
-        "/mergesociety/linux_hffokn_okg892.jpg",
+      image: "/mergesociety/linux_hffokn_okg892.jpg",
       alt: "The Life Cycle of a Linux User: From Awareness to Enlightenment (and Everything in Between)",
       date: "April 29, 2025",
       articleRoute: "linux",
@@ -269,8 +263,7 @@ const Section3 = () => {
     {
       id: 17,
       title: "But what is a neural network? | Deep learning",
-      image:
-        "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      image: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
       alt: "But what is a neural network? | Deep learning",
       date: "May 1, 2025",
       articleRoute: "neural-network",
@@ -279,8 +272,7 @@ const Section3 = () => {
       id: 18,
       title:
         "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
-      image:
-        "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+      image: "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
       alt: "The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting (And Why Whiteboard Interviews Aren’t the Real Problem)",
       date: "May 3, 2025",
       articleRoute: "roy-lee",
@@ -299,8 +291,7 @@ const Section3 = () => {
       id: 20,
       title:
         "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "/mergesociety/aws_lg2upw_ilakce.webp",
+      image: "/mergesociety/aws_lg2upw_ilakce.webp",
       alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
       date: "May 3, 2025",
       articleRoute: "50-top-aws",
@@ -309,8 +300,7 @@ const Section3 = () => {
       id: 21,
       title:
         "AWS Services Explained: What They Do and How They Power the Cloud",
-      image:
-        "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+      image: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
       alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
       date: "May 3, 2025",
       articleRoute: "cloud-service",
@@ -328,8 +318,7 @@ const Section3 = () => {
       id: 23,
       title:
         "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image:
-        "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      image: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
       alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
       date: "May 3, 2025",
       articleRoute: "cs-major",
@@ -348,8 +337,7 @@ const Section3 = () => {
       id: 25,
       title:
         "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
-      image:
-        "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      image: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
       alt: "Programming language roadmap showing the progression from beginner to expert languages",
       date: "May 8, 2025",
       articleRoute: "developer-roadmaps",
@@ -359,7 +347,7 @@ const Section3 = () => {
       title:
         "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769001/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+        "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
       alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
       date: "May 8, 2025",
       articleRoute: "google-coding-ai",
@@ -368,8 +356,7 @@ const Section3 = () => {
       id: 27,
       title:
         "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
-      image:
-        "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+      image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
       date: "May 9, 2025",
       articleRoute: "vibe-coding",
@@ -378,8 +365,7 @@ const Section3 = () => {
       id: 28,
       title:
         "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
-      image:
-        "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+      image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
       alt: "Ruby on Rails framework diagram showing MVC architecture with code examples",
       date: "May 9, 2025",
       articleRoute: "ruby-explained",
@@ -388,8 +374,7 @@ const Section3 = () => {
       id: 29,
       title:
         "Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
-      image:
-        "/mergesociety/971_dx26ro_qm5n0m.jpg",
+      image: "/mergesociety/971_dx26ro_qm5n0m.jpg",
       alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",
       date: "May 9, 2025",
       articleRoute: "21-devTools",
@@ -398,8 +383,7 @@ const Section3 = () => {
       id: 30,
       title:
         "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
-      image:
-        "/mergesociety/7040859_sp09q7_oelsvn.jpg",
+      image: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
       alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
       date: "May 9, 2025",
       articleRoute: "javascript-features",
@@ -418,8 +402,7 @@ const Section3 = () => {
       id: 32,
       title:
         "Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most Powerful Operating System",
-      image:
-        "/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
+      image: "/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
       alt: "illustration of linux",
       date: "May 11, 2025",
       articleRoute: "why-linux",
@@ -428,8 +411,7 @@ const Section3 = () => {
       id: 33,
       title:
         "The TRUTH about C++: Should You Actually Learn It? The Truth Behind Its Power, Pitfalls, and Controversy",
-      image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767860/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+      image: "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
       alt: "C++ programming language",
       date: "May 11, 2025",
       articleRoute: "cplus",
@@ -438,8 +420,7 @@ const Section3 = () => {
       id: 34,
       title:
         "The Most Legendary Programmers Of All Time: The Best Programmers in History",
-      image:
-        "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+      image: "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
       alt: "The Best Programmers in History",
       date: "May 13, 2025",
       articleRoute: "10x-developers",
@@ -447,8 +428,7 @@ const Section3 = () => {
     {
       id: 35,
       title: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
-      image:
-        "/mergesociety/cs_moponk_kbfqj2.jpg",
+      image: "/mergesociety/cs_moponk_kbfqj2.jpg",
       alt: "Should I Get a CS Degree in 2025",
       date: "May 13, 2025",
       articleRoute: "should-you",
@@ -456,8 +436,7 @@ const Section3 = () => {
     {
       id: 36,
       title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
-      image:
-        "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+      image: "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
       alt: "SEO Strategies for 2025",
       date: "May 14, 2025",
       articleRoute: "seo-wins",
@@ -475,8 +454,7 @@ const Section3 = () => {
       id: 38,
       title:
         "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
-      image:
-        "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
       alt: "PC Components Overview Guide",
       date: "May 14, 2025",
       articleRoute: "pc-overview",
@@ -485,8 +463,7 @@ const Section3 = () => {
       id: 39,
       title:
         "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
-      image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      image: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
       alt: "PC Gaming Components Guide",
       date: "May 14, 2025",
       articleRoute: "pc-gaming-parts",
@@ -495,8 +472,7 @@ const Section3 = () => {
       id: 40,
       title:
         "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
-      image:
-        "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+      image: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
       alt: "PC Gaming Components Guide 2025",
       date: "May 14, 2025",
       articleRoute: "recommended-gaming-pc-builds",
@@ -504,8 +480,7 @@ const Section3 = () => {
     {
       id: 41,
       title: "UC Berkeley Computer Science Admission Requirements 2025",
-      image:
-        "/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
+      image: "/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
       alt: "UC Berkeley Admissions CS students",
       date: "June 4, 2025",
       articleRoute: "uc-berkeley-computer-science-admission-requirements-2025",
@@ -513,8 +488,7 @@ const Section3 = () => {
     {
       id: 42,
       title: "Why Learn to Code with this AI Bubble",
-      image:
-        "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
+      image: "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
       alt: "Why Learn to Code",
       date: "August 20, 2025",
       articleRoute: "learn-to-code",
@@ -523,8 +497,7 @@ const Section3 = () => {
       id: 43,
       title:
         "Shadow Brokers - how the NSA Equation Group got hacked, EternalBlue escaped, and WannaCry set the world on fire",
-      image:
-        "/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
+      image: "/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
       alt: "How the NSA Equation Group got hacked",
       date: "August 29, 2025",
       articleRoute: "gretest-hack-of-all-time",
@@ -533,8 +506,7 @@ const Section3 = () => {
       id: 44,
       title:
         "Growth Mindset for Programmers - you do not need to be a genius to code",
-      image:
-        "/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+      image: "/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
       alt: "Growth Mindset for Programmers - you do not need to be a genius to code",
       date: "September  1, 2025",
       articleRoute: "growth-mindset-for-programmers",
@@ -543,8 +515,7 @@ const Section3 = () => {
       id: 45,
       title:
         "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
-      image:
-        "/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+      image: "/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
       alt: "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
       date: "October  3, 2025",
       articleRoute: "ai-explained",

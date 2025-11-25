@@ -146,7 +146,7 @@ const Section3 = () => {
       title:
         "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769001/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+        "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
       alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
       date: "May 8, 2025",
       articleRoute: "google-coding-ai",
@@ -224,7 +224,7 @@ const Section3 = () => {
       title:
         "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767391/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+        "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
       alt: "PC Gaming Components Guide",
       date: "May 14, 2025",
       articleRoute: "pc-gaming-parts",

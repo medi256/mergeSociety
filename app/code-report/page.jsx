@@ -92,8 +92,7 @@ const Section6 = () => {
       id: 1,
       title:
         " From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
-      image:
-        "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      image: "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
       alt: " From SaaS Panic to Open Source Paradise: The Ultimate Guide to  Escaping Subscription Hell",
       date: "April 27, 2025",
       articleRoute: "saas",
@@ -112,8 +111,7 @@ const Section6 = () => {
       id: 3,
       title:
         " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image:
-        "/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+      image: "/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
       alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
       date: "April 27, 2025",
       articleRoute: "tech-stack",
@@ -122,8 +120,7 @@ const Section6 = () => {
       id: 4,
       title:
         "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image:
-        "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+      image: "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
       alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
       date: "April 27, 2025",
       articleRoute: "labing",
@@ -168,8 +165,7 @@ const Section6 = () => {
     {
       id: 9,
       title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      image: "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
       alt: "How to Learn JavaScript FAST in 2025",
       date: "May 2, 2025",
       articleRoute: "how-to-learn-javascript",
@@ -197,8 +193,7 @@ const Section6 = () => {
     {
       id: 12,
       title: "APIs Explained (in 4 Minutes)",
-      image:
-        "/mergesociety/api_cbneaq_bfxrcg.jpg",
+      image: "/mergesociety/api_cbneaq_bfxrcg.jpg",
       alt: "Visual representation of API communication between applications",
       date: "May 7, 2025",
       articleRoute: "apis-explained",
@@ -217,8 +212,7 @@ const Section6 = () => {
       id: 14,
       title:
         "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image:
-        "/mergesociety/6554783_amd2ad_suixhe.jpg",
+      image: "/mergesociety/6554783_amd2ad_suixhe.jpg",
       alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
       date: "May 9, 2025",
       articleRoute: "databases",
@@ -227,8 +221,7 @@ const Section6 = () => {
       id: 15,
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image:
-        "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      image: "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -237,8 +230,7 @@ const Section6 = () => {
       id: 16,
       title:
         "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768709/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
       date: "May 9, 2025",
       articleRoute: "web-server",
@@ -246,8 +238,7 @@ const Section6 = () => {
     {
       id: 17,
       title: "Define Domain Name System (DNS)",
-      image:
-        "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      image: "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -256,8 +247,7 @@ const Section6 = () => {
       id: 18,
       title:
         "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+      image: "/mergesociety/4084_qpacfm_z9pvmi.jpg",
       alt: "DNS Records Infographic showing how domain names connect to IP addresses",
       date: "May 9, 2025",
       articleRoute: "dns-records",
@@ -265,8 +255,7 @@ const Section6 = () => {
     {
       id: 19,
       title: "Easy Definition of VPN",
-      image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768709/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -285,8 +274,7 @@ const Section6 = () => {
       id: 21,
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
-      image:
-        "/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      image: "/mergesociety/7015995_iwu9fs_to6s06.jpg",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -304,8 +292,7 @@ const Section6 = () => {
     {
       id: 23,
       title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      image:
-        "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
+      image: "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
       alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
       date: "May 10, 2025",
       articleRoute: "http1-http2-http3",
@@ -353,8 +340,7 @@ const Section6 = () => {
       id: 28,
       title:
         "Computer Science vs Software Engineering: Your Ultimate Guide to Differences, Courses, and Careers",
-      image:
-        "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+      image: "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
       alt: "Computer Science vs Software Engineering comparison infographic showing courses, careers, and salary differences",
       date: "July 18, 2025",
       articleRoute: "computer-science-vs-software-engineering",
@@ -363,8 +349,7 @@ const Section6 = () => {
       id: 29,
       title:
         "APIs explained - what is an API, why it exists, and real examples you already use every day",
-      image:
-        "/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
+      image: "/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
       alt: "What  is an  API?",
       date: "August 25, 2025",
       articleRoute: "apis-explained-to-a-kid",
@@ -373,8 +358,7 @@ const Section6 = () => {
       id: 30,
       title:
         "Pointers in C/C++ - what a pointer is, how pointer syntax works, and why programmers care",
-      image:
-        "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+      image: "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
       alt: "Pointers in C and C++",
       date: "August 25, 2025",
       articleRoute: "pointers-in-c-and-cpp",
@@ -383,8 +367,7 @@ const Section6 = () => {
       id: 31,
       title:
         "Math for Programmers - 10 Essential Concepts explained with memes, code, and real talk",
-      image:
-        "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+      image: "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
       alt: "Math for Programmers",
       date: "August 26, 2025",
       articleRoute: "math-for-programmers",
@@ -393,8 +376,7 @@ const Section6 = () => {
       id: 32,
       title:
         "Tutorial Hell - How to Escape Tutorial Hell and Actually Learn to Code",
-      image:
-        "/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+      image: "/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
       alt: "Tutorial Hell",
       date: "August 27, 2025",
       articleRoute: "tutorial-hell",
@@ -404,7 +386,7 @@ const Section6 = () => {
       title:
         "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1756484629/audio_1756482278183_bx5as9_sleoep.jpg",
+        "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
       alt: "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
       date: "August 29, 2025",
       articleRoute: "what-is-a-database",
@@ -413,8 +395,7 @@ const Section6 = () => {
       id: 34,
       title:
         "Why We Need a Translator in Programming and What a Compiler Really Is",
-      image:
-        "/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
+      image: "/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
       alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
       date: "September 21, 2025",
       articleRoute: "what-is-a-compiler",
@@ -422,8 +403,7 @@ const Section6 = () => {
     {
       id: 35,
       title: "So How Is Linux Developed To Achieve All Of This?",
-      image:
-        "/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+      image: "/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
       alt: "So How Is Linux Developed To Achieve All Of This?",
       date: "October 1, 2025",
       articleRoute: "how-linux-is-created",
@@ -431,8 +411,7 @@ const Section6 = () => {
     {
       id: 36,
       title: "How To Start Programming Projects The Lazy Way",
-      image:
-        "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+      image: "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
       alt: "How To Start Programming Projects The Lazy Way",
       date: "October 5, 2025",
       articleRoute: "how-to-build-projects",
