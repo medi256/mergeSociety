@@ -497,19 +497,13 @@ export default function Article() {
           Smartphone (Not the Usual Suspects)
         </h1>
 
-        <figure className="blog-image">
-          <Image
-            src="/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg"
-            alt="The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration"
-            width={600}
-            height={400}
-            priority
-          />
-          <figcaption>
-            The ultimate app showdown: 20 all-time favorite Android apps from a
-            tech enthusiast.
-          </figcaption>
-        </figure>
+        <Image
+          src="/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg"
+          alt="FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!"
+          width={600}
+          height={400}
+          priority
+        />
 
         <section
           className="blog-meta"
