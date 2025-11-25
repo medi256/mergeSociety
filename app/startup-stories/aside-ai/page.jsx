@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765283/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+        url: "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
         width: 1200,
         height: 630,
         alt: "Aside AI real-time sales assistant showing how to answer technical questions instantly during live calls",
@@ -102,7 +102,7 @@ export const metadata = {
       "Real-time AI that answers technical questions DURING your sales call. Handles objections perfectly. Turns misses into playbooks. See the demo.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765283/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+      "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
     ],
   },
 
@@ -233,7 +233,7 @@ export const metadata = {
       description:
         "Watch Aside AI deliver instant answers during a live sales call",
       thumbnailUrl:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765283/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+        "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
       uploadDate: "2025-11-01T00:00:00Z",
       contentUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
       embedUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
@@ -672,7 +672,7 @@ const AsideAi = () => {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765283/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg"
+            "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg"
           }
           alt="Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals"
           width={600}

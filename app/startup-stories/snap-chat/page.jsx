@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
+        url: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
         width: 1200,
         height: 630,
         alt: "Snapchat logo with financial chart showing revenue growth but minimal profits",
@@ -82,7 +82,7 @@ export const metadata = {
       "How Snapchat revolutionized social media with ephemeral messaging and AR filters yet struggles to convert massive engagement into sustainable profits.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
+      "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -138,7 +138,7 @@ export const metadata = {
     headline:
       "How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
+      "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -392,7 +392,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771430/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg"
+            "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg"
           }
           alt=" How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money"
           width={600}

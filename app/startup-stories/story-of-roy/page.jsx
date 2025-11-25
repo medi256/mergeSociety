@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765330/Interview_1_xlpfk4_clex4p.png",
+        url: "/mergesociety/Interview_1_xlpfk4_clex4p.png",
         width: 1200,
         height: 630,
         alt: "Roy, founder of Cluely and Interview Coder, who got kicked out of Columbia University for building controversial AI interview tool",
@@ -103,7 +103,7 @@ export const metadata = {
       "Roy built Interview Coder to cheat tech interviews, got expelled from Columbia, went viral, and raised $5.3M. Now building the future of AI interaction. Wild story inside.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765330/Interview_1_xlpfk4_clex4p.png",
+      "/mergesociety/Interview_1_xlpfk4_clex4p.png",
     ],
   },
 
@@ -171,7 +171,7 @@ export const metadata = {
     headline:
       "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews - Here's What Happened Next",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765330/Interview_1_xlpfk4_clex4p.png",
+      "/mergesociety/Interview_1_xlpfk4_clex4p.png",
     datePublished: "2025-10-29T00:00:00Z",
     dateModified: "2025-10-29T00:00:00Z",
     author: {
@@ -681,7 +681,7 @@ const RoyLee = () => {
         </h1>
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765330/Interview_1_xlpfk4_clex4p.png"
+            "/mergesociety/Interview_1_xlpfk4_clex4p.png"
           }
           alt="I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews"
           width={600}

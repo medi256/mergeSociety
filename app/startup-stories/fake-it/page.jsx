@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg",
+        url: "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
         width: 1200,
         height: 630,
         alt: "The Fine Line Between Faking It and Fraud - Visual illustration of perception vs reality in business",
@@ -82,7 +82,7 @@ export const metadata = {
       "From Amy Cuddy's power poses to Elizabeth Holmes' prison sentence—explore how perception shapes reality in business and the ethical line that shouldn't be crossed.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg",
+      "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -133,7 +133,7 @@ export const metadata = {
     headline:
       "The Fine Line Between Faking It and Fraud: How 'Fake It Till You Make It' Shapes Success, Scandal, and Everything In Between",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg",
+      "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
     datePublished: "2025-04-27T09:30:00Z",
     dateModified: "2025-04-27T09:30:00Z",
     author: {
@@ -325,7 +325,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771464/fakeit-800x445_zlq56h_dgu41v.jpg"
+            "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg"
           }
           alt="The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between"
           width={600}

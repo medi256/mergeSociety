@@ -74,7 +74,7 @@ export default function GridNews() {
           <div>
             <Link href="/startup-stories/interview-coder">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765349/Interview_xzyj97_tolqz5.png"
+                src="/mergesociety/Interview_xzyj97_tolqz5.png"
                 alt="The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG"
                 width={400}
                 height={250}

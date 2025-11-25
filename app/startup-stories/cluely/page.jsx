@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765263/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
+        url: "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
         width: 1200,
         height: 630,
         alt: "Cluely AI real-time sales copilot showing how to answer technical questions and handle objections instantly during live sales calls",
@@ -102,7 +102,7 @@ export const metadata = {
       "Never fumble a technical question again. Cluely AI gives you the perfect answer in 8-10 seconds, during the call. No more 'let me check with my team.'",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765263/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
+      "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
     ],
   },
 
@@ -719,7 +719,7 @@ const Cluely = () => {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765263/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg"
+            "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg"
           }
           alt="Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed"
           width={600}

@@ -24,7 +24,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+        url: "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
         width: 1200,
         height: 630,
         alt: "Nvidia Headquarters",
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Explore the latest chapter in Nvidia's story: new AI milestones, revenue stats, and more.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+      "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
     ],
   },
 };
@@ -60,7 +60,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762770520/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg"
+            src="/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg"
             alt="Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down"
             width={600}
             height={400}

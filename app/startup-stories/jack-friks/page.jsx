@@ -69,7 +69,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+        url: "/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
         width: 800,
         height: 400,
         alt: "Couples app built in 5 days - from idea to first dollar with Claude AI and viral Twitter launch",
@@ -112,7 +112,7 @@ export const metadata = {
     description:
       "Built iOS app in 5 days. Zero code typed. Claude + Cursor did everything. Launch tweet: 500K views. Day 1: first $. Now at 460 downloads, $42 revenue. Real build process, real numbers, proven growth system to 100K downloads.",
     images: {
-      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+      url: "/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
       alt: "Couples app viral launch - 5 days from idea to revenue",
     },
   },
@@ -146,7 +146,7 @@ export const jsonLd = {
   description:
     "Complete technical breakdown of building and launching an iOS couples app in 5 days using Swift, Xcode, and Claude AI. Real revenue numbers, viral launch strategy, and proven mobile app growth system.",
   image:
-    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+    "/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
   datePublished: "2025-10-28T00:00:00.000Z",
   dateModified: "2025-10-28T00:00:00.000Z",
   author: {
@@ -194,7 +194,7 @@ export const jsonLd = {
         "Weekly reminders",
       ],
       screenshot:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+        "/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
     },
     {
       "@type": "HowTo",
@@ -306,7 +306,7 @@ const JackFriks = () => {
           Downloads
         </h1>
         <Image
-          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765427/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg"
+          src="/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg"
           alt="How I Built and Launched a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads"
           width={800}
           height={400}
