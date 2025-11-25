@@ -129,7 +129,7 @@ h1 {
         <video
           width={"300px"}
           controls
-          src="https://res.cloudinary.com/dgyofctwi/video/upload/v1762775319/cssInsertion_f5qaw3_x2ydwf.mov"
+          src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/videos%20and%20audios/cssInsertion_f5qaw3_x2ydwf.mov"
         >
           <p>
             Your browser doesn't support this video format, try opening the

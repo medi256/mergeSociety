@@ -89,7 +89,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762776985/posi_fedygu_o1tvzb.png"
+          src="/mergesociety/posi_fedygu_o1tvzb.png"
           alt="demo-7"
         />
 
@@ -120,7 +120,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762776950/zDemo_tatecd_x6bqrz.png"
+          src="/mergesociety/zDemo_tatecd_x6bqrz.png"
           alt="demo-8"
         />
         <p>
@@ -170,7 +170,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762775988/stackDemo_x5h870_nmov0m.png"
+          src="/mergesociety/stackDemo_x5h870_nmov0m.png"
           alt="demo-9"
         />
         <p>
@@ -218,7 +218,7 @@ const CSSIndex = () => {
           width={500}
           layout="responsive"
           height={300}
-          src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762775627/stack3_mwtsnf_rdyxyc.png"
+          src="/mergesociety/stack3_mwtsnf_rdyxyc.png"
           alt="demo-12"
         />
         <p>
