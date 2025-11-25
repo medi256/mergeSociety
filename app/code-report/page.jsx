@@ -139,7 +139,7 @@ const Section6 = () => {
       id: 6,
       title: "Every Python Library and Frameworks Explained",
       image:
-        "/mergesociety/rubaitul-azad-ZIPFteu-R8k-unsplash.jpg",
+        "/mergesociety/top-python-libraries.webp",
       alt: "Every Python Library and Frameworks Explained",
       date: "May 2, 2025",
       articleRoute: "python-libraries",
@@ -203,7 +203,7 @@ const Section6 = () => {
       title:
         "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
       image:
-        "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash.jpg",
+        "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg",
       alt: "MongoDB database architecture visualization",
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",

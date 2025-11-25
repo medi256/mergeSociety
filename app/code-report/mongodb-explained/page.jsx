@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Your Tech Blog",
     images: [
       {
-        url: "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash.jpg",
+        url: "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg",
         width: 1200,
         height: 630,
         alt: "MongoDB database architecture visualization",
@@ -92,7 +92,7 @@ export const metadata = {
       "Learn how MongoDB's flexible document model and scalable architecture have made it the go-to database for today's most demanding applications.",
     creator: "@yourtwitterhandle",
     images: [
-      "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash.jpg",
+      "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg",
     ],
   },
 
@@ -143,7 +143,7 @@ export const metadata = {
     headline:
       "MongoDB : The Evolution of NoSQL Databases for Modern Applications",
     image:
-      "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash.jpg",
+      "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg",
     datePublished: "2025-05-07T08:00:00Z",
     dateModified: "2025-05-07T08:00:00Z",
     author: {
@@ -549,7 +549,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash.jpg"
+            src="/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg"
             alt="MongoDB database architecture visualization"
             width={600}
             height={400}
