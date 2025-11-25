@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 
