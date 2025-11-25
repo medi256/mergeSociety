@@ -392,7 +392,7 @@ export default function Article() {
 
         <Image
           src="/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg"
-          alt=" How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money"
+          alt=" How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money "
           width={600}
           height={400}
           priority
