@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768621/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
+        url: "/mergesociety/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
         width: 1200,
         height: 630,
         alt: "Visual explanation of how a VPN protects your internet connection",
@@ -94,7 +94,7 @@ export const metadata = {
       "Learn what a VPN is in simple terms, how it protects your privacy, secures your data on public WiFi, and unlocks global content. Essential guid.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768621/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
+      "/mergesociety/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What Is a VPN? Easy Definition & Complete Guid",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768621/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
+      "/mergesociety/petter-lagson-NEtFkKuo7VY-unsplash_hjouju_lwjo8n.jpg",
     datePublished: "2025-05-09T09:00:00Z",
     dateModified: "2025-05-09T09:00:00Z",
     author: {

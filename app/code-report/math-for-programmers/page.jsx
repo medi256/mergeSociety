@@ -36,7 +36,7 @@ export const metadata = {
     url: "https://www.mergesociety.com/code-report/math-for-programmers",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765975/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+        url: "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
         width: 1200,
         height: 675,
         alt: "Math for Programmers - Essential concepts explained with code",
@@ -52,7 +52,7 @@ export const metadata = {
     description:
       "Master programming math with practical examples - from Boolean logic to linear algebra. Complete 2025 guide with code samples and real talk.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765975/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+      "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
     ],
   },
 
@@ -94,7 +94,7 @@ export const jsonLd = {
   description:
     "Complete guide to programming mathematics covering Boolean algebra, floating point numbers, logarithms, set theory, combinatorics, graph theory, Big O complexity, statistics, and linear algebra with practical code examples.",
   image:
-    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765975/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+    "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",
@@ -162,7 +162,7 @@ const Page = () => {
 
         <figure className="article-figure">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765975/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp"
+            src="/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp"
             alt="Math for Programmers"
             width={1200}
             height={675}

@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg",
+        url: "/mergesociety/6554783_amd2ad_suixhe.jpg",
         width: 1200,
         height: 630,
         alt: "PostgreSQL vs MySQL comparison diagram showing key features, performance benchmarks, and use cases",
@@ -103,7 +103,7 @@ export const metadata = {
       "Enterprise complexity or web simplicity? Find out which database fits your project needs with our comprehensive PostgreSQL vs MySQL comparison.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg",
+      "/mergesociety/6554783_amd2ad_suixhe.jpg",
     ],
   },
 
@@ -155,7 +155,7 @@ export const metadata = {
     headline:
       "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg",
+      "/mergesociety/6554783_amd2ad_suixhe.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -529,7 +529,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <img
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762768822/6554783_amd2ad_suixhe.jpg"
+            src="/mergesociety/6554783_amd2ad_suixhe.jpg"
             alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
             width={600}
             height={400}

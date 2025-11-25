@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Freedom Tech",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771343/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+        url: "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
         width: 1200,
         height: 630,
         alt: "A person breaking free from chains labeled with SaaS company logos",
@@ -84,7 +84,7 @@ export const metadata = {
       "Learn how to replace expensive subscription software with powerful free and open source alternatives that you own forever.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771343/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -141,7 +141,7 @@ export const metadata = {
     headline:
       "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771343/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -386,7 +386,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771343/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg"
+            "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg"
           }
           alt="From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell"
           width={600}

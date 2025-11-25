@@ -34,7 +34,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765917/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+        url: "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
         width: 1200,
         height: 630,
         alt: "SQL Database Tutorial - Complete Guide to Data, Databases and DBMS",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Learn SQL from scratch: data concepts, database design, DBMS systems, and practical query examples. Perfect starting point for developers.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765917/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+      "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
     ],
   },
 
@@ -90,7 +90,7 @@ export const metadata = {
       dateModified: "2025-08-29T00:00:00Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765917/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+        url: "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
         width: 1200,
         height: 630,
       },
@@ -140,7 +140,7 @@ const WhatIsDatabase = () => {
 
         <figure className="article-figure">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765917/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg"
+            src="/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg"
             alt="SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work"
             width={800}
             height={400}

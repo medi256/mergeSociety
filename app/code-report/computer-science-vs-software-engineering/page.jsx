@@ -55,7 +55,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766225/softwareVScomputerscience_zuymum_qccq5q.webp",
+        url: "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
         width: 1200,
         height: 630,
         alt: "Computer Science vs Software Engineering comparison infographic showing courses, careers, and salary differences",
@@ -81,7 +81,7 @@ export const metadata = {
       "Discover the key differences between CS and SE degrees. Compare courses, careers, salaries, and which major is right for you.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766225/softwareVScomputerscience_zuymum_qccq5q.webp",
+      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
     description:
       "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you in 2025.",
     image: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762766225/softwareVScomputerscience_zuymum_qccq5q.webp",
+      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
     ],
     datePublished: "2025-07-18T00:00:00.000Z",
     dateModified: new Date().toISOString(),
@@ -216,7 +216,7 @@ export default function ComputerScienceVsSoftwareEngineering() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762766225/softwareVScomputerscience_zuymum_qccq5q.webp"
+            src="/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp"
             alt="CSS Roadmap 2025 - Complete Guide to Mastering CSS"
             width={600}
             height={400}

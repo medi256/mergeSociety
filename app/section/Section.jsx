@@ -29,7 +29,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/tutorial-hell">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765953/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
+                src="/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
                 alt="Tutorial Hell"
                 width={400}
                 height={250}
@@ -43,7 +43,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/what-is-a-compiler">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765561/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
+                src="/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
                 alt="Why We Need a Translator in Programming and What a Compiler Really Is"
                 width={400}
                 height={250}
@@ -103,7 +103,7 @@ export default function GridNews() {
           <div>
             <Link href="/code-report/how-to-build-projects">
               <Image
-                src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765481/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"
+                src="/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"
                 alt="How To Start Programming Projects The Lazy Way"
                 width={400}
                 height={250}

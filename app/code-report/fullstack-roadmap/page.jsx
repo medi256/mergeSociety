@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Code Bender",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+        url: "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
         width: 1200,
         height: 630,
         alt: "Full Stack Developer Roadmap 2025 - Complete guide from HTML to AI integration",
@@ -74,7 +74,7 @@ export const metadata = {
       "Updated roadmap to become a full stack developer in 2025. Master HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Job-ready in 6-9 months.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+      "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
     ],
   },
 
@@ -138,7 +138,7 @@ export const metadata = {
 
     image: {
       "@type": "ImageObject",
-      url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+      url: "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
       width: 1200,
       height: 630,
     },
@@ -303,7 +303,7 @@ export const metadata = {
     description:
       "Complete walkthrough of the full stack developer roadmap from HTML to AI integration",
     thumbnailUrl:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+      "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
     uploadDate: new Date().toISOString(),
     duration: "PT45M",
     contentUrl: "https://www.mergesociety.com/code-report/fullstack-roadmap",
@@ -358,7 +358,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762769812/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg"
+            src="/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg"
             alt="The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer"
             width={600}
             height={400}

@@ -28,7 +28,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1763015422/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
+        url: "/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
         width: 1200,
         height: 630,
         alt: "AI Coding Tools - Best AI Tools for Coding",
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1763015422/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
+      "/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
     ],
     creator: "@manager70191",
   },
@@ -99,7 +99,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1763015422/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png"
+            src="/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png"
             alt="Best AI Tools for Coding"
             width={600}
             height={400}

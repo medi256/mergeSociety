@@ -45,7 +45,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765537/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+        url: "/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
         width: 800,
         height: 400,
         alt: "How Linux Is Developed To Achieve All Of This",
@@ -62,7 +62,7 @@ export const metadata = {
     description:
       "850K+ Android phones daily, 80% of trades, 90% of supercomputers - Linux runs your digital world. Discover the collaborative engine behind it all.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765537/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+      "/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
     ],
   },
 
@@ -101,7 +101,7 @@ export const structuredData = {
   description:
     "Discover how Linux powers 850,000+ Android phones daily, 8/10 financial trades, 9/10 supercomputers, and tech giants. Learn about the world's largest collaborative development project.",
   image:
-    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762765537/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+    "/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
   datePublished: "2025-10-01T00:00:00Z",
   dateModified: "2025-10-01T00:00:00Z",
   author: {
@@ -144,7 +144,7 @@ const Page = () => {
 
         <figure className="article-figure">
           <Image
-            src="https://res.cloudinary.com/dgyofctwi/image/upload/v1762765537/audio_1759326035386_cek358_cdskna_nvd9o5.webp"
+            src="/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp"
             alt="So How Is Linux Developed To Achieve All Of This?"
             width={800}
             height={400}

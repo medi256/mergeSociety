@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "IndieHacker Dev",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771180/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+        url: "/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
         width: 1200,
         height: 630,
         alt: "Comparison of popular frameworks for solo SaaS developers",
@@ -81,7 +81,7 @@ export const metadata = {
       "A practical comparison of Laravel, Next.js, Django, and AdonisJS for solo developers building SaaS products without getting lost in dependency hell.",
     creator: "@manager70191",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771180/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+      "/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -137,7 +137,7 @@ export const metadata = {
     headline:
       "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
     image:
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771180/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+      "/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
     datePublished: "2025-04-27T10:30:00Z",
     dateModified: "2025-04-27T10:30:00Z",
     author: {
@@ -404,7 +404,7 @@ export default function Article() {
 
         <Image
           src={
-            "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771180/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg"
+            "/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg"
           }
           alt=" The Best Frameworks for Solo SaaS Builders: Navigating Laravel,  Next.js, and Beyond"
           width={600}
