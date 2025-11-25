@@ -95,7 +95,7 @@ const Section4 = () => {
       title:
         "The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771946/favorite-apps_nlfmwq_ovuvrp.jpg",
+        "/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
       alt: "The Ultimate List: My 20 Favorite Android Apps of All Time",
       date: "April 27, 2025",
       articleRoute: "favorite-apps",
@@ -105,7 +105,7 @@ const Section4 = () => {
       title:
         "The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771676/best_apps_iraybe_a7fwyd.jpg",
+        "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
       alt: " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
       date: "April 27, 2025",
       articleRoute: "best-apps",
@@ -114,7 +114,7 @@ const Section4 = () => {
       id: 3,
       title: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771635/best_gy0sdm_llz9x7.jpg",
+        "/mergesociety/best_gy0sdm_llz9x7.jpg",
       alt: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
       date: "April 27, 2025",
       articleRoute: "free-apps",
@@ -124,7 +124,7 @@ const Section4 = () => {
       title:
         "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771620/error_ylvaka_dc6kc0.jpg",
+        "/mergesociety/error_ylvaka_dc6kc0.jpg",
       alt: "Global Windows Outage: How a CrowdStrike Update Brought the World to  Its Knees",
       date: "April 27, 2025",
       articleRoute: "error",
@@ -134,7 +134,7 @@ const Section4 = () => {
       title:
         "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer  Must Know",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762771542/crypto_l9kxvg_uu1awq.jpg",
+        "/mergesociety/crypto_l9kxvg_uu1awq.jpg",
       alt: "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
       date: "April 27, 2025",
       articleRoute: "crypto",
@@ -144,7 +144,7 @@ const Section4 = () => {
       title:
         "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770454/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+        "/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
       alt: "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
       date: "April 30, 2025",
       articleRoute: "cool-tools",
@@ -153,7 +153,7 @@ const Section4 = () => {
       id: 7,
       title: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
       image:
-        "https://res.cloudinary.com/dgyofctwi/image/upload/v1762770431/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        "/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
       alt: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
       date: "April 30, 2025",
       articleRoute: "another-tool",
