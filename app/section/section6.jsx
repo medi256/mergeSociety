@@ -75,7 +75,7 @@ const Section6 = () => {
       title:
         "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
       image:
-        "/mergesociety/rubaitul-azad-cijiWIwsMB8-unsplash%20(1).jpg",
+        "/mergesociety/MongoDB_Logo.jpg",
       alt: "MongoDB database architecture visualization",
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",
