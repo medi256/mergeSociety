@@ -190,7 +190,6 @@ export const metadata = {
     proficiencyLevel: "Comprehensive coverage for beginners through experts",
   },
 
-  // 2025-specific metadata enhancements
   contentAnalytics: {
     topicDensity: {
       "python-libraries": 0.48,
