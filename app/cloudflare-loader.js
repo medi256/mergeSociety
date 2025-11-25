@@ -23,7 +23,7 @@
 export default function cloudflareLoader({ src, width, quality }) {
   const q = quality || 75;
 
-  // 1. Development mode: do not use Cloudflare
+  // Localhost = no transforms
   if (
     typeof window !== "undefined" &&
     window.location.hostname === "localhost"
@@ -31,16 +31,16 @@ export default function cloudflareLoader({ src, width, quality }) {
     return src;
   }
 
-  // 2. Allow Next.js internal assets
+  // Internal Next.js assets
   if (src.startsWith("/_next/")) {
-    return `/cdn-cgi/image/width=${width},quality=${q}${src}`;
+    return src;
   }
 
-  // 3. If image is EXTERNAL, DO NOT rewrite
+  // EXTERNAL IMAGES → DO NOT USE CLOUDFLARE (they block it)
   if (src.startsWith("http://") || src.startsWith("https://")) {
-    return `/cdn-cgi/image/width=${width},quality=${q}/${src}`;
+    return src; // Return original URL — no transforms
   }
 
-  // 4. For Supabase bucket images via img.mergesociety.com
+  // Supabase / your bucket images → use Cloudflare
   return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com${src}`;
 }
