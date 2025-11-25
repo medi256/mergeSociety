@@ -17,7 +17,6 @@ const CONFIG = {
       "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
   },
 
-  // Create backup before modifying files
   createBackup: true,
 };
 
