@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import CommentSection from "@/app/commentSection";
 
@@ -259,13 +260,12 @@ export default function Article() {
           Every Developer Needs to Know
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg"
             alt="Docker 101: Mastering Modern Software Delivery with Containers"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Learn how Docker containers are transforming modern software

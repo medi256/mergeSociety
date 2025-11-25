@@ -97,9 +97,7 @@ export const metadata = {
     description:
       "Our May Day special cuts through AI hype: Understand how neural networks really work, why layered architectures matter, and the beautiful intuition behind deep learning's true power.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
-    ],
+    images: ["/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg"],
   },
   robots: {
     index: true,
@@ -147,8 +145,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
-    image:
-      "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+    image: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [
@@ -552,13 +549,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg"
             alt="But what is a neural network? | Deep learning"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Conceptual illustration of a neural network — the backbone of modern

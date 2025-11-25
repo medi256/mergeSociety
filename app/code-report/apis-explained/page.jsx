@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -92,9 +92,7 @@ export const metadata = {
     description:
       "From restaurant analogies to real-world tech examples - understand what APIs are, how they work, and why they're crucial in modern software development.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/api_cbneaq_bfxrcg.jpg",
-    ],
+    images: ["/mergesociety/api_cbneaq_bfxrcg.jpg"],
   },
 
   robots: {
@@ -144,8 +142,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "APIs Explained: Understanding the Backbone of Modern Software (2025)",
-    image:
-      "/mergesociety/api_cbneaq_bfxrcg.jpg",
+    image: "/mergesociety/api_cbneaq_bfxrcg.jpg",
     datePublished: "2025-05-07T12:00:00Z",
     dateModified: "2025-05-07T12:00:00Z",
     author: {
@@ -523,13 +520,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/api_cbneaq_bfxrcg.jpg"
             alt="Visual representation of API communication between applications"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             How APIs connect modern applications — an inside look at data flow

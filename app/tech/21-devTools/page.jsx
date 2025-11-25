@@ -65,9 +65,7 @@ export const metadata = {
     description:
       "Discover console tricks, design mode hacks, and performance debugging techniques that most developers never learn. Updated for 2025!",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/971_dx26ro_qm5n0m.jpg",
-    ],
+    images: ["/mergesociety/971_dx26ro_qm5n0m.jpg"],
   },
 
   // SEO Optimizations
@@ -187,9 +185,7 @@ export const metadata = {
 
   // Performance and Core Web Vitals hints
   performance: {
-    preload: [
-      "/mergesociety/971_dx26ro_qm5n0m.jpg",
-    ],
+    preload: ["/mergesociety/971_dx26ro_qm5n0m.jpg"],
     prefetch: ["/tech/javascript-features", "/tech/docker-explained"],
   },
 
@@ -250,14 +246,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/971_dx26ro_qm5n0m.jpg"
             alt="Chrome DevTools interface showing console and performance panels with visual debugging aids"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Chrome DevTools console and performance tools demo – great for

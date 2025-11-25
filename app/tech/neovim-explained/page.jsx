@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -200,13 +200,12 @@ export default function Article() {
           Programmer Is Switching To Neovim
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png"
             alt="Neovim Modern Guide"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Neovim 2025 edition — A modern workflow for developers seeking power

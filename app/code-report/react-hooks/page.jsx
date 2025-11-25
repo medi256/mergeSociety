@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 // import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -157,8 +157,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
-    image:
-      "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+    image: "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: {
@@ -461,13 +460,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg"
             alt="ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Explaining every React hook—what it does, when to use it, and why it

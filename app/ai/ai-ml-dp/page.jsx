@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -275,14 +275,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg"
             alt="Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             AI vs Machine Learning vs Deep Learning vs Generative AI — a visual

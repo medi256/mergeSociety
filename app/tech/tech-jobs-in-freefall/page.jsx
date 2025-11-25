@@ -137,8 +137,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Great Tech Job Contraction: AI Transforms Employment While Profits Soar [May 2025]",
-    image:
-      "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+    image: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
     datePublished: "2025-05-01T07:00:00Z",
     dateModified: "2025-05-01T07:00:00Z",
     author: {
@@ -364,13 +363,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg"
             alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Tech jobs decline despite historic profits — what's really going on?

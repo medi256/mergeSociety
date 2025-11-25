@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -52,9 +53,7 @@ export const metadata = {
       "GitHub Repositories: 17 Must-See Open Source Projects That Will Level Up Your Coding",
     description:
       "Discover 17 essential GitHub repositories for developers. Learn algorithms, build projects, find free resources, and level up your programming skills.",
-    images: [
-      "/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
-    ],
+    images: ["/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"],
   },
   robots: {
     index: true,
@@ -97,14 +96,12 @@ export default function GitHubRepositoriesArticle() {
 
         <section>
           <figure>
-            <img
+            <Image
               src="/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
               alt="A chill sloth mascot wearing headphones and peeking from behind a laptop with GitHub stickers"
-              width="600"
-              height="400"
-              loading="lazy"
-              fetchPriority="high"
-              referrerPolicy="strict-origin-when-cross-origin"
+              width={600}
+              height={400}
+              priority
             />
             <figcaption>
               Visual vibe check - a cozy sloth mascot with more personality than

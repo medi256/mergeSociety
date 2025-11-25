@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -231,14 +231,12 @@ export default function Article() {
           AlexNet and ChatGPT Are Secretly Rewriting Intelligence
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg"
             alt="The moment we stopped understanding AI: Visualization referencing AlexNet's impact on deep learning interpretability"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             The moment we stopped understanding AI — how AlexNet sparked an era

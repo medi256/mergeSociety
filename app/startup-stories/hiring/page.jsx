@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -87,9 +87,7 @@ export const metadata = {
     description:
       "Fresh data: 29,000 tech jobs cut in March, plus massive government workforce reductions. The employment crisis is deeper than reported 🧵",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
-    ],
+    images: ["/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp"],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
   robots: {
@@ -267,8 +265,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Tech Layoffs 2025: The Shocking Truth Behind the Global Wave (Updated July 2025)",
-    image:
-      "/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
+    image: "/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
     datePublished: "2025-04-27T09:30:00Z",
     dateModified: "2025-07-01T15:30:00Z",
     author: {
@@ -342,14 +339,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp"
             alt="Tech’s Hidden Shift: The 2025 job market is transforming—Why record profits don’t mean job security"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Tech’s invisible pivot: The growing divide between innovation,

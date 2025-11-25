@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -151,8 +151,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline: "Every Python Library and Frameworks Explained",
-    image:
-      "/mergesociety/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
+    image: "/mergesociety/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: [
@@ -547,13 +546,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/rubaitul-azad-ZIPFteu-R8k-unsplash_li7rer_qnxifp.jpg"
             alt="Every Python Library and Frameworks Explained"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Dive into the full Python ecosystem — libraries, frameworks, and

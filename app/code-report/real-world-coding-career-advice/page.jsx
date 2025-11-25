@@ -329,14 +329,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg"
             alt="Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Real-world coding focus: Building for actual users accelerates

@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
@@ -110,14 +110,12 @@ export default function Article() {
           You’re Probably Not Using Yet
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png"
             alt="Best free AI apps for mobile devices — tools for on-the-go productivity, creativity, and learning"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Discover the top-rated free AI apps every mobile user should have —

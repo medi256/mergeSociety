@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -498,13 +498,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg"
             alt="The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             The ultimate app showdown: 20 all-time favorite Android apps from a

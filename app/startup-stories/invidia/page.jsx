@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -59,14 +59,12 @@ export default function Article() {
         <h1>Nvidia's Explosive Rise from Zero to $3 Trillion (Documentary)</h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg"
             alt="Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Nvidia's dominance in the AI chip industry has reshaped global

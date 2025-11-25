@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -102,9 +103,7 @@ export const metadata = {
     title: "The Legendary Programmers Who Built Everything You Use",
     description:
       "From the Finnish student who created Linux to the MIT hacker who started the free software movement - meet the coding legends behind modern computing.",
-    images: [
-      "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
-    ],
+    images: ["/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp"],
   },
 
   robots: {
@@ -152,8 +151,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Legendary Programmers: The Messiahs, Madmen, and Makers Behind Your Favorite Tools",
-    image:
-      "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+    image: "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
     datePublished: "2025-08-22T00:00:00Z",
     dateModified: "2025-08-22T00:00:00Z",
     author: {
@@ -530,13 +528,12 @@ export default function Article() {
           favorite tools
         </h1>
 
-        <img
+        <Image
           src="/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp"
           alt="Legendary Programmers of all time"
-          width="600"
-          height="400"
-          loading="lazy"
-          fetchPriority="high"
+          width={600}
+          height={400}
+          priority
         />
 
         <aside aria-label="Page meta">

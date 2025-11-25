@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -95,9 +95,7 @@ export const metadata = {
     description:
       "HTTP 1.1 was the stone age. HTTP 2 brought highways. HTTP 3 is jetpacks. Here's how protocol evolution secretly controls your web experience.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
-    ],
+    images: ["/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg"],
   },
 
   robots: {
@@ -168,8 +166,7 @@ export const metadata = {
       "@type": "TechArticle",
       headline:
         "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",
-      image:
-        "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
+      image: "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
       datePublished: "2025-05-10T08:45:00Z",
       dateModified: new Date().toISOString(),
       author: {
@@ -314,14 +311,12 @@ export default function Article() {
           (And Why Most People Still Get It Wrong)
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg"
             alt="Comparison chart of HTTP 1 vs HTTP 2 vs HTTP 3 protocols showing latency and multiplexing improvements"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Visual breakdown of how HTTP/1.1, HTTP/2, and HTTP/3 differ in

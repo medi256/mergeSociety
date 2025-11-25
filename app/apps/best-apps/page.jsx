@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -84,9 +84,7 @@ export const metadata = {
     description:
       "Run Tony Hawk's Pro Skater 2 on your Android phone, use Motorola's beautiful widgets on any device, and discover 13 more essential apps that will transform your Android experience this month.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
-    ],
+    images: ["/mergesociety/best_apps_iraybe_a7fwyd.jpg"],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
   robots: {
@@ -132,8 +130,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
-    image:
-      "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+    image: "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T14:30:00Z",
     author: {
@@ -508,13 +505,12 @@ export default function Article() {
         <h1>Best Android Apps: 15 Mind-Blowing Picks You Need to Try Now</h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/best_apps_iraybe_a7fwyd.jpg"
             alt="The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Discover the top Android apps of March 2025—featuring iOS

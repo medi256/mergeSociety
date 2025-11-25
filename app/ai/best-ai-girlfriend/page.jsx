@@ -117,14 +117,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png"
             alt="Best AI girlfriend apps for emotional support, companionship, and human-AI connection"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Explore top AI girlfriend apps offering emotional support and

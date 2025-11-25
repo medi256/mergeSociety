@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -92,9 +92,7 @@ export const metadata = {
     description:
       "Just updated our comprehensive AWS guide. 200+ services analyzed, costs revealed, architecture patterns that actually work in production.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/aws_lg2upw_ilakce.webp",
-    ],
+    images: ["/mergesociety/aws_lg2upw_ilakce.webp"],
   },
 
   robots: {
@@ -180,8 +178,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "AWS Services Explained: Complete 2025 Guide to 50+ Amazon Cloud Products",
-    image:
-      "/mergesociety/aws_lg2upw_ilakce.webp",
+    image: "/mergesociety/aws_lg2upw_ilakce.webp",
     datePublished: "2024-05-03T08:30:00Z",
     dateModified: "2025-07-01T10:15:00Z",
     author: {
@@ -327,13 +324,12 @@ export default function Article() {
           Products (And Why Most People Get Them Wrong)
         </h1>
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/aws_lg2upw_ilakce.webp"
             alt="Top 50+ AWS Services Explained: What They Do and How They Power the Cloud"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             AWS offers a wide range of services that drive cloud innovation

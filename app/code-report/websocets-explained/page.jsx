@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -263,14 +264,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg"
             alt="WebSockets real-time communication architecture diagram showing client-server bidirectional data flow"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Architecture diagram illustrating how WebSockets enable real-time,

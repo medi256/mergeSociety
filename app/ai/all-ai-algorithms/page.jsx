@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -290,14 +290,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg"
             alt="Illustration showing all major machine learning algorithms including supervised, unsupervised, reinforcement, and deep learning techniques"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             A complete overview of all major machine learning algorithms — from

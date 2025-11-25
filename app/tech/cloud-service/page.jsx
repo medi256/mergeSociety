@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -99,9 +99,7 @@ export const metadata = {
     description:
       "Surprised? Most cloud services are variations on the same core components. Learn which ones actually matter and how to choose what's right for you.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
-    ],
+    images: ["/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg"],
   },
 
   robots: {
@@ -152,8 +150,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Why Most Cloud Services Are Just Layers on Virtual Machines: The Essential Guide",
-    image:
-      "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+    image: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
     datePublished: "2025-05-03T12:00:00Z",
     dateModified: "2025-05-03T12:00:00Z",
     author: {
@@ -500,13 +497,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg"
             alt="AWS Services Explained: What They Do and How They Power the Cloud"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Visual overview of AWS services powering the modern cloud ecosystem.

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -47,9 +48,7 @@ export const metadata = {
       "APIs Explained: What is an API, Why It Exists, and Real Examples You Use Daily",
     description:
       "Learn what APIs are with simple analogies, real-world examples, and why they power every app on your phone. Complete beginner's guide to APIs.",
-    images: [
-      "/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
-    ],
+    images: ["/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp"],
   },
 
   authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
@@ -94,14 +93,12 @@ const Page = () => {
           already use every day
         </h1>
         <figure className="article-figure">
-          <img
+          <Image
             src="/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp"
             alt="How APIs work with real-world examples"
-            width="1200"
-            height="675"
-            loading="lazy"
-            fetchPriority="high"
-            referrerPolicy="strict-origin-when-cross-origin"
+            width={600}
+            height={400}
+            priority
           />
           <figcaption>
             APIs power apps you use daily — here’s what that means in practice.

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -47,9 +48,7 @@ export const metadata = {
     title: "Computer Science Degree Worth It? 2025 Career & Salary Guide",
     description:
       "Complete breakdown: CS careers, $50K-$300K+ salaries, AI impact, job satisfaction data, and degree vs bootcamp comparison.",
-    images: [
-      "/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
-    ],
+    images: ["/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp"],
   },
 
   authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
@@ -102,8 +101,7 @@ export const metadata = {
       "Computer Science Degree Worth It? The Real Answer With Careers, Salaries, AI, and Satisfaction",
     description:
       "A comprehensive guide covering CS degree value, career paths, salary ranges, AI impact, and alternatives for aspiring tech professionals.",
-    image:
-      "/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+    image: "/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
     author: {
       "@type": "Person",
       name: "Massa Medi",
@@ -173,13 +171,12 @@ export default function ComputerScienceDegreeWorthIt() {
         </h1>
 
         <figure>
-          <img
+          <Image
             src="/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp"
             alt="Computer Science Degree Worth It?"
-            width="600"
-            height="400"
-            loading="lazy"
-            fetchPriority="high"
+            width={600}
+            height={400}
+            priority
           />
           <figcaption>Computer Science Degree Worth It?</figcaption>
         </figure>

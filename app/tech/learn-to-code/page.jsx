@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Learn to Code: The No-Fluff Roadmap With Projects, AI, and LeetCode",
@@ -42,9 +43,7 @@ export const metadata = {
       "Learn to Code: The No-Fluff Roadmap With Projects, AI, and LeetCode",
     description:
       "Complete guide to learning programming from zero to building real projects and passing interviews.",
-    images: [
-      "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
-    ],
+    images: ["/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp"],
   },
 
   other: {
@@ -104,14 +103,12 @@ export default function LearnToCodeArticle() {
           Learn to Code: The No-Fluff Roadmap With Projects, AI, and LeetCode
         </h1>
         <figure>
-          <img
+          <Image
             src="/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp"
             alt="How to  get  good  at  coding"
-            width="600"
-            height="400"
-            loading="lazy"
-            fetchPriority="high"
-            referrerPolicy="strict-origin-when-cross-origin"
+            width={600}
+            height={400}
+            priority
           />
         </figure>
 

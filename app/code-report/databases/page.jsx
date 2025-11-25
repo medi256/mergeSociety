@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -102,9 +102,7 @@ export const metadata = {
     description:
       "Enterprise complexity or web simplicity? Find out which database fits your project needs with our comprehensive PostgreSQL vs MySQL comparison.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/6554783_amd2ad_suixhe.jpg",
-    ],
+    images: ["/mergesociety/6554783_amd2ad_suixhe.jpg"],
   },
 
   robots: {
@@ -154,8 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
-    image:
-      "/mergesociety/6554783_amd2ad_suixhe.jpg",
+    image: "/mergesociety/6554783_amd2ad_suixhe.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -528,13 +525,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/6554783_amd2ad_suixhe.jpg"
             alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             PostgreSQL vs. MySQL — Breaking down features, performance, and

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -179,8 +179,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
-    image:
-      "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+    image: "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
     datePublished: "2024-11-15T09:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
@@ -420,14 +419,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg"
             alt="Illustration of the best AI tools for research, featuring automation, data analysis, and academic productivity"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Best AI Tools for Research: Explore top platforms that enhance

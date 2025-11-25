@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -547,13 +547,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg"
             alt="Visual representation of algorithms from simple tasks to AI neural networks"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Visual representation of algorithms: from simple calculations to AI

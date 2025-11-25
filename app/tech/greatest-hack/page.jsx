@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -306,13 +306,12 @@ export default function Article() {
         <h1>NSA Equation Group Hack: The Greatest Hack in History</h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg"
             alt="The Greatest Hack in History"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             A visual representation of cyber warfare, representing one of the

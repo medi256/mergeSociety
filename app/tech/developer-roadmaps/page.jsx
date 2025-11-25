@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -88,9 +88,7 @@ export const metadata = {
     description:
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
-    ],
+    images: ["/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"],
   },
 
   robots: {
@@ -146,8 +144,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
-    image:
-      "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+    image: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -195,13 +192,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"
             alt="Programming language roadmap showing the progression from beginner to expert languages"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Visual roadmap of programming languages, guiding learners from

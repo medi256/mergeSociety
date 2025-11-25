@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -144,8 +144,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Brutal Truth About CS Degrees : What They Don't Tell You Before Enrollment",
-    image:
-      "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
+    image: "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
     datePublished: "2025-05-03T10:15:00Z",
     dateModified: "2025-05-03T10:15:00Z",
     author: {
@@ -443,13 +442,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg"
             alt="What It's Really Like to Study Computer Science: Reality of CS Majors"
             width={600}
             height={400}
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             The real-world experiences of CS majors—beyond code, grades, and

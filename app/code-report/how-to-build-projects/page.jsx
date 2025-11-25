@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Script from "next/script";
+import Image from "next/image";
 
 export const metadata = {
   title: "How To Start Programming Projects The Lazy Way | Massa Medi",
@@ -56,9 +57,7 @@ export const metadata = {
     title: "How To Start Programming Projects The Lazy Way",
     description:
       "Break through tutorial hell and start coding real projects. Practical strategies for beginners: MVP approach, unique twists, and lazy-smart techniques that work.",
-    images: [
-      "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
-    ],
+    images: ["/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"],
   },
   robots: {
     index: true,
@@ -90,8 +89,7 @@ export const jsonLd = {
   headline: "How To Start Programming Projects The Lazy Way",
   description:
     "A practical guide for beginner programmers on how to start coding projects without overthinking. Covers project selection, MVP development, escaping tutorial hell, and actionable strategies to ship your first projects.",
-  image:
-    "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+  image: "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
   datePublished: "2025-10-05T00:00:00.000Z",
   dateModified: "2025-10-05T00:00:00.000Z",
   author: {
@@ -154,8 +152,7 @@ export const jsonLd = {
     name: "How To Start Programming Projects The Lazy Way",
     description:
       "Video walkthrough of how to start programming projects as a beginner",
-    thumbnailUrl:
-      "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+    thumbnailUrl: "/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
     uploadDate: "2025-10-05T00:00:00.000Z",
     embedUrl: "https://www.youtube-nocookie.com/embed/HdNypiphMRg",
   },
@@ -210,14 +207,12 @@ const HowToBuildProjects = () => {
       <article className="lesson-container">
         <header>
           <h1>How To Start Programming Projects The Lazy Way</h1>
-          <img
+          <Image
             src="/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"
             alt="How To Start Programming Projects The Lazy Way"
-            width={1200}
-            height={675}
-            className="bg-image"
-            fetchPriority="high"
-            loading="lazy"
+            width={600}
+            height={400}
+            priority
           />
 
           <h2 className="project-info">

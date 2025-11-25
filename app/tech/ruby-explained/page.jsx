@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -85,9 +85,7 @@ export const metadata = {
     description:
       "The framework most devs ignore is secretly powering tech giants. Here's why Rails gives you an unfair advantage.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
-    ],
+    images: ["/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg"],
   },
 
   robots: {
@@ -133,8 +131,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Ruby on Rails: The Underground Weapon Behind Billion-Dollar Startups",
-    image:
-      "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+    image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {
@@ -210,14 +207,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg"
             alt="Ruby on Rails framework diagram showing MVC architecture with code examples"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Visual breakdown of Ruby on Rails’ Model-View-Controller (MVC)

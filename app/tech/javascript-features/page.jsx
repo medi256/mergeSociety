@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -77,9 +77,7 @@ export const metadata = {
     description:
       "Just revised with the latest details on React 19, Next.js 15, Svelte 5 Runes and other framework innovations you can't ignore.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/7040859_sp09q7_oelsvn.jpg",
-    ],
+    images: ["/mergesociety/7040859_sp09q7_oelsvn.jpg"],
   },
 
   robots: {
@@ -110,8 +108,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "JavaScript Framework Updates 2025: 15 Game-Changing Features (Revised)",
-    image:
-      "/mergesociety/7040859_sp09q7_oelsvn.jpg",
+    image: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
     datePublished: "2025-05-09T12:00:00Z",
     dateModified: "2025-06-30T09:00:00Z",
     version: "2.0",
@@ -233,14 +230,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/7040859_sp09q7_oelsvn.jpg"
             alt="JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             2025 innovation map of popular JavaScript frameworks like React,

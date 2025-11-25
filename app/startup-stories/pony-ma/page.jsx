@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -83,9 +83,7 @@ export const metadata = {
     description:
       "The untold story of Tencent's rise: How a shy engineer from Shenzhen broke every Silicon Valley rule to build China's most powerful tech empire.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
-    ],
+    images: ["/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg"],
   },
 
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -322,14 +320,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg"
             alt="How Tencent quietly built a tech empire — The untold story of Pony Ma and China's digital dominance"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             The rise of Tencent: How Ma Huateng, also known as Pony Ma, built

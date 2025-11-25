@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -94,9 +95,7 @@ export const metadata = {
     description:
       "Agentic AI + 50 trillion parameter models = the future is here. Expert analysis of 2025's most explosive AI trends. Are you ready?",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
-    ],
+    images: ["/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg"],
   },
 
   // Enhanced robots configuration
@@ -313,14 +312,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg"
             alt="AI Trends 2025: Visual representation of artificial intelligence evolution showing agentic AI, model scaling, and next-gen intelligence"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             AI Trends 2025: A look into agentic AI systems, exponential model

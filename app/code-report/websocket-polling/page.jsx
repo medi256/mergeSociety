@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -356,14 +357,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg"
             alt="Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns"
             width={600}
             height={400}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             A clear comparison of WebSockets, Long Polling, and Regular Polling,

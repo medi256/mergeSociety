@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
 export const metadata = {
@@ -90,9 +90,7 @@ export const metadata = {
     description:
       "Updated guide: Learn how 'vibe coding' is creating millionaire developers, the failures to avoid, and 3 proven rules for AI programming success.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
-    ],
+    images: ["/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg"],
   },
 
   robots: {
@@ -223,8 +221,7 @@ export const metadata = {
       name: "How to Master Vibe Coding for AI-Powered Development",
       description:
         "Step-by-step guide to implementing vibe coding methodology for successful AI-assisted programming",
-      image:
-        "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+      image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       totalTime: "PT30M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -300,14 +297,12 @@ export default function Article() {
         </h1>
 
         <figure className="blog-image">
-          <img
+          <Image
             src="/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg"
             alt="Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming"
             width={600}
             height={400}
-            loading="eager"
-            decoding="async"
-            fetchPriority="high"
+            priority
           />
           <figcaption>
             Conceptual image of AI-assisted Vibe Coding – blending intuition and

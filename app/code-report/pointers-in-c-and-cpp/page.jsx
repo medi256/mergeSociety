@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -49,9 +50,7 @@ export const metadata = {
     title: "Master C/C++ Pointers - Complete Programming Guide",
     description:
       "Learn C/C++ pointers from basics to advanced concepts with practical examples and debugging tips.",
-    images: [
-      "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
-    ],
+    images: ["/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp"],
   },
 
   authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
@@ -91,8 +90,7 @@ export const jsonLd = {
     "Pointers in C/C++ - what a pointer is, how pointer syntax works, and why programmers care",
   description:
     "Complete guide to understanding C/C++ pointers with practical examples, memory management techniques, and debugging tips for developers.",
-  image:
-    "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+  image: "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",
@@ -129,13 +127,12 @@ const Page = () => {
             why programmers care
           </h1>
           <figure className="article-figure">
-            <img
+            <Image
               src="/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp"
               alt="Pointers in C and C++"
-              width="1200"
-              height="675"
-              loading="lazy"
-              fetchPriority="high"
+              width={600}
+              height={400}
+              priority
             />
             <figcaption>
               Pointers in C/C++ — here’s what that means in practice.
