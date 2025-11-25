@@ -138,8 +138,7 @@ const Section6 = () => {
     {
       id: 6,
       title: "Every Python Library and Frameworks Explained",
-      image:
-        "/mergesociety/top-python-libraries.webp",
+      image: "/mergesociety/top-python-libraries.webp",
       alt: "Every Python Library and Frameworks Explained",
       date: "May 2, 2025",
       articleRoute: "python-libraries",
@@ -202,8 +201,7 @@ const Section6 = () => {
       id: 13,
       title:
         "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "/mergesociety/MongoDB_Logo.jpg",
+      image: "/mergesociety/MongoDB_Logo.jpg",
       alt: "MongoDB database architecture visualization",
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",
@@ -230,7 +228,8 @@ const Section6 = () => {
       id: 16,
       title:
         "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
-      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image:
+        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
       alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
       date: "May 9, 2025",
       articleRoute: "web-server",
@@ -385,8 +384,7 @@ const Section6 = () => {
       id: 33,
       title:
         "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
-      image:
-        "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+      image: "/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
       alt: "SQL - What Is Data, What Is a Database, and How DBMS Makes It All Work",
       date: "August 29, 2025",
       articleRoute: "what-is-a-database",
