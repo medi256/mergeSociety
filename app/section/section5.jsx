@@ -30,7 +30,7 @@ const Section5 = () => {
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       image:
-        "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash_xaf8e8_yu7gvm.jpg",
+        "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
