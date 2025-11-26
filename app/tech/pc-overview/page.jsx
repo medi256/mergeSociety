@@ -48,9 +48,7 @@ export const metadata = {
     description:
       "Understand the key parts of a computer with our beginner-friendly guide. Learn what makes your PC tick and how to make smart hardware choices.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
-    ],
+    images: ["/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg"],
   },
 
   robots: {
@@ -107,8 +105,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "PC Component Overview: Complete Beginner's Guide to Computer Parts",
-    image:
-      "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+    image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -281,9 +278,7 @@ export default function Article() {
           Computer Part
         </h1>
         <Image
-          src={
-            "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg"
-          }
+          src={"/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg"}
           alt="PC Components Overview Guide"
           width={600}
           height={400}
@@ -347,9 +342,7 @@ export default function Article() {
         <section>
           <h2>CPU Explained: The Brains of the Computer</h2>
           <Image
-            src={
-              "/mergesociety/Motherboards%20and%20CPUs.jpg"
-            }
+            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
             alt="The CPU, or Central Processing Unit"
             width={600}
             height={400}
@@ -408,9 +401,7 @@ export default function Article() {
         <section>
           <h2>RAM (Random Access Memory): Your PC’s Short Term Brain</h2>
           <Image
-            src={
-              "/mergesociety/RAM%20(Memory).jpg"
-            }
+            src={"/mergesociety/RAM%20(Memory).jpg"}
             alt="The RAM temporary memory."
             width={600}
             height={400}
@@ -470,9 +461,7 @@ export default function Article() {
         <section>
           <h2>Motherboard: The Backbone of the PC</h2>
           <Image
-            src={
-              "/mergesociety/Motherboards%20and%20CPUs.jpg"
-            }
+            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
             alt="The motherboard of a computer"
             width={600}
             height={400}
@@ -508,9 +497,7 @@ export default function Article() {
         <section>
           <h2>GPU (Graphics Processing Unit): The Artiste of Your PC</h2>
           <Image
-            src={
-              "/mergesociety/gpus_bmtfwz_kpcedg.jpg"
-            }
+            src={"/mergesociety/Graphics%20Card%20(GPU).jpg"}
             alt="The GPU (Graphics Processing Unit)"
             width={600}
             height={400}
@@ -578,9 +565,7 @@ export default function Article() {
         <section>
           <h2>Storage Devices: SSDs vs Hard Drives</h2>
           <Image
-            src={
-              "/mergesociety/pexels-zeleboba-28456609_u1xpy4_hrt2o5.jpg"
-            }
+            src={"/mergesociety/pexels-zeleboba-28456609_u1xpy4_hrt2o5.jpg"}
             alt="The Solid State Drives (SSDs)"
             width={600}
             height={400}
