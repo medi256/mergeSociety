@@ -308,7 +308,7 @@ export default function Article() {
           <h2>Choosing a Graphics Card (GPU): The Heart of Gaming Power</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747235896/pexels-nanadua11-8622912_eebaiv.jpg"
+              "/mergesociety/Graphics%20Card%20(GPU).jpg"
             }
             alt="Choosing a Graphics Card (GPU)"
             width={600}
@@ -386,7 +386,7 @@ export default function Article() {
           <h2>Motherboards and CPUs: The Backbone of Your System</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747230788/pexels-nicolas-foster-65973708-14887696_adakj2.jpg"
+              "/mergesociety/Motherboards%20and%20CPUs.jpg"
             }
             alt="The motherboard of a computer"
             width={600}
@@ -455,7 +455,7 @@ export default function Article() {
           <h2>RAM (Memory): Speed and Capacity for Modern Games</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dgyofctwi/image/upload/v1762767493/pexels-tanasovich-2588757_fipofn_nbqger.jpg"
+              "/mergesociety/RAM%20(Memory).jpg"
             }
             alt="The RAM temporary memory."
             width={600}
@@ -494,7 +494,7 @@ export default function Article() {
           <h2>Storage: SSDs vs HDDs for Gaming PCs</h2>
           <Image
             src={
-              "https://res.cloudinary.com/dhgjhspsp/image/upload/v1747231298/pexels-zeleboba-28456609_u1xpy4.jpg"
+              "/mergesociety/SSDs-vs-HDDs.jpg"
             }
             alt="The Solid State Drives (SSDs)"
             width={600}

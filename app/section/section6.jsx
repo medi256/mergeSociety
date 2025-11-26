@@ -105,7 +105,7 @@ const Section6 = () => {
       title:
         "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
       image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg",
+        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
       alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
       date: "May 9, 2025",
       articleRoute: "web-server",
