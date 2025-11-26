@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
+        url: "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
         width: 1200,
         height: 630,
         alt: "DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories",
@@ -71,7 +71,7 @@ export const metadata = {
     description:
       "Master DevOps lifecycle phases, essential tools, and real-world implementation strategies. Includes Netflix case study and practical examples.",
     images: [
-      "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp",
+      "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
     ],
   },
 
@@ -120,7 +120,7 @@ export default function DevOpsExplainedArticle() {
         </h1>
         <Image
           src={
-            "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp"
+            "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp"
           }
           alt="DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories"
           width={600}

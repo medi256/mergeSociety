@@ -12,8 +12,8 @@ const CONFIG = {
 
   // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
   urlMappings: {
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1746793502/pexels-cookiecutter-17489152_hulqbn.jpg":
-      "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+    "/mergesociety/audio_1755245920448_lnxdm9_exsuiw_bywltz.webp":
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
   },
 
   createBackup: true,
