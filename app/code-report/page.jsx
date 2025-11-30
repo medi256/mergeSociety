@@ -417,7 +417,7 @@ const Section6 = () => {
     {
       id: 37,
       title: "Is Coding Worth Learning in 2026?",
-      image: "/mergesociety/is_coding_worth_it_in_2025?.webp",
+      image: "/mergesociety/is_coding_worth_it_in_2025.webp",
       alt: "Is Coding Worth Learning in 2026?",
       date: "November 30, 2025",
       articleRoute: "is-it-still-worth-learning-to-code",
