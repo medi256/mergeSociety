@@ -909,6 +909,11 @@ export default function Article() {
                 Modern Tech Job Market (With Sloth Level Humor and Honesty)
               </a>
             </li>
+            <li>
+              <Link href="/code-report/is-it-still-worth-learning-to-code">
+                Is Coding Worth Learning in 2026?
+              </Link>
+            </li>
           </ul>
         </section>
 

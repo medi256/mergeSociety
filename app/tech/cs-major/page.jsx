@@ -96,9 +96,7 @@ export const metadata = {
     description:
       "Veteran mode job hunting, theory vs. practical skills, and why networking might matter more than your GPA. Honest advice for aspiring devs with sloth-level humor.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
-    ],
+    images: ["/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg"],
   },
 
   robots: {
@@ -148,8 +146,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
-    image:
-      "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+    image: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
     datePublished: "2025-05-03T09:00:00Z",
     dateModified: "2025-05-03T09:00:00Z",
     author: {
@@ -989,6 +986,11 @@ export default function Article() {
               <Link href="/tech/tech-jobs-in-freefall">
                 Tech Jobs in Freefall: Why Top Companies Are Slashing Job
                 Postings Despite Record Profits
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/is-it-still-worth-learning-to-code">
+                Is Coding Worth Learning in 2026?
               </Link>
             </li>
           </ul>

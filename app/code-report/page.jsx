@@ -414,6 +414,14 @@ const Section6 = () => {
       date: "October 5, 2025",
       articleRoute: "how-to-build-projects",
     },
+    {
+      id: 37,
+      title: "Is Coding Worth Learning in 2026?",
+      image: "/mergesociety/is%20coding%20worth%20it%20in%202025?.webp",
+      alt: "Is Coding Worth Learning in 2026?",
+      date: "November 30, 2025",
+      articleRoute: "is-it-still-worth-learning-to-code",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

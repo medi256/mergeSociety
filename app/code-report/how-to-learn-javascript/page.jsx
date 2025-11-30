@@ -103,9 +103,7 @@ export const metadata = {
     description:
       "Break free from the JavaScript tutorial loop! Discover science-backed learning strategies and project-based techniques that transform beginners into job-ready developers.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
-    ],
+    images: ["/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg"],
   },
   robots: {
     index: true,
@@ -155,8 +153,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
-    image:
-      "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+    image: "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {
@@ -955,6 +952,11 @@ export default function Article() {
             <li>
               <Link href="/code-report/fullstack-roadmap">
                 Full Stack Developer Roadmap
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/is-it-still-worth-learning-to-code">
+                Is Coding Worth Learning in 2026?
               </Link>
             </li>
           </ul>

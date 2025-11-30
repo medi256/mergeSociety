@@ -80,9 +80,7 @@ export const metadata = {
     description:
       "Discover the key differences between CS and SE degrees. Compare courses, careers, salaries, and which major is right for you.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
-    ],
+    images: ["/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp"],
   },
 
   robots: {
@@ -134,9 +132,7 @@ export const metadata = {
     headline: "Computer Science vs Software Engineering: Complete 2025 Guide",
     description:
       "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you in 2025.",
-    image: [
-      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
-    ],
+    image: ["/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp"],
     datePublished: "2025-07-18T00:00:00.000Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -676,6 +672,9 @@ export default function ComputerScienceVsSoftwareEngineering() {
             </Link>
             . Don’t forget to bookmark, share, and drop your spicy opinions on
             which major is best in the comments!
+            <Link href="/code-report/is-it-still-worth-learning-to-code">
+              Is Coding Worth Learning in 2026?
+            </Link>
           </p>
           <p>
             Like this article? <strong>Subscribe to our channel</strong> and

@@ -21,6 +21,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/is-it-still-worth-learning-to-code`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest`,
       lastModified: new Date(),
     },
