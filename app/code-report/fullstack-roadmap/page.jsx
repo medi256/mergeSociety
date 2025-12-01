@@ -897,6 +897,11 @@ export default function Article() {
                 Every Python Library and Frameworks Explained
               </Link>
             </li>
+            <li>
+              <Link href="/code-report/best_books_to_learn_programming">
+                Best Programming Books for Beginners
+              </Link>
+            </li>
           </ul>
         </section>
 

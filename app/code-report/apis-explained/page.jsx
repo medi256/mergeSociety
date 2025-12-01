@@ -895,6 +895,11 @@ export default function Article() {
                 WebSockets in 100 Seconds
               </Link>
             </li>
+            <li>
+              <Link href="/code-report/best_books_to_learn_programming">
+                Best Programming Books for Beginners
+              </Link>
+            </li>
           </ul>
         </section>
 

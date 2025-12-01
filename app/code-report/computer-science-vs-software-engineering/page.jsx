@@ -675,6 +675,10 @@ export default function ComputerScienceVsSoftwareEngineering() {
             <Link href="/code-report/is-it-still-worth-learning-to-code">
               Is Coding Worth Learning in 2026?
             </Link>
+            ,
+            <Link href="/code-report/best_books_to_learn_programming">
+              Best Programming Books for Beginners
+            </Link>
           </p>
           <p>
             Like this article? <strong>Subscribe to our channel</strong> and

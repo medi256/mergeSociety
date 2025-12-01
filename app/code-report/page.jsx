@@ -422,6 +422,14 @@ const Section6 = () => {
       date: "November 30, 2025",
       articleRoute: "is-it-still-worth-learning-to-code",
     },
+    {
+      id: 38,
+      title: "Best Programming Books for Beginners",
+      image: "/mergesociety/Books_to_learn_Programming.webp",
+      alt: "Best Programming Books for Beginners",
+      date: "December 1, 2025",
+      articleRoute: "best_books_to_learn_programming",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

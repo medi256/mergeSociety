@@ -25,6 +25,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/best_books_to_learn_programming`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest`,
       lastModified: new Date(),
     },
