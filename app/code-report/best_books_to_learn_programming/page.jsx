@@ -2,10 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-
 export const metadata = {
   title:
     "Best Programming Books for Beginners - 5 Books That Will Change How You Learn Programming",
