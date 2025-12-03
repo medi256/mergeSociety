@@ -430,6 +430,14 @@ const Section6 = () => {
       date: "December 1, 2025",
       articleRoute: "best_books_to_learn_programming",
     },
+    {
+      id: 38,
+      title: "Git Basic Commands Step-By-Step Guide",
+      image: "/mergesociety/git%20%20basic%20commands.webp",
+      alt: "Git Basic Commands Step-By-Step Guide",
+      date: "December 3, 2025",
+      articleRoute: "basic-git-commands",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

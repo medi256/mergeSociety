@@ -279,7 +279,7 @@ const BestProgrammingBooks = () => {
             </span>
             <time
               className="project-date"
-              dateTime="2025-1"
+              dateTime="2025-12-01"
               itemProp="datePublished"
             >
               | December 1, 2025
@@ -980,6 +980,14 @@ const BestProgrammingBooks = () => {
           clean up your code so others can thrive with you, and finally, think
           like a systems architect who can handle serious scale.
         </p>
+        <h4>Continue With this article</h4>
+        <ul>
+          <li>
+            <Link href="/code-report/basic-git-commands">
+              Git Basic Commands Step-By-Step Guide
+            </Link>
+          </li>
+        </ul>
         <p>
           Build the habit of reading. Use videos as a backup when you are stuck.
           Ship projects that you can show proudly. And keep going.

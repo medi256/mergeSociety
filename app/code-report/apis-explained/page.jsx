@@ -900,6 +900,11 @@ export default function Article() {
                 Best Programming Books for Beginners
               </Link>
             </li>
+            <li>
+              <Link href="/code-report/basic-git-commands">
+                Git Basic Commands Step-By-Step Guide
+              </Link>
+            </li>
           </ul>
         </section>
 

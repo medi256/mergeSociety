@@ -679,6 +679,10 @@ export default function ComputerScienceVsSoftwareEngineering() {
             <Link href="/code-report/best_books_to_learn_programming">
               Best Programming Books for Beginners
             </Link>
+            ,
+            <Link href="/code-report/basic-git-commands">
+              Git Basic Commands Step-By-Step Guide
+            </Link>
           </p>
           <p>
             Like this article? <strong>Subscribe to our channel</strong> and
