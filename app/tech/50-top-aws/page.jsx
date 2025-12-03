@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/aws_lg2upw_ilakce.webp",
+        url: "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
         width: 1200,
         height: 630,
         alt: "Updated 2025 AWS services guide - developer navigating cloud tools with latest insights",
@@ -92,7 +92,9 @@ export const metadata = {
     description:
       "Just updated our comprehensive AWS guide. 200+ services analyzed, costs revealed, architecture patterns that actually work in production.",
     creator: "@manager70191",
-    images: ["/mergesociety/aws_lg2upw_ilakce.webp"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
+    ],
   },
 
   robots: {
@@ -178,7 +180,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "AWS Services Explained: Complete 2025 Guide to 50+ Amazon Cloud Products",
-    image: "/mergesociety/aws_lg2upw_ilakce.webp",
+    image: "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
     datePublished: "2024-05-03T08:30:00Z",
     dateModified: "2025-07-01T10:15:00Z",
     author: {

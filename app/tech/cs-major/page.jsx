@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+        url: "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
         width: 1200,
         height: 630,
         alt: "Computer science career path decision illustration with coding sloth mascot",
@@ -96,7 +96,9 @@ export const metadata = {
     description:
       "Veteran mode job hunting, theory vs. practical skills, and why networking might matter more than your GPA. Honest advice for aspiring devs with sloth-level humor.",
     creator: "@manager70191",
-    images: ["/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+    ],
   },
 
   robots: {
@@ -146,7 +148,8 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
-    image: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
     datePublished: "2025-05-03T09:00:00Z",
     dateModified: "2025-05-03T09:00:00Z",
     author: {

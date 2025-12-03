@@ -36,7 +36,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide",
@@ -52,7 +52,7 @@ export const metadata = {
       "From graphics cards to cooling systems, this guide breaks down everything you need to know about gaming PC components to build your dream rig.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     ],
   },
 
@@ -111,7 +111,7 @@ export const metadata = {
     headline:
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     image:
-      "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -276,9 +276,7 @@ export default function Article() {
           Gaming PC
         </h1>
         <Image
-          src={
-            "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg"
-          }
+          src={"/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg"}
           alt="PC Gaming Components Guide"
           width={600}
           height={400}
@@ -307,9 +305,7 @@ export default function Article() {
         <section>
           <h2>Choosing a Graphics Card (GPU): The Heart of Gaming Power</h2>
           <Image
-            src={
-              "/mergesociety/Graphics%20Card%20(GPU).jpg"
-            }
+            src={"/mergesociety/Graphics%20Card%20(GPU).jpg"}
             alt="Choosing a Graphics Card (GPU)"
             width={600}
             height={400}
@@ -385,9 +381,7 @@ export default function Article() {
         <section>
           <h2>Motherboards and CPUs: The Backbone of Your System</h2>
           <Image
-            src={
-              "/mergesociety/Motherboards%20and%20CPUs.jpg"
-            }
+            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
             alt="The motherboard of a computer"
             width={600}
             height={400}
@@ -454,9 +448,7 @@ export default function Article() {
         <section>
           <h2>RAM (Memory): Speed and Capacity for Modern Games</h2>
           <Image
-            src={
-              "/mergesociety/RAM%20(Memory).jpg"
-            }
+            src={"/mergesociety/RAM%20(Memory).jpg"}
             alt="The RAM temporary memory."
             width={600}
             height={400}
@@ -493,9 +485,7 @@ export default function Article() {
         <section>
           <h2>Storage: SSDs vs HDDs for Gaming PCs</h2>
           <Image
-            src={
-              "/mergesociety/SSDs-vs-HDDs.jpg"
-            }
+            src={"/mergesociety/SSDs-vs-HDDs.jpg"}
             alt="The Solid State Drives (SSDs)"
             width={600}
             height={400}

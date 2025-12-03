@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+        url: "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
         width: 1200,
         height: 630,
         alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
@@ -98,7 +98,7 @@ export const metadata = {
       "Google's Gemini 2.5 Pro has dethroned OpenAI in coding benchmarks. Find out how this breakthrough is reshaping AI-assisted development .",
     creator: "@manager70191",
     images: [
-      "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+      "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Google Gemini 2.5 Pro Takes #1 Spot: The New King of Coding AI ",
     image:
-      "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+      "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
     datePublished: "2025-05-08T08:00:00Z",
     dateModified: "2025-05-08T08:00:00Z",
     author: {

@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+        url: "https://img.mergesociety.com/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
         width: 1200,
         height: 630,
         alt: "Complete guide to machine learning algorithms - updated June 2025",
@@ -69,7 +69,7 @@ export const metadata = {
       "Freshly updated ML algorithm guide with expert insights, practical examples, and selection strategies. Master all algorithms from regression to neural networks.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+      "https://img.mergesociety.com/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
     ],
   },
 
@@ -142,7 +142,7 @@ export const metadata = {
           "Master all machine learning algorithms with our freshly updated June 2025 guide. From linear regression to neural networks - expert insights, real examples, and practical selection strategies.",
         image: {
           "@type": "ImageObject",
-          url: "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+          url: "https://img.mergesociety.com/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
           width: 1200,
           height: 630,
         },

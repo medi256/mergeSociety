@@ -71,7 +71,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -84,7 +84,7 @@ export const metadata = {
     description:
       "Stay updated with the latest trends in AI, including latest models, startups, and innovations in the tech industry.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+      "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
     ],
   },
   robots: {
@@ -120,8 +120,7 @@ const Section2 = () => {
       id: 2,
       title:
         "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-      image:
-        "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+      image: "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
       alt: "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
       date: "April 25, 2025",
       articleRoute: "ai-mcp",
@@ -130,8 +129,7 @@ const Section2 = () => {
       id: 3,
       title:
         "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      image:
-        "/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      image: "/mergesociety/ai-again_frbb7o_etkpee.jpg",
       alt: "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
       date: "April 26, 2025",
       articleRoute: "llms",
@@ -140,8 +138,7 @@ const Section2 = () => {
       id: 4,
       title:
         "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
-      image:
-        "/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      image: "/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
       alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
       date: "April 26, 2025",
       articleRoute: "rise-of-ai",
@@ -150,8 +147,7 @@ const Section2 = () => {
       id: 5,
       title:
         "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
-      image:
-        "/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
+      image: "/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
       alt: "A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
       date: "April 26, 2025",
       articleRoute: "google-ais",
@@ -159,8 +155,7 @@ const Section2 = () => {
     {
       id: 6,
       title: "Why Human Connection Still Beats Technology—Even in the AI Era",
-      image:
-        "/mergesociety/motivation_dimnjq_kbo00z.jpg",
+      image: "/mergesociety/motivation_dimnjq_kbo00z.jpg",
       alt: "Why Human Connection Still Beats Technology—Even in the AI Era",
       date: "April 26, 2025",
       articleRoute: "ai-with-jobs",
@@ -169,8 +164,7 @@ const Section2 = () => {
       id: 7,
       title:
         "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
-      image:
-        "/mergesociety/jobs-servive-ai_lywum0_oag3ma.jpg",
+      image: "/mergesociety/jobs-servive-ai_lywum0_oag3ma.jpg",
       alt: "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
       date: "April 26, 2025",
       articleRoute: "future-of-jobs",
@@ -179,8 +173,7 @@ const Section2 = () => {
       id: 8,
       title:
         "The Truth Behind Those Handcrafted Leather Bags and Watches: How AI, Actors, and Cheap Goods Are Fooling Shoppers Online",
-      image:
-        "/mergesociety/fooling-online_w6akez_naqb3m.jpg",
+      image: "/mergesociety/fooling-online_w6akez_naqb3m.jpg",
       alt: "The Truth Behind Those 'Handcrafted' Leather Bags and Watches",
       date: "April 26, 2025",
       articleRoute: "online-shopping",
@@ -189,8 +182,7 @@ const Section2 = () => {
       id: 9,
       title:
         "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
-      image:
-        "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
+      image: "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
       alt: "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
       date: "April 26, 2025",
       articleRoute: "will-programmers-vanish",
@@ -199,8 +191,7 @@ const Section2 = () => {
       id: 10,
       title:
         "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
-      image:
-        "/mergesociety/cheating_b3duti_irxoxq.jpg",
+      image: "/mergesociety/cheating_b3duti_irxoxq.jpg",
       alt: "A split screen showing a programmer in a remote interview with hidden cheating methods illustrated",
       date: "April 26, 2025",
       articleRoute: "cheating",
@@ -209,8 +200,7 @@ const Section2 = () => {
       id: 11,
       title:
         "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
-      image:
-        "/mergesociety/MCP_tyhw2b_umtclp.jpg",
+      image: "/mergesociety/MCP_tyhw2b_umtclp.jpg",
       alt: " AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
       date: "April 25, 2025",
       articleRoute: "ai-agents",
@@ -239,8 +229,7 @@ const Section2 = () => {
       id: 14,
       title:
         "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
-      image:
-        "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+      image: "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
       alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       date: "April 29, 2025",
       articleRoute: "whats-next",
@@ -333,8 +322,7 @@ const Section2 = () => {
       id: 25,
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
-      image:
-        "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",
@@ -343,8 +331,7 @@ const Section2 = () => {
       id: 26,
       title:
         "Torvalds Speaks: Impact of Artificial Intelligence on Programming",
-      image:
-        "/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+      image: "/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
       alt: "Torvalds Speaks",
       date: "May 11, 2025",
       articleRoute: "tovard-on-ai",
@@ -353,8 +340,7 @@ const Section2 = () => {
       id: 27,
       title:
         "Grok 4 AI: Elon Musk’s Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
-      image:
-        "/mergesociety/grok_4_jv3jmy_o1gw76.png",
+      image: "/mergesociety/grok_4_jv3jmy_o1gw76.png",
       alt: "Grok 4 AI interface showing controversial chatbot responses",
       date: "July 12, 2025",
       articleRoute: "grok4",

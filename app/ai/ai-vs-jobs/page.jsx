@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Future Tech Perspectives",
     images: [
       {
-        url: "/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+        url: "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
         width: 1200,
         height: 630,
         alt: "AI vs Bitcoin: The Future of Tech Careers",
@@ -85,7 +85,7 @@ export const metadata = {
       "As AI replaces programmers and tech companies face economic headwinds, discover why Bitcoin and stablecoins represent better wealth-building opportunities than traditional coding careers.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+      "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -153,7 +153,7 @@ export const metadata = {
     headline:
       "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
     image:
-      "/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+      "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {

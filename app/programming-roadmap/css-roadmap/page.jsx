@@ -62,16 +62,10 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+        url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
         width: 1200,
         height: 630,
         alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
-      },
-      {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/css-roadmap-image-square.png",
-        width: 600,
-        height: 600,
-        alt: "CSS Roadmap 2025",
       },
     ],
     locale: "en_US",
@@ -92,14 +86,14 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    site: "@mergeSociety2",
+    site: "Merge Society",
     creator: "@manager70191",
     title:
       "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
     images: [
-      "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
     ],
   },
 
@@ -142,7 +136,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+        url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
         width: 1200,
         height: 630,
       },
@@ -206,7 +200,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+    url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
     width: 1200,
     height: 630,
   },

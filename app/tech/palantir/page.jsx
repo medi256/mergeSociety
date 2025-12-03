@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/palantir_vii89x_zvzatj.jpg",
+        url: "https://img.mergesociety.com/mergesociety/palantir_vii89x_zvzatj.jpg",
         width: 1200,
         height: 630,
         alt: "Palantir Technologies office building alongside military technology visualization showing data analytics interfaces and defense applications",
@@ -87,7 +87,7 @@ export const metadata = {
       "How Peter Thiel & Alex Karp's controversial data company conquered the Pentagon and Wall Street while transforming modern warfare.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/palantir_vii89x_zvzatj.jpg",
+      "https://img.mergesociety.com/mergesociety/palantir_vii89x_zvzatj.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -137,7 +137,7 @@ export const metadata = {
     headline:
       "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
     image:
-      "/mergesociety/palantir_vii89x_zvzatj.jpg",
+      "https://img.mergesociety.com/mergesociety/palantir_vii89x_zvzatj.jpg",
     datePublished: "2025-04-26T10:15:00Z",
     dateModified: "2025-04-26T10:15:00Z",
     author: {
@@ -576,9 +576,7 @@ export default function Article() {
           Data, and Defense
         </h1>
         <Image
-          src={
-            "/mergesociety/palantir_vii89x_zvzatj.jpg"
-          }
+          src={"/mergesociety/palantir_vii89x_zvzatj.jpg"}
           alt="Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense"
           width={600}
           height={400}

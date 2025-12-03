@@ -59,16 +59,10 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+        url: "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
         width: 1200,
         height: 630,
         alt: "React Roadmap 2025 - Complete Guide to Mastering React",
-      },
-      {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751958054/react-roadmap-2025-square.png",
-        width: 600,
-        height: 600,
-        alt: "React Roadmap 2025",
       },
     ],
     locale: "en_US",
@@ -95,7 +89,7 @@ export const metadata = {
     description:
       "The ultimate step-by-step guide to mastering React in 2025. Learn hooks, state management, Next.js integration, performance optimization and transform from beginner to React expert with this battle-tested roadmap.",
     images: [
-      "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+      "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
     ],
   },
 
@@ -137,7 +131,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+        url: "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
         width: 1200,
         height: 630,
       },
@@ -200,7 +194,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+    url: "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
     width: 1200,
     height: 630,
   },

@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Tech Addict Diary",
     images: [
       {
-        url: "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+        url: "https://img.mergesociety.com/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
         width: 1200,
         height: 630,
         alt: "A detailed home lab setup featuring a Raspberry Pi NAS server and multiple monitors",
@@ -89,7 +89,7 @@ export const metadata = {
       "Breaking free from big tech: My journey creating a DIY home lab with Raspberry Pi NAS and self-hosted music streaming using Proxmox virtualization.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+      "https://img.mergesociety.com/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -155,7 +155,7 @@ export const metadata = {
     headline:
       "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
     image:
-      "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+      "https://img.mergesociety.com/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
     datePublished: "2025-04-27T11:30:00Z",
     dateModified: "2025-04-27T11:30:00Z",
     author: {

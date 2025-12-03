@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+        url: "https://img.mergesociety.com/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
         width: 1200,
         height: 630,
         alt: "Visualization of cloud service layers from VMs to fully managed services",
@@ -99,7 +99,9 @@ export const metadata = {
     description:
       "Surprised? Most cloud services are variations on the same core components. Learn which ones actually matter and how to choose what's right for you.",
     creator: "@manager70191",
-    images: ["/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+    ],
   },
 
   robots: {
@@ -150,7 +152,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Why Most Cloud Services Are Just Layers on Virtual Machines: The Essential Guide",
-    image: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
     datePublished: "2025-05-03T12:00:00Z",
     dateModified: "2025-05-03T12:00:00Z",
     author: {

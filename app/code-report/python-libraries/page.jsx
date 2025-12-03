@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Python Mastery",
     images: [
       {
-        url: "/mergesociety/top-python-libraries.webp",
+        url: "https://img.mergesociety.com/mergesociety/top-python-libraries.webp",
         width: 1200,
         height: 630,
         alt: "Visual map of the Python libraries ecosystem in 2025",
@@ -103,7 +103,7 @@ export const metadata = {
       "Comprehensive breakdown of Python's most powerful libraries in 2025. From AI/ML to web development, data science & GUIs. Transform your Python skills today!",
     creator: "@manager70191",
     images: [
-      "/mergesociety/top-python-libraries.webp",
+      "https://img.mergesociety.com/mergesociety/top-python-libraries.webp",
     ],
   },
   robots: {
@@ -151,7 +151,8 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline: "Every Python Library and Frameworks Explained",
-    image: "/mergesociety/top-python-libraries.webp",
+    image:
+      "https://img.mergesociety.com/mergesociety/top-python-libraries.webp",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: [

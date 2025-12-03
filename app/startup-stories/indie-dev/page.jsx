@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
+        url: "https://img.mergesociety.com/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
         width: 1200,
         height: 630,
         alt: "24-hour indie dev sprint building and shipping a product from 7pm to 5am with Next.js, Supabase, and Stripe",
@@ -102,7 +102,7 @@ export const metadata = {
       "7pm: Started. 9pm: Pizza. 11pm: F1. Midnight: Coffee. 3am: Stripe hell. 5am: Live. Morning: First sale. The unfiltered build log.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
     ],
   },
 
@@ -169,7 +169,7 @@ export const metadata = {
     headline:
       "Building and Shipping a Real Product in One Day - 24 Hour Sprint",
     image:
-      "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
     datePublished: "2025-11-02T00:00:00Z",
     dateModified: "2025-11-02T00:00:00Z",
     author: {
@@ -760,9 +760,7 @@ const IndieDev = () => {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg"
-          }
+          src={"/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg"}
           alt="Building and Shipping a Real Product in One Day"
           width={600}
           height={400}

@@ -56,13 +56,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 1200,
         height: 630,
         alt: "Programming Language Roadmaps 2025 - Complete Developer Career Guides",
       },
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 600,
         height: 600,
         alt: "Programming Language Roadmaps Collection",
@@ -92,7 +92,7 @@ export const metadata = {
     description:
       "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png",
+      "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
     ],
   },
 
@@ -125,7 +125,7 @@ export const metadata = {
                 "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
               url: "https://www.mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your actual URL
               image:
-                "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png",
+                "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
               provider: {
                 "@type": "Organization",
                 name: "Merge Society",
@@ -163,7 +163,7 @@ export const metadata = {
       dateModified: "2025-07-08T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 1200,
         height: 630,
       },
@@ -278,8 +278,7 @@ const Section8 = () => {
     {
       id: 1,
       title: "Full Stack JavaScript Developer Roadmap 2025",
-      image:
-        "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      image: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
       alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       date: "July 8, 2025",
       articleRoute: "javascript-roadmap",
@@ -287,8 +286,7 @@ const Section8 = () => {
     {
       id: 2,
       title: "HTML Roadmap: Complete Roadmap to HTML",
-      image:
-        "/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+      image: "/mergesociety/html-roadmap_cug0c3_chzvfq.png",
       alt: "HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery",
       date: "July 8, 2025",
       articleRoute: "html-roadmap",
@@ -297,8 +295,7 @@ const Section8 = () => {
       id: 3,
       title:
         "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro",
-      image:
-        "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      image: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
       alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
       date: "July 8, 2025",
       articleRoute: "css-roadmap",
@@ -306,8 +303,7 @@ const Section8 = () => {
     {
       id: 4,
       title: "How To Master React In 2025 (Complete Roadmap)",
-      image:
-        "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+      image: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
       alt: "React Roadmap 2025 - Complete Guide to Mastering React",
       date: "July 8, 2025",
       articleRoute: "react-roadmap",
@@ -315,8 +311,7 @@ const Section8 = () => {
     {
       id: 5,
       title: "How To Master Next.js Roadmap In 2025 (Complete Roadmap)",
-      image:
-        "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      image: "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
       alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       date: "July 8, 2025",
       articleRoute: "nextjs-roadmap",

@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Android App Reviews",
     images: [
       {
-        url: "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+        url: "https://img.mergesociety.com/mergesociety/best_apps_iraybe_a7fwyd.jpg",
         width: 1200,
         height: 630,
         alt: "The 15 best Android apps of March 2025 featuring Touch HLE iOS emulation and Motorola widgets",
@@ -84,7 +84,9 @@ export const metadata = {
     description:
       "Run Tony Hawk's Pro Skater 2 on your Android phone, use Motorola's beautiful widgets on any device, and discover 13 more essential apps that will transform your Android experience this month.",
     creator: "@manager70191",
-    images: ["/mergesociety/best_apps_iraybe_a7fwyd.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+    ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
   robots: {
@@ -130,7 +132,8 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
-    image: "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/best_apps_iraybe_a7fwyd.jpg",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T14:30:00Z",
     author: {

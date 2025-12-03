@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "TechPath",
     images: [
       {
-        url: "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
+        url: "https://img.mergesociety.com/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
         width: 1200,
         height: 630,
         alt: "Exhausted CS student surrounded by energy drinks, code on multiple screens, and job rejection emails",
@@ -95,7 +95,7 @@ export const metadata = {
       "From all-night coding sessions to internship rejections—what CS programs don't want you to know before you pay tuition.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
+      "https://img.mergesociety.com/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
     ],
   },
 
@@ -144,7 +144,8 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Brutal Truth About CS Degrees : What They Don't Tell You Before Enrollment",
-    image: "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
     datePublished: "2025-05-03T10:15:00Z",
     dateModified: "2025-05-03T10:15:00Z",
     author: {

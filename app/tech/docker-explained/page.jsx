@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+        url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
         width: 1200,
         height: 630,
         alt: "Docker 2025 containerization workflow from development to production deployment",
@@ -96,7 +96,7 @@ export const metadata = {
       "Just updated! Learn Docker from scratch to production deployment with latest security practices and optimization techniques.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
     ],
   },
 
@@ -170,7 +170,7 @@ export const metadata = {
       "Complete Docker Guide: From Development to Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
       width: 1200,
       height: 630,
     },
@@ -181,10 +181,6 @@ export const metadata = {
       name: "Alex Chen",
       url: "https://www.mergesociety.com/about",
       jobTitle: "Senior DevOps Engineer",
-      sameAs: [
-        "https://linkedin.com/in/alex-chen-devops",
-        "https://github.com/alexchen-devops",
-      ],
     },
     publisher: {
       "@type": "Organization",

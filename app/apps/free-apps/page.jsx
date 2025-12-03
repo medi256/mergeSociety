@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Streaming Guides",
     images: [
       {
-        url: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+        url: "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
         width: 1200,
         height: 630,
         alt: "Fire Stick with streaming apps comparison showing more content than Netflix",
@@ -80,7 +80,9 @@ export const metadata = {
     description:
       "Learn how to set up your Fire Stick with free streaming apps that offer more movies and shows than paid services—complete step-by-step guide.",
     creator: "@streamingguides",
-    images: ["/mergesociety/best_gy0sdm_llz9x7.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
+    ],
   },
   metadataBase: new URL("https://www.mergesociety.com/apps/free-apps"),
   robots: {
@@ -118,7 +120,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "HowTo",
     name: "How to Install Free Streaming Apps on Fire Stick That Rival Netflix",
-    image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+    image: "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
     datePublished: "2025-04-27T10:00:00Z",
     dateModified: "2025-04-27T10:00:00Z",
     author: {
@@ -165,7 +167,8 @@ export const metadata = {
           "@type": "HowToDirection",
           text: "Use the search function on your Fire Stick to find and download the Downloader app from the Amazon App Store.",
         },
-        image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+        image:
+          "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
       },
       {
         "@type": "HowToStep",
@@ -175,7 +178,8 @@ export const metadata = {
           "@type": "HowToDirection",
           text: "Navigate to My Fire TV settings and enable ADB Debugging and Install unknown apps for Downloader.",
         },
-        image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+        image:
+          "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
       },
       {
         "@type": "HowToStep",
@@ -185,7 +189,8 @@ export const metadata = {
           "@type": "HowToDirection",
           text: "Use Downloader and Unlinked to install free streaming apps that offer movies, TV shows, and live sports.",
         },
-        image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+        image:
+          "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
       },
       {
         "@type": "HowToStep",
@@ -195,7 +200,8 @@ export const metadata = {
           "@type": "HowToDirection",
           text: "Install and configure IPVanish VPN to protect your privacy while streaming.",
         },
-        image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
+        image:
+          "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
       },
     ],
     totalTime: "PT30M",

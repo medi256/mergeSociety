@@ -56,7 +56,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -69,7 +69,7 @@ export const metadata = {
     description:
       "Trending Apps in the tech industry, including web apps, mobile apps, and software applications.",
     images: [
-      "https://res.cloudinary.com/dhgjhspsp/image/upload/v1745310224/ML_1_fqv1iq.png",
+      "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
     ],
   },
   robots: {
@@ -94,8 +94,7 @@ const Section4 = () => {
       id: 1,
       title:
         "The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration",
-      image:
-        "/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
+      image: "/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
       alt: "The Ultimate List: My 20 Favorite Android Apps of All Time",
       date: "April 27, 2025",
       articleRoute: "favorite-apps",
@@ -104,8 +103,7 @@ const Section4 = () => {
       id: 2,
       title:
         "The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
-      image:
-        "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+      image: "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
       alt: " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
       date: "April 27, 2025",
       articleRoute: "best-apps",
@@ -113,8 +111,7 @@ const Section4 = () => {
     {
       id: 3,
       title: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
-      image:
-        "/mergesociety/best_gy0sdm_llz9x7.jpg",
+      image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
       alt: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
       date: "April 27, 2025",
       articleRoute: "free-apps",
@@ -123,8 +120,7 @@ const Section4 = () => {
       id: 4,
       title:
         "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
-      image:
-        "/mergesociety/error_ylvaka_dc6kc0.jpg",
+      image: "/mergesociety/error_ylvaka_dc6kc0.jpg",
       alt: "Global Windows Outage: How a CrowdStrike Update Brought the World to  Its Knees",
       date: "April 27, 2025",
       articleRoute: "error",
@@ -133,8 +129,7 @@ const Section4 = () => {
       id: 5,
       title:
         "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer  Must Know",
-      image:
-        "/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+      image: "/mergesociety/crypto_l9kxvg_uu1awq.jpg",
       alt: "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
       date: "April 27, 2025",
       articleRoute: "crypto",
@@ -143,8 +138,7 @@ const Section4 = () => {
       id: 6,
       title:
         "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
-      image:
-        "/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      image: "/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
       alt: "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
       date: "April 30, 2025",
       articleRoute: "cool-tools",

@@ -55,13 +55,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 1200,
         height: 630,
         alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       },
       {
-        url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 600,
         height: 600,
         alt: "Full Stack JavaScript Developer Roadmap 2025",
@@ -85,14 +85,14 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    site: "@mergeSociety2",
+    site: "Merge Society",
     creator: "@manager70191",
     title:
       "Full Stack JavaScript Developer Roadmap 2025: Ultimate Guide to Landing Your First Dev Job",
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
     images: [
-      "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png", // Replace with your image
+        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png", // Replace with your image
         width: 1200,
         height: 630,
       },
@@ -201,7 +201,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+    url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
     width: 1200,
     height: 630,
   },
@@ -260,22 +260,6 @@ export const structuredData = {
     },
   ],
 };
-
-// export default function Article() {
-//   return (
-//     <>
-//       <script
-//         type="application/ld+json"
-//         dangerouslySetInnerHTML={{
-//           __html: JSON.stringify(structuredData)
-//         }}
-//       />
-//       <article className="blog-post">
-//         // Your article content here
-//       </article>
-//     </>
-//   );
-// }
 
 export default function Article() {
   return (

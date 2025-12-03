@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
         width: 600,
         height: 400,
         alt: "How to get good at coding - Complete learning roadmap",
@@ -43,7 +43,9 @@ export const metadata = {
       "Learn to Code: The No-Fluff Roadmap With Projects, AI, and LeetCode",
     description:
       "Complete guide to learning programming from zero to building real projects and passing interviews.",
-    images: ["/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
+    ],
   },
 
   other: {

@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
         width: 1200,
         height: 630,
         alt: "AI bots secretly infiltrating online communities with digital tendrils spreading across Reddit and social platforms",
       },
       {
-        url: "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
         width: 1200,
         height: 630,
         alt: "Person listening to a phone with AI voice cloning technology illustrated as sound waves morphing into deceptive patterns",
@@ -156,8 +156,7 @@ export const metadata = {
     headline:
       "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
     image: [
-      "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
-      "https://res.cloudinary.com/coderabbit/image/upload/v1753284672/voice-cloning-scam-illustration_qhbwyx.jpg",
+      "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
     ],
     datePublished: "2025-04-30T10:15:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -221,7 +220,6 @@ export const metadata = {
     },
   },
 
-  // 2025-specific AI-enhanced metadata
   contentAnalytics: {
     topicDensity: {
       "ai-bots": 0.29,

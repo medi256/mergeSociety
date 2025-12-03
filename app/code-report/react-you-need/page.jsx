@@ -28,7 +28,7 @@ export const metadata = {
     "JavaScript foundations React 19",
     "React developer prerequisites 2025",
     "JavaScript Simplified for React",
-    "Web Dev Simplified React course",
+    "Merge Society React course",
   ],
   category: "Web Development & JavaScript",
   openGraph: {
@@ -37,10 +37,10 @@ export const metadata = {
     description:
       "Master the 10 crucial JavaScript concepts you must understand before diving into React. Perfect for beginners and intermediate developers looking to build a solid foundation for React 19 development.",
     url: "https://www.mergesociety.com/code-report/react-you-need",
-    siteName: "Web Dev Simplified",
+    siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+        url: "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
         width: 1200,
         height: 630,
         alt: "JavaScript Concepts for React - Visual diagram showing the 10 essential concepts",
@@ -71,12 +71,12 @@ export const metadata = {
   },
   authors: [
     {
-      name: "Kyle from Web Dev Simplified",
+      name: "Kyle from Merge Society",
       url: "https://www.mergesociety.com/about",
     },
   ],
-  creator: "Web Dev Simplified",
-  publisher: "Web Dev Simplified",
+  creator: "Merge Society",
+  publisher: "Merge Society",
   alternates: {
     canonical: "https://www.mergesociety.com/code-report/react-you-need",
     languages: {
@@ -94,7 +94,7 @@ export const metadata = {
       "Master the 10 crucial JavaScript concepts before learning React. Updated for 2025 with React 19 compatibility.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     ],
   },
   robots: {
@@ -117,7 +117,7 @@ export const metadata = {
     category: "JavaScript",
     subcategory: "React Prerequisites",
     featured: true,
-    series: "Web Dev Simplified React Learning Path",
+    series: "Merge Society React Learning Path",
     complexity: "Beginner to Intermediate",
     relatedArticles: [
       "Understanding React Hooks: A Complete Guide",
@@ -145,18 +145,19 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
-    image: "/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {
       "@type": "Person",
-      name: "Kyle from Web Dev Simplified",
+      name: "Kyle from Merge Society",
       url: "https://www.mergesociety.com/about",
       jobTitle: "Web Developer and Coding Educator",
     },
     publisher: {
       "@type": "Organization",
-      name: "Web Dev Simplified",
+      name: "Merge Society",
       logo: {
         "@type": "ImageObject",
         url: "https://www.mergesociety.com/MS.png",
@@ -361,7 +362,7 @@ export const metadata = {
     technicalCitations: [
       "JavaScript Specification ECMAScript 2025",
       "React 19 Official Documentation, April 2025",
-      "Web Dev Simplified Course Materials, 2025 Edition",
+      "Merge Society Course Materials, 2025 Edition",
       "Modern JavaScript for React Developers Handbook, 2025",
     ],
     methodologyNotes: {
@@ -968,8 +969,7 @@ export default function Article() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Web Dev Simplified’s JavaScript Simplified course table of
-              contents
+              Merge Society’s JavaScript Simplified course table of contents
             </a>
             —the checklist pros use to crush React.
           </p>

@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        url: "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
         width: 1200,
         height: 630,
         alt: "AI agents orchestrating tools and systems autonomously in 2025",
@@ -67,7 +67,7 @@ export const metadata = {
       "The explosive shift from monolithic AI to compound systems is here. See how AI agents now reason, act, and remember to solve complex problems.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+      "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     ],
   },
 
@@ -126,7 +126,7 @@ export const jsonLd = {
     "AI Agents 2025: The Explosive Shift From Static Models to Compound Systems (And Why Everyone's Getting It Wrong)",
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+    url: "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     width: 1200,
     height: 630,
   },

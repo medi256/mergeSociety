@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        url: "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
         width: 1200,
         height: 630,
         alt: "Visualization of neural network activation atlas and embedding spaces showing how AI organizes knowledge",
@@ -46,7 +46,7 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     publishedTime: "2025-05-01T08:00:00Z",
-    modifiedTime: "2025-06-30T12:00:00Z", // Updated today
+    modifiedTime: "2025-06-30T12:00:00Z",
     section: "Artificial Intelligence",
     tags: [
       "Activation Atlas",
@@ -69,7 +69,7 @@ export const metadata = {
       "Fresh 2025 insights: Explore activation atlases and embedding spaces that reveal how AI models like AlexNet and ChatGPT secretly organize intelligence.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     headline:
       "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence",
     image:
-      "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-06-30T12:00:00Z",
     author: {

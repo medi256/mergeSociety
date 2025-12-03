@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
         width: 1200,
         height: 630,
         alt: "Programming language roadmap showing the progression from beginner to expert languages",
@@ -88,7 +88,9 @@ export const metadata = {
     description:
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
-    images: ["/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+    ],
   },
 
   robots: {
@@ -144,7 +146,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
-    image: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -152,10 +155,6 @@ export const metadata = {
       name: "Medi",
       url: "https://www.mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
-      sameAs: [
-        "https://linkedin.com/in/yourprofile",
-        "https://github.com/yourprofile",
-      ],
     },
     publisher: {
       "@type": "Organization",

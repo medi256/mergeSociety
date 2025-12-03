@@ -12,8 +12,8 @@ const CONFIG = {
 
   // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
   urlMappings: {
-    "/mergesociety/is_coding_worth_it_in_2025?.webp":
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/is_coding_worth_it_in_2025.webp",
+    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png":
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
   },
 
   createBackup: true,

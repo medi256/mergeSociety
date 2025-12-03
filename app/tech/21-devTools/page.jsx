@@ -29,7 +29,6 @@ export const metadata = {
 
   category: "Web Development",
 
-  // Updated OpenGraph for better social sharing
   openGraph: {
     title: "21 Chrome DevTools Secrets Every Developer Should Know in 2025",
     description:
@@ -38,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/971_dx26ro_qm5n0m.jpg",
+        url: "https://img.mergesociety.com/mergesociety/971_dx26ro_qm5n0m.jpg",
         width: 1200,
         height: 630,
         alt: "Chrome DevTools interface showing advanced debugging features and performance panels",
@@ -47,7 +46,7 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     publishedTime: "2025-05-09T10:00:00Z",
-    modifiedTime: new Date().toISOString(), // Current timestamp for updated content
+    modifiedTime: new Date().toISOString(),
     section: "Web Development",
     tags: [
       "Chrome DevTools",
@@ -65,7 +64,7 @@ export const metadata = {
     description:
       "Discover console tricks, design mode hacks, and performance debugging techniques that most developers never learn. Updated for 2025!",
     creator: "@manager70191",
-    images: ["/mergesociety/971_dx26ro_qm5n0m.jpg"],
+    images: ["https://img.mergesociety.com/mergesociety/971_dx26ro_qm5n0m.jpg"],
   },
 
   // SEO Optimizations
@@ -89,7 +88,6 @@ export const metadata = {
     },
   },
 
-  // Structured Data for Rich Results
   other: {
     "article:published_time": "2025-05-09T10:00:00Z",
     "article:modified_time": new Date().toISOString(),
@@ -110,7 +108,7 @@ export const metadata = {
       "Master hidden Chrome DevTools secrets for debugging, performance optimization, and productivity hacks. Includes console tricks, design mode, and advanced techniques most developers never discover.",
     image: {
       "@type": "ImageObject",
-      url: "/mergesociety/971_dx26ro_qm5n0m.jpg",
+      url: "https://img.mergesociety.com/mergesociety/971_dx26ro_qm5n0m.jpg",
       width: 1200,
       height: 630,
     },
@@ -128,7 +126,7 @@ export const metadata = {
       url: "https://www.mergesociety.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/logo.png",
+        url: "https://www.mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
@@ -185,7 +183,9 @@ export const metadata = {
 
   // Performance and Core Web Vitals hints
   performance: {
-    preload: ["/mergesociety/971_dx26ro_qm5n0m.jpg"],
+    preload: [
+      "https://img.mergesociety.com/mergesociety/971_dx26ro_qm5n0m.jpg",
+    ],
     prefetch: ["/tech/javascript-features", "/tech/docker-explained"],
   },
 

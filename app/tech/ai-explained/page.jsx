@@ -49,7 +49,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
         width: 1200,
         height: 630,
         alt: "How Chatbots Work - Transformers and Attention Mechanisms Explained",
@@ -62,7 +62,9 @@ export const metadata = {
       "How Chatbots Actually Work: Transformers, Attention & Next-Word Prediction",
     description:
       "Learn how AI chatbots use transformer architectures, attention mechanisms, and massive training datasets to predict text one word at a time. A complete technical walkthrough.",
-    images: ["/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+    ],
   },
   robots: {
     index: true,
@@ -95,7 +97,8 @@ export const jsonLd = {
     "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
   description:
     "A comprehensive explanation of how modern AI chatbots function, covering transformers, attention mechanisms, training processes, and the computational scale required for large language models.",
-  image: "/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+  image:
+    "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
   datePublished: "2025-10-03T00:00:00.000Z",
   dateModified: "2025-10-03T00:00:00.000Z",
   author: {

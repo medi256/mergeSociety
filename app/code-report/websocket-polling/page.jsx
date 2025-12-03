@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
         width: 1200,
         height: 630,
         alt: "WebSocket vs Polling vs Long Polling Communication Patterns Comparison",
@@ -79,7 +79,7 @@ export const metadata = {
       "Complete comparison of WebSockets, polling & long polling. Learn when to use each for chat apps, trading platforms & real-time dashboards.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+      "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
     ],
   },
 
@@ -142,7 +142,7 @@ export const metadata = {
         "Comprehensive comparison of WebSockets, polling, and long polling techniques for building real-time web applications, with performance analysis and implementation examples.",
       image: {
         "@type": "ImageObject",
-        url: "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -198,7 +198,7 @@ export const metadata = {
       description:
         "Step-by-step guide to selecting the right real-time communication method for your web application",
       image:
-        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
       totalTime: "PT15M",
       estimatedCost: {
         "@type": "MonetaryAmount",

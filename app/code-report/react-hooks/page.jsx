@@ -46,10 +46,10 @@ export const metadata = {
     description:
       "Learn when, why, and how to use all React hooks with practical examples. From useState to useTransition and beyond - your definitive resource for React hooks in 2025.",
     url: "https://www.mergesociety.com/code-report/react-hooks",
-    siteName: "React Mastery",
+    siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+        url: "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
         width: 1200,
         height: 630,
         alt: "React Hooks Guide 2025 - Visual diagram showing all hooks and their relationships",
@@ -87,8 +87,8 @@ export const metadata = {
       url: "https://www.mergesociety.com/about",
     },
   ],
-  creator: "React Mastery",
-  publisher: "React Mastery",
+  creator: "Merge Society",
+  publisher: "Merge Society",
   alternates: {
     canonical: "https://www.mergesociety.com/code-report/react-hooks",
     languages: {
@@ -106,7 +106,7 @@ export const metadata = {
       "Learn when, why, and how to use all React hooks with practical examples - from useState to the latest React 19 hooks.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
     ],
   },
   robots: {
@@ -157,7 +157,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
-    image: "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: {
@@ -168,7 +169,7 @@ export const metadata = {
     },
     publisher: {
       "@type": "Organization",
-      name: "React Mastery",
+      name: "Merge Society",
       logo: {
         "@type": "ImageObject",
         url: "https://www.mergesociety.com/MS.png",

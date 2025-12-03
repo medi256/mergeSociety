@@ -36,7 +36,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide 2025",
@@ -52,7 +52,7 @@ export const metadata = {
       "Master PC building with our 2025 guide. Learn about the latest components, optimal configurations, and step-by-step assembly instructions for every budget.",
     creator: "@PCBuilder",
     images: [
-      "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
     ],
   },
 
@@ -113,7 +113,7 @@ export const metadata = {
     headline:
       "How to Build a PC in 2025: PC Parts Explained, Step-by-Step Guide & Best CPU/GPU Combos",
     image:
-      "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {
@@ -208,9 +208,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg"
-          }
+          src={"/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg"}
           alt="PC Gaming Components Guide 2025"
           width={600}
           height={400}

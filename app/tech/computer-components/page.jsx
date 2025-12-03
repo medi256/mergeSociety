@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Tech Explained",
     images: [
       {
-        url: "/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+        url: "https://img.mergesociety.com/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
         width: 1200,
         height: 630,
         alt: "An exploded view of computer components showing CPU, motherboard, RAM, graphics card, and storage devices",
@@ -81,7 +81,7 @@ export const metadata = {
       "From CPU to cooling systems, this comprehensive guide breaks down the essential components that power every computer.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+      "https://img.mergesociety.com/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -131,7 +131,7 @@ export const metadata = {
     headline:
       "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
     image:
-      "/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+      "https://img.mergesociety.com/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {
@@ -595,9 +595,7 @@ export default function Article() {
           and Brain of Your PC
         </h1>
         <Image
-          src={
-            "/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg"
-          }
+          src={"/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg"}
           alt="The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC"
           width={600}
           height={400}

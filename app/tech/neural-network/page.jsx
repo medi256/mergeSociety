@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Advanced AI Learning Insights",
     images: [
       {
-        url: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+        url: "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of neural network layers processing handwritten digits from pixels to predictions",
@@ -97,7 +97,9 @@ export const metadata = {
     description:
       "Our May Day special cuts through AI hype: Understand how neural networks really work, why layered architectures matter, and the beautiful intuition behind deep learning's true power.",
     creator: "@manager70191",
-    images: ["/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+    ],
   },
   robots: {
     index: true,
@@ -145,7 +147,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
-    image: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+    image:
+      "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [

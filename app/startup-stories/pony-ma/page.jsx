@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "TechHistory Archives",
     images: [
       {
-        url: "/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
+        url: "https://img.mergesociety.com/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
         width: 1200,
         height: 630,
         alt: "Ma Huateng (Pony Ma) - The quiet founder who built Tencent's digital empire and revolutionized the tech industry",
@@ -83,7 +83,9 @@ export const metadata = {
     description:
       "The untold story of Tencent's rise: How a shy engineer from Shenzhen broke every Silicon Valley rule to build China's most powerful tech empire.",
     creator: "@manager70191",
-    images: ["/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
+    ],
   },
 
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -158,7 +160,7 @@ export const metadata = {
 
     image: {
       "@type": "ImageObject",
-      url: "/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
+      url: "https://img.mergesociety.com/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
       width: 1200,
       height: 630,
       caption:

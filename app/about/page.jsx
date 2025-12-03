@@ -46,7 +46,6 @@ const AboutPage = () => {
   return (
     <div className="about-container">
       <div className="about-content">
-        {/* Hero Section */}
         <section className="about-hero">
           <h1>About MergeSociety</h1>
           <p>
@@ -57,7 +56,6 @@ const AboutPage = () => {
           </p>
         </section>
 
-        {/* What is MergeSociety? */}
         <section className="about-section">
           <h2>What is MergeSociety?</h2>
           <p>
@@ -73,7 +71,6 @@ const AboutPage = () => {
           </p>
         </section>
 
-        {/* What We Offer */}
         <section className="about-section">
           <h2>What We Offer</h2>
           <ul>
@@ -100,7 +97,6 @@ const AboutPage = () => {
           </ul>
         </section>
 
-        {/* Who is it for? */}
         <section className="about-section">
           <h2>Who is MergeSociety For?</h2>
           <p>
@@ -110,7 +106,6 @@ const AboutPage = () => {
           </p>
         </section>
 
-        {/* Our Story */}
         <section className="about-section">
           <h2>Our Story</h2>
           <p>
@@ -125,7 +120,6 @@ const AboutPage = () => {
           </p>
         </section>
 
-        {/* Meet the Founder */}
         <section className="about-section">
           <h2>Meet the Founder</h2>
           <div className="founder-details">
@@ -140,7 +134,6 @@ const AboutPage = () => {
           </div>
         </section>
 
-        {/* Call to Action */}
         <section className="about-cta">
           <h2>Join the MergeSociety Movement</h2>
           <p>

@@ -56,7 +56,7 @@ export const metadata = {
     siteName: "Merge Society Blog",
     images: [
       {
-        url: "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
         width: 600,
         height: 400,
         alt: "Legendary Programmers of all time - the coding legends who shaped modern technology",
@@ -103,7 +103,9 @@ export const metadata = {
     title: "The Legendary Programmers Who Built Everything You Use",
     description:
       "From the Finnish student who created Linux to the MIT hacker who started the free software movement - meet the coding legends behind modern computing.",
-    images: ["/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp"],
+    images: [
+      "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+    ],
   },
 
   robots: {
@@ -151,7 +153,8 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Legendary Programmers: The Messiahs, Madmen, and Makers Behind Your Favorite Tools",
-    image: "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+    image:
+      "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
     datePublished: "2025-08-22T00:00:00Z",
     dateModified: "2025-08-22T00:00:00Z",
     author: {

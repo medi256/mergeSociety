@@ -38,10 +38,10 @@ export const metadata = {
     description:
       "Discover why MongoDB has become the world's leading document database and how its flexible, scalable architecture is transforming application development .",
     url: "https://www.mergesociety.com/code-report/mongodb-explained",
-    siteName: "Your Tech Blog",
+    siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/MongoDB_Logo.jpg",
+        url: "https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg",
         width: 1200,
         height: 630,
         alt: "MongoDB database architecture visualization",
@@ -68,7 +68,7 @@ export const metadata = {
 
   authors: [
     {
-      name: "Your Tech Team",
+      name: "Massa Medi",
       url: "https://www.mergesociety.com/about",
     },
   ],
@@ -90,10 +90,8 @@ export const metadata = {
     title: "MongoDB : The Database Powering Modern Applications",
     description:
       "Learn how MongoDB's flexible document model and scalable architecture have made it the go-to database for today's most demanding applications.",
-    creator: "@yourtwitterhandle",
-    images: [
-      "/mergesociety/MongoDB_Logo.jpg",
-    ],
+    creator: "@manager70191",
+    images: ["https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg"],
   },
 
   robots: {
@@ -142,13 +140,12 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "MongoDB : The Evolution of NoSQL Databases for Modern Applications",
-    image:
-      "/mergesociety/MongoDB_Logo.jpg",
+    image: "https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg",
     datePublished: "2025-05-07T08:00:00Z",
     dateModified: "2025-05-07T08:00:00Z",
     author: {
       "@type": "Organization",
-      name: "Your Tech Team",
+      name: "Massa Medi",
       url: "https://www.mergesociety.com/about",
       description: "Database specialists focused on modern data architectures",
     },

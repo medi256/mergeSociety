@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
         width: 1200,
         height: 630,
         alt: "Top Programming Languages for AI and Machine Learning in 2025",
@@ -96,7 +96,7 @@ export const metadata = {
       "Comprehensive guide to Python, R, Julia, Java & JavaScript for AI and machine learning projects. Compare strengths and find the perfect language for your needs.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for AI and Machine Learning in 2025",
     image:
-      "/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
     datePublished: "2025-05-16T08:00:00Z",
     dateModified: "2025-05-16T08:00:00Z",
     author: {
@@ -354,7 +354,6 @@ export const metadata = {
     emailCampaignSegment: "AI and machine learning development subscribers",
   },
 
-  // User engagement strategy
   userEngagement: {
     commentStrategy:
       "encourage sharing of language-specific AI project experiences",

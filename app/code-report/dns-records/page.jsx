@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+        url: "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
         width: 1200,
         height: 630,
         alt: "DNS Records Infographic showing how domain names connect to IP addresses",
@@ -91,9 +91,9 @@ export const metadata = {
     title: "DNS Records Explained: The Complete Guide for 2025",
     description:
       "Learn everything about DNS records: how A, CNAME, MX, TXT & other records work with practical examples for domain configuration, email setup & security.",
-    creator: "@yourtwitterhandle",
+    creator: "@manager70191",
     images: [
-      "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+      "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
     ],
   },
 
@@ -145,8 +145,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline: "DNS Records Explained: A Complete Guide for 2025",
-    image:
-      "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+    image: "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -314,9 +313,7 @@ export default function Article() {
           Securing Your Domain's Backbone
         </h1>
         <Image
-          src={
-            "/mergesociety/4084_qpacfm_z9pvmi.jpg"
-          }
+          src={"/mergesociety/4084_qpacfm_z9pvmi.jpg"}
           alt="DNS Records Infographic showing how domain names connect to IP addresses"
           width={600}
           height={400}

@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
         width: 600,
         height: 400,
         alt: "Computer Science Career Strategy - Focus on depth over breadth",
@@ -56,7 +56,7 @@ export const metadata = {
     description:
       "Stop learning everything and master one thing. The real playbook for landing your first CS job.",
     images: [
-      "/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
     ],
   },
   robots: {
@@ -93,9 +93,7 @@ export default function ComputerScienceCareerDepthArticle() {
           Role
         </h1>
         <Image
-          src={
-            "/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp"
-          }
+          src={"/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp"}
           alt="Computer Science Career Depth Article Image"
           width={600}
           height={400}

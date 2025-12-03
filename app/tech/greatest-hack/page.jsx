@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Cybersecurity Intelligence Report",
     images: [
       {
-        url: "/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+        url: "https://img.mergesociety.com/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
         width: 1200,
         height: 630,
         alt: "Updated analysis of the Shadow Brokers NSA breach showing current cybersecurity implications",
@@ -45,7 +45,7 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     publishedTime: "2025-05-01T08:30:00Z",
-    modifiedTime: "2025-07-01T14:45:00Z", // Updated timestamp
+    modifiedTime: "2025-07-01T14:45:00Z",
     section: "Updated Cybersecurity Analysis",
     tags: [
       "Updated Investigation",
@@ -89,7 +89,7 @@ export const metadata = {
       "Updated investigation: Complete Shadow Brokers NSA breach analysis with fresh insights into EternalBlue's current impact and lasting cybersecurity consequences.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+      "https://img.mergesociety.com/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
     ],
   },
 
@@ -161,7 +161,7 @@ export const metadata = {
     headline:
       "Shadow Brokers NSA Hack: Complete 2025 Analysis | Updated Investigation",
     image:
-      "/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+      "https://img.mergesociety.com/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
     datePublished: "2025-05-01T08:30:00Z",
     dateModified: "2025-07-01T14:45:00Z",
     author: [

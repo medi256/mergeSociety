@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
         width: 1200,
         height: 630,
         alt: "Programming Languages for Different Tech Careers in 2025",
@@ -102,7 +102,7 @@ export const metadata = {
       "Find your perfect programming language match based on your dream tech job. From game dev to AI, web to blockchain - comprehensive career guide for 2025.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
     ],
   },
 
@@ -154,7 +154,7 @@ export const metadata = {
     headline:
       "Best Programming Language for Each Job in 2025: A Comprehensive Beginner's Guide",
     image:
-      "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
     datePublished: "2025-05-16T08:00:00Z",
     dateModified: "2025-05-16T08:00:00Z",
     author: {
@@ -587,9 +587,7 @@ export default function Article() {
           Comprehensive Beginner’s Guide
         </h1>
         <Image
-          src={
-            "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg"
-          }
+          src={"/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg"}
           alt="Best Programming Language for Each Tech Career Job in 2025"
           width={600}
           height={400}

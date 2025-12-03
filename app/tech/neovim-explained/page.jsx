@@ -34,7 +34,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+        url: "https://img.mergesociety.com/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
         width: 1200,
         height: 630,
         alt: "Neovim Modern Guide",
@@ -49,7 +49,7 @@ export const metadata = {
       "Learn why developers love Neovim. Discover key features, Lua setup, plugins, and the tools that make it a powerful modern editor.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+      "https://img.mergesociety.com/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
     ],
   },
 
@@ -106,7 +106,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Neovim: The Ultimate Guide to Modern Code Editing",
     image:
-      "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+      "https://img.mergesociety.com/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {

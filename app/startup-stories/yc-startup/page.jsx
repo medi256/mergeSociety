@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+        url: "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
         width: 1200,
         height: 630,
         alt: "Y Combinator mock interview practice guide with the 5 most important questions and how to answer them",
@@ -106,7 +106,7 @@ export const metadata = {
       "Real YC founder walks you through the exact interview. Practice answering 'What are you working on?', traction proof, unique insight + more. Interactive format.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
     ],
   },
 
@@ -166,7 +166,7 @@ export const metadata = {
     description:
       "Interactive practice guide for Y Combinator interviews with the 5 most important questions and expert answers from a YC founder who raised $13M+",
     image:
-      "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
     totalTime: "PT10M",
     estimatedCost: {
       "@type": "MonetaryAmount",
@@ -657,9 +657,7 @@ export default function YCMockInterviewArticle() {
           Combinator and How To Answer Them
         </h1>
         <Image
-          src={
-            "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg"
-          }
+          src={"/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg"}
           alt="The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them"
           width={600}
           height={400}

@@ -30,7 +30,7 @@ export const metadata = {
   publisher: {
     name: "Merge Society",
     logo: {
-      url: "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      url: "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
       width: 400,
       height: 100,
       alt: "Merge Society",
@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
         width: 1200,
         height: 630,
         alt: "Google Headquarters in Mountain View, California",
@@ -60,7 +60,7 @@ export const metadata = {
       "Google recruiters reveal the step-by-step process for landing your dream tech job in 2025. Learn what it takes to become a Googler.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
     ],
   },
   alternates: {
@@ -88,9 +88,9 @@ export const metadata = {
     "@type": "NewsArticle",
     headline: "Google Job Application Guide 2025: Insider Tips from Recruiters",
     image: [
-      "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
-      "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
-      "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
     ],
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T14:15:00Z",
@@ -104,7 +104,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
         width: 400,
         height: 100,
       },

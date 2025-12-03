@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
+        url: "https://img.mergesociety.com/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
         width: 1200,
         height: 630,
         alt: "Dave Plummer in his garage workshop discussing the future of programming careers in the age of AI",
@@ -82,7 +82,7 @@ export const metadata = {
       "Despite AI's rapid advancement in code generation, veteran Microsoft engineer Dave Plummer explains why top debugging skills and problem-solving abilities will remain irreplaceable.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
+      "https://img.mergesociety.com/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -132,7 +132,7 @@ export const metadata = {
     headline:
       "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
     image:
-      "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
+      "https://img.mergesociety.com/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
     datePublished: "2025-04-26T14:00:00Z",
     dateModified: "2025-04-26T14:00:00Z",
     author: {
@@ -533,9 +533,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg"
-          }
+          src={"/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg"}
           alt="Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs"
           width={600}
           height={400}

@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "TechLearning Academy",
     images: [
       {
-        url: "/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+        url: "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
         width: 1200,
         height: 630,
         alt: "AI Revolution Learning Module - The past, present and future of artificial intelligence",
@@ -81,7 +81,7 @@ export const metadata = {
       "Learn about the evolution of AI through Geoffrey Hinton's work and the challenges of managing increasingly powerful artificial intelligence systems.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+      "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -129,7 +129,7 @@ export const metadata = {
     "@type": "Course",
     name: "AI Revolution: From Neural Networks to Global Impacts",
     image:
-      "/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+      "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     description:
       "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
     provider: {

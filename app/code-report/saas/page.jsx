@@ -32,10 +32,10 @@ export const metadata = {
     description:
       "Discover powerful free and open source alternatives to popular subscription software and reclaim your digital freedom. Stop renting your tools - own them forever!",
     url: "https://www.mergesociety.com/code-report/saas",
-    siteName: "Freedom Tech",
+    siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+        url: "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
         width: 1200,
         height: 630,
         alt: "A person breaking free from chains labeled with SaaS company logos",
@@ -66,8 +66,8 @@ export const metadata = {
       url: "https://www.mergesociety.com/about",
     },
   ],
-  creator: "Freedom Tech",
-  publisher: "Freedom Tech",
+  creator: "Merge Society",
+  publisher: "Merge Society",
   alternates: {
     canonical: "https://www.mergesociety.com/code-report/saas",
     languages: {
@@ -84,7 +84,7 @@ export const metadata = {
       "Learn how to replace expensive subscription software with powerful free and open source alternatives that you own forever.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -141,7 +141,7 @@ export const metadata = {
     headline:
       "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
     image:
-      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -151,7 +151,7 @@ export const metadata = {
     },
     publisher: {
       "@type": "Organization",
-      name: "Freedom Tech",
+      name: "Merge Society",
       logo: {
         "@type": "ImageObject",
         url: "https://www.mergesociety.com/MS.png",
@@ -385,9 +385,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg"
-          }
+          src={"/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg"}
           alt="From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell"
           width={600}
           height={400}
