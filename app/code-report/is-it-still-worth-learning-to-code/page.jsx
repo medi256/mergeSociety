@@ -855,6 +855,31 @@ const CodingIsDead = () => {
           Thanks for reading. I’m Medi, and I’ll see you on the next one. Until
           then, keep learning, keep building, and take care of yourself. Bye.
         </p>
+
+        <h2>Further Reading</h2>
+        <ul>
+          <li>
+            <Link href="/code-report/pointers-in-c-and-cpp">
+              Pointers in C/C++ - what a pointer is, how pointer syntax works,
+              and why programmers care
+            </Link>
+          </li>
+          <li>
+            <Link href="/code-report/what-is-a-compiler">
+              What a Compiler Really Is
+            </Link>
+          </li>
+          <li>
+            <Link href="/code-report/https_and_https">
+              HTTP vs HTTPS: Complete SSL/TLS Security Guide
+            </Link>
+          </li>
+          <li>
+            <Link href="/code-report/python-libraries">
+              Python Library and Frameworks
+            </Link>
+          </li>
+        </ul>
       </article>
     </div>
   );

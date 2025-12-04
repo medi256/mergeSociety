@@ -780,28 +780,33 @@ export default function Article() {
           <h2>Internal Resources for Next-Level Learning</h2>
           <ul>
             <li>
-              <a href="/code-report/rest-api">
+              <Link href="/code-report/rest-api">
                 REST API Meaning: The Backbone of Modern Cloud Application
                 Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/code-report/sdk-vs-api">
+              <Link href="/code-report/sdk-vs-api">
                 APIs vs SDKs Explained: How They Turbocharge Modern Cloud App
                 Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/code-report/websocket-polling">
+              <Link href="/code-report/https_and_https">
+                HTTP vs HTTPS: Complete SSL/TLS Security Guide
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/websocket-polling">
                 WebSockets vs. Polling vs. Long Polling: How Web Sockets work |
                 System Design Interview Basics
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/code-report/websocets-explained">
+              <Link href="/code-report/websocets-explained">
                 WebSockets in 100 Seconds: An In Depth Guide to WebSockets,
                 Socket.IO, and the Future of Real Time Communication
-              </a>
+              </Link>
             </li>
           </ul>
         </section>

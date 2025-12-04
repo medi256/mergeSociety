@@ -722,6 +722,11 @@ const Page = () => {
                   HTTP 1 Vs HTTP 2 Vs HTTP 3!
                 </Link>
               </li>
+              <li>
+                <Link href="/code-report/https_and_https">
+                  HTTP vs HTTPS: Complete SSL/TLS Security Guide
+                </Link>
+              </li>
             </ul>
           </aside>
           <p>Thanks for reading. Until next time.</p>

@@ -905,6 +905,11 @@ export default function Article() {
                 Git Basic Commands Step-By-Step Guide
               </Link>
             </li>
+            <li>
+              <Link href="/code-report/https_and_https">
+                HTTP vs HTTPS: Complete SSL/TLS Security Guide
+              </Link>
+            </li>
           </ul>
         </section>
 

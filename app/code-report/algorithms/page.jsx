@@ -677,6 +677,11 @@ export default function Article() {
           <li>
             <Link href="/code-report/apis-explained">APIs Explained</Link>
           </li>
+          <li>
+            <Link href="/code-report/https_and_https">
+              HTTP vs HTTPS: Complete SSL/TLS Security Guide
+            </Link>
+          </li>
         </ul>
         <CommentSection />
       </article>

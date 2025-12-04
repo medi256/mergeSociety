@@ -438,6 +438,14 @@ const Section6 = () => {
       date: "December 3, 2025",
       articleRoute: "basic-git-commands",
     },
+    {
+      id: 39,
+      title: "HTTP, Secure HTTP, SSL, and TLS - what they are, how they work",
+      image: "/mergesociety/https_and_https.webp",
+      alt: "HTTP, Secure HTTP, SSL, and TLS - what they are, how they work",
+      date: "December 4, 2025",
+      articleRoute: "https_and_https",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

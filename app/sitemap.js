@@ -33,6 +33,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/https_and_https`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/latest`,
       lastModified: new Date(),
     },
