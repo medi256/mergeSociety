@@ -707,8 +707,7 @@ export const JSProjectss = () => {
     {
       id: "2js",
       title: "Random Quote Generator",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584814/javascript_randomquote_el9bfx.jpg",
+
       alt: "Random Quote Generator javascript project",
       date: "January 7, 2025",
       description:
@@ -717,8 +716,7 @@ export const JSProjectss = () => {
     {
       id: "3js",
       title: "JavaScript Quiz Game",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584905/Quiz-App-01_zwez9e.png",
+
       alt: "JavaScript Quiz Game javascript project",
       date: "January 15, 2025",
       description:
@@ -727,8 +725,7 @@ export const JSProjectss = () => {
     {
       id: "4js",
       title: "Weather App with API",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736585719/weather-app_nynylh.jpg",
+
       alt: "Weather App with API javascript project",
       date: "January 9, 2025",
       description:
@@ -737,8 +734,7 @@ export const JSProjectss = () => {
     {
       id: "5js",
       title: "JavaScript Calculator",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
+
       alt: "JavaScript Calculator javascript project",
       date: "January 17, 2025",
       description:
@@ -747,8 +743,7 @@ export const JSProjectss = () => {
     {
       id: "6js",
       title: "Sorting Algorithm Visualizer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736587158/js_hjlvsn.jpg",
+
       alt: "Sorting Algorithm Visualizer javascript project",
       date: "January 7, 2025",
       description:
@@ -768,16 +763,6 @@ export const JSProjectss = () => {
             passHref
           >
             <div className="post-card">
-              {/* <div className="post-image">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  width={600}
-                  height={400}
-                  className="project-image"
-                  priority
-                />
-              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

@@ -51,16 +51,7 @@ const RestaurantMenuHtml = () => {
         className="lesson-container"
       >
         <h1>Building Your First Restaurant Menu Website with HTML</h1>
-        {/* <Image
-          src={
-            "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497900/restuarat_p5vq9d.jpg"
-          }
-          alt={"HTML Resume Tutorial"}
-          width={600}
-          height={400}
-          className="project-image"
-          priority
-        /> */}
+
         <h3 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>
@@ -862,8 +853,7 @@ export const HtmlProjectssss = () => {
       title: "Create a Personal Profile Page Using HTML",
       description:
         "Learn how to build a simple personal profile page using only HTML. This project covers essential HTML elements like headings, paragraphs, lists, and links. Perfect for beginners who want to practice structuring web pages.",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736751796/searchengine_d6udik.jpg",
+
       alt: "Personal Profile Page Example",
       date: "January 15, 2025",
     },
@@ -872,8 +862,7 @@ export const HtmlProjectssss = () => {
       title: "Build a Professional Resume with HTML",
       description:
         "Design a structured and professional resume using HTML. This project teaches you how to use tables, lists, and semantic HTML tags to represent work experience, skills, and education. Great for showcasing your HTML skills!",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736497289/portfolio_zv717y.jpg",
+
       alt: "HTML Resume Example",
       date: "January 17, 2025",
     },
@@ -882,8 +871,7 @@ export const HtmlProjectssss = () => {
       title: "Create a Weekly Schedule with HTML Tables",
       description:
         "Master HTML tables by creating a weekly schedule. This project demonstrates how to use table rows, columns, and headers to organize information effectively. Ideal for beginners learning HTML structure.",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736673928/no-code_zdelwk.jpg",
+
       alt: "Weekly Schedule Example",
       date: "January 14, 2025",
     },
@@ -892,8 +880,7 @@ export const HtmlProjectssss = () => {
       title: "Build a Photo Gallery with HTML",
       description:
         "Learn how to create a static photo gallery using HTML image tags and captions. This project emphasizes the use of alt attributes for accessibility and proper image embedding. Great for practicing HTML media elements!",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498269/website_otg5ab.jpg",
+
       alt: "Photo Gallery Example",
       date: "january 5, 2025",
     },
@@ -902,8 +889,7 @@ export const HtmlProjectssss = () => {
       title: "Create an Event Invitation Page with HTML",
       description:
         "Design an event invitation page using only HTML. This project covers headings, paragraphs, lists, and hyperlinks to create a visually appealing and functional page. Perfect for advanced HTML learners!",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736498445/event_iu3yfu.jpg",
+
       alt: "Event Invitation Example",
       date: "February 12, 2025",
     },
@@ -920,16 +906,6 @@ export const HtmlProjectssss = () => {
             className="post-description"
           >
             <div className="post-card">
-              {/* <div className="post-image">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  width={600}
-                  height={400}
-                  className="project-image"
-                  priority
-                />
-              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

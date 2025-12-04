@@ -1,6 +1,6 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import "../cp.css";
 
@@ -947,8 +947,6 @@ export const CssProjectss = () => {
     {
       id: "2c",
       title: "Style a Blog Post with CSS",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577431/cssblog_stuovd.jpg",
       alt: "Style a Blog Post with CSS",
       date: "January 5, 2025",
       description:
@@ -957,8 +955,6 @@ export const CssProjectss = () => {
     {
       id: "3c",
       title: "Create a Responsive Navigation Menu",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577561/cssresume_n7bzyu.jpg",
       alt: "Create a Responsive Navigation Menu",
       date: "January 17, 2025",
       description:
@@ -967,8 +963,6 @@ export const CssProjectss = () => {
     {
       id: "4c",
       title: "Design an Advanced Pricing Table",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg",
       alt: "Design an Advanced Pricing Table",
       date: "January 16, 2025",
       description:
@@ -977,8 +971,6 @@ export const CssProjectss = () => {
     {
       id: "5c",
       title: "Build a Parallax Scrolling Effect",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577912/csstype_prlpwm.jpg",
       alt: "Build a Parallax Scrolling Effect",
       date: "January 3, 2025",
       description:
@@ -987,8 +979,6 @@ export const CssProjectss = () => {
     {
       id: "6c",
       title: "Create a CSS Animation for Button Hover Effects",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736578044/lastCSS_wjgdhm.jpg",
       alt: "Create a CSS Animation for Button Hover Effects",
       date: "January 15, 2025",
       description:
@@ -1004,16 +994,6 @@ export const CssProjectss = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <div className="post-card">
-              {/* <div className="post-image">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  width={600}
-                  height={400}
-                  className="project-image"
-                  priority
-                />
-              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

@@ -758,8 +758,7 @@ export const JSProjectssssss = () => {
     {
       id: "1js",
       title: "To-Do List App",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584631/todo-list_bcl3hp.png",
+
       alt: "To-Do List App in javascript",
       date: "January 4, 2025",
       description:
@@ -768,8 +767,7 @@ export const JSProjectssssss = () => {
     {
       id: "2js",
       title: "Random Quote Generator",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584814/javascript_randomquote_el9bfx.jpg",
+
       alt: "Random Quote Generator javascript project",
       date: "January 7, 2025",
       description:
@@ -778,8 +776,7 @@ export const JSProjectssssss = () => {
     {
       id: "3js",
       title: "JavaScript Quiz Game",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736584905/Quiz-App-01_zwez9e.png",
+
       alt: "JavaScript Quiz Game javascript project",
       date: "January 15, 2025",
       description:
@@ -788,8 +785,7 @@ export const JSProjectssssss = () => {
     {
       id: "4js",
       title: "Weather App with API",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736585719/weather-app_nynylh.jpg",
+
       alt: "Weather App with API javascript project",
       date: "January 9, 2025",
       description:
@@ -798,8 +794,7 @@ export const JSProjectssssss = () => {
     {
       id: "6js",
       title: "Sorting Algorithm Visualizer",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736587158/js_hjlvsn.jpg",
+
       alt: "Sorting Algorithm Visualizer javascript project",
       date: "January 7, 2025",
       description:

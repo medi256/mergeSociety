@@ -55,7 +55,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://res.cloudinary.com/dgyofctwi/image/upload/v1762774854/javascript-projects_uhalsm_ilayp7.jpg",
+        url: "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
     images: [
-      "https://res.cloudinary.com/dgyofctwi/image/upload/v1762774854/javascript-projects_uhalsm_ilayp7.jpg",
+      "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
     ],
   },
   robots: {
@@ -92,8 +92,6 @@ const CssProjects = () => {
     {
       id: "1c",
       title: "Build a Simple Personal Portfolio Layout",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736527272/cssstyling_ouoarm.jpg",
       alt: "Build a Simple Personal Portfolio Layout",
       date: "January 15, 2025",
       description:
@@ -102,8 +100,6 @@ const CssProjects = () => {
     {
       id: "2c",
       title: "Style a Blog Post with CSS",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577431/cssblog_stuovd.jpg",
       alt: "Style a Blog Post with CSS",
       date: "January 5, 2025",
       description:
@@ -112,8 +108,7 @@ const CssProjects = () => {
     {
       id: "3c",
       title: "Create a Responsive Navigation Menu",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577561/cssresume_n7bzyu.jpg",
+
       alt: "Create a Responsive Navigation Menu",
       date: "January 17, 2025",
       description:
@@ -122,8 +117,7 @@ const CssProjects = () => {
     {
       id: "4c",
       title: "Design an Advanced Pricing Table",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg",
+
       alt: "Design an Advanced Pricing Table",
       date: "January 16, 2025",
       description:
@@ -132,8 +126,6 @@ const CssProjects = () => {
     {
       id: "5c",
       title: "Build a Parallax Scrolling Effect",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736577912/csstype_prlpwm.jpg",
       alt: "Build a Parallax Scrolling Effect",
       date: "January 3, 2025",
       description:
@@ -142,8 +134,6 @@ const CssProjects = () => {
     {
       id: "6c",
       title: "Create a CSS Animation for Button Hover Effects",
-      image:
-        "https://res.cloudinary.com/dhgjhspsp/image/upload/v1736578044/lastCSS_wjgdhm.jpg",
       alt: "Create a CSS Animation for Button Hover Effects",
       date: "January 15, 2025",
       description:
@@ -159,16 +149,6 @@ const CssProjects = () => {
         {cssOnlyProjectTitles.map((project) => (
           <Link key={project.id} href={`/projects/cssP/${project.id}`} passHref>
             <section className="post-card">
-              {/* <div className="post-image">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  width={600}
-                  height={400}
-                  className="project-image"
-                  priority
-                />
-              </div> */}
               <div className="post-content">
                 <h2 className="post-title">{project.title}</h2>
                 <p className="post-date">{project.date}</p>

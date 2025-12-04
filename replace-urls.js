@@ -12,8 +12,8 @@ const CONFIG = {
 
   // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
   urlMappings: {
-    "https://res.cloudinary.com/dhgjhspsp/image/upload/v1751962787/Programmer_roadmap_w5gy7z.png":
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+    "https://res.cloudinary.com/dgyofctwi/image/upload/v1762773646/Web_Analytics_jzmlyv_nwoqmf.jpg":
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Web_Analytics_jzmlyv_nwoqmf.jpg",
   },
 
   createBackup: true,
