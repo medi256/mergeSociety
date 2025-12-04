@@ -141,12 +141,10 @@ export const metadata = {
     relatedConcepts:
       "Public Key Infrastructure, Certificate Authorities, Browser Security, Network Protocols",
 
-    // E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness)
     experienceLevel: "Practical hands-on explanation",
     expertiseArea: "Web protocols and security",
     trustworthySource: "Educational technology platform",
 
-    // AI search optimization
     aiSummary:
       "Complete guide explaining HTTP vs HTTPS security, covering SSL/TLS protocols, encryption methods, certificate verification, browser security indicators, and practical implementation steps for website owners",
     keyTakeaways:
