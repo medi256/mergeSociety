@@ -53,7 +53,7 @@ export const metadata = {
     ],
   },
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
+  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
   creator: "Massa Medi",
   category: "Education",
   tags: [

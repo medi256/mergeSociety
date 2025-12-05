@@ -851,6 +851,12 @@ export default function Article() {
                 Complete Next js Roadmap for Web Developers
               </Link>
             </li>
+
+            <li>
+              <Link href="/code-report/types-of-programming-languages">
+                Types of Programming Languages Explained
+              </Link>
+            </li>
           </ul>
         </aside>
       </article>

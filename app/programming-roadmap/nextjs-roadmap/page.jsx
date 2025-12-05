@@ -808,6 +808,12 @@ export default function Article() {
                 Full Stack JavaScript Developer Roadmap 2025
               </Link>
             </li>
+
+            <li>
+              <Link href="/code-report/types-of-programming-languages">
+                Types of Programming Languages Explained
+              </Link>
+            </li>
           </ul>
         </aside>
       </article>

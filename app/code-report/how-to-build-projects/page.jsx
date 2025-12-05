@@ -29,7 +29,7 @@ export const metadata = {
     "portfolio projects",
     "coding productivity",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
+  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   openGraph: {
@@ -98,7 +98,7 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.instagram.com/medi45.of",
+    url: "https://www.instagram.com/mergesociety_/",
   },
   publisher: {
     "@type": "Person",
@@ -221,7 +221,7 @@ const HowToBuildProjects = () => {
 
           <h2 className="project-info">
             <span className="project-title">
-              <Link href={"https://www.instagram.com/medi45.of"}>
+              <Link href={"https://www.instagram.com/mergesociety_/"}>
                 Written by Massa Medi
               </Link>
             </span>

@@ -29,7 +29,7 @@ export const metadata = {
     "AI technology",
     "artificial intelligence",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
+  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   formatDetection: {
@@ -104,7 +104,7 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.instagram.com/medi45.of",
+    url: "https://www.instagram.com/mergesociety_/",
   },
   publisher: {
     "@type": "Person",
@@ -192,7 +192,7 @@ const AI = () => {
               itemScope
               itemType="https://schema.org/Person"
             >
-              <Link href={"https://www.instagram.com/medi45.of"}>
+              <Link href={"https://www.instagram.com/mergesociety_/"}>
                 <span itemProp="name">Written by Massa Medi</span>
               </Link>
             </span>

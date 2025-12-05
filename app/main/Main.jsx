@@ -14,7 +14,7 @@ export default function NewsTicker() {
         </Link>
 
         {/* Instagram */}
-        <Link href="https://www.instagram.com/medi45.of" target="_blank">
+        <Link href="https://www.instagram.com/mergesociety_/" target="_blank">
           <FaInstagram />
         </Link>
 

@@ -26,7 +26,7 @@ export const metadata = {
     "DevOps culture",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
+  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
   creator: "Massa Medi",
   publisher: "Massa Medi",
 
@@ -135,7 +135,7 @@ export default function DevOpsExplainedArticle() {
           <p>Reading time: 12-15 minutes</p>
           <h2 className="project-info">
             <span className="project-title">
-              <Link href={"https://www.instagram.com/medi45.of"}>
+              <Link href={"https://www.instagram.com/mergesociety_/"}>
                 Written by Massa Medi
               </Link>
             </span>

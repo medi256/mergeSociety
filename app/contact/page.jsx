@@ -54,7 +54,7 @@ const ContactPage = () => {
             </li>
             <li>
               <strong>Social Media:</strong>{" "}
-              <Link href="https://www.instagram.com/medi45.of" target="_blank">
+              <Link href="https://www.instagram.com/mergesociety_/" target="_blank">
                 Instagram
               </Link>
               ,{" "}

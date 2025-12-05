@@ -51,7 +51,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.instagram.com/medi45.of",
+      url: "https://www.instagram.com/mergesociety_/",
     },
   ],
   creator: "Massa Medi",
@@ -251,7 +251,7 @@ const RobHallam = () => {
         <aside aria-label="Page meta">
           <h2 className="project-info">
             <span className="project-title">
-              <Link href={"https://www.instagram.com/medi45.of"}>
+              <Link href={"https://www.instagram.com/mergesociety_/"}>
                 Written by Massa Medi
               </Link>
             </span>

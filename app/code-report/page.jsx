@@ -446,6 +446,14 @@ const Section6 = () => {
       date: "December 4, 2025",
       articleRoute: "https_and_https",
     },
+    {
+      id: 39,
+      title: "Types of Programming Languages",
+      image: "/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+      alt: "Types of Programming Languages",
+      date: "December 5, 2025",
+      articleRoute: "types-of-programming-languages",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

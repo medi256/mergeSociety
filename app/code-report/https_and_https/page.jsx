@@ -76,7 +76,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.instagram.com/medi45.of",
+      url: "https://www.instagram.com/mergesociety_/",
     },
   ],
 
@@ -188,7 +188,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.instagram.com/medi45.of",
+        url: "https://www.instagram.com/mergesociety_/",
         jobTitle: "Technical Writer",
         description: "Web security educator and technical content creator",
       },
@@ -417,7 +417,7 @@ const HTTPANDHTTPS = () => {
               itemScope
               itemType="https://schema.org/Person"
             >
-              <Link href="https://www.instagram.com/medi45.of" itemProp="url">
+              <Link href="https://www.instagram.com/mergesociety_/" itemProp="url">
                 <span itemProp="name">Written by Massa Medi</span>
               </Link>
             </span>

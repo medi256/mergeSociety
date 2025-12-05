@@ -11,7 +11,7 @@ const Footer = () => {
             <ul className="social-links">
               <li>
                 <a
-                  href="https://www.instagram.com/medi45.of"
+                  href="https://www.instagram.com/mergesociety_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"

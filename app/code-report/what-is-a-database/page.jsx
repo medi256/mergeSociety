@@ -76,7 +76,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.instagram.com/medi45.of",
+        url: "https://www.instagram.com/mergesociety_/",
       },
       publisher: {
         "@type": "Organization",
@@ -154,7 +154,7 @@ const WhatIsDatabase = () => {
         <aside aria-label="Page meta">
           <h2 className="project-info">
             <span className="project-title">
-              <Link href={"https://www.instagram.com/medi45.of"}>
+              <Link href={"https://www.instagram.com/mergesociety_/"}>
                 Written by Massa Medi
               </Link>
             </span>

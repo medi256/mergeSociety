@@ -24,7 +24,7 @@ export const metadata = {
     "programming skills",
     "code learning",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/medi45.of" }],
+  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   category: "Programming",
