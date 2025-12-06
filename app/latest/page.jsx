@@ -309,6 +309,14 @@ const GridNews = () => {
       date: "August 19, 2025",
       articleRoute: "computer-science-degree-worth-it",
     },
+    {
+      id: 30,
+      title: `10 Best Websites To Learn How To Code For Free`,
+      image: "/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+      alt: "10 Best Websites To Learn How To Code For Free",
+      date: "December 6, 2025",
+      articleRoute: "top-free-websites-to-learn-programming",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

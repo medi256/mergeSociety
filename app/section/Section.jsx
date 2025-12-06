@@ -72,17 +72,14 @@ export default function GridNews() {
 
         <aside className="grid-news-right">
           <div>
-            <Link href="/startup-stories/interview-coder">
+            <Link href="/latest/top-free-websites-to-learn-programming">
               <Image
-                src="/mergesociety/Interview_xzyj97_tolqz5.png"
-                alt="The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG"
+                src="/mergesociety/top_ten_websites_to_learn_coding_for_free.webp"
+                alt="10 Best Websites To Learn How To Code For Free"
                 width={400}
                 height={250}
               />
-              <h2>
-                The Tool That’s Killing LeetCode: How People Are Now Cheating
-                Live Coding Interviews into FAANG
-              </h2>
+              <h2>10 Best Websites To Learn How To Code For Free</h2>
             </Link>
           </div>
           <div>
