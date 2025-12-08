@@ -79,7 +79,7 @@ export default function GridNews() {
                 width={400}
                 height={250}
               />
-              <h2>10 Best Websites To Learn How To Code For Free</h2>
+              <h2>10 Best Websit es To Learn How To Code For Free</h2>
             </Link>
           </div>
           <div>
@@ -98,14 +98,14 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/code-report/how-to-build-projects">
+            <Link href="/latest/most-used-git-commands">
               <Image
-                src="/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp"
-                alt="How To Start Programming Projects The Lazy Way"
+                src="/mergesociety/most%20used%20git%20commands.webp"
+                alt="Most used git commands workflow Guide"
                 width={400}
                 height={250}
               />
-              <h2>How To Start Programming Projects The Lazy Way</h2>
+              <h2>Most used git commands workflow Guide</h2>
             </Link>
           </div>
         </aside>

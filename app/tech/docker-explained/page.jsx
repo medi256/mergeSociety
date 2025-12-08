@@ -763,6 +763,11 @@ export default function Article() {
               </Link>
             </li>
             <li>
+              <Link href="/latest/most-used-git-commands">
+                Most Used Git Commands for Beginners
+              </Link>
+            </li>
+            <li>
               <Link href="/tech/wifi">
                 The Secret Magic of Wi-Fi: How Invisible Waves Power Your
                 Internet Obsession

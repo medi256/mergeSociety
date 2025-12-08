@@ -33,6 +33,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/most-used-git-commands`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/types-of-programming-languages`,
       lastModified: new Date(),
     },

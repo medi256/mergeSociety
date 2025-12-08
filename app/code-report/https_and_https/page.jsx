@@ -417,7 +417,10 @@ const HTTPANDHTTPS = () => {
               itemScope
               itemType="https://schema.org/Person"
             >
-              <Link href="https://www.instagram.com/mergesociety_/" itemProp="url">
+              <Link
+                href="https://www.instagram.com/mergesociety_/"
+                itemProp="url"
+              >
                 <span itemProp="name">Written by Massa Medi</span>
               </Link>
             </span>
