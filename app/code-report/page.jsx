@@ -447,12 +447,21 @@ const Section6 = () => {
       articleRoute: "https_and_https",
     },
     {
-      id: 39,
+      id: 40,
       title: "Types of Programming Languages",
       image: "/mergesociety/Types%20of%20%20Programming%20Languages.webp",
       alt: "Types of Programming Languages",
       date: "December 5, 2025",
       articleRoute: "types-of-programming-languages",
+    },
+    {
+      id: 41,
+      title:
+        "CRUD Operations Complete Guide - Database to REST API Implementation",
+      image: "/mergesociety/crud_explained.webp",
+      alt: "CRUD Operations Complete Guide - Database to REST API Implementation",
+      date: "December 9, 2025",
+      articleRoute: "crud-explained",
     },
   ];
 

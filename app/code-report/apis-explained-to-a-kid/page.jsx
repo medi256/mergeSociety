@@ -53,7 +53,9 @@ export const metadata = {
     ],
   },
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   category: "Technology",
 
@@ -725,6 +727,11 @@ const Page = () => {
               <li>
                 <Link href="/code-report/https_and_https">
                   HTTP vs HTTPS: Complete SSL/TLS Security Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/code-report/crud-explained">
+                  CRUD Operations Explained
                 </Link>
               </li>
             </ul>

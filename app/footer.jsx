@@ -10,29 +10,42 @@ const Footer = () => {
             <h6 className="footer-heading">Follow Us</h6>
             <ul className="social-links">
               <li>
-                <a
+                <Link
                   href="https://www.instagram.com/mergesociety_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
                   <i className="fa-brands fa-instagram"></i> Instagram
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
+                  href="https://www.facebook.com/mergesociety"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="FaceBook"
+                >
+                  <i className="fa-brands fa-facebook"></i> FaceBook
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="https://www.youtube.com/@Codak_3"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="YouTube"
                 >
                   <i className="fa-brands fa-youtube"></i> YouTube
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="mailto:managersebowa4525@gmail.com" aria-label="Email">
+                <Link
+                  href="mailto:managersebowa4525@gmail.com"
+                  aria-label="Email"
+                >
                   <i className="fa-solid fa-envelope"></i> Email
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

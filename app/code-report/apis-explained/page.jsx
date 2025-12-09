@@ -886,6 +886,11 @@ export default function Article() {
               <Link href="/code-report/rest-api">Rest API: What is it?</Link>
             </li>
             <li>
+              <Link href="/code-report/crud-explained">
+                CRUD Operations Explained
+              </Link>
+            </li>
+            <li>
               <Link href="/code-report/fullstack-roadmap">
                 Full Stack Developer Developer Roadmap
               </Link>

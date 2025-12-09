@@ -1,6 +1,6 @@
 import Link from "next/link"; // ← you missed this import!
 import "./main.css";
-import { FaGithub, FaInstagram, FaSitemap } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaSitemap } from "react-icons/fa";
 
 export default function NewsTicker() {
   return (
@@ -14,6 +14,10 @@ export default function NewsTicker() {
         </Link>
 
         {/* Instagram */}
+        <Link href="https://www.facebook.com/mergesociety" target="_blank">
+          <FaFacebook />
+        </Link>
+
         <Link href="https://www.instagram.com/mergesociety_/" target="_blank">
           <FaInstagram />
         </Link>

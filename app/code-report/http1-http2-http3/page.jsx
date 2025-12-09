@@ -808,6 +808,11 @@ export default function Article() {
                 Socket.IO, and the Future of Real Time Communication
               </Link>
             </li>
+            <li>
+              <Link href="/code-report/crud-explained">
+                CRUD Operations Explained
+              </Link>
+            </li>
           </ul>
         </section>
 

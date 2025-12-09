@@ -982,6 +982,11 @@ const HTTPANDHTTPS = () => {
               Python Library and Frameworks
             </Link>
           </li>
+          <li>
+            <Link href="/code-report/crud-explained">
+              CRUD Operations Explained
+            </Link>
+          </li>
         </ul>
       </article>
     </div>
