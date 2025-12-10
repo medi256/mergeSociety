@@ -2,50 +2,50 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import CommentSection from "@/app/commentSection";
+// import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
-    "Docker Masterclass 2025: Production-Ready Containerization Secrets Every Developer Needs",
+    "Docker 101: Containerization That Actually Ships Code And Scales Without Headaches",
   description:
-    "Master Docker with our comprehensive 2025 guide. Learn containerization, Dockerfile optimization, Docker Compose, security scanning, and production deployment strategies that actually work.",
+    "Learn Docker from scratch - bare metal to production. Master containerization, Dockerfile optimization, Docker Compose, security scanning with Docker Scout, and deployment strategies that work.",
 
   metadataBase: new URL("https://www.mergesociety.com"),
 
   keywords: [
-    "docker tutorial 2025",
-    "docker masterclass updated",
-    "containerization guide 2025",
-    "docker production deployment",
-    "dockerfile best practices 2025",
-    "docker security scanning",
+    "docker tutorial",
+    "docker for beginners",
+    "what is docker",
+    "containerization explained",
+    "docker vs virtual machines",
+    "dockerfile tutorial",
     "docker compose tutorial",
-    "container orchestration guide",
-    "docker vs kubernetes 2025",
-    "docker desktop alternatives",
+    "docker security scanning",
+    "docker scout",
+    "container orchestration",
+    "docker production deployment",
+    "kubernetes vs docker",
+    "docker desktop",
     "docker build optimization",
-    "container development workflow",
-    "docker microservices architecture",
-    "docker CI/CD pipeline",
+    "docker layers caching",
+    "docker microservices",
+    "horizontal scaling containers",
+    "stateless containers",
     "docker volume management",
-    "container monitoring tools",
-    "docker networking 2025",
-    "docker healthcheck implementation",
-    "multi-stage docker builds",
-    "docker registry best practices",
+    "docker networking",
+    "docker healthcheck",
+    "docker registry",
     "container security vulnerabilities",
-    "docker horizontal scaling",
-    "stateless container design",
-    "docker troubleshooting guide",
-    "enterprise docker deployment",
+    "docker cli commands",
+    "docker daemon",
   ],
 
   category: "DevOps & Container Technology",
 
   openGraph: {
-    title: "Docker Masterclass 2025: The Complete Production Guide",
+    title: "Docker 101: Containerization That Actually Works",
     description:
-      "Newly updated for 2025! Master Docker from basics to production with security scanning, optimization techniques, and real-world deployment strategies.",
+      "Master Docker from fundamentals to production. Learn containerization, the Docker daemon, Dockerfiles, Docker Compose, security scanning, and when to use Kubernetes.",
     url: "https://www.mergesociety.com/tech/docker-explained",
     siteName: "Merge Society",
     images: [
@@ -53,31 +53,31 @@ export const metadata = {
         url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
         width: 1200,
         height: 630,
-        alt: "Docker 2025 containerization workflow from development to production deployment",
+        alt: "Docker containerization workflow from bare metal to production deployment",
       },
     ],
     locale: "en_US",
     type: "article",
-    publishedTime: "2025-01-15T08:00:00Z",
-    modifiedTime: new Date().toISOString(), // Current timestamp for fresh update
+    publishedTime: "2025-05-03T08:00:00Z",
+    modifiedTime: new Date().toISOString(),
     section: "Container Technology",
     tags: [
-      "Docker 2025",
+      "Docker",
       "Containerization",
       "DevOps",
-      "Production Deployment",
-      "Container Security",
       "Docker Compose",
+      "Container Security",
+      "Docker Scout",
       "Kubernetes",
-      "Microservices Architecture",
-      "CI/CD Automation",
-      "Container Orchestration",
+      "Microservices",
+      "Docker CLI",
+      "Production Deployment",
     ],
   },
 
   authors: [
     {
-      name: "Alex Chen",
+      name: "Massa Medi",
       url: "https://www.mergesociety.com/about",
     },
   ],
@@ -91,9 +91,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Docker 2025: Complete Production Containerization Guide",
+    title: "Docker 101: Containerization Without The Headaches",
     description:
-      "Just updated! Learn Docker from scratch to production deployment with latest security practices and optimization techniques.",
+      "Learn Docker properly - from kernels and bare metal to containers and production. Master Dockerfiles, Docker Compose, security scanning, and deployment.",
     creator: "@manager70191",
     images: [
       "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
@@ -109,78 +109,60 @@ export const metadata = {
       follow: true,
       "max-video-preview": -1,
       "max-image-preview": "large",
-      "max-snippet": 500,
+      "max-snippet": -1,
     },
   },
 
   other: {
-    // Updated article signals
     "article:modified_time": new Date().toISOString(),
-    "article:published_time": "2025-01-15T08:00:00Z",
+    "article:published_time": "2025-05-03T08:00:00Z",
     "og:updated_time": new Date().toISOString(),
 
-    // Content freshness indicators
     lastUpdated: new Date().toLocaleDateString("en-US", {
       year: "numeric",
       month: "long",
       day: "numeric",
     }),
-    version: "2.1",
-    contentStatus: "updated",
+    version: "1.0",
+    contentStatus: "published",
 
-    // SEO enhancement
-    readingTime: "18 minutes",
-    wordCount: "4800",
-    contentType: "Updated Comprehensive Tutorial",
-    difficulty: "Beginner to Advanced",
+    readingTime: "16 minutes",
+    wordCount: "4500",
+    contentType: "Complete Tutorial",
+    difficulty: "Beginner to Intermediate",
 
-    // Google Discover optimization
     featured: true,
-    trending: true,
-    newsworthy: "Docker 2025 updates and security improvements",
 
-    // Authority signals
-    authorCredentials: "Docker Certified Associate & Senior DevOps Engineer",
-    reviewedBy: "Container Security Expert",
+    authorCredentials: "DevOps Engineer",
     factChecked: true,
 
-    // User engagement
-    interactiveElements: true,
     codeExamples: true,
     practicalExercises: true,
 
-    // Related content for better discovery
-    seriesName: "Modern DevOps Mastery 2025",
-    partOfSeries: true,
-    updatedSections: [
-      "Docker Security Scanning with Docker Scout",
-      "Container Optimization Techniques",
-      "Production Deployment Strategies",
-      "Kubernetes Integration Patterns",
-    ],
+    seriesName: "Container Technology Fundamentals",
   },
 
-  // Enhanced JSON-LD for rich results
   jsonLd: {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline:
-      "Docker Masterclass 2025: Production-Ready Containerization Secrets",
+      "Docker 101: Containerization That Actually Ships Code And Scales Without Headaches",
     alternativeHeadline:
-      "Complete Docker Guide: From Development to Production Deployment",
+      "Complete Docker Tutorial From Bare Metal To Production Deployment",
     image: {
       "@type": "ImageObject",
       url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
       width: 1200,
       height: 630,
+      alt: "Docker containerization workflow from bare metal to production deployment",
     },
-    datePublished: "2025-01-15T08:00:00Z",
+    datePublished: "2025-05-03T08:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
       "@type": "Person",
-      name: "Alex Chen",
+      name: "Massa Medi",
       url: "https://www.mergesociety.com/about",
-      jobTitle: "Senior DevOps Engineer",
+      jobTitle: "DevOps Engineer",
     },
     publisher: {
       "@type": "Organization",
@@ -193,51 +175,57 @@ export const metadata = {
       },
     },
     description:
-      "Comprehensive 2025 Docker guide covering containerization, security, optimization, and production deployment strategies.",
+      "Complete Docker tutorial covering containerization fundamentals, the Docker daemon, Dockerfile optimization, Docker Compose, Docker Scout security scanning, and production deployment strategies.",
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": "https://www.mergesociety.com/tech/docker-explained",
     },
     keywords:
-      "docker, containerization, devops, production deployment, container security, docker compose, kubernetes",
+      "docker, containerization, docker compose, dockerfile, docker scout, production deployment, container security, docker cli, kubernetes, microservices",
     about: [
       {
         "@type": "Thing",
-        name: "Docker Container Technology",
+        name: "Docker",
         description:
           "Platform for developing, shipping, and running applications in containers",
       },
       {
         "@type": "Thing",
-        name: "DevOps Practices",
-        description: "Software development and deployment methodologies",
+        name: "Containerization",
+        description: "OS-level virtualization for application deployment",
+      },
+      {
+        "@type": "Thing",
+        name: "Container Orchestration",
+        description: "Managing and scaling containerized applications",
       },
     ],
     teaches: [
       "Docker fundamentals and architecture",
-      "Dockerfile optimization techniques",
-      "Container security best practices",
+      "How containers share the host OS kernel",
+      "Creating optimized Dockerfiles with layer caching",
+      "Container security scanning with Docker Scout",
+      "Multi-container applications with Docker Compose",
+      "When to use Kubernetes vs simpler alternatives",
       "Production deployment strategies",
-      "Multi-container orchestration",
     ],
-    educationalLevel: "beginner to advanced",
-    timeRequired: "PT18M",
-    wordCount: 4800,
+    educationalLevel: "beginner to intermediate",
+    timeRequired: "PT16M",
+    wordCount: 4500,
     isAccessibleForFree: true,
     inLanguage: "en-US",
     audience: {
       "@type": "Audience",
       audienceType:
-        "software developers, devops engineers, system administrators",
+        "software developers, devops engineers, system administrators, backend developers",
     },
   },
 
-  // Structured data for Google Discover
   googleDiscover: {
     contentType: "tutorial",
     category: "technology",
     subcategory: "software development",
-    freshness: "updated",
+    freshness: "new",
     expertise: "expert",
     trustworthiness: "high",
     originalContent: true,
@@ -250,22 +238,24 @@ export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
       <article className="lesson-container">
         <h1>
           Docker 101: The Shockingly Simple Secrets Behind Containerization
           Every Developer Needs to Know
         </h1>
+
         <figure className="blog-image">
           <Image
             src="/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg"
-            alt="Docker 101: Mastering Modern Software Delivery with Containers"
+            alt="Docker containerization workflow showing bare metal hardware, OS kernel, Docker daemon, and containers sharing resources for efficient deployment"
             width={600}
             height={400}
             priority
           />
           <figcaption>
-            Learn how Docker containers are transforming modern software
-            deployment and DevOps workflows.
+            Docker containers share the host OS kernel for lightweight,
+            efficient deployment from development to production.
           </figcaption>
         </figure>
 
@@ -296,493 +286,643 @@ export default function Article() {
         </section>
 
         <p>
-          Forget everything you think you know about shipping software. Docker
-          is not just another boring tool—it's the shortcut top engineers use to
-          go from "it works on my machine" failure to bulletproof apps that
-          dominate the cloud. If you’ve been stuck wrestling with servers,
-          debugging convoluted setups, or praying your code won’t crash in
-          production, this article is going to obliterate every excuse you’ve
-          ever had for not using containers. Because the truth? Most developers
-          are missing the real power baked inside Docker—and in the next few
-          minutes, I’m going to show you exactly how to unleash it.
+          Docker 101 clicked for me the first time I realized Docker containers
+          fix the whole it works on my machine story both locally and in the
+          cloud.
+        </p>
+        <p>
+          <strong>
+            Containerization packages your app and its dependencies into a
+            single unit that runs the same way everywhere, then uses the host OS
+            kernel to share resources efficiently. You write a Dockerfile, build
+            an image, and run that image as a container that can scale across
+            machines. The result is portable, stateless services that start
+            fast, move easily between your laptop and any major cloud, and avoid
+            vendor lock in. It feels like magic because it removes the messy
+            differences between environments while giving you speed and control.
+          </strong>
         </p>
 
         <section>
-          <h2>
-            What is Docker and Why Is Everyone Obsessed With Containerization?
-          </h2>
+          <h2>What Are Docker Containers And Why They Matter</h2>
           <p>
-            Here’s what nobody talks about: The way software is shipped today is
-            fundamentally broken. Why? Because your app might run flawlessly on
-            one machine—only to completely explode on another. That “it works on
-            my machine” meme? It’s not just a joke; it’s a career killer.
+            Welcome to Docker 101. If your goal is to ship software in the real
+            world, containerization is the power tool that keeps you sane when
+            things get weird.
           </p>
           <p>
-            Enter <strong>containerization</strong>. Imagine packing your entire
-            app—code, dependencies, operating system, and settings—into a tiny
-            shipping container. Now you can drop that container on any computer,
-            cloud, or VM, and it’ll just work. No drama. No surprises. That, in
-            a nutshell, is Docker’s superpower.
+            When you develop locally, containers solve the classic problem of it
+            works on my machine. When you deploy to the cloud, they help crack
+            the this architecture doesn't scale wall that creeps up as users
+            pile on.
+          </p>
+          <p>
+            Let’s zoom way out for a second. A computer is a box with three key
+            parts inside:
+          </p>
+          <ul>
+            <li>
+              <strong>CPU</strong> - the calculator that executes instructions
+              fast.
+            </li>
+            <li>
+              <strong>RAM</strong> - short term memory for the apps you’re
+              running right now.
+            </li>
+            <li>
+              <strong>Disk</strong> - long term storage for things you might use
+              later.
+            </li>
+          </ul>
+          <p>
+            That bare metal hardware is raw potential. To actually use it, you
+            need an operating system, and at the heart of that OS sits the
+            kernel. The kernel is like the air traffic controller that safely
+            lets software run and talk to hardware without crashing into each
+            other.
+          </p>
+          <p>
+            Old school software meant buying a box, popping in a CD, and
+            installing it directly on your machine. Now most software rides over
+            the network. When you watch a YouTube video, your computer is the
+            client talking to a remote server somewhere across the world.
+          </p>
+          <p>
+            As apps go from dozens of users to millions, the system starts
+            complaining in very real ways. The CPU gets overloaded by incoming
+            requests. Disk I O gets slow as it tries to keep up. Network
+            bandwidth taps out. Databases swell until queries feel like wading
+            through molasses.
+          </p>
+          <p>
+            And to make things spicier, maybe there’s some messy code in there
+            too. Race conditions. Memory leaks. Unhandled errors. The kind of
+            bugs that don’t show up in local dev, but absolutely wreck a
+            production box under pressure.
+          </p>
+          <p>
+            The big question: how do we scale infrastructure when that happens?
+            You have two classic options. Vertical scaling and horizontal
+            scaling.
+          </p>
+          <p>
+            Vertical scaling is simple: take the one server you have and make it
+            beefier. Add more RAM. Give it more CPU. It buys you time and
+            sometimes a lot of headroom. But eventually you hit a ceiling,
+            either cost wise or physically.
+          </p>
+          <p>
+            Horizontal scaling is where you take your code and spread it across
+            multiple smaller servers. Often you break the system into
+            microservices so each part can run and scale by itself. That’s
+            powerful because one noisy service won’t take the whole app down.
+          </p>
+          <p>
+            But here’s the catch. Distributed systems on bare metal get messy
+            fast because resource allocation varies across machines. One server
+            has slightly different libraries. Another has a different OS patch.
+            A third is running something weird in the background. Consistency
+            slips.
+          </p>
+          <p>
+            That’s exactly where containers shine. They give you repeatable,
+            isolated environments that feel the same everywhere, while still
+            sharing the host OS kernel for speed.
+          </p>
+        </section>
+
+        <section>
+          <h2>Why Docker Containers Instead Of Virtual Machines</h2>
+          <p>
+            Virtual machines were the first big answer to the consistency and
+            isolation problem. Using a hypervisor, you can run multiple
+            operating systems on a single machine. Each VM feels like its own
+            computer inside a computer.
+          </p>
+          <p>
+            That’s useful, but VMs allocate CPU and memory in a fixed way. If
+            you give a VM 4 GB of RAM, it just sits there reserved whether your
+            process needs it right now or not. You pay for that overhead in
+            startup time and in resource waste.
+          </p>
+          <p>
+            Docker takes a different path. Instead of virtualizing hardware, it
+            shares the host OS kernel and gives you OS level virtualization. The
+            Docker engine runs a persistent daemon in the background that
+            coordinates everything and keeps containers isolated but efficient.
+          </p>
+          <p>
+            Because containers use the host kernel, they start fast and use
+            resources dynamically based on the app’s actual needs. No separate
+            guest OS boot. No heavyweight duplication. Just your app and its
+            dependencies running the same way on any host that has Docker.
+          </p>
+          <p>
+            And this is the part that makes developers smile: any dev can
+            harness that power by installing Docker Desktop. You can work on
+            complex systems without reconfiguring your laptop for every new
+            stack you touch. No more spending an afternoon trying to make your
+            local environment look like prod.
+          </p>
+          <p>
+            In practice, containers become the building blocks for scaling and
+            reliability. You keep the isolation you want, but ditch the heavy
+            overhead of VMs when you don’t need a full guest OS for every
+            service.
+          </p>
+        </section>
+
+        <section>
+          <h2>How Docker Containers Work In Three Steps</h2>
+          <p>
+            Let’s break Docker down into a repeatable flow. It’s three simple
+            steps you’ll do again and again.
+          </p>
+          <ul>
+            <li>
+              <strong>1) Write a Dockerfile</strong> - a blueprint that tells
+              Docker how to build the environment your app needs.
+            </li>
+            <li>
+              <strong>2) Build an image</strong> - a snapshot that contains the
+              OS layer, your dependencies, and your code.
+            </li>
+            <li>
+              <strong>3) Run a container</strong> - an isolated process created
+              from the image that actually runs your app.
+            </li>
+          </ul>
+          <p>
+            The Dockerfile is just text. It spells out each instruction, step by
+            step, so Docker can reproduce your environment any time, anywhere.
+            That includes picking a base image, installing dependencies, copying
+            your code, setting environment variables, and defining the startup
+            command.
+          </p>
+          <p>
+            When you build it, Docker produces an image. Think of the image as a
+            template or a golden snapshot. You can upload that image to a
+            registry like Docker Hub and share it with your team or the world.
+          </p>
+          <p>
+            An image by itself is inert. When you run it, Docker creates a
+            container. The container is the live, isolated package that runs
+            your code. You can run one container or hundreds of them. In theory,
+            you can scale out as far as your infrastructure allows.
+          </p>
+          <p>
+            In the cloud, containers are stateless by default. That means
+            anything written inside the container’s filesystem disappears when
+            the container stops. That sounds scary, but it’s what makes
+            containers portable. You persist real data outside the container
+            using volumes or external data stores, then let containers come and
+            go as needed.
+          </p>
+          <p>
+            The pay off is big. Your app behaves the same on your laptop as it
+            does in a data center or on a managed platform. No vendor lock in.
+            No dark magic. Just the same container running wherever you need it.
+          </p>
+        </section>
+
+        <section>
+          <h2>Inside The Dockerfile: Every Instruction You’ll Use</h2>
+          <p>
+            The best way to learn Docker is to actually run a container, so
+            let’s walk the Dockerfile line by line. By convention, instructions
+            are in all caps to make them easy to spot.
+          </p>
+          <h3>FROM</h3>
+          <p>
+            <strong>FROM</strong> is usually the first instruction. It points to
+            a base image to get started. Often that’s a Linux distribution like
+            alpine, debian, or ubuntu, and it may be followed by a colon and tag
+            to specify the version you want.
+          </p>
+          <p>
+            Pinning a tag matters because it locks your build to a known OS
+            layer. If you skip the tag, you might get surprises when the base
+            image updates upstream.
+          </p>
+          <h3>WORKDIR</h3>
+          <p>
+            <strong>WORKDIR</strong> sets the working directory inside the image
+            and creates it if it doesn’t exist. Every command that follows will
+            run from that directory, so it keeps your Dockerfile predictable and
+            clean.
+          </p>
+          <h3>RUN</h3>
+          <p>
+            <strong>RUN</strong> lets you execute shell commands at build time.
+            You’ll use it to install system packages, compile binaries, or do
+            any setup you’d normally run in a terminal. Use the distro’s package
+            manager here, like apk, apt, or yum.
+          </p>
+          <h3>USER</h3>
+          <p>
+            By default, builds run as root. For better security, use{" "}
+            <strong>USER</strong> to create and switch to a non root user. That
+            way, even if your app is compromised, it limits the blast radius.
+          </p>
+          <h3>COPY</h3>
+          <p>
+            <strong>COPY</strong> moves files from your local machine into the
+            image. You’ll usually copy package manifests first, install
+            dependencies, then copy the rest of your source to take advantage of
+            layer caching.
+          </p>
+          <h3>ENV</h3>
+          <p>
+            <strong>ENV</strong> sets environment variables inside the image.
+            Great for API keys and configuration that your app reads at runtime.
+            Pair this with secrets management for production so you don’t bake
+            credentials into images.
+          </p>
+          <h3>EXPOSE</h3>
+          <p>
+            <strong>EXPOSE</strong> documents which port the container listens
+            on. It doesn’t publish the port by itself, but it signals to other
+            tools and humans where your app is reachable.
+          </p>
+          <h3>CMD</h3>
+          <p>
+            <strong>CMD</strong> defines the default command that runs when the
+            container starts. One container gets one CMD. This is the thing that
+            boots your app, like starting a web server.
+          </p>
+          <h3>ENTRYPOINT</h3>
+          <p>
+            <strong>ENTRYPOINT</strong> is often paired with CMD. ENTRYPOINT
+            defines the executable, while CMD sets default arguments. That combo
+            makes it easy to override flags without replacing the whole command.
+          </p>
+          <h3>LABEL</h3>
+          <p>
+            <strong>LABEL</strong> adds metadata, like maintainer info, version,
+            or links. It helps with discovery, auditing, and tooling that reads
+            image metadata.
+          </p>
+          <h3>HEALTHCHECK</h3>
+          <p>
+            <strong>HEALTHCHECK</strong> pings your app on a schedule to confirm
+            it’s alive. If the check fails repeatedly, orchestration tools can
+            restart the container automatically.
+          </p>
+          <h3>VOLUME</h3>
+          <p>
+            <strong>VOLUME</strong> declares mount points for persistent data.
+            Use it when your container needs to read or write files that survive
+            restarts or must be shared across multiple containers.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Keep the Dockerfile as deterministic as
+            possible. Pin base images, lock dependency versions, and order steps
+            to maximize layer cache hits.{" "}
+            {/* background highlight: emphasize cache-friendly Dockerfile structure */}
           </p>
         </section>
 
         <section>
           <h2>
-            The Real Reason Scaling Apps Is a Pain (And Why Docker Changes
-            Everything)
+            Build The Image: docker build, Tags, Layers, And .dockerignore
           </h2>
           <p>
-            You built an app. Maybe it even has users. Cool! But what happens
-            when your traffic spikes—say, because you went viral or landed a big
-            client?
+            Once Docker Desktop is installed, you also get the Docker CLI. Pop
+            open a terminal and run docker help to see what’s available. The
+            star of the show right now is docker build.
           </p>
           <p>
-            Suddenly, your CPU’s melting under the pressure, disks are choking,
-            your “fast” database takes forever, and users are bailing in droves.
-            Here’s the kicker: Most devs throw more RAM or CPU at the problem
-            (that’s called scaling vertically), but eventually you hit a brick
-            wall.
+            Run docker build in the directory with your Dockerfile. Use the{" "}
+            <strong>-t</strong> flag to tag the image with a recognizable name,
+            like myapp:1.0. Tags make it easier to push, pull, and run specific
+            versions without guessing.
           </p>
           <p>
-            The 10x developers—the ones getting massive raises—do something
-            different. They scale <strong>horizontally</strong>: breaking their
-            app into smaller services that run on many mini-servers instead of
-            one giant beast. But on real “bare metal” machines? That’s a
-            nightmare. Actual resources are unpredictable, and managing them is
-            a mess.
+            As the build runs, notice how it creates the image in layers. Each
+            layer has a SHA256 hash that identifies it uniquely. If you tweak
+            your Dockerfile, Docker will reuse cached layers whenever possible
+            and only rebuild the steps that truly changed.
           </p>
           <p>
-            So how do you level up? Enter virtual machines ... and, ultimately,{" "}
-            <strong>Docker containers</strong>.
+            That layer caching is a massive workflow boost. Copy your package
+            manifests first, install dependencies, then copy the rest of your
+            source. Small changes in code won’t invalidate the expensive
+            dependency layer, so builds stay fast.
           </p>
-          <ul>
-            <li>
-              <strong>Virtual Machines:</strong> Use hypervisors to run several
-              OSes on one machine, but the CPU/memory is still “locked in” and
-              clunky.
-            </li>
-            <li>
-              <strong>Docker:</strong> Spins up apps on the same host OS kernel,
-              sharing as many resources as needed on-the-fly, crushing waste and
-              boosting flexibility.
-            </li>
-          </ul>
-          <blockquote>
-            “The difference between winners and losers? Winners do what losers
-            won’t.”
-          </blockquote>
           <p>
-            <strong>Most people screw this up</strong> by not realizing Docker
-            gives you OS-level virtualization without the overhead or hard
-            limits of traditional VMs. Your apps finally get to actually share
-            resources and scale, instead of fighting for crumbs.
+            Sometimes you have files you don’t want in the image at all. Add
+            them to <strong>.dockerignore</strong> and Docker will skip copying
+            them during build. Think node_modules, build artifacts, logs, .env
+            files, or anything secret or bulky.
           </p>
-        </section>
-
-        <section>
-          <h2>
-            <span role="img" aria-label="rocket">
-              🚀
-            </span>{" "}
-            How Docker Actually Works: The Non-Boring, No-BS Version
-          </h2>
-          <ul>
-            <li>
-              <strong>Docker Daemon:</strong> This is the engine running in the
-              background making all the magic happen. It’s like the conductor of
-              your own private tech orchestra.
-            </li>
-            <li>
-              <strong>Docker Desktop:</strong> Your portal to container
-              greatness. Want to develop advanced software without messing up
-              your system? This is your golden ticket.
-            </li>
-          </ul>
-          <p>Here’s exactly how to get a container running:</p>
-          <ol>
-            <li>
-              <strong>Write a Dockerfile:</strong> Think of it as your app’s
-              recipe, telling Docker what ingredients and steps are needed to
-              cook up the perfect environment.
-            </li>
-            <li>
-              <strong>Build it into an Image:</strong> This is your frozen
-              dinner—OS, dependencies, code and all.
-            </li>
-            <li>
-              <strong>Run it as a Container:</strong> The image comes to life,
-              becoming an isolated process that can scale (in theory) infinitely
-              on the cloud.
-            </li>
-          </ol>
           <p>
-            <strong>Twist:</strong> Containers are <em>stateless</em> by
-            default. They don’t care about saving your data unless you
-            specifically give them a persistent volume. That sounds risky, but
-            it’s what makes them portable—ship your app anywhere, run it
-            everywhere, and never get locked into a single platform.
+            Open Docker Desktop and check your new image in the Images tab.
+            You’ll see a detailed breakdown of layers with sizes, commands, and
+            history. It’s like an X ray for what actually ended up in the image.
           </p>
-          <blockquote>
-            “Stop trying to be perfect. Start trying to be remarkable.”
-          </blockquote>
-        </section>
-
-        <section>
-          <h2>Mastering the Dockerfile: The Blueprint Most Devs Get Wrong</h2>
           <p>
-            If you only remember one thing, make it this: The Dockerfile is
-            where your container journey lives or dies.
+            Thanks to <strong>Docker Scout</strong>, you can also scan for
+            security vulnerabilities per layer. It extracts a software bill of
+            materials from the image, then compares it against security advisory
+            databases. Matches get a severity rating so you can focus on the
+            biggest risks first.
           </p>
-          <h3>Dockerfile Instructions Explained (with Real-World Flavor)</h3>
-          <ul>
-            <li>
-              <strong>FROM:</strong> Start with a base image (like Ubuntu). Add
-              a colon and version if you’re feeling precise.
-            </li>
-            <li>
-              <strong>WORKDIR:</strong> Create a source directory and drop all
-              future commands into it. Organization, people!
-            </li>
-            <li>
-              <strong>RUN:</strong> Install dependencies or run scripts just
-              like you would in a terminal. Yes, you get root access by
-              default—but for better security, switch things up with{" "}
-              <code>USER</code>.
-            </li>
-            <li>
-              <strong>COPY:</strong> Move your code from your local machine into
-              the image itself. No more “but it works here” drama.
-            </li>
-            <li>
-              <strong>ENV:</strong> Set environment variables (think secret API
-              keys or config settings).
-            </li>
-            <li>
-              <strong>EXPOSE:</strong> Open up ports so the world can talk to
-              your app.
-            </li>
-            <li>
-              <strong>CMD & ENTRYPOINT:</strong> The main command the container
-              runs at start. Only one main action, but you can pass arguments
-              with ENTRYPOINT to change its behavior when you spin it up.
-            </li>
-            <li>
-              <strong>LABEL:</strong> Add metadata—maybe the app version or
-              maintainer info.
-            </li>
-            <li>
-              <strong>HEALTHCHECK:</strong> Make sure your app isn’t silently
-              crashing in the background.
-            </li>
-            <li>
-              <strong>VOLUME:</strong> Attach a persistent disk for data that
-              survives restarts and is shareable across containers.
-            </li>
-          </ul>
-          <blockquote>
-            “Most people won’t have the discipline for what I’m about to
-            share…but if you master your Dockerfiles, you’ll run circles around
-            90% of developers.”
-          </blockquote>
-          <h3>Step-by-Step: Turning Your Dockerfile into a Living App</h3>
-          <ol>
-            <li>
-              Use <code>docker build -t your-app-name .</code> in the terminal
-              to create an image. Tag it so you don’t forget what it is. (Pro
-              tip: Each build forms a new “layer,” and Docker is smart enough to
-              cache unchanged layers—making your builds lightning-fast.)
-            </li>
-            <li>
-              Have files you don’t want inside your image? Easy—add them to{" "}
-              <code>.dockerignore</code> and they’ll stay out.
-            </li>
-            <li>
-              Fire up <strong>Docker Desktop</strong>, and take a look at your
-              image’s breakdown. Thanks to tools like{" "}
-              <strong>Docker Scout</strong>, you can spot potential security
-              vulnerabilities for each layer before they explode in prod.
-              Imagine a tool that basically looks at your image’s
-              bill-of-materials and cross-checks security risk databases for
-              you…yep, that’s real.
-            </li>
-          </ol>
-          <h3>
-            Running, Managing, and Killing Containers (Without Blowing Up
-            Production)
-          </h3>
-          <ul>
-            <li>
-              <strong>docker run:</strong> Launches your app container right
-              now. Instantly accessible on <code>localhost</code>.
-            </li>
-            <li>
-              <strong>docker ps:</strong> Shows all active (and stopped)
-              containers on your machine—because who remembers what’s running
-              after a weekend binge?
-            </li>
-            <li>
-              <strong>Click and Inspect:</strong> In Docker Desktop, hit the
-              container, dive into logs, browse the filesystem, and even run
-              live commands inside. Debugging: conquered.
-            </li>
-            <li>
-              <strong>docker stop:</strong> Gracefully halts your container.
-            </li>
-            <li>
-              <strong>docker kill:</strong> For when you need to nuke the thing
-              dead, fast.
-            </li>
-            <li>
-              <strong>docker rm:</strong> Wipe out a stopped container for good.
-            </li>
-          </ul>
           <p>
-            Want to run any random app you found online? Use{" "}
-            <code>docker pull</code> to grab someone else’s image—instantly
-            running their code without clogging up your system with incompatible
-            junk. Let that sink in.
+            <strong>Pro Tip:</strong> Fix critical and high vulnerabilities
+            early and rebuild. Even shaving a single vulnerable package version
+            can eliminate a whole chain of CVEs.{" "}
+            {/* background highlight: security best moves with Scout */}
           </p>
         </section>
 
         <section>
-          <h2>Taking Docker to the Cloud: Level Up Your App Deployment Game</h2>
+          <h2>Run, Inspect, Stop: Managing Docker Containers Locally</h2>
           <p>
-            Ready to push your app into the cloud? Here’s the step-by-step
-            process:
+            Now comes the fun part. It’s time to run a container and hit your
+            app.
           </p>
-          <ol>
-            <li>
-              <strong>docker push:</strong> Uploads your image to a remote
-              registry (like Docker Hub).
-            </li>
-            <li>
-              Now you can spin up your container on clouds like{" "}
-              <strong>AWS</strong> (Elastic Container Service) or run truly
-              serverless on <strong>Google Cloud Run</strong>.
-            </li>
-            <li>
-              Want someone else’s app? <strong>docker pull</strong> fetches it
-              straight to your machine, sandboxed and ready to run. No
-              headaches.
-            </li>
-          </ol>
           <p>
-            <strong>Bottom line:</strong> Docker makes you unstoppable. You can
-            move, scale, and run apps anywhere—period.
+            In Docker Desktop, click the Run button next to your image. Under
+            the hood, that’s executing the <strong>docker run</strong> command
+            with sensible defaults. If your app is a web server, open your
+            browser and hit <strong>localhost</strong> on the chosen port.
           </p>
-        </section>
-
-        <section>
-          <h2>
-            The Secret World of Multi-Container Apps: Why the Pros Use Docker
-            Compose
-          </h2>
           <p>
-            Let me show you exactly what I mean: Real-world apps rarely live as
-            one lonely service. Most have a backend, frontend, plus a database
-            and maybe a queue. Spinning those up by hand? Chaos. Docker Compose
-            is your answer.
+            Back in Docker Desktop, switch to the Containers tab. You’ll see
+            your running container with its name, status, port mappings, and
+            resource usage. It’s the same info you’d get from{" "}
+            <strong>docker ps</strong> in the terminal, but with a friendly UI.
           </p>
-          <ul>
-            <li>
-              Define all your services—and their images—in a friendly{" "}
-              <code>docker-compose.yaml</code> file.
-            </li>
-            <li>
-              <strong>docker compose up</strong> spins everything up together.{" "}
-              <strong>down</strong> kills the whole setup in one go.
-            </li>
-          </ul>
           <p>
-            Advanced move: Once your setup grows beyond a single machine,
-            orchestration tools like <strong>Kubernetes</strong> turn up. Now
-            you can manage entire clusters of containerized workloads across the
-            planet.
+            Click the container to drill in. You can view logs streaming in real
+            time, browse the container’s filesystem, and even execute commands
+            directly inside the running container. It’s like popping the hood
+            while the engine is running.
           </p>
-          <h3>How Kubernetes Destroys Outdated Deployment Models</h3>
           <p>
-            Kubernetes is for the big leagues: clusters of nodes, automated
-            scaling, self-healing faults, and API-driven control. You get
-            “describe once, let the robots handle it.” Every cluster node runs a{" "}
-            <em>kubelet</em> agent and hosts multiple <strong>pods</strong>{" "}
-            (each pod is the smallest cluster unit, housing one or more
-            containers).
+            When it’s time to shut down, you’ve got two paths.{" "}
+            <strong>docker stop</strong> sends a graceful signal so your app can
+            finish work and close cleanly. <strong>docker kill</strong> ends it
+            immediately. If you want to remove the container after it stops, use{" "}
+            <strong>docker rm</strong> or do it from the UI.
           </p>
-          <ul>
-            <li>Auto-scales up and down on demand</li>
-            <li>
-              Detects and heals failures (so your boss never gets that 3am call)
-            </li>
-            <li>Handles traffic surges like a pro</li>
-          </ul>
           <p>
-            Here’s what nobody talks about:{" "}
-            <strong>You probably don’t need Kubernetes</strong> unless your
-            infrastructure is wildly complex or you’re processing traffic for
-            millions. For the rest of us? Learning Docker and Compose is a
-            superpower.
+            You can still see stopped containers in the interface for a while,
+            which is handy for grabbing logs or double checking exit codes. Then
+            clean house so your machine doesn’t collect stale containers over
+            time.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Map your local source code as a bind mount
+            during development so you can live reload changes without rebuilding
+            the image on every tweak. Then switch back to pure images for
+            production. {/* background highlight: local dev speed trick */}
           </p>
         </section>
 
         <section>
-          <h2>
-            What Most People Get Wrong (And How You Can Crush the Competition)
-          </h2>
-          <ul>
-            <li>
-              <strong>Skipping Security:</strong> If you ignore those Docker
-              Scout alerts, you’re basically handing hackers the keys to your
-              server room. Patch your layers before you regret it.
-            </li>
-            <li>
-              <strong>Poor Dockerfile Structure:</strong> Layer order matters.
-              Put frequently changing instructions near the end to maximize
-              caching and minimize build times.
-            </li>
-            <li>
-              <strong>Forgetting to Use .dockerignore:</strong> Nothing says
-              “rookie” like accidentally shipping your <code>node_modules</code>{" "}
-              or secret configs inside the image.
-            </li>
-            <li>
-              <strong>Not Using Volumes for Persistence:</strong> Your data
-              shouldn’t vanish every time you redeploy—use Docker volumes for
-              anything valuable.
-            </li>
-          </ul>
+          <h2>Push And Pull: Registries, AWS ECS, And Google Cloud Run</h2>
           <p>
-            <strong>Quick Wins:</strong>
+            Local is great, but the goal is to ship. Use{" "}
+            <strong>docker push</strong> to upload your image to a remote
+            registry like Docker Hub or a private registry. Once there, any
+            server or platform with access can pull and run the exact same
+            image.
           </p>
-          <ul>
-            <li>
-              Always use specific image versions (not <code>:latest</code>) for
-              consistency.
-            </li>
-            <li>Run containers as non-root whenever possible.</li>
-            <li>Use multi-stage builds to keep images tiny and secure.</li>
-          </ul>
+          <p>
+            From a registry, your image can run in managed container services.
+            On AWS, that might be Elastic Container Service. On Google Cloud,
+            you can hand it off to serverless platforms like Cloud Run that
+            handle scaling and routing automatically.
+          </p>
+          <p>
+            The flip side is just as powerful. You can grab someone else’s image
+            with <strong>docker pull</strong> and run their code without
+            changing your local environment at all. No need to install a dozen
+            tools globally or wrestle with conflicting versions.
+          </p>
+          <p>
+            This is the portability promise in action. One artifact. Many places
+            to run it. If the host can run Docker, your app is good to go
+            without a rewrite.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Tag images with both a version (like
+            1.2.3) and a channel tag (like latest or stable). Automations can
+            track the moving tag, while humans and rollbacks anchor to immutable
+            versions. {/* background highlight: safe tagging strategy */}
+          </p>
         </section>
 
         <section>
-          <h2>Advanced Docker: Level Up With These Pro Secrets</h2>
-          <ul>
-            <li>
-              <strong>Debugging Pods with Docker Desktop Extensions:</strong>{" "}
-              Delve inside Kubernetes-level workloads without breaking a sweat.
-            </li>
-            <li>
-              <strong>Multi-Stage Builds:</strong> Build, test, and package in
-              isolated stages to slash image sizes and tighten security.
-            </li>
-            <li>
-              <strong>Automated Health Checks:</strong> Bake reliability right
-              into your image.
-            </li>
-          </ul>
-          <blockquote>
-            “If you’re still reading this, you’re already ahead of 90% of the
-            tech crowd…but the window for easy Docker mastery is closing as more
-            companies demand real container expertise.”
-          </blockquote>
+          <h2>Multi Service Apps: Docker Compose To Kubernetes</h2>
+          <p>
+            Docker itself is only the beginning. Most real apps have more than
+            one service. A frontend. A backend. A database. Maybe a worker or
+            two. That’s where <strong>Docker Compose</strong> shines.
+          </p>
+          <p>
+            Compose lets you define multiple services and their images in a
+            single YAML file. You describe how containers relate to each other,
+            their networks, their environment variables, and the volumes they
+            share. It becomes a living map of your local stack.
+          </p>
+          <p>
+            Spin it all up with <strong>docker compose up</strong>. Every
+            container starts together, connected on an internal network, with
+            their ports and volumes wired as you defined. When you’re done, shut
+            it all down cleanly with <strong>docker compose down</strong>.
+          </p>
+          <p>
+            That works beautifully on a single machine. But once you hit massive
+            scale with global traffic and strict uptime, you’ll likely reach for
+            a full orchestration system. That’s where{" "}
+            <strong>Kubernetes</strong> enters the picture.
+          </p>
+          <p>
+            Kubernetes works like this. You have a control plane that exposes an
+            API. That API manages the cluster, which is made up of multiple
+            nodes or machines. Each node runs a kubelet agent and can host
+            multiple pods.
+          </p>
+          <p>
+            A <strong>pod</strong> is the smallest deployable unit in
+            Kubernetes. Inside a pod you run one or more containers that share
+            the same network namespace and can mount the same volumes. Pods are
+            intentionally short lived. They come and go as needed.
+          </p>
+          <p>
+            The secret sauce is declarative desired state. You describe how many
+            replicas you want, what images they use, which ports they open, and
+            what resources they request. Kubernetes keeps reconciling reality to
+            match that desired state. If a node fails, it reschedules pods. If
+            traffic spikes, it scales up. If it quiets down, it scales back.
+          </p>
+          <p>
+            It gets complicated quickly, and that’s by design. Kubernetes was
+            developed at Google based on its Borg system to run huge, complex,
+            high traffic workloads. If that’s not your world, you probably don’t
+            need Kubernetes yet. Compose or a managed container service might be
+            plenty.
+          </p>
+          <p>
+            If it is your world, Docker Desktop has extensions that help you
+            debug pods locally. You can peek into pod logs, exec into
+            containers, and validate configs before pushing to a live cluster.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Start with Compose to model your
+            architecture. When you truly outgrow it, graduate to a managed
+            Kubernetes offering so you can focus on workloads, not control plane
+            internals. {/* background highlight: sane path to orchestration */}
+          </p>
         </section>
 
         <section>
-          <h2>FAQ: Containers, Docker, and Cloud Deployment</h2>
-          <div className="faq-section">
-            <h3>People Also Ask</h3>
-            <ul>
-              <li>
-                <strong>What exactly is a Docker container?</strong> It’s a
-                lightweight, standalone package of software containing
-                everything needed to run your code—guaranteed to work anywhere.
-              </li>
-              <li>
-                <strong>How is Docker different from a virtual machine?</strong>{" "}
-                VM’s run entire OSes; Docker shares the host kernel, making
-                containers lightning-fast and highly portable.
-              </li>
-              <li>
-                <strong>Is Docker secure?</strong> Yes—if you keep images
-                updated, avoid running as root, and pay attention to
-                vulnerability scans.
-              </li>
-              <li>
-                <strong>Can Docker run on Windows and Mac?</strong> Absolutely!
-                Docker Desktop makes local development a breeze on every major
-                OS.
-              </li>
-              <li>
-                <strong>Why should I use Docker in production?</strong>{" "}
-                Containerization ensures consistency, scalability, isolation,
-                and rapid deployments—just to name a few.
-              </li>
-            </ul>
-          </div>
+          <h2>Stateless Containers, Data, And Volumes</h2>
+          <p>
+            One part that trips people up is state. In the cloud, containers are
+            treated as stateless by default. If a container stops, any files
+            written inside the container disappear.
+          </p>
+          <p>
+            That’s not a bug. It’s a feature that makes containers portable and
+            easy to replace. For anything you need to keep, use volumes or
+            external data stores. Let the data live outside the container and
+            let containers come and go.
+          </p>
+          <p>
+            In Docker, you can mount a <strong>volume</strong> to persist data
+            to a disk that outlives individual containers. Multiple containers
+            can mount the same volume if they need to share files. In Compose,
+            volumes are simple to declare and reuse across services.
+          </p>
+          <p>
+            For databases, it’s usually better to use a managed database service
+            in the cloud for durability and backups. For local development, a
+            database container with a mounted volume works great. Same
+            interface, safer storage.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Run migrations and backups from outside
+            the database container image. Treat stateful services like pets and
+            stateless services like cattle. It keeps recovery and rollbacks
+            predictable.{" "}
+            {/* background highlight: state handling mental model */}
+          </p>
         </section>
 
         <section>
-          <h2>Your Next Level: The Real Reason to Master Docker Today</h2>
+          <h2>Security And Observability: From SBOMs To Live Debugging</h2>
           <p>
-            Here’s what changed everything for me: Real-world software isn’t
-            about getting code to run on <em>your</em> machine—it’s about making
-            sure it runs, scales, and heals itself anywhere, for anyone. Docker
-            is the battle-tested, industry-standard way to do it.
+            Security is a team sport, and containers make it practical. With
+            Docker Scout, you get vulnerability scanning baked into your image
+            workflow. It reads the SBOM, matches against advisory databases, and
+            flags issues with severities so you can prioritize fixes.
           </p>
           <p>
-            While everyone else is stuck fighting server gremlins, you’ll be
-            shipping apps faster, safer, and at a fraction of the cost. By the
-            time the rest of the world catches on, the best gigs and biggest
-            launches will belong to those who truly understand containers. Don’t
-            let them pass you by.
+            Use base images with a good security track record. Keep them
+            updated. Rebuild images after patching upstream packages. Ship
+            smaller images so your attack surface is tighter and your cold
+            starts are faster.
           </p>
-          <blockquote>
-            “What I’ve shared here is powerful, but it’s only scratching the
-            surface. If this basic strategy can do all this, imagine what you’ll
-            achieve when you master advanced orchestration, CI/CD workflows, and
-            container security.”
-          </blockquote>
           <p>
-            Ready to dominate your next project? Start experimenting, break
-            things, and build your own Docker-powered super-app. You might just
-            become the pro everyone else needs on their team.
+            Observability starts local. In Docker Desktop you can tail logs,
+            check environment variables, and shell into a running container for
+            spot checks. In production, forward logs to a central system, export
+            metrics, and keep alerts honest so you catch problems before users
+            do.
+          </p>
+          <p>
+            <strong>Pro Tip:</strong> Treat image scanning as a preflight check.
+            If a build fails the scan on critical issues, fix first, ship
+            second. It’s cheaper to catch it here than after a breach or an
+            urgent patch window.{" "}
+            {/* background highlight: shift-left security habit */}
+          </p>
+        </section>
+
+        <section>
+          <h2>Putting It All Together: A Day In The Life With Docker</h2>
+          <p>
+            Start your morning by cloning a repo and opening Docker Desktop.
+            Write or update a Dockerfile with a pinned base, a clear WORKDIR,
+            and cache friendly steps.
+          </p>
+          <p>
+            Build the image with a tag that makes sense for the branch or
+            release. Watch the layers roll by and take note of what caches, then
+            tweak your Dockerfile order if a heavy step keeps rebuilding.
+          </p>
+          <p>
+            Spin it up locally. Either click Run in Docker Desktop or call
+            docker run with the port mapping you need. Open localhost and test
+            the app for real with a few requests and edge cases.
+          </p>
+          <p>
+            Crack open the container details. Skim logs. Exec into the container
+            to check the process list or verify environment variables are set.
+            If something misbehaves, stop gently with docker stop, fix the code,
+            and rebuild.
+          </p>
+          <p>
+            When it’s working, push the image to a registry. Kick off a deploy
+            to a service like AWS ECS or Google Cloud Run if you want zero to
+            global with minimal ceremony. Or run docker compose up locally to
+            exercise the full system with a frontend, backend, and database
+            wired together.
+          </p>
+          <p>
+            Along the way, keep an eye on Docker Scout’s vulnerability report.
+            Knock out the high severity items, rebuild, and watch the score
+            improve. It’s satisfying, and it keeps your users safe.
+          </p>
+        </section>
+
+        <section>
+          <h2>Conclusion: You Just Got Docker 101 Certified</h2>
+          <p>
+            Congrats. You went from bare metal and kernels to images and
+            containers, from local dev to global scale, and from single service
+            apps to multi service systems with Compose and maybe Kubernetes when
+            it truly fits.
+          </p>
+          <p>
+            You now know how to write a Dockerfile, build an image, run a
+            container, scan it, ship it, and run it anywhere without vendor lock
+            in. That’s real world power you can use today.
+          </p>
+          <p>
+            If you want to have a little fun with it, go ahead and print your
+            Docker 101 certificate and bring it to your next interview. Big
+            shout out to Docker for making this all feel like flipping a switch
+            instead of wrestling a bear.
+          </p>
+          <p>
+            The bottom line: containers let you move fast without breaking
+            everything. Keep the Docker muscle memory tight, and the rest of
+            your stack gets easier, cleaner, and way more scalable.
           </p>
         </section>
 
         <aside>
-          <h3>Expand More Tech</h3>
+          <p>
+            <strong>Quick Reference</strong>
+          </p>
           <ul>
+            <li>Dockerflow: Dockerfile - Image - Container</li>
             <li>
-              <Link href="/tech/40-projects">
-                40 Programming Projects That Will Make You a Better Developer
-              </Link>
+              Key Dockerfile instructions: FROM, WORKDIR, RUN, USER, COPY, ENV,
+              EXPOSE, CMD, ENTRYPOINT, LABEL, HEALTHCHECK, VOLUME
             </li>
-            <li>
-              <Link href="/tech/operating-systems">
-                The Ultimate Guide to Major Operating Systems: From Windows to
-                Unix and Beyond
-              </Link>
-            </li>
-            <li>
-              <Link href="/latest/most-used-git-commands">
-                Most Used Git Commands for Beginners
-              </Link>
-            </li>
-            <li>
-              <Link href="/tech/wifi">
-                The Secret Magic of Wi-Fi: How Invisible Waves Power Your
-                Internet Obsession
-              </Link>
-            </li>
-            <li>
-              <Link href="/tech/linux">
-                The Life Cycle of a Linux User: From Awareness to Enlightenment
-                (and Everything in Between)
-              </Link>
-            </li>
+            <li>Build and tag: docker build -t myapp:1.0 .</li>
+            <li>Run: docker run -p 8080:8080 myapp:1.0</li>
+            <li>Stop vs kill: docker stop NAME, docker kill NAME</li>
+            <li>List: docker ps for running, docker ps -a for all</li>
+            <li>Push and pull: docker push, docker pull</li>
+            <li>Compose: docker compose up, docker compose down</li>
           </ul>
         </aside>
-
-        <CommentSection />
       </article>
     </div>
   );
