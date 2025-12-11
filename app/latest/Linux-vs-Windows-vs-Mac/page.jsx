@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
         width: 800,
         height: 400,
         alt: "Best Operating System for Programming: Mac vs Windows vs Linux Developer Comparison",
@@ -98,7 +98,7 @@ export const metadata = {
     description:
       "Real developer experiences comparing programming on Mac, Windows, and Linux. WSL insights, Unix benefits, and practical recommendations for your coding setup in 2025.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Best Operating System for Programming 2025: Mac vs Windows vs Linux Developer Guide",
     image:
-      "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
     datePublished: "2025-08-30T12:00:00Z",
     dateModified: "2025-08-30T12:00:00Z",
     author: {

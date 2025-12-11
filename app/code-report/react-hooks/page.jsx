@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
         width: 1200,
         height: 630,
         alt: "React Hooks Guide 2025 - Visual diagram showing all hooks and their relationships",
@@ -106,7 +106,7 @@ export const metadata = {
       "Learn when, why, and how to use all React hooks with practical examples - from useState to the latest React 19 hooks.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
     ],
   },
   robots: {
@@ -158,7 +158,7 @@ export const metadata = {
     headline:
       "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
     image:
-      "https://img.mergesociety.com/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: {

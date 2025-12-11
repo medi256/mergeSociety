@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Consumer Protect",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/fooling-online_w6akez_naqb3m.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/fooling-online_w6akez_naqb3m.jpg",
         width: 1200,
         height: 630,
         alt: "Comparison of advertised 'handcrafted' products vs reality - exposing dropshipping scams",
@@ -82,7 +82,7 @@ export const metadata = {
       "Our investigation reveals how AI personas, actor testimonials, and mass-produced goods are sold as premium 'artisanal' products at 40x markups.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/fooling-online_w6akez_naqb3m.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/fooling-online_w6akez_naqb3m.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -144,7 +144,7 @@ export const metadata = {
     headline:
       "The Truth Behind Drop-Shipping Scams: Exposing Fake Artisanal Products",
     image:
-      "https://img.mergesociety.com/mergesociety/fooling-online_w6akez_naqb3m.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/fooling-online_w6akez_naqb3m.jpg",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {

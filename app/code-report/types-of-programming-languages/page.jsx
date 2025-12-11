@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Types%20of%20%20Programming%20Languages.webp",
         width: 1200,
         height: 600,
         alt: "Types of Programming Languages - Low Level vs High Level, Machine and Assembly, Procedural and Object Oriented explained",
@@ -96,7 +96,7 @@ export const metadata = {
       "Understand how programming languages work from CPU instructions to human-readable code. Complete guide to language types and execution.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Types%20of%20%20Programming%20Languages.webp",
     ],
   },
 
@@ -225,7 +225,7 @@ export const metadata = {
         "Complete Guide to Programming Language Categories and Execution Models",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Types%20of%20%20Programming%20Languages.webp",
         width: 1200,
         height: 600,
         caption:

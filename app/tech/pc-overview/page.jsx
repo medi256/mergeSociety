@@ -34,7 +34,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
         width: 1200,
         height: 630,
         alt: "PC Components Overview Guide",
@@ -49,7 +49,7 @@ export const metadata = {
       "Understand the key parts of a computer with our beginner-friendly guide. Learn what makes your PC tick and how to make smart hardware choices.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
     ],
   },
 
@@ -108,7 +108,7 @@ export const metadata = {
     headline:
       "PC Component Overview: Complete Beginner's Guide to Computer Parts",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {

@@ -55,13 +55,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/html-roadmap_cug0c3_chzvfq.png",
         width: 1200,
         height: 630,
         alt: "HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/html-roadmap_cug0c3_chzvfq.png",
         width: 600,
         height: 600,
         alt: "HTML Roadmap 2025 Complete Guide",
@@ -91,7 +91,7 @@ export const metadata = {
     description:
       "Complete HTML roadmap for 2025. Master HTML fundamentals, semantic tags, and modern web development. Step-by-step guide from beginner to advanced with real-world projects.",
     images: [
-      "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/html-roadmap_cug0c3_chzvfq.png",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
       dateModified: "2025-07-08T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/html-roadmap_cug0c3_chzvfq.png",
         width: 1200,
         height: 630,
       },
@@ -241,7 +241,7 @@ export const structuredData = {
   dateModified: "2025-07-08T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+    url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/html-roadmap_cug0c3_chzvfq.png",
     width: 1200,
     height: 630,
   },

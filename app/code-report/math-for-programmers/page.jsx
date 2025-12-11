@@ -36,7 +36,7 @@ export const metadata = {
     url: "https://www.mergesociety.com/code-report/math-for-programmers",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
         width: 1200,
         height: 675,
         alt: "Math for Programmers - Essential concepts explained with code",
@@ -52,7 +52,7 @@ export const metadata = {
     description:
       "Master programming math with practical examples - from Boolean logic to linear algebra. Complete 2025 guide with code samples and real talk.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
     ],
   },
 
@@ -94,7 +94,7 @@ export const jsonLd = {
   description:
     "Complete guide to programming mathematics covering Boolean algebra, floating point numbers, logarithms, set theory, combinatorics, graph theory, Big O complexity, statistics, and linear algebra with practical code examples.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",

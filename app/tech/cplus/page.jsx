@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
         width: 1200,
         height: 630,
         alt: "C++ programming language logo with code examples showing modern features and performance benefits",
@@ -101,7 +101,7 @@ export const metadata = {
       "Beyond the controversy: Discover why C++ remains vital in modern programming despite its reputation for complexity. Find out if this powerful language belongs in your skill set.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
     datePublished: "2025-05-11T09:00:00Z",
     dateModified: "2025-05-11T09:00:00Z",
     author: {

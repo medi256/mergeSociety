@@ -50,7 +50,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/js_hjlvsn_ktm5kv.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/js_hjlvsn_ktm5kv.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -62,7 +62,7 @@ export const metadata = {
     title: "Build Your First HTML Resume: Step-by-Step Tutorial",
     description:
       "Learn how to create a professional HTML resume with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
-    images: ["https://img.mergesociety.com/mergesociety/js_hjlvsn_ktm5kv.jpg"],
+    images: ["https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/js_hjlvsn_ktm5kv.jpg"],
   },
   robots: {
     index: true,

@@ -49,7 +49,7 @@ export const metadata = {
     ],
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
         width: 1200,
         height: 630,
         alt: "Growth Mindset for Programmers - You do not need to be a genius to code",
@@ -63,7 +63,7 @@ export const metadata = {
     description:
       "Programming success isn't about intelligence - it's about perseverance. Learn the mindset that actually matters for coding.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
     ],
   },
 
@@ -103,7 +103,7 @@ export const jsonLd = {
   description:
     "Learn why programming success isn't about intelligence but perseverance. Discover how to develop a growth mindset, overcome imposter syndrome, and build coding skills through deliberate practice and resilience.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",

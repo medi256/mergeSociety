@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/error_ylvaka_dc6kc0.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/error_ylvaka_dc6kc0.jpg",
         width: 1200,
         height: 630,
         alt: "Blue Screen of Death with CrowdStrike logo - The Global Windows Outage of 2024",
@@ -83,7 +83,7 @@ export const metadata = {
       "How a cybersecurity update ironically caused one of history's largest technological failures, affecting critical infrastructure worldwide.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/error_ylvaka_dc6kc0.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/error_ylvaka_dc6kc0.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -129,7 +129,7 @@ export const metadata = {
     "@type": "NewsArticle",
     headline:
       "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
-    image: "https://img.mergesociety.com/mergesociety/error_ylvaka_dc6kc0.jpg",
+    image: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/error_ylvaka_dc6kc0.jpg",
     datePublished: "2025-04-27T08:30:00Z",
     dateModified: "2025-04-27T13:45:00Z",
     author: {

@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
         width: 600,
         height: 400,
         alt: "C vs C++ vs C# Programming Languages Comparison",
@@ -58,7 +58,7 @@ export const metadata = {
     description:
       "Complete guide comparing C, C++, and C# with examples, performance insights, and practical advice for choosing the right language for your project.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
     ],
   },
 

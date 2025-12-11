@@ -60,13 +60,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 1200,
         height: 630,
         alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 600,
         height: 600,
         alt: "Next.js Roadmap 2025",
@@ -97,7 +97,7 @@ export const metadata = {
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
     images: [
-      "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
     ],
   },
 
@@ -140,7 +140,7 @@ export const metadata = {
       dateModified: "2025-07-8T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 1200,
         height: 630,
       },
@@ -206,7 +206,7 @@ export const structuredData = {
   dateModified: "2025-07-8T00:00:00.000Z",
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+    url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
     width: 1200,
     height: 630,
   },

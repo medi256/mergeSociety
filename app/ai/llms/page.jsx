@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/ai-again_frbb7o_etkpee.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of a large language model predicting the next word in a sequence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Learn how LLMs work by predicting one word at a time, and the revolutionary technology that powers today's AI assistants.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/ai-again_frbb7o_etkpee.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -123,7 +123,7 @@ export const metadata = {
     headline:
       "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
     image:
-      "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/ai-again_frbb7o_etkpee.jpg",
     datePublished: "2025-04-26T13:00:00Z",
     dateModified: "2025-04-26T13:00:00Z",
     author: {

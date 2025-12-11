@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
         width: 1200,
         height: 630,
         alt: "DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories",
@@ -71,7 +71,7 @@ export const metadata = {
     description:
       "Master DevOps lifecycle phases, essential tools, and real-world implementation strategies. Includes Netflix case study and practical examples.",
     images: [
-      "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
     ],
   },
 

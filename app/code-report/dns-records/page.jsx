@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/4084_qpacfm_z9pvmi.jpg",
         width: 1200,
         height: 630,
         alt: "DNS Records Infographic showing how domain names connect to IP addresses",
@@ -93,7 +93,7 @@ export const metadata = {
       "Learn everything about DNS records: how A, CNAME, MX, TXT & other records work with practical examples for domain configuration, email setup & security.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/4084_qpacfm_z9pvmi.jpg",
     ],
   },
 
@@ -145,7 +145,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline: "DNS Records Explained: A Complete Guide for 2025",
-    image: "https://img.mergesociety.com/mergesociety/4084_qpacfm_z9pvmi.jpg",
+    image: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/4084_qpacfm_z9pvmi.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {

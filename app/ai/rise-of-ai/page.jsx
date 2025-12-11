@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Discover how AI could evolve from today's assistants to theoretical cosmic consciousness capable of reshaping reality itself.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -125,7 +125,7 @@ export const metadata = {
     headline:
       "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
     image:
-      "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
     datePublished: "2025-04-26T15:30:00Z",
     dateModified: "2025-04-26T15:30:00Z",
     author: {

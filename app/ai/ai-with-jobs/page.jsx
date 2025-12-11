@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Future Perspectives",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/motivation_dimnjq_kbo00z.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/motivation_dimnjq_kbo00z.jpg",
         width: 1200,
         height: 630,
         alt: "Human connection in the AI era - handshake between human and robot with human warmth prevailing",
@@ -80,7 +80,7 @@ export const metadata = {
       "Why authentic human relationships, physical experiences, and forward-looking creativity will always outshine technological solutions.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/motivation_dimnjq_kbo00z.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/motivation_dimnjq_kbo00z.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -123,7 +123,7 @@ export const metadata = {
     "@type": "Article",
     headline: "Why Human Connection Still Beats Technology—Even in the AI Era",
     image:
-      "https://img.mergesociety.com/mergesociety/motivation_dimnjq_kbo00z.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/motivation_dimnjq_kbo00z.jpg",
     datePublished: "2025-04-26T10:30:00Z",
     dateModified: "2025-04-26T10:30:00Z",
     author: {

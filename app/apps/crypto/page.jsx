@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "DevJourney",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/crypto_l9kxvg_uu1awq.jpg",
         width: 1200,
         height: 630,
         alt: "Cryptography concepts visualization with code snippets and encryption symbols",
@@ -81,7 +81,7 @@ export const metadata = {
       "Learn the fundamentals of modern cryptography with practical Node.js examples - from hashing to digital signatures.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/crypto_l9kxvg_uu1awq.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -123,7 +123,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
-    image: "https://img.mergesociety.com/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+    image: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/crypto_l9kxvg_uu1awq.jpg",
     datePublished: "2025-04-27T10:15:00Z",
     dateModified: "2025-04-27T10:15:00Z",
     author: {

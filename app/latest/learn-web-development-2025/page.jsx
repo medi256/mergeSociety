@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
+        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
         width: 1200,
         height: 630,
         alt: "Learn Web Development in 2025 - Complete Roadmap",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Project-based learning path to become a web developer. Skip tutorial hell, build real projects.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
+      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
     ],
   },
 
