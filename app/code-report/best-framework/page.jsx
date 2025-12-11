@@ -632,6 +632,11 @@ export default function Article() {
             </Link>
           </li>
           <li>
+            <Link href="/code-report/websites-to-practice-coding">
+              Top 5 Websites To Practice Coding Daily And Actually Get Better
+            </Link>
+          </li>
+          <li>
             <Link href="/code-report/apis-explained">APIs Explained</Link>
           </li>
           <li>

@@ -431,7 +431,7 @@ const Section6 = () => {
       articleRoute: "best_books_to_learn_programming",
     },
     {
-      id: 38,
+      id: 39,
       title: "Git Basic Commands Step-By-Step Guide",
       image: "/mergesociety/git%20%20basic%20commands.webp",
       alt: "Git Basic Commands Step-By-Step Guide",
@@ -439,7 +439,7 @@ const Section6 = () => {
       articleRoute: "basic-git-commands",
     },
     {
-      id: 39,
+      id: 40,
       title: "HTTP, Secure HTTP, SSL, and TLS - what they are, how they work",
       image: "/mergesociety/https_and_https.webp",
       alt: "HTTP, Secure HTTP, SSL, and TLS - what they are, how they work",
@@ -447,7 +447,7 @@ const Section6 = () => {
       articleRoute: "https_and_https",
     },
     {
-      id: 40,
+      id: 41,
       title: "Types of Programming Languages",
       image: "/mergesociety/Types%20of%20%20Programming%20Languages.webp",
       alt: "Types of Programming Languages",
@@ -455,13 +455,21 @@ const Section6 = () => {
       articleRoute: "types-of-programming-languages",
     },
     {
-      id: 41,
+      id: 42,
       title:
         "CRUD Operations Complete Guide - Database to REST API Implementation",
       image: "/mergesociety/crud_explained.webp",
       alt: "CRUD Operations Complete Guide - Database to REST API Implementation",
       date: "December 9, 2025",
       articleRoute: "crud-explained",
+    },
+    {
+      id: 43,
+      title: "Top 5 Websites To Practice Coding Daily And Actually Get Better",
+      image: "/mergesociety/top_free_websites_to_practice_coding.webp",
+      alt: "Top 5 Websites To Practice Coding Daily And Actually Get Better",
+      date: "December 11, 2025",
+      articleRoute: "websites-to-practice-coding",
     },
   ];
 

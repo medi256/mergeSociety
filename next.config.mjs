@@ -9,7 +9,9 @@ const nextConfig = {
       "www.freecodecamp.org",
       "reactjs.org",
       "afeoolopdqmqjcvsgdxc.supabase.co",
+      "img.mergesociety.com",
     ],
+    formats: ["image/webp", "image/avif"],
   },
 };
 
