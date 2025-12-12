@@ -45,36 +45,10 @@
 //   return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com${src}`;
 // }
 
-// export default function cloudflareLoader({ src, width, quality }) {
-//   const q = quality || 75;
-
-//   // Avoid transforms on localhost
-//   if (
-//     typeof window !== "undefined" &&
-//     window.location.hostname === "localhost"
-//   ) {
-//     return src;
-//   }
-
-//   // Do not transform internal Next.js assets
-//   if (src.startsWith("/_next/")) return src;
-
-//   // External absolute URLs: leave untouched
-//   if (src.startsWith("http://") || src.startsWith("https://")) {
-//     return src;
-//   }
-
-//   // Clean leading slash to avoid double slashes
-//   const cleanSrc = src.startsWith("/") ? src.slice(1) : src;
-
-//   // Cloudflare Image Resizing on your MAIN domain
-//   return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com/${cleanSrc}`;
-// }
-
 export default function cloudflareLoader({ src, width, quality }) {
   const q = quality || 75;
 
-  // localhost → no transforms
+  // Avoid transforms on localhost
   if (
     typeof window !== "undefined" &&
     window.location.hostname === "localhost"
@@ -82,14 +56,17 @@ export default function cloudflareLoader({ src, width, quality }) {
     return src;
   }
 
-  // Internal Next.js assets
+  // Do not transform internal Next.js assets
   if (src.startsWith("/_next/")) return src;
 
-  // Already absolute → skip Cloudflare
+  // External absolute URLs: leave untouched
   if (src.startsWith("http://") || src.startsWith("https://")) {
     return src;
   }
 
-  // ALWAYS attach the raw src to img.mergesociety.com
-  return `https://img.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}${src}`;
+  // Clean leading slash to avoid double slashes
+  const cleanSrc = src.startsWith("/") ? src.slice(1) : src;
+
+  // Cloudflare Image Resizing on your MAIN domain
+  return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com/${cleanSrc}`;
 }
