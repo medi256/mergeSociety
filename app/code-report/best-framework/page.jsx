@@ -637,6 +637,12 @@ export default function Article() {
             </Link>
           </li>
           <li>
+            <Link href="/code-report/top-programming-languages-to-learn">
+              Top 5 Programming Languages To Learn In 2026: Python, TypeScript,
+              C/C++, Java, Rust
+            </Link>
+          </li>
+          <li>
             <Link href="/code-report/apis-explained">APIs Explained</Link>
           </li>
           <li>

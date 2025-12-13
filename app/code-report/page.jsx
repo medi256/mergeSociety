@@ -471,6 +471,15 @@ const Section6 = () => {
       date: "December 11, 2025",
       articleRoute: "websites-to-practice-coding",
     },
+    {
+      id: 44,
+      title:
+        "Top 5 Programming Languages To Learn In 2026: Python, TypeScript, C/C++, Java, Rust",
+      image: "/mergesociety/which_programming_language_to_learn_in_2026.webp",
+      alt: "Top 5 Programming Languages To Learn In 2026: Python, TypeScript, C/C++, Java, Rust",
+      date: "December 13, 2025",
+      articleRoute: "top-programming-languages-to-learn",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

@@ -41,6 +41,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/top-programming-languages-to-learn`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/websites-to-practice-coding`,
       lastModified: new Date(),
     },
