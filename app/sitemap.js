@@ -45,6 +45,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/vscode-extension`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/websites-to-practice-coding`,
       lastModified: new Date(),
     },

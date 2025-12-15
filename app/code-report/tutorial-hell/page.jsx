@@ -848,6 +848,12 @@ const Page = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/code-report/vscode-extension">
+                  21 Best VS Code Extensions I Use Every Day - Prettier, ESLint,
+                  GitLens & More
+                </Link>
+              </li>
+              <li>
                 <Link href="/projects/javascriptP">
                   Build Javascript projects Step by Step
                 </Link>

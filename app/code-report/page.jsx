@@ -480,6 +480,14 @@ const Section6 = () => {
       date: "December 13, 2025",
       articleRoute: "top-programming-languages-to-learn",
     },
+    {
+      id: 45,
+      title: "The Best VS Code Extensions I Actually Use Every Day",
+      image: "/mergesociety/vscode_extensions.webp",
+      alt: "The Best VS Code Extensions I Actually Use Every Day",
+      date: "December 15, 2025",
+      articleRoute: "vscode-extension",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
