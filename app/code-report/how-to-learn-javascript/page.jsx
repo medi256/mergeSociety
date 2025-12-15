@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Modern Web Developer",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+        url: "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
         width: 1200,
         height: 630,
         alt: "JavaScript Learning Roadmap - Visual guide showing the fastest path from beginner to professional in 2025",
@@ -104,7 +104,7 @@ export const metadata = {
       "Break free from the JavaScript tutorial loop! Discover science-backed learning strategies and project-based techniques that transform beginners into job-ready developers.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
     ],
   },
   robots: {
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {

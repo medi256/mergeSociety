@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "Dev Productivity Master",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        url: "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
         width: 1200,
         height: 630,
         alt: "Collection of 2025's essential productivity tools showcased on a minimalist desk setup",
       },
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        url: "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
         width: 1200,
         height: 630,
         alt: "The power of AI-enhanced productivity tools transforming development workflows",
@@ -98,7 +98,7 @@ export const metadata = {
       "Discover why a dedicated tech minimalist has finally embraced these game-changing tools: Drizzle ORM, Superhuman, Super Maven, and more - the definitive guide for productivity-focused developers.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -150,8 +150,8 @@ export const metadata = {
     headline:
       "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
     image: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T12:30:00Z",

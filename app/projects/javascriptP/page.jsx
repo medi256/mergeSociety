@@ -57,7 +57,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Web_Analytics_jzmlyv_nwoqmf.jpg",
+        url: "https://img.mergesociety.com/mergesociety/Web_Analytics_jzmlyv_nwoqmf.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -70,7 +70,7 @@ export const metadata = {
     description:
       "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Web_Analytics_jzmlyv_nwoqmf.jpg",
+      "https://img.mergesociety.com/mergesociety/Web_Analytics_jzmlyv_nwoqmf.jpg",
     ],
   },
   robots: {

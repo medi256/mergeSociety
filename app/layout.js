@@ -158,7 +158,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",

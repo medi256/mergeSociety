@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+        url: "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
         width: 1200,
         height: 630,
         alt: "JavaScript Concepts for React - Visual diagram showing the 10 essential concepts",
@@ -94,7 +94,7 @@ export const metadata = {
       "Master the 10 crucial JavaScript concepts before learning React. Updated for 2025 with React 19 compatibility.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     ],
   },
   robots: {
@@ -146,7 +146,7 @@ export const metadata = {
     headline:
       "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {

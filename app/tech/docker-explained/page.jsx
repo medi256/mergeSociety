@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+        url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
         width: 1200,
         height: 630,
         alt: "Docker containerization workflow from bare metal to production deployment",
@@ -96,7 +96,7 @@ export const metadata = {
       "Learn Docker properly - from kernels and bare metal to containers and production. Master Dockerfiles, Docker Compose, security scanning, and deployment.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
       "Complete Docker Tutorial From Bare Metal To Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
       width: 1200,
       height: 630,
       alt: "Docker containerization workflow from bare metal to production deployment",

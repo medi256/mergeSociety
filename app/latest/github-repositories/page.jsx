@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
         width: 600,
         height: 400,
         alt: "A chill sloth mascot wearing headphones and coding - GitHub repositories guide",
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Discover 17 essential GitHub repositories for developers. Learn algorithms, build projects, find free resources, and level up your programming skills.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
     ],
   },
   robots: {

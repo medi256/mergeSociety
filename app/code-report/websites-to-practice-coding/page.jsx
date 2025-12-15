@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/top_free_websites_to_practice_coding.webp",
+        url: "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
         width: 600,
         height: 400,
         alt: "Top 5 Websites To Practice Coding Daily - W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks",
@@ -95,7 +95,7 @@ export const metadata = {
       "W3Resource for beginners, HackerRank for structure, LeetCode for challenges. Online editors, no setup. Practice coding the right way.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/top_free_websites_to_practice_coding.webp",
+      "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
     ],
   },
 
@@ -290,7 +290,7 @@ export const metadata = {
         "Complete Guide to W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/top_free_websites_to_practice_coding.webp",
+        url: "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
         width: 600,
         height: 400,
         caption: "Top 5 coding practice websites comparison",

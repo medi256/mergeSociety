@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
         width: 1200,
         height: 630,
         alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
@@ -95,7 +95,7 @@ export const metadata = {
       "Speed, security, or flexibility? Our comprehensive comparison helps you choose between Apache and NGINX for optimal web infrastructure in 2025.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Apache vs NGINX: The Ultimate Web Server Comparison Guide for 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {

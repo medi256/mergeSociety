@@ -56,13 +56,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 1200,
         height: 630,
         alt: "Programming Language Roadmaps 2025 - Complete Developer Career Guides",
       },
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 600,
         height: 600,
         alt: "Programming Language Roadmaps Collection",
@@ -92,7 +92,7 @@ export const metadata = {
     description:
       "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+      "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
     ],
   },
 
@@ -125,7 +125,7 @@ export const metadata = {
                 "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
               url: "https://www.mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your actual URL
               image:
-                "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+                "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
               provider: {
                 "@type": "Organization",
                 name: "Merge Society",
@@ -163,7 +163,7 @@ export const metadata = {
       dateModified: "2025-07-08T00:00:00.000Z",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
+        url: "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
         width: 1200,
         height: 630,
       },

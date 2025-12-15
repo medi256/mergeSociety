@@ -19,7 +19,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
+        url: "https://img.mergesociety.com/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
         width: 600,
         height: 400,
         alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Complete guide to understanding compilers in programming. Learn with practical examples and Code::Blocks walkthrough.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
     ],
   },
 

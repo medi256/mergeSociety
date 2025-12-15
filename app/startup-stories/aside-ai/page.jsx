@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+        url: "https://img.mergesociety.com/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
         width: 1200,
         height: 630,
         alt: "Aside AI real-time sales assistant showing how to answer technical questions instantly during live calls",
@@ -102,7 +102,7 @@ export const metadata = {
       "Real-time AI that answers technical questions DURING your sales call. Handles objections perfectly. Turns misses into playbooks. See the demo.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+      "https://img.mergesociety.com/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
     ],
   },
 
@@ -233,7 +233,7 @@ export const metadata = {
       description:
         "Watch Aside AI deliver instant answers during a live sales call",
       thumbnailUrl:
-        "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+        "https://img.mergesociety.com/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
       uploadDate: "2025-11-01T00:00:00Z",
       contentUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
       embedUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",

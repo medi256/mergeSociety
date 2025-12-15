@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        url: "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
         width: 1200,
         height: 630,
         alt: "Git for Beginners Tutorial - Version Control Simplified with terminal commands and repository setup",
@@ -98,7 +98,7 @@ export const metadata = {
       "Master Git in 10 minutes! Installation, commands, workflows explained in plain English. Perfect for coding beginners and bootcamp students.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+      "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
     ],
   },
 
@@ -357,7 +357,7 @@ export const metadata = {
         "Learn Git from Scratch: Installation, Commands, and Workflow for Beginners",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        url: "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
         width: 1200,
         height: 630,
         caption:

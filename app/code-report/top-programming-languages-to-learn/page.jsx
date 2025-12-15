@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
         width: 600,
         height: 400,
         alt: "Top 5 Programming Languages 2026 - Python TypeScript C/C++ Java Rust comparison chart",
@@ -96,7 +96,7 @@ export const metadata = {
       "Python for AI, TypeScript for web, C/C++ for speed, Java for enterprise, Rust for systems. Data-backed ranking from GitHub, Stack Overflow, TIOBE.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/which_programming_language_to_learn_in_2026.webp",
+      "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
     ],
   },
 
@@ -324,7 +324,7 @@ export const metadata = {
         "Data-Driven Programming Language Ranking for 2026 Careers",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
         width: 600,
         height: 400,
         caption: "Top 5 programming languages 2026 comparison",

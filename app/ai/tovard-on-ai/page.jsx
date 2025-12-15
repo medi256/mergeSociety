@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+        url: "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
         width: 1200,
         height: 630,
         alt: "Linus Torvalds discussing AI's impact on programming with code and neural networks in the background",
@@ -101,7 +101,7 @@ export const metadata = {
       "Beyond the hype: How large language models are quietly transforming coding practices and what it means for the future of software development according to Linux creator.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+      "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+      "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
     datePublished: "2025-05-11T10:30:00Z",
     dateModified: "2025-05-11T10:30:00Z",
     author: {

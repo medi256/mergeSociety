@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Cloud Experts",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+        url: "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
         width: 1200,
         height: 630,
         alt: "AWS Cloud Computing Guide - Visual Overview of Amazon Web Services",
@@ -93,7 +93,7 @@ export const metadata = {
       "Our brutally honest AWS guide explains everything from bizarre UIs to cost traps and why it's still the most powerful cloud platform in 2025.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     ],
   },
 
@@ -144,7 +144,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     datePublished: "2025-05-17T10:00:00Z",
     dateModified: "2025-05-17T10:00:00Z",
     author: {

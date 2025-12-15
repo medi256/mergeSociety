@@ -45,7 +45,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
         width: 1200,
         height: 675,
         alt: "How To Start Programming Projects The Lazy Way",
@@ -58,7 +58,7 @@ export const metadata = {
     description:
       "Break through tutorial hell and start coding real projects. Practical strategies for beginners: MVP approach, unique twists, and lazy-smart techniques that work.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
     ],
   },
   robots: {
@@ -92,7 +92,7 @@ export const jsonLd = {
   description:
     "A practical guide for beginner programmers on how to start coding projects without overthinking. Covers project selection, MVP development, escaping tutorial hell, and actionable strategies to ship your first projects.",
   image:
-    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+    "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
   datePublished: "2025-10-05T00:00:00.000Z",
   dateModified: "2025-10-05T00:00:00.000Z",
   author: {
@@ -156,7 +156,7 @@ export const jsonLd = {
     description:
       "Video walkthrough of how to start programming projects as a beginner",
     thumbnailUrl:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
     uploadDate: "2025-10-05T00:00:00.000Z",
     embedUrl: "https://www.youtube-nocookie.com/embed/HdNypiphMRg",
   },

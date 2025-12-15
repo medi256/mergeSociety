@@ -63,7 +63,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
         width: 1200,
         height: 630,
         alt: "AI Trends 2025: Revolutionary artificial intelligence developments including agentic AI, trillion-parameter models, and next-gen intelligence",
@@ -96,7 +96,7 @@ export const metadata = {
       "Agentic AI + 50 trillion parameter models = the future is here. Expert analysis of 2025's most explosive AI trends. Are you ready?",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
     ],
   },
 
@@ -154,7 +154,7 @@ export const jsonLdStructuredData = {
         "AI Trends 2025: 8 Game-Changing Predictions That Will Transform Your Future",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -272,7 +272,7 @@ export const jsonLdStructuredData = {
       },
       primaryImageOfPage: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
       },
       datePublished: "2025-01-15T08:00:00Z",
       dateModified: new Date().toISOString(),

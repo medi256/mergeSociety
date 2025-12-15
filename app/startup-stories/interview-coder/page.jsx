@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Interview_xzyj97_tolqz5.png",
+        url: "https://img.mergesociety.com/mergesociety/Interview_xzyj97_tolqz5.png",
         width: 1200,
         height: 630,
         alt: "Interview Coder tool showing how AI is being used to cheat live coding interviews at FAANG companies",
@@ -107,7 +107,7 @@ export const metadata = {
       "Amazon is freaking out about this tool. Screenshot any coding question → get instant AI solution during live interviews. The LeetCode era might be over.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Interview_xzyj97_tolqz5.png",
+      "https://img.mergesociety.com/mergesociety/Interview_xzyj97_tolqz5.png",
     ],
   },
 
@@ -167,7 +167,7 @@ export const metadata = {
     headline:
       "The Tool Killing LeetCode: How AI Is Breaking FAANG Interviews in 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Interview_xzyj97_tolqz5.png",
+      "https://img.mergesociety.com/mergesociety/Interview_xzyj97_tolqz5.png",
     datePublished: "2025-10-29T00:00:00Z",
     dateModified: "2025-10-29T00:00:00Z",
     author: {
@@ -221,7 +221,7 @@ export const metadata = {
       description:
         "Unedited footage showing Interview Coder being used in real FAANG interviews",
       thumbnailUrl:
-        "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/Interview_xzyj97_tolqz5.png",
+        "https://img.mergesociety.com/mergesociety/Interview_xzyj97_tolqz5.png",
       uploadDate: "2025-10-29T00:00:00Z",
       contentUrl: "https://www.youtube-nocookie.com/embed/CV4XsX2aks4",
       embedUrl: "https://www.youtube-nocookie.com/embed/CV4XsX2aks4",

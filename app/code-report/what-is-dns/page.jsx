@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+        url: "https://img.mergesociety.com/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
         width: 1200,
         height: 630,
         alt: "DNS explanation diagram showing how domains resolve to IP addresses",
@@ -99,7 +99,7 @@ export const metadata = {
       "Learn how DNS works, why it matters for security, and how to protect yourself with modern encryption like DoH. Detailed guide with real-world examples.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      "https://img.mergesociety.com/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What is DNS? The Domain Name System Explained Simply in 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      "https://img.mergesociety.com/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/most%20used%20git%20commands.webp",
+        url: "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
         width: 600,
         height: 400,
         alt: "Most Used Git Commands for Beginners - GitHub workflow from init to pull request",
@@ -95,7 +95,7 @@ export const metadata = {
       "Learn the git commands you'll actually use every day. From git config to pull requests, with real VS Code examples and best practices.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/most%20used%20git%20commands.webp",
+      "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
     ],
   },
 
@@ -255,7 +255,7 @@ export const metadata = {
         "Master Git: From Config to Pull Requests with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/most%20used%20git%20commands.webp",
+        url: "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
         width: 600,
         height: 400,
         caption: "Most used git commands workflow diagram",

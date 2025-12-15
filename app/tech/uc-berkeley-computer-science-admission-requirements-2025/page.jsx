@@ -21,7 +21,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
+        url: "https://img.mergesociety.com/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
         width: 1200,
         height: 630,
         alt: "UC Berkeley campus with students - Complete Admissions Guide 2025",
@@ -47,7 +47,7 @@ export const metadata = {
     description:
       "Discover the secrets to UC Berkeley admissions in 2025. Learn about holistic review, Personal Insight Questions, and proven strategies.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
+      "https://img.mergesociety.com/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
     ],
     creator: "@manager70191",
   },

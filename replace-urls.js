@@ -11,9 +11,10 @@ const CONFIG = {
   fileExtensions: [".mdx", ".md", ".js", ".jsx", ".tsx", ".ts"],
 
   // URL mappings: old Cloudinary URL -> new Supabase URL (full URL allowed)
+
   urlMappings: {
-    "https://img.mergesociety.com/mergesociety/":
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/",
+    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/":
+      "https://img.mergesociety.com/mergesociety/",
   },
 
   createBackup: true,

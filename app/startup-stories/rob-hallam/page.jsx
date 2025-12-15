@@ -67,7 +67,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
+        url: "https://img.mergesociety.com/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
         width: 800,
         height: 400,
         alt: "Rob Hallam building Super X startup in Medellin Colombia - Day 1 of growing to $10,000 monthly recurring revenue",
@@ -106,7 +106,7 @@ export const metadata = {
     description:
       "Quit my UK job to build a Twitter growth tool. Now at $1K MRR in Medellin. Just shipped AI Shield, hit 100K views in beta. This is day 1 of the full journey to $10K/month. Real numbers, real struggles, real wins.",
     images: {
-      url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
+      url: "https://img.mergesociety.com/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
       alt: "Building Super X startup from Medellin - Day 1 growth journey",
     },
   },
@@ -140,7 +140,7 @@ export const jsonLd = {
   description:
     "Founder Rob Hallam documents day 1 of building Super X from $1,000 to $10,000 monthly recurring revenue while traveling through Latin America. Just launched AI Shield feature, hit 100K+ views in private beta.",
   image:
-    "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
+    "https://img.mergesociety.com/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
   datePublished: "2025-10-27T00:00:00.000Z",
   dateModified: "2025-10-27T00:00:00.000Z",
   author: {

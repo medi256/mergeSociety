@@ -39,13 +39,13 @@ export const metadata = {
     siteName: "Tech Oversight Initiative",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
         width: 1200,
         height: 630,
         alt: "Palantir Technologies Headquarters in Denver",
       },
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
         width: 1200,
         height: 630,
         alt: "AI Surveillance Concept Illustration",
@@ -96,7 +96,7 @@ export const metadata = {
       "Whistleblower reveals how Peter Thiel's secretive tech firm uses AI to power military operations, tax enforcement, and health data analysis—with minimal democratic oversight.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -206,7 +206,7 @@ export const metadata = {
     headline:
       "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
     datePublished: "2025-04-29T08:30:00Z",
     dateModified: "2025-04-29T08:30:00Z",
     description:

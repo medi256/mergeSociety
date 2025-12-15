@@ -55,7 +55,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+        url: "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+      "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
     ],
   },
   robots: {

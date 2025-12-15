@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "React Mastery",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+        url: "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
         width: 1200,
         height: 630,
         alt: "Comprehensive React Concepts Guide - Visual diagram of React architecture",
@@ -98,7 +98,7 @@ export const metadata = {
       "Master React from fundamentals to advanced patterns with this comprehensive guide. Updated for React 19 with real-world examples and best practices for 2025.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+      "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
     ],
   },
   robots: {
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+      "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: [

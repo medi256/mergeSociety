@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Tech Anthropology",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
+        url: "https://img.mergesociety.com/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
         width: 1200,
         height: 630,
         alt: "Tech Industry Subcultures Illustrated",
@@ -85,7 +85,7 @@ export const metadata = {
       "A hilarious, unfiltered look at tech's most colorful characters: from devfluencers hawking TikTok code tutorials to product managers with questionable purposes. Tech industry satire at its finest.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
+      "https://img.mergesociety.com/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
     ],
   },
   metadataBase: new URL("https://www.mergesociety.com"),
@@ -153,7 +153,7 @@ export const metadata = {
     headline:
       "Inside Tech's Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
+      "https://img.mergesociety.com/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
     datePublished: "2025-04-29T10:00:00Z",
     dateModified: "2025-04-29T10:00:00Z",
     author: {

@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
         width: 1200,
         height: 630,
         alt: "Programming language roadmap showing the progression from beginner to expert languages",
@@ -89,7 +89,7 @@ export const metadata = {
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {

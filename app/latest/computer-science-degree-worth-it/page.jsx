@@ -33,7 +33,7 @@ export const metadata = {
     url: "https://www.mergesociety.com/latest/computer-science-degree-worth-it",
     images: [
       {
-        url: "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+        url: "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
         width: 600,
         height: 400,
         alt: "Computer Science Degree Worth It - Career Guide 2025",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Complete breakdown: CS careers, $50K-$300K+ salaries, AI impact, job satisfaction data, and degree vs bootcamp comparison.",
     images: [
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
     ],
   },
 
@@ -102,7 +102,7 @@ export const metadata = {
     description:
       "A comprehensive guide covering CS degree value, career paths, salary ranges, AI impact, and alternatives for aspiring tech professionals.",
     image:
-      "https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+      "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
     author: {
       "@type": "Person",
       name: "Massa Medi",
