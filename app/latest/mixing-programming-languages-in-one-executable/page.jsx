@@ -699,6 +699,11 @@ int main(void) {
                 Best Programming Language
               </Link>
             </li>
+            <li>
+              <Link href="/latest/list-of-free-apis">
+                Free APIs You Can Use In Your Next Programming Project
+              </Link>
+            </li>
           </ul>
         </aside>
 

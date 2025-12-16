@@ -719,23 +719,24 @@ const Vscode = () => {
 
       <article className="lesson-container">
         <h1>The Best VS Code Extensions I Actually Use Every Day</h1>
-        <section>
-          <Image
-            src="/mergesociety/vscode_extensions.webp"
-            alt="The Best VS Code Extensions I Actually Use Every Day"
-            width={600}
-            height={400}
-            priority
-          />
-          <h2 className="project-info">
-            <span className="project-title">
-              <Link href={"/about"}>Written by Massa Medi</Link>
-            </span>
-            <time className="project-date" dateTime="2025-05-15">
-              | December 15, 2025
-            </time>
-          </h2>
-        </section>
+        <Image
+          src="/mergesociety/vscode_extensions.webp"
+          alt="The Best VS Code Extensions I Actually Use Every Day"
+          width={600}
+          height={400}
+          priority
+        />
+
+        <div className="project-info">
+          <address className="project-author">
+            Written by <Link href="/about">Massa Medi</Link>
+          </address>
+
+          <time className="project-date" dateTime="2025-12-16">
+            December 15, 2025
+          </time>
+        </div>
+
         <p>
           <strong>
             Prettier keeps formatting consistent on every save, Code Spell

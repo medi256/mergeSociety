@@ -317,6 +317,14 @@ const GridNews = () => {
       date: "December 6, 2025",
       articleRoute: "top-free-websites-to-learn-programming",
     },
+    {
+      id: 31,
+      title: `40 Free APIs You Can Use In Your Next Programming Project`,
+      image: "/mergesociety/free_apis.webp",
+      alt: "40 Free APIs You Can Use In Your Next Programming Project",
+      date: "December 16, 2025",
+      articleRoute: "list-of-free-apis",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

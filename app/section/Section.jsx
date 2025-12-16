@@ -108,6 +108,17 @@ export default function GridNews() {
               <h2>Most used git commands workflow Guide</h2>
             </Link>
           </div>
+          <div>
+            <Link href="/latest/list-of-free-apis">
+              <Image
+                src="/mergesociety/free_apis.webp"
+                alt="40 Free APIs You Can Use In Your Next Programming Project"
+                width={400}
+                height={250}
+              />
+              <h2>40 Free APIs You Can Use In Your Next Programming Project</h2>
+            </Link>
+          </div>
         </aside>
         <MoreArticles route={"/latest"} />
       </section>
