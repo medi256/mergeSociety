@@ -627,10 +627,6 @@ const DataStructures = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
 
       <article className="lesson-container">
         <h1>
