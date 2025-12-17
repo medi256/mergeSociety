@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://www.mergesociety.com/mergesociety/free_apis.webp",
+        url: "https://img.mergesociety.com/mergesociety/free_apis.webp",
         width: 600,
         height: 400,
         alt: "40 Free APIs for programming projects - Unsplash Weather Finance NASA Discord Stripe and more",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Real quotas, real limits: Unsplash images, OpenWeather 1000/day, Geokio 2500/day, NASA data, Discord bots, Stripe payments. Build this weekend.",
     creator: "@manager70191",
-    images: ["https://www.mergesociety.com/mergesociety/free_apis.webp"],
+    images: ["https://img.mergesociety.com/mergesociety/free_apis.webp"],
   },
 
   robots: {
@@ -380,7 +380,7 @@ export const metadata = {
         "Tested Free APIs with Real Quotas: Images, Weather, Finance, AI, Games, and More",
       image: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/mergesociety/free_apis.webp",
+        url: "https://img.mergesociety.com/mergesociety/free_apis.webp",
         width: 600,
         height: 400,
         caption: "40 free APIs for developer projects",
@@ -1439,8 +1439,8 @@ const FreeAPIs = () => {
             </Link>
           </li>
           <li>
-            <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
-              Best Programming Languages for high Salary
+            <Link href="/latest/data-structures-explained">
+              Data Structures and Big O Notation Explained for Coding Interviews
             </Link>
           </li>
           <li>

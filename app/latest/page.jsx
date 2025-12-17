@@ -325,6 +325,14 @@ const GridNews = () => {
       date: "December 16, 2025",
       articleRoute: "list-of-free-apis",
     },
+    {
+      id: 32,
+      title: `Data Structures and Big O For Coding Interviews - Data Structures Explained`,
+      image: "/mergesociety/data_structures_explained.webp",
+      alt: "Data Structures and Big O For Coding Interviews - Data Structures Explained",
+      date: "December 17, 2025",
+      articleRoute: "data-structures-explained",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

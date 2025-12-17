@@ -54,6 +54,21 @@ export default function GridNews() {
               </h2>
             </Link>
           </div>
+
+          <div>
+            <Link href="/latest/data-structures-explained">
+              <Image
+                src="/mergesociety/data_structures_explained.webp"
+                alt="Data Structures and Big O For Coding Interviews - Data Structures Explained"
+                width={400}
+                height={250}
+              />
+              <h2>
+                Data Structures and Big O For Coding Interviews - Data
+                Structures Explained
+              </h2>
+            </Link>
+          </div>
         </aside>
 
         <main className="grid-news-featured">

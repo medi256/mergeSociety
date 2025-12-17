@@ -53,6 +53,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/data-structures-explained`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/websites-to-practice-coding`,
       lastModified: new Date(),
     },
