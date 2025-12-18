@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 export const metadata = {
   title:
@@ -267,7 +268,7 @@ export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
-      <script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData),
