@@ -1156,7 +1156,7 @@ const DataStructures = () => {
             </li>
             <li>
               <Link href="/latest/best-programming-languages-high-paying-tech-jobs">
-                Best Programming Languages for high Salary
+                Mindset Changes That Transformed My Learning To Code
               </Link>
             </li>
             <li>

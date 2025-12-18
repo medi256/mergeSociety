@@ -333,6 +333,14 @@ const GridNews = () => {
       date: "December 17, 2025",
       articleRoute: "data-structures-explained",
     },
+    {
+      id: 33,
+      title: `Mindset Changes That Transformed My Learning To Code`,
+      image: "/mergesociety/programmer_mindset.webp",
+      alt: "Mindset Changes That Transformed My Learning To Code",
+      date: "December 18, 2025",
+      articleRoute: "programming_mindset",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
