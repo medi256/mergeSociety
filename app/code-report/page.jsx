@@ -488,6 +488,14 @@ const Section6 = () => {
       date: "December 15, 2025",
       articleRoute: "vscode-extension",
     },
+    {
+      id: 46,
+      title: "How to Code Programming Projects Step by Step",
+      image: "/mergesociety/how_to_code_programming_projects.png",
+      alt: "How to Code Programming Projects Step by Step",
+      date: "December 19, 2025",
+      articleRoute: "how-to-code-a-projects",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

@@ -29,7 +29,9 @@ export const metadata = {
     "portfolio projects",
     "coding productivity",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   openGraph: {
@@ -770,6 +772,11 @@ const HowToBuildProjects = () => {
             <li>
               <Link href="/projects/javascriptP">
                 Here are some CSS Projects that you can Build{" "}
+              </Link>
+            </li>
+            <li>
+              <Link href="/code-report/how-to-code-a-projects">
+                How to Code Programming Projects Step by Step
               </Link>
             </li>
           </ul>
