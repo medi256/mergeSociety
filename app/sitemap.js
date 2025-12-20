@@ -65,6 +65,10 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/code-report/programming-usecase`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/websites-to-practice-coding`,
       lastModified: new Date(),
     },

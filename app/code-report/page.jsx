@@ -490,11 +490,19 @@ const Section6 = () => {
     },
     {
       id: 46,
+      title: "10 Different Programming Languages and Their Uses",
+      image: "/mergesociety/programming_languages_and_usecase.webp",
+      alt: "10 Different Programming Languages and Their Uses",
+      date: "December 20, 2025",
+      articleRoute: "programming-usecase",
+    },
+    {
+      id: 47,
       title: "How to Code Programming Projects Step by Step",
       image: "/mergesociety/how_to_code_programming_projects.png",
       alt: "How to Code Programming Projects Step by Step",
       date: "December 19, 2025",
-      articleRoute: "how-to-code-a-projects",
+      articleRoute: "programming-usecase",
     },
   ];
 

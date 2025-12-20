@@ -8,8 +8,7 @@ const Section6 = () => {
     {
       id: 6,
       title: "Every Python Library and Frameworks Explained",
-      image:
-        "/mergesociety/top-python-libraries.webp",
+      image: "/mergesociety/top-python-libraries.webp",
       alt: "Every Python Library and Frameworks Explained",
       date: "May 2, 2025",
       articleRoute: "python-libraries",
@@ -35,8 +34,7 @@ const Section6 = () => {
     {
       id: 9,
       title: "How to Learn JavaScript FAST in 2025",
-      image:
-        "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      image: "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
       alt: "How to Learn JavaScript FAST in 2025",
       date: "May 2, 2025",
       articleRoute: "how-to-learn-javascript",
@@ -64,8 +62,7 @@ const Section6 = () => {
     {
       id: 12,
       title: "APIs Explained (in 4 Minutes)",
-      image:
-        "/mergesociety/api_cbneaq_bfxrcg.jpg",
+      image: "/mergesociety/api_cbneaq_bfxrcg.jpg",
       alt: "Visual representation of API communication between applications",
       date: "May 7, 2025",
       articleRoute: "apis-explained",
@@ -74,8 +71,7 @@ const Section6 = () => {
       id: 13,
       title:
         "MongoDB: The Powerful, Flexible NoSQL Database Revolutionizing Modern Development",
-      image:
-        "/mergesociety/MongoDB_Logo.jpg",
+      image: "/mergesociety/MongoDB_Logo.jpg",
       alt: "MongoDB database architecture visualization",
       date: "May 7, 2025",
       articleRoute: "mongodb-explained",
@@ -84,8 +80,7 @@ const Section6 = () => {
       id: 14,
       title:
         "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image:
-        "/mergesociety/6554783_amd2ad_suixhe.jpg",
+      image: "/mergesociety/6554783_amd2ad_suixhe.jpg",
       alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
       date: "May 9, 2025",
       articleRoute: "databases",
@@ -94,8 +89,7 @@ const Section6 = () => {
       id: 15,
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image:
-        "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      image: "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -113,8 +107,7 @@ const Section6 = () => {
     {
       id: 17,
       title: "Define Domain Name System (DNS)",
-      image:
-        "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      image: "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -123,8 +116,7 @@ const Section6 = () => {
       id: 18,
       title:
         "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image:
-        "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+      image: "/mergesociety/4084_qpacfm_z9pvmi.jpg",
       alt: "DNS Records Infographic showing how domain names connect to IP addresses",
       date: "May 9, 2025",
       articleRoute: "dns-records",
@@ -132,8 +124,7 @@ const Section6 = () => {
     {
       id: 19,
       title: "Easy Definition of VPN",
-      image:
-        "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -152,8 +143,7 @@ const Section6 = () => {
       id: 21,
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
-      image:
-        "/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      image: "/mergesociety/7015995_iwu9fs_to6s06.jpg",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -171,8 +161,7 @@ const Section6 = () => {
     {
       id: 23,
       title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      image:
-        "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
+      image: "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
       alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
       date: "May 10, 2025",
       articleRoute: "http1-http2-http3",
@@ -201,8 +190,7 @@ const Section6 = () => {
       id: 30,
       title:
         "Pointers in C/C++ - what a pointer is, how pointer syntax works, and why programmers care",
-      image:
-        "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+      image: "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
       alt: "Pointers in C and C++",
       date: "August 25, 2025",
       articleRoute: "pointers-in-c-and-cpp",
@@ -211,11 +199,18 @@ const Section6 = () => {
       id: 31,
       title:
         "Math for Programmers - 10 Essential Concepts explained with memes, code, and real talk",
-      image:
-        "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
+      image: "/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
       alt: "Math for Programmers",
       date: "August 26, 2025",
       articleRoute: "math-for-programmers",
+    },
+    {
+      id: 32,
+      title: "10 Different Programming Languages and Their Uses",
+      image: "/mergesociety/programming_languages_and_usecase.webp",
+      alt: "10 Different Programming Languages and Their Uses",
+      date: "December 20, 2025",
+      articleRoute: "programming-usecase",
     },
   ];
 
