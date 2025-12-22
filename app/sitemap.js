@@ -69,6 +69,14 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
+      url: `https://www.mergesociety.com/latest/git-vs-github`,
+      lastModified: new Date(),
+    },
+    {
+      url: `https://www.mergesociety.com/latest/react-nextjs-vulnerability`,
+      lastModified: new Date(),
+    },
+    {
       url: `https://www.mergesociety.com/code-report/websites-to-practice-coding`,
       lastModified: new Date(),
     },

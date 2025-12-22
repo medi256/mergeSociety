@@ -341,6 +341,22 @@ const GridNews = () => {
       date: "December 18, 2025",
       articleRoute: "programming_mindset",
     },
+    {
+      id: 34,
+      title: `What Is Git, And How Is It Different From GitHub Or GitLab? Git vs. GitHub`,
+      image: "/mergesociety/git_vs_github.webp",
+      alt: "What Is Git, And How Is It Different From GitHub Or GitLab? Git vs. GitHub",
+      date: "December 22, 2025",
+      articleRoute: "git-vs-github",
+    },
+    {
+      id: 35,
+      title: `React Server Components RCE Proof Of Concept: Next.js & React vulnerability will break the internet`,
+      image: "/mergesociety/Next.js_React.webp",
+      alt: "React Server Components RCE Proof Of Concept: Next.js & React vulnerability will break the internet",
+      date: "December 22, 2025",
+      articleRoute: "react-nextjs-vulnerability",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

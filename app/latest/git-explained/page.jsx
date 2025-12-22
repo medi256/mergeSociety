@@ -1532,8 +1532,9 @@ export default function Article() {
               </Link>
             </li>
             <li>
-              <Link href="/latest/learn-to-code">
-                Why America Became Obsessed with "Learn to Code"
+              <Link href="/latest/git-vs-github">
+                What Is Git, And How Is It Different From GitHub Or GitLab? Git
+                vs. GitHub
               </Link>
             </li>
             <li>
