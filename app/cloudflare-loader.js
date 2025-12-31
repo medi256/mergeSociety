@@ -48,7 +48,6 @@
 export default function cloudflareLoader({ src, width, quality }) {
   const q = quality || 75;
 
-  // Localhost: no transform
   if (
     typeof window !== "undefined" &&
     window.location.hostname === "localhost"
@@ -56,14 +55,27 @@ export default function cloudflareLoader({ src, width, quality }) {
     return src;
   }
 
-  // Internal Next.js assets
   if (src.startsWith("/_next/")) {
     return src;
   }
 
-  // Ensure src starts with "/" if it’s relative
-  const normalizedSrc = src.startsWith("/") ? src : `/${src}`;
+  if (src.startsWith("http://") || src.startsWith("https://")) {
+    return src;
+  }
 
-  // Construct the **absolute URL** pointing to Cloudflare Image Resizing
-  return `https://www.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com${normalizedSrc}`;
+  // Use img subdomain with Cloudflare transform
+  const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
+  return `https://img.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}/${cleanSrc}`;
 }
+```
+
+**Key change:** Put `/cdn-cgi/image/` on `img.mergesociety.com` itself, not nesting another full URL inside it.
+
+So instead of:
+```
+www.mergesociety.com/cdn-cgi/image/.../https://img.mergesociety.com/file.jpg
+```
+
+Use:
+```
+img.mergesociety.com/cdn-cgi/image/.../file.jpg
