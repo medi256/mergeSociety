@@ -48,7 +48,7 @@
 export default function cloudflareLoader({ src, width, quality }) {
   const q = quality || 75;
 
-  // Localhost = no transforms
+  // Localhost: return original
   if (
     typeof window !== "undefined" &&
     window.location.hostname === "localhost"
@@ -56,18 +56,18 @@ export default function cloudflareLoader({ src, width, quality }) {
     return src;
   }
 
-  // Internal Next.js assets
+  // Next.js internal assets
   if (src.startsWith("/_next/")) {
     return src;
   }
 
-  // EXTERNAL IMAGES → DO NOT USE CLOUDFLARE (they block it)
+  // Already absolute → use directly (no Cloudflare wrapping)
   if (src.startsWith("http://") || src.startsWith("https://")) {
-    return src; // Return original URL — no transforms
+    return src;
   }
 
-  // Supabase / your bucket images → use Cloudflare
-  // Remove leading slash from src if it exists
-  const cleanSrc = src.startsWith("/") ? src.slice(1) : src;
-  return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com/${cleanSrc}`;
+  // Ensure src starts with "/"
+  const normalizedSrc = src.startsWith("/") ? src : `/${src}`;
+
+  return `/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com${normalizedSrc}`;
 }
