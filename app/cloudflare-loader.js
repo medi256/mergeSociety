@@ -64,18 +64,6 @@ export default function cloudflareLoader({ src, width, quality }) {
   }
 
   // Use img subdomain with Cloudflare transform
-  const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
+  const cleanSrc = src.startsWith("/") ? src.slice(1) : src;
   return `https://img.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}/${cleanSrc}`;
 }
-```
-
-**Key change:** Put `/cdn-cgi/image/` on `img.mergesociety.com` itself, not nesting another full URL inside it.
-
-So instead of:
-```
-www.mergesociety.com/cdn-cgi/image/.../https://img.mergesociety.com/file.jpg
-```
-
-Use:
-```
-img.mergesociety.com/cdn-cgi/image/.../file.jpg
