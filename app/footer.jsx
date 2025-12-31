@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.youtube.com/@Codak_3"
+                  href="https://www.youtube.com/channel/UCBdiANU6Cvlnihd50dkxK-Q"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="YouTube"
