@@ -94,7 +94,7 @@ export default function MixingLanguagesExecutableArticle() {
           Linkers, and ABIs Make It Work
         </h1>
         <Image
-          src={"/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"}
+          src="/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
           alt="Mixing Programming Languages in One Executable: How Compilers, Linkers, and ABIs Make It Work"
           width={600}
           height={400}
