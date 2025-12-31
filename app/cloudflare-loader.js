@@ -48,7 +48,7 @@
 export default function cloudflareLoader({ src, width, quality }) {
   const q = quality || 75;
 
-  // Localhost = no transforms
+  // Localhost: no transform
   if (
     typeof window !== "undefined" &&
     window.location.hostname === "localhost"
@@ -61,14 +61,9 @@ export default function cloudflareLoader({ src, width, quality }) {
     return src;
   }
 
-  // EXTERNAL IMAGES → DO NOT USE CLOUDFLARE
-  if (src.startsWith("http://") || src.startsWith("https://")) {
-    return src;
-  }
+  // Ensure src starts with "/" if it’s relative
+  const normalizedSrc = src.startsWith("/") ? src : `/${src}`;
 
-  // Internal images → use Cloudflare with ABSOLUTE URL
-  const cleanSrc = src.startsWith("/") ? src.slice(1) : src;
-
-  // Return ABSOLUTE URL (starts with https://)
-  return `https://www.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com/${cleanSrc}`;
+  // Construct the **absolute URL** pointing to Cloudflare Image Resizing
+  return `https://www.mergesociety.com/cdn-cgi/image/width=${width},quality=${q}/https://img.mergesociety.com${normalizedSrc}`;
 }
