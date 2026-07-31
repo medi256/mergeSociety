@@ -198,12 +198,12 @@ export default function RootLayout({ children }) {
           `}
       </Script>
 
-      <Script
+      {/* <Script
         async
         data-id="101458649"
         src="//static.getclicky.com/js"
         strategy="afterInteractive"
-      />
+      /> */}
       <Script id="structured-data" type="application/ld+json">
         {`
     {
