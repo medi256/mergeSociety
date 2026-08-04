@@ -1,0 +1,40 @@
+name: Deploy MergeSociety
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.VM_HOST }}
+          username: root
+          password: ${{ secrets.VM_PASSWORD }}
+          port: 22
+          script: |
+            cd ~/mergeSociety
+
+            git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/medi256/mergeSociety.git
+            git fetch origin main
+            git reset --hard origin/main
+
+            npm install
+
+            npm run build
+
+            if pm2 describe mergesociety > /dev/null; then
+              pm2 restart mergesociety --update-env
+            else
+              pm2 start ecosystem.config.js
+            fi
+
+            pm2 save
