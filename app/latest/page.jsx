@@ -360,13 +360,13 @@ const GridNews = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   return (
     <>
       <div className="h-ai">
-        <h1>Latest</h1>
+        <h1 className="latest-heading">Latest In Tech</h1>
       </div>
 
       <div className="bg-grid-4">

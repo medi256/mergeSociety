@@ -1,4 +1,4 @@
-import NewsTicker from "./main/Main";
+// import NewsTicker from "./main/Main";
 import MoreArticles from "./moreButton";
 import GridNews from "./section/Section";
 import Section2 from "./section/section2";
@@ -12,7 +12,7 @@ import Section7 from "./section/section7";
 export default function Home() {
   return (
     <div>
-      <NewsTicker />
+      {/* <NewsTicker /> */}
       <GridNews />
       <section>
         <Section2 />

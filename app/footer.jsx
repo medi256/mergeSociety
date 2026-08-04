@@ -14,7 +14,7 @@ const Footer = () => {
                   href="https://www.instagram.com/mergesociety_/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Instagram"
+                  aria-label="Follow us on Instagram"
                 >
                   <i className="fa-brands fa-instagram"></i> Instagram
                 </Link>
@@ -24,9 +24,9 @@ const Footer = () => {
                   href="https://www.facebook.com/mergesociety"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="FaceBook"
+                  aria-label="Follow us on Facebook"
                 >
-                  <i className="fa-brands fa-facebook"></i> FaceBook
+                  <i className="fa-brands fa-facebook"></i> Facebook
                 </Link>
               </li>
               <li>
@@ -34,15 +34,25 @@ const Footer = () => {
                   href="https://www.youtube.com/channel/UCBdiANU6Cvlnihd50dkxK-Q"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="YouTube"
+                  aria-label="Follow us on YouTube"
                 >
                   <i className="fa-brands fa-youtube"></i> YouTube
                 </Link>
               </li>
               <li>
                 <Link
+                  href="https://github.com/medi256"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on GitHub"
+                >
+                  <i className="fa-brands fa-github"></i> GitHub
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="mailto:managersebowa4525@gmail.com"
-                  aria-label="Email"
+                  aria-label="Email us"
                 >
                   <i className="fa-solid fa-envelope"></i> Email
                 </Link>
