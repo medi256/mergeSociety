@@ -54,28 +54,47 @@ const Footer = () => {
             <h6 className="footer-heading">Quick Links</h6>
             <ul>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" aria-label="Browse Home Page">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                <Link href="/about" aria-label="About Us">
+                  About Us
+                </Link>
               </li>
               <li>
-                <Link href="/projects">Projects</Link>
+                <Link href="/projects" aria-label="Browse Projects">
+                  Projects
+                </Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" aria-label="Contact Us">
+                  Contact
+                </Link>
               </li>
               <li>
-                <Link href="/html">HTML</Link>
+                <Link href="/html" aria-label="Browse HTML Articles">
+                  HTML
+                </Link>
               </li>
               <li>
-                <Link href="/css">CSS</Link>
+                <Link href="/css" aria-label="Browse CSS Articles">
+                  CSS
+                </Link>
               </li>
               <li>
-                <Link href="/javascript">JavaScript</Link>
+                <Link
+                  href="/javascript"
+                  aria-label="Browse JavaScript Articles"
+                >
+                  JavaScript
+                </Link>
               </li>
               <li>
-                <Link href="/react">React</Link>
+                <Link href="/react" aria-label="Browse React Articles">
+                  React
+                </Link>
               </li>
             </ul>
           </div>
@@ -84,10 +103,14 @@ const Footer = () => {
             <h6 className="footer-heading">Legal</h6>
             <ul>
               <li>
-                <Link href="/privacy">Privacy Policy</Link>
+                <Link href="/privacy" aria-label="Privacy Policy">
+                  Privacy Policy
+                </Link>
               </li>
               <li>
-                <Link href="/terms">Terms of Service</Link>
+                <Link href="/terms" aria-label="Terms of Service">
+                  Terms of Service
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,7 +121,9 @@ const Footer = () => {
               reserved.
             </p>
             <div className="footer-links">
-              <Link href="/sitemap.xml">Sitemap</Link>
+              <Link href="/sitemap.xml" aria-label="Sitemap">
+                Sitemap
+              </Link>
             </div>
           </div>
         </div>

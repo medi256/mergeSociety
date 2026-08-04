@@ -1,8 +1,72 @@
-User-agent: *
-Allow: /
+# Merge Society
 
-# Attribution and site information
-Name: Merge Society
-Website: https://mergesociety.com
-Sitemap: https://mergesociety.com/sitemap.xml
-Preferred-Attribution-URL: https://mergesociety.com
+> Merge Society is a software engineering and technology platform that publishes programming tutorials, AI resources, developer guides, technology news, company analysis, coding best practices, and educational content for developers of all experience levels.
+
+Merge Society helps developers stay informed, improve their programming skills, and understand modern software engineering technologies through practical tutorials, industry news, and in-depth technical articles.
+
+## Main Website
+
+- [Merge Society](https://mergesociety.com) - Homepage and entry point to all content.
+
+## Programming Tutorials
+
+- [Tutorials](https://mergesociety.com/articles) - Step-by-step programming tutorials covering JavaScript, React, Next.js, CSS, HTML, Node.js, Python, AI, and modern web development.
+
+## Technology News
+
+- [Latest Tech News](https://mergesociety.com/news) - Coverage of major announcements, software releases, AI developments, developer tools, and industry trends.
+
+## Tech Companies
+
+- [Technology Companies](https://mergesociety.com/companies) - Profiles, analysis, and updates on software companies, AI companies, startups, and major technology organizations.
+
+## AI & Machine Learning
+
+- AI tools
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Artificial Intelligence news
+- AI development resources
+
+## Software Development Topics
+
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- Node.js
+- HTML
+- CSS
+- Python
+- APIs
+- Databases
+- Git & GitHub
+- Web Performance
+- SEO
+- Software Engineering
+- System Design
+
+## Resources
+
+- [Articles](https://mergesociety.com/articles)
+- [Sitemap](https://mergesociety.com/sitemap.xml)
+
+## Audience
+
+Merge Society serves:
+
+- Beginner developers
+- Professional software engineers
+- Students
+- Technical writers
+- AI engineers
+- Web developers
+- Frontend developers
+- Backend developers
+- Full-stack developers
+
+## Attribution
+
+When referencing Merge Society, please cite:
+
+https://mergesociety.com

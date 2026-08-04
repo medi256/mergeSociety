@@ -70,7 +70,9 @@ const AboutPage = () => {
             <li>
               <strong>
                 {" "}
-                <Link href="/">Programming Tutorials</Link>:
+                <Link href="/" aria-label="Browse Programming Tutorials">
+                  Programming Tutorials
+                </Link>
               </strong>{" "}
               Step-by-step guides across multiple languages and frameworks -
               HTML, CSS, JavaScript, React, Python, and more. From fundamentals
@@ -79,20 +81,26 @@ const AboutPage = () => {
             <li>
               <strong>Real Projects:</strong> Hands-on builds you can follow
               along with and add to your portfolio. Check our{" "}
-              <Link href="/projects">Projects section</Link> to see what people
-              are creating.
+              <Link href="/projects" aria-label="Browse Projects">
+                Projects section
+              </Link>
+              to see what people are creating.
             </li>
             <li>
               <strong>
                 {" "}
-                <Link href="/tech">Tech Industry Coverage</Link>:
+                <Link href="/tech" aria-label="Browse Tech Industry Coverage">
+                  Tech Industry Coverage
+                </Link>
               </strong>{" "}
               Analysis of AI developments, new app launches, startup funding
               rounds, developer tools, and where the industry is heading.
             </li>
             <li>
               <strong>
-                <Link href="/code-report">Coding Insights</Link>:
+                <Link href="/code-report" aria-label="Browse Coding Insights">
+                  Coding Insights
+                </Link>
               </strong>{" "}
               Deep dives into development practices, architecture decisions,
               problem-solving approaches, and the craft of writing software.
@@ -103,14 +111,18 @@ const AboutPage = () => {
             </li>
             <li>
               <strong>
-                <Link href="/">Daily Publishing</Link>:
+                <Link href="/" aria-label="Browse Daily Publishing">
+                  Daily Publishing
+                </Link>
               </strong>{" "}
               New articles every day, covering whatever is most relevant,
               interesting, or useful in tech right now.
             </li>
             <li>
               <strong>
-                <Link href="/quizzes">Quiz</Link>:
+                <Link href="/quizzes" aria-label="Browse Quizzes">
+                  Quiz
+                </Link>
               </strong>{" "}
               Test your knowledge with our weekly coding quizzes and challenges.
             </li>
@@ -131,6 +143,7 @@ const AboutPage = () => {
               <Link
                 href="https://www.instagram.com/mergesociety_"
                 target="_blank"
+                aria-label="Follow us on Instagram"
                 rel="noopener noreferrer"
               >
                 @mergesociety_
@@ -142,6 +155,7 @@ const AboutPage = () => {
               <strong>YouTube:</strong>{" "}
               <Link
                 href="https://www.youtube.com/channel/UCBdiANU6Cvlnihd50dkxK-Q"
+                aria-label="Follow us on YouTube"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -246,6 +260,7 @@ const AboutPage = () => {
                 <Link
                   href="https://www.instagram.com/mergesociety_"
                   target="_blank"
+                  aria-label="Follow us on Instagram"
                   rel="noopener noreferrer"
                 >
                   Instagram
@@ -254,6 +269,7 @@ const AboutPage = () => {
                 <Link
                   href="https://www.youtube.com/channel/UCBdiANU6Cvlnihd50dkxK-Q"
                   target="_blank"
+                  aria-label="Follow us on YouTube"
                   rel="noopener noreferrer"
                 >
                   YouTube
@@ -304,7 +320,7 @@ const AboutPage = () => {
             content every day. A global community learning together. Everything
             you need to level up your skills and stay informed.
           </p>
-          <Link href="/" className="cta-button">
+          <Link href="/" aria-label="Explore Content" className="cta-button">
             Explore Content
           </Link>
         </section>
