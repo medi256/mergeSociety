@@ -117,9 +117,9 @@ export const metadata = {
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
-  alternates: {
-    canonical: "https://www.mergesociety.com",
-  },
+  // alternates: {
+  //   canonical: "https://www.mergesociety.com",
+  // },
 
   verification: {
     google:
@@ -167,11 +167,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Script
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         src="https://www.googletagmanager.com/gtag/js?id=G-EVC3DTG6XZ"
       />
 
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -180,120 +180,41 @@ export default function RootLayout({ children }) {
           `}
       </Script>
 
-      {/* <Script
-        async
-        data-id="101458649"
-        src="//static.getclicky.com/js"
-        strategy="afterInteractive"
-      /> */}
-      <Script id="structured-data" type="application/ld+json">
-        {`
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.mergesociety.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tutorials",
-          "item": "https://www.mergesociety.com/projects"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tech",
-          "item": "https://www.mergesociety.com/tech"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Chrome DevTools Guide",
-          "item": "https://www.mergesociety.com/tech/21-devTools"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Vibe Coding Guide",
-          "item": "https://www.mergesociety.com/tech/vibe-coding"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Real World Coding Career Advice",
-          "item": "https://www.mergesociety.com/code-report/real-world-coding-career-advice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Tech Insights",
-          "item": "https://www.mergesociety.com/code-report"
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "name": "AI Insights",
-          "item": "https://www.mergesociety.com/ai"
-        },
-        {
-          "@type": "ListItem",
-          "position": 9,
-          "name": "What is AI Agent",
-          "item": "https://www.mergesociety.com/ai/what-is-agents"
-        },
-        {
-          "@type": "ListItem",
-          "position": 10,
-          "name": "Artificial Intelligence vs Machine Learning vs Deep Learning",
-          "item": "https://www.mergesociety.com/ai/ai-ml-dp"
-        },
-        {
-          "@type": "ListItem",
-          "position": 11,
-          "name": "WebSockets vs Socket.IO",
-          "item": "https://www.mergesociety.com/code-report/websockets-explained"
-        },
-        {
-          "@type": "ListItem",
-          "position": 12,
-          "name": "WebSocket vs Polling",
-          "item": "https://www.mergesociety.com/code-report/websocket-polling"
-        },
-        {
-          "@type": "ListItem",
-          "position": 13,
-          "name": "HTTP 1.1 vs HTTP 2 vs HTTP 3",
-          "item": "https://www.mergesociety.com/code-report/http1-http2-http3"
-        },
-        {
-          "@type": "ListItem",
-          "position": 14,
-          "name": "AI Trends 2025",
-          "item": "https://www.mergesociety.com/ai/ai-trends-2025"
-        },
-        {
-          "@type": "ListItem",
-          "position": 15,
-          "name": "AI Tools for Research",
-          "item": "https://www.mergesociety.com/ai/ai-tools-research-2025"
-        },
-        {
-          "@type": "ListItem",
-          "position": 16,
-          "name": "AI Coding Tools",
-          "item": "https://www.mergesociety.com/code-report/best-ai-tool-for-coding"
-        }
-      ]
-    }
-  `}
+      <Script id="breadcrumb-schema" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@id": "https://www.mergesociety.com",
+                name: "Home",
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@id": "https://www.mergesociety.com/code-report",
+                name: "Code Report",
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              item: {
+                "@id":
+                  "https://www.mergesociety.com/code-report/mongodb-explained",
+                name: "MongoDB : The Evolution of NoSQL Databases",
+              },
+            },
+          ],
+        })}
       </Script>
 
-      <Script id="grow-me" strategy="afterInteractive">
+      <Script id="grow-me" strategy="lazyOnload">
         {`
             !(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTpjZjVmMjdhMy1kNTQwLTQwZWEtYjBhOC1mMzA0MTgzMTRkNWQ=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();
           `}
@@ -304,7 +225,7 @@ export default function RootLayout({ children }) {
         async
         data-noptimize="1"
         data-cfasync="false"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
 
       <body
