@@ -96,74 +96,18 @@ export const metadata = {
 
   category: "Web Development",
   classification: "React Learning Guide",
-
   other: {
     "article:author": "Massa Medi",
     "article:publisher": "https://www.mergesociety.com",
     "article:section": "Web Development",
     "article:tag":
       "React, JavaScript, Frontend Development, Career Guide, Programming, Next.js, Web Development, Developer Jobs",
+
     "og:type": "article",
     "og:article:author": "Massa Medi",
     "og:article:section": "Web Development",
     "og:article:tag":
       "React, JavaScript, Frontend Development, Career Guide, Programming, Next.js, Web Development, Developer Jobs",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline: "React Roadmap: How To Master React In 2025 (Complete Roadmap)",
-      description:
-        "The ultimate step-by-step guide to mastering React in 2025. Learn hooks, state management, Next.js integration, performance optimization and transform from beginner to React expert with this battle-tested roadmap.",
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-8T00:00:00.000Z",
-      dateModified: "2025-07-8T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/programming-roadmap/react-roadmap",
-      },
-      articleSection: "Web Development",
-      keywords:
-        "React roadmap, React tutorial, learn React, React hooks, state management, Next.js, React performance, React interview questions",
-      wordCount: 5000,
-      timeRequired: "PT25M",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Beginner to Intermediate Web Developers",
-      },
-      about: [
-        {
-          "@type": "Thing",
-          name: "React Programming",
-        },
-        {
-          "@type": "Thing",
-          name: "Frontend Development",
-        },
-        {
-          "@type": "Thing",
-          name: "JavaScript Frameworks",
-        },
-      ],
-    }),
   },
 
   alternates: {
@@ -171,18 +115,22 @@ export const metadata = {
   },
 };
 
-export const structuredData = {
+const structuredData = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
+
   headline: "React Roadmap: How To Master React In 2025 (Complete Roadmap)",
+
   description:
     "The ultimate step-by-step guide to mastering React in 2025. Learn hooks, state management, Next.js integration, performance optimization and transform from beginner to React expert with this battle-tested roadmap.",
+
   author: {
     "@type": "Person",
     name: "Massa Medi",
     jobTitle: "Full Stack Developer",
     url: "https://www.mergesociety.com/about",
   },
+
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
@@ -191,19 +139,25 @@ export const structuredData = {
       url: "https://www.mergesociety.com/MS.png",
     },
   },
-  datePublished: "2025-07-8T00:00:00.000Z",
-  dateModified: "2025-07-8T00:00:00.000Z",
+
+  datePublished: "2025-07-08T00:00:00.000Z",
+
+  dateModified: "2026-08-05T00:00:00.000Z",
+
   image: {
     "@type": "ImageObject",
     url: "https://img.mergesociety.com/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
     width: 1200,
     height: 630,
   },
+
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://www.mergesociety.com/programming-roadmap/react-roadmap",
   },
+
   proficiencyLevel: "Beginner",
+
   dependencies: [
     "JavaScript",
     "HTML",
@@ -212,8 +166,11 @@ export const structuredData = {
     "Next.js",
     "State Management",
   ],
+
   learningResourceType: "Guide",
+
   educationalLevel: "Beginner to Intermediate",
+
   teaches: [
     "React Fundamentals",
     "Hooks (useState, useEffect, etc)",
@@ -226,28 +183,31 @@ export const structuredData = {
     "Next.js Integration",
     "React Native Basics",
   ],
+
   timeRequired: "P4M",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    ratingCount: "143",
-    bestRating: "5",
-    worstRating: "1",
+
+  articleSection: "Web Development",
+
+  keywords:
+    "React roadmap, React tutorial, learn React, React hooks, state management, Next.js, React performance, React interview questions",
+
+  audience: {
+    "@type": "Audience",
+    audienceType: "Beginner to Intermediate Web Developers",
   },
-  review: [
+
+  about: [
     {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: "Sample Reviewer",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      reviewBody:
-        "This roadmap helped me land my first React developer job in just 5 months. The structured approach is exactly what I needed!",
+      "@type": "Thing",
+      name: "React Programming",
+    },
+    {
+      "@type": "Thing",
+      name: "Frontend Development",
+    },
+    {
+      "@type": "Thing",
+      name: "JavaScript Frameworks",
     },
   ],
 };
@@ -296,7 +256,7 @@ export default function Article() {
             </span>
             <time
               className="project-date"
-              dateTime="2025-07-8"
+              dateTime="2025-07-08"
               itemProp="datePublished"
             >
               | July 8, 2025

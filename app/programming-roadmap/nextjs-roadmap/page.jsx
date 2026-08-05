@@ -116,64 +116,6 @@ export const metadata = {
     "og:article:section": "Web Development",
     "og:article:tag":
       "Next.js, React, Full Stack Development, Career Guide, Programming, Vercel, Web Development, Developer Jobs",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline:
-        "Next.js Roadmap: What Most Developers Miss (Features, Salaries, and Secret Resources Inside)",
-      description:
-        "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-8T00:00:00.000Z",
-      dateModified: "2025-07-8T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id":
-          "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
-      },
-      articleSection: "Web Development",
-      keywords:
-        "Next.js roadmap, Next.js tutorial, learn Next.js, Next.js features, Next.js vs React, Next.js SSR, Next.js API routes, Next.js performance",
-      wordCount: 5500,
-      timeRequired: "PT30M",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Intermediate to Advanced Web Developers",
-      },
-      about: [
-        {
-          "@type": "Thing",
-          name: "Next.js Programming",
-        },
-        {
-          "@type": "Thing",
-          name: "Full Stack Development",
-        },
-        {
-          "@type": "Thing",
-          name: "React Frameworks",
-        },
-      ],
-    }),
   },
 
   alternates: {
@@ -182,19 +124,23 @@ export const metadata = {
   },
 };
 
-export const structuredData = {
+const structuredData = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
+
   headline:
     "Next.js Roadmap: What Most Developers Miss (Features, Salaries, and Secret Resources Inside)",
+
   description:
     "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
+
   author: {
     "@type": "Person",
     name: "Massa Medi",
     jobTitle: "Full Stack Developer",
     url: "https://www.mergesociety.com/about",
   },
+
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
@@ -203,19 +149,25 @@ export const structuredData = {
       url: "https://www.mergesociety.com/MS.png",
     },
   },
-  datePublished: "2025-07-8T00:00:00.000Z",
-  dateModified: "2025-07-8T00:00:00.000Z",
+
+  datePublished: "2025-07-08T00:00:00.000Z",
+
+  dateModified: "2026-08-05T00:00:00.000Z",
+
   image: {
     "@type": "ImageObject",
     url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
     width: 1200,
     height: 630,
   },
+
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
+
   proficiencyLevel: "Intermediate",
+
   dependencies: [
     "React",
     "JavaScript",
@@ -224,8 +176,11 @@ export const structuredData = {
     "API Development",
     "Database Management",
   ],
+
   learningResourceType: "Guide",
+
   educationalLevel: "Intermediate to Advanced",
+
   teaches: [
     "Next.js Fundamentals",
     "Server-Side Rendering (SSR)",
@@ -238,28 +193,31 @@ export const structuredData = {
     "Full Stack Integration",
     "Advanced Routing",
   ],
+
   timeRequired: "P6M",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    ratingCount: "156",
-    bestRating: "5",
-    worstRating: "1",
+
+  articleSection: "Web Development",
+
+  keywords:
+    "Next.js roadmap, Next.js tutorial, learn Next.js, Next.js features, Next.js vs React, Next.js SSR, Next.js API routes, Next.js performance",
+
+  audience: {
+    "@type": "Audience",
+    audienceType: "Intermediate to Advanced Web Developers",
   },
-  review: [
+
+  about: [
     {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: "Sample Reviewer",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      reviewBody:
-        "This roadmap helped me transition from React to Next.js and doubled my freelance rates within 4 months. The salary insights were spot on!",
+      "@type": "Thing",
+      name: "Next.js Programming",
+    },
+    {
+      "@type": "Thing",
+      name: "Full Stack Development",
+    },
+    {
+      "@type": "Thing",
+      name: "React Frameworks",
     },
   ],
 };
@@ -311,7 +269,7 @@ export default function Article() {
             </span>
             <time
               className="project-date"
-              dateTime="2025-07-8"
+              dateTime="2025-07-08"
               itemProp="datePublished"
             >
               | July 8, 2025

@@ -248,32 +248,6 @@ export const breadcrumbStructuredData = {
   ],
 };
 
-/*
-
-
-const Section8 = () => {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(roadmapStructuredData)
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbStructuredData)
-        }}
-      />
-      <section>
-        // Your existing component code
-      </section>
-    </>
-  );
-};
-*/
-
 const Section8 = () => {
   const blogPosts = [
     {
@@ -320,7 +294,7 @@ const Section8 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
   return (
     <section>

@@ -110,107 +110,6 @@ export const metadata = {
     "og:article:section": "Technology",
     "og:article:tag":
       "HTML, Web Development, Frontend Development, Programming Tutorial, Web Design, Semantic HTML, HTML5, Career Guide",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "TechArticle",
-      headline:
-        "HTML Roadmap 2025: Complete Step-by-Step Guide to HTML Mastery",
-      description:
-        "Complete HTML roadmap for 2025. Master HTML fundamentals, semantic tags, and modern web development. Step-by-step guide from beginner to advanced with real-world projects and career tips.",
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        jobTitle: "Full Stack Developer & Web Development Educator",
-        url: "https://www.mergesociety.com/about",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-08T00:00:00.000Z",
-      dateModified: "2025-07-08T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/html-roadmap_cug0c3_chzvfq.png",
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/programming-roadmap/html-roadmap",
-      },
-      articleSection: "Technology",
-      keywords:
-        "HTML roadmap, HTML tutorial, web development, HTML5, semantic HTML, frontend development, web developer guide, HTML mastery, programming tutorial",
-      wordCount: 2800,
-      timeRequired: "PT12M",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Beginner to Intermediate Web Developers",
-      },
-      about: [
-        {
-          "@type": "Thing",
-          name: "HTML Programming",
-        },
-        {
-          "@type": "Thing",
-          name: "Web Development",
-        },
-        {
-          "@type": "Thing",
-          name: "Frontend Development Career",
-        },
-        {
-          "@type": "Thing",
-          name: "Semantic HTML",
-        },
-      ],
-      proficiencyLevel: "Beginner",
-      dependencies: ["Basic Computer Skills", "Text Editor", "Web Browser"],
-      learningResourceType: "Tutorial",
-      educationalLevel: "Beginner to Intermediate",
-      teaches: [
-        "HTML5 Fundamentals",
-        "Semantic HTML Elements",
-        "HTML Document Structure",
-        "HTML Tags and Attributes",
-        "Web Accessibility with HTML",
-        "HTML Best Practices",
-        "Modern HTML Development",
-        "HTML for SEO",
-        "HTML Career Skills",
-      ],
-      timeRequired: "P2W",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.8",
-        ratingCount: "89",
-        bestRating: "5",
-        worstRating: "1",
-      },
-      review: [
-        {
-          "@type": "Review",
-          author: {
-            "@type": "Person",
-            name: "Web Dev Student",
-          },
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          reviewBody:
-            "This HTML roadmap is exactly what I needed! Clear, practical, and gets straight to the point. Finally understand semantic tags and how HTML really works.",
-        },
-      ],
-    }),
   },
 
   alternates: {
@@ -218,7 +117,7 @@ export const metadata = {
   },
 };
 
-export const structuredData = {
+const structuredData = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   headline: "HTML Roadmap 2025: Complete Step-by-Step Guide to HTML Mastery",
@@ -265,13 +164,6 @@ export const structuredData = {
     "Real-world HTML Project Building",
   ],
   timeRequired: "P2W",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.8",
-    ratingCount: "89",
-    bestRating: "5",
-    worstRating: "1",
-  },
   review: [
     {
       "@type": "Review",
@@ -366,7 +258,7 @@ export default function Article() {
             </span>
             <time
               className="project-date"
-              dateTime="2025-07-8"
+              dateTime="2025-07-08"
               itemProp="datePublished"
             >
               | July 8, 2025

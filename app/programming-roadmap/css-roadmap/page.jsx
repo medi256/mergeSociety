@@ -112,63 +112,6 @@ export const metadata = {
     "og:article:section": "Web Development",
     "og:article:tag":
       "CSS, Web Design, Frontend Development, Career Guide, Programming, Responsive Design, Web Development, Developer Jobs",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline:
-        "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",
-      description:
-        "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-8T00:00:00.000Z",
-      dateModified: "2025-07-8T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/programming-roadmap/css-roadmap",
-      },
-      articleSection: "Web Development",
-      keywords:
-        "CSS roadmap, CSS tutorial, learn CSS, CSS for beginners, CSS expert guide, CSS Flexbox, CSS Grid, CSS animations, responsive design",
-      wordCount: 4500,
-      timeRequired: "PT20M",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Beginner to Intermediate Web Developers",
-      },
-      about: [
-        {
-          "@type": "Thing",
-          name: "CSS Programming",
-        },
-        {
-          "@type": "Thing",
-          name: "Web Design",
-        },
-        {
-          "@type": "Thing",
-          name: "Frontend Development Career",
-        },
-      ],
-    }),
   },
 
   alternates: {
@@ -176,7 +119,7 @@ export const metadata = {
   },
 };
 
-export const structuredData = {
+const structuredData = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   headline:
@@ -186,7 +129,6 @@ export const structuredData = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    jobTitle: "Full Stack Developer",
     url: "https://www.mergesociety.com/about",
   },
   publisher: {
@@ -197,65 +139,16 @@ export const structuredData = {
       url: "https://www.mergesociety.com/MS.png",
     },
   },
-  datePublished: "2025-07-8T00:00:00.000Z",
-  dateModified: "2025-07-8T00:00:00.000Z",
-  image: {
-    "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
-    width: 1200,
-    height: 630,
-  },
+  datePublished: "2025-07-08T00:00:00.000Z",
+  dateModified: "2026-08-05T00:00:00.000Z",
+  image:
+    "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://www.mergesociety.com/programming-roadmap/css-roadmap",
   },
-  proficiencyLevel: "Beginner",
-  dependencies: [
-    "HTML",
-    "CSS",
-    "Responsive Design",
-    "Flexbox",
-    "CSS Grid",
-    "Animations",
-  ],
   learningResourceType: "Guide",
   educationalLevel: "Beginner to Intermediate",
-  teaches: [
-    "CSS Fundamentals",
-    "Selectors and Specificity",
-    "Box Model Mastery",
-    "Flexbox Layouts",
-    "CSS Grid Systems",
-    "Responsive Design Principles",
-    "CSS Transitions and Animations",
-    "CSS Variables",
-    "CSS Architecture",
-    "Performance Optimization",
-  ],
-  timeRequired: "P3M",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.8",
-    ratingCount: "95",
-    bestRating: "5",
-    worstRating: "1",
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: "Sample Reviewer",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      reviewBody:
-        "This roadmap transformed my CSS skills completely. Went from basic styling to building complex layouts in just 3 months!",
-    },
-  ],
 };
 
 export default function Article() {
@@ -264,9 +157,7 @@ export default function Article() {
       <div className="lesson-sidebar"></div>
       <Script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <article className="lesson-container">
         <h1>

@@ -111,64 +111,6 @@ export const metadata = {
     "og:article:section": "Technology",
     "og:article:tag":
       "JavaScript, Web Development, Full Stack, Career Guide, Programming, React, Node.js, Developer Jobs",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline:
-        "Full Stack JavaScript Developer Roadmap 2025: Ultimate Guide to Landing Your First Dev Job",
-      description:
-        "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-8T00:00:00.000Z",
-      dateModified: "2025-07-8T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png", // Replace with your image
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id":
-          "https://www.mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your URL
-      },
-      articleSection: "Technology",
-      keywords:
-        "full stack javascript developer, javascript developer roadmap 2025, learn javascript full stack, web developer career guide, react developer roadmap, node.js developer guide",
-      wordCount: 3500,
-      timeRequired: "PT15M",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Beginner to Intermediate Developers",
-      },
-      about: [
-        {
-          "@type": "Thing",
-          name: "JavaScript Programming",
-        },
-        {
-          "@type": "Thing",
-          name: "Full Stack Development",
-        },
-        {
-          "@type": "Thing",
-          name: "Web Development Career",
-        },
-      ],
-    }),
   },
 
   alternates: {
@@ -177,19 +119,21 @@ export const metadata = {
   },
 };
 
-export const structuredData = {
+const structuredData = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   headline:
     "Full Stack JavaScript Developer Roadmap 2025: Ultimate Guide to Landing Your First Dev Job",
+
   description:
     "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
+
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    jobTitle: "Full Stack Developer",
     url: "https://www.mergesociety.com/about",
   },
+
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
@@ -198,32 +142,28 @@ export const structuredData = {
       url: "https://www.mergesociety.com/MS.png",
     },
   },
-  datePublished: "2025-07-8T00:00:00.000Z",
-  dateModified: "2025-07-8T00:00:00.000Z",
+
+  datePublished: "2025-07-08T00:00:00.000Z",
+  dateModified: "2026-08-05T00:00:00.000Z",
+
   image: {
     "@type": "ImageObject",
     url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
     width: 1200,
     height: 630,
   },
+
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
       "https://www.mergesociety.com/programming-roadmap/javascript-roadmap",
   },
-  proficiencyLevel: "Beginner",
-  dependencies: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "PostgreSQL",
-  ],
+
   learningResourceType: "Guide",
   educationalLevel: "Beginner to Intermediate",
+
+  proficiencyLevel: "Beginner",
+
   teaches: [
     "HTML5 and Semantic Markup",
     "CSS3 and Responsive Design",
@@ -234,32 +174,9 @@ export const structuredData = {
     "Database Management",
     "Version Control with Git",
     "Web Application Deployment",
-    "Full Stack Development Best Practices",
   ],
-  timeRequired: "P9M", // 9 months duration
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    ratingCount: "127",
-    bestRating: "5",
-    worstRating: "1",
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: "Sample Reviewer",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      reviewBody:
-        "This roadmap is incredibly comprehensive and practical. Followed it and landed my first dev job in 10 months!",
-    },
-  ],
+
+  timeRequired: "P9M",
 };
 
 export default function Article() {
@@ -309,7 +226,7 @@ export default function Article() {
             </span>
             <time
               className="project-date"
-              dateTime="2025-07-8"
+              dateTime="2025-07-08"
               itemProp="datePublished"
             >
               | July 8, 2025
