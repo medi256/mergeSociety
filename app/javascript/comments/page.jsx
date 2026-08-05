@@ -19,7 +19,7 @@ export const metadata = {
     "code maintenance",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/comments",
+    canonical: "https://mergesociety.com/javascript/comments",
   },
   openGraph: {
     title: "JavaScript Comments: The Ultimate Guide to Code Clarity",

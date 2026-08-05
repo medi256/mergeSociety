@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, audio in HTML, embedding audio, web development, HTML tutorial, audio formats, autoplay audio, looping audio, best practices for audio, sound on web pages",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-audio",
+    canonical: "https://mergesociety.com/html/html-audio",
   },
   openGraph: {
     title: "Audio in HTML: Embedding and Customizing Sound | MergeSociety",

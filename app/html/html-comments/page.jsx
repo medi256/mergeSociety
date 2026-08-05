@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML comments, HTML code documentation, disable HTML code, HTML best practices, web development, HTML comments tutorial, commenting in HTML, code collaboration",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-comments",
+    canonical: "https://mergesociety.com/html/html-comments",
   },
   openGraph: {
     title:

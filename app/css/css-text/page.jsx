@@ -21,7 +21,7 @@ export const metadata = {
     "web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-text",
+    canonical: "https://mergesociety.com/css/css-text",
   },
   openGraph: {
     title:

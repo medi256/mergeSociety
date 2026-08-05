@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "The fear is real: giving AI agents money feels risky. Locus AI makes it safe with spending budgets, permission controls, and full audit trails. Let your agents pay invoices, renew subscriptions, and handle transactions without losing control. Set rails, not vibes.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "locus ai review 2025",
@@ -45,7 +45,7 @@ export const metadata = {
       "Should You Give AI Agents Money? The Fear, The Rails, The Control (Locus AI)",
     description:
       "Nervous about giving AI agents payment access? Set budgets. Set permissions. Get full audit trails. Locus AI makes autonomous payments safe without killing the speed.",
-    url: "https://www.mergesociety.com/startup-stories/locus-ai",
+    url: "https://mergesociety.com/startup-stories/locus-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -82,7 +82,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -90,9 +90,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/locus-ai",
+    canonical: "https://mergesociety.com/startup-stories/locus-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/locus-ai",
+      "en-US": "https://mergesociety.com/startup-stories/locus-ai",
     },
   },
 
@@ -170,21 +170,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "A framework for safely giving AI agents financial access through budgets, permissions, and audit trails. Addresses the fear of autonomous payments and provides practical control mechanisms.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/locus-ai",
+      "@id": "https://mergesociety.com/startup-stories/locus-ai",
     },
     keywords:
       "AI agents, autonomous payments, Locus AI, spending controls, audit trails, agent budgets",

@@ -16,7 +16,7 @@ export const metadata = {
     "react hooks effects",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/useeffect-hook",
+    canonical: "https://mergesociety.com/react/useeffect-hook",
   },
   openGraph: {
     title: "React useEffect: The Ultimate Guide to Side Effects",

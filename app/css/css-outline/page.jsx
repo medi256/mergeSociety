@@ -18,7 +18,7 @@ export const metadata = {
     "CSS examples",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-outline",
+    canonical: "https://mergesociety.com/css/css-outline",
   },
 
   openGraph: {

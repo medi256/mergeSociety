@@ -25,7 +25,7 @@ export const metadata = {
       "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
     description:
       "Dive into the quirky, colorful world of 90s websites when the internet was a digital playground of neon animations, Flash games, and ambitious virtual spaces.",
-    url: "https://www.mergesociety.com/latest/1990s-Internet",
+    url: "https://mergesociety.com/latest/1990s-Internet",
     siteName: "Merge Society",
     images: [
       {
@@ -51,15 +51,15 @@ export const metadata = {
   authors: [
     {
       name: "Merger Society",
-      url: "https://www.mergesociety.com/latest/1990s-Internet",
+      url: "https://mergesociety.com/latest/1990s-Internet",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/1990s-Internet",
+    canonical: "https://mergesociety.com/latest/1990s-Internet",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/1990s-Internet",
+      "en-US": "https://mergesociety.com/latest/1990s-Internet",
     },
   },
   twitter: {
@@ -73,7 +73,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -103,21 +103,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Merger Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Journey back to the neon-flashing, GIF-bedazzled era of early websites like Nick.com, Blockbuster, and Pets.com, exploring how these digital playgrounds shaped the internet we know today.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/1990s-Internet",
+      "@id": "https://mergesociety.com/latest/1990s-Internet",
     },
     keywords:
       "90s websites, internet nostalgia, Nick.com, dot-com bubble, early web design",

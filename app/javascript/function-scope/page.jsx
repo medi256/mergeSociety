@@ -21,7 +21,7 @@ export const metadata = {
     "code organization",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/function-scope",
+    canonical: "https://mergesociety.com/javascript/function-scope",
   },
 
   openGraph: {

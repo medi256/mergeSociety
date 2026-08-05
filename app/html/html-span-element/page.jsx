@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, spans, inline elements, web development, CSS styling, JavaScript functionality, coding for beginners, best practices for spans",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-span-element",
+    canonical: "https://mergesociety.com/html/html-span-element",
   },
   openGraph: {
     title: "Spans in HTML: Understanding Inline Elements",

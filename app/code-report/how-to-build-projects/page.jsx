@@ -39,7 +39,7 @@ export const metadata = {
       "How To Start Programming Projects The Lazy Way (Without Overthinking)",
     description:
       "Stop getting stuck before you start. Learn the lazy-but-smart method to pick ideas, break down projects, escape tutorial hell, and actually ship your first programming projects as a beginner.",
-    url: "https://www.mergesociety.com/code-report/how-to-build-projects",
+    url: "https://mergesociety.com/code-report/how-to-build-projects",
     siteName: "Merge Society",
     locale: "en_US",
     type: "article",
@@ -76,7 +76,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/how-to-build-projects",
+    canonical: "https://mergesociety.com/code-report/how-to-build-projects",
   },
   category: "Programming",
   classification: "Software Development Education",
@@ -105,11 +105,11 @@ export const jsonLd = {
   publisher: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com",
+    url: "https://mergesociety.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/how-to-build-projects",
+    "@id": "https://mergesociety.com/code-report/how-to-build-projects",
   },
   keywords:
     "programming projects, beginner coding, tutorial hell, MVP, project ideas, web development, JavaScript, React, Next.js, coding tips",

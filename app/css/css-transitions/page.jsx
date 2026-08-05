@@ -19,7 +19,7 @@ export const metadata = {
     "transition effects",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-transitions",
+    canonical: "https://mergesociety.com/css/css-transitions",
   },
 
   openGraph: {

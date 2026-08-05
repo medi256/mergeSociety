@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Tested free APIs with generous quotas: Unsplash images, OpenWeather, Stripe payments, NASA data, Discord bots, Spotify, YouTube, PDF tools, speech-to-text. Real limits and gotchas included.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "free apis 2026",
@@ -45,7 +45,7 @@ export const metadata = {
       "40 Free APIs You Can Actually Use - Images, Weather, Finance, AI, Games",
     description:
       "Tested APIs with real quotas: Unsplash (images), OpenWeather (1000/day), Geokio (2500/day), NASA (space data), Stripe (payments), Discord (bots). Limits and tricks explained.",
-    url: "https://www.mergesociety.com/latest/list-of-free-apis",
+    url: "https://mergesociety.com/latest/list-of-free-apis",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/list-of-free-apis",
+    canonical: "https://mergesociety.com/latest/list-of-free-apis",
   },
 
   twitter: {
@@ -374,7 +374,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/latest/list-of-free-apis",
+      "@id": "https://mergesociety.com/latest/list-of-free-apis",
       headline: "40 Free APIs You Can Use In Your Next Programming Project",
       alternativeHeadline:
         "Tested Free APIs with Real Quotas: Images, Weather, Finance, AI, Games, and More",
@@ -390,16 +390,16 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Developer & API Integration Specialist",
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -408,7 +408,7 @@ export const metadata = {
         "Comprehensive guide to 40 tested free APIs with real quota limits, pricing warnings, and integration examples for images, weather, finance, games, AI, and more.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/list-of-free-apis",
+        "@id": "https://mergesociety.com/latest/list-of-free-apis",
       },
       keywords:
         "free apis, developer resources, api integration, unsplash api, openweather api, stripe api, discord api, nasa api",
@@ -665,19 +665,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Free APIs for Projects",
-          item: "https://www.mergesociety.com/latest/list-of-free-apis",
+          item: "https://mergesociety.com/latest/list-of-free-apis",
         },
       ],
     },

@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-attribute-selectors",
+    canonical: "https://mergesociety.com/css/css-attribute-selectors",
   },
   openGraph: {
     title: "Understanding Attribute Selectors in CSS",

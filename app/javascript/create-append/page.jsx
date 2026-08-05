@@ -23,7 +23,7 @@ export const metadata = {
     "removeChild method",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/create-append",
+    canonical: "https://mergesociety.com/javascript/create-append",
   },
 
   openGraph: {

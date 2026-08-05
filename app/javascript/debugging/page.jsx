@@ -16,7 +16,7 @@ export const metadata = {
     "web development troubleshooting",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/debugging",
+    canonical: "https://mergesociety.com/javascript/debugging",
   },
   openGraph: {
     title: "JavaScript Debugging Mastery: From Novice to Pro",

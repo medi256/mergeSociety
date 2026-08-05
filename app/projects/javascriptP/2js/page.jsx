@@ -11,7 +11,7 @@ export const metadata = {
     "Learn how to create a random quote generator using JavaScript, HTML, and CSS. Step-by-step tutorial covering API integration, responsive design, and modern UI development.",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/2js",
+    canonical: "https://mergesociety.com/projects/javascriptP/2js",
   },
 
   openGraph: {

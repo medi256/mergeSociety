@@ -30,7 +30,7 @@ export const metadata = {
     description:
       "Real data on CS careers, salaries, AI impact, and whether you need a degree for tech jobs. Covers software engineering, data science, AI/ML, cybersecurity & more.",
     type: "article",
-    url: "https://www.mergesociety.com/latest/computer-science-degree-worth-it",
+    url: "https://mergesociety.com/latest/computer-science-degree-worth-it",
     images: [
       {
         url: "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
@@ -91,7 +91,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/computer-science-degree-worth-it",
+      "https://mergesociety.com/latest/computer-science-degree-worth-it",
   },
 
   structuredData: {
@@ -112,7 +112,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     datePublished: "2025-08-19",
@@ -120,7 +120,7 @@ export const metadata = {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://www.mergesociety.com/latest/computer-science-degree-worth-it",
+        "https://mergesociety.com/latest/computer-science-degree-worth-it",
     },
     about: [
       {

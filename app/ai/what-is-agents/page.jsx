@@ -24,7 +24,7 @@ export const metadata = {
     "modular AI systems",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Massa Medi", url: "https://mergesociety.com/about" }],
   creator: "Massa Medi",
   publisher: "Merge Society",
   category: "Technology",
@@ -34,7 +34,7 @@ export const metadata = {
       "AI Agents 2025: The Explosive Shift From Static Models to Compound Systems",
     description:
       "The era of monolithic AI models is over. Discover how compound AI systems and agentic thinking are creating unstoppable AI agents that reason, act, and remember.",
-    url: "https://www.mergesociety.com/ai/what-is-agents",
+    url: "https://mergesociety.com/ai/what-is-agents",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/what-is-agents",
+    canonical: "https://mergesociety.com/ai/what-is-agents",
   },
 
   robots: {
@@ -105,7 +105,7 @@ export const metadata = {
   additionalMetaTags: [
     {
       name: "article:publisher",
-      content: "https://www.mergesociety.com",
+      content: "https://mergesociety.com",
     },
     {
       name: "article:opinion",
@@ -135,21 +135,21 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   description:
     "Discover how AI agents are revolutionizing technology in 2025. Learn the difference between monolithic AI models and compound systems, and why agentic AI is transforming problem-solving forever.",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/ai/what-is-agents",
+    "@id": "https://mergesociety.com/ai/what-is-agents",
   },
   keywords:
     "AI agents 2025, compound AI systems, agentic AI, ReAct agents, AI reasoning, autonomous AI",

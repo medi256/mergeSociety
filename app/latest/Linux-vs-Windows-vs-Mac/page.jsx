@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Comprehensive guide comparing Mac, Windows, and Linux for programming in 2025. Real developer experiences, WSL insights, and practical recommendations for choosing your coding platform.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "best operating system for programming",
@@ -40,7 +40,7 @@ export const metadata = {
       "Best Operating System for Programming 2025: Mac vs Windows vs Linux Complete Developer Guide",
     description:
       "Real developer experiences comparing Mac, Windows, and Linux for programming. Discover WSL advantages, Unix benefits, hardware considerations, and practical recommendations for your coding setup.",
-    url: "https://www.mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+    url: "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
     siteName: "Merge Society",
     images: [
       {
@@ -85,9 +85,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+    canonical: "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+      "en-US": "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
     },
   },
 
@@ -167,14 +167,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Comprehensive guide comparing Mac, Windows, and Linux for programming in 2025. Real developer experiences, WSL insights, and practical recommendations for choosing your coding platform.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+      "@id": "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
     },
     keywords:
       "best operating system for programming, mac vs windows vs linux programming, developer operating system comparison, WSL for developers, programming environment setup",

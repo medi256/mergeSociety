@@ -16,7 +16,7 @@ export const metadata = {
     "CSS properties",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-width",
+    canonical: "https://mergesociety.com/css/css-width",
   },
   openGraph: {
     title: "CSS Width Mastery: From Basics to Advanced Techniques",

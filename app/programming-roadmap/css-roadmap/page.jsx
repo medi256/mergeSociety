@@ -59,7 +59,7 @@ export const metadata = {
       "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
-    url: "https://www.mergesociety.com/programming-roadmap/css-roadmap",
+    url: "https://mergesociety.com/programming-roadmap/css-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -103,7 +103,7 @@ export const metadata = {
 
   other: {
     "article:author": "Massa Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
     "article:section": "Web Development",
     "article:tag":
       "CSS, Web Design, Frontend Development, Career Guide, Programming, Responsive Design, Web Development, Developer Jobs",
@@ -115,7 +115,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/programming-roadmap/css-roadmap",
+    canonical: "https://mergesociety.com/programming-roadmap/css-roadmap",
   },
 };
 
@@ -129,14 +129,14 @@ const structuredData = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-07-08T00:00:00.000Z",
@@ -145,7 +145,7 @@ const structuredData = {
     "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/programming-roadmap/css-roadmap",
+    "@id": "https://mergesociety.com/programming-roadmap/css-roadmap",
   },
   learningResourceType: "Guide",
   educationalLevel: "Beginner to Intermediate",

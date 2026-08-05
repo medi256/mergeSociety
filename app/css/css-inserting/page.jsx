@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS insertion, external CSS, internal CSS, inline CSS, web design, HTML styling, stylesheet linking",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-inserting",
+    canonical: "https://mergesociety.com/css/css-inserting",
   },
   openGraph: {
     title: "Master CSS Insertion Techniques for Web Design",

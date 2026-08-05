@@ -15,7 +15,7 @@ export const metadata = {
     "functions",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/this-keyword",
+    canonical: "https://mergesociety.com/javascript/this-keyword",
   },
 
   openGraph: {

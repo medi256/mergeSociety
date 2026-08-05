@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "DNS records explained",
@@ -40,7 +40,7 @@ export const metadata = {
       "DNS Records Explained: The Complete Guide for Website Owners (2025)",
     description:
       "Discover how DNS records work behind the scenes with practical examples of A, CNAME, MX, TXT records and more. Learn how to properly configure your domain for websites, email, and enhanced security.",
-    url: "https://www.mergesociety.com/code-report/dns-records",
+    url: "https://mergesociety.com/code-report/dns-records",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "DNS & Web Infrastructure Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -80,9 +80,9 @@ export const metadata = {
   publisher: "Merge Society Technical Publishing",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/dns-records",
+    canonical: "https://mergesociety.com/code-report/dns-records",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/dns-records",
+      "en-US": "https://mergesociety.com/code-report/dns-records",
     },
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "DNS & Web Infrastructure Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Network Configuration Specialist",
       description:
         "12+ years experience in domain configuration and DNS management",
@@ -161,14 +161,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/dns-records",
+      "@id": "https://mergesociety.com/code-report/dns-records",
     },
     keywords:
       "DNS records, domain name system, A record, CNAME record, MX record, DNS security, TXT records",

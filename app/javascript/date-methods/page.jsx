@@ -19,7 +19,7 @@ export const metadata = {
     "JavaScript for beginners",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/date-methods",
+    canonical: "https://mergesociety.com/javascript/date-methods",
   },
 
   openGraph: {

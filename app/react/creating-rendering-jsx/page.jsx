@@ -11,7 +11,7 @@ export const metadata = {
     "JSX, React, creating JSX files, rendering components, React tutorial, web development, MergeSociety",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/creating-rendering-jsx",
+    canonical: "https://mergesociety.com/react/creating-rendering-jsx",
   },
 
   openGraph: {

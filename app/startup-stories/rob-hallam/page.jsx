@@ -63,7 +63,7 @@ export const metadata = {
       "Day 1: Growing Super X to $10K/Month | Building a Twitter Tool While Traveling",
     description:
       "Quit my UK job to build Super X from Latin America. Currently at $1K MRR in Medellin, targeting $10K/month. Just shipped AI Shield (AI content detector), got 100K+ views in private beta. This is day 1 of building in public - tracking the full journey from idea to revenue while traveling the world. Real metrics, real lessons, zero BS.",
-    url: "https://www.mergesociety.com/startup-stories/rob-hallam",
+    url: "https://mergesociety.com/startup-stories/rob-hallam",
     siteName: "Merge Society",
     images: [
       {
@@ -111,7 +111,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/rob-hallam",
+    canonical: "https://mergesociety.com/startup-stories/rob-hallam",
   },
   robots: {
     index: true,
@@ -158,12 +158,12 @@ export const jsonLd = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/startup-stories/rob-hallam",
+    "@id": "https://mergesociety.com/startup-stories/rob-hallam",
   },
   articleSection: "Startup Journey",
   keywords:

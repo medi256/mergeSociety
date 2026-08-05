@@ -17,7 +17,7 @@ export const metadata = {
     "Web Development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/class-components",
+    canonical: "https://mergesociety.com/react/class-components",
   },
   openGraph: {
     title: "Understanding Class Components in React",

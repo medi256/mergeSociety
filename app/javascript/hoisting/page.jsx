@@ -20,7 +20,7 @@ export const metadata = {
     "programming tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/hoisting",
+    canonical: "https://mergesociety.com/javascript/hoisting",
   },
   openGraph: {
     title:

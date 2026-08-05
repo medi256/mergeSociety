@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS, link styling, web design, hyperlinks, hover effects, CSS transitions, web development tutorial",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-links",
+    canonical: "https://mergesociety.com/css/css-links",
   },
   openGraph: {
     title: "Transform Your Links with CSS Styling | Web Design Guide",

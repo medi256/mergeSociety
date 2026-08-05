@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Learn Docker from scratch - bare metal to production. Master containerization, Dockerfile optimization, Docker Compose, security scanning with Docker Scout, and deployment strategies that work.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "docker tutorial",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "Docker 101: Containerization That Actually Works",
     description:
       "Master Docker from fundamentals to production. Learn containerization, the Docker daemon, Dockerfiles, Docker Compose, security scanning, and when to use Kubernetes.",
-    url: "https://www.mergesociety.com/tech/docker-explained",
+    url: "https://mergesociety.com/tech/docker-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/docker-explained",
+    canonical: "https://mergesociety.com/tech/docker-explained",
   },
 
   twitter: {
@@ -161,7 +161,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "DevOps Engineer",
     },
     publisher: {
@@ -169,7 +169,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
         width: 300,
         height: 100,
       },
@@ -178,7 +178,7 @@ export const metadata = {
       "Complete Docker tutorial covering containerization fundamentals, the Docker daemon, Dockerfile optimization, Docker Compose, Docker Scout security scanning, and production deployment strategies.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/docker-explained",
+      "@id": "https://mergesociety.com/tech/docker-explained",
     },
     keywords:
       "docker, containerization, docker compose, dockerfile, docker scout, production deployment, container security, docker cli, kubernetes, microservices",

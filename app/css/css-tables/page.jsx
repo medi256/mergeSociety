@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS, table styling, web design, HTML tables, CSS borders, tr:nth-child, web development tutorial",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-tables",
+    canonical: "https://mergesociety.com/css/css-tables",
   },
   openGraph: {
     title: "Master CSS Table Styling | Web Design Tutorial",

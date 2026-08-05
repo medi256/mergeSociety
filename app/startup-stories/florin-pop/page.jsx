@@ -34,7 +34,7 @@ export const metadata = {
     title: "How I Built Multiple Income Streams as a Developer ($300k Revenue)",
     description:
       "From $0 to $300k: A transparent breakdown of building multiple developer income streams including YouTube ($63k), courses ($160k), SaaS, ebooks, and more.",
-    url: "https://www.mergesociety.com/startup-stories/florin-pop",
+    url: "https://mergesociety.com/startup-stories/florin-pop",
     siteName: "Merge Society",
     images: [
       {
@@ -84,7 +84,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/florin-pop",
+    canonical: "https://mergesociety.com/startup-stories/florin-pop",
   },
 
   category: "Technology",
@@ -119,12 +119,12 @@ export const jsonLd = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/startup-stories/florin-pop",
+    "@id": "https://mergesociety.com/startup-stories/florin-pop",
   },
   keywords:
     "developer income streams, passive income, coding business, freelancing, YouTube monetization, online courses, SaaS revenue",

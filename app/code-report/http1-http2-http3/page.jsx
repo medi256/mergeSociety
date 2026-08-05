@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Think HTTP is boring? It controls how fast you stream Netflix, buy sneakers, and browse the web. Here's the insider's map to HTTP 1.1, HTTP 2, and HTTP 3 - no fluff, just the real reasons why these upgrades changed everything.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "HTTP 1.1 vs HTTP 2 vs HTTP 3",
@@ -46,7 +46,7 @@ export const metadata = {
       "HTTP Evolution: Why HTTP 3 is Secretly Changing Your Web Experience",
     description:
       "From slow HTTP 1.1 to lightning-fast HTTP 3 with QUIC - discover how protocol evolution controls your Netflix streaming, online shopping, and daily browsing speed.",
-    url: "https://www.mergesociety.com/code-report/http1-http2-http3",
+    url: "https://mergesociety.com/code-report/http1-http2-http3",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Sarah Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/http1-http2-http3",
+    canonical: "https://mergesociety.com/code-report/http1-http2-http3",
   },
 
   twitter: {
@@ -175,7 +175,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Sarah Chen",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Network Protocol Engineer",
         worksFor: {
           "@type": "Organization",
@@ -187,14 +187,14 @@ export const metadata = {
         name: "Merge Society",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
         },
       },
       description:
         "Think HTTP is boring? It controls how fast you stream Netflix, buy sneakers, and browse the web. Here's the insider's map to HTTP 1.1, HTTP 2, and HTTP 3 - no fluff, just the real reasons why these upgrades changed everything.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/http1-http2-http3",
+        "@id": "https://mergesociety.com/code-report/http1-http2-http3",
       },
       about: [
         {

@@ -19,7 +19,7 @@ export const metadata = {
     "javascript coding",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/array-methods",
+    canonical: "https://mergesociety.com/javascript/array-methods",
   },
   openGraph: {
     title: "JavaScript Array Methods: The Ultimate Guide",

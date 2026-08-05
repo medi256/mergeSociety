@@ -19,7 +19,7 @@ export const metadata = {
     "creative web design",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-forms",
+    canonical: "https://mergesociety.com/css/css-forms",
   },
 
   openGraph: {

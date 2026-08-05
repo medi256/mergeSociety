@@ -23,7 +23,7 @@ export const metadata = {
     "JavaScript tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/location-object",
+    canonical: "https://mergesociety.com/javascript/location-object",
   },
 
   openGraph: {

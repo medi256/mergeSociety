@@ -16,7 +16,7 @@ export const metadata = {
     "useContext example",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/usecontext-hook",
+    canonical: "https://mergesociety.com/react/usecontext-hook",
   },
 
   openGraph: {

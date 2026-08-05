@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master the most used Git commands: git config, init, add, commit, push, pull, clone, branch. Learn GitHub Flow step-by-step with real examples and VS Code integration.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "git commands for beginners",
@@ -45,7 +45,7 @@ export const metadata = {
       "Essential Git Commands Every Developer Uses Daily - GitHub Workflow Guide",
     description:
       "Complete Git guide from setup to collaboration. Learn config, staging, commits, branches, push/pull, and the GitHub Flow with practical VS Code examples.",
-    url: "https://www.mergesociety.com/latest/most-used-git-commands",
+    url: "https://mergesociety.com/latest/most-used-git-commands",
     siteName: "Merge Society",
     images: [
       {
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/most-used-git-commands",
+    canonical: "https://mergesociety.com/latest/most-used-git-commands",
   },
 
   twitter: {
@@ -248,7 +248,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "@id": "https://www.mergesociety.com/latest/most-used-git-commands",
+      "@id": "https://mergesociety.com/latest/most-used-git-commands",
       headline:
         "Essential Git Commands for Beginners - Complete GitHub Workflow Guide",
       alternativeHeadline:
@@ -271,10 +271,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -283,7 +283,7 @@ export const metadata = {
         "Complete hands-on guide to essential git commands used daily by developers. Covers setup, local workflow, branching, collaboration, and GitHub Flow with real command examples.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/most-used-git-commands",
+        "@id": "https://mergesociety.com/latest/most-used-git-commands",
       },
       keywords:
         "git commands, github workflow, version control, git tutorial, git for beginners, github flow, git branch, git commit",
@@ -544,19 +544,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Essential Git Commands",
-          item: "https://www.mergesociety.com/latest/most-used-git-commands",
+          item: "https://mergesociety.com/latest/most-used-git-commands",
         },
       ],
     },

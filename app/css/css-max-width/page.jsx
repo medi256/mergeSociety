@@ -18,7 +18,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-max-width",
+    canonical: "https://mergesociety.com/css/css-max-width",
   },
 
   openGraph: {

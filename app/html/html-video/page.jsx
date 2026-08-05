@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, videos in HTML, embedding videos, web development, HTML tutorial, video formats, autoplay video, looping video, best practices for videos, video player customization",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-video",
+    canonical: "https://mergesociety.com/html/html-video",
   },
   openGraph: {
     title:

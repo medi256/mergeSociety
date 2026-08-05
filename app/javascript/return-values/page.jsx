@@ -20,7 +20,7 @@ export const metadata = {
     "javascript coding",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/return-values",
+    canonical: "https://mergesociety.com/javascript/return-values",
   },
 
   openGraph: {

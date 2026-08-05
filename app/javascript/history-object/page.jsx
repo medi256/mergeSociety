@@ -23,7 +23,7 @@ export const metadata = {
     "JavaScript history example",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/history-object",
+    canonical: "https://mergesociety.com/javascript/history-object",
   },
 
   openGraph: {

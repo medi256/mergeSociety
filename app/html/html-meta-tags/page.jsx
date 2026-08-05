@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "responsive web design, HTML meta tag, viewport settings, mobile-friendly websites, media queries, flexible layouts, web development tutorial, responsive design examples",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-meta-tags",
+    canonical: "https://mergesociety.com/html/html-meta-tags",
   },
   openGraph: {
     title:

@@ -20,7 +20,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/naming-variables",
+    canonical: "https://mergesociety.com/javascript/naming-variables",
   },
   openGraph: {
     title: "JavaScript Variable Naming: The Ultimate Clean Code Guide",

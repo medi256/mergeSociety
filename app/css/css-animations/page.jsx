@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS animations, keyframes, web design, user experience, visual effects, CSS properties, interactive design",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-animations",
+    canonical: "https://mergesociety.com/css/css-animations",
   },
   openGraph: {
     title: "Animation in CSS - Enhance Your Web Designs",

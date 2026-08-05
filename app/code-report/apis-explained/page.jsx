@@ -37,7 +37,7 @@ export const metadata = {
     title: "APIs Explained in 4 Minutes: The Essential Guide for 2025",
     description:
       "Demystify APIs with real-world analogies and practical examples. Learn how Application Programming Interfaces power the digital world in this beginner-friendly guide.",
-    url: "https://www.mergesociety.com/code-report/apis-explained",
+    url: "https://mergesociety.com/code-report/apis-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society Technical Team",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -77,11 +77,11 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/apis-explained",
+    canonical: "https://mergesociety.com/code-report/apis-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/apis-explained",
-      "es-ES": "https://www.mergesociety.com/code-report/apis-explained",
-      "fr-FR": "https://www.mergesociety.com/code-report/apis-explained",
+      "en-US": "https://mergesociety.com/code-report/apis-explained",
+      "es-ES": "https://mergesociety.com/code-report/apis-explained",
+      "fr-FR": "https://mergesociety.com/code-report/apis-explained",
     },
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society Technical Team",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       description: "Expert software engineers and technical educators",
     },
     publisher: {
@@ -156,14 +156,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn what APIs really are, how they work, and why they're essential in today's connected world. Perfect for beginners, job seekers, and tech professionals in just 4 minutes.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/apis-explained",
+      "@id": "https://mergesociety.com/code-report/apis-explained",
     },
     keywords:
       "API explained, what is an API, API for beginners, API examples, how APIs work",

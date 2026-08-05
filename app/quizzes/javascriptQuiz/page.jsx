@@ -8,7 +8,7 @@ export const metadata = {
   keywords:
     "JavaScript quizzes, JS challenges, JavaScript knowledge test, beginner JavaScript quiz, advanced JavaScript quiz, programming quizzes",
   alternates: {
-    canonical: "https://www.mergesociety.com/quizzes/javascriptQuiz",
+    canonical: "https://mergesociety.com/quizzes/javascriptQuiz",
   },
   openGraph: {
     title:

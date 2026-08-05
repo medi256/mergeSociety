@@ -38,7 +38,7 @@ export const metadata = {
       "Tutorial Hell: How to Escape Tutorial Hell and Actually Learn to Code",
     description:
       "Break free from tutorial dependency with the proven GUeSS method. Learn to build real projects and develop true programming skills.",
-    url: "https://www.mergesociety.com/code-report/tutorial-hell",
+    url: "https://mergesociety.com/code-report/tutorial-hell",
     siteName: "Merge Society",
     locale: "en_US",
     images: [
@@ -103,7 +103,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/tutorial-hell",
+    canonical: "https://mergesociety.com/code-report/tutorial-hell",
   },
 };
 
@@ -127,14 +127,14 @@ export const structuredData = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-08-27T00:00:00.000Z",
   dateModified: "2025-08-27T00:00:00.000Z",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/tutorial-hell",
+    "@id": "https://mergesociety.com/code-report/tutorial-hell",
   },
   articleSection: "Programming Education",
   keywords:

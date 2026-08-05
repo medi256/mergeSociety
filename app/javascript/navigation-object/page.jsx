@@ -24,7 +24,7 @@ export const metadata = {
     "JavaScript navigator example",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/navigation-object",
+    canonical: "https://mergesociety.com/javascript/navigation-object",
   },
 
   openGraph: {

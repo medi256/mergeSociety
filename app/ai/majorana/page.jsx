@@ -29,7 +29,7 @@ export const metadata = {
     title: "Microsoft's Majorana One: The Quantum Computing Revolution of 2025",
     description:
       "BREAKING: Microsoft unveils world's first topological qubit chip. This quantum breakthrough sidesteps fragility issues through revolutionary physics, potentially transforming chemistry and materials science.",
-    url: "https://www.mergesociety.com/ai/majorana",
+    url: "https://mergesociety.com/ai/majorana",
     siteName: "Merge Society",
     type: "article",
     publishedTime: "2025-05-01T12:00:00Z",
@@ -80,7 +80,7 @@ export const metadata = {
 
   // Canonical and language versions
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/majorana",
+    canonical: "https://mergesociety.com/ai/majorana",
   },
 
   // Article-specific metadata
@@ -106,7 +106,7 @@ export const metadata = {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://www.mergesociety.com/ai/majorana",
+        "@id": "https://mergesociety.com/ai/majorana",
         headline:
           "Microsoft's Majorana One: Topological Quantum Computing Breakthrough 2025",
         description:
@@ -134,12 +134,12 @@ export const metadata = {
           name: "Merge Society",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.mergesociety.com/logo.png",
+            url: "https://mergesociety.com/logo.png",
           },
         },
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": "https://www.mergesociety.com/ai/majorana",
+          "@id": "https://mergesociety.com/ai/majorana",
         },
         articleSection: "Quantum Computing",
         keywords:

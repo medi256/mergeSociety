@@ -35,7 +35,7 @@ export const metadata = {
     title: "From File Chaos to Geek Zen: Building a DIY Home Lab in 2025",
     description:
       "How an IT intern built a personal tech ecosystem with Raspberry Pi NAS storage and self-hosted music streaming to break free from big tech subscriptions.",
-    url: "https://www.mergesociety.com/code-report/labing",
+    url: "https://mergesociety.com/code-report/labing",
     siteName: "Tech Addict Diary",
     images: [
       {
@@ -68,18 +68,18 @@ export const metadata = {
   authors: [
     {
       name: "ardens",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Addict Diary",
   publisher: "Digital Autonomy Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/labing",
+    canonical: "https://mergesociety.com/code-report/labing",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/labing",
-      "es-ES": "https://www.mergesociety.com/code-report/labing",
-      "fr-FR": "https://www.mergesociety.com/code-report/labing",
-      "de-DE": "https://www.mergesociety.com/code-report/labing",
+      "en-US": "https://mergesociety.com/code-report/labing",
+      "es-ES": "https://mergesociety.com/code-report/labing",
+      "fr-FR": "https://mergesociety.com/code-report/labing",
+      "de-DE": "https://mergesociety.com/code-report/labing",
     },
   },
   twitter: {
@@ -92,7 +92,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -161,14 +161,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "ardens",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Digital Autonomy Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -177,7 +177,7 @@ export const metadata = {
       "Home Lab, NAS Server, DIY Tech, Raspberry Pi, Self-Hosted, Navidrome",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/labing",
+      "@id": "https://mergesociety.com/code-report/labing",
     },
     about: [
       {

@@ -20,7 +20,7 @@ export const metadata = {
     "data type checking",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/data-types",
+    canonical: "https://mergesociety.com/javascript/data-types",
   },
 
   openGraph: {

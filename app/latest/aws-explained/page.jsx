@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover the highs and lows of Amazon Web Services in our comprehensive, no-holds-barred guide to cloud computing's most powerful platform. Updated for 2025 with insider tips.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "aws guide 2025",
@@ -40,7 +40,7 @@ export const metadata = {
       "AWS: The Brutally Honest Guide to Amazon's Cloud Empire [2025 Edition]",
     description:
       "Navigate the complexities of AWS with our expert guide. From bewildering UIs to cost optimization strategies, we cover everything cloud engineers need to know about Amazon Web Services in 2025.",
-    url: "https://www.mergesociety.com/latest/aws-explained",
+    url: "https://mergesociety.com/latest/aws-explained",
     siteName: "Cloud Experts",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Alex Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -80,9 +80,9 @@ export const metadata = {
   publisher: "Cloud Experts Technology Publishing",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/aws-explained",
+    canonical: "https://mergesociety.com/latest/aws-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/aws-explained",
+      "en-US": "https://mergesociety.com/latest/aws-explained",
     },
   },
 
@@ -150,7 +150,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "AWS Certified Solutions Architect & Cloud Consultant",
       description:
         "Cloud architecture specialist with 10+ years of AWS deployment experience",
@@ -160,14 +160,14 @@ export const metadata = {
       name: "Cloud Experts Technology Publishing",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover the highs and lows of Amazon Web Services in our comprehensive, no-holds-barred guide to cloud computing's most powerful platform. Updated for 2025 with insider tips.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/aws-explained",
+      "@id": "https://mergesociety.com/latest/aws-explained",
     },
     keywords:
       "aws, cloud computing, amazon web services, cloud infrastructure, ec2, lambda, s3, cloud platform comparison, aws security, cost optimization",

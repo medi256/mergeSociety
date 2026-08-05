@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "Semantic HTML, web development, accessibility, SEO, HTML tags, semantic elements, <header>, <nav>, <article>, best practices, front-end development, coding tutorials",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/semantic-html",
+    canonical: "https://mergesociety.com/html/semantic-html",
   },
   openGraph: {
     title:

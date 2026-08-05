@@ -56,7 +56,7 @@ export const metadata = {
     title: "React Roadmap: How To Master React In 2025 (Complete Roadmap)",
     description:
       "The ultimate step-by-step guide to mastering React in 2025. Learn hooks, state management, Next.js integration, performance optimization and transform from beginner to React expert with this battle-tested roadmap.",
-    url: "https://www.mergesociety.com/programming-roadmap/react-roadmap",
+    url: "https://mergesociety.com/programming-roadmap/react-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -98,7 +98,7 @@ export const metadata = {
   classification: "React Learning Guide",
   other: {
     "article:author": "Massa Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
     "article:section": "Web Development",
     "article:tag":
       "React, JavaScript, Frontend Development, Career Guide, Programming, Next.js, Web Development, Developer Jobs",
@@ -111,7 +111,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/programming-roadmap/react-roadmap",
+    canonical: "https://mergesociety.com/programming-roadmap/react-roadmap",
   },
 };
 
@@ -128,7 +128,7 @@ const structuredData = {
     "@type": "Person",
     name: "Massa Medi",
     jobTitle: "Full Stack Developer",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
 
   publisher: {
@@ -136,7 +136,7 @@ const structuredData = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
 
@@ -153,7 +153,7 @@ const structuredData = {
 
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/programming-roadmap/react-roadmap",
+    "@id": "https://mergesociety.com/programming-roadmap/react-roadmap",
   },
 
   proficiencyLevel: "Beginner",

@@ -20,7 +20,7 @@ export const metadata = {
     "web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/string-methods",
+    canonical: "https://mergesociety.com/javascript/string-methods",
   },
   openGraph: {
     title: "JavaScript String Methods: The Ultimate Guide",

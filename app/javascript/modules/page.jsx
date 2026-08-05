@@ -18,7 +18,7 @@ export const metadata = {
     "Programming Best Practices",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/modules",
+    canonical: "https://mergesociety.com/javascript/modules",
   },
 
   openGraph: {

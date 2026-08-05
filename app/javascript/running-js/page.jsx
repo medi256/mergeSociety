@@ -20,7 +20,7 @@ export const metadata = {
     "javascript examples",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/running-js",
+    canonical: "https://mergesociety.com/javascript/running-js",
   },
   openGraph: {
     title: "JavaScript Coding : From Zero to Running Code",

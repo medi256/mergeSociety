@@ -31,7 +31,7 @@ export const metadata = {
       "Inside Tech's Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
     description:
       "A brutally honest and hilarious dissection of tech's most recognizable personalities. From TikTok code influencers to overachieving FAANG employees, discover what makes these archetypes both essential and insufferable.",
-    url: "https://www.mergesociety.com/tech/dev-fluencer",
+    url: "https://mergesociety.com/tech/dev-fluencer",
     siteName: "Tech Anthropology",
     images: [
       {
@@ -62,19 +62,19 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       role: "Former FAANG Engineer & Tech Culture Analyst",
     },
   ],
   creator: "Tech Anthropology Editorial Team",
   publisher: "Tech Anthropology Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/dev-fluencer",
+    canonical: "https://mergesociety.com/tech/dev-fluencer",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/dev-fluencer",
-      "es-ES": "https://www.mergesociety.com/tech/dev-fluencer",
-      "fr-FR": "https://www.mergesociety.com/tech/dev-fluencer",
-      "de-DE": "https://www.mergesociety.com/tech/dev-fluencer",
+      "en-US": "https://mergesociety.com/tech/dev-fluencer",
+      "es-ES": "https://mergesociety.com/tech/dev-fluencer",
+      "fr-FR": "https://mergesociety.com/tech/dev-fluencer",
+      "de-DE": "https://mergesociety.com/tech/dev-fluencer",
     },
   },
   twitter: {
@@ -88,7 +88,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -160,14 +160,14 @@ export const metadata = {
       "@type": "Person",
       name: "Alex Chen",
       jobTitle: "Tech Culture Analyst",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Tech Anthropology Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -176,7 +176,7 @@ export const metadata = {
       "Tech Subcultures, Devfluencers, Codepreneurs, Tech Industry Analysis, Developer Stereotypes",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/dev-fluencer",
+      "@id": "https://mergesociety.com/tech/dev-fluencer",
     },
     about: [
       {

@@ -31,7 +31,7 @@ export const metadata = {
       "From SaaS Panic to Open Source Paradise: Break Free From Subscription Hell",
     description:
       "Discover powerful free and open source alternatives to popular subscription software and reclaim your digital freedom. Stop renting your tools - own them forever!",
-    url: "https://www.mergesociety.com/code-report/saas",
+    url: "https://mergesociety.com/code-report/saas",
     siteName: "Merge Society",
     images: [
       {
@@ -63,17 +63,17 @@ export const metadata = {
   authors: [
     {
       name: "Alex Winters",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/saas",
+    canonical: "https://mergesociety.com/code-report/saas",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/saas",
-      "es-ES": "https://www.mergesociety.com/code-report/saas",
-      "de-DE": "https://www.mergesociety.com/code-report/saas",
+      "en-US": "https://mergesociety.com/code-report/saas",
+      "es-ES": "https://mergesociety.com/code-report/saas",
+      "de-DE": "https://mergesociety.com/code-report/saas",
     },
   },
   twitter: {
@@ -87,7 +87,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -147,14 +147,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Winters",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -162,7 +162,7 @@ export const metadata = {
     keywords: "Open Source Software, SaaS alternatives, digital freedom",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/saas",
+      "@id": "https://mergesociety.com/code-report/saas",
     },
     about: [
       {

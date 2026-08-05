@@ -48,7 +48,7 @@ export const metadata = {
       "Do People Actually Know What Cluely Does? I Took It To The Streets of San Francisco",
     description:
       'After 2 billion views, Cluely\'s CMO hits San Francisco streets with cash and a camera to test if strangers actually know what we build. The results? From "AI note taker" to "cheating tool" to "invisible copilot" - real people share what they think about our real-time AI meeting assistant. Street interviews, honest feedback, and what 2B views really means for brand awareness.',
-    url: "https://www.mergesociety.com/startup-stories/cluely-ai",
+    url: "https://mergesociety.com/startup-stories/cluely-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -87,7 +87,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/cluely-ai",
+    canonical: "https://mergesociety.com/startup-stories/cluely-ai",
   },
   robots: {
     index: true,
@@ -135,12 +135,12 @@ export const jsonLd = {
     name: "Cluely",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png", // Add your logo URL
+      url: "https://mergesociety.com/MS.png", // Add your logo URL
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/startup-stories/cluely-ai",
+    "@id": "https://mergesociety.com/startup-stories/cluely-ai",
   },
   articleSection: "Product Marketing",
   keywords:

@@ -13,7 +13,7 @@ export const metadata = {
       "Explore the world of error handling in React. Build resilient applications and provide a seamless user experience.",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/react/error-handling",
+    canonical: "https://mergesociety.com/react/error-handling",
   },
 
   keywords: [

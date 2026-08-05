@@ -20,7 +20,7 @@ export const metadata = {
     title: "Nvidia's Explosive Rise from Zero to $3 Trillion (2025 Update)",
     description:
       "How Nvidia became the backbone of global AI, with fresh insights and stats for 2025.",
-    url: "https://www.mergesociety.com/startup-stories/invidia",
+    url: "https://mergesociety.com/startup-stories/invidia",
     type: "article",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/invidia",
+    canonical: "https://mergesociety.com/startup-stories/invidia",
   },
 
   twitter: {

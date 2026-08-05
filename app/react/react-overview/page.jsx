@@ -12,7 +12,7 @@ export const metadata = {
       "Unlock the world of React! Learn why it's a game-changer in web development, its key concepts, and how it fits into modern web applications. Start your React journey today!",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/react/react-overview",
+    canonical: "https://mergesociety.com/react/react-overview",
   },
 
   schema: {

@@ -17,7 +17,7 @@ export const metadata = {
     "Web Development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/classes",
+    canonical: "https://mergesociety.com/javascript/classes",
   },
 
   openGraph: {

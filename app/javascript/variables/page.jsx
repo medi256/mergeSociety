@@ -20,7 +20,7 @@ export const metadata = {
     "console.log",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/variables",
+    canonical: "https://mergesociety.com/javascript/variables",
   },
   openGraph: {
     title: "JavaScript Variables 101: The Ultimate Beginner's Guide",

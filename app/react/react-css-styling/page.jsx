@@ -16,7 +16,7 @@ export const metadata = {
     "react styled-components",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/react-css-styling",
+    canonical: "https://mergesociety.com/react/react-css-styling",
   },
 
   openGraph: {

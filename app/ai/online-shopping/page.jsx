@@ -32,7 +32,7 @@ export const metadata = {
       "The Truth Behind Drop-Shipping Scams: Exposing Fake Artisanal Products",
     description:
       "How AI-generated personas, hired actors, and $1 mass-produced goods are being sold as 'handcrafted' premium products at 40x markups.",
-    url: "https://www.mergesociety.com/ai/online-shopping",
+    url: "https://mergesociety.com/ai/online-shopping",
     siteName: "Consumer Protect",
     images: [
       {
@@ -63,15 +63,15 @@ export const metadata = {
   authors: [
     {
       name: "Consumer Detective",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Consumer Protect",
   publisher: "Consumer Protection Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/online-shopping",
+    canonical: "https://mergesociety.com/ai/online-shopping",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/online-shopping",
+      "en-US": "https://mergesociety.com/ai/online-shopping",
     },
   },
   twitter: {
@@ -85,7 +85,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/fooling-online_w6akez_naqb3m.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -150,21 +150,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Consumer Detective",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Consumer Protection Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "An investigative exposé revealing how AI-generated personas, hired actors, and cheap mass-produced goods are being marketed as 'handcrafted' luxury items at premium prices online.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/online-shopping",
+      "@id": "https://mergesociety.com/ai/online-shopping",
     },
     keywords:
       "dropshipping scams, fake artisanal products, online shopping fraud, AI-generated marketing, consumer protection",

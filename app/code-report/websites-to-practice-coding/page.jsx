@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master coding with W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks. Online editors, difficulty filters, step-by-step problems. No IDE needed - start solving today.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "websites to practice coding",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "5 Best Websites to Practice Coding Daily - W3Resource to LeetCode",
     description:
       "Step-by-step guide to W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks. Online editors, filters, problem sets. Build real coding skills daily.",
-    url: "https://www.mergesociety.com/code-report/websites-to-practice-coding",
+    url: "https://mergesociety.com/code-report/websites-to-practice-coding",
     siteName: "Merge Society",
     images: [
       {
@@ -85,7 +85,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/websites-to-practice-coding",
+      "https://mergesociety.com/code-report/websites-to-practice-coding",
   },
 
   twitter: {
@@ -283,7 +283,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id":
-        "https://www.mergesociety.com/code-report/websites-to-practice-coding",
+        "https://mergesociety.com/code-report/websites-to-practice-coding",
       headline:
         "Top 5 Websites to Practice Coding Daily and Actually Get Better",
       alternativeHeadline:
@@ -306,10 +306,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -319,7 +319,7 @@ export const metadata = {
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/code-report/websites-to-practice-coding",
+          "https://mergesociety.com/code-report/websites-to-practice-coding",
       },
       keywords:
         "coding practice websites, hackerrank, leetcode, w3resource, interview preparation, algorithm practice",
@@ -601,19 +601,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Best Coding Practice Websites",
-          item: "https://www.mergesociety.com/code-report/websites-to-practice-coding",
+          item: "https://mergesociety.com/code-report/websites-to-practice-coding",
         },
       ],
     },

@@ -51,7 +51,7 @@ export const metadata = {
   ],
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/mixing-programming-languages-in-one-executable",
+      "https://mergesociety.com/latest/mixing-programming-languages-in-one-executable",
   },
 
   openGraph: {
@@ -59,7 +59,7 @@ export const metadata = {
       "Mixing Programming Languages in One Executable: How It Really Works",
     description:
       "A complete guide to combining Rust, C, Fortran, assembly, and more into a single executable. Understand compilers, linkers, ABIs, and real-world interop patterns.",
-    url: "https://www.mergesociety.com/latest/mixing-programming-languages-in-one-executable",
+    url: "https://mergesociety.com/latest/mixing-programming-languages-in-one-executable",
     siteName: "Merge Society",
     images: [
       {

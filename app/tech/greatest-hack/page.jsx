@@ -32,7 +32,7 @@ export const metadata = {
       "UPDATED: Shadow Brokers NSA Hack - Complete 2025 Analysis | Fresh Investigation",
     description:
       "Updated July 2025: Fresh analysis of the Shadow Brokers NSA breach with new insights into EternalBlue's lasting impact and current cybersecurity threats. Complete updated investigation.",
-    url: "https://www.mergesociety.com/tech/greatest-hack",
+    url: "https://mergesociety.com/tech/greatest-hack",
     siteName: "Cybersecurity Intelligence Report",
     images: [
       {
@@ -64,20 +64,20 @@ export const metadata = {
   authors: [
     {
       name: "Alex Morgan",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "Dr. Elena Vasquez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Cybersecurity Intelligence Editorial Team",
   publisher: "Cybersecurity Intelligence Report",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/greatest-hack",
+    canonical: "https://mergesociety.com/tech/greatest-hack",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/greatest-hack",
+      "en-US": "https://mergesociety.com/tech/greatest-hack",
     },
   },
 
@@ -168,13 +168,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Alex Morgan",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Cybersecurity Analyst",
       },
       {
         "@type": "Person",
         name: "Dr. Elena Vasquez",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Digital Forensics Specialist",
       },
     ],
@@ -183,14 +183,14 @@ export const metadata = {
       name: "Cybersecurity Intelligence Report",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "UPDATED: Complete investigation into the Shadow Brokers NSA breach. New analysis reveals lasting impact of EternalBlue, WannaCry origins, and current cybersecurity implications.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/greatest-hack",
+      "@id": "https://mergesociety.com/tech/greatest-hack",
     },
     keywords:
       "shadow brokers, nsa breach, equation group, eternalblue, wannacry, cyber weapons, updated analysis, 2025 cybersecurity",

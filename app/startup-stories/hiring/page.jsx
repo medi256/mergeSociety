@@ -30,7 +30,7 @@ export const metadata = {
     title: "Tech Layoffs 2025: Global Wave Truth (Updated with Latest Data)",
     description:
       "UPDATED with new government data: 216,000 job cuts, 29,000 in tech in March alone. Why the old rules don't apply to this employment crisis.",
-    url: "https://www.mergesociety.com/startup-stories/hiring",
+    url: "https://mergesociety.com/startup-stories/hiring",
     siteName: "Economy Media",
     images: [
       {
@@ -73,13 +73,13 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/hiring",
+    canonical: "https://mergesociety.com/startup-stories/hiring",
   },
   twitter: {
     card: "summary_large_image",
@@ -89,7 +89,7 @@ export const metadata = {
     creator: "@manager70191",
     images: ["/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp"],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -271,14 +271,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Parker",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Economy Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -287,7 +287,7 @@ export const metadata = {
       "tech layoffs 2025, government job cuts, AI automation, tech unemployment, career survival",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/hiring",
+      "@id": "https://mergesociety.com/startup-stories/hiring",
     },
     about: [
       {

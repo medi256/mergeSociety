@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Practice with a real YC founder. Learn how to answer 'What are you working on?', prove traction, explain your unique insight, and nail customer acquisition. Arjun Mahadevan from Dula (YC batch, $13M raised) shares the exact framework that works.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "y combinator interview questions 2025",
@@ -45,7 +45,7 @@ export const metadata = {
       "YC Mock Interview: Practice the 5 Questions Every Y Combinator Partner Asks",
     description:
       "Real YC founder ($13M raised) walks you through the exact questions YC partners ask. Practice answering live, then learn the framework that wins. Interactive mock interview format.",
-    url: "https://www.mergesociety.com/startup-stories/yc-startup",
+    url: "https://mergesociety.com/startup-stories/yc-startup",
     siteName: "Merge Society",
     images: [
       {
@@ -90,12 +90,12 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/yc-startup",
+    canonical: "https://mergesociety.com/startup-stories/yc-startup",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/yc-startup",
-      "zh-CN": "https://www.mergesociety.com/startup-stories/yc-startup",
-      "hi-IN": "https://www.mergesociety.com/startup-stories/yc-startup",
-      "es-ES": "https://www.mergesociety.com/startup-stories/yc-startup",
+      "en-US": "https://mergesociety.com/startup-stories/yc-startup",
+      "zh-CN": "https://mergesociety.com/startup-stories/yc-startup",
+      "hi-IN": "https://mergesociety.com/startup-stories/yc-startup",
+      "es-ES": "https://mergesociety.com/startup-stories/yc-startup",
     },
   },
 
@@ -202,31 +202,31 @@ export const metadata = {
         "@type": "HowToStep",
         name: "Question 1: What Are You Working On?",
         text: "Answer literally without jargon. One person answers. Describe exactly what you do in plain English that anyone could repeat back.",
-        url: "https://www.mergesociety.com/startup-stories/yc-startup#question-1",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-1",
       },
       {
         "@type": "HowToStep",
         name: "Question 2: What Is Your Progress So Far?",
         text: "Lead with your most impressive metric (ideally revenue). Follow with 2-3 supporting numbers. Be precise, no backstory.",
-        url: "https://www.mergesociety.com/startup-stories/yc-startup#question-2",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-2",
       },
       {
         "@type": "HowToStep",
         name: "Question 3: What Is Your Unique Insight?",
         text: "Frame as 'We discovered that...' or 'The non-obvious insight is...' Share something you learned from customers that changes how you build.",
-        url: "https://www.mergesociety.com/startup-stories/yc-startup#question-3",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-3",
       },
       {
         "@type": "HowToStep",
         name: "Question 4: How Do You Plan To Get Users?",
         text: "Name specific channels and go one level deeper. State keywords, partner types, or why the channel works for your customer.",
-        url: "https://www.mergesociety.com/startup-stories/yc-startup#question-4",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-4",
       },
       {
         "@type": "HowToStep",
         name: "Question 5: Who Are Your Competitors?",
         text: "Name 1-2 top competitors. Never say no competition. State your key differentiator in one sentence.",
-        url: "https://www.mergesociety.com/startup-stories/yc-startup#question-5",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-5",
       },
     ],
     author: {
@@ -245,7 +245,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     datePublished: "2025-10-30T00:00:00Z",

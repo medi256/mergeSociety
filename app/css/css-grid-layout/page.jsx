@@ -12,7 +12,7 @@ export const metadata = {
     "CSS Grid, web development, responsive design, CSS layout, grid properties, two-dimensional layout",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-grid-layout",
+    canonical: "https://mergesociety.com/css/css-grid-layout",
   },
 
   openGraph: {

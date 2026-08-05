@@ -15,17 +15,17 @@ export const metadata = {
     "web development resources",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/terms",
+    canonical: "https://mergesociety.com/terms",
   },
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/terms",
+  url: "https://mergesociety.com/terms",
   type: "website",
   openGraph: {
     title: "Terms of Service | MergeSociety",
     description:
       "Read the Terms of Service for MergeSociety. Learn about the rules and guidelines for using our website, including intellectual property, user responsibilities, and liability.",
     type: "website",
-    url: "https://www.mergesociety.com/terms",
+    url: "https://mergesociety.com/terms",
   },
 };
 

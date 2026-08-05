@@ -22,7 +22,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/window-object",
+    canonical: "https://mergesociety.com/javascript/window-object",
   },
 
   openGraph: {

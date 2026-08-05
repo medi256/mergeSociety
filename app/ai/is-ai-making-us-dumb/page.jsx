@@ -28,7 +28,7 @@ export const metadata = {
     title: "Is AI Making Us Dumber? The Hidden Cognitive Costs of Automation",
     description:
       "As AI takes over more cognitive tasks, are we offloading too much thinking? This deep dive explores the risks of mental atrophy in the age of automation and provides practical strategies to preserve critical thinking.",
-    url: "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
+    url: "https://mergesociety.com/ai/is-ai-making-us-dumb",
     siteName: "ColdFusion",
     images: [
       {
@@ -59,18 +59,18 @@ export const metadata = {
   authors: [
     {
       name: "Dagogo Altraide",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "ColdFusion",
   publisher: "ColdFusion Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
+    canonical: "https://mergesociety.com/ai/is-ai-making-us-dumb",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
-      "es-ES": "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
-      "fr-FR": "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
-      "zh-CN": "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
+      "en-US": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+      "es-ES": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+      "fr-FR": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+      "zh-CN": "https://mergesociety.com/ai/is-ai-making-us-dumb",
     },
   },
   twitter: {
@@ -132,7 +132,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Dagogo Altraide",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Technology Analyst and Documentary Filmmaker",
       description:
         "Founder of ColdFusion, exploring the impact of technology on society through various media formats",
@@ -142,14 +142,14 @@ export const metadata = {
       name: "ColdFusion Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "An exploration of how our increasing reliance on AI tools may be affecting our cognitive abilities, with practical advice on maintaining mental acuity in an age of automation.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/is-ai-making-us-dumb",
+      "@id": "https://mergesociety.com/ai/is-ai-making-us-dumb",
     },
     keywords:
       "artificial intelligence, cognitive offloading, mental atrophy, algorithmic complacency, knowledge age",

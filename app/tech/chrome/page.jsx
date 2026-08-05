@@ -31,7 +31,7 @@ export const metadata = {
       "Your Wild, Weird Week in Tech: Google Antitrust, AI Evolution & Silicon Valley Drama",
     description:
       "From courtroom showdowns to AI advancements and bizarre tech innovations, catch up on everything that happened in tech this week with our comprehensive roundup.",
-    url: "https://www.mergesociety.com/tech/chrome",
+    url: "https://mergesociety.com/tech/chrome",
     siteName: "Tech Roundup Weekly",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Alex Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Roundup Weekly",
   publisher: "Tech Media Network",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/chrome",
+    canonical: "https://mergesociety.com/tech/chrome",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/chrome",
-      "es-ES": "https://www.mergesociety.com/tech/chrome",
-      "fr-FR": "https://www.mergesociety.com/tech/chrome",
+      "en-US": "https://mergesociety.com/tech/chrome",
+      "es-ES": "https://mergesociety.com/tech/chrome",
+      "fr-FR": "https://mergesociety.com/tech/chrome",
     },
   },
   twitter: {
@@ -86,7 +86,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -137,7 +137,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Tech Analyst",
       description:
         "Technology industry analyst with expertise in AI, antitrust policy, and Silicon Valley trends",
@@ -147,14 +147,14 @@ export const metadata = {
       name: "Tech Roundup Weekly",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Dive into this week's tech news: Google's ongoing antitrust saga, OpenAI's search ambitions, Intel's chip boost amid layoffs, bizarre AI services, Nvidia's promising Project G Assist, and much more in this comprehensive tech roundup.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/chrome",
+      "@id": "https://mergesociety.com/tech/chrome",
     },
     keywords:
       "tech news, Google antitrust, OpenAI, Intel, Nvidia, AI advancements, tech policy",

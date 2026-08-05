@@ -18,10 +18,10 @@ export const metadata = {
     "learn programming online",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/about",
+    canonical: "https://mergesociety.com/about",
   },
   author: "Massa Medi",
-  url: "https://www.mergesociety.com/about",
+  url: "https://mergesociety.com/about",
   type: "website",
   locale: "en_US",
   openGraph: {
@@ -29,7 +29,7 @@ export const metadata = {
     description:
       "Daily programming tutorials and tech coverage serving 3,000+ developers worldwide. From Uganda to the world.",
     type: "website",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
 };
 

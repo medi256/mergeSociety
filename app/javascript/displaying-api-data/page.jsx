@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "API data display, JavaScript fetch, DOM manipulation, web development, Dog API, beginner coding, HTML and JavaScript",
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/displaying-api-data",
+    canonical: "https://mergesociety.com/javascript/displaying-api-data",
   },
   openGraph: {
     title: "From API to Webpage: Display Dynamic Data with JavaScript",

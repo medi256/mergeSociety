@@ -31,7 +31,7 @@ export const metadata = {
       "The Ultimate Guide to Major Operating Systems: Windows, macOS, Linux & More",
     description:
       "Compare all major operating systems from Windows and macOS to mobile platforms and specialized systems like Unix and BSD in this comprehensive, accessible guide for beginners and tech enthusiasts.",
-    url: "https://www.mergesociety.com/tech/operating-systems",
+    url: "https://mergesociety.com/tech/operating-systems",
     siteName: "Tech Explained",
     images: [
       {
@@ -70,13 +70,13 @@ export const metadata = {
   creator: "Tech Explained",
   publisher: "Tech Education Network",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/operating-systems",
+    canonical: "https://mergesociety.com/tech/operating-systems",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/operating-systems",
-      "es-ES": "https://www.mergesociety.com/tech/operating-systems",
-      "de-DE": "https://www.mergesociety.com/tech/operating-systems",
-      "fr-FR": "https://www.mergesociety.com/tech/operating-systems",
-      "ja-JP": "https://www.mergesociety.com/tech/operating-systems",
+      "en-US": "https://mergesociety.com/tech/operating-systems",
+      "es-ES": "https://mergesociety.com/tech/operating-systems",
+      "de-DE": "https://mergesociety.com/tech/operating-systems",
+      "fr-FR": "https://mergesociety.com/tech/operating-systems",
+      "ja-JP": "https://mergesociety.com/tech/operating-systems",
     },
   },
   twitter: {
@@ -90,7 +90,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -142,7 +142,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Systems Engineer",
       description:
         "Technology educator specializing in operating systems and computer architecture",
@@ -152,14 +152,14 @@ export const metadata = {
       name: "Tech Explained",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore the complete landscape of operating systems including Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. Learn about their histories, strengths, weaknesses, and ideal use cases in this comprehensive guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/operating-systems",
+      "@id": "https://mergesociety.com/tech/operating-systems",
     },
     keywords:
       "operating systems, Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, BSD",

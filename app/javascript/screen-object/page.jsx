@@ -19,7 +19,7 @@ export const metadata = {
     "web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/screen-object",
+    canonical: "https://mergesociety.com/javascript/screen-object",
   },
   openGraph: {
     title: "Understanding the Screen Object in JavaScript",

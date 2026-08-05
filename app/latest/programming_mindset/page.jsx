@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Stop tutorial hell with 10,000 lines not 10,000 hours. Drop ego, get comfortable being uncomfortable, practice over theory. Build small projects, ship code, learn through reps not reading.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "learning to code mindset",
@@ -45,7 +45,7 @@ export const metadata = {
       "Learning to Code Mindset - 10,000 Lines Over 10,000 Hours, Escape Tutorial Hell",
     description:
       "Transform your learning: practice beats theory, start humble, embrace discomfort, build not master. Exit tutorial hell with micro projects, real reps, and shipping code.",
-    url: "https://www.mergesociety.com/latest/programming_mindset",
+    url: "https://mergesociety.com/latest/programming_mindset",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/programming_mindset",
+    canonical: "https://mergesociety.com/latest/programming_mindset",
   },
 
   twitter: {
@@ -341,7 +341,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/latest/programming_mindset",
+      "@id": "https://mergesociety.com/latest/programming_mindset",
       headline: "Mindset Changes That Transformed My Learning To Code",
       alternativeHeadline:
         "Practice Over Theory: 10,000 Lines Not Hours, Escape Tutorial Hell, Build Projects",
@@ -357,16 +357,16 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Programming Educator",
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -375,7 +375,7 @@ export const metadata = {
         "Personal experience and actionable advice on transforming programming learning mindset: practice over theory, escaping tutorial hell, managing ego, embracing discomfort, building projects over seeking mastery.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/programming_mindset",
+        "@id": "https://mergesociety.com/latest/programming_mindset",
       },
       keywords:
         "learning to code, tutorial hell, programming mindset, practice over theory, beginner programmer, self-taught developer",
@@ -563,19 +563,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Latest",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Learning to Code Mindset",
-          item: "https://www.mergesociety.com/latest/programming_mindset",
+          item: "https://mergesociety.com/latest/programming_mindset",
         },
       ],
     },

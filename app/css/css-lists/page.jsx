@@ -18,7 +18,7 @@ export const metadata = {
     "front-end development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-lists",
+    canonical: "https://mergesociety.com/css/css-lists",
   },
   openGraph: {
     title: "Transform Your Web Lists: CSS Styling Secrets Revealed",

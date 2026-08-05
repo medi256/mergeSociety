@@ -33,7 +33,7 @@ export const metadata = {
     title: "21 Chrome DevTools Secrets Every Developer Should Know in 2025",
     description:
       "From editing any webpage instantly to advanced performance debugging - discover the DevTools tricks that make senior developers 10x more productive.",
-    url: "https://www.mergesociety.com/tech/21-devTools",
+    url: "https://mergesociety.com/tech/21-devTools",
     siteName: "Merge Society",
     images: [
       {
@@ -68,12 +68,12 @@ export const metadata = {
   },
 
   // SEO Optimizations
-  authors: [{ name: "Massa Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Massa Medi", url: "https://mergesociety.com/about" }],
   creator: "Merge Society",
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/21-devTools",
+    canonical: "https://mergesociety.com/tech/21-devTools",
   },
 
   robots: {
@@ -117,21 +117,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Web Developer",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com",
+      url: "https://mergesociety.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/21-devTools",
+      "@id": "https://mergesociety.com/tech/21-devTools",
     },
     articleSection: "Web Development",
     wordCount: 2800,

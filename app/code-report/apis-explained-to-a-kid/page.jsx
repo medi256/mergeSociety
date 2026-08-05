@@ -29,7 +29,7 @@ export const metadata = {
     description:
       "Learn what APIs are with simple analogies, real-world examples, and why they power every app on your phone. Complete beginner's guide to APIs.",
     type: "article",
-    url: "https://www.mergesociety.com/code-report/apis-explained-to-a-kid",
+    url: "https://mergesociety.com/code-report/apis-explained-to-a-kid",
     images: [
       {
         url: "https://img.mergesociety.com/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
@@ -70,7 +70,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/apis-explained-to-a-kid",
+      "https://mergesociety.com/code-report/apis-explained-to-a-kid",
   },
 
   robots: {

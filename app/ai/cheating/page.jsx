@@ -31,7 +31,7 @@ export const metadata = {
       "The Dark Side of Tech Interviews: How Candidates Cheat (And Why They Shouldn't)",
     description:
       "With 10% of tech candidates attempting to cheat, this deep dive explores the methods used in remote technical interviews and the devastating career consequences when caught.",
-    url: "https://www.mergesociety.com/ai/cheating",
+    url: "https://mergesociety.com/ai/cheating",
     siteName: "The Code Report",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "The Code Report",
   publisher: "The Code Report",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/cheating",
+    canonical: "https://mergesociety.com/ai/cheating",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/cheating",
+      "en-US": "https://mergesociety.com/ai/cheating",
       "es-ES":
         "https://www.thecodereport.com/es/articulos/trampa-entrevistas-tecnicas",
     },
@@ -85,7 +85,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/cheating_b3duti_irxoxq.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -138,7 +138,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Software Engineering Lead",
       description:
         "Former technical interviewer with experience at multiple FAANG companies",
@@ -148,14 +148,14 @@ export const metadata = {
       name: "The Code Report",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore the hidden tactics candidates use to cheat in technical interviews, from basic cribbing to AI assistance, and learn why integrity remains the best career strategy in tech's competitive landscape.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/about",
+      "@id": "https://mergesociety.com/about",
     },
     keywords:
       "technical interview cheating, remote interview tactics, coding interview integrity, AI in technical interviews",

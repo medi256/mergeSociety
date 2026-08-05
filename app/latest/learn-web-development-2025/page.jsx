@@ -30,7 +30,7 @@ export const metadata = {
     title: "Learn Web Development in 2025: The Complete No-Noise Roadmap",
     description:
       "Skip tutorial hell. Project-based learning path to become a web developer fast. HTML, CSS, JS, React, databases, and deployment.",
-    url: "https://www.mergesociety.com/latest/learn-web-development-2025",
+    url: "https://mergesociety.com/latest/learn-web-development-2025",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/learn-web-development-2025",
+    canonical: "https://mergesociety.com/latest/learn-web-development-2025",
   },
 
   category: "Technology",

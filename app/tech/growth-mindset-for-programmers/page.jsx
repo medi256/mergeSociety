@@ -81,7 +81,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/tech/growth-mindset-for-programmers",
+      "https://mergesociety.com/tech/growth-mindset-for-programmers",
   },
 
   other: {
@@ -117,7 +117,7 @@ export const jsonLd = {
   dateModified: "2025-09-01T00:00:00.000Z",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/tech/growth-mindset-for-programmers",
+    "@id": "https://mergesociety.com/tech/growth-mindset-for-programmers",
   },
   articleSection: "Programming Education",
   keywords:

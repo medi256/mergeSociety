@@ -34,7 +34,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/projects/htmlP",
+      url: "https://mergesociety.com/projects/htmlP",
     },
   ],
   creator: "Merge Society",
@@ -42,14 +42,14 @@ export const metadata = {
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/htmlP",
+    canonical: "https://mergesociety.com/projects/htmlP",
   },
   openGraph: {
     title:
       "HTML Projects | Step-by-Step Tutorials for Beginners and Advanced Users",
     description:
       "Explore step-by-step HTML projects designed to help beginners and advanced users. Build exciting web pages using only HTML. Perfect for learning web development!",
-    url: "https://www.mergesociety.com/projects/htmlP",
+    url: "https://mergesociety.com/projects/htmlP",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

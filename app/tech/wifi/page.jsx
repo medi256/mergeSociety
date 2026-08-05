@@ -31,7 +31,7 @@ export const metadata = {
       "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
     description:
       "Explore the science behind Wi-Fi and how it has evolved from dial-up modems to seamless, wireless internet connectivity.",
-    url: "https://www.mergesociety.com/tech/wifi",
+    url: "https://mergesociety.com/tech/wifi",
     siteName: "Merge Society",
     images: [
       {
@@ -67,18 +67,18 @@ export const metadata = {
   authors: [
     {
       name: "Ella Thompson",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/wifi",
+    canonical: "https://mergesociety.com/tech/wifi",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/wifi",
-      "es-ES": "https://www.mergesociety.com/tech/wifi",
-      "de-DE": "https://www.mergesociety.com/tech/wifi",
-      "fr-FR": "https://www.mergesociety.com/tech/wifi",
+      "en-US": "https://mergesociety.com/tech/wifi",
+      "es-ES": "https://mergesociety.com/tech/wifi",
+      "de-DE": "https://mergesociety.com/tech/wifi",
+      "fr-FR": "https://mergesociety.com/tech/wifi",
     },
   },
   twitter: {
@@ -92,7 +92,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/wifi_ao8skn_orx8zn.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -142,7 +142,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Ella Thompson",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Technology & Internet Analyst",
     },
     publisher: {
@@ -150,14 +150,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover the fascinating science behind Wi-Fi and how it has transformed our digital lives from dial-up modems to seamless connectivity.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/wifi",
+      "@id": "https://mergesociety.com/tech/wifi",
     },
     keywords:
       "Wi-Fi, IEEE 802.11, radio waves, internet connectivity, networking, data packets, router, IP address, 2.4 GHz, data transmission, digital handshake, network security, internet technology, wireless communication, home networking",

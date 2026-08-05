@@ -23,7 +23,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/cssP/1c",
+    canonical: "https://mergesociety.com/projects/cssP/1c",
   },
 
   openGraph: {

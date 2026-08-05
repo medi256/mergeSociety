@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "CSS selectors, element selector, class selector, ID selector, attribute selector, descendant selector, web design, HTML styling",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-selectors",
+    canonical: "https://mergesociety.com/css/css-selectors",
   },
   openGraph: {
     title: "Mastering CSS Selectors: From Basics to Advanced Techniques",

@@ -7,7 +7,7 @@ export const metadata = {
   keywords:
     "API types, Web API, API key, API endpoint, API documentation, free APIs, paid APIs, fetch method, JavaScript API, beginner programming, web development",
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/api-preparation",
+    canonical: "https://mergesociety.com/javascript/api-preparation",
   },
   openGraph: {
     title: "Unlock the Power of APIs: From Basics to Implementation",

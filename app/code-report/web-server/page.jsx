@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Learn what a web server really is in simple terms. Discover how servers handle requests, HTTP protocols, routing, and more with clear examples for beginners and developers alike.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "web server explained",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "What Is a Web Server? The Definitive Beginner's Guide for 2025",
     description:
       "Demystify web servers with our beginner-friendly guide. Learn how servers handle requests, what HTTP actually looks like, and how routing works with practical, real-world examples.",
-    url: "https://www.mergesociety.com/code-report/web-server",
+    url: "https://mergesociety.com/code-report/web-server",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Web Development Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society Web Development Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/web-server",
+    canonical: "https://mergesociety.com/code-report/web-server",
   },
 
   twitter: {
@@ -152,7 +152,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Web Development Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Web Developer",
       description:
         "10+ years teaching web infrastructure concepts to beginners",
@@ -162,14 +162,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn what a web server really is in simple terms. Discover how servers handle requests, HTTP protocols, routing, and more with clear examples for beginners and developers alike.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/web-server",
+      "@id": "https://mergesociety.com/code-report/web-server",
     },
     keywords:
       "web server, http, tcp, routing, network ports, localhost, static routing, dynamic routing",

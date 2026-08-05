@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Learn how to build a fully functional calculator with advanced operations. This step-by-step tutorial covers working with event listeners, complex logic, and DOM manipulation. Perfect for beginners!",
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/5js",
+    canonical: "https://mergesociety.com/projects/javascriptP/5js",
   },
   openGraph: {
     title: "Building a Simple Calculator with HTML, CSS, and JavaScript",

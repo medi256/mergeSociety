@@ -31,7 +31,7 @@ export const metadata = {
       "Palantir: How Silicon Valley's Most Controversial Unicorn Dominates Defense Tech",
     description:
       "Inside the rise of Palantir Technologies - from secretive startup to defense industry powerhouse transforming warfare through data and AI while minting billions in the process.",
-    url: "https://www.mergesociety.com/tech/palantir",
+    url: "https://mergesociety.com/tech/palantir",
     siteName: "Merge Society",
     images: [
       {
@@ -66,18 +66,18 @@ export const metadata = {
   authors: [
     {
       name: "Morgan Reynolds",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/palantir",
+    canonical: "https://mergesociety.com/tech/palantir",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/palantir",
-      "es-ES": "https://www.mergesociety.com/tech/palantir",
-      "de-DE": "https://www.mergesociety.com/tech/palantir",
-      "fr-FR": "https://www.mergesociety.com/tech/palantir",
+      "en-US": "https://mergesociety.com/tech/palantir",
+      "es-ES": "https://mergesociety.com/tech/palantir",
+      "de-DE": "https://mergesociety.com/tech/palantir",
+      "fr-FR": "https://mergesociety.com/tech/palantir",
     },
   },
   twitter: {
@@ -90,7 +90,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/palantir_vii89x_zvzatj.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -143,7 +143,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Morgan Reynolds",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Technology & Defense Industry Analyst",
     },
     publisher: {
@@ -151,14 +151,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore how Palantir Technologies has transformed from a secretive data analytics company into a defense industry giant, connecting Silicon Valley innovation with government contracts and changing the future of warfare technology.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/palantir",
+      "@id": "https://mergesociety.com/tech/palantir",
     },
     keywords:
       "Palantir, defense technology, Silicon Valley, data analytics, government contracts, Peter Thiel, Alex Karp",

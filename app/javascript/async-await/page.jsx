@@ -17,7 +17,7 @@ export const metadata = {
     "coding tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/async-await",
+    canonical: "https://mergesociety.com/javascript/async-await",
   },
   openGraph: {
     title: "Mastering Async/Await in JavaScript",

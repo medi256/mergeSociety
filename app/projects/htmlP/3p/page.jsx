@@ -27,7 +27,7 @@ export const metadata = {
     "HTML table structure",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/htmlP/3p",
+    canonical: "https://mergesociety.com/projects/htmlP/3p",
   },
 
   openGraph: {

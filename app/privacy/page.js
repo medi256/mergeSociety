@@ -15,17 +15,17 @@ export const metadata = {
     "user privacy",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/privacy",
+    canonical: "https://mergesociety.com/privacy",
   },
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/privacy",
+  url: "https://mergesociety.com/privacy",
   type: "website",
   openGraph: {
     title: "Privacy Policy | MergeSociety",
     description:
       "Learn how MergeSociety protects your privacy and handles data. Our Privacy Policy explains our use of analytics, cookies, and third-party services to enhance your experience.",
     type: "website",
-    url: "https://www.mergesociety.com/privacy",
+    url: "https://mergesociety.com/privacy",
   },
 };
 

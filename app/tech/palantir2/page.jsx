@@ -35,7 +35,7 @@ export const metadata = {
       "Palantir: Inside the Secretive Tech Giant Reshaping Government, Privacy and Democracy",
     description:
       "A former employee's account reveals how Palantir's AI technologies are embedded in military operations, government agencies, and corporate America—raising profound questions about algorithmic governance and democratic oversight.",
-    url: "https://www.mergesociety.com/tech/palantir2",
+    url: "https://mergesociety.com/tech/palantir2",
     siteName: "Tech Oversight Initiative",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Maya Hernandez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       role: "Senior Technology Ethics Journalist",
       credentials: "Former Technology Policy Advisor, J.D. Technology Law",
     },
@@ -80,12 +80,12 @@ export const metadata = {
   creator: "Tech Oversight Initiative Editorial Team",
   publisher: "Tech Oversight Initiative",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/palantir2",
+    canonical: "https://mergesociety.com/tech/palantir2",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/palantir2",
-      "es-ES": "https://www.mergesociety.com/tech/palantir2",
-      "fr-FR": "https://www.mergesociety.com/tech/palantir2",
-      "de-DE": "https://www.mergesociety.com/tech/palantir2",
+      "en-US": "https://mergesociety.com/tech/palantir2",
+      "es-ES": "https://mergesociety.com/tech/palantir2",
+      "fr-FR": "https://mergesociety.com/tech/palantir2",
+      "de-DE": "https://mergesociety.com/tech/palantir2",
     },
   },
   twitter: {
@@ -99,7 +99,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -230,7 +230,7 @@ export const metadata = {
       name: "Tech Oversight Initiative",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
         width: 600,
         height: 60,
       },
@@ -247,7 +247,7 @@ export const metadata = {
       "Palantir, Government Surveillance, AI Ethics, Peter Thiel, Alex Karp, Military Contracts, Kill Chain, Algorithm Governance",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/palantir2",
+      "@id": "https://mergesociety.com/tech/palantir2",
     },
     about: [
       {

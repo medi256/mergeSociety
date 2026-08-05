@@ -41,7 +41,7 @@ export const metadata = {
       "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
     description:
       "Break free from the JavaScript tutorial loop! Discover science-backed learning strategies, battle-tested resources, and project-based techniques that transform beginners into job-ready developers in record time. Stop watching endless videos and start building real skills.",
-    url: "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+    url: "https://mergesociety.com/code-report/how-to-learn-javascript",
     siteName: "Modern Web Developer",
     images: [
       {
@@ -77,23 +77,23 @@ export const metadata = {
   authors: [
     {
       name: "Senior JavaScript Developer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Modern Web Developer",
   publisher: "Modern Web Developer",
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+      "https://mergesociety.com/code-report/how-to-learn-javascript",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+        "https://mergesociety.com/code-report/how-to-learn-javascript",
       "es-ES":
-        "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+        "https://mergesociety.com/code-report/how-to-learn-javascript",
       "fr-FR":
-        "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+        "https://mergesociety.com/code-report/how-to-learn-javascript",
       "de-DE":
-        "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+        "https://mergesociety.com/code-report/how-to-learn-javascript",
     },
   },
   twitter: {
@@ -162,7 +162,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Senior JavaScript Developer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Software Engineer and Coding Educator",
     },
     publisher: {
@@ -170,14 +170,14 @@ export const metadata = {
       name: "Modern Web Developer",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Escape tutorial hell and master JavaScript quickly with our science-backed learning strategies. Discover the most efficient path to real JavaScript proficiency, battle-tested resources, and project-based learning techniques.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/how-to-learn-javascript",
+      "@id": "https://mergesociety.com/code-report/how-to-learn-javascript",
     },
     keywords:
       "JavaScript, web development, learning strategies, programming education, tutorial hell",

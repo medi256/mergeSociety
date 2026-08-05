@@ -38,7 +38,7 @@ export const metadata = {
       "AI vs Machine Learning vs Deep Learning vs Generative AI: 2025 Complete Guide",
     description:
       "Updated comprehensive guide explaining the key differences between AI, machine learning, deep learning, and generative AI with practical examples and latest developments.",
-    url: "https://www.mergesociety.com/ai/ai-ml-dp",
+    url: "https://mergesociety.com/ai/ai-ml-dp",
     siteName: "Merge Society",
     images: [
       {
@@ -82,7 +82,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Massa Medi",
@@ -90,9 +90,9 @@ export const metadata = {
 
   // Canonical and language alternates
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-ml-dp",
+    canonical: "https://mergesociety.com/ai/ai-ml-dp",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-ml-dp",
+      "en-US": "https://mergesociety.com/ai/ai-ml-dp",
     },
   },
 
@@ -163,7 +163,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       sameAs: ["https://twitter.com/manager70191"],
     },
     publisher: {
@@ -171,12 +171,12 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-ml-dp",
+      "@id": "https://mergesociety.com/ai/ai-ml-dp",
     },
     articleSection: "Technology",
     wordCount: 2500,

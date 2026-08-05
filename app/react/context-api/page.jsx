@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/context-api",
+    canonical: "https://mergesociety.com/react/context-api",
   },
 
   openGraph: {

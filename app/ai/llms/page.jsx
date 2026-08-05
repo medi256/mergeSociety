@@ -31,7 +31,7 @@ export const metadata = {
       "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
     description:
       "A clear explanation of how LLMs predict words one at a time to create fluent conversations, and the massive computational scale behind them.",
-    url: "https://www.mergesociety.com/ai/llms",
+    url: "https://mergesociety.com/ai/llms",
     siteName: "Merge Society",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "AI Explainer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/llms",
+    canonical: "https://mergesociety.com/ai/llms",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/llms",
+      "en-US": "https://mergesociety.com/ai/llms",
     },
   },
   twitter: {
@@ -83,7 +83,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -129,14 +129,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "AI Explainer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -147,7 +147,7 @@ export const metadata = {
       "large language models, LLMs, transformer architecture, attention mechanism, AI training, GPT, deep learning",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/llms",
+      "@id": "https://mergesociety.com/ai/llms",
     },
     mentions: [
       {

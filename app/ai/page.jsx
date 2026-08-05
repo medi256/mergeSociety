@@ -53,19 +53,19 @@ export const metadata = {
     "ai news",
   ],
 
-  authors: [{ name: "Merge Society", url: "https://www.mergesociety.com/ai" }],
+  authors: [{ name: "Merge Society", url: "https://mergesociety.com/ai" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/ai",
+    canonical: "https://mergesociety.com/ai",
   },
   openGraph: {
     title: "Merge Society | AI Trends",
     description:
       "Stay updated with the latest trends in AI, including latest models, startups, and innovations in the tech industry.",
-    url: "https://www.mergesociety.com/ai",
+    url: "https://mergesociety.com/ai",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

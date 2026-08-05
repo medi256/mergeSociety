@@ -29,7 +29,7 @@ export const metadata = {
       "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
     description:
       "A raw, data-driven post-mortem of my struggling side project with practical validation strategies for developers considering entrepreneurship.",
-    url: "https://www.mergesociety.com/latest/why-my-side-hustle-failed",
+    url: "https://mergesociety.com/latest/why-my-side-hustle-failed",
 
     siteName: "Merge Society",
     images: [
@@ -59,15 +59,15 @@ export const metadata = {
   authors: [
     {
       name: "Jeff Delaney",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/why-my-side-hustle-failed",
+    canonical: "https://mergesociety.com/latest/why-my-side-hustle-failed",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/why-my-side-hustle-failed",
+      "en-US": "https://mergesociety.com/latest/why-my-side-hustle-failed",
     },
   },
   twitter: {
@@ -81,7 +81,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -120,7 +120,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jeff Delaney",
-      url: "https://www.mergesociety.com/latest/why-my-side-hustle-failed",
+      url: "https://mergesociety.com/latest/why-my-side-hustle-failed",
     },
     publisher: {
       "@type": "Organization",
@@ -139,7 +139,7 @@ export const metadata = {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "    https://www.mergesociety.com/latest/why-my-side-hustle-failed",
+        "    https://mergesociety.com/latest/why-my-side-hustle-failed",
     },
     mentions: [
       {

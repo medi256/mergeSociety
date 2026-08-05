@@ -19,7 +19,7 @@ export const metadata = {
     "javascript coding",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/arrays",
+    canonical: "https://mergesociety.com/javascript/arrays",
   },
   openGraph: {
     title: "JavaScript Arrays: The Ultimate Guide",

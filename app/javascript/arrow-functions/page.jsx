@@ -21,7 +21,7 @@ export const metadata = {
     "code simplicity",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/arrow-functions",
+    canonical: "https://mergesociety.com/javascript/arrow-functions",
   },
   openGraph: {
     title: "JavaScript Arrow Functions: The Ultimate Guide",

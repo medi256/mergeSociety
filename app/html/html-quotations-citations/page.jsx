@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML quotations, HTML <q> element, HTML blockquote, HTML best practices, inline quotations, block-level quotations, HTML coding, semantic HTML, web development, accessible HTML",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-quotations-citations",
+    canonical: "https://mergesociety.com/html/html-quotations-citations",
   },
   openGraph: {
     title:

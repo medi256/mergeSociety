@@ -37,7 +37,7 @@ export const metadata = {
       "EXPLAINED: The Real Truth About Quantum Computing & Grover's Algorithm | May 2025 Deep Dive",
     description:
       "May Day special: Finally understand quantum computing without the hype. Discover how Grover's Algorithm actually works, why quantum speedups aren't magical, and the beautiful geometry behind quantum computing's genuine power.",
-    url: "https://www.mergesociety.com/tech/what-is-quantam",
+    url: "https://mergesociety.com/tech/what-is-quantam",
     siteName: "Advanced Quantum Computing Insights",
     images: [
       {
@@ -73,24 +73,24 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Sophia Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "Prof. Alexander Weissman",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Quantum Computing Educational Initiative",
   publisher: "Quantum Realm Technologies",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/what-is-quantam",
+    canonical: "https://mergesociety.com/tech/what-is-quantam",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/what-is-quantam",
-      "zh-CN": "https://www.mergesociety.com/tech/what-is-quantam",
-      "de-DE": "https://www.mergesociety.com/tech/what-is-quantam",
-      "fr-FR": "https://www.mergesociety.com/tech/what-is-quantam",
-      "es-ES": "https://www.mergesociety.com/tech/what-is-quantam",
-      "ja-JP": "https://www.mergesociety.com/tech/what-is-quantam",
+      "en-US": "https://mergesociety.com/tech/what-is-quantam",
+      "zh-CN": "https://mergesociety.com/tech/what-is-quantam",
+      "de-DE": "https://mergesociety.com/tech/what-is-quantam",
+      "fr-FR": "https://mergesociety.com/tech/what-is-quantam",
+      "es-ES": "https://mergesociety.com/tech/what-is-quantam",
+      "ja-JP": "https://mergesociety.com/tech/what-is-quantam",
     },
   },
   twitter: {
@@ -158,13 +158,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Dr. Sophia Chen",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Quantum Information Scientist",
       },
       {
         "@type": "Person",
         name: "Prof. Alexander Weissman",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Professor of Advanced Computing",
       },
     ],
@@ -173,14 +173,14 @@ export const metadata = {
       name: "Quantum Realm Technologies",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Breakthrough explanation of quantum computing that cuts through pop science myths. Learn how Grover's Algorithm actually works, why quantum speedups aren't what you think, and the beautiful geometric intuition behind quantum computing's true power.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/what-is-quantam",
+      "@id": "https://mergesociety.com/tech/what-is-quantam",
     },
     keywords:
       "quantum computing, grover's algorithm, quantum speedup, quantum geometry",

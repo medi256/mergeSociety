@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover how binary code forms the foundation of all computing, from simple on/off switches to complex operations that power everything from smartphones to supercomputers.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "binary code explained 2025",
@@ -45,7 +45,7 @@ export const metadata = {
     title: "Binary Explained: The Foundation of All Digital Technology",
     description:
       "Learn how simple ones and zeros power everything in our digital world, from text messages to video games, through the elegant simplicity of binary code.",
-    url: "https://www.mergesociety.com/latest/binary-explained",
+    url: "https://mergesociety.com/latest/binary-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Taylor Morgan",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/binary-explained",
+    canonical: "https://mergesociety.com/latest/binary-explained",
   },
 
   twitter: {
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Taylor Morgan",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Computer Science Educator",
       description:
         "Digital literacy advocate with 10+ years experience teaching computer fundamentals",
@@ -163,14 +163,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover how binary code forms the foundation of all computing, from simple on/off switches to complex operations that power everything from smartphones to supercomputers.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/binary-explained",
+      "@id": "https://mergesociety.com/latest/binary-explained",
     },
     keywords:
       "binary, computer science, ones and zeros, digital computation, bits, bytes, ASCII",

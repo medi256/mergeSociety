@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/controlled-vs-uncontrolled",
+    canonical: "https://mergesociety.com/react/controlled-vs-uncontrolled",
   },
 
   openGraph: {

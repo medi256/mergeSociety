@@ -31,7 +31,7 @@ export const metadata = {
     title: "Why Human Connection Remains Undefeated in the AI Era",
     description:
       "An insightful exploration of how human relationships and interaction continue to outshine AI capabilities, with perspectives on the future of work and genuine human experience.",
-    url: "https://www.mergesociety.com/ai/ai-with-jobs",
+    url: "https://mergesociety.com/ai/ai-with-jobs",
     siteName: "Future Perspectives",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "Social Futurist",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Future Perspectives",
   publisher: "Future Perspectives Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-with-jobs",
+    canonical: "https://mergesociety.com/ai/ai-with-jobs",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-with-jobs",
+      "en-US": "https://mergesociety.com/ai/ai-with-jobs",
     },
   },
   twitter: {
@@ -83,7 +83,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/motivation_dimnjq_kbo00z.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -129,21 +129,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Social Futurist",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Future Perspectives Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover why genuine human connection remains irreplaceable despite technological advances, exploring the limitations of AI and the enduring value of human relationships in our increasingly digital world.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-with-jobs",
+      "@id": "https://mergesociety.com/ai/ai-with-jobs",
     },
     keywords:
       "human connection, AI limitations, future of work, retail experience, knowledge economy",

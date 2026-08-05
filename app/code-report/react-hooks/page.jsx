@@ -45,7 +45,7 @@ export const metadata = {
       "Complete Guide to React Hooks in 2025: Master Every Hook in Your Toolkit",
     description:
       "Learn when, why, and how to use all React hooks with practical examples. From useState to useTransition and beyond - your definitive resource for React hooks in 2025.",
-    url: "https://www.mergesociety.com/code-report/react-hooks",
+    url: "https://mergesociety.com/code-report/react-hooks",
     siteName: "Merge Society",
     images: [
       {
@@ -84,18 +84,18 @@ export const metadata = {
   authors: [
     {
       name: "Senior React Engineer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/react-hooks",
+    canonical: "https://mergesociety.com/code-report/react-hooks",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/react-hooks",
-      "es-ES": "https://www.mergesociety.com/code-report/react-hooks",
-      "fr-FR": "https://www.mergesociety.com/code-report/react-hooks",
-      "de-DE": "https://www.mergesociety.com/code-report/react-hooks",
+      "en-US": "https://mergesociety.com/code-report/react-hooks",
+      "es-ES": "https://mergesociety.com/code-report/react-hooks",
+      "fr-FR": "https://mergesociety.com/code-report/react-hooks",
+      "de-DE": "https://mergesociety.com/code-report/react-hooks",
     },
   },
   twitter: {
@@ -164,7 +164,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Senior React Engineer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "React Specialist and Technical Educator",
     },
     publisher: {
@@ -172,14 +172,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master all React hooks with our comprehensive 2025 guide. Learn useState, useEffect, useContext, useRef, useMemo, useCallback, and the latest React 19 hooks with practical examples and use cases.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/react-hooks",
+      "@id": "https://mergesociety.com/code-report/react-hooks",
     },
     keywords:
       "React, hooks, useState, useEffect, useContext, useRef, useMemo, useCallback, React 19, web development",

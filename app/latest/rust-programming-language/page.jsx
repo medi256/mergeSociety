@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master Rust's revolutionary approach to memory safety and high performance without garbage collection. Learn ownership, borrowing, and why Rust is loved by developers in 2025.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "rust programming language",
@@ -40,7 +40,7 @@ export const metadata = {
       "Rust Programming: The Ultimate Guide to Memory Safety and Performance in 2025",
     description:
       "Discover why Rust continues to dominate high-performance programming in 2025. Our comprehensive guide explains Rust's revolutionary memory model, performance benefits, and practical applications for modern developers.",
-    url: "https://www.mergesociety.com/latest/rust-programming-language",
+    url: "https://mergesociety.com/latest/rust-programming-language",
     siteName: "Merge Society",
     images: [
       {
@@ -75,7 +75,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -83,9 +83,9 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/rust-programming-language",
+    canonical: "https://mergesociety.com/latest/rust-programming-language",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/rust-programming-language",
+      "en-US": "https://mergesociety.com/latest/rust-programming-language",
     },
   },
 
@@ -154,7 +154,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Systems Engineer & Rust Evangelist",
       description:
         "Experienced developer specializing in high-performance systems programming and memory-safe applications",
@@ -164,14 +164,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master Rust's revolutionary approach to memory safety and high performance without garbage collection. Learn ownership, borrowing, and why Rust is loved by developers in 2025.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/rust-programming-language",
+      "@id": "https://mergesociety.com/latest/rust-programming-language",
     },
     keywords:
       "rust programming, memory safety, ownership model, borrow checker, systems programming, performance optimization, cargo",

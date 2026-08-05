@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS backgrounds, web design, background-color, background-image, background-repeat, background-position, background-size, background-attachment",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-backgrounds",
+    canonical: "https://mergesociety.com/css/css-backgrounds",
   },
   openGraph: {
     title: "Mastering CSS Backgrounds: Transform Your Web Designs",

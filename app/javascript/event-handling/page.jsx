@@ -23,7 +23,7 @@ export const metadata = {
     "dynamic web pages",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/event-handling",
+    canonical: "https://mergesociety.com/javascript/event-handling",
   },
   openGraph: {
     title:

@@ -9,9 +9,9 @@ export const metadata = {
   keywords:
     "CSS quizzes, interactive CSS challenges, CSS basics quiz, flexbox quiz, grid layout quiz, responsive design quiz, CSS animations quiz, advanced CSS quizzes, beginner CSS challenges, test CSS knowledge, CSS selectors quiz, web design practice quizzes, CSS positioning quiz, media queries quiz",
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/quizzes/cssQuiz",
+  url: "https://mergesociety.com/quizzes/cssQuiz",
   alternates: {
-    canonical: "https://www.mergesociety.com/quizzes/cssQuiz",
+    canonical: "https://mergesociety.com/quizzes/cssQuiz",
   },
   type: "article",
   openGraph: {
@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Challenge your CSS knowledge with interactive quizzes. Perfect for beginners and advanced learners to practice CSS concepts like selectors, layouts, animations, and responsive design.",
     author: "MergeSociety",
-    url: "https://www.mergesociety.com/quizzes/cssQuiz",
+    url: "https://mergesociety.com/quizzes/cssQuiz",
     type: "website",
   },
 };

@@ -14,7 +14,7 @@ export const metadata = {
     description:
       "Complete guide to understanding compilers in programming. Learn the difference between high-level and low-level languages, see practical compilation examples, and understand executable creation.",
     type: "article",
-    url: "https://www.mergesociety.com/code-report/what-is-a-compiler",
+    url: "https://mergesociety.com/code-report/what-is-a-compiler",
     siteName: "Merge Society",
     locale: "en_US",
     images: [
@@ -79,7 +79,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/what-is-a-compiler",
+    canonical: "https://mergesociety.com/code-report/what-is-a-compiler",
   },
 
   robots: {

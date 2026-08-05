@@ -15,7 +15,7 @@ export const metadata = {
     "start React app",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/create-react-app",
+    canonical: "https://mergesociety.com/react/create-react-app",
   },
   openGraph: {
     title: "Create Your First React App in Minutes",

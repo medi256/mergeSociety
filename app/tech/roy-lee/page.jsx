@@ -39,7 +39,7 @@ export const metadata = {
       "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
     description:
       "A deep dive into the Roy Lee controversy, AI interview tools, and the broken trust in tech recruiting that's changing how we hire developers.",
-    url: "https://www.mergesociety.com/tech/roy-lee",
+    url: "https://mergesociety.com/tech/roy-lee",
     siteName: "Merge Society",
     images: [
       {
@@ -71,7 +71,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -79,11 +79,11 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/roy-lee",
+    canonical: "https://mergesociety.com/tech/roy-lee",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/roy-lee",
-      "es-ES": "https://www.mergesociety.com/tech/roy-lee",
-      "de-DE": "https://www.mergesociety.com/tech/roy-lee",
+      "en-US": "https://mergesociety.com/tech/roy-lee",
+      "es-ES": "https://mergesociety.com/tech/roy-lee",
+      "de-DE": "https://mergesociety.com/tech/roy-lee",
     },
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Technology Editor",
       description:
         "Former Tech Recruiter and Engineering Manager covering the intersection of technology and career development",
@@ -161,14 +161,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore the controversial story of Roy Lee's AI interview tools, the broken state of tech recruiting, and what it reveals about trust, integrity, and the future of hiring in an AI-dominated landscape.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/roy-lee",
+      "@id": "https://mergesociety.com/tech/roy-lee",
     },
     keywords:
       "tech interviews, Roy Lee, AI coding interviews, whiteboard interview alternatives, tech hiring process",

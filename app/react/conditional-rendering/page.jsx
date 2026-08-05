@@ -18,7 +18,7 @@ export const metadata = {
     "React Components",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/conditional-rendering",
+    canonical: "https://mergesociety.com/react/conditional-rendering",
   },
 
   openGraph: {

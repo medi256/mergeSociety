@@ -18,7 +18,7 @@ export const metadata = {
     "Coding Tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/try-catch",
+    canonical: "https://mergesociety.com/javascript/try-catch",
   },
   openGraph: {
     title: "Master JavaScript Error Handling with Try/Catch",

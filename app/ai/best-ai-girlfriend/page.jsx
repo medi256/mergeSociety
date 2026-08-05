@@ -30,7 +30,7 @@ export const metadata = {
     "uncanny valley AI",
     "future of voice technology",
   ],
-  authors: [{ name: "Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Medi", url: "https://mergesociety.com/about" }],
   creator: "MergeSociety",
   publisher: "MergeSociety",
   robots: {
@@ -48,7 +48,7 @@ export const metadata = {
       "Sesame AI Voice Revolution: The AI That Sounds More Human Than Humans",
     description:
       "I talked to an AI for an hour and forgot it wasn't human. Exclusive inside look at Sesame AI's breakthrough voice technology that's making OpenAI's $20K agents look outdated. Plus: China's Mannus enters the race.",
-    url: "https://www.mergesociety.com/ai/best-ai-girlfriend",
+    url: "https://mergesociety.com/ai/best-ai-girlfriend",
     siteName: "MergeSociety",
     images: [
       {
@@ -84,7 +84,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/best-ai-girlfriend",
+    canonical: "https://mergesociety.com/ai/best-ai-girlfriend",
   },
   category: "Artificial Intelligence",
   applicationName: "MergeSociety",
@@ -94,11 +94,11 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   other: {
-    "article:author": "https://www.mergesociety.com/about",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:author": "https://mergesociety.com/about",
+    "article:publisher": "https://mergesociety.com",
     "twitter:label1": "Reading time",
     "twitter:data1": "8 min read",
     "twitter:label2": "Filed under",

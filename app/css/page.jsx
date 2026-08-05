@@ -8,7 +8,7 @@ export const metadata = {
   keywords:
     "CSS, web development, HTML, styling, layout, Flexbox, Grid, responsive design",
   alternates: {
-    canonical: "https://www.mergesociety.com/css",
+    canonical: "https://mergesociety.com/css",
   },
   openGraph: {
     title: "Comprehensive CSS Tutorial | Learn CSS from Basics to Advanced",

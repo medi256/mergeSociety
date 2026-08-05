@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Master WebSockets and Socket.IO with our comprehensive 2025 guide. Build lightning-fast chat apps, multiplayer games, and real-time dashboards. Code examples included.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "websockets vs socket.io 2025",
@@ -29,7 +29,7 @@ export const metadata = {
     "real-time broadcasting tutorial",
   ],
 
-  authors: [{ name: "Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Medi", url: "https://mergesociety.com/about" }],
 
   creator: "Merge Society",
   publisher: "Merge Society",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "WebSockets vs Socket.IO: Ultimate Real-Time JavaScript Guide 2025",
     description:
       "Learn WebSockets and Socket.IO with step-by-step tutorials. Build chat apps, multiplayer games, and live dashboards with our complete 2025 guide.",
-    url: "https://www.mergesociety.com/code-report/websocets-explained",
+    url: "https://mergesociety.com/code-report/websocets-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/websocets-explained",
+    canonical: "https://mergesociety.com/code-report/websocets-explained",
   },
 
   robots: {
@@ -150,7 +150,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Web Developer",
       knowsAbout: [
         "WebSockets",
@@ -163,15 +163,15 @@ export const metadata = {
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com",
+      url: "https://mergesociety.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/websocets-explained",
+      "@id": "https://mergesociety.com/code-report/websocets-explained",
     },
     description:
       "Comprehensive guide to WebSockets and Socket.IO for building real-time web applications. Includes step-by-step tutorials, code examples, and best practices for 2025.",

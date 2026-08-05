@@ -36,7 +36,7 @@ export const metadata = {
       "Every React Concept Explained: Complete 2025 Guide with React 19 Features",
     description:
       "From components to Suspense, master every React concept with this comprehensive guide. Perfect for beginners and experienced devs looking to level up with React 19's latest features and patterns.",
-    url: "https://www.mergesociety.com/code-report/all-react-concepts",
+    url: "https://mergesociety.com/code-report/all-react-concepts",
     siteName: "React Mastery",
     images: [
       {
@@ -72,22 +72,22 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "Maya Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "React Mastery Education Team",
   publisher: "React Mastery",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/all-react-concepts",
+    canonical: "https://mergesociety.com/code-report/all-react-concepts",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/all-react-concepts",
-      "es-ES": "https://www.mergesociety.com/code-report/all-react-concepts",
-      "fr-FR": "https://www.mergesociety.com/code-report/all-react-concepts",
-      "zh-CN": "https://www.mergesociety.com/code-report/all-react-concepts",
+      "en-US": "https://mergesociety.com/code-report/all-react-concepts",
+      "es-ES": "https://mergesociety.com/code-report/all-react-concepts",
+      "fr-FR": "https://mergesociety.com/code-report/all-react-concepts",
+      "zh-CN": "https://mergesociety.com/code-report/all-react-concepts",
     },
   },
   twitter: {
@@ -158,13 +158,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Alex Chen",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior React Engineer",
       },
       {
         "@type": "Person",
         name: "Maya Rodriguez",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "React Architecture Specialist",
       },
     ],
@@ -173,14 +173,14 @@ export const metadata = {
       name: "React Mastery",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master every essential React concept from fundamentals to advanced patterns. This comprehensive guide breaks down components, hooks, state management, and architecture for beginners and experienced developers alike.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/all-react-concepts",
+      "@id": "https://mergesociety.com/code-report/all-react-concepts",
     },
     keywords:
       "React, JavaScript, components, hooks, JSX, virtual DOM, state management, context, suspense, error boundaries",

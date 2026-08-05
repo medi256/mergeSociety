@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Updated 2025 guide: Discover the complete programming language hierarchy from Scratch to Rust, with expert insights on which languages to learn for career growth, trending technologies, and hidden gems most developers never explore.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "programming languages 2025",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Programming Languages Iceberg 2025: The Complete Developer Roadmap",
     description:
       "Updated May 2025: The definitive guide to programming languages from beginner to expert level. Learn which languages to master first, which are trending in 2025, and how to build a future-proof skillset.",
-    url: "https://www.mergesociety.com/tech/developer-roadmaps",
+    url: "https://mergesociety.com/tech/developer-roadmaps",
     siteName: "Merge Society",
     images: [
       {
@@ -71,14 +71,14 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/developer-roadmaps",
+    canonical: "https://mergesociety.com/tech/developer-roadmaps",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/developer-roadmaps",
+      "en-US": "https://mergesociety.com/tech/developer-roadmaps",
     },
   },
 
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
     },
     publisher: {
@@ -161,14 +161,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Updated 2025 guide to programming languages from beginner to expert level with career path recommendations.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/developer-roadmaps",
+      "@id": "https://mergesociety.com/tech/developer-roadmaps",
     },
     proficiencyLevel: "Beginner,Intermediate,Advanced",
     articleSection: "Computer Programming",

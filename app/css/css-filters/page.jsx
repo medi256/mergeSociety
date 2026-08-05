@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS filters, web design, visual effects, blur, grayscale, brightness, contrast, hue-rotate, drop-shadow, interactive design",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-filters",
+    canonical: "https://mergesociety.com/css/css-filters",
   },
   openGraph: {
     title: "Understanding CSS Filters - Enhance Your Web Design",

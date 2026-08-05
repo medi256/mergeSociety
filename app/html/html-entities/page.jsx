@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML entities, special characters in HTML, character entities, numeric entities, HTML symbols, ©, ™, non-breaking spaces, HTML coding, web development, accessible HTML",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-entities",
+    canonical: "https://mergesociety.com/html/html-entities",
   },
   openGraph: {
     title:

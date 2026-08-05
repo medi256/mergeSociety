@@ -16,7 +16,7 @@ export const metadata = {
     "react router example",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/setup-react-router",
+    canonical: "https://mergesociety.com/react/setup-react-router",
   },
 
   openGraph: {

@@ -24,7 +24,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   publisher: {
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Insider's Guide: How to Get Hired at Google in 2025 ",
     description:
       "Exclusive insider tips from Google's recruitment team on how to apply for jobs at Google in 2025. From resume crafting to acing the interview process.",
-    url: "https://www.mergesociety.com/tech/get-job-at-google",
+    url: "https://mergesociety.com/tech/get-job-at-google",
     siteName: "Merge Society",
     images: [
       {
@@ -64,7 +64,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/get-job-at-google",
+    canonical: "https://mergesociety.com/tech/get-job-at-google",
   },
   category: "Technology",
   contentType: "article",
@@ -97,7 +97,7 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
@@ -113,7 +113,7 @@ export const metadata = {
       "Learn how to apply for jobs at Google in 2025 with exclusive advice from Google's recruitment team. Step-by-step guide to resume preparation, interviews, and the entire hiring process.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/get-job-at-google",
+      "@id": "https://mergesociety.com/tech/get-job-at-google",
     },
   },
   readingTime: "8 minutes",

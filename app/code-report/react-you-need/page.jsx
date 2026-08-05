@@ -36,7 +36,7 @@ export const metadata = {
       "Essential JavaScript Concepts for React Development: Complete Guide for 2025",
     description:
       "Master the 10 crucial JavaScript concepts you must understand before diving into React. Perfect for beginners and intermediate developers looking to build a solid foundation for React 19 development.",
-    url: "https://www.mergesociety.com/code-report/react-you-need",
+    url: "https://mergesociety.com/code-report/react-you-need",
     siteName: "Merge Society",
     images: [
       {
@@ -72,18 +72,18 @@ export const metadata = {
   authors: [
     {
       name: "Kyle from Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/react-you-need",
+    canonical: "https://mergesociety.com/code-report/react-you-need",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/react-you-need",
-      "es-ES": "https://www.mergesociety.com/code-report/react-you-need",
-      "fr-FR": "https://www.mergesociety.com/code-report/react-you-need",
-      "de-DE": "https://www.mergesociety.com/code-report/react-you-need",
+      "en-US": "https://mergesociety.com/code-report/react-you-need",
+      "es-ES": "https://mergesociety.com/code-report/react-you-need",
+      "fr-FR": "https://mergesociety.com/code-report/react-you-need",
+      "de-DE": "https://mergesociety.com/code-report/react-you-need",
     },
   },
   twitter: {
@@ -152,7 +152,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Kyle from Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Web Developer and Coding Educator",
     },
     publisher: {
@@ -160,14 +160,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master the 10 crucial JavaScript concepts you need to know before learning React. This comprehensive guide breaks down everything from scoping to advanced array methods with practical examples.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/react-you-need",
+      "@id": "https://mergesociety.com/code-report/react-you-need",
     },
     keywords:
       "JavaScript, React, Web Development, JavaScript Fundamentals, React Prerequisites",

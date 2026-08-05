@@ -31,7 +31,7 @@ export const metadata = {
       "The Rise of Model Context Protocol (MCP): Why Every Developer Needs to Know It",
     description:
       "Learn how MCP is becoming the universal standard for AI applications and build your first MCP server to connect your data with language models like Claude.",
-    url: "https://www.mergesociety.com/ai/ai-mcp",
+    url: "https://mergesociety.com/ai/ai-mcp",
     siteName: "Merge Society",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-mcp",
+    canonical: "https://mergesociety.com/ai/ai-mcp",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-mcp",
+      "en-US": "https://mergesociety.com/ai/ai-mcp",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -124,14 +124,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -142,7 +142,7 @@ export const metadata = {
       "Model Context Protocol, MCP, AI development, Claude API, Anthropic, API architecture, vibe coding",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-mcp",
+      "@id": "https://mergesociety.com/ai/ai-mcp",
     },
     mentions: [
       {

@@ -25,7 +25,7 @@ export const metadata = {
       "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
     description:
       "The untold story of how two engineers' friendship rescued Google from a critical failure in 2000 and built the foundations of the modern internet with MapReduce, BigTable, and GFS.",
-    url: "https://www.mergesociety.com/latest/friendship-that-saved-google",
+    url: "https://mergesociety.com/latest/friendship-that-saved-google",
     siteName: "Merge Society",
     images: [
       {
@@ -45,17 +45,17 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/authors/massa-medi",
+      url: "https://mergesociety.com/authors/massa-medi",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/friendship-that-saved-google",
+      "https://mergesociety.com/latest/friendship-that-saved-google",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/latest/friendship-that-saved-google",
+        "https://mergesociety.com/latest/friendship-that-saved-google",
     },
   },
   twitter: {
@@ -70,7 +70,7 @@ export const metadata = {
     ],
   },
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -99,14 +99,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:

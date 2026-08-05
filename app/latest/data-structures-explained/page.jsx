@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master arrays, linked lists, stacks, queues, heaps, hashmaps, BSTs, and sets with Big O notation. Visual explanations: O(1), O(n), O(log n), O(n²). Real interview patterns.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "data structures explained",
@@ -45,7 +45,7 @@ export const metadata = {
       "Data Structures & Big O for Interviews - Arrays, Stacks, Heaps, Hashmaps Explained",
     description:
       "Visual guide to data structures with Big O: O(1) instant, O(n) linear, O(log n) fast halving, O(n²) quadratic. Arrays, linked lists, stacks, queues, heaps, hashmaps, BSTs, sets.",
-    url: "https://www.mergesociety.com/latest/data-structures-explained",
+    url: "https://mergesociety.com/latest/data-structures-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/data-structures-explained",
+    canonical: "https://mergesociety.com/latest/data-structures-explained",
   },
 
   twitter: {
@@ -389,7 +389,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "EducationalOccupationalCredential",
-      "@id": "https://www.mergesociety.com/latest/data-structures-explained",
+      "@id": "https://mergesociety.com/latest/data-structures-explained",
       name: "Data Structures and Big O Notation for Coding Interviews",
       description:
         "Comprehensive guide to fundamental data structures with Big O time complexity analysis using visual analogies for interview preparation",
@@ -412,7 +412,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/latest/data-structures-explained",
+      "@id": "https://mergesociety.com/latest/data-structures-explained",
       headline: "Data Structures and Big O For Coding Interviews Explained",
       alternativeHeadline:
         "Master Arrays, Stacks, Heaps, Hashmaps with Visual Analogies and Time Complexity",
@@ -428,7 +428,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Software Engineer",
         alumniOf: "Georgia Tech",
         worksFor: "Amazon",
@@ -436,10 +436,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -448,7 +448,7 @@ export const metadata = {
         "Educational guide to data structures and Big O notation with visual analogies: arrays as lockers, stacks as chips, queues as lines, heaps as pyramids, hashmaps as mailrooms.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/data-structures-explained",
+        "@id": "https://mergesociety.com/latest/data-structures-explained",
       },
       keywords:
         "data structures, big o notation, coding interviews, time complexity, arrays, linked lists, stacks, queues, heaps, hashmaps",
@@ -604,19 +604,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Latest Articles",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Data Structures and Big O",
-          item: "https://www.mergesociety.com/latest/data-structures-explained",
+          item: "https://mergesociety.com/latest/data-structures-explained",
         },
       ],
     },

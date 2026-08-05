@@ -21,7 +21,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/loops",
+    canonical: "https://mergesociety.com/javascript/loops",
   },
 
   openGraph: {

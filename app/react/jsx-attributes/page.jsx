@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "JSX, React, JSX attributes, web development, JavaScript, HTML, React components, coding tutorials",
   alternates: {
-    canonical: "https://www.mergesociety.com/react/jsx-attributes",
+    canonical: "https://mergesociety.com/react/jsx-attributes",
   },
   openGraph: {
     title: "Mastering JSX Attributes in React",

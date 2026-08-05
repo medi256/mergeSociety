@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "React, components, beginner guide, functional components, JavaScript, web development",
   alternates: {
-    canonical: "https://www.mergesociety.com/react/functional-components",
+    canonical: "https://mergesociety.com/react/functional-components",
   },
   openGraph: {
     title: "React Components: A Comprehensive Beginner's Guide",

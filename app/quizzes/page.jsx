@@ -10,9 +10,9 @@ export const metadata = {
   keywords:
     "HTML quizzes, CSS quizzes, JavaScript quizzes, coding quizzes, interactive quizzes, beginner coding challenges, test coding knowledge, coding skill tests, HTML basics quiz, CSS animations quiz, JavaScript logic quiz, web development practice quizzes, quiz categories",
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/quizzes",
+  url: "https://mergesociety.com/quizzes",
   alternates: {
-    canonical: "https://www.mergesociety.com/quizzes",
+    canonical: "https://mergesociety.com/quizzes",
   },
   type: "website",
   openGraph: {
@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Challenge your knowledge of HTML, CSS, and JavaScript with our interactive quizzes. Perfect for beginners and advanced learners to practice coding concepts.",
     author: "MergeSociety",
-    url: "https://www.mergesociety.com/quizzes",
+    url: "https://mergesociety.com/quizzes",
     type: "website",
   },
 };

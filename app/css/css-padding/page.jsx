@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS padding, web design, padding-top, padding-right, padding-bottom, padding-left, padding shorthand, CSS layout",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-padding",
+    canonical: "https://mergesociety.com/css/css-padding",
   },
   openGraph: {
     title: "Master CSS Padding: Create Perfect Spacing in Web Design",

@@ -17,7 +17,7 @@ export const metadata = {
     "error management web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/throwing-errors",
+    canonical: "https://mergesociety.com/javascript/throwing-errors",
   },
   openGraph: {
     title: "JavaScript Error Handling Tutorial: Throw and Catch Like a Pro",

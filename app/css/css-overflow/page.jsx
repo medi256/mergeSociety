@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS overflow, CSS properties, visible, hidden, scroll, auto, web design, layout",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-overflow",
+    canonical: "https://mergesociety.com/css/css-overflow",
   },
   openGraph: {
     title: "Mastering Overflow in CSS",

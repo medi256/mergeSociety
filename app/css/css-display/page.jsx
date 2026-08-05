@@ -18,7 +18,7 @@ export const metadata = {
     "CSS display tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-display",
+    canonical: "https://mergesociety.com/css/css-display",
   },
   openGraph: {
     title: "CSS Display | Mastering Layout Techniques",

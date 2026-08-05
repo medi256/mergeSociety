@@ -19,7 +19,7 @@ export const metadata = {
     "CSS layout",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-height",
+    canonical: "https://mergesociety.com/css/css-height",
   },
 
   openGraph: {

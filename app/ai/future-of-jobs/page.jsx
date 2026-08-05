@@ -31,7 +31,7 @@ export const metadata = {
     title: "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
     description:
       "Discover which jobs are most at risk from AI in the next five years and get actionable strategies to future-proof your career in this comprehensive analysis.",
-    url: "https://www.mergesociety.com/ai/future-of-jobs",
+    url: "https://mergesociety.com/ai/future-of-jobs",
     siteName: "Career Insights",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "Career Futurist",
-      url: "https://www.mergesociety.com/ai/about",
+      url: "https://mergesociety.com/ai/about",
     },
   ],
   creator: "Career Insights",
   publisher: "Career Insights Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/future-of-jobs",
+    canonical: "https://mergesociety.com/ai/future-of-jobs",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/future-of-jobs",
+      "en-US": "https://mergesociety.com/ai/future-of-jobs",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/jobs-servive-ai_lywum0_oag3ma.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -131,21 +131,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Career Futurist",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Career Insights Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "A data-driven analysis of which jobs are most at risk from AI automation in the next five years, and actionable strategies to future-proof your career in the rapidly evolving job market.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/future-of-jobs",
+      "@id": "https://mergesociety.com/ai/future-of-jobs",
     },
     keywords:
       "AI job impact, future careers, automation risk, career transition, future-proof skills",
@@ -188,7 +188,7 @@ export const metadata = {
     isPartOf: {
       "@type": "Series",
       name: "Why Human Connection Still Beats Technology—Even in the AI Era",
-      url: "https://www.mergesociety.com/ai/ai-with-jobs",
+      url: "https://mergesociety.com/ai/ai-with-jobs",
     },
   },
   // Modern SEO and discovery features for 2025

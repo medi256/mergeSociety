@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS syntax, selectors, properties, values, web design, styling, cascading style sheets",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-syntax",
+    canonical: "https://mergesociety.com/css/css-syntax",
   },
   openGraph: {
     title: "CSS Syntax Guide: From Basics to Advanced Techniques",

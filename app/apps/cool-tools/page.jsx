@@ -36,7 +36,7 @@ export const metadata = {
       "10 Game-Changing Developer Tools That Top Engineers Are Using in 2025",
     description:
       "The ultimate insider guide to the tools revolutionizing development workflows in 2025. These hidden gems have transformed how leading developers work—from AI-powered editing to effortless API testing. Discover the secret arsenal top engineers don't want you to know about.",
-    url: "https://www.mergesociety.com/apps/cool-tools",
+    url: "https://mergesociety.com/apps/cool-tools",
     siteName: "DevTools Master",
     images: [
       {
@@ -80,18 +80,18 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "DevTools Master",
   publisher: "DevTools Master Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/cool-tools",
+    canonical: "https://mergesociety.com/apps/cool-tools",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/cool-tools",
-      "es-ES": "https://www.mergesociety.com/apps/cool-tools",
-      "ja-JP": "https://www.mergesociety.com/apps/cool-tools",
-      "de-DE": "https://www.mergesociety.com/apps/cool-tools",
+      "en-US": "https://mergesociety.com/apps/cool-tools",
+      "es-ES": "https://mergesociety.com/apps/cool-tools",
+      "ja-JP": "https://mergesociety.com/apps/cool-tools",
+      "de-DE": "https://mergesociety.com/apps/cool-tools",
     },
   },
   twitter: {
@@ -104,7 +104,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -166,7 +166,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
     },
     publisher: {
@@ -174,14 +174,14 @@ export const metadata = {
       name: "DevTools Master",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover the ultimate collection of hidden gem developer tools for 2025 that will dramatically boost your productivity. From AI-powered coding assistants to lightweight Docker alternatives, these are the must-have tools transforming how top developers work.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/cool-tools",
+      "@id": "https://mergesociety.com/apps/cool-tools",
     },
     keywords:
       "developer tools, software development, productivity tools, AI development, code editor, GitHub, API testing",

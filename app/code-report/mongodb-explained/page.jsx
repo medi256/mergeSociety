@@ -37,7 +37,7 @@ export const metadata = {
     title: "MongoDB : The Ultimate Guide to Modern Database Architecture",
     description:
       "Discover why MongoDB has become the world's leading document database and how its flexible, scalable architecture is transforming application development .",
-    url: "https://www.mergesociety.com/code-report/mongodb-explained",
+    url: "https://mergesociety.com/code-report/mongodb-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -77,11 +77,11 @@ export const metadata = {
   publisher: "Your Tech Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/mongodb-explained",
+    canonical: "https://mergesociety.com/code-report/mongodb-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/mongodb-explained",
-      "es-ES": "https://www.mergesociety.com/code-report/mongodb-explained",
-      "de-DE": "https://www.mergesociety.com/code-report/mongodb-explained",
+      "en-US": "https://mergesociety.com/code-report/mongodb-explained",
+      "es-ES": "https://mergesociety.com/code-report/mongodb-explained",
+      "de-DE": "https://mergesociety.com/code-report/mongodb-explained",
     },
   },
 
@@ -146,7 +146,7 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       description: "Database specialists focused on modern data architectures",
     },
     publisher: {
@@ -154,14 +154,14 @@ export const metadata = {
       name: "Your Tech Platform",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore how MongoDB has transformed from a simple document database to a comprehensive data platform powering today's most demanding applications. Learn about flexible schemas, horizontal scaling, and the latest Atlas features in this in-depth guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/mongodb-explained",
+      "@id": "https://mergesociety.com/code-report/mongodb-explained",
     },
     keywords:
       "MongoDB, NoSQL database, document database, MongoDB Atlas, schema-less database, JSON document database",

@@ -32,7 +32,7 @@ export const metadata = {
     description:
       "Learn C/C++ pointers from basics to advanced concepts. Includes syntax, memory management, debugging tips, and practical examples.",
     type: "article",
-    url: "https://www.mergesociety.com/code-report/pointers-in-c-and-cpp",
+    url: "https://mergesociety.com/code-report/pointers-in-c-and-cpp",
     images: [
       {
         url: "https://img.mergesociety.com/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
@@ -72,7 +72,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/pointers-in-c-and-cpp",
+    canonical: "https://mergesociety.com/code-report/pointers-in-c-and-cpp",
   },
 
   other: {
@@ -103,14 +103,14 @@ export const jsonLd = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-08-25T10:00:00Z",
   dateModified: "2025-08-25T10:00:00Z",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/pointers-in-c-and-cpp",
+    "@id": "https://mergesociety.com/code-report/pointers-in-c-and-cpp",
   },
   articleSection: "Programming Tutorials",
   keywords:

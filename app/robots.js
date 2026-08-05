@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `https://www.mergesociety.com/sitemap.xml`,
+    sitemap: `https://mergesociety.com/sitemap.xml`,
   };
 }

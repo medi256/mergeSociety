@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, iframe element, embedding external content, web development, HTML tutorial, iframe customization, embedding videos, embedding maps, responsive iframe, sandbox attribute, web security",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-iframes",
+    canonical: "https://mergesociety.com/html/html-iframes",
   },
   openGraph: {
     title:

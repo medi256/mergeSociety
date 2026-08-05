@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Essential VS Code extensions for productivity: Prettier for formatting, ESLint for linting, Error Lens for visibility, GitLens for Git, Live Server, Jest tools, GitHub Copilot. Real workflow tested.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "best vscode extensions 2025",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "21 Essential VS Code Extensions for Developers 2025",
     description:
       "Boost productivity with Prettier, ESLint, Error Lens, GitLens, Live Server, Jest, Copilot. Real workflow from formatting to Git. Free and paid options explained.",
-    url: "https://www.mergesociety.com/code-report/vscode-extension",
+    url: "https://mergesociety.com/code-report/vscode-extension",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -84,7 +84,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/vscode-extension",
+    canonical: "https://mergesociety.com/code-report/vscode-extension",
   },
 
   twitter: {
@@ -367,7 +367,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/code-report/vscode-extension",
+      "@id": "https://mergesociety.com/code-report/vscode-extension",
       headline:
         "21 Best VS Code Extensions I Use Every Day - Prettier, ESLint, GitLens & More",
       alternativeHeadline:
@@ -384,16 +384,16 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Professional Developer",
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -402,7 +402,7 @@ export const metadata = {
         "Comprehensive guide to 21 essential VS Code extensions tested in real workflow, covering formatting, linting, Git, testing, AI, and productivity tools.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/vscode-extension",
+        "@id": "https://mergesociety.com/code-report/vscode-extension",
       },
       keywords:
         "vscode extensions, prettier, eslint, gitlens, developer productivity, code formatting, git tools, testing tools",
@@ -693,19 +693,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Best VS Code Extensions",
-          item: "https://www.mergesociety.com/code-report/vscode-extension",
+          item: "https://mergesociety.com/code-report/vscode-extension",
         },
       ],
     },

@@ -20,7 +20,7 @@ export const metadata = {
     "image frame styling CSS",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-images",
+    canonical: "https://mergesociety.com/css/css-images",
   },
   openGraph: {
     title: "CSS Image Styling Guide: Enhance Your Web Design",

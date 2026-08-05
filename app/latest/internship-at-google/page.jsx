@@ -31,7 +31,7 @@ export const metadata = {
     title: "Google Internship & Entry-Level Hiring: Breaking Down the Myths",
     description:
       "Insider perspectives from Google recruiters on what really matters in student applications, how to prepare effectively, and how to showcase your skills regardless of your background.",
-    url: "https://www.mergesociety.com/latest/internship-at-google",
+    url: "https://mergesociety.com/latest/internship-at-google",
     siteName: "Tech Career Paths",
     images: [
       {
@@ -66,19 +66,19 @@ export const metadata = {
   authors: [
     {
       name: "Ravi Patel",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Career Paths",
   publisher: "Tech Career Paths Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/internship-at-google",
+    canonical: "https://mergesociety.com/latest/internship-at-google",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/internship-at-google",
-      "es-ES": "https://www.mergesociety.com/latest/internship-at-google",
-      "fr-FR": "https://www.mergesociety.com/latest/internship-at-google",
-      "de-DE": "https://www.mergesociety.com/latest/internship-at-google",
-      "zh-CN": "https://www.mergesociety.com/latest/internship-at-google",
+      "en-US": "https://mergesociety.com/latest/internship-at-google",
+      "es-ES": "https://mergesociety.com/latest/internship-at-google",
+      "fr-FR": "https://mergesociety.com/latest/internship-at-google",
+      "de-DE": "https://mergesociety.com/latest/internship-at-google",
+      "zh-CN": "https://mergesociety.com/latest/internship-at-google",
     },
   },
   twitter: {
@@ -92,7 +92,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -144,7 +144,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Ravi Patel",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Career Development Specialist",
     },
     publisher: {
@@ -152,14 +152,14 @@ export const metadata = {
       name: "Tech Career Paths",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/latest/MS.png",
+        url: "https://mergesociety.com/latest/MS.png",
       },
     },
     description:
       "Discover the reality behind Google's hiring process for students and recent graduates. Learn what actually matters in applications, how interviews really work, and get insider tips from Google recruiters to maximize your chances of landing an internship or entry-level position.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/internship-at-google",
+      "@id": "https://mergesociety.com/latest/internship-at-google",
     },
     keywords:
       "google internship, entry-level tech jobs, google application process, tech recruiting",

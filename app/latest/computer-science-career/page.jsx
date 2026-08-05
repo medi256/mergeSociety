@@ -28,7 +28,7 @@ export const metadata = {
       "Computer Science Career: Depth Beats Breadth for Landing Your First Role",
     description:
       "The real playbook for CS students and bootcamp graduates: Why mastering one skill beats dabbling in twelve. Actionable strategies that actually work.",
-    url: "https://www.mergesociety.com/latest/computer-science-career",
+    url: "https://mergesociety.com/latest/computer-science-career",
     siteName: "Merge Society",
     images: [
       {
@@ -71,7 +71,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/computer-science-career",
+    canonical: "https://mergesociety.com/latest/computer-science-career",
   },
   other: {
     "article:author": "Massa Medi",

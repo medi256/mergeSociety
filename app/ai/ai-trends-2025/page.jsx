@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover the 8 revolutionary AI trends of 2025: agentic AI, inference time compute, 50+ trillion parameter models, pocket-sized intelligent models, and more. Expert predictions you can't afford to miss.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "AI trends 2025",
@@ -38,7 +38,7 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
@@ -47,9 +47,9 @@ export const metadata = {
 
   // Canonical and language alternates
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-trends-2025",
+    canonical: "https://mergesociety.com/ai/ai-trends-2025",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-trends-2025",
+      "en-US": "https://mergesociety.com/ai/ai-trends-2025",
     },
   },
 
@@ -59,7 +59,7 @@ export const metadata = {
       "AI Trends 2025: 8 Game-Changing Predictions That Will Transform Your Future",
     description:
       "From agentic AI to 50+ trillion parameter models: Expert analysis of the 8 AI trends that will dominate 2025. Don't get left behind.",
-    url: "https://www.mergesociety.com/ai/ai-trends-2025",
+    url: "https://mergesociety.com/ai/ai-trends-2025",
     siteName: "Merge Society",
     images: [
       {
@@ -149,7 +149,7 @@ export const jsonLdStructuredData = {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/ai/ai-trends-2025#article",
+      "@id": "https://mergesociety.com/ai/ai-trends-2025#article",
       headline:
         "AI Trends 2025: 8 Game-Changing Predictions That Will Transform Your Future",
       image: {
@@ -164,21 +164,21 @@ export const jsonLdStructuredData = {
       dateModified: new Date().toISOString(),
       author: {
         "@type": "Person",
-        "@id": "https://www.mergesociety.com/about#person",
+        "@id": "https://mergesociety.com/about#person",
         name: "Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "AI Technology Expert",
         description:
           "Technology forecaster and AI specialist with proven track record in predicting AI developments",
       },
       publisher: {
         "@type": "Organization",
-        "@id": "https://www.mergesociety.com#organization",
+        "@id": "https://mergesociety.com#organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 300,
         },
@@ -192,7 +192,7 @@ export const jsonLdStructuredData = {
       isAccessibleForFree: true,
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/ai/ai-trends-2025",
+        "@id": "https://mergesociety.com/ai/ai-trends-2025",
       },
       about: [
         {
@@ -230,7 +230,7 @@ export const jsonLdStructuredData = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.mergesociety.com/ai/ai-trends-2025#faq",
+      "@id": "https://mergesociety.com/ai/ai-trends-2025#faq",
       mainEntity: [
         {
           "@type": "Question",
@@ -260,15 +260,15 @@ export const jsonLdStructuredData = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-trends-2025",
-      url: "https://www.mergesociety.com/ai/ai-trends-2025",
+      "@id": "https://mergesociety.com/ai/ai-trends-2025",
+      url: "https://mergesociety.com/ai/ai-trends-2025",
       name: "AI Trends 2025: 8 Game-Changing Predictions",
       description:
         "Comprehensive analysis of the 8 most important AI trends for 2025",
       inLanguage: "en-US",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://www.mergesociety.com#website",
+        "@id": "https://mergesociety.com#website",
       },
       primaryImageOfPage: {
         "@type": "ImageObject",
@@ -283,19 +283,19 @@ export const jsonLdStructuredData = {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.mergesociety.com",
+            item: "https://mergesociety.com",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "AI",
-            item: "https://www.mergesociety.com/ai",
+            item: "https://mergesociety.com/ai",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: "AI Trends 2025",
-            item: "https://www.mergesociety.com/ai/ai-trends-2025",
+            item: "https://mergesociety.com/ai/ai-trends-2025",
           },
         ],
       },

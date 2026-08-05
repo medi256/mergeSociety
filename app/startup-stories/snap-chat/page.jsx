@@ -31,7 +31,7 @@ export const metadata = {
       "Snapchat's Profitability Paradox: Social Media Giant with Few Profitable Quarters",
     description:
       "With 450M users and billions in revenue, why has Snapchat only been profitable twice? Examining the business challenges behind one of social media's most innovative platforms.",
-    url: "https://www.mergesociety.com/startup-stories/snap-chat",
+    url: "https://mergesociety.com/startup-stories/snap-chat",
     siteName: "Merge Society",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Hari Mathur",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/snap-chat",
+    canonical: "https://mergesociety.com/startup-stories/snap-chat",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/snap-chat",
-      "es-ES": "https://www.mergesociety.com/startup-stories/snap-chat",
-      "ja-JP": "https://www.mergesociety.com/startup-stories/snap-chat",
+      "en-US": "https://mergesociety.com/startup-stories/snap-chat",
+      "es-ES": "https://mergesociety.com/startup-stories/snap-chat",
+      "ja-JP": "https://mergesociety.com/startup-stories/snap-chat",
     },
   },
   twitter: {
@@ -85,7 +85,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -144,14 +144,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Hari Mathur",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -160,7 +160,7 @@ export const metadata = {
       "Snapchat, social media profitability, ephemeral messaging, Evan Spiegel, AR technology, tech monetization",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/snap-chat",
+      "@id": "https://mergesociety.com/startup-stories/snap-chat",
     },
     about: [
       {

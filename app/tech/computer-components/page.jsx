@@ -30,7 +30,7 @@ export const metadata = {
     title: "The Essential Guide to Computer Components: Inside Your PC",
     description:
       "Understand the fundamental parts that make up every computer system with this comprehensive breakdown of PC components from motherboard to cooling system.",
-    url: "https://www.mergesociety.com/tech/computer-components",
+    url: "https://mergesociety.com/tech/computer-components",
     siteName: "Tech Explained",
     images: [
       {
@@ -61,17 +61,17 @@ export const metadata = {
   authors: [
     {
       name: "Jamie Taylor",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Explained",
   publisher: "Tech Explained",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/computer-components",
+    canonical: "https://mergesociety.com/tech/computer-components",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/computer-components",
-      "es-ES": "https://www.mergesociety.com/tech/computer-components",
-      "de-DE": "https://www.mergesociety.com/tech/computer-components",
+      "en-US": "https://mergesociety.com/tech/computer-components",
+      "es-ES": "https://mergesociety.com/tech/computer-components",
+      "de-DE": "https://mergesociety.com/tech/computer-components",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -137,7 +137,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jamie Taylor",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Hardware Specialist",
       description:
         "Computer hardware expert with over 15 years of experience in PC building and component testing",
@@ -147,14 +147,14 @@ export const metadata = {
       name: "Tech Explained",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore the core components that power every computer, from the CPU and motherboard to RAM, storage, and cooling systems. Perfect for tech enthusiasts and beginners alike.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/computer-components",
+      "@id": "https://mergesociety.com/tech/computer-components",
     },
     keywords:
       "computer components, PC parts guide, motherboard explained, CPU basics, RAM vs storage",

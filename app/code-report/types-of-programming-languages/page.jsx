@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Complete guide to programming language types: machine code, assembly, procedural, object-oriented. Learn how code becomes CPU instructions with compilers and interpreters.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "types of programming languages",
@@ -45,7 +45,7 @@ export const metadata = {
       "Programming Languages Explained: Complete Guide from Machine Code to High-Level",
     description:
       "Master programming fundamentals. Understand machine language, assembly, procedural vs OOP, and how compilers/interpreters translate code to CPU instructions.",
-    url: "https://www.mergesociety.com/code-report/types-of-programming-languages",
+    url: "https://mergesociety.com/code-report/types-of-programming-languages",
     siteName: "Merge Society",
     images: [
       {
@@ -86,7 +86,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/types-of-programming-languages",
+      "https://mergesociety.com/code-report/types-of-programming-languages",
   },
 
   twitter: {
@@ -218,7 +218,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "TechArticle",
       "@id":
-        "https://www.mergesociety.com/code-report/types-of-programming-languages",
+        "https://mergesociety.com/code-report/types-of-programming-languages",
       headline:
         "Types of Programming Languages Explained: Low-Level vs High-Level, Compiler vs Interpreter",
       alternativeHeadline:
@@ -244,10 +244,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -257,7 +257,7 @@ export const metadata = {
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/code-report/types-of-programming-languages",
+          "https://mergesociety.com/code-report/types-of-programming-languages",
       },
       keywords:
         "programming languages, machine language, assembly language, high level languages, procedural programming, object oriented programming, compiler, interpreter",
@@ -340,7 +340,7 @@ export const metadata = {
       provider: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
       },
       hasCourseInstance: {
         "@type": "CourseInstance",
@@ -475,19 +475,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Programming Languages Guide",
-          item: "https://www.mergesociety.com/code-report/types-of-programming-languages",
+          item: "https://mergesociety.com/code-report/types-of-programming-languages",
         },
       ],
     },

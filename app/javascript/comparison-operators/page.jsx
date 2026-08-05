@@ -20,7 +20,7 @@ export const metadata = {
     "Conditionals",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/comparison-operators",
+    canonical: "https://mergesociety.com/javascript/comparison-operators",
   },
 
   openGraph: {

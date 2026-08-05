@@ -41,7 +41,7 @@ export const metadata = {
     title: "How Chatbots Actually Work: The Complete Technical Breakdown",
     description:
       "A deep dive into how AI chatbots predict text, learn from trillions of examples, and use transformer architectures to generate human-like responses. Understand the math, training, and computational scale behind modern LLMs.",
-    url: "https://www.mergesociety.com/tech/ai-explained",
+    url: "https://mergesociety.com/tech/ai-explained",
     siteName: "Merge Society",
     locale: "en_US",
     type: "article",
@@ -79,7 +79,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/ai-explained",
+    canonical: "https://mergesociety.com/tech/ai-explained",
   },
   category: "Technology",
   classification: "Artificial Intelligence Education",
@@ -109,11 +109,11 @@ export const jsonLd = {
   publisher: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com",
+    url: "https://mergesociety.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/tech/ai-explained",
+    "@id": "https://mergesociety.com/tech/ai-explained",
   },
   keywords:
     "chatbots, large language models, transformers, attention mechanism, GPT, neural networks, machine learning, AI assistants, deep learning, NLP, RLHF, GPUs",

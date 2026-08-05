@@ -31,7 +31,7 @@ export const metadata = {
       "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
     description:
       "A comprehensive exploration of AI's evolutionary stages from simple rule-following systems to speculative cosmic intelligence capable of reshaping reality.",
-    url: "https://www.mergesociety.com/ai/rise-of-ai",
+    url: "https://mergesociety.com/ai/rise-of-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -62,15 +62,15 @@ export const metadata = {
   authors: [
     {
       name: "Future Technologist",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/rise-of-ai",
+    canonical: "https://mergesociety.com/ai/rise-of-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/rise-of-ai",
+      "en-US": "https://mergesociety.com/ai/rise-of-ai",
     },
   },
   twitter: {
@@ -83,7 +83,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -131,14 +131,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Future Technologist",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -149,7 +149,7 @@ export const metadata = {
       "AI evolution, AGI, superintelligence, machine consciousness, cosmic AI, future technology",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/rise-of-ai",
+      "@id": "https://mergesociety.com/ai/rise-of-ai",
     },
     mentions: [
       {

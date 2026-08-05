@@ -34,7 +34,7 @@ export const metadata = {
       "GitHub Repositories: 17 Must-See Open Source Projects That Will Level Up Your Coding",
     description:
       "Discover 17 essential GitHub repositories for developers. Learn algorithms, build projects, find free resources, and level up your programming skills.",
-    url: "https://www.mergesociety.com/latest/github-repositories",
+    url: "https://mergesociety.com/latest/github-repositories",
     siteName: "Merge Society",
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/github-repositories",
+    canonical: "https://mergesociety.com/latest/github-repositories",
   },
   other: {
     "article:author": "Merge Society",

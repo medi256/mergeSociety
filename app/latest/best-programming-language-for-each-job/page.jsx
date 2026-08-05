@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover which programming languages to learn for your dream tech career in 2025. From game development to AI, web development to blockchain - find your perfect language match.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "best programming language 2025",
@@ -46,7 +46,7 @@ export const metadata = {
       "Best Programming Language for Each Tech Career Path in 2025 [Ultimate Guide]",
     description:
       "Find the perfect programming language for your dream tech job in 2025. Game dev, AI, web, mobile, DevOps & more - comprehensive career path language guide.",
-    url: "https://www.mergesociety.com/latest/best-programming-language-for-each-job",
+    url: "https://mergesociety.com/latest/best-programming-language-for-each-job",
     siteName: "Merge Society",
     images: [
       {
@@ -79,7 +79,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -88,10 +88,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/best-programming-language-for-each-job",
+      "https://mergesociety.com/latest/best-programming-language-for-each-job",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/latest/best-programming-language-for-each-job",
+        "https://mergesociety.com/latest/best-programming-language-for-each-job",
     },
   },
 
@@ -160,7 +160,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Developer & Programming Educator",
       description:
         "Technology educator specializing in programming language selection and career path optimization",
@@ -170,7 +170,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -178,7 +178,7 @@ export const metadata = {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://www.mergesociety.com/latest/best-programming-language-for-each-job",
+        "https://mergesociety.com/latest/best-programming-language-for-each-job",
     },
     keywords:
       "programming languages, coding careers, software development, game development, web development, AI programming, blockchain development",

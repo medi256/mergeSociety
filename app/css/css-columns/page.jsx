@@ -19,7 +19,7 @@ export const metadata = {
     "responsive columns",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-columns",
+    canonical: "https://mergesociety.com/css/css-columns",
   },
   openGraph: {
     title: "CSS Columns: A Complete Guide to Creating Structured Layouts",

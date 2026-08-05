@@ -39,7 +39,7 @@ export const metadata = {
     description:
       "Discover why Grok 4 is claiming the AI throne while sparking outrage. See benchmark results, coding capabilities, and the controversy everyone's talking about.",
     type: "article",
-    url: "https://www.mergesociety.com/ai/grok4",
+    url: "https://mergesociety.com/ai/grok4",
     images: [
       {
         url: "https://img.mergesociety.com/mergesociety/grok_4_jv3jmy_o1gw76.png",
@@ -78,21 +78,21 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     datePublished: "2024-07-12T10:00:00Z",
     dateModified: "2024-07-12T10:00:00Z",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/grok4",
+      "@id": "https://mergesociety.com/ai/grok4",
     },
     articleSection: "Technology",
     keywords:
@@ -100,7 +100,7 @@ export const metadata = {
   },
 
   // Additional SEO Tags
-  canonical: "https://www.mergesociety.com/ai/grok4",
+  canonical: "https://mergesociety.com/ai/grok4",
   robots: "index, follow",
   language: "en",
 

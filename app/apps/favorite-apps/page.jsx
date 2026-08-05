@@ -31,7 +31,7 @@ export const metadata = {
       "20 Essential Android Apps You Need in 2025: My All-Time Favorites After 8 Years of Reviews",
     description:
       "After reviewing hundreds of Android apps over eight years, I'm sharing my definitive list of the 20 most unique, useful, and enduring applications that remain on my devices to this day.",
-    url: "https://www.mergesociety.com/apps/favorite-apps",
+    url: "https://mergesociety.com/apps/favorite-apps",
     siteName: "App Reviewer",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "App Reviewer",
   publisher: "Chen Media Network",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/favorite-apps",
+    canonical: "https://mergesociety.com/apps/favorite-apps",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/favorite-apps",
-      "es-ES": "https://www.mergesociety.com/apps/favorite-apps",
-      "fr-FR": "https://www.mergesociety.com/apps/favorite-apps",
+      "en-US": "https://mergesociety.com/apps/favorite-apps",
+      "es-ES": "https://mergesociety.com/apps/favorite-apps",
+      "fr-FR": "https://mergesociety.com/apps/favorite-apps",
     },
   },
   twitter: {
@@ -86,7 +86,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -138,7 +138,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior App Reviewer & Developer",
       description:
         "Android specialist with expertise in app development, UI/UX design, and mobile productivity tools",
@@ -148,14 +148,14 @@ export const metadata = {
       name: "App Reviewer",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "After eight years of monthly Android app recommendations, discover my all-time top 20 favorite Android apps that have stood the test of time, offering unique features and exceptional utility.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/favorite-apps",
+      "@id": "https://mergesociety.com/apps/favorite-apps",
     },
     keywords:
       "android apps, best android apps, Nova Launcher, KWGT, Tasker, productivity apps, customization apps",

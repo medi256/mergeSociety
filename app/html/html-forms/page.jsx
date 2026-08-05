@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, forms in HTML, input fields, web development, coding for beginners, HTML tutorial, form validation, best practices for forms",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-forms",
+    canonical: "https://mergesociety.com/html/html-forms",
   },
   openGraph: {
     title: "Forms in HTML: Creating Interactive User Inputs | MergeSociety",

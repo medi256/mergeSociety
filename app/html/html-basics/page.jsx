@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, web development, HTML elements, HTML tutorial, HTML basics, coding for beginners, container elements, empty elements, web design",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-basics",
+    canonical: "https://mergesociety.com/html/html-basics",
   },
   openGraph: {
     title: "HTML Basics: The Building Blocks of Web Development | MergeSociety",

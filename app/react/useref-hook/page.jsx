@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/useref-hook",
+    canonical: "https://mergesociety.com/react/useref-hook",
   },
 
   openGraph: {

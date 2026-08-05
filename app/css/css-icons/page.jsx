@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "CSS icons, Font Awesome, Bootstrap Icons, Google Material Icons, web design, icon libraries, icon animations, icon sizing, responsive icons, how to use icons in CSS",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-icons",
+    canonical: "https://mergesociety.com/css/css-icons",
   },
   openGraph: {
     title: "Icons in CSS: The Ultimate Guide",

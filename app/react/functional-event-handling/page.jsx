@@ -19,7 +19,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/functional-event-handling",
+    canonical: "https://mergesociety.com/react/functional-event-handling",
   },
 
   openGraph: {

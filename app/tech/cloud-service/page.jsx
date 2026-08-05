@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover why cloud platforms like AWS, Google Cloud, and Azure are fundamentally VM layers with different management levels. Learn which core services actually matter for your projects.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "cloud computing fundamentals",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Why Most Cloud Services Are Just VM Layers: What You Actually Need",
     description:
       "Cut through cloud complexity and understand the real building blocks. Learn why most services are variations of the same core components and which ones actually drive value.",
-    url: "https://www.mergesociety.com/tech/cloud-service",
+    url: "https://mergesociety.com/tech/cloud-service",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   authors: [
     {
       name: "Jordan Harper",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -84,12 +84,12 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/cloud-service",
+    canonical: "https://mergesociety.com/tech/cloud-service",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/cloud-service",
-      "es-ES": "https://www.mergesociety.com/tech/cloud-service",
-      "de-DE": "https://www.mergesociety.com/tech/cloud-service",
-      "fr-FR": "https://www.mergesociety.com/tech/cloud-service",
+      "en-US": "https://mergesociety.com/tech/cloud-service",
+      "es-ES": "https://mergesociety.com/tech/cloud-service",
+      "de-DE": "https://mergesociety.com/tech/cloud-service",
+      "fr-FR": "https://mergesociety.com/tech/cloud-service",
     },
   },
 
@@ -159,7 +159,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Harper",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Principal Cloud Architect",
       description:
         "Former AWS solutions architect specializing in multi-cloud strategies and cost optimization",
@@ -169,14 +169,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover why cloud platforms like AWS, Google Cloud, and Azure are fundamentally VM layers with different management levels. Learn which core services actually matter for your projects.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/cloud-service",
+      "@id": "https://mergesociety.com/tech/cloud-service",
     },
     keywords:
       "cloud computing, AWS, virtual machines, managed services, serverless, cloud architecture",

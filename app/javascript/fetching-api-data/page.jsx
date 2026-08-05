@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "fetch API, JavaScript API tutorial, API integration, async await, fetch requests, handle API response, JavaScript fetch method, API key usage, fetch error handling, coding tutorial",
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/fetching-api-data",
+    canonical: "https://mergesociety.com/javascript/fetching-api-data",
   },
   openGraph: {
     title: "Learn How to Fetch Data from APIs in JavaScript",

@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Master 101 essential computer science concepts from binary and Turing machines to algorithms and APIs in this comprehensive beginner's guide to CS fundamentals.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "computer science basics 2025",
@@ -46,7 +46,7 @@ export const metadata = {
       "Computer Science Basics: The Complete Beginner's Guide to 101 Essential Concepts",
     description:
       "Demystify computer science with our comprehensive guide covering everything from binary code and Turing machines to algorithms, data structures, APIs, and cloud computing.",
-    url: "https://www.mergesociety.com/latest/computer-science-basics",
+    url: "https://mergesociety.com/latest/computer-science-basics",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/computer-science-basics",
+    canonical: "https://mergesociety.com/latest/computer-science-basics",
   },
 
   twitter: {
@@ -154,7 +154,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Computer Science Educator",
       description:
         "Digital literacy advocate with expertise in explaining complex computer science concepts simply",
@@ -164,14 +164,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master 101 essential computer science concepts from binary and Turing machines to algorithms and APIs in this comprehensive beginner's guide to CS fundamentals.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/computer-science-basics",
+      "@id": "https://mergesociety.com/latest/computer-science-basics",
     },
     keywords:
       "computer science, programming, algorithms, data structures, binary, CPU, RAM, APIs, cloud computing",

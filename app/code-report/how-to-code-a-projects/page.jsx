@@ -36,7 +36,7 @@ export const metadata = {
     title: "How to Code Programming Projects Step by Step",
     description:
       "Stop rebuilding what's already built. Learn to use templates, AI, and shortcuts to focus on what actually creates value in your projects.",
-    url: "https://www.mergesociety.com/code-report/how-to-code-a-projects",
+    url: "https://mergesociety.com/code-report/how-to-code-a-projects",
     siteName: "Merge Society",
     images: [
       {
@@ -95,7 +95,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/how-to-code-a-projects",
+      "https://mergesociety.com/code-report/how-to-code-a-projects",
   },
 };
 
@@ -105,7 +105,7 @@ const structuredData = {
     {
       "@type": "Article",
       "@id":
-        "https://www.mergesociety.com/code-report/how-to-code-a-projects#article",
+        "https://mergesociety.com/code-report/how-to-code-a-projects#article",
       headline: "How to Code Programming Projects Step by Step",
       description:
         "Learn the smart way to build programming projects using templates, AI tools, and shortcuts. Stop rebuilding login screens and focus on creating real value.",
@@ -120,21 +120,21 @@ const structuredData = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
       },
       publisher: {
         "@type": "Organization",
-        "@id": "https://www.mergesociety.com",
+        "@id": "https://mergesociety.com",
         name: "Merge Society",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
         },
       },
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/code-report/how-to-code-a-projects",
+          "https://mergesociety.com/code-report/how-to-code-a-projects",
       },
       articleSection: "Programming",
       keywords:
@@ -145,13 +145,13 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.mergesociety.com/code-report/how-to-code-a-projects#breadcrumb",
+        "https://mergesociety.com/code-report/how-to-code-a-projects#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           item: {
-            "@id": "https://www.mergesociety.com",
+            "@id": "https://mergesociety.com",
             name: "Home",
           },
         },
@@ -159,7 +159,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 2,
           item: {
-            "@id": "https://www.mergesociety.com/projects",
+            "@id": "https://mergesociety.com/projects",
             name: "Projects",
           },
         },
@@ -168,7 +168,7 @@ const structuredData = {
           position: 3,
           item: {
             "@id":
-              "https://www.mergesociety.com/code-report/how-to-code-a-projects",
+              "https://mergesociety.com/code-report/how-to-code-a-projects",
             name: "How to Code Programming Projects",
           },
         },

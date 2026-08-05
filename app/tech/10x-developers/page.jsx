@@ -52,7 +52,7 @@ export const metadata = {
       "Legendary Programmers: The Coding Messiahs Who Built Modern Computing",
     description:
       "From Linux and Git to Doom and FFmpeg - discover the legendary programmers whose code powers everything you use today. Meet the messiahs, madmen, and makers behind your favorite tools.",
-    url: "https://www.mergesociety.com/tech/10x-developers",
+    url: "https://mergesociety.com/tech/10x-developers",
     siteName: "Merge Society Blog",
     images: [
       {
@@ -92,9 +92,9 @@ export const metadata = {
   publisher: "Merge Society Blog",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/10x-developers",
+    canonical: "https://mergesociety.com/tech/10x-developers",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/10x-developers",
+      "en-US": "https://mergesociety.com/tech/10x-developers",
     },
   },
 
@@ -170,14 +170,14 @@ export const metadata = {
       name: "Merge Society Blog",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Meet the legendary programmers who shaped modern computing: Linus Torvalds (Linux & Git), Richard Stallman (GNU/GPL), John Carmack (Doom & 3D graphics), Fabrice Bellard (FFmpeg & QEMU), and more coding legends who built the foundation of today's tech.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/10x-developers",
+      "@id": "https://mergesociety.com/tech/10x-developers",
     },
     keywords:
       "legendary programmers, Linus Torvalds, Richard Stallman, John Carmack, Fabrice Bellard, programming legends, Linux, GNU, Doom, FFmpeg",

@@ -52,7 +52,7 @@ export const metadata = {
       "Full Stack JavaScript Developer Roadmap 2025: Ultimate Guide to Landing Your First Dev Job",
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
-    url: "https://www.mergesociety.com/programming-roadmap/javascript-roadmap",
+    url: "https://mergesociety.com/programming-roadmap/javascript-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -102,7 +102,7 @@ export const metadata = {
 
   other: {
     "article:author": "Massa Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
     "article:section": "Technology",
     "article:tag":
       "JavaScript, Web Development, Full Stack, Career Guide, Programming, React, Node.js, Developer Jobs",
@@ -115,7 +115,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/programming-roadmap/javascript-roadmap",
+      "https://mergesociety.com/programming-roadmap/javascript-roadmap",
   },
 };
 
@@ -131,7 +131,7 @@ const structuredData = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
 
   publisher: {
@@ -139,7 +139,7 @@ const structuredData = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
 
@@ -156,7 +156,7 @@ const structuredData = {
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.mergesociety.com/programming-roadmap/javascript-roadmap",
+      "https://mergesociety.com/programming-roadmap/javascript-roadmap",
   },
 
   learningResourceType: "Guide",

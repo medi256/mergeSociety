@@ -36,7 +36,7 @@ export const metadata = {
       "EXPOSED: AI Bots Have Infiltrated Reddit — And They're 6x More Persuasive Than Humans",
     description:
       "Unauthorized AI experiment reveals bots are dominating Reddit debates, plus how scammers are using voice cloning to steal millions and the new prompt injection threats developers need to know about in 2025.",
-    url: "https://www.mergesociety.com/tech/reddit",
+    url: "https://mergesociety.com/tech/reddit",
     siteName: "The Code Report",
     images: [
       {
@@ -82,18 +82,18 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "The Code Report Editorial Team",
   publisher: "Code Rabbit Technologies",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/reddit",
+    canonical: "https://mergesociety.com/tech/reddit",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/reddit",
-      "es-ES": "https://www.mergesociety.com/tech/reddit",
-      "ja-JP": "https://www.mergesociety.com/tech/reddit",
-      "de-DE": "https://www.mergesociety.com/tech/reddit",
+      "en-US": "https://mergesociety.com/tech/reddit",
+      "es-ES": "https://mergesociety.com/tech/reddit",
+      "ja-JP": "https://mergesociety.com/tech/reddit",
+      "de-DE": "https://mergesociety.com/tech/reddit",
     },
   },
   twitter: {
@@ -163,7 +163,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Technology Security Analyst",
     },
     publisher: {
@@ -171,14 +171,14 @@ export const metadata = {
       name: "Code Rabbit Technologies",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover how AI-powered bots are manipulating Reddit communities, cloning voices for high-tech scams, and performing prompt injection attacks. Learn protection strategies in this essential 2025 tech security guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/reddit",
+      "@id": "https://mergesociety.com/tech/reddit",
     },
     keywords:
       "AI bots, Reddit manipulation, voice cloning scams, prompt injection, AI security, digital deception",

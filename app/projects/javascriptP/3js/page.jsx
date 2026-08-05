@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Learn how to create a fun quiz game using JavaScript, HTML, and CSS. This step-by-step tutorial covers arrays, functions, and quiz logic. Perfect for beginners!",
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/3js",
+    canonical: "https://mergesociety.com/projects/javascriptP/3js",
   },
   openGraph: {
     title: "Build a JavaScript Quiz Game | Beginner-Friendly Tutorial",

@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Complete guide to WebSockets vs polling vs long polling for real-time web apps. Learn when to use each method, performance comparisons, and implementation strategies. Updated June 2025 with latest patterns.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "WebSocket vs polling 2025",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "WebSocket vs Polling: Complete Real-Time Communication Guide 2025",
     description:
       "Master WebSockets, polling, and long polling for real-time web applications. Learn implementation strategies, performance comparisons, and when to use each method.",
-    url: "https://www.mergesociety.com/code-report/websocket-polling",
+    url: "https://mergesociety.com/code-report/websocket-polling",
     siteName: "Merge Society",
     images: [
       {
@@ -67,7 +67,7 @@ export const metadata = {
     authors: [
       {
         name: "Michael Reeves",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
       },
     ],
   },
@@ -84,7 +84,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/websocket-polling",
+    canonical: "https://mergesociety.com/code-report/websocket-polling",
   },
 
   robots: {
@@ -117,7 +117,7 @@ export const metadata = {
     // Google Discover optimization
     news_keywords:
       "WebSocket, real-time web, polling, web development, system design",
-    standout: "https://www.mergesociety.com/code-report/websocket-polling",
+    standout: "https://mergesociety.com/code-report/websocket-polling",
 
     // Mobile optimization
     "mobile-web-app-capable": "yes",
@@ -134,7 +134,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "@id": "https://www.mergesociety.com/code-report/websocket-polling",
+      "@id": "https://mergesociety.com/code-report/websocket-polling",
       headline: "WebSocket vs Polling: Real-Time Web Communication Guide 2025",
       alternativeHeadline:
         "Complete Guide to WebSockets, Polling, and Long Polling for Real-Time Applications",
@@ -153,7 +153,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Michael Reeves",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Web Architect",
         knowsAbout: [
           "WebSockets",
@@ -165,15 +165,15 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/logo.png",
+          url: "https://mergesociety.com/logo.png",
         },
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/websocket-polling",
+        "@id": "https://mergesociety.com/code-report/websocket-polling",
       },
       articleSection: "Web Development",
       keywords:
@@ -281,19 +281,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Code Reports",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "WebSocket vs Polling Guide",
-          item: "https://www.mergesociety.com/code-report/websocket-polling",
+          item: "https://mergesociety.com/code-report/websocket-polling",
         },
       ],
     },

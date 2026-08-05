@@ -65,7 +65,7 @@ export const metadata = {
       "From Idea to First Dollar in 5 Days | Built Couples App With Claude AI, Went Viral",
     description:
       "Complete breakdown: Built iOS couples app in 5 days using Claude + Cursor (zero code typed by hand). Day 1: made first $. Launch tweet hit 500K views. 460 downloads, $42 revenue, 36 conversions. Real numbers, real build process, proven path to 100K downloads. Features: love letters, widgets, check-ins. Built with Swift, Xcode, Firebase. This is how I did it and how you can too.",
-    url: "https://www.mergesociety.com/startup-stories/jack-friks",
+    url: "https://mergesociety.com/startup-stories/jack-friks",
     siteName: "Merge Society",
     images: [
       {
@@ -117,7 +117,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/jack-friks",
+    canonical: "https://mergesociety.com/startup-stories/jack-friks",
   },
   robots: {
     index: true,
@@ -161,7 +161,7 @@ export const jsonLd = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/startup-stories/jack-friks",
+    "@id": "https://mergesociety.com/startup-stories/jack-friks",
   },
   articleSection: "App Development Tutorial",
   keywords:

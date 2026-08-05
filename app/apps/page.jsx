@@ -37,20 +37,20 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/apps" },
+    { name: "Merge Society", url: "https://mergesociety.com/apps" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/apps",
+    canonical: "https://mergesociety.com/apps",
   },
   openGraph: {
     title: "Merge Society | Trending Apps",
     description:
       "Trending Apps in the tech industry, including web apps, mobile apps, and software applications.",
-    url: "https://www.mergesociety.com/apps",
+    url: "https://mergesociety.com/apps",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Learn to code free with SoloLearn, freeCodeCamp, W3Schools, Programiz, CodeChef & more. Build real projects, earn certifications, and develop job-ready skills without paying.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "learn coding for free",
@@ -44,7 +44,7 @@ export const metadata = {
       "10 Best Free Coding Websites 2026 - Learn Programming Without Paywalls",
     description:
       "Discover the best truly free coding platforms. Learn web development, Python, Java & more with hands-on projects, certifications, and active communities. No credit card needed.",
-    url: "https://www.mergesociety.com/latest/top-free-websites-to-learn-programming",
+    url: "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
     siteName: "Merge Society",
     images: [
       {
@@ -85,7 +85,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/top-free-websites-to-learn-programming",
+      "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
   },
 
   twitter: {
@@ -232,7 +232,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id":
-        "https://www.mergesociety.com/latest/top-free-websites-to-learn-programming",
+        "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
       headline: "10 Best Websites To Learn Coding For Free in 2026",
       alternativeHeadline:
         "Free Programming Platforms That Actually Work Without Paywalls",
@@ -254,10 +254,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -267,7 +267,7 @@ export const metadata = {
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/latest/top-free-websites-to-learn-programming",
+          "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
       },
       keywords:
         "free coding websites, learn programming free, codecademy alternative, freecodecamp, sololearn, coding for beginners",
@@ -606,19 +606,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Best Free Coding Websites",
-          item: "https://www.mergesociety.com/latest/top-free-websites-to-learn-programming",
+          item: "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
         },
       ],
     },

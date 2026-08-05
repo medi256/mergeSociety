@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Google's Gemini 2.5 Pro has officially claimed the top position in all AI coding benchmarks. Learn about this breakthrough, OpenAI's corporate restructuring, and what these developments mean for developers .",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "Google Gemini 2.5 Pro",
@@ -40,7 +40,7 @@ export const metadata = {
       "Google Gemini 2.5 Pro Claims #1 Spot in Coding AI: What Developers Need to Know ",
     description:
       "Google's Gemini 2.5 Pro has surged to the top position in all AI coding benchmarks. Discover what this means for developers, OpenAI's strategic pivots, and the future of AI-assisted coding in this comprehensive analysis.",
-    url: "https://www.mergesociety.com/tech/google-coding-ai",
+    url: "https://mergesociety.com/tech/google-coding-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -80,13 +80,13 @@ export const metadata = {
   publisher: "Merge Society Tech Insights",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/google-coding-ai",
+    canonical: "https://mergesociety.com/tech/google-coding-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/google-coding-ai",
-      "es-ES": "https://www.mergesociety.com/tech/google-coding-ai",
-      "de-DE": "https://www.mergesociety.com/tech/google-coding-ai",
-      "fr-FR": "https://www.mergesociety.com/tech/google-coding-ai",
-      "ja-JP": "https://www.mergesociety.com/tech/google-coding-ai",
+      "en-US": "https://mergesociety.com/tech/google-coding-ai",
+      "es-ES": "https://mergesociety.com/tech/google-coding-ai",
+      "de-DE": "https://mergesociety.com/tech/google-coding-ai",
+      "fr-FR": "https://mergesociety.com/tech/google-coding-ai",
+      "ja-JP": "https://mergesociety.com/tech/google-coding-ai",
     },
   },
 
@@ -155,7 +155,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior AI Technology Analyst",
       description:
         "Developer Advocate specializing in AI-assisted development workflows and LLM evaluation",
@@ -165,14 +165,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Google's Gemini 2.5 Pro has officially claimed the top position in all AI coding benchmarks. Learn about this breakthrough, OpenAI's corporate restructuring, and what these developments mean for developers .",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/google-coding-ai",
+      "@id": "https://mergesociety.com/tech/google-coding-ai",
     },
     keywords:
       "Google Gemini 2.5 Pro, AI coding model, OpenAI, benchmark results, developer tools",

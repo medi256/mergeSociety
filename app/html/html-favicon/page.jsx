@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, favicon, web development, favicons in HTML, favicon tutorial, web design, favicon creation, branding, user experience, web browser icons, favicon best practices, favicon in HTML5",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-favicon",
+    canonical: "https://mergesociety.com/html/html-favicon",
   },
   openGraph: {
     title:

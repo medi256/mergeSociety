@@ -32,7 +32,7 @@ export const metadata = {
       "15 Best Android Apps of March 2025: Run iOS Exclusives, Port Motorola Widgets & Much More",
     description:
       "Finally play iOS exclusives like Tony Hawk's Pro Skater 2 on Android, use Motorola's beautiful widgets on any device, and discover 13 more innovative apps that will transform your Android experience this month.",
-    url: "https://www.mergesociety.com/apps/best-apps",
+    url: "https://mergesociety.com/apps/best-apps",
     siteName: "Android App Reviews",
     images: [
       {
@@ -63,18 +63,18 @@ export const metadata = {
   authors: [
     {
       name: "Android Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Android App Reviews",
   publisher: "Tech Insights Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/best-apps",
+    canonical: "https://mergesociety.com/apps/best-apps",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/best-apps",
-      "es-ES": "https://www.mergesociety.com/apps/best-apps",
-      "fr-FR": "https://www.mergesociety.com/apps/best-apps",
-      "de-DE": "https://www.mergesociety.com/apps/best-apps",
+      "en-US": "https://mergesociety.com/apps/best-apps",
+      "es-ES": "https://mergesociety.com/apps/best-apps",
+      "fr-FR": "https://mergesociety.com/apps/best-apps",
+      "de-DE": "https://mergesociety.com/apps/best-apps",
     },
   },
   twitter: {
@@ -88,7 +88,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/best_apps_iraybe_a7fwyd.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -139,7 +139,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Android Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior App Reviewer & Developer",
       description:
         "Specialist in Android customization, emulation, and mobile productivity tools",
@@ -149,14 +149,14 @@ export const metadata = {
       name: "Android App Reviews",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover how to run iOS exclusives like Tony Hawk's Pro Skater 2 on Android, port Motorola's stylish widgets to any device, and explore 13 more innovative must-have Android apps this month.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/best-apps",
+      "@id": "https://mergesociety.com/apps/best-apps",
     },
     keywords:
       "android apps, touch hle, ios emulation, motorola widgets, curio shuffle, live caption, android customization",

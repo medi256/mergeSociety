@@ -31,7 +31,7 @@ export const metadata = {
       "Inside the CrowdStrike Catastrophe: How One Update Broke Windows Worldwide",
     description:
       "Technical breakdown of how a single CrowdStrike security update triggered system failures across industries, creating one of the largest technological disasters in history.",
-    url: "https://www.mergesociety.com/apps/error",
+    url: "https://mergesociety.com/apps/error",
     siteName: "The Code Report",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "The Code Report",
   publisher: "The Code Report",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/error",
+    canonical: "https://mergesociety.com/apps/error",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/error",
-      "es-ES": "https://www.mergesociety.com/apps/error",
-      "de-DE": "https://www.mergesociety.com/apps/error",
+      "en-US": "https://mergesociety.com/apps/error",
+      "es-ES": "https://mergesociety.com/apps/error",
+      "de-DE": "https://mergesociety.com/apps/error",
     },
   },
   twitter: {
@@ -86,7 +86,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/error_ylvaka_dc6kc0.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -135,14 +135,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "The Code Report",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -153,7 +153,7 @@ export const metadata = {
       "CrowdStrike outage, Windows BSOD, global computer crash, Falcon security update, IT disaster",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/error",
+      "@id": "https://mergesociety.com/apps/error",
     },
     about: [
       {

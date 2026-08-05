@@ -30,7 +30,7 @@ export const metadata = {
     title: "SEO Steps to Rank #1 in Google (2025 SEO Plan) - 97% Are Failing",
     description:
       "The exact 4-pillar process that puts websites in the top 3% of Google rankings. Learn competitor analysis, NLP optimization, and conversion-focused SEO tactics.",
-    url: "https://www.mergesociety.com/tech/seo-wins",
+    url: "https://mergesociety.com/tech/seo-wins",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -72,12 +72,12 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/seo-wins",
+    canonical: "https://mergesociety.com/tech/seo-wins",
   },
 
   category: "SEO",
@@ -122,7 +122,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "SEO Strategist",
     },
     publisher: {
@@ -130,7 +130,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     estimatedCost: {
@@ -153,25 +153,25 @@ export const metadata = {
         "@type": "HowToStep",
         name: "Analyze top competitors",
         text: "Study the top 5 ranking pages for your target keyword and document their on-page elements.",
-        url: "https://www.mergesociety.com/tech/seo-wins#competitor-analysis",
+        url: "https://mergesociety.com/tech/seo-wins#competitor-analysis",
       },
       {
         "@type": "HowToStep",
         name: "Optimize for NLP and topical coverage",
         text: "Use tools to identify and cover all relevant subtopics for comprehensive content.",
-        url: "https://www.mergesociety.com/tech/seo-wins#nlp-optimization",
+        url: "https://mergesociety.com/tech/seo-wins#nlp-optimization",
       },
       {
         "@type": "HowToStep",
         name: "Create conversion-focused pages",
         text: "Design pages with clear CTAs, social proof, and elements that drive user engagement.",
-        url: "https://www.mergesociety.com/tech/seo-wins#conversion-optimization",
+        url: "https://mergesociety.com/tech/seo-wins#conversion-optimization",
       },
       {
         "@type": "HowToStep",
         name: "Build topical authority",
         text: "Create content clusters and strategic internal links to establish authority.",
-        url: "https://www.mergesociety.com/tech/seo-wins#topical-authority",
+        url: "https://mergesociety.com/tech/seo-wins#topical-authority",
       },
     ],
     totalTime: "PT4H",
@@ -185,19 +185,19 @@ export const metadata = {
         "@type": "ListItem",
         position: 1,
         name: "Tech",
-        item: "https://www.mergesociety.com/tech",
+        item: "https://mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "SEO",
-        item: "https://www.mergesociety.com/tech/seo",
+        item: "https://mergesociety.com/tech/seo",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Rank #1 on Google (2025 Plan)",
-        item: "https://www.mergesociety.com/tech/seo-wins",
+        item: "https://mergesociety.com/tech/seo-wins",
       },
     ],
   },

@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, attributes in HTML, web development, coding for beginners, HTML tutorial, commonly used attributes, best practices for attributes, customizing HTML elements",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-attributes",
+    canonical: "https://mergesociety.com/html/html-attributes",
   },
   openGraph: {
     title: "Attributes in HTML: Enhancing Web Elements | MergeSociety",

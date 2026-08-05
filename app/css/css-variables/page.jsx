@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS variables, CSS tutorials, web design, responsive design, color consistency, font sizes, web development",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-variables",
+    canonical: "https://mergesociety.com/css/css-variables",
   },
   openGraph: {
     title: "The World of Variables in CSS",

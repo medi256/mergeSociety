@@ -39,7 +39,7 @@ export const metadata = {
       "Ruby on Rails: The Secret Weapon Behind Billion-Dollar Startups (2025)",
     description:
       "How Ruby on Rails lets you build full-stack apps faster than any other framework - with real-world examples from Airbnb, Shopify and GitHub.",
-    url: "https://www.mergesociety.com/tech/ruby-explained",
+    url: "https://mergesociety.com/tech/ruby-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -71,12 +71,12 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/ruby-explained",
+    canonical: "https://mergesociety.com/tech/ruby-explained",
   },
 
   twitter: {
@@ -140,7 +140,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Web Developer",
     },
     publisher: {
@@ -148,7 +148,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:

@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/form-handling",
+    canonical: "https://mergesociety.com/react/form-handling",
   },
 
   openGraph: {

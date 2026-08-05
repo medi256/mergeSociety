@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master Git version control from scratch. Learn installation (Windows/Mac), essential commands, repository setup, commits, and branches. Plain-English explanations for complete beginners.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "git for beginners",
@@ -45,7 +45,7 @@ export const metadata = {
       "Git For Beginners: Master Version Control in 10 Minutes [2025 Guide]",
     description:
       "Stop losing track of file versions! Learn Git installation, configuration, essential commands, and workflows. Plain-English step-by-step tutorial for complete beginners.",
-    url: "https://www.mergesociety.com/latest/git-explained",
+    url: "https://mergesociety.com/latest/git-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,9 +85,9 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/git-explained",
+    canonical: "https://mergesociety.com/latest/git-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/git-explained",
+      "en-US": "https://mergesociety.com/latest/git-explained",
     },
   },
 
@@ -350,7 +350,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "@id": "https://www.mergesociety.com/latest/git-explained",
+      "@id": "https://mergesociety.com/latest/git-explained",
       headline:
         "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
       alternativeHeadline:
@@ -368,7 +368,7 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Developer & Technical Educator",
         description:
           "Experienced developer specializing in teaching version control and software development practices",
@@ -376,10 +376,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -388,7 +388,7 @@ export const metadata = {
         "Master Git version control with comprehensive beginner's guide covering installation, essential commands, and version tracking concepts. Plain-English explanations with practical examples.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/git-explained",
+        "@id": "https://mergesociety.com/latest/git-explained",
       },
       keywords:
         "git, version control, beginner tutorial, git commands, repository, commit, branch, git installation, git configuration",
@@ -647,19 +647,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Latest",
-          item: "https://www.mergesociety.com/latest",
+          item: "https://mergesociety.com/latest",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Git For Beginners",
-          item: "https://www.mergesociety.com/latest/git-explained",
+          item: "https://mergesociety.com/latest/git-explained",
         },
       ],
     },

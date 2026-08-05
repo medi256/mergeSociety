@@ -19,7 +19,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-transforms",
+    canonical: "https://mergesociety.com/css/css-transforms",
   },
 
   openGraph: {

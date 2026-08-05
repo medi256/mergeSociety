@@ -21,7 +21,7 @@ export const metadata = {
     "JavaScript tutorials",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/async-programming",
+    canonical: "https://mergesociety.com/javascript/async-programming",
   },
 
   openGraph: {

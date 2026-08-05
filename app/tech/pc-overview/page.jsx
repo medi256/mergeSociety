@@ -29,7 +29,7 @@ export const metadata = {
     title: "PC Component Overview: Complete Beginner's Guide to Computer Parts",
     description:
       "Demystify your computer with our beginner's guide to PC components. Learn about CPUs, RAM, GPUs, motherboards, and storage devices in simple terms.",
-    url: "https://www.mergesociety.com/tech/pc-overview",
+    url: "https://mergesociety.com/tech/pc-overview",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -67,12 +67,12 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/pc-overview",
+    canonical: "https://mergesociety.com/tech/pc-overview",
   },
 
   category: "Computer Hardware",
@@ -114,7 +114,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Tech Writer & Hardware Specialist",
     },
     publisher: {
@@ -122,7 +122,7 @@ export const metadata = {
       name: "Merge Society Blog",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -134,7 +134,7 @@ export const metadata = {
     isAccessibleForFree: true,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/pc-overview",
+      "@id": "https://mergesociety.com/tech/pc-overview",
     },
     mainEntity: [
       {
@@ -196,13 +196,13 @@ export const metadata = {
         "@type": "ListItem",
         position: 1,
         name: "Tech News",
-        item: "https://www.mergesociety.com/tech",
+        item: "https://mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "PC Component Overview: Complete Beginner's Guide",
-        item: "https://www.mergesociety.com/tech/pc-overview",
+        item: "https://mergesociety.com/tech/pc-overview",
       },
     ],
   },

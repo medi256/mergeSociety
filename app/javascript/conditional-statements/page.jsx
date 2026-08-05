@@ -19,7 +19,7 @@ export const metadata = {
     "javascript tutorials",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/conditional-statements",
+    canonical: "https://mergesociety.com/javascript/conditional-statements",
   },
   openGraph: {
     title: "JavaScript Conditional Statements: The Ultimate Guide",

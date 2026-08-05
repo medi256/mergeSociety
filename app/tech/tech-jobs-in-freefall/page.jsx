@@ -31,7 +31,7 @@ export const metadata = {
       "BREAKING: Tech Job Market Collapses 40% as AI Transforms Employment | May 2025 Labor Analysis",
     description:
       "Critical analysis on International Workers' Day: Why tech giants are slashing jobs despite record profits, and what this means for your tech career in the AI age.",
-    url: "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
+    url: "https://mergesociety.com/tech/tech-jobs-in-freefall",
     siteName: "Economy Media",
     images: [
       {
@@ -67,18 +67,18 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Amara Patel",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Economy Media Research Team",
   publisher: "Economy Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
+    canonical: "https://mergesociety.com/tech/tech-jobs-in-freefall",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
-      "es-ES": "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
-      "de-DE": "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
-      "fr-FR": "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
+      "en-US": "https://mergesociety.com/tech/tech-jobs-in-freefall",
+      "es-ES": "https://mergesociety.com/tech/tech-jobs-in-freefall",
+      "de-DE": "https://mergesociety.com/tech/tech-jobs-in-freefall",
+      "fr-FR": "https://mergesociety.com/tech/tech-jobs-in-freefall",
     },
   },
   twitter: {
@@ -143,7 +143,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Dr. Amara Patel",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Labor Market Analyst",
     },
     publisher: {
@@ -151,14 +151,14 @@ export const metadata = {
       name: "Economy Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Comprehensive analysis of the 2025 tech job market collapse: 40% drop in postings despite record profits, how AI is reshaping employment, and what this means for workers on International Workers' Day.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/tech-jobs-in-freefall",
+      "@id": "https://mergesociety.com/tech/tech-jobs-in-freefall",
     },
     keywords:
       "tech layoffs 2025, artificial intelligence jobs, software engineer unemployment, tech job market collapse",

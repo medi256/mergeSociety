@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML <pre> tag, HTML whitespace, HTML formatting, code snippets, ASCII art, HTML best practices, preformatted text, web development, display code in HTML, HTML coding",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-preformatted-text",
+    canonical: "https://mergesociety.com/html/html-preformatted-text",
   },
   openGraph: {
     title:

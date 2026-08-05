@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover what a VPN is in simple terms: how it protects your privacy, secures your data, and unlocks global content. Learn why you need a VPN   and how to choose the right one.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "what is a VPN",
@@ -39,7 +39,7 @@ export const metadata = {
     title: "What Is a VPN? The Simple Guide to Online Privacy  ",
     description:
       "Learn how VPNs work to protect your privacy, secure your data on public WiFi, and access global content. Discover why VPNs are essential   and how to choose the right service.",
-    url: "https://www.mergesociety.com/code-report/vpn-explained",
+    url: "https://mergesociety.com/code-report/vpn-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -71,7 +71,7 @@ export const metadata = {
   authors: [
     {
       name: "Cybersecurity & Privacy Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -79,11 +79,11 @@ export const metadata = {
   publisher: "Merge Society Privacy & Security Publishing",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/vpn-explained",
+    canonical: "https://mergesociety.com/code-report/vpn-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/vpn-explained",
-      "es-ES": "https://www.mergesociety.com/code-report/vpn-explained",
-      "de-DE": "https://www.mergesociety.com/code-report/vpn-explained",
+      "en-US": "https://mergesociety.com/code-report/vpn-explained",
+      "es-ES": "https://mergesociety.com/code-report/vpn-explained",
+      "de-DE": "https://mergesociety.com/code-report/vpn-explained",
     },
   },
 
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Cybersecurity & Privacy Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Privacy Specialist",
       description:
         "10+ years experience in cybersecurity and online privacy protection",
@@ -163,14 +163,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover what a VPN is in simple terms: how it protects your privacy, secures your data, and unlocks global content. Learn why you need a VPN   and how to choose the right one.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/vpn-explained",
+      "@id": "https://mergesociety.com/code-report/vpn-explained",
     },
     keywords:
       "VPN, virtual private network, online privacy, data encryption, internet security, public WiFi protection",

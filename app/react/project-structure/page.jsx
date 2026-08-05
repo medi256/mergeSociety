@@ -15,7 +15,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/project-structure",
+    canonical: "https://mergesociety.com/react/project-structure",
   },
   openGraph: {
     title: "Master React Project Structure: From Beginner to Pro",

@@ -31,7 +31,7 @@ export const metadata = {
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     description:
       "Master the art of PC building with our gaming-focused component guide. Learn about GPUs, CPUs, RAM, cooling solutions and more to create your dream gaming rig.",
-    url: "https://www.mergesociety.com/tech/pc-gaming-parts",
+    url: "https://mergesociety.com/tech/pc-gaming-parts",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -70,12 +70,12 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/pc-gaming-parts",
+    canonical: "https://mergesociety.com/tech/pc-gaming-parts",
   },
 
   category: "Gaming Hardware",
@@ -117,7 +117,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Gaming Hardware Specialist",
     },
     publisher: {
@@ -125,7 +125,7 @@ export const metadata = {
       name: "Merge Society Blog",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -137,7 +137,7 @@ export const metadata = {
     isAccessibleForFree: true,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/pc-gaming-parts",
+      "@id": "https://mergesociety.com/tech/pc-gaming-parts",
     },
     mainEntity: [
       {
@@ -183,13 +183,13 @@ export const metadata = {
         "@type": "ListItem",
         position: 1,
         name: "Tech News",
-        item: "https://www.mergesociety.com/tech",
+        item: "https://mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "PC Gaming Components",
-        item: "https://www.mergesociety.com/tech/pc-gaming-parts",
+        item: "https://mergesociety.com/tech/pc-gaming-parts",
       },
     ],
   },

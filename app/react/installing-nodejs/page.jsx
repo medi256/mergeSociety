@@ -14,7 +14,7 @@ export const metadata = {
     "beginner's guide",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/installing-nodejs",
+    canonical: "https://mergesociety.com/react/installing-nodejs",
   },
   openGraph: {
     title: "Install Node.js & npm: A Guide for React Beginners",

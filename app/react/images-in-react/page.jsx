@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "React, images in React, importing images, displaying images, styling images, React tutorial, web development, MergeSociety",
   alternates: {
-    canonical: "https://www.mergesociety.com/react/images-in-react",
+    canonical: "https://mergesociety.com/react/images-in-react",
   },
   openGraph: {
     title: "Working with Images in React - MergeSociety",

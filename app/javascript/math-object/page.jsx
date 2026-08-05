@@ -19,7 +19,7 @@ export const metadata = {
     "understanding Math object",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/math-object",
+    canonical: "https://mergesociety.com/javascript/math-object",
   },
 
   openGraph: {

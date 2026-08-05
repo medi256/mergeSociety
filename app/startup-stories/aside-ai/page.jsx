@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Aside AI gives you instant answers to technical questions during live sales calls. No more 'let me check with my team.' Get real-time suggestions, handle objections perfectly, and close the knowledge gap. See how real-time AI copilot makes every rep sharper.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "aside ai review 2025",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Real-Time AI That Makes You Unstoppable In Sales Calls (Aside AI)",
     description:
       "Get instant answers to technical questions, handle 'How are you different from Gong?' perfectly, and never say 'let me check with my team' again. Aside AI is the real-time copilot for sales calls.",
-    url: "https://www.mergesociety.com/startup-stories/aside-ai",
+    url: "https://mergesociety.com/startup-stories/aside-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -81,7 +81,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -89,9 +89,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/aside-ai",
+    canonical: "https://mergesociety.com/startup-stories/aside-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/aside-ai",
+      "en-US": "https://mergesociety.com/startup-stories/aside-ai",
     },
   },
 
@@ -184,14 +184,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     datePublished: "2025-11-01T00:00:00Z",

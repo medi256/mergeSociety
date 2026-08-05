@@ -18,7 +18,7 @@ export const metadata = {
     "asynchronous JavaScript",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/settimeout-setinterval",
+    canonical: "https://mergesociety.com/javascript/settimeout-setinterval",
   },
 
   openGraph: {

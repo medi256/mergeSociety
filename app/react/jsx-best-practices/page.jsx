@@ -18,7 +18,7 @@ export const metadata = {
     "Coding Tutorials",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/jsx-best-practices",
+    canonical: "https://mergesociety.com/react/jsx-best-practices",
   },
   openGraph: {
     title: "JSX Syntax and Best Practices - MergeSociety",

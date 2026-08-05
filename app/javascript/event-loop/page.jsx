@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "JavaScript, Event Loop, asynchronous programming, non-blocking execution, web development",
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/event-loop",
+    canonical: "https://mergesociety.com/javascript/event-loop",
   },
   openGraph: {
     title: "Understanding the Event Loop in JavaScript",

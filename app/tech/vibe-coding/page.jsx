@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover the Vibe Coding Mind Virus transforming programming in 2025. Learn Andrej Karpathy's breakthrough method, Peter Levels' $1M+ success story, and the 3 critical rules for AI-powered development that actually work.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "vibe coding 2025",
@@ -41,7 +41,7 @@ export const metadata = {
       "Vibe Coding 2025: How Developers Are Making Millions with AI (Updated Guide)",
     description:
       "The updated guide to Vibe Coding - learn how developers like Peter Levels made millions, why some failed spectacularly, and the proven strategies for AI-powered programming success in 2025.",
-    url: "https://www.mergesociety.com/tech/vibe-coding",
+    url: "https://mergesociety.com/tech/vibe-coding",
     siteName: "Merge Society",
     images: [
       {
@@ -73,7 +73,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi", // Updated to match the article author
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -81,7 +81,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/vibe-coding",
+    canonical: "https://mergesociety.com/tech/vibe-coding",
   },
 
   twitter: {
@@ -140,7 +140,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/tech/vibe-coding",
+      "@id": "https://mergesociety.com/tech/vibe-coding",
       headline:
         "Vibe Coding 2025: The AI Programming Revolution That's Making Developers Millions",
       alternativeHeadline:
@@ -158,23 +158,23 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         sameAs: ["https://twitter.com/manager70191"],
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 200,
           height: 200,
         },
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/tech/vibe-coding",
+        "@id": "https://mergesociety.com/tech/vibe-coding",
       },
       articleSection: "Programming Tutorial",
       articleBody:

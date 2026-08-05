@@ -12,7 +12,7 @@ export const metadata = {
       "Learn to Code: The No-Fluff Roadmap With Projects, AI, and LeetCode",
     description:
       "Complete guide to learning programming from zero to building real projects and passing interviews. Includes Python basics, project ideas, LeetCode prep, and AI coding tools.",
-    url: "https://www.mergesociety.com/tech/learn-to-code",
+    url: "https://mergesociety.com/tech/learn-to-code",
     siteName: "Merge Society",
     images: [
       {
@@ -73,7 +73,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/learn-to-code",
+    canonical: "https://mergesociety.com/tech/learn-to-code",
   },
 
   robots: {

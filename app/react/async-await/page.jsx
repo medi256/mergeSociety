@@ -13,7 +13,7 @@ export const metadata = {
       "Explore the world of async/await in React. Write cleaner and more maintainable asynchronous code.",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/react/async-await",
+    canonical: "https://mergesociety.com/react/async-await",
   },
 
   keywords: [

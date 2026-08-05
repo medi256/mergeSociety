@@ -21,7 +21,7 @@ export const metadata = {
     "frontend CSS tips",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-z-index",
+    canonical: "https://mergesociety.com/css/css-z-index",
   },
   openGraph: {
     title: "Master CSS Z-Index: Understanding Stacking and Layering",

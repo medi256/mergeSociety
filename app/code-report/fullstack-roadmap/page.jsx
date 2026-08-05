@@ -37,7 +37,7 @@ export const metadata = {
       "Full Stack Developer Roadmap 2025: Complete Guide from HTML to AI Integration",
     description:
       "Updated roadmap to become a full stack developer in 2025. Master HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Job-ready in 6-9 months.",
-    url: "https://www.mergesociety.com/code-report/fullstack-roadmap",
+    url: "https://mergesociety.com/code-report/fullstack-roadmap",
     siteName: "Code Bender",
     images: [
       {
@@ -79,7 +79,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/fullstack-roadmap",
+    canonical: "https://mergesociety.com/code-report/fullstack-roadmap",
   },
 
   robots: {
@@ -149,7 +149,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Senior Software Engineer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
       sameAs: ["https://twitter.com/manager70191"],
     },
@@ -157,16 +157,16 @@ export const metadata = {
     publisher: {
       "@type": "Organization",
       name: "Code Bender",
-      url: "https://www.mergesociety.com",
+      url: "https://mergesociety.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
 
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/fullstack-roadmap",
+      "@id": "https://mergesociety.com/code-report/fullstack-roadmap",
     },
 
     // HowTo specific properties
@@ -179,31 +179,31 @@ export const metadata = {
         "@type": "HowToStep",
         name: "Learn HTML & CSS Foundations",
         text: "Master the basic building blocks of web development with HTML structure and CSS styling.",
-        url: "https://www.mergesociety.com/code-report/fullstack-roadmap#html-css-foundations",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#html-css-foundations",
       },
       {
         "@type": "HowToStep",
         name: "Master JavaScript Programming",
         text: "Learn JavaScript as your primary programming language for full stack development.",
-        url: "https://www.mergesociety.com/code-report/fullstack-roadmap#javascript-programming",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#javascript-programming",
       },
       {
         "@type": "HowToStep",
         name: "Build React Applications",
         text: "Create dynamic, interactive user interfaces using React framework.",
-        url: "https://www.mergesociety.com/code-report/fullstack-roadmap#react-applications",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#react-applications",
       },
       {
         "@type": "HowToStep",
         name: "Develop Node.js Backend",
         text: "Build server-side applications and APIs using Node.js runtime.",
-        url: "https://www.mergesociety.com/code-report/fullstack-roadmap#nodejs-backend",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#nodejs-backend",
       },
       {
         "@type": "HowToStep",
         name: "Integrate AI Capabilities",
         text: "Add cutting-edge AI features to your applications using modern APIs.",
-        url: "https://www.mergesociety.com/code-report/fullstack-roadmap#ai-integration",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#ai-integration",
       },
     ],
 
@@ -306,8 +306,8 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
     uploadDate: new Date().toISOString(),
     duration: "PT45M",
-    contentUrl: "https://www.mergesociety.com/code-report/fullstack-roadmap",
-    embedUrl: "https://www.mergesociety.com/code-report/fullstack-roadmap",
+    contentUrl: "https://mergesociety.com/code-report/fullstack-roadmap",
+    embedUrl: "https://mergesociety.com/code-report/fullstack-roadmap",
   },
 
   // Course/Learning Path Schema
@@ -320,7 +320,7 @@ export const metadata = {
     provider: {
       "@type": "Organization",
       name: "Code Bender",
-      url: "https://www.mergesociety.com",
+      url: "https://mergesociety.com",
     },
     hasCourseInstance: {
       "@type": "CourseInstance",

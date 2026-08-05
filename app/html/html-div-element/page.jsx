@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, divs, web development, block-level elements, layout structure, coding for beginners, CSS styling, best practices for divs",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-div-element",
+    canonical: "https://mergesociety.com/html/html-div-element",
   },
   openGraph: {
     title: "Divs in HTML: Understanding Structure and Layout | MergeSociety",

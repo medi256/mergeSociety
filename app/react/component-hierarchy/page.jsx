@@ -17,7 +17,7 @@ export const metadata = {
     "JavaScript",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/component-hierarchy",
+    canonical: "https://mergesociety.com/react/component-hierarchy",
   },
 
   openGraph: {

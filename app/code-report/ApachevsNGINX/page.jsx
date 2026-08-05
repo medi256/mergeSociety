@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover which web server is right for your infrastructure: Apache or NGINX? Compare performance, architecture, reverse proxy capabilities, and scalability to make the optimal choice for your modern web applications.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "apache vs nginx 2025",
@@ -45,7 +45,7 @@ export const metadata = {
       "Apache vs NGINX: Choosing the Right Web Server Architecture in 2025",
     description:
       "Optimize your web infrastructure with our in-depth comparison of Apache and NGINX. Learn about reverse proxy capabilities, performance differences, and how to implement the ideal architecture for your application needs.",
-    url: "https://www.mergesociety.com/code-report/ApachevsNGINX",
+    url: "https://mergesociety.com/code-report/ApachevsNGINX",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Web Architecture Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society Web Infrastructure Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/ApachevsNGINX",
+    canonical: "https://mergesociety.com/code-report/ApachevsNGINX",
   },
 
   twitter: {
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Web Architecture Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Cloud Architect",
       description:
         "12+ years of experience designing scalable web server architectures",
@@ -163,14 +163,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover which web server is right for your infrastructure: Apache or NGINX? Compare performance, architecture, reverse proxy capabilities, and scalability to make the optimal choice for your modern web applications.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/ApachevsNGINX",
+      "@id": "https://mergesociety.com/code-report/ApachevsNGINX",
     },
     keywords:
       "apache, nginx, web server, reverse proxy, load balancing, layer 7, http server",

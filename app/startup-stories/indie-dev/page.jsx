@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Real-time log of building and shipping a product from scratch in one day. Pizza at 9pm, F1 at 11pm, coffee at midnight, first sale by morning. No fluff - just the raw process, mistakes, and what it feels like to sprint from zero to live with Next.js, Supabase, and Stripe.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "build product in 24 hours",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "24-Hour Product Sprint: Pizza, F1, Coffee & Shipping at 5am",
     description:
       "Blow-by-blow of building a real product in one night. Started 7pm, shipped 5am, first sale by morning. Next.js + Supabase + Stripe. No BS, just the raw grind.",
-    url: "https://www.mergesociety.com/startup-stories/indie-dev",
+    url: "https://mergesociety.com/startup-stories/indie-dev",
     siteName: "Merge Society",
     images: [
       {
@@ -81,7 +81,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -89,9 +89,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/indie-dev",
+    canonical: "https://mergesociety.com/startup-stories/indie-dev",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/indie-dev",
+      "en-US": "https://mergesociety.com/startup-stories/indie-dev",
     },
   },
 
@@ -175,7 +175,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Indie Developer & Founder",
     },
     publisher: {
@@ -183,14 +183,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Hour-by-hour build log of creating and shipping a complete product from 7pm to 5am using Next.js, Supabase, and Stripe. First sale by morning.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/indie-dev",
+      "@id": "https://mergesociety.com/startup-stories/indie-dev",
     },
     keywords:
       "indie development, 24 hour challenge, Next.js, Supabase, Stripe, rapid shipping, build log",

@@ -22,7 +22,7 @@ export const metadata = {
     "to-do  list javascript project",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/1js",
+    canonical: "https://mergesociety.com/projects/javascriptP/1js",
   },
   openGraph: {
     title: "Build a Simple To-Do List App with JavaScript",

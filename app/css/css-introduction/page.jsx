@@ -7,7 +7,7 @@ export const metadata = {
   keywords:
     "CSS, web development, styling, cascading style sheets, HTML, JavaScript, responsive design",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-introduction",
+    canonical: "https://mergesociety.com/css/css-introduction",
   },
   openGraph: {
     title: "Introduction to CSS for Web Developers",

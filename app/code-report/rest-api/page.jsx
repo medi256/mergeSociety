@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Discover what REST APIs are, why they've become essential for cloud application development, and how they work in real-world scenarios with practical examples.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "REST API explained 2025",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "REST API Masterclass: Building Blocks of Modern Cloud Applications",
     description:
       "Learn how REST APIs power modern cloud applications with real-world examples, from basic CRUD operations to advanced implementation strategies.",
-    url: "https://www.mergesociety.com/code-report/rest-api",
+    url: "https://mergesociety.com/code-report/rest-api",
     siteName: "Merge Society Tech Insights",
     images: [
       {
@@ -80,7 +80,7 @@ export const metadata = {
   authors: [
     {
       name: "Nathan Heckman",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -88,9 +88,9 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/rest-api",
+    canonical: "https://mergesociety.com/code-report/rest-api",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/rest-api",
+      "en-US": "https://mergesociety.com/code-report/rest-api",
     },
   },
 
@@ -158,14 +158,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Nathan Heckman",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Cloud Solutions Architect",
       description:
         "Cloud architecture specialist with expertise in modern API design and cloud-native application development",
       affiliation: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
       },
     },
     publisher: {
@@ -173,14 +173,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn what REST APIs are, how they enable modern cloud applications, and see real-world examples of REST in action with this comprehensive, accessible guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/rest-api",
+      "@id": "https://mergesociety.com/code-report/rest-api",
     },
     keywords:
       "REST API, cloud development, web services, API design, CRUD operations, HTTP methods, cloud architecture",

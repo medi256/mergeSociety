@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML block elements, block-level elements, web development, HTML structure, div, p, headings, lists, coding best practices, front-end development",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-block-elements",
+    canonical: "https://mergesociety.com/html/html-block-elements",
   },
   openGraph: {
     title:

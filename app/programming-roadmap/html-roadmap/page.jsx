@@ -52,7 +52,7 @@ export const metadata = {
     title: "HTML Roadmap 2025: Complete Step-by-Step Guide to HTML Mastery",
     description:
       "Complete HTML roadmap for 2025. Master HTML fundamentals, semantic tags, and modern web development. Step-by-step guide from beginner to advanced with real-world projects.",
-    url: "https://www.mergesociety.com/programming-roadmap/html-roadmap",
+    url: "https://mergesociety.com/programming-roadmap/html-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -101,7 +101,7 @@ export const metadata = {
 
   other: {
     "article:author": "Massa Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
     "article:section": "Technology",
     "article:tag":
       "HTML, Web Development, Frontend Development, Programming Tutorial, Web Design, Semantic HTML, HTML5, Career Guide",
@@ -113,7 +113,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/programming-roadmap/html-roadmap",
+    canonical: "https://mergesociety.com/programming-roadmap/html-roadmap",
   },
 };
 
@@ -127,14 +127,14 @@ const structuredData = {
     "@type": "Person",
     name: "Massa Medi",
     jobTitle: "Full Stack Developer & Web Development Educator",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-07-08T00:00:00.000Z",
@@ -147,7 +147,7 @@ const structuredData = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/programming-roadmap/html-roadmap",
+    "@id": "https://mergesociety.com/programming-roadmap/html-roadmap",
   },
   proficiencyLevel: "Beginner",
   dependencies: ["Basic Computer Skills", "Text Editor", "Web Browser"],

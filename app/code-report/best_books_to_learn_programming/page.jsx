@@ -37,7 +37,7 @@ export const metadata = {
       "Best Programming Books for Beginners - 5 Books That Will Change How You Learn Programming",
     description:
       "Discover the 5 best programming books for beginners. Learn Python, JavaScript, clean code, and system design with practical projects that stick.",
-    url: "https://www.mergesociety.com/code-report/best_books_to_learn_programming",
+    url: "https://mergesociety.com/code-report/best_books_to_learn_programming",
     siteName: "Merge Society",
     images: [
       {
@@ -92,7 +92,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/best_books_to_learn_programming",
+      "https://mergesociety.com/code-report/best_books_to_learn_programming",
   },
 
   category: "Programming",
@@ -118,7 +118,7 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -131,7 +131,7 @@ export const jsonLd = {
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.mergesociety.com/code-report/best_books_to_learn_programming",
+      "https://mergesociety.com/code-report/best_books_to_learn_programming",
   },
   articleSection: "Programming Education",
   keywords:
@@ -221,19 +221,19 @@ export const jsonLd = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.mergesociety.com",
+        item: "https://mergesociety.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Code Report",
-        item: "https://www.mergesociety.com/code-report",
+        item: "https://mergesociety.com/code-report",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Best Programming Books",
-        item: "https://www.mergesociety.com/code-report/best_books_to_learn_programming",
+        item: "https://mergesociety.com/code-report/best_books_to_learn_programming",
       },
     ],
   },

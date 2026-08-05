@@ -30,7 +30,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/projects/htmlP/2p",
+      url: "https://mergesociety.com/projects/htmlP/2p",
     },
   ],
   creator: "Merge Society",
@@ -38,13 +38,13 @@ export const metadata = {
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/htmlP/2p",
+    canonical: "https://mergesociety.com/projects/htmlP/2p",
   },
   openGraph: {
     title: "Build Your First HTML Resume: Step-by-Step Tutorial",
     description:
       "Learn how to create a professional HTML resume with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
-    url: "https://www.mergesociety.com/projects/htmlP/2p",
+    url: "https://mergesociety.com/projects/htmlP/2p",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

@@ -53,7 +53,7 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     siteName: "Merge Society",
-    url: "https://www.mergesociety.com/code-report/programming-usecase",
+    url: "https://mergesociety.com/code-report/programming-usecase",
   },
   twitter: {
     card: "summary_large_image",
@@ -67,7 +67,7 @@ export const metadata = {
     creator: "@manager70191",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/programming-usecase",
+    canonical: "https://mergesociety.com/code-report/programming-usecase",
   },
   robots: {
     index: true,
@@ -102,7 +102,7 @@ export const metadata = {
   },
   applicationName: "Merge Society",
   referrer: "origin-when-cross-origin",
-  bookmarks: ["https://www.mergesociety.com/code-report/programming-usecase"],
+  bookmarks: ["https://mergesociety.com/code-report/programming-usecase"],
 
   jsonLd: {
     "@context": "https://schema.org",
@@ -117,19 +117,19 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/programming-usecase",
+      "@id": "https://mergesociety.com/code-report/programming-usecase",
     },
     articleSection: "Programming",
     keywords:

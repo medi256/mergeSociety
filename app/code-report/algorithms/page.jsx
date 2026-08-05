@@ -31,7 +31,7 @@ export const metadata = {
       "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
     description:
       "Demystifying the invisible technology that powers your digital life—from search engines to social media feeds and beyond.",
-    url: "https://www.mergesociety.com/code-report/algorithms",
+    url: "https://mergesociety.com/code-report/algorithms",
     siteName: "Tech Decoded",
     images: [
       {
@@ -62,18 +62,18 @@ export const metadata = {
   authors: [
     {
       name: "Amara Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Decoded Editorial",
   publisher: "Tech Decoded Media, Inc.",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/algorithms",
+    canonical: "https://mergesociety.com/code-report/algorithms",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/algorithms",
-      "es-ES": "https://www.mergesociety.com/code-report/algorithms",
-      "fr-FR": "https://www.mergesociety.com/code-report/algorithms",
-      "de-DE": "https://www.mergesociety.com/code-report/algorithms",
+      "en-US": "https://mergesociety.com/code-report/algorithms",
+      "es-ES": "https://mergesociety.com/code-report/algorithms",
+      "fr-FR": "https://mergesociety.com/code-report/algorithms",
+      "de-DE": "https://mergesociety.com/code-report/algorithms",
     },
   },
   twitter: {
@@ -87,7 +87,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/markus-spiske-iar-afB0QQw-unsplash_eifg9s_od6qtp.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -161,14 +161,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Amara Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Tech Decoded Media, Inc.",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -177,7 +177,7 @@ export const metadata = {
       "Algorithms, Technology Explained, Data Processing, AI Fundamentals, Digital Technology",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/algorithms",
+      "@id": "https://mergesociety.com/code-report/algorithms",
     },
     about: [
       {

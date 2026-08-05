@@ -29,7 +29,7 @@ export const metadata = {
     title: "AI Agents Demystified: The Step-by-Step Guide for Non-Techies",
     description:
       "Learn how AI agents work through practical examples: from basic chatbots to automated workflows and autonomous decision-making systems explained in plain language.",
-    url: "https://www.mergesociety.com/ai/ai-agents",
+    url: "https://mergesociety.com/ai/ai-agents",
     siteName: "Merge Society",
     images: [
       {
@@ -60,15 +60,15 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-agents",
+    canonical: "https://mergesociety.com/ai/ai-agents",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-agents",
+      "en-US": "https://mergesociety.com/ai/ai-agents",
     },
   },
   twitter: {
@@ -79,7 +79,7 @@ export const metadata = {
     creator: "@manager70191",
     images: ["https://img.mergesociety.com/mergesociety/MCP_tyhw2b_umtclp.jpg"],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -120,14 +120,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com",
+      url: "https://mergesociety.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -138,7 +138,7 @@ export const metadata = {
       "AI agents, LLM workflows, RAG, AI automation, non-technical AI guide, practical AI applications",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-agents",
+      "@id": "https://mergesociety.com/ai/ai-agents",
     },
     mentions: [
       {

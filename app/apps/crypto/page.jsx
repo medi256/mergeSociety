@@ -30,7 +30,7 @@ export const metadata = {
     title: "Cryptography Demystified: 7 Core Concepts for Modern Developers",
     description:
       "From hashing to digital signatures - learn essential cryptography skills with hands-on Node.js examples that will transform how you secure your applications.",
-    url: "https://www.mergesociety.com/apps/crypto",
+    url: "https://mergesociety.com/apps/crypto",
     siteName: "DevJourney",
     images: [
       {
@@ -61,17 +61,17 @@ export const metadata = {
   authors: [
     {
       name: "Taylor Morgan",
-      url: "https://www.mergesociety.com/apps/about",
+      url: "https://mergesociety.com/apps/about",
     },
   ],
   creator: "DevJourney",
   publisher: "DevJourney",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/crypto",
+    canonical: "https://mergesociety.com/apps/crypto",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/crypto",
-      "es-ES": "https://www.mergesociety.com/apps/crypto",
-      "pt-BR": "https://www.mergesociety.com/apps/crypto",
+      "en-US": "https://mergesociety.com/apps/crypto",
+      "es-ES": "https://mergesociety.com/apps/crypto",
+      "pt-BR": "https://mergesociety.com/apps/crypto",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/crypto_l9kxvg_uu1awq.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -129,14 +129,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Taylor Morgan",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "DevJourney",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -147,7 +147,7 @@ export const metadata = {
       "cryptography basics, developer security, Node.js crypto, hashing, encryption",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/crypto",
+      "@id": "https://mergesociety.com/apps/crypto",
     },
     about: [
       {

@@ -17,7 +17,7 @@ export const metadata = {
     "web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-comments",
+    canonical: "https://mergesociety.com/css/css-comments",
   },
   openGraph: {
     title: "The Power of Comments in CSS",

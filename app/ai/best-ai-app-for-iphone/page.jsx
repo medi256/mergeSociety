@@ -49,7 +49,7 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     siteName: "Merge Society",
-    url: "https://www.mergesociety.com/ai/best-ai-app-for-iphone",
+    url: "https://mergesociety.com/ai/best-ai-app-for-iphone",
   },
   twitter: {
     card: "summary_large_image",
@@ -63,7 +63,7 @@ export const metadata = {
     creator: "@manager70191",
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/best-ai-app-for-iphone",
+    canonical: "https://mergesociety.com/ai/best-ai-app-for-iphone",
   },
   robots: {
     index: true,
@@ -97,7 +97,7 @@ export const metadata = {
   applicationName: "Merge Society",
   referrer: "origin-when-cross-origin",
 
-  bookmarks: ["https://www.mergesociety.com/ai/best-ai-app-for-iphone"],
+  bookmarks: ["https://mergesociety.com/ai/best-ai-app-for-iphone"],
 };
 
 export default function Article() {

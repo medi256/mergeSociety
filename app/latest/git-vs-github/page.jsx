@@ -40,7 +40,7 @@ export const metadata = {
     title: "Git vs GitHub vs GitLab: What's the Difference?",
     description:
       "Git tracks code changes locally. GitHub and GitLab add collaboration features like pull requests and CI/CD. Learn how they work together with real team examples.",
-    url: "https://www.mergesociety.com/latest/git-vs-github",
+    url: "https://mergesociety.com/latest/git-vs-github",
     siteName: "Merge Society",
     images: [
       {
@@ -97,7 +97,7 @@ export const metadata = {
   classification: "Programming Tutorial",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/git-vs-github",
+    canonical: "https://mergesociety.com/latest/git-vs-github",
   },
 };
 
@@ -106,7 +106,7 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://www.mergesociety.com/latest/git-vs-github",
+      "@id": "https://mergesociety.com/latest/git-vs-github",
       headline:
         "What Is Git, And How Is It Different From GitHub Or GitLab? Git vs. GitHub",
       description:
@@ -121,22 +121,22 @@ const structuredData = {
       dateModified: "2025-12-22T00:00:00.000Z",
       author: {
         "@type": "Person",
-        "@id": "https://www.mergesociety.com/about#person",
+        "@id": "https://mergesociety.com/about#person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
       },
       publisher: {
         "@type": "Organization",
-        "@id": "https://www.mergesociety.com/",
+        "@id": "https://mergesociety.com/",
         name: "Merge Society",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
         },
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/latest/git-vs-github",
+        "@id": "https://mergesociety.com/latest/git-vs-github",
       },
       articleSection: "Programming",
       keywords:
@@ -146,13 +146,13 @@ const structuredData = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.mergesociety.com/latest/git-vs-github#breadcrumb",
+      "@id": "https://mergesociety.com/latest/git-vs-github#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           item: {
-            "@id": "https://www.mergesociety.com",
+            "@id": "https://mergesociety.com",
             name: "Home",
           },
         },
@@ -160,7 +160,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 2,
           item: {
-            "@id": "https://www.mergesociety.com/latest",
+            "@id": "https://mergesociety.com/latest",
             name: "Latest",
           },
         },
@@ -168,7 +168,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 3,
           item: {
-            "@id": "https://www.mergesociety.com/latest/git-vs-github",
+            "@id": "https://mergesociety.com/latest/git-vs-github",
             name: "Git vs GitHub",
           },
         },

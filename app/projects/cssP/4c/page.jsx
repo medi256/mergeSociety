@@ -29,7 +29,7 @@ export const metadata = {
     "css html projects",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/cssP/4c",
+    canonical: "https://mergesociety.com/projects/cssP/4c",
   },
 
   openGraph: {

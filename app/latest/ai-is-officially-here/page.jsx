@@ -35,7 +35,7 @@ export const metadata = {
       "How Smart Developers Really Use AI—From Tutor to Supercharged Intern",
     description:
       "Explore a practical guide for developers using AI effectively. From learning with a Socratic AI tutor to coding with an AI agent, see how to balance productivity with growth.",
-    url: "https://www.mergesociety.com/latest/ai-is-officially-here",
+    url: "https://mergesociety.com/latest/ai-is-officially-here",
     siteName: "Merge Society",
     images: [
       {
@@ -52,14 +52,14 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/ai-is-officially-here",
+    canonical: "https://mergesociety.com/latest/ai-is-officially-here",
   },
   twitter: {
     card: "summary_large_image",

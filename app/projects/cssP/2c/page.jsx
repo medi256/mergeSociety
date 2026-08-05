@@ -27,7 +27,7 @@ export const metadata = {
     "style a blog post with css",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/cssP/2c",
+    canonical: "https://mergesociety.com/projects/cssP/2c",
   },
   openGraph: {
     title: "Style a Blog Post with CSS",

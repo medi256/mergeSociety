@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, buttons, interactive elements, web development, button creation, user interfaces, coding for beginners, button types, button best practices",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-buttons",
+    canonical: "https://mergesociety.com/html/html-buttons",
   },
   openGraph: {
     title: "Buttons in HTML: Creating Interactive Elements | MergeSociety",

@@ -38,7 +38,7 @@ export const metadata = {
       "CS Degrees in 2025: A Comprehensive Analysis on Whether They're Worth It",
     description:
       "From bank teller to software engineer: Discover if investing in a Computer Science degree pays off in 2025's tech landscape based on real career transition data.",
-    url: "https://www.mergesociety.com/tech/should-you",
+    url: "https://mergesociety.com/tech/should-you",
     siteName: "Merge Society Blog",
     images: [
       {
@@ -71,9 +71,9 @@ export const metadata = {
   publisher: "Merge Society Blog",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/should-you",
+    canonical: "https://mergesociety.com/tech/should-you",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/should-you",
+      "en-US": "https://mergesociety.com/tech/should-you",
     },
   },
 
@@ -136,7 +136,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Software Engineer",
       description:
         "Former bank teller with a Master's in Computer Science from Cal Poly San Luis Obispo (2017)",
@@ -146,14 +146,14 @@ export const metadata = {
       name: "Merge Society Blog",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover if a Computer Science degree is worth it in 2025 from someone who transitioned from banking to tech. Learn about the financial ROI, job prospects, and alternatives to help you make an informed decision.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/should-you",
+      "@id": "https://mergesociety.com/tech/should-you",
     },
     keywords:
       "computer science degree, CS degree worth it, masters in computer science 2025, tech career change",

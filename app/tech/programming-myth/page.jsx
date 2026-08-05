@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover 9 programming myths that secretly waste your time and harm productivity. Learn which practices actually matter and which trendy tech you can safely ignore.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "programming myths 2025",
@@ -40,7 +40,7 @@ export const metadata = {
       "Programming Myths That Waste Your Time: 9 Productivity Traps Every Developer Falls For",
     description:
       "Stop wasting time on shiny new frameworks, perfect test coverage, and premature optimization. Learn which programming practices actually matter for career success.",
-    url: "https://www.mergesociety.com/tech/programming-myth",
+    url: "https://mergesociety.com/tech/programming-myth",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -80,11 +80,11 @@ export const metadata = {
   publisher: "Merge Society Blog",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/programming-myth",
+    canonical: "https://mergesociety.com/tech/programming-myth",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/programming-myth",
-      "es-ES": "https://www.mergesociety.com/tech/programming-myth",
-      "de-DE": "https://www.mergesociety.com/tech/programming-myth",
+      "en-US": "https://mergesociety.com/tech/programming-myth",
+      "es-ES": "https://mergesociety.com/tech/programming-myth",
+      "de-DE": "https://mergesociety.com/tech/programming-myth",
     },
   },
 
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
       description:
         "Experienced developer focused on practical software engineering and developer productivity",
@@ -163,14 +163,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover 9 programming myths that secretly waste your time and harm productivity. Learn which practices actually matter and which trendy tech you can safely ignore.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/programming-myth",
+      "@id": "https://mergesociety.com/tech/programming-myth",
     },
     keywords:
       "programming myths, software development, productivity, clean code, test coverage, performance optimization",

@@ -20,7 +20,7 @@ export const metadata = {
     "Conditionals",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/logical-operators",
+    canonical: "https://mergesociety.com/javascript/logical-operators",
   },
   openGraph: {
     title: "Mastering JavaScript Logical Operators",

@@ -35,7 +35,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/projects/cssP",
+      url: "https://mergesociety.com/projects/cssP",
     },
   ],
   creator: "Merge Society",
@@ -43,13 +43,13 @@ export const metadata = {
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/cssP",
+    canonical: "https://mergesociety.com/projects/cssP",
   },
   openGraph: {
     title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
     description:
       "Stay updated with the latest trends in AI, including latest models, startups, and innovations in the tech industry.",
-    url: "https://www.mergesociety.com/projects/cssP",
+    url: "https://mergesociety.com/projects/cssP",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

@@ -36,7 +36,7 @@ export const metadata = {
     title: "Machine Learning Algorithms: Complete 2025 Guide (Just Updated)",
     description:
       "Freshly updated comprehensive guide to all ML algorithms. Master regression, classification, clustering & neural networks with expert insights and practical examples.",
-    url: "https://www.mergesociety.com/ai/all-ai-algorithms",
+    url: "https://mergesociety.com/ai/all-ai-algorithms",
     siteName: "Merge Society",
     images: [
       {
@@ -77,15 +77,15 @@ export const metadata = {
   authors: [
     {
       name: "Tim Reynolds",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   // Canonical and language alternatives
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/all-ai-algorithms",
+    canonical: "https://mergesociety.com/ai/all-ai-algorithms",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/all-ai-algorithms",
+      "en-US": "https://mergesociety.com/ai/all-ai-algorithms",
     },
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://www.mergesociety.com/ai/all-ai-algorithms#article",
+        "@id": "https://mergesociety.com/ai/all-ai-algorithms#article",
         headline:
           "Machine Learning Algorithms: Complete 2025 Guide (Updated June 30, 2025)",
         description:
@@ -155,21 +155,21 @@ export const metadata = {
             "Data Science",
             "Artificial Intelligence",
           ],
-          url: "https://www.mergesociety.com/about",
+          url: "https://mergesociety.com/about",
         },
         publisher: {
           "@type": "Organization",
           name: "Merge Society",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.mergesociety.com/MS.png",
+            url: "https://mergesociety.com/MS.png",
           },
         },
         datePublished: "2025-05-01T08:00:00Z",
         dateModified: "2025-06-30T12:00:00Z",
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": "https://www.mergesociety.com/ai/all-ai-algorithms",
+          "@id": "https://mergesociety.com/ai/all-ai-algorithms",
         },
         articleSection: "Machine Learning",
         keywords:
@@ -191,7 +191,7 @@ export const metadata = {
       },
       {
         "@type": "TechArticle",
-        "@id": "https://www.mergesociety.com/ai/all-ai-algorithms#techarticle",
+        "@id": "https://mergesociety.com/ai/all-ai-algorithms#techarticle",
         headline:
           "Machine Learning Algorithms: Complete 2025 Guide (Updated June 30, 2025)",
         proficiencyLevel: "Intermediate",
@@ -242,19 +242,19 @@ export const metadata = {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.mergesociety.com",
+            item: "https://mergesociety.com",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "AI & Machine Learning",
-            item: "https://www.mergesociety.com/ai",
+            item: "https://mergesociety.com/ai",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: "Machine Learning Algorithms Guide",
-            item: "https://www.mergesociety.com/ai/all-ai-algorithms",
+            item: "https://mergesociety.com/ai/all-ai-algorithms",
           },
         ],
       },

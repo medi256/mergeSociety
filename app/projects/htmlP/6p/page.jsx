@@ -28,7 +28,7 @@ export const metadata = {
     "HTML projects for beginners with instructions",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/htmlP/6p",
+    canonical: "https://mergesociety.com/projects/htmlP/6p",
   },
 
   openGraph: {

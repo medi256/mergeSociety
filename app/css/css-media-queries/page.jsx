@@ -12,7 +12,7 @@ export const metadata = {
     "CSS media queries, responsive design, web development, media query examples, CSS tutorials, mobile-first design",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-media-queries",
+    canonical: "https://mergesociety.com/css/css-media-queries",
   },
 
   openGraph: {

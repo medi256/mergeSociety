@@ -13,17 +13,17 @@ export const metadata = {
     "web development resources",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/contact",
+    canonical: "https://mergesociety.com/contact",
   },
   author: "MergeSociety",
-  url: "https://www.mergesociety.com/contact",
+  url: "https://mergesociety.com/contact",
   type: "website",
   openGraph: {
     title: "Contact Us | MergeSociety",
     description:
       "Get in touch with MergeSociety! Contact us for inquiries, feedback, or collaboration opportunities. We're here to help you on your web development journey.",
     type: "website",
-    url: "https://www.mergesociety.com/contact",
+    url: "https://mergesociety.com/contact",
   },
 };
 

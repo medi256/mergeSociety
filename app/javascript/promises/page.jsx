@@ -24,7 +24,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/promises",
+    canonical: "https://mergesociety.com/javascript/promises",
   },
 
   authors: [{ name: "MergeSociety" }],

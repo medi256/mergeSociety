@@ -28,7 +28,7 @@ export const metadata = {
     "git step by step",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Massa Medi", url: "https://mergesociety.com/about" }],
   creator: "Massa Medi",
   publisher: "Massa Medi",
 
@@ -41,7 +41,7 @@ export const metadata = {
       "Git Basic Commands Step-By-Step Guide - Complete Breakdown With Real Commands",
     description:
       "Master Git with this comprehensive step-by-step guide. Learn git init, add, commit, status, diff, and log with real command outputs. Perfect for beginners.",
-    url: "https://www.mergesociety.com/code-report/basic-git-commands",
+    url: "https://mergesociety.com/code-report/basic-git-commands",
     siteName: "Merge Society",
     locale: "en_US",
     publishedTime: "2025-12-03T00:00:00.000Z",
@@ -98,9 +98,9 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/basic-git-commands",
+    canonical: "https://mergesociety.com/code-report/basic-git-commands",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/basic-git-commands",
+      "en-US": "https://mergesociety.com/code-report/basic-git-commands",
     },
   },
 
@@ -129,19 +129,19 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/basic-git-commands",
+    "@id": "https://mergesociety.com/code-report/basic-git-commands",
   },
   articleSection: "Programming Tutorials",
   keywords:

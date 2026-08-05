@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "accessible HTML tables, web accessibility, HTML table structure, screen readers, WCAG compliance, table headers, <th> element, <td> element, scope attribute, data tables, caption, WAI tutorial",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-tables",
+    canonical: "https://mergesociety.com/html/html-tables",
   },
   openGraph: {
     title:

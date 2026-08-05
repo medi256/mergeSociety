@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "React, props, components, web development, programming, JavaScript, reusable components, default props, state",
   alternates: {
-    canonical: "https://www.mergesociety.com/react/props",
+    canonical: "https://mergesociety.com/react/props",
   },
   openGraph: {
     title: "What Are Props in React? - MergeSociety",

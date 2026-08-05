@@ -31,7 +31,7 @@ export const metadata = {
     title: "40 Programming Projects That Will Transform Your Developer Skills",
     description:
       "From AI chatbots to physics simulations, discover 40 hands-on coding projects that will sharpen your skills and boost your portfolio in the evolving tech landscape of 2025.",
-    url: "https://www.mergesociety.com/tech/40-projects",
+    url: "https://mergesociety.com/tech/40-projects",
     siteName: "Developer Junction",
     images: [
       {
@@ -65,18 +65,18 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Developer Junction",
   publisher: "Developer Junction Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/40-projects",
+    canonical: "https://mergesociety.com/tech/40-projects",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/40-projects",
-      "es-ES": "https://www.mergesociety.com/tech/40-projects",
-      "de-DE": "https://www.mergesociety.com/tech/40-projects",
-      "fr-FR": "https://www.mergesociety.com/tech/40-projects",
+      "en-US": "https://mergesociety.com/tech/40-projects",
+      "es-ES": "https://mergesociety.com/tech/40-projects",
+      "de-DE": "https://mergesociety.com/tech/40-projects",
+      "fr-FR": "https://mergesociety.com/tech/40-projects",
     },
   },
   twitter: {
@@ -89,7 +89,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -140,7 +140,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
     },
     publisher: {
@@ -148,14 +148,14 @@ export const metadata = {
       name: "Developer Junction",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover 40 hands-on programming projects spanning web, mobile, AI, automation and more to build your portfolio, expand your skills, and grow as a developer with practical experience across modern tech stacks.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/40-projects",
+      "@id": "https://mergesociety.com/tech/40-projects",
     },
     keywords:
       "programming projects, developer portfolio, coding practice, software development, AI projects",

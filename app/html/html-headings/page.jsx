@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, HTML headings, web development, SEO, content structure, HTML tutorial, coding for beginners, web accessibility, headings in HTML, best practices for headings",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-headings",
+    canonical: "https://mergesociety.com/html/html-headings",
   },
   openGraph: {
     title:

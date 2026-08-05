@@ -30,7 +30,7 @@ export const metadata = {
     title: "AI Revolution: From Neural Networks to Global Impacts",
     description:
       "Explore the evolution of AI through Geoffrey Hinton's work, modern breakthroughs, and the challenges of managing increasingly powerful artificial intelligence systems.",
-    url: "https://www.mergesociety.com/ai/god-father-of-ai",
+    url: "https://mergesociety.com/ai/god-father-of-ai",
     siteName: "TechLearning Academy",
     images: [
       {
@@ -61,17 +61,17 @@ export const metadata = {
   authors: [
     {
       name: "TechLearning Academy",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "TechLearning Academy",
   publisher: "TechLearning Academy",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/god-father-of-ai",
+    canonical: "https://mergesociety.com/ai/god-father-of-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/god-father-of-ai",
-      "es-ES": "https://www.mergesociety.com/ai/god-father-of-ai",
-      "zh-CN": "https://www.mergesociety.com/ai/god-father-of-ai",
+      "en-US": "https://mergesociety.com/ai/god-father-of-ai",
+      "es-ES": "https://mergesociety.com/ai/god-father-of-ai",
+      "zh-CN": "https://mergesociety.com/ai/god-father-of-ai",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -135,7 +135,7 @@ export const metadata = {
     provider: {
       "@type": "Organization",
       name: "TechLearning Academy",
-      sameAs: "https://www.mergesociety.com",
+      sameAs: "https://mergesociety.com",
     },
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",

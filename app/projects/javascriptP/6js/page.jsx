@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Develop a sorting algorithm visualizer that demonstrates algorithms like Bubble Sort, Quick Sort, and Merge Sort. This project will help you understand complex algorithms and visualize how they work. Perfect for beginners!",
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/6js",
+    canonical: "https://mergesociety.com/projects/javascriptP/6js",
   },
   openGraph: {
     title: "Build a Sorting Algorithm Visualizer: Javascript Project",

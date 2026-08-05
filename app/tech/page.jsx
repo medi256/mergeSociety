@@ -55,21 +55,21 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/about" },
+    { name: "Merge Society", url: "https://mergesociety.com/about" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech",
+    canonical: "https://mergesociety.com/tech",
   },
   openGraph: {
     title: "Merge Society | Tech Industry",
     description:
       "Explore the latest trends, innovations, and updates in the tech industry to stay informed, inspired, and ahead of the curve in a fast-changing world.",
 
-    url: "https://www.mergesociety.com/tech",
+    url: "https://mergesociety.com/tech",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

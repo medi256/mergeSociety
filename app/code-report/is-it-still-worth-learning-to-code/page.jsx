@@ -43,16 +43,16 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/is-it-still-worth-learning-to-code",
+      "https://mergesociety.com/code-report/is-it-still-worth-learning-to-code",
   },
   openGraph: {
     title: "Is Coding Worth Learning in 2026? The Honest Truth",
     description:
       "A senior developer shares the brutal reality of tech careers in 2026: burnout, layoffs, and AI disruption. Plus practical advice on building projects that actually land jobs.",
-    url: "https://www.mergesociety.com/code-report/is-it-still-worth-learning-to-code",
+    url: "https://mergesociety.com/code-report/is-it-still-worth-learning-to-code",
     siteName: "Merge Society",
     images: [
       {
@@ -117,20 +117,20 @@ export const jsonLd = {
   author: {
     "@type": "Person",
     name: "Massa Medi",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.mergesociety.com/code-report/is-it-still-worth-learning-to-code",
+      "https://mergesociety.com/code-report/is-it-still-worth-learning-to-code",
   },
   articleBody:
     "The tech market is turbulent. Layoffs everywhere. AI changing everything. But here's the truth from a developer who's led teams for over a decade...",
@@ -149,19 +149,19 @@ export const breadcrumbJsonLd = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.mergesociety.com",
+      item: "https://mergesociety.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Blog",
-      item: "https://www.mergesociety.com/code-report",
+      item: "https://mergesociety.com/code-report",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Is Coding Worth Learning in 2026?",
-      item: "https://www.mergesociety.com/code-report/is-it-still-worth-learning-to-code",
+      item: "https://mergesociety.com/code-report/is-it-still-worth-learning-to-code",
     },
   ],
 };

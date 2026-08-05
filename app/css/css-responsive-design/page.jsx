@@ -16,7 +16,7 @@ export const metadata = {
     "CSS Tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-responsive-design",
+    canonical: "https://mergesociety.com/css/css-responsive-design",
   },
   openGraph: {
     type: "website",

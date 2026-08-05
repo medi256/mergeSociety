@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "CSS fonts, web typography, font-family, font-size, font-weight, font-style, text-decoration, text-transform, line-height, web design",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-fonts",
+    canonical: "https://mergesociety.com/css/css-fonts",
   },
   openGraph: {
     title: "The Art of Fonts in CSS: Mastering Typography for Web Design",

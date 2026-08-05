@@ -30,7 +30,7 @@ export const metadata = {
     title: "2025's Ultimate Fire Stick Guide: Free Setup That Beats Netflix",
     description:
       "Complete walkthrough to transform your Fire Stick into a powerhouse streaming device with free apps that offer more content than paid subscriptions.",
-    url: "https://www.mergesociety.com/apps/free-apps",
+    url: "https://mergesociety.com/apps/free-apps",
     siteName: "Streaming Guides",
     images: [
       {
@@ -61,16 +61,16 @@ export const metadata = {
   authors: [
     {
       name: "Streaming Guides Team",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Streaming Guides",
   publisher: "Streaming Guides",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/free-apps",
+    canonical: "https://mergesociety.com/apps/free-apps",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/free-apps",
-      "es-ES": "https://www.mergesociety.com/apps/free-apps",
+      "en-US": "https://mergesociety.com/apps/free-apps",
+      "es-ES": "https://mergesociety.com/apps/free-apps",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/best_gy0sdm_llz9x7.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com/apps/free-apps"),
+  metadataBase: new URL("https://mergesociety.com/apps/free-apps"),
   robots: {
     index: true,
     follow: true,
@@ -126,14 +126,14 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Streaming Guides",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Streaming Guides",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -162,7 +162,7 @@ export const metadata = {
       {
         "@type": "HowToStep",
         name: "Search for the Downloader App",
-        url: "https://www.mergesociety.com/apps/free-apps",
+        url: "https://mergesociety.com/apps/free-apps",
         itemListElement: {
           "@type": "HowToDirection",
           text: "Use the search function on your Fire Stick to find and download the Downloader app from the Amazon App Store.",
@@ -173,7 +173,7 @@ export const metadata = {
       {
         "@type": "HowToStep",
         name: "Enable Developer & Security Settings",
-        url: "https://www.mergesociety.com/apps/free-apps",
+        url: "https://mergesociety.com/apps/free-apps",
         itemListElement: {
           "@type": "HowToDirection",
           text: "Navigate to My Fire TV settings and enable ADB Debugging and Install unknown apps for Downloader.",
@@ -184,7 +184,7 @@ export const metadata = {
       {
         "@type": "HowToStep",
         name: "Install Streaming Apps",
-        url: "https://www.mergesociety.com/apps/free-apps",
+        url: "https://mergesociety.com/apps/free-apps",
         itemListElement: {
           "@type": "HowToDirection",
           text: "Use Downloader and Unlinked to install free streaming apps that offer movies, TV shows, and live sports.",
@@ -195,7 +195,7 @@ export const metadata = {
       {
         "@type": "HowToStep",
         name: "Set Up VPN for Safe Streaming",
-        url: "https://www.mergesociety.com/apps/free-apps",
+        url: "https://mergesociety.com/apps/free-apps",
         itemListElement: {
           "@type": "HowToDirection",
           text: "Install and configure IPVanish VPN to protect your privacy while streaming.",

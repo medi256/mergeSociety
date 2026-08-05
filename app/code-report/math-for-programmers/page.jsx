@@ -33,7 +33,7 @@ export const metadata = {
     description:
       "Learn programming math the practical way - Boolean logic, floating point, algorithms, complexity, and linear algebra with real code examples and memes.",
     type: "article",
-    url: "https://www.mergesociety.com/code-report/math-for-programmers",
+    url: "https://mergesociety.com/code-report/math-for-programmers",
     images: [
       {
         url: "https://img.mergesociety.com/mergesociety/audio_1756224766523_5ki8jf_rtels1_ndc1jd.webp",
@@ -73,7 +73,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/math-for-programmers",
+    canonical: "https://mergesociety.com/code-report/math-for-programmers",
   },
 
   other: {
@@ -105,14 +105,14 @@ export const jsonLd = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-08-26T00:00:00Z",
   dateModified: "2025-08-26T00:00:00Z",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/math-for-programmers",
+    "@id": "https://mergesociety.com/code-report/math-for-programmers",
   },
   articleSection: "Programming Tutorials",
   keywords:

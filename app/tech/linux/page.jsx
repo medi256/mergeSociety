@@ -30,7 +30,7 @@ export const metadata = {
     title: "The Life Cycle of a Linux User: From Awareness to Enlightenment",
     description:
       "An honest (and hilarious) look at the Linux user journey: from curious beginner to terminal-obsessed ricer to digital hermit. Find out why the 'normie' phase might actually be Linux nirvana.",
-    url: "https://www.mergesociety.com/tech/linux",
+    url: "https://mergesociety.com/tech/linux",
     siteName: "Big Box Sweet Tech",
     images: [
       {
@@ -60,18 +60,18 @@ export const metadata = {
   authors: [
     {
       name: "Big Box",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Big Box Sweet",
   publisher: "Big Box Sweet Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/linux",
+    canonical: "https://mergesociety.com/tech/linux",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/linux",
-      "es-ES": "https://www.mergesociety.com/tech/linux",
-      "fr-FR": "https://www.mergesociety.com/tech/linux",
-      "de-DE": "https://www.mergesociety.com/tech/linux",
+      "en-US": "https://mergesociety.com/tech/linux",
+      "es-ES": "https://mergesociety.com/tech/linux",
+      "fr-FR": "https://mergesociety.com/tech/linux",
+      "de-DE": "https://mergesociety.com/tech/linux",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/linux_hffokn_okg892.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -149,14 +149,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Big Box",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Big Box Sweet Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -165,7 +165,7 @@ export const metadata = {
       "Linux, Open Source, Tech Culture, Linux Distros, Developer Humor",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/linux",
+      "@id": "https://mergesociety.com/tech/linux",
     },
     about: [
       {

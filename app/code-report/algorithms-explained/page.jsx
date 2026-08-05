@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover how algorithms shape our world in this comprehensive guide featuring Harvard Professor David J. Malan breaking down complex concepts from everyday tasks to cutting-edge artificial intelligence.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "algorithms explained 2025",
@@ -45,7 +45,7 @@ export const metadata = {
       "Algorithms Masterclass: From Simple Tasks to Artificial Intelligence",
     description:
       "Join Harvard's David J. Malan as he breaks down algorithms from peanut butter sandwich instructions to cutting-edge AI in this easy-to-understand guide to computational thinking.",
-    url: "https://www.mergesociety.com/code-report/algorithms-explained",
+    url: "https://mergesociety.com/code-report/algorithms-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -85,13 +85,13 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/algorithms-explained",
+    canonical: "https://mergesociety.com/code-report/algorithms-explained",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/algorithms-explained",
-      "es-ES": "https://www.mergesociety.com/code-report/algorithms-explained",
-      "de-DE": "https://www.mergesociety.com/code-report/algorithms-explained",
-      "fr-FR": "https://www.mergesociety.com/code-report/algorithms-explained",
-      "zh-CN": "https://www.mergesociety.com/code-report/algorithms-explained",
+      "en-US": "https://mergesociety.com/code-report/algorithms-explained",
+      "es-ES": "https://mergesociety.com/code-report/algorithms-explained",
+      "de-DE": "https://mergesociety.com/code-report/algorithms-explained",
+      "fr-FR": "https://mergesociety.com/code-report/algorithms-explained",
+      "zh-CN": "https://mergesociety.com/code-report/algorithms-explained",
     },
   },
 
@@ -175,14 +175,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn how algorithms shape our world from Harvard's David J. Malan - from making sandwiches to powering AI systems in this comprehensive, accessible guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/algorithms-explained",
+      "@id": "https://mergesociety.com/code-report/algorithms-explained",
     },
     keywords:
       "algorithms, computer science, AI, machine learning, David Malan, harvard, computational thinking",

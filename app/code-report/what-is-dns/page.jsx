@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Learn how DNS works in simple terms: how domain names become IP addresses, the DNS query journey, security risks, and how to protect yourself with modern DNS security protocols like DoH.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "DNS explained",
@@ -45,7 +45,7 @@ export const metadata = {
       "The Complete Guide to DNS: How the Internet's Phone Book Works in 2025",
     description:
       "Discover how DNS translates domain names into IP addresses, learn about security vulnerabilities like DNS spoofing, and implement modern protections like DoH to secure your browsing.",
-    url: "https://www.mergesociety.com/code-report/what-is-dns",
+    url: "https://mergesociety.com/code-report/what-is-dns",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Network Security Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,9 +86,9 @@ export const metadata = {
   publisher: "Merge Society Network Security Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/what-is-dns",
+    canonical: "https://mergesociety.com/code-report/what-is-dns",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/what-is-dns",
+      "en-US": "https://mergesociety.com/code-report/what-is-dns",
     },
   },
 
@@ -157,7 +157,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Network Security Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Network Security Specialist",
       description:
         "15+ years securing network infrastructure and educating about cybersecurity",
@@ -167,14 +167,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn how DNS works in simple terms: how domain names become IP addresses, the DNS query journey, security risks, and how to protect yourself with modern DNS security protocols like DoH.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/what-is-dns",
+      "@id": "https://mergesociety.com/code-report/what-is-dns",
     },
     keywords:
       "DNS, domain name system, DNS security, DoH, DNS over HTTPS, DNS query process, DNS records",

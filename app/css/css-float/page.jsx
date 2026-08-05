@@ -20,7 +20,7 @@ export const metadata = {
     "float challenges",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-float",
+    canonical: "https://mergesociety.com/css/css-float",
   },
   openGraph: {
     title: "CSS Float | Learn CSS Layout Techniques",

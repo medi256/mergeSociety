@@ -15,7 +15,7 @@ export const metadata = {
     "web development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/bom-applications",
+    canonical: "https://mergesociety.com/javascript/bom-applications",
   },
 
   openGraph: {

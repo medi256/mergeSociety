@@ -38,7 +38,7 @@ export const metadata = {
     title: "10 AI Tools That Cut Research Time by Months - Free in 2025",
     description:
       "Stop wasting months on outdated research methods. Top researchers secretly use these 10 free AI tools to dominate literature reviews, data analysis, and paper writing. Get the insider playbook.",
-    url: "https://www.mergesociety.com/ai/best-ai-tools-for-research",
+    url: "https://mergesociety.com/ai/best-ai-tools-for-research",
     siteName: "MergeSociety",
     images: [
       {
@@ -80,9 +80,9 @@ export const metadata = {
   publisher: "MergeSociety",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/best-ai-tools-for-research",
+    canonical: "https://mergesociety.com/ai/best-ai-tools-for-research",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/best-ai-tools-for-research",
+      "en-US": "https://mergesociety.com/ai/best-ai-tools-for-research",
     },
   },
 
@@ -187,7 +187,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       description:
         "Founder of WiseUp, helped tens of thousands of researchers publish with less pain and more impact",
     },
@@ -197,7 +197,7 @@ export const metadata = {
       name: "MergeSociety",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
 
@@ -206,7 +206,7 @@ export const metadata = {
 
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/best-ai-tools-for-research",
+      "@id": "https://mergesociety.com/ai/best-ai-tools-for-research",
     },
 
     about: [

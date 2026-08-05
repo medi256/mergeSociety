@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, images in HTML, embedding images, web development, coding for beginners, HTML tutorial, image attributes, best practices for images",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-images",
+    canonical: "https://mergesociety.com/html/html-images",
   },
   openGraph: {
     title:

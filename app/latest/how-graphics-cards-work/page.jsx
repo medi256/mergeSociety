@@ -28,7 +28,7 @@ export const metadata = {
       "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
     description:
       "Dive deep into modern GPU architecture and discover how these computing powerhouses handle 36 trillion calculations per second to deliver realistic gaming experiences, AI capabilities, and more.",
-    url: "https://www.mergesociety.com/latest/how-graphics-cards-work",
+    url: "https://mergesociety.com/latest/how-graphics-cards-work",
     siteName: "Merge society",
 
     images: [
@@ -58,15 +58,15 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/how-graphics-cards-work",
+    canonical: "https://mergesociety.com/latest/how-graphics-cards-work",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/how-graphics-cards-work",
+      "en-US": "https://mergesociety.com/latest/how-graphics-cards-work",
     },
   },
   twitter: {
@@ -80,7 +80,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/gpus_bmtfwz_kpcedg.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -116,14 +116,14 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/latest/how-graphics-cards-work",
+      url: "https://mergesociety.com/latest/how-graphics-cards-work",
     },
     publisher: {
       "@type": "Organization",
       name: "Branch Education",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:

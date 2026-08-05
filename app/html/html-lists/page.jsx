@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, lists in HTML, unordered lists, ordered lists, web development, structured content, coding for beginners, HTML tutorial, web design, best practices for lists, nested lists",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-lists",
+    canonical: "https://mergesociety.com/html/html-lists",
   },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML best practices, clean HTML, accessible HTML, alt attributes, title attributes, HTML forms, fieldset, web accessibility, HTML validation, semantic HTML",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-head-element",
+    canonical: "https://mergesociety.com/html/html-head-element",
   },
   openGraph: {
     title: "Guide to Writing Clean and Accessible HTML | MergeSociety",

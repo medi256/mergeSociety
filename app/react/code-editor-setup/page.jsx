@@ -14,7 +14,7 @@ export const metadata = {
     "React coding environment",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/code-editor-setup",
+    canonical: "https://mergesociety.com/react/code-editor-setup",
   },
   openGraph: {
     title: "Master VS Code Setup for React: Beginner's Ultimate Guide",

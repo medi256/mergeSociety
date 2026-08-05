@@ -37,7 +37,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/projects/javascriptP",
+      url: "https://mergesociety.com/projects/javascriptP",
     },
   ],
   creator: "Merge Society",
@@ -45,13 +45,13 @@ export const metadata = {
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP",
+    canonical: "https://mergesociety.com/projects/javascriptP",
   },
   openGraph: {
     title: "JavaScript Projects | Beginner to Advanced Challenges",
     description:
       "Explore an exciting range of JavaScript projects for all skill levels. From interactive web apps to advanced algorithms, these projects will help you hone your JavaScript skills.",
-    url: "https://www.mergesociety.com/projects/javascriptP",
+    url: "https://mergesociety.com/projects/javascriptP",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

@@ -18,7 +18,7 @@ export const metadata = {
     "front-end development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/callbacks",
+    canonical: "https://mergesociety.com/javascript/callbacks",
   },
   openGraph: {
     title: "JavaScript Callbacks Explained | Interactive Coding Lesson",

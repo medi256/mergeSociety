@@ -17,7 +17,7 @@ export const metadata = {
     "JavaScript functional programming",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/foreach-method",
+    canonical: "https://mergesociety.com/javascript/foreach-method",
   },
 
   openGraph: {

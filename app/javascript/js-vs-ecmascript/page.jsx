@@ -14,7 +14,7 @@ export const metadata = {
     "programming languages",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/js-vs-ecmascript",
+    canonical: "https://mergesociety.com/javascript/js-vs-ecmascript",
   },
 
   openGraph: {

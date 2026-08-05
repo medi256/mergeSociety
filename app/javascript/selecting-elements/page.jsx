@@ -24,7 +24,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/selecting-elements",
+    canonical: "https://mergesociety.com/javascript/selecting-elements",
   },
 
   authors: [{ name: "MergeSociety" }],

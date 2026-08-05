@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Cluely AI delivers real-time answers during live sales calls. Handle technical questions instantly, nail competitive positioning, and never say 'let me check with my team' again. The AI copilot that closes your knowledge gap in 8-10 seconds.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "cluely ai review 2025",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Cheating Is Legal: Cluely AI Makes You Unstoppable In Sales Calls",
     description:
       "Get instant answers to technical questions during live calls. Cluely AI pulls from your docs and Slack in 8-10 seconds. Handle objections perfectly. Never break momentum again.",
-    url: "https://www.mergesociety.com/startup-stories/cluely",
+    url: "https://mergesociety.com/startup-stories/cluely",
     siteName: "Merge Society",
     images: [
       {
@@ -81,7 +81,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -89,9 +89,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/cluely",
+    canonical: "https://mergesociety.com/startup-stories/cluely",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/cluely",
+      "en-US": "https://mergesociety.com/startup-stories/cluely",
     },
   },
 
@@ -190,14 +190,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     datePublished: "2025-11-02T00:00:00Z",

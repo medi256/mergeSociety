@@ -33,7 +33,7 @@ export const metadata = {
       "Will AI Replace Programmers? A Microsoft Veteran's Take on the Future of Software Engineering",
     description:
       "Dave Plummer, who built Windows 95 features, explains why top debugging and problem-solving skills remain irreplaceable despite AI's rise in programming.",
-    url: "https://www.mergesociety.com/ai/will-programmers-vanish",
+    url: "https://mergesociety.com/ai/will-programmers-vanish",
     siteName: "Merge Society",
     images: [
       {
@@ -64,15 +64,15 @@ export const metadata = {
   authors: [
     {
       name: "Dave Plummer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/will-programmers-vanish",
+    canonical: "https://mergesociety.com/ai/will-programmers-vanish",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/will-programmers-vanish",
+      "en-US": "https://mergesociety.com/ai/will-programmers-vanish",
     },
   },
   twitter: {
@@ -85,7 +85,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -138,7 +138,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Dave Plummer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Former Microsoft Engineer",
       description:
         "Software engineer with 40+ years experience, known for work on MS-DOS and Windows 95",
@@ -155,7 +155,7 @@ export const metadata = {
       "Dave Plummer, a 40-year software veteran from MS-DOS to Windows 95, shares insights on which programming jobs are at risk from AI and which will thrive, including strategies for staying relevant in an AI-driven future.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/will-programmers-vanish",
+      "@id": "https://mergesociety.com/ai/will-programmers-vanish",
     },
     keywords:
       "AI programming impact, software engineering future, Dave Plummer, programming careers, AI code generation",

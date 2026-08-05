@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Updated May 2025: Discover the latest JavaScript framework innovations including React 19's compiler, Next.js 15 partial prerendering, Svelte 5 Runes, and more. Stay ahead with these essential developer updates.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "javascript frameworks 2025 updated",
@@ -36,7 +36,7 @@ export const metadata = {
     title: "Updated: 15 JavaScript Framework Features You Need in 2025",
     description:
       "Revised May 2025: The most current guide to React 19, Next.js 15, Svelte 5 and other framework innovations transforming web development.",
-    url: "https://www.mergesociety.com/tech/javascript-features",
+    url: "https://mergesociety.com/tech/javascript-features",
     siteName: "Merge Society",
     images: [
       {
@@ -98,9 +98,9 @@ export const metadata = {
 
   // Enhanced alternates with update notice
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/javascript-features",
+    canonical: "https://mergesociety.com/tech/javascript-features",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/javascript-features",
+      "en-US": "https://mergesociety.com/tech/javascript-features",
     },
   },
 
@@ -120,19 +120,19 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/javascript-features",
+      "@id": "https://mergesociety.com/tech/javascript-features",
     },
     keywords: "javascript, frameworks, react, nextjs, svelte, updated 2025",
     articleSection: "Web Development",
@@ -157,7 +157,7 @@ export const metadata = {
       "Included migration path recommendations",
     ],
     lastUpdated: "2025-06-30",
-    previousVersionUrl: "https://www.mergesociety.com/tech/javascript-features",
+    previousVersionUrl: "https://mergesociety.com/tech/javascript-features",
     updateFrequency: "Quarterly",
   },
 
@@ -196,27 +196,27 @@ export const metadata = {
   // New: WebPage schema for better indexing
   webpageSchema: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/tech/javascript-features#webpage",
-    url: "https://www.mergesociety.com/tech/javascript-features",
+    "@id": "https://mergesociety.com/tech/javascript-features#webpage",
+    url: "https://mergesociety.com/tech/javascript-features",
     name: "JavaScript Framework Updates 2025",
     isPartOf: {
-      "@id": "https://www.mergesociety.com/#website",
+      "@id": "https://mergesociety.com/#website",
     },
     primaryImageOfPage: {
       "@id":
-        "https://www.mergesociety.com/tech/javascript-features#primaryimage",
+        "https://mergesociety.com/tech/javascript-features#primaryimage",
     },
     datePublished: "2025-05-09T12:00:00Z",
     dateModified: "2025-06-30T09:00:00Z",
     description: "Updated guide to JavaScript framework innovations in 2025",
     breadcrumb: {
-      "@id": "https://www.mergesociety.com/tech/javascript-features#breadcrumb",
+      "@id": "https://mergesociety.com/tech/javascript-features#breadcrumb",
     },
     inLanguage: "en-US",
     potentialAction: [
       {
         "@type": "ReadAction",
-        target: ["https://www.mergesociety.com/tech/javascript-features"],
+        target: ["https://mergesociety.com/tech/javascript-features"],
       },
     ],
   },

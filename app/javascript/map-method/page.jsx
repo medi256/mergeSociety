@@ -17,7 +17,7 @@ export const metadata = {
     "functional programming in JavaScript",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/map-method",
+    canonical: "https://mergesociety.com/javascript/map-method",
   },
 
   openGraph: {

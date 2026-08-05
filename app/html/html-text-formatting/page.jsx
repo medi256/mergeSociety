@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, text formatting, HTML tags, web development, content readability, web design, coding for beginners, HTML tutorial, text styles, best practices for text formatting, web accessibility",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-text-formatting",
+    canonical: "https://mergesociety.com/html/html-text-formatting",
   },
   openGraph: {
     title: "HTML Text Formatting: Enhance Content with Style | MergeSociety",

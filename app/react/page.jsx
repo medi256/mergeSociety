@@ -8,7 +8,7 @@ export const metadata = {
   keywords:
     "React.js course, web development, React tutorial, learn React, coding, front-end development, JSX, React hooks, state management, API integration",
   alternates: {
-    canonical: "https://www.mergesociety.com/react",
+    canonical: "https://mergesociety.com/react",
   },
   openGraph: {
     title:

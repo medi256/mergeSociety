@@ -31,7 +31,7 @@ export const metadata = {
     title: "Tencent: How a Quiet Founder Built the Chinese Super App Empire",
     description:
       "The untold story of how Ma Huateng quietly outmaneuvered Silicon Valley to build a digital empire bigger than Facebook - and why the West is now copying his playbook.",
-    url: "https://www.mergesociety.com/startup-stories/pony-ma",
+    url: "https://mergesociety.com/startup-stories/pony-ma",
     siteName: "TechHistory Archives",
     images: [
       {
@@ -63,7 +63,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society Archives",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -71,9 +71,9 @@ export const metadata = {
   publisher: "TechHistory Archives",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/pony-ma",
+    canonical: "https://mergesociety.com/startup-stories/pony-ma",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/pony-ma",
+      "en-US": "https://mergesociety.com/startup-stories/pony-ma",
     },
   },
 
@@ -88,7 +88,7 @@ export const metadata = {
     ],
   },
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   robots: {
     index: true,
@@ -151,7 +151,7 @@ export const metadata = {
   jsonLd: {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "https://www.mergesociety.com/startup-stories/pony-ma",
+    "@id": "https://mergesociety.com/startup-stories/pony-ma",
 
     headline:
       "Tencent: How a Quiet Founder Built the Chinese Super App Empire by Breaking Every Silicon Valley Rule",
@@ -170,7 +170,7 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "TechHistory Archives",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       sameAs: ["https://twitter.com/manager70191"],
     },
 
@@ -179,7 +179,7 @@ export const metadata = {
       name: "TechHistory Archives",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
         width: 300,
         height: 60,
       },
@@ -227,7 +227,7 @@ export const metadata = {
 
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/pony-ma",
+      "@id": "https://mergesociety.com/startup-stories/pony-ma",
     },
 
     isAccessibleForFree: true,

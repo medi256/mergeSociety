@@ -19,7 +19,7 @@ export const metadata = {
     "programming for beginners",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/react/jsx-structure",
+    canonical: "https://mergesociety.com/react/jsx-structure",
   },
   openGraph: {
     title:

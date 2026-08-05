@@ -31,7 +31,7 @@ export const metadata = {
       "The Thin Line: How 'Fake It Till You Make It' Creates Both Success Stories and Scandals",
     description:
       "From power poses to prison sentences: Explore how the art of stretching the truth has shaped careers, companies, and culture—and where the ethical line gets crossed.",
-    url: "https://www.mergesociety.com/startup-stories/fake-it",
+    url: "https://mergesociety.com/startup-stories/fake-it",
     siteName: "Merge Society",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/fake-it",
+    canonical: "https://mergesociety.com/startup-stories/fake-it",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/fake-it",
-      "es-ES": "https://www.mergesociety.com/startup-stories/fake-it",
-      "fr-FR": "https://www.mergesociety.com/startup-stories/fake-it",
+      "en-US": "https://mergesociety.com/startup-stories/fake-it",
+      "es-ES": "https://mergesociety.com/startup-stories/fake-it",
+      "fr-FR": "https://mergesociety.com/startup-stories/fake-it",
     },
   },
   twitter: {
@@ -85,7 +85,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -139,14 +139,14 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -155,7 +155,7 @@ export const metadata = {
       "fake it till you make it, business ethics, corporate fraud, Amy Cuddy, Theranos, Elizabeth Holmes, Enron, perception management",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/fake-it",
+      "@id": "https://mergesociety.com/startup-stories/fake-it",
     },
     about: [
       {

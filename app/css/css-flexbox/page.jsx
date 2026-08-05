@@ -18,7 +18,7 @@ export const metadata = {
     "frontend design",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-flexbox",
+    canonical: "https://mergesociety.com/css/css-flexbox",
   },
 
   openGraph: {

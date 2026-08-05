@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Compare PostgreSQL and MySQL to find the perfect relational database for your needs. Discover performance differences, use cases, and expert insights to make the right choice for your application.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "postgresql vs mysql 2025",
@@ -46,7 +46,7 @@ export const metadata = {
       "PostgreSQL vs MySQL: The Definitive Database Comparison Guide for 2025",
     description:
       "Choosing between PostgreSQL and MySQL? Our in-depth comparison reveals which database excels for enterprise applications, web development, and different workloads to help you make the optimal choice.",
-    url: "https://www.mergesociety.com/code-report/databases",
+    url: "https://mergesociety.com/code-report/databases",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Database Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,13 +86,13 @@ export const metadata = {
   publisher: "Merge Society Database Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/databases",
+    canonical: "https://mergesociety.com/code-report/databases",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/databases",
-      "es-ES": "https://www.mergesociety.com/code-report/databases",
-      "de-DE": "https://www.mergesociety.com/code-report/databases",
-      "fr-FR": "https://www.mergesociety.com/code-report/databases",
-      "ja-JP": "https://www.mergesociety.com/code-report/databases",
+      "en-US": "https://mergesociety.com/code-report/databases",
+      "es-ES": "https://mergesociety.com/code-report/databases",
+      "de-DE": "https://mergesociety.com/code-report/databases",
+      "fr-FR": "https://mergesociety.com/code-report/databases",
+      "ja-JP": "https://mergesociety.com/code-report/databases",
     },
   },
 
@@ -161,7 +161,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Database Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Database Architect",
       description:
         "15+ years experience with relational database systems and optimization",
@@ -171,14 +171,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Compare PostgreSQL and MySQL to find the perfect relational database for your needs. Discover performance differences, use cases, and expert insights to make the right choice for your application.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/databases",
+      "@id": "https://mergesociety.com/code-report/databases",
     },
     keywords:
       "postgresql, mysql, database comparison, rdbms, sql databases, enterprise databases",

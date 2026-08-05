@@ -8,7 +8,7 @@ export const metadata = {
   keywords:
     "HTML tutorial, web development, HTML basics, HTML5, learn HTML, coding for beginners, web design, front-end development",
   alternates: {
-    canonical: "https://www.mergesociety.com/html",
+    canonical: "https://mergesociety.com/html",
   },
   openGraph: {
     title: "Complete HTML Tutorial: From Beginner to Pro | MergeSociety",

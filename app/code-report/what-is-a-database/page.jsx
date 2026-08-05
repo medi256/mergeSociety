@@ -29,7 +29,7 @@ export const metadata = {
     title: "Complete SQL and Database Tutorial for Beginners | 2025 Guide",
     description:
       "Master SQL fundamentals: data types, databases, DBMS systems, and query writing. From basic concepts to practical examples with MySQL, PostgreSQL & SQL Server.",
-    url: "https://www.mergesociety.com/code-report/what-is-a-database",
+    url: "https://mergesociety.com/code-report/what-is-a-database",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -56,7 +56,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/what-is-a-database",
+    canonical: "https://mergesociety.com/code-report/what-is-a-database",
   },
 
   other: {
@@ -83,7 +83,7 @@ export const metadata = {
         name: "Merge Society",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
         },
       },
       datePublished: "2025-08-29T00:00:00Z",
@@ -96,7 +96,7 @@ export const metadata = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/what-is-a-database",
+        "@id": "https://mergesociety.com/code-report/what-is-a-database",
       },
       articleSection: "Programming Tutorials",
       keywords:

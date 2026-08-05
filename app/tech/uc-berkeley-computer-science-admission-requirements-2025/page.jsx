@@ -17,7 +17,7 @@ export const metadata = {
     title: "UC Berkeley Admissions 2025: Complete Guide to Getting Accepted",
     description:
       "Discover the secrets to UC Berkeley admissions in 2025. Learn about holistic review, Personal Insight Questions, deadlines, and proven strategies that get students accepted.",
-    url: "https://www.mergesociety.com/tech/uc-berkeley-computer-science-admission-requirements-2025",
+    url: "https://mergesociety.com/tech/uc-berkeley-computer-science-admission-requirements-2025",
     siteName: "Merge Society",
     images: [
       {
@@ -66,7 +66,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/tech/uc-berkeley-computer-science-admission-requirements-2025",
+      "https://mergesociety.com/tech/uc-berkeley-computer-science-admission-requirements-2025",
   },
 
   category: "Education",

@@ -16,7 +16,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/understanding-keys",
+    canonical: "https://mergesociety.com/react/understanding-keys",
   },
 
   openGraph: {

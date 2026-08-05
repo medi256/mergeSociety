@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master CRUD operations in SQL, REST APIs, and NoSQL. Learn how Create, Read, Update, Delete powers every app from Twitter to Amazon with practical examples and database implementation.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "crud operations explained",
@@ -45,7 +45,7 @@ export const metadata = {
       "CRUD Operations Complete Guide - Database to REST API Implementation",
     description:
       "Understand CRUD: Create, Read, Update, Delete operations in SQL, NoSQL, REST APIs. Real examples from Twitter, Word, Amazon. Build apps with confidence.",
-    url: "https://www.mergesociety.com/code-report/crud-explained",
+    url: "https://mergesociety.com/code-report/crud-explained",
     siteName: "Merge Society",
     images: [
       {
@@ -85,7 +85,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/crud-explained",
+    canonical: "https://mergesociety.com/code-report/crud-explained",
   },
 
   twitter: {
@@ -285,7 +285,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "@id": "https://www.mergesociety.com/code-report/crud-explained",
+      "@id": "https://mergesociety.com/code-report/crud-explained",
       headline:
         "CRUD Operations Explained: Create, Read, Update, Delete Complete Guide",
       alternativeHeadline:
@@ -309,10 +309,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -321,7 +321,7 @@ export const metadata = {
         "Comprehensive guide to CRUD operations covering implementation in SQL, NoSQL databases, REST APIs, and frontend applications with real-world examples from Twitter, Microsoft Word, and Amazon.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/crud-explained",
+        "@id": "https://mergesociety.com/code-report/crud-explained",
       },
       keywords:
         "CRUD, create read update delete, REST API, SQL operations, database design, API development",
@@ -592,19 +592,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "CRUD Operations Explained",
-          item: "https://www.mergesociety.com/code-report/crud-explained",
+          item: "https://mergesociety.com/code-report/crud-explained",
         },
       ],
     },

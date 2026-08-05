@@ -57,7 +57,7 @@ export const metadata = {
       "Next.js Roadmap: What Most Developers Miss (Features, Salaries, and Secret Resources Inside)",
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
-    url: "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
+    url: "https://mergesociety.com/programming-roadmap/nextjs-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -107,7 +107,7 @@ export const metadata = {
 
   other: {
     "article:author": "Massa Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
     "article:section": "Web Development",
     "article:tag":
       "Next.js, React, Full Stack Development, Career Guide, Programming, Vercel, Web Development, Developer Jobs",
@@ -120,7 +120,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
+      "https://mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
 };
 
@@ -138,7 +138,7 @@ const structuredData = {
     "@type": "Person",
     name: "Massa Medi",
     jobTitle: "Full Stack Developer",
-    url: "https://www.mergesociety.com/about",
+    url: "https://mergesociety.com/about",
   },
 
   publisher: {
@@ -146,7 +146,7 @@ const structuredData = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
 
@@ -163,7 +163,7 @@ const structuredData = {
 
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/programming-roadmap/nextjs-roadmap",
+    "@id": "https://mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
 
   proficiencyLevel: "Intermediate",

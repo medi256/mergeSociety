@@ -36,7 +36,7 @@ export const metadata = {
       "7 Essential Tools That Convinced This Tech Minimalist to Expand Their Workflow in 2025",
     description:
       "The ultimate insider guide to productivity tools that even a dedicated minimalist couldn't resist. From game-changing ORMs to AI coding assistants, discover why these tools have earned permanent places in a deliberately 'boring' tech setup.",
-    url: "https://www.mergesociety.com/apps/another-tool",
+    url: "https://mergesociety.com/apps/another-tool",
     siteName: "Dev Productivity Master",
     images: [
       {
@@ -77,18 +77,18 @@ export const metadata = {
   authors: [
     {
       name: "Minimal Tech Developer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Dev Productivity Master",
   publisher: "Tech Workflow Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/apps/another-tool",
+    canonical: "https://mergesociety.com/apps/another-tool",
     languages: {
-      "en-US": "https://www.mergesociety.com/apps/another-tool",
-      "es-ES": "https://www.mergesociety.com/apps/another-tool",
-      "ja-JP": "https://www.mergesociety.com/apps/another-tool",
-      "de-DE": "https://www.mergesociety.com/apps/another-tool",
+      "en-US": "https://mergesociety.com/apps/another-tool",
+      "es-ES": "https://mergesociety.com/apps/another-tool",
+      "ja-JP": "https://mergesociety.com/apps/another-tool",
+      "de-DE": "https://mergesociety.com/apps/another-tool",
     },
   },
   twitter: {
@@ -101,7 +101,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -158,7 +158,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Minimal Tech Developer",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Developer & Content Creator",
     },
     publisher: {
@@ -166,14 +166,14 @@ export const metadata = {
       name: "Dev Productivity Master",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover the essential productivity tools that even a self-proclaimed minimalist can't live without in 2025. From Drizzle ORM and Super Maven to Synology NAS and Arc browser, these are the tools revolutionizing development and digital workflows for professionals.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/apps/another-tool",
+      "@id": "https://mergesociety.com/apps/another-tool",
     },
     keywords:
       "developer tools, productivity tools, minimal workflow, Drizzle ORM, Super Maven, Synology NAS, Pretty TypeScript Errors",

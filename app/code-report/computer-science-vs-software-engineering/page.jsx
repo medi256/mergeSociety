@@ -50,7 +50,7 @@ export const metadata = {
     title: "Computer Science vs Software Engineering: Complete 2025 Guide",
     description:
       "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you.",
-    url: "https://www.mergesociety.com/code-report/computer-science-vs-software-engineering",
+    url: "https://mergesociety.com/code-report/computer-science-vs-software-engineering",
     siteName: "Merge Society",
     locale: "en_US",
     images: [
@@ -101,10 +101,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/computer-science-vs-software-engineering",
+      "https://mergesociety.com/code-report/computer-science-vs-software-engineering",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/code-report/computer-science-vs-software-engineering",
+        "https://mergesociety.com/code-report/computer-science-vs-software-engineering",
     },
   },
 
@@ -142,20 +142,20 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Tech Career Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/code-report/MS.png",
+        url: "https://mergesociety.com/code-report/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://www.mergesociety.com/code-report/computer-science-vs-software-engineering",
+        "https://mergesociety.com/code-report/computer-science-vs-software-engineering",
     },
     articleSection: "Education",
     keywords:

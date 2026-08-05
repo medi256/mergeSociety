@@ -53,7 +53,7 @@ export const metadata = {
       "Programming Language Roadmaps 2025: Complete Developer Career Guides",
     description:
       "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
-    url: "https://www.mergesociety.com/programming-roadmap",
+    url: "https://mergesociety.com/programming-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -112,7 +112,7 @@ export const metadata = {
       name: "Programming Language Roadmaps 2025",
       description:
         "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
-      url: "https://www.mergesociety.com/programming-roadmap",
+      url: "https://mergesociety.com/programming-roadmap",
       mainEntity: {
         "@type": "ItemList",
         itemListElement: [
@@ -124,7 +124,7 @@ export const metadata = {
               name: "Full Stack JavaScript Developer Roadmap 2025",
               description:
                 "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
-              url: "https://www.mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your actual URL
+              url: "https://mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your actual URL
               image:
                 "https://img.mergesociety.com/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.png",
               provider: {
@@ -157,7 +157,7 @@ export const metadata = {
         name: "Merge Society",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
         },
       },
       datePublished: "2025-07-08T00:00:00.000Z",
@@ -170,7 +170,7 @@ export const metadata = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/programming-roadmap",
+        "@id": "https://mergesociety.com/programming-roadmap",
       },
       keywords:
         "programming language roadmap 2025, developer career guide, javascript roadmap, python developer roadmap, programming career path",
@@ -197,7 +197,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/programming-roadmap",
+    canonical: "https://mergesociety.com/programming-roadmap",
   },
 };
 
@@ -207,8 +207,8 @@ export const roadmapStructuredData = {
   name: "Programming Language Roadmaps",
   description:
     "Comprehensive programming language roadmaps and career guides for developers in 2025",
-  url: "https://www.mergesociety.com/programming-roadmap",
-  logo: "https://www.mergesociety.com/MS.png",
+  url: "https://mergesociety.com/programming-roadmap",
+  logo: "https://mergesociety.com/MS.png",
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
     name: "Full Stack Developer Certification",
@@ -237,13 +237,13 @@ export const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.mergesociety.com",
+      item: "https://mergesociety.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Programming Roadmaps",
-      item: "https://www.mergesociety.com/programming-roadmap",
+      item: "https://mergesociety.com/programming-roadmap",
     },
   ],
 };

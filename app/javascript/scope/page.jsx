@@ -18,7 +18,7 @@ export const metadata = {
     "programming tutorial",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/scope",
+    canonical: "https://mergesociety.com/javascript/scope",
   },
   openGraph: {
     title: "Master JavaScript Scopes: Global, Local, and Block",

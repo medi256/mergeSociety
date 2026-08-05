@@ -30,7 +30,7 @@ export const metadata = {
       "LinkedIn's Cringe Paradox: Why the World's Top Career Platform Is So Weird—and Here to Stay",
     description:
       "A deep dive into LinkedIn's strange culture, viral content patterns, and enduring business value despite its often cringeworthy reputation.",
-    url: "https://www.mergesociety.com/latest/link-in",
+    url: "https://mergesociety.com/latest/link-in",
     siteName: "Merge Society",
     images: [
       {
@@ -60,15 +60,15 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/link-in",
+    canonical: "https://mergesociety.com/latest/link-in",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/link-in",
+      "en-US": "https://mergesociety.com/latest/link-in",
     },
   },
   twitter: {
@@ -81,7 +81,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/link-in_vsxalr_skvenq.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -120,14 +120,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/logo.png",
+        url: "https://mergesociety.com/logo.png",
       },
     },
     description:
@@ -138,7 +138,7 @@ export const metadata = {
       "LinkedIn, professional networking, social media culture, thought leadership, content creation, career development, viral content, business networking",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/link-in",
+      "@id": "https://mergesociety.com/latest/link-in",
     },
     mentions: [
       {

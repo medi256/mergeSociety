@@ -35,20 +35,20 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/code-report" },
+    { name: "Merge Society", url: "https://mergesociety.com/code-report" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report",
+    canonical: "https://mergesociety.com/code-report",
   },
   openGraph: {
     title: "Merge Society | Code Report",
     description:
       "High-intensity ⚡ code tutorials and tech news to help you ship your app faster. New Articles every week covering the topics every programmer should know. ",
-    url: "https://www.mergesociety.com/code-report",
+    url: "https://mergesociety.com/code-report",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

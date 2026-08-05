@@ -16,7 +16,7 @@ export const metadata = {
     "coding tutorials",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-min-width",
+    canonical: "https://mergesociety.com/css/css-min-width",
   },
 
   openGraph: {

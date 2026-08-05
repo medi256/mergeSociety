@@ -25,7 +25,7 @@ export const metadata = {
       "From Redstone to RAM: How Minecraft's In-Game Logic Lets You Build a Real Computer",
     description:
       "Discover how to transform Minecraft's Redstone into functioning logic gates, circuits, and even a complete CPU with memory - an interactive journey through computer engineering principles.",
-    url: "https://www.mergesociety.com/latest/mincraft",
+    url: "https://mergesociety.com/latest/mincraft",
     siteName: "Merge Society",
     images: [
       {
@@ -52,15 +52,15 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/mincraft",
+    canonical: "https://mergesociety.com/latest/mincraft",
     languages: {
-      "en-US": "https://www.mergesociety.com/latest/mincraft",
+      "en-US": "https://mergesociety.com/latest/mincraft",
     },
   },
   twitter: {
@@ -74,7 +74,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/mincraft_kmdjhr_zrylau.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -105,14 +105,14 @@ export const metadata = {
     author: {
       "@type": "Organization",
       name: "Merge Society",
-      url: "https://www.mergesociety.com/latest/mincraft",
+      url: "https://mergesociety.com/latest/mincraft",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:

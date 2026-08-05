@@ -40,7 +40,7 @@ export const metadata = {
       "ULTIMATE GUIDE: Master 30+ Essential Python Libraries & Frameworks in 2025",
     description:
       "Deep dive into Python's most powerful libraries for 2025! From AI & ML to web development, data science & GUIs. Comprehensive explanations, practical comparisons & real-world applications to transform your Python development skills.",
-    url: "https://www.mergesociety.com/code-report/python-libraries",
+    url: "https://mergesociety.com/code-report/python-libraries",
     siteName: "Python Mastery",
     images: [
       {
@@ -76,23 +76,23 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Maya Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Python Mastery Education Team",
   publisher: "Python Developer Community",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/python-libraries",
+    canonical: "https://mergesociety.com/code-report/python-libraries",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/python-libraries",
-      "es-ES": "https://www.mergesociety.com/code-report/python-libraries",
-      "zh-CN": "https://www.mergesociety.com/code-report/python-libraries",
-      "fr-FR": "https://www.mergesociety.com/code-report/python-libraries",
-      "de-DE": "https://www.mergesociety.com/code-report/python-libraries",
+      "en-US": "https://mergesociety.com/code-report/python-libraries",
+      "es-ES": "https://mergesociety.com/code-report/python-libraries",
+      "zh-CN": "https://mergesociety.com/code-report/python-libraries",
+      "fr-FR": "https://mergesociety.com/code-report/python-libraries",
+      "de-DE": "https://mergesociety.com/code-report/python-libraries",
     },
   },
   twitter: {
@@ -159,13 +159,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Dr. Maya Rodriguez",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Python Developer & AI Specialist",
       },
       {
         "@type": "Person",
         name: "Alex Chen",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Full Stack Python Engineer",
       },
     ],
@@ -174,14 +174,14 @@ export const metadata = {
       name: "Python Developer Community",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Comprehensive breakdown of 30+ critical Python libraries in 2025 - from machine learning powerhouses to web frameworks. Master the complete Python ecosystem with expert insights and practical applications.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/python-libraries",
+      "@id": "https://mergesociety.com/code-report/python-libraries",
     },
     keywords:
       "Python libraries 2025, essential Python frameworks, Python machine learning, TensorFlow PyTorch, Django Flask, Python data science, NumPy Pandas, GUI development",

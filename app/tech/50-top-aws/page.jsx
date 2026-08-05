@@ -40,7 +40,7 @@ export const metadata = {
     title: "AWS Services Explained: Complete 2025 Guide (Just Updated)",
     description:
       "Fresh insights on AWS's service catalog. Discover which cloud tools are worth your investment and which ones you can skip in 2025.",
-    url: "https://www.mergesociety.com/tech/50-top-aws",
+    url: "https://mergesociety.com/tech/50-top-aws",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -80,9 +80,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/50-top-aws",
+    canonical: "https://mergesociety.com/tech/50-top-aws",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/50-top-aws",
+      "en-US": "https://mergesociety.com/tech/50-top-aws",
     },
   },
 
@@ -186,7 +186,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Morgan",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Cloud Solutions Architect",
       description:
         "AWS Solutions Architect Professional with 10+ years designing scalable cloud infrastructure",
@@ -200,7 +200,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
       sameAs: [
         "https://twitter.com/manager70191",
@@ -211,7 +211,7 @@ export const metadata = {
       "Updated comprehensive guide to AWS services in 2025. Learn which cloud tools deliver real value, avoid costly mistakes, and implement scalable architecture patterns.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/50-top-aws",
+      "@id": "https://mergesociety.com/tech/50-top-aws",
     },
     keywords:
       "AWS services 2025, cloud computing, serverless architecture, containers, cloud infrastructure, DevOps, cost optimization",

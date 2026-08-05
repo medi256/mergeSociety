@@ -14,7 +14,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/fetching-api",
+    canonical: "https://mergesociety.com/react/fetching-api",
   },
 
   keywords: [

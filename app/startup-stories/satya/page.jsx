@@ -31,7 +31,7 @@ export const metadata = {
       "Satya Nadella: The Future Beyond SaaS is AI Agents Operating Across Platforms",
     description:
       "Microsoft's CEO explains why AI agents that work across multiple platforms represent a fundamental shift as significant as the introduction of relational databases—and how they're reshaping business workflows and scientific discovery.",
-    url: "https://www.mergesociety.com/startup-stories/satya",
+    url: "https://mergesociety.com/startup-stories/satya",
     siteName: "Tech Innovation Insights",
     images: [
       {
@@ -62,17 +62,17 @@ export const metadata = {
   authors: [
     {
       name: "Priya Sharma",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Innovation Insights",
   publisher: "Tech Innovation Insights",
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/satya",
+    canonical: "https://mergesociety.com/startup-stories/satya",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/satya",
-      "hi-IN": "https://www.mergesociety.com/startup-stories/satya",
-      "zh-CN": "https://www.mergesociety.com/startup-stories/satya",
+      "en-US": "https://mergesociety.com/startup-stories/satya",
+      "hi-IN": "https://mergesociety.com/startup-stories/satya",
+      "zh-CN": "https://mergesociety.com/startup-stories/satya",
     },
   },
   twitter: {
@@ -86,7 +86,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv_fn8ksz.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -148,14 +148,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Priya Sharma",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Tech Innovation Insights",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -164,7 +164,7 @@ export const metadata = {
       "Satya Nadella, Microsoft, AI agents, SaaS evolution, Copilot, enterprise AI",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/satya",
+      "@id": "https://mergesociety.com/startup-stories/satya",
     },
     interviewee: {
       "@type": "Person",

@@ -19,7 +19,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-min-height",
+    canonical: "https://mergesociety.com/css/css-min-height",
   },
 
   openGraph: {

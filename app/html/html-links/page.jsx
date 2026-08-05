@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML, links in HTML, hyperlinks, web development, coding for beginners, HTML tutorial, creating links, customizing links, web navigation, best practices for links",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-links",
+    canonical: "https://mergesociety.com/html/html-links",
   },
   openGraph: {
     title:

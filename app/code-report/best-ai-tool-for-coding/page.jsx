@@ -24,7 +24,7 @@ export const metadata = {
       "AI Coding Tools: Best AI Tools for Coding (What Most Developers Miss)",
     description:
       "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
-    url: "https://www.mergesociety.com/code-report/best-ai-tool-for-coding",
+    url: "https://mergesociety.com/code-report/best-ai-tool-for-coding",
     siteName: "Merge Society",
     images: [
       {
@@ -82,10 +82,10 @@ export const metadata = {
   // Canonical URL
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/best-ai-tool-for-coding",
+      "https://mergesociety.com/code-report/best-ai-tool-for-coding",
   },
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 };
 
 export default function Article() {

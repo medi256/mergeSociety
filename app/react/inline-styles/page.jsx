@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/inline-styles",
+    canonical: "https://mergesociety.com/react/inline-styles",
   },
 
   openGraph: {

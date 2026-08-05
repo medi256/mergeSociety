@@ -29,7 +29,7 @@ export const metadata = {
     title: "Neovim: The Ultimate Guide to Modern Code Editing",
     description:
       "Explore how Neovim is revolutionizing modern code editing. Learn its history, Lua config, top plugins, LSP, and more to power up your workflow.",
-    url: "https://www.mergesociety.com/tech/neovim-explained",
+    url: "https://mergesociety.com/tech/neovim-explained",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -67,12 +67,12 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/neovim-explained",
+    canonical: "https://mergesociety.com/tech/neovim-explained",
   },
 
   category: "Developer Tools",
@@ -112,7 +112,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Web Developer & Writer",
     },
     publisher: {
@@ -120,7 +120,7 @@ export const metadata = {
       name: "Merge Society Blog",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -132,7 +132,7 @@ export const metadata = {
     isAccessibleForFree: true,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/neovim-explained",
+      "@id": "https://mergesociety.com/tech/neovim-explained",
     },
     mainEntity: [
       {
@@ -178,13 +178,13 @@ export const metadata = {
         "@type": "ListItem",
         position: 1,
         name: "Developer Tools",
-        item: "https://www.mergesociety.com/tech",
+        item: "https://mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Neovim: The Ultimate Guide to Modern Code Editing",
-        item: "https://www.mergesociety.com/tech/neovim-explained",
+        item: "https://mergesociety.com/tech/neovim-explained",
       },
     ],
   },

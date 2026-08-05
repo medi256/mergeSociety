@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover the best programming languages for 2026 based on Stack Overflow, GitHub Octoverse, and TIOBE data. Python for AI/ML, TypeScript for web, C/C++ for performance, Java for enterprise, Rust for systems.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "programming languages 2026",
@@ -45,7 +45,7 @@ export const metadata = {
       "Top 5 Programming Languages 2026: Python, TypeScript, C/C++, Java, Rust",
     description:
       "Data-driven ranking based on GitHub Octoverse, Stack Overflow Survey, TIOBE Index. Python dominates AI/ML, TypeScript leads web development, C/C++ for performance, Java for enterprise, Rust rising.",
-    url: "https://www.mergesociety.com/code-report/top-programming-languages-to-learn",
+    url: "https://mergesociety.com/code-report/top-programming-languages-to-learn",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/top-programming-languages-to-learn",
+      "https://mergesociety.com/code-report/top-programming-languages-to-learn",
   },
 
   twitter: {
@@ -317,7 +317,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id":
-        "https://www.mergesociety.com/code-report/top-programming-languages-to-learn",
+        "https://mergesociety.com/code-report/top-programming-languages-to-learn",
       headline:
         "Top 5 Programming Languages to Learn in 2026: Python, TypeScript, C/C++, Java, Rust",
       alternativeHeadline:
@@ -334,16 +334,16 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Senior Developer & Programming Educator",
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -353,7 +353,7 @@ export const metadata = {
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/code-report/top-programming-languages-to-learn",
+          "https://mergesociety.com/code-report/top-programming-languages-to-learn",
       },
       keywords:
         "programming languages 2026, python ai, typescript web development, rust systems programming, java enterprise, c cpp performance",
@@ -635,19 +635,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/code-report",
+          item: "https://mergesociety.com/code-report",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Programming Languages 2026",
-          item: "https://www.mergesociety.com/code-report/top-programming-languages-to-learn",
+          item: "https://mergesociety.com/code-report/top-programming-languages-to-learn",
         },
       ],
     },

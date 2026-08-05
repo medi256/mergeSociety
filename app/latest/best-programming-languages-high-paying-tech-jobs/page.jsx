@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover which programming languages to learn in 2025 for the highest-paying tech jobs. Complete analysis of 150+ job postings reveals the most in-demand languages for AI, web development, mobile apps, and data science roles.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "best programming languages 2025",
@@ -41,7 +41,7 @@ export const metadata = {
       "Best Programming Languages for $100K+ Tech Jobs in 2025 [Data Analysis]",
     description:
       "Real data from 150+ job listings reveals which programming languages will land you high-paying tech jobs in 2025. Complete breakdown by role: AI, web, mobile, data science & salaries.",
-    url: "https://www.mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
+    url: "https://mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
     siteName: "Merge Society",
     images: [
       {
@@ -73,7 +73,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -82,10 +82,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
+      "https://mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
+        "https://mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
     },
   },
 
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Developer & Tech Career Advisor",
       description:
         "Tech career specialist analyzing programming language trends and job market requirements",
@@ -163,7 +163,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -171,7 +171,7 @@ export const metadata = {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://www.mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
+        "https://mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
     },
     keywords:
       "programming languages, high-paying tech jobs, software development careers, AI programming, web development, mobile development, data science languages",

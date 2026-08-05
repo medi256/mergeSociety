@@ -30,7 +30,7 @@ export const metadata = {
     title: "Tech Jobs 2025: The Market Is Coming Back—But With New Rules",
     description:
       "37% of laid-off tech workers still can't find jobs, but 2025 shows signs of recovery. The catch? You need AI skills and specialization to compete.",
-    url: "https://www.mergesociety.com/tech/will-tech-jobs-bounce-back",
+    url: "https://mergesociety.com/tech/will-tech-jobs-bounce-back",
     siteName: "Merge Society",
     images: [
       {
@@ -142,7 +142,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Dr. Jordan Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Technology Workforce Analyst",
     },
     publisher: {
@@ -150,12 +150,12 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/will-tech-jobs-bounce-back",
+      "@id": "https://mergesociety.com/tech/will-tech-jobs-bounce-back",
     },
 
     // Article body structured data
@@ -210,7 +210,7 @@ export const metadata = {
 
   // Canonical and alternates
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/will-tech-jobs-bounce-back",
+    canonical: "https://mergesociety.com/tech/will-tech-jobs-bounce-back",
   },
 
   category: "Technology Career Analysis",
@@ -220,7 +220,7 @@ export const metadata = {
     news_keywords:
       "tech jobs, AI careers, job market recovery, tech layoffs, career development",
     "syndication-source":
-      "https://www.mergesociety.com/tech/will-tech-jobs-bounce-back",
+      "https://mergesociety.com/tech/will-tech-jobs-bounce-back",
 
     // Freshness signals
     "content-freshness": "updated-july-2025",

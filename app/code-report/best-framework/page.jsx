@@ -30,7 +30,7 @@ export const metadata = {
     title: "The Best Frameworks for Solo SaaS Builders in 2025",
     description:
       "Comparing Laravel, Next.js, Django and AdonisJS: Find the perfect framework to build your SaaS product as a solo developer without getting lost in dependency hell.",
-    url: "https://www.mergesociety.com/code-report/best-framework",
+    url: "https://mergesociety.com/code-report/best-framework",
     siteName: "IndieHacker Dev",
     images: [
       {
@@ -61,17 +61,17 @@ export const metadata = {
   authors: [
     {
       name: "Jordan Rivera",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "IndieHacker Dev",
   publisher: "IndieHacker Dev",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/best-framework",
+    canonical: "https://mergesociety.com/code-report/best-framework",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/best-framework",
-      "pt-BR": "https://www.mergesociety.com/code-report/best-framework",
-      "fr-FR": "https://www.mergesociety.com/code-report/best-framework",
+      "en-US": "https://mergesociety.com/code-report/best-framework",
+      "pt-BR": "https://mergesociety.com/code-report/best-framework",
+      "fr-FR": "https://mergesociety.com/code-report/best-framework",
     },
   },
   twitter: {
@@ -84,7 +84,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -143,14 +143,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Rivera",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "IndieHacker Dev",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -159,7 +159,7 @@ export const metadata = {
       "SaaS frameworks, Laravel, Next.js, Django, AdonisJS, solo developer",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/best-framework",
+      "@id": "https://mergesociety.com/code-report/best-framework",
     },
     about: [
       {

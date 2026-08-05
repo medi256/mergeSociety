@@ -33,21 +33,21 @@ export const metadata = {
   ],
 
   authors: [
-    { name: "Merge Society", url: "https://www.mergesociety.com/latest" },
+    { name: "Merge Society", url: "https://mergesociety.com/latest" },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest",
+    canonical: "https://mergesociety.com/latest",
   },
   openGraph: {
     title: "Merge Society | Latest in Tech",
     description:
       "Insight into the latest tech trends, Programming, AI, Robotics, and many  more  at your fingertips.",
 
-    url: "https://www.mergesociety.com/latest",
+    url: "https://mergesociety.com/latest",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

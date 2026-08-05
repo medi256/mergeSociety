@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Stop coding in tutorial hell. Learn why building projects for real users is the secret to landing your first developer job. From deployment to user feedback - here's how to stand out from 95% of CS grads.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "computer science career advice",
@@ -41,7 +41,7 @@ export const metadata = {
       "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
     description:
       "The brutal truth about CS education: localhost projects won't get you hired. Learn how building for real users accelerates your learning and makes you irresistible to recruiters.",
-    url: "https://www.mergesociety.com/code-report/real-world-coding-career-advice",
+    url: "https://mergesociety.com/code-report/real-world-coding-career-advice",
     siteName: "Merge Society",
     images: [
       {
@@ -72,7 +72,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -81,7 +81,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/code-report/real-world-coding-career-advice",
+      "https://mergesociety.com/code-report/real-world-coding-career-advice",
   },
 
   twitter: {
@@ -140,7 +140,7 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "Article",
       "@id":
-        "https://www.mergesociety.com/code-report/real-world-coding-career-advice",
+        "https://mergesociety.com/code-report/real-world-coding-career-advice",
       headline:
         "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
       alternativeHeadline:
@@ -157,16 +157,16 @@ export const metadata = {
       author: {
         "@type": "Person",
         name: "Massa Medi",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         sameAs: ["https://twitter.com/manager70191"],
       },
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 200,
           height: 200,
         },
@@ -174,7 +174,7 @@ export const metadata = {
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
-          "https://www.mergesociety.com/code-report/real-world-coding-career-advice",
+          "https://mergesociety.com/code-report/real-world-coding-career-advice",
       },
       articleSection: "Career Development",
       articleBody:

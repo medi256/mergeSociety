@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "React, event handling, functional components, button clicks, onClick, web development, JavaScript, programming, interactive applications",
   alternates: {
-    canonical: "https://www.mergesociety.com/react/event-handlers",
+    canonical: "https://mergesociety.com/react/event-handlers",
   },
 
   openGraph: {

@@ -14,7 +14,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/nesting-routes",
+    canonical: "https://mergesociety.com/react/nesting-routes",
   },
 
   keywords: [

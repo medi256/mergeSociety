@@ -16,7 +16,7 @@ export const metadata = {
     "web design tips",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-opacity",
+    canonical: "https://mergesociety.com/css/css-opacity",
   },
   openGraph: {
     title: "The Magic of Opacity in CSS",

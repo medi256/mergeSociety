@@ -15,7 +15,7 @@ export const metadata = {
     "constructor functions",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/prototypes",
+    canonical: "https://mergesociety.com/javascript/prototypes",
   },
 
   openGraph: {

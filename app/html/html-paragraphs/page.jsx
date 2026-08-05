@@ -10,7 +10,7 @@ export const metadata = {
   keywords:
     "HTML, HTML paragraphs, web development, improve readability, content structure, text formatting, coding for beginners, web design, SEO best practices, user engagement, HTML tutorial, web accessibility",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-paragraphs",
+    canonical: "https://mergesociety.com/html/html-paragraphs",
   },
   openGraph: {
     title:

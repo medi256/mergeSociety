@@ -31,7 +31,7 @@ export const metadata = {
       "How to Build a PC in 2025: Complete Parts Guide & Step-by-Step Instructions",
     description:
       "Everything you need to know about building a custom PC in 2025. From component selection to assembly, we cover the best CPU/GPU combos, cooling solutions, and expert tips.",
-    url: "https://www.mergesociety.com/tech/recommended-gaming-pc-builds",
+    url: "https://mergesociety.com/tech/recommended-gaming-pc-builds",
     siteName: "PC Builder",
     type: "article",
     images: [
@@ -70,12 +70,12 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/recommended-gaming-pc-builds",
+    canonical: "https://mergesociety.com/tech/recommended-gaming-pc-builds",
   },
 
   category: "PC Building",
@@ -119,7 +119,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "PC Hardware Specialist & Technical Writer",
     },
     publisher: {
@@ -127,7 +127,7 @@ export const metadata = {
       name: "PC Builder",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -139,7 +139,7 @@ export const metadata = {
     isAccessibleForFree: true,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/recommended-gaming-pc-builds",
+      "@id": "https://mergesociety.com/tech/recommended-gaming-pc-builds",
     },
     mainEntity: [
       {
@@ -185,13 +185,13 @@ export const metadata = {
         "@type": "ListItem",
         position: 1,
         name: "Tech News",
-        item: "https://www.mergesociety.com/tech",
+        item: "https://mergesociety.com/tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "How to Build a PC in 2025: PC Parts Explained, Step-by-Step Guide & Best CPU/GPU Combos",
-        item: "https://www.mergesociety.com/tech/recommended-gaming-pc-builds",
+        item: "https://mergesociety.com/tech/recommended-gaming-pc-builds",
       },
     ],
   },

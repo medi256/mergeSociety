@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Interview Coder lets candidates cheat live coding interviews in real-time using AI. See how Amazon, Meta recruiters are responding, what the Interviewing.io study reveals about cheating rates, and why the LeetCode era might be ending.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "leetcode cheating tool 2025",
@@ -45,7 +45,7 @@ export const metadata = {
       "The AI Tool That's Killing LeetCode: Inside the FAANG Interview Cheating Crisis",
     description:
       "This tool lets you screenshot interview questions and get instant AI solutions during live coding rounds. Amazon is freaking out. Recruiters know. The LeetCode era might be over.",
-    url: "https://www.mergesociety.com/startup-stories/interview-coder",
+    url: "https://mergesociety.com/startup-stories/interview-coder",
     siteName: "Merge Society",
     images: [
       {
@@ -82,7 +82,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -90,12 +90,12 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/interview-coder",
+    canonical: "https://mergesociety.com/startup-stories/interview-coder",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/interview-coder",
-      "es-ES": "https://www.mergesociety.com/startup-stories/interview-coder",
-      "zh-CN": "https://www.mergesociety.com/startup-stories/interview-coder",
-      "hi-IN": "https://www.mergesociety.com/startup-stories/interview-coder",
+      "en-US": "https://mergesociety.com/startup-stories/interview-coder",
+      "es-ES": "https://mergesociety.com/startup-stories/interview-coder",
+      "zh-CN": "https://mergesociety.com/startup-stories/interview-coder",
+      "hi-IN": "https://mergesociety.com/startup-stories/interview-coder",
     },
   },
 
@@ -173,7 +173,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Software Engineer & Tech Career Content Creator",
       description:
         "Known as Coding Jesus, creator of viral tech career content",
@@ -183,14 +183,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Interview Coder lets candidates cheat live coding interviews in real-time using AI. Investigation reveals how Amazon, Meta recruiters are responding and why the LeetCode era might be ending.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/interview-coder",
+      "@id": "https://mergesociety.com/startup-stories/interview-coder",
     },
     keywords:
       "interview coder, leetcode cheating, FAANG interviews, AI coding assistant, tech recruiting crisis",

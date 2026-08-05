@@ -17,7 +17,7 @@ export const metadata = {
     "javascript resources",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/why-javascript",
+    canonical: "https://mergesociety.com/javascript/why-javascript",
   },
 
   openGraph: {

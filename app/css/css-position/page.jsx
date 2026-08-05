@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "CSS position, static position, relative position, absolute position, fixed position, sticky position, CSS layout, web design tutorial, CSS examples",
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-position",
+    canonical: "https://mergesociety.com/css/css-position",
   },
   openGraph: {
     title: "CSS Position: Static, Relative, Absolute, Fixed, and Sticky",

@@ -33,7 +33,7 @@ export const metadata = {
       "UPDATED: The Secret Maps Inside AI - How Neural Networks Actually Think | June 2025",
     description:
       "Fresh insights into how AI models like AlexNet and ChatGPT organize knowledge in mysterious high-dimensional spaces. See the hidden geometric patterns that create artificial intelligence.",
-    url: "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+    url: "https://mergesociety.com/ai/we-stopped-understanding-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -77,7 +77,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society AI Research",
@@ -85,7 +85,7 @@ export const metadata = {
 
   // Canonical and alternates
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+    canonical: "https://mergesociety.com/ai/we-stopped-understanding-ai",
   },
 
   // Robots and indexing
@@ -121,7 +121,7 @@ export const metadata = {
     // Google Discover optimization
     news_keywords:
       "AI breakthrough, neural network visualization, embedding spaces, activation atlas, ChatGPT architecture, AlexNet explained",
-    standout: "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+    standout: "https://mergesociety.com/ai/we-stopped-understanding-ai",
 
     // Update signals
     "last-updated": "2025-06-30",
@@ -158,7 +158,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Dr. Alexandra Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "AI Research Director",
     },
     publisher: {
@@ -166,14 +166,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Explore how neural networks like AlexNet and ChatGPT organize knowledge in high-dimensional embedding spaces through activation atlases. Updated with latest 2025 research insights.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/we-stopped-understanding-ai",
+      "@id": "https://mergesociety.com/ai/we-stopped-understanding-ai",
     },
     keywords:
       "activation atlas, neural networks, embedding spaces, AlexNet, ChatGPT, AI visualization",

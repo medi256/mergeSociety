@@ -40,7 +40,7 @@ export const metadata = {
     title: "The Definitive Beginner's Guide to Picking Your Tech Stack in 2025",
     description:
       "Stop overengineering and start building! Learn which technologies you actually need for web, mobile, desktop, game, and AI development with this practical, no-nonsense guide.",
-    url: "https://www.mergesociety.com/code-report/tech-stack",
+    url: "https://mergesociety.com/code-report/tech-stack",
     siteName: "Tech Journeys",
     images: [
       {
@@ -72,18 +72,18 @@ export const metadata = {
   authors: [
     {
       name: "Jamie Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Tech Journeys",
   publisher: "Tech Journeys Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/tech-stack",
+    canonical: "https://mergesociety.com/code-report/tech-stack",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/tech-stack",
-      "es-ES": "https://www.mergesociety.com/code-report/tech-stack",
-      "fr-FR": "https://www.mergesociety.com/code-report/tech-stack",
-      "de-DE": "https://www.mergesociety.com/code-report/tech-stack",
+      "en-US": "https://mergesociety.com/code-report/tech-stack",
+      "es-ES": "https://mergesociety.com/code-report/tech-stack",
+      "fr-FR": "https://mergesociety.com/code-report/tech-stack",
+      "de-DE": "https://mergesociety.com/code-report/tech-stack",
     },
   },
   twitter: {
@@ -96,7 +96,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -157,14 +157,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jamie Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Tech Journeys Media",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -173,7 +173,7 @@ export const metadata = {
       "Tech Stack, Web Development, Mobile Development, Desktop Applications, Game Development, AI Development",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/tech-stack",
+      "@id": "https://mergesociety.com/code-report/tech-stack",
     },
     about: [
       {

@@ -20,7 +20,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/bom-intro",
+    canonical: "https://mergesociety.com/javascript/bom-intro",
   },
 
   openGraph: {

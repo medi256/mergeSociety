@@ -9,7 +9,7 @@ export const metadata = {
   keywords:
     "HTML document structure, web development, head and body tags, HTML basics, HTML elements, metadata, block-level elements, inline elements, front-end development",
   alternates: {
-    canonical: "https://www.mergesociety.com/html/html-document-structure",
+    canonical: "https://mergesociety.com/html/html-document-structure",
   },
   openGraph: {
     title: "HTML Document Structure: A Step-by-Step Guide | MergeSociety",

@@ -39,7 +39,7 @@ export const metadata = {
       "The Brutal Truth About CS Degrees : What They Don't Tell You Before Enrollment",
     description:
       "The unfiltered reality of computer science degrees—from soul-crushing first-year courses to the job hunt gauntlet. Is the student debt even worth it anymore?",
-    url: "https://www.mergesociety.com/tech/reality-of-cs",
+    url: "https://mergesociety.com/tech/reality-of-cs",
     siteName: "TechPath",
     images: [
       {
@@ -71,7 +71,7 @@ export const metadata = {
   authors: [
     {
       name: "Jordan Wei",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -79,11 +79,11 @@ export const metadata = {
   publisher: "TechPath",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/reality-of-cs",
+    canonical: "https://mergesociety.com/tech/reality-of-cs",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/reality-of-cs",
-      "es-ES": "https://www.mergesociety.com/tech/reality-of-cs",
-      "de-DE": "https://www.mergesociety.com/tech/reality-of-cs",
+      "en-US": "https://mergesociety.com/tech/reality-of-cs",
+      "es-ES": "https://mergesociety.com/tech/reality-of-cs",
+      "de-DE": "https://mergesociety.com/tech/reality-of-cs",
     },
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jordan Wei",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Tech Education Editor",
       description:
         "Former CS Teaching Assistant and Full-Stack Developer sharing unfiltered insights about tech education and career preparation",
@@ -161,14 +161,14 @@ export const metadata = {
       name: "TechPath",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "An honest, no-BS guide to what studying computer science is really like—from the soul-crushing first year to the capstone chaos and everything universities don't want you to know before you commit.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/reality-of-cs",
+      "@id": "https://mergesociety.com/tech/reality-of-cs",
     },
     keywords:
       "computer science degree, CS major experience, programming degree worth it, tech education truth",

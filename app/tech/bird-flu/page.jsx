@@ -36,7 +36,7 @@ export const metadata = {
       "ALERT: Bird Flu's Unprecedented Species Jump Threatens Pandemic — 70 Americans Infected as H5N1 Spreads Through US Farms",
     description:
       "Frontline experts warn of catastrophic pandemic potential as H5N1 bird flu makes unprecedented leap to dairy cattle and humans. Exclusive report reveals government delays, veterinarian struggles, and why this outbreak could 'make COVID look like a walk in the park.'",
-    url: "https://www.mergesociety.com/tech/bird-flu",
+    url: "https://mergesociety.com/tech/bird-flu",
     siteName: "Health Intelligence",
     images: [
       {
@@ -81,22 +81,22 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Sarah Martinez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "James Wilson",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Health Intelligence Investigative Team",
   publisher: "Health Intelligence Media Group",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/bird-flu",
+    canonical: "https://mergesociety.com/tech/bird-flu",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/bird-flu",
-      "es-ES": "https://www.mergesociety.com/tech/bird-flu",
-      "fr-FR": "https://www.mergesociety.com/tech/bird-flu",
-      "de-DE": "https://www.mergesociety.com/tech/bird-flu",
+      "en-US": "https://mergesociety.com/tech/bird-flu",
+      "es-ES": "https://mergesociety.com/tech/bird-flu",
+      "fr-FR": "https://mergesociety.com/tech/bird-flu",
+      "de-DE": "https://mergesociety.com/tech/bird-flu",
     },
   },
   twitter: {
@@ -170,13 +170,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Dr. Sarah Martinez",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Medical Correspondent",
       },
       {
         "@type": "Person",
         name: "James Wilson",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Investigative Reporter",
       },
     ],
@@ -185,14 +185,14 @@ export const metadata = {
       name: "Health Intelligence",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Exclusive investigation reveals how H5N1 bird flu has jumped from birds to dairy cattle and humans, with 70 Americans infected and growing pandemic concerns as government response lags behind the rapidly evolving threat.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/bird-flu",
+      "@id": "https://mergesociety.com/tech/bird-flu",
     },
     keywords:
       "H5N1 bird flu, pandemic threat, cattle infection, public health crisis",

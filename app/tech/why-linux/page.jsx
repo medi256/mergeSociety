@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover why Linux dominates servers while only 4% of PC users have embraced it. Learn essential Linux concepts, commands, and skills to boost your tech career and master this powerful open-source operating system in 2025.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "linux beginner guide 2025",
@@ -46,7 +46,7 @@ export const metadata = {
       "Why Linux Matters: The Complete Beginner's Guide to Mastering Linux in 2025",
     description:
       "Learn why Linux dominates the server world while only 4% of PC users have embraced it. Master essential Linux concepts, commands, and skills with our comprehensive beginner-friendly guide.",
-    url: "https://www.mergesociety.com/tech/why-linux",
+    url: "https://mergesociety.com/tech/why-linux",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Linux Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,9 +86,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/why-linux",
+    canonical: "https://mergesociety.com/tech/why-linux",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/why-linux",
+      "en-US": "https://mergesociety.com/tech/why-linux",
     },
   },
 
@@ -162,7 +162,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Linux Expert",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Linux System Administrator",
       description:
         "Certified Linux instructor with 15+ years of system administration experience",
@@ -172,14 +172,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn why Linux dominates servers while only 4% of PC users have embraced it. Master essential Linux concepts, commands, and skills to boost your tech career.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/why-linux",
+      "@id": "https://mergesociety.com/tech/why-linux",
     },
     keywords:
       "linux, beginner guide, bash, terminal, command line, operating system, open source",

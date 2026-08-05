@@ -35,7 +35,7 @@ export const metadata = {
     "AI tutoring apps",
     "learning acceleration",
   ],
-  authors: [{ name: "Medi", url: "https://www.mergesociety.com/about" }],
+  authors: [{ name: "Medi", url: "https://mergesociety.com/about" }],
   creator: "MergeSociety",
   publisher: "MergeSociety",
   robots: {
@@ -56,7 +56,7 @@ export const metadata = {
       "Best AI Apps for Studying: 8 Game-Changing Tools That Make Learning Lightning-Fast in 2025",
     description:
       "Discover 8 AI-powered study apps that help you learn 10x faster. From visual note-taking with Traverse to instant flashcards with Recall - transform your study routine today.",
-    url: "https://www.mergesociety.com/ai/best-ai-apps",
+    url: "https://mergesociety.com/ai/best-ai-apps",
     siteName: "MergeSociety",
     images: [
       {
@@ -92,14 +92,14 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/best-ai-apps",
+    canonical: "https://mergesociety.com/ai/best-ai-apps",
   },
   category: "Technology",
   other: {
     "article:section": "AI Tools",
     "article:tag": "AI,Study Tools,Learning,Productivity,Education Technology",
     "article:author": "Medi",
-    "article:publisher": "https://www.mergesociety.com",
+    "article:publisher": "https://mergesociety.com",
   },
 };
 

@@ -12,7 +12,7 @@ export const metadata = {
     "JSX, JavaScript XML, React, React tutorials, learn JSX, web development, front-end development, JavaScript, UI development",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/jsx-intro",
+    canonical: "https://mergesociety.com/react/jsx-intro",
   },
 
   openGraph: {

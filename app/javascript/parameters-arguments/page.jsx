@@ -20,7 +20,7 @@ export const metadata = {
     "javascript tutorials",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/parameters-arguments",
+    canonical: "https://mergesociety.com/javascript/parameters-arguments",
   },
 
   openGraph: {

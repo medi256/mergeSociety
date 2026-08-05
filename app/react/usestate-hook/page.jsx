@@ -17,7 +17,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/usestate-hook",
+    canonical: "https://mergesociety.com/react/usestate-hook",
   },
 
   openGraph: {

@@ -31,7 +31,7 @@ export const metadata = {
       "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
     description:
       "From solving protein folding to developing AI that can see, hear, and understand our world, DeepMind CEO Demis Hassabis is leading the race toward artificial general intelligence—and potentially reshaping humanity's future.",
-    url: "https://www.mergesociety.com/ai/whats-next",
+    url: "https://mergesociety.com/ai/whats-next",
     siteName: "Future Intelligence",
     images: [
       {
@@ -62,19 +62,19 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Sophia Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       role: "Senior AI Correspondent",
     },
   ],
   creator: "Future Intelligence Editorial Team",
   publisher: "Future Intelligence Media",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/whats-next",
+    canonical: "https://mergesociety.com/ai/whats-next",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/whats-next",
-      "zh-CN": "https://www.mergesociety.com/ai/whats-next",
-      "es-ES": "https://www.mergesociety.com/ai/whats-next",
-      "hi-IN": "https://www.mergesociety.com/ai/whats-next",
+      "en-US": "https://mergesociety.com/ai/whats-next",
+      "zh-CN": "https://mergesociety.com/ai/whats-next",
+      "es-ES": "https://mergesociety.com/ai/whats-next",
+      "hi-IN": "https://mergesociety.com/ai/whats-next",
     },
   },
   twitter: {
@@ -87,7 +87,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -158,7 +158,7 @@ export const metadata = {
       "@type": "Person",
       name: "Dr. Sophia Chen",
       jobTitle: "Senior AI Correspondent",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
@@ -174,7 +174,7 @@ export const metadata = {
       "Demis Hassabis, DeepMind, Artificial General Intelligence, AlphaFold, Project Astra, AI Ethics, Nobel Prize",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/whats-next",
+      "@id": "https://mergesociety.com/ai/whats-next",
     },
     about: [
       {

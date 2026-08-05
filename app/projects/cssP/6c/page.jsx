@@ -25,7 +25,7 @@ export const metadata = {
     "beginner css project",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/cssP/6c",
+    canonical: "https://mergesociety.com/projects/cssP/6c",
   },
 
   openGraph: {

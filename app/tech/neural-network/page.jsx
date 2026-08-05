@@ -36,7 +36,7 @@ export const metadata = {
       "EXPLAINED: The Actual Truth About Neural Networks & Deep Learning | May 2025 Beginner Guide",
     description:
       "May Day special: Finally understand neural networks without the complex math. Discover how computers recognize handwritten digits, why layered networks create intelligence, and the beautiful intuition behind deep learning's true power.",
-    url: "https://www.mergesociety.com/tech/neural-network",
+    url: "https://mergesociety.com/tech/neural-network",
     siteName: "Advanced AI Learning Insights",
     images: [
       {
@@ -71,24 +71,24 @@ export const metadata = {
   authors: [
     {
       name: "Dr. Maya Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     {
       name: "Prof. James Liu",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "AI Educational Initiative",
   publisher: "Tech Explained Learning Hub",
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/neural-network",
+    canonical: "https://mergesociety.com/tech/neural-network",
     languages: {
-      "en-US": "https://www.mergesociety.com/tech/neural-network",
-      "zh-CN": "https://www.mergesociety.com/tech/neural-network",
-      "de-DE": "https://www.mergesociety.com/tech/neural-network",
-      "fr-FR": "https://www.mergesociety.com/tech/neural-network",
-      "es-ES": "https://www.mergesociety.com/tech/neural-network",
-      "ja-JP": "https://www.mergesociety.com/tech/neural-network",
+      "en-US": "https://mergesociety.com/tech/neural-network",
+      "zh-CN": "https://mergesociety.com/tech/neural-network",
+      "de-DE": "https://mergesociety.com/tech/neural-network",
+      "fr-FR": "https://mergesociety.com/tech/neural-network",
+      "es-ES": "https://mergesociety.com/tech/neural-network",
+      "ja-JP": "https://mergesociety.com/tech/neural-network",
     },
   },
   twitter: {
@@ -155,13 +155,13 @@ export const metadata = {
       {
         "@type": "Person",
         name: "Dr. Maya Rodriguez",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "AI Research Scientist",
       },
       {
         "@type": "Person",
         name: "Prof. James Liu",
-        url: "https://www.mergesociety.com/about",
+        url: "https://mergesociety.com/about",
         jobTitle: "Professor of Computer Science",
       },
     ],
@@ -170,14 +170,14 @@ export const metadata = {
       name: "Tech Explained Learning Hub",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Revolutionary explanation of neural networks without the math jargon. Learn how computers recognize handwritten digits, why layered networks create intelligence, and the beautiful intuition behind deep learning's true power.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/neural-network",
+      "@id": "https://mergesociety.com/tech/neural-network",
     },
     keywords:
       "neural networks, deep learning, machine learning, pattern recognition",

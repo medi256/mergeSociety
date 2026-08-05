@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Discover Linus Torvalds' pragmatic take on how AI and LLMs are transforming software development in 2025. Is AI-generated code already among us, and how will it reshape the future of programming?",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "linus torvalds ai programming 2025",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Torvalds on AI Programming: Revolution or Just Evolution?",
     description:
       "Cutting through the AI hype: Linus Torvalds offers a balanced perspective on how large language models are changing software development while highlighting both possibilities and pitfalls for programmers.",
-    url: "https://www.mergesociety.com/ai/tovard-on-ai",
+    url: "https://mergesociety.com/ai/tovard-on-ai",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   authors: [
     {
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -84,13 +84,13 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/tovard-on-ai",
+    canonical: "https://mergesociety.com/ai/tovard-on-ai",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/tovard-on-ai",
-      "es-ES": "https://www.mergesociety.com/ai/tovard-on-ai",
-      "de-DE": "https://www.mergesociety.com/ai/tovard-on-ai",
-      "fr-FR": "https://www.mergesociety.com/ai/tovard-on-ai",
-      "ja-JP": "https://www.mergesociety.com/ai/tovard-on-ai",
+      "en-US": "https://mergesociety.com/ai/tovard-on-ai",
+      "es-ES": "https://mergesociety.com/ai/tovard-on-ai",
+      "de-DE": "https://mergesociety.com/ai/tovard-on-ai",
+      "fr-FR": "https://mergesociety.com/ai/tovard-on-ai",
+      "ja-JP": "https://mergesociety.com/ai/tovard-on-ai",
     },
   },
 
@@ -158,7 +158,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Alex Chen",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Software Engineer",
       description:
         "AI integration specialist with focus on developer productivity and tool automation",
@@ -168,14 +168,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover Linus Torvalds' pragmatic take on how AI and LLMs are transforming software development in 2025. Is AI-generated code already among us, and how will it reshape the future of programming?",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/tovard-on-ai",
+      "@id": "https://mergesociety.com/ai/tovard-on-ai",
     },
     keywords:
       "artificial intelligence, programming, linus torvalds, large language models, software development, code generation, ai code review",

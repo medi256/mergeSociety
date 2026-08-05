@@ -18,7 +18,7 @@ export const metadata = {
     "opacity",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-colors",
+    canonical: "https://mergesociety.com/css/css-colors",
   },
   openGraph: {
     title: "Master CSS Colors for Web Design",

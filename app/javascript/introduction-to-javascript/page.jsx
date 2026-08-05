@@ -19,7 +19,7 @@ export const metadata = {
   ],
   alternates: {
     canonical:
-      "https://www.mergesociety.com/javascript/introduction-to-javascript",
+      "https://mergesociety.com/javascript/introduction-to-javascript",
   },
   openGraph: {
     title: "Master JavaScript: The Essential Language for Web Developers",

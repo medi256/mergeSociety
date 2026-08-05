@@ -17,7 +17,7 @@ export const metadata = {
     "styling all elements",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-universal-selector",
+    canonical: "https://mergesociety.com/css/css-universal-selector",
   },
 
   openGraph: {

@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Dive into the reality of CS degrees in 2025 - from landing tech jobs to surviving layoffs. Discover if studying computer science is worth it with honest insights, practical advice, and sloth-level humor for aspiring developers.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "computer science degree 2025",
@@ -46,7 +46,7 @@ export const metadata = {
       "Should You Study Computer Science in 2025? Brutal Honesty With Sloth-Level Humor",
     description:
       "The unfiltered truth about CS degrees in today's tech market. Discover if the theory, networking, and opportunities are worth the investment - with practical advice for landing your first tech job.",
-    url: "https://www.mergesociety.com/tech/cs-major",
+    url: "https://mergesociety.com/tech/cs-major",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Jamie Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
   publisher: "Merge Society Career Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/cs-major",
+    canonical: "https://mergesociety.com/tech/cs-major",
   },
 
   twitter: {
@@ -155,7 +155,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Jamie Rodriguez",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Career Advisor",
       description:
         "Former tech recruiter with 7+ years of experience helping CS graduates land jobs",
@@ -165,14 +165,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Dive into the reality of CS degrees in 2025 - from landing tech jobs to surviving layoffs. Discover if studying computer science is worth it with honest insights and practical advice.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/tech/cs-major",
+      "@id": "https://mergesociety.com/tech/cs-major",
     },
     keywords:
       "computer science degree, tech careers, programming jobs, CS education, tech industry 2025",

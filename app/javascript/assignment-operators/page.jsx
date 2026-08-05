@@ -19,7 +19,7 @@ export const metadata = {
     "Variable Updates",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/javascript/assignment-operators",
+    canonical: "https://mergesociety.com/javascript/assignment-operators",
   },
   openGraph: {
     title: "Mastering JavaScript Assignment Operators",

@@ -62,7 +62,7 @@ export const metadata = {
   authors: [
     {
       name: "Merge Society",
-      url: "https://www.mergesociety.com/startup-stories",
+      url: "https://mergesociety.com/startup-stories",
     },
   ],
   creator: "Merge Society",
@@ -70,14 +70,14 @@ export const metadata = {
   applicationName: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories",
+    canonical: "https://mergesociety.com/startup-stories",
   },
   openGraph: {
     title: "Merge Society | Startup Stories",
     description:
       "Discover real startup journeys, challenges, and success stories to inspire your own path and learn what it really takes to build something great.",
 
-    url: "https://www.mergesociety.com/startup-stories",
+    url: "https://mergesociety.com/startup-stories",
     siteName: "Merge Society",
     type: "website",
     locale: "en_US",

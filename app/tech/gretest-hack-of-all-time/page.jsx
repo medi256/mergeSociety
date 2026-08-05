@@ -39,7 +39,7 @@ export const metadata = {
       "Shadow Brokers NSA Hack: The EternalBlue Story That Led to WannaCry",
     description:
       "How a mysterious group hacked the NSA's elite Equation Group, leaked powerful cyber weapons, and triggered the global WannaCry crisis. The complete timeline.",
-    url: "https://www.mergesociety.com/tech/gretest-hack-of-all-time",
+    url: "https://mergesociety.com/tech/gretest-hack-of-all-time",
     siteName: "Merge Society",
     type: "article",
     images: [
@@ -99,7 +99,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/tech/gretest-hack-of-all-time",
+    canonical: "https://mergesociety.com/tech/gretest-hack-of-all-time",
   },
 };
 
@@ -122,14 +122,14 @@ export const jsonLd = {
     name: "Merge Society",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   datePublished: "2025-08-29T00:00:00.000Z",
   dateModified: "2025-08-29T00:00:00.000Z",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/tech/gretest-hack-of-all-time",
+    "@id": "https://mergesociety.com/tech/gretest-hack-of-all-time",
   },
   articleSection: "Cybersecurity",
   keywords:

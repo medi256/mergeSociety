@@ -13,7 +13,7 @@ export const metadata = {
   description:
     "Discover the difference between APIs and SDKs, how they work together to streamline cloud application development, and why understanding both is crucial for modern developers.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "APIs vs SDKs explained 2025",
@@ -49,7 +49,7 @@ export const metadata = {
     title: "APIs vs SDKs: The Powerful Duo Behind Modern Cloud Applications",
     description:
       "Learn how APIs and SDKs work together to streamline development workflows with real-world examples and practical implementation strategies for cloud applications.",
-    url: "https://www.mergesociety.com/code-report/sdk-vs-api",
+    url: "https://mergesociety.com/code-report/sdk-vs-api",
     siteName: "Merge Society Tech Insights",
     images: [
       {
@@ -81,7 +81,7 @@ export const metadata = {
   authors: [
     {
       name: "Nathan Heckman",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -89,13 +89,13 @@ export const metadata = {
   publisher: "Merge Society Learning Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/sdk-vs-api",
+    canonical: "https://mergesociety.com/code-report/sdk-vs-api",
     languages: {
-      "en-US": "https://www.mergesociety.com/code-report/sdk-vs-api",
-      "es-ES": "https://www.mergesociety.com/code-report/sdk-vs-api",
-      "de-DE": "https://www.mergesociety.com/code-report/sdk-vs-api",
-      "fr-FR": "https://www.mergesociety.com/code-report/sdk-vs-api",
-      "zh-CN": "https://www.mergesociety.com/code-report/sdk-vs-api",
+      "en-US": "https://mergesociety.com/code-report/sdk-vs-api",
+      "es-ES": "https://mergesociety.com/code-report/sdk-vs-api",
+      "de-DE": "https://mergesociety.com/code-report/sdk-vs-api",
+      "fr-FR": "https://mergesociety.com/code-report/sdk-vs-api",
+      "zh-CN": "https://mergesociety.com/code-report/sdk-vs-api",
     },
   },
 
@@ -165,14 +165,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Nathan Heckman",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Cloud Solutions Architect",
       description:
         "Cloud architecture specialist with expertise in API integration and modern application development",
       affiliation: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
       },
     },
     publisher: {
@@ -180,14 +180,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Learn the differences between APIs and SDKs, how they work together to enable modern cloud applications, and see real-world implementation examples with this comprehensive, accessible guide.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/code-report/sdk-vs-api",
+      "@id": "https://mergesociety.com/code-report/sdk-vs-api",
     },
     keywords:
       "APIs, SDKs, cloud development, integration, REST API, developer tools, HTTP methods, mobile development",

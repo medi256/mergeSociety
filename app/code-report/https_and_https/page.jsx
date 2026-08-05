@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Learn how HTTP, HTTPS, SSL, and TLS work to protect your data online. Understand encryption, certificates, browser security indicators, and why the padlock matters in 2025.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "http vs https",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "HTTP vs HTTPS: Complete SSL/TLS Security Guide 2025",
     description:
       "Master web security fundamentals. Learn how HTTPS, SSL, and TLS protect your data with encryption, why browsers show padlocks, and how to secure your own website.",
-    url: "https://www.mergesociety.com/code-report/https_and_https",
+    url: "https://mergesociety.com/code-report/https_and_https",
     siteName: "Merge Society",
     images: [
       {
@@ -84,7 +84,7 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/https_and_https",
+    canonical: "https://mergesociety.com/code-report/https_and_https",
   },
 
   twitter: {
@@ -172,7 +172,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "@id": "https://www.mergesociety.com/code-report/https_and_https",
+      "@id": "https://mergesociety.com/code-report/https_and_https",
       headline: "HTTP vs HTTPS Explained: SSL/TLS Security Guide 2025",
       alternativeHeadline:
         "Complete Guide to HTTPS, SSL, TLS and Web Encryption",
@@ -195,10 +195,10 @@ export const metadata = {
       publisher: {
         "@type": "Organization",
         name: "Merge Society",
-        url: "https://www.mergesociety.com",
+        url: "https://mergesociety.com",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.mergesociety.com/MS.png",
+          url: "https://mergesociety.com/MS.png",
           width: 300,
           height: 100,
         },
@@ -207,7 +207,7 @@ export const metadata = {
         "Comprehensive tutorial explaining HTTP, HTTPS, SSL, and TLS protocols. Learn how encryption protects data, how certificates work, and why browsers display security indicators.",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://www.mergesociety.com/code-report/https_and_https",
+        "@id": "https://mergesociety.com/code-report/https_and_https",
       },
       keywords:
         "HTTP, HTTPS, SSL, TLS, encryption, web security, certificates, browser security, data protection",
@@ -367,19 +367,19 @@ export const metadata = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.mergesociety.com",
+          item: "https://mergesociety.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Tech",
-          item: "https://www.mergesociety.com/tech",
+          item: "https://mergesociety.com/tech",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "HTTP vs HTTPS Guide",
-          item: "https://www.mergesociety.com/code-report/https_and_https",
+          item: "https://mergesociety.com/code-report/https_and_https",
         },
       ],
     },

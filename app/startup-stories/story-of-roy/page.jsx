@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Roy, founder of Cluely, built Interview Coder to expose broken tech interviews. Got kicked out of Columbia, went viral, raised $5.3M from Abstract Ventures. Here's the complete story of how a controversial cheating tool became the future of AI interaction.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "roy cluely founder story",
@@ -45,7 +45,7 @@ export const metadata = {
       "I Got Kicked Out of Columbia for Building an AI That Cheats Interviews - Here's What Happened Next",
     description:
       "From Columbia student to $5M ARR founder. Roy built Interview Coder, got expelled, went viral, and raised $5.3M to build Cluely - the translucent AI overlay that's redefining how humans think with machines.",
-    url: "https://www.mergesociety.com/startup-stories/story-of-roy",
+    url: "https://mergesociety.com/startup-stories/story-of-roy",
     siteName: "Merge Society",
     images: [
       {
@@ -82,7 +82,7 @@ export const metadata = {
   authors: [
     {
       name: "Massa Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -90,9 +90,9 @@ export const metadata = {
   publisher: "Merge Society",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/startup-stories/story-of-roy",
+    canonical: "https://mergesociety.com/startup-stories/story-of-roy",
     languages: {
-      "en-US": "https://www.mergesociety.com/startup-stories/story-of-roy",
+      "en-US": "https://mergesociety.com/startup-stories/story-of-roy",
     },
   },
 
@@ -187,14 +187,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "First-person account from Roy, who built Interview Coder to expose broken tech interviews, got expelled from Columbia University, went viral, and raised $5.3M to build Cluely - the future of AI interaction.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/startup-stories/story-of-roy",
+      "@id": "https://mergesociety.com/startup-stories/story-of-roy",
     },
     keywords:
       "cluely, interview coder, columbia expulsion, AI startup, controversial founder, abstract ventures, viral marketing",

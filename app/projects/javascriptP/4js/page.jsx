@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Learn how to create a weather app that fetches real-time weather data from an API. This step-by-step tutorial covers working with APIs, handling async functions, and displaying data on your webpage. Perfect for beginners!",
   alternates: {
-    canonical: "https://www.mergesociety.com/projects/javascriptP/4js",
+    canonical: "https://mergesociety.com/projects/javascriptP/4js",
   },
   openGraph: {
     title: "Build a Weather App with API | Beginner-Friendly Tutorial",

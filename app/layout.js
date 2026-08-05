@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://mergesociety.com"),
   title: "Code Report | AI, Tech, Interviews, and Startup Stories",
   description:
     "Merge Society is an  online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.",
@@ -112,29 +113,24 @@ export const metadata = {
     "interview preparation resources",
     "interview preparation books",
   ],
-  authors: [{ name: "Merge Society", url: "https://www.mergesociety.com" }],
+  authors: [{ name: "Merge Society", url: "https://mergesociety.com" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
 
-  // alternates: {
-  //   canonical: "https://www.mergesociety.com",
-  // },
-
-  verification: {
-    google:
-      "google-site-verification=JlxC9N5oHsGriWNjRtWihmn3C0eCXD9ei1rcdihpZL4",
-    bing: "6eb2ef8d3996f66caeecf3d7cef9b4ae",
-    other: {
-      me: ["mailto:managersebowa4525@gmail.com"],
-    },
+  alternates: {
+    canonical: "https://mergesociety.com",
   },
 
+  verification: {
+    google: "JlxC9N5oHsGriWNjRtWihmn3C0eCXD9ei1rcdihpZL4",
+    bing: "6eb2ef8d3996f66caeecf3d7cef9b4ae",
+  },
   openGraph: {
     title: "Merge Society | AI, Tech, Interviews, and Startup Stories",
     description:
       "Merge Society is an online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.",
-    url: "https://www.mergesociety.com",
+    url: "https://mergesociety.com",
     siteName: "Merge Society",
     locale: "en_US",
     type: "website",
@@ -189,7 +185,7 @@ export default function RootLayout({ children }) {
               "@type": "ListItem",
               position: 1,
               item: {
-                "@id": "https://www.mergesociety.com",
+                "@id": "https://mergesociety.com",
                 name: "Home",
               },
             },
@@ -197,7 +193,7 @@ export default function RootLayout({ children }) {
               "@type": "ListItem",
               position: 2,
               item: {
-                "@id": "https://www.mergesociety.com/code-report",
+                "@id": "https://mergesociety.com/code-report",
                 name: "Code Report",
               },
             },
@@ -205,8 +201,7 @@ export default function RootLayout({ children }) {
               "@type": "ListItem",
               position: 3,
               item: {
-                "@id":
-                  "https://www.mergesociety.com/code-report/mongodb-explained",
+                "@id": "https://mergesociety.com/code-report/mongodb-explained",
                 name: "MongoDB : The Evolution of NoSQL Databases",
               },
             },

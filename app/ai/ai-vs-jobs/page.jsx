@@ -31,7 +31,7 @@ export const metadata = {
       "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
     description:
       "As AI devours programming jobs and tech companies slash workforces, discover why Bitcoin and stablecoins represent better wealth-building opportunities than traditional coding careers in today's rapidly shifting landscape.",
-    url: "https://www.mergesociety.com/ai/ai-vs-jobs",
+    url: "https://mergesociety.com/ai/ai-vs-jobs",
     siteName: "Future Tech Perspectives",
     images: [
       {
@@ -62,19 +62,19 @@ export const metadata = {
   authors: [
     {
       name: "Alex Fintech",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       role: "Technology Futurist & Cryptocurrency Analyst",
     },
   ],
   creator: "Future Tech Perspectives Editorial Team",
   publisher: "Future Tech Media Group",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/ai-vs-jobs",
+    canonical: "https://mergesociety.com/ai/ai-vs-jobs",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/ai-vs-jobs",
-      "es-ES": "https://www.mergesociety.com/ai/ai-vs-jobs",
-      "fr-FR": "https://www.mergesociety.com/ai/ai-vs-jobs",
-      "zh-CN": "https://www.mergesociety.com/ai/ai-vs-jobs",
+      "en-US": "https://mergesociety.com/ai/ai-vs-jobs",
+      "es-ES": "https://mergesociety.com/ai/ai-vs-jobs",
+      "fr-FR": "https://mergesociety.com/ai/ai-vs-jobs",
+      "zh-CN": "https://mergesociety.com/ai/ai-vs-jobs",
     },
   },
   twitter: {
@@ -88,7 +88,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -160,14 +160,14 @@ export const metadata = {
       "@type": "Person",
       name: "Alex Fintech",
       jobTitle: "Technology Futurist & Cryptocurrency Analyst",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Future Tech Media Group",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -176,7 +176,7 @@ export const metadata = {
       "AI Programming Disruption, Bitcoin Investment Strategy, Tech Career Future, Coding Obsolescence, Cryptocurrency Opportunity",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/ai-vs-jobs",
+      "@id": "https://mergesociety.com/ai/ai-vs-jobs",
     },
     about: [
       {

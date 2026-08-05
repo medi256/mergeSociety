@@ -87,7 +87,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/code-report/how-linux-is-created",
+    canonical: "https://mergesociety.com/code-report/how-linux-is-created",
   },
 
   category: "Technology",
@@ -114,12 +114,12 @@ export const structuredData = {
     name: "Massa Medi",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.mergesociety.com/MS.png",
+      url: "https://mergesociety.com/MS.png",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.mergesociety.com/code-report/how-linux-is-created",
+    "@id": "https://mergesociety.com/code-report/how-linux-is-created",
   },
   articleSection: "Technology",
   keywords:

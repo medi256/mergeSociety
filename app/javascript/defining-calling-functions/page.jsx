@@ -20,7 +20,7 @@ export const metadata = {
   ],
   alternates: {
     canonical:
-      "https://www.mergesociety.com/javascript/defining-calling-functions",
+      "https://mergesociety.com/javascript/defining-calling-functions",
   },
 
   openGraph: {

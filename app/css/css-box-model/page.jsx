@@ -21,7 +21,7 @@ export const metadata = {
     "Web Development",
   ],
   alternates: {
-    canonical: "https://www.mergesociety.com/css/css-box-model",
+    canonical: "https://mergesociety.com/css/css-box-model",
   },
   author: "MergeSociety",
   date: new Date().toISOString(),

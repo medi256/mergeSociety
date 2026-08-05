@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Master full stack web development with our comprehensive roadmap. Learn HTML, CSS, JavaScript, backend technologies, databases, and deployment strategies for 2025 and beyond.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "full stack developer roadmap",
@@ -40,7 +40,7 @@ export const metadata = {
       "Full Stack Developer Roadmap 2025: Master Web Development in 4 Months [Complete Guide]",
     description:
       "Stop feeling overwhelmed by web development! Our step-by-step roadmap breaks down HTML, CSS, JavaScript, backend technologies, and deployment strategies for beginners. Updated with 2025 best practices.",
-    url: "https://www.mergesociety.com/latest/full-stack-developer-roadmap",
+    url: "https://mergesociety.com/latest/full-stack-developer-roadmap",
     siteName: "Merge Society",
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -85,10 +85,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.mergesociety.com/latest/full-stack-developer-roadmap",
+      "https://mergesociety.com/latest/full-stack-developer-roadmap",
     languages: {
       "en-US":
-        "https://www.mergesociety.com/latest/full-stack-developer-roadmap",
+        "https://mergesociety.com/latest/full-stack-developer-roadmap",
     },
   },
 
@@ -158,7 +158,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "Senior Full Stack Developer & Technical Educator",
       description:
         "Experienced developer specializing in teaching web development and software architecture",
@@ -168,14 +168,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Master full stack web development with our comprehensive roadmap. Learn HTML, CSS, JavaScript, backend technologies, databases, and deployment strategies for 2025 and beyond.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/full-stack-developer-roadmap",
+      "@id": "https://mergesociety.com/latest/full-stack-developer-roadmap",
     },
     keywords:
       "full stack development, web development, frontend, backend, HTML, CSS, JavaScript, React, Node.js, databases, deployment",

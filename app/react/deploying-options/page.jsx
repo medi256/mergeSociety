@@ -11,7 +11,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/react/deploying-options",
+    canonical: "https://mergesociety.com/react/deploying-options",
   },
 
   keywords: [

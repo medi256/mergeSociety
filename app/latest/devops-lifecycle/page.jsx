@@ -39,7 +39,7 @@ export const metadata = {
       "DevOps Explained: Complete Lifecycle Guide with Real-World Examples",
     description:
       "Learn DevOps from planning to monitoring with practical examples, tool breakdowns, and Netflix case studies. Master Jenkins, Docker, Kubernetes, and more.",
-    url: "https://www.mergesociety.com/latest/devops-lifecycle",
+    url: "https://mergesociety.com/latest/devops-lifecycle",
     siteName: "Merge Society",
     images: [
       {
@@ -100,7 +100,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/devops-lifecycle",
+    canonical: "https://mergesociety.com/latest/devops-lifecycle",
   },
 };
 

@@ -35,7 +35,7 @@ export const metadata = {
     title: "C vs C++ vs C#: Complete Programming Languages Comparison Guide",
     description:
       "Master the differences between C, C++, and C# with practical examples, syntax comparisons, and real-world use cases. Perfect guide for developers choosing their next language.",
-    url: "https://www.mergesociety.com/latest/c-vs-cpp-vs-csharp",
+    url: "https://mergesociety.com/latest/c-vs-cpp-vs-csharp",
     siteName: "Merge Society",
     images: [
       {
@@ -79,7 +79,7 @@ export const metadata = {
   classification: "Programming Tutorial",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/c-vs-cpp-vs-csharp",
+    canonical: "https://mergesociety.com/latest/c-vs-cpp-vs-csharp",
   },
 
   other: {

@@ -30,7 +30,7 @@ export const metadata = {
     title: "Google's AI Essentials Course: 5 Key Lessons & Honest Review",
     description:
       "An expert breakdown of Google's AI Essentials course: what you'll learn, who it's really for, and whether the certificate is worth your $49 investment.",
-    url: "https://www.mergesociety.com/ai/google-ais",
+    url: "https://mergesociety.com/ai/google-ais",
     siteName: "Merge Society",
     images: [
       {
@@ -61,15 +61,15 @@ export const metadata = {
   authors: [
     {
       name: "AI Educator",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical: "https://www.mergesociety.com/ai/google-ais",
+    canonical: "https://mergesociety.com/ai/google-ais",
     languages: {
-      "en-US": "https://www.mergesociety.com/ai/google-ais",
+      "en-US": "https://mergesociety.com/ai/google-ais",
     },
   },
   twitter: {
@@ -83,7 +83,7 @@ export const metadata = {
       "https://img.mergesociety.com/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
     ],
   },
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
   robots: {
     index: true,
     follow: true,
@@ -130,14 +130,14 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "AI Educator",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
@@ -162,7 +162,7 @@ export const metadata = {
       "Google AI Essentials, course review, prompt engineering, AI certification",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/ai/google-ais",
+      "@id": "https://mergesociety.com/ai/google-ais",
     },
     mentions: [
       {

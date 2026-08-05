@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Discover the top programming languages for AI and ML in 2025: Python, R, Julia, Java, and JavaScript. Comprehensive analysis of strengths and limitations for each language to help you choose the right tool for your AI project or career path.",
 
-  metadataBase: new URL("https://www.mergesociety.com"),
+  metadataBase: new URL("https://mergesociety.com"),
 
   keywords: [
     "best programming languages for AI 2025",
@@ -41,7 +41,7 @@ export const metadata = {
       "Top 5 Programming Languages for AI and Machine Learning in 2025 [Expert Guide]",
     description:
       "Comprehensive analysis of Python, R, Julia, Java, and JavaScript for AI development. Discover each language's strengths and limitations to choose the right tool for your artificial intelligence projects.",
-    url: "https://www.mergesociety.com/latest/top-languages-for-ai-2025",
+    url: "https://mergesociety.com/latest/top-languages-for-ai-2025",
     siteName: "Merge Society",
     images: [
       {
@@ -78,7 +78,7 @@ export const metadata = {
   authors: [
     {
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
     },
   ],
 
@@ -86,7 +86,7 @@ export const metadata = {
   publisher: "Merge Society Platform",
 
   alternates: {
-    canonical: "https://www.mergesociety.com/latest/top-languages-for-ai-2025",
+    canonical: "https://mergesociety.com/latest/top-languages-for-ai-2025",
   },
 
   twitter: {
@@ -153,7 +153,7 @@ export const metadata = {
     author: {
       "@type": "Person",
       name: "Medi",
-      url: "https://www.mergesociety.com/about",
+      url: "https://mergesociety.com/about",
       jobTitle: "AI Developer & Technology Educator",
       description:
         "Specializing in artificial intelligence development and programming education",
@@ -163,14 +163,14 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.mergesociety.com/MS.png",
+        url: "https://mergesociety.com/MS.png",
       },
     },
     description:
       "Discover the top programming languages for AI and ML in 2025: Python, R, Julia, Java, and JavaScript. Comprehensive analysis of strengths and limitations for each language to help you choose the right tool for your AI project or career path.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.mergesociety.com/latest/top-languages-for-ai-2025",
+      "@id": "https://mergesociety.com/latest/top-languages-for-ai-2025",
     },
     keywords:
       "AI programming languages, machine learning development, Python for AI, R language data science, Julia AI development, Java machine learning, JavaScript AI frameworks",
