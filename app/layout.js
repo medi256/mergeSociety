@@ -222,6 +222,10 @@ export default function RootLayout({ children }) {
         data-cfasync="false"
         strategy="lazyOnload"
       />
+      <link rel="preconnect" href="https://exchange.journeymv.com" />
+      <link rel="preconnect" href="https://faves.grow.me" />
+      <link rel="preconnect" href="https://scripts.journeymv.com" />
+      <link rel="preconnect" href="https://keywords.journeymv.com" />
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

@@ -18,7 +18,10 @@ export default function GridNews() {
                 alt="Mixing Programming Languages in One Executable"
                 width={400}
                 height={250}
+                priority
+                fetchPriority="high"
               />
+
               <h2>
                 {" "}
                 Mixing Programming Languages in One Executable: How Compilers,
