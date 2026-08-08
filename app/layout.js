@@ -122,6 +122,10 @@ export const metadata = {
     canonical: "https://mergesociety.com",
   },
 
+  alternates: {
+    canonical: "https://mergesociety.com",
+  },
+
   verification: {
     google: "JlxC9N5oHsGriWNjRtWihmn3C0eCXD9ei1rcdihpZL4",
     bing: "6eb2ef8d3996f66caeecf3d7cef9b4ae",
