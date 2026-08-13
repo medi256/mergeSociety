@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import img from "/public/MS.png";
+// import Image from "next/image";
+// import img from "/public/MS.png";
 import Link from "next/link";
 import MobileSidebar from "./Mobile";
 
@@ -12,7 +12,7 @@ const NavBar = () => {
           {/* Logo */}
           <Link href="/" aria-label="Home" title="Home">
             <div className="logo-section">
-              <Image src={img} alt="merge society logo" className="logo-img" />
+              {/* <Image src={img} alt="merge society logo" className="logo-img" /> */}
               <span className="logo-text">MergeSociety</span>
             </div>
           </Link>
@@ -40,12 +40,6 @@ const NavBar = () => {
             <li>
               <Link href="/programming-roadmap">Programming Roadmaps</Link>
             </li>
-            {/* <li>
-              <Link href="/interviews">Interviews</Link>
-            </li>
-            <li>
-              <Link href="/acquisitions">Acquisitions</Link>
-            </li> */}
           </ul>
 
           <div className="dropdown dropdown-hover">

@@ -46,7 +46,9 @@ body {
   font-size: 1rem;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   top: 0;
   width: 100%;
 }
@@ -114,9 +116,12 @@ body {
 }
 
 @media (max-width: 987px) {
-  .logo-text,
   .dropdown {
     display: none;
+  }
+  .logo-text {
+    font-size: 1rem;
+    margin-left: 0.8rem;
   }
 }
 
@@ -132,7 +137,9 @@ body {
   text-align: center;
   color: var(--text-color);
   background-color: var(--bg-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .not-found h1 {
@@ -442,7 +449,9 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.2s ease;
 }
 
 /* === BACK BUTTON STYLE === */
@@ -787,7 +796,9 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: white;
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
 }
 
 .commentSection .comment-text {

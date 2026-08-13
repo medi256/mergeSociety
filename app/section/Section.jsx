@@ -7,7 +7,7 @@ export default function GridNews() {
   return (
     <>
       <div className="h-ai">
-        <h1>Latest</h1>
+        <h1>Latest Blog Posts</h1>
       </div>
       <section className="grid-news-section">
         <aside className="grid-news-left">
