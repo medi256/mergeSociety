@@ -152,6 +152,7 @@ export default function Article() {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <h2 className="project-info">
           <time className="project-date" dateTime="2025-04-26">

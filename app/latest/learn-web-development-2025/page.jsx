@@ -21,7 +21,9 @@ export const metadata = {
     "full stack development",
     "web developer career",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Massa Medi",
 
@@ -102,6 +104,7 @@ export default function LearnWebDevelopment2025Article() {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <aside aria-label="Page meta">

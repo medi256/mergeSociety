@@ -9,8 +9,7 @@ const Section5 = () => {
       id: 1,
       title:
         "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
-      image:
-        "/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
+      image: "/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
       alt: "How Tencent Quietly Built a Digital Empire: The Untold Story of Pony Ma and China’s Homegrown Tech Giant",
       date: " April 27, 2025",
       articleRoute: "pony-ma",
@@ -19,8 +18,7 @@ const Section5 = () => {
       id: 2,
       title:
         "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
-      image:
-        "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
+      image: "/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
       alt: "The Fine Line Between Faking It and Fraud: How Fake It Till You Make It Shapes Success, Scandal, and Everything In Between",
       date: " April 27, 2025",
       articleRoute: "fake-it",
@@ -29,8 +27,7 @@ const Section5 = () => {
       id: 3,
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
-      image:
-        "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      image: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
@@ -88,6 +85,7 @@ const Section5 = () => {
                 height={400}
                 className="bg-image-4"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content-4">

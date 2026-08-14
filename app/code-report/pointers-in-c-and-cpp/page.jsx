@@ -55,7 +55,9 @@ export const metadata = {
     ],
   },
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   publisher: "Merge Society",
   category: "Programming",
 
@@ -136,6 +138,7 @@ const Page = () => {
               width={600}
               height={400}
               priority
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
             />
             <figcaption>
               Pointers in C/C++ — here’s what that means in practice.

@@ -53,7 +53,9 @@ export const metadata = {
     ],
   },
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   category: "Education",
   tags: [
@@ -119,8 +121,7 @@ export const metadata = {
     dateModified: "2025-08-19",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id":
-        "https://mergesociety.com/latest/computer-science-degree-worth-it",
+      "@id": "https://mergesociety.com/latest/computer-science-degree-worth-it",
     },
     about: [
       {
@@ -178,6 +179,7 @@ export default function ComputerScienceDegreeWorthIt() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>Computer Science Degree Worth It?</figcaption>
         </figure>

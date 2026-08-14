@@ -320,6 +320,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Visual breakdown of how HTTP/1.1, HTTP/2, and HTTP/3 differ in

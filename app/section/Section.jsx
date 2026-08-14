@@ -20,10 +20,9 @@ export default function GridNews() {
                 height={250}
                 priority
                 fetchPriority="high"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
-
               <h2>
-                {" "}
                 Mixing Programming Languages in One Executable: How Compilers,
                 Linkers, and ABIs Make It Work
               </h2>
@@ -36,6 +35,7 @@ export default function GridNews() {
                 alt="Tutorial Hell"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>
                 Tutorial Hell - How to Escape Tutorial Hell and Actually Learn
@@ -50,6 +50,7 @@ export default function GridNews() {
                 alt="Why We Need a Translator in Programming and What a Compiler Really Is"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>
                 Why We Need a Translator in Programming and What a Compiler
@@ -62,9 +63,10 @@ export default function GridNews() {
             <Link href="/latest/data-structures-explained">
               <Image
                 src="/mergesociety/data_structures_explained.webp"
-                alt="Data Structures and Big O For Coding Interviews - Data Structures Explained"
+                alt="Data Structures and Big O For Coding Interviews- Data Structures Explained"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>
                 Data Structures and Big O For Coding Interviews - Data
@@ -82,6 +84,7 @@ export default function GridNews() {
                 alt="C vs C++ vs C#"
                 width={600}
                 height={350}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
               <h2>C vs C++ vs C#</h2>
             </Link>
@@ -96,8 +99,9 @@ export default function GridNews() {
                 alt="10 Best Websites To Learn How To Code For Free"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
-              <h2>10 Best Websit es To Learn How To Code For Free</h2>
+              <h2>10 Best Websites To Learn How To Code For Free</h2>
             </Link>
           </div>
           <div>
@@ -107,9 +111,9 @@ export default function GridNews() {
                 alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
                 width={600}
                 height={350}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
               <h2>
-                {" "}
                 GitHub Repositories: 17 must-see open source projects that will
                 level up your coding
               </h2>
@@ -122,6 +126,7 @@ export default function GridNews() {
                 alt="Most used git commands workflow Guide"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>Most used git commands workflow Guide</h2>
             </Link>
@@ -133,6 +138,7 @@ export default function GridNews() {
                 alt="40 Free APIs You Can Use In Your Next Programming Project"
                 width={400}
                 height={250}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>40 Free APIs You Can Use In Your Next Programming Project</h2>
             </Link>

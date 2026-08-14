@@ -19,7 +19,9 @@ export const metadata = {
     "cs student jobs",
     "software development career",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   category: "Technology",
@@ -98,6 +100,7 @@ export default function ComputerScienceCareerDepthArticle() {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <aside aria-label="Page meta">

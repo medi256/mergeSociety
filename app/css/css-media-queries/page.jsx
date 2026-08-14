@@ -65,6 +65,7 @@ const CSSMedia = () => {
           width={500}
           height={300}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="https://www.freecodecamp.org/news/content/images/size/w1600/2021/10/Screen-Shot-2021-10-19-at-7.50.41-PM.png"
           alt="demo"
         />
@@ -75,6 +76,7 @@ const CSSMedia = () => {
         </p>
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           layout="responsive"
           src="https://www.freecodecamp.org/news/content/images/2021/10/Screen-Shot-2021-10-19-at-7.54.59-PM.png"
@@ -205,6 +207,7 @@ const CSSMedia = () => {
           width={500}
           height={300}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="https://www.freecodecamp.org/news/content/images/size/w1000/2021/10/Screen-Shot-2021-10-23-at-1.24.25-PM.png"
           alt="demo"
         />

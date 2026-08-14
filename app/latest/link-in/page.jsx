@@ -191,8 +191,7 @@ export default function Article() {
           alt="Minecraft Redstone computer with visible logic circuits"
           width={600}
           height={400}
-          className="LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform Is So
-          Weird—and Here to Stay"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           priority
         />
         <h2 className="project-info">

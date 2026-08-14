@@ -185,6 +185,7 @@ div {
           width={500}
           height={300}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <p>

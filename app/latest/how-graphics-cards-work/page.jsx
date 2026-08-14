@@ -178,9 +178,8 @@ export default function Article() {
           AI, and the Future of Computing"
           width={600}
           height={400}
-          className="Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games,
-          AI, and the Future of Computing"
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <h2 className="project-info">
           <span className="project-title">

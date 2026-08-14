@@ -29,7 +29,9 @@ export const metadata = {
     "hacking of all time",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Merge Society",
   category: "Technology",
@@ -171,6 +173,7 @@ const Hack = () => {
             width={800}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             How the NSA Equation Group got hacked — here’s what that means in

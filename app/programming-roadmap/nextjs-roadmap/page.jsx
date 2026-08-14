@@ -119,8 +119,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical:
-      "https://mergesociety.com/programming-roadmap/nextjs-roadmap",
+    canonical: "https://mergesociety.com/programming-roadmap/nextjs-roadmap",
   },
 };
 
@@ -244,6 +243,7 @@ export default function Article() {
             alt="Next.js Roadmap 2025 - Complete Guide to Mastering Next.js"
             width={600}
             height={400}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
             priority
           />
           <figcaption>

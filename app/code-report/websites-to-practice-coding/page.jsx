@@ -282,8 +282,7 @@ export const metadata = {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id":
-        "https://mergesociety.com/code-report/websites-to-practice-coding",
+      "@id": "https://mergesociety.com/code-report/websites-to-practice-coding",
       headline:
         "Top 5 Websites to Practice Coding Daily and Actually Get Better",
       alternativeHeadline:
@@ -647,6 +646,7 @@ const PracticeCoding = () => {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <section

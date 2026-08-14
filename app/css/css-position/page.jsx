@@ -111,6 +111,7 @@ const CSSposition = () => {
         </p>
         <p>However, here is how it will look on a webpage</p>
         <Image
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           width={500}
           layout="responsive"
           height={300}
@@ -163,6 +164,7 @@ const CSSposition = () => {
         </p>
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="/mergesociety/secondRelative_diieef_u7y3dn.png"
@@ -210,6 +212,7 @@ const CSSposition = () => {
         <p>And here’s what that code will look like in real life:</p>
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="/mergesociety/secondDemo_zzdbvh_f84qov.png"
@@ -271,6 +274,7 @@ const CSSposition = () => {
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="/mergesociety/lets_vnqh1p_tfho5c.png"
           alt="demo-3"
@@ -339,6 +343,7 @@ const CSSposition = () => {
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="/mergesociety/demo_ctlwht_o7hvwp.png"
           alt="demo-5"
@@ -427,6 +432,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
           width={500}
           layout="responsive"
           height={300}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="/mergesociety/fixed_zruxdj_qwl457.png"
           alt="demo-5"
         />
@@ -504,6 +510,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit....
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="/mergesociety/sticky_kjwqmb_ncelb8.png"
           alt="demo-6"

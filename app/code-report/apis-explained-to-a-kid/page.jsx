@@ -69,8 +69,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical:
-      "https://mergesociety.com/code-report/apis-explained-to-a-kid",
+    canonical: "https://mergesociety.com/code-report/apis-explained-to-a-kid",
   },
 
   robots: {
@@ -103,6 +102,7 @@ const Page = () => {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             APIs power apps you use daily — here’s what that means in practice.

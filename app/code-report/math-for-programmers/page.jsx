@@ -56,7 +56,9 @@ export const metadata = {
     ],
   },
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   publisher: "Merge Society",
   category: "Programming",
 
@@ -168,6 +170,7 @@ const Page = () => {
             height={675}
             className="bg-image"
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Math for Programmers — here’s what that means in practice.

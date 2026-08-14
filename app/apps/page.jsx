@@ -36,9 +36,7 @@ export const metadata = {
     "App Technologies",
   ],
 
-  authors: [
-    { name: "Merge Society", url: "https://mergesociety.com/apps" },
-  ],
+  authors: [{ name: "Merge Society", url: "https://mergesociety.com/apps" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
@@ -155,7 +153,7 @@ const Section4 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
   return (
     <section>
@@ -178,6 +176,7 @@ const Section4 = () => {
                 height={400}
                 className="bg-image-4"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content-4">

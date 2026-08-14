@@ -596,6 +596,7 @@ const Mindset = () => {
           width={800}
           height={600}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <div className="project-info">
           <address className="project-author">

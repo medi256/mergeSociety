@@ -83,17 +83,12 @@ export const metadata = {
   creator: "Modern Web Developer",
   publisher: "Modern Web Developer",
   alternates: {
-    canonical:
-      "https://mergesociety.com/code-report/how-to-learn-javascript",
+    canonical: "https://mergesociety.com/code-report/how-to-learn-javascript",
     languages: {
-      "en-US":
-        "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "es-ES":
-        "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "fr-FR":
-        "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "de-DE":
-        "https://mergesociety.com/code-report/how-to-learn-javascript",
+      "en-US": "https://mergesociety.com/code-report/how-to-learn-javascript",
+      "es-ES": "https://mergesociety.com/code-report/how-to-learn-javascript",
+      "fr-FR": "https://mergesociety.com/code-report/how-to-learn-javascript",
+      "de-DE": "https://mergesociety.com/code-report/how-to-learn-javascript",
     },
   },
   twitter: {
@@ -463,6 +458,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Master JavaScript in record time—what to focus on in 2025.

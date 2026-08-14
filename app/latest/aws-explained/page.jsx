@@ -414,6 +414,7 @@ export default function Article() {
           alt="Git For Beginners: A Complete Step-by-Step Guide to Version Control"
           width={600}
           height={400}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           priority
         />
         <h2 className="project-info">

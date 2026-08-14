@@ -32,9 +32,7 @@ export const metadata = {
     "Tech Events",
   ],
 
-  authors: [
-    { name: "Merge Society", url: "https://mergesociety.com/latest" },
-  ],
+  authors: [{ name: "Merge Society", url: "https://mergesociety.com/latest" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
@@ -384,6 +382,7 @@ const GridNews = () => {
                 height={400}
                 className="bg-image-4"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content-4">

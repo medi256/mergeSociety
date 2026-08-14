@@ -26,7 +26,9 @@ export const metadata = {
     "coding languages 2025",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Merge Society",
 
@@ -110,6 +112,7 @@ export default function CvsCppVsCSharpArticle() {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <aside aria-label="Page meta">

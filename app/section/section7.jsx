@@ -8,8 +8,7 @@ const Section8 = () => {
     {
       id: 1,
       title: "Full Stack JavaScript Developer Roadmap 2025",
-      image:
-        "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      image: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
       alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       date: "July 8, 2025",
       articleRoute: "javascript-roadmap",
@@ -17,8 +16,7 @@ const Section8 = () => {
     {
       id: 2,
       title: "HTML Roadmap: Complete Roadmap to HTML",
-      image:
-        "/mergesociety/html-roadmap_cug0c3_chzvfq.png",
+      image: "/mergesociety/html-roadmap_cug0c3_chzvfq.png",
       alt: "HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery",
       date: "July 8, 2025",
       articleRoute: "html-roadmap",
@@ -27,8 +25,7 @@ const Section8 = () => {
       id: 3,
       title:
         "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro",
-      image:
-        "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      image: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
       alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
       date: "July 8, 2025",
       articleRoute: "css-roadmap",
@@ -36,8 +33,7 @@ const Section8 = () => {
     {
       id: 4,
       title: "How To Master React In 2025 (Complete Roadmap)",
-      image:
-        "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
+      image: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
       alt: "React Roadmap 2025 - Complete Guide to Mastering React",
       date: "July 8, 2025",
       articleRoute: "react-roadmap",
@@ -45,8 +41,7 @@ const Section8 = () => {
     {
       id: 5,
       title: "How To Master Next.js Roadmap In 2025 (Complete Roadmap)",
-      image:
-        "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      image: "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
       alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       date: "July 8, 2025",
       articleRoute: "nextjs-roadmap",
@@ -54,7 +49,7 @@ const Section8 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
   return (
     <section>
@@ -77,6 +72,7 @@ const Section8 = () => {
                 height={400}
                 className="bg-image-4"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content-4">

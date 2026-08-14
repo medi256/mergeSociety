@@ -162,6 +162,7 @@ const Page = () => {
             width={800}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Tutorial Hell — here’s what that means in practice.

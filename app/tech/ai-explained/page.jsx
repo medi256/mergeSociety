@@ -29,7 +29,9 @@ export const metadata = {
     "AI technology",
     "artificial intelligence",
   ],
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Massa Medi",
   formatDetection: {
@@ -177,6 +179,7 @@ const AI = () => {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
         </figure>
 

@@ -94,8 +94,7 @@ export const metadata = {
   classification: "Programming Tutorial",
 
   alternates: {
-    canonical:
-      "https://mergesociety.com/code-report/how-to-code-a-projects",
+    canonical: "https://mergesociety.com/code-report/how-to-code-a-projects",
   },
 };
 
@@ -133,8 +132,7 @@ const structuredData = {
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id":
-          "https://mergesociety.com/code-report/how-to-code-a-projects",
+        "@id": "https://mergesociety.com/code-report/how-to-code-a-projects",
       },
       articleSection: "Programming",
       keywords:
@@ -248,6 +246,7 @@ const Projects = () => {
           width={800}
           height={600}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <div className="project-info">
           <address className="project-author">

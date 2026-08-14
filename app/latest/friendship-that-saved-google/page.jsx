@@ -51,11 +51,9 @@ export const metadata = {
   creator: "Merge Society",
   publisher: "Merge Society",
   alternates: {
-    canonical:
-      "https://mergesociety.com/latest/friendship-that-saved-google",
+    canonical: "https://mergesociety.com/latest/friendship-that-saved-google",
     languages: {
-      "en-US":
-        "https://mergesociety.com/latest/friendship-that-saved-google",
+      "en-US": "https://mergesociety.com/latest/friendship-that-saved-google",
     },
   },
   twitter: {
@@ -129,6 +127,7 @@ export default function Article() {
           alt="Jeff Dean and Sanjay Ghemawat - The engineers who saved Google"
           width={600}
           height={400}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           className="project-image"
           priority
         />

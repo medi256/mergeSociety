@@ -9,8 +9,7 @@ const Section4 = () => {
       id: 1,
       title:
         "The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration",
-      image:
-        "/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
+      image: "/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
       alt: "The Ultimate List: My 20 Favorite Android Apps of All Time",
       date: "April 27, 2025",
       articleRoute: "favorite-apps",
@@ -19,8 +18,7 @@ const Section4 = () => {
       id: 2,
       title:
         " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
-      image:
-        "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
+      image: "/mergesociety/best_apps_iraybe_a7fwyd.jpg",
       alt: " The 15 Best Android Apps of March 2025 – Unleashing iOS Exclusives, Motorola Widgets, and More!",
       date: "April 27, 2025",
       articleRoute: "best-apps",
@@ -28,8 +26,7 @@ const Section4 = () => {
     {
       id: 3,
       title: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
-      image:
-        "/mergesociety/best_gy0sdm_llz9x7.jpg",
+      image: "/mergesociety/best_gy0sdm_llz9x7.jpg",
       alt: "FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!",
       date: "April 27, 2025",
       articleRoute: "free-apps",
@@ -38,8 +35,7 @@ const Section4 = () => {
       id: 4,
       title:
         "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
-      image:
-        "/mergesociety/error_ylvaka_dc6kc0.jpg",
+      image: "/mergesociety/error_ylvaka_dc6kc0.jpg",
       alt: "Global Windows Outage: How a CrowdStrike Update Brought the World to  Its Knees",
       date: "April 27, 2025",
       articleRoute: "error",
@@ -48,8 +44,7 @@ const Section4 = () => {
       id: 5,
       title:
         "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer  Must Know",
-      image:
-        "/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+      image: "/mergesociety/crypto_l9kxvg_uu1awq.jpg",
       alt: "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
       date: "April 27, 2025",
       articleRoute: "crypto",
@@ -58,8 +53,7 @@ const Section4 = () => {
       id: 6,
       title:
         "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
-      image:
-        "/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      image: "/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
       alt: "Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work (and Can Change Yours Too!)",
       date: "April 30, 2025",
       articleRoute: "cool-tools",
@@ -96,6 +90,7 @@ const Section4 = () => {
                 height={400}
                 className="bg-image-4"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content-4">

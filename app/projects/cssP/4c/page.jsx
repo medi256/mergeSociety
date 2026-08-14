@@ -45,17 +45,16 @@ const AdvancedPricingTable = () => {
       <div className="lesson-sidebar"></div>
       <article className="lesson-container">
         <h1>Designing an Advanced Pricing Table with CSS Grid</h1>
-        {/* 
+
         <Image
-          src={
-            /dhgjhspsp/image/upload/v1736577692/restaurantcss_taihjr.jpg"
-          }
+          src={"/merge/restaurantcss_taihjr.jpg"}
           alt={"Personal Portfolio Layout Example"}
           width={600}
           height={400}
           className="project-image"
           priority
-        /> */}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
+        />
         <h2 className="project-info">
           <span className="project-title">
             <Link href={"/about"}>Written by Massa Medi</Link>

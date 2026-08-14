@@ -8,8 +8,7 @@ const Section2 = () => {
       id: 14,
       title:
         "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
-      image:
-        "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+      image: "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
       alt: "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
       date: "April 29, 2025",
       articleRoute: "whats-next",
@@ -102,8 +101,7 @@ const Section2 = () => {
       id: 25,
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
-      image:
-        "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",
@@ -111,7 +109,7 @@ const Section2 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
   return (
     <>
@@ -130,6 +128,7 @@ const Section2 = () => {
                 height={400}
                 className="bg-image"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content">

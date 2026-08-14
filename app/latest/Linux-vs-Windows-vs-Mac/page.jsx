@@ -422,6 +422,7 @@ export default function Article() {
             alt="Best Operating System(OS) for programming?"
             width={800}
             height={400}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
             priority
           />
           <figcaption>

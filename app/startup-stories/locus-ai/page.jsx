@@ -711,6 +711,7 @@ const Locus = () => {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 600px) 100vw, 600px"
         />
         <h2 className="project-info">
           <span className="project-title">

@@ -258,6 +258,7 @@ grid-template: 50px 50px / 100px auto 100px;
             height: "auto",
             objectFit: "cover",
           }}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={212}
           src="https://www.freecodecamp.org/news/content/images/2022/05/image-90.png"
           alt="demo"
@@ -268,6 +269,7 @@ grid-template: 50px 50px / 100px auto 100px;
           width={500}
           layout="responsive"
           height={300}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-2.png"
           alt="demo"
         />
@@ -297,6 +299,7 @@ column-gap: 20px;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/COLUMN-GAP-1.png"
@@ -324,6 +327,7 @@ row-gap: 50px;
           width={500}
           layout="responsive"
           height={300}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="https://www.freecodecamp.org/news/content/images/2022/05/ROW-GAP-1.png"
           alt="demo"
         />
@@ -350,6 +354,7 @@ gap: 20px;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/GAP-1.png"
@@ -399,6 +404,7 @@ justify-content: start;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-START-1.png"
           alt="demo"
@@ -425,6 +431,7 @@ justify-content: end;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-END-1.png"
           alt="demo"
@@ -450,6 +457,7 @@ justify-content: center;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-CENTER-1.png"
           alt="demo"
@@ -478,6 +486,7 @@ justify-content: space-around;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-SPACE-AROUND-1.png"
           alt="demo"
@@ -507,6 +516,7 @@ justify-content: space-between;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-SPACE-BETWEEN-1.png"
           alt="demo"
@@ -536,6 +546,7 @@ justify-content: space-evenly;
           width={500}
           layout="responsive"
           height={300}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           src="https://www.freecodecamp.org/news/content/images/2022/05/JUSTIFY-SPACE-EVENLY-1.png"
           alt="demo"
         />
@@ -586,6 +597,7 @@ align-content: start;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-START-1.png"
@@ -612,6 +624,7 @@ align-content: end;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-END-1.png"
@@ -637,6 +650,7 @@ align-content: center;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-CENTER-1.png"
@@ -665,6 +679,7 @@ align-content: space-around;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-SPACE-AROUND-1.png"
@@ -695,6 +710,7 @@ align-content: space-between;
 
         <Image
           width={500}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           layout="responsive"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-SPACE-BETWEEN-2.png"
@@ -724,6 +740,7 @@ align-content: space-evenly;
         <Image
           width={500}
           layout="responsive"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           height={300}
           src="https://www.freecodecamp.org/news/content/images/2022/05/ALIGN-CONTENT-SPACE-EVENLY-2.png"
           alt="demo"

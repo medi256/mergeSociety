@@ -138,8 +138,7 @@ export const metadata = {
       "side hustle, entrepreneurship, startup validation, developer side projects, bootstrap business, Firebase, building in public, product validation",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id":
-        "    https://mergesociety.com/latest/why-my-side-hustle-failed",
+      "@id": "    https://mergesociety.com/latest/why-my-side-hustle-failed",
     },
     mentions: [
       {
@@ -188,8 +187,7 @@ export default function Article() {
           alt="Minecraft Redstone computer with visible logic circuits"
           width={600}
           height={400}
-          className=" Why My Side Hustle Is Failing: Brutally Honest Lessons from Building
-          in Public"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           priority
         />
         <h2 className="project-info">

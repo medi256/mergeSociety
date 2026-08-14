@@ -203,8 +203,7 @@ export const metadata = {
       "@id": "https://mergesociety.com/#website",
     },
     primaryImageOfPage: {
-      "@id":
-        "https://mergesociety.com/tech/javascript-features#primaryimage",
+      "@id": "https://mergesociety.com/tech/javascript-features#primaryimage",
     },
     datePublished: "2025-05-09T12:00:00Z",
     dateModified: "2025-06-30T09:00:00Z",
@@ -239,6 +238,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             2025 innovation map of popular JavaScript frameworks like React,

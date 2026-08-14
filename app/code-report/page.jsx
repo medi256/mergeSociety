@@ -507,7 +507,7 @@ const Section6 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   return (
@@ -531,6 +531,7 @@ const Section6 = () => {
                 height={400}
                 className="bg-image"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content">

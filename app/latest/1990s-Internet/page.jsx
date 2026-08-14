@@ -139,6 +139,7 @@ export default function Article() {
           width={1200}
           height={630}
           className="project-image"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           priority
         />
 

@@ -573,6 +573,7 @@ export default function Article() {
           alt="Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts"
           width={600}
           height={400}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           priority
         />
         <h2 className="project-info">

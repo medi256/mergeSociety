@@ -91,6 +91,7 @@ const CSSIndex = () => {
           height={300}
           src="/mergesociety/posi_fedygu_o1tvzb.png"
           alt="demo-7"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <p>
@@ -122,6 +123,7 @@ const CSSIndex = () => {
           height={300}
           src="/mergesociety/zDemo_tatecd_x6bqrz.png"
           alt="demo-8"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <p>
           The orange box, with a higher z-index, is displayed in front of the
@@ -172,6 +174,7 @@ const CSSIndex = () => {
           height={300}
           src="/mergesociety/stackDemo_x5h870_nmov0m.png"
           alt="demo-9"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <p>
           The pink box is displayed in front of the purple box. However, the

@@ -149,6 +149,7 @@ const Page = () => {
             width={800}
             height={400}
             fetchPriority="high"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
         </figure>
         <aside aria-label="Page meta">

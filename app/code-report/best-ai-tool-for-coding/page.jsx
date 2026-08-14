@@ -81,8 +81,7 @@ export const metadata = {
 
   // Canonical URL
   alternates: {
-    canonical:
-      "https://mergesociety.com/code-report/best-ai-tool-for-coding",
+    canonical: "https://mergesociety.com/code-report/best-ai-tool-for-coding",
   },
 
   metadataBase: new URL("https://mergesociety.com"),
@@ -104,6 +103,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Discover the top AI tools that are transforming the way developers

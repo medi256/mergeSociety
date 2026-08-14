@@ -54,9 +54,7 @@ export const metadata = {
     "technology trends 2025",
   ],
 
-  authors: [
-    { name: "Merge Society", url: "https://mergesociety.com/about" },
-  ],
+  authors: [{ name: "Merge Society", url: "https://mergesociety.com/about" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
@@ -523,7 +521,7 @@ const Section3 = () => {
   ];
 
   const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   return (
@@ -547,6 +545,7 @@ const Section3 = () => {
                 height={400}
                 className="bg-image"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
             <div className="bg-content">

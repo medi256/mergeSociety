@@ -311,6 +311,7 @@ const JackFriks = () => {
           width={800}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <aside aria-label="Page meta">

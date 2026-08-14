@@ -281,6 +281,7 @@ export default function Article() {
           width={600}
           height={400}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <h2 className="project-info">
           <span className="project-title">
@@ -310,6 +311,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <p>
             Let’s cut to the chase: the <strong>graphics card (GPU)</strong> is
@@ -386,6 +388,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <p>
             With GPU in hand, it’s time to choose the{" "}
@@ -453,6 +456,7 @@ export default function Article() {
             width={600}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <p>
             Next up is <strong>RAM (Random Access Memory)</strong> the short

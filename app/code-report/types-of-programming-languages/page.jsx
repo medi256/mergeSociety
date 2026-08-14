@@ -548,6 +548,7 @@ const TypesProgramming = () => {
           width={1200}
           height={600}
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
 
         <section

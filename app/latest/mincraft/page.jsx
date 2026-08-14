@@ -142,6 +142,7 @@ export default function Article() {
           height={400}
           className="project-image"
           priority
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
         />
         <h2 className="project-info">
           <span className="project-title">

@@ -24,7 +24,9 @@ export const metadata = {
     "do you need to  be smart to  learn to code",
   ],
 
-  authors: [{ name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" }],
+  authors: [
+    { name: "Massa Medi", url: "https://www.instagram.com/mergesociety_/" },
+  ],
   creator: "Massa Medi",
   publisher: "Sloth Bytes",
 
@@ -80,8 +82,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical:
-      "https://mergesociety.com/tech/growth-mindset-for-programmers",
+    canonical: "https://mergesociety.com/tech/growth-mindset-for-programmers",
   },
 
   other: {
@@ -147,6 +148,7 @@ const GrowthMindset = () => {
             width={800}
             height={400}
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
           />
           <figcaption>
             Growth Mindset for Programmers - you do not need to be a genius to
