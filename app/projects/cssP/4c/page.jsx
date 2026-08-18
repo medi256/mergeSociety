@@ -1,6 +1,6 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import "../cp.css";
 

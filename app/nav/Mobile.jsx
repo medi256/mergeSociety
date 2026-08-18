@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-// import Image from "next/image";
-// import img from "/public/MS.png";
 
 export default function MobileSidebar() {
   const [open, setOpen] = useState(false);
@@ -40,7 +38,6 @@ export default function MobileSidebar() {
       >
         <div className="flex items-center justify-between p-4 border-b border-gray-300 dark:border-gray-700">
           <div className="flex items-center gap-2">
-            {/* <Image src={img} alt="Logo" width={32} height={32} /> */}
             <span className="font-semibold text-lg">Merge Society</span>
           </div>
           <button
