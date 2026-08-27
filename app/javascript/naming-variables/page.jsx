@@ -37,7 +37,7 @@ const NamingVariables = () => {
         <h1>Best Practices for Variable Naming in JavaScript</h1>
         <p>
           Welcome to a comprehensive guide on best practices for naming
-          variables in JavaScript. Choosing clear and meaningful variable names
+          <Link href="/javascript/variables">variables in JavaScript</Link>. Choosing clear and meaningful variable names
           is crucial for writing readable and maintainable code. Let's explore
           these practices in detail:
         </p>

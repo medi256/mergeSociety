@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
         width: 1200,
         height: 630,
         alt: "Programming Languages for Different Tech Careers in 2025",
@@ -102,7 +102,7 @@ export const metadata = {
       "Find your perfect programming language match based on your dream tech job. From game dev to AI, web to blockchain - comprehensive career guide for 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
     ],
   },
 
@@ -154,7 +154,7 @@ export const metadata = {
     headline:
       "Best Programming Language for Each Job in 2025: A Comprehensive Beginner's Guide",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
     datePublished: "2025-05-16T08:00:00Z",
     dateModified: "2025-05-16T08:00:00Z",
     author: {
@@ -618,7 +618,7 @@ export default function Article() {
           interests and professional aspirations is the key to building a
           faster, more satisfying tech career. In this comprehensive guide,
           we’ll break down the best programming languages to learn for each job
-          in tech, from <strong>game development</strong> to{" "}
+          in tech, from <strong><Link href="/code-report/tech-stack">game development</Link></strong> to{" "}
           <strong>web development</strong> and beyond. Let’s match the language
           to the job and set you on the optimal path from the start!
         </p>
@@ -833,7 +833,7 @@ export default function Article() {
             </li>
             <li>
               <strong>SQL:</strong> Whatever your backend language,
-              understanding Structured Query Language (SQL) is vital for talking
+              understanding <Link href="/code-report/what-is-a-database">Structured Query Language</Link> (SQL) is vital for talking
               to relational databases.
             </li>
           </ul>
@@ -1075,7 +1075,7 @@ export default function Article() {
 
           <h3>What is Solidity used for?</h3>
           <p>
-            <strong>Solidity</strong> is a high-level programming language used
+            <strong>Solidity</strong> is a <Link href="/code-report/what-is-a-compiler">high-level programming language</Link> used
             specifically for developing smart contracts on blockchain platforms
             like Ethereum.
           </p>

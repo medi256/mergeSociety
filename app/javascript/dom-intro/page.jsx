@@ -194,7 +194,7 @@ const DomIntro = () => {
 
         <h2>How Does JavaScript Use the DOM?</h2>
         <p>
-          JavaScript is a programming language that programmers can use to
+          JavaScript is a <Link href="/javascript/introduction-to-javascript">programming language</Link> that programmers can use to
           interact with the DOM tree. Think of it like having special tools to
           reach into the pizza box and make changes. Here are some cool things
           you can do with the DOM and JavaScript:
@@ -228,7 +228,7 @@ const DomIntro = () => {
           Now that you have a better understanding of the DOM tree, let's dive
           into how you can use JavaScript to make changes to it. This process is
           called DOM manipulation, and it's a powerful way to create dynamic and
-          interactive websites.
+          <Link href="/javascript/why-javascript">interactive websites</Link>.
         </p>
         <p>
           To manipulate the DOM, you'll need to use JavaScript code. Here are
@@ -258,7 +258,7 @@ const DomIntro = () => {
           over an element, or typing in a form field.
         </p>
         <p>
-          To respond to these events, you'll use event listeners. An event
+          To respond to these events, you'll use <Link href="/javascript/event-handling">event listeners</Link>. An event
           listener is a piece of JavaScript code that waits for a specific event
           to occur and then takes action based on that event. For example, you
           can use an event listener to show an alert when a button is clicked.

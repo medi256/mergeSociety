@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Discover how AI could evolve from today's assistants to theoretical cosmic consciousness capable of reshaping reality itself.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -125,7 +125,7 @@ export const metadata = {
     headline:
       "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
     image:
-      "https://img.mergesociety.com/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
     datePublished: "2025-04-26T15:30:00Z",
     dateModified: "2025-04-26T15:30:00Z",
     author: {
@@ -483,7 +483,7 @@ export default function Article() {
 
         <h2>Artificial General Intelligence (AGI): The Big Leap</h2>
         <p>
-          Enter <strong>Artificial General Intelligence</strong>, or{" "}
+          Enter <strong><Link href="/ai/whats-next">Artificial General Intelligence</Link></strong>, or{" "}
           <strong>AGI</strong>—the holy grail that gets AI enthusiasts and
           futurists buzzing. Unlike today’s specialized AIs, AGI could handle
           virtually any intellectual task a human can, effortlessly switching

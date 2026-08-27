@@ -50,7 +50,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/js_hjlvsn_ktm5kv.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/js_hjlvsn_ktm5kv.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -62,7 +62,7 @@ export const metadata = {
     title: "Build Your First HTML Resume: Step-by-Step Tutorial",
     description:
       "Learn how to create a professional HTML resume with this step-by-step tutorial. Perfect for beginners looking to build a resume from scratch using HTML.",
-    images: ["https://img.mergesociety.com/mergesociety/js_hjlvsn_ktm5kv.jpg"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/js_hjlvsn_ktm5kv.jpg"],
   },
   robots: {
     index: true,
@@ -110,7 +110,7 @@ const HtmlResume = () => {
               In this tutorial, we'll guide you through creating a modern and
               effective HTML resume. HTML resumes are a great way to showcase
               your skills and experience, especially for beginners who are just
-              starting to learn web development.
+              starting to <Link href="/latest/learn-web-development-2025">learn web development</Link>.
             </p>
           </div>
 
@@ -184,7 +184,7 @@ const HtmlResume = () => {
             <div>
               <p>
                 A text editor is like your digital pencil and paper. We
-                recommend Visual Studio Code (VS Code) because it's:
+                recommend <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code) because it's:
               </p>
               <ul>
                 <li>Free to download</li>

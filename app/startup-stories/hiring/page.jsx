@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
         width: 1200,
         height: 630,
         alt: "Tech layoffs 2025 showing 29,000 job cuts in March with global impact visualization",
@@ -382,7 +382,7 @@ export default function Article() {
         <p>
           What if I told you that 29,000 tech employees got laid off in March
           2025 alone - and that’s just the beginning? Forget the narratives
-          you’ve been fed about AI replacing jobs or companies just “tightening
+          you’ve been fed about <Link href="/tech/tech-jobs-in-freefall">AI replacing jobs</Link> or companies just “tightening
           their belts.” The real story is far scarier, way more complicated, and
           almost no one’s talking about it. If you care about your future in
           tech, you can’t afford to miss this explosive breakdown.
@@ -393,7 +393,7 @@ export default function Article() {
           <p>
             Let’s start with the part nobody dares say out loud: 2025 isn’t just
             another dip in the tech rollercoaster. This is an outright reset.
-            While headlines scream about “cost-cutting” or “AI automation,” the
+            While headlines scream about “cost-cutting” or “<Link href="/ai/ai-agents">AI automation</Link>,” the
             layoff numbers keep stacking up with no end in sight.
           </p>
           <p>

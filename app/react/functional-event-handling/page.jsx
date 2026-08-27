@@ -37,7 +37,7 @@ const FunctionalEventHandler = () => {
         <h1>Event Handling in Functional Components: Adding Interactivity</h1>
 
         <p>
-          Event handling in functional components is like giving them
+          Event handling in <Link href="/react/class-components">functional components</Link> is like giving them
           superpowers. It allows them to respond to user interactions such as
           clicks, form submissions, and more. Think of event handling as the
           secret agent that empowers your components to take action when users
@@ -48,7 +48,7 @@ const FunctionalEventHandler = () => {
         <h2>Understanding Event Handling</h2>
 
         <p>
-          Event handling in functional components involves defining functions,
+          Event handling in <Link href="/react/hooks-intro">functional components</Link> involves defining functions,
           known as event handlers, that are called when specific events occur.
           These event handlers enable your components to react to user
           interactions and perform specific actions. Let's see how event

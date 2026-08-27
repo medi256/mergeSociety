@@ -69,7 +69,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
         width: 800,
         height: 400,
         alt: "Couples app built in 5 days - from idea to first dollar with Claude AI and viral Twitter launch",
@@ -112,7 +112,7 @@ export const metadata = {
     description:
       "Built iOS app in 5 days. Zero code typed. Claude + Cursor did everything. Launch tweet: 500K views. Day 1: first $. Now at 460 downloads, $42 revenue. Real build process, real numbers, proven growth system to 100K downloads.",
     images: {
-      url: "https://img.mergesociety.com/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
       alt: "Couples app viral launch - 5 days from idea to revenue",
     },
   },
@@ -146,7 +146,7 @@ export const jsonLd = {
   description:
     "Complete technical breakdown of building and launching an iOS couples app in 5 days using Swift, Xcode, and Claude AI. Real revenue numbers, viral launch strategy, and proven mobile app growth system.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
   datePublished: "2025-10-28T00:00:00.000Z",
   dateModified: "2025-10-28T00:00:00.000Z",
   author: {
@@ -194,7 +194,7 @@ export const jsonLd = {
         "Weekly reminders",
       ],
       screenshot:
-        "https://img.mergesociety.com/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761649599232_00l2m_ubr7mm_la2tbi.jpg",
     },
     {
       "@type": "HowTo",
@@ -367,7 +367,7 @@ const JackFriks = () => {
             First things first, here’s how the launch went down. I posted my
             launch on Twitter. Not because Twitter is where my ideal couples
             audience hangs out - it’s not. Couples content lives way more on
-            Instagram and TikTok. But I’ve been building in public for a while,
+            Instagram and TikTok. But I’ve been <Link href="/latest/why-my-side-hustle-failed">building in public</Link> for a while,
             and I’ve got a decent following there. So I shared what I was
             building like I always do.
           </p>
@@ -505,7 +505,7 @@ const JackFriks = () => {
           <h2>Traffic Reality Check: Most Of This Came From Twitter</h2>
           <p>
             All the numbers you’re seeing here are basically from those Twitter
-            posts where I build in public. That’s cool, and it helped kick
+            posts where I <Link href="/startup-stories/indie-dev">build in public</Link>. That’s cool, and it helped kick
             things off, but I don’t think it’s replicable for everyone,
             especially if you don’t have a following yet. So I don’t want you to
             think the only way to launch is to get lucky with a post. That’s not
@@ -527,7 +527,7 @@ const JackFriks = () => {
           </h2>
           <p>
             Let’s talk about the build. I used Xcode and wrote the app in Swift.
-            If you don’t have a Mac, you can use Expo in React Native - I’ve
+            If you don’t have a Mac, you can use Expo in <Link href="/code-report/tech-stack">React Native</Link> - I’ve
             built three other apps with that framework. You don’t need a Mac for
             that. But if you’re targeting iOS, you’ll still want a physical
             iPhone to test on. The same goes for Android if you plan to ship

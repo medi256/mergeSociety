@@ -54,7 +54,7 @@ const SimpleToDoListApp = () => {
           List App with JavaScript! In this project, we'll create a
           straightforward to-do list application where users can add and delete
           tasks. This project is an excellent starting point for learning DOM
-          manipulation and event handling in JavaScript.
+          manipulation and <Link href="/react/functional-event-handling">event handling</Link> in JavaScript.
         </p>
 
         <h2>Setting Up Your Workspace</h2>
@@ -632,7 +632,7 @@ function addTask(task) {
         <h3>Adjusting for Different Screen Sizes</h3>
         <p>
           Let's make our simple to-do list app responsive so that it looks great
-          on various devices. We'll use CSS media queries to adjust the layout
+          on various devices. We'll use CSS <Link href="/css/css-responsive-design">media queries</Link> to adjust the layout
           for smaller screens.
         </p>
         <ol className="space-y-6">
@@ -686,7 +686,7 @@ function addTask(task) {
           Congratulations! You've completed the Simple To-Do List App project
           with JavaScript. You've learned how to create a basic to-do list app
           where users can add and delete tasks. This project introduced you to
-          DOM manipulation, event handling, and responsive design.
+          <Link href="/javascript/dom-intro">DOM manipulation</Link>, event handling, and responsive design.
         </p>
         <p>
           Feel free to customize and expand your simple to-do list app further.

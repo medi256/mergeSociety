@@ -36,7 +36,7 @@ const hooksIntro = () => {
         <h2>What Are Hooks?</h2>
         <p>
           Before we dive into Hooks, let's first talk about{" "}
-          <strong>functional components</strong> and{" "}
+          <strong><Link href="/react/class-components">functional components</Link></strong> and{" "}
           <strong>class components</strong> in React.
         </p>
         <p>React started with two main types of components:</p>
@@ -58,7 +58,7 @@ const hooksIntro = () => {
         </ul>
 
         <p>
-          On the other hand, functional components were simpler. They didn’t
+          On the other hand, <Link href="/react/functional-event-handling">functional components</Link> were simpler. They didn’t
           have state or side effects and were just used to display static data.
         </p>
         <p>

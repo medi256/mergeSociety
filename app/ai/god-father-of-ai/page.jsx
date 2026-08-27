@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "TechLearning Academy",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
         width: 1200,
         height: 630,
         alt: "AI Revolution Learning Module - The past, present and future of artificial intelligence",
@@ -81,7 +81,7 @@ export const metadata = {
       "Learn about the evolution of AI through Geoffrey Hinton's work and the challenges of managing increasingly powerful artificial intelligence systems.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -129,7 +129,7 @@ export const metadata = {
     "@type": "Course",
     name: "AI Revolution: From Neural Networks to Global Impacts",
     image:
-      "https://img.mergesociety.com/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
     description:
       "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
     provider: {
@@ -378,7 +378,7 @@ export default function Article() {
           There’s a certain irony to the Nobel—his lifelong aim was to unlock
           the secrets of the human mind, but it was his attempt to mimic the
           brain in silico that revolutionized technology. In 1986, Hinton
-          proposed harnessing neural networks to predict the next word in a
+          proposed harnessing <Link href="/ai/llms">neural networks</Link> to predict the next word in a
           sequence—a humble premise that today forms the backbone of “large
           language models” like OpenAI’s ChatGPT.
         </p>

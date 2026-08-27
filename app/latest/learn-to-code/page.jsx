@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Tech Truth Report",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of the collapsing coding bubble showing the rise and fall of tech employment versus education enrollment",
@@ -94,7 +94,7 @@ export const metadata = {
       "Our International Workers' Day investigation uncovers how universities, bootcamps & politicians sold a coding fantasy that led to debt, unemployment & shattered dreams.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
     ],
   },
   robots: {
@@ -143,7 +143,7 @@ export const metadata = {
     headline:
       "The Great Coding Scam: How 'Learn to Code' Failed a Generation | May 2025 Analysis",
     image:
-      "https://img.mergesociety.com/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
     datePublished: "2025-05-01T08:30:00Z",
     dateModified: "2025-05-01T08:30:00Z",
     author: {
@@ -503,7 +503,7 @@ export default function Article() {
           Bachelor of Science in Chemistry last year. In contrast,{" "}
           <strong>266</strong> graduated in computer science and engineering,
           and more than <strong>twice as many</strong> completed the broader
-          electrical engineering and computer science major.
+          electrical engineering and <Link href="/code-report/computer-science-vs-software-engineering">computer science major</Link>.
         </p>
         <p>
           The upshot? In just 15 years, American colleges shifted from offering
@@ -747,7 +747,7 @@ export default function Article() {
           sponsor) are so valuable: they go beyond Python or JavaScript syntax
           and help you sharpen real world, high level thinking, fostering
           strategies that last well beyond the lifespan of any single
-          programming language. Their engaging, interactive courses from logic
+          <Link href="/javascript/introduction-to-javascript">programming language</Link>. Their engaging, interactive courses from logic
           puzzles and data analysis to scientific thinking aim to nurture your
           most versatile asset: curiosity and critical reasoning.
         </p>

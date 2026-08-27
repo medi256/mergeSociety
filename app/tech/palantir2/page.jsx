@@ -39,13 +39,13 @@ export const metadata = {
     siteName: "Tech Oversight Initiative",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
         width: 1200,
         height: 630,
         alt: "Palantir Technologies Headquarters in Denver",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
         width: 1200,
         height: 630,
         alt: "AI Surveillance Concept Illustration",
@@ -96,7 +96,7 @@ export const metadata = {
       "Whistleblower reveals how Peter Thiel's secretive tech firm uses AI to power military operations, tax enforcement, and health data analysis—with minimal democratic oversight.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -206,7 +206,7 @@ export const metadata = {
     headline:
       "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
     image:
-      "https://img.mergesociety.com/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
     datePublished: "2025-04-29T08:30:00Z",
     dateModified: "2025-04-29T08:30:00Z",
     description:
@@ -897,7 +897,7 @@ export default function Article() {
         <h2>Governance by Algorithm, Not Democracy</h2>
         <p>
           What does it mean for a single tech contractor to control such a vast
-          reservoir of private data, backed by AI decision-making? As algorithms
+          reservoir of private data, backed by <Link href="/ai/ai-agents">AI decision-making</Link>? As algorithms
           increasingly govern daily realities, the human element recedes.
           Decisions formerly shaped by public scrutiny or democratic oversight
           become opaque, automated, and — perhaps most concerningly — aligned

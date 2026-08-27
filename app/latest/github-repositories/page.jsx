@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
         width: 600,
         height: 400,
         alt: "A chill sloth mascot wearing headphones and coding - GitHub repositories guide",
@@ -56,7 +56,7 @@ export const metadata = {
     description:
       "Discover 17 essential GitHub repositories for developers. Learn algorithms, build projects, find free resources, and level up your programming skills.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp",
     ],
   },
   robots: {
@@ -453,7 +453,7 @@ export default function GitHubRepositoriesArticle() {
             </li>
           </ul>
           <p>
-            Story: A junior dev I mentored worked through Eloquent JavaScript
+            Story: A junior dev I mentored worked through <Link href="/code-report/best_books_to_learn_programming">Eloquent JavaScript</Link>
             while building a tiny game in a repo. By chapter 5, they refactored
             their code using higher-order functions and cut hundreds of lines.
             Hiring manager saw the commit history and said yes on the spot.
@@ -567,7 +567,7 @@ export default function GitHubRepositoriesArticle() {
           <section>
             <h3>Open Source Alternatives - swap pricey SaaS for open tools</h3>
             <p>
-              What it is: A directory of open source tools that replace common
+              What it is: A directory of <Link href="/apps/cool-tools">open source tools</Link> that replace common
               SaaS products - analytics, project management, CMS, and more.
             </p>
             <p>
@@ -680,7 +680,7 @@ export default function GitHubRepositoriesArticle() {
           <h2>Merge Society - your weekly programming fuel</h2>
           <p>
             Quick plug while the sloth nods approvingly. Merge Society is my
-            free weekly newsletter packed with practical programming tips, tiny
+            free weekly newsletter packed with practical <Link href="/code-report/how-to-build-projects">programming tips</Link>, tiny
             code snippets, and real talk about learning faster. It’s free. Toss
             in your email, get smarter on Saturdays. No spam, just snacks for
             your brain.

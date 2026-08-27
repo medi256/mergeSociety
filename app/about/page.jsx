@@ -182,7 +182,7 @@ const AboutPage = () => {
           </p>
           <p>
             <strong>Tech professionals staying current</strong> - engineers,
-            product managers, designers, and anyone who needs to understand
+            <Link href="/tech/dev-fluencer">product managers</Link>, designers, and anyone who needs to understand
             what's happening in the industry, which tools are emerging, and
             where technology is heading.
           </p>
@@ -210,7 +210,7 @@ const AboutPage = () => {
             follow along.
           </p>
           <p>
-            But coding skills alone aren't enough. You also need to understand
+            But <Link href="/tech/40-projects">coding skills</Link> alone aren't enough. You also need to understand
             the broader tech landscape - what's being built, why it matters,
             which technologies are worth learning, and where the industry is
             going. That's why the platform evolved to include tech journalism

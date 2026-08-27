@@ -56,7 +56,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/is_coding_worth_it_in_2025.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
         width: 1200,
         height: 630,
         alt: "Is Coding Worth Learning in 2026?",
@@ -85,7 +85,7 @@ export const metadata = {
       "A senior developer shares the brutal reality: burnout, layoffs, and AI. Plus practical advice on building projects that land jobs.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/is_coding_worth_it_in_2025.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
     ],
   },
   robots: {
@@ -111,7 +111,7 @@ export const jsonLd = {
   description:
     "A brutally honest exploration of whether learning to code is still worth it in 2026, covering burnout, market realities, and practical strategies for aspiring developers.",
   image:
-    "https://img.mergesociety.com/mergesociety/is_coding_worth_it_in_2025.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
   datePublished: "2025-11-30T00:00:00.000Z",
   dateModified: "2025-11-30T00:00:00.000Z",
   author: {
@@ -835,7 +835,7 @@ const CodingIsDead = () => {
         <p>
           If this hit you even a little, leave a comment. I read every single
           one. Drop a like if you found value. Subscribe if you want more real
-          talk about coding and career growth.
+          talk about coding and <Link href="/tech/40-projects">career growth</Link>.
         </p>
         <p>
           If you want to connect deeper, you’ll find me on Instagram and inside

@@ -39,7 +39,7 @@ const ArrayMethods = () => {
           In the previous lesson, we learned about arrays and how they allow us
           to store multiple values in a single variable. We also explored basic
           operations like adding, removing, and accessing elements. Now, we'll
-          dive deeper into array methods, which provide powerful ways to
+          dive deeper into <Link href="/javascript/arrays">array methods</Link>, which provide powerful ways to
           manipulate and interact with arrays. These methods make working with
           arrays more efficient and expressive.
         </p>
@@ -350,7 +350,7 @@ console.log(fruits); // Output: ['cherry', 'banana', 'apple']
 
         <h2>Conclusion</h2>
         <p>
-          Array methods in JavaScript provide powerful ways to manipulate and
+          <Link href="/javascript/foreach-method">Array methods in JavaScript</Link> provide powerful ways to manipulate and
           interact with arrays. They allow you to add, remove, extract, modify,
           combine, and find elements with ease. Understanding these methods will
           help you work more efficiently with arrays and perform complex

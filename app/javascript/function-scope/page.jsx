@@ -54,7 +54,7 @@ const Scope = () => {
         <p>
           In JavaScript, scope is similar to this toolbox. Scope determines
           where variables and functions can be accessed or used in your code.
-          There are two main types of scope in JavaScript: global scope and
+          There are two main types of scope in JavaScript: <Link href="/javascript/scope">global scope</Link> and
           local scope.
         </p>
 

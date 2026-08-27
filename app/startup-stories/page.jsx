@@ -83,7 +83,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -97,7 +97,7 @@ export const metadata = {
       "Discover real startup journeys, challenges, and success stories to inspire your own path and learn what it really takes to build something great.",
 
     images: [
-      "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
     ],
   },
   robots: {

@@ -51,7 +51,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
         width: 1200,
         height: 630,
         alt: "How Chatbots Work - Transformers and Attention Mechanisms Explained",
@@ -65,7 +65,7 @@ export const metadata = {
     description:
       "Learn how AI chatbots use transformer architectures, attention mechanisms, and massive training datasets to predict text one word at a time. A complete technical walkthrough.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
     ],
   },
   robots: {
@@ -100,7 +100,7 @@ export const jsonLd = {
   description:
     "A comprehensive explanation of how modern AI chatbots function, covering transformers, attention mechanisms, training processes, and the computational scale required for large language models.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",
   datePublished: "2025-10-03T00:00:00.000Z",
   dateModified: "2025-10-03T00:00:00.000Z",
   author: {
@@ -211,7 +211,7 @@ const AI = () => {
 
         <p>
           Imagine you stumble on a short movie script where a person is chatting
-          with their AI assistant. You can read every line the person says. But
+          with their <Link href="/ai/whats-next">AI assistant</Link>. You can read every line the person says. But
           right when the AI is about to reply, the page is torn off. What would
           the assistant have said next? If you had a magical machine that could
           read text and guess the next word in the sequence, you could finish
@@ -290,7 +290,7 @@ const AI = () => {
             Really Is
           </h2>
           <p>
-            A large language model is a sophisticated mathematical function that
+            A <Link href="/ai/grok4">large language model</Link> is a sophisticated mathematical function that
             takes in some text and outputs probabilities for what word should
             come next. Think of it like a huge weighted web that lights up
             differently depending on the words you feed it. It does not just
@@ -516,7 +516,7 @@ const AI = () => {
             blocks, again and again. With each pass, the vectors become more
             enriched with context. Early layers might focus on local grammar.
             Later layers might capture long-range dependencies, topic structure,
-            and subtle cues that matter for a good next-word prediction.
+            and subtle cues that matter for a good next-<Link href="/ai/llms">word prediction</Link>.
             Everything is tuned so that, by the time we get to the end of the
             stack, the model has what it needs to pick the next word wisely.
           </p>

@@ -46,7 +46,7 @@ const Navigation = () => {
           We've been exploring the Browser Object Model (BOM) and its various
           components. So far, we've covered the Window object and the Location
           object. Now, let's move on to another important part of the BOM: the
-          Navigator object.
+          <Link href="/javascript/bom-intro">Navigator object</Link>.
         </p>
 
         <h2>What is the Navigator Object?</h2>

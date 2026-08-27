@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MongoDB_Logo.jpg",
         width: 1200,
         height: 630,
         alt: "MongoDB database architecture visualization",
@@ -91,7 +91,7 @@ export const metadata = {
     description:
       "Learn how MongoDB's flexible document model and scalable architecture have made it the go-to database for today's most demanding applications.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MongoDB_Logo.jpg"],
   },
 
   robots: {
@@ -140,7 +140,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "MongoDB : The Evolution of NoSQL Databases for Modern Applications",
-    image: "https://img.mergesociety.com/mergesociety/MongoDB_Logo.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MongoDB_Logo.jpg",
     datePublished: "2025-05-07T08:00:00Z",
     dateModified: "2025-05-07T08:00:00Z",
     author: {
@@ -672,7 +672,7 @@ export default function Article() {
             You know what’s crazy about this? With the MongoDB Query API, you’re
             not just stuck with basic gets and puts. Want to slice, dice,
             filter, and hunt for complex data patterns? It’s all built in—across
-            any programming language you love.
+            any <Link href="/javascript/introduction-to-javascript">programming language</Link> you love.
           </p>
           <ul>
             <li>

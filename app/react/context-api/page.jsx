@@ -287,7 +287,7 @@ export default Footer;`}
           props at every level.
         </p>
         <p>
-          Keep practicing with Context in your React projects. Soon, you'll be
+          Keep practicing with Context in your <Link href="/code-report/how-to-build-projects">React projects</Link>. Soon, you'll be
           managing complex data flows with ease!
         </p>
 

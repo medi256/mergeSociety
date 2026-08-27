@@ -112,7 +112,7 @@ const ParallaxScrollingEffect = () => {
           <h4>Step 2: Get Your Text Editor Ready</h4>
           <p>
             A text editor is like your crafting tool - it's where we'll write
-            our code. We recommend Visual Studio Code because it's free and
+            our code. We recommend <Link href="/react/code-editor-setup">Visual Studio Code</Link> because it's free and
             beginner-friendly!
           </p>
           <ol>
@@ -456,7 +456,7 @@ const ParallaxScrollingEffect = () => {
 
         <p>
           Let's ensure our parallax effect looks great on various devices by
-          adding responsive design using CSS media queries.
+          adding responsive design using CSS <Link href="/css/css-responsive-design">media queries</Link>.
         </p>
         <ol className="space-y-6">
           <li>

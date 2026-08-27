@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/crud_explained.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
         width: 600,
         height: 400,
         alt: "CRUD Operations Explained - Create Read Update Delete in databases and REST APIs",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Master Create, Read, Update, Delete operations. Learn SQL commands, REST API design, soft vs hard delete, with real app examples.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/mergesociety/crud_explained.webp"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp"],
   },
 
   robots: {
@@ -292,7 +292,7 @@ export const metadata = {
         "Understanding CRUD from SQL Databases to REST APIs with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/crud_explained.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
         width: 600,
         height: 400,
         caption:
@@ -832,7 +832,7 @@ const CRUD = () => {
             orders, and the shopping basket.
           </p>
           <p>
-            In a relational database, each of those resources will be
+            In a <Link href="/code-report/what-is-a-database">relational database</Link>, each of those resources will be
             represented by a table. In a document store, each resource might be
             a collection. Either way, the resource is the thing you are doing
             CRUD to.
@@ -1228,7 +1228,7 @@ const CRUD = () => {
           <p>
             Once you have CRUD in your head, you can use it to create any
             application you want. If you’re new to programming, CRUD is step
-            one, and then you’ll want to dig into data structures and algorithms
+            one, and then you’ll want to dig into <Link href="/latest/data-structures-explained">data structures and algorithms</Link>
             next so you can make this stuff fast and reliable.
           </p>
           <p>

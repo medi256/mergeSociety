@@ -32,7 +32,7 @@ const HTMLStructure = () => {
           <code>{`<head>`}</code> and <code>{`<body>`}</code> elements. By the
           end of this lesson, you'll be able to create well-structured HTML
           documents that follow best practices and are accessible to users and
-          search engines. Let's begin!
+          <Link href="/code-report/algorithms">search engines</Link>. Let's begin!
         </p>
 
         <h2>

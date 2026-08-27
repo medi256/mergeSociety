@@ -194,7 +194,7 @@ export default App;
           The <code>useEffect</code> hook is used to perform side effects or
           cleanup tasks in React components. In this case, we're using it to
           fetch data when the component mounts (similar to{" "}
-          <code>componentDidMount</code> in class components). The fetched data
+          <code>componentDidMount</code> in <Link href="/react/class-components">class components</Link>). The fetched data
           is then stored in the <code>posts</code> state variable using the{" "}
           <code>setPosts</code> function.
         </p>

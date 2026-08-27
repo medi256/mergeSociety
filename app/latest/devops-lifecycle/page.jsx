@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
         width: 1200,
         height: 630,
         alt: "DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories",
@@ -73,7 +73,7 @@ export const metadata = {
     description:
       "Master DevOps lifecycle phases, essential tools, and real-world implementation strategies. Includes Netflix case study and practical examples.",
     images: [
-      "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
     ],
   },
 
@@ -297,7 +297,7 @@ export default function DevOpsExplainedArticle() {
               the same codebase and keeps different versions in a shared
               repository. Tools like Git make this doable at any scale. You
               create branches, write commits, open pull requests, and merge when
-              ready. This is called version control, and it gives you history,
+              ready. This is called <Link href="/code-report/basic-git-commands">version control</Link>, and it gives you history,
               safety, and a way to work together without stepping on toes.
             </p>
             <p>
@@ -312,7 +312,7 @@ export default function DevOpsExplainedArticle() {
             <p>
               Story time: A startup once committed experimental code straight to
               main on a Friday. The hotfix baton was passed like a relay as
-              customers reported errors. After moving to pull requests with
+              customers reported errors. After moving to <Link href="/latest/git-vs-github">pull requests</Link> with
               required checks, the same team caught an unsafe dependency bump
               minutes after it was proposed. A quick discussion avoided a
               weekend of stress. That is version control working as a safety

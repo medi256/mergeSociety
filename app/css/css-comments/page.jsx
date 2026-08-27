@@ -188,7 +188,7 @@ const CSSComments = () => {
 
         <p>
           Remember, comments are an important tool for code documentation and
-          collaboration. They help improve code readability, facilitate
+          collaboration. They help improve <Link href="/javascript/arrow-functions">code readability</Link>, facilitate
           troubleshooting, and make it easier for other developers to understand
           your code. Happy coding!
         </p>

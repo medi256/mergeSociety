@@ -50,7 +50,7 @@ const AsyncAwait = () => {
 
         <p>
           <code>Async/Await</code> is a feature in JavaScript that simplifies
-          working with asynchronous operations, like fetching data from a server
+          working with asynchronous operations, like <Link href="/react/useeffect-hook">fetching data</Link> from a server
           or reading a file. It makes your code look more like synchronous code,
           which is easier to understand and maintain.
         </p>
@@ -65,7 +65,7 @@ const AsyncAwait = () => {
 
         <h2>How Does It Work?</h2>
         <p>
-          - <code>Async</code>: This keyword is used to declare a function as
+          - <code>Async</code>: <Link href="/javascript/this-keyword">This keyword</Link> is used to declare a function as
           asynchronous. An async function always returns a promise, and inside
           this function, you can use the <code>await</code> keyword.
         </p>
@@ -206,7 +206,7 @@ getData(); // Call the function to see the result
 
         <p>
           Async/await is a powerful tool in JavaScript that can simplify your
-          asynchronous code and make it easier to work with. Now that you have a
+          <Link href="/react/async-await">asynchronous code</Link> and make it easier to work with. Now that you have a
           good grasp of how it works, you’ll find it much easier to manage
           complex asynchronous tasks in your projects.
         </p>

@@ -73,7 +73,7 @@ const HTMLBasics = () => {
 
           <h3>Container Elements and Empty Elements</h3>
           <p>
-            {`There are two main types of HTML elements: container elements and empty
+            {`There are two main types of HTML elements: <Link href="/react/jsx-structure">container elements</Link> and empty
         elements. Container elements have both an opening tag and a closing tag,
         and they can contain other elements or text within them. For example,
         the <body> element is a container element because it can hold

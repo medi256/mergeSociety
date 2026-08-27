@@ -34,7 +34,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
         width: 1200,
         height: 630,
         alt: "SQL Database Tutorial - Complete Guide to Data, Databases and DBMS",
@@ -51,7 +51,7 @@ export const metadata = {
     description:
       "Learn SQL from scratch: data concepts, database design, DBMS systems, and practical query examples. Perfect starting point for developers.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
     ],
   },
 
@@ -90,7 +90,7 @@ export const metadata = {
       dateModified: "2025-08-29T00:00:00Z",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756482278183_bx5as9_sleoep_yqfy13.jpg",
         width: 1200,
         height: 630,
       },
@@ -295,7 +295,7 @@ const WhatIsDatabase = () => {
         <section id="what-is-dbms">
           <h2>What is a DBMS - Database Management System</h2>
           <p>
-            A Database Management System, or DBMS, is the software layer that
+            A <Link href="/apps/another-tool">Database Management</Link> System, or DBMS, is the software layer that
             sits between your data and you. It is a collection of programs that
             lets you access the database, manipulate data, and present that data
             the way you need it. It also controls who can see what and who can
@@ -601,7 +601,7 @@ WHERE age > 30;`}</code>
           </pre>
           <p>
             This says: pick all columns from the members table for rows where
-            the age is greater than 30. You can swap the star for specific
+            the age is <Link href="/javascript/comparison-operators">greater than</Link> 30. You can swap the star for specific
             columns to keep results lean, like SELECT id, first_name, last_name
             FROM members WHERE age &gt; 30.
           </p>
@@ -661,7 +661,7 @@ WHERE id = 1;`}</code>
             Notice how readable that is. SQL is declarative, which means you
             describe what you want, not how to do it step by step. The DBMS
             figures out the best plan to get your result. That is a huge win for
-            developer productivity.
+            <Link href="/apps/cool-tools">developer productivity</Link>.
           </p>
         </section>
 

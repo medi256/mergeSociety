@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
         width: 1200,
         height: 630,
         alt: "Programming language roadmap showing the progression from beginner to expert languages",
@@ -89,7 +89,7 @@ export const metadata = {
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -233,7 +233,7 @@ export default function Article() {
 
         <p>
           Forget the endless YouTube videos trying to convince you there’s one
-          secret programming language that’ll make you rich overnight. Here’s
+          secret <Link href="/javascript/introduction-to-javascript">programming language</Link> that’ll make you rich overnight. Here’s
           the stuff nobody tells you: diving into the world of programming
           languages is more like falling down an infinite, weirdly mesmerizing
           rabbit hole—a never-ending iceberg of code, creativity, and
@@ -307,7 +307,7 @@ export default function Article() {
             indentation. It’s so readable that even if you’ve never programmed,
             you can probably understand what a basic Python script does. Mix in
             a vast library ecosystem and it’s obvious why Python dominates web
-            apps, automation, data science, and more.
+            apps, automation, <Link href="/code-report/algorithms">data science</Link>, and more.
           </p>
           <h3>JavaScript: The Web’s Ugly, Unavoidable Hero</h3>
           <p>
@@ -356,7 +356,7 @@ export default function Article() {
           <h3>SQL: The Relational Powerhouse</h3>
           <p>
             No app gets far without a database. Whether you call it “SQL,”
-            “S-Q-L,” or even “Squeal,” Structured Query Language is how you
+            “S-Q-L,” or even “Squeal,” <Link href="/code-report/what-is-a-database">Structured Query Language</Link> is how you
             pull, write, and wrangle data—and it secretly <em>is</em> Turing
             complete.
           </p>

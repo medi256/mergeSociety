@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
         width: 1200,
         height: 630,
         alt: "Y Combinator mock interview practice guide with the 5 most important questions and how to answer them",
@@ -106,7 +106,7 @@ export const metadata = {
       "Real YC founder walks you through the exact interview. Practice answering 'What are you working on?', traction proof, unique insight + more. Interactive format.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
     ],
   },
 
@@ -166,7 +166,7 @@ export const metadata = {
     description:
       "Interactive practice guide for Y Combinator interviews with the 5 most important questions and expert answers from a YC founder who raised $13M+",
     image:
-      "https://img.mergesociety.com/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
     totalTime: "PT10M",
     estimatedCost: {
       "@type": "MonetaryAmount",
@@ -893,7 +893,7 @@ export default function YCMockInterviewArticle() {
             whether you have a concrete plan to acquire customers. Because here
             is the truth: most companies do not die because they fail to build
             the product. Most companies die because they fail to repeatedly
-            acquire customers at a low enough customer acquisition cost. Say
+            acquire customers at a low enough <Link href="/latest/why-my-side-hustle-failed">customer acquisition</Link> cost. Say
             that four times.
           </p>
 

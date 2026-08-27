@@ -237,7 +237,7 @@ const ReactCourse = () => {
             <Link href="/react/useref-hook">
               <div className="card">
                 <h3>useRef</h3>
-                <p>Discover how to use the useRef hook for DOM manipulation.</p>
+                <p>Discover how to use the useRef hook for <Link href="/javascript/dom-intro">DOM manipulation</Link>.</p>
               </div>
             </Link>
             <Link href="/react/usecontext-hook">

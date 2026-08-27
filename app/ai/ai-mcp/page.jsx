@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
         width: 1200,
         height: 630,
         alt: "Model Context Protocol architecture diagram showing resources and tools connecting to an AI model",
@@ -81,7 +81,7 @@ export const metadata = {
       "Build your first MCP server and join the vibe coding revolution. Tutorial with code examples showing how to connect Claude with your data and tools.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -118,7 +118,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-    image: "https://img.mergesociety.com/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     datePublished: "2025-03-31T09:00:00Z",
     dateModified: "2025-04-25T11:30:00Z",
     author: {
@@ -402,7 +402,7 @@ export default function Article() {
 
         <p>
           The icing on this (horse-shaped) cake? Everything is organized in a
-          Git repo, complete with a CI/CD pipeline. So once our MCP server is up
+          Git repo, complete with a <Link href="/latest/devops-lifecycle">CI/CD pipeline</Link>. So once our MCP server is up
           and running, deploying to dev or staging is as easy as pushing to a
           branch and letting Cevola handle deployments and cache busting
           automatically.

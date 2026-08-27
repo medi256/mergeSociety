@@ -61,7 +61,7 @@ const EventHandlers = () => {
           </li>
         </ul>
         <p>
-          These differences make React event handling more powerful and
+          These differences make React <Link href="/react/functional-event-handling">event handling</Link> more powerful and
           flexible.
         </p>
 
@@ -223,7 +223,7 @@ export default App;`}
         <h2>Summary</h2>
         <p>
           In this lesson, we’ve covered the basics of handling events in React
-          functional components. We learned how to:
+          <Link href="/react/class-components">functional components</Link>. We learned how to:
         </p>
         <ul>
           <li>

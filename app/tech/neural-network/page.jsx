@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Advanced AI Learning Insights",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of neural network layers processing handwritten digits from pixels to predictions",
@@ -98,7 +98,7 @@ export const metadata = {
       "Our May Day special cuts through AI hype: Understand how neural networks really work, why layered architectures matter, and the beautiful intuition behind deep learning's true power.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
     ],
   },
   robots: {
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [
@@ -601,7 +601,7 @@ export default function Article() {
           every time, with no mistakes…” You’d probably panic. Sound familiar?
           Here’s the secret: It’s not easy for a computer. In fact, building a
           machine that recognizes handwriting is one of the hardest, craziest
-          challenges in all of tech—and that’s exactly why neural networks are
+          challenges in all of tech—and that’s exactly why <Link href="/ai/god-father-of-ai">neural networks</Link> are
           such a mind-blowing breakthrough. Today, I’m going to show you, step
           by step, how a neural network actually works (not just the buzzwords),
           all without any math background required. By the time you’re done
@@ -635,7 +635,7 @@ export default function Article() {
           </li>
         </ul>
         <p>
-          Here’s what nobody talks about: Neural networks changed everything.
+          Here’s what nobody talks about: <Link href="/ai/llms">Neural networks</Link> changed everything.
           They didn’t just get a little better—they’ve become the only practical
           way for machines to rival the human eye at recognizing digits, faces,
           voices, anything. And if you care about where the world is going—AI,
@@ -914,7 +914,7 @@ export default function Article() {
           Why This Isn’t “Just Math”—It’s the Future of Artificial Intelligence
         </h2>
         <p>
-          Right now, neural networks underpin Google Search, YouTube
+          Right now, <Link href="/tech/ai-explained">neural networks</Link> underpin Google Search, YouTube
           recommendations, voice assistants, even automated cars. Every time you
           see “machine learning” in the news, odds are, there’s a neural net at
           its core. That’s why understanding these layers—pixels to edges, edges

@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_free_websites_to_practice_coding.webp",
         width: 600,
         height: 400,
         alt: "Top 5 Websites To Practice Coding Daily - W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks",
@@ -95,7 +95,7 @@ export const metadata = {
       "W3Resource for beginners, HackerRank for structure, LeetCode for challenges. Online editors, no setup. Practice coding the right way.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_free_websites_to_practice_coding.webp",
     ],
   },
 
@@ -289,7 +289,7 @@ export const metadata = {
         "Complete Guide to W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/top_free_websites_to_practice_coding.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_free_websites_to_practice_coding.webp",
         width: 600,
         height: 400,
         caption: "Top 5 coding practice websites comparison",
@@ -878,7 +878,7 @@ const PracticeCoding = () => {
             and the practice hub opens.
           </p>
           <p>
-            You’ll see sections for Interview Preparation, Code Monk, Basic
+            You’ll see sections for <Link href="/ai/cheating">Interview Preparation</Link>, Code Monk, Basic
             Programming, Algorithms, and Data Structures. Inside Data
             Structures, the layout breaks down nicely: Arrays, One dimensional
             and Multidimensional, Stacks, Queues, Hash Tables, Linked Lists, and
@@ -985,7 +985,7 @@ const PracticeCoding = () => {
             GeeksforGeeks blends learning material with practice panels and
             contests. Go to geeksforgeeks.org and click Practice. You’ll see
             practice sections split by language and by company. Language-wise
-            coding includes C++, Java, and Python. Company-wise coding practice
+            coding includes C++, Java, and Python. Company-wise <Link href="/latest/github-repositories">coding practice</Link>
             includes Amazon, Microsoft, Flipkart, and more.
           </p>
           <p>

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
         width: 1200,
         height: 630,
         alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
@@ -95,7 +95,7 @@ export const metadata = {
       "Speed, security, or flexibility? Our comprehensive comparison helps you choose between Apache and NGINX for optimal web infrastructure in 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Apache vs NGINX: The Ultimate Web Server Comparison Guide for 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {
@@ -831,7 +831,7 @@ export default function Article() {
             <h3>What is the main difference between Apache and nginx?</h3>
             <p>
               Apache is highly extensible and customizable, originally designed
-              for dynamic content and has a broad range of modules. Nginx is
+              for <Link href="/javascript/bom-applications">dynamic content</Link> and has a broad range of modules. Nginx is
               lightning-fast for static content, built for speed and efficiency,
               especially in modern, containerized, or high-traffic environments.
             </p>
@@ -886,7 +886,7 @@ export default function Article() {
             who will click away and never build real understanding. This is just
             the beginning of what’s possible. You can install and configure a
             basic proxy stack in 15 minutes. But the pro-level optimizations -
-            caching, SSL offload, dynamic routing, hybrid architectures - that’s
+            caching, SSL offload, <Link href="/react/navigating-pages">dynamic routing</Link>, hybrid architectures - that’s
             where the magic (and the real business edge) lives.
           </p>
           <p>

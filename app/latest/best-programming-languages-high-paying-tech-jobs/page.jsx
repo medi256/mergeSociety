@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
         width: 1200,
         height: 630,
         alt: "Programming Languages for High-Paying Tech Jobs in 2025",
@@ -96,7 +96,7 @@ export const metadata = {
       "Data analysis of 150+ job postings reveals which languages to learn for the highest-paying roles in AI, web dev, mobile, and data science.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for High-Paying Tech Jobs in 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
     datePublished: "2025-05-16T09:00:00Z",
     dateModified: "2025-05-16T09:00:00Z",
     author: {
@@ -445,7 +445,7 @@ export default function Article() {
           down nine of the hottest engineering roles, their average salaries,
           and most importantly the <strong>best programming languages</strong>{" "}
           to crack into each coveted position. Whether you’re just starting out
-          or considering a career transition, you’ll discover which coding
+          or considering a <Link href="/ai/future-of-jobs">career transition</Link>, you’ll discover which coding
           languages and skills companies actually demand right now, not just
           what’s trending on social media.
         </p>
@@ -592,7 +592,7 @@ export default function Article() {
               services.
             </p>
             <p>
-              <strong>Pro tip:</strong> Choose mobile development if you’re
+              <strong>Pro tip:</strong> Choose <Link href="/code-report/tech-stack">mobile development</Link> if you’re
               fascinated by smartphone user experiences and want to see your
               work in everyone’s pocket. But beware platforms like Apple and
               Google frequently update standards, which can mean lots of code
@@ -847,7 +847,7 @@ export default function Article() {
           <h3>Should I learn Python or JavaScript first for a tech career?</h3>
           <p>
             It depends on your interests. Start with <strong>Python</strong> if
-            you're interested in data science, AI/machine learning, or backend
+            you're interested in <Link href="/code-report/algorithms">data science</Link>, AI/machine learning, or backend
             development. Choose <strong>JavaScript</strong> (and React) if
             you're drawn to user facing web development. Full stack developers
             often learn both.

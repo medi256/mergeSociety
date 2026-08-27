@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
         width: 800,
         height: 400,
         alt: "How I Built Multiple Income Streams as a Developer",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Transparent breakdown: YouTube ($63k), courses ($160k), SaaS, freelancing. Learn how I built multiple developer income streams from zero.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
     ],
     creator: "@manager70191",
   },
@@ -108,7 +108,7 @@ export const jsonLd = {
   description:
     "A transparent journey of building multiple income streams as a developer including YouTube monetization, online courses, SaaS products, ebooks, and freelancing.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
   datePublished: "2025-10-28T00:00:00.000Z",
   dateModified: "2025-10-28T00:00:00.000Z",
   author: {
@@ -456,7 +456,7 @@ const Florin = () => {
             My last big thing is a SaaS that I created two years ago called
             iCode This. This is a platform that I built to help developers learn
             how to code by actually building projects instead of going in
-            tutorial hell. The idea came from watching people consume hours of
+            <Link href="/code-report/how-to-build-projects">tutorial hell</Link>. The idea came from watching people consume hours of
             videos and still not ship a single small app. Projects change that.
             You learn by doing and you remember because you struggled a little
             in the right places.

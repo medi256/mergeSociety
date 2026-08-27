@@ -46,7 +46,7 @@ const LocationObject = () => {
           Model (BOM) and its various components. So far, we've covered the
           Window object and its methods, such as <code>alert</code>,{" "}
           <code>confirm</code>, and <code>prompt</code>. Now, let's move on to
-          another important part of the BOM: the Location object.
+          another important part of the BOM: the <Link href="/javascript/bom-intro">Location object</Link>.
         </p>
 
         <h2>What is the Location Object?</h2>

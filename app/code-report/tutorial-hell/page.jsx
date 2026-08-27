@@ -43,7 +43,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
         width: 1200,
         height: 630,
         alt: "Tutorial Hell - Break free from endless tutorials and learn to code independently",
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Stop being stuck in tutorial hell. Learn the GUeSS method to build real coding projects independently.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
     ],
   },
 
@@ -115,7 +115,7 @@ export const structuredData = {
   description:
     "Complete guide to escaping tutorial hell and building real coding projects independently using the proven GUeSS method.",
   image: [
-    "https://img.mergesociety.com/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
   ],
   author: {
     "@type": "Person",
@@ -187,7 +187,7 @@ const Page = () => {
           think I can finally start programming. Wait. So how do I program
           without a tutorial? Do I need another course? Another playlist?
           Another 4K video of someone typing at 2x speed while lofi beats melt
-          my brain? Welcome to tutorial hell - population, way too many of us.
+          my brain? Welcome to <Link href="/code-report/how-to-build-projects">tutorial hell</Link> - population, way too many of us.
           Today we are going to talk about what tutorial hell is, why it grabs
           your ankles like quicksand, and how to escape it without rage quitting
           your keyboard or sacrificing your sanity.
@@ -399,7 +399,7 @@ const Page = () => {
             </p>
             <aside aria-label="related">
               <p>
-                Related topic: picking your first programming language. Related
+                Related topic: picking your first <Link href="/javascript/introduction-to-javascript">programming language</Link>. Related
                 topic: how to read documentation without crying. Related topic:
                 10 simple project ideas you can finish this week.
               </p>

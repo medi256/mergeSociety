@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/data_structures_explained.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/data_structures_explained.webp",
         width: 600,
         height: 400,
         alt: "Data Structures and Big O Notation explained - arrays linked lists stacks queues heaps hashmaps trees sets with time complexity",
@@ -95,7 +95,7 @@ export const metadata = {
       "Master arrays, stacks, queues, heaps, hashmaps, BSTs with visual analogies. O(1), O(n), O(log n), O(n²) explained. Coding interview ready.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/data_structures_explained.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/data_structures_explained.webp",
     ],
   },
 
@@ -418,7 +418,7 @@ export const metadata = {
         "Master Arrays, Stacks, Heaps, Hashmaps with Visual Analogies and Time Complexity",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/data_structures_explained.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/data_structures_explained.webp",
         width: 600,
         height: 400,
         caption: "Data structures and Big O notation visual guide",

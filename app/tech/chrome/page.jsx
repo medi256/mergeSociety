@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Tech Roundup Weekly",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
         width: 1200,
         height: 630,
         alt: "Collage showing Google logo in courthouse, OpenAI's ChatGPT interface, Intel chips, and futuristic AI avatars",
@@ -83,7 +83,7 @@ export const metadata = {
       "Your essential roundup of the week's biggest tech stories: Google vs DOJ, OpenAI's search ambitions, Intel's boost technology, and much more.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -131,7 +131,7 @@ export const metadata = {
     headline:
       "Google's Antitrust Battles, AI Shenanigans & Tech Roundup: Your Wild, Weird Week in Tech",
     image:
-      "https://img.mergesociety.com/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
     datePublished: "2025-04-26T08:00:00Z",
     dateModified: "2025-04-26T10:30:00Z",
     author: {

@@ -54,7 +54,7 @@ const EventHandling = () => {
           real-time, such as showing a message or changing an element's style.
         </p>
         <p>
-          Mastering event handling is crucial for making your web pages dynamic
+          Mastering <Link href="/react/functional-event-handling">event handling</Link> is crucial for making your web pages dynamic
           and engaging. It's one of the fundamental skills you need to create
           interactive web applications.
         </p>
@@ -127,7 +127,7 @@ alert('Button clicked!');
 
         <h3>Syntax</h3>
         <p>
-          Adding event listeners in JavaScript involves using the{" "}
+          Adding <Link href="/javascript/dom-intro">event listeners</Link> in JavaScript involves using the{" "}
           <code>addEventListener</code> method. Here is the basic syntax:
         </p>
         <pre>

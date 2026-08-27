@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/6554783_amd2ad_suixhe.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
         width: 1200,
         height: 630,
         alt: "PostgreSQL vs MySQL comparison diagram showing key features, performance benchmarks, and use cases",
@@ -103,7 +103,7 @@ export const metadata = {
       "Enterprise complexity or web simplicity? Find out which database fits your project needs with our comprehensive PostgreSQL vs MySQL comparison.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/6554783_amd2ad_suixhe.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
     ],
   },
 
@@ -155,7 +155,7 @@ export const metadata = {
     headline:
       "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
     image:
-      "https://img.mergesociety.com/mergesociety/6554783_amd2ad_suixhe.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -592,7 +592,7 @@ export default function Article() {
             Management Systems (<strong>RDBMS</strong>). Which is basically a
             nerdy way to say: “We organize your messy data into neat little
             tables so you can sleep at night.” Both use{" "}
-            <strong>SQL (Structured Query Language)</strong>—the “secret code”
+            <strong>SQL (<Link href="/code-report/what-is-a-database">Structured Query Language</Link>)</strong>—the “secret code”
             that lets you find what you want from those tables without knowing
             where it’s stored, how it’s indexed, or whether it’s buried in a
             data center under a volcano.

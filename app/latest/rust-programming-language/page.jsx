@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rust_q0urkm_g4ly43.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
         width: 1200,
         height: 630,
         alt: "Rust Programming Language: Memory Safety and Performance Guide 2025",
@@ -96,7 +96,7 @@ export const metadata = {
       "Learn why Rust dominates systems programming with its revolutionary approach to memory safety without garbage collection. Practical guide to ownership, borrowing, and performance optimization.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rust_q0urkm_g4ly43.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Rust Programming Language: Memory Safety and Performance Guide 2025",
-    image: "https://img.mergesociety.com/mergesociety/rust_q0urkm_g4ly43.webp",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -435,7 +435,7 @@ export default function Article() {
           </time>
         </h2>
         <p>
-          <strong>Rust programming language</strong> is revolutionizing the way
+          <strong><Link href="/code-report/top-programming-languages-to-learn">Rust programming language</Link></strong> is revolutionizing the way
           developers build high performance, memory safe applications. Renowned
           for its blend of modern simplicity and low-level power, Rust has
           quickly become the go to choice for everything from game engines to
@@ -464,7 +464,7 @@ export default function Article() {
             Rust rose from niche experiment to a central tool for cutting edge
             software engineering. Since 2016, the Rust community affectionately
             known as <strong>Rustaceans</strong> has consistently voted it the
-            most loved programming language according to the yearly Stack
+            most loved <Link href="/javascript/introduction-to-javascript">programming language</Link> according to the yearly Stack
             Overflow Developer Survey.
           </p>
         </section>
@@ -474,7 +474,7 @@ export default function Article() {
             Memory Management in Rust: No Garbage Collector, No Compromises
           </h2>
           <p>
-            Traditional high-level programming languages, like Python or Java,
+            Traditional high-level <Link href="/javascript/js-vs-ecmascript">programming languages</Link>, like Python or Java,
             often rely on garbage collectors to automatically reclaim unused
             memory. While this approach is convenient, it comes with performance
             tradeoffs and less direct control for the developer. Lower-level

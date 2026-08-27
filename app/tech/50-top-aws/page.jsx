@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/aws_lg2upw_ilakce.webp",
         width: 1200,
         height: 630,
         alt: "Updated 2025 AWS services guide - developer navigating cloud tools with latest insights",
@@ -93,7 +93,7 @@ export const metadata = {
       "Just updated our comprehensive AWS guide. 200+ services analyzed, costs revealed, architecture patterns that actually work in production.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/aws_lg2upw_ilakce.webp",
     ],
   },
 
@@ -180,7 +180,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "AWS Services Explained: Complete 2025 Guide to 50+ Amazon Cloud Products",
-    image: "https://img.mergesociety.com/mergesociety/aws_lg2upw_ilakce.webp",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/aws_lg2upw_ilakce.webp",
     datePublished: "2024-05-03T08:30:00Z",
     dateModified: "2025-07-01T10:15:00Z",
     author: {
@@ -590,7 +590,7 @@ export default function Article() {
           </p>
           <h3>DynamoDB and DocumentDB: NoSQL Powerhouses</h3>
           <p>
-            Need web-scale, horizontal scaling, and lightning speed?{" "}
+            Need web-scale, <Link href="/code-report/mongodb-explained">horizontal scaling</Link>, and lightning speed?{" "}
             <strong>DynamoDB</strong> is a rock-solid document database, perfect
             for huge apps—just don’t try to run complicated cross-table queries.
           </p>
@@ -736,7 +736,7 @@ export default function Article() {
             Communication at Scale
           </h3>
           <p>
-            <strong>SNS:</strong> Push notifications and pub-sub messages.
+            <strong>SNS:</strong> <Link href="/code-report/websocket-polling">Push notifications</Link> and pub-sub messages.
             <br />
             <strong>SES:</strong> Transactional, marketing, or automated emails
             with high deliverability.
@@ -755,7 +755,7 @@ export default function Article() {
           </p>
           <h3>AWS Amplify: Frontend Meets Cloud</h3>
           <p>
-            Connecting JavaScript, iOS, or Android apps to AWS services?{" "}
+            Connecting JavaScript, iOS, or <Link href="/apps/best-apps">Android apps</Link> to AWS services?{" "}
             <strong>Amplify</strong> provides SDKs and CLI tools for easy,
             secure, scalable integrations.
           </p>

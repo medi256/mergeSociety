@@ -39,7 +39,7 @@ const InlineStyles = () => {
           becomes a superpower! Inline styles allow you to apply styles directly
           to your JSX elements, making your code more dynamic and flexible.
           Let's explore the world of inline styles and learn how to efficiently
-          manage and apply styles in your React components.
+          manage and apply styles in your <Link href="/react/conditional-rendering">React components</Link>.
         </p>
 
         <h2>Understanding Inline Styles</h2>

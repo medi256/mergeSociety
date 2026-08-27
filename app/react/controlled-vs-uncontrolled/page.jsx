@@ -39,7 +39,7 @@ const ControlledeUncrolled = () => {
         <p>
           Welcome back! In our previous lesson, we learned how to handle form
           input in React. Now, we're going to explore two important concepts:
-          Controlled Components and Uncontrolled Components. Don't worry if
+          <Link href="/react/form-handling">Controlled Components</Link> and Uncontrolled Components. Don't worry if
           you're not familiar with these terms yet – we'll break everything down
           step by step.
         </p>

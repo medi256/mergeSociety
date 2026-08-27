@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
         width: 1200,
         height: 630,
         alt: "Software engineering career advice: Building projects for real users vs localhost development",
@@ -91,7 +91,7 @@ export const metadata = {
       "Stop coding on localhost. Start building for real users. Here's how to accelerate your learning and stand out from 95% of CS grads.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
         "From Tutorial Hell to Real Jobs: The CS Student's Guide to Building Career-Changing Projects",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -220,7 +220,7 @@ export const metadata = {
       description:
         "Step-by-step guide for CS students to create projects for actual users and accelerate their software engineering career",
       image:
-        "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
       totalTime: "PT60M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -377,7 +377,7 @@ export default function Article() {
           starts when you put your project out there and REAL users break it in
           ways you never imagined. Ready to upgrade from coding in the vacuum?
           Don’t blink, because what you’re about to learn will put you ahead of
-          95% of CS grads still stuck in tutorial hell.
+          95% of CS grads still stuck in <Link href="/code-report/how-to-build-projects">tutorial hell</Link>.
         </p>
 
         <section>

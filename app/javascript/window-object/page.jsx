@@ -42,7 +42,7 @@ const WindowObject = () => {
         <h2>Introduction</h2>
         <p>
           In our last lesson, we introduced the Browser Object Model (BOM) and
-          discussed its various components, like the <code>Window Object</code>.
+          discussed its various components, like the <code><Link href="/javascript/bom-intro">Window Object</Link></code>.
           Now, we’re going to dive deeper into the <code>Window Object</code>{" "}
           and explore some of its useful methods. These methods help us interact
           with the user through pop-up boxes and get feedback from them.

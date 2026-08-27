@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
         width: 600,
         height: 400,
         alt: "10 Best Websites To Learn How To Code For Free - SoloLearn, freeCodeCamp, W3Schools and more",
@@ -95,7 +95,7 @@ export const metadata = {
       "Learn to code completely free. SoloLearn, freeCodeCamp & 8 more platforms that actually work. Build projects, earn certs, no credit card required.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
     ],
   },
 
@@ -238,7 +238,7 @@ export const metadata = {
         "Free Programming Platforms That Actually Work Without Paywalls",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
         width: 600,
         height: 400,
         caption: "Top free coding learning websites comparison",
@@ -881,7 +881,7 @@ const Websites = () => {
             recently.
           </p>
           <p>
-            In addition to a large number of programming language tutorials,
+            In addition to a large number of <Link href="/javascript/introduction-to-javascript">programming language</Link> tutorials,
             Programiz provides detailed information on computer science
             concepts. That means you don’t just copy code, you learn the why
             behind it.
@@ -928,7 +928,7 @@ const Websites = () => {
 
           <h3>6) Code.org - The Best Starting Point For School-Age Students</h3>
           <p>
-            For school age students wanting to learn programming, Code.org is an
+            For school age students wanting to <Link href="/code-report/best_books_to_learn_programming">learn programming</Link>, Code.org is an
             excellent place to start. It makes coding approachable, colorful,
             and fun.
           </p>
@@ -970,7 +970,7 @@ const Websites = () => {
             which is the fastest way to build algorithmic thinking.
           </p>
           <p>
-            Even if you’re not aiming for competitive programming long term,
+            Even if you’re not aiming for <Link href="/ai/cheating">competitive programming</Link> long term,
             doing a few easy-rated problems each week trains you to read
             carefully, break down inputs and outputs, and test edge cases like a
             pro.

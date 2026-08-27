@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
         width: 1200,
         height: 630,
         alt: "Linux Beginner's Guide: Terminal window showing bash commands with Tux penguin logo",
@@ -99,7 +99,7 @@ export const metadata = {
       "Discover why Linux rules servers while only 4% of PC users have embraced it. Master essential Linux concepts, commands & skills to boost your tech career.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
     ],
   },
 
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "Why Linux Matters: The Beginner's Guide to Mastering the World's Most Powerful Operating System",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
     datePublished: "2025-05-11T08:00:00Z",
     dateModified: "2025-05-11T08:00:00Z",
     author: {
@@ -591,7 +591,7 @@ export default function Article() {
         <p>
           Fast forward to 1987: a teaching OS called MINIX emerged but came with
           code redistribution restrictions. That's when a young Finnish student
-          named Linus Torvalds decided to build something better. In 1991,{" "}
+          named <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link> decided to build something better. In 1991,{" "}
           <strong>Linux</strong> was born <em>free</em> and open source, under
           GPL 2.0 (free as in freedom: you can copy, modify, and even sell it).
         </p>
@@ -668,7 +668,7 @@ export default function Article() {
         <h2>So, What’s GNU? And What Makes Linux Useful to Humans?</h2>
         <p>
           Let’s clear up a point: GNU (<em>pronounced</em> “guh new”) predates
-          Linux itself! Created in 1983 by the legendary Richard Stallman, the
+          Linux itself! Created in 1983 by the legendary <Link href="/tech/10x-developers">Richard Stallman</Link>, the
           GNU Project provides the userland utilities those everyday programs
           that make Linux usable.
         </p>

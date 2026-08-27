@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
         width: 1200,
         height: 630,
         alt: "Git for Beginners Tutorial - Version Control Simplified with terminal commands and repository setup",
@@ -98,7 +98,7 @@ export const metadata = {
       "Master Git in 10 minutes! Installation, commands, workflows explained in plain English. Perfect for coding beginners and bootcamp students.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
     ],
   },
 
@@ -357,7 +357,7 @@ export const metadata = {
         "Learn Git from Scratch: Installation, Commands, and Workflow for Beginners",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -678,7 +678,7 @@ export default function Article() {
         </h1>
         <p>
           <strong>
-            Git is a version control system that tracks changes to your files
+            Git is a <Link href="/code-report/basic-git-commands">version control</Link> system that tracks changes to your files
             over time so you can review history, roll back safely, and
             collaborate without losing work. You install it on your computer,
             set your name and email, then follow a simple flow: edit in the
@@ -714,7 +714,7 @@ export default function Article() {
         <section>
           <p>
             Hi, I'm Kanesha, and if you don't know the first thing about Git,
-            version control, or the basic concepts you need to be successful
+            <Link href="/latest/devops-lifecycle">version control</Link>, or the basic concepts you need to be successful
             with Git, this is for you.
           </p>
           <p>
@@ -984,7 +984,7 @@ export default function Article() {
             we will install the latest version with Homebrew.
           </p>
           <p>
-            Homebrew is a package manager that makes installing developer tools
+            Homebrew is a <Link href="/react/installing-nodejs">package manager</Link> that makes installing developer tools
             straightforward.
           </p>
           <p>

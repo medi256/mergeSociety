@@ -45,7 +45,7 @@ const HistoryObject = () => {
           We've been learning about the Browser Object Model (BOM) and its
           various parts. So far, we've talked about the Window, Location, and
           Navigator objects. Now, let's talk about another important part of the
-          BOM: the History object.
+          BOM: the <Link href="/javascript/bom-intro">History object</Link>.
         </p>
 
         <h2>What is the History Object?</h2>

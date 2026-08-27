@@ -45,7 +45,7 @@ const AsyncAwait = () => {
 
         <p>
           Asynchronous code is a common aspect of modern web development,
-          especially when dealing with operations like fetching data from an
+          especially when dealing with operations like <Link href="/react/useeffect-hook">fetching data</Link> from an
           API, performing time-consuming tasks, or handling user interactions.
           The async/await syntax provides a way to write asynchronous code that
           looks and behaves like synchronous code, making it easier to reason
@@ -286,7 +286,7 @@ export default App;
 
         <p>
           Async/await syntax in React allows you to write asynchronous code in a
-          more synchronous-looking way. It improves code readability and makes
+          more synchronous-looking way. It improves <Link href="/javascript/arrow-functions">code readability</Link> and makes
           it easier to manage and understand asynchronous tasks. Remember to use
           try/catch blocks to handle errors gracefully and provide a robust user
           experience.

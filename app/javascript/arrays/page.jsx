@@ -355,7 +355,7 @@ console.log(fruit);
           single variable, access elements using indexes, and perform various
           operations like adding, removing, and iterating over elements.
           Understanding arrays is essential for becoming proficient in
-          JavaScript, and you'll often use them in your coding projects.
+          JavaScript, and you'll often use them in your <Link href="/tech/40-projects">coding projects</Link>.
         </p>
 
         <Button whereToGo={"array-methods"} />

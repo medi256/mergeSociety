@@ -34,7 +34,7 @@ const InstallingNode = () => {
           Before we start building React applications, there are two key tools
           we need to set up on your computer: <strong>Node.js </strong> and{" "}
           <strong>npm </strong>. These tools will help you create and manage
-          your React projects. Don’t worry if these terms sound a bit confusing
+          your <Link href="/code-report/how-to-build-projects">React projects</Link>. Don’t worry if these terms sound a bit confusing
           at first; I’ll break them down and explain why we need them.
         </p>
 
@@ -178,7 +178,7 @@ const InstallingNode = () => {
         <h2>What’s Next?</h2>
         <p>
           Now that Node.js and npm are installed, you’re ready to move forward
-          and start creating React projects. In the next lesson, we’ll set up a
+          and start creating <Link href="/code-report/how-to-code-a-projects">React projects</Link>. In the next lesson, we’ll set up a
           code editor (I recommend Visual Studio Code) and create your first
           React project using a tool called <strong>Create React App </strong>.
           Stay tuned!

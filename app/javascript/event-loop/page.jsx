@@ -40,7 +40,7 @@ const EventLoop = () => {
           language. This means it can only do one thing at a time in the main
           thread. However, modern web applications often need to do many things
           at once, like handling user input, fetching data from the server, and
-          updating the user interface. So how does JavaScript do all this at
+          updating the <Link href="/react/fetching-api">user interface</Link>. So how does JavaScript do all this at
           once if it’s single-threaded? This is where the{" "}
           <code>event loop</code> comes in.
         </p>
@@ -93,7 +93,7 @@ greet(); // This function gets added to the call stack and executed
         </p>
 
         <p>
-          Tasks that are asynchronous, like fetching data or waiting for a
+          Tasks that are asynchronous, like <Link href="/react/useeffect-hook">fetching data</Link> or waiting for a
           timer, are placed in the queue once they are ready to be processed.
         </p>
 

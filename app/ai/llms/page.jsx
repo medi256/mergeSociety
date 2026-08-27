@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of a large language model predicting the next word in a sequence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Learn how LLMs work by predicting one word at a time, and the revolutionary technology that powers today's AI assistants.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -123,7 +123,7 @@ export const metadata = {
     headline:
       "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
     image:
-      "https://img.mergesociety.com/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
     datePublished: "2025-04-26T13:00:00Z",
     dateModified: "2025-04-26T13:00:00Z",
     author: {
@@ -286,7 +286,7 @@ export default function Article() {
         <p>
           Imagine stumbling upon a movie script, the kind that builds a world
           with nothing but words. But this script is missing something critical:
-          the AI assistant's response. The scene is set—someone speaks to their
+          the <Link href="/ai/whats-next">AI assistant</Link>'s response. The scene is set—someone speaks to their
           AI, asking a question, but the AI's reply has been torn away, its side
           of the conversation lost to time. Now, envision a truly magical
           device: one that can guess, with eerie accuracy, the next word for any
@@ -309,7 +309,7 @@ export default function Article() {
         <p>
           When you type your question into a chatbot, here's what occurs: the
           system arranges your message within a pretend dialogue between a
-          hypothetical user and a hypothetical AI assistant. Then, powered by
+          hypothetical user and a hypothetical <Link href="/latest/ai-is-officially-here">AI assistant</Link>. Then, powered by
           its deep learning model, it begins to predict—word by word—how an
           intelligent AI might respond. This process repeats, each word building
           on the last, until a complete answer emerges.
@@ -424,7 +424,7 @@ export default function Article() {
         </p>
 
         <p>
-          Transformers also include another trick: feedforward neural networks.
+          Transformers also include another trick: feedforward <Link href="/ai/god-father-of-ai">neural networks</Link>.
           These provide extra memory and processing ability, letting the model
           learn more complex patterns across the language. Information flows
           through many layers of attention and feedforward operations, gradually

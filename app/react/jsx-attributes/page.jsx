@@ -197,7 +197,7 @@ return <img src={imageUrl} alt="Dynamic Logo" />;
         <h2>Wrapping Up JSX Attributes</h2>
         <p>
           JSX attributes allow you to enhance your UI elements by adding
-          functionality like classes, event handlers, and dynamic content. Just
+          functionality like classes, event handlers, and <Link href="/javascript/bom-applications">dynamic content</Link>. Just
           remember:
         </p>
 
@@ -222,7 +222,7 @@ return <img src={imageUrl} alt="Dynamic Logo" />;
 
         <p>
           Now that you know how to use attributes in JSX, you're ready to move
-          on to learning about <strong>Functional Components</strong>.
+          on to learning about <strong><Link href="/react/class-components">Functional Components</Link></strong>.
           Components are the building blocks of a React app, and they allow you
           to break down your UI into smaller, reusable parts.
         </p>

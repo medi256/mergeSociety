@@ -54,7 +54,7 @@ const Conditoional = () => {
         <h2>Understanding Conditions</h2>
         <p>
           In JavaScript, conditions are checks that evaluate to either true or
-          false. We use comparison operators to compare values and create these
+          false. We use <Link href="/javascript/arithmetic-operators">comparison operators</Link> to compare values and create these
           conditions. Here are some common ones:
         </p>
         <ul>

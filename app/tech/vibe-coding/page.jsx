@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
         width: 1200,
         height: 630,
         alt: "Vibe Coding 2025: AI-powered programming revolution with exponential development results",
@@ -91,7 +91,7 @@ export const metadata = {
       "Updated guide: Learn how 'vibe coding' is creating millionaire developers, the failures to avoid, and 3 proven rules for AI programming success.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
         "How to Master Vibe Coding and Join the AI Programming Revolution",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -224,7 +224,7 @@ export const metadata = {
       description:
         "Step-by-step guide to implementing vibe coding methodology for successful AI-assisted programming",
       image:
-        "https://img.mergesociety.com/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       totalTime: "PT30M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -369,7 +369,7 @@ export default function Article() {
             elegance, forget understanding. Just launch it. Just “vibe.”
           </p>
           <p>
-            This movement exploded thanks to indie hacker overlord{" "}
+            This movement exploded thanks to <Link href="/startup-stories/rob-hallam">indie hacker</Link> overlord{" "}
             <strong>Peter Levels</strong>, who famously vibe-coded a “crappy
             real-time flight simulator MMO” in JavaScript (yes, you read that
             right). He sold in-game ad spots and made piles of money. Genius?
@@ -704,13 +704,13 @@ export default function Article() {
           <h2>Frequently Asked Questions</h2>
           <h3>Can I trust code written entirely by AI?</h3>
           <p>
-            No. Always review and test AI-generated code. Use version control so
+            No. Always review and test AI-generated code. Use <Link href="/code-report/basic-git-commands">version control</Link> so
             nothing is lost for good.
           </p>
           <h3>Will traditional programming still matter?</h3>
           <p>
             The need for “hand coding” may shrink, but deep logic, architecture,
-            and debugging skills are more valuable than ever.
+            and <Link href="/ai/will-programmers-vanish">debugging skills</Link> are more valuable than ever.
           </p>
           <h3>How do I keep up with new tools?</h3>
           <p>

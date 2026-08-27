@@ -50,7 +50,7 @@ const Conditional = () => {
           inside your components. This means you can use
           <strong> if</strong>, <strong> else</strong>,{" "}
           <strong> ternary operators</strong>, or even JavaScript functions to
-          decide what should appear in the user interface (UI). Let’s break down
+          decide what should appear in the <Link href="/react/fetching-api">user interface</Link> (UI). Let’s break down
           each way of doing this.
         </p>
 

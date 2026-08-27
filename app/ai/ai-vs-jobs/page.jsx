@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Future Tech Perspectives",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
         width: 1200,
         height: 630,
         alt: "AI vs Bitcoin: The Future of Tech Careers",
@@ -85,7 +85,7 @@ export const metadata = {
       "As AI replaces programmers and tech companies face economic headwinds, discover why Bitcoin and stablecoins represent better wealth-building opportunities than traditional coding careers.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -153,7 +153,7 @@ export const metadata = {
     headline:
       "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -610,7 +610,7 @@ export default function Article() {
           Meanwhile, mass layoffs sweep the sector: Intel trimmed 20% of its
           workforce (about 20,000 people), Meta announced repeated layoffs
           across its divisions, with thousands cut just this year. AI isn’t just
-          threatening programming jobs; it's devouring them. Check out the top
+          threatening <Link href="/latest/computer-science-degree-worth-it">programming jobs</Link>; it's devouring them. Check out the top
           posts on Reddit’s CS careers board: new computer science graduates are
           calling it a bloodbath. Stories abound of folks landing “dream” jobs
           in Big Tech, only to find relentless pressure, impossible standards,
@@ -637,7 +637,7 @@ export default function Article() {
         <h2>Progress Stalls: The Tech Stagnation and the AI Mirage</h2>
         <p>
           Let’s call it: Tech innovation has been stagnant for a decade. The
-          much-desired leap to Artificial General Intelligence (AGI) remains
+          much-desired leap to <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link> (AGI) remains
           elusive—a recent Anthropic paper revealed that today’s AI is mostly
           advanced pattern-matching, not intelligence. So-called progress is
           really an illusion of smarts, not the real deal.

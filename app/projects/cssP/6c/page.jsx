@@ -52,7 +52,7 @@ const ButtonHoverEffects = () => {
         </h2>
         <p>
           In this project, we'll explore the power of CSS animations by
-          designing interactive button hover effects. We'll focus on using
+          designing interactive button <Link href="/css/css-opacity">hover effects</Link>. We'll focus on using
           keyframes, transitions, and animation timing functions to create
           engaging and visually appealing hover effects.
         </p>
@@ -361,14 +361,14 @@ const ButtonHoverEffects = () => {
           browser, you'll see the styled buttons.
         </p>
         <p>
-          In the next step, we'll create and apply CSS animations for hover
+          In the next step, we'll create and apply <Link href="/css/css-transitions">CSS animations</Link> for hover
           effects.
         </p>
 
         <h2>Creating and Applying CSS Animations </h2>
         <h3>Creating and Applying CSS Animations</h3>
         <p>
-          Now, let's create and apply CSS animations for the button hover
+          Now, let's create and apply <Link href="/programming-roadmap/css-roadmap">CSS animations</Link> for the button hover
           effects.
         </p>
         <ol className="space-y-6">

@@ -34,7 +34,7 @@ const CSSMedia = () => {
         </p>
         <p>
           In this article, I will talk about how to use responsive design and
-          media queries to make this happen. I will also provide code examples
+          <Link href="/css/css-responsive-design">media queries</Link> to make this happen. I will also provide code examples
           for media queries using max and min screen widths.
         </p>
         <h2>What is Responsive Design?</h2>
@@ -119,7 +119,7 @@ const CSSMedia = () => {
 
         <p>
           <i>
-            Except when using the not or only logical operators, the media type
+            Except when using the not or only <Link href="/javascript/arithmetic-operators">logical operators</Link>, the media type
             is optional and the all type is implied.
           </i>{" "}
         </p>
@@ -151,7 +151,7 @@ const CSSMedia = () => {
 
         <p>
           If you wanted to create more complex media queries, then you can use
-          logical operators.
+          <Link href="/javascript/logical-operators">logical operators</Link>.
         </p>
         <ul>
           <li>

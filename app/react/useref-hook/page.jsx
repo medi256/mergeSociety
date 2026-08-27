@@ -38,7 +38,7 @@ const UseRef = () => {
         <p>
           In React, <code>useRef</code> is a special Hook that helps you
           "reference" or keep track of a DOM element or a value in your
-          functional components without causing re-renders.
+          <Link href="/react/class-components">functional components</Link> without causing re-renders.
         </p>
         <p>But what does that mean?</p>
         <p>
@@ -54,7 +54,7 @@ const UseRef = () => {
           Before Hooks, if you wanted to access a DOM element or maintain some
           mutable value without causing re-renders, you had to use class
           components and deal with more complex code. With <code>useRef</code>,
-          you can do this in functional components easily.
+          you can do this in <Link href="/react/functional-event-handling">functional components</Link> easily.
         </p>
         <p>
           The <code>useRef</code> Hook is useful for:

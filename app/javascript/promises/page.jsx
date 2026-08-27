@@ -66,7 +66,7 @@ const Promises = () => {
         <p>
           In the previous topic, we learned that callbacks can sometimes lead to
           messy code when we need to deal with multiple asynchronous operations,
-          resulting in "callback hell." Promises solve this problem by allowing
+          resulting in "<Link href="/javascript/callbacks">callback hell</Link>." Promises solve this problem by allowing
           us to structure our code in a more manageable way. With Promises, we
           can avoid deeply nested callbacks and write asynchronous code that is
           easier to read and understand.
@@ -208,7 +208,7 @@ myPromise
         <h2>Real-Life Example of Promises</h2>
         <p>
           Let’s see a more practical example using a mock asynchronous task,
-          like fetching data from a server:
+          like <Link href="/react/useeffect-hook">fetching data</Link> from a server:
         </p>
 
         <pre>
@@ -330,7 +330,7 @@ fetchData()
         </ul>
 
         <p>
-          Promises are a powerful tool for managing asynchronous code in
+          Promises are a powerful tool for managing <Link href="/react/async-await">asynchronous code</Link> in
           JavaScript. But as we move forward, there's an even simpler way to
           write asynchronous code using <code>async</code> and{" "}
           <code>await</code>. We’ll cover that next!

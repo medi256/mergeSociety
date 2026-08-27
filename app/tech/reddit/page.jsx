@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
         width: 1200,
         height: 630,
         alt: "AI bots secretly infiltrating online communities with digital tendrils spreading across Reddit and social platforms",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
         width: 1200,
         height: 630,
         alt: "Person listening to a phone with AI voice cloning technology illustrated as sound waves morphing into deceptive patterns",
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
     image: [
-      "https://img.mergesociety.com/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
     ],
     datePublished: "2025-04-30T10:15:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -620,7 +620,7 @@ export default function Article() {
         <p>
           Whenever you use LLMs to build complex projects (say, using a trendy
           Vibe coding template), you constantly feed context and instructions to
-          your AI assistant. Unfortunately, all it takes is a malicious
+          your <Link href="/ai/whats-next">AI assistant</Link>. Unfortunately, all it takes is a malicious
           influencer, or a booby-trapped coding template, to slip in a prompt
           that tells the LLM to do something it shouldn’t—like steal your
           project data and send it to an attacker.
@@ -639,7 +639,7 @@ export default function Article() {
           Thankfully, not all news in AI tooling is ominous. Enter
           <strong>Code Rabbit’s Agentic</strong>, the newest chat assistant
           built for developers. Unlike sketchy templates, Agentic actually helps
-          coders plan and generate entire pull requests from scratch.
+          coders plan and generate entire <Link href="/latest/git-vs-github">pull requests</Link> from scratch.
         </p>
         <p>
           Here’s how it works: You describe the vision for your next big
@@ -654,7 +654,7 @@ export default function Article() {
         </p>
         <p>
           Code Rabbit’s solution is{" "}
-          <strong>100% free for open source projects</strong>
+          <strong>100% free for <Link href="/latest/github-repositories">open source projects</Link></strong>
           and includes enterprise-grade capabilities for private repositories.
         </p>
 

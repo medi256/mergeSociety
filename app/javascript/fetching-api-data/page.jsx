@@ -36,7 +36,7 @@ const fetchData = () => {
 
         <h2>1. Understanding the Fetch Method</h2>
         <p>
-          Think of fetching data from an API like ordering a book from an online
+          Think of <Link href="/react/useeffect-hook">fetching data</Link> from an API like ordering a book from an online
           bookstore. You place an order (make a request), and the bookstore
           sends you the book (the data) you wanted. In programming, we use the{" "}
           <code>fetch</code> method to place this order.

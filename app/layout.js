@@ -19,7 +19,7 @@ export const metadata = {
   metadataBase: new URL("https://mergesociety.com"),
   title: "Code Report | AI, Tech, Interviews, and Startup Stories",
   description:
-    "Merge Society is an  online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.",
+    "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
   keywords: [
     "AI",
     "Tech",
@@ -87,40 +87,11 @@ export const metadata = {
     "data warehousing",
     "Robots",
     "robotics",
-    "robotic process automation",
-    "robotic process automation",
-    "robotic process automation tools",
-    "robotic process automation software",
-    "robotic process automation solutions",
-    "robotic process automation platforms",
-    "robotic process automation frameworks",
-    "robotic process automation best practices",
-    "robotic process automation use cases",
-    "robotic process automation case studies",
-    "interviews",
-    "interview preparation",
-    "interview questions",
-    "interview tips",
-    "interview techniques",
-    "interview strategies",
-    "interview skills",
-    "interview process",
-    "interview techniques",
-    "interview questions and answers",
-    "interview preparation tips",
-    "interview preparation strategies",
-    "interview preparation techniques",
-    "interview preparation resources",
-    "interview preparation books",
   ],
   authors: [{ name: "Merge Society", url: "https://mergesociety.com" }],
   creator: "Merge Society",
   publisher: "Merge Society",
   applicationName: "Merge Society",
-
-  alternates: {
-    canonical: "https://mergesociety.com",
-  },
 
   alternates: {
     canonical: "https://mergesociety.com",
@@ -133,14 +104,14 @@ export const metadata = {
   openGraph: {
     title: "Merge Society | AI, Tech, Interviews, and Startup Stories",
     description:
-      "Merge Society is an online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.",
+      "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
     url: "https://mergesociety.com",
     siteName: "Merge Society",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -167,11 +138,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Script
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-EVC3DTG6XZ"
       />
 
-      <Script id="google-analytics" strategy="lazyOnload">
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -226,10 +197,11 @@ export default function RootLayout({ children }) {
         data-cfasync="false"
         strategy="lazyOnload"
       />
-      <link rel="preconnect" href="https://exchange.journeymv.com" />
-      <link rel="preconnect" href="https://faves.grow.me" />
-      <link rel="preconnect" href="https://scripts.journeymv.com" />
-      <link rel="preconnect" href="https://keywords.journeymv.com" />
+
+      <link rel="preconnect" href="https://www.googletagmanager.com" />
+      <link rel="preconnect" href="https://img.mergesociety.com" />
+      <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+      <link rel="dns-prefetch" href="//img.mergesociety.com" />
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

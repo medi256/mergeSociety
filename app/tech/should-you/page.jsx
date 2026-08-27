@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society Blog",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/cs_moponk_kbfqj2.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.jpg",
         width: 1200,
         height: 630,
         alt: "A computer science student working on code with graduation cap - CS Degree Worth It in 2025",
@@ -84,7 +84,7 @@ export const metadata = {
     description:
       "Read Sam's journey from bank teller to software engineer and discover if a CS degree is the right investment for your future in tech in 2025.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/mergesociety/cs_moponk_kbfqj2.jpg"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.jpg"],
   },
 
   robots: {
@@ -130,7 +130,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
-    image: "https://img.mergesociety.com/mergesociety/cs_moponk_kbfqj2.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.jpg",
     datePublished: "2025-05-13T12:00:00Z",
     dateModified: "2025-05-13T12:00:00Z",
     author: {
@@ -552,7 +552,7 @@ export default function Article() {
           typical prerequisites for a Computer Science master’s program. I
           needed to level up my game fast. I researched various universities,
           listed their entry requirements, and signed up for a gauntlet of
-          foundational courses: Operating Systems, Computer Architecture,
+          foundational courses: <Link href="/tech/10x-developers">Operating Systems</Link>, Computer Architecture,
           Software Engineering, and heavy duty mathematics like Discrete Math,
           Linear Algebra, and Calculus I and II.
         </p>

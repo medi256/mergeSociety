@@ -44,7 +44,7 @@ const ReactStyling = () => {
         <h2>Understanding React CSS Styling</h2>
 
         <p>
-          React CSS styling involves applying styles to your React components
+          React CSS styling involves applying styles to your <Link href="/react/conditional-rendering">React components</Link>
           using CSS. You can style your components using class names, inline
           styles, or CSS-in-JS libraries. React also offers features like CSS
           Modules and styled-components to enhance your styling experience.
@@ -56,7 +56,7 @@ const ReactStyling = () => {
 
         <p>
           React CSS styling refers to the process of applying styles to your
-          React components using CSS. It involves defining styles in separate
+          <Link href="/react/jsx-best-practices">React components</Link> using CSS. It involves defining styles in separate
           CSS files, inline styles within your JSX, or using CSS-in-JS libraries
           like styled-components. React also provides features like CSS Modules
           to help you manage and scope styles effectively.
@@ -86,7 +86,7 @@ const ReactStyling = () => {
 
         <h3>Steps to Style React Components with CSS</h3>
 
-        <p>Here are the steps to style React components with CSS:</p>
+        <p>Here are the steps to style <Link href="/react/jsx-structure">React components</Link> with CSS:</p>
 
         <ol>
           <li>

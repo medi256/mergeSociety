@@ -33,7 +33,7 @@ export const metadata = {
     url: "https://mergesociety.com/latest/computer-science-degree-worth-it",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
         width: 600,
         height: 400,
         alt: "Computer Science Degree Worth It - Career Guide 2025",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Complete breakdown: CS careers, $50K-$300K+ salaries, AI impact, job satisfaction data, and degree vs bootcamp comparison.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
     ],
   },
 
@@ -104,7 +104,7 @@ export const metadata = {
     description:
       "A comprehensive guide covering CS degree value, career paths, salary ranges, AI impact, and alternatives for aspiring tech professionals.",
     image:
-      "https://img.mergesociety.com/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755594314864_2a5zr_yiegud_iau83z.webp",
     author: {
       "@type": "Person",
       name: "Massa Medi",
@@ -245,7 +245,7 @@ export default function ComputerScienceDegreeWorthIt() {
           <h2>What Is a Computer Science Degree?</h2>
           <p>
             Let’s answer the question that keeps popping up in your group chats:
-            is a computer science degree worth it? A CS degree takes years, a
+            is a <Link href="/code-report/computer-science-vs-software-engineering">computer science degree</Link> worth it? A CS degree takes years, a
             serious time block on your calendar, and usually a chunk of tuition
             money that could buy a tiny house in the middle of nowhere. But it
             can also open doors to 6-figure roles across tech. That’s the
@@ -305,7 +305,7 @@ export default function ComputerScienceDegreeWorthIt() {
             <p>
               Software engineering is where ideas become products. You’ll plan
               features, design APIs, write tests, track bugs, and learn how
-              teams actually ship things. You practice version control, code
+              teams actually ship things. You practice <Link href="/code-report/basic-git-commands">version control</Link>, code
               reviews, and how to keep projects healthy as they grow. It’s not
               just writing code that works today. It’s writing code that your
               future self and teammates won’t hate later.
@@ -357,7 +357,7 @@ export default function ComputerScienceDegreeWorthIt() {
               clearly about what your code is doing and why.
             </p>
             <p>
-              Imagine Priya, who wants to get into data science. Her stats class
+              Imagine Priya, who wants to get into <Link href="/code-report/algorithms">data science</Link>. Her stats class
               teaches her about distributions, sampling, and bias. Later, when
               she’s analyzing user behavior, she knows when a spike is just
               noise and when it’s real. That awareness saves her team from

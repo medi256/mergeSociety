@@ -29,7 +29,7 @@ export const metadata = {
     description:
       "Elon Musk's Grok 4 outperforms rivals on benchmarks but sparks controversy with uncensored responses. See what makes it revolutionary.",
     images: [
-      "https://img.mergesociety.com/mergesociety/grok_4_jv3jmy_o1gw76.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.png",
     ],
     site: "@mergeSociety2",
   },
@@ -42,7 +42,7 @@ export const metadata = {
     url: "https://mergesociety.com/ai/grok4",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/grok_4_jv3jmy_o1gw76.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.png",
         width: 1200,
         height: 630,
         alt: "Discover why Grok 4",
@@ -74,7 +74,7 @@ export const metadata = {
       "Grok 4 AI: Elon Musk's Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
     description:
       "Elon Musk's Grok 4 AI claims to be the smartest chatbot ever, outperforming GPT-4 and Gemini on benchmarks while sparking controversy with uncensored responses.",
-    image: "https://img.mergesociety.com/mergesociety/grok_4_jv3jmy_o1gw76.png",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.png",
     author: {
       "@type": "Person",
       name: "Merge Society",
@@ -107,7 +107,7 @@ export const metadata = {
   googleDiscover: {
     // High-quality, relevant image is crucial
     featuredImage: {
-      url: "https://img.mergesociety.com/mergesociety/grok_4_jv3jmy_o1gw76.png",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.png",
       alt: "Grok 4 AI interface showing controversial chatbot responses",
       width: 1200,
       height: 630,
@@ -209,7 +209,7 @@ export default function Article() {
         </p>
         <p>
           Still, even in the midst of outrage, Grok seems to be pulling away in
-          the race toward AGI (that’s Artificial General Intelligence, for those
+          the race toward AGI (that’s <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link>, for those
           not keeping score). So the billion-dollar question: Did XAI just crack
           the final solution for AI?
         </p>

@@ -35,7 +35,7 @@ const RouterSet = () => {
 
         <p>
           Hey there, future React superstars! Today, we're going to talk about
-          something super cool called React Router. Don’t worry if it sounds
+          something super cool called <Link href="/react/navigating-pages">React Router</Link>. Don’t worry if it sounds
           complicated – we’ll break it down step by step, nice and easy!
         </p>
 
@@ -45,7 +45,7 @@ const RouterSet = () => {
           Imagine you're building a house (that’s your React app). Now, this
           house has many rooms (these are like different pages in your app). But
           how do you move from one room to another? You need doors, right? Well,
-          React Router is like the doors in your house that let you move between
+          <Link href="/react/nesting-routes">React Router</Link> is like the doors in your house that let you move between
           different rooms (pages) of your app!
         </p>
 
@@ -115,7 +115,7 @@ const RouterSet = () => {
         </pre>
 
         <p>
-          This command tells npm (Node Package Manager) to fetch React Router
+          This command tells npm (Node <Link href="/react/installing-nodejs">Package Manager</Link>) to fetch React Router
           for us and add it to our project.
         </p>
 

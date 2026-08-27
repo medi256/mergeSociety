@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Advanced Quantum Computing Insights",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of quantum computing geometry showing Grover's Algorithm rotation in state space",
@@ -101,7 +101,7 @@ export const metadata = {
       "Our May Day special cuts through quantum hype: Understand how Grover's Algorithm really works, why √N speedup matters, and the beautiful geometry behind quantum computing's true power.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
     ],
   },
   robots: {
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Quantum Computing Demystified: The Truth About Grover's Algorithm | May 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [
@@ -604,7 +604,7 @@ export default function Article() {
           viral pop-sci fantasy. Here’s what actually happens when you press
           ‘run’ on a quantum machine—why it’s mind-blowingly weird, still
           powerful, and way more subtle than those tech headlines ever admitted.
-          If you’ve ever wondered why quantum computing matters, what Grover’s
+          If you’ve ever wondered why <Link href="/startup-stories/satya">quantum computing</Link> matters, what Grover’s
           algorithm really does, or if you’re just sick of shallow analogies and
           want the real deal, buckle up. You’re about to see quantum speedup
           through fresh eyes—and probably rethink everything you thought you

@@ -69,7 +69,7 @@ const CallBack = () => {
           argument to another function and is called (or "invoked") after some
           other task is completed. It's like giving instructions to someone:
           "Once you're done with this, call me back." Callbacks help us handle
-          tasks that take time, like fetching data from a server, waiting for
+          tasks that take time, like <Link href="/react/useeffect-hook">fetching data</Link> from a server, waiting for
           user input, or performing any other asynchronous operation.
         </p>
 

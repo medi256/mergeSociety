@@ -73,7 +73,7 @@ const JavascriptIntroduction = () => {
         <p>
           JavaScript runs in the browser, allowing it to respond to user actions
           such as clicks, inputs, and other events. It can manipulate the
-          Document Object Model (DOM), which represents the structure and
+          <Link href="/javascript/dom-intro">Document Object Model</Link> (DOM), which represents the structure and
           content of a web page. By modifying the DOM, JavaScript can
           dynamically update and enhance web pages in real-time.
         </p>
@@ -107,7 +107,7 @@ const JavascriptIntroduction = () => {
           basics: variables, data types, operators, and control flow. You'll
           learn how to include JavaScript in your web pages and how to interact
           with HTML elements using the DOM. From there, you'll explore more
-          advanced topics like functions, objects, arrays, and event handling.
+          advanced topics like functions, objects, arrays, and <Link href="/react/functional-event-handling">event handling</Link>.
         </p>
 
         <h2>The Future of JavaScript</h2>
@@ -128,7 +128,7 @@ const JavascriptIntroduction = () => {
         <h2>Conclusion</h2>
         <p>
           JavaScript is an essential language for anyone aspiring to create
-          modern, dynamic, and interactive websites. It empowers developers to
+          modern, dynamic, and <Link href="/javascript/why-javascript">interactive websites</Link>. It empowers developers to
           build engaging user experiences, enhance web applications, and push
           the boundaries of what's possible on the web.
         </p>

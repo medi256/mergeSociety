@@ -273,7 +273,7 @@ console.log(result); // Output: 3`}
 
         <h4>Examples of Type Coercion</h4>
         <p>
-          <strong>String Concatenation:</strong>
+          <strong><Link href="/javascript/string-methods">String Concatenation</Link>:</strong>
         </p>
         <p>
           When a number is added to a string, JavaScript converts the number to

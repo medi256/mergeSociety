@@ -29,7 +29,7 @@ const HTMLForms = () => {
           into the world of forms - one of the most interactive and dynamic
           components of web pages. Forms allow users to input data, submit
           information, and interact with your website in a variety of ways.
-          Let's explore the different types of input fields, form elements, and
+          Let's explore the different types of <Link href="/css/css-forms">input fields</Link>, form elements, and
           best practices for creating effective forms.
         </p>
 
@@ -475,7 +475,7 @@ const HTMLForms = () => {
           In this lesson, we've explored the world of forms in HTML, including
           the different types of input fields, form elements, input field
           attributes, form validation, and form submissions. Forms play a
-          crucial role in interactive websites, allowing users to input data and
+          crucial role in <Link href="/javascript/introduction-to-javascript">interactive websites</Link>, allowing users to input data and
           interact with your website. Remember to use forms wisely, follow best
           practices, and always test your forms to ensure a smooth user
           experience. In the next lesson, we'll move on to creating Div in HTML.

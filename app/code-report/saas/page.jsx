@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
         width: 1200,
         height: 630,
         alt: "A person breaking free from chains labeled with SaaS company logos",
@@ -84,7 +84,7 @@ export const metadata = {
       "Learn how to replace expensive subscription software with powerful free and open source alternatives that you own forever.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -141,7 +141,7 @@ export const metadata = {
     headline:
       "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
     image:
-      "https://img.mergesociety.com/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -434,7 +434,7 @@ export default function Article() {
           let’s face it, TempleOS isn’t exactly mainstream. The hard truth is
           that, in a free market, no one is forcing you to buy into these
           relentless subscriptions. The best way to escape subscription hell?
-          Embrace free and open source software alternatives—the very existence
+          Embrace free and <Link href="/code-report/how-linux-is-created">open source software</Link> alternatives—the very existence
           of which most big companies would prefer you never discover.
         </p>
         <p>
@@ -574,7 +574,7 @@ export default function Article() {
         <p>
           Hosting a website is a rite of passage for modern developers, and
           while you <em>could</em> pay top dollar to Vercel or Heroku for
-          convenience, you can avoid subscription taxes with open source tools
+          convenience, you can avoid subscription taxes with <Link href="/apps/cool-tools">open source tools</Link>
           like <strong>Koolify</strong> (a Vercel alternative) or{" "}
           <strong>Dokku</strong> (a Heroku alternative). These tools let you
           host all your favorite open source apps on a single virtual private

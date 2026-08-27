@@ -34,7 +34,7 @@ const ClassComponent = () => {
         <h1>What Are Class Components?</h1>
         <p>
           Class Components are one of the two types of components in React. They
-          were the main way to create components before Functional Components
+          were the main way to create components before <Link href="/react/functional-event-handling">Functional Components</Link>
           became popular with the introduction of React Hooks. Class Components
           are based on ES6 classes and are more complex compared to Functional
           Components.
@@ -175,7 +175,7 @@ export default Counter;
           Class Components have special methods called lifecycle methods that
           you can use to run code at specific points in a component's life.
           These methods allow you to handle things like data fetching, manual
-          DOM manipulation, and cleanup.
+          <Link href="/javascript/dom-intro">DOM manipulation</Link>, and cleanup.
         </p>
         <p>Here’s an example of a Class Component using a lifecycle method:</p>
         <pre>
@@ -214,7 +214,7 @@ export default LifecycleExample;
 
         <h2>Why Use Functional Components Instead?</h2>
         <p>
-          Functional Components have become the preferred way to create
+          <Link href="/react/hooks-intro">Functional Components</Link> have become the preferred way to create
           components in React, thanks to their simplicity and the introduction
           of React Hooks. Hooks allow you to use state and other features
           without writing a class.

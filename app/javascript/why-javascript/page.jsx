@@ -35,7 +35,7 @@ const WhyJavascript = () => {
       <div className="lesson-container">
         <h1>Why Learn JavaScript?</h1>
         <p>
-          JavaScript is an incredibly useful and versatile programming language
+          JavaScript is an incredibly useful and versatile <Link href="/javascript/introduction-to-javascript">programming language</Link>
           that powers many interactive and dynamic websites you visit every day.
           Here are some reasons why learning JavaScript is a great idea:
         </p>

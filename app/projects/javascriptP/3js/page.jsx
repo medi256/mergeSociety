@@ -748,7 +748,7 @@ function handleNextButton() {
 
         <h3>Event Listeners</h3>
         <p>
-          Now, let's add event listeners to the start button and next button to
+          Now, let's add <Link href="/javascript/dom-intro">event listeners</Link> to the start button and next button to
           handle user interactions.
         </p>
         <ol className="space-y-6" start={10}>
@@ -767,7 +767,7 @@ nextBtn.addEventListener('click', handleNextButton);`}
           </li>
         </ol>
         <p>
-          In this section, we add event listeners to the start button and next
+          In this section, we add <Link href="/javascript/event-handling">event listeners</Link> to the start button and next
           button to call the appropriate functions when they are clicked.
         </p>
 
@@ -798,7 +798,7 @@ resultsContainer.classList.add('hide');`}
         <h3>Making the Quiz Game Responsive</h3>
         <p>
           Let's ensure our quiz game looks great on various devices by adding
-          responsive design using CSS media queries.
+          responsive design using CSS <Link href="/css/css-responsive-design">media queries</Link>.
         </p>
         <ol className="space-y-6">
           <li>

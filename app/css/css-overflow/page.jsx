@@ -216,7 +216,7 @@ div {
 
         <h3>Overflow in Dynamic Content Areas</h3>
         <p>
-          For areas with dynamic content, such as user comments or chat windows,
+          For areas with <Link href="/javascript/bom-applications">dynamic content</Link>, such as user comments or chat windows,
           handling overflow is crucial. You might want to use overflow scroll to
           ensure users can scroll through all the messages without breaking the
           layout:

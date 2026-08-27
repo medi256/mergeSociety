@@ -37,7 +37,7 @@ const ReactNavigation = () => {
         </h1>
 
         <p>
-          React Router not only allows you to define routes and render
+          <Link href="/react/nesting-routes">React Router</Link> not only allows you to define routes and render
           components, but it also enables seamless navigation between pages.
           Let's explore the world of navigation in React Router and learn how to
           efficiently handle page transitions in your React applications.
@@ -46,7 +46,7 @@ const ReactNavigation = () => {
         <h3>Understanding Page Navigation</h3>
 
         <p>
-          Page navigation in React Router involves transitioning between
+          Page navigation in <Link href="/react/setup-react-router">React Router</Link> involves transitioning between
           different routes and rendering the corresponding components. With
           React Router, you can easily navigate between pages using links or
           programmatically using the <code>navigate</code> function from the{" "}

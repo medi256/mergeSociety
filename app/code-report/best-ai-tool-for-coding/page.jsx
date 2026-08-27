@@ -28,7 +28,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
         width: 1200,
         height: 630,
         alt: "AI Coding Tools - Best AI Tools for Coding",
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Discover the best AI coding tools in 2025 that most developers don't know about. From Cursor to Claude, learn which AI tools actually deliver results.",
     images: [
-      "https://img.mergesociety.com/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_Jul_4_2025_11_38_55_AM_vakgfx_bxniq4.png",
     ],
     creator: "@manager70191",
   },
@@ -163,7 +163,7 @@ export default function Article() {
             Forget everything you thought you knew about “coding alone.”{" "}
             <strong>Conversational coding assistants</strong> are the tireless
             partners modern devs dreamed of—never judging your questions, always
-            fluent in every programming language, always up at 3am when you’re
+            fluent in every <Link href="/javascript/introduction-to-javascript">programming language</Link>, always up at 3am when you’re
             debugging that mystery error.
           </p>
           <h3>Why ChatGPT Is Old News (And What’s Better Now)</h3>
@@ -476,7 +476,7 @@ export default function Article() {
           <div className="faq-section">
             <h3>What are the best AI tools for coding in 2025?</h3>
             <p>
-              The top AI coding tools right now are Cursor, Warp, ChatGPT,
+              The top <Link href="/code-report/how-to-code-a-projects">AI coding tools</Link> right now are Cursor, Warp, ChatGPT,
               Claude, Gemini, Bolt, Lovable, mintlify, Code Rabbit, and Snyk.
               Each brings unique features for code generation, debugging,
               review, and documentation.

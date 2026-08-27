@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
         width: 1200,
         height: 630,
         alt: "Full Stack Developer Roadmap 2025 - Web Development Guide",
@@ -97,7 +97,7 @@ export const metadata = {
       "Master web development! Our beginner-friendly roadmap covers HTML, CSS, JavaScript, backend technologies, and deployment with practical examples for 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
     ],
   },
 
@@ -150,7 +150,7 @@ export const metadata = {
     headline:
       "Full Stack Developer Roadmap 2025: The Ultimate Beginner's Guide",
     image:
-      "https://img.mergesociety.com/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -504,7 +504,7 @@ export default function Article() {
           </p>
           <p>
             When you navigate to a domain, your request passes through the{" "}
-            <strong>Domain Name System (DNS)</strong>, which converts that
+            <strong><Link href="/code-report/what-is-dns">Domain Name System</Link> (DNS)</strong>, which converts that
             friendly address into the actual IP address of the server hosting
             the site. In essence, DNS functions as the “phone book” of the
             internet.
@@ -908,7 +908,7 @@ export default function Article() {
           <p>
             Websites implement <strong>authentication</strong> (verifying user
             identities), <strong>authorization</strong> (granting permissions),
-            HTTPS encryption, and many other best practices such as input
+            <Link href="/code-report/https_and_https">HTTPS encryption</Link>, and many other best practices such as input
             validation, regular software updates, and using secure, well tested
             frameworks.
           </p>
@@ -917,7 +917,7 @@ export default function Article() {
           <p>
             <strong>Full stack web development</strong> means working on both
             the client side (front end) and server side (back end) of web
-            applications, often including database management and deployment.
+            applications, often including <Link href="/apps/another-tool">database management</Link> and deployment.
             Full stack developers have a broad understanding of how every layer
             of a web application works.
           </p>

@@ -83,7 +83,7 @@ const CSSFloat = () => {
         <p>
           Float is commonly used to create sidebars or multiple columns within a
           layout. By floating elements to the left or right, you can position
-          them side by side, creating a multi-column layout. Here's an example:
+          them side by side, creating a <Link href="/css/css-columns">multi-column layout</Link>. Here's an example:
         </p>
 
         <pre>

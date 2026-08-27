@@ -157,7 +157,7 @@ console.error('Error fetching data:', error);
           </li>
         </ul>
         <h2>3. How It All Connects</h2>
-        <p>This lesson builds on our previous knowledge of fetching data:</p>
+        <p>This lesson builds on our previous knowledge of <Link href="/react/useeffect-hook">fetching data</Link>:</p>
         <ul>
           <li>
             <strong>Fetching Data Recap:</strong> We previously learned how to

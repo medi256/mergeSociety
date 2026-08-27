@@ -117,7 +117,7 @@ const CSSGrid = () => {
 
         <p>
           For example, when we have a complex design layout to implement, CSS
-          Grid is better than the CSS float property. This is because Grid is a
+          Grid is better than the CSS <Link href="/css/css-float">float property</Link>. This is because Grid is a
           two-dimensional layout (with columns and rows), whereas the CSS float
           property is a one-dimensional layout (with columns or rows).
         </p>
@@ -190,7 +190,7 @@ grid-template-columns: 100px auto 100px;
 
         <p>
           This means that as the size of your screen increases, columns one and
-          three take 100px of the screen width, while column two takes the
+          three take 100px of the <Link href="/javascript/screen-object">screen width</Link>, while column two takes the
           remaining width of the screen (which is auto).
         </p>
 

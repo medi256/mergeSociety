@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/free_apis.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/free_apis.webp",
         width: 600,
         height: 400,
         alt: "40 Free APIs for programming projects - Unsplash Weather Finance NASA Discord Stripe and more",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Real quotas, real limits: Unsplash images, OpenWeather 1000/day, Geokio 2500/day, NASA data, Discord bots, Stripe payments. Build this weekend.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/mergesociety/free_apis.webp"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/free_apis.webp"],
   },
 
   robots: {
@@ -380,7 +380,7 @@ export const metadata = {
         "Tested Free APIs with Real Quotas: Images, Weather, Finance, AI, Games, and More",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/free_apis.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/free_apis.webp",
         width: 600,
         height: 400,
         caption: "40 free APIs for developer projects",
@@ -862,7 +862,7 @@ const FreeAPIs = () => {
           <p>
             It is a great way to keep your community active with quests, roles,
             or scoreboards. MidJourney uses Discord for its entire UX, and there
-            are SDKs for almost every programming language.
+            are SDKs for almost every <Link href="/javascript/introduction-to-javascript">programming language</Link>.
           </p>
           <p>
             If you have an idea for a community feature, the Discord API
@@ -1051,7 +1051,7 @@ const FreeAPIs = () => {
             <p>
               <strong>Pro Tip:</strong> Keep a docs folder in your repo for any
               API you integrate. Paste the key endpoints and examples there so
-              your AI assistant can reason over it, and leave notes about quotas
+              your <Link href="/ai/whats-next">AI assistant</Link> can reason over it, and leave notes about quotas
               and gotchas for future you.
             </p>
           </aside>
@@ -1417,7 +1417,7 @@ const FreeAPIs = () => {
         </p>
         <p>
           Watch your quotas, cache aggressively, and keep the docs right in your
-          repo so your AI assistant can help. And when you get stuck, remember,
+          repo so your <Link href="/latest/ai-is-officially-here">AI assistant</Link> can help. And when you get stuck, remember,
           half the fun of these free tiers is that you can experiment wildly
           without risk.
         </p>

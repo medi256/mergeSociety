@@ -239,7 +239,7 @@ const ThisKeyWord = () => {
         </pre>
 
         <p>
-          In this example, since arrow functions don’t have their own{" "}
+          In this example, since <Link href="/javascript/arrow-functions">arrow functions</Link> don’t have their own{" "}
           <code>this</code>, they inherit <code>this</code> from the parent
           scope. However, because our arrow function is in a global context
           here, <code>this.name</code> is <code>undefined</code>. Arrow

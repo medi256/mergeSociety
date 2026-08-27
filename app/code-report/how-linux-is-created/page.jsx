@@ -45,7 +45,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
         width: 800,
         height: 400,
         alt: "How Linux Is Developed To Achieve All Of This",
@@ -62,7 +62,7 @@ export const metadata = {
     description:
       "850K+ Android phones daily, 80% of trades, 90% of supercomputers - Linux runs your digital world. Discover the collaborative engine behind it all.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
     ],
   },
 
@@ -101,7 +101,7 @@ export const structuredData = {
   description:
     "Discover how Linux powers 850,000+ Android phones daily, 8/10 financial trades, 9/10 supercomputers, and tech giants. Learn about the world's largest collaborative development project.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759326035386_cek358_cdskna_nvd9o5.webp",
   datePublished: "2025-10-01T00:00:00Z",
   dateModified: "2025-10-01T00:00:00Z",
   author: {
@@ -243,7 +243,7 @@ const Page = () => {
             scale difference into perspective. Android is not just winning - it
             is defining what mobile at scale looks like. With Android’s
             Linux-based core, improvements in the kernel affect battery life,
-            memory management, device security, networking, and performance
+            <Link href="/latest/c-vs-cpp-vs-csharp">memory management</Link>, device security, networking, and performance
             across hundreds of millions of devices without reinventing the wheel
             for each phone model.
           </p>
@@ -261,7 +261,7 @@ const Page = () => {
           <p>
             Nearly 700,000 TVs are sold every day, most of which are running
             Linux. Every time someone sets up a smart TV, the setup wizard you
-            click through and the streaming apps you launch sit on top of a
+            click through and the <Link href="/apps/free-apps">streaming apps</Link> you launch sit on top of a
             Linux-based platform. Many modern TVs use custom vendor
             distributions built on Linux that support video decoders, networking
             stacks, and real-time display drivers. Brands use Linux because it
@@ -492,7 +492,7 @@ const Page = () => {
             who has the ultimate authority on what is accepted into the next
             release and what is not. That sign-off is not ceremonial - it is a
             responsibility line that says the maintainer vouches for the change.
-            Linus reviews pull requests from maintainers, evaluates risk, checks
+            Linus reviews <Link href="/latest/git-vs-github">pull requests</Link> from maintainers, evaluates risk, checks
             timing in the release cycle, and merges when it is the right fit.
           </p>
           <p>

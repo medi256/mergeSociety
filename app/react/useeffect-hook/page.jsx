@@ -35,7 +35,7 @@ const UseEffect = () => {
         <h2>What Is useEffect?</h2>
         <p>
           The <code>useEffect</code> Hook in React lets you perform{" "}
-          <strong>side effects</strong> in your functional components. Side
+          <strong>side effects</strong> in your <Link href="/react/class-components">functional components</Link>. Side
           effects are operations that occur in your component but don't directly
           involve rendering the UI. Examples of side effects include:
         </p>
@@ -47,7 +47,7 @@ const UseEffect = () => {
         <p>
           Before Hooks, these tasks were handled in class components using
           lifecycle methods. With <code>useEffect</code>, you can manage side
-          effects in functional components more easily and directly.
+          effects in <Link href="/react/functional-event-handling">functional components</Link> more easily and directly.
         </p>
 
         <h2>Why Do We Need useEffect?</h2>
@@ -55,7 +55,7 @@ const UseEffect = () => {
           Imagine you have a component that needs to fetch user data from an API
           when it first appears on the screen. In class components, you’d use
           the <code>componentDidMount</code> lifecycle method for this task.
-          With functional components, <code>useEffect</code> provides a more
+          With <Link href="/react/hooks-intro">functional components</Link>, <code>useEffect</code> provides a more
           straightforward way to perform this operation.
         </p>
 

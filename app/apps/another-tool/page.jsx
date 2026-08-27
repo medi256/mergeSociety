@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "Dev Productivity Master",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
         width: 1200,
         height: 630,
         alt: "Collection of 2025's essential productivity tools showcased on a minimalist desk setup",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
         width: 1200,
         height: 630,
         alt: "The power of AI-enhanced productivity tools transforming development workflows",
@@ -98,7 +98,7 @@ export const metadata = {
       "Discover why a dedicated tech minimalist has finally embraced these game-changing tools: Drizzle ORM, Superhuman, Super Maven, and more - the definitive guide for productivity-focused developers.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -150,8 +150,8 @@ export const metadata = {
     headline:
       "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
     image: [
-      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
-      "https://img.mergesociety.com/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -643,7 +643,7 @@ export default function Article() {
         <h2>Synology NAS: Your Own Homegrown Cloud</h2>
         <p>
           Next, a curveball: <strong>Synology DiskStation DS1821+</strong>. If
-          you’ve never used a NAS (Network Attached Storage), let me paint the
+          you’ve never used a NAS (<Link href="/code-report/labing">Network Attached Storage</Link>), let me paint the
           picture. It’s a big box with bays for hard drives—a “server” that just
           lives on your local network, holding terabytes of your data.
         </p>
@@ -664,7 +664,7 @@ export default function Article() {
         </p>
         <h3>Not Just Storage: Docker-Ready Home Server</h3>
         <p>
-          Here’s the kicker: the Synology OS lets me run full Docker containers.
+          Here’s the kicker: the Synology OS lets me run full <Link href="/latest/devops-lifecycle">Docker containers</Link>.
           Need a quick local test server or even a Minecraft world? Just pick a
           container image and spin it up—it’s all managed via a web GUI in your
           browser. Local, resilient, and flexible. Yes, the Synology hardware
@@ -761,7 +761,7 @@ export default function Article() {
         <h3>Profiles, Tab Hierarchy, and Sidebar Bliss</h3>
         <p>
           What won me over? Arc lets me create unique profiles for each part of
-          my life: work, content creation, live streams, tutorials. Switching is
+          my life: work, <Link href="/latest/link-in">content creation</Link>, live streams, tutorials. Switching is
           lightning-quick (hotkeys everywhere), and their sidebar-centric
           approach to tabs is a revelation. Tabs above a certain line are
           “pinned,” semi-permanent; below, they’re “ephemeral” (they’ll get

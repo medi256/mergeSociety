@@ -157,7 +157,7 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
           Using Arrow Functions with <code>map</code>
         </h2>
         <p>
-          Just like with <code>forEach</code>, you can use arrow functions with{" "}
+          Just like with <code>forEach</code>, you can use <Link href="/javascript/arrow-functions">arrow functions</Link> with{" "}
           <code>map</code> to make the code shorter. Here’s the same example
           using an arrow function:
         </p>

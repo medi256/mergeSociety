@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
         width: 600,
         height: 400,
         alt: "C vs C++ vs C# Programming Languages Comparison",
@@ -60,7 +60,7 @@ export const metadata = {
     description:
       "Complete guide comparing C, C++, and C# with examples, performance insights, and practical advice for choosing the right language for your project.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp",
     ],
   },
 
@@ -186,7 +186,7 @@ export default function CvsCppVsCSharpArticle() {
           </h2>
           <p>
             C was created by Dennis Ritchie at Bell Labs a long time ago and it
-            had one main goal: make building operating systems and low level
+            had one main goal: make building <Link href="/tech/10x-developers">operating systems</Link> and low level
             tools practical without writing raw assembly all day. Think of C as
             a small, sharp toolkit that favors control over comfort. It is
             procedural - not object oriented - and it gives you direct access to
@@ -233,7 +233,7 @@ int main(void) {
           <p>
             That little star symbol is the pointer’s dereference operator. It is
             both a superpower and the reason some developers start twitching
-            when they hear the word segmentation fault. But once this clicks, C
+            when they hear the word <Link href="/code-report/pointers-in-c-and-cpp">segmentation fault</Link>. But once this clicks, C
             becomes a slim, predictable tool that does exactly what you tell it
             to do - for better or worse.
           </p>
@@ -292,7 +292,7 @@ int main(void) {
           </p>
           <h3>Object oriented, generic, and low level - all at once</h3>
           <p>
-            C++ supports object oriented programming with classes, inheritance,
+            C++ supports <Link href="/code-report/types-of-programming-languages">object oriented programming</Link> with classes, inheritance,
             and virtual functions. It also does generic programming with
             templates, which is how you get fast containers and algorithms
             without paying a runtime cost. Add RAII - Resource Acquisition Is

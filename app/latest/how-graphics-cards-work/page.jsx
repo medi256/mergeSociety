@@ -33,7 +33,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
         width: 1200,
         height: 630,
         alt: "Modern GPU architecture diagram showing CUDA cores, tensor units, and memory interfaces",
@@ -77,7 +77,7 @@ export const metadata = {
       "Discover how modern GPUs perform 36 trillion calculations per second to power gaming, AI, and the future of computing in this deep-dive technical explainer.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -110,7 +110,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
-    image: "https://img.mergesociety.com/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
     datePublished: "2025-04-25T10:00:00Z",
     dateModified: "2025-04-25T10:00:00Z",
     author: {
@@ -659,7 +659,7 @@ export default function Article() {
           </li>
         </ol>
         <p>
-          Neural networks and generative AI models require trillions (even
+          <Link href="/ai/god-father-of-ai">Neural networks</Link> and generative AI models require trillions (even
           quadrillions) of these matrix multiplications and additions—on far
           larger matrices than one would ever wish to calculate by hand. The
           tensor cores are designed precisely to crunch through this mountain of
@@ -678,7 +678,7 @@ export default function Article() {
         <p>
           The next time you load up a hyper-realistic video game, watch an AI
           beatbox, or marvel at blockchain technology, take a moment to
-          appreciate the feat of parallel computing humming beneath your
+          appreciate the feat of <Link href="/tech/ai-explained">parallel computing</Link> humming beneath your
           fingertips. Your graphics card, powered by brilliant engineering and
           relentless innovation, brings ideas to life—not just by working
           quickly, but by multiplying that speed by thousands.

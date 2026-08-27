@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/vscode_extensions.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
         width: 600,
         height: 400,
         alt: "Best VS Code Extensions 2025 - Prettier ESLint GitLens Error Lens Live Server productivity setup",
@@ -94,7 +94,7 @@ export const metadata = {
       "Prettier, ESLint, Error Lens, GitLens, Live Server, Jest, Copilot. Real daily workflow tested. Free & paid options covered.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/vscode_extensions.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
     ],
   },
 
@@ -374,7 +374,7 @@ export const metadata = {
         "Essential VS Code Extensions for Developer Productivity in 2025",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/vscode_extensions.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
         width: 600,
         height: 400,
         caption: "Best VS Code extensions for productivity",
@@ -1340,7 +1340,7 @@ const Vscode = () => {
             From format-on-save with Prettier to inline messages with Error
             Lens, from the speed of Live Server to the clarity of GitLens and a
             clean commit graph, this stack keeps me moving and keeps mistakes
-            out of pull requests.
+            out of <Link href="/latest/git-vs-github">pull requests</Link>.
           </p>
           <p>
             Tell me your favorites in the comments. If this helped, smash the
@@ -1354,7 +1354,7 @@ const Vscode = () => {
         <aside>
           {/* Background highlight: Entities and topics for search clarity */}
           <p>
-            <strong>Entities covered:</strong> Visual Studio Code, Prettier,
+            <strong>Entities covered:</strong> <Link href="/react/code-editor-setup">Visual Studio Code</Link>, Prettier,
             Code Spell Checker, ESLint, Error Lens, Material Icon Theme, Live
             Server, Auto Rename Tag, Peacock, Auto Open Markdown Preview,
             Markdown All in One, Code Runner, Jest, Jest Runner, Simple React

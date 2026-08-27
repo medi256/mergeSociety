@@ -55,7 +55,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -69,7 +69,7 @@ export const metadata = {
     description:
       "Explore step-by-step HTML projects designed to help beginners and advanced users. Build exciting web pages using only HTML. Perfect for learning web development!",
     images: [
-      "https://img.mergesociety.com/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
     ],
   },
   robots: {

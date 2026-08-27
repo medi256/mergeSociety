@@ -44,7 +44,7 @@ const HTMLHead = () => {
           opening <code>{`<html>`}</code>
           tag. The <code>{`<head>`}</code> element serves as a container for
           metadata, links, and instructions that provide information about the
-          HTML document to web browsers and search engines. It does not contain
+          HTML document to web browsers and <Link href="/code-report/algorithms">search engines</Link>. It does not contain
           any visible content on the web page itself.
         </p>
 

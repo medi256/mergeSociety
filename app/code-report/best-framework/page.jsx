@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "IndieHacker Dev",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
         width: 1200,
         height: 630,
         alt: "Comparison of popular frameworks for solo SaaS developers",
@@ -81,7 +81,7 @@ export const metadata = {
       "A practical comparison of Laravel, Next.js, Django, and AdonisJS for solo developers building SaaS products without getting lost in dependency hell.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -137,7 +137,7 @@ export const metadata = {
     headline:
       "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
     image:
-      "https://img.mergesociety.com/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
     datePublished: "2025-04-27T10:30:00Z",
     dateModified: "2025-04-27T10:30:00Z",
     author: {
@@ -439,7 +439,7 @@ export default function Article() {
           encounter household names like <strong>React</strong> and{" "}
           <strong>Angular</strong>. Go further and you'll find innovative
           full-stack frameworks such as <strong>Next.js</strong>,{" "}
-          <strong>Remix</strong> (soon merging closer with React Router), and
+          <strong>Remix</strong> (soon merging closer with <Link href="/react/navigating-pages">React Router</Link>), and
           even the emerging <strong>Analog.js</strong>—all within JavaScript
           territory. But we’re not limited to JavaScript: open-source gems like{" "}
           <strong>Laravel</strong> in the PHP world and <strong>Django</strong>{" "}

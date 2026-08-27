@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
         width: 1200,
         height: 630,
         alt: "Visualization of neural network activation atlas and embedding spaces showing how AI organizes knowledge",
@@ -69,7 +69,7 @@ export const metadata = {
       "Fresh 2025 insights: Explore activation atlases and embedding spaces that reveal how AI models like AlexNet and ChatGPT secretly organize intelligence.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     headline:
       "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence",
     image:
-      "https://img.mergesociety.com/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-06-30T12:00:00Z",
     author: {
@@ -303,7 +303,7 @@ export default function Article() {
         <h2>The Birth of Modern AI: AlexNet’s Shocking Breakthrough</h2>
         <p>
           Let’s rewind to 2012. The AI research world was stuck thinking old
-          neural networks were a dead end—too simple, too impractical. Then, out
+          <Link href="/tech/ai-explained">neural networks</Link> were a dead end—too simple, too impractical. Then, out
           of nowhere, an eight-page paper dropped: <strong>AlexNet</strong>. It
           didn’t just win the ImageNet competition; it obliterated the previous
           record. Its secret? Using massive datasets (over 1.3 million images)

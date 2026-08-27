@@ -155,7 +155,7 @@ fruits.forEach(function(fruit, index, array) {
           Using Arrow Functions with <code>forEach</code>
         </h2>
         <p>
-          You can also use arrow functions with <code>forEach</code> to make
+          You can also use <Link href="/javascript/arrow-functions">arrow functions</Link> with <code>forEach</code> to make
           your code more concise. Here’s how:
         </p>
         <pre>

@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Cloud Experts",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
         width: 1200,
         height: 630,
         alt: "AWS Cloud Computing Guide - Visual Overview of Amazon Web Services",
@@ -93,7 +93,7 @@ export const metadata = {
       "Our brutally honest AWS guide explains everything from bizarre UIs to cost traps and why it's still the most powerful cloud platform in 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     ],
   },
 
@@ -144,7 +144,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
     image:
-      "https://img.mergesociety.com/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
     datePublished: "2025-05-17T10:00:00Z",
     dateModified: "2025-05-17T10:00:00Z",
     author: {
@@ -476,7 +476,7 @@ export default function Article() {
         <section>
           <h2>Navigating the AWS UI: Buckle Up for a Bumpy Ride</h2>
           <p>
-            Think of AWS’s user interface as a vast amusement park operated
+            Think of AWS’s <Link href="/react/fetching-api">user interface</Link> as a vast amusement park operated
             exclusively by misfit data scientists and UI designers with a flair
             for chaos. Every team at AWS seems to have free rein to design their
             own user interface:

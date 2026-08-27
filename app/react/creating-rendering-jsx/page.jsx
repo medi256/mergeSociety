@@ -38,7 +38,7 @@ const RenderingJSX = () => {
         <p>
           To start using JSX, you need to create new files in your React
           project. These files will contain your JSX code and can be used to
-          build different parts of your user interface. Let’s go through the
+          build different parts of your <Link href="/react/fetching-api">user interface</Link>. Let’s go through the
           steps to create a new JSX file.
         </p>
 
@@ -180,7 +180,7 @@ document.getElementById('root') // This is where your app will be rendered in th
         </p>
         <p>
           Next, we’ll dive into more advanced topics and learn how to manage
-          state and handle user interactions in your React components.
+          state and handle user interactions in your <Link href="/react/conditional-rendering">React components</Link>.
         </p>
         <Button whereToGo={"images-in-react"} />
       </div>

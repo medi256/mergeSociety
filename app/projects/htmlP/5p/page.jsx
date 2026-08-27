@@ -158,7 +158,7 @@ const RestaurantMenuHtml = () => {
         <h3>Step 2: Getting a Text Editor</h3>
         <p>
           A text editor is like your chef's knife - it's the main tool you'll
-          use to create your HTML. We recommend Visual Studio Code (VS Code)
+          use to create your HTML. We recommend <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code)
           because:
         </p>
         <ul>
@@ -214,7 +214,7 @@ const RestaurantMenuHtml = () => {
         <p>
           Just like a building needs a strong foundation, our menu needs a basic
           HTML structure to build upon. Think of it as the blueprint for our
-          digital restaurant menu.
+          digital <Link href="/projects/htmlP/4p">restaurant menu</Link>.
         </p>
 
         <h3>Step 1: Adding the Document Type Declaration</h3>

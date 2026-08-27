@@ -61,13 +61,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 1200,
         height: 630,
         alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
         width: 600,
         height: 600,
         alt: "Next.js Roadmap 2025",
@@ -98,7 +98,7 @@ export const metadata = {
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
     images: [
-      "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
     ],
   },
 
@@ -155,7 +155,7 @@ const structuredData = {
 
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
     width: 1200,
     height: 630,
   },
@@ -391,7 +391,7 @@ export default function Article() {
         <h3>3. Bulletproof Data Fetching (With Three Game-Changing Modes)</h3>
         <p>
           Want to know the secret sauce to lightning-fast apps?{" "}
-          <strong>Smart data fetching</strong> – and Next.js nails it with three
+          <strong>Smart <Link href="/react/fetching-api">data fetching</Link></strong> – and Next.js nails it with three
           powerful tactics:
         </p>
         <ol>
@@ -745,21 +745,11 @@ export default function Article() {
         <aside className="internal-links">
           <ul>
             <li>
-              <Link href="/programming-roadmap/html-roadmap">
-                Complete HTML Roadmap for Web Developers
-              </Link>
-            </li>
-            <li>
               <Link href="/react">Learn React step by step</Link>
             </li>
             <li>
               <Link href="/programming-roadmap/css-roadmap">
                 CSS Roadmap: Your Ultimate Step-By-Step Guide
-              </Link>
-            </li>
-            <li>
-              <Link href="/programming-roadmap/react-roadmap">
-                Complete React js Roadmap for Web Developers
               </Link>
             </li>
             <li>

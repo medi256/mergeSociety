@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Modern Web Developer",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
         width: 1200,
         height: 630,
         alt: "JavaScript Learning Roadmap - Visual guide showing the fastest path from beginner to professional in 2025",
@@ -99,7 +99,7 @@ export const metadata = {
       "Break free from the JavaScript tutorial loop! Discover science-backed learning strategies and project-based techniques that transform beginners into job-ready developers.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
     ],
   },
   robots: {
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
     image:
-      "https://img.mergesociety.com/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {
@@ -492,7 +492,7 @@ export default function Article() {
         </section>
 
         <p>
-          You want to learn JavaScript fast, but here's the ugly truth: most
+          You want to <Link href="/javascript/running-js">learn JavaScript</Link> fast, but here's the ugly truth: most
           people spend weeks binge-watching tutorials, jumping from one resource
           to another, and after a month, they can't build a single thing from
           scratch. Sound familiar? If you've found yourself stuck in this
@@ -565,7 +565,7 @@ export default function Article() {
         <p>
           Still not convinced you should even learn JavaScript? Here’s what's
           crazy: for over a decade, JavaScript is officially the world’s most
-          popular programming language (thanks, Stack Overflow survey). It runs
+          popular <Link href="/javascript/introduction-to-javascript">programming language</Link> (thanks, Stack Overflow survey). It runs
           almost every web interface, powers backend servers (hi, Node.js),
           mobile apps, and even <strong>Mars Rover UIs.</strong>
         </p>
@@ -597,7 +597,7 @@ export default function Article() {
         <h2>Choosing the Absolute Best Resources: What Actually Works</h2>
         <p>
           Next question: Where do you even start with the overwhelming sea of
-          JavaScript resources? The answer isn’t what you expect.
+          <Link href="/javascript/why-javascript">JavaScript resources</Link>? The answer isn’t what you expect.
         </p>
         <blockquote>
           "Stop trying to be perfect. Start trying to be remarkable."

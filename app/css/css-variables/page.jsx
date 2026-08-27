@@ -35,7 +35,7 @@ const CSSVariables = () => {
 
         <h2>Understanding Variables</h2>
         <p>
-          Variables in CSS are similar to variables in programming languages.
+          Variables in CSS are similar to variables in <Link href="/javascript/js-vs-ecmascript">programming languages</Link>.
           They allow you to store values and reuse them throughout your
           stylesheet. Variables are defined using the <code>var</code> keyword
           followed by the variable name and the desired value. Here's an
@@ -96,7 +96,7 @@ const CSSVariables = () => {
 
         <h3>Responsive Design</h3>
         <p>
-          Variables can be used in conjunction with media queries to create
+          Variables can be used in conjunction with <Link href="/css/css-responsive-design">media queries</Link> to create
           responsive designs. You can define variables for different screen
           sizes and then use them to adjust properties based on the available
           space. Here's an example:

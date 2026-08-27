@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
         width: 1200,
         height: 630,
         alt: "Docker containerization workflow from bare metal to production deployment",
@@ -96,7 +96,7 @@ export const metadata = {
       "Learn Docker properly - from kernels and bare metal to containers and production. Master Dockerfiles, Docker Compose, security scanning, and deployment.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
       "Complete Docker Tutorial From Bare Metal To Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
       width: 1200,
       height: 630,
       alt: "Docker containerization workflow from bare metal to production deployment",
@@ -287,7 +287,7 @@ export default function Article() {
         </section>
 
         <p>
-          Docker 101 clicked for me the first time I realized Docker containers
+          Docker 101 clicked for me the first time I realized <Link href="/latest/devops-lifecycle">Docker containers</Link>
           fix the whole it works on my machine story both locally and in the
           cloud.
         </p>
@@ -373,7 +373,7 @@ export default function Article() {
             either cost wise or physically.
           </p>
           <p>
-            Horizontal scaling is where you take your code and spread it across
+            <Link href="/code-report/mongodb-explained">Horizontal scaling</Link> is where you take your code and spread it across
             multiple smaller servers. Often you break the system into
             microservices so each part can run and scale by itself. That’s
             powerful because one noisy service won’t take the whole app down.
@@ -397,7 +397,7 @@ export default function Article() {
           <p>
             Virtual machines were the first big answer to the consistency and
             isolation problem. Using a hypervisor, you can run multiple
-            operating systems on a single machine. Each VM feels like its own
+            <Link href="/tech/10x-developers">operating systems</Link> on a single machine. Each VM feels like its own
             computer inside a computer.
           </p>
           <p>

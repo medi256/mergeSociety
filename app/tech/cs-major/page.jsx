@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
         width: 1200,
         height: 630,
         alt: "Computer science career path decision illustration with coding sloth mascot",
@@ -97,7 +97,7 @@ export const metadata = {
       "Veteran mode job hunting, theory vs. practical skills, and why networking might matter more than your GPA. Honest advice for aspiring devs with sloth-level humor.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
     image:
-      "https://img.mergesociety.com/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
     datePublished: "2025-05-03T09:00:00Z",
     dateModified: "2025-05-03T09:00:00Z",
     author: {
@@ -485,7 +485,7 @@ export default function Article() {
         <p>
           Let me hit you with the cold, hard truth: people are making—and
           losing—life-altering decisions based on whether they should nab a
-          computer science degree. And most of them are getting this one dead
+          <Link href="/code-report/computer-science-vs-software-engineering">computer science degree</Link>. And most of them are getting this one dead
           wrong. Is a CS degree the golden ticket to six-figure tech jobs and
           next-level job security, or is it an overpriced relic that’s holding
           you back? If you skip this, you might waste years and stacks of cash
@@ -510,7 +510,7 @@ export default function Article() {
         <p>
           Yes, you’ll write code—Python, Java, C—depending on your university.
           But it’s not just syntax and copying tutorials. You’ll sweat through
-          object-oriented programming and real problem solving. Those memes
+          <Link href="/javascript/classes">object-oriented programming</Link> and real problem solving. Those memes
           about staying up all night because your code won’t compile? Totally
           accurate.
         </p>
@@ -570,7 +570,7 @@ export default function Article() {
         <p>
           Here’s what blew my mind: You’ll tackle math you never even knew
           existed. Discrete math, probability, calculus, linear algebra—if you
-          want to work in data science, AI, or finance, these WILL come back to
+          want to work in <Link href="/code-report/algorithms">data science</Link>, AI, or finance, these WILL come back to
           haunt you if you skip them.
         </p>
         <ul>

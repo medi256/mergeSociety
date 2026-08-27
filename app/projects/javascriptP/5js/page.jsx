@@ -57,7 +57,7 @@ const JavaScriptCalculator = () => {
           Calculator! In this project, we'll create a fully functional
           calculator that can perform basic and advanced operations. This
           project is an excellent way to learn how to work with event listeners,
-          complex logic, and DOM manipulation.
+          complex logic, and <Link href="/javascript/dom-intro">DOM manipulation</Link>.
         </p>
 
         <h2>Setting Up Your Workspace</h2>
@@ -687,7 +687,7 @@ function calculateResult() {
 
         <h4>Adding Event Listeners to Buttons</h4>
         <p>
-          Now, let's add event listeners to all the buttons so that they trigger
+          Now, let's add <Link href="/javascript/event-handling">event listeners</Link> to all the buttons so that they trigger
           the <code>handleButtonClick</code> function when clicked.
         </p>
         <ol className="space-y-6" start={8}>
@@ -737,7 +737,7 @@ buttons.forEach(button => {
           Congratulations! You've completed the JavaScript Calculator project.
           You've learned how to create a fully functional calculator that can
           perform basic and advanced operations. This project introduced you to
-          working with event listeners, complex logic, and DOM manipulation.
+          working with event listeners, complex logic, and <Link href="/javascript/introduction-to-javascript">DOM manipulation</Link>.
         </p>
         <p>
           Feel free to customize and expand your calculator further. You can add

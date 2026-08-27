@@ -96,7 +96,7 @@ const paragraph = document.createElement('p');
         </p>
         <p>
           This reference allows us to interact with the element, such as adding
-          content to it, styling it, or even attaching event listeners to make
+          content to it, styling it, or even attaching <Link href="/javascript/dom-intro">event listeners</Link> to make
           it interactive.
         </p>
         <p>

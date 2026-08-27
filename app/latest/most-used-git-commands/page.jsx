@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most%20used%20git%20commands.webp",
         width: 600,
         height: 400,
         alt: "Most Used Git Commands for Beginners - GitHub workflow from init to pull request",
@@ -95,7 +95,7 @@ export const metadata = {
       "Learn the git commands you'll actually use every day. From git config to pull requests, with real VS Code examples and best practices.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most%20used%20git%20commands.webp",
     ],
   },
 
@@ -255,7 +255,7 @@ export const metadata = {
         "Master Git: From Config to Pull Requests with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/most%20used%20git%20commands.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most%20used%20git%20commands.webp",
         width: 600,
         height: 400,
         caption: "Most used git commands workflow diagram",
@@ -623,7 +623,7 @@ const GitCommands = () => {
             config, then use git init, git status, git add, and git commit to
             track your work. From there, clone remote projects with git clone,
             keep your work safe on branches with git checkout -b or git switch,
-            and sync your changes with git push and pull requests. Finally, stay
+            and sync your changes with git push and <Link href="/latest/git-vs-github">pull requests</Link>. Finally, stay
             up to date with git pull and peek at what changed using git show. Do
             these in order and you'll feel like a pro on GitHub without guessing
             what to run next.
@@ -696,7 +696,7 @@ const GitCommands = () => {
           <h2>Starting Fresh: git init, git status, and Your First Files</h2>
           <p>
             Imagine you just created a new folder for a project. Right now it’s
-            just a normal folder - not a Git repository yet.
+            just a normal folder - not a <Link href="/code-report/basic-git-commands">Git repository</Link> yet.
           </p>
           <p>I’ll create one and step inside it:</p>
           <pre>

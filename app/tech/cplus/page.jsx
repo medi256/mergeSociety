@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
         width: 1200,
         height: 630,
         alt: "C++ programming language logo with code examples showing modern features and performance benefits",
@@ -101,7 +101,7 @@ export const metadata = {
       "Beyond the controversy: Discover why C++ remains vital in modern programming despite its reputation for complexity. Find out if this powerful language belongs in your skill set.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
     datePublished: "2025-05-11T09:00:00Z",
     dateModified: "2025-05-11T09:00:00Z",
     author: {
@@ -574,7 +574,7 @@ export default function Article() {
         <p>
           On the surface, C++'s philosophy seems uncontroversial. But look
           deeper, and you'll find high-profile programmers{" "}
-          <strong>Linus Torvalds</strong> among them voicing complaints.
+          <strong><Link href="/code-report/how-linux-is-created">Linus Torvalds</Link></strong> among them voicing complaints.
           Torvalds is famous for his blunt critiques, notably stating:
         </p>
         <blockquote>
@@ -617,7 +617,7 @@ export default function Article() {
         <h2>Should You Learn C++? This Developer Says “YES” With Caveats</h2>
         <p>
           So, where does that leave you? Should you dive into C++ for your next
-          project or your very first programming language? Here’s the verdict:
+          project or your very first <Link href="/javascript/introduction-to-javascript">programming language</Link>? Here’s the verdict:
         </p>
         <ol>
           <li>
@@ -660,7 +660,7 @@ export default function Article() {
         </p>
         <p>
           Ready to go deeper? Check out our step-by-step guide on{" "}
-          <strong>memory management and assembly</strong> for hands-on learning,
+          <strong><Link href="/latest/c-vs-cpp-vs-csharp">memory management</Link> and assembly</strong> for hands-on learning,
           or explore how <strong>Rust</strong> is shaking up the programming
           landscape in our in-depth overview.
         </p>

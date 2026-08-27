@@ -302,7 +302,7 @@ const CSSCourse = () => {
             <Link href="/css/css-animations">
               <div className="card">
                 <h3>CSS Animations</h3>
-                <p>Animate properties of elements with CSS animations.</p>
+                <p>Animate properties of elements with <Link href="/programming-roadmap/css-roadmap">CSS animations</Link>.</p>
               </div>
             </Link>
             <Link href="/css/css-filters">

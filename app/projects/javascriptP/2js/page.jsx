@@ -60,7 +60,7 @@ const RandomQuoteGenerator = () => {
           Welcome to the beginner-friendly tutorial on building a Random Quote
           Generator with JavaScript! In this project, we'll create a simple app
           that fetches random quotes from an API and displays them dynamically.
-          This project is an excellent way to learn API integration and UI
+          This project is an excellent way to learn <Link href="/code-report/apis-explained-to-a-kid">API integration</Link> and UI
           updates in JavaScript.
         </p>
 
@@ -443,7 +443,7 @@ getQuoteButton.addEventListener('click', () => {
 
         <p>
           Let's ensure our quote generator looks great on various devices by
-          adding responsive design using CSS media queries.
+          adding responsive design using CSS <Link href="/css/css-responsive-design">media queries</Link>.
         </p>
         <ol className="space-y-6">
           <li>
@@ -554,7 +554,7 @@ button:hover {
           browser, you'll see the final touches in action.
         </p>
         <p>
-          Congratulations! You've completed the JavaScript project, "Random
+          Congratulations! You've completed the <Link href="/projects/javascriptP/4js">JavaScript project</Link>, "Random
           Quote Generator." You've learned how to create a simple app that
           fetches random quotes from an API and updates the UI dynamically.
           You've also learned the basics of API integration and UI updates in

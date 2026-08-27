@@ -30,7 +30,7 @@ const HTMLSemantic = () => {
           concept that focuses on the meaning and structure of your HTML code.
           Semantic HTML involves using HTML tags and attributes to convey the
           purpose and significance of your content, making it more accessible
-          and understandable to both users and search engines. Let's dive into
+          and understandable to both users and <Link href="/code-report/algorithms">search engines</Link>. Let's dive into
           the world of Semantic HTML and learn how to write more meaningful and
           semantic code.
         </p>

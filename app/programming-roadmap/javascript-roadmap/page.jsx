@@ -56,13 +56,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 1200,
         height: 630,
         alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
         width: 600,
         height: 600,
         alt: "Full Stack JavaScript Developer Roadmap 2025",
@@ -93,7 +93,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
     images: [
-      "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
     ],
   },
 
@@ -148,7 +148,7 @@ const structuredData = {
 
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
     width: 1200,
     height: 630,
   },
@@ -523,7 +523,7 @@ export default function Article() {
             </li>
           </ul>
           <p>
-            Use cloud options like MongoDB Atlas or NeonDB for Postgres. Setup
+            Use cloud options like <Link href="/code-report/mongodb-explained">MongoDB Atlas</Link> or NeonDB for Postgres. Setup
             takes minutes, scales like magic, and you never need to mess with
             the server.
           </p>
@@ -576,7 +576,7 @@ export default function Article() {
           </p>
           <p>
             <strong>Project:</strong> Build and deploy a full stack app with
-            authentication, dynamic content, and persistent data.
+            authentication, <Link href="/javascript/bom-applications">dynamic content</Link>, and persistent data.
           </p>
         </section>
 
@@ -749,21 +749,11 @@ export default function Article() {
           <h2>Internal Resources and Further Reading</h2>
           <ul>
             <li>
-              <Link href="/programming-roadmap/html-roadmap">
-                Complete HTML Roadmap for Web Developers
-              </Link>
-            </li>
-            <li>
               <Link href="/javascript">Learn Javascript step by step</Link>
             </li>
             <li>
               <Link href="/programming-roadmap/css-roadmap">
                 CSS Roadmap: Your Ultimate Step-By-Step Guide
-              </Link>
-            </li>
-            <li>
-              <Link href="/programming-roadmap/react-roadmap">
-                Complete React js Roadmap for Web Developers
               </Link>
             </li>
             <li>

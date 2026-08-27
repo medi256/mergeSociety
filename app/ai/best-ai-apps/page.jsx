@@ -60,7 +60,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
         width: 1200,
         height: 630,
         alt: "Best AI Apps for Studying - 8 Game-Changing Tools for Lightning-Fast Learning",
@@ -88,7 +88,7 @@ export const metadata = {
       "Discover 8 AI study apps that help you learn 10x faster. From Traverse to Recall - these tools will transform how you study and retain information.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
     ],
   },
   alternates: {
@@ -278,7 +278,7 @@ export default function Article() {
           </ul>
           <p>
             Want a real-life example? Picture this: You’re watching a 30-minute
-            lecture on “Quantum Computing for Dummies.” Recall lets you turn the
+            lecture on “<Link href="/startup-stories/satya">Quantum Computing</Link> for Dummies.” Recall lets you turn the
             highlights into bite-sized, test-ready flashcards in under five
             minutes.
           </p>
@@ -302,7 +302,7 @@ export default function Article() {
             You know those never-ending 60-minute YouTube lectures or
             monster-length blog articles? Mapify’s superpower is turning all
             that chaos into visual mind maps. And it isn’t just for study. You
-            can use this for creative brainstorming, project planning, or
+            can use this for creative brainstorming, <Link href="/code-report/how-to-build-projects">project planning</Link>, or
             whenever you need to untangle a web of information.
           </p>
           <h3>Here’s Exactly What Mapify Does:</h3>

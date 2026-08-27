@@ -229,7 +229,7 @@ App
 
         <h2>Handling Events and Updating State</h2>
         <p>
-          Event handling and state updates are key aspects of component
+          <Link href="/react/functional-event-handling">Event handling</Link> and state updates are key aspects of component
           interaction.
         </p>
         <p>Here’s an example of how state and event handling work together:</p>

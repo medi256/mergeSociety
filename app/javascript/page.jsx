@@ -356,7 +356,7 @@ const Jscourse = () => {
             <Link href="/javascript/location-object">
               <div className="card">
                 <h3>Location Object</h3>
-                <p>Learn about URL manipulation.</p>
+                <p>Learn about <Link href="/react/navigating-pages">URL manipulation</Link>.</p>
               </div>
             </Link>
             <Link href="/javascript/navigation-object">

@@ -39,7 +39,7 @@ const ScreenObject = () => {
         <p>
           In our previous lessons, we've been learning about the Browser Object
           Model (BOM) and its various components. So far, we've covered the
-          Window object, the Location object, the Navigation object, and more.
+          Window object, the <Link href="/javascript/bom-intro">Location object</Link>, the Navigation object, and more.
           Now, let's move on to another important part of the BOM: the Screen
           object.
         </p>

@@ -131,7 +131,7 @@ const PersonalWebpage = () => {
           Now we need a special program to write our code. Think of this like
           getting a really smart notebook that helps you write correctly.
         </p>
-        <p>We'll use Visual Studio Code (VS Code) because it's:</p>
+        <p>We'll use <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code) because it's:</p>
         <ul>
           <li>Free (very important!)</li>
           <li>Easy to use (perfect for beginners!)</li>

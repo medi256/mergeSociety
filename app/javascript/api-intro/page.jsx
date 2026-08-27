@@ -33,7 +33,7 @@ const APIintro = () => {
         <h2>Breaking Down the Term "API"</h2>
 
         <p>
-          API stands for <strong>Application Programming Interface</strong>.
+          API stands for <strong><Link href="/code-report/apis-explained">Application Programming Interface</Link></strong>.
           While this name might seem complicated, you can think of an API as a{" "}
           <strong>messenger</strong> that allows different software applications
           to talk to each other.
@@ -211,7 +211,7 @@ const APIintro = () => {
         <h2>Breaking Down the Term "API"</h2>
 
         <p>
-          API stands for <strong>Application Programming Interface</strong>.
+          API stands for <strong><Link href="/code-report/apis-explained-to-a-kid">Application Programming Interface</Link></strong>.
           While this name might seem complicated, you can think of an API as a{" "}
           <strong>messenger</strong> that allows different software applications
           to talk to each other.

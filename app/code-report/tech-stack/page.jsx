@@ -5,7 +5,7 @@ import CommentSection from "@/app/commentSection";
 
 export const metadata = {
   title:
-    "The Definitive Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
+    "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
   description:
     "Navigate the overwhelming world of technology choices with this practical guide to selecting the right tech stack for your project, whether it's web, mobile, desktop, games, or AI applications.",
   keywords: [
@@ -37,14 +37,14 @@ export const metadata = {
   ],
   category: "Software Development",
   openGraph: {
-    title: "The Definitive Beginner's Guide to Picking Your Tech Stack in 2025",
+    title: "The Beginner's Guide to Picking Your Tech Stack in 2025",
     description:
       "Stop overengineering and start building! Learn which technologies you actually need for web, mobile, desktop, game, and AI development with this practical, no-nonsense guide.",
     url: "https://mergesociety.com/code-report/tech-stack",
     siteName: "Tech Journeys",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
         width: 1200,
         height: 630,
         alt: "A developer standing at a crossroads with different tech stack paths",
@@ -93,7 +93,7 @@ export const metadata = {
       "Discover which technologies you actually need for your web, mobile, desktop, game, or AI project—without the overwhelming complexity.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -149,9 +149,9 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     headline:
-      "The Definitive Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
+      "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
     image:
-      "https://img.mergesociety.com/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -498,7 +498,7 @@ export default function Article() {
 
         <p>
           Now, of course, you want to be productive. Ask yourself:{" "}
-          <em>What programming language am I already most comfortable with?</em>{" "}
+          <em>What <Link href="/javascript/introduction-to-javascript">programming language</Link> am I already most comfortable with?</em>{" "}
           The great news is that a web framework exists for almost every popular
           language out there. Like Python? Try <strong>Django</strong> or{" "}
           <strong>Flask</strong>. Prefer JavaScript? You get{" "}
@@ -512,7 +512,7 @@ export default function Article() {
 
         <p>
           Smartphones are everywhere, but behind the scenes, there are two major
-          operating systems: <strong>iOS</strong> (Apple) and{" "}
+          <Link href="/tech/10x-developers">operating systems</Link>: <strong>iOS</strong> (Apple) and{" "}
           <strong>Android</strong> (Google). When you set out to build a mobile
           app, you face a big choice: develop <strong>natively</strong> or take
           the <strong>cross-platform</strong> route.
@@ -616,7 +616,7 @@ export default function Article() {
 
         <p>
           If you plan to <em>create</em> machine learning models yourself,
-          you’ll live almost exclusively in two programming languages:
+          you’ll live almost exclusively in two <Link href="/javascript/js-vs-ecmascript">programming languages</Link>:
         </p>
         <ul>
           <li>

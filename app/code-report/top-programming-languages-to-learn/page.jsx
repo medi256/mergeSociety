@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
         width: 600,
         height: 400,
         alt: "Top 5 Programming Languages 2026 - Python TypeScript C/C++ Java Rust comparison chart",
@@ -96,7 +96,7 @@ export const metadata = {
       "Python for AI, TypeScript for web, C/C++ for speed, Java for enterprise, Rust for systems. Data-backed ranking from GitHub, Stack Overflow, TIOBE.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
     ],
   },
 
@@ -324,7 +324,7 @@ export const metadata = {
         "Data-Driven Programming Language Ranking for 2026 Careers",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
         width: 600,
         height: 400,
         caption: "Top 5 programming languages 2026 comparison",
@@ -797,7 +797,7 @@ const LANGUAGES = () => {
           </p>
           <p>
             And the libraries - this is where Python crushes it. Think{" "}
-            <strong>PyTorch</strong> for deep learning experiments that can
+            <strong>PyTorch</strong> for <Link href="/ai/llms">deep learning</Link> experiments that can
             scale to production, <strong>TensorFlow</strong> when you need
             graph-based workflows, <strong>pandas</strong> for tabular data
             wrangling, and <strong>NumPy</strong> for vectorized computations.
@@ -950,7 +950,7 @@ const LANGUAGES = () => {
           <p>
             Career wise, you will find C and C++ roles in high frequency
             trading, gaming engines, compilers, databases, embedded systems, and
-            even in AI infrastructure work. If you want to write code that
+            even in <Link href="/ai/ai-mcp">AI infrastructure</Link> work. If you want to write code that
             outlives frameworks, C and C++ give you that foundation.
           </p>
           <p>
@@ -1117,7 +1117,7 @@ const LANGUAGES = () => {
             performance-critical modules.
           </p>
           <p>
-            <strong>Kotlin</strong> is the pick for modern Android apps,
+            <strong>Kotlin</strong> is the pick for modern <Link href="/apps/best-apps">Android apps</Link>,
             especially for native Android development. If your dream is to build
             crisp Android experiences, Kotlin is the way.
           </p>

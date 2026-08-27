@@ -52,7 +52,7 @@ const CSSResponsiveDesigns = () => {
         <h3>Media Queries</h3>
         <p>
           Utilize CSS media queries to apply different styles based on the
-          characteristics of the device, such as screen width, height, and
+          characteristics of the device, such as <Link href="/javascript/screen-object">screen width</Link>, height, and
           orientation. This allows you to create responsive designs that adapt
           to various screen sizes and resolutions.
         </p>

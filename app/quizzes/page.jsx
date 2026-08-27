@@ -58,7 +58,7 @@ const QuizCategories = () => {
           <div className="category-cards-q">
             <h2>JavaScript Quizzes</h2>
             <p>
-              Challenge your logic and coding skills with JavaScript quizzes for
+              Challenge your logic and <Link href="/tech/40-projects">coding skills</Link> with JavaScript quizzes for
               all levels.
             </p>
           </div>

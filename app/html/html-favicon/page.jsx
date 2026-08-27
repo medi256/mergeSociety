@@ -171,7 +171,7 @@ const HTMLFavicon = () => {
         <p>
           In this lesson, we've explored the importance of favicons and how to
           create and add them to your HTML documents. Favicons play a crucial
-          role in brand recognition, user experience, and website navigation.
+          role in brand recognition, user experience, and <Link href="/react/setup-react-router">website navigation</Link>.
           Remember to use recognizable and unique icons, keep the size small,
           and test your favicon across different browsers and devices. In the
           next lesson, we'll continue our journey by exploring Drop down menus

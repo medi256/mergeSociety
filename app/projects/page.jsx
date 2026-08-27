@@ -57,7 +57,7 @@ const ProjectCategories = () => {
         <Link href="/projects/javascriptP" passHref>
           <h2>JavaScript Projects to Master Interactive Web Development</h2>{" "}
           <p>
-            Build dynamic and interactive websites with JavaScript projects
+            Build dynamic and <Link href="/javascript/introduction-to-javascript">interactive websites</Link> with JavaScript projects
             designed for beginners to advanced developers. Take your coding
             skills to the next level today!
           </p>

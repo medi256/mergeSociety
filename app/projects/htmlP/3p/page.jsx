@@ -138,7 +138,7 @@ const WeeklyScheduleHtml = () => {
             <div>
               <p>
                 A text editor is like your digital pencil and paper. We
-                recommend Visual Studio Code (VS Code) because it's:
+                recommend <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code) because it's:
               </p>
               <ul>
                 <li>Free to download</li>

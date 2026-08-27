@@ -40,7 +40,7 @@ const HTMLHeadings = () => {
           clear structure to your content, making it easier for readers to scan
           and understand the hierarchy of information. Additionally, headings
           play a significant role in search engine optimization (SEO) by helping
-          search engines understand the topic and structure of your web page.
+          <Link href="/code-report/algorithms">search engines</Link> understand the topic and structure of your web page.
           Well-used headings can improve your website's visibility and
           accessibility.
         </p>

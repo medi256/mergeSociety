@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Interview_1_xlpfk4_clex4p.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
         width: 1200,
         height: 630,
         alt: "Roy, founder of Cluely and Interview Coder, who got kicked out of Columbia University for building controversial AI interview tool",
@@ -103,7 +103,7 @@ export const metadata = {
       "Roy built Interview Coder to cheat tech interviews, got expelled from Columbia, went viral, and raised $5.3M. Now building the future of AI interaction. Wild story inside.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
     ],
   },
 
@@ -171,7 +171,7 @@ export const metadata = {
     headline:
       "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews - Here's What Happened Next",
     image:
-      "https://img.mergesociety.com/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
     datePublished: "2025-10-29T00:00:00Z",
     dateModified: "2025-10-29T00:00:00Z",
     author: {
@@ -840,7 +840,7 @@ const RoyLee = () => {
             like the modern day equivalent of asking how many balloons fit in
             the Empire State Building. It’s supposed to test your critical
             thinking. But the questions are online to the extent that rather
-            than practicing critical thinking, you just practice memorizing the
+            than practicing <Link href="/ai/is-ai-making-us-dumb">critical thinking</Link>, you just practice memorizing the
             riddles. You’re going to sit through and memorize all the 1000
             questions because it means you get a 200k a year job.
           </p>

@@ -68,7 +68,7 @@ const BlogPost = () => {
 
         <h3>Installing a Text Editor</h3>
         <p>
-          For this tutorial, we'll be using Visual Studio Code (VS Code), a free
+          For this tutorial, we'll be using <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code), a free
           and popular code editor. Here's how you can install it:
         </p>
         <ol>

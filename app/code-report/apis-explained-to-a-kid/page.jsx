@@ -32,7 +32,7 @@ export const metadata = {
     url: "https://mergesociety.com/code-report/apis-explained-to-a-kid",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
         width: 1200,
         height: 675,
         alt: "How APIs work with real-world examples",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Learn what APIs are with simple analogies, real-world examples, and why they power every app on your phone. Complete beginner's guide to APIs.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756110851790_hdqj7r_c3wqmm_ky0rmc.webp",
     ],
   },
 
@@ -164,7 +164,7 @@ const Page = () => {
             results back. That is the entire magic of APIs in one story.
           </p>
           <p>
-            Now, the letters. API stands for Application Programming Interface.
+            Now, the letters. API stands for <Link href="/code-report/apis-explained">Application Programming Interface</Link>.
             Think of it as a contract that lets two pieces of software talk to
             each other in a predictable way. It is not just a single thing. APIs
             can be simple or complex, public or private, human friendly or

@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Developer Junction",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
         width: 1200,
         height: 630,
         alt: "Collage showing code editor, web apps, mobile interfaces, and AI visualizations representing 40 diverse programming projects for developers",
@@ -86,7 +86,7 @@ export const metadata = {
       "Discover practical coding projects from web apps to AI systems that will expand your skills and supercharge your portfolio.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -134,7 +134,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "40 Programming Projects That Will Make You a Better Developer",
     image:
-      "https://img.mergesociety.com/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T08:30:00Z",
     author: {
@@ -849,7 +849,7 @@ export default function Article() {
           Building a neural network to recognize bird photos or audio clips
           sounds intimidating, but frameworks like <strong>TensorFlow</strong>{" "}
           make it accessible. These projects can run on small devices—even a
-          humble Raspberry Pi! Explore edge AI, learn about model training, and
+          humble <Link href="/code-report/labing">Raspberry Pi</Link>! Explore edge AI, learn about model training, and
           get creative.
         </p>
 
@@ -926,7 +926,7 @@ export default function Article() {
           Chat UIs are easy to build, but adding{" "}
           <strong>real-time features and authentication</strong> will up your
           game. Incorporate WebSockets for live updates and manage user sessions
-          securely. Learn about state management and consider expanding to
+          securely. Learn about <Link href="/react/class-components">state management</Link> and consider expanding to
           desktop or CLI clients for a multi-platform experience.
         </p>
 
@@ -977,7 +977,7 @@ export default function Article() {
         <h2>35. Weather Dashboard</h2>
         <p>
           Design a sleek UI to fetch and display weather updates for multiple
-          locations. Learn HTTP requests, API integration (like OpenWeatherMap),
+          locations. Learn HTTP requests, <Link href="/code-report/apis-explained-to-a-kid">API integration</Link> (like OpenWeatherMap),
           and, optionally, schedule periodic data refreshes with cron jobs.
         </p>
 

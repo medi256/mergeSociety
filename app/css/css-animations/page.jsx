@@ -69,7 +69,7 @@ const CSSAnimations = () => {
 
         <h3>Keyframes</h3>
         <p>
-          Keyframes are the building blocks of CSS animations. They define the
+          Keyframes are the building blocks of <Link href="/css/css-transitions">CSS animations</Link>. They define the
           start and end states of an animation, along with any intermediate
           steps. Each keyframe specifies a percentage value that represents the
           progress of the animation. Here's an example:

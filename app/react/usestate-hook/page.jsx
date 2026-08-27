@@ -37,7 +37,7 @@ const UseState = () => {
         <h2>What Is useState?</h2>
         <p>
           In React, <code>useState</code> is a special Hook that lets you add
-          something called <strong>state</strong> to your functional components.
+          something called <strong>state</strong> to your <Link href="/react/class-components">functional components</Link>.
         </p>
         <p>But what exactly is state?</p>
         <p>
@@ -65,7 +65,7 @@ const UseState = () => {
           components, making it much simpler.
         </p>
         <p>
-          The <code>useState</code> Hook makes functional components more
+          The <code>useState</code> Hook makes <Link href="/react/functional-event-handling">functional components</Link> more
           powerful by allowing them to keep track of changing values, such as:
         </p>
         <ul>
@@ -302,7 +302,7 @@ onChange={(e) => setName(e.target.value)}
         </ul>
         <p>
           In the next lesson, we’ll look at another important Hook:{" "}
-          <code>useEffect</code>, which lets you handle side effects like
+          <code>useEffect</code>, which lets you handle <Link href="/react/hooks-intro">side effects</Link> like
           fetching data or setting up timers when your component renders.
         </p>
 

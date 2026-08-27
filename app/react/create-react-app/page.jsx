@@ -109,7 +109,7 @@ const CreateReactApp = () => {
         <p>
           Next, you need to decide where on your computer you want to create
           your React project. This could be inside a folder where you keep all
-          your coding projects, for example. Here’s how you can navigate to the
+          your <Link href="/tech/40-projects">coding projects</Link>, for example. Here’s how you can navigate to the
           folder you want to work in:
         </p>
         <ul>

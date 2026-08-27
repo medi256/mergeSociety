@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
         width: 1200,
         height: 630,
         alt: "AI vs Machine Learning vs Deep Learning vs Generative AI comparison diagram 2025",
@@ -74,7 +74,7 @@ export const metadata = {
     description:
       "Updated guide explaining the differences between AI technologies with practical examples and latest developments for 2025.",
     images: [
-      "https://img.mergesociety.com/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
     ],
   },
 
@@ -157,7 +157,7 @@ export const metadata = {
     description:
       "Master the differences between AI, machine learning, deep learning, and generative AI. Updated guide with latest developments, practical examples, and real-world applications for 2025.",
     image:
-      "https://img.mergesociety.com/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
     datePublished: "2025-05-06T10:30:00Z",
     dateModified: "2025-06-29T14:30:00Z",
     author: {
@@ -318,7 +318,7 @@ export default function Article() {
         <p>
           Confused by the AI hype? Here’s what nobody will tell you: most “AI
           experts” have it all wrong. The real differences between artificial
-          intelligence, machine learning, deep learning, and generative AI will
+          intelligence, machine learning, <Link href="/tech/ai-explained">deep learning</Link>, and generative AI will
           completely flip how you think about the future—so if you’re still
           stuck on yesterday’s definitions, you’re missing out BIG time. Ready
           to get the inside scoop that tech leaders are quietly leveraging in
@@ -337,7 +337,7 @@ export default function Article() {
           Think about it—what do we mean by "intelligence"? To learn, infer, and
           reason. That’s the ultimate goal of AI:{" "}
           <b>
-            creating computer systems able to ace tasks we once thought only
+            creating <Link href="/tech/operating-systems">computer systems</Link> able to ace tasks we once thought only
             humans could do
           </b>
           .
@@ -431,7 +431,7 @@ export default function Article() {
           Depth, and complexity. Lots more of both.”
         </blockquote>
         <p>
-          Deep neural networks have “layers”—hence the “deep.”{" "}
+          Deep <Link href="/ai/god-father-of-ai">neural networks</Link> have “layers”—hence the “deep.”{" "}
           <b>
             More layers mean greater ability to deal with nuance and ambiguity
           </b>

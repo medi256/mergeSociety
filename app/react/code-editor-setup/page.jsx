@@ -194,7 +194,7 @@ const CodeEditor = () => {
         <p>
           Now that you have VS Code set up, you’re ready to start coding! In the
           next section, we’ll show you how to create your first React project
-          using <strong> Create React App</strong>. This is where the fun really
+          using <strong> <Link href="/react/create-react-app">Create React App</Link></strong>. This is where the fun really
           begins, so stay tuned!
         </p>
 

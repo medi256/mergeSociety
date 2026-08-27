@@ -460,7 +460,7 @@ function displayArray(array) {
 
         <h4>Adding Event Listeners to Buttons</h4>
         <p>
-          Now, let's add event listeners to the buttons to handle user
+          Now, let's add <Link href="/javascript/dom-intro">event listeners</Link> to the buttons to handle user
           interactions.
         </p>
         <ol className="space-y-6" start={4}>

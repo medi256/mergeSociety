@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
         width: 600,
         height: 400,
         alt: "Computer Science Career Strategy - Focus on depth over breadth",
@@ -58,7 +58,7 @@ export const metadata = {
     description:
       "Stop learning everything and master one thing. The real playbook for landing your first CS job.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755334719154_bdxdsx_gkoqmw_g0izlh.webp",
     ],
   },
   robots: {
@@ -120,7 +120,7 @@ export default function ComputerScienceCareerDepthArticle() {
           If you have been sprinting in circles trying to learn React, Python,
           AI, backend, frontend, plus everything else that shows up in your
           feed, this is your sign to stop. The fastest way to level up your
-          computer science career is not learning 10 percent of 12 things. It is
+          <Link href="/tech/should-you">computer science career</Link> is not learning 10 percent of 12 things. It is
           going all in on one thing that actually matters to you. I learned this
           the hard way, and it changed how I build, how I network, and how I
           interview. Here is the real playbook, written for people who are tired

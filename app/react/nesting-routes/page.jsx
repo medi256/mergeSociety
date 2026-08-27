@@ -35,7 +35,7 @@ const NestingRoutes = () => {
         <h1>Nesting Routes in React Router: Efficient Routing Structure</h1>
 
         <p>
-          React Router not only allows you to define routes and render
+          <Link href="/react/navigating-pages">React Router</Link> not only allows you to define routes and render
           components, but it also provides the ability to nest routes. Nesting
           routes is a powerful technique that helps you organize and structure
           your routes efficiently. Let's explore the world of nesting routes and
@@ -46,7 +46,7 @@ const NestingRoutes = () => {
         <h3>Understanding Nested Routes</h3>
 
         <p>
-          Nested routes in React Router refer to the practice of defining routes
+          Nested routes in <Link href="/react/setup-react-router">React Router</Link> refer to the practice of defining routes
           within other routes. This hierarchical structure allows you to
           organize your routes in a more logical and maintainable way. With
           nested routes, you can create a clear and intuitive routing structure

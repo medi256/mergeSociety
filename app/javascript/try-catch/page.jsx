@@ -209,7 +209,7 @@ try {
 
         <h2>Try/Catch with Asynchronous Code</h2>
         <p>
-          You can also use Try/Catch with asynchronous code like promises (which
+          You can also use Try/Catch with <Link href="/react/async-await">asynchronous code</Link> like promises (which
           we learned about earlier). Here’s how it works with an async function:
         </p>
 

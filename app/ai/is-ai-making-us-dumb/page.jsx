@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "ColdFusion",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
         width: 1200,
         height: 630,
         alt: "A human brain connected to AI neural networks, illustrating the cognitive relationship between humans and artificial intelligence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Explore how AI may be affecting our ability to think critically, with practical advice on preserving cognitive abilities in an increasingly automated world.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
     ],
   },
   robots: {
@@ -126,7 +126,7 @@ export const metadata = {
     headline:
       "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
     image:
-      "https://img.mergesociety.com/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -778,7 +778,7 @@ export default function Article() {
 
         <p>
           Studies have measured the broader effects, too. Research on
-          calculators and autocorrect has already shown negative side effects:
+          calculators and autocorrect has already shown negative <Link href="/react/hooks-intro">side effects</Link>:
           as students rely on spell check, their spelling and punctuation skills
           atrophy. Next comes the AI writing assistant, which doesn’t just{" "}
           <i>suggest</i> — it <i>thinks</i> for you.
@@ -902,7 +902,7 @@ export default function Article() {
         <p>So, should we swear off AI? Not quite.</p>
 
         <p>
-          As <strong>Geoffrey Hinton</strong>, the so-called godfather of AI,
+          As <strong><Link href="/ai/god-father-of-ai">Geoffrey Hinton</Link></strong>, the so-called godfather of AI,
           cautions: “ChatGPT is an idiot savant. It doesn’t know the difference
           between truth and lies, because it is trained on inconsistent data and
           tries to predict what someone might say next.” Unlike humans, language
@@ -966,7 +966,7 @@ export default function Article() {
 
         <p>
           Until models can self-assess their competence, users must provide the
-          discernment. Neural networks are limited by what they’ve been exposed
+          discernment. <Link href="/ai/llms">Neural networks</Link> are limited by what they’ve been exposed
           to—their “knowledge” mirrors the data, including its gaps and biases.
         </p>
 

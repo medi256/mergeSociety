@@ -281,7 +281,7 @@ setTimeout(function() {
           <code>setInterval</code>
         </h2>
         <p>
-          Just like in other functions, you can use arrow functions to shorten
+          Just like in other functions, you can use <Link href="/javascript/arrow-functions">arrow functions</Link> to shorten
           the code when using <code>setTimeout</code> and{" "}
           <code>setInterval</code>. Here’s how you can rewrite the examples
           above with arrow functions:

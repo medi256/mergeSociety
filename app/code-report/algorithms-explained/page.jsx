@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of algorithms from simple tasks to AI neural networks",
@@ -103,7 +103,7 @@ export const metadata = {
       "Discover how the same principles power everyday tasks and cutting-edge AI in this beginner-friendly guide to algorithms by Harvard's David J. Malan.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
     ],
   },
 
@@ -154,7 +154,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
     image:
-      "https://img.mergesociety.com/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
     datePublished: "2025-05-10T08:00:00Z",
     dateModified: "2025-05-10T08:00:00Z",
     author: {
@@ -748,7 +748,7 @@ export default function Article() {
             Wonder why TikTok, YouTube, or Netflix knows what you want—even
             before you do? It’s not magic. It’s algorithms, watching everything
             you click, save, or search, then feeding it into systems with names
-            like <strong>neural networks</strong>.
+            like <strong><Link href="/ai/god-father-of-ai">neural networks</Link></strong>.
           </p>
           <blockquote>
             "The reason TikTok’s ‘For You’ page is so addictive? Every swipe is
@@ -987,13 +987,13 @@ export default function Article() {
             <h3>What’s the difference between a simple algorithm and AI?</h3>
             <p>
               Simple algorithms follow precise steps you give them—no surprises.
-              AI (like neural networks and machine learning) uses hundreds or
+              AI (like <Link href="/ai/llms">neural networks</Link> and machine learning) uses hundreds or
               thousands of algorithms to learn from data, adapt, and make
               decisions you might not even expect.
             </p>
             <h3>Are there risks to algorithm-driven tech?</h3>
             <p>
-              Yes. Privacy, bias, job automation, and “black box” decisions are
+              Yes. Privacy, bias, <Link href="/ai/future-of-jobs">job automation</Link>, and “black box” decisions are
               real concerns. The more powerful algorithms get, the more crucial
               it becomes to understand and monitor them.
             </p>

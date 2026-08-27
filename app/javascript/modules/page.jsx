@@ -54,7 +54,7 @@ const Modules = () => {
         <p>
           For example, you might have a module for handling user authentication,
           another for interacting with an API, and yet another for managing the
-          user interface. This separation of concerns helps keep your codebase
+          <Link href="/react/fetching-api">user interface</Link>. This separation of concerns helps keep your codebase
           clean and organized, making it easier to develop and maintain.
         </p>
 
@@ -235,7 +235,7 @@ const Modules = () => {
         <h2>Using Modules in Modern JavaScript Projects</h2>
         <p>
           In modern JavaScript development, using modules is standard practice.
-          Most JavaScript frameworks and libraries (like React, Angular, and
+          Most <Link href="/code-report/best-framework">JavaScript frameworks</Link> and libraries (like React, Angular, and
           Vue) are built using modules, and tools like Webpack and Parcel are
           commonly used to bundle modules together for deployment.
         </p>

@@ -63,7 +63,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
         width: 1200,
         height: 800,
         alt: "Mixing Programming Languages in One Executable",
@@ -79,7 +79,7 @@ export const metadata = {
     description:
       "Step-by-step guide on combining multiple programming languages into a single executable using compilers, linkers, and ABIs.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
     ],
   },
 };
@@ -130,7 +130,7 @@ export default function MixingLanguagesExecutableArticle() {
           </p>
           <p>
             But what about projects where components written in different
-            programming languages are meant to run together inside one process,
+            <Link href="/javascript/js-vs-ecmascript">programming languages</Link> are meant to run together inside one process,
             sharing the same memory and the same address space? That is where
             people get confused. If languages have different compilers,
             runtimes, and memory models, how do they live inside one executable
@@ -170,7 +170,7 @@ export default function MixingLanguagesExecutableArticle() {
           <h2>Compilers Are Not Magic Boxes - They Are Pipelines</h2>
           <p>
             A common myth says compilers turn source code straight into an
-            executable file. That is the final outcome, but not the process.
+            <Link href="/code-report/what-is-a-compiler">executable file</Link>. That is the final outcome, but not the process.
             Real compilers are pipelines. They transform code through multiple
             stages, and at each stage the output is a different kind of
             artifact. Knowing these stages is the key to mixing languages

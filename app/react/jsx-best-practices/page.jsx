@@ -304,7 +304,7 @@ return (
 
         <p>
           Following these best practices will help you avoid common mistakes and
-          make your React components much easier to work with as you build more
+          make your <Link href="/react/conditional-rendering">React components</Link> much easier to work with as you build more
           complex apps.
         </p>
 

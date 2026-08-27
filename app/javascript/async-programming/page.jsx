@@ -51,7 +51,7 @@ const AsyncProgram = () => {
 
         <p>
           <code>Asynchronous programming</code> allows JavaScript to handle
-          tasks that might take some time, such as fetching data from the
+          tasks that might take some time, such as <Link href="/react/useeffect-hook">fetching data</Link> from the
           internet or waiting for a user’s input, without stopping everything
           else. In other words, JavaScript can do other things while waiting for
           certain tasks to complete.
@@ -176,7 +176,7 @@ console.log("Task 3: Continue without waiting");
 
         <p>
           In the same way, asynchronous programming lets JavaScript do other
-          things while waiting for certain tasks (like data fetching) to
+          things while waiting for certain tasks (like <Link href="/react/fetching-api">data fetching</Link>) to
           complete.
         </p>
 
@@ -208,7 +208,7 @@ console.log("Task 3: Continue without waiting");
           things like the <code>event loop</code>, and we’ll explore concepts
           like <code>callbacks</code>, <code>promises</code>, and{" "}
           <code>async/await</code>. Each of these plays a key role in managing
-          asynchronous code in JavaScript.
+          <Link href="/react/async-await">asynchronous code</Link> in JavaScript.
         </p>
 
         <p>

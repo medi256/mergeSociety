@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/api_cbneaq_bfxrcg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.jpg",
         width: 1200,
         height: 630,
         alt: "Visual representation of API communication between applications",
@@ -92,7 +92,7 @@ export const metadata = {
     description:
       "From restaurant analogies to real-world tech examples - understand what APIs are, how they work, and why they're crucial in modern software development.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/mergesociety/api_cbneaq_bfxrcg.jpg"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.jpg"],
   },
 
   robots: {
@@ -142,7 +142,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "APIs Explained: Understanding the Backbone of Modern Software (2025)",
-    image: "https://img.mergesociety.com/mergesociety/api_cbneaq_bfxrcg.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.jpg",
     datePublished: "2025-05-07T12:00:00Z",
     dateModified: "2025-05-07T12:00:00Z",
     author: {
@@ -850,7 +850,7 @@ export default function Article() {
           <div className="faq-section">
             <h3>What does API stand for?</h3>
             <p>
-              API stands for Application Programming Interface—a set of rules or
+              API stands for <Link href="/code-report/apis-explained-to-a-kid">Application Programming Interface</Link>—a set of rules or
               tools for apps to talk to each other.
             </p>
 
@@ -869,7 +869,7 @@ export default function Article() {
 
             <h3>Can non-programmers benefit from understanding APIs?</h3>
             <p>
-              Absolutely! Product managers, designers, and everyday users can
+              Absolutely! <Link href="/tech/dev-fluencer">Product managers</Link>, designers, and everyday users can
               have smarter conversations and make better tech decisions with
               even a basic grasp of APIs.
             </p>

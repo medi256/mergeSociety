@@ -37,7 +37,7 @@ const AssignmentOperators = () => {
           <h1>4. Assignment Operators: Simplifying Your Code</h1>
           <p>
             Now that we’ve covered arithmetic, comparison, and logical
-            operators, it’s time to look at assignment operators. These
+            operators, it’s time to look at <Link href="/javascript/arithmetic-operators">assignment operators</Link>. These
             operators not only assign values to variables, but they also help us
             update those values more efficiently. If you’ve ever added points to
             a score, counted down to an event, or updated the progress of a

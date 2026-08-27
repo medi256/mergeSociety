@@ -19,7 +19,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
         width: 600,
         height: 400,
         alt: "Why We Need a Translator in Programming and What a Compiler Really Is",
@@ -49,7 +49,7 @@ export const metadata = {
     description:
       "Complete guide to understanding compilers in programming. Learn with practical examples and Code::Blocks walkthrough.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg",
     ],
   },
 
@@ -166,13 +166,13 @@ const Page = () => {
             <p>
               A translator is needed and there is a strong reason behind this.
               Generally, a computer program is written using a high level
-              programming language. A high level programming language is a
+              programming language. A <Link href="/code-report/types-of-programming-languages">high level programming</Link> language is a
               language which we humans can understand better. On the other hand,
               a low level programming language is a language which machines can
               understand better. This split is the root of the whole story.
             </p>
             <p>
-              We only know the high level programming language very well. When I
+              We only know the high level <Link href="/javascript/introduction-to-javascript">programming language</Link> very well. When I
               say high level, I mean languages like C, C++, Java, Python. These
               are all high level programming languages. You can think of them as
               languages designed to be readable, writable, and maintainable by
@@ -344,7 +344,7 @@ int main() {{
             <p>
               Now you might be wondering, this course is all about Python, so
               why did I take a C programming code? The reason is pretty simple.
-              C programming language is a compiled programming language. This
+              <Link href="/latest/c-vs-cpp-vs-csharp">C programming language</Link> is a compiled programming language. This
               means it uses a compiler for its translation. And as we are
               talking about a compiler in this presentation, we need to consider
               a compiled programming language. That is why I took a C

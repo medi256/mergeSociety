@@ -110,7 +110,7 @@ const myConstVar = 'Hello, world!';
         <h2>Function Hoisting</h2>
         <p>
           Functions in JavaScript are also hoisted, but unlike variables, the
-          entire function definition is hoisted to the top of the scope. This
+          entire <Link href="/javascript/defining-calling-functions">function definition</Link> is hoisted to the top of the scope. This
           allows you to call a function before its definition in your code.
         </p>
         <pre>

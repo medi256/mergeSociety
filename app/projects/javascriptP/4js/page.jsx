@@ -575,7 +575,7 @@ function displayWeatherData(data) {
         <h3>Making the Weather App Responsive</h3>
         <p>
           Let's ensure our weather app looks great on various devices by adding
-          responsive design using CSS media queries.
+          responsive design using CSS <Link href="/css/css-responsive-design">media queries</Link>.
         </p>
         <ol className="space-y-6">
           <li>

@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
         width: 1200,
         height: 630,
         alt: "Computer Science Basics: A visual representation of essential computer science concepts",
@@ -96,7 +96,7 @@ export const metadata = {
       "Master computer science fundamentals from binary and Turing machines to cloud computing and APIs in our comprehensive beginner's guide.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Computer Science Basics: A Beginner's Guide to 101 Essential Terms and Concepts",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -589,7 +589,7 @@ export default function Article() {
           universally accepted strategy is, of course, to change absolutely
           nothing and mash the “run” button a few more times in pure, hopeful
           desperation. If that fails no fear! You’ll just need to acquire a
-          computer science degree, right? (Spoiler: you absolutely do not.)
+          <Link href="/code-report/computer-science-vs-software-engineering">computer science degree</Link>, right? (Spoiler: you absolutely do not.)
         </p>
         <p>
           Welcome to the whimsical magic that is software engineering: a field
@@ -646,7 +646,7 @@ export default function Article() {
           <h2>Programming, Machine Code, and Memory Explained</h2>
           <p>
             When you write code say, in Python or JavaScript your clever logic
-            is eventually morphed into <strong>machine code</strong>: binary
+            is eventually morphed into <strong><Link href="/code-report/what-is-a-compiler">machine code</Link></strong>: binary
             instructions that your CPU knows how to run directly.
           </p>
           <h3>Random Access Memory (RAM)</h3>
@@ -916,7 +916,7 @@ export default function Article() {
           <p>
             Most modern languages (Python, JavaScript, Kotlin, Swift) support
             multiple paradigms including{" "}
-            <strong>object-oriented programming (OOP)</strong>.
+            <strong><Link href="/javascript/classes">object-oriented programming</Link> (OOP)</strong>.
           </p>
           <h3>Object-Oriented Programming (OOP)</h3>
           <p>

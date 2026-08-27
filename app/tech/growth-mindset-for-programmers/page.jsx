@@ -51,7 +51,7 @@ export const metadata = {
     ],
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
         width: 1200,
         height: 630,
         alt: "Growth Mindset for Programmers - You do not need to be a genius to code",
@@ -65,7 +65,7 @@ export const metadata = {
     description:
       "Programming success isn't about intelligence - it's about perseverance. Learn the mindset that actually matters for coding.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
     ],
   },
 
@@ -104,7 +104,7 @@ export const jsonLd = {
   description:
     "Learn why programming success isn't about intelligence but perseverance. Discover how to develop a growth mindset, overcome imposter syndrome, and build coding skills through deliberate practice and resilience.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",
@@ -183,7 +183,7 @@ const GrowthMindset = () => {
             video called something like 14 year old genius programmer. I
             remember the thumbnail too. It had the classic prodigy energy - a
             kid sitting at a Mac, code on screen, that confident half-smile that
-            says I know 19 programming languages and also how to do taxes.
+            says I know 19 <Link href="/javascript/js-vs-ecmascript">programming languages</Link> and also how to do taxes.
           </p>
           <p>
             The video was about <strong>Santiago Gonzalez</strong>. If you have

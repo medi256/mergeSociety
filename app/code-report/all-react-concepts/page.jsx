@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "React Mastery",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
         width: 1200,
         height: 630,
         alt: "Comprehensive React Concepts Guide - Visual diagram of React architecture",
@@ -98,7 +98,7 @@ export const metadata = {
       "Master React from fundamentals to advanced patterns with this comprehensive guide. Updated for React 19 with real-world examples and best practices for 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
     ],
   },
   robots: {
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: [
@@ -741,7 +741,7 @@ export default function Article() {
         <p>
           Heard people say “hooks” and nodded along without really getting it?
           Here’s the real story. Hooks let you “hook into” React’s core features
-          from regular JavaScript functions—no more class components or “this”
+          from regular JavaScript functions—no more <Link href="/react/class-components">class components</Link> or “this”
           headaches. The 5 you must know:
         </p>
         <ol>
@@ -946,7 +946,7 @@ export default function Article() {
 
           <h3>What are React components?</h3>
           <p>
-            React components are the basic building blocks of any React
+            <Link href="/react/conditional-rendering">React components</Link> are the basic building blocks of any React
             app—they’re JavaScript functions that return user interface elements
             using JSX, allowing for reusable, dynamic UI structures.
           </p>
@@ -954,7 +954,7 @@ export default function Article() {
           <h3>How do you pass data between React components?</h3>
           <p>
             Data is passed using “props”—custom properties you add to component
-            tags. For deeply nested data, use the React Context API.
+            tags. For deeply nested data, use the <Link href="/react/context-api">React Context API</Link>.
           </p>
 
           <h3>What is JSX?</h3>

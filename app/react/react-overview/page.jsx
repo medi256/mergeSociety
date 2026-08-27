@@ -65,7 +65,7 @@ const Overview = () => {
           works in a similar way.
         </p>
         <p>
-          With React, you break down your user interface into smaller, reusable
+          With React, you break down your <Link href="/react/fetching-api">user interface</Link> into smaller, reusable
           pieces called **components**. Each component represents a part of your
           UI—like a button, a header, or even a whole section of a page. This
           makes it much easier to manage your app and keep it organized,

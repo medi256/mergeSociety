@@ -41,7 +41,7 @@ const JSvsES6 = () => {
 
         <h2>Understanding JavaScript</h2>
         <p>
-          JavaScript is a programming language that allows you to create dynamic
+          JavaScript is a <Link href="/javascript/introduction-to-javascript">programming language</Link> that allows you to create dynamic
           and interactive content on websites. It’s the language you use when
           you want to make things happen in the browser, like responding to user
           actions, updating content without reloading the page, or creating
@@ -63,7 +63,7 @@ const JSvsES6 = () => {
           standard, which includes updates and new features for JavaScript. For
           example, ECMAScript 5 (ES5) introduced features like strict mode and
           JSON support, while ECMAScript 6 (ES6), also known as ECMAScript 2015,
-          brought in major enhancements like arrow functions, classes, and the
+          brought in major enhancements like <Link href="/javascript/arrow-functions">arrow functions</Link>, classes, and the
           <code>let</code> and <code>const</code> keywords.
         </p>
 

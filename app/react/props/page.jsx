@@ -30,7 +30,7 @@ const Props = () => {
           pass data from one component to another. Think of props like arguments
           you pass to a function in JavaScript, but in this case, you’re passing
           data to a React component. The component can then use the data
-          provided via props to display dynamic content or perform specific
+          provided via props to display <Link href="/javascript/bom-applications">dynamic content</Link> or perform specific
           actions.
         </p>
         <p>

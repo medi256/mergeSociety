@@ -70,7 +70,7 @@ const PortfolioLayout = () => {
 
         <h3>Installing a Text Editor</h3>
         <p>
-          For this tutorial, we'll be using Visual Studio Code (VS Code), a free
+          For this tutorial, we'll be using <Link href="/react/code-editor-setup">Visual Studio Code</Link> (VS Code), a free
           and popular code editor. Here's how you can install it:
         </p>
         <ol>
@@ -319,7 +319,7 @@ const PortfolioLayout = () => {
             </SyntaxHighlighter>
           </code>
         </pre>
-        <p>This section will display your portfolio projects.</p>
+        <p>This section will display your <Link href="/code-report/how-to-build-projects">portfolio projects</Link>.</p>
         <ul>
           <li>
             The <code>&lt;section&gt;</code> tag is used to group the

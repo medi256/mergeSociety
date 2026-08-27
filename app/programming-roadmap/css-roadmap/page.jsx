@@ -63,7 +63,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
         width: 1200,
         height: 630,
         alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
     images: [
-      "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
     ],
   },
 
@@ -142,7 +142,7 @@ const structuredData = {
   datePublished: "2025-07-08T00:00:00.000Z",
   dateModified: "2026-08-05T00:00:00.000Z",
   image:
-    "https://img.mergesociety.com/mergesociety/css-raodmap_vhknyz_orugxh.png",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://mergesociety.com/programming-roadmap/css-roadmap",
@@ -226,7 +226,7 @@ export default function Article() {
             lifeless wireframe and a living, breathing website. This isn’t
             theory. On <strong>csszengarden.com</strong>, hundreds of pros took{" "}
             <em>the exact same HTML</em> and created jaw-dropping looks — a wine
-            shop, a video game, a restaurant menu. Same bones, totally different
+            shop, a video game, a <Link href="/projects/htmlP/4p">restaurant menu</Link>. Same bones, totally different
             feel. The magic? 100% CSS.
           </p>
           <blockquote>
@@ -346,10 +346,7 @@ export default function Article() {
               <b>Learn HTML First</b>
               <br />
               If you missed it, go back and master the basics. (Internal link:{" "}
-              <Link href="/programming-roadmap/html-roadmap">
-                HTML Roadmap for Web Developers
-              </Link>
-              )
+              <Link href="/html">HTML Roadmap for Web Developers</Link>)
             </li>
             <li>
               <b>Practice Observation</b>
@@ -722,21 +719,11 @@ export default function Article() {
           <h3>Related Reads</h3>
           <ul>
             <li>
-              <Link href="/programming-roadmap/html-roadmap">
-                Complete HTML Roadmap for Web Developers
-              </Link>
-            </li>
-            <li>
               <Link href="/css/">Learn CSS step by step</Link>
             </li>
             <li>
               <Link href="/programming-roadmap/javascript-roadmap">
                 Complete Javascript Roadmap for Web Developers
-              </Link>
-            </li>
-            <li>
-              <Link href="/programming-roadmap/react-roadmap">
-                Complete React js Roadmap for Web Developers
               </Link>
             </li>
             <li>

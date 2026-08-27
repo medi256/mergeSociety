@@ -295,7 +295,7 @@ export default FruitList;`}
 
         <h2>What's Next?</h2>
         <p>
-          Great job! You've learned the basics of rendering lists in React. But
+          Great job! You've learned the basics of <Link href="/react/understanding-keys">rendering lists</Link> in React. But
           there's one more important thing we need to add to our lists: "keys".
           In our next lesson, we'll talk about what keys are and why they're so
           important. Keys are special labels that help React keep track of each

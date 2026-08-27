@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
         width: 800,
         height: 400,
         alt: "Best Operating System for Programming: Mac vs Windows vs Linux Developer Comparison",
@@ -98,7 +98,7 @@ export const metadata = {
     description:
       "Real developer experiences comparing programming on Mac, Windows, and Linux. WSL insights, Unix benefits, and practical recommendations for your coding setup in 2025.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Best Operating System for Programming 2025: Mac vs Windows vs Linux Developer Guide",
     image:
-      "https://img.mergesociety.com/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
     datePublished: "2025-08-30T12:00:00Z",
     dateModified: "2025-08-30T12:00:00Z",
     author: {
@@ -532,7 +532,7 @@ export default function Article() {
           </p>
           <p>
             Eventually, I realized the hardcore folks - the ones who pushed
-            weird open source tools at 2 a.m. - were living in Linux. My MacBook
+            weird <Link href="/apps/cool-tools">open source tools</Link> at 2 a.m. - were living in Linux. My MacBook
             Pro died exactly two years after I bought it, which is the precise
             moment Apple’s warranty elves set their watches to. It refused to
             boot, and I took that as a sign from the penguin gods. So I built a
@@ -788,7 +788,7 @@ export default function Article() {
             different. Somehow we all woke up in a timeline where I hate
             Microsoft while also using Microsoft VS Code to write Microsoft
             TypeScript, pushed to Microsoft GitHub, installing Microsoft npm
-            packages, then deploying to Microsoft Azure from a Microsoft Windows
+            packages, then deploying to Microsoft Azure from a <Link href="/tech/operating-systems">Microsoft Windows</Link>
             machine. The plot twist is real.
           </p>
           <h3>The killer feature that changed everything</h3>

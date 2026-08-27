@@ -40,7 +40,7 @@ const CSSLinks = () => {
           Link styling involves applying CSS properties to hyperlinks (
           <code>a</code>) to enhance their appearance and improve the user
           experience. Links can be styled in numerous ways, including changing
-          the text color, adding underline or hover effects, modifying the
+          the text color, adding underline or <Link href="/css/css-opacity">hover effects</Link>, modifying the
           cursor style, and more. Let's explore some of the key properties used
           for link styling:
         </p>
@@ -116,7 +116,7 @@ a:hover {
           color on hover. Hover effects help users understand that the element
           is interactive and can be clicked. You can also experiment with other
           properties on hover, such as changing the text color, adding a border,
-          or applying transition effects.
+          or applying <Link href="/css/css-transitions">transition effects</Link>.
         </p>
 
         <h3>Cursor Property</h3>

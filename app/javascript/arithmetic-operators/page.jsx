@@ -76,7 +76,7 @@ const JavaScriptOperatorsLesson = () => {
             operators are like your taste tests, helping you decide if something
             is more, less, or just right. Logical operators are like your recipe
             instructions, helping you make decisions based on multiple factors.
-            And assignment operators are like your storage containers, helping
+            And <Link href="/javascript/assignment-operators">assignment operators</Link> are like your storage containers, helping
             you put values into variables for later use.
           </p>
         </section>

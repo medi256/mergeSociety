@@ -31,7 +31,7 @@ const JSX = () => {
 
         <p>
           Now that you’ve set up your React project and understand its
-          structure, the next step is learning how to build the user interface
+          structure, the next step is learning how to build the <Link href="/react/fetching-api">user interface</Link>
           of your app. In React, we use something called <strong>JSX </strong>{" "}
           to create the UI.
         </p>
@@ -67,7 +67,7 @@ const JSX = () => {
         <p>
           JSX looks like HTML but is actually JavaScript. It allows you to
           create components (which you’ll learn more about soon) and dynamically
-          update your UI based on user interaction or data changes.
+          update your UI based on <Link href="/javascript/event-handling">user interaction</Link> or data changes.
         </p>
         <p>For example, here’s a simple JSX element:</p>
 

@@ -56,7 +56,7 @@ export const metadata = {
     siteName: "Merge Society Blog",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
         width: 600,
         height: 400,
         alt: "Legendary Programmers of all time - the coding legends who shaped modern technology",
@@ -106,7 +106,7 @@ export const metadata = {
     description:
       "From the Finnish student who created Linux to the MIT hacker who started the free software movement - meet the coding legends behind modern computing.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
     ],
   },
 
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "Legendary Programmers: The Messiahs, Madmen, and Makers Behind Your Favorite Tools",
     image:
-      "https://img.mergesociety.com/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
     datePublished: "2025-08-22T00:00:00Z",
     dateModified: "2025-08-22T00:00:00Z",
     author: {
@@ -600,7 +600,7 @@ export default function Article() {
             Linus Torvalds - the Finnish right-click that changed the world
           </h2>
           <p>
-            Linus Torvalds. A Finnish man born in the Australian summer of 1969.
+            <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link>. A Finnish man born in the Australian summer of 1969.
             Nice. If you write code that goes anywhere near a server, there is a
             better-than-not chance that your bits passed through something Linus
             touched. He is responsible for the kernel that runs most of the
@@ -628,7 +628,7 @@ export default function Article() {
             life. Born in 2005 after a licensing fallout, Linus built Git in
             weeks and accidentally invented the modern workflow of software
             collaboration. Commits, branches, merges, pull requests, distributed
-            version control - all the verbs in your daily standup descend from a
+            <Link href="/code-report/basic-git-commands">version control</Link> - all the verbs in your daily standup descend from a
             tool Linus designed to be fast, simple at the core, and
             unapologetically powerful. If you have ever bisected a bug with
             surgical precision, you have touched the original intent of Git:
@@ -840,7 +840,7 @@ export default function Article() {
           <h3>C the language</h3>
           <p>
             C is tiny, dangerous, and beautiful. It gives you pointers, manual
-            memory management, and a thin layer on top of machine code that says
+            memory management, and a thin layer on top of <Link href="/code-report/what-is-a-compiler">machine code</Link> that says
             I trust you, do not betray me. It was designed to write operating
             systems, and it still does. It inspired C++, Objective C, C#, Java,
             JavaScript, Rust, Go, and basically every curly-braced thing you use

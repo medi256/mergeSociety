@@ -100,7 +100,7 @@ div {
           In the code above, we set the <code>min-height</code> property to 500
           pixels for a container element. This ensures that the container
           doesn't become too short, creating a comfortable viewing experience
-          for users. It's especially useful for elements with dynamic content,
+          for users. It's especially useful for elements with <Link href="/javascript/bom-applications">dynamic content</Link>,
           such as text areas or image galleries.
         </p>
 

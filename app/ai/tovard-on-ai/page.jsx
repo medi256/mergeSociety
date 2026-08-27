@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
         width: 1200,
         height: 630,
         alt: "Linus Torvalds discussing AI's impact on programming with code and neural networks in the background",
@@ -101,7 +101,7 @@ export const metadata = {
       "Beyond the hype: How large language models are quietly transforming coding practices and what it means for the future of software development according to Linux creator.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
     image:
-      "https://img.mergesociety.com/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
     datePublished: "2025-05-11T10:30:00Z",
     dateModified: "2025-05-11T10:30:00Z",
     author: {
@@ -567,7 +567,7 @@ export default function Article() {
           convinced it’s not only possible, but that it’s likely already
           happening albeit on a smaller scale for now. Developers are getting a
           “helping hand” from AI for routine coding tasks, and automation in
-          coding isn’t exactly new. We’ve moved from machine code to assembler,
+          coding isn’t exactly new. We’ve moved from <Link href="/code-report/what-is-a-compiler">machine code</Link> to assembler,
           from C to Rust, using tools that increase our productivity every step
           of the way. The difference now is the sophistication and potential
           reach of these new tools.
@@ -587,7 +587,7 @@ export default function Article() {
           Can AI Help Us Write <em>and</em> Review Code?
         </h2>
         <p>
-          There’s plenty of excitement about using AI for coding, but what about
+          There’s plenty of excitement about using <Link href="/tech/learn-to-code">AI for coding</Link>, but what about
           one of the most challenging aspects of software engineering:{" "}
           <strong>code review and maintenance</strong>? The hope is real.
           Imagine an LLM as an eagle eyed assistant, tirelessly catching “stupid

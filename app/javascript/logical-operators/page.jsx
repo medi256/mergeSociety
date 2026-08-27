@@ -46,7 +46,7 @@ const JavaScriptOperatorsLesson = () => {
         <section>
           <h1>3. Logical Operators: Making Decisions in Code</h1>
           <p>
-            Now that we've learned about arithmetic and comparison operators,
+            Now that we've learned about arithmetic and <Link href="/javascript/arithmetic-operators">comparison operators</Link>,
             let's explore logical operators. These are like the decision-makers
             in our code. They help us combine different conditions and make
             choices based on multiple factors.
@@ -242,7 +242,7 @@ console.log("Should we go to the beach?", goToBeach); // Output: Should we go to
             Logical operators are key tools in programming that allow your code
             to make decisions based on multiple conditions. As you practice
             using these operators, you'll see how they can be combined with
-            arithmetic and comparison operators to solve complex problems and
+            arithmetic and <Link href="/javascript/comparison-operators">comparison operators</Link> to solve complex problems and
             create more intelligent, responsive programs!
           </p>
         </section>

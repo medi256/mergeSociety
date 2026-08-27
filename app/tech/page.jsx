@@ -73,7 +73,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -87,7 +87,7 @@ export const metadata = {
       "Explore the latest trends, innovations, and updates in the tech industry to stay informed, inspired, and ahead of the curve in a fast-changing world.",
 
     images: [
-      "https://img.mergesociety.com/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
     ],
   },
   robots: {

@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
         width: 1200,
         height: 630,
         alt: "Illustration showing AI interview tools, coding challenges, and the divided tech community over interview practices",
@@ -95,7 +95,7 @@ export const metadata = {
       "From AI cheating tools to broken interview processes - why tech recruiting is in crisis and what it means for your next job interview.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
     ],
   },
 
@@ -145,7 +145,7 @@ export const metadata = {
     headline:
       "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
     image:
-      "https://img.mergesociety.com/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
     datePublished: "2025-05-03T08:30:00Z",
     dateModified: "2025-05-03T08:30:00Z",
     author: {
@@ -506,7 +506,7 @@ export default function Article() {
         <p>
           Contrary to the doom and gloom headlines, I suspect Roy Lee probably
           made more from his products than most of us ever will from honest
-          work. And let’s be real using open source software in your product is
+          work. And let’s be real using <Link href="/code-report/how-linux-is-created">open source software</Link> in your product is
           not "cheating"; it’s how most tech companies operate. So, his
           unpopularity didn’t materialize from thin air. His tool pressed a
           nerve for thousands of job seekers frustrated with “outdated” high
@@ -660,7 +660,7 @@ export default function Article() {
           application, not just brilliance under pressure.
         </p>
         <p>
-          The tech hiring process isn’t about to get easier or more honest. If
+          The <Link href="/ai/cheating">tech hiring process</Link> isn’t about to get easier or more honest. If
           anything, as tools get more advanced, the potential for deception
           grows. The only thing you can control is your own integrity: Don’t
           lie, even if the system seems stacked against you.

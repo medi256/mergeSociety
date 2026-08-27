@@ -15,14 +15,6 @@ const Section8 = () => {
     },
     {
       id: 2,
-      title: "HTML Roadmap: Complete Roadmap to HTML",
-      image: "/mergesociety/html-roadmap_cug0c3_chzvfq.png",
-      alt: "HTML Roadmap 2025 - Complete Step-by-Step Guide to HTML Mastery",
-      date: "July 8, 2025",
-      articleRoute: "html-roadmap",
-    },
-    {
-      id: 3,
       title:
         "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro",
       image: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
@@ -31,15 +23,7 @@ const Section8 = () => {
       articleRoute: "css-roadmap",
     },
     {
-      id: 4,
-      title: "How To Master React In 2025 (Complete Roadmap)",
-      image: "/mergesociety/react-roadmap_qrfwdg_pu2pwd.png",
-      alt: "React Roadmap 2025 - Complete Guide to Mastering React",
-      date: "July 8, 2025",
-      articleRoute: "react-roadmap",
-    },
-    {
-      id: 5,
+      id: 3,
       title: "How To Master Next.js Roadmap In 2025 (Complete Roadmap)",
       image: "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
       alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",

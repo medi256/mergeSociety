@@ -44,7 +44,7 @@ const Scope = () => {
         </p>
         <p>
           There are three main types of scope in JavaScript:{" "}
-          <strong>global scope</strong>, <strong>local scope</strong>, and{" "}
+          <strong><Link href="/javascript/function-scope">global scope</Link></strong>, <strong>local scope</strong>, and{" "}
           <strong>block scope</strong>. Each type determines where variables can
           be accessed and modified in your code.
         </p>
@@ -83,7 +83,7 @@ console.log(globalVariable); // Output: I am global!
           accidentally modifying the same global variable, causing unexpected
           behavior. It's generally recommended to use local or block scope
           variables whenever possible to keep your code modular and avoid
-          unintended side effects.
+          unintended <Link href="/react/hooks-intro">side effects</Link>.
         </p>
 
         <h2>Local Scope</h2>

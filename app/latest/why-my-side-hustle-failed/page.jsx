@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
         width: 1200,
         height: 630,
         alt: "Sinking ship representing a failing side hustle with lessons learned",
@@ -78,7 +78,7 @@ export const metadata = {
       "A candid post-mortem on my failing side project with practical validation strategies for developers thinking of launching their own product.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -114,7 +114,7 @@ export const metadata = {
     headline:
       "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
     image:
-      "https://img.mergesociety.com/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
     datePublished: "2025-04-25T08:15:00Z",
     dateModified: "2025-04-25T08:15:00Z",
     author: {
@@ -350,7 +350,7 @@ export default function Article() {
         </p>
         <p>
           (And, yes, follow me on Twitter for behind-the-scenes content and
-          real-time updates.)
+          <Link href="/javascript/bom-applications">real-time updates</Link>.)
         </p>
 
         <h3>The Power of Direct Validation</h3>

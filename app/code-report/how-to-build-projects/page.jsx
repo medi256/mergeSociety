@@ -47,7 +47,7 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
         width: 1200,
         height: 675,
         alt: "How To Start Programming Projects The Lazy Way",
@@ -60,7 +60,7 @@ export const metadata = {
     description:
       "Break through tutorial hell and start coding real projects. Practical strategies for beginners: MVP approach, unique twists, and lazy-smart techniques that work.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
     ],
   },
   robots: {
@@ -94,7 +94,7 @@ export const jsonLd = {
   description:
     "A practical guide for beginner programmers on how to start coding projects without overthinking. Covers project selection, MVP development, escaping tutorial hell, and actionable strategies to ship your first projects.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
   datePublished: "2025-10-05T00:00:00.000Z",
   dateModified: "2025-10-05T00:00:00.000Z",
   author: {
@@ -158,7 +158,7 @@ export const jsonLd = {
     description:
       "Video walkthrough of how to start programming projects as a beginner",
     thumbnailUrl:
-      "https://img.mergesociety.com/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1759676146278_odcup_iywxi3_pnjxjr.webp",
     uploadDate: "2025-10-05T00:00:00.000Z",
     embedUrl: "https://www.youtube-nocookie.com/embed/HdNypiphMRg",
   },
@@ -520,7 +520,7 @@ const HowToBuildProjects = () => {
                   operations, and manage UI updates. Suddenly order of
                   operations matters, decimals matter, and you get a fun
                   debugging session for free. This is great JavaScript practice
-                  and a perfect way to fight tutorial hell because the logic is
+                  and a perfect way to fight <Link href="/code-report/tutorial-hell">tutorial hell</Link> because the logic is
                   yours.
                 </p>
               </li>
@@ -540,7 +540,7 @@ const HowToBuildProjects = () => {
                   Every web developer has made this at least once. It is
                   predictable in a good way. You will build a list, toggle
                   completion, filter tasks, and maybe persist them. That is
-                  state management 101. You also get to practice layout,
+                  <Link href="/react/class-components">state management</Link> 101. You also get to practice layout,
                   components, and tiny UX touches like keyboard shortcuts and
                   validation.
                 </p>
@@ -634,7 +634,7 @@ const HowToBuildProjects = () => {
               <p>
                 If I wanted to start this project, what do I know? Well, I
                 unfortunately know JavaScript. I also know a little bit of
-                Next.js, and the goal of this project is for me to learn Next.js
+                Next.js, and the goal of this project is for me to <Link href="/programming-roadmap/nextjs-roadmap">learn Next.js</Link>
                 better. So I start there. How about I start at the Next.js docs.
                 Oh, I am so smart. Would you look at that - a get started guide.
               </p>

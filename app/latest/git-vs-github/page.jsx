@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/git_vs_github.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_vs_github.webp",
         width: 1200,
         height: 630,
         alt: "Git vs GitHub vs GitLab Explained",
@@ -76,7 +76,7 @@ export const metadata = {
     title: "Git vs GitHub vs GitLab: What's the Difference?",
     description:
       "Git is the version control tool. GitHub/GitLab add collaboration. Learn how teams use them together with real examples.",
-    images: ["https://img.mergesociety.com/mergesociety/git_vs_github.webp"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_vs_github.webp"],
     creator: "@manager70191",
   },
 
@@ -113,7 +113,7 @@ const structuredData = {
         "Comprehensive guide explaining Git version control system and how it differs from GitHub and GitLab platforms, with real team collaboration examples.",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/git_vs_github.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_vs_github.webp",
         width: 1200,
         height: 630,
       },
@@ -323,7 +323,7 @@ const GitvsGithub = () => {
 
           <p>
             <strong>
-              Git is a version control system that runs on your computer and
+              Git is a <Link href="/code-report/basic-git-commands">version control</Link> system that runs on your computer and
               tracks every change in your code as snapshots so you can branch,
               experiment, and always go back. GitHub and GitLab are cloud
               platforms that host Git repositories and add collaboration
@@ -874,7 +874,7 @@ git push`}</pre>
             across time zones, the same flow works.
           </p>
           <p>
-            Open source projects on GitHub thrive because strangers can safely
+            <Link href="/latest/github-repositories">Open source projects</Link> on GitHub thrive because strangers can safely
             propose changes without risking the stability of main. That same
             safety helps internal teams ship features with confidence.
           </p>

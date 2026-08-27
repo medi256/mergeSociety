@@ -43,7 +43,7 @@ const FormHandle = () => {
 
         <h2>1. Introduction to Forms in React</h2>
         <p>
-          In web development, forms are a crucial part of user interaction. They
+          In web development, forms are a crucial part of <Link href="/javascript/event-handling">user interaction</Link>. They
           allow users to input data that can be sent to a server or processed by
           your application. Think about when you log into a website, post a
           comment, or make an online purchase – you're using forms in all these

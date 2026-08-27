@@ -48,7 +48,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
 
         width: 1200,
         height: 630,
@@ -95,7 +95,7 @@ export const metadata = {
       "Demystify web servers with our beginner-friendly guide. Learn how HTTP works, what ports do, and see real examples of requests and responses.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
     ],
   },
 
@@ -146,7 +146,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What Is a Web Server? A Beginner's Guide With Clear Examples",
     image:
-      "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {
@@ -562,7 +562,7 @@ export default function Article() {
 
         <p>
           What if I told you that your old gaming PC, your fridge, and even that
-          dusty Raspberry Pi in your drawer could be a full-blown web
+          dusty <Link href="/code-report/labing">Raspberry Pi</Link> in your drawer could be a full-blown web
           server—right now? Forget everything you think you know about
           mysterious “web server hardware” and get ready to see behind the
           curtain. Most people have this totally upside-down. Here’s what’s
@@ -769,7 +769,7 @@ export default function Article() {
           </ul>
           <p>
             <strong>Why does this work so well?</strong> 100,000+ visits? No
-            problem. This is how services like GitHub Pages or Amazon S3 can
+            problem. This is how services like <Link href="/react/deploying-options">GitHub Pages</Link> or Amazon S3 can
             serve millions of pages for spare change.
           </p>
           <p>

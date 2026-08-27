@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
         width: 1200,
         height: 630,
         alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
@@ -98,7 +98,7 @@ export const metadata = {
       "Google's Gemini 2.5 Pro has dethroned OpenAI in coding benchmarks. Find out how this breakthrough is reshaping AI-assisted development .",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Google Gemini 2.5 Pro Takes #1 Spot: The New King of Coding AI ",
     image:
-      "https://img.mergesociety.com/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
     datePublished: "2025-05-08T08:00:00Z",
     dateModified: "2025-05-08T08:00:00Z",
     author: {
@@ -507,7 +507,7 @@ export default function Article() {
           race. Their latest Gemini 2.5 DeepThink didn’t quietly outperform
           competitors; it obliterated the old guard, benched O3, and sent the
           industry’s biggest names scrambling. Sound dramatic? Wait until you
-          see how web design, coding, and even YouTube content creation will
+          see how web design, coding, and even YouTube <Link href="/latest/link-in">content creation</Link> will
           never be the same after what’s coming next. And that’s barely
           scratching the surface of what went down at Google I/O 2025.
         </p>
@@ -627,7 +627,7 @@ export default function Article() {
           <h2>Developers: Open, Fast, and (Maybe) Not Google-Impossible?</h2>
           <p>
             This is where it gets wild in a good way. To everyone’s shock,
-            Google is supporting the <strong>Model Context Protocol</strong>,
+            Google is supporting the <strong><Link href="/ai/ai-mcp">Model Context Protocol</Link></strong>,
             making it easier for developers to integrate all this new tech. No
             more Google-only, soon-to-be-abandoned APIs.
           </p>
@@ -652,7 +652,7 @@ export default function Article() {
           <h2>Project Astra & Live AI: See the World, For Real</h2>
           <p>
             Want Terminator-vision with a user-friendly UI? Meet{" "}
-            <strong>Project Astra</strong>. Feeding a live video stream, Astra’s
+            <strong><Link href="/ai/whats-next">Project Astra</Link></strong>. Feeding a live video stream, Astra’s
             low latency AI describes whatever’s in front of you. Find the safe
             mushrooms. Identify that breed of dog on the street. Know what
             cheese is on your pizza—almost instantly.

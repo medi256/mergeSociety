@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
         width: 1200,
         height: 630,
         alt: "Learn Web Development in 2025 - Complete Roadmap",
@@ -53,7 +53,7 @@ export const metadata = {
     description:
       "Project-based learning path to become a web developer. Skip tutorial hell, build real projects.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755493130168_mnninx_bbda8r_hyq10u.webp",
     ],
   },
 
@@ -159,7 +159,7 @@ export default function LearnWebDevelopment2025Article() {
             stuck because everything feels like black magic. The truth:
             frameworks are power tools, but they assume you already speak the
             language of the web. So the first move is to lock in your
-            foundations. Not tutorial hell. Not code golf. Real, tiny projects
+            foundations. Not <Link href="/code-report/how-to-build-projects">tutorial hell</Link>. Not code golf. Real, tiny projects
             that force your hands on the keyboard and your brain into
             problem-solving mode.
           </p>
@@ -300,7 +300,7 @@ nav a { margin-right: 1rem; color: var(--muted); text-decoration: none; }
             need it. Browser APIs are strong enough that vanilla JS is a
             superpower by itself. Your job is to really understand how promises
             work, why async and await feel so nice, and what ES6 features like
-            let, const, arrow functions, template literals, destructuring, and
+            let, const, <Link href="/javascript/arrow-functions">arrow functions</Link>, template literals, destructuring, and
             modules actually do in the wild.
           </p>
 

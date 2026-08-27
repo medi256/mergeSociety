@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "DevTools Master",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
         width: 1200,
         height: 630,
         alt: "Collection of 2025's must-have developer tools showcased on a modern development workstation",
       },
       {
-        url: "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
         width: 1200,
         height: 630,
         alt: "AI-powered developer tools transforming code editing and workflow optimization",
@@ -101,7 +101,7 @@ export const metadata = {
       "Discover the secret toolkit of highly productive developers in 2025: AI-powered editors, next-gen API testing, and productivity hacks that will transform your workflow forever.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -158,8 +158,8 @@ export const metadata = {
     headline:
       "2025's Essential Developer Tools: 10 Game-Changing Apps That Will Revolutionize Your Workflow",
     image: [
-      "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
-      "https://img.mergesociety.com/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T11:15:00Z",
@@ -528,7 +528,7 @@ export default function Article() {
           </li>
         </ul>
         <p>
-          If you've felt the pain of managing mountains of pull requests,
+          If you've felt the pain of managing mountains of <Link href="/latest/git-vs-github">pull requests</Link>,
           Refined GitHub is your new best friend.{" "}
           <strong>Give it a go—you'll instantly see the difference.</strong>
         </p>
@@ -711,7 +711,7 @@ export default function Article() {
         <p>
           Docker Desktop’s ARM transition was, frankly, painful. So if you’re
           hunting for a less bloated, much faster alternative for managing
-          Docker containers on Mac—make <strong>OrbStack</strong> your new
+          <Link href="/latest/devops-lifecycle">Docker containers</Link> on Mac—make <strong>OrbStack</strong> your new
           default.
         </p>
         <p>

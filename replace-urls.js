@@ -14,8 +14,8 @@ const CONFIG = {
 
   // Text replacements
   replacements: {
-    'sizes="(max-width: 640px) 100vw, (max-width: 1024px)90vw, 600px"':
-      'sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"',
+    "Merge Society is an  online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.":
+      "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
   },
 
   // Create a backup before changing files

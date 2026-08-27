@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Tech Explained",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
         width: 1200,
         height: 630,
         alt: "Collage of major operating system interfaces including Windows, macOS, Linux, Android, and iOS with their respective logos",
@@ -87,7 +87,7 @@ export const metadata = {
       "Everything you need to know about the world's major operating systems, their histories, strengths, weaknesses, and ideal use cases.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -136,7 +136,7 @@ export const metadata = {
     headline:
       "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
     image:
-      "https://img.mergesociety.com/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
     datePublished: "2025-04-26T12:00:00Z",
     dateModified: "2025-04-26T12:00:00Z",
     author: {
@@ -655,7 +655,7 @@ export default function Article() {
 
         <p>
           Whether you're a tech enthusiast looking to understand the landscape
-          of operating systems or a beginner just curious about the differences,
+          of <Link href="/tech/10x-developers">operating systems</Link> or a beginner just curious about the differences,
           this guide covers everything you need to know about the major players:
           Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. We'll
           explore their histories, strengths, weaknesses, and the kind of users
@@ -736,7 +736,7 @@ export default function Article() {
         <p>
           <strong>Linux</strong> isn’t just an operating system—it’s a family of
           operating systems called 'distributions' (distros). Born in 1991 from
-          the mind of Finnish software engineer Linus Torvalds, Linux was
+          the mind of Finnish software engineer <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link>, Linux was
           created as a free, open-source alternative to the expensive or
           resource-hungry offerings of the time.
         </p>
@@ -783,7 +783,7 @@ export default function Article() {
           Chrome OS devices spring to life in seconds, require no manual updates
           (they happen quietly in the background), and are highly secure thanks
           to storing most data and processing on Google servers. And with access
-          to the Google Play Store, users can install many Android apps,
+          to the Google Play Store, users can install many <Link href="/apps/best-apps">Android apps</Link>,
           boosting the flexibility beyond basic web usage.
         </p>
         <p>

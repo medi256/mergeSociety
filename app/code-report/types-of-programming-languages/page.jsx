@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
         width: 1200,
         height: 600,
         alt: "Types of Programming Languages - Low Level vs High Level, Machine and Assembly, Procedural and Object Oriented explained",
@@ -96,7 +96,7 @@ export const metadata = {
       "Understand how programming languages work from CPU instructions to human-readable code. Complete guide to language types and execution.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
     ],
   },
 
@@ -225,7 +225,7 @@ export const metadata = {
         "Complete Guide to Programming Language Categories and Execution Models",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
         width: 1200,
         height: 600,
         caption:
@@ -582,7 +582,7 @@ const TypesProgramming = () => {
 
         <p>
           Hello. In this article, I am going to explain to you what the
-          different types of programming languages are, why they exist, and how
+          different types of <Link href="/javascript/js-vs-ecmascript">programming languages</Link> are, why they exist, and how
           they relate to the way computers actually run your code. If you have
           ever looked at a program and wondered how a bunch of text turns into
           something that controls a rocket computer or even a smart TV, you are
@@ -600,7 +600,7 @@ const TypesProgramming = () => {
             What is a Programming Language?
           </h2>
           <p>
-            A programming language is an artificial language designed to
+            A <Link href="/javascript/introduction-to-javascript">programming language</Link> is an artificial language designed to
             communicate instructions to a machine, particularly a computer. The
             word artificial here is key - unlike natural human languages that
             evolve organically, programming languages are intentionally designed
@@ -944,7 +944,7 @@ const TypesProgramming = () => {
             </h3>
             <p>
               The compiler translates the high level instructions into a machine
-              language and generates an executable file like .exe. This usually
+              language and generates an <Link href="/code-report/what-is-a-compiler">executable file</Link> like .exe. This usually
               happens before you run the program. You feed the compiler your
               source files, it analyzes them, checks for errors, optimizes where
               possible, and then emits a binary file. That file contains the

@@ -36,7 +36,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide",
@@ -52,7 +52,7 @@ export const metadata = {
       "From graphics cards to cooling systems, this guide breaks down everything you need to know about gaming PC components to build your dream rig.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     ],
   },
 
@@ -111,7 +111,7 @@ export const metadata = {
     headline:
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     image:
-      "https://img.mergesociety.com/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -648,7 +648,7 @@ export default function Article() {
           <h3>How much RAM do I need for gaming in 2024?</h3>
           <p>
             While 8GB is the minimum for most modern games, 16GB is ideal for
-            flawless gameplay and light multitasking. For content creation or
+            flawless gameplay and light multitasking. For <Link href="/latest/link-in">content creation</Link> or
             future proofing, consider 32GB or more.
           </p>
           <h3>Is an SSD essential for a gaming PC?</h3>

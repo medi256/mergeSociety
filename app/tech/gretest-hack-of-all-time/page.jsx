@@ -46,7 +46,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
         width: 1200,
         height: 630,
         alt: "Shadow Brokers NSA Hack - How Equation Group Got Compromised",
@@ -75,7 +75,7 @@ export const metadata = {
     description:
       "Inside story: How hackers breached NSA's Equation Group, stole EternalBlue, and triggered the WannaCry ransomware pandemic that shut down hospitals globally.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
     ],
   },
 
@@ -113,7 +113,7 @@ export const jsonLd = {
   description:
     "Complete analysis of the Shadow Brokers hack against NSA's Equation Group, the leak of EternalBlue exploit, and the resulting WannaCry ransomware pandemic.",
   image:
-    "https://img.mergesociety.com/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",
@@ -600,7 +600,7 @@ const Hack = () => {
           </ul>
           <p>
             Microsoft pushed out patches quickly, including rare updates for
-            older operating systems that were out of regular support. But a
+            older <Link href="/tech/10x-developers">operating systems</Link> that were out of regular support. But a
             patch on a website does not magically teleport into every
             unmaintained box in a basement. The organizations that got hit
             hardest were the ones with old images that never got updates, or

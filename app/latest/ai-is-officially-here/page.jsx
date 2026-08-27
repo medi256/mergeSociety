@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // <-- Replace with your Open Graph image URL
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // <-- Replace with your Open Graph image URL
         width: 1200,
         height: 630,
         alt: "How Smart Developers Use AI - Merge Society",
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "A developer-first guide on how to use AI tools like Windsurf for faster coding, deeper learning, and productivity boosts—without losing your skills.",
     images: [
-      "https://img.mergesociety.com/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // same as Open Graph
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg", // same as Open Graph
     ],
   },
 };
@@ -112,7 +112,7 @@ export default function Article() {
           efficiency and fun.
         </p>
         <p>
-          Each week, there’s a new AI startup, a new large language model
+          Each week, there’s a new AI startup, a new <Link href="/ai/grok4">large language model</Link>
           release, or a new CEO boldly proclaiming “programming is dead.”
           Meanwhile, indie hackers and influencers are chanting phrases like,
           “Vibe coding is the future.” Seriously, you can’t even make a quick
@@ -339,7 +339,7 @@ export default function Article() {
           expertise.
         </p>
         <p>
-          AI coding tools aren’t going to instantly transform anyone into a
+          <Link href="/code-report/how-to-code-a-projects">AI coding tools</Link> aren’t going to instantly transform anyone into a
           legendary “10x engineer.” But if they can make you 5% faster without
           eroding your abilities, why not give them a shot? Great developers
           adapt to new tools and technologies—they don’t fear them. What matters
@@ -353,7 +353,7 @@ export default function Article() {
           Perfect for getting your feet wet (or taking a deep dive).
         </p>
         <p>
-          And lastly—if you want smarter programming tips and real-world tactics
+          And lastly—if you want smarter <Link href="/code-report/how-to-build-projects">programming tips</Link> and real-world tactics
           (plus, apparently, love songs about sloths), subscribe to my free
           newsletter, <strong>Sloth Bites</strong>. Your new favorite source for
           dev news, tricks, and delightful nerdiness. See you in your inbox!

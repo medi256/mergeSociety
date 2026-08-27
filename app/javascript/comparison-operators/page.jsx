@@ -47,7 +47,7 @@ const JavaScriptOperatorsLesson = () => {
         <section>
           <h1>2. Comparison Operators: Let's Compare Things!</h1>
           <p>
-            Now that we've learned how to do math with arithmetic operators,
+            Now that we've learned how to do math with <Link href="/javascript/arithmetic-operators">arithmetic operators</Link>,
             let's explore comparison operators. These are like the judges in a
             contest - they help us compare values and decide if something is
             equal, greater than, or less than something else.

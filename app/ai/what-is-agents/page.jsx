@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
         width: 1200,
         height: 630,
         alt: "AI agents orchestrating tools and systems autonomously in 2025",
@@ -67,7 +67,7 @@ export const metadata = {
       "The explosive shift from monolithic AI to compound systems is here. See how AI agents now reason, act, and remember to solve complex problems.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     ],
   },
 
@@ -126,7 +126,7 @@ export const jsonLd = {
     "AI Agents 2025: The Explosive Shift From Static Models to Compound Systems (And Why Everyone's Getting It Wrong)",
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
     width: 1200,
     height: 630,
   },
@@ -394,7 +394,7 @@ export default function Article() {
         </h2>
         <p>
           Ready for the punchline? Instead of writing every rule by hand, you
-          can put your large language model (LLM) in charge of{" "}
+          can put your <Link href="/ai/grok4">large language model</Link> (LLM) in charge of{" "}
           <em>planning and execution</em>. Here’s where things go nuclear:
           Modern LLMs aren’t just text-completers anymore. They’re reasoners,
           planners — and soon, full-blown autonomous agents.
@@ -519,7 +519,7 @@ export default function Article() {
           Here’s what’s next-level: As agentic AIs get even more reasoning
           power, the magic comes from{" "}
           <strong>
-            combining system design with flexible, autonomous logic
+            combining <Link href="/latest/github-repositories">system design</Link> with flexible, autonomous logic
           </strong>
           . And while human oversight is still key (accuracy matters, after
           all), the speed and versatility already outpace every old-school

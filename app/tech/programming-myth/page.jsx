@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
         width: 1200,
         height: 630,
         alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
@@ -95,7 +95,7 @@ export const metadata = {
       "Stop chasing the latest frameworks and obsessing over perfect code. Learn which development practices actually matter for shipping great software.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     headline:
       "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
     image:
-      "https://img.mergesociety.com/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: "2025-05-08T09:00:00Z",
     author: {
@@ -756,7 +756,7 @@ export default function Article() {
           </p>
           <h3>How can I build a timeless programming foundation?</h3>
           <p>
-            Focus on critical thinking, math, and true computer science
+            Focus on <Link href="/ai/is-ai-making-us-dumb">critical thinking</Link>, math, and true computer science
             principles—the stuff that won’t be replaced by next year’s
             framework.
           </p>

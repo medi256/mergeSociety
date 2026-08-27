@@ -31,7 +31,7 @@ const CSSSelectors = () => {
           like powerful tools that allow you to target and style specific HTML
           elements on your web page. Think of selectors as patterns that help
           you identify and select elements for styling. In this section, we'll
-          explore the most commonly used CSS selectors and how they work. Let's
+          explore the most commonly used <Link href="/css/css-attribute-selectors">CSS selectors</Link> and how they work. Let's
           get started!
         </p>
 

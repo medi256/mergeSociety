@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
         width: 1200,
         height: 630,
         alt: "WebSocket vs Polling vs Long Polling Communication Patterns Comparison",
@@ -79,7 +79,7 @@ export const metadata = {
       "Complete comparison of WebSockets, polling & long polling. Learn when to use each for chat apps, trading platforms & real-time dashboards.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
     ],
   },
 
@@ -142,7 +142,7 @@ export const metadata = {
         "Comprehensive comparison of WebSockets, polling, and long polling techniques for building real-time web applications, with performance analysis and implementation examples.",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
         width: 1200,
         height: 630,
         caption:
@@ -198,7 +198,7 @@ export const metadata = {
       description:
         "Step-by-step guide to selecting the right real-time communication method for your web application",
       image:
-        "https://img.mergesociety.com/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
       totalTime: "PT15M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -650,7 +650,7 @@ export default function Article() {
             </p>
             <h3>Is WebSocket always faster than polling?</h3>
             <p>
-              Yes, for continuous, real-time updates. But if you only need rare
+              Yes, for continuous, <Link href="/javascript/bom-applications">real-time updates</Link>. But if you only need rare
               or periodic data, polling or even straight HTTP is less
               resource-intensive.
             </p>

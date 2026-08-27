@@ -44,7 +44,7 @@ const PageStructure = () => {
         <h2>Folder and File Structure of a React Project</h2>
         <p>
           Here’s what the typical project structure looks like right after you
-          run the <strong>Create React App </strong> command:
+          run the <strong><Link href="/react/create-react-app">Create React App</Link> </strong> command:
         </p>
 
         <pre>
@@ -94,7 +94,7 @@ my-first-react-app/
         <p>
           It might seem big and full of files, but that’s because there are a
           lot of tools React relies on to work smoothly. Whenever you install a
-          new package (like React Router, for example), it gets added to this
+          new package (like <Link href="/react/navigating-pages">React Router</Link>, for example), it gets added to this
           folder.
         </p>
 

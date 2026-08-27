@@ -24,7 +24,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
         width: 1200,
         height: 630,
         alt: "Nvidia Headquarters",
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Explore the latest chapter in Nvidia's story: new AI milestones, revenue stats, and more.",
     images: [
-      "https://img.mergesociety.com/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
     ],
   },
 };
@@ -193,7 +193,7 @@ export default function Article() {
           <p>
             Within 4 months, they sold a million units (the previous chip barely
             cracked a thousand). On the edge of extinction, they pulled off one
-            of the most audacious pivots in tech history.
+            of the most audacious pivots in <Link href="/latest/friendship-that-saved-google">tech history</Link>.
           </p>
         </section>
         <blockquote>

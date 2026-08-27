@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
         width: 600,
         height: 400,
         alt: "How to get good at coding - Complete learning roadmap",
@@ -44,7 +44,7 @@ export const metadata = {
     description:
       "Complete guide to learning programming from zero to building real projects and passing interviews.",
     images: [
-      "https://img.mergesociety.com/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
     ],
   },
 
@@ -203,7 +203,7 @@ export default function LearnToCodeArticle() {
             If you have no budget and want to pace yourself slowly, I recommend
             Roadmap.sh. Open your browser, Google coding roadmap, and you will
             see it at the top. Pick your role: frontend, backend, full stack,
-            cybersecurity, or more niche paths like system design, API design,
+            cybersecurity, or more niche paths like <Link href="/latest/github-repositories">system design</Link>, API design,
             and AWS. Each role gives you a clear map, with topics highlighted in
             yellow that say start here. It is simple, not fancy, and it is
             exactly what you need on day one.
@@ -522,7 +522,7 @@ export default function LearnToCodeArticle() {
             Here is why it exists. Companies have 30 to 50 minutes to figure out
             if you can think through problems, write code that runs, and
             communicate under time pressure. They cannot watch you build a whole
-            product in that window. So they use data structures and algorithms
+            product in that window. So they use <Link href="/latest/data-structures-explained">data structures and algorithms</Link>
             as a shared language. If you can navigate a set of classic patterns,
             they assume you can learn the rest on the job.
           </p>
@@ -724,7 +724,7 @@ export default function LearnToCodeArticle() {
 
         <footer>
           <p>
-            Keywords: learn to code, coding roadmap, beginner coding projects,
+            Keywords: learn to code, coding roadmap, <Link href="/projects/htmlP/1p">beginner coding projects</Link>,
             Python for beginners, LeetCode preparation, AI for coding.
           </p>
         </footer>

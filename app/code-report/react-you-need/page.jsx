@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
         width: 1200,
         height: 630,
         alt: "JavaScript Concepts for React - Visual diagram showing the 10 essential concepts",
@@ -94,7 +94,7 @@ export const metadata = {
       "Master the 10 crucial JavaScript concepts before learning React. Updated for 2025 with React 19 compatibility.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     ],
   },
   robots: {
@@ -146,7 +146,7 @@ export const metadata = {
     headline:
       "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
     image:
-      "https://img.mergesociety.com/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: {
@@ -790,7 +790,7 @@ export default function Article() {
           </h2>
           <p>
             Here’s what’s crazy: React’s magic rendering of lists, tables, and
-            dynamic content is powered by array methods. Most beginners use{" "}
+            dynamic content is powered by <Link href="/javascript/array-methods">array methods</Link>. Most beginners use{" "}
             <code>map</code> like a hammer, but can’t do anything else.
           </p>
           <p>
@@ -970,7 +970,7 @@ export default function Article() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Merge Society’s JavaScript Simplified course table of contents
+              <Link href="/code-report/is-it-still-worth-learning-to-code">Merge Society</Link>’s JavaScript Simplified course table of contents
             </a>
             —the checklist pros use to crush React.
           </p>
@@ -997,7 +997,7 @@ export default function Article() {
           <h3>What JavaScript should I know before learning React?</h3>
           <p>
             You need to have a strong foundation in ES6+ features (like
-            destructuring, classes, arrow functions, and modules), array methods
+            destructuring, classes, arrow functions, and modules), <Link href="/javascript/arrays">array methods</Link>
             (<code>map</code>, <code>filter</code>, <code>reduce</code>),
             asynchronous programming with promises and <code>async/await</code>,
             and deep understanding of scoping, closures, and the difference

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/mergesociety/programmer_mindset.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
         width: 800,
         height: 600,
         alt: "Learning to code mindset - practice over theory, tutorial hell escape, build projects, embrace discomfort",
@@ -96,7 +96,7 @@ export const metadata = {
       "10,000 lines not hours. Drop ego, build simple first, get comfortable not knowing. Ship micro projects, escape tutorial loop, learn through reps.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/mergesociety/programmer_mindset.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
     ],
   },
 
@@ -347,7 +347,7 @@ export const metadata = {
         "Practice Over Theory: 10,000 Lines Not Hours, Escape Tutorial Hell, Build Projects",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/mergesociety/programmer_mindset.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
         width: 800,
         height: 600,
         caption: "Learning to code mindset transformation",
@@ -620,7 +620,7 @@ const Mindset = () => {
             writing code, finish humble projects that teach fundamentals, learn
             to love the uneasy feeling of not knowing yet, and use languages and
             concepts as tools you grow with over time. That shift alone speeds
-            up your progress, keeps you out of tutorial hell, and makes you job
+            up your progress, keeps you out of <Link href="/code-report/tutorial-hell">tutorial hell</Link>, and makes you job
             ready. Hiring managers care that you can build, learn fast, and keep
             improving - not that you memorized a language spec.
           </strong>
@@ -1022,7 +1022,7 @@ const Mindset = () => {
             If your domain is front end, demonstrate comfort with HTML
             semantics, CSS layout systems like flexbox and grid, and at least
             one framework’s mental model. If it’s backend, show you can design a
-            simple API, handle errors, and talk about data modeling choices.
+            simple API, handle errors, and talk about <Link href="/code-report/what-is-a-database">data modeling</Link> choices.
           </p>
           <p>
             None of that requires mastery. It requires reps. It requires showing
@@ -1066,7 +1066,7 @@ const Mindset = () => {
           </p>
           <p>
             And if this post gets 10 likes, I’ll share a step by step plan to
-            escape tutorial hell and map out a week by week path to those 10,000
+            <Link href="/code-report/how-to-build-projects">escape tutorial hell</Link> and map out a week by week path to those 10,000
             better lines. Until then, keep building. Your future self will thank
             you.
           </p>
