@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/app/button";
 
 import SyntaxHighlighter from "react-syntax-highlighter";

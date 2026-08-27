@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/app/button";
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
