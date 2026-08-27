@@ -77,7 +77,9 @@ export const metadata = {
     description:
       "Understanding AI agents through a simple 3-level approach: from chatbots to workflows to autonomous systems, explained for everyday users.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MCP_tyhw2b_umtclp.jpg"],
+    images: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MCP_tyhw2b_umtclp.jpg",
+    ],
   },
   metadataBase: new URL("https://mergesociety.com"),
   robots: {
@@ -114,7 +116,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MCP_tyhw2b_umtclp.jpg",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MCP_tyhw2b_umtclp.jpg",
     datePublished: "2025-04-25T08:00:00Z",
     dateModified: "2025-04-25T08:00:00Z",
     author: {
@@ -195,7 +198,7 @@ export const metadata = {
     pageType: "Tutorial",
     contentPillar: "AI Fundamentals",
     contentCluster: "AI Agents",
-    expectedReadTime: 480, // in seconds
+    expectedReadTime: 480,
     wordCount: 1350,
   },
 };
