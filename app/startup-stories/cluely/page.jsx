@@ -706,10 +706,98 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "SoftwareApplication",
+      name: "Cluely AI",
+      applicationCategory: "Sales Enablement Software",
+      operatingSystem: "Desktop App (Windows, macOS)",
+      offers: {
+        "@type": "Offer",
+        url: "https://cluely.com",
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        ratingCount: "200",
+        bestRating: "5",
+      },
+      creator: {
+        "@type": "Person",
+        name: "Roy",
+        description:
+          "Founder who got kicked out of Columbia for building Interview Coder, raised $5.3M seed",
+      },
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: "5",
+      bestRating: "5",
+    },
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    datePublished: "2025-11-02T00:00:00Z",
+    reviewBody:
+      "Cluely AI provides real-time sales assistance during live calls with a translucent overlay interface. Built by Roy (Columbia dropout who created Interview Coder), it delivers instant answers from product docs and Slack, auto-suggests competitive positioning, and turns misses into playbooks. Approaching $5M ARR.",
+    positiveNotes: {
+      "@type": "ItemList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "8-10 second answer delivery during live calls",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Translucent overlay - doesn't interrupt workflow",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Auto-recognizes competitive questions",
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Live discovery nudges when missing pain points",
+        },
+        {
+          "@type": "ListItem",
+          position: 5,
+          name: "Automated playbook creation from patterns",
+        },
+        {
+          "@type": "ListItem",
+          position: 6,
+          name: "Personal coaching track that remembers your tendencies",
+        },
+      ],
+    },
+  };
+
 const Cluely = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           {" "}

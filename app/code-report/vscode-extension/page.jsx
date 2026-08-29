@@ -712,10 +712,101 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://mergesociety.com/code-report/vscode-extension",
+      headline:
+        "21 Best VS Code Extensions I Use Every Day - Prettier, ESLint, GitLens & More",
+      alternativeHeadline:
+        "Essential VS Code Extensions for Developer Productivity in 2025",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
+        width: 600,
+        height: 400,
+        caption: "Best VS Code extensions for productivity",
+      },
+      datePublished: "2025-12-15T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Professional Developer",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Comprehensive guide to 21 essential VS Code extensions tested in real workflow, covering formatting, linting, Git, testing, AI, and productivity tools.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/code-report/vscode-extension",
+      },
+      keywords:
+        "vscode extensions, prettier, eslint, gitlens, developer productivity, code formatting, git tools, testing tools",
+      articleSection: "Developer Tools",
+      articleBody:
+        "Detailed guide to VS Code extensions with real-world usage examples, setup instructions, and workflow integration",
+      about: {
+        "@type": "Thing",
+        name: "VS Code Extensions",
+        description: "Tools that enhance Visual Studio Code functionality",
+      },
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "Prettier",
+          applicationCategory: "Developer Tool",
+          description: "Opinionated code formatter",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "ESLint",
+          applicationCategory: "Developer Tool",
+          description: "JavaScript linting tool",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "GitLens",
+          applicationCategory: "Developer Tool",
+          description: "Git integration enhancement",
+        },
+      ],
+      teaches: [
+        "Setting up Prettier for format-on-save",
+        "Configuring ESLint with Prettier compatibility",
+        "Using Error Lens for inline diagnostics",
+        "Integrating GitLens for Git workflow",
+        "Setting up Jest testing extensions",
+        "Optimizing VS Code UI with themes",
+        "Choosing between free and paid AI tools",
+        "Building integrated extension workflow",
+      ],
+      timeRequired: "PT13M",
+      wordCount: 3600,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const Vscode = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>The Best VS Code Extensions I Actually Use Every Day</h1>

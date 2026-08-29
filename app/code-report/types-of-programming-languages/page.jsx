@@ -531,10 +531,133 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id":
+        "https://mergesociety.com/code-report/types-of-programming-languages",
+      headline:
+        "Types of Programming Languages Explained: Low-Level vs High-Level, Compiler vs Interpreter",
+      alternativeHeadline:
+        "Complete Guide to Programming Language Categories and Execution Models",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        width: 1200,
+        height: 600,
+        caption:
+          "Diagram showing types of programming languages from machine code to high-level",
+      },
+      datePublished: "2025-12-05T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Programming Educator",
+        description:
+          "Technical educator specializing in programming fundamentals",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Educational guide covering all types of programming languages: machine language, assembly language, high-level procedural and object-oriented languages, plus compilation and interpretation processes.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://mergesociety.com/code-report/types-of-programming-languages",
+      },
+      keywords:
+        "programming languages, machine language, assembly language, high level languages, procedural programming, object oriented programming, compiler, interpreter",
+      articleSection: "Programming Education",
+      articleBody:
+        "Comprehensive educational content explaining programming language classifications, from CPU-level machine code through assembly to high-level languages, including execution models.",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Programming Languages",
+          description:
+            "Formal languages designed to communicate instructions to computers",
+        },
+        {
+          "@type": "Thing",
+          name: "Computer Science Fundamentals",
+          description:
+            "Core concepts underlying how computers execute programs",
+        },
+        {
+          "@type": "Thing",
+          name: "Software Development",
+          description: "Practice of creating computer programs",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "Thing",
+          name: "Machine Language",
+          description: "Binary instructions executed directly by CPU",
+        },
+        {
+          "@type": "Thing",
+          name: "Assembly Language",
+          description:
+            "Low-level language using mnemonics for machine instructions",
+        },
+        {
+          "@type": "Thing",
+          name: "Object-Oriented Programming",
+          description: "Programming paradigm based on objects and classes",
+        },
+        {
+          "@type": "Thing",
+          name: "Procedural Programming",
+          description: "Programming paradigm based on procedure calls",
+        },
+      ],
+      teaches: [
+        "Difference between low-level and high-level programming languages",
+        "How machine language and assembly language work",
+        "Procedural vs object-oriented programming paradigms",
+        "How compilers and interpreters translate code",
+        "How source code becomes CPU instructions",
+        "Real-world analogies for programming concepts",
+      ],
+      educationalLevel: "beginner",
+      proficiencyLevel: "Foundational knowledge, no prerequisites",
+      timeRequired: "PT12M",
+      wordCount: 3600,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+        audienceType:
+          "aspiring programmers, computer science students, self-learners",
+      },
+      learningResourceType: "Educational Tutorial",
+      interactivityType: "expositive",
+      educationalUse: "Learning programming fundamentals and language types",
+      typicalAgeRange: "16-99",
+    };
+
 const TypesProgramming = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

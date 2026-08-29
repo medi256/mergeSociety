@@ -176,10 +176,82 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline:
+      "LinkedIn's Cringe Paradox: Why the World's Top Career Platform Is So Weird—and Here to Stay",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/link-in_vsxalr_skvenq.jpg",
+    datePublished: "2025-04-25T10:30:00Z",
+    dateModified: "2025-04-25T10:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/logo.png",
+      },
+    },
+    description:
+      "An exploration of LinkedIn's unique culture, viral content patterns, and why despite its often cringeworthy posts, the platform remains indispensable for professionals and businesses alike.",
+    articleBody:
+      "In a digital world brimming with platforms designed for self-expression and algorithmic validation, LinkedIn stands alone—awkwardly, unmistakably unique...",
+    keywords:
+      "LinkedIn, professional networking, social media culture, thought leadership, content creation, career development, viral content, business networking",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/link-in",
+    },
+    mentions: [
+      {
+        "@type": "Person",
+        name: "Rachel Carden",
+      },
+      {
+        "@type": "Person",
+        name: "Julie Livingston",
+      },
+      {
+        "@type": "Person",
+        name: "Jack Raines",
+      },
+      {
+        "@type": "Person",
+        name: "Adam Grant",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Social Media",
+      },
+      {
+        "@type": "Thing",
+        name: "Professional Networking",
+      },
+      {
+        "@type": "Thing",
+        name: "Digital Culture",
+      },
+    ],
+    isAccessibleForFree: true,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           LinkedIn’s Cringe Paradox: Why the World’s Top Career Platform Is So

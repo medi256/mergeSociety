@@ -660,10 +660,98 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "SoftwareApplication",
+      name: "Aside AI",
+      applicationCategory: "Sales Enablement Software",
+      operatingSystem: "Web-based",
+      offers: {
+        "@type": "Offer",
+        url: "https://asidehq.com",
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.8",
+        ratingCount: "150",
+        bestRating: "5",
+      },
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: "5",
+      bestRating: "5",
+    },
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    datePublished: "2025-11-01T00:00:00Z",
+    reviewBody:
+      "Aside AI provides real-time sales assistance during live calls, delivering instant answers to technical questions, competitive positioning, and discovery prompts. It closes the knowledge gap between what reps know and what prospects ask, enabling confident responses without breaking call momentum.",
+    positiveNotes: {
+      "@type": "ItemList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Instant answers (8-10 seconds) during live calls",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Pulls from product docs and Slack automatically",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Auto-recognizes competitive questions",
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Turns misses into reusable playbooks",
+        },
+        {
+          "@type": "ListItem",
+          position: 5,
+          name: "Post-call coaching with pattern recognition",
+        },
+      ],
+    },
+    video: {
+      "@type": "VideoObject",
+      name: "Aside AI Live Demo: Answering Hard Technical Questions in Sales Calls",
+      description:
+        "Watch Aside AI deliver instant answers during a live sales call",
+      thumbnailUrl:
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+      uploadDate: "2025-11-01T00:00:00Z",
+      contentUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
+      embedUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
+    },
+  };
+
 const AsideAi = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time

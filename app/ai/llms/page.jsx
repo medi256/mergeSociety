@@ -256,10 +256,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
+    datePublished: "2025-04-26T13:00:00Z",
+    dateModified: "2025-04-26T13:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "AI Explainer",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover how large language models work by predicting one word at a time, the massive scale of their training data, and the revolutionary Transformer architecture that made modern AI assistants possible.",
+    articleBody:
+      "Imagine stumbling upon a movie script, the kind that builds a world with nothing but words. But this script is missing something critical: the AI assistant's response...",
+    keywords:
+      "large language models, LLMs, transformer architecture, attention mechanism, AI training, GPT, deep learning",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/llms",
+    },
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "GPT-3",
+      },
+      {
+        "@type": "Thing",
+        name: "Transformer",
+      },
+      {
+        "@type": "Thing",
+        name: "Attention mechanism",
+      },
+      {
+        "@type": "Thing",
+        name: "Backpropagation",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Natural Language Processing",
+      },
+      {
+        "@type": "Thing",
+        name: "Machine Learning",
+      },
+    ],
+    educationalLevel: "Beginner to Intermediate",
+    isAccessibleForFree: true,
+    learningResourceType: "Explainer",
+    teaches: "How large language models work and predict text",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Inside the Magic of Large Language Models: How AI Autocompletes Human

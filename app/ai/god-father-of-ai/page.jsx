@@ -320,10 +320,65 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: "AI Revolution: From Neural Networks to Global Impacts",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+    description:
+      "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
+    provider: {
+      "@type": "Organization",
+      name: "TechLearning Academy",
+      sameAs: "https://mergesociety.com",
+    },
+    datePublished: "2025-04-27T09:00:00Z",
+    dateModified: "2025-04-27T09:00:00Z",
+    inLanguage: "en-US",
+    offers: {
+      "@type": "Offer",
+      price: "149.00",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      validFrom: "2025-04-27",
+    },
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      duration: "P5W",
+      startDate: "2025-05-01",
+      endDate: "2025-06-05",
+    },
+    learningResourceType: "Interactive Module",
+    educationalLevel: "Intermediate",
+    teaches: "Artificial Intelligence, Neural Networks, AI Ethics and Safety",
+    competencyRequired: "Basic knowledge of computer science concepts",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Neural Networks",
+      },
+      {
+        "@type": "Person",
+        name: "Geoffrey Hinton",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural

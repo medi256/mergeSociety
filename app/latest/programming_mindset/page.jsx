@@ -582,10 +582,77 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://mergesociety.com/latest/programming_mindset",
+      headline: "Mindset Changes That Transformed My Learning To Code",
+      alternativeHeadline:
+        "Practice Over Theory: 10,000 Lines Not Hours, Escape Tutorial Hell, Build Projects",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
+        width: 800,
+        height: 600,
+        caption: "Learning to code mindset transformation",
+      },
+      datePublished: "2025-12-18T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Programming Educator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Personal experience and actionable advice on transforming programming learning mindset: practice over theory, escaping tutorial hell, managing ego, embracing discomfort, building projects over seeking mastery.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/latest/programming_mindset",
+      },
+      keywords:
+        "learning to code, tutorial hell, programming mindset, practice over theory, beginner programmer, self-taught developer",
+      articleSection: "Programming Education",
+      about: {
+        "@type": "Thing",
+        name: "Learning to Code Mindset",
+        description:
+          "Mental frameworks and approaches for effective programming education",
+      },
+      teaches: [
+        "Shifting from consumption to production in learning",
+        "Escaping tutorial hell with project-based practice",
+        "Managing ego to build fundamental skills",
+        "Embracing discomfort as growth signal",
+        "Understanding mastery as journey not destination",
+        "Building hireable junior developer portfolios",
+      ],
+      timeRequired: "PT13M",
+      wordCount: 3600,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const Mindset = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>Mindset Changes That Transformed My Learning To Code</h1>

@@ -392,10 +392,92 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+    datePublished: "2025-04-27T10:30:00Z",
+    dateModified: "2025-04-27T10:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Rivera",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "IndieHacker Dev",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the most effective tech stacks and frameworks for solo developers building SaaS products, with insights on Laravel, Next.js, Django, and the often-overlooked AdonisJS.",
+    keywords:
+      "SaaS frameworks, Laravel, Next.js, Django, AdonisJS, solo developer",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/best-framework",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Web Application Frameworks",
+      },
+      {
+        "@type": "Thing",
+        name: "SaaS Development",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Laravel",
+        applicationCategory: "Web Development Framework",
+        operatingSystem: "Cross-platform",
+        programmingLanguage: "PHP",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Next.js",
+        applicationCategory: "Web Development Framework",
+        operatingSystem: "Cross-platform",
+        programmingLanguage: "JavaScript",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Django",
+        applicationCategory: "Web Development Framework",
+        operatingSystem: "Cross-platform",
+        programmingLanguage: "Python",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "AdonisJS",
+        applicationCategory: "Web Development Framework",
+        operatingSystem: "Cross-platform",
+        programmingLanguage: "JavaScript",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Best Frameworks for Solo SaaS Builders: Navigating Laravel,

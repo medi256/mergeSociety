@@ -509,10 +509,71 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "APIs Explained: Understanding the Backbone of Modern Software (2025)",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.jpg",
+    datePublished: "2025-05-07T12:00:00Z",
+    dateModified: "2025-05-07T12:00:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Merge Society Technical Team",
+      url: "https://mergesociety.com/about",
+      description: "Expert software engineers and technical educators",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn what APIs really are, how they work, and why they're essential in today's connected world. Perfect for beginners, job seekers, and tech professionals in just 4 minutes.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/apis-explained",
+    },
+    keywords:
+      "API explained, what is an API, API for beginners, API examples, how APIs work",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Application Programming Interface",
+      },
+      {
+        "@type": "Thing",
+        name: "Web Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Integration",
+      },
+      {
+        "@type": "Thing",
+        name: "HTTP Communication",
+      },
+    ],
+    proficiencyLevel: "Beginner",
+    accessMode: "textual",
+    accessibilityFeature: ["alternativeText", "tableOfContents"],
+    accessibilityHazard: "none",
+    educationalUse: "instruction",
+    inLanguage: "en-US",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           API Basics Explained: Why APIs Are the Secret Language Powering Every

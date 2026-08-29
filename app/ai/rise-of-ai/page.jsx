@@ -349,10 +349,86 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+    datePublished: "2025-04-26T15:30:00Z",
+    dateModified: "2025-04-26T15:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Future Technologist",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the fascinating journey of AI development from simple rule-based systems to speculative godlike intelligence, understanding each stage's capabilities and implications for humanity's future.",
+    articleBody:
+      "Imagine a world where your alarm clock goes off exactly when you want, your virtual assistant knows what you need before you ask, and somewhere out there, an artificial intelligence is pondering the very mysteries of the universe...",
+    keywords:
+      "AI evolution, AGI, superintelligence, machine consciousness, cosmic AI, future technology",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/rise-of-ai",
+    },
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial General Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Sam Altman",
+      },
+      {
+        "@type": "Thing",
+        name: "Neuralink",
+      },
+      {
+        "@type": "Thing",
+        name: "Machine Consciousness",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Future Technology",
+      },
+      {
+        "@type": "Thing",
+        name: "Technological Singularity",
+      },
+    ],
+    educationalLevel: "Beginner to Advanced",
+    isAccessibleForFree: true,
+    learningResourceType: "Explainer",
+    teaches:
+      "The evolutionary stages of artificial intelligence from past to future",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Evolution of Artificial Intelligence: From Rules to Cosmic

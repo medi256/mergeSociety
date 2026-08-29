@@ -576,10 +576,81 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Best Programming Language for Each Job in 2025: A Comprehensive Beginner's Guide",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+    datePublished: "2025-05-16T08:00:00Z",
+    dateModified: "2025-05-16T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Developer & Programming Educator",
+      description:
+        "Technology educator specializing in programming language selection and career path optimization",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover which programming languages to learn for your dream tech career in 2025. From game development to AI, web development to blockchain - find your perfect language match.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id":
+        "https://mergesociety.com/latest/best-programming-language-for-each-job",
+    },
+    keywords:
+      "programming languages, coding careers, software development, game development, web development, AI programming, blockchain development",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Programming Languages",
+      },
+      {
+        "@type": "Thing",
+        name: "Tech Careers",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Career Planning",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Programming Education",
+    wordCount: 2900,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         {/* H1: Main Keyword at the Beginning */}
         <h1>

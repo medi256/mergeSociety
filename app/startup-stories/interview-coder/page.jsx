@@ -570,10 +570,82 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline:
+      "The Tool Killing LeetCode: How AI Is Breaking FAANG Interviews in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_xzyj97_tolqz5.png",
+    datePublished: "2025-10-29T00:00:00Z",
+    dateModified: "2025-10-29T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Software Engineer & Tech Career Content Creator",
+      description:
+        "Known as Coding Jesus, creator of viral tech career content",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Interview Coder lets candidates cheat live coding interviews in real-time using AI. Investigation reveals how Amazon, Meta recruiters are responding and why the LeetCode era might be ending.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/interview-coder",
+    },
+    keywords:
+      "interview coder, leetcode cheating, FAANG interviews, AI coding assistant, tech recruiting crisis",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Interview Coder",
+      },
+      {
+        "@type": "Thing",
+        name: "LeetCode",
+      },
+      {
+        "@type": "Thing",
+        name: "FAANG Interviews",
+      },
+      {
+        "@type": "Thing",
+        name: "AI in Interviews",
+      },
+    ],
+    isAccessibleForFree: "True",
+    articleSection: "Tech Industry Investigation",
+    wordCount: 3200,
+    video: {
+      "@type": "VideoObject",
+      name: "Landing a $200k/yr SWE job at Amazon using Interview Coder",
+      description:
+        "Unedited footage showing Interview Coder being used in real FAANG interviews",
+      thumbnailUrl:
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_xzyj97_tolqz5.png",
+      uploadDate: "2025-10-29T00:00:00Z",
+      contentUrl: "https://www.youtube-nocookie.com/embed/CV4XsX2aks4",
+      embedUrl: "https://www.youtube-nocookie.com/embed/CV4XsX2aks4",
+    },
+  };
+
 const InterviewCoder = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           F**K LeetCode: The Tool That’s Killing LeetCode: How People Are Now

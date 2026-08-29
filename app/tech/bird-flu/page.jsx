@@ -437,10 +437,83 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline:
+      "Bird Flu Crisis: How H5N1's Unprecedented Jump to Cattle and Humans Threatens a New Pandemic",
+    image: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehdi-sepehri-cX0Yxw38cx8-unsplash_szmfpc_iw22ix.jpg",
+    ],
+    datePublished: "2025-04-30T09:00:00Z",
+    dateModified: "2025-04-30T11:30:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Dr. Sarah Martinez",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Medical Correspondent",
+      },
+      {
+        "@type": "Person",
+        name: "James Wilson",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Investigative Reporter",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Health Intelligence",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Exclusive investigation reveals how H5N1 bird flu has jumped from birds to dairy cattle and humans, with 70 Americans infected and growing pandemic concerns as government response lags behind the rapidly evolving threat.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/bird-flu",
+    },
+    keywords:
+      "H5N1 bird flu, pandemic threat, cattle infection, public health crisis",
+    articleSection: "Public Health",
+    about: [
+      {
+        "@type": "Thing",
+        name: "H5N1 Avian Influenza",
+        sameAs: "https://www.cdc.gov/flu/avianflu/",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Centers for Disease Control and Prevention",
+        sameAs: "https://www.cdc.gov/",
+      },
+      {
+        "@type": "Organization",
+        name: "U.S. Department of Agriculture",
+        sameAs: "https://www.usda.gov/",
+      },
+      {
+        "@type": "Organization",
+        name: "World Health Organization",
+        sameAs: "https://www.who.int/",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Bird Flu’s Shocking Spread: How H5N1 Is Upending America’s Farms—and

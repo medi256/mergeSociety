@@ -369,10 +369,99 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Interview",
+    headline:
+      "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunity",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv_fn8ksz.jpg",
+    datePublished: "2025-04-27T11:00:00Z",
+    dateModified: "2025-04-27T11:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Priya Sharma",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Innovation Insights",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Microsoft CEO Satya Nadella discusses the revolutionary shift from SaaS to AI agents, explaining how intelligent agents operating across multiple platforms are creating new workflows and opportunities in business and science.",
+    keywords:
+      "Satya Nadella, Microsoft, AI agents, SaaS evolution, Copilot, enterprise AI",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/satya",
+    },
+    interviewee: {
+      "@type": "Person",
+      name: "Satya Nadella",
+      jobTitle: "Chief Executive Officer",
+      worksFor: {
+        "@type": "Organization",
+        name: "Microsoft Corporation",
+        url: "https://www.microsoft.com",
+      },
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence in Business",
+      },
+      {
+        "@type": "Thing",
+        name: "Software as a Service Evolution",
+      },
+      {
+        "@type": "Organization",
+        name: "Microsoft",
+        sameAs: "https://www.microsoft.com",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Copilot",
+      },
+      {
+        "@type": "Thing",
+        name: "Dynamics CRM",
+      },
+      {
+        "@type": "Thing",
+        name: "SharePoint",
+      },
+      {
+        "@type": "Thing",
+        name: "Quantum Computing",
+      },
+      {
+        "@type": "Country",
+        name: "India",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping

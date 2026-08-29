@@ -566,10 +566,74 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/palantir_vii89x_zvzatj.jpg",
+    datePublished: "2025-04-26T10:15:00Z",
+    dateModified: "2025-04-26T10:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Morgan Reynolds",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Technology & Defense Industry Analyst",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore how Palantir Technologies has transformed from a secretive data analytics company into a defense industry giant, connecting Silicon Valley innovation with government contracts and changing the future of warfare technology.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/palantir",
+    },
+    keywords:
+      "Palantir, defense technology, Silicon Valley, data analytics, government contracts, Peter Thiel, Alex Karp",
+    articleSection: "Technology Analysis",
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Palantir Technologies",
+        url: "https://www.palantir.com",
+      },
+      {
+        "@type": "Person",
+        name: "Peter Thiel",
+        jobTitle: "Co-founder",
+      },
+      {
+        "@type": "Person",
+        name: "Alex Karp",
+        jobTitle: "CEO",
+      },
+      {
+        "@type": "Organization",
+        name: "Department of Defense",
+      },
+      {
+        "@type": "Organization",
+        name: "Immigration and Customs Enforcement",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech,

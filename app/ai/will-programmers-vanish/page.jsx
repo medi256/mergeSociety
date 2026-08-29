@@ -522,10 +522,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Will AI Replace Programmers? A Veteran Engineer on the Future of Software Jobs",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming-jobs_xlchqy_x6fx4p.jpg",
+    datePublished: "2025-04-26T14:00:00Z",
+    dateModified: "2025-04-26T14:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Dave Plummer",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Former Microsoft Engineer",
+      description:
+        "Software engineer with 40+ years experience, known for work on MS-DOS and Windows 95",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Elevation Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.techelevation.com/TE-logo.png",
+      },
+    },
+    description:
+      "Dave Plummer, a 40-year software veteran from MS-DOS to Windows 95, shares insights on which programming jobs are at risk from AI and which will thrive, including strategies for staying relevant in an AI-driven future.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/will-programmers-vanish",
+    },
+    keywords:
+      "AI programming impact, software engineering future, Dave Plummer, programming careers, AI code generation",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Windows 95",
+        operatingSystem: "Windows",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "MS-DOS",
+        operatingSystem: "DOS",
+      },
+      {
+        "@type": "Thing",
+        name: "ChatGPT",
+      },
+      {
+        "@type": "Organization",
+        name: "Microsoft",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Software Engineering",
+      },
+      {
+        "@type": "Thing",
+        name: "Career Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Will AI Replace Programmers? A Veteran Engineer on the Future of

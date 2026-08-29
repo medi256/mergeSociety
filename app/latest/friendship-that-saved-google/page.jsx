@@ -112,10 +112,41 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+    datePublished: "2025-04-26T09:00:00Z",
+    dateModified: "2025-04-26T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover how Sanjay Ghemawat and Jeff Dean's remarkable partnership rescued Google from a critical failure in 2000 and revolutionized internet infrastructure with MapReduce, BigTable, and GFS.",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Unsung Friendship That Saved Google—and Invented the Modern

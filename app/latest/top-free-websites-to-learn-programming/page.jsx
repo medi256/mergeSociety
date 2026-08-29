@@ -625,10 +625,143 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id":
+        "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
+      headline: "10 Best Websites To Learn Coding For Free in 2026",
+      alternativeHeadline:
+        "Free Programming Platforms That Actually Work Without Paywalls",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+        width: 600,
+        height: 400,
+        caption: "Top free coding learning websites comparison",
+      },
+      datePublished: "2025-12-06T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Tech Educator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Detailed review of 10 best free coding websites including SoloLearn, freeCodeCamp, W3Schools, Programiz, and more. Includes honest paywall warnings, quick-start guides, and platform comparisons.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://mergesociety.com/latest/top-free-websites-to-learn-programming",
+      },
+      keywords:
+        "free coding websites, learn programming free, codecademy alternative, freecodecamp, sololearn, coding for beginners",
+      articleSection: "Programming Education",
+      articleBody:
+        "Comprehensive platform reviews with cost transparency, feature comparisons, and practical learning strategies",
+      about: {
+        "@type": "Thing",
+        name: "Free Programming Education",
+        description:
+          "No-cost platforms for learning software development skills",
+      },
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "SoloLearn",
+          applicationCategory: "Educational Software",
+          operatingSystem: "Web, iOS, Android",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+          },
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "freeCodeCamp",
+          applicationCategory: "Educational Software",
+          operatingSystem: "Web",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+          },
+        },
+      ],
+      review: [
+        {
+          "@type": "Review",
+          itemReviewed: {
+            "@type": "SoftwareApplication",
+            name: "SoloLearn",
+          },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          author: {
+            "@type": "Person",
+            name: "Massa Medi",
+          },
+          reviewBody:
+            "Far superior free alternative to Codecademy with 100% free courses, mobile apps, and active community support",
+        },
+        {
+          "@type": "Review",
+          itemReviewed: {
+            "@type": "SoftwareApplication",
+            name: "freeCodeCamp",
+          },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          author: {
+            "@type": "Person",
+            name: "Massa Medi",
+          },
+          reviewBody:
+            "Completely free nonprofit with project-based learning and verified certifications you can showcase",
+        },
+      ],
+      teaches: [
+        "How to choose the right free coding platform",
+        "Which platforms have hidden paywalls",
+        "Setting up effective daily practice routines",
+        "Building portfolio projects while learning",
+        "Using community resources effectively",
+      ],
+      educationalLevel: "beginner",
+      timeRequired: "PT14M",
+      wordCount: 3800,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const Websites = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>10 Best Websites To Learn How To Code For Free</h1>

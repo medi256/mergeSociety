@@ -492,10 +492,68 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Google Gemini 2.5 Pro Takes #1 Spot: The New King of Coding AI ",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+    datePublished: "2025-05-08T08:00:00Z",
+    dateModified: "2025-05-08T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior AI Technology Analyst",
+      description:
+        "Developer Advocate specializing in AI-assisted development workflows and LLM evaluation",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Google's Gemini 2.5 Pro has officially claimed the top position in all AI coding benchmarks. Learn about this breakthrough, OpenAI's corporate restructuring, and what these developments mean for developers .",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/google-coding-ai",
+    },
+    keywords:
+      "Google Gemini 2.5 Pro, AI coding model, OpenAI, benchmark results, developer tools",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Google Gemini",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Coding Models",
+      },
+      {
+        "@type": "Thing",
+        name: "Developer Tools",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Professional Development",
+    proficiencyLevel: "Intermediate",
+    articleSection: "AI Development",
+    wordCount: 1500,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Google Gemini 2.5, Gemini AI Ultra, and the End of Web Design: 11

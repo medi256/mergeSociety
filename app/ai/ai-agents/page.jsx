@@ -203,10 +203,79 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "AI Agents Demystified: The Step-by-Step Guide for Non-Techies Using Real Life Examples",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MCP_tyhw2b_umtclp.jpg",
+    datePublished: "2025-04-25T08:00:00Z",
+    dateModified: "2025-04-25T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "A straightforward explanation of AI agents for non-technical professionals, breaking down the journey from basic chatbots to complex AI workflows and autonomous agents through practical, real-world examples.",
+    articleBody:
+      "AI, AI AI AI AI, AI. There's a lot of noise out there—'agentic this,' 'AI agent that,' and workflows that sound straight out of a sci-fi novel...",
+    keywords:
+      "AI agents, LLM workflows, RAG, AI automation, non-technical AI guide, practical AI applications",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/ai-agents",
+    },
+    mentions: [
+      {
+        "@type": "Person",
+        name: "Andrew Ng",
+      },
+      {
+        "@type": "Person",
+        name: "Helena Liu",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Language Models",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Automation",
+      },
+    ],
+    educationalLevel: "Beginner",
+    proficiencyLevel: "Beginner",
+    isAccessibleForFree: true,
+    learningResourceType: "Tutorial",
+    skillLevel: "Beginner",
+    teaches: "Understanding of AI agents, workflows, and language models",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           AI Agents Explained: The Step-by-Step Guide for Non Techies Using Real

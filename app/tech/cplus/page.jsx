@@ -496,10 +496,68 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
+    datePublished: "2025-05-11T09:00:00Z",
+    dateModified: "2025-05-11T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Wei",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Systems Developer",
+      description:
+        "C++ specialist with 12+ years experience in systems programming and performance optimization",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover why C++ remains essential in 2025 despite controversy. Learn about its unique strengths, common pitfalls, and whether this powerful language deserves a place in your programming toolkit.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/cplus",
+    },
+    keywords:
+      "c++, programming languages, bjarne stroustrup, memory management, systems programming, object-oriented programming",
+    about: [
+      {
+        "@type": "Thing",
+        name: "C++",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming Languages",
+      },
+      {
+        "@type": "Thing",
+        name: "Systems Programming",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Professional Development",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Programming Languages",
+    wordCount: 2800,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The TRUTH about C++: Should You Actually Learn It? The Truth Behind

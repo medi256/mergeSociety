@@ -508,10 +508,90 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.jpg",
+    datePublished: "2024-11-25T12:00:00Z",
+    dateModified: "2025-04-26T12:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Software Engineering Lead",
+      description:
+        "Former technical interviewer with experience at multiple FAANG companies",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "The Code Report",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the hidden tactics candidates use to cheat in technical interviews, from basic cribbing to AI assistance, and learn why integrity remains the best career strategy in tech's competitive landscape.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/about",
+    },
+    keywords:
+      "technical interview cheating, remote interview tactics, coding interview integrity, AI in technical interviews",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "ChatGPT",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Claude",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Gemini",
+      },
+      {
+        "@type": "Thing",
+        name: "LeetCode",
+      },
+      {
+        "@type": "Organization",
+        name: "Daily.dev",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Technical Interviews",
+      },
+      {
+        "@type": "Thing",
+        name: "Professional Ethics",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Engineering Careers",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Inside the Secret World of Technical Interview Cheating: Tactics,

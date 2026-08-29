@@ -203,10 +203,83 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "SEO Steps to Rank #1 in Google (2025 SEO Plan)",
+    description:
+      "A step-by-step guide to implementing the 4-pillar SEO strategy that puts websites in the top 3% of Google rankings.",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+    datePublished: "2025-05-14T08:00:00Z",
+    dateModified: "2025-07-01T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "SEO Strategist",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    estimatedCost: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: "0",
+    },
+    supply: [
+      {
+        "@type": "HowToSupply",
+        name: "SEO analysis tools",
+      },
+      {
+        "@type": "HowToSupply",
+        name: "Google Search Console",
+      },
+    ],
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Analyze top competitors",
+        text: "Study the top 5 ranking pages for your target keyword and document their on-page elements.",
+        url: "https://mergesociety.com/tech/seo-wins#competitor-analysis",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Optimize for NLP and topical coverage",
+        text: "Use tools to identify and cover all relevant subtopics for comprehensive content.",
+        url: "https://mergesociety.com/tech/seo-wins#nlp-optimization",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Create conversion-focused pages",
+        text: "Design pages with clear CTAs, social proof, and elements that drive user engagement.",
+        url: "https://mergesociety.com/tech/seo-wins#conversion-optimization",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Build topical authority",
+        text: "Create content clusters and strategic internal links to establish authority.",
+        url: "https://mergesociety.com/tech/seo-wins#topical-authority",
+      },
+    ],
+    totalTime: "PT4H",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           SEO Steps to Rank #1 in Google (2025 SEO Plan) (97% Are Failing—Here’s

@@ -448,10 +448,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "2025's Essential Developer Tools: 10 Game-Changing Apps That Will Revolutionize Your Workflow",
+    image: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lxrcbsv-cOOUKEBpnIw-unsplash_zwdtmm_yfuwdc.jpg",
+    ],
+    datePublished: "2025-04-30T09:00:00Z",
+    dateModified: "2025-04-30T11:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Software Engineer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DevTools Master",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the ultimate collection of hidden gem developer tools for 2025 that will dramatically boost your productivity. From AI-powered coding assistants to lightweight Docker alternatives, these are the must-have tools transforming how top developers work.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/apps/cool-tools",
+    },
+    keywords:
+      "developer tools, software development, productivity tools, AI development, code editor, GitHub, API testing",
+    articleSection: "Development Tools",
+    about: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Refined GitHub",
+        applicationCategory: "DeveloperApplication",
+        operatingSystem: "Web Browser",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Cursor",
+        applicationCategory: "DeveloperApplication",
+        operatingSystem: "macOS, Windows, Linux",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Excalidraw",
+        applicationCategory: "WebApplication",
+        operatingSystem: "Any",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Bruno",
+        applicationCategory: "DeveloperApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Raycast",
+        applicationCategory: "DeveloperApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "OrbStack",
+        applicationCategory: "DeveloperApplication",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Hidden Gems: Must-Have Developer Tools & Apps That Changed How I Work

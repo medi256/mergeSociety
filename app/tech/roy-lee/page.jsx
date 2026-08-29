@@ -448,10 +448,82 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+    datePublished: "2025-05-03T08:30:00Z",
+    dateModified: "2025-05-03T08:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Merge Society",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Technology Editor",
+      description:
+        "Former Tech Recruiter and Engineering Manager covering the intersection of technology and career development",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the controversial story of Roy Lee's AI interview tools, the broken state of tech recruiting, and what it reveals about trust, integrity, and the future of hiring in an AI-dominated landscape.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/roy-lee",
+    },
+    keywords:
+      "tech interviews, Roy Lee, AI coding interviews, whiteboard interview alternatives, tech hiring process",
+    mentions: [
+      {
+        "@type": "Person",
+        name: "Roy Lee",
+      },
+      {
+        "@type": "Organization",
+        name: "Columbia Engineering",
+      },
+      {
+        "@type": "Person",
+        name: "Kiro",
+      },
+      {
+        "@type": "Thing",
+        name: "Locked in AI the Dual",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Technical Interviews",
+      },
+      {
+        "@type": "Thing",
+        name: "Career Development",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Ethics",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting

@@ -465,10 +465,84 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "What is DNS? The Domain Name System Explained Simply in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+    datePublished: "2025-05-09T10:00:00Z",
+    dateModified: "2025-05-09T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Network Security Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Network Security Specialist",
+      description:
+        "15+ years securing network infrastructure and educating about cybersecurity",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn how DNS works in simple terms: how domain names become IP addresses, the DNS query journey, security risks, and how to protect yourself with modern DNS security protocols like DoH.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/what-is-dns",
+    },
+    keywords:
+      "DNS, domain name system, DNS security, DoH, DNS over HTTPS, DNS query process, DNS records",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Domain Name System",
+      },
+      {
+        "@type": "Thing",
+        name: "Network Security",
+      },
+      {
+        "@type": "Thing",
+        name: "Internet Infrastructure",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Self Study",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Network Security",
+    wordCount: 3200,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["article", "h1", "h2", "h3"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: "#dns-security-section",
+      },
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: "#dns-records-explained",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           DNS Explained: The Hidden System Behind Every Website You Visit (And

@@ -271,10 +271,101 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "PC Component Overview: Complete Beginner's Guide to Computer Parts",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+    datePublished: "2025-05-14T10:00:00Z",
+    dateModified: "2025-05-14T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Tech Writer & Hardware Specialist",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society Blog",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Everything you need to know about PC components in one comprehensive guide. Learn about CPUs, RAM, motherboards, GPUs, and storage devices in simple terms.",
+    keywords:
+      "PC components, computer hardware, CPU, RAM, motherboard, GPU, storage, SSD, HDD, computer building, hardware guide",
+    articleSection: "Computer Hardware",
+    wordCount: 2400,
+    isAccessibleForFree: true,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/pc-overview",
+    },
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What are the most important components to consider when building a PC?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The most crucial components determining performance are the CPU (processing power), RAM (memory for running programs), GPU (graphics power), and the storage drive (SSD/HDD). Ensuring compatibility and balance among these parts is vital for a smooth computing experience.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much RAM do I really need for gaming or everyday work?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "For gaming or most productivity tasks in 2024, 16GB of RAM hits the perfect balance. Highly demanding workloads, such as video editing or running large datasets, may benefit from 32GB or more, but 8GB is the bare minimum for comfortable everyday use.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do I need a dedicated GPU if I only use my PC for browsing and office tasks?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No — a modern integrated GPU (most Intel CPUs and some AMD APUs) is perfectly adequate for web browsing, office software, and video streaming. Only invest in a separate, dedicated GPU for gaming, video editing, multimedia, or 3D work.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Why is an SSD recommended over a hard drive for the operating system?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "SSDs are far faster than traditional hard drives, leading to much quicker boot times, app launches, and less waiting overall. Even a small-capacity SSD for your OS is one of the most impactful upgrades you can make.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I balance my GPU and CPU to avoid bottlenecking?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Choose a GPU and CPU that are similar in performance tier (e.g., don't pair a high-end RTX 4090 with a ten-year-old dual-core processor). Many online tools can estimate potential bottlenecks for specific component combinations.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What does VRAM do?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "VRAM (Video RAM) is special memory on dedicated graphics cards used for storing graphics assets, textures, and frame buffers. More VRAM allows for smoother, high-resolution gaming and creative workloads without hiccups or stuttering.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           PC Component Overview: The Complete Beginner’s Guide to Every Main

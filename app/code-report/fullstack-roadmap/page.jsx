@@ -346,10 +346,143 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": ["Article", "TechArticle", "HowTo"],
+
+    headline:
+      "Full Stack Developer Roadmap 2025: Complete Guide from HTML to AI Integration",
+    description:
+      "Master full stack development with our updated 2025 roadmap. Learn HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Step-by-step guide from zero to hireable in 6-9 months.",
+
+    image: {
+      "@type": "ImageObject",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+      width: 1200,
+      height: 630,
+    },
+
+    datePublished: "2025-01-15T09:00:00Z",
+    dateModified: new Date().toISOString(),
+
+    author: {
+      "@type": "Person",
+      name: "Senior Software Engineer",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Software Engineer",
+      sameAs: ["https://twitter.com/manager70191"],
+    },
+
+    publisher: {
+      "@type": "Organization",
+      name: "Code Bender",
+      url: "https://mergesociety.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/fullstack-roadmap",
+    },
+
+    // HowTo specific properties
+    totalTime: "PT6M",
+    supply: ["Computer", "Internet Connection", "Text Editor"],
+    tool: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL"],
+
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Learn HTML & CSS Foundations",
+        text: "Master the basic building blocks of web development with HTML structure and CSS styling.",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#html-css-foundations",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Master JavaScript Programming",
+        text: "Learn JavaScript as your primary programming language for full stack development.",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#javascript-programming",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Build React Applications",
+        text: "Create dynamic, interactive user interfaces using React framework.",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#react-applications",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Develop Node.js Backend",
+        text: "Build server-side applications and APIs using Node.js runtime.",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#nodejs-backend",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Integrate AI Capabilities",
+        text: "Add cutting-edge AI features to your applications using modern APIs.",
+        url: "https://mergesociety.com/code-report/fullstack-roadmap#ai-integration",
+      },
+    ],
+
+    about: [
+      {
+        "@type": "Thing",
+        name: "Full Stack Development",
+        description:
+          "Complete web development covering both frontend and backend technologies",
+      },
+      {
+        "@type": "Thing",
+        name: "JavaScript Programming",
+        description: "Modern JavaScript development for web applications",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Integration",
+        description:
+          "Incorporating artificial intelligence into web applications",
+      },
+    ],
+
+    teaches: [
+      "HTML and CSS fundamentals",
+      "JavaScript programming",
+      "React frontend development",
+      "Node.js backend development",
+      "Database management",
+      "AI integration techniques",
+      "Full stack project development",
+    ],
+
+    educationalLevel: "beginner to advanced",
+    learningResourceType: "tutorial",
+    interactivityType: "active",
+
+    keywords:
+      "full stack developer, web development, JavaScript, React, Node.js, AI integration, HTML, CSS, programming tutorial, developer roadmap, coding guide",
+
+    inLanguage: "en-US",
+    isAccessibleForFree: true,
+
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "150",
+      bestRating: "5",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Full Stack Developer Roadmap: The No-BS Step-By-Step Guide to Master

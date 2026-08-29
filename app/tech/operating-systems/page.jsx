@@ -626,10 +626,103 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.jpg",
+    datePublished: "2025-04-26T12:00:00Z",
+    dateModified: "2025-04-26T12:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Systems Engineer",
+      description:
+        "Technology educator specializing in operating systems and computer architecture",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Explained",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the complete landscape of operating systems including Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. Learn about their histories, strengths, weaknesses, and ideal use cases in this comprehensive guide.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/operating-systems",
+    },
+    keywords:
+      "operating systems, Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, BSD",
+    articleSection: "Technology Guides",
+    dependencies: "None",
+    proficiencyLevel: "Beginner",
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Microsoft Windows",
+        operatingSystem: "Windows",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Apple macOS",
+        operatingSystem: "macOS",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Linux",
+        operatingSystem: "Linux",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Google ChromeOS",
+        operatingSystem: "ChromeOS",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Android",
+        operatingSystem: "Android",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Apple iOS",
+        operatingSystem: "iOS",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Unix",
+        operatingSystem: "Unix",
+        applicationCategory: "OperatingSystem",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "BSD",
+        operatingSystem: "BSD",
+        applicationCategory: "OperatingSystem",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Ultimate Guide to Major Operating Systems: From Windows to Unix

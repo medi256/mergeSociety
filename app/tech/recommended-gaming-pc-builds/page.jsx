@@ -197,10 +197,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "How to Build a PC in 2025: PC Parts Explained, Step-by-Step Guide & Best CPU/GPU Combos",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+    datePublished: "2025-05-14T08:00:00Z",
+    dateModified: "2025-05-14T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "PC Hardware Specialist & Technical Writer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "PC Builder",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Complete guide to building a PC in 2025. Learn about essential components, how to select the right parts, step-by-step assembly instructions, and recommendations for every budget.",
+    keywords:
+      "PC building, computer components, gaming PC, custom PC build, hardware guide, CPU, GPU, motherboard, RAM, storage, power supply, computer case, cooling solutions",
+    articleSection: "PC Building",
+    wordCount: 3500,
+    isAccessibleForFree: true,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/recommended-gaming-pc-builds",
+    },
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What are the most important PC parts to upgrade in 2025?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The GPU remains the most impactful upgrade for gaming performance. Upgrading to the latest RTX 50, RX 9000, or Intel Battlemage series can significantly enhance frame rates and visual fidelity. For productivity or multitasking, a modern CPU (Ryzen 9000/7000 or Intel Core Ultra 200) and 32GB+ of DDR5 RAM are vital.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much RAM do I need for gaming and streaming in 2025?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "32GB is now considered the baseline for gaming, streaming, and amateur video editing, ensuring smooth multitasking. Only advanced production tasks may require more.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can I mix DDR4 and DDR5 RAM on the same motherboard?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No. Motherboards support either DDR4 or DDR5, never both. Check your motherboard's specifications to ensure you purchase compatible RAM. Most new platforms (Ryzen 7000/9000, Intel Core Ultra 200) are DDR5 only.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I choose the right power supply for my build?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Match your PSU's wattage with the power demands of your CPU and GPU. Check for reputable quality using the PSU Cultist Tier List (aim for tier C or better). Favor modular or semi-modular designs for cleaner builds.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best

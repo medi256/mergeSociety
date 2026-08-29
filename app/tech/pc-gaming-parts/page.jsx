@@ -266,10 +266,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+    datePublished: "2025-05-14T10:00:00Z",
+    dateModified: "2025-05-14T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Gaming Hardware Specialist",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society Blog",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Comprehensive guide to gaming PC components covering graphics cards, processors, RAM, cooling, and everything you need to build the perfect custom gaming rig.",
+    keywords:
+      "gaming PC components, graphics card, gaming CPU, RAM for gaming, storage, PC cooling, power supply, gaming PC case, custom gaming PC build",
+    articleSection: "Gaming Hardware",
+    wordCount: 2700,
+    isAccessibleForFree: true,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/pc-gaming-parts",
+    },
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What components do I need to build a gaming PC?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "You'll need a graphics card (GPU), CPU, motherboard, RAM, storage (SSD/HDD), power supply, case, cooling (CPU/case fans), and an operating system like Windows. Peripherals such as monitor, keyboard, and mouse are also essential.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Why is a graphics card so important for gaming?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The graphics card renders all on-screen visuals, manages texture quality, effects, and frame rates making it the component that most directly affects your gaming experience.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much RAM do I need for gaming in 2024?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "While 8GB is the minimum for most modern games, 16GB is ideal for flawless gameplay and light multitasking. For content creation or future-proofing, consider 32GB or more.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is an SSD essential for a gaming PC?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Absolutely! SSDs dramatically reduce boot and load times, making your gaming and everyday usage feel snappy and responsive. Install your OS and top games on SSD for the best experience.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           PC Gaming Components: The Ultimate Guide to Building Your Perfect

@@ -669,10 +669,89 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews - Here's What Happened Next",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
+    datePublished: "2025-10-29T00:00:00Z",
+    dateModified: "2025-10-29T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Roy",
+      jobTitle: "Founder & CEO of Cluely",
+      description:
+        "Controversial AI founder who got kicked out of Columbia for building Interview Coder",
+      sameAs: ["https://twitter.com/@im_roy_lee", "https://cluely.com"],
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "First-person account from Roy, who built Interview Coder to expose broken tech interviews, got expelled from Columbia University, went viral, and raised $5.3M to build Cluely - the future of AI interaction.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/story-of-roy",
+    },
+    keywords:
+      "cluely, interview coder, columbia expulsion, AI startup, controversial founder, abstract ventures, viral marketing",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Cluely",
+      },
+      {
+        "@type": "Thing",
+        name: "Interview Coder",
+      },
+      {
+        "@type": "Thing",
+        name: "Columbia University",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Interface Innovation",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Abstract Ventures",
+      },
+      {
+        "@type": "Organization",
+        name: "Suse Ventures",
+      },
+      {
+        "@type": "Organization",
+        name: "Amazon",
+      },
+      {
+        "@type": "EducationalOrganization",
+        name: "Columbia University",
+      },
+    ],
+    isAccessibleForFree: "True",
+    articleSection: "Founder Stories",
+    wordCount: 5800,
+  };
+
 const RoyLee = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           I Got Kicked Out of Columbia University for Building an AI That Cheats

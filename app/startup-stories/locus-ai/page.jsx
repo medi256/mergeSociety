@@ -693,10 +693,64 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Should You Give AI Agents Money? Budgets, Permissions & Audit Trails With Locus AI",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-11-02_at_4.08.58_PM_vk1m8n_n5u7pl.png",
+    datePublished: "2025-11-02T00:00:00Z",
+    dateModified: "2025-11-02T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "A framework for safely giving AI agents financial access through budgets, permissions, and audit trails. Addresses the fear of autonomous payments and provides practical control mechanisms.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/locus-ai",
+    },
+    keywords:
+      "AI agents, autonomous payments, Locus AI, spending controls, audit trails, agent budgets",
+    about: [
+      {
+        "@type": "Thing",
+        name: "AI Agents",
+      },
+      {
+        "@type": "Thing",
+        name: "Financial Automation",
+      },
+      {
+        "@type": "Thing",
+        name: "Locus AI",
+      },
+    ],
+    isAccessibleForFree: "True",
+    articleSection: "AI Agent Infrastructure",
+    wordCount: 2600,
+  };
+
 const Locus = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Should You Give Your AI Agents Money? Set Budgets, Set Permissions,

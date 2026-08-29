@@ -666,10 +666,128 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": "https://mergesociety.com/latest/git-explained",
+      headline:
+        "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
+      alternativeHeadline:
+        "Learn Git from Scratch: Installation, Commands, and Workflow for Beginners",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        width: 1200,
+        height: 630,
+        caption:
+          "Git tutorial for beginners showing terminal commands and workflow",
+      },
+      datePublished: "2025-05-17T09:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Medi",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Developer & Technical Educator",
+        description:
+          "Experienced developer specializing in teaching version control and software development practices",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Master Git version control with comprehensive beginner's guide covering installation, essential commands, and version tracking concepts. Plain-English explanations with practical examples.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/latest/git-explained",
+      },
+      keywords:
+        "git, version control, beginner tutorial, git commands, repository, commit, branch, git installation, git configuration",
+      articleSection: "Developer Tools Tutorial",
+      articleBody:
+        "Complete beginner tutorial covering Git installation on Windows and macOS, initial configuration, repository creation, essential commands, commit workflow, and version control concepts",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Git Version Control",
+          description:
+            "Distributed version control system for tracking code changes",
+        },
+        {
+          "@type": "Thing",
+          name: "Version Control Systems",
+          description: "Software tools for managing file changes over time",
+        },
+        {
+          "@type": "Thing",
+          name: "Developer Tools",
+          description: "Essential software for programming and collaboration",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "Git",
+          applicationCategory: "Version Control System",
+          operatingSystem: "Windows, macOS, Linux",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "GitHub",
+          applicationCategory: "Code Hosting Platform",
+          description: "Web-based Git repository hosting service",
+        },
+      ],
+      teaches: [
+        "Understanding version control fundamentals",
+        "Installing Git on Windows and macOS",
+        "Configuring Git for first-time use",
+        "Creating and initializing repositories",
+        "Using essential Git commands (add, commit, status, log)",
+        "Understanding the staging area concept",
+        "Writing effective commit messages",
+        "Distinguishing Git from GitHub",
+        "Basic branching concepts",
+        "Troubleshooting common Git issues",
+      ],
+      educationalLevel: "beginner",
+      proficiencyLevel: "Complete beginner to basic functional usage",
+      educationalUse: "instruction",
+      timeRequired: "PT10M",
+      wordCount: 2500,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+        audienceType:
+          "coding beginners, bootcamp students, self-taught developers, junior programmers",
+      },
+      learningResourceType: "Tutorial",
+      interactivityType: "expositive",
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "h2", "p"],
+      },
+    };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

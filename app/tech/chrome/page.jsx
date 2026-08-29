@@ -461,10 +461,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline:
+      "Google's Antitrust Battles, AI Shenanigans & Tech Roundup: Your Wild, Weird Week in Tech",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/chrome-isdone_dorn2u_g9ilh4.jpg",
+    datePublished: "2025-04-26T08:00:00Z",
+    dateModified: "2025-04-26T10:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Rodriguez",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Tech Analyst",
+      description:
+        "Technology industry analyst with expertise in AI, antitrust policy, and Silicon Valley trends",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Roundup Weekly",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Dive into this week's tech news: Google's ongoing antitrust saga, OpenAI's search ambitions, Intel's chip boost amid layoffs, bizarre AI services, Nvidia's promising Project G Assist, and much more in this comprehensive tech roundup.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/chrome",
+    },
+    keywords:
+      "tech news, Google antitrust, OpenAI, Intel, Nvidia, AI advancements, tech policy",
+    articleSection: "Weekly Tech Roundup",
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Google",
+      },
+      {
+        "@type": "Organization",
+        name: "OpenAI",
+      },
+      {
+        "@type": "Organization",
+        name: "Intel",
+      },
+      {
+        "@type": "Organization",
+        name: "Nvidia",
+      },
+      {
+        "@type": "Organization",
+        name: "Character.AI",
+      },
+      {
+        "@type": "Organization",
+        name: "Cluly",
+      },
+      {
+        "@type": "Organization",
+        name: "U.S. Department of Justice",
+      },
+      {
+        "@type": "Organization",
+        name: "Federal Trade Commission",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Google’s Antitrust Battles, AI Shenanigans, Stretchy Computers & More:

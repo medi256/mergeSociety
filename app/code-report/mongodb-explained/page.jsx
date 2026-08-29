@@ -534,10 +534,71 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "MongoDB : The Evolution of NoSQL Databases for Modern Applications",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/MongoDB_Logo.jpg",
+    datePublished: "2025-05-07T08:00:00Z",
+    dateModified: "2025-05-07T08:00:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      description: "Database specialists focused on modern data architectures",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Your Tech Platform",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore how MongoDB has transformed from a simple document database to a comprehensive data platform powering today's most demanding applications. Learn about flexible schemas, horizontal scaling, and the latest Atlas features in this in-depth guide.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/mongodb-explained",
+    },
+    keywords:
+      "MongoDB, NoSQL database, document database, MongoDB Atlas, schema-less database, JSON document database",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Database Technology",
+      },
+      {
+        "@type": "Thing",
+        name: "MongoDB",
+      },
+      {
+        "@type": "Thing",
+        name: "NoSQL",
+      },
+      {
+        "@type": "Thing",
+        name: "Cloud Database",
+      },
+    ],
+    proficiencyLevel: "Intermediate",
+    dependencies: "JSON, JavaScript, Database Management",
+    technicalArticleBody: {
+      "@type": "Text",
+      text: "This article explores MongoDB's evolution from a solution to scaling problems to a comprehensive database platform with flexible schemas, horizontal scaling, and advanced cloud features.",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           MongoDB Power Unleashed: Why Everyone Is Switching to the World’s

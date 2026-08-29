@@ -523,10 +523,69 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Why Linux Matters: The Beginner's Guide to Mastering the World's Most Powerful Operating System",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
+    datePublished: "2025-05-11T08:00:00Z",
+    dateModified: "2025-05-11T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Linux Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Linux System Administrator",
+      description:
+        "Certified Linux instructor with 15+ years of system administration experience",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn why Linux dominates servers while only 4% of PC users have embraced it. Master essential Linux concepts, commands, and skills to boost your tech career.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/why-linux",
+    },
+    keywords:
+      "linux, beginner guide, bash, terminal, command line, operating system, open source",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Linux",
+      },
+      {
+        "@type": "Thing",
+        name: "Operating Systems",
+      },
+      {
+        "@type": "Thing",
+        name: "Command Line Interface",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Linux Education",
+    proficiencyLevel: "Beginner",
+    articleSection: "Operating Systems",
+    wordCount: 4500,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most

@@ -631,10 +631,113 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+    datePublished: "2025-04-29T08:00:00Z",
+    dateModified: "2025-04-29T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Dagogo Altraide",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Technology Analyst and Documentary Filmmaker",
+      description:
+        "Founder of ColdFusion, exploring the impact of technology on society through various media formats",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "ColdFusion Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An exploration of how our increasing reliance on AI tools may be affecting our cognitive abilities, with practical advice on maintaining mental acuity in an age of automation.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+    },
+    keywords:
+      "artificial intelligence, cognitive offloading, mental atrophy, algorithmic complacency, knowledge age",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "ChatGPT",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Google Maps",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Gemini AI",
+      },
+      {
+        "@type": "Person",
+        name: "Dr. Ann McKee",
+      },
+      {
+        "@type": "Person",
+        name: "Geoffrey Hinton",
+      },
+      {
+        "@type": "Organization",
+        name: "Nord Security",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Cognitive Science",
+      },
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Digital Wellness",
+      },
+    ],
+    citation: [
+      {
+        "@type": "CreativeWork",
+        name: "Impact of GPS on Spatial Memory",
+        author: "Neurology Research Institute",
+        datePublished: "2020",
+      },
+      {
+        "@type": "CreativeWork",
+        name: "Cognitive Offloading in the Digital Age",
+        author: "Oxford University Research Team",
+        datePublished: "2023",
+      },
+    ],
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "Technology enthusiasts, educators, knowledge workers, digital citizens",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation

@@ -535,10 +535,59 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Every Python Library and Frameworks Explained",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top-python-libraries.webp",
+    datePublished: "2025-05-02T08:00:00Z",
+    dateModified: "2025-05-02T08:00:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Dr. Maya Rodriguez",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Python Developer & AI Specialist",
+      },
+      {
+        "@type": "Person",
+        name: "Alex Chen",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Full Stack Python Engineer",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Python Developer Community",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Comprehensive breakdown of 30+ critical Python libraries in 2025 - from machine learning powerhouses to web frameworks. Master the complete Python ecosystem with expert insights and practical applications.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/python-libraries",
+    },
+    keywords:
+      "Python libraries 2025, essential Python frameworks, Python machine learning, TensorFlow PyTorch, Django Flask, Python data science, NumPy Pandas, GUI development",
+    articleSection: "Python Development Resources",
+    skillLevel: "Multiple entry points for all skill levels",
+    dependencies: "Basic Python programming knowledge",
+    proficiencyLevel: "Comprehensive coverage for beginners through experts",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Python Libraries: The Top 40 Essential Python Libraries You Can't

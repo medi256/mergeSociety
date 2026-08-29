@@ -601,10 +601,50 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "40 Programming Projects That Will Make You a Better Developer",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/van-tay-media--S2-AKdWQoQ-unsplash_cmx2em_mdjbmx.jpg",
+    datePublished: "2025-04-30T08:30:00Z",
+    dateModified: "2025-04-30T08:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Software Engineer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Developer Junction",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover 40 hands-on programming projects spanning web, mobile, AI, automation and more to build your portfolio, expand your skills, and grow as a developer with practical experience across modern tech stacks.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/40-projects",
+    },
+    keywords:
+      "programming projects, developer portfolio, coding practice, software development, AI projects",
+    articleSection: "Developer Resources",
+    proficiencyLevel: "Beginner to Advanced",
+    programmingLanguage: "Multiple",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>40 Programming Projects That Will Make You a Better Developer</h1>
 

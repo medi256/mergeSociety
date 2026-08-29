@@ -229,10 +229,86 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+    datePublished: "2025-03-31T09:00:00Z",
+    dateModified: "2025-04-25T11:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Merge Society",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore how Model Context Protocol is revolutionizing API development and AI integration, complete with a practical guide to building your first MCP server from scratch.",
+    articleBody:
+      "It seems like every developer in the world right now is catching the MCP wave. Model Context Protocol is the latest, buzzing, can't-miss way to build APIs...",
+    keywords:
+      "Model Context Protocol, MCP, AI development, Claude API, Anthropic, API architecture, vibe coding",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/ai-mcp",
+    },
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Anthropic",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Claude",
+      },
+      {
+        "@type": "Organization",
+        name: "OpenAI",
+      },
+      {
+        "@type": "Organization",
+        name: "Cevola",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "API Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Architecture",
+      },
+    ],
+    proficiencyLevel: "Intermediate",
+    isAccessibleForFree: true,
+    learningResourceType: "Tutorial",
+    teaches:
+      "Building an MCP server to connect LLMs with your data and applications",
+    programmingLanguage: ["TypeScript", "JavaScript", "Deno"],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Rise of Model Context Protocol (MCP): Why Every Developer Is

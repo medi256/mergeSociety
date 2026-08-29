@@ -199,10 +199,63 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Ruby on Rails: The Underground Weapon Behind Billion-Dollar Startups",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+    datePublished: "2025-05-09T08:00:00Z",
+    dateModified: "2025-07-01T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Web Developer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "How Ruby on Rails lets you build full-stack apps faster than any other framework, with real-world examples from tech giants.",
+    keywords:
+      "ruby on rails, web development, mvc framework, startups, full stack development",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Ruby on Rails",
+      },
+      {
+        "@type": "Thing",
+        name: "Web Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Startups",
+      },
+    ],
+    articleBody:
+      "Ruby on Rails is the battle-tested framework that powers billion-dollar companies like Airbnb and Shopify. Learn how its MVC architecture and convention-over-configuration approach let you build full-stack apps in minutes...",
+    isAccessibleForFree: true,
+    proficiencyLevel: "Beginner",
+    programmingLanguage: "Ruby",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Ruby on Rails: The Underground Weapon Behind Billion-Dollar Startups

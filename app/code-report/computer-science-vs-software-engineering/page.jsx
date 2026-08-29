@@ -204,10 +204,90 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Computer Science vs Software Engineering: Complete 2025 Guide",
+    description:
+      "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you in 2025.",
+    image: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+    ],
+    datePublished: "2025-07-18T00:00:00.000Z",
+    dateModified: new Date().toISOString(),
+    author: {
+      "@type": "Person",
+      name: "Tech Career Expert",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/code-report/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id":
+        "https://mergesociety.com/code-report/computer-science-vs-software-engineering",
+    },
+    articleSection: "Education",
+    keywords:
+      "computer science vs software engineering, computer science degree, software engineering degree, tech career guide, programming degree",
+    wordCount: 4500,
+    isAccessibleForFree: true,
+    about: [
+      {
+        "@type": "Thing",
+        name: "Computer Science",
+        description:
+          "Academic discipline and field of study focused on algorithms, computational systems, and software design",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Engineering",
+        description:
+          "Engineering discipline focused on designing, developing, and maintaining software systems",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "EducationalOrganization",
+        name: "Cal Poly San Luis Obispo",
+      },
+      {
+        "@type": "Corporation",
+        name: "Google",
+      },
+      {
+        "@type": "Corporation",
+        name: "Facebook",
+      },
+      {
+        "@type": "Corporation",
+        name: "Amazon",
+      },
+    ],
+    genre: ["Education", "Career Guidance", "Technology"],
+    inLanguage: "en-US",
+    copyrightYear: new Date().getFullYear(),
+    copyrightHolder: {
+      "@type": "Organization",
+      name: "Merge Society",
+    },
+  };
+
 export default function ComputerScienceVsSoftwareEngineering() {
   return (
     <div className="lesson-wrapper">
-      {/* <div className="lesson-sidebar"></div> */}
+      {/* <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        /> */}
       <article className="lesson-container">
         <h1>
           Computer Science vs Software Engineering: Everything You Need to Know

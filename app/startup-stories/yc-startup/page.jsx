@@ -647,10 +647,108 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "How to Ace Your Y Combinator Interview: Mock Interview Practice Guide",
+    description:
+      "Interactive practice guide for Y Combinator interviews with the 5 most important questions and expert answers from a YC founder who raised $13M+",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+    totalTime: "PT10M",
+    estimatedCost: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: "0",
+    },
+    supply: [
+      {
+        "@type": "HowToSupply",
+        name: "Your startup pitch",
+      },
+      {
+        "@type": "HowToSupply",
+        name: "Traction metrics",
+      },
+      {
+        "@type": "HowToSupply",
+        name: "Customer acquisition plan",
+      },
+    ],
+    tool: [
+      {
+        "@type": "HowToTool",
+        name: "Timer for practice",
+      },
+      {
+        "@type": "HowToTool",
+        name: "Free 50+ YC Questions resource",
+      },
+    ],
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Question 1: What Are You Working On?",
+        text: "Answer literally without jargon. One person answers. Describe exactly what you do in plain English that anyone could repeat back.",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-1",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Question 2: What Is Your Progress So Far?",
+        text: "Lead with your most impressive metric (ideally revenue). Follow with 2-3 supporting numbers. Be precise, no backstory.",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-2",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Question 3: What Is Your Unique Insight?",
+        text: "Frame as 'We discovered that...' or 'The non-obvious insight is...' Share something you learned from customers that changes how you build.",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-3",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Question 4: How Do You Plan To Get Users?",
+        text: "Name specific channels and go one level deeper. State keywords, partner types, or why the channel works for your customer.",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-4",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Question 5: Who Are Your Competitors?",
+        text: "Name 1-2 top competitors. Never say no competition. State your key differentiator in one sentence.",
+        url: "https://mergesociety.com/startup-stories/yc-startup#question-5",
+      },
+    ],
+    author: {
+      "@type": "Person",
+      name: "Arjun Mahadevan",
+      jobTitle: "Founder & CEO",
+      worksFor: {
+        "@type": "Organization",
+        name: "Dula",
+      },
+      description:
+        "Y Combinator batch founder who has raised over $13 million for Dula.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    datePublished: "2025-10-30T00:00:00Z",
+    dateModified: "2025-10-30T00:00:00Z",
+  };
+
 export default function YCMockInterviewArticle() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           YC Mock Interview: The 5 Biggest Questions You Will Get Asked By Y

@@ -654,10 +654,128 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id":
+        "https://mergesociety.com/code-report/top-programming-languages-to-learn",
+      headline:
+        "Top 5 Programming Languages to Learn in 2026: Python, TypeScript, C/C++, Java, Rust",
+      alternativeHeadline:
+        "Data-Driven Programming Language Ranking for 2026 Careers",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        width: 600,
+        height: 400,
+        caption: "Top 5 programming languages 2026 comparison",
+      },
+      datePublished: "2025-12-13T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Developer & Programming Educator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Comprehensive analysis of top programming languages for 2026 based on Stack Overflow Survey, GitHub Octoverse, and TIOBE Index data with career guidance.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://mergesociety.com/code-report/top-programming-languages-to-learn",
+      },
+      keywords:
+        "programming languages 2026, python ai, typescript web development, rust systems programming, java enterprise, c cpp performance",
+      articleSection: "Programming Career Planning",
+      articleBody:
+        "Data-driven analysis of programming language trends with specific growth metrics, ecosystem details, career paths, and project recommendations",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Programming Language Trends",
+          description:
+            "Analysis of language popularity and career opportunities",
+        },
+        {
+          "@type": "Thing",
+          name: "Career Development",
+          description: "Guidance for choosing programming skills",
+        },
+      ],
+      citation: [
+        {
+          "@type": "CreativeWork",
+          name: "Stack Overflow Developer Survey 2024",
+          description: "57.9% Python usage reported",
+        },
+        {
+          "@type": "CreativeWork",
+          name: "GitHub Octoverse 2024-2025",
+          description: "Growth metrics for programming languages",
+        },
+        {
+          "@type": "CreativeWork",
+          name: "TIOBE Index",
+          description: "Language of the Year historical data",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "Python",
+          applicationCategory: "Programming Language",
+          description: "Leading language for AI, ML, and Data Science",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "TypeScript",
+          applicationCategory: "Programming Language",
+          description: "Type-safe JavaScript for web development",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "Rust",
+          applicationCategory: "Programming Language",
+          description: "Memory-safe systems programming language",
+        },
+      ],
+      teaches: [
+        "Understanding 2026 programming language trends",
+        "Choosing language based on career goals",
+        "Python ecosystem for AI and data science",
+        "TypeScript for modern web development",
+        "C/C++ for performance and systems",
+        "Java for enterprise and banking",
+        "Rust for memory-safe systems programming",
+        "Building career-focused project portfolio",
+      ],
+      timeRequired: "PT12M",
+      wordCount: 3400,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const LANGUAGES = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

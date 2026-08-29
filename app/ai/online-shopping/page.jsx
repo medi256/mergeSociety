@@ -511,10 +511,83 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Truth Behind Drop-Shipping Scams: Exposing Fake Artisanal Products",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fooling-online_w6akez_naqb3m.jpg",
+    datePublished: "2025-04-26T09:00:00Z",
+    dateModified: "2025-04-26T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Consumer Detective",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Consumer Protection Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An investigative exposé revealing how AI-generated personas, hired actors, and cheap mass-produced goods are being marketed as 'handcrafted' luxury items at premium prices online.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/online-shopping",
+    },
+    keywords:
+      "dropshipping scams, fake artisanal products, online shopping fraud, AI-generated marketing, consumer protection",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Organization",
+        name: "AliExpress",
+      },
+      {
+        "@type": "Organization",
+        name: "Fiverr",
+      },
+      {
+        "@type": "Organization",
+        name: "Facebook",
+      },
+      {
+        "@type": "Organization",
+        name: "Aura",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "E-commerce Fraud",
+      },
+      {
+        "@type": "Thing",
+        name: "Consumer Protection",
+      },
+      {
+        "@type": "Thing",
+        name: "Deceptive Marketing",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Truth Behind Those "Handcrafted" Leather Bags and Watches: How AI,

@@ -611,10 +611,132 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": "https://mergesociety.com/code-report/crud-explained",
+      headline:
+        "CRUD Operations Explained: Create, Read, Update, Delete Complete Guide",
+      alternativeHeadline:
+        "Understanding CRUD from SQL Databases to REST APIs with Real Examples",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
+        width: 600,
+        height: 400,
+        caption:
+          "CRUD operations diagram showing create, read, update, delete flow",
+      },
+      datePublished: "2025-12-09T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Software Developer",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Comprehensive guide to CRUD operations covering implementation in SQL, NoSQL databases, REST APIs, and frontend applications with real-world examples from Twitter, Microsoft Word, and Amazon.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/code-report/crud-explained",
+      },
+      keywords:
+        "CRUD, create read update delete, REST API, SQL operations, database design, API development",
+      articleSection: "Software Development",
+      articleBody:
+        "Complete explanation of CRUD operations as fundamental pattern for data manipulation, covering database implementations, API design, frontend integration, and practical considerations",
+      about: [
+        {
+          "@type": "Thing",
+          name: "CRUD Operations",
+          description:
+            "Four fundamental database operations: Create, Read, Update, Delete",
+        },
+        {
+          "@type": "Thing",
+          name: "REST API Design",
+          description:
+            "Architectural style mapping CRUD to HTTP verbs for web services",
+        },
+        {
+          "@type": "Thing",
+          name: "Database Operations",
+          description: "SQL and NoSQL commands for data manipulation",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "Thing",
+          name: "SQL Database",
+          description:
+            "Relational database using INSERT, SELECT, UPDATE, DELETE",
+        },
+        {
+          "@type": "Thing",
+          name: "NoSQL Database",
+          description: "Non-relational databases like MongoDB and DynamoDB",
+        },
+        {
+          "@type": "Thing",
+          name: "HTTP Methods",
+          description: "POST, GET, PUT, PATCH, DELETE verbs for REST APIs",
+        },
+        {
+          "@type": "Thing",
+          name: "Soft Delete",
+          description: "Marking records as deleted without removing them",
+        },
+      ],
+      teaches: [
+        "What CRUD operations are and why they matter",
+        "How CRUD maps to SQL commands (INSERT, SELECT, UPDATE, DELETE)",
+        "CRUD operations in NoSQL databases (DynamoDB, MongoDB)",
+        "Designing REST APIs with proper HTTP verbs",
+        "Difference between soft delete and hard delete",
+        "Resource modeling and endpoint design",
+        "Frontend UI patterns for CRUD operations",
+        "Data integrity and compliance considerations",
+        "Building applications from scratch using CRUD framework",
+      ],
+      educationalLevel: "beginner to intermediate",
+      proficiencyLevel:
+        "Understanding of basic programming and databases helpful",
+      timeRequired: "PT15M",
+      wordCount: 4100,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+      audience: {
+        "@type": "Audience",
+        audienceType:
+          "software developers, backend engineers, database designers, API developers",
+      },
+      learningResourceType: "Conceptual Guide",
+      interactivityType: "expositive",
+      educationalUse:
+        "Understanding fundamental data operations and API design patterns",
+    };
+
 const CRUD = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

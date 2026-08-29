@@ -347,10 +347,76 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": "https://mergesociety.com/code-report/websocket-polling",
+      headline: "WebSocket vs Polling: Real-Time Web Communication Guide 2025",
+      alternativeHeadline:
+        "Complete Guide to WebSockets, Polling, and Long Polling for Real-Time Applications",
+      description:
+        "Comprehensive comparison of WebSockets, polling, and long polling techniques for building real-time web applications, with performance analysis and implementation examples.",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        width: 1200,
+        height: 630,
+        caption:
+          "Visual comparison of WebSocket and polling communication patterns",
+      },
+      datePublished: "2025-05-10T09:15:00Z",
+      dateModified: "2025-06-29T14:30:00Z",
+      author: {
+        "@type": "Person",
+        name: "Michael Reeves",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Web Architect",
+        knowsAbout: [
+          "WebSockets",
+          "Real-time Applications",
+          "System Design",
+          "Web Architecture",
+        ],
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/logo.png",
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/code-report/websocket-polling",
+      },
+      articleSection: "Web Development",
+      keywords:
+        "WebSocket, polling, long polling, real-time communication, web development, system design",
+      wordCount: 2400,
+      timeRequired: "PT12M",
+      educationalLevel: "beginner to advanced",
+      learningResourceType: "tutorial",
+      teaches: [
+        "WebSocket protocol fundamentals",
+        "Polling vs WebSocket performance comparison",
+        "Real-time application architecture",
+        "When to use each communication method",
+      ],
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           WebSocket vs Polling: The Real-Time Secret Nobody Tells You About

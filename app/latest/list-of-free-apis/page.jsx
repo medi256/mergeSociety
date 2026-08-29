@@ -684,10 +684,99 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://mergesociety.com/latest/list-of-free-apis",
+      headline: "40 Free APIs You Can Use In Your Next Programming Project",
+      alternativeHeadline:
+        "Tested Free APIs with Real Quotas: Images, Weather, Finance, AI, Games, and More",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/free_apis.webp",
+        width: 600,
+        height: 400,
+        caption: "40 free APIs for developer projects",
+      },
+      datePublished: "2025-12-16T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Developer & API Integration Specialist",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Comprehensive guide to 40 tested free APIs with real quota limits, pricing warnings, and integration examples for images, weather, finance, games, AI, and more.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/latest/list-of-free-apis",
+      },
+      keywords:
+        "free apis, developer resources, api integration, unsplash api, openweather api, stripe api, discord api, nasa api",
+      articleSection: "Developer Resources",
+      articleBody:
+        "Curated list of 40 free APIs tested in real projects with specific quota information, pricing warnings, and practical integration tips",
+      about: {
+        "@type": "Thing",
+        name: "Free APIs for Developers",
+        description: "Third-party APIs with free tiers for building projects",
+      },
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "Unsplash API",
+          applicationCategory: "Image API",
+          description: "High-quality stock photos with free tier",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "OpenWeather API",
+          applicationCategory: "Weather API",
+          description: "1000 free calls per day for weather data",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "Stripe API",
+          applicationCategory: "Payment API",
+          description: "Payment processing at 2.9% + 30¢ per transaction",
+        },
+      ],
+      teaches: [
+        "Finding reliable free APIs for projects",
+        "Understanding API quota limits",
+        "Integrating multiple APIs effectively",
+        "Handling rate limiting and caching",
+        "Avoiding pricing surprises",
+        "Building projects with API combinations",
+        "Choosing appropriate APIs for use cases",
+      ],
+      timeRequired: "PT15M",
+      wordCount: 4200,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const FreeAPIs = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>40 Free APIs You Can Use In Your Next Programming Project</h1>

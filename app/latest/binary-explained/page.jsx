@@ -517,10 +517,69 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+    datePublished: "2025-05-15T10:00:00Z",
+    dateModified: "2025-05-15T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Taylor Morgan",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Computer Science Educator",
+      description:
+        "Digital literacy advocate with 10+ years experience teaching computer fundamentals",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover how binary code forms the foundation of all computing, from simple on/off switches to complex operations that power everything from smartphones to supercomputers.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/binary-explained",
+    },
+    keywords:
+      "binary, computer science, ones and zeros, digital computation, bits, bytes, ASCII",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Binary Code",
+      },
+      {
+        "@type": "Thing",
+        name: "Computer Science",
+      },
+      {
+        "@type": "Thing",
+        name: "Digital Information",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "General Education",
+    proficiencyLevel: "Beginner",
+    articleSection: "Computer Science Fundamentals",
+    wordCount: 3200,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Binary Explained: How Computers Use Ones and Zeros to Power the

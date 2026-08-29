@@ -457,10 +457,98 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
+    image: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+    ],
+    datePublished: "2025-04-30T09:00:00Z",
+    dateModified: "2025-04-30T12:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Minimal Tech Developer",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Developer & Content Creator",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Dev Productivity Master",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the essential productivity tools that even a self-proclaimed minimalist can't live without in 2025. From Drizzle ORM and Super Maven to Synology NAS and Arc browser, these are the tools revolutionizing development and digital workflows for professionals.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/apps/another-tool",
+    },
+    keywords:
+      "developer tools, productivity tools, minimal workflow, Drizzle ORM, Super Maven, Synology NAS, Pretty TypeScript Errors",
+    articleSection: "Productivity Tools",
+    about: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Drizzle ORM",
+        applicationCategory: "DeveloperApplication",
+        operatingSystem: "Any",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Superhuman",
+        applicationCategory: "EmailApplication",
+        operatingSystem: "macOS, Web",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Super Maven",
+        applicationCategory: "DeveloperApplication",
+        operatingSystem: "VS Code",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Synology DiskStation",
+        applicationCategory: "SystemApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Pretty TypeScript Errors",
+        applicationCategory: "DeveloperApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Rectangle",
+        applicationCategory: "SystemApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "PostHog",
+        applicationCategory: "WebApplication",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Arc Browser",
+        applicationCategory: "WebBrowser",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>Cool Tools I’ve Been Using Lately (and Why They Stuck)</h1>
         <Image

@@ -303,10 +303,82 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "DNS Records Explained: A Complete Guide for 2025",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/4084_qpacfm_z9pvmi.jpg",
+    datePublished: "2025-05-09T08:00:00Z",
+    dateModified: "2025-05-09T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "DNS & Web Infrastructure Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Network Configuration Specialist",
+      description:
+        "12+ years experience in domain configuration and DNS management",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/dns-records",
+    },
+    keywords:
+      "DNS records, domain name system, A record, CNAME record, MX record, DNS security, TXT records",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Domain Name System",
+      },
+      {
+        "@type": "Thing",
+        name: "Website Configuration",
+      },
+      {
+        "@type": "Thing",
+        name: "Email Setup",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Self Study",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Technical Guides",
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["article", "h1", "h2", "h3"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: "#dns-basics-section",
+      },
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: "#dns-records-explained",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           DNS Records Explained With Examples: Understanding, Using, and

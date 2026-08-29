@@ -380,10 +380,109 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+    datePublished: "2025-04-27T08:00:00Z",
+    dateModified: "2025-04-27T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Hari Mathur",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Despite 450 million daily active users and billions in revenue, Snapchat has only managed two profitable quarters in its history. Explore the paradox of Snapchat's massive popularity versus its struggle for profitability.",
+    keywords:
+      "Snapchat, social media profitability, ephemeral messaging, Evan Spiegel, AR technology, tech monetization",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/snap-chat",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Social Media Business Models",
+      },
+      {
+        "@type": "Organization",
+        name: "Snapchat",
+        sameAs: "https://www.snapchat.com",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Person",
+        name: "Evan Spiegel",
+      },
+      {
+        "@type": "Person",
+        name: "Bobby Murphy",
+      },
+      {
+        "@type": "Organization",
+        name: "Snapchat",
+      },
+      {
+        "@type": "Organization",
+        name: "Meta",
+      },
+      {
+        "@type": "Organization",
+        name: "TikTok",
+      },
+      {
+        "@type": "Organization",
+        name: "ProtonPass",
+        sameAs: "https://proton.me/pass",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: true,
+        cssSelector: "#article-content",
+      },
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: true,
+        cssSelector: "#sponsored-section",
+        potentialAction: {
+          "@type": "ConsumeAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: "https://proton.me/pass",
+          },
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           How Snapchat Became a Social Media Giant—Yet Still Struggles to Make

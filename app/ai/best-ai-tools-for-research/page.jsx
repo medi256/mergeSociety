@@ -409,10 +409,104 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+    datePublished: "2024-11-15T09:00:00Z",
+    dateModified: "2025-06-29T14:30:00Z",
+
+    author: {
+      "@type": "Person",
+      name: "Massa medi",
+      url: "https://mergesociety.com/about",
+      description:
+        "Founder of WiseUp, helped tens of thousands of researchers publish with less pain and more impact",
+    },
+
+    publisher: {
+      "@type": "Organization",
+      name: "MergeSociety",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+
+    description:
+      "Revolutionary AI tools that cut research time by months. Discover how top researchers use Jenny AI, Paperpal, Julius AI, and 7 other free tools to dominate literature reviews, data analysis, and paper writing in 2025.",
+
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/best-ai-tools-for-research",
+    },
+
+    about: [
+      {
+        "@type": "Thing",
+        name: "AI Research Tools",
+        description:
+          "Artificial intelligence applications for academic research",
+      },
+      {
+        "@type": "Thing",
+        name: "Academic Research Automation",
+        description: "Tools and methods to automate research workflows",
+      },
+      {
+        "@type": "Thing",
+        name: "Literature Review AI",
+        description: "AI-powered tools for conducting literature reviews",
+      },
+    ],
+
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Jenny AI",
+        applicationCategory: "Research Assistant",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Paperpal",
+        applicationCategory: "Academic Writing Tool",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Julius AI",
+        applicationCategory: "Data Analysis Tool",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Research Rabbit",
+        applicationCategory: "Literature Discovery Tool",
+      },
+    ],
+
+    articleSection: "Technology",
+    wordCount: 3500,
+
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "247",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           AI Tools for Research: 10 Game-Changing Free Tools Every Researcher

@@ -456,10 +456,104 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+    datePublished: "2025-04-27T11:30:00Z",
+    dateModified: "2025-04-27T11:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "ardens",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Digital Autonomy Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Follow along as ardens shares his journey from IT intern to home lab enthusiast, building a DIY NAS server with Raspberry Pi and self-hosting a personal music streaming service using virtualization technologies.",
+    keywords:
+      "Home Lab, NAS Server, DIY Tech, Raspberry Pi, Self-Hosted, Navidrome",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/labing",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Home Lab",
+      },
+      {
+        "@type": "Thing",
+        name: "Network Attached Storage",
+      },
+      {
+        "@type": "Thing",
+        name: "Self-Hosted Services",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Open Media Vault",
+        applicationCategory: "Server Software",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Navidrome",
+        applicationCategory: "Music Streaming Software",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Proxmox",
+        applicationCategory: "Virtualization Platform",
+      },
+      {
+        "@type": "Product",
+        name: "Raspberry Pi",
+        manufacturer: {
+          "@type": "Organization",
+          name: "Raspberry Pi Foundation",
+        },
+      },
+      {
+        "@type": "Product",
+        name: "Flexispot C7 Chair",
+        manufacturer: {
+          "@type": "Organization",
+          name: "Flexispot",
+        },
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "Beginner to Intermediate",
+    audience: {
+      "@type": "Audience",
+      audienceType: "Tech Enthusiasts",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server,

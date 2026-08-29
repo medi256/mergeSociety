@@ -304,10 +304,90 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      headline:
+        "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",
+      image:
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
+      datePublished: "2025-05-10T08:45:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Sarah Chen",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Network Protocol Engineer",
+        worksFor: {
+          "@type": "Organization",
+          name: "Merge Society",
+        },
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+        },
+      },
+      description:
+        "Think HTTP is boring? It controls how fast you stream Netflix, buy sneakers, and browse the web. Here's the insider's map to HTTP 1.1, HTTP 2, and HTTP 3 - no fluff, just the real reasons why these upgrades changed everything.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/code-report/http1-http2-http3",
+      },
+      about: [
+        {
+          "@type": "Thing",
+          name: "HTTP Protocol Evolution",
+        },
+        {
+          "@type": "Thing",
+          name: "Web Performance Optimization",
+        },
+        {
+          "@type": "Thing",
+          name: "QUIC Protocol",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/1.1",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/2",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HTTP/3",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "QUIC",
+        },
+      ],
+      keywords:
+        "HTTP evolution, web performance, QUIC protocol, multiplexing, binary framing, connection migration",
+      wordCount: 3500,
+      timeRequired: "PT12M",
+      educationalLevel: "beginner to advanced",
+      learningResourceType: "technical guide",
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3

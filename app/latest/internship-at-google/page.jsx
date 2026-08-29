@@ -632,10 +632,49 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.jpg",
+    datePublished: "2025-04-30T09:15:00Z",
+    dateModified: "2025-04-30T09:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Ravi Patel",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Career Development Specialist",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Career Paths",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/latest/MS.png",
+      },
+    },
+    description:
+      "Discover the reality behind Google's hiring process for students and recent graduates. Learn what actually matters in applications, how interviews really work, and get insider tips from Google recruiters to maximize your chances of landing an internship or entry-level position.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/internship-at-google",
+    },
+    keywords:
+      "google internship, entry-level tech jobs, google application process, tech recruiting",
+    articleSection: "Career Resources",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Google Internship & Entry-Level Applications: Myths, Truths, and How

@@ -285,10 +285,79 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline:
+      "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.jpg",
+    datePublished: "2025-04-27T08:30:00Z",
+    dateModified: "2025-04-27T13:45:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "The Code Report",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An in-depth analysis of the July 19, 2024 global computer meltdown caused by a CrowdStrike update that triggered widespread Blue Screen of Death errors, paralyzing airports, hospitals, banks, and businesses worldwide.",
+    articleBody:
+      "If you woke up today and tried to start your workday, you might've wished you'd just gone back to bed. That's because, as of July 19, 2024, an unprecedented global computer meltdown has unfolded...",
+    keywords:
+      "CrowdStrike outage, Windows BSOD, global computer crash, Falcon security update, IT disaster",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/apps/error",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "CrowdStrike",
+      },
+      {
+        "@type": "Thing",
+        name: "Windows Operating System",
+      },
+      {
+        "@type": "Thing",
+        name: "Computer Security",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "CrowdStrike",
+        sameAs: "https://www.crowdstrike.com",
+      },
+      {
+        "@type": "Organization",
+        name: "Microsoft",
+        sameAs: "https://www.microsoft.com",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Global Windows Outage: How a CrowdStrike Update Brought the World to

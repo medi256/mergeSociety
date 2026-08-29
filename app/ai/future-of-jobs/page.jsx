@@ -418,10 +418,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Future of Jobs: Which Careers Will Survive the AI Revolution?",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jobs-servive-ai_lywum0_oag3ma.jpg",
+    datePublished: "2025-04-26T12:00:00Z",
+    dateModified: "2025-04-26T12:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Career Futurist",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Career Insights Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "A data-driven analysis of which jobs are most at risk from AI automation in the next five years, and actionable strategies to future-proof your career in the rapidly evolving job market.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/future-of-jobs",
+    },
+    keywords:
+      "AI job impact, future careers, automation risk, career transition, future-proof skills",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "World Economic Forum",
+      },
+      {
+        "@type": "Organization",
+        name: "International Monetary Fund",
+      },
+      {
+        "@type": "Thing",
+        name: "ONET",
+      },
+      {
+        "@type": "Organization",
+        name: "CourseCareers",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Job Market Transformation",
+      },
+      {
+        "@type": "Thing",
+        name: "Career Planning",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Impact on Employment",
+      },
+    ],
+    isPartOf: {
+      "@type": "Series",
+      name: "Why Human Connection Still Beats Technology—Even in the AI Era",
+      url: "https://mergesociety.com/ai/ai-with-jobs",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Future of Jobs: Which Careers Will Survive the AI Revolution?

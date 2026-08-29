@@ -623,10 +623,39 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "EducationalOccupationalCredential",
+      "@id": "https://mergesociety.com/latest/data-structures-explained",
+      name: "Data Structures and Big O Notation for Coding Interviews",
+      description:
+        "Comprehensive guide to fundamental data structures with Big O time complexity analysis using visual analogies for interview preparation",
+      educationalLevel: "Undergraduate Computer Science",
+      competencyRequired: "Basic programming knowledge",
+      credentialCategory: "Interview Preparation",
+      teaches: [
+        "Big O notation: O(1), O(n), O(log n), O(n²)",
+        "Arrays with O(1) access and index operations",
+        "Linked lists with O(1) insert/delete with reference",
+        "Stacks (LIFO) for DFS and backtracking",
+        "Queues (FIFO) for BFS and scheduling",
+        "Heaps for O(1) peek and O(log n) priority operations",
+        "Hashmaps for O(1) average lookups",
+        "Binary search trees with O(log n) balanced operations",
+        "Sets for O(1) average membership checks",
+        "Interview strategy and pattern recognition",
+      ],
+    };
+
 const DataStructures = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

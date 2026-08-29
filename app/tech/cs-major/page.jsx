@@ -432,10 +432,72 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+    datePublished: "2025-05-03T09:00:00Z",
+    dateModified: "2025-05-03T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jamie Rodriguez",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Career Advisor",
+      description:
+        "Former tech recruiter with 7+ years of experience helping CS graduates land jobs",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Dive into the reality of CS degrees in 2025 - from landing tech jobs to surviving layoffs. Discover if studying computer science is worth it with honest insights and practical advice.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/cs-major",
+    },
+    keywords:
+      "computer science degree, tech careers, programming jobs, CS education, tech industry 2025",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Computer Science Education",
+      },
+      {
+        "@type": "Thing",
+        name: "Tech Career Planning",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming Jobs",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Career Planning",
+    audience: {
+      "@type": "Audience",
+      audienceType: "High School Students, College Students, Career Changers",
+    },
+    articleSection: "Tech Education",
+    wordCount: 3800,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Computer Science Degree: Is It Worth It? The Brutally Honest Breakdown

@@ -449,10 +449,53 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+    datePublished: "2025-05-02T08:00:00Z",
+    dateModified: "2025-05-02T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Senior React Engineer",
+      url: "https://mergesociety.com/about",
+      jobTitle: "React Specialist and Technical Educator",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master all React hooks with our comprehensive 2025 guide. Learn useState, useEffect, useContext, useRef, useMemo, useCallback, and the latest React 19 hooks with practical examples and use cases.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/react-hooks",
+    },
+    keywords:
+      "React, hooks, useState, useEffect, useContext, useRef, useMemo, useCallback, React 19, web development",
+    articleSection: "React Development",
+    skillLevel: "Beginner to Advanced",
+    dependencies: "React 19+, JavaScript ES6+",
+    proficiencyLevel:
+      "This guide covers all levels from basic hook usage to advanced patterns",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         {/* SEO-optimized content structure here */}
         <h1>

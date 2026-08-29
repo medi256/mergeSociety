@@ -311,10 +311,126 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://mergesociety.com/startup-stories/pony-ma",
+
+    headline:
+      "Tencent: How a Quiet Founder Built the Chinese Super App Empire by Breaking Every Silicon Valley Rule",
+    alternativeHeadline:
+      "The Untold Story of How Pony Ma Built a Digital Empire Bigger Than Facebook",
+
+    image: {
+      "@type": "ImageObject",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Ma-Huateng_uii6rl_nthmg3.jpg",
+      width: 1200,
+      height: 630,
+      caption:
+        "Ma Huateng (Pony Ma), founder of Tencent and architect of China's super app revolution",
+    },
+
+    author: {
+      "@type": "Organization",
+      name: "TechHistory Archives",
+      url: "https://mergesociety.com/about",
+      sameAs: ["https://twitter.com/manager70191"],
+    },
+
+    publisher: {
+      "@type": "Organization",
+      name: "TechHistory Archives",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+        width: 300,
+        height: 60,
+      },
+    },
+
+    datePublished: "2025-04-27T10:15:00Z",
+    dateModified: "2025-07-01T14:30:00Z",
+
+    description:
+      "Discover how Ma Huateng (Pony Ma) quietly built Tencent into a $450B+ empire that controls how a billion people communicate, shop, and live - while Silicon Valley wasn't watching.",
+
+    articleSection: "Technology Leadership",
+    wordCount: 4200,
+
+    about: [
+      {
+        "@type": "Person",
+        name: "Ma Huateng",
+        alternateName: "Pony Ma",
+        jobTitle: "CEO and Founder of Tencent",
+        description: "Chinese business magnate and founder of Tencent",
+      },
+      {
+        "@type": "Organization",
+        name: "Tencent",
+        alternateName: "Tencent Holdings Limited",
+        description: "Chinese multinational technology conglomerate",
+        foundingDate: "1998",
+        founder: "Ma Huateng",
+      },
+    ],
+
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "WeChat",
+        applicationCategory: "Social Media",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "QQ",
+        applicationCategory: "Communication",
+      },
+    ],
+
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/pony-ma",
+    },
+
+    isAccessibleForFree: true,
+
+    // Enhanced for Google Discover
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", ".key-insight", "blockquote"],
+    },
+
+    // FAQ Schema for rich snippets
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What's the difference between QQ and WeChat?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "QQ is Tencent's early desktop chat platform, massive in China before smartphones, while WeChat is their all-in-one mobile super app for messaging, payments, social media, and commerce.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is Tencent bigger than Facebook?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes—by many metrics (user count, reach in China, and gaming dominance), Tencent has surpassed Facebook and continues to innovate well beyond social media.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Tencent: How a Quiet Founder Built the Chinese Super App Empire by

@@ -328,10 +328,82 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Tech Layoffs 2025: The Shocking Truth Behind the Global Wave (Updated July 2025)",
+    image: "/mergesociety/audio_1756289795525_wcylsp_rs9hya_pms73h.webp",
+    datePublished: "2025-04-27T09:30:00Z",
+    dateModified: "2025-07-01T15:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Parker",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Economy Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Updated analysis of the 2025 tech layoff crisis with new government data: 29,000 March job cuts, 216,000 government positions, and why traditional recovery models don't apply.",
+    keywords:
+      "tech layoffs 2025, government job cuts, AI automation, tech unemployment, career survival",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/hiring",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Technology Industry Mass Layoffs",
+      },
+      {
+        "@type": "Thing",
+        name: "Government Efficiency Department Cuts",
+      },
+      {
+        "@type": "Thing",
+        name: "Global Tech Employment Crisis",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Government Efficiency Department",
+      },
+      {
+        "@type": "Organization",
+        name: "Meta",
+      },
+      {
+        "@type": "Organization",
+        name: "Microsoft",
+      },
+      {
+        "@type": "Organization",
+        name: "UPS",
+      },
+      {
+        "@type": "Organization",
+        name: "Salesforce",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Tech Layoffs 2025: The Shocking Truth Behind the Global Wave (and Why

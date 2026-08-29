@@ -517,10 +517,69 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
+    datePublished: "2025-05-09T08:00:00Z",
+    dateModified: "2025-05-09T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Database Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Database Architect",
+      description:
+        "15+ years experience with relational database systems and optimization",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Compare PostgreSQL and MySQL to find the perfect relational database for your needs. Discover performance differences, use cases, and expert insights to make the right choice for your application.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/databases",
+    },
+    keywords:
+      "postgresql, mysql, database comparison, rdbms, sql databases, enterprise databases",
+    about: [
+      {
+        "@type": "Thing",
+        name: "PostgreSQL",
+      },
+      {
+        "@type": "Thing",
+        name: "MySQL",
+      },
+      {
+        "@type": "Thing",
+        name: "Relational Databases",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Professional Development",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Database Technology",
+    wordCount: 2500,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           PostgreSQL vs MySQL: The Brutally Honest Guide You Never Knew You

@@ -532,10 +532,131 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+    datePublished: "2025-04-29T08:00:00Z",
+    dateModified: "2025-04-29T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Fintech",
+      jobTitle: "Technology Futurist & Cryptocurrency Analyst",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Future Tech Media Group",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover why traditional coding careers are being disrupted by AI and cryptocurrency. Learn how the tech landscape is shifting, why Bitcoin represents a better opportunity than programming, and what strategies can future-proof your career.",
+    keywords:
+      "AI Programming Disruption, Bitcoin Investment Strategy, Tech Career Future, Coding Obsolescence, Cryptocurrency Opportunity",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/ai-vs-jobs",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Bitcoin",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming Career",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Google",
+      },
+      {
+        "@type": "Organization",
+        name: "Meta",
+      },
+      {
+        "@type": "Organization",
+        name: "Intel",
+      },
+      {
+        "@type": "Organization",
+        name: "Apple",
+      },
+      {
+        "@type": "Person",
+        name: "Barack Obama",
+      },
+      {
+        "@type": "Person",
+        name: "Sergey Brin",
+      },
+      {
+        "@type": "Person",
+        name: "Elon Musk",
+      },
+      {
+        "@type": "Person",
+        name: "Brian Armstrong",
+      },
+      {
+        "@type": "Organization",
+        name: "Coinbase",
+      },
+      {
+        "@type": "Organization",
+        name: "Tether",
+      },
+      {
+        "@type": "Organization",
+        name: "Stripe",
+      },
+      {
+        "@type": "Organization",
+        name: "PayPal",
+      },
+      {
+        "@type": "Organization",
+        name: "Uniswap",
+      },
+      {
+        "@type": "Organization",
+        name: "MetaMask",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "Advanced",
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "Tech Professionals, Software Developers, Technology Investors, Career Changers",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the

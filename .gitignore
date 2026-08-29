@@ -45,3 +45,4 @@ fix-og-images.js
 fixInternalLinkPaths.js
 retrofitLinks.js
 fixMissingLinkImports.js
+fixJsonLd.js

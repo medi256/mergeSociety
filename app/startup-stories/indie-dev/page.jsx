@@ -748,10 +748,67 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline:
+      "Building and Shipping a Real Product in One Day - 24 Hour Sprint",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
+    datePublished: "2025-11-02T00:00:00Z",
+    dateModified: "2025-11-02T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Indie Developer & Founder",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Hour-by-hour build log of creating and shipping a complete product from 7pm to 5am using Next.js, Supabase, and Stripe. First sale by morning.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/indie-dev",
+    },
+    keywords:
+      "indie development, 24 hour challenge, Next.js, Supabase, Stripe, rapid shipping, build log",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Indie Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Rapid Product Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Build in Public",
+      },
+    ],
+    isAccessibleForFree: "True",
+    articleSection: "Developer Stories",
+    wordCount: 4200,
+    articleBody:
+      "Real-time narrative of building a product from scratch in one night, including setup, blockers, workflow, late-night decisions, and first sale.",
+  };
+
 const IndieDev = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Building and Shipping a Real Product in One Day - My Late-Night Sprint

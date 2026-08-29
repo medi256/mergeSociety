@@ -239,10 +239,99 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Tech Jobs 2025: Why the Tech Job Market Is Coming Back—But Not How You Expect",
+    alternativeHeadline:
+      "The Tech Job Recovery Is Here, But Only for Those Who Adapt",
+    image: {
+      "@type": "ImageObject",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+      width: 1200,
+      height: 630,
+    },
+    datePublished: "2025-05-01T08:30:00Z",
+    dateModified: "2025-07-01T12:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Dr. Jordan Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Technology Workforce Analyst",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/will-tech-jobs-bounce-back",
+    },
+
+    // Article body structured data
+    articleBody:
+      "Analysis of the 2025 tech job market recovery, focusing on AI specialization requirements and new hiring patterns...",
+    wordCount: 3500,
+
+    // Key entities mentioned
+    about: [
+      {
+        "@type": "Thing",
+        name: "Tech Job Market 2025",
+        description:
+          "Analysis of technology employment trends and recovery patterns",
+      },
+      {
+        "@type": "Thing",
+        name: "AI Career Development",
+        description:
+          "Skills and strategies for artificial intelligence focused tech careers",
+      },
+    ],
+
+    // FAQ Schema for rich snippets
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Will tech jobs come back in 2025?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, data points to recovery especially for AI and specialized roles. Generic coding roles continue shrinking while AI, data, and systems integration roles are booming.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What skills guarantee tech job security now?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "AI development, prompt engineering, data analytics, API integration, and knowledge of regulated industries like finance and healthcare.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Are tech salaries increasing or decreasing?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "After a 12% dip, salaries are stabilizing. High-demand AI and data roles command significant premiums while generic engineering roles have stagnated.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Tech Jobs 2025: Why the Tech Job Market Is Coming Back—But Not How You

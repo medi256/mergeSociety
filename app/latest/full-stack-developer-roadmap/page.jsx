@@ -409,10 +409,80 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Full Stack Developer Roadmap 2025: The Ultimate Beginner's Guide",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+    datePublished: "2025-05-18T09:00:00Z",
+    dateModified: "2025-05-18T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Full Stack Developer & Technical Educator",
+      description:
+        "Experienced developer specializing in teaching web development and software architecture",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master full stack web development with our comprehensive roadmap. Learn HTML, CSS, JavaScript, backend technologies, databases, and deployment strategies for 2025 and beyond.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/full-stack-developer-roadmap",
+    },
+    keywords:
+      "full stack development, web development, frontend, backend, HTML, CSS, JavaScript, React, Node.js, databases, deployment",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Web Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Full Stack Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Engineering",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "instruction",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Web Development Guide",
+    wordCount: 3500,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to

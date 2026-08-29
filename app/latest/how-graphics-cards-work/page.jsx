@@ -161,10 +161,70 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+    datePublished: "2025-04-25T10:00:00Z",
+    dateModified: "2025-04-25T10:00:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Merge Society",
+      url: "https://mergesociety.com/latest/how-graphics-cards-work",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Branch Education",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the incredible architecture of modern GPUs, from CUDA cores to tensor units, and discover how these silicon marvels perform trillions of calculations per second to power everything from gaming to AI.",
+    proficiencyLevel: "Intermediate",
+    articleSection: "Computer Hardware",
+    keywords:
+      "GPU, Graphics Cards, CUDA cores, Tensor cores, Ray tracing, GDDR memory, Parallel computing, AI acceleration",
+    sponsor: {
+      "@type": "Organization",
+      name: "Micron Technology",
+      url: "https://www.micron.com",
+    },
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "NVIDIA GA102",
+      },
+      {
+        "@type": "Thing",
+        name: "GDDR6X Memory",
+      },
+      {
+        "@type": "Thing",
+        name: "RTX 3090",
+      },
+      {
+        "@type": "Thing",
+        name: "CUDA Architecture",
+      },
+    ],
+    educationalUse: "Explanation",
+    accessibilityFeature: ["alternativeText", "structuredContent"],
+    isAccessibleForFree: true,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

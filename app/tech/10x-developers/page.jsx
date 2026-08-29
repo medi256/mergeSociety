@@ -523,10 +523,71 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Legendary Programmers: The Messiahs, Madmen, and Makers Behind Your Favorite Tools",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
+    datePublished: "2025-08-22T00:00:00Z",
+    dateModified: "2025-08-22T00:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://www.instagram.com/mergesociety_/",
+      jobTitle: "Software Developer",
+      description:
+        "Software developer and programming educator passionate about tech history and legendary code",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society Blog",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Meet the legendary programmers who shaped modern computing: Linus Torvalds (Linux & Git), Richard Stallman (GNU/GPL), John Carmack (Doom & 3D graphics), Fabrice Bellard (FFmpeg & QEMU), and more coding legends who built the foundation of today's tech.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/10x-developers",
+    },
+    keywords:
+      "legendary programmers, Linus Torvalds, Richard Stallman, John Carmack, Fabrice Bellard, programming legends, Linux, GNU, Doom, FFmpeg",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Programming History",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Open Source Movement",
+      },
+      {
+        "@type": "Thing",
+        name: "Systems Programming",
+      },
+    ],
+    articleBody:
+      "Programmers. Developers. Software engineers. Most of us, myself included, are absolutely awful. And yet, every era gets a handful of people who bend reality with a text editor and a questionable sleep schedule...",
+    isAccessibleForFree: true,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Legendary Programmers - the messiahs, madmen, and makers behind your

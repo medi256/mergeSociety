@@ -386,10 +386,122 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": "https://mergesociety.com/code-report/https_and_https",
+      headline: "HTTP vs HTTPS Explained: SSL/TLS Security Guide 2025",
+      alternativeHeadline:
+        "Complete Guide to HTTPS, SSL, TLS and Web Encryption",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/https_and_https.webp",
+        width: 600,
+        height: 400,
+        caption: "HTTP and HTTPS security protocols comparison",
+      },
+      datePublished: "2025-12-04T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Technical Writer",
+        description: "Web security educator and technical content creator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Comprehensive tutorial explaining HTTP, HTTPS, SSL, and TLS protocols. Learn how encryption protects data, how certificates work, and why browsers display security indicators.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/code-report/https_and_https",
+      },
+      keywords:
+        "HTTP, HTTPS, SSL, TLS, encryption, web security, certificates, browser security, data protection",
+      articleSection: "Web Security",
+      articleBody:
+        "Complete educational content covering HTTP protocol basics, HTTPS security features, SSL/TLS encryption, certificate verification, and practical implementation",
+      about: [
+        {
+          "@type": "Thing",
+          name: "HTTPS Protocol",
+          description: "Secure version of HTTP that encrypts data transmission",
+        },
+        {
+          "@type": "Thing",
+          name: "SSL/TLS Encryption",
+          description:
+            "Cryptographic protocols that secure internet communications",
+        },
+        {
+          "@type": "Thing",
+          name: "Web Security",
+          description:
+            "Protection of websites and web applications from threats",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "Thing",
+          name: "Public Key Encryption",
+          description:
+            "Cryptographic system using public and private key pairs",
+        },
+        {
+          "@type": "Thing",
+          name: "Certificate Authority",
+          description: "Entity that issues digital certificates for HTTPS",
+        },
+        {
+          "@type": "Thing",
+          name: "TLS Handshake",
+          description: "Process of establishing secure encrypted connection",
+        },
+      ],
+      teaches: [
+        "How HTTP protocol transfers data in clear text",
+        "Why HTTPS encryption is essential for security",
+        "How SSL and TLS protocols establish secure connections",
+        "What SSL certificates are and how browsers verify them",
+        "How to recognize secure connections in browsers",
+        "Steps to implement HTTPS on your own website",
+      ],
+      educationalLevel: "Beginner to Intermediate",
+      proficiencyLevel: "Basic understanding of web browsing required",
+      timeRequired: "PT15M",
+      wordCount: 3200,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+        audienceType:
+          "Web developers, website owners, security students, general public",
+      },
+      learningResourceType: "Tutorial",
+      interactivityType: "expositive",
+      educationalUse: "Learning web security fundamentals",
+    };
+
 const HTTPANDHTTPS = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

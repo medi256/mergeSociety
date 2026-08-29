@@ -510,10 +510,68 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "What Is a Web Server? A Beginner's Guide With Clear Examples",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+    datePublished: "2025-05-09T10:00:00Z",
+    dateModified: "2025-05-09T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Web Development Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Web Developer",
+      description:
+        "10+ years teaching web infrastructure concepts to beginners",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn what a web server really is in simple terms. Discover how servers handle requests, HTTP protocols, routing, and more with clear examples for beginners and developers alike.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/web-server",
+    },
+    keywords:
+      "web server, http, tcp, routing, network ports, localhost, static routing, dynamic routing",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Web Server",
+      },
+      {
+        "@type": "Thing",
+        name: "HTTP Protocol",
+      },
+      {
+        "@type": "Thing",
+        name: "Web Infrastructure",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Self Study",
+    proficiencyLevel: "Beginner",
+    articleSection: "Web Development",
+    wordCount: 2200,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Web Server Explained: The Real Secrets Behind How the Internet

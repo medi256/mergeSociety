@@ -514,10 +514,69 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Apache vs NGINX: The Ultimate Web Server Comparison Guide for 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+    datePublished: "2025-05-09T10:00:00Z",
+    dateModified: "2025-05-09T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Web Architecture Expert",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Cloud Architect",
+      description:
+        "12+ years of experience designing scalable web server architectures",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover which web server is right for your infrastructure: Apache or NGINX? Compare performance, architecture, reverse proxy capabilities, and scalability to make the optimal choice for your modern web applications.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/ApachevsNGINX",
+    },
+    keywords:
+      "apache, nginx, web server, reverse proxy, load balancing, layer 7, http server",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Apache HTTP Server",
+      },
+      {
+        "@type": "Thing",
+        name: "NGINX",
+      },
+      {
+        "@type": "Thing",
+        name: "Web Server Architecture",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Professional Development",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Web Infrastructure",
+    wordCount: 2800,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Web Application Architecture: Apache vs Nginx - The Brutally Honest

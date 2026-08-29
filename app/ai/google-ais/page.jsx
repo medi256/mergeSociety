@@ -384,10 +384,99 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    headline:
+      "A Hands-On Review of Google's AI Essentials Course: 5 Key Lessons, Honest Pros & Cons, and Is the Certificate Worth It?",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
+    datePublished: "2025-04-26T16:45:00Z",
+    dateModified: "2025-04-26T16:45:00Z",
+    author: {
+      "@type": "Person",
+      name: "AI Educator",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the most valuable takeaways from Google's AI Essentials course, including prompt engineering techniques, AI tool categories, and whether the $49 certificate is worth your investment.",
+    itemReviewed: {
+      "@type": "Course",
+      description:
+        "A beginner-level AI course teaching the fundamentals of artificial intelligence tools and techniques.",
+      provider: {
+        "@type": "Organization",
+        name: "Google",
+        sameAs: "https://www.google.com",
+      },
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: "4",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    keywords:
+      "Google AI Essentials, course review, prompt engineering, AI certification",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/google-ais",
+    },
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "ChatGPT",
+      },
+      {
+        "@type": "Thing",
+        name: "Google Gemini",
+      },
+      {
+        "@type": "Organization",
+        name: "Coursera",
+      },
+      {
+        "@type": "Thing",
+        name: "Prompt Engineering",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence Education",
+      },
+      {
+        "@type": "Thing",
+        name: "Online Courses",
+      },
+      {
+        "@type": "Thing",
+        name: "Professional Certification",
+      },
+    ],
+    educationalLevel: "Beginner",
+    isAccessibleForFree: false,
+    learningResourceType: "Course Review",
+    teaches: "Fundamentals of AI tools and prompt engineering techniques",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           A Hands-On Review of Google’s AI Essentials Course: 5 Key Lessons,

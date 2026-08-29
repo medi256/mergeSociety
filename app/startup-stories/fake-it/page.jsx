@@ -313,10 +313,80 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Fine Line Between Faking It and Fraud: How 'Fake It Till You Make It' Shapes Success, Scandal, and Everything In Between",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fakeit-800x445_zlq56h_dgu41v.jpg",
+    datePublished: "2025-04-27T09:30:00Z",
+    dateModified: "2025-04-27T09:30:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Merge Society",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An in-depth exploration of how the 'fake it till you make it' mentality permeates business, entertainment, and culture, examining both its potential for opening doors and its ethical pitfalls through stories of success and scandal.",
+    keywords:
+      "fake it till you make it, business ethics, corporate fraud, Amy Cuddy, Theranos, Elizabeth Holmes, Enron, perception management",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/startup-stories/fake-it",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Business Ethics",
+      },
+      {
+        "@type": "Thing",
+        name: "Success Strategies",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Person",
+        name: "Amy Cuddy",
+      },
+      {
+        "@type": "Person",
+        name: "Elizabeth Holmes",
+      },
+      {
+        "@type": "Organization",
+        name: "Theranos",
+      },
+      {
+        "@type": "Organization",
+        name: "Enron",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Fine Line Between Faking It and Fraud: How "Fake It Till You Make

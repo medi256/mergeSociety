@@ -547,10 +547,62 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Quantum Computing Demystified: The Truth About Grover's Algorithm | May 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
+    datePublished: "2025-05-01T08:00:00Z",
+    dateModified: "2025-05-01T10:30:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Dr. Sophia Chen",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Quantum Information Scientist",
+      },
+      {
+        "@type": "Person",
+        name: "Prof. Alexander Weissman",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Professor of Advanced Computing",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Quantum Realm Technologies",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Breakthrough explanation of quantum computing that cuts through pop science myths. Learn how Grover's Algorithm actually works, why quantum speedups aren't what you think, and the beautiful geometric intuition behind quantum computing's true power.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/what-is-quantam",
+    },
+    keywords:
+      "quantum computing, grover's algorithm, quantum speedup, quantum geometry",
+    articleSection: "Quantum Computing Education",
+    skillLevel: "Beginner to Intermediate",
+    dependencies:
+      "Basic understanding of linear algebra helpful but not required",
+    proficiencyLevel:
+      "All levels welcome with special sections for deeper technical understanding",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Quantum Computing Debunked: How Grover’s Algorithm Destroys the Myths

@@ -619,10 +619,123 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://mergesociety.com/code-report/websites-to-practice-coding",
+      headline:
+        "Top 5 Websites to Practice Coding Daily and Actually Get Better",
+      alternativeHeadline:
+        "Complete Guide to W3Resource, HackerRank, HackerEarth, LeetCode, GeeksforGeeks",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_free_websites_to_practice_coding.webp",
+        width: 600,
+        height: 400,
+        caption: "Top 5 coding practice websites comparison",
+      },
+      datePublished: "2025-12-11T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Programming Educator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Detailed guide to 5 best coding practice platforms with step-by-step usage instructions, filter guides, daily practice workflow, and proven progression strategy.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://mergesociety.com/code-report/websites-to-practice-coding",
+      },
+      keywords:
+        "coding practice websites, hackerrank, leetcode, w3resource, interview preparation, algorithm practice",
+      articleSection: "Programming Education",
+      articleBody:
+        "Comprehensive platform comparison with detailed navigation, practice strategies, and workflow for daily skill building",
+      about: {
+        "@type": "Thing",
+        name: "Coding Practice Platforms",
+        description:
+          "Online platforms providing programming problems for skill development",
+      },
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "W3Resource",
+          url: "https://www.w3resource.com",
+          applicationCategory: "Educational Software",
+          description:
+            "Beginner-friendly platform with 150+ exercises per language",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HackerRank",
+          url: "https://www.hackerrank.com",
+          applicationCategory: "Educational Software",
+          description: "Structured interview preparation with organized tracks",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "HackerEarth",
+          url: "https://www.hackerearth.com",
+          applicationCategory: "Educational Software",
+          description: "Data structures focused practice with mock challenges",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "LeetCode",
+          url: "https://leetcode.com",
+          applicationCategory: "Educational Software",
+          description:
+            "Interview preparation standard with contests and company tags",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "GeeksforGeeks",
+          url: "https://www.geeksforgeeks.org",
+          applicationCategory: "Educational Software",
+          description: "Company-specific problems with hackathon opportunities",
+        },
+      ],
+      teaches: [
+        "How to navigate each coding practice platform",
+        "Which platform to use for specific goals",
+        "Setting up daily coding practice routine",
+        "Using filters to target weak areas",
+        "Analyzing solutions effectively",
+        "Progressing from easy to hard problems",
+        "When and how to join contests",
+        "Building problem-solving confidence",
+      ],
+      educationalLevel: "all levels",
+      timeRequired: "PT14M",
+      wordCount: 3700,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+    };
+
 const PracticeCoding = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>Top 5 Websites To Practice Coding Daily And Actually Get Better</h1>

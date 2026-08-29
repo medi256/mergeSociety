@@ -557,10 +557,91 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "The Life Cycle of a Linux User: From Awareness to Enlightenment",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/linux_hffokn_okg892.jpg",
+    datePublished: "2025-04-29T09:00:00Z",
+    dateModified: "2025-04-29T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Big Box",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Big Box Sweet Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "A humorous journey through the stages of Linux adoption: from curious novice to Arch-wielding ricer to off-grid Gentoo hermit.",
+    keywords:
+      "Linux, Open Source, Tech Culture, Linux Distros, Developer Humor",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/linux",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Linux Operating System",
+      },
+      {
+        "@type": "Thing",
+        name: "Open Source Software",
+      },
+      {
+        "@type": "Thing",
+        name: "Developer Culture",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Linux Mint",
+        operatingSystem: "Linux",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Arch Linux",
+        operatingSystem: "Linux",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Gentoo",
+        operatingSystem: "Linux",
+      },
+      {
+        "@type": "Organization",
+        name: "Brilliant.org",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "General",
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "Software Developers, System Administrators, Tech Enthusiasts",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p.lead"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Life Cycle of a Linux User: From Awareness to Enlightenment (and

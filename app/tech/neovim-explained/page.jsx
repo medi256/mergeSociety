@@ -190,10 +190,84 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Neovim: The Ultimate Guide to Modern Code Editing",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+    datePublished: "2025-05-14T08:00:00Z",
+    dateModified: "2025-05-14T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Web Developer & Writer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society Blog",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Everything you need to know about Neovim in one place. Discover its features, setup Lua configs, choose the right plugins, and build a lightning-fast editor.",
+    keywords:
+      "Neovim, Lua config, modern Vim, code editor, LSP, init.lua, plugin management, terminal editor, Neovim setup, Neovim beginner guide",
+    articleSection: "Developer Tools",
+    wordCount: 2100,
+    isAccessibleForFree: true,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/neovim-explained",
+    },
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Why should I use Neovim?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Neovim is a highly configurable, lightweight, and modern fork of Vim. It offers features like Lua scripting, built-in LSP, and plugin support that make it ideal for fast, keyboard-driven development.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is Neovim better than Vim or VS Code?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Neovim combines the performance of Vim with the extensibility of VS Code. Its Lua support and modern plugin ecosystem make it a preferred choice for developers who want speed and customization.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What are the best Neovim plugins?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Top Neovim plugins include Telescope, Treesitter, Mason, Lualine, and nvim-cmp. These plugins enhance search, syntax highlighting, UI, LSP integration, and auto-completion.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I configure Neovim with Lua?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Neovim allows you to use an `init.lua` file instead of `init.vim`. You can install plugins using a Lua-based manager like Lazy.nvim and configure LSP, keymaps, and UI directly with Lua.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Neovim: The Ultimate Modern Vim Replacement Revealed – Why Every

@@ -374,10 +374,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.jpg",
+    datePublished: "2025-04-27T09:00:00Z",
+    dateModified: "2025-04-27T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Winters",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover powerful open source alternatives to popular subscription-based software platforms and learn how to break free from the growing SaaS trap that's draining your wallet.",
+    keywords: "Open Source Software, SaaS alternatives, digital freedom",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/saas",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Open Source Software",
+      },
+      {
+        "@type": "Thing",
+        name: "Software as a Service Alternatives",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "LibreOffice",
+        applicationCategory: "Office Suite",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "ERPNext",
+        applicationCategory: "Enterprise Resource Planning",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Mattermost",
+        applicationCategory: "Team Chat",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Jitsi",
+        applicationCategory: "Video Conferencing",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "DaVinci Resolve",
+        applicationCategory: "Video Editing",
+      },
+    ],
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           From SaaS Panic to Open Source Paradise: The Ultimate Guide to

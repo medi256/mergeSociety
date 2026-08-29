@@ -221,10 +221,53 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "JavaScript Framework Updates 2025: 15 Game-Changing Features (Revised)",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7040859_sp09q7_oelsvn.jpg",
+    datePublished: "2025-05-09T12:00:00Z",
+    dateModified: "2025-06-30T09:00:00Z",
+    version: "2.0",
+    description:
+      "Updated May 2025: Comprehensive guide to the latest JavaScript framework innovations including React 19, Next.js 15, Svelte 5 and more.",
+    author: {
+      "@type": "Organization",
+      name: "Merge Society",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/javascript-features",
+    },
+    keywords: "javascript, frameworks, react, nextjs, svelte, updated 2025",
+    articleSection: "Web Development",
+    articleBody: "Detailed analysis of 15 key JavaScript framework updates...",
+    wordCount: 1800,
+    timeRequired: "PT9M",
+    educationalLevel: "Intermediate",
+    proficiencyLevel: "AdvancedBeginner",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           JavaScript Framework Updates 2025: 15 Game-Changing Features Every

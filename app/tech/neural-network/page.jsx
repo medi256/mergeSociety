@@ -541,10 +541,61 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+    datePublished: "2025-05-01T08:00:00Z",
+    dateModified: "2025-05-01T10:30:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Dr. Maya Rodriguez",
+        url: "https://mergesociety.com/about",
+        jobTitle: "AI Research Scientist",
+      },
+      {
+        "@type": "Person",
+        name: "Prof. James Liu",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Professor of Computer Science",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Explained Learning Hub",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Revolutionary explanation of neural networks without the math jargon. Learn how computers recognize handwritten digits, why layered networks create intelligence, and the beautiful intuition behind deep learning's true power.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/neural-network",
+    },
+    keywords:
+      "neural networks, deep learning, machine learning, pattern recognition",
+    articleSection: "AI Education",
+    skillLevel: "Beginner to Intermediate",
+    dependencies: "No mathematical background required",
+    proficiencyLevel:
+      "All levels welcome with special sections for deeper technical understanding",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Neural Networks Explained: How Your Brain Outsmarts Computers at

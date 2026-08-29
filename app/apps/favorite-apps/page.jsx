@@ -490,10 +490,89 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Ultimate List: My 20 Favorite Android Apps of All Time—A Series Finale Celebration",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/favorite-apps_nlfmwq_ovuvrp.jpg",
+    datePublished: "2025-04-27T08:00:00Z",
+    dateModified: "2025-04-27T12:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jordan Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior App Reviewer & Developer",
+      description:
+        "Android specialist with expertise in app development, UI/UX design, and mobile productivity tools",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "App Reviewer",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "After eight years of monthly Android app recommendations, discover my all-time top 20 favorite Android apps that have stood the test of time, offering unique features and exceptional utility.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/apps/favorite-apps",
+    },
+    keywords:
+      "android apps, best android apps, Nova Launcher, KWGT, Tasker, productivity apps, customization apps",
+    articleSection: "Android App Reviews",
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "Nova Launcher",
+        operatingSystem: "Android",
+        applicationCategory: "Launcher",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "KWGT",
+        operatingSystem: "Android",
+        applicationCategory: "Utilities",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Tasker",
+        operatingSystem: "Android",
+        applicationCategory: "Productivity",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Palette",
+        operatingSystem: "Android",
+        applicationCategory: "Customization",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Shelf",
+        operatingSystem: "Android",
+        applicationCategory: "Utilities",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Lumina Walls",
+        operatingSystem: "Android",
+        applicationCategory: "Personalization",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Top Best Android Apps: 20 Underground Favorites That’ll Transform Your

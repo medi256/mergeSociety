@@ -172,10 +172,78 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline:
+      "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+    datePublished: "2025-04-25T08:15:00Z",
+    dateModified: "2025-04-25T08:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jeff Delaney",
+      url: "https://mergesociety.com/latest/why-my-side-hustle-failed",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Fireship",
+      logo: {
+        "@type": "ImageObject",
+        url: ".png",
+      },
+    },
+    description:
+      "A candid look at why my side project is struggling despite promising numbers, with practical advice for developers and entrepreneurs on validating ideas before investing too much time or money.",
+    articleBody:
+      "This isn't the blog post I thought I'd be writing today. If I'd stuck to the original plan, you'd be reading an epic tale about my daring escape from YouTube, the purchase of a catamaran, and the exodus to a life sailing around the world...",
+    keywords:
+      "side hustle, entrepreneurship, startup validation, developer side projects, bootstrap business, Firebase, building in public, product validation",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "    https://mergesociety.com/latest/why-my-side-hustle-failed",
+    },
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "Firebase",
+      },
+      {
+        "@type": "Thing",
+        name: "Product Hunt",
+      },
+      {
+        "@type": "Organization",
+        name: "Y Combinator",
+      },
+      {
+        "@type": "Person",
+        name: "Sam Altman",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Entrepreneurship",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+    ],
+    isAccessibleForFree: true,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Why My Side Hustle Is Failing: Brutally Honest Lessons from Building

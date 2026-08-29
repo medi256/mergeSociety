@@ -562,10 +562,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Inside Tech's Wild Subcultures: From Devfluencers to Codepreneurs—A Candid Exposé",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alex-kotliarskyi-ourQHRTE2IM-unsplash_pxmyun_iha0bn.jpg",
+    datePublished: "2025-04-29T10:00:00Z",
+    dateModified: "2025-04-29T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      jobTitle: "Tech Culture Analyst",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Anthropology Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An unfiltered deep dive into tech's most colorful personalities: devfluencers, bloggers, codepreneurs, sales guys, product managers, tech supremacists, and FAANG sexuals.",
+    keywords:
+      "Tech Subcultures, Devfluencers, Codepreneurs, Tech Industry Analysis, Developer Stereotypes",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/dev-fluencer",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Tech Industry Culture",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Social Media Influencers",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Google",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "TikTok",
+        applicationCategory: "SocialNetworkingApplication",
+      },
+      {
+        "@type": "Organization",
+        name: "Reddit",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "General",
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "Software Developers, Tech Professionals, Tech Industry Observers",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Inside Tech’s Wild Subcultures: From Devfluencers to Codepreneurs—A

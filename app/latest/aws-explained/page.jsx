@@ -401,10 +401,79 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+    datePublished: "2025-05-17T10:00:00Z",
+    dateModified: "2025-05-17T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Rodriguez",
+      url: "https://mergesociety.com/about",
+      jobTitle: "AWS Certified Solutions Architect & Cloud Consultant",
+      description:
+        "Cloud architecture specialist with 10+ years of AWS deployment experience",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Cloud Experts Technology Publishing",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the highs and lows of Amazon Web Services in our comprehensive, no-holds-barred guide to cloud computing's most powerful platform. Updated for 2025 with insider tips.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/aws-explained",
+    },
+    keywords:
+      "aws, cloud computing, amazon web services, cloud infrastructure, ec2, lambda, s3, cloud platform comparison, aws security, cost optimization",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Amazon Web Services",
+      },
+      {
+        "@type": "Thing",
+        name: "Cloud Computing",
+      },
+      {
+        "@type": "Thing",
+        name: "Infrastructure as a Service",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "instruction",
+    proficiencyLevel: "Intermediate",
+    articleSection: "Cloud Computing Guide",
+    wordCount: 3000,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster</h1>
         <Image

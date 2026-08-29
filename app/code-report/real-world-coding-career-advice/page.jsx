@@ -318,10 +318,93 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id":
+        "https://mergesociety.com/code-report/real-world-coding-career-advice",
+      headline:
+        "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",
+      alternativeHeadline:
+        "From Tutorial Hell to Real Jobs: The CS Student's Guide to Building Career-Changing Projects",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        width: 1200,
+        height: 630,
+        caption:
+          "Computer science students learning to build projects for real users instead of localhost",
+      },
+      datePublished: "2025-06-28T14:00:00Z",
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        sameAs: ["https://twitter.com/manager70191"],
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 200,
+          height: 200,
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://mergesociety.com/code-report/real-world-coding-career-advice",
+      },
+      articleSection: "Career Development",
+      articleBody:
+        "Comprehensive guide for computer science students on building real-world projects that accelerate learning and career prospects...",
+      wordCount: 3200,
+      keywords:
+        "computer science career, software engineering advice, programming projects, CS student tips, developer jobs",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Software Engineering Career",
+          description:
+            "Professional development path for computer science students and new developers",
+        },
+        {
+          "@type": "Thing",
+          name: "Real-World Programming Projects",
+          description:
+            "Software development projects built for actual users rather than academic exercises",
+        },
+      ],
+      audience: {
+        "@type": "Audience",
+        audienceType: "Computer Science Students and New Developers",
+        geographicArea: "Global",
+      },
+      isAccessibleForFree: true,
+      genre: [
+        "Career Development",
+        "Programming Education",
+        "Professional Advice",
+      ],
+      learningResourceType: "Career Guide",
+      educationalLevel: "University Level",
+      typicalAgeRange: "18-30",
+      interactivityType: "expositive",
+      educationalUse: "Career Development",
+    };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Real-World Coding: Why Building for ACTUAL Users Will 10x Your

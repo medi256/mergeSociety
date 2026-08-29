@@ -298,10 +298,88 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "Shadow Brokers NSA Hack: Complete 2025 Analysis | Updated Investigation",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+    datePublished: "2025-05-01T08:30:00Z",
+    dateModified: "2025-07-01T14:45:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Alex Morgan",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior Cybersecurity Analyst",
+      },
+      {
+        "@type": "Person",
+        name: "Dr. Elena Vasquez",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Digital Forensics Specialist",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Cybersecurity Intelligence Report",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "UPDATED: Complete investigation into the Shadow Brokers NSA breach. New analysis reveals lasting impact of EternalBlue, WannaCry origins, and current cybersecurity implications.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/greatest-hack",
+    },
+    keywords:
+      "shadow brokers, nsa breach, equation group, eternalblue, wannacry, cyber weapons, updated analysis, 2025 cybersecurity",
+    articleSection: "Updated Cybersecurity Analysis",
+    isBasedOn: {
+      "@type": "Article",
+      name: "Original Shadow Brokers Investigation",
+      datePublished: "2025-05-01T08:30:00Z",
+    },
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "National Security Agency",
+      },
+      {
+        "@type": "Organization",
+        name: "Shadow Brokers",
+      },
+      {
+        "@type": "Organization",
+        name: "Equation Group",
+      },
+      {
+        "@type": "Person",
+        name: "Harold T. Martin III",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "EternalBlue",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "WannaCry",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>NSA Equation Group Hack: The Greatest Hack in History</h1>
 

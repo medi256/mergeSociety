@@ -527,10 +527,73 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "REST API Explained: The Backbone of Modern Cloud Development",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7015995_iwu9fs_to6s06.jpg",
+    datePublished: "2025-05-10T09:00:00Z",
+    dateModified: "2025-05-10T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Nathan Heckman",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Cloud Solutions Architect",
+      description:
+        "Cloud architecture specialist with expertise in modern API design and cloud-native application development",
+      affiliation: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+      },
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn what REST APIs are, how they enable modern cloud applications, and see real-world examples of REST in action with this comprehensive, accessible guide.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/rest-api",
+    },
+    keywords:
+      "REST API, cloud development, web services, API design, CRUD operations, HTTP methods, cloud architecture",
+    about: [
+      {
+        "@type": "Thing",
+        name: "REST API",
+      },
+      {
+        "@type": "Thing",
+        name: "Cloud Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Web Services",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "General Knowledge",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Cloud Development",
+    wordCount: 1800,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           RESTful API: How to Build a Real REST API with Node and Express

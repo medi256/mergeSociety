@@ -437,10 +437,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-spiske-iar-afB0QQw-unsplash_eifg9s_od6qtp.jpg",
+    datePublished: "2025-04-27T09:00:00Z",
+    dateModified: "2025-04-27T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Amara Chen",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Decoded Media, Inc.",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "An accessible deep dive into algorithms—what they are, how they work, and their impact on society. Follow along as we demystify the technology that powers everything from search results to dating apps.",
+    keywords:
+      "Algorithms, Technology Explained, Data Processing, AI Fundamentals, Digital Technology",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/algorithms",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Algorithms",
+      },
+      {
+        "@type": "Thing",
+        name: "Computer Science",
+      },
+      {
+        "@type": "Thing",
+        name: "Data Processing",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "Oxford Internet Institute",
+      },
+      {
+        "@type": "Person",
+        name: "Professor Victoria Nash",
+      },
+      {
+        "@type": "Person",
+        name: "Dr. Bernie Hogan",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "General Interest",
+    audience: {
+      "@type": "Audience",
+      audienceType: "General Public",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           What Are Algorithms, Really? The Truth Behind the Technology Shaping

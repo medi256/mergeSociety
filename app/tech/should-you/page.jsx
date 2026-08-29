@@ -458,10 +458,65 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.jpg",
+    datePublished: "2025-05-13T12:00:00Z",
+    dateModified: "2025-05-13T12:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Software Engineer",
+      description:
+        "Former bank teller with a Master's in Computer Science from Cal Poly San Luis Obispo (2017)",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society Blog",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover if a Computer Science degree is worth it in 2025 from someone who transitioned from banking to tech. Learn about the financial ROI, job prospects, and alternatives to help you make an informed decision.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/should-you",
+    },
+    keywords:
+      "computer science degree, CS degree worth it, masters in computer science 2025, tech career change",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Computer Science Education",
+      },
+      {
+        "@type": "Thing",
+        name: "Career Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Higher Education ROI",
+      },
+    ],
+    articleBody:
+      "Considering a master's degree in Computer Science? You're not alone. With technology careers booming and skill demands evolving, deciding whether to take the plunge into graduate school is a choice that can shape the trajectory of your professional life...",
+    isAccessibleForFree: true,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>Should I Get a CS Degree in 2025: Is It Still Worth It?</h1>
         <Image

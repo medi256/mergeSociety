@@ -316,10 +316,124 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "AWS Services Explained: Complete 2025 Guide to 50+ Amazon Cloud Products",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/aws_lg2upw_ilakce.webp",
+    datePublished: "2024-05-03T08:30:00Z",
+    dateModified: "2025-07-01T10:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Morgan",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Cloud Solutions Architect",
+      description:
+        "AWS Solutions Architect Professional with 10+ years designing scalable cloud infrastructure",
+      sameAs: [
+        "https://www.linkedin.com/in/alexmorgan-cloud",
+        "https://twitter.com/manager70191",
+      ],
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+      sameAs: [
+        "https://twitter.com/manager70191",
+        "https://www.linkedin.com/company/merge-society",
+      ],
+    },
+    description:
+      "Updated comprehensive guide to AWS services in 2025. Learn which cloud tools deliver real value, avoid costly mistakes, and implement scalable architecture patterns.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/50-top-aws",
+    },
+    keywords:
+      "AWS services 2025, cloud computing, serverless architecture, containers, cloud infrastructure, DevOps, cost optimization",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Amazon Web Services",
+        description: "Cloud computing platform offering 200+ services",
+      },
+      {
+        "@type": "Thing",
+        name: "Cloud Architecture",
+        description: "Design patterns for scalable cloud applications",
+      },
+      {
+        "@type": "Thing",
+        name: "Serverless Computing",
+        description: "Event-driven computing without server management",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "AWS Lambda",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Amazon EC2",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Amazon S3",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalUse: "Professional Development",
+    proficiencyLevel: "Intermediate",
+    learningResourceType: "Guide",
+
+    // Article update information
+    version: "2.1",
+    copyrightYear: "2025",
+    inLanguage: "en-US",
+
+    // Engagement metrics schema
+    interactionStatistic: {
+      "@type": "InteractionCounter",
+      interactionType: "https://schema.org/ReadAction",
+      userInteractionCount: "15000+",
+    },
+
+    // FAQ schema for featured snippets
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What are the most important AWS services in 2025?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The essential AWS services in 2025 include Lambda for serverless computing, EC2 for traditional servers, S3 for storage, RDS/Aurora for databases, and CloudFormation for infrastructure as code.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I choose between AWS Lambda and EC2?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Choose Lambda for event-driven, unpredictable workloads where you want zero server management. Choose EC2 for predictable workloads, legacy applications, or when you need full server control.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           AWS Services Explained: The Complete 2025 Guide to 50+ Amazon Cloud

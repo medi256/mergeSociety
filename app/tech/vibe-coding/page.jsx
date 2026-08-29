@@ -289,10 +289,96 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://mergesociety.com/tech/vibe-coding",
+      headline:
+        "Vibe Coding 2025: The AI Programming Revolution That's Making Developers Millions",
+      alternativeHeadline:
+        "How to Master Vibe Coding and Join the AI Programming Revolution",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+        width: 1200,
+        height: 630,
+        caption:
+          "Vibe Coding concept visualization showing AI-assisted programming workflow",
+      },
+      datePublished: "2025-05-09T09:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://mergesociety.com/about",
+        sameAs: ["https://twitter.com/manager70191"],
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 200,
+          height: 200,
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/tech/vibe-coding",
+      },
+      articleSection: "Programming Tutorial",
+      articleBody:
+        "Comprehensive guide to vibe coding, the AI programming revolution of 2025...",
+      wordCount: 2500,
+      keywords:
+        "vibe coding, AI programming, developer success, programming tutorial, AI tools",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Vibe Coding",
+          description:
+            "AI-assisted programming methodology for rapid development",
+        },
+        {
+          "@type": "Thing",
+          name: "AI Programming",
+          description:
+            "Using artificial intelligence tools for software development",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "Person",
+          name: "Andrej Karpathy",
+          description: "Pioneer of the Vibe Coding methodology",
+        },
+        {
+          "@type": "Person",
+          name: "Peter Levels",
+          description:
+            "Successful indie developer using vibe coding techniques",
+        },
+      ],
+      isAccessibleForFree: true,
+      genre: ["Programming", "Technology Tutorial", "Developer Guide"],
+      learningResourceType: "Tutorial",
+      educationalLevel: "Intermediate",
+      typicalAgeRange: "18-65",
+      interactivityType: "expositive",
+      educationalUse: "Professional Development",
+    };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to

@@ -180,10 +180,53 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+    datePublished: "2025-05-08T09:00:00Z",
+    dateModified: new Date().toISOString(),
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Software Engineer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Updated 2025 guide to programming languages from beginner to expert level with career path recommendations.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/developer-roadmaps",
+    },
+    proficiencyLevel: "Beginner,Intermediate,Advanced",
+    articleSection: "Computer Programming",
+    articleBody:
+      "Comprehensive guide covering programming languages from Scratch to Rust with 2025 updates...",
+    wordCount: 3500,
+    timeRequired: "PT15M",
+    educationalLevel: "Beginner to Advanced",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Programming Languages Iceberg: Developer Roadmap Every Beginner Needs

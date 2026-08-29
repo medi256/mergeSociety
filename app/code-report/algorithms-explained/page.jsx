@@ -536,10 +536,73 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
+    datePublished: "2025-05-10T08:00:00Z",
+    dateModified: "2025-05-10T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "David J. Malan",
+      url: "https://cs.harvard.edu/malan/",
+      jobTitle: "Professor of Computer Science",
+      description:
+        "Harvard University Professor of Computer Science and instructor of the popular CS50 course",
+      affiliation: {
+        "@type": "Organization",
+        name: "Harvard University",
+        url: "https://www.harvard.edu",
+      },
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn how algorithms shape our world from Harvard's David J. Malan - from making sandwiches to powering AI systems in this comprehensive, accessible guide.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/algorithms-explained",
+    },
+    keywords:
+      "algorithms, computer science, AI, machine learning, David Malan, harvard, computational thinking",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Algorithms",
+      },
+      {
+        "@type": "Thing",
+        name: "Computer Science",
+      },
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "General Knowledge",
+    proficiencyLevel: "Beginner to Advanced",
+    articleSection: "Computer Science",
+    wordCount: 3800,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Algorithms Explained: The Viral Breakdown by Harvard Experts (You’ll

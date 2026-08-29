@@ -234,10 +234,94 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Docker 101: Containerization That Actually Ships Code And Scales Without Headaches",
+    alternativeHeadline:
+      "Complete Docker Tutorial From Bare Metal To Production Deployment",
+    image: {
+      "@type": "ImageObject",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Docker containerization workflow from bare metal to production deployment",
+    },
+    datePublished: "2025-05-03T08:00:00Z",
+    dateModified: new Date().toISOString(),
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "DevOps Engineer",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+        width: 300,
+        height: 100,
+      },
+    },
+    description:
+      "Complete Docker tutorial covering containerization fundamentals, the Docker daemon, Dockerfile optimization, Docker Compose, Docker Scout security scanning, and production deployment strategies.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/docker-explained",
+    },
+    keywords:
+      "docker, containerization, docker compose, dockerfile, docker scout, production deployment, container security, docker cli, kubernetes, microservices",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Docker",
+        description:
+          "Platform for developing, shipping, and running applications in containers",
+      },
+      {
+        "@type": "Thing",
+        name: "Containerization",
+        description: "OS-level virtualization for application deployment",
+      },
+      {
+        "@type": "Thing",
+        name: "Container Orchestration",
+        description: "Managing and scaling containerized applications",
+      },
+    ],
+    teaches: [
+      "Docker fundamentals and architecture",
+      "How containers share the host OS kernel",
+      "Creating optimized Dockerfiles with layer caching",
+      "Container security scanning with Docker Scout",
+      "Multi-container applications with Docker Compose",
+      "When to use Kubernetes vs simpler alternatives",
+      "Production deployment strategies",
+    ],
+    educationalLevel: "beginner to intermediate",
+    timeRequired: "PT16M",
+    wordCount: 4500,
+    isAccessibleForFree: true,
+    inLanguage: "en-US",
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "software developers, devops engineers, system administrators, backend developers",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

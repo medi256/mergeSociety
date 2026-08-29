@@ -253,10 +253,135 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": ["Article", "TechArticle"],
+    headline:
+      "WebSockets vs Socket.IO: The Ultimate Real-Time Guide for JavaScript Developers",
+    alternativeHeadline: "Complete WebSocket and Socket.IO Tutorial 2025",
+    image: {
+      "@type": "ImageObject",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+      width: 1200,
+      height: 630,
+      caption: "WebSockets vs Socket.IO real-time communication architecture",
+    },
+    datePublished: "2025-06-29T08:00:00Z",
+    dateModified: "2025-06-29T10:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Web Developer",
+      knowsAbout: [
+        "WebSockets",
+        "Socket.IO",
+        "Real-time Applications",
+        "JavaScript",
+        "Node.js",
+      ],
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      url: "https://mergesociety.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/websocets-explained",
+    },
+    description:
+      "Comprehensive guide to WebSockets and Socket.IO for building real-time web applications. Includes step-by-step tutorials, code examples, and best practices for 2025.",
+
+    // Tutorial-specific schema
+    educationalLevel: "beginner,intermediate",
+    teaches: [
+      "WebSocket fundamentals",
+      "Socket.IO implementation",
+      "Real-time chat applications",
+      "WebSocket vs HTTP comparison",
+      "WebRTC and WebTransport overview",
+    ],
+
+    // Content metrics
+    wordCount: 3800,
+    timeRequired: "PT12M",
+    isAccessibleForFree: true,
+
+    // Enhanced about section
+    about: [
+      {
+        "@type": "Thing",
+        name: "WebSockets",
+        description:
+          "Full-duplex communication protocol for real-time web applications",
+      },
+      {
+        "@type": "Thing",
+        name: "Socket.IO",
+        description:
+          "JavaScript library for real-time web applications with WebSocket support",
+      },
+      {
+        "@type": "Thing",
+        name: "Real-time Communication",
+        description:
+          "Instant bidirectional data exchange between client and server",
+      },
+    ],
+
+    // Mentions for entity recognition
+    mentions: [
+      { "@type": "SoftwareApplication", name: "Node.js" },
+      { "@type": "SoftwareApplication", name: "Express.js" },
+      { "@type": "ComputerLanguage", name: "JavaScript" },
+      { "@type": "Thing", name: "WebRTC" },
+      { "@type": "Thing", name: "WebTransport" },
+      { "@type": "Thing", name: "HTTP Protocol" },
+    ],
+
+    // FAQ section for featured snippets
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is the difference between WebSockets and HTTP?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "HTTP is uni-directional and requires a new connection for every request/response. WebSockets establish a persistent, two-way connection, allowing both server and client to send data any time.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can I use Socket.IO without WebSockets?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Socket.IO uses WebSockets under the hood, but with automatic fallbacks to older technologies when necessary. However, the client/server protocol is custom—don't mix up Socket.IO with raw WebSockets APIs.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is Socket.IO production ready?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Absolutely. Socket.IO powers everything from chat apps to multiplayer games and can scale worldwide when used correctly, often with Redis or other adapters.",
+        },
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           WebSockets vs Socket.IO: The Ultimate Real-Time Guide for JavaScript

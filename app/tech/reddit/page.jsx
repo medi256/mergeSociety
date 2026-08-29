@@ -462,10 +462,85 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
+    image: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+    ],
+    datePublished: "2025-04-30T10:15:00Z",
+    dateModified: "2025-04-30T12:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Technology Security Analyst",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Code Rabbit Technologies",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover how AI-powered bots are manipulating Reddit communities, cloning voices for high-tech scams, and performing prompt injection attacks. Learn protection strategies in this essential 2025 tech security guide.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/reddit",
+    },
+    keywords:
+      "AI bots, Reddit manipulation, voice cloning scams, prompt injection, AI security, digital deception",
+    articleSection: "Digital Security",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence Security",
+        sameAs:
+          "https://en.wikipedia.org/wiki/Artificial_intelligence_security",
+      },
+      {
+        "@type": "Thing",
+        name: "Voice Cloning",
+        sameAs: "https://en.wikipedia.org/wiki/Voice_cloning",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "University of Zurich",
+        sameAs: "https://www.uzh.ch/en.html",
+      },
+      {
+        "@type": "Organization",
+        name: "Reddit",
+        sameAs: "https://www.reddit.com/",
+      },
+      {
+        "@type": "Organization",
+        name: "Code Rabbit",
+        sameAs: "https://www.coderabbit.ai/",
+      },
+    ],
+    programmingLanguage: {
+      "@type": "ComputerLanguage",
+      name: "Natural Language Processing",
+      url: "https://en.wikipedia.org/wiki/Natural_language_processing",
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power

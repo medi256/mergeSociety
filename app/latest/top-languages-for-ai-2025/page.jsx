@@ -370,10 +370,79 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Best Programming Languages for AI and Machine Learning in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
+    datePublished: "2025-05-16T08:00:00Z",
+    dateModified: "2025-05-16T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "AI Developer & Technology Educator",
+      description:
+        "Specializing in artificial intelligence development and programming education",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the top programming languages for AI and ML in 2025: Python, R, Julia, Java, and JavaScript. Comprehensive analysis of strengths and limitations for each language to help you choose the right tool for your AI project or career path.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/top-languages-for-ai-2025",
+    },
+    keywords:
+      "AI programming languages, machine learning development, Python for AI, R language data science, Julia AI development, Java machine learning, JavaScript AI frameworks",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming Languages",
+      },
+      {
+        "@type": "Thing",
+        name: "Machine Learning",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Research and Learning",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Programming for AI",
+    wordCount: 3500,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         {/* SEO-optimized H1 with target keyword */}
         <h1>Best Programming Language for AI and Machine Learning</h1>

@@ -410,10 +410,79 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Rust Programming Language: Memory Safety and Performance Guide 2025",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+    datePublished: "2025-05-18T09:00:00Z",
+    dateModified: "2025-05-18T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Systems Engineer & Rust Evangelist",
+      description:
+        "Experienced developer specializing in high-performance systems programming and memory-safe applications",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master Rust's revolutionary approach to memory safety and high performance without garbage collection. Learn ownership, borrowing, and why Rust is loved by developers in 2025.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/rust-programming-language",
+    },
+    keywords:
+      "rust programming, memory safety, ownership model, borrow checker, systems programming, performance optimization, cargo",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Rust Programming Language",
+      },
+      {
+        "@type": "Thing",
+        name: "Memory Safety",
+      },
+      {
+        "@type": "Thing",
+        name: "Systems Programming",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "instruction",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Programming Language Guide",
+    wordCount: 2800,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Rust Programming Language: Memory Safety and Performance Explained

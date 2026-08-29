@@ -417,10 +417,89 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+    datePublished: "2025-04-27T08:00:00Z",
+    dateModified: "2025-04-27T08:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jamie Chen",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Journeys Media",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Navigate the overwhelming world of technology choices with this practical guide to selecting the right tech stack for your project, whether it's web, mobile, desktop, games, or AI applications.",
+    keywords:
+      "Tech Stack, Web Development, Mobile Development, Desktop Applications, Game Development, AI Development",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/tech-stack",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Technology Stack Selection",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "React",
+        applicationCategory: "Web Framework",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Unity",
+        applicationCategory: "Game Engine",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "Flutter",
+        applicationCategory: "Mobile Development Framework",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: "PyTorch",
+        applicationCategory: "Machine Learning Framework",
+      },
+    ],
+    isAccessibleForFree: true,
+    educationalLevel: "Beginner",
+    audience: {
+      "@type": "Audience",
+      audienceType: "Software Developers",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Definitive Beginner’s Guide to Picking Your Tech Stack for Web,

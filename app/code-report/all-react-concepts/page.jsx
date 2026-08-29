@@ -574,10 +574,61 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+    datePublished: "2025-05-02T09:00:00Z",
+    dateModified: "2025-05-02T09:00:00Z",
+    author: [
+      {
+        "@type": "Person",
+        name: "Alex Chen",
+        url: "https://mergesociety.com/about",
+        jobTitle: "Senior React Engineer",
+      },
+      {
+        "@type": "Person",
+        name: "Maya Rodriguez",
+        url: "https://mergesociety.com/about",
+        jobTitle: "React Architecture Specialist",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "React Mastery",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master every essential React concept from fundamentals to advanced patterns. This comprehensive guide breaks down components, hooks, state management, and architecture for beginners and experienced developers alike.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/all-react-concepts",
+    },
+    keywords:
+      "React, JavaScript, components, hooks, JSX, virtual DOM, state management, context, suspense, error boundaries",
+    articleSection: "React Framework Tutorials",
+    skillLevel: "Multiple entry points for varied technical backgrounds",
+    dependencies: "Basic JavaScript knowledge recommended",
+    proficiencyLevel:
+      "Accessible for beginners with advanced sections for experienced developers",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           React Fundamentals: The Complete Breakdown of Components, Hooks, and

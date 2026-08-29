@@ -585,10 +585,94 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+    datePublished: "2025-04-26T09:00:00Z",
+    dateModified: "2025-04-26T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Jamie Taylor",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Hardware Specialist",
+      description:
+        "Computer hardware expert with over 15 years of experience in PC building and component testing",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Tech Explained",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Explore the core components that power every computer, from the CPU and motherboard to RAM, storage, and cooling systems. Perfect for tech enthusiasts and beginners alike.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/computer-components",
+    },
+    keywords:
+      "computer components, PC parts guide, motherboard explained, CPU basics, RAM vs storage",
+    mentions: [
+      {
+        "@type": "Thing",
+        name: "CPU",
+      },
+      {
+        "@type": "Thing",
+        name: "RAM",
+      },
+      {
+        "@type": "Thing",
+        name: "Motherboard",
+      },
+      {
+        "@type": "Thing",
+        name: "Graphics Card",
+      },
+      {
+        "@type": "Thing",
+        name: "SSD",
+      },
+      {
+        "@type": "Thing",
+        name: "Hard Drive",
+      },
+      {
+        "@type": "Thing",
+        name: "Power Supply",
+      },
+    ],
+    about: [
+      {
+        "@type": "Thing",
+        name: "Computer Hardware",
+      },
+      {
+        "@type": "Thing",
+        name: "PC Building",
+      },
+      {
+        "@type": "Thing",
+        name: "Technology Education",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Essential Guide to Computer Components: Understanding the Heart

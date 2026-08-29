@@ -406,10 +406,80 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Best Operating System for Programming 2025: Mac vs Windows vs Linux Developer Guide",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+    datePublished: "2025-08-30T12:00:00Z",
+    dateModified: "2025-08-30T12:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://www.instagram.com/mergesociety_/",
+      jobTitle: "Software Developer & Technical Writer",
+      description:
+        "Experienced software developer with expertise across multiple operating systems and development environments",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Comprehensive guide comparing Mac, Windows, and Linux for programming in 2025. Real developer experiences, WSL insights, and practical recommendations for choosing your coding platform.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+    },
+    keywords:
+      "best operating system for programming, mac vs windows vs linux programming, developer operating system comparison, WSL for developers, programming environment setup",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Programming Operating Systems",
+      },
+      {
+        "@type": "Thing",
+        name: "Developer Environment Setup",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development Tools",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "instruction",
+    proficiencyLevel: "Intermediate",
+    articleSection: "Programming Guide",
+    wordCount: 3500,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".practical-recommendations",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Best Operating System(OS) for programming? Mac vs Windows vs Linux

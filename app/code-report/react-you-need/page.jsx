@@ -430,10 +430,53 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+    datePublished: "2025-05-02T09:00:00Z",
+    dateModified: "2025-05-02T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Kyle from Merge Society",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Web Developer and Coding Educator",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master the 10 crucial JavaScript concepts you need to know before learning React. This comprehensive guide breaks down everything from scoping to advanced array methods with practical examples.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/react-you-need",
+    },
+    keywords:
+      "JavaScript, React, Web Development, JavaScript Fundamentals, React Prerequisites",
+    articleSection: "JavaScript Tutorials",
+    skillLevel: "Beginner to Intermediate",
+    dependencies: "Basic HTML/CSS knowledge recommended",
+    proficiencyLevel:
+      "Perfect for developers with basic JavaScript knowledge looking to transition to React",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         {/* SEO-optimized content structure here */}
         <h1>

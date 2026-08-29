@@ -264,10 +264,95 @@ export const metadata = {
   category: "Technology",
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "AI vs Machine Learning vs Deep Learning vs Generative AI: Complete 2025 Guide",
+    description:
+      "Master the differences between AI, machine learning, deep learning, and generative AI. Updated guide with latest developments, practical examples, and real-world applications for 2025.",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+    datePublished: "2025-05-06T10:30:00Z",
+    dateModified: "2025-06-29T14:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      sameAs: ["https://twitter.com/manager70191"],
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/ai-ml-dp",
+    },
+    articleSection: "Technology",
+    wordCount: 2500,
+    inLanguage: "en-US",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+        description:
+          "Computer systems that can perform tasks typically requiring human intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Machine Learning",
+        description:
+          "Algorithms that learn from data to make predictions or decisions",
+      },
+      {
+        "@type": "Thing",
+        name: "Deep Learning",
+        description:
+          "Neural networks with multiple layers for complex pattern recognition",
+      },
+      {
+        "@type": "Thing",
+        name: "Generative AI",
+        description:
+          "AI systems that create new content like text, images, or audio",
+      },
+    ],
+    mentions: [
+      {
+        "@type": "SoftwareApplication",
+        name: "ChatGPT",
+      },
+      {
+        "@type": "Technology",
+        name: "Neural Networks",
+      },
+      {
+        "@type": "Technology",
+        name: "Foundation Models",
+      },
+    ],
+    citation: [
+      {
+        "@type": "CreativeWork",
+        name: "AI Technology Research 2025",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Artificial Intelligence vs Machine Learning vs Deep Learning: The

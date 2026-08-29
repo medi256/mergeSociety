@@ -182,10 +182,65 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline:
+      "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/wifi_ao8skn_orx8zn.jpg",
+    datePublished: "2025-04-26T10:15:00Z",
+    dateModified: "2025-04-26T10:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Ella Thompson",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Technology & Internet Analyst",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover the fascinating science behind Wi-Fi and how it has transformed our digital lives from dial-up modems to seamless connectivity.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/tech/wifi",
+    },
+    keywords:
+      "Wi-Fi, IEEE 802.11, radio waves, internet connectivity, networking, data packets, router, IP address, 2.4 GHz, data transmission, digital handshake, network security, internet technology, wireless communication, home networking",
+    articleSection: "Technology Analysis",
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "IEEE",
+        url: "https://www.ieee.org",
+      },
+      {
+        "@type": "Organization",
+        name: "Wi-Fi Alliance",
+        url: "https://www.wi-fi.org",
+      },
+      {
+        "@type": "Person",
+        name: "Ella Thompson",
+        jobTitle: "Technology & Internet Analyst",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet

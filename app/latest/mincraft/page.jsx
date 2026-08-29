@@ -125,10 +125,46 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "From Redstone to RAM: How Minecraft's In-Game Logic Lets You Build a Real Computer",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+    datePublished: "2025-04-25T09:00:00Z",
+    dateModified: "2025-04-25T09:00:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Merge Society",
+      url: "https://mergesociety.com/latest/mincraft",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Learn how to use Minecraft's Redstone system to build functioning logic gates, circuits, and even a complete CPU with memory and display - a hands-on guide to computer engineering principles.",
+    dependencies: "Minecraft Java Edition or Bedrock Edition",
+    proficiencyLevel: "Intermediate",
+    articleSection: "Gaming Tutorials",
+    keywords:
+      "Minecraft, Redstone, Computer Engineering, Digital Logic, CPU, ALU, Binary Computing",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           From Redstone to RAM: How Minecraft’s In-Game Logic Lets You Build a

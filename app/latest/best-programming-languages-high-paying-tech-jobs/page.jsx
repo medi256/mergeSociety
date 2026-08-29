@@ -409,10 +409,80 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Best Programming Languages for High-Paying Tech Jobs in 2025",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+    datePublished: "2025-05-16T09:00:00Z",
+    dateModified: "2025-05-16T09:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Developer & Tech Career Advisor",
+      description:
+        "Tech career specialist analyzing programming language trends and job market requirements",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover which programming languages to learn in 2025 for the highest-paying tech jobs. Complete analysis of 150+ job postings reveals the most in-demand languages for AI, web development, mobile apps, and data science roles.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id":
+        "https://mergesociety.com/latest/best-programming-languages-high-paying-tech-jobs",
+    },
+    keywords:
+      "programming languages, high-paying tech jobs, software development careers, AI programming, web development, mobile development, data science languages",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Programming Languages",
+      },
+      {
+        "@type": "Thing",
+        name: "Tech Careers",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Career Planning",
+    proficiencyLevel: "Beginner to Intermediate",
+    articleSection: "Programming Career Guide",
+    wordCount: 2500,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Best Programming Languages to Learn for High Paying Tech Jobs in 2025

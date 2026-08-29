@@ -353,10 +353,70 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+    datePublished: "2025-04-27T10:15:00Z",
+    dateModified: "2025-04-27T10:15:00Z",
+    author: {
+      "@type": "Person",
+      name: "Taylor Morgan",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DevJourney",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "A practical guide to cryptography fundamentals with Node.js code examples, covering hashing, salting, HMAC, encryption, public-key cryptography, digital signatures, and a developer challenge.",
+    articleBody:
+      "Cryptography is terrifying. Let's be honest—most of us are a little intimidated by it. It's rooted in arcane mathematics that make even the bravest developer break into a cold sweat...",
+    keywords:
+      "cryptography basics, developer security, Node.js crypto, hashing, encryption",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/apps/crypto",
+    },
+    about: [
+      {
+        "@type": "Thing",
+        name: "Cryptography",
+      },
+      {
+        "@type": "Thing",
+        name: "Computer Security",
+      },
+      {
+        "@type": "Thing",
+        name: "Node.js",
+      },
+    ],
+    proficiencyLevel: "Intermediate",
+    dependencies: "Node.js, crypto module",
+    programmingLanguage: "JavaScript",
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer

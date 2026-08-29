@@ -276,10 +276,106 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "How to Install Free Streaming Apps on Fire Stick That Rival Netflix",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/best_gy0sdm_llz9x7.jpg",
+    datePublished: "2025-04-27T10:00:00Z",
+    dateModified: "2025-04-27T10:00:00Z",
+    author: {
+      "@type": "Organization",
+      name: "Streaming Guides",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Streaming Guides",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Step-by-step tutorial for setting up free streaming apps on your Amazon Fire Stick that provide more content than paid subscription services.",
+    estimatedCost: {
+      "@type": "MonetaryAmount",
+      currency: "USD",
+      value: "0",
+    },
+    tool: [
+      {
+        "@type": "HowToTool",
+        name: "Amazon Fire Stick",
+      },
+      {
+        "@type": "HowToTool",
+        name: "Internet Connection",
+      },
+      {
+        "@type": "HowToTool",
+        name: "Fire Stick Remote",
+      },
+    ],
+
+    step: [
+      {
+        "@type": "HowToStep",
+        name: "Search for the Downloader App",
+        url: "https://mergesociety.com/apps/free-apps",
+        itemListElement: {
+          "@type": "HowToDirection",
+          text: "Use the search function on your Fire Stick to find and download the Downloader app from the Amazon App Store.",
+        },
+        image:
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/best_gy0sdm_llz9x7.jpg",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Enable Developer & Security Settings",
+        url: "https://mergesociety.com/apps/free-apps",
+        itemListElement: {
+          "@type": "HowToDirection",
+          text: "Navigate to My Fire TV settings and enable ADB Debugging and Install unknown apps for Downloader.",
+        },
+        image:
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/best_gy0sdm_llz9x7.jpg",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Install Streaming Apps",
+        url: "https://mergesociety.com/apps/free-apps",
+        itemListElement: {
+          "@type": "HowToDirection",
+          text: "Use Downloader and Unlinked to install free streaming apps that offer movies, TV shows, and live sports.",
+        },
+        image:
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/best_gy0sdm_llz9x7.jpg",
+      },
+      {
+        "@type": "HowToStep",
+        name: "Set Up VPN for Safe Streaming",
+        url: "https://mergesociety.com/apps/free-apps",
+        itemListElement: {
+          "@type": "HowToDirection",
+          text: "Install and configure IPVanish VPN to protect your privacy while streaming.",
+        },
+        image:
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/best_gy0sdm_llz9x7.jpg",
+      },
+    ],
+    totalTime: "PT30M",
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           FREE app is 10X BETTER than Netflix with MORE Movies & TV Shows!

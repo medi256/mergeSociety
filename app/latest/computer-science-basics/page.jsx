@@ -557,10 +557,80 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline:
+      "Computer Science Basics: A Beginner's Guide to 101 Essential Terms and Concepts",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+    datePublished: "2025-05-15T10:00:00Z",
+    dateModified: "2025-05-15T10:00:00Z",
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Computer Science Educator",
+      description:
+        "Digital literacy advocate with expertise in explaining complex computer science concepts simply",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Master 101 essential computer science concepts from binary and Turing machines to algorithms and APIs in this comprehensive beginner's guide to CS fundamentals.",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/latest/computer-science-basics",
+    },
+    keywords:
+      "computer science, programming, algorithms, data structures, binary, CPU, RAM, APIs, cloud computing",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Computer Science",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming",
+      },
+      {
+        "@type": "Thing",
+        name: "Digital Literacy",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "General Education",
+    proficiencyLevel: "Beginner",
+    articleSection: "Computer Science Fundamentals",
+    wordCount: 3500,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+    hasPart: [
+      {
+        "@type": "WebPageElement",
+        isAccessibleForFree: "True",
+        cssSelector: ".faq-section",
+      },
+    ],
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and

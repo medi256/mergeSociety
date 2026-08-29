@@ -139,10 +139,49 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "10 Different Programming Languages and Their Uses",
+    description:
+      "Comprehensive guide to Python, Java, JavaScript, Ruby, C, C++, C#, PHP, Swift, and Go - covering their real-world applications, use cases, and which companies use them.",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming_languages_and_usecase.webp",
+    datePublished: "2025-12-20T00:00:00Z",
+    dateModified: new Date().toISOString(),
+    author: {
+      "@type": "Person",
+      name: "Massa Medi",
+      url: "https://mergesociety.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/code-report/programming-usecase",
+    },
+    articleSection: "Programming",
+    keywords:
+      "programming languages, Python, Java, JavaScript, Ruby, C, C++, C#, PHP, Swift, Go, web development, mobile development, software engineering",
+    articleBody:
+      "Complete guide to 10 major programming languages including their uses, real-world applications, and which companies use them daily.",
+  };
+
 const Usecase = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>10 Different Programming Languages and Their Uses</h1>

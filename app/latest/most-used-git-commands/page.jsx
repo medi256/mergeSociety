@@ -563,10 +563,120 @@ export const metadata = {
   ],
 };
 
+const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "@id": "https://mergesociety.com/latest/most-used-git-commands",
+      headline:
+        "Essential Git Commands for Beginners - Complete GitHub Workflow Guide",
+      alternativeHeadline:
+        "Master Git: From Config to Pull Requests with Real Examples",
+      image: {
+        "@type": "ImageObject",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most%20used%20git%20commands.webp",
+        width: 600,
+        height: 400,
+        caption: "Most used git commands workflow diagram",
+      },
+      datePublished: "2025-12-08T00:00:00Z",
+      dateModified: new Date().toISOString(),
+      author: {
+        "@type": "Person",
+        name: "Massa Medi",
+        url: "https://www.instagram.com/mergesociety_/",
+        jobTitle: "Developer Educator",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Merge Society",
+        url: "https://mergesociety.com",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://mergesociety.com/MS.png",
+          width: 300,
+          height: 100,
+        },
+      },
+      description:
+        "Complete hands-on guide to essential git commands used daily by developers. Covers setup, local workflow, branching, collaboration, and GitHub Flow with real command examples.",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": "https://mergesociety.com/latest/most-used-git-commands",
+      },
+      keywords:
+        "git commands, github workflow, version control, git tutorial, git for beginners, github flow, git branch, git commit",
+      articleSection: "Developer Tools",
+      articleBody:
+        "Step-by-step tutorial covering git configuration, repository initialization, staging area, commits, branching, remote collaboration, pull requests, and synchronization",
+      about: [
+        {
+          "@type": "Thing",
+          name: "Git Version Control",
+          description:
+            "Distributed version control system for tracking code changes",
+        },
+        {
+          "@type": "Thing",
+          name: "GitHub Workflow",
+          description:
+            "Collaborative development workflow using Git and GitHub",
+        },
+      ],
+      mentions: [
+        {
+          "@type": "SoftwareApplication",
+          name: "Git",
+          applicationCategory: "Version Control System",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "GitHub",
+          applicationCategory: "Code Hosting Platform",
+        },
+        {
+          "@type": "SoftwareApplication",
+          name: "VS Code",
+          applicationCategory: "Code Editor",
+        },
+      ],
+      teaches: [
+        "Setting up git configuration with user identity",
+        "Initializing git repositories",
+        "Understanding the staging area concept",
+        "Making meaningful commits with clear messages",
+        "Cloning remote repositories",
+        "Creating and managing branches",
+        "Pushing changes to remote repositories",
+        "Opening and merging pull requests",
+        "Synchronizing local and remote repositories",
+        "Following GitHub Flow for team collaboration",
+      ],
+      educationalLevel: "beginner to intermediate",
+      proficiencyLevel: "Basic terminal knowledge helpful",
+      timeRequired: "PT16M",
+      wordCount: 4200,
+      isAccessibleForFree: true,
+      inLanguage: "en-US",
+      audience: {
+        "@type": "Audience",
+        audienceType:
+          "developers, programmers, coding students, software engineers",
+      },
+      learningResourceType: "Tutorial",
+      interactivityType: "expositive",
+      educationalUse: "Learning git version control and GitHub collaboration",
+      typicalAgeRange: "16-99",
+    };
+
 const GitCommands = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
 
       <article className="lesson-container">
         <h1>

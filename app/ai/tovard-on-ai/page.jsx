@@ -511,10 +511,68 @@ export const metadata = {
   },
 };
 
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+    datePublished: "2025-05-11T10:30:00Z",
+    dateModified: "2025-05-11T10:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior Software Engineer",
+      description:
+        "AI integration specialist with focus on developer productivity and tool automation",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Merge Society",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mergesociety.com/MS.png",
+      },
+    },
+    description:
+      "Discover Linus Torvalds' pragmatic take on how AI and LLMs are transforming software development in 2025. Is AI-generated code already among us, and how will it reshape the future of programming?",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://mergesociety.com/ai/tovard-on-ai",
+    },
+    keywords:
+      "artificial intelligence, programming, linus torvalds, large language models, software development, code generation, ai code review",
+    about: [
+      {
+        "@type": "Thing",
+        name: "Artificial Intelligence",
+      },
+      {
+        "@type": "Thing",
+        name: "Software Development",
+      },
+      {
+        "@type": "Thing",
+        name: "Programming",
+      },
+    ],
+    isAccessibleForFree: "True",
+    educationalUse: "Professional Development",
+    proficiencyLevel: "All Levels",
+    articleSection: "Technology Perspectives",
+    wordCount: 2000,
+  };
+
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
       <article className="lesson-container">
         <h1>
           Torvalds Speaks: Impact of Artificial Intelligence on Programming
