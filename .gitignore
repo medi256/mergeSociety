@@ -46,3 +46,6 @@ fixInternalLinkPaths.js
 retrofitLinks.js
 fixMissingLinkImports.js
 fixJsonLd.js
+image-prompts.json
+image-manifest.json
+scripts
