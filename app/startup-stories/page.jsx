@@ -220,7 +220,7 @@ const Section5 = () => {
       articleRoute: "interview-coder",
     },
     {
-      id: 11,
+      id: 12,
       title:
         "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
       image: "/mergesociety/Interview_1_xlpfk4_clex4p.png",
@@ -229,7 +229,7 @@ const Section5 = () => {
       articleRoute: "story-of-roy",
     },
     {
-      id: 12,
+      id: 13,
       title:
         "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
       image: "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
@@ -238,7 +238,7 @@ const Section5 = () => {
       articleRoute: "yc-startup",
     },
     {
-      id: 13,
+      id: 14,
       title:
         "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
       image: "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
@@ -247,7 +247,7 @@ const Section5 = () => {
       articleRoute: "aside-ai",
     },
     {
-      id: 14,
+      id: 15,
       title:
         "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
       image: "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
@@ -256,7 +256,7 @@ const Section5 = () => {
       articleRoute: "cluely",
     },
     {
-      id: 14,
+      id: 16,
       title:
         "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       image:
@@ -266,7 +266,7 @@ const Section5 = () => {
       articleRoute: "locus-ai",
     },
     {
-      id: 14,
+      id: 17,
       title: "Building and Shipping a Real Product in One Day",
       image: "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
       alt: "Building and Shipping a Real Product in One Day",
