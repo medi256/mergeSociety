@@ -49,14 +49,14 @@ export const metadata = {
     authors: ["Massa Medi"],
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git%20%20basic%20commands.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_basic_commands.webp",
         width: 1200,
         height: 630,
         alt: "Git Basic Commands Step-By-Step Guide Tutorial",
         type: "image/webp",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git%20%20basic%20commands.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_basic_commands.webp",
         width: 800,
         height: 400,
         alt: "Git Basic Commands Tutorial",
@@ -80,7 +80,7 @@ export const metadata = {
       "Master Git with this step-by-step guide. Learn git init, add, commit, status, diff, and log with real examples. Perfect for beginners.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git%20%20basic%20commands.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_basic_commands.webp",
     ],
   },
 
@@ -123,7 +123,7 @@ export const jsonLd = {
   description:
     "Master Git with this comprehensive step-by-step guide covering git init, git add, git commit, git status, git diff, and git log with real command outputs and explanations.",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git%20%20basic%20commands.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/git_basic_commands.webp",
   datePublished: "2025-12-03T00:00:00.000Z",
   dateModified: "2025-12-03T00:00:00.000Z",
   author: {
@@ -210,7 +210,7 @@ const GitCommands = () => {
           Commands and Output
         </h1>
         <Image
-          src="/mergesociety/git%20%20basic%20commands.webp"
+          src="/mergesociety/git_basic_commands.webp"
           alt="Git Basic Commands Step-By-Step Guide"
           width={800}
           height={400}

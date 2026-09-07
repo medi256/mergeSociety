@@ -102,7 +102,7 @@ const Section6 = () => {
       title:
         "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
       image:
-        "/mergesociety/pankaj-patel-_SgRNwAVNKw-unsplash_o1ddom_txvio6.jpg",
+        "/mergesociety/Best_Frameworks.jpg",
       alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
       date: "April 27, 2025",
       articleRoute: "best-framework",
@@ -111,7 +111,7 @@ const Section6 = () => {
       id: 3,
       title:
         " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-      image: "/mergesociety/ilya-pavlov-OqtafYT5kTw-unsplash_ar9e2f_sd3lk9.jpg",
+      image: "/mergesociety/Tech_Stack.jpg",
       alt: " The Definitive Beginner’s Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
       date: "April 27, 2025",
       articleRoute: "tech-stack",
@@ -120,7 +120,7 @@ const Section6 = () => {
       id: 4,
       title:
         "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
-      image: "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg",
+      image: "/mergesociety/Home_labbing.jpg",
       alt: "From File Chaos to Geek Zen: How I Built My Own Home Lab, NAS Server, and Music Streaming Empire",
       date: "April 27, 2025",
       articleRoute: "labing",
@@ -130,7 +130,7 @@ const Section6 = () => {
       title:
         "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
       image:
-        "/mergesociety/markus-spiske-iar-afB0QQw-unsplash_eifg9s_od6qtp.jpg",
+        "/mergesociety/Algorithms.jpg",
       alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
       date: "April 27, 2025",
       articleRoute: "algorithms",
@@ -147,7 +147,7 @@ const Section6 = () => {
       id: 7,
       title: "Every React Concept Explained",
       image:
-        "/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+        "/mergesociety/Reactjs.jpg",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -219,7 +219,7 @@ const Section6 = () => {
       id: 15,
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image: "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      image: "/mergesociety/Apache_vs_Nginx.jpg",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -237,7 +237,7 @@ const Section6 = () => {
     {
       id: 17,
       title: "Define Domain Name System (DNS)",
-      image: "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      image: "/mergesociety/What_is_DNS.jpg",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -254,7 +254,7 @@ const Section6 = () => {
     {
       id: 19,
       title: "Easy Definition of VPN",
-      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image: "/mergesociety/VPN_Explained.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -273,7 +273,7 @@ const Section6 = () => {
       id: 21,
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
-      image: "/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      image: "/mergesociety/REST_API.jpg",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -283,7 +283,7 @@ const Section6 = () => {
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       image:
-        "/mergesociety/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf_zv6mkx.jpg",
+        "/mergesociety/API_vs_SDK.jpg",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",
@@ -433,7 +433,7 @@ const Section6 = () => {
     {
       id: 39,
       title: "Git Basic Commands Step-By-Step Guide",
-      image: "/mergesociety/git%20%20basic%20commands.webp",
+      image: "/mergesociety/git_basic_commands.webp",
       alt: "Git Basic Commands Step-By-Step Guide",
       date: "December 3, 2025",
       articleRoute: "basic-git-commands",
@@ -449,7 +449,7 @@ const Section6 = () => {
     {
       id: 41,
       title: "Types of Programming Languages",
-      image: "/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+      image: "/mergesociety/Types_of_Programming_Languages.webp",
       alt: "Types of Programming Languages",
       date: "December 5, 2025",
       articleRoute: "types-of-programming-languages",
@@ -475,7 +475,7 @@ const Section6 = () => {
       id: 44,
       title:
         "Top 5 Programming Languages To Learn In 2026: Python, TypeScript, C/C++, Java, Rust",
-      image: "/mergesociety/which_programming_language_to_learn_in_2026.webp",
+      image: "/mergesociety/Programming_Languages_To_Learn_In_2026.jpg",
       alt: "Top 5 Programming Languages To Learn In 2026: Python, TypeScript, C/C++, Java, Rust",
       date: "December 13, 2025",
       articleRoute: "top-programming-languages-to-learn",

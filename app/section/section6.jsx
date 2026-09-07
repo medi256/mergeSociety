@@ -17,7 +17,7 @@ const Section6 = () => {
       id: 7,
       title: "Every React Concept Explained",
       image:
-        "/mergesociety/lautaro-andreani-xkBaqlcqeb4-unsplash_jfhsu0_qwkgef.jpg",
+        "/mergesociety/Reactjs.jpg",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -89,7 +89,7 @@ const Section6 = () => {
       id: 15,
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image: "/mergesociety/pexels-realtoughcandy-11035538_iptnmq_x76qgy.jpg",
+      image: "/mergesociety/Apache_vs_Nginx.jpg",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -107,7 +107,7 @@ const Section6 = () => {
     {
       id: 17,
       title: "Define Domain Name System (DNS)",
-      image: "/mergesociety/gkhjkg_hkj_kgn74b_bcf5ss.webp",
+      image: "/mergesociety/What_is_DNS.jpg",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -124,7 +124,7 @@ const Section6 = () => {
     {
       id: 19,
       title: "Easy Definition of VPN",
-      image: "/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      image: "/mergesociety/VPN_Explained.jpg",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -143,7 +143,7 @@ const Section6 = () => {
       id: 21,
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
-      image: "/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      image: "/mergesociety/REST_API.jpg",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -153,7 +153,7 @@ const Section6 = () => {
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       image:
-        "/mergesociety/SDK-vs-API_-Differences-Explained-in-this-Blog-1280x720_axa4cf_zv6mkx.jpg",
+        "/mergesociety/API_vs_SDK.jpg",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",

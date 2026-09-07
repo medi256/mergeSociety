@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Languages_To_Learn_In_2026.jpg",
         width: 600,
         height: 400,
         alt: "Top 5 Programming Languages 2026 - Python TypeScript C/C++ Java Rust comparison chart",
@@ -96,7 +96,7 @@ export const metadata = {
       "Python for AI, TypeScript for web, C/C++ for speed, Java for enterprise, Rust for systems. Data-backed ranking from GitHub, Stack Overflow, TIOBE.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Languages_To_Learn_In_2026.jpg",
     ],
   },
 
@@ -324,7 +324,7 @@ export const metadata = {
         "Data-Driven Programming Language Ranking for 2026 Careers",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Languages_To_Learn_In_2026.jpg",
         width: 600,
         height: 400,
         caption: "Top 5 programming languages 2026 comparison",
@@ -665,7 +665,7 @@ const articleSchema = {
         "Data-Driven Programming Language Ranking for 2026 Careers",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/which_programming_language_to_learn_in_2026.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Languages_To_Learn_In_2026.jpg",
         width: 600,
         height: 400,
         caption: "Top 5 programming languages 2026 comparison",
@@ -800,7 +800,7 @@ const LANGUAGES = () => {
         <section>
           <Image
             src={
-              "/mergesociety/which_programming_language_to_learn_in_2026.webp"
+              "/mergesociety/Programming_Languages_To_Learn_In_2026.jpg"
             }
             alt="Top 5 Programming Languages To Learn In 2026: Python, TypeScript, C/C++, Java, Rust"
             width={600}

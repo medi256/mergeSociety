@@ -381,7 +381,7 @@ export default function Article() {
         <section>
           <h2>Choosing a Graphics Card (GPU): The Heart of Gaming Power</h2>
           <Image
-            src={"/mergesociety/Graphics%20Card%20(GPU).jpg"}
+            src={"/mergesociety/Graphics_Card_GPU.jpg"}
             alt="Choosing a Graphics Card (GPU)"
             width={600}
             height={400}
@@ -458,7 +458,7 @@ export default function Article() {
         <section>
           <h2>Motherboards and CPUs: The Backbone of Your System</h2>
           <Image
-            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
+            src={"/mergesociety/Motherboards_and_CPUs.jpg"}
             alt="The motherboard of a computer"
             width={600}
             height={400}
@@ -526,7 +526,7 @@ export default function Article() {
         <section>
           <h2>RAM (Memory): Speed and Capacity for Modern Games</h2>
           <Image
-            src={"/mergesociety/RAM%20(Memory).jpg"}
+            src={"/mergesociety/RAM_Memory.jpg"}
             alt="The RAM temporary memory."
             width={600}
             height={400}

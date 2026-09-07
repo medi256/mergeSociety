@@ -156,7 +156,7 @@ export const jsonLd = {
         description:
           "Learn Python by building cool projects including games, data visualization, and web apps",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Untitled%20folder/%20Python%20Crash%20Course.webp",
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Python_Crash_Course.webp",
       },
       {
         "@type": "Book",
@@ -169,7 +169,7 @@ export const jsonLd = {
         description:
           "Deep understanding of JavaScript in the browser and on the server with interactive exercises",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Untitled%20folder/Eloquent%20JavaScript.webp",
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Eloquent_JavaScript.webp",
       },
       {
         "@type": "Book",
@@ -182,7 +182,7 @@ export const jsonLd = {
         description:
           "Timeless principles that make you an effective software developer",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Untitled%20folder/The%20Pragmatic%20Programmer.jpg",
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/The_Pragmatic_Programmer.jpg",
       },
       {
         "@type": "Book",
@@ -195,7 +195,7 @@ export const jsonLd = {
         description:
           "Write code people actually enjoy reading with Uncle Bob's principles",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Untitled%20folder/Clean_Code_Uncle%20Bob.jpg",
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Clean_Code_Uncle_Bob.jpg",
       },
       {
         "@type": "Book",
@@ -208,7 +208,7 @@ export const jsonLd = {
         description:
           "Think like a systems architect and build scalable, reliable systems",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Untitled%20folder/Designing%20Data-Intensive%20Applications.png",
+          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Designing_Data-Intensive_Applications.png",
       },
     ],
   },
@@ -378,7 +378,7 @@ const BestProgrammingBooks = () => {
             Book 1 - Python Crash Course: Learn Python By Building Cool Projects
           </h2>
           <Image
-            src="/mergesociety/Untitled%20folder/%20Python%20Crash%20Course.webp"
+            src="/mergesociety/Python_Crash_Course.webp"
             alt="Python Crash Course Book Cover"
             width={600}
             height={400}
@@ -530,7 +530,7 @@ const BestProgrammingBooks = () => {
             Browser And On The Server
           </h2>
           <Image
-            src="/mergesociety/Untitled%20folder/Eloquent%20JavaScript.webp"
+            src="/mergesociety/Eloquent_JavaScript.webp"
             alt="Eloquent JavaScript Book Cover"
             width={600}
             height={400}
@@ -686,7 +686,7 @@ const BestProgrammingBooks = () => {
             Effective
           </h2>
           <Image
-            src="/mergesociety/Untitled%20folder/The%20Pragmatic%20Programmer.jpg"
+            src="/mergesociety/The_Pragmatic_Programmer.jpg"
             alt="The Pragmatic Programmer Cover"
             width={600}
             height={400}
@@ -769,7 +769,7 @@ const BestProgrammingBooks = () => {
             Reading
           </h2>
           <Image
-            src="/mergesociety/Untitled%20folder/Clean_Code_Uncle%20Bob.jpg"
+            src="/mergesociety/Clean_Code_Uncle_Bob.jpg"
             alt="Clean Code by Uncle Bob Cover"
             width={600}
             height={400}
@@ -859,7 +859,7 @@ const BestProgrammingBooks = () => {
             Architect
           </h2>
           <Image
-            src="/mergesociety/Untitled%20folder/Designing%20Data-Intensive%20Applications.png"
+            src="/mergesociety/Designing_Data-Intensive_Applications.png"
             alt="Designing Data-Intensive Applications Cover"
             width={600}
             height={400}

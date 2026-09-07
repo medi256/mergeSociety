@@ -437,7 +437,7 @@ export default function Article() {
         <section>
           <h2>CPU Explained: The Brains of the Computer</h2>
           <Image
-            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
+            src={"/mergesociety/Motherboards_and_CPUs.jpg"}
             alt="The CPU, or Central Processing Unit"
             width={600}
             height={400}
@@ -497,7 +497,7 @@ export default function Article() {
         <section>
           <h2>RAM (Random Access Memory): Your PC’s Short Term Brain</h2>
           <Image
-            src={"/mergesociety/RAM%20(Memory).jpg"}
+            src={"/mergesociety/RAM_Memory.jpg"}
             alt="The RAM temporary memory."
             width={600}
             height={400}
@@ -558,7 +558,7 @@ export default function Article() {
         <section>
           <h2>Motherboard: The Backbone of the PC</h2>
           <Image
-            src={"/mergesociety/Motherboards%20and%20CPUs.jpg"}
+            src={"/mergesociety/Motherboards_and_CPUs.jpg"}
             alt="The motherboard of a computer"
             width={600}
             height={400}
@@ -595,7 +595,7 @@ export default function Article() {
         <section>
           <h2>GPU (Graphics Processing Unit): The Artiste of Your PC</h2>
           <Image
-            src={"/mergesociety/Graphics%20Card%20(GPU).jpg"}
+            src={"/mergesociety/Graphics_Card_GPU.jpg"}
             alt="The GPU (Graphics Processing Unit)"
             width={600}
             height={400}

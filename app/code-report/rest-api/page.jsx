@@ -52,7 +52,7 @@ export const metadata = {
     siteName: "Merge Society Tech Insights",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7015995_iwu9fs_to6s06.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/REST_API.jpg",
         width: 1200,
         height: 630,
         alt: "Visual diagram showing REST API communication between clients and cloud servers",
@@ -101,7 +101,7 @@ export const metadata = {
       "From ice cream shops to enterprise software, discover how REST APIs enable seamless communication in today's cloud-driven world.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/REST_API.jpg",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "REST API Explained: The Backbone of Modern Cloud Development",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/REST_API.jpg",
     datePublished: "2025-05-10T09:00:00Z",
     dateModified: "2025-05-10T09:00:00Z",
     author: {
@@ -532,7 +532,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "REST API Explained: The Backbone of Modern Cloud Development",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/7015995_iwu9fs_to6s06.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/REST_API.jpg",
     datePublished: "2025-05-10T09:00:00Z",
     dateModified: "2025-05-10T09:00:00Z",
     author: {

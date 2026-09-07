@@ -14,8 +14,8 @@ const CONFIG = {
 
   // Text replacements
   replacements: {
-    "Merge Society is an  online platform focusing on AI, tech, interviews, and startup stories. We provide insights into the latest trends in technology, interviews with industry leaders, and inspiring startup stories.":
-      "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
+    "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg":
+      "/mergesociety/Home_labbing.jpg",
   },
 
   // Create a backup before changing files

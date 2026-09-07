@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types_of_Programming_Languages.webp",
         width: 1200,
         height: 600,
         alt: "Types of Programming Languages - Low Level vs High Level, Machine and Assembly, Procedural and Object Oriented explained",
@@ -96,7 +96,7 @@ export const metadata = {
       "Understand how programming languages work from CPU instructions to human-readable code. Complete guide to language types and execution.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types_of_Programming_Languages.webp",
     ],
   },
 
@@ -225,7 +225,7 @@ export const metadata = {
         "Complete Guide to Programming Language Categories and Execution Models",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types_of_Programming_Languages.webp",
         width: 1200,
         height: 600,
         caption:
@@ -532,132 +532,129 @@ export const metadata = {
 };
 
 const articleSchema = {
-      "@context": "https://schema.org",
-      "@type": "TechArticle",
-      "@id":
-        "https://mergesociety.com/code-report/types-of-programming-languages",
-      headline:
-        "Types of Programming Languages Explained: Low-Level vs High-Level, Compiler vs Interpreter",
-      alternativeHeadline:
-        "Complete Guide to Programming Language Categories and Execution Models",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types%20of%20%20Programming%20Languages.webp",
-        width: 1200,
-        height: 600,
-        caption:
-          "Diagram showing types of programming languages from machine code to high-level",
-      },
-      datePublished: "2025-12-05T00:00:00Z",
-      dateModified: new Date().toISOString(),
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://www.instagram.com/mergesociety_/",
-        jobTitle: "Programming Educator",
-        description:
-          "Technical educator specializing in programming fundamentals",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        url: "https://mergesociety.com",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://mergesociety.com/MS.png",
-          width: 300,
-          height: 100,
-        },
-      },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": "https://mergesociety.com/code-report/types-of-programming-languages",
+  headline:
+    "Types of Programming Languages Explained: Low-Level vs High-Level, Compiler vs Interpreter",
+  alternativeHeadline:
+    "Complete Guide to Programming Language Categories and Execution Models",
+  image: {
+    "@type": "ImageObject",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Types_of_Programming_Languages.webp",
+    width: 1200,
+    height: 600,
+    caption:
+      "Diagram showing types of programming languages from machine code to high-level",
+  },
+  datePublished: "2025-12-05T00:00:00Z",
+  dateModified: new Date().toISOString(),
+  author: {
+    "@type": "Person",
+    name: "Massa Medi",
+    url: "https://www.instagram.com/mergesociety_/",
+    jobTitle: "Programming Educator",
+    description: "Technical educator specializing in programming fundamentals",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    url: "https://mergesociety.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+      width: 300,
+      height: 100,
+    },
+  },
+  description:
+    "Educational guide covering all types of programming languages: machine language, assembly language, high-level procedural and object-oriented languages, plus compilation and interpretation processes.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id":
+      "https://mergesociety.com/code-report/types-of-programming-languages",
+  },
+  keywords:
+    "programming languages, machine language, assembly language, high level languages, procedural programming, object oriented programming, compiler, interpreter",
+  articleSection: "Programming Education",
+  articleBody:
+    "Comprehensive educational content explaining programming language classifications, from CPU-level machine code through assembly to high-level languages, including execution models.",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Programming Languages",
       description:
-        "Educational guide covering all types of programming languages: machine language, assembly language, high-level procedural and object-oriented languages, plus compilation and interpretation processes.",
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id":
-          "https://mergesociety.com/code-report/types-of-programming-languages",
-      },
-      keywords:
-        "programming languages, machine language, assembly language, high level languages, procedural programming, object oriented programming, compiler, interpreter",
-      articleSection: "Programming Education",
-      articleBody:
-        "Comprehensive educational content explaining programming language classifications, from CPU-level machine code through assembly to high-level languages, including execution models.",
-      about: [
-        {
-          "@type": "Thing",
-          name: "Programming Languages",
-          description:
-            "Formal languages designed to communicate instructions to computers",
-        },
-        {
-          "@type": "Thing",
-          name: "Computer Science Fundamentals",
-          description:
-            "Core concepts underlying how computers execute programs",
-        },
-        {
-          "@type": "Thing",
-          name: "Software Development",
-          description: "Practice of creating computer programs",
-        },
-      ],
-      mentions: [
-        {
-          "@type": "Thing",
-          name: "Machine Language",
-          description: "Binary instructions executed directly by CPU",
-        },
-        {
-          "@type": "Thing",
-          name: "Assembly Language",
-          description:
-            "Low-level language using mnemonics for machine instructions",
-        },
-        {
-          "@type": "Thing",
-          name: "Object-Oriented Programming",
-          description: "Programming paradigm based on objects and classes",
-        },
-        {
-          "@type": "Thing",
-          name: "Procedural Programming",
-          description: "Programming paradigm based on procedure calls",
-        },
-      ],
-      teaches: [
-        "Difference between low-level and high-level programming languages",
-        "How machine language and assembly language work",
-        "Procedural vs object-oriented programming paradigms",
-        "How compilers and interpreters translate code",
-        "How source code becomes CPU instructions",
-        "Real-world analogies for programming concepts",
-      ],
-      educationalLevel: "beginner",
-      proficiencyLevel: "Foundational knowledge, no prerequisites",
-      timeRequired: "PT12M",
-      wordCount: 3600,
-      isAccessibleForFree: true,
-      inLanguage: "en-US",
-      audience: {
-        "@type": "EducationalAudience",
-        educationalRole: "student",
-        audienceType:
-          "aspiring programmers, computer science students, self-learners",
-      },
-      learningResourceType: "Educational Tutorial",
-      interactivityType: "expositive",
-      educationalUse: "Learning programming fundamentals and language types",
-      typicalAgeRange: "16-99",
-    };
+        "Formal languages designed to communicate instructions to computers",
+    },
+    {
+      "@type": "Thing",
+      name: "Computer Science Fundamentals",
+      description: "Core concepts underlying how computers execute programs",
+    },
+    {
+      "@type": "Thing",
+      name: "Software Development",
+      description: "Practice of creating computer programs",
+    },
+  ],
+  mentions: [
+    {
+      "@type": "Thing",
+      name: "Machine Language",
+      description: "Binary instructions executed directly by CPU",
+    },
+    {
+      "@type": "Thing",
+      name: "Assembly Language",
+      description:
+        "Low-level language using mnemonics for machine instructions",
+    },
+    {
+      "@type": "Thing",
+      name: "Object-Oriented Programming",
+      description: "Programming paradigm based on objects and classes",
+    },
+    {
+      "@type": "Thing",
+      name: "Procedural Programming",
+      description: "Programming paradigm based on procedure calls",
+    },
+  ],
+  teaches: [
+    "Difference between low-level and high-level programming languages",
+    "How machine language and assembly language work",
+    "Procedural vs object-oriented programming paradigms",
+    "How compilers and interpreters translate code",
+    "How source code becomes CPU instructions",
+    "Real-world analogies for programming concepts",
+  ],
+  educationalLevel: "beginner",
+  proficiencyLevel: "Foundational knowledge, no prerequisites",
+  timeRequired: "PT12M",
+  wordCount: 3600,
+  isAccessibleForFree: true,
+  inLanguage: "en-US",
+  audience: {
+    "@type": "EducationalAudience",
+    educationalRole: "student",
+    audienceType:
+      "aspiring programmers, computer science students, self-learners",
+  },
+  learningResourceType: "Educational Tutorial",
+  interactivityType: "expositive",
+  educationalUse: "Learning programming fundamentals and language types",
+  typicalAgeRange: "16-99",
+};
 
 const TypesProgramming = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
 
       <article className="lesson-container">
         <h1>
@@ -666,7 +663,7 @@ const TypesProgramming = () => {
         </h1>
 
         <Image
-          src="/mergesociety/Types%20of%20%20Programming%20Languages.webp"
+          src="/mergesociety/Types_of_Programming_Languages.webp"
           alt="Types of Programming Languages"
           width={1200}
           height={600}
@@ -705,17 +702,19 @@ const TypesProgramming = () => {
 
         <p>
           Hello. In this article, I am going to explain to you what the
-          different types of <Link href="/javascript/js-vs-ecmascript">programming languages</Link> are, why they exist, and how
-          they relate to the way computers actually run your code. If you have
-          ever looked at a program and wondered how a bunch of text turns into
-          something that controls a rocket computer or even a smart TV, you are
-          in the right place. I will walk you through the complete flow, from
-          the lowest level bits that a CPU understands to the friendlier high
-          level languages you and I write every day. Along the way, I will show
-          you how procedural and object oriented styles are different, why we
-          use compilers or interpreters, and how everything eventually becomes
-          machine instructions. By the end, you will see the big picture clearly
-          and know exactly where each idea fits.
+          different types of{" "}
+          <Link href="/javascript/js-vs-ecmascript">programming languages</Link>{" "}
+          are, why they exist, and how they relate to the way computers actually
+          run your code. If you have ever looked at a program and wondered how a
+          bunch of text turns into something that controls a rocket computer or
+          even a smart TV, you are in the right place. I will walk you through
+          the complete flow, from the lowest level bits that a CPU understands
+          to the friendlier high level languages you and I write every day.
+          Along the way, I will show you how procedural and object oriented
+          styles are different, why we use compilers or interpreters, and how
+          everything eventually becomes machine instructions. By the end, you
+          will see the big picture clearly and know exactly where each idea
+          fits.
         </p>
 
         <section aria-labelledby="what-is-a-programming-language">
@@ -723,13 +722,17 @@ const TypesProgramming = () => {
             What is a Programming Language?
           </h2>
           <p>
-            A <Link href="/javascript/introduction-to-javascript">programming language</Link> is an artificial language designed to
-            communicate instructions to a machine, particularly a computer. The
-            word artificial here is key - unlike natural human languages that
-            evolve organically, programming languages are intentionally designed
-            by people to be precise, unambiguous, and executable by hardware or
-            software systems. The whole point is to give a computer a
-            step-by-step description of what to do.
+            A{" "}
+            <Link href="/javascript/introduction-to-javascript">
+              programming language
+            </Link>{" "}
+            is an artificial language designed to communicate instructions to a
+            machine, particularly a computer. The word artificial here is key -
+            unlike natural human languages that evolve organically, programming
+            languages are intentionally designed by people to be precise,
+            unambiguous, and executable by hardware or software systems. The
+            whole point is to give a computer a step-by-step description of what
+            to do.
           </p>
           <p>
             Programming languages can be used to create programs that control
@@ -1067,11 +1070,14 @@ const TypesProgramming = () => {
             </h3>
             <p>
               The compiler translates the high level instructions into a machine
-              language and generates an <Link href="/code-report/what-is-a-compiler">executable file</Link> like .exe. This usually
-              happens before you run the program. You feed the compiler your
-              source files, it analyzes them, checks for errors, optimizes where
-              possible, and then emits a binary file. That file contains the
-              machine code the CPU will run directly.
+              language and generates an{" "}
+              <Link href="/code-report/what-is-a-compiler">
+                executable file
+              </Link>{" "}
+              like .exe. This usually happens before you run the program. You
+              feed the compiler your source files, it analyzes them, checks for
+              errors, optimizes where possible, and then emits a binary file.
+              That file contains the machine code the CPU will run directly.
             </p>
             <p>
               With a compiler, you typically get error messages during the

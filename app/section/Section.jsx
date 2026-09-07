@@ -122,7 +122,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/most-used-git-commands">
               <Image
-                src="/mergesociety/most%20used%20git%20commands.webp"
+                src="/mergesociety/most_used_git_commands.webp"
                 alt="Most used git commands workflow Guide"
                 width={400}
                 height={250}

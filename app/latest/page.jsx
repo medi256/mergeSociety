@@ -109,7 +109,7 @@ const GridNews = () => {
       id: 3,
       title:
         "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
-      image: "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      image: "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
       alt: "The Unsung Friendship That Saved Google—and Invented the Modern Internet",
       date: " April 27, 2025",
       articleRoute: "friendship-that-saved-google",
@@ -230,7 +230,7 @@ const GridNews = () => {
     {
       id: 20,
       title: `Full Stack Developer Roadmap 2025: The Ultimate Beginner’s Guide to FullStack Web Development`,
-      image: "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      image: "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
       alt: "Full Stack Developer Roadmap 2025",
       date: "May 18, 2025",
       articleRoute: "full-stack-developer-roadmap",
@@ -262,7 +262,7 @@ const GridNews = () => {
     {
       id: 24,
       title: `DevOps Explained: Lifecycle, Phases, Tools, and Real-World Stories`,
-      image: "/mergesociety/Sanjay%20Ghemawat%20and%20Jeff%20Dean.webp",
+      image: "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
       alt: "DevOps Explained",
       date: "August 15, 2025",
       articleRoute: "devops-lifecycle",

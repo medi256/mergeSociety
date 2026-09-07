@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.jpg",
         width: 1200,
         height: 630,
         alt: "Visual explanation of how a VPN protects your internet connection",
@@ -94,7 +94,7 @@ export const metadata = {
       "Learn what a VPN is in simple terms, how it protects your privacy, secures your data on public WiFi, and unlocks global content. Essential guid.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.jpg",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What Is a VPN? Easy Definition & Complete Guid",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.jpg",
     datePublished: "2025-05-09T09:00:00Z",
     dateModified: "2025-05-09T09:00:00Z",
     author: {
@@ -304,82 +304,82 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "What Is a VPN? Easy Definition & Complete Guid",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-cookiecutter-17489152_hulqbn_mqucvv.jpg",
-    datePublished: "2025-05-09T09:00:00Z",
-    dateModified: "2025-05-09T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Cybersecurity & Privacy Expert",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Privacy Specialist",
-      description:
-        "10+ years experience in cybersecurity and online privacy protection",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "What Is a VPN? Easy Definition & Complete Guid",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.jpg",
+  datePublished: "2025-05-09T09:00:00Z",
+  dateModified: "2025-05-09T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Cybersecurity & Privacy Expert",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Privacy Specialist",
     description:
-      "Discover what a VPN is in simple terms: how it protects your privacy, secures your data, and unlocks global content. Learn why you need a VPN   and how to choose the right one.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/vpn-explained",
+      "10+ years experience in cybersecurity and online privacy protection",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "VPN, virtual private network, online privacy, data encryption, internet security, public WiFi protection",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Virtual Private Network",
-      },
-      {
-        "@type": "Thing",
-        name: "Internet Privacy",
-      },
-      {
-        "@type": "Thing",
-        name: "Data Security",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Self Study",
-    proficiencyLevel: "Beginner",
-    articleSection: "Internet Security",
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["article", "h1", "h2", "h3"],
+  },
+  description:
+    "Discover what a VPN is in simple terms: how it protects your privacy, secures your data, and unlocks global content. Learn why you need a VPN   and how to choose the right one.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/vpn-explained",
+  },
+  keywords:
+    "VPN, virtual private network, online privacy, data encryption, internet security, public WiFi protection",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Virtual Private Network",
     },
-    hasPart: [
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#vpn-definition",
-      },
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#vpn-benefits",
-      },
-    ],
-  };
+    {
+      "@type": "Thing",
+      name: "Internet Privacy",
+    },
+    {
+      "@type": "Thing",
+      name: "Data Security",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Self Study",
+  proficiencyLevel: "Beginner",
+  articleSection: "Internet Security",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["article", "h1", "h2", "h3"],
+  },
+  hasPart: [
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: "#vpn-definition",
+    },
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: "#vpn-benefits",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           VPN Explained: The Shocking Truth About How Virtual Private Networks
