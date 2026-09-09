@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Cloud Experts",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AWS.jpg",
         width: 1200,
         height: 630,
         alt: "AWS Cloud Computing Guide - Visual Overview of Amazon Web Services",
@@ -93,7 +93,7 @@ export const metadata = {
       "Our brutally honest AWS guide explains everything from bizarre UIs to cost traps and why it's still the most powerful cloud platform in 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AWS.jpg",
     ],
   },
 
@@ -144,7 +144,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AWS.jpg",
     datePublished: "2025-05-17T10:00:00Z",
     dateModified: "2025-05-17T10:00:00Z",
     author: {
@@ -406,7 +406,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AWS.jpg",
     datePublished: "2025-05-17T10:00:00Z",
     dateModified: "2025-05-17T10:00:00Z",
     author: {
@@ -478,7 +478,7 @@ export default function Article() {
         <h1>AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster</h1>
         <Image
           src={
-            "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg"
+            "/mergesociety/AWS.jpg"
           }
           alt="Git For Beginners: A Complete Step-by-Step Guide to Version Control"
           width={600}

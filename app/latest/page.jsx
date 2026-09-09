@@ -100,7 +100,7 @@ const GridNews = () => {
       title:
         "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       image:
-        "/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg",
+        "/mergesociety/Software_devekopers.jpg",
       alt: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       date: " April 27, 2025",
       articleRoute: "ai-is-officially-here",
@@ -162,7 +162,7 @@ const GridNews = () => {
     {
       id: 9,
       title: `Why America Became Obsessed with "Learn to Code"—And Where That Strategy Went Wrong`,
-      image: "/mergesociety/mr-bochelly-IBKyH0V3rew-unsplash_dvk4ha_aihef9.jpg",
+      image: "/mergesociety/Learn_to_Code.jpg",
       alt: "Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong",
       date: "May 1, 2025",
       articleRoute: "learn-to-code",
@@ -195,7 +195,7 @@ const GridNews = () => {
     {
       id: 16,
       title: `Best Programming Languages to Learn for High Paying Tech Jobs in 2025`,
-      image: "/mergesociety/kobu-agency-67L18R4tW_w-unsplash_pnwolr_t9of9c.jpg",
+      image: "/mergesociety/Best_Programming_Languages.jpg",
       alt: " Best Programming Languages to Learn for High Paying Tech Jobs in 2025",
       date: "May 16, 2025",
       articleRoute: "best-programming-languages-high-paying-tech-jobs",
@@ -204,7 +204,7 @@ const GridNews = () => {
       id: 17,
       title: `Best Programming Language for AI and Machine Learning`,
       image:
-        "/mergesociety/pexels-markus-winkler-1430818-18512795_vozwoe_wqokvh.jpg",
+        "/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
       alt: "Best Programming Language for AI and Machine Learning",
       date: "May 16, 2025",
       articleRoute: "top-languages-for-ai-2025",
@@ -213,7 +213,7 @@ const GridNews = () => {
       id: 18,
       title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
       image:
-        "/mergesociety/roman-synkevych-wX2L8L-fGeA-unsplash_wglmjx_u3xr8t.jpg",
+        "/mergesociety/Git_for_beginners.jpg",
       alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
       date: "May 17, 2025",
       articleRoute: "git-explained",
@@ -222,7 +222,7 @@ const GridNews = () => {
       id: 19,
       title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
       image:
-        "/mergesociety/mehmet-ali-peker-hfiym43qBpk-unsplash_1_fszj7j_j8pqdc.jpg",
+        "/mergesociety/AWS.jpg",
       alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
       date: "May 17, 2025",
       articleRoute: "aws-explained",

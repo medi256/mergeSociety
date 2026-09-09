@@ -14,8 +14,8 @@ const CONFIG = {
 
   // Text replacements
   replacements: {
-    "/mergesociety/alex-knight-2EJCSULRwC8-unsplash_cpovif_u5j7ff.jpg":
-      "/mergesociety/Home_labbing.jpg",
+    "/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg":
+      "/mergesociety/Software_devekopers.jpg",
   },
 
   // Create a backup before changing files

@@ -49,3 +49,4 @@ fixJsonLd.js
 image-prompts.json
 image-manifest.json
 scripts
+replace-urls.js

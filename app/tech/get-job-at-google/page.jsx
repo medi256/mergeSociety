@@ -30,7 +30,7 @@ export const metadata = {
   publisher: {
     name: "Merge Society",
     logo: {
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
       width: 400,
       height: 100,
       alt: "Merge Society",
@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
         width: 1200,
         height: 630,
         alt: "Google Headquarters in Mountain View, California",
@@ -60,7 +60,7 @@ export const metadata = {
       "Google recruiters reveal the step-by-step process for landing your dream tech job in 2025. Learn what it takes to become a Googler.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
     ],
   },
   alternates: {
@@ -88,9 +88,9 @@ export const metadata = {
     "@type": "NewsArticle",
     headline: "Google Job Application Guide 2025: Insider Tips from Recruiters",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
     ],
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T14:15:00Z",
@@ -104,7 +104,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
         width: 400,
         height: 100,
       },
@@ -146,9 +146,7 @@ export default function Article() {
         <h1>How to apply for a job at Google</h1>
 
         <Image
-          src={
-            "/mergesociety/pawel-czerwinski-fpZZEV0uQwA-unsplash_h4wqot_uva1qb.jpg"
-          }
+          src={"/mergesociety/Google_job.jpg"}
           alt="How to apply for a job at Google"
           width={600}
           height={400}
@@ -310,14 +308,7 @@ export default function Article() {
           social media to discover more about Google’s people, products,
           culture, and workplaces. For open roles and personalized job
           recommendations, continue to visit{" "}
-          <a
-            href="https://careers.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Link href="/latest/internship-at-google">Google Careers</Link>
-          </a>
-          .
+          <Link href="/latest/internship-at-google">Google Careers</Link>.
         </p>
         <p>
           Best of luck with your application! Remember, every step is a chance

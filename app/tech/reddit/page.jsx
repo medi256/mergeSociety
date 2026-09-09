@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
         width: 1200,
         height: 630,
         alt: "AI bots secretly infiltrating online communities with digital tendrils spreading across Reddit and social platforms",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
         width: 1200,
         height: 630,
         alt: "Person listening to a phone with AI voice cloning technology illustrated as sound waves morphing into deceptive patterns",
@@ -104,7 +104,7 @@ export const metadata = {
       "University experiment reveals AI bots dominating Reddit debates. Plus: new voice cloning scams cost businesses millions & the rising threat of prompt injection attacks targeting developers.",
     creator: "@manager70191",
     images: [
-      "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+      "/mergesociety/AI_Powered_Bots.jpg",
     ],
   },
   robots: {
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
     ],
     datePublished: "2025-04-30T10:15:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -468,7 +468,7 @@ const articleSchema = {
     headline:
       "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
     ],
     datePublished: "2025-04-30T10:15:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -549,7 +549,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg"
+            "/mergesociety/AI_Powered_Bots.jpg"
           }
           alt="AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025"
           width={600}

@@ -667,171 +667,171 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
-    datePublished: "2025-04-29T08:30:00Z",
-    dateModified: "2025-04-29T08:30:00Z",
-    description:
-      "An in-depth investigation into how Palantir's AI-driven technologies are revolutionizing government operations, reshaping privacy norms, and potentially transforming democratic governance into algorithmic rule.",
-    wordCount: 2310,
-    author: [
-      {
-        "@type": "Person",
-        name: "Maya Hernandez",
-        jobTitle: "Senior Technology Ethics Journalist",
-      },
-      {
-        "@type": "Person",
-        name: "Juan Rodriguez",
-        description: "Former Palantir Employee",
-        jobTitle: "Contributing Technology Whistleblower",
-      },
-    ],
-    publisher: {
-      "@type": "Organization",
-      name: "Tech Oversight Initiative",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-        width: 600,
-        height: 60,
-      },
-      foundingDate: "2021-03-01",
-      foundingLocation: "Washington, D.C.",
-      knowsAbout: [
-        "Technology Ethics",
-        "AI Governance",
-        "Corporate Accountability",
-        "Digital Privacy",
-      ],
-    },
-    keywords:
-      "Palantir, Government Surveillance, AI Ethics, Peter Thiel, Alex Karp, Military Contracts, Kill Chain, Algorithm Governance",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/palantir2",
-    },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Palantir Technologies",
-      },
-      {
-        "@type": "Thing",
-        name: "Government Surveillance",
-      },
-      {
-        "@type": "Thing",
-        name: "Algorithmic Governance",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "Person",
-        name: "Peter Thiel",
-      },
-      {
-        "@type": "Person",
-        name: "Alex Karp",
-        jobTitle: "CEO of Palantir Technologies",
-      },
-      {
-        "@type": "Organization",
-        name: "IRS",
-        alternateName: "Internal Revenue Service",
-      },
-      {
-        "@type": "Organization",
-        name: "Department of Health and Human Services",
-        alternateName: "HHS",
-      },
-      {
-        "@type": "Organization",
-        name: "Department of Defense",
-      },
-      {
-        "@type": "Organization",
-        name: "FBI",
-        alternateName: "Federal Bureau of Investigation",
-      },
-      {
-        "@type": "Organization",
-        name: "CIA",
-        alternateName: "Central Intelligence Agency",
-      },
-      {
-        "@type": "Organization",
-        name: "NSA",
-        alternateName: "National Security Agency",
-      },
-    ],
-    isAccessibleForFree: true,
-    educationalLevel: "General Public and Policy Specialists",
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Public Policy Professionals, Technology Ethicists, Concerned Citizens, Journalists, Lawmakers",
-    },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "blockquote", "p.lead"],
-    },
-    commentCount: 386,
-    contentLocation: {
-      "@type": "Place",
-      name: "Denver, Colorado",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Denver",
-        addressRegion: "CO",
-        addressCountry: "USA",
-      },
-    },
-
-    copyrightNotice: "© 2025 Tech Oversight Initiative",
-    creditText: "Research support provided by the Digital Democracy Project",
-    editor: {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+  datePublished: "2025-04-29T08:30:00Z",
+  dateModified: "2025-04-29T08:30:00Z",
+  description:
+    "An in-depth investigation into how Palantir's AI-driven technologies are revolutionizing government operations, reshaping privacy norms, and potentially transforming democratic governance into algorithmic rule.",
+  wordCount: 2310,
+  author: [
+    {
       "@type": "Person",
-      name: "Marcus Washington",
-      jobTitle: "Senior Investigative Editor",
+      name: "Maya Hernandez",
+      jobTitle: "Senior Technology Ethics Journalist",
     },
-    accessibilityAPI: "ARIA",
-    accessibilityControl: [
-      "fullKeyboardControl",
-      "fullMouseControl",
-      "fullTouchControl",
-    ],
-    accessibilityFeature: [
-      "alternativeText",
-      "highContrast",
-      "readingOrder",
-      "structuralNavigation",
-      "tableOfContents",
-    ],
-    accessibilityHazard: "none",
-    accessibilitySummary:
-      "This article is fully accessible to screen readers with proper heading structure and image descriptions.",
-    correction: {
-      "@type": "CorrectionComment",
-      text: "An earlier version of this article incorrectly stated Palantir's headquarters as Palo Alto, CA. It has been corrected to Denver, CO.",
-      datePublished: "2025-04-29T05:20:00Z",
+    {
+      "@type": "Person",
+      name: "Juan Rodriguez",
+      description: "Former Palantir Employee",
+      jobTitle: "Contributing Technology Whistleblower",
     },
-    creativeWorkStatus: "Published",
-  };
+  ],
+  publisher: {
+    "@type": "Organization",
+    name: "Tech Oversight Initiative",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+      width: 600,
+      height: 60,
+    },
+    foundingDate: "2021-03-01",
+    foundingLocation: "Washington, D.C.",
+    knowsAbout: [
+      "Technology Ethics",
+      "AI Governance",
+      "Corporate Accountability",
+      "Digital Privacy",
+    ],
+  },
+  keywords:
+    "Palantir, Government Surveillance, AI Ethics, Peter Thiel, Alex Karp, Military Contracts, Kill Chain, Algorithm Governance",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/palantir2",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Palantir Technologies",
+    },
+    {
+      "@type": "Thing",
+      name: "Government Surveillance",
+    },
+    {
+      "@type": "Thing",
+      name: "Algorithmic Governance",
+    },
+  ],
+  mentions: [
+    {
+      "@type": "Person",
+      name: "Peter Thiel",
+    },
+    {
+      "@type": "Person",
+      name: "Alex Karp",
+      jobTitle: "CEO of Palantir Technologies",
+    },
+    {
+      "@type": "Organization",
+      name: "IRS",
+      alternateName: "Internal Revenue Service",
+    },
+    {
+      "@type": "Organization",
+      name: "Department of Health and Human Services",
+      alternateName: "HHS",
+    },
+    {
+      "@type": "Organization",
+      name: "Department of Defense",
+    },
+    {
+      "@type": "Organization",
+      name: "FBI",
+      alternateName: "Federal Bureau of Investigation",
+    },
+    {
+      "@type": "Organization",
+      name: "CIA",
+      alternateName: "Central Intelligence Agency",
+    },
+    {
+      "@type": "Organization",
+      name: "NSA",
+      alternateName: "National Security Agency",
+    },
+  ],
+  isAccessibleForFree: true,
+  educationalLevel: "General Public and Policy Specialists",
+  audience: {
+    "@type": "Audience",
+    audienceType:
+      "Public Policy Professionals, Technology Ethicists, Concerned Citizens, Journalists, Lawmakers",
+  },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "blockquote", "p.lead"],
+  },
+  commentCount: 386,
+  contentLocation: {
+    "@type": "Place",
+    name: "Denver, Colorado",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Denver",
+      addressRegion: "CO",
+      addressCountry: "USA",
+    },
+  },
+
+  copyrightNotice: "© 2025 Tech Oversight Initiative",
+  creditText: "Research support provided by the Digital Democracy Project",
+  editor: {
+    "@type": "Person",
+    name: "Marcus Washington",
+    jobTitle: "Senior Investigative Editor",
+  },
+  accessibilityAPI: "ARIA",
+  accessibilityControl: [
+    "fullKeyboardControl",
+    "fullMouseControl",
+    "fullTouchControl",
+  ],
+  accessibilityFeature: [
+    "alternativeText",
+    "highContrast",
+    "readingOrder",
+    "structuralNavigation",
+    "tableOfContents",
+  ],
+  accessibilityHazard: "none",
+  accessibilitySummary:
+    "This article is fully accessible to screen readers with proper heading structure and image descriptions.",
+  correction: {
+    "@type": "CorrectionComment",
+    text: "An earlier version of this article incorrectly stated Palantir's headquarters as Palo Alto, CA. It has been corrected to Denver, CO.",
+    datePublished: "2025-04-29T05:20:00Z",
+  },
+  creativeWorkStatus: "Published",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Palantir: The Shadow Tech Giant Redefining Power, Privacy, and
@@ -1059,7 +1059,8 @@ export default function Article() {
         <h2>Governance by Algorithm, Not Democracy</h2>
         <p>
           What does it mean for a single tech contractor to control such a vast
-          reservoir of private data, backed by <Link href="/ai/ai-agents">AI decision-making</Link>? As algorithms
+          reservoir of private data, backed by{" "}
+          <Link href="/ai/ai-agents">AI decision-making</Link>? As algorithms
           increasingly govern daily realities, the human element recedes.
           Decisions formerly shaped by public scrutiny or democratic oversight
           become opaque, automated, and — perhaps most concerningly — aligned
@@ -1150,9 +1151,6 @@ export default function Article() {
             <Link href="/tech/get-job-at-google">
               How to apply for a job at Google
             </Link>
-          </li>
-          <li>
-            <Link href="/tech/bird-flu">Bird Flu’s Shocking Spread</Link>
           </li>
           <li>
             <Link href="/tech/will-tech-jobs-bounce-back">

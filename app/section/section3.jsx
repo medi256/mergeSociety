@@ -10,7 +10,7 @@ const Section3 = () => {
       title:
         "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
       image:
-        "/mergesociety/shutter-speed-PSCxb6qpiFg-unsplash_pt3fii_jprd9j.jpg",
+        "/mergesociety/AI_Powered_Bots.jpg",
       alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
       date: "April 30, 2025",
       articleRoute: "reddit",
@@ -140,7 +140,7 @@ const Section3 = () => {
       title:
         "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
       image:
-        "/mergesociety/solen-feyissa-_XtH7BBRPtA-unsplash_izx1le_j0ert1.jpg",
+        "/mergesociety/Google_Gemini.jpg",
       alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
       date: "May 8, 2025",
       articleRoute: "google-coding-ai",

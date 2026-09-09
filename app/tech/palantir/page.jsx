@@ -567,73 +567,73 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/palantir_vii89x_zvzatj.jpg",
-    datePublished: "2025-04-26T10:15:00Z",
-    dateModified: "2025-04-26T10:15:00Z",
-    author: {
-      "@type": "Person",
-      name: "Morgan Reynolds",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Technology & Defense Industry Analyst",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech, Data, and Defense",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/palantir_vii89x_zvzatj.jpg",
+  datePublished: "2025-04-26T10:15:00Z",
+  dateModified: "2025-04-26T10:15:00Z",
+  author: {
+    "@type": "Person",
+    name: "Morgan Reynolds",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Technology & Defense Industry Analyst",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
+  },
+  description:
+    "Explore how Palantir Technologies has transformed from a secretive data analytics company into a defense industry giant, connecting Silicon Valley innovation with government contracts and changing the future of warfare technology.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/palantir",
+  },
+  keywords:
+    "Palantir, defense technology, Silicon Valley, data analytics, government contracts, Peter Thiel, Alex Karp",
+  articleSection: "Technology Analysis",
+  mentions: [
+    {
       "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      name: "Palantir Technologies",
+      url: "https://www.palantir.com",
     },
-    description:
-      "Explore how Palantir Technologies has transformed from a secretive data analytics company into a defense industry giant, connecting Silicon Valley innovation with government contracts and changing the future of warfare technology.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/palantir",
+    {
+      "@type": "Person",
+      name: "Peter Thiel",
+      jobTitle: "Co-founder",
     },
-    keywords:
-      "Palantir, defense technology, Silicon Valley, data analytics, government contracts, Peter Thiel, Alex Karp",
-    articleSection: "Technology Analysis",
-    mentions: [
-      {
-        "@type": "Organization",
-        name: "Palantir Technologies",
-        url: "https://www.palantir.com",
-      },
-      {
-        "@type": "Person",
-        name: "Peter Thiel",
-        jobTitle: "Co-founder",
-      },
-      {
-        "@type": "Person",
-        name: "Alex Karp",
-        jobTitle: "CEO",
-      },
-      {
-        "@type": "Organization",
-        name: "Department of Defense",
-      },
-      {
-        "@type": "Organization",
-        name: "Immigration and Customs Enforcement",
-      },
-    ],
-  };
+    {
+      "@type": "Person",
+      name: "Alex Karp",
+      jobTitle: "CEO",
+    },
+    {
+      "@type": "Organization",
+      name: "Department of Defense",
+    },
+    {
+      "@type": "Organization",
+      name: "Immigration and Customs Enforcement",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Palantir: How a Silicon Valley Unicorn Rewrote the Rules on Tech,
@@ -981,9 +981,6 @@ export default function Article() {
             <Link href="/tech/get-job-at-google">
               How to apply for a job at Google
             </Link>
-          </li>
-          <li>
-            <Link href="/tech/bird-flu">Bird Flu’s Shocking Spread</Link>
           </li>
           <li>
             <Link href="/tech/will-tech-jobs-bounce-back">

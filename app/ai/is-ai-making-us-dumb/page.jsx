@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "ColdFusion",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.jpg",
         width: 1200,
         height: 630,
         alt: "A human brain connected to AI neural networks, illustrating the cognitive relationship between humans and artificial intelligence",
@@ -80,7 +80,7 @@ export const metadata = {
       "Explore how AI may be affecting our ability to think critically, with practical advice on preserving cognitive abilities in an increasingly automated world.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.jpg",
     ],
   },
   robots: {
@@ -126,7 +126,7 @@ export const metadata = {
     headline:
       "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -637,7 +637,7 @@ const articleSchema = {
     headline:
       "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.jpg",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -746,7 +746,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg"
+            "/mergesociety/AI_Automation.jpg"
           }
           alt="Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age"
           width={600}

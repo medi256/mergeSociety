@@ -62,7 +62,7 @@ const Section4 = () => {
       id: 7,
       title: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
       image:
-        "/mergesociety/nandha-kumar-HToDV_gYh1A-unsplash_bhjuex_dyvm1h.jpg",
+        "/mergesociety/desktop_apps.jpg",
       alt: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
       date: "April 30, 2025",
       articleRoute: "another-tool",

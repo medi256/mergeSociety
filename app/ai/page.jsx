@@ -110,7 +110,7 @@ const Section2 = () => {
       title:
         "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       image:
-        "/mergesociety/Geoffrey_E._Hinton__2024_Nobel_Prize_Laureate_in_Physics__cropped1_ztgfvh_potwn5.jpg",
+        "/mergesociety/Geoffrey_Hinton.jpg",
       alt: "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       date: "April 27, 2025",
       articleRoute: "god-father-of-ai",
@@ -210,7 +210,7 @@ const Section2 = () => {
       title:
         "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       image:
-        "/mergesociety/steve-johnson-ZPOoDQc8yMw-unsplash_tdzgss_gshrpi.jpg",
+        "/mergesociety/AI_Automation.jpg",
       alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       date: "April 29, 2025",
       articleRoute: "is-ai-making-us-dumb",
@@ -220,7 +220,7 @@ const Section2 = () => {
       title:
         "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       image:
-        "/mergesociety/hennie-stander-U7N4fMhJpEg-unsplash_kvvwut_c0gs7v.jpg",
+        "/mergesociety/Death_of_Coding.jpg",
       alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       date: "April 29, 2025",
       articleRoute: "ai-vs-jobs",

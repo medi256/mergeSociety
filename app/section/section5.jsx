@@ -37,7 +37,7 @@ const Section5 = () => {
       title:
         "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
       image:
-        "/mergesociety/clem-onojeghuo-fY8Jr4iuPQM-unsplash_io8ddi_lv15hh.jpg",
+        "/mergesociety/Tech_Layoffs.jpg",
       alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
       date: " April 27, 2025",
       articleRoute: "hiring",
@@ -47,7 +47,7 @@ const Section5 = () => {
       title:
         "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
       image:
-        "/mergesociety/MS-Exec-Nadella-Satya-2017-08-31-22__cropped_hwaupv_fn8ksz.jpg",
+        "/mergesociety/Satya_Nadella.jpg",
       alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
       date: " April 27, 2025",
       articleRoute: "satya",
