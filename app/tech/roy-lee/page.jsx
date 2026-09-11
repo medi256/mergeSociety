@@ -449,81 +449,81 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
-    datePublished: "2025-05-03T08:30:00Z",
-    dateModified: "2025-05-03T08:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Merge Society",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Technology Editor",
-      description:
-        "Former Tech Recruiter and Engineering Manager covering the intersection of technology and career development",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+  datePublished: "2025-05-03T08:30:00Z",
+  dateModified: "2025-05-03T08:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Merge Society",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Technology Editor",
     description:
-      "Explore the controversial story of Roy Lee's AI interview tools, the broken state of tech recruiting, and what it reveals about trust, integrity, and the future of hiring in an AI-dominated landscape.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/roy-lee",
+      "Former Tech Recruiter and Engineering Manager covering the intersection of technology and career development",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "tech interviews, Roy Lee, AI coding interviews, whiteboard interview alternatives, tech hiring process",
-    mentions: [
-      {
-        "@type": "Person",
-        name: "Roy Lee",
-      },
-      {
-        "@type": "Organization",
-        name: "Columbia Engineering",
-      },
-      {
-        "@type": "Person",
-        name: "Kiro",
-      },
-      {
-        "@type": "Thing",
-        name: "Locked in AI the Dual",
-      },
-    ],
-    about: [
-      {
-        "@type": "Thing",
-        name: "Technical Interviews",
-      },
-      {
-        "@type": "Thing",
-        name: "Career Development",
-      },
-      {
-        "@type": "Thing",
-        name: "AI Ethics",
-      },
-    ],
-  };
+  },
+  description:
+    "Explore the controversial story of Roy Lee's AI interview tools, the broken state of tech recruiting, and what it reveals about trust, integrity, and the future of hiring in an AI-dominated landscape.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/roy-lee",
+  },
+  keywords:
+    "tech interviews, Roy Lee, AI coding interviews, whiteboard interview alternatives, tech hiring process",
+  mentions: [
+    {
+      "@type": "Person",
+      name: "Roy Lee",
+    },
+    {
+      "@type": "Organization",
+      name: "Columbia Engineering",
+    },
+    {
+      "@type": "Person",
+      name: "Kiro",
+    },
+    {
+      "@type": "Thing",
+      name: "Locked in AI the Dual",
+    },
+  ],
+  about: [
+    {
+      "@type": "Thing",
+      name: "Technical Interviews",
+    },
+    {
+      "@type": "Thing",
+      name: "Career Development",
+    },
+    {
+      "@type": "Thing",
+      name: "AI Ethics",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Rise and Fall of Roy Lee: What His Story Means for Tech Recruiting
@@ -578,12 +578,15 @@ export default function Article() {
         <p>
           Contrary to the doom and gloom headlines, I suspect Roy Lee probably
           made more from his products than most of us ever will from honest
-          work. And let’s be real using <Link href="/code-report/how-linux-is-created">open source software</Link> in your product is
-          not "cheating"; it’s how most tech companies operate. So, his
-          unpopularity didn’t materialize from thin air. His tool pressed a
-          nerve for thousands of job seekers frustrated with “outdated” high
-          pressure coding interviews especially those built around algorithm
-          puzzles you’ll rarely use on the job.
+          work. And let’s be real using{" "}
+          <Link href="/code-report/how-linux-is-created">
+            open source software
+          </Link>{" "}
+          in your product is not "cheating"; it’s how most tech companies
+          operate. So, his unpopularity didn’t materialize from thin air. His
+          tool pressed a nerve for thousands of job seekers frustrated with
+          “outdated” high pressure coding interviews especially those built
+          around algorithm puzzles you’ll rarely use on the job.
         </p>
         <p>
           Here’s an unpopular opinion: I actually don’t think coding interviews
@@ -732,10 +735,11 @@ export default function Article() {
           application, not just brilliance under pressure.
         </p>
         <p>
-          The <Link href="/ai/cheating">tech hiring process</Link> isn’t about to get easier or more honest. If
-          anything, as tools get more advanced, the potential for deception
-          grows. The only thing you can control is your own integrity: Don’t
-          lie, even if the system seems stacked against you.
+          The <Link href="/ai/cheating">tech hiring process</Link> isn’t about
+          to get easier or more honest. If anything, as tools get more advanced,
+          the potential for deception grows. The only thing you can control is
+          your own integrity: Don’t lie, even if the system seems stacked
+          against you.
         </p>
         <p>
           And don’t forget the worst interviews might just be a sign that the{" "}
@@ -767,11 +771,6 @@ export default function Article() {
           </li>
           <li>
             <Link href="/tech/neovim-explained">Neovim vs Vim</Link>
-          </li>
-          <li>
-            <Link href="/tech/google-coding-ai">
-              Google Gemini 2.5 Pro Surges to #1
-            </Link>
           </li>
         </ul>
         <CommentSection />

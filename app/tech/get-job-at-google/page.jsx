@@ -337,11 +337,6 @@ export default function Article() {
             <Link href="/tech/neovim-explained">Neovim vs Vim</Link>
           </li>
           <li>
-            <Link href="/tech/google-coding-ai">
-              Google Gemini 2.5 Pro Surges to #1
-            </Link>
-          </li>
-          <li>
             <Link href="/startup-stories/interview-coder">
               The Tool That’s Killing LeetCode: How People Are Now Cheating Live
               Coding Interviews into FAANG

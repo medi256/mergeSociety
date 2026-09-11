@@ -329,15 +329,6 @@ const Section3 = () => {
     {
       id: 25,
       title:
-        "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
-      image: "/mergesociety/Google_Gemini.jpg",
-      alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
-      date: "May 8, 2025",
-      articleRoute: "google-coding-ai",
-    },
-    {
-      id: 26,
-      title:
         "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
       image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
@@ -345,7 +336,7 @@ const Section3 = () => {
       articleRoute: "vibe-coding",
     },
     {
-      id: 27,
+      id: 26,
       title:
         "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
       image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
@@ -354,7 +345,7 @@ const Section3 = () => {
       articleRoute: "ruby-explained",
     },
     {
-      id: 28,
+      id: 27,
       title:
         "Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
       image: "/mergesociety/971_dx26ro_qm5n0m.jpg",
@@ -363,7 +354,7 @@ const Section3 = () => {
       articleRoute: "21-devTools",
     },
     {
-      id: 29,
+      id: 28,
       title:
         "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
       image: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
@@ -372,7 +363,7 @@ const Section3 = () => {
       articleRoute: "javascript-features",
     },
     {
-      id: 30,
+      id: 29,
       title:
         "What is malware in simple words?: How Malware Spreads - Inside a Crypto Mining Botnet Targeting Gamers",
       image: "/mergesociety/malware.jpg",
@@ -381,7 +372,7 @@ const Section3 = () => {
       articleRoute: "malware-explained",
     },
     {
-      id: 31,
+      id: 30,
       title:
         "Why Linux Matters: The Beginner’s Guide to Mastering the World’s Most Powerful Operating System",
       image: "/mergesociety/pexels-realtoughcandy-11035358_sdhzhm_citefi.jpg",
@@ -390,7 +381,7 @@ const Section3 = () => {
       articleRoute: "why-linux",
     },
     {
-      id: 32,
+      id: 31,
       title:
         "The TRUTH about C++: Should You Actually Learn It? The Truth Behind Its Power, Pitfalls, and Controversy",
       image: "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.jpg",
@@ -399,7 +390,7 @@ const Section3 = () => {
       articleRoute: "cplus",
     },
     {
-      id: 33,
+      id: 32,
       title:
         "The Most Legendary Programmers Of All Time: The Best Programmers in History",
       image: "/mergesociety/audio_1755852514231_nsf1n_wc51oe_lbiuvd.webp",
@@ -408,7 +399,7 @@ const Section3 = () => {
       articleRoute: "10x-developers",
     },
     {
-      id: 34,
+      id: 33,
       title: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
       image: "/mergesociety/cs_moponk_kbfqj2.jpg",
       alt: "Should I Get a CS Degree in 2025",
@@ -416,7 +407,7 @@ const Section3 = () => {
       articleRoute: "should-you",
     },
     {
-      id: 35,
+      id: 34,
       title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
       image: "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
       alt: "SEO Strategies for 2025",
@@ -424,7 +415,7 @@ const Section3 = () => {
       articleRoute: "seo-wins",
     },
     {
-      id: 36,
+      id: 35,
       title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
       image:
         "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
@@ -433,7 +424,7 @@ const Section3 = () => {
       articleRoute: "neovim-explained",
     },
     {
-      id: 37,
+      id: 36,
       title:
         "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
       image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
@@ -442,7 +433,7 @@ const Section3 = () => {
       articleRoute: "pc-overview",
     },
     {
-      id: 38,
+      id: 37,
       title:
         "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
       image: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
@@ -451,7 +442,7 @@ const Section3 = () => {
       articleRoute: "pc-gaming-parts",
     },
     {
-      id: 39,
+      id: 38,
       title:
         "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
       image: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
@@ -460,7 +451,7 @@ const Section3 = () => {
       articleRoute: "recommended-gaming-pc-builds",
     },
     {
-      id: 40,
+      id: 39,
       title: "UC Berkeley Computer Science Admission Requirements 2025",
       image: "/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
       alt: "UC Berkeley Admissions CS students",
@@ -468,7 +459,7 @@ const Section3 = () => {
       articleRoute: "uc-berkeley-computer-science-admission-requirements-2025",
     },
     {
-      id: 41,
+      id: 40,
       title: "Why Learn to Code with this AI Bubble",
       image: "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
       alt: "Why Learn to Code",
@@ -476,7 +467,7 @@ const Section3 = () => {
       articleRoute: "learn-to-code",
     },
     {
-      id: 42,
+      id: 41,
       title:
         "Shadow Brokers - how the NSA Equation Group got hacked, EternalBlue escaped, and WannaCry set the world on fire",
       image: "/mergesociety/audio_1756372888157_az7uvs_jzyqqe_pd7poj.webp",
@@ -485,7 +476,7 @@ const Section3 = () => {
       articleRoute: "gretest-hack-of-all-time",
     },
     {
-      id: 43,
+      id: 42,
       title:
         "Growth Mindset for Programmers - you do not need to be a genius to code",
       image: "/mergesociety/audio_1756629337986_121o9s_clovvx_situ67.webp",
@@ -494,7 +485,7 @@ const Section3 = () => {
       articleRoute: "growth-mindset-for-programmers",
     },
     {
-      id: 44,
+      id: 43,
       title:
         "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback",
       image: "/mergesociety/audio_1759512892275_pttyh_uh3gns_xtzvrn.webp",

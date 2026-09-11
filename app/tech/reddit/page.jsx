@@ -103,9 +103,7 @@ export const metadata = {
     description:
       "University experiment reveals AI bots dominating Reddit debates. Plus: new voice cloning scams cost businesses millions & the rising threat of prompt injection attacks targeting developers.",
     creator: "@manager70191",
-    images: [
-      "/mergesociety/AI_Powered_Bots.jpg",
-    ],
+    images: ["/mergesociety/AI_Powered_Bots.jpg"],
   },
   robots: {
     index: true,
@@ -463,84 +461,83 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
-    image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
-    ],
-    datePublished: "2025-04-30T10:15:00Z",
-    dateModified: "2025-04-30T12:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Alex Chen",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Technology Security Analyst",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "AI-Powered Bots Infiltrate Reddit, Voice Cloning Scams Rise, and Prompt Injection Threatens Developers in 2025",
+  image: [
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Powered_Bots.jpg",
+  ],
+  datePublished: "2025-04-30T10:15:00Z",
+  dateModified: "2025-04-30T12:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Alex Chen",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Technology Security Analyst",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Code Rabbit Technologies",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
+  },
+  description:
+    "Discover how AI-powered bots are manipulating Reddit communities, cloning voices for high-tech scams, and performing prompt injection attacks. Learn protection strategies in this essential 2025 tech security guide.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/reddit",
+  },
+  keywords:
+    "AI bots, Reddit manipulation, voice cloning scams, prompt injection, AI security, digital deception",
+  articleSection: "Digital Security",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence Security",
+      sameAs: "https://en.wikipedia.org/wiki/Artificial_intelligence_security",
+    },
+    {
+      "@type": "Thing",
+      name: "Voice Cloning",
+      sameAs: "https://en.wikipedia.org/wiki/Voice_cloning",
+    },
+  ],
+  mentions: [
+    {
       "@type": "Organization",
-      name: "Code Rabbit Technologies",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      name: "University of Zurich",
+      sameAs: "https://www.uzh.ch/en.html",
     },
-    description:
-      "Discover how AI-powered bots are manipulating Reddit communities, cloning voices for high-tech scams, and performing prompt injection attacks. Learn protection strategies in this essential 2025 tech security guide.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/reddit",
+    {
+      "@type": "Organization",
+      name: "Reddit",
+      sameAs: "https://www.reddit.com/",
     },
-    keywords:
-      "AI bots, Reddit manipulation, voice cloning scams, prompt injection, AI security, digital deception",
-    articleSection: "Digital Security",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence Security",
-        sameAs:
-          "https://en.wikipedia.org/wiki/Artificial_intelligence_security",
-      },
-      {
-        "@type": "Thing",
-        name: "Voice Cloning",
-        sameAs: "https://en.wikipedia.org/wiki/Voice_cloning",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "Organization",
-        name: "University of Zurich",
-        sameAs: "https://www.uzh.ch/en.html",
-      },
-      {
-        "@type": "Organization",
-        name: "Reddit",
-        sameAs: "https://www.reddit.com/",
-      },
-      {
-        "@type": "Organization",
-        name: "Code Rabbit",
-        sameAs: "https://www.coderabbit.ai/",
-      },
-    ],
-    programmingLanguage: {
-      "@type": "ComputerLanguage",
-      name: "Natural Language Processing",
-      url: "https://en.wikipedia.org/wiki/Natural_language_processing",
+    {
+      "@type": "Organization",
+      name: "Code Rabbit",
+      sameAs: "https://www.coderabbit.ai/",
     },
-  };
+  ],
+  programmingLanguage: {
+    "@type": "ComputerLanguage",
+    name: "Natural Language Processing",
+    url: "https://en.wikipedia.org/wiki/Natural_language_processing",
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power
@@ -548,9 +545,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/AI_Powered_Bots.jpg"
-          }
+          src={"/mergesociety/AI_Powered_Bots.jpg"}
           alt="AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025"
           width={600}
           height={400}
@@ -695,10 +690,10 @@ export default function Article() {
         <p>
           Whenever you use LLMs to build complex projects (say, using a trendy
           Vibe coding template), you constantly feed context and instructions to
-          your <Link href="/ai/whats-next">AI assistant</Link>. Unfortunately, all it takes is a malicious
-          influencer, or a booby-trapped coding template, to slip in a prompt
-          that tells the LLM to do something it shouldn’t—like steal your
-          project data and send it to an attacker.
+          your <Link href="/ai/whats-next">AI assistant</Link>. Unfortunately,
+          all it takes is a malicious influencer, or a booby-trapped coding
+          template, to slip in a prompt that tells the LLM to do something it
+          shouldn’t—like steal your project data and send it to an attacker.
         </p>
         <p>
           Imagine this: You just spent $100 on a hot new Vibe template from a
@@ -714,7 +709,8 @@ export default function Article() {
           Thankfully, not all news in AI tooling is ominous. Enter
           <strong>Code Rabbit’s Agentic</strong>, the newest chat assistant
           built for developers. Unlike sketchy templates, Agentic actually helps
-          coders plan and generate entire <Link href="/latest/git-vs-github">pull requests</Link> from scratch.
+          coders plan and generate entire{" "}
+          <Link href="/latest/git-vs-github">pull requests</Link> from scratch.
         </p>
         <p>
           Here’s how it works: You describe the vision for your next big
@@ -729,7 +725,10 @@ export default function Article() {
         </p>
         <p>
           Code Rabbit’s solution is{" "}
-          <strong>100% free for <Link href="/latest/github-repositories">open source projects</Link></strong>
+          <strong>
+            100% free for{" "}
+            <Link href="/latest/github-repositories">open source projects</Link>
+          </strong>
           and includes enterprise-grade capabilities for private repositories.
         </p>
 
@@ -766,11 +765,6 @@ export default function Article() {
           </li>
           <li>
             <Link href="/tech/neovim-explained">Neovim vs Vim</Link>
-          </li>
-          <li>
-            <Link href="/tech/google-coding-ai">
-              Google Gemini 2.5 Pro Surges to #1
-            </Link>
           </li>
         </ul>
         <CommentSection />

@@ -290,95 +290,93 @@ export const metadata = {
 };
 
 const articleSchema = {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "@id": "https://mergesociety.com/tech/vibe-coding",
-      headline:
-        "Vibe Coding 2025: The AI Programming Revolution That's Making Developers Millions",
-      alternativeHeadline:
-        "How to Master Vibe Coding and Join the AI Programming Revolution",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
-        width: 1200,
-        height: 630,
-        caption:
-          "Vibe Coding concept visualization showing AI-assisted programming workflow",
-      },
-      datePublished: "2025-05-09T09:00:00Z",
-      dateModified: new Date().toISOString(),
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-        url: "https://mergesociety.com/about",
-        sameAs: ["https://twitter.com/manager70191"],
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        url: "https://mergesociety.com",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://mergesociety.com/MS.png",
-          width: 200,
-          height: 200,
-        },
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://mergesociety.com/tech/vibe-coding",
-      },
-      articleSection: "Programming Tutorial",
-      articleBody:
-        "Comprehensive guide to vibe coding, the AI programming revolution of 2025...",
-      wordCount: 2500,
-      keywords:
-        "vibe coding, AI programming, developer success, programming tutorial, AI tools",
-      about: [
-        {
-          "@type": "Thing",
-          name: "Vibe Coding",
-          description:
-            "AI-assisted programming methodology for rapid development",
-        },
-        {
-          "@type": "Thing",
-          name: "AI Programming",
-          description:
-            "Using artificial intelligence tools for software development",
-        },
-      ],
-      mentions: [
-        {
-          "@type": "Person",
-          name: "Andrej Karpathy",
-          description: "Pioneer of the Vibe Coding methodology",
-        },
-        {
-          "@type": "Person",
-          name: "Peter Levels",
-          description:
-            "Successful indie developer using vibe coding techniques",
-        },
-      ],
-      isAccessibleForFree: true,
-      genre: ["Programming", "Technology Tutorial", "Developer Guide"],
-      learningResourceType: "Tutorial",
-      educationalLevel: "Intermediate",
-      typicalAgeRange: "18-65",
-      interactivityType: "expositive",
-      educationalUse: "Professional Development",
-    };
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://mergesociety.com/tech/vibe-coding",
+  headline:
+    "Vibe Coding 2025: The AI Programming Revolution That's Making Developers Millions",
+  alternativeHeadline:
+    "How to Master Vibe Coding and Join the AI Programming Revolution",
+  image: {
+    "@type": "ImageObject",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+    width: 1200,
+    height: 630,
+    caption:
+      "Vibe Coding concept visualization showing AI-assisted programming workflow",
+  },
+  datePublished: "2025-05-09T09:00:00Z",
+  dateModified: new Date().toISOString(),
+  author: {
+    "@type": "Person",
+    name: "Massa Medi",
+    url: "https://mergesociety.com/about",
+    sameAs: ["https://twitter.com/manager70191"],
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    url: "https://mergesociety.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+      width: 200,
+      height: 200,
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/vibe-coding",
+  },
+  articleSection: "Programming Tutorial",
+  articleBody:
+    "Comprehensive guide to vibe coding, the AI programming revolution of 2025...",
+  wordCount: 2500,
+  keywords:
+    "vibe coding, AI programming, developer success, programming tutorial, AI tools",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Vibe Coding",
+      description: "AI-assisted programming methodology for rapid development",
+    },
+    {
+      "@type": "Thing",
+      name: "AI Programming",
+      description:
+        "Using artificial intelligence tools for software development",
+    },
+  ],
+  mentions: [
+    {
+      "@type": "Person",
+      name: "Andrej Karpathy",
+      description: "Pioneer of the Vibe Coding methodology",
+    },
+    {
+      "@type": "Person",
+      name: "Peter Levels",
+      description: "Successful indie developer using vibe coding techniques",
+    },
+  ],
+  isAccessibleForFree: true,
+  genre: ["Programming", "Technology Tutorial", "Developer Guide"],
+  learningResourceType: "Tutorial",
+  educationalLevel: "Intermediate",
+  typicalAgeRange: "18-65",
+  interactivityType: "expositive",
+  educationalUse: "Professional Development",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to
@@ -455,11 +453,12 @@ export default function Article() {
             elegance, forget understanding. Just launch it. Just “vibe.”
           </p>
           <p>
-            This movement exploded thanks to <Link href="/startup-stories/rob-hallam">indie hacker</Link> overlord{" "}
-            <strong>Peter Levels</strong>, who famously vibe-coded a “crappy
-            real-time flight simulator MMO” in JavaScript (yes, you read that
-            right). He sold in-game ad spots and made piles of money. Genius?
-            Tech bro fever dream? Both. But here’s the catch...
+            This movement exploded thanks to{" "}
+            <Link href="/startup-stories/rob-hallam">indie hacker</Link>{" "}
+            overlord <strong>Peter Levels</strong>, who famously vibe-coded a
+            “crappy real-time flight simulator MMO” in JavaScript (yes, you read
+            that right). He sold in-game ad spots and made piles of money.
+            Genius? Tech bro fever dream? Both. But here’s the catch...
           </p>
           <blockquote>
             While everyone is cashing in, the internet is drowning in a sea of
@@ -745,13 +744,6 @@ export default function Article() {
         <section>
           <ul>
             <li>
-              <a href="/tech/google-coding-ai">
-                Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI,
-                OpenAI’s Strategic Shakeups, and What Every Developer Needs to
-                Know
-              </a>
-            </li>
-            <li>
               <a href="/tech/will-tech-jobs-bounce-back">
                 Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as
                 AI Takes Hold?
@@ -790,13 +782,15 @@ export default function Article() {
           <h2>Frequently Asked Questions</h2>
           <h3>Can I trust code written entirely by AI?</h3>
           <p>
-            No. Always review and test AI-generated code. Use <Link href="/code-report/basic-git-commands">version control</Link> so
-            nothing is lost for good.
+            No. Always review and test AI-generated code. Use{" "}
+            <Link href="/code-report/basic-git-commands">version control</Link>{" "}
+            so nothing is lost for good.
           </p>
           <h3>Will traditional programming still matter?</h3>
           <p>
             The need for “hand coding” may shrink, but deep logic, architecture,
-            and <Link href="/ai/will-programmers-vanish">debugging skills</Link> are more valuable than ever.
+            and <Link href="/ai/will-programmers-vanish">debugging skills</Link>{" "}
+            are more valuable than ever.
           </p>
           <h3>How do I keep up with new tools?</h3>
           <p>

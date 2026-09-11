@@ -9,8 +9,7 @@ const Section3 = () => {
       id: 12,
       title:
         "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image:
-        "/mergesociety/AI_Powered_Bots.jpg",
+      image: "/mergesociety/AI_Powered_Bots.jpg",
       alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
       date: "April 30, 2025",
       articleRoute: "reddit",
@@ -138,16 +137,6 @@ const Section3 = () => {
     {
       id: 26,
       title:
-        "Google Gemini 2.5 Pro Surges to #1: The Future of Coding AI, OpenAI’s Strategic Shakeups, and What Every Developer Needs to Know",
-      image:
-        "/mergesociety/Google_Gemini.jpg",
-      alt: "Google Gemini 2.5 Pro AI coding model visualization with code samples and benchmark results",
-      date: "May 8, 2025",
-      articleRoute: "google-coding-ai",
-    },
-    {
-      id: 27,
-      title:
         "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
       image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
       alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
@@ -155,7 +144,7 @@ const Section3 = () => {
       articleRoute: "vibe-coding",
     },
     {
-      id: 28,
+      id: 27,
       title:
         "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
       image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
@@ -164,7 +153,7 @@ const Section3 = () => {
       articleRoute: "ruby-explained",
     },
     {
-      id: 29,
+      id: 28,
       title:
         " Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
       image: "/mergesociety/971_dx26ro_qm5n0m.jpg",
@@ -173,7 +162,7 @@ const Section3 = () => {
       articleRoute: "21-devTools",
     },
     {
-      id: 30,
+      id: 29,
       title:
         "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
       image: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
@@ -182,7 +171,7 @@ const Section3 = () => {
       articleRoute: "javascript-features",
     },
     {
-      id: 36,
+      id: 30,
       title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
       image: "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
       alt: "SEO Strategies for 2025",
@@ -190,7 +179,7 @@ const Section3 = () => {
       articleRoute: "seo-wins",
     },
     {
-      id: 37,
+      id: 31,
       title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
       image:
         "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
@@ -199,7 +188,7 @@ const Section3 = () => {
       articleRoute: "neovim-explained",
     },
     {
-      id: 38,
+      id: 32,
       title:
         "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
       image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
@@ -208,7 +197,7 @@ const Section3 = () => {
       articleRoute: "pc-overview",
     },
     {
-      id: 39,
+      id: 33,
       title:
         "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
       image: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
@@ -217,7 +206,7 @@ const Section3 = () => {
       articleRoute: "pc-gaming-parts",
     },
     {
-      id: 40,
+      id: 34,
       title:
         "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
       image: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
@@ -226,7 +215,7 @@ const Section3 = () => {
       articleRoute: "recommended-gaming-pc-builds",
     },
     {
-      id: 41,
+      id: 35,
       title: "Why Learn to Code with this AI Bubble",
       image: "/mergesociety/audio_1755679142551_7b4jhp_a2iclj_tsoxuc.webp",
       alt: "Why Learn to Code",
