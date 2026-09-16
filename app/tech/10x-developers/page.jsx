@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Legendary Programmers: The Messiahs, Madmen, and Makers Behind Your Favorite Tools",

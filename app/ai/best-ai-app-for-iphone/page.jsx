@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "10 Best Free AI Apps for Android & iPhone: Insanely Powerful Tools You're Probably Not Using Yet",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
   description:

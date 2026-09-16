@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "I Built a Product in 24 Hours: 7pm to 5am Sprint (Next.js, Supabase, Stripe)",

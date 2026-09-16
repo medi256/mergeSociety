@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",

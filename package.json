@@ -6,22 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "daisyui": "^5.0.27",
-    "next": "15.3.8",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
     "react-icons": "^5.5.0",
     "react-syntax-highlighter": "^15.6.1",
     "sharp": "^0.35.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.1",
+    "eslint": "10.10.0",
+    "eslint-config-next": "16.3.5",
     "tailwindcss": "^4"
   }
 }

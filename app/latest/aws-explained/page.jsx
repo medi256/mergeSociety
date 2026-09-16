@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "AWS: The Ultimate Guide to Cloud Computing's Wild Rollercoaster",
   description:

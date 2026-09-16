@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Real-World Coding: Why Building for ACTUAL Users Will 10x Your Software Engineering Career",

@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Best AI Apps for Studying: 8 Game-Changing Tools That Make Learning Lightning-Fast in 2025",

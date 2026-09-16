@@ -5,6 +5,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import "../cp.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Creating an HTML Table for Weekly Schedules | HTML Tutorial",
   description:

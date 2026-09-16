@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import "../cp.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Build Your First HTML Resume: Step-by-Step Tutorial",
   description:

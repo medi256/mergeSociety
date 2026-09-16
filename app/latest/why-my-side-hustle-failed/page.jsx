@@ -2,6 +2,7 @@ import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",

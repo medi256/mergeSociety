@@ -1,5 +1,6 @@
 import Button from "@/app/button";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "API Deep Dive: Types, Keys, Endpoints, and Documentation Explained",
   description:

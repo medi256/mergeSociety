@@ -3,6 +3,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Every React Concept Explained: The Ultimate Guide to Modern React in 2025 | May 2, 2025",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "AI Bots Have Infiltrated Reddit: The Shocking Truth Behind 2025's Digital Deception Crisis",

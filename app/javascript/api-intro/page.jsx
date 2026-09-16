@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "@/app/button";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "What is an API (Application Programming Interface)?",
   description:

@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Master CSS Z-Index: Understanding Stacking and Layering",
   description:

@@ -5,6 +5,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import "../cp.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Build a Simple To-Do List App with JavaScript",
   description:

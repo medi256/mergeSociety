@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",

@@ -1,5 +1,6 @@
 import Button from "@/app/button";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Deploying React Applications: Netlify, Vercel, and GitHub Pages",
   description:

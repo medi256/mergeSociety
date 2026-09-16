@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Rust Programming Language: Memory Safety and Performance Guide 2025",
   description:

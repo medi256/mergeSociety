@@ -3,6 +3,7 @@ import "../project.css";
 // import Image from "next/image";
 import "../project.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "CSS Projects | Step-by-Step Guide for Beginners and Advanced Users",
   description:

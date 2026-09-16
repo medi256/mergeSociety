@@ -2,6 +2,7 @@ import Link from "next/link";
 // import { Project } from "../NextBlogButton";
 import "./project.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Explore Coding Projects | HTML, CSS, JavaScript",
   description:

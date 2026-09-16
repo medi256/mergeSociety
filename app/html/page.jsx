@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./course.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Complete HTML Tutorial: From Beginner to Pro | MergeSociety",
   description:

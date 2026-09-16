@@ -3,6 +3,7 @@ import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "WebSocket vs Polling: Real-Time Web Communication Guide 2025 [Updated]",

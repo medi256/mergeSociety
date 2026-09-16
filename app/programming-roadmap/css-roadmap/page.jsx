@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",

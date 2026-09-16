@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Sesame AI Voice Revolution: The Shocking Truth About Human-Like AI That Will Change Everything",

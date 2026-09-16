@@ -2,6 +2,7 @@ import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern",
   description:

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "How To Start Programming Projects The Lazy Way | Massa Medi",
   description:

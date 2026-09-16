@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Best Programming Languages for High-Paying Tech Jobs in 2025 | Career Guide",

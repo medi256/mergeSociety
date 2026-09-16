@@ -5,6 +5,7 @@ import Script from "next/script";
 // import Head from "next/head";
 import Footer from "./footer";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

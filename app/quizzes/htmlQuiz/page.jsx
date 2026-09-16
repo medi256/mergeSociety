@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "../quiz.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "HTML Quizzes | Test Your HTML Skills with Interactive Challenges",
   description:

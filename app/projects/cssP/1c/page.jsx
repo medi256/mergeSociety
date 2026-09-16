@@ -4,6 +4,7 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Link from "next/link";
 import "../cp.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Building Your First Portfolio Website",
   description:

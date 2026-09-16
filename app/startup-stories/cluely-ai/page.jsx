@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Do People Actually Know What Cluely Does? I Took It To The Streets of San Francisco To Find Out | Cluely Blog",

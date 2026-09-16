@@ -3,6 +3,7 @@ import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "AI Trends 2025: 8 Game-Changing Predictions That Will Transform Your Future",

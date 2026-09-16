@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "HTTP Evolution: The Complete Breakdown of HTTP 1.1 vs HTTP 2 vs HTTP 3 (And Why Most People Still Get It Wrong)",

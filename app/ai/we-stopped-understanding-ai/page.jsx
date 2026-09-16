@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence [Updated June 2025]",

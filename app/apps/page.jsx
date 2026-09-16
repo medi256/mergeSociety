@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "../section/section.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Merge Society | Trending Apps",
   description:

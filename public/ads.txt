@@ -1,4 +1,4 @@
-# Ads.txt v20260716
+# Ads.txt v20260904
 managerdomain=journeymv.com
 contact=sales@journeymv.com
 ownerdomain=mergesociety.com
@@ -23,7 +23,6 @@ appnexus.com, 7911, RESELLER, f5ab79cb980f11d1
 rhythmone.com, 3463482822, RESELLER, a670c89d4a324e47
 video.unrulymedia.com, 3463482822, RESELLER
 smartadserver.com, 4524, RESELLER, 060d053dcf45cbf3
-smartadserver.com, 4071, RESELLER, 060d053dcf45cbf3
 gumgum.com, 15958, RESELLER, ffdef49475d318a9
 rubiconproject.com, 26278, DIRECT, 0bfd66d529a55807
 indexexchange.com, 207882, DIRECT, 50b1c356f2c5c8fc
@@ -35,13 +34,12 @@ appnexus.com, 8173, RESELLER, f5ab79cb980f11d1
 contextweb.com, 562001, RESELLER, 89ff185a4c4e857c
 video.unrulymedia.com, 1858504412, RESELLER
 fabrik.com, 87, DIRECT
-contextweb.com, 563243, DIRECT, 89ff185a4c4e857c
-rubiconproject.com, 26184, RESELLER, 0bfd66d529a55807
 pubmatic.com, 164271, DIRECT, 5d62403b186f2ace
 pubmatic.com, 168029, DIRECT, 5d62403b186f2ace
 appnexus.com, 15770, DIRECT, f5ab79cb980f11d1
 openx.com, 560606532, DIRECT, 6a698e2ec38604c6
 openx.com, 566104314, RESELLER, 6a698e2ec38604c6
+openx.com, 581010437, DIRECT, 6a698e2ec38604c6
 triplelift.com, 14132, DIRECT, 6c33edb13117fd86
 themediagrid.com, GODNC4, RESELLER, 35d5010d7789b49d
 minutemedia.com, 01kqs9mfw3jw, DIRECT
@@ -104,9 +102,9 @@ mediago.io,045ac24b888bcf59a09731e7f0f2084f,RESELLER
 adyoulike.com,7463c359225e043c111036d7a29affa5,RESELLER, 4ad745ead2958bf7
 minutemedia.com,01gya4708ddm,RESELLER
 vidazoo.com,6538cece8ffdc67b51188b9b,RESELLER,b6ada874b4d7d0b2
-imds.tv,AM1601,RESELLER,ae6c32151e71f19d
 start.io,123111883,RESELLER
 yieldmo.com, 3078438591206989879, RESELLER
+nativo.com, 6154, DIRECT, 59521ca7cc5e9fee
 aniview.com, 66ba73a97566d9303e011704, RESELLER, 78b21b97965ec3f8
 sharethrough.com, zLsEa05k, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UXUWG46h, RESELLER, d53b998a7bd4ecd2
@@ -147,6 +145,7 @@ openx.com, 559680764, RESELLER
 sharethrough.com, a6a34444, RESELLER
 smartadserver.com, 5277, DIRECT, 060d053dcf45cbf3
 trustedstack.com, TSUKNZU26, DIRECT
+trustedstack.com, TSX6Y4Q0D, DIRECT
 onetag.com, 87f58fe90234d0e, RESELLER
 sharethrough.com, KGPeiFc6, RESELLER, d53b998a7bd4ecd2
 rubiconproject.com, 26144, RESELLER, 0bfd66d529a55807
@@ -162,7 +161,6 @@ minutemedia.com, 01garg96c88b, DIRECT
 smartadserver.com, 3262, DIRECT, 060d053dcf45cbf3
 video.unrulymedia.com, 136898039, DIRECT
 pubmatic.com, 95054, DIRECT, 5d62403b186f2ace
-adform.com, 2996, DIRECT
 lijit.com, 605651, DIRECT, fafdf38b16bf6b2b #SOVRN
 lijit.com, 605651-eb, DIRECT, fafdf38b16bf6b2b #SOVRN
 openx.com, 538959099, RESELLER, 6a698e2ec38604c6
@@ -179,10 +177,10 @@ opera.com, pub10014056052800, RESELLER, 55a0c5fd61378de3
 axonix.com, 59143, RESELLER, bc385f2b4a87b721
 programmaticx.ai, 100464, RESELLER
 sharethrough.com, 4926, RESELLER, d53b998a7bd4ecd2
-vidazoo.com, 59ac17c192832d0011283fe3, DIRECT, b6ada874b4d7d0b2
+vidazoo.com, 69f3bc8a923017e443e2329d, DIRECT, b6ada874b4d7d0b2
 rubiconproject.com, 17130, RESELLER, 0bfd66d529a55807
 openx.com, 541017750, RESELLER, 6a698e2ec38604c6
-pubmatic.com, 159988, RESELLER, 5d62403b186f2ace
+yieldmo.com, 3624960084913628105, RESELLER
 onetag.com, 972b139240c481d, DIRECT
 appnexus.com, 13099, RESELLER
 pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
@@ -193,6 +191,25 @@ connectad.io, 587, DIRECT, 85ac85a30c93b3e5
 adform.com, 768, RESELLER, 9f5210a2f0999e32
 rubiconproject.com, 26800, RESELLER, 0bfd66d529a55807
 openx.com, 537145117, RESELLER, 6a698e2ec38604c6
+adipolo.com, 406, DIRECT
+adipolosolutions.com, 22889856011, RESELLER
+opamarketplace.com, 22889856011, RESELLER
+pmbmonetize.com, 22889856011, RESELLER
+smartadline.com, 22676593736, RESELLER
+google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0 #APL
+google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0 #Opa
+google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0 #GreeterAPL
+google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0 #Positive
+google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0
+google.com, pub-9966039342650298, RESELLER, f08c47fec0942fa0
+google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0
+copper6.com, 22676593736, RESELLER
+omgstudios.com, 22676593736, RESELLER
+appnexus.com, 16912, RESELLER, f5ab79cb980f11d1
+triplelift.com, 9636, DIRECT, 6c33edb13117fd86
+appnexus.com, 8420, RESELLER, f5ab79cb980f11d1
+richaudience.com, 3b6nSszVxj, RESELLER
+adipolo.com, 22889856011, RESELLER
 
 
 

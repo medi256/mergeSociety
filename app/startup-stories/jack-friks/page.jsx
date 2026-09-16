@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "From Idea to First Dollar in 5 Days: How I Built a Couples App, Went Viral on Twitter, and Planned the Path to 100K Downloads",

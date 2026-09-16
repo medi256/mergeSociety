@@ -2,6 +2,7 @@ import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",

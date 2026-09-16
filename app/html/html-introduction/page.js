@@ -3,6 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import Link from "next/link";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Introduction to HTML | Learn the Basics of HTML for Web Development",
   description:

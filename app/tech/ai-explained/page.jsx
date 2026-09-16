@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "How Chatbots Actually Work: Predicting the Next Word, At Scale, With Transformers, Attention, and Human Feedback | Massa Medi",

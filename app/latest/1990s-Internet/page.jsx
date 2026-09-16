@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",

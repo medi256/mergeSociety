@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./about.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "About MergeSociety | Tech Platform by Developer Massa Medi",
   description:

@@ -4,6 +4,7 @@ import Image from "next/image";
 import "../section/section.css";
 import Script from "next/script";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Programming Language Roadmaps 2025: Complete Developer Career Guides | Learn JavaScript, Python, Java & More",

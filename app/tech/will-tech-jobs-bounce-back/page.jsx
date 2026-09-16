@@ -3,6 +3,7 @@ import Link from "next/link";
 import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Tech Jobs 2025: Why the Tech Job Market Is Coming Back—But Not How You Expect",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "21 Best VS Code Extensions I Use Every Day 2025 - Prettier, ESLint, GitLens & More",

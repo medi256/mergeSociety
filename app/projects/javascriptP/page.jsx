@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "../project.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "JavaScript Projects | Beginner to Advanced Challenges",
   description:

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/app/button";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "How to Create Your First React App",
   description:

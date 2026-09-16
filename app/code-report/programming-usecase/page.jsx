@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "10 Different Programming Languages and Their Uses: Complete Beginner's Guide to Python, Java, JavaScript & More",

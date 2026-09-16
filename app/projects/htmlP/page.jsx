@@ -2,6 +2,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import "../project.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "HTML Projects | Step-by-Step Tutorials for Beginners and Advanced Users",

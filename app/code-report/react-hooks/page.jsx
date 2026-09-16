@@ -7,6 +7,7 @@ import Image from "next/image";
 // import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import CommentSection from "@/app/commentSection";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",

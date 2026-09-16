@@ -7,6 +7,8 @@ import Section4 from "./section/section4";
 import Section5 from "./section/section5";
 import Section6 from "./section/section6";
 import Section7 from "./section/section7";
+
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 // import Link from "next/link";
 
 export default function Home() {

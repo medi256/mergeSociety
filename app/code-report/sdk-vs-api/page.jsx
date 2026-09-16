@@ -7,6 +7,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "APIs vs SDKs Explained: Essential Tools for Cloud App Development in 2025",

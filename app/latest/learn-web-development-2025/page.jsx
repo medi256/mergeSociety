@@ -5,6 +5,7 @@ import Image from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Learn Web Development in 2025: The Complete No-Noise Roadmap",
   description:

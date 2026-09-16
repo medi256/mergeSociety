@@ -1,32 +1,13 @@
-// const nextConfig = {
-//   images: {
-//     loader: "custom",
-//     loaderFile: "./app/cloudflare-loader.js",
-
-//     domains: [
-//       "res.cloudinary.com",
-//       "www.freecodecamp.org",
-//       "reactjs.org",
-//       "afeoolopdqmqjcvsgdxc.supabase.co",
-//       "img.mergesociety.com",
-//     ],
-//     formats: ["image/webp", "image/avif"],
-//   },
-// };
-
-// export default nextConfig;
-
 const nextConfig = {
   images: {
     loader: "custom",
     loaderFile: "./app/cloudflare-loader.js",
-
-    domains: [
-      "res.cloudinary.com",
-      "www.freecodecamp.org",
-      "reactjs.org",
-      "afeoolopdqmqjcvsgdxc.supabase.co",
-      "img.mergesociety.com",
+    remotePatterns: [
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      { protocol: "https", hostname: "www.freecodecamp.org" },
+      { protocol: "https", hostname: "reactjs.org" },
+      { protocol: "https", hostname: "afeoolopdqmqjcvsgdxc.supabase.co" },
+      { protocol: "https", hostname: "img.mergesociety.com" },
     ],
     formats: ["image/webp", "image/avif"],
   },

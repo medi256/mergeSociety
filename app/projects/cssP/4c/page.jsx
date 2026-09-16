@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "../cp.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Designing an Advanced Pricing Table with CSS Grid ",
   description:

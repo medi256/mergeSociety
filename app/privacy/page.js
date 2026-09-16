@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "Privacy Policy | MergeSociety",
   description:

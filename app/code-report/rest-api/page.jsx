@@ -7,6 +7,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title: "REST API Explained: The Backbone of Modern Cloud Development in 2025",
   description:

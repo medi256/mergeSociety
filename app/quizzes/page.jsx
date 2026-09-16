@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import "./quiz.css";
+
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 // import { Project } from "../NextBlogButton";
 
 export const metadata = {

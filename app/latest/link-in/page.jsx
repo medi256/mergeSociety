@@ -2,6 +2,7 @@ import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "LinkedIn's Cringe Paradox: Why the World's Top Career Platform Is So Weird—and Here to Stay",

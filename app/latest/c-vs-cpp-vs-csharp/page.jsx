@@ -5,6 +5,7 @@ import Image from "next/image";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
     "C vs C++ vs C#: Complete Guide - When to Use Each Programming Language",
