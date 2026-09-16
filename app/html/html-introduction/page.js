@@ -221,7 +221,10 @@ const HTMLIntroduction = () => {
             if you haven't gotten things right.
           </h3>
           <video controls width={"300px"}>
-            <source src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/videos%20and%20audios/myFirstWebsite_baseb1_dwfd4f.mov" />
+            <source
+              src="/videos_and_audios/myFirstWebsite_baseb1_dwfd4f.mov"
+              type="video/mp4"
+            />
           </video>
           <Button whereToGo={"html-basics"} />
         </section>

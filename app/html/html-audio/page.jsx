@@ -130,7 +130,10 @@ const HTMLAudio = () => {
 
         <p>You can also watch a video on how to upload from your computer</p>
         <video controls width="300px">
-          <source src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/videos%20and%20audios/audioUpload_guktfk_lw9mzw.mov" />
+          <source
+            src="/videos_and_audios/audioUpload_guktfk_lw9mzw.mov"
+            type="video/mp4"
+          />
         </video>
 
         <h2>Customizing Audio Player Appearance</h2>

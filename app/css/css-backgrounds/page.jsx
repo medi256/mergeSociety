@@ -107,7 +107,8 @@ div {
         <video
           controls
           width={"300px"}
-          src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/videos%20and%20audios/ImageAsBackground_zio00t_q460jh.mov"
+          src="/videos_and_audios/ImageAsBackground_zio00t_q460jh.mov"
+          type="video/mp4"
         >
           Your browser does not support this video format
         </video>

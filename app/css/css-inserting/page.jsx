@@ -130,7 +130,8 @@ h1 {
         <video
           width={"300px"}
           controls
-          src="https://afeoolopdqmqjcvsgdxc.supabase.co/storage/v1/object/public/videos%20and%20audios/cssInsertion_f5qaw3_x2ydwf.mov"
+          src="/videos_and_audios/cssInsertion_f5qaw3_x2ydwf.mov"
+          type="video/mp4"
         >
           <p>
             Your browser doesn't support this video format, try opening the
