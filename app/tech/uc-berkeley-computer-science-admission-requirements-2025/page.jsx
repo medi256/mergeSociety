@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/uc_barkly_ilppxp_v9rjgu.webp",
         width: 1200,
         height: 630,
         alt: "UC Berkeley campus with students - Complete Admissions Guide 2025",
@@ -48,7 +48,7 @@ export const metadata = {
     description:
       "Discover the secrets to UC Berkeley admissions in 2025. Learn about holistic review, Personal Insight Questions, and proven strategies.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/uc_barkly_ilppxp_v9rjgu.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/uc_barkly_ilppxp_v9rjgu.webp",
     ],
     creator: "@manager70191",
   },
@@ -94,7 +94,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/uc_barkly_ilppxp_v9rjgu.png"
+            src="/mergesociety/uc_barkly_ilppxp_v9rjgu.webp"
             alt="UC Berkeley Admissions CS students"
             width={600}
             height={400}

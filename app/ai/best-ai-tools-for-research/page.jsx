@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
         width: 1200,
         height: 630,
         alt: "AI research tools dashboard showing Jenny AI, Paperpal, Julius AI, and Research Rabbit interfaces for academic research automation",
@@ -95,7 +95,7 @@ export const metadata = {
       "These 10 free AI tools cut research time by months. Jenny AI, Paperpal, Julius AI + 7 more game-changers that eliminate the research grind forever.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
     ],
   },
 
@@ -181,7 +181,7 @@ export const metadata = {
     headline:
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
     datePublished: "2024-11-15T09:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
@@ -416,7 +416,7 @@ const articleSchema = {
     headline:
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
     datePublished: "2024-11-15T09:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
@@ -516,7 +516,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg"
+            src="/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp"
             alt="Illustration of the best AI tools for research, featuring automation, data analysis, and academic productivity"
             width={600}
             height={400}

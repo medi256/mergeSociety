@@ -34,7 +34,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.webp",
         width: 1200,
         height: 630,
         alt: "Modern GPU architecture diagram showing CUDA cores, tensor units, and memory interfaces",
@@ -78,7 +78,7 @@ export const metadata = {
       "Discover how modern GPUs perform 36 trillion calculations per second to power gaming, AI, and the future of computing in this deep-dive technical explainer.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -111,7 +111,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.webp",
     datePublished: "2025-04-25T10:00:00Z",
     dateModified: "2025-04-25T10:00:00Z",
     author: {
@@ -167,7 +167,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline:
       "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/gpus_bmtfwz_kpcedg.webp",
     datePublished: "2025-04-25T10:00:00Z",
     dateModified: "2025-04-25T10:00:00Z",
     author: {
@@ -234,7 +234,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/gpus_bmtfwz_kpcedg.jpg"}
+          src={"/mergesociety/gpus_bmtfwz_kpcedg.webp"}
           alt="Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games,
           AI, and the Future of Computing"
           width={600}

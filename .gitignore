@@ -50,3 +50,5 @@ image-prompts.json
 image-manifest.json
 scripts
 replace-urls.js
+seo-audit-images.csv
+seo-audit-pages.csv

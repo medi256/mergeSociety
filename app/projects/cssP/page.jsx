@@ -56,7 +56,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.webp",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",
@@ -69,7 +69,7 @@ export const metadata = {
     description:
       "Explore step-by-step CSS projects designed for both beginners and advanced users. Learn how to style web pages with CSS.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-projects_uhalsm_ilayp7.webp",
     ],
   },
   robots: {

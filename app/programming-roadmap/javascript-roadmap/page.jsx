@@ -57,13 +57,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
         width: 1200,
         height: 630,
         alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
         width: 600,
         height: 600,
         alt: "Full Stack JavaScript Developer Roadmap 2025",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
     ],
   },
 
@@ -149,7 +149,7 @@ const structuredData = {
 
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
     width: 1200,
     height: 630,
   },
@@ -197,7 +197,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png"
+            src="/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp"
             alt="Full Stack JavaScript Developer Roadmap 2025 - Complete Guide"
             width={600}
             height={400}

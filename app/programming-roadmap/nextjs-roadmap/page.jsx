@@ -62,13 +62,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp",
         width: 1200,
         height: 630,
         alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp",
         width: 600,
         height: 600,
         alt: "Next.js Roadmap 2025",
@@ -99,7 +99,7 @@ export const metadata = {
     description:
       "The ultimate guide to mastering Next.js in 2025. Learn advanced features, salary insights, and hidden resources to become a Next.js expert and boost your career.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp",
     ],
   },
 
@@ -156,7 +156,7 @@ const structuredData = {
 
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp",
     width: 1200,
     height: 630,
   },
@@ -240,7 +240,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png"
+            src="/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp"
             alt="Next.js Roadmap 2025 - Complete Guide to Mastering Next.js"
             width={600}
             height={400}

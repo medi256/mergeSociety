@@ -31,7 +31,7 @@ export const metadata = {
   publisher: {
     name: "Merge Society",
     logo: {
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
       width: 400,
       height: 100,
       alt: "Merge Society",
@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
         width: 1200,
         height: 630,
         alt: "Google Headquarters in Mountain View, California",
@@ -61,7 +61,7 @@ export const metadata = {
       "Google recruiters reveal the step-by-step process for landing your dream tech job in 2025. Learn what it takes to become a Googler.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
     ],
   },
   alternates: {
@@ -89,9 +89,9 @@ export const metadata = {
     "@type": "NewsArticle",
     headline: "Google Job Application Guide 2025: Insider Tips from Recruiters",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
     ],
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T14:15:00Z",
@@ -105,7 +105,7 @@ export const metadata = {
       name: "Merge Society",
       logo: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Google_job.webp",
         width: 400,
         height: 100,
       },
@@ -147,7 +147,7 @@ export default function Article() {
         <h1>How to apply for a job at Google</h1>
 
         <Image
-          src={"/mergesociety/Google_job.jpg"}
+          src={"/mergesociety/Google_job.webp"}
           alt="How to apply for a job at Google"
           width={600}
           height={400}

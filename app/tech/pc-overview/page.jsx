@@ -35,7 +35,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp",
         width: 1200,
         height: 630,
         alt: "PC Components Overview Guide",
@@ -50,7 +50,7 @@ export const metadata = {
       "Understand the key parts of a computer with our beginner-friendly guide. Learn what makes your PC tick and how to make smart hardware choices.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp",
     ],
   },
 
@@ -109,7 +109,7 @@ export const metadata = {
     headline:
       "PC Component Overview: Complete Beginner's Guide to Computer Parts",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -278,7 +278,7 @@ const articleSchema = {
     headline:
       "PC Component Overview: Complete Beginner's Guide to Computer Parts",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -373,7 +373,7 @@ export default function Article() {
           Computer Part
         </h1>
         <Image
-          src={"/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg"}
+          src={"/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp"}
           alt="PC Components Overview Guide"
           width={600}
           height={400}
@@ -665,7 +665,7 @@ export default function Article() {
         <section>
           <h2>Storage Devices: SSDs vs Hard Drives</h2>
           <Image
-            src={"/mergesociety/pexels-zeleboba-28456609_u1xpy4_hrt2o5.jpg"}
+            src={"/mergesociety/pexels-zeleboba-28456609_u1xpy4_hrt2o5.webp"}
             alt="The Solid State Drives (SSDs)"
             width={600}
             height={400}

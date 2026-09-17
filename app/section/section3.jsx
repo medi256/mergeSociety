@@ -9,7 +9,7 @@ const Section3 = () => {
       id: 12,
       title:
         "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
-      image: "/mergesociety/AI_Powered_Bots.jpg",
+      image: "/mergesociety/AI_Powered_Bots.webp",
       alt: "AI-Powered Bots Offend Reddit, Infiltrate Communities, and Power High-Tech Scams: What You Need To Know in 2025",
       date: "April 30, 2025",
       articleRoute: "reddit",
@@ -19,7 +19,7 @@ const Section3 = () => {
       title:
         "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
       image:
-        "/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+        "/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp",
       alt: "Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?",
       date: "May 1, 2025",
       articleRoute: "will-tech-jobs-bounce-back",
@@ -29,7 +29,7 @@ const Section3 = () => {
       title:
         "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
       image:
-        "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+        "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
       alt: "Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits",
       date: "May 1, 2025",
       articleRoute: "tech-jobs-in-freefall",
@@ -38,7 +38,7 @@ const Section3 = () => {
       id: 15,
       title: "The Greatest Hack in History",
       image:
-        "/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+        "/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp",
       alt: "The Greatest Hack in History",
       date: "May 1, 2025",
       articleRoute: "greatest-hack",
@@ -47,7 +47,7 @@ const Section3 = () => {
       id: 16,
       title: "But what is quantum computing? (Grover's Algorithm)",
       image:
-        "/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.jpg",
+        "/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.webp",
       alt: "But what is quantum computing? (Grover's Algorithm)",
       date: "May 1, 2025",
       articleRoute: "what-is-quantam",
@@ -55,7 +55,7 @@ const Section3 = () => {
     {
       id: 17,
       title: "But what is a neural network? | Deep learning",
-      image: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      image: "/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
       alt: "But what is a neural network? | Deep learning",
       date: "May 1, 2025",
       articleRoute: "neural-network",
@@ -74,7 +74,7 @@ const Section3 = () => {
       title:
         "What It's Really Like to Study Computer Science: Reality of CS Majors",
       image:
-        "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.jpg",
+        "/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.webp",
       alt: "What It's Really Like to Study Computer Science: Reality of CS Majors",
       date: "May 3, 2025",
       articleRoute: "reality-of-cs",
@@ -92,7 +92,7 @@ const Section3 = () => {
       id: 21,
       title:
         "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
-      image: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.jpg",
+      image: "/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.webp",
       alt: "Top 50+ AWS Services Explained: What They Do and How They Power the Cloud",
       date: "May 3, 2025",
       articleRoute: "cloud-service",
@@ -101,7 +101,7 @@ const Section3 = () => {
       id: 22,
       title: "Docker 101: Mastering Modern Software Delivery with Containers",
       image:
-        "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.jpg",
+        "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
       alt: "Docker 101: Mastering Modern Software Delivery with Containers",
       date: "May 3, 2025",
       articleRoute: "docker-explained",
@@ -110,7 +110,7 @@ const Section3 = () => {
       id: 23,
       title:
         "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
-      image: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      image: "/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp",
       alt: "Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)",
       date: "May 3, 2025",
       articleRoute: "cs-major",
@@ -120,7 +120,7 @@ const Section3 = () => {
       title:
         "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
       image:
-        "/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+        "/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
       alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
       date: "May 8, 2025",
       articleRoute: "programming-myth",
@@ -129,7 +129,7 @@ const Section3 = () => {
       id: 25,
       title:
         "God-Tier Developer Roadmap: From Scratch to the Limits of Human Knowledge",
-      image: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      image: "/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp",
       alt: "Programming language roadmap showing the progression from beginner to expert languages",
       date: "May 8, 2025",
       articleRoute: "developer-roadmaps",
@@ -138,7 +138,7 @@ const Section3 = () => {
       id: 26,
       title:
         "Vibe Coding: Why Everyone Is Wrong About AI-Generated Code (And How to Beat the 2025 Mind Virus)",
-      image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.jpg",
+      image: "/mergesociety/pexels-shkrabaanthony-5475784_zkjf9p_jewfey.webp",
       alt: "Visualization of Vibe Coding concept with AI assistance and exponential thinking in programming",
       date: "May 9, 2025",
       articleRoute: "vibe-coding",
@@ -147,7 +147,7 @@ const Section3 = () => {
       id: 27,
       title:
         "The Ruby on Rails Explained: How This MVC Framework Powered the World’s Hottest Startups",
-      image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+      image: "/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp",
       alt: "Ruby on Rails framework diagram showing MVC architecture with code examples",
       date: "May 9, 2025",
       articleRoute: "ruby-explained",
@@ -156,7 +156,7 @@ const Section3 = () => {
       id: 28,
       title:
         " Chrome DevTools: 21+ Insane Browser Developer Tools Tricks Every Web Developer Needs (Most Pros Miss #13)",
-      image: "/mergesociety/971_dx26ro_qm5n0m.jpg",
+      image: "/mergesociety/971_dx26ro_qm5n0m.webp",
       alt: "Chrome DevTools interface showing console and performance panels with visual debugging aids",
       date: "May 9, 2025",
       articleRoute: "21-devTools",
@@ -165,7 +165,7 @@ const Section3 = () => {
       id: 29,
       title:
         "15 Game Changing JavaScript Framework Features Every Developer Must Know in 2025",
-      image: "/mergesociety/7040859_sp09q7_oelsvn.jpg",
+      image: "/mergesociety/7040859_sp09q7_oelsvn.webp",
       alt: "JavaScript frameworks innovation landscape 2025 showing React, Next.js, Vue, and other modern frameworks",
       date: "May 9, 2025",
       articleRoute: "javascript-features",
@@ -173,7 +173,7 @@ const Section3 = () => {
     {
       id: 30,
       title: "SEO Wins: 8 Fastest Ways to Rank Higher on Google Instantly",
-      image: "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+      image: "/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp",
       alt: "SEO Strategies for 2025",
       date: "May 14, 2025",
       articleRoute: "seo-wins",
@@ -182,7 +182,7 @@ const Section3 = () => {
       id: 31,
       title: "Neovim: The Ultimate Guide to Modern Code Editing with Neovim",
       image:
-        "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+        "/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp",
       alt: "Neovim Modern Guide",
       date: "May 14, 2025",
       articleRoute: "neovim-explained",
@@ -191,7 +191,7 @@ const Section3 = () => {
       id: 32,
       title:
         "PC Component Overview: The Complete Beginner’s Guide to Every Main Computer Part",
-      image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.jpg",
+      image: "/mergesociety/pexels-sharad-7199194_w5uzmv_so4cgb.webp",
       alt: "PC Components Overview Guide",
       date: "May 14, 2025",
       articleRoute: "pc-overview",
@@ -200,7 +200,7 @@ const Section3 = () => {
       id: 33,
       title:
         "PC Gaming Components: The Ultimate Guide to Building Your Perfect Gaming PC",
-      image: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      image: "/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp",
       alt: "PC Gaming Components Guide",
       date: "May 14, 2025",
       articleRoute: "pc-gaming-parts",
@@ -209,7 +209,7 @@ const Section3 = () => {
       id: 34,
       title:
         "How to Build a PC in 2025: PC Parts Explained, Ste-b-Step Guide & Best CPU/GPU Combos",
-      image: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.jpg",
+      image: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
       alt: "PC Gaming Components Guide 2025",
       date: "May 14, 2025",
       articleRoute: "recommended-gaming-pc-builds",

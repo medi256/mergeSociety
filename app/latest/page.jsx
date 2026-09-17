@@ -91,7 +91,7 @@ const GridNews = () => {
       id: 1,
       title:
         "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
-      image: "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.jpg",
+      image: "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
       alt: "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
       date: " April 30, 2025",
       articleRoute: "internship-at-google",
@@ -101,7 +101,7 @@ const GridNews = () => {
       title:
         "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       image:
-        "/mergesociety/Software_devekopers.jpg",
+        "/mergesociety/Software_devekopers.webp",
       alt: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       date: " April 27, 2025",
       articleRoute: "ai-is-officially-here",
@@ -119,7 +119,7 @@ const GridNews = () => {
       id: 4,
       title:
         "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
-      image: "/mergesociety/1990s_Internet_blg5oq_pgx9vk.jpg",
+      image: "/mergesociety/1990s_Internet_blg5oq_pgx9vk.webp",
       alt: "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
       date: " April 27, 2025",
       articleRoute: "1990s-Internet",
@@ -128,7 +128,7 @@ const GridNews = () => {
       id: 5,
       title:
         "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
-      image: "/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.jpg",
+      image: "/mergesociety/why-my-side-hustle-failed_gez4na_imjequ.webp",
       alt: "Why My Side Hustle Is Failing: Brutally Honest Lessons from Building in Public",
       date: " April 27, 2025",
       articleRoute: "why-my-side-hustle-failed",
@@ -137,7 +137,7 @@ const GridNews = () => {
       id: 6,
       title:
         "From Redstone to RAM: How Minecraft’s In-Game Logic Lets You Build a Real Computer",
-      image: "/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+      image: "/mergesociety/mincraft_kmdjhr_zrylau.webp",
       alt: "From Redstone to RAM: How Minecraft’s In-Game Logic Lets You Build a Real Computer",
       date: " April 27, 2025",
       articleRoute: "mincraft",
@@ -146,7 +146,7 @@ const GridNews = () => {
       id: 7,
       title:
         "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
-      image: "/mergesociety/gpus_bmtfwz_kpcedg.jpg",
+      image: "/mergesociety/gpus_bmtfwz_kpcedg.webp",
       alt: "Inside the Mind of Modern GPUs: How Graphics Cards Power Your Games, AI, and the Future of Computing",
       date: " April 27, 2025",
       articleRoute: "how-graphics-cards-work",
@@ -163,7 +163,7 @@ const GridNews = () => {
     {
       id: 9,
       title: `Why America Became Obsessed with "Learn to Code"—And Where That Strategy Went Wrong`,
-      image: "/mergesociety/Learn_to_Code.jpg",
+      image: "/mergesociety/Learn_to_Code.webp",
       alt: "Why America Became Obsessed with Learn to Code—And Where That Strategy Went Wrong",
       date: "May 1, 2025",
       articleRoute: "learn-to-code",
@@ -171,7 +171,7 @@ const GridNews = () => {
     {
       id: 10,
       title: `Binary Explained: How Computers Use Ones and Zeros to Power the Digital World`,
-      image: "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      image: "/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp",
       alt: "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
       date: "May 15, 2025",
       articleRoute: "binary-explained",
@@ -180,7 +180,7 @@ const GridNews = () => {
       id: 11,
       title: `Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts`,
       image:
-        "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp",
       alt: "Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts",
       date: "May 15, 2025",
       articleRoute: "computer-science-basics",
@@ -188,7 +188,7 @@ const GridNews = () => {
     {
       id: 15,
       title: `Best Programming Language for Each Tech Career Job in 2025: A Comprehensive Beginner’s Guide`,
-      image: "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.jpg",
+      image: "/mergesociety/pexels-mart-production-7709168_oee7dw_sbe2pc.webp",
       alt: "Best Programming Language for Each Tech Career Job in 2025",
       date: "May 16, 2025",
       articleRoute: "best-programming-language-for-each-job",
@@ -196,7 +196,7 @@ const GridNews = () => {
     {
       id: 16,
       title: `Best Programming Languages to Learn for High Paying Tech Jobs in 2025`,
-      image: "/mergesociety/Best_Programming_Languages.jpg",
+      image: "/mergesociety/Best_Programming_Languages.webp",
       alt: " Best Programming Languages to Learn for High Paying Tech Jobs in 2025",
       date: "May 16, 2025",
       articleRoute: "best-programming-languages-high-paying-tech-jobs",
@@ -205,7 +205,7 @@ const GridNews = () => {
       id: 17,
       title: `Best Programming Language for AI and Machine Learning`,
       image:
-        "/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
+        "/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp",
       alt: "Best Programming Language for AI and Machine Learning",
       date: "May 16, 2025",
       articleRoute: "top-languages-for-ai-2025",
@@ -214,7 +214,7 @@ const GridNews = () => {
       id: 18,
       title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
       image:
-        "/mergesociety/Git_for_beginners.jpg",
+        "/mergesociety/Git_for_beginners.webp",
       alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
       date: "May 17, 2025",
       articleRoute: "git-explained",
@@ -223,7 +223,7 @@ const GridNews = () => {
       id: 19,
       title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
       image:
-        "/mergesociety/AWS.jpg",
+        "/mergesociety/AWS.webp",
       alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
       date: "May 17, 2025",
       articleRoute: "aws-explained",

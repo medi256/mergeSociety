@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Advanced AI Learning Insights",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
         width: 1200,
         height: 630,
         alt: "Visual representation of neural network layers processing handwritten digits from pixels to predictions",
@@ -99,7 +99,7 @@ export const metadata = {
       "Our May Day special cuts through AI hype: Understand how neural networks really work, why layered architectures matter, and the beautiful intuition behind deep learning's true power.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
     ],
   },
   robots: {
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [
@@ -548,7 +548,7 @@ const articleSchema = {
     headline:
       "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-05-01T10:30:00Z",
     author: [
@@ -605,7 +605,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.jpg"
+            src="/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp"
             alt="But what is a neural network? | Deep learning"
             width={600}
             height={400}

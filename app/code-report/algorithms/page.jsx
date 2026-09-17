@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Tech Decoded",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
         width: 1200,
         height: 630,
         alt: "Visual representation of an algorithm with data flowing through a decision tree structure",
@@ -85,7 +85,7 @@ export const metadata = {
       "Take a journey inside data centers and coding classrooms to demystify the invisible forces that power your digital life.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -139,7 +139,7 @@ export const metadata = {
     },
     mediaAssets: {
       featuredImage: {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
         alt: "Visual representation of an algorithm with data flowing through decision paths",
         credits: "Digital illustration by TechDecoded Studio",
       },
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -444,7 +444,7 @@ const articleSchema = {
     headline:
       "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -525,7 +525,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/Algorithms.jpg"
+            "/mergesociety/Algorithms.webp"
           }
           alt="What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World"
           width={600}

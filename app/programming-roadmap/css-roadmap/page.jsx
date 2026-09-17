@@ -64,7 +64,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.webp",
         width: 1200,
         height: 630,
         alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
@@ -95,7 +95,7 @@ export const metadata = {
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.webp",
     ],
   },
 
@@ -143,7 +143,7 @@ const structuredData = {
   datePublished: "2025-07-08T00:00:00.000Z",
   dateModified: "2026-08-05T00:00:00.000Z",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.png",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/css-raodmap_vhknyz_orugxh.webp",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://mergesociety.com/programming-roadmap/css-roadmap",
@@ -167,7 +167,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/css-raodmap_vhknyz_orugxh.png"
+            src="/mergesociety/css-raodmap_vhknyz_orugxh.webp"
             alt="CSS Roadmap 2025 - Complete Guide to Mastering CSS"
             width={600}
             height={400}

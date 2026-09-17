@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp",
         width: 1200,
         height: 630,
         alt: "AI agents orchestrating tools and systems autonomously in 2025",
@@ -68,7 +68,7 @@ export const metadata = {
       "The explosive shift from monolithic AI to compound systems is here. See how AI agents now reason, act, and remember to solve complex problems.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp",
     ],
   },
 
@@ -127,7 +127,7 @@ export const jsonLd = {
     "AI Agents 2025: The Explosive Shift From Static Models to Compound Systems (And Why Everyone's Getting It Wrong)",
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp",
     width: 1200,
     height: 630,
   },
@@ -222,7 +222,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg"
+            src="/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp"
             alt="Visualization of AI agents orchestrating tools and systems autonomously"
             width={600}
             height={400}

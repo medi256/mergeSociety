@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp",
         width: 1200,
         height: 630,
         alt: "Binary code visualization showing the transformation from ones and zeros to complex digital applications",
@@ -96,7 +96,7 @@ export const metadata = {
       "Dive into how the simple binary system of ones and zeros creates the foundation for all digital technology and modern computing.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -524,7 +524,7 @@ const articleSchema = {
     headline:
       "Binary Explained: How Computers Use Ones and Zeros to Power the Digital World",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -588,7 +588,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.jpg"}
+          src={"/mergesociety/pexels-ron-lach-9783346_n9rpik_ejaef0.webp"}
           alt="Binary Explained: How Computers Use Ones and Zeros to Power the Digital World"
           width={600}
           height={400}

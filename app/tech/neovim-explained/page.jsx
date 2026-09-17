@@ -35,7 +35,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp",
         width: 1200,
         height: 630,
         alt: "Neovim Modern Guide",
@@ -50,7 +50,7 @@ export const metadata = {
       "Learn why developers love Neovim. Discover key features, Lua setup, plugins, and the tools that make it a powerful modern editor.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp",
     ],
   },
 
@@ -107,7 +107,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Neovim: The Ultimate Guide to Modern Code Editing",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {
@@ -196,7 +196,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "Neovim: The Ultimate Guide to Modern Code Editing",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {
@@ -276,7 +276,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <Image
-            src="/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.png"
+            src="/mergesociety/Screen_Shot_2025-05-14_at_3.03.06_PM_amsw1l_oihhlt.webp"
             alt="Neovim Modern Guide"
             width={600}
             height={400}

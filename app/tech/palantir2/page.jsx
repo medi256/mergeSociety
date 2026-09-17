@@ -40,13 +40,13 @@ export const metadata = {
     siteName: "Tech Oversight Initiative",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp",
         width: 1200,
         height: 630,
         alt: "Palantir Technologies Headquarters in Denver",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp",
         width: 1200,
         height: 630,
         alt: "AI Surveillance Concept Illustration",
@@ -97,7 +97,7 @@ export const metadata = {
       "Whistleblower reveals how Peter Thiel's secretive tech firm uses AI to power military operations, tax enforcement, and health data analysis—with minimal democratic oversight.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -207,7 +207,7 @@ export const metadata = {
     headline:
       "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp",
     datePublished: "2025-04-29T08:30:00Z",
     dateModified: "2025-04-29T08:30:00Z",
     description:
@@ -673,7 +673,7 @@ const articleSchema = {
   headline:
     "Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America's Future",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp",
   datePublished: "2025-04-29T08:30:00Z",
   dateModified: "2025-04-29T08:30:00Z",
   description:
@@ -841,7 +841,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.jpg"
+            "/mergesociety/mariia-shalabaieva-NuvM8XxweIw-unsplash_n07w3o_zyagac.webp"
           }
           alt="Palantir: The Shadow Tech Giant Redefining Power, Privacy, and America’s Future"
           width={600}

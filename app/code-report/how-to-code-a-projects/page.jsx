@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.webp",
         width: 1200,
         height: 630,
         alt: "How to Code Programming Projects Step by Step",
@@ -72,7 +72,7 @@ export const metadata = {
     description:
       "Stop rebuilding what's already built. Use templates and AI to focus on what creates real value.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.webp",
     ],
     creator: "@manager70191",
   },
@@ -111,7 +111,7 @@ const structuredData = {
         "Learn the smart way to build programming projects using templates, AI tools, and shortcuts. Stop rebuilding login screens and focus on creating real value.",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/how_to_code_programming_projects.webp",
         width: 1200,
         height: 630,
       },
@@ -242,7 +242,7 @@ const Projects = () => {
       <article className="lesson-container">
         <h1>How to Code Programming Projects Step by Step</h1>
         <Image
-          src="/mergesociety/how_to_code_programming_projects.png"
+          src="/mergesociety/how_to_code_programming_projects.webp"
           alt="How to Code Programming Projects Step by Step"
           width={800}
           height={600}

@@ -64,7 +64,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
         width: 1200,
         height: 630,
         alt: "AI Trends 2025: Revolutionary artificial intelligence developments including agentic AI, trillion-parameter models, and next-gen intelligence",
@@ -97,7 +97,7 @@ export const metadata = {
       "Agentic AI + 50 trillion parameter models = the future is here. Expert analysis of 2025's most explosive AI trends. Are you ready?",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
     ],
   },
 
@@ -155,7 +155,7 @@ export const jsonLdStructuredData = {
         "AI Trends 2025: 8 Game-Changing Predictions That Will Transform Your Future",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
         width: 1200,
         height: 630,
         caption:
@@ -273,7 +273,7 @@ export const jsonLdStructuredData = {
       },
       primaryImageOfPage: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
       },
       datePublished: "2025-01-15T08:00:00Z",
       dateModified: new Date().toISOString(),
@@ -316,7 +316,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg"
+            src="/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp"
             alt="AI Trends 2025: Visual representation of artificial intelligence evolution showing agentic AI, model scaling, and next-gen intelligence"
             width={600}
             height={400}

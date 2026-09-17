@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Future Tech Perspectives",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
         width: 1200,
         height: 630,
         alt: "AI vs Bitcoin: The Future of Tech Careers",
@@ -86,7 +86,7 @@ export const metadata = {
       "As AI replaces programmers and tech companies face economic headwinds, discover why Bitcoin and stablecoins represent better wealth-building opportunities than traditional coding careers.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -154,7 +154,7 @@ export const metadata = {
     headline:
       "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -539,7 +539,7 @@ const articleSchema = {
     headline:
       "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
     datePublished: "2025-04-29T08:00:00Z",
     dateModified: "2025-04-29T08:00:00Z",
     author: {
@@ -666,7 +666,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/Death_of_Coding.jpg"
+            "/mergesociety/Death_of_Coding.webp"
           }
           alt="The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin"
           width={600}

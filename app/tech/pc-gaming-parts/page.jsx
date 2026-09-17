@@ -37,7 +37,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide",
@@ -53,7 +53,7 @@ export const metadata = {
       "From graphics cards to cooling systems, this guide breaks down everything you need to know about gaming PC components to build your dream rig.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp",
     ],
   },
 
@@ -112,7 +112,7 @@ export const metadata = {
     headline:
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -273,7 +273,7 @@ const articleSchema = {
     headline:
       "PC Gaming Components: Ultimate Guide to Building Your Perfect Gaming PC",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp",
     datePublished: "2025-05-14T10:00:00Z",
     dateModified: "2025-05-14T10:00:00Z",
     author: {
@@ -352,7 +352,7 @@ export default function Article() {
           Gaming PC
         </h1>
         <Image
-          src={"/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.jpg"}
+          src={"/mergesociety/pexels-alscre-3977908_xkhe5a_spuqwt.webp"}
           alt="PC Gaming Components Guide"
           width={600}
           height={400}
@@ -565,7 +565,7 @@ export default function Article() {
         <section>
           <h2>Storage: SSDs vs HDDs for Gaming PCs</h2>
           <Image
-            src={"/mergesociety/SSDs-vs-HDDs.jpg"}
+            src={"/mergesociety/SSDs-vs-HDDs.webp"}
             alt="The Solid State Drives (SSDs)"
             width={600}
             height={400}

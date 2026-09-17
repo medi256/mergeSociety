@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Layoffs.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Layoffs.webp",
         width: 1200,
         height: 630,
         alt: "Tech layoffs 2025 showing 29,000 job cuts in March with global impact visualization",
@@ -88,7 +88,7 @@ export const metadata = {
     description:
       "Fresh data: 29,000 tech jobs cut in March, plus massive government workforce reductions. The employment crisis is deeper than reported 🧵",
     creator: "@manager70191",
-    images: ["/mergesociety/Tech_Layoffs.jpg"],
+    images: ["/mergesociety/Tech_Layoffs.webp"],
   },
   metadataBase: new URL("https://mergesociety.com"),
   robots: {
@@ -266,7 +266,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "Tech Layoffs 2025: The Shocking Truth Behind the Global Wave (Updated July 2025)",
-    image: "/mergesociety/Tech_Layoffs.jpg",
+    image: "/mergesociety/Tech_Layoffs.webp",
     datePublished: "2025-04-27T09:30:00Z",
     dateModified: "2025-07-01T15:30:00Z",
     author: {
@@ -334,7 +334,7 @@ const articleSchema = {
     "@type": "Article",
     headline:
       "Tech Layoffs 2025: The Shocking Truth Behind the Global Wave (Updated July 2025)",
-    image: "/mergesociety/Tech_Layoffs.jpg",
+    image: "/mergesociety/Tech_Layoffs.webp",
     datePublished: "2025-04-27T09:30:00Z",
     dateModified: "2025-07-01T15:30:00Z",
     author: {
@@ -413,7 +413,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/Tech_Layoffs.jpg"
+            src="/mergesociety/Tech_Layoffs.webp"
             alt="Tech’s Hidden Shift: The 2025 job market is transforming—Why record profits don’t mean job security"
             width={600}
             height={400}

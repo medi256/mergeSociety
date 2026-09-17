@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
         width: 1200,
         height: 630,
         alt: "AI vs Machine Learning vs Deep Learning vs Generative AI comparison diagram 2025",
@@ -75,7 +75,7 @@ export const metadata = {
     description:
       "Updated guide explaining the differences between AI technologies with practical examples and latest developments for 2025.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
     ],
   },
 
@@ -158,7 +158,7 @@ export const metadata = {
     description:
       "Master the differences between AI, machine learning, deep learning, and generative AI. Updated guide with latest developments, practical examples, and real-world applications for 2025.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
     datePublished: "2025-05-06T10:30:00Z",
     dateModified: "2025-06-29T14:30:00Z",
     author: {
@@ -273,7 +273,7 @@ const articleSchema = {
     description:
       "Master the differences between AI, machine learning, deep learning, and generative AI. Updated guide with latest developments, practical examples, and real-world applications for 2025.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
     datePublished: "2025-05-06T10:30:00Z",
     dateModified: "2025-06-29T14:30:00Z",
     author: {
@@ -362,7 +362,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg"
+            src="/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp"
             alt="Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each"
             width={600}
             height={400}

@@ -25,7 +25,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.webp",
         width: 1200,
         height: 630,
         alt: "Nvidia Headquarters",
@@ -47,7 +47,7 @@ export const metadata = {
     description:
       "Explore the latest chapter in Nvidia's story: new AI milestones, revenue stats, and more.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.webp",
     ],
   },
 };
@@ -61,7 +61,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg"
+            src="/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.webp"
             alt="Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down"
             width={600}
             height={400}

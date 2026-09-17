@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.webp",
         width: 1200,
         height: 630,
         alt: "Git for Beginners Tutorial - Version Control Simplified with terminal commands and repository setup",
@@ -100,7 +100,7 @@ export const metadata = {
       "Master Git in 10 minutes! Installation, commands, workflows explained in plain English. Perfect for coding beginners and bootcamp students.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.webp",
     ],
   },
 
@@ -359,7 +359,7 @@ export const metadata = {
         "Learn Git from Scratch: Installation, Commands, and Workflow for Beginners",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.webp",
         width: 1200,
         height: 630,
         caption:
@@ -678,7 +678,7 @@ const articleSchema = {
         "Learn Git from Scratch: Installation, Commands, and Workflow for Beginners",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Git_for_beginners.webp",
         width: 1200,
         height: 630,
         caption:
@@ -813,7 +813,7 @@ export default function Article() {
         <section>
           <Image
             src={
-              "/mergesociety/Git_for_beginners.jpg"
+              "/mergesociety/Git_for_beginners.webp"
             }
             alt="Git For Beginners: A Complete Step-by-Step Guide to Version Control"
             width={600}

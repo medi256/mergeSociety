@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.webp",
         width: 1200,
         height: 630,
         alt: "Visual representation of a large language model predicting the next word in a sequence",
@@ -81,7 +81,7 @@ export const metadata = {
       "Learn how LLMs work by predicting one word at a time, and the revolutionary technology that powers today's AI assistants.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -124,7 +124,7 @@ export const metadata = {
     headline:
       "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.webp",
     datePublished: "2025-04-26T13:00:00Z",
     dateModified: "2025-04-26T13:00:00Z",
     author: {
@@ -263,7 +263,7 @@ const articleSchema = {
     headline:
       "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-again_frbb7o_etkpee.webp",
     datePublished: "2025-04-26T13:00:00Z",
     dateModified: "2025-04-26T13:00:00Z",
     author: {
@@ -343,7 +343,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/ai-again_frbb7o_etkpee.jpg"}
+          src={"/mergesociety/ai-again_frbb7o_etkpee.webp"}
           alt="Inside the Magic of Large Language Models: How AI Autocompletes Human Thought"
           width={600}
           height={400}

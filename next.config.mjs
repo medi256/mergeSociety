@@ -9,7 +9,8 @@ const nextConfig = {
       { protocol: "https", hostname: "afeoolopdqmqjcvsgdxc.supabase.co" },
       { protocol: "https", hostname: "img.mergesociety.com" },
     ],
-    formats: ["image/webp", "image/avif"],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    formats: ["image/avif", "image/webp"],
   },
   async headers() {
     return [

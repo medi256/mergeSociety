@@ -47,7 +47,7 @@ export const metadata = {
     ],
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp",
         width: 1200,
         height: 630,
         alt: "Microsoft Majorana One quantum computing chip breakthrough visualization",
@@ -63,7 +63,7 @@ export const metadata = {
       "Microsoft's topological quantum chip breakthrough could revolutionize computing. First stable qubits without massive error correction overhead.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp",
     ],
   },
 
@@ -114,7 +114,7 @@ export const metadata = {
           "Microsoft unveils Majorana One - the world's first topological qubit chip. Revolutionary quantum computing breakthrough promises stable qubits without error correction.",
         image: {
           "@type": "ImageObject",
-          url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+          url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp",
           width: 1200,
           height: 630,
         },
@@ -200,7 +200,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg"
+            src="/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp"
             alt="Microsoft’s Majorana One chip breakthrough in topological quantum computing"
             width={600}
             height={400}

@@ -17,7 +17,7 @@ const Section2 = () => {
       id: 15,
       title: "The moment we stopped understanding AI [AlexNet]",
       image:
-        "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
       alt: "The moment we stopped understanding AI [AlexNet]",
       date: "May 1, 2025",
       articleRoute: "we-stopped-understanding-ai",
@@ -27,7 +27,7 @@ const Section2 = () => {
       title:
         "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       image:
-        "/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+        "/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp",
       alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       date: "May 1, 2025",
       articleRoute: "majorana",
@@ -36,7 +36,7 @@ const Section2 = () => {
       id: 17,
       title: "All Machine Learning algorithms explained",
       image:
-        "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+        "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.webp",
       alt: "All Machine Learning algorithms explained",
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
@@ -46,7 +46,7 @@ const Section2 = () => {
       title:
         "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
       image:
-        "/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
+        "/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.webp",
       alt: "Best ai girlfriend",
       date: "May 5, 2025",
       articleRoute: "best-ai-girlfriend",
@@ -55,7 +55,7 @@ const Section2 = () => {
       id: 19,
       title: "Best AI Apps for College Student",
       image:
-        "/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.webp",
       alt: "Best AI Apps for College Student",
       date: "May 6, 2025",
       articleRoute: "best-ai-apps",
@@ -64,7 +64,7 @@ const Section2 = () => {
       id: 21,
       title: "Top 5 Free AI Apps For iPhone & Android in 2025",
       image:
-        "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
       alt: "Best free AI apps for mobile devices",
       date: "May 6, 2025",
       articleRoute: "best-ai-app-for-iphone",
@@ -73,7 +73,7 @@ const Section2 = () => {
       id: 22,
       title: "Best AI Tools for Research",
       image:
-        "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+        "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
       alt: "illustration Best AI Tools for Research",
       date: "May 6, 2025",
       articleRoute: "best-ai-tools-for-research",
@@ -83,7 +83,7 @@ const Section2 = () => {
       title:
         "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
       image:
-        "/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+        "/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
       alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
       date: "May 6, 2025",
       articleRoute: "ai-ml-dp",
@@ -92,7 +92,7 @@ const Section2 = () => {
       id: 24,
       title: "What are AI Agents?",
       image:
-        "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp",
       alt: "Visualization of AI agents orchestrating tools and systems autonomously",
       date: "May 6, 2025",
       articleRoute: "what-is-agents",
@@ -101,7 +101,7 @@ const Section2 = () => {
       id: 25,
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
-      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",

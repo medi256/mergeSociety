@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp",
         width: 1200,
         height: 630,
         alt: "WebSockets vs Socket.IO comparison diagram showing real-time communication flow between client and server",
@@ -72,7 +72,7 @@ export const metadata = {
       "Master real-time web development with WebSockets and Socket.IO. Step-by-step tutorials for chat apps, games, and live dashboards.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp",
     ],
   },
 
@@ -141,7 +141,7 @@ export const metadata = {
     alternativeHeadline: "Complete WebSocket and Socket.IO Tutorial 2025",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp",
       width: 1200,
       height: 630,
       caption: "WebSockets vs Socket.IO real-time communication architecture",
@@ -262,7 +262,7 @@ const articleSchema = {
     alternativeHeadline: "Complete WebSocket and Socket.IO Tutorial 2025",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp",
       width: 1200,
       height: 630,
       caption: "WebSockets vs Socket.IO real-time communication architecture",
@@ -391,7 +391,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg"
+            src="/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp"
             alt="WebSockets real-time communication architecture diagram showing client-server bidirectional data flow"
             width={600}
             height={400}

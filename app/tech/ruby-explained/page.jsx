@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp",
         width: 1200,
         height: 630,
         alt: "Ruby on Rails framework powering billion dollar startups",
@@ -87,7 +87,7 @@ export const metadata = {
       "The framework most devs ignore is secretly powering tech giants. Here's why Rails gives you an unfair advantage.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp",
     ],
   },
 
@@ -135,7 +135,7 @@ export const metadata = {
     headline:
       "Ruby on Rails: The Underground Weapon Behind Billion-Dollar Startups",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {
@@ -206,7 +206,7 @@ const articleSchema = {
     headline:
       "Ruby on Rails: The Underground Weapon Behind Billion-Dollar Startups",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {
@@ -265,7 +265,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.jpg"
+            src="/mergesociety/pexels-digitalbuggu-374559_yqicxw_hck973.webp"
             alt="Ruby on Rails framework diagram showing MVC architecture with code examples"
             width={600}
             height={400}

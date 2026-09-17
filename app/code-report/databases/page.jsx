@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
         width: 1200,
         height: 630,
         alt: "PostgreSQL vs MySQL comparison diagram showing key features, performance benchmarks, and use cases",
@@ -104,7 +104,7 @@ export const metadata = {
       "Enterprise complexity or web simplicity? Find out which database fits your project needs with our comprehensive PostgreSQL vs MySQL comparison.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
     ],
   },
 
@@ -156,7 +156,7 @@ export const metadata = {
     headline:
       "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -524,7 +524,7 @@ const articleSchema = {
     headline:
       "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
     datePublished: "2025-05-09T08:00:00Z",
     dateModified: "2025-05-09T08:00:00Z",
     author: {
@@ -589,7 +589,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/6554783_amd2ad_suixhe.jpg"
+            src="/mergesociety/6554783_amd2ad_suixhe.webp"
             alt="PostgreSQL vs. MySQL: Which Relational Database Should You Choose"
             width={600}
             height={400}

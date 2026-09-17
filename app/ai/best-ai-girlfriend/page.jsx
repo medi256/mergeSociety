@@ -53,7 +53,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.webp",
         width: 1200,
         height: 630,
         alt: "Sesame AI voice technology breakthrough - Maya and Miles AI personalities demonstration",
@@ -81,7 +81,7 @@ export const metadata = {
     creator: "@manager70191",
     site: "@mergesociety", // Add if you have a site handle
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.webp",
     ],
   },
   alternates: {
@@ -119,7 +119,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png"
+            src="/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.webp"
             alt="Best AI girlfriend apps for emotional support, companionship, and human-AI connection"
             width={600}
             height={400}

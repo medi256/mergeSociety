@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp",
         width: 1200,
         height: 630,
         alt: "Computer Science Basics: A visual representation of essential computer science concepts",
@@ -97,7 +97,7 @@ export const metadata = {
       "Master computer science fundamentals from binary and Turing machines to cloud computing and APIs in our comprehensive beginner's guide.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "Computer Science Basics: A Beginner's Guide to 101 Essential Terms and Concepts",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -564,7 +564,7 @@ const articleSchema = {
     headline:
       "Computer Science Basics: A Beginner's Guide to 101 Essential Terms and Concepts",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp",
     datePublished: "2025-05-15T10:00:00Z",
     dateModified: "2025-05-15T10:00:00Z",
     author: {
@@ -639,7 +639,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.jpg"
+            "/mergesociety/pexels-energepic-com-27411-313690_uzkvfv_jaacwm.webp"
           }
           alt="Computer Science Basics: A Beginner’s Guide to 101 Essential Terms and Concepts"
           width={600}

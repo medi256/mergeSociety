@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
         width: 1200,
         height: 630,
         alt: "Illustration showing a developer surrounded by programming myths and productivity traps",
@@ -96,7 +96,7 @@ export const metadata = {
       "Stop chasing the latest frameworks and obsessing over perfect code. Learn which development practices actually matter for shipping great software.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: "2025-05-08T09:00:00Z",
     author: {
@@ -390,7 +390,7 @@ const articleSchema = {
     headline:
       "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: "2025-05-08T09:00:00Z",
     author: {
@@ -455,7 +455,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.jpg"
+            src="/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp"
             alt="Illustration showing a developer surrounded by programming myths and productivity traps"
             width={600}
             height={400}

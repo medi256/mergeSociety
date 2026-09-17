@@ -30,7 +30,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.webp",
         width: 1200,
         height: 630,
         alt: "Minecraft Redstone computer with visible logic circuits",
@@ -72,7 +72,7 @@ export const metadata = {
       "Learn how to build a functioning computer inside Minecraft using Redstone - from basic logic gates to a full CPU with memory and display systems.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -100,7 +100,7 @@ export const metadata = {
     headline:
       "From Redstone to RAM: How Minecraft's In-Game Logic Lets You Build a Real Computer",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.webp",
     datePublished: "2025-04-25T09:00:00Z",
     dateModified: "2025-04-25T09:00:00Z",
     author: {
@@ -132,7 +132,7 @@ const articleSchema = {
     headline:
       "From Redstone to RAM: How Minecraft's In-Game Logic Lets You Build a Real Computer",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/mincraft_kmdjhr_zrylau.webp",
     datePublished: "2025-04-25T09:00:00Z",
     dateModified: "2025-04-25T09:00:00Z",
     author: {
@@ -173,7 +173,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/mincraft_kmdjhr_zrylau.jpg"}
+          src={"/mergesociety/mincraft_kmdjhr_zrylau.webp"}
           alt="Minecraft Redstone computer with visible logic circuits"
           width={600}
           height={400}

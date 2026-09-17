@@ -27,7 +27,7 @@ const Section5 = () => {
       id: 3,
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
-      image: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      image: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
@@ -37,7 +37,7 @@ const Section5 = () => {
       title:
         "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
       image:
-        "/mergesociety/Tech_Layoffs.jpg",
+        "/mergesociety/Tech_Layoffs.webp",
       alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
       date: " April 27, 2025",
       articleRoute: "hiring",
@@ -57,7 +57,7 @@ const Section5 = () => {
       title:
         "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       image:
-        "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+        "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.webp",
       alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       date: " April 30, 2025",
       articleRoute: "invidia",

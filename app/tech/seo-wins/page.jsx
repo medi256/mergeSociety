@@ -36,7 +36,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp",
         width: 1200,
         height: 630,
         alt: "SEO Blueprint to Rank #1 on Google",
@@ -54,7 +54,7 @@ export const metadata = {
       "Discover why 97% of websites fail at SEO and the exact blueprint to break into the top 3% of Google rankings.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp",
     ],
   },
 
@@ -117,7 +117,7 @@ export const metadata = {
     description:
       "A step-by-step guide to implementing the 4-pillar SEO strategy that puts websites in the top 3% of Google rankings.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {
@@ -211,7 +211,7 @@ const articleSchema = {
     description:
       "A step-by-step guide to implementing the 4-pillar SEO strategy that puts websites in the top 3% of Google rankings.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-07-01T00:00:00Z",
     author: {
@@ -289,7 +289,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.jpg"
+            src="/mergesociety/merakist-l5if0iQfV4c-unsplash_tybhcd_gdx6av.webp"
             alt="SEO Strategies for 2025 — How to Rank in an AI-Driven Search World"
             width={600}
             height={400}

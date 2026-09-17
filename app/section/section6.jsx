@@ -17,7 +17,7 @@ const Section6 = () => {
       id: 7,
       title: "Every React Concept Explained",
       image:
-        "/mergesociety/Reactjs.jpg",
+        "/mergesociety/Reactjs.webp",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -26,7 +26,7 @@ const Section6 = () => {
       id: 8,
       title: "All The JavaScript You Need To Know For React",
       image:
-        "/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.jpg",
+        "/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.webp",
       alt: "All The JavaScript You Need To Know For React",
       date: "May 2, 2025",
       articleRoute: "react-you-need",
@@ -34,7 +34,7 @@ const Section6 = () => {
     {
       id: 9,
       title: "How to Learn JavaScript FAST in 2025",
-      image: "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.jpg",
+      image: "/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.webp",
       alt: "How to Learn JavaScript FAST in 2025",
       date: "May 2, 2025",
       articleRoute: "how-to-learn-javascript",
@@ -44,7 +44,7 @@ const Section6 = () => {
       title:
         "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
       image:
-        "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+        "/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp",
       alt: "ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit",
       date: "May 2, 2025",
       articleRoute: "react-hooks",
@@ -54,7 +54,7 @@ const Section6 = () => {
       title:
         "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
       image:
-        "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.jpg",
+        "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
       alt: "The No-BS, AI-Era Roadmap to Becoming a Full Stack Developer: Practical Steps from a Senior Engineer",
       date: "May 2, 2025",
       articleRoute: "fullstack-roadmap",
@@ -62,7 +62,7 @@ const Section6 = () => {
     {
       id: 12,
       title: "APIs Explained (in 4 Minutes)",
-      image: "/mergesociety/api_cbneaq_bfxrcg.jpg",
+      image: "/mergesociety/api_cbneaq_bfxrcg.webp",
       alt: "Visual representation of API communication between applications",
       date: "May 7, 2025",
       articleRoute: "apis-explained",
@@ -80,7 +80,7 @@ const Section6 = () => {
       id: 14,
       title:
         "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
-      image: "/mergesociety/6554783_amd2ad_suixhe.jpg",
+      image: "/mergesociety/6554783_amd2ad_suixhe.webp",
       alt: "PostgreSQL vs. MySQL: Which Relational Database Should You Choose?",
       date: "May 9, 2025",
       articleRoute: "databases",
@@ -89,7 +89,7 @@ const Section6 = () => {
       id: 15,
       title:
         "Apache vs. NGINX: A Complete Guide to Modern Web Server and Proxy Architecture",
-      image: "/mergesociety/Apache_vs_Nginx.jpg",
+      image: "/mergesociety/Apache_vs_Nginx.webp",
       alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
       date: "May 9, 2025",
       articleRoute: "ApachevsNGINX",
@@ -99,7 +99,7 @@ const Section6 = () => {
       title:
         "What is a web server in simple terms? This Is the Clearest, Easiest Explanation You'll Ever Find Online",
       image:
-        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
       alt: "Visual diagram explaining web server architecture showing HTTP requests, responses, and how web servers handle traffic",
       date: "May 9, 2025",
       articleRoute: "web-server",
@@ -107,7 +107,7 @@ const Section6 = () => {
     {
       id: 17,
       title: "Define Domain Name System (DNS)",
-      image: "/mergesociety/What_is_DNS.jpg",
+      image: "/mergesociety/What_is_DNS.webp",
       alt: "DNS explanation diagram showing how domains resolve to IP addresses",
       date: "May 9, 2025",
       articleRoute: "what-is-dns",
@@ -116,7 +116,7 @@ const Section6 = () => {
       id: 18,
       title:
         "DNS Records Explained With Examples: Understanding, Using, and Securing Your Domain's Backbone",
-      image: "/mergesociety/4084_qpacfm_z9pvmi.jpg",
+      image: "/mergesociety/4084_qpacfm_z9pvmi.webp",
       alt: "DNS Records Infographic showing how domain names connect to IP addresses",
       date: "May 9, 2025",
       articleRoute: "dns-records",
@@ -124,7 +124,7 @@ const Section6 = () => {
     {
       id: 19,
       title: "Easy Definition of VPN",
-      image: "/mergesociety/VPN_Explained.jpg",
+      image: "/mergesociety/VPN_Explained.webp",
       alt: "Visual explanation of how a VPN protects your internet connection",
       date: "May 9, 2025",
       articleRoute: "vpn-explained",
@@ -134,7 +134,7 @@ const Section6 = () => {
       title:
         "Let's Learn Something! Algorithms Explained in 5 Levels – From Peanut Butter Sandwiches to Artificial Intelligence",
       image:
-        "/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.jpg",
+        "/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.webp",
       alt: "Visual representation of algorithms from simple tasks to AI neural networks",
       date: "May 10, 2025",
       articleRoute: "algorithms-explained",
@@ -143,7 +143,7 @@ const Section6 = () => {
       id: 21,
       title:
         "REST API Meaning: The Backbone of Modern Cloud Application Development",
-      image: "/mergesociety/REST_API.jpg",
+      image: "/mergesociety/REST_API.webp",
       alt: "REST API Meaning: The Backbone of Modern Cloud Application Development",
       date: "May 10, 2025",
       articleRoute: "rest-api",
@@ -153,7 +153,7 @@ const Section6 = () => {
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       image:
-        "/mergesociety/API_vs_SDK.jpg",
+        "/mergesociety/API_vs_SDK.webp",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",
@@ -161,7 +161,7 @@ const Section6 = () => {
     {
       id: 23,
       title: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
-      image: "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.jpg",
+      image: "/mergesociety/pexels-padrinan-1591059_tc0afv_h9h3kh.webp",
       alt: "HTTP 1 Vs HTTP 2 Vs HTTP 3!",
       date: "May 10, 2025",
       articleRoute: "http1-http2-http3",
@@ -171,7 +171,7 @@ const Section6 = () => {
       title:
         "WebSockets vs. Polling vs. Long Polling: How Web Sockets work | System Design Interview Basics",
       image:
-        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
       alt: "Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns",
       date: "May 10, 2025",
       articleRoute: "websocket-polling",
@@ -181,7 +181,7 @@ const Section6 = () => {
       title:
         "WebSockets in 100 Seconds: An In Depth Guide to WebSockets, Socket.IO, and the Future of Real Time Communication",
       image:
-        "/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.jpg",
+        "/mergesociety/pexels-danny-meneses-340146-943096_na23qm_k8pj8z.webp",
       alt: "WebSockets real-time communication architecture diagram showing client-server bidirectional data flow",
       date: "May 10, 2025",
       articleRoute: "websocets-explained",

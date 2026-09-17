@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp",
         width: 1200,
         height: 630,
         alt: "Programming language roadmap showing the progression from beginner to expert languages",
@@ -90,7 +90,7 @@ export const metadata = {
       "Updated guide: From Scratch to Rust - discover which programming languages to learn in 2025 and how they fit into the developer landscape.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -187,7 +187,7 @@ const articleSchema = {
     headline:
       "Programming Languages Iceberg: Developer Roadmap Every Beginner Needs to Know in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp",
     datePublished: "2025-05-08T09:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -236,7 +236,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.jpg"
+            src="/mergesociety/pexels-realtoughcandy-11035473_lzepvy_gn1gjr.webp"
             alt="Programming language roadmap showing the progression from beginner to expert languages"
             width={600}
             height={400}

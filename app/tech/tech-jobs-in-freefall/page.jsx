@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
         width: 1200,
         height: 630,
         alt: "Dramatic visualization of tech job market contraction in 2025 showing AI impact on employment rates versus corporate profits",
@@ -90,7 +90,7 @@ export const metadata = {
       "Our International Workers' Day investigation reveals how tech giants are slashing jobs while posting record profits. Is AI creating an employment crisis?",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
     ],
   },
   robots: {
@@ -138,7 +138,7 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Great Tech Job Contraction: AI Transforms Employment While Profits Soar [May 2025]",
-    image: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg",
+    image: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
     datePublished: "2025-05-01T07:00:00Z",
     dateModified: "2025-05-01T07:00:00Z",
     author: {
@@ -365,7 +365,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.jpg"
+            src="/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp"
             alt="Tech Jobs in Freefall: Why Top Companies Are Slashing Job Postings Despite Record Profits"
             width={600}
             height={400}

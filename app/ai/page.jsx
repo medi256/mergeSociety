@@ -111,7 +111,7 @@ const Section2 = () => {
       title:
         "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       image:
-        "/mergesociety/Geoffrey_Hinton.jpg",
+        "/mergesociety/Geoffrey_Hinton.webp",
       alt: "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       date: "April 27, 2025",
       articleRoute: "god-father-of-ai",
@@ -130,7 +130,7 @@ const Section2 = () => {
       id: 3,
       title:
         "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
-      image: "/mergesociety/ai-again_frbb7o_etkpee.jpg",
+      image: "/mergesociety/ai-again_frbb7o_etkpee.webp",
       alt: "Inside the Magic of Large Language Models: How AI Autocompletes Human Thought",
       date: "April 26, 2025",
       articleRoute: "llms",
@@ -139,7 +139,7 @@ const Section2 = () => {
       id: 4,
       title:
         "The Evolution of Artificial Intelligence: From Rules to Cosmic Consciousness",
-      image: "/mergesociety/rise_of_ai_raoqb3_fmmfwu.jpg",
+      image: "/mergesociety/rise_of_ai_raoqb3_fmmfwu.webp",
       alt: "Visual representation of AI evolution from rule-based systems to cosmic intelligence",
       date: "April 26, 2025",
       articleRoute: "rise-of-ai",
@@ -192,7 +192,7 @@ const Section2 = () => {
       id: 10,
       title:
         "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
-      image: "/mergesociety/cheating_b3duti_irxoxq.jpg",
+      image: "/mergesociety/cheating_b3duti_irxoxq.webp",
       alt: "A split screen showing a programmer in a remote interview with hidden cheating methods illustrated",
       date: "April 26, 2025",
       articleRoute: "cheating",
@@ -211,7 +211,7 @@ const Section2 = () => {
       title:
         "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       image:
-        "/mergesociety/AI_Automation.jpg",
+        "/mergesociety/AI_Automation.webp",
       alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       date: "April 29, 2025",
       articleRoute: "is-ai-making-us-dumb",
@@ -221,7 +221,7 @@ const Section2 = () => {
       title:
         "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       image:
-        "/mergesociety/Death_of_Coding.jpg",
+        "/mergesociety/Death_of_Coding.webp",
       alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       date: "April 29, 2025",
       articleRoute: "ai-vs-jobs",
@@ -239,7 +239,7 @@ const Section2 = () => {
       id: 15,
       title: "The moment we stopped understanding AI [AlexNet]",
       image:
-        "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        "/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
       alt: "The moment we stopped understanding AI [AlexNet]",
       date: "May 1, 2025",
       articleRoute: "we-stopped-understanding-ai",
@@ -249,7 +249,7 @@ const Section2 = () => {
       title:
         "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       image:
-        "/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.jpg",
+        "/mergesociety/boliviainteligente-frbBBb2l2SI-unsplash_pbavn7_uuey4f.webp",
       alt: "Microsoft’s Majorana One Chip: The Topological Quantum Leap That Could Change the Future of Computing",
       date: "May 1, 2025",
       articleRoute: "majorana",
@@ -258,7 +258,7 @@ const Section2 = () => {
       id: 17,
       title: "All Machine Learning algorithms explained",
       image:
-        "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.jpg",
+        "/mergesociety/steve-johnson-_0iV9LmPDn0-unsplash_aczb7n_dw4g3c.webp",
       alt: "All Machine Learning algorithms explained",
       date: "May 1, 2025",
       articleRoute: "all-ai-algorithms",
@@ -268,7 +268,7 @@ const Section2 = () => {
       title:
         "Best ai girlfriend: How Sesame AI and Manus Herald a New Era of Machine Intelligence",
       image:
-        "/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.png",
+        "/mergesociety/AI_Companion_and_Human_Connection_nwhjvx_h5m5yb.webp",
       alt: "Best ai girlfriend",
       date: "May 5, 2025",
       articleRoute: "best-ai-girlfriend",
@@ -277,7 +277,7 @@ const Section2 = () => {
       id: 19,
       title: "Best AI Apps for College Student",
       image:
-        "/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.webp",
       alt: "Best AI Apps for College Student",
       date: "May 6, 2025",
       articleRoute: "best-ai-apps",
@@ -286,7 +286,7 @@ const Section2 = () => {
       id: 21,
       title: "Top 5 Free AI Apps For iPhone & Android in 2025",
       image:
-        "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.png",
+        "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
       alt: "Best free AI apps for mobile devices",
       date: "May 6, 2025",
       articleRoute: "best-ai-app-for-iphone",
@@ -295,7 +295,7 @@ const Section2 = () => {
       id: 22,
       title: "Best AI Tools for Research",
       image:
-        "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.jpg",
+        "/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
       alt: "illustration Best AI Tools for Research",
       date: "May 6, 2025",
       articleRoute: "best-ai-tools-for-research",
@@ -305,7 +305,7 @@ const Section2 = () => {
       title:
         "AI, Machine Learning, Deep Learning & Generative AI: What’s the Real Difference?",
       image:
-        "/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.jpg",
+        "/mergesociety/possessed-photography-g29arbbvPjo-unsplash_ug6art_vv5kxg.webp",
       alt: "Visual comparison of AI, machine learning, deep learning, and generative AI technologies with examples of each",
       date: "May 6, 2025",
       articleRoute: "ai-ml-dp",
@@ -314,7 +314,7 @@ const Section2 = () => {
       id: 24,
       title: "What are AI Agents?",
       image:
-        "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.jpg",
+        "/mergesociety/julien-tromeur-6UDansS-rPI-unsplash_ugchfx_yomdgo.webp",
       alt: "Visualization of AI agents orchestrating tools and systems autonomously",
       date: "May 6, 2025",
       articleRoute: "what-is-agents",
@@ -323,7 +323,7 @@ const Section2 = () => {
       id: 25,
       title:
         "AI Trends for 2025: Expert Predictions on Agentic AI, Model Sizes, and the Next Wave of Intelligence",
-      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.jpg",
+      image: "/mergesociety/pexels-tara-winstead-8849295_hlz6r3_qri1oi.webp",
       alt: "AI Trends for 2025",
       date: "May 11, 2025",
       articleRoute: "ai-trends-2025",
@@ -341,7 +341,7 @@ const Section2 = () => {
       id: 27,
       title:
         "Grok 4 AI: Elon Musk’s Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
-      image: "/mergesociety/grok_4_jv3jmy_o1gw76.png",
+      image: "/mergesociety/grok_4_jv3jmy_o1gw76.webp",
       alt: "Grok 4 AI interface showing controversial chatbot responses",
       date: "July 12, 2025",
       articleRoute: "grok4",

@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp",
         width: 1200,
         height: 630,
         alt: "Computer science career path decision illustration with coding sloth mascot",
@@ -98,7 +98,7 @@ export const metadata = {
       "Veteran mode job hunting, theory vs. practical skills, and why networking might matter more than your GPA. Honest advice for aspiring devs with sloth-level humor.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp",
     ],
   },
 
@@ -150,7 +150,7 @@ export const metadata = {
     headline:
       "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp",
     datePublished: "2025-05-03T09:00:00Z",
     dateModified: "2025-05-03T09:00:00Z",
     author: {
@@ -439,7 +439,7 @@ const articleSchema = {
     headline:
       "Should You Study Computer Science in 2025? A Brutally Honest Guide With a Twist of Humor",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp",
     datePublished: "2025-05-03T09:00:00Z",
     dateModified: "2025-05-03T09:00:00Z",
     author: {
@@ -507,7 +507,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.jpg"
+            src="/mergesociety/freestocks-I_pOqP6kCOI-unsplash_ysz7vg_yogske.webp"
             alt="Should You Study Computer Science? A Realistic Look At The Modern Tech Job Market (With Sloth Level Humor and Honesty)"
             width={600}
             height={400}

@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp",
         width: 1200,
         height: 630,
         alt: "React Hooks Guide 2025 - Visual diagram showing all hooks and their relationships",
@@ -107,7 +107,7 @@ export const metadata = {
       "Learn when, why, and how to use all React hooks with practical examples - from useState to the latest React 19 hooks.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp",
     ],
   },
   robots: {
@@ -159,7 +159,7 @@ export const metadata = {
     headline:
       "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: {
@@ -456,7 +456,7 @@ const articleSchema = {
     headline:
       "Complete Guide to React Hooks in 2025: When, Why and How to Use Every Hook",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp",
     datePublished: "2025-05-02T08:00:00Z",
     dateModified: "2025-05-02T08:00:00Z",
     author: {
@@ -506,7 +506,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.jpg"
+            src="/mergesociety/rahul-mishra-XXMA-8fBB-g-unsplash_iz6p3n_cbpptu.webp"
             alt="ALL React Hooks Explained: When, Why, and How to Use Every Hook in Your React Toolkit"
             width={600}
             height={400}

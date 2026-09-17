@@ -46,7 +46,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.webp",
         width: 1200,
         height: 630,
         alt: "Programming Languages for High-Paying Tech Jobs in 2025",
@@ -97,7 +97,7 @@ export const metadata = {
       "Data analysis of 150+ job postings reveals which languages to learn for the highest-paying roles in AI, web dev, mobile, and data science.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for High-Paying Tech Jobs in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.webp",
     datePublished: "2025-05-16T09:00:00Z",
     dateModified: "2025-05-16T09:00:00Z",
     author: {
@@ -415,7 +415,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for High-Paying Tech Jobs in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Programming_Languages.webp",
     datePublished: "2025-05-16T09:00:00Z",
     dateModified: "2025-05-16T09:00:00Z",
     author: {
@@ -491,7 +491,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/Best_Programming_Languages.jpg"
+            "/mergesociety/Best_Programming_Languages.webp"
           }
           alt="Best Programming Languages to Learn for High Paying Tech Jobs in 2025"
           width={600}

@@ -46,7 +46,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp",
         width: 1200,
         height: 630,
         alt: "Top Programming Languages for AI and Machine Learning in 2025",
@@ -97,7 +97,7 @@ export const metadata = {
       "Comprehensive guide to Python, R, Julia, Java & JavaScript for AI and machine learning projects. Compare strengths and find the perfect language for your needs.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for AI and Machine Learning in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp",
     datePublished: "2025-05-16T08:00:00Z",
     dateModified: "2025-05-16T08:00:00Z",
     author: {
@@ -376,7 +376,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "Best Programming Languages for AI and Machine Learning in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp",
     datePublished: "2025-05-16T08:00:00Z",
     dateModified: "2025-05-16T08:00:00Z",
     author: {
@@ -449,7 +449,7 @@ export default function Article() {
         <h1>Best Programming Language for AI and Machine Learning</h1>
         <Image
           src={
-            "/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.jpg"
+            "/mergesociety/Best Programming Language_for_AI_and_Machine_Learning.webp"
           }
           alt="Best Programming Language for AI and Machine Learning"
           width={600}

@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
         width: 1200,
         height: 630,
         alt: "WebSocket vs Polling vs Long Polling Communication Patterns Comparison",
@@ -80,7 +80,7 @@ export const metadata = {
       "Complete comparison of WebSockets, polling & long polling. Learn when to use each for chat apps, trading platforms & real-time dashboards.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
     ],
   },
 
@@ -143,7 +143,7 @@ export const metadata = {
         "Comprehensive comparison of WebSockets, polling, and long polling techniques for building real-time web applications, with performance analysis and implementation examples.",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
         width: 1200,
         height: 630,
         caption:
@@ -199,7 +199,7 @@ export const metadata = {
       description:
         "Step-by-step guide to selecting the right real-time communication method for your web application",
       image:
-        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
       totalTime: "PT15M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -359,7 +359,7 @@ const articleSchema = {
         "Comprehensive comparison of WebSockets, polling, and long polling techniques for building real-time web applications, with performance analysis and implementation examples.",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
         width: 1200,
         height: 630,
         caption:
@@ -425,7 +425,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.jpg"
+            src="/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp"
             alt="Visual comparison of WebSockets, Long Polling and Regular Polling communication patterns"
             width={600}
             height={400}

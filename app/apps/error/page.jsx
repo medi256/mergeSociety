@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.webp",
         width: 1200,
         height: 630,
         alt: "Blue Screen of Death with CrowdStrike logo - The Global Windows Outage of 2024",
@@ -84,7 +84,7 @@ export const metadata = {
       "How a cybersecurity update ironically caused one of history's largest technological failures, affecting critical infrastructure worldwide.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -130,7 +130,7 @@ export const metadata = {
     "@type": "NewsArticle",
     headline:
       "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.webp",
     datePublished: "2025-04-27T08:30:00Z",
     dateModified: "2025-04-27T13:45:00Z",
     author: {
@@ -291,7 +291,7 @@ const articleSchema = {
     "@type": "NewsArticle",
     headline:
       "Global Windows Outage: How a CrowdStrike Update Brought the World to Its Knees",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/error_ylvaka_dc6kc0.webp",
     datePublished: "2025-04-27T08:30:00Z",
     dateModified: "2025-04-27T13:45:00Z",
     author: {
@@ -366,7 +366,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/error_ylvaka_dc6kc0.jpg"}
+          src={"/mergesociety/error_ylvaka_dc6kc0.webp"}
           alt="Global Windows Outage: How a CrowdStrike Update Brought the World to  Its Knees"
           width={600}
           height={400}

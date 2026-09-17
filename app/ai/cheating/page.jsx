@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "The Code Report",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.webp",
         width: 1200,
         height: 630,
         alt: "A split screen showing a programmer in a remote interview with hidden cheating methods illustrated",
@@ -83,7 +83,7 @@ export const metadata = {
       "With an estimated 10% of candidates attempting to cheat, this article reveals the methods used in remote technical interviews and why integrity pays off in the long run.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -133,7 +133,7 @@ export const metadata = {
     headline:
       "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.webp",
     datePublished: "2024-11-25T12:00:00Z",
     dateModified: "2025-04-26T12:00:00Z",
     author: {
@@ -515,7 +515,7 @@ const articleSchema = {
     headline:
       "Inside the Secret World of Technical Interview Cheating: Tactics, Temptations, and Terrible Consequences",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cheating_b3duti_irxoxq.webp",
     datePublished: "2024-11-25T12:00:00Z",
     dateModified: "2025-04-26T12:00:00Z",
     author: {
@@ -600,7 +600,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={"/mergesociety/cheating_b3duti_irxoxq.jpg"}
+          src={"/mergesociety/cheating_b3duti_irxoxq.webp"}
           alt="A split screen showing a programmer in a remote interview with hidden cheating methods illustrated"
           width={600}
           height={400}

@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.webp",
         width: 1200,
         height: 630,
         alt: "Chrome DevTools interface showing advanced debugging features and performance panels",
@@ -65,7 +65,7 @@ export const metadata = {
     description:
       "Discover console tricks, design mode hacks, and performance debugging techniques that most developers never learn. Updated for 2025!",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.jpg"],
+    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.webp"],
   },
 
   // SEO Optimizations
@@ -109,7 +109,7 @@ export const metadata = {
       "Master hidden Chrome DevTools secrets for debugging, performance optimization, and productivity hacks. Includes console tricks, design mode, and advanced techniques most developers never discover.",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.webp",
       width: 1200,
       height: 630,
     },
@@ -185,7 +185,7 @@ export const metadata = {
   // Performance and Core Web Vitals hints
   performance: {
     preload: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/971_dx26ro_qm5n0m.webp",
     ],
     prefetch: ["/tech/javascript-features", "/tech/docker-explained"],
   },
@@ -248,7 +248,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/971_dx26ro_qm5n0m.jpg"
+            src="/mergesociety/971_dx26ro_qm5n0m.webp"
             alt="Chrome DevTools interface showing console and performance panels with visual debugging aids"
             width={600}
             height={400}

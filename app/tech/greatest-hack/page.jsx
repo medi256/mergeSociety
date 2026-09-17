@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Cybersecurity Intelligence Report",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp",
         width: 1200,
         height: 630,
         alt: "Updated analysis of the Shadow Brokers NSA breach showing current cybersecurity implications",
@@ -90,7 +90,7 @@ export const metadata = {
       "Updated investigation: Complete Shadow Brokers NSA breach analysis with fresh insights into EternalBlue's current impact and lasting cybersecurity consequences.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp",
     ],
   },
 
@@ -162,7 +162,7 @@ export const metadata = {
     headline:
       "Shadow Brokers NSA Hack: Complete 2025 Analysis | Updated Investigation",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp",
     datePublished: "2025-05-01T08:30:00Z",
     dateModified: "2025-07-01T14:45:00Z",
     author: [
@@ -305,7 +305,7 @@ const articleSchema = {
     headline:
       "Shadow Brokers NSA Hack: Complete 2025 Analysis | Updated Investigation",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp",
     datePublished: "2025-05-01T08:30:00Z",
     dateModified: "2025-07-01T14:45:00Z",
     author: [
@@ -386,7 +386,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.jpg"
+            src="/mergesociety/nahel-abdul-hadi-flha0KwRrRc-unsplash_fdg6bt_ij6hpk.webp"
             alt="The Greatest Hack in History"
             width={600}
             height={400}

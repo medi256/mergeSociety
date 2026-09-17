@@ -8,7 +8,7 @@ const Section8 = () => {
     {
       id: 1,
       title: "Full Stack JavaScript Developer Roadmap 2025",
-      image: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.png",
+      image: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
       alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       date: "July 8, 2025",
       articleRoute: "javascript-roadmap",
@@ -17,7 +17,7 @@ const Section8 = () => {
       id: 2,
       title:
         "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro",
-      image: "/mergesociety/css-raodmap_vhknyz_orugxh.png",
+      image: "/mergesociety/css-raodmap_vhknyz_orugxh.webp",
       alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
       date: "July 8, 2025",
       articleRoute: "css-roadmap",
@@ -25,7 +25,7 @@ const Section8 = () => {
     {
       id: 3,
       title: "How To Master Next.js Roadmap In 2025 (Complete Roadmap)",
-      image: "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.png",
+      image: "/mergesociety/next_js_developer_roadmap_qsulle_aqajvp.webp",
       alt: "Next.js Roadmap 2025 - Complete Guide to Mastering Next.js",
       date: "July 8, 2025",
       articleRoute: "nextjs-roadmap",

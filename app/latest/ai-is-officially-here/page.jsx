@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Software_devekopers.jpg", // <-- Replace with your Open Graph image URL
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Software_devekopers.webp", // <-- Replace with your Open Graph image URL
         width: 1200,
         height: 630,
         alt: "How Smart Developers Use AI - Merge Society",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "A developer-first guide on how to use AI tools like Windsurf for faster coding, deeper learning, and productivity boosts—without losing your skills.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Software_devekopers.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Software_devekopers.webp",
     ],
   },
 };
@@ -85,7 +85,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/Software_devekopers.jpg"
+            "/mergesociety/Software_devekopers.webp"
           }
           alt="How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)"
           width={600}

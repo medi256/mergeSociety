@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Developer Junction",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
         width: 1200,
         height: 630,
         alt: "Collage showing code editor, web apps, mobile interfaces, and AI visualizations representing 40 diverse programming projects for developers",
@@ -87,7 +87,7 @@ export const metadata = {
       "Discover practical coding projects from web apps to AI systems that will expand your skills and supercharge your portfolio.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -135,7 +135,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "40 Programming Projects That Will Make You a Better Developer",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T08:30:00Z",
     author: {
@@ -607,7 +607,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "40 Programming Projects That Will Make You a Better Developer",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
     datePublished: "2025-04-30T08:30:00Z",
     dateModified: "2025-04-30T08:30:00Z",
     author: {
@@ -651,7 +651,7 @@ export default function Article() {
 
         <Image
           src={
-            "/mergesociety/Programming_Projects.jpg"
+            "/mergesociety/Programming_Projects.webp"
           }
           alt="40 Programming Projects That Will Make You a Better Developer"
           width={600}

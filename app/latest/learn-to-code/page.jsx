@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Tech Truth Report",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.webp",
         width: 1200,
         height: 630,
         alt: "Visual representation of the collapsing coding bubble showing the rise and fall of tech employment versus education enrollment",
@@ -95,7 +95,7 @@ export const metadata = {
       "Our International Workers' Day investigation uncovers how universities, bootcamps & politicians sold a coding fantasy that led to debt, unemployment & shattered dreams.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.webp",
     ],
   },
   robots: {
@@ -144,7 +144,7 @@ export const metadata = {
     headline:
       "The Great Coding Scam: How 'Learn to Code' Failed a Generation | May 2025 Analysis",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Learn_to_Code.webp",
     datePublished: "2025-05-01T08:30:00Z",
     dateModified: "2025-05-01T08:30:00Z",
     author: {
@@ -456,7 +456,7 @@ export default function Article() {
         </h1>
         <Image
           src={
-            "/mergesociety/Learn_to_Code.jpg"
+            "/mergesociety/Learn_to_Code.webp"
           }
           alt="Why America Became Obsessed with Learn to Code And Where ThatStrategy Went Wrong"
           width={600}

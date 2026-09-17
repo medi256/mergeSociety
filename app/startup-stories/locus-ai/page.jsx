@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.webp",
         width: 1200,
         height: 630,
         alt: "Locus AI showing how to safely give AI agents money with budgets, permissions, and full audit trails",
@@ -104,7 +104,7 @@ export const metadata = {
       "The fear: 'All my money is gone.' The solution: Budgets, permissions, audit trails. Locus AI makes autonomous agent payments safe without killing autonomy.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.webp",
     ],
   },
 
@@ -165,7 +165,7 @@ export const metadata = {
     headline:
       "Should You Give AI Agents Money? Budgets, Permissions & Audit Trails With Locus AI",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.webp",
     datePublished: "2025-11-02T00:00:00Z",
     dateModified: "2025-11-02T00:00:00Z",
     author: {
@@ -700,7 +700,7 @@ const articleSchema = {
     headline:
       "Should You Give AI Agents Money? Budgets, Permissions & Audit Trails With Locus AI",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Agents.webp",
     datePublished: "2025-11-02T00:00:00Z",
     dateModified: "2025-11-02T00:00:00Z",
     author: {
@@ -760,7 +760,7 @@ const Locus = () => {
 
         <Image
           src={
-            "/mergesociety/AI_Agents.jpg"
+            "/mergesociety/AI_Agents.webp"
           }
           alt="Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI"
           width={600}

@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "React Mastery",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
         width: 1200,
         height: 630,
         alt: "Comprehensive React Concepts Guide - Visual diagram of React architecture",
@@ -99,7 +99,7 @@ export const metadata = {
       "Master React from fundamentals to advanced patterns with this comprehensive guide. Updated for React 19 with real-world examples and best practices for 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
     ],
   },
   robots: {
@@ -152,7 +152,7 @@ export const metadata = {
     headline:
       "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: [
@@ -581,7 +581,7 @@ const articleSchema = {
     headline:
       "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
     datePublished: "2025-05-02T09:00:00Z",
     dateModified: "2025-05-02T09:00:00Z",
     author: [

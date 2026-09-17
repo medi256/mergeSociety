@@ -141,7 +141,7 @@ const Section5 = () => {
       id: 3,
       title:
         " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
-      image: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      image: "/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
       alt: " How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
       date: " April 27, 2025",
       articleRoute: "snap-chat",
@@ -151,7 +151,7 @@ const Section5 = () => {
       title:
         "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
       image:
-        "/mergesociety/Tech_Layoffs.jpg",
+        "/mergesociety/Tech_Layoffs.webp",
       alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
       date: " April 27, 2025",
       articleRoute: "hiring",
@@ -171,7 +171,7 @@ const Section5 = () => {
       title:
         "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       image:
-        "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.jpg",
+        "/mergesociety/boliviainteligente--ZS3S9a3jEQ-unsplash_syfnrb_wwtzcc.webp",
       alt: "Nvidia’s Meteoric Rise: How the AI Chip Giant Became the World’s Most Valuable—and What Could Take It Down",
       date: " April 30, 2025",
       articleRoute: "invidia",
@@ -180,7 +180,7 @@ const Section5 = () => {
       id: 7,
       title:
         "Do People Actually Know What Cluely Does? I Took It To The Streets of San Francisco To Find Out",
-      image: "/mergesociety/audio_1761485673309_yjd82_ciildh_uvzkik.jpg",
+      image: "/mergesociety/audio_1761485673309_yjd82_ciildh_uvzkik.webp",
       alt: "What is Cluely, really?",
       date: "October 27, 2025",
       articleRoute: "cluely-ai",
@@ -188,7 +188,7 @@ const Section5 = () => {
     {
       id: 8,
       title: "Growing Super X to $10,000 a Month While Traveling the World",
-      image: "/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.jpg",
+      image: "/mergesociety/audio_1761559288875_xtxud_zqk8xg_xpu5s0.webp",
       alt: "Growing Super X to $10,000 a Month While Traveling the World",
       date: "October 27, 2025",
       articleRoute: "rob-hallam",
@@ -215,7 +215,7 @@ const Section5 = () => {
       id: 11,
       title:
         "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
-      image: "/mergesociety/Interview_xzyj97_tolqz5.png",
+      image: "/mergesociety/Interview_xzyj97_tolqz5.webp",
       alt: "The Tool That’s Killing LeetCode: How People Are Now Cheating Live Coding Interviews into FAANG",
       date: "October 29, 2025",
       articleRoute: "interview-coder",
@@ -224,7 +224,7 @@ const Section5 = () => {
       id: 12,
       title:
         "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
-      image: "/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      image: "/mergesociety/Interview_1_xlpfk4_clex4p.webp",
       alt: "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews",
       date: "October 29, 2025",
       articleRoute: "story-of-roy",
@@ -233,7 +233,7 @@ const Section5 = () => {
       id: 13,
       title:
         "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
-      image: "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.jpg",
+      image: "/mergesociety/audio_1761674065685_gdbpa_oouusv_yxz32g.webp",
       alt: "The 5 Biggest Questions You Will Get Asked By Y Combinator and How To Answer Them",
       date: "October 30, 2025",
       articleRoute: "yc-startup",
@@ -242,7 +242,7 @@ const Section5 = () => {
       id: 14,
       title:
         "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
-      image: "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.jpg",
+      image: "/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.webp",
       alt: "Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time AI And It Wins Deals",
       date: "November 1, 2025",
       articleRoute: "aside-ai",
@@ -251,7 +251,7 @@ const Section5 = () => {
       id: 15,
       title:
         "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
-      image: "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.jpg",
+      image: "/mergesociety/audio_1762078490592_hj6exk_lymkw6_ymyh0x.webp",
       alt: "Cheating Is Not Illegal In Sales Calls - Cheating is only Illegal When Cluely Is Not Involed",
       date: "November 2, 2025",
       articleRoute: "cluely",
@@ -261,7 +261,7 @@ const Section5 = () => {
       title:
         "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       image:
-        "/mergesociety/AI_Agents.jpg",
+        "/mergesociety/AI_Agents.webp",
       alt: "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       date: "November 2, 2025",
       articleRoute: "locus-ai",
@@ -269,7 +269,7 @@ const Section5 = () => {
     {
       id: 17,
       title: "Building and Shipping a Real Product in One Day",
-      image: "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.jpg",
+      image: "/mergesociety/audio_1762106886174_qhxevr_qae0d7_qpckrv.webp",
       alt: "Building and Shipping a Real Product in One Day",
       date: "November 2, 2025",
       articleRoute: "indie-dev",

@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp",
         width: 1200,
         height: 630,
         alt: "Tech professionals working with AI and data visualization representing the 2025 job market transformation",
@@ -66,7 +66,7 @@ export const metadata = {
       "37% of laid-off tech workers still hunting for jobs, but 2025 recovery is here—if you have the right skills. The new playbook inside.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp",
     ],
   },
 
@@ -134,7 +134,7 @@ export const metadata = {
       "The Tech Job Recovery Is Here, But Only for Those Who Adapt",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp",
       width: 1200,
       height: 630,
     },
@@ -249,7 +249,7 @@ const articleSchema = {
       "The Tech Job Recovery Is Here, But Only for Those Who Adapt",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg",
+      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp",
       width: 1200,
       height: 630,
     },
@@ -341,7 +341,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.jpg"
+            src="/mergesociety/hitesh-choudhary-u7r-VFdvQk8-unsplash_onsg9b_pm0oea.webp"
             alt="Tech Jobs in 2025: Will the U.S. Tech Job Market Bounce Back as AI Takes Hold?"
             width={600}
             height={400}

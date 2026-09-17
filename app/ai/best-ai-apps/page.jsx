@@ -61,7 +61,7 @@ export const metadata = {
     siteName: "MergeSociety",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.webp",
         width: 1200,
         height: 630,
         alt: "Best AI Apps for Studying - 8 Game-Changing Tools for Lightning-Fast Learning",
@@ -89,7 +89,7 @@ export const metadata = {
       "Discover 8 AI study apps that help you learn 10x faster. From Traverse to Recall - these tools will transform how you study and retain information.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.webp",
     ],
   },
   alternates: {
@@ -116,7 +116,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.png"
+            src="/mergesociety/ChatGPT_Image_May_6_2025_12_26_44_AM_iuptqr_j0i7vz.webp"
             alt="Best AI apps for college students — tools for productivity, research, and learning"
             width={600}
             height={400}

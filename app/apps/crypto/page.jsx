@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "DevJourney",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.webp",
         width: 1200,
         height: 630,
         alt: "Cryptography concepts visualization with code snippets and encryption symbols",
@@ -82,7 +82,7 @@ export const metadata = {
       "Learn the fundamentals of modern cryptography with practical Node.js examples - from hashing to digital signatures.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -124,7 +124,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.webp",
     datePublished: "2025-04-27T10:15:00Z",
     dateModified: "2025-04-27T10:15:00Z",
     author: {
@@ -359,7 +359,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline:
       "Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.jpg",
+    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crypto_l9kxvg_uu1awq.webp",
     datePublished: "2025-04-27T10:15:00Z",
     dateModified: "2025-04-27T10:15:00Z",
     author: {
@@ -424,7 +424,7 @@ export default function Article() {
           Must Know
         </h1>
         <Image
-          src={"/mergesociety/crypto_l9kxvg_uu1awq.jpg"}
+          src={"/mergesociety/crypto_l9kxvg_uu1awq.webp"}
           alt="Unraveling Cryptography: 7 Essential Crypto Concepts Every Developer Must Know"
           width={600}
           height={400}

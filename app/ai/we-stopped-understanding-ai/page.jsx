@@ -38,7 +38,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
         width: 1200,
         height: 630,
         alt: "Visualization of neural network activation atlas and embedding spaces showing how AI organizes knowledge",
@@ -70,7 +70,7 @@ export const metadata = {
       "Fresh 2025 insights: Explore activation atlases and embedding spaces that reveal how AI models like AlexNet and ChatGPT secretly organize intelligence.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
     ],
   },
 
@@ -153,7 +153,7 @@ export const metadata = {
     headline:
       "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-06-30T12:00:00Z",
     author: {
@@ -228,7 +228,7 @@ const articleSchema = {
     headline:
       "Activation Atlas: How High-Dimensional Embedding Spaces in AI Like AlexNet and ChatGPT Are Secretly Rewriting Intelligence",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp",
     datePublished: "2025-05-01T08:00:00Z",
     dateModified: "2025-06-30T12:00:00Z",
     author: {
@@ -312,7 +312,7 @@ export default function Article() {
         </h1>
         <figure className="blog-image">
           <Image
-            src="/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.jpg"
+            src="/mergesociety/zuzana-ruttkay-1kslaBtXBk8-unsplash_ebqdgh_hxecir.webp"
             alt="The moment we stopped understanding AI: Visualization referencing AlexNet's impact on deep learning interpretability"
             width={600}
             height={400}

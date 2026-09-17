@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.webp",
         width: 1200,
         height: 630,
         alt: "Roy, founder of Cluely and Interview Coder, who got kicked out of Columbia University for building controversial AI interview tool",
@@ -104,7 +104,7 @@ export const metadata = {
       "Roy built Interview Coder to cheat tech interviews, got expelled from Columbia, went viral, and raised $5.3M. Now building the future of AI interaction. Wild story inside.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.webp",
     ],
   },
 
@@ -172,7 +172,7 @@ export const metadata = {
     headline:
       "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews - Here's What Happened Next",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.webp",
     datePublished: "2025-10-29T00:00:00Z",
     dateModified: "2025-10-29T00:00:00Z",
     author: {
@@ -676,7 +676,7 @@ const articleSchema = {
     headline:
       "I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews - Here's What Happened Next",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.png",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Interview_1_xlpfk4_clex4p.webp",
     datePublished: "2025-10-29T00:00:00Z",
     dateModified: "2025-10-29T00:00:00Z",
     author: {
@@ -760,7 +760,7 @@ const RoyLee = () => {
           Comes Next
         </h1>
         <Image
-          src={"/mergesociety/Interview_1_xlpfk4_clex4p.png"}
+          src={"/mergesociety/Interview_1_xlpfk4_clex4p.webp"}
           alt="I Got Kicked Out of Columbia University for Building an AI That Cheats Interviews"
           width={600}
           height={400}

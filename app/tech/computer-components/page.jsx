@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Tech Explained",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.webp",
         width: 1200,
         height: 630,
         alt: "An exploded view of computer components showing CPU, motherboard, RAM, graphics card, and storage devices",
@@ -82,7 +82,7 @@ export const metadata = {
       "From CPU to cooling systems, this comprehensive guide breaks down the essential components that power every computer.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -132,7 +132,7 @@ export const metadata = {
     headline:
       "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.webp",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {
@@ -592,7 +592,7 @@ const articleSchema = {
     headline:
       "The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/computer-compopnents_spj8rl_bbi7ps.webp",
     datePublished: "2025-04-26T09:00:00Z",
     dateModified: "2025-04-26T09:00:00Z",
     author: {
@@ -680,7 +680,7 @@ export default function Article() {
           and Brain of Your PC
         </h1>
         <Image
-          src={"/mergesociety/computer-compopnents_spj8rl_bbi7ps.jpg"}
+          src={"/mergesociety/computer-compopnents_spj8rl_bbi7ps.webp"}
           alt="The Essential Guide to Computer Components: Understanding the Heart and Brain of Your PC"
           width={600}
           height={400}

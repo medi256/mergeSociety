@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.webp",
         width: 1200,
         height: 630,
         alt: "Apache vs NGINX architecture diagram showing reverse proxy implementation, load balancing, and performance characteristics",
@@ -96,7 +96,7 @@ export const metadata = {
       "Speed, security, or flexibility? Our comprehensive comparison helps you choose between Apache and NGINX for optimal web infrastructure in 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.webp",
     ],
   },
 
@@ -148,7 +148,7 @@ export const metadata = {
     headline:
       "Apache vs NGINX: The Ultimate Web Server Comparison Guide for 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.webp",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {
@@ -521,7 +521,7 @@ const articleSchema = {
     headline:
       "Apache vs NGINX: The Ultimate Web Server Comparison Guide for 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Apache_vs_Nginx.webp",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {

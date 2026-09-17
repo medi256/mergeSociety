@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
         width: 1200,
         height: 630,
         alt: "Snapchat logo with financial chart showing revenue growth but minimal profits",
@@ -83,7 +83,7 @@ export const metadata = {
       "How Snapchat revolutionized social media with ephemeral messaging and AR filters yet struggles to convert massive engagement into sustainable profits.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -139,7 +139,7 @@ export const metadata = {
     headline:
       "How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -387,7 +387,7 @@ const articleSchema = {
     headline:
       "How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg",
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -491,7 +491,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src="/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.jpg"
+          src="/mergesociety/alexander-shatov-fRjjnN_8njo-unsplash.webp"
           alt=" How Snapchat Became a Social Media Giant—Yet Still Struggles to Make Money "
           width={600}
           height={400}
