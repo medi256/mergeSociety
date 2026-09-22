@@ -84,9 +84,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/palantir2",
     languages: {
       "en-US": "https://mergesociety.com/tech/palantir2",
-      "es-ES": "https://mergesociety.com/tech/palantir2",
-      "fr-FR": "https://mergesociety.com/tech/palantir2",
-      "de-DE": "https://mergesociety.com/tech/palantir2",
     },
   },
   twitter: {

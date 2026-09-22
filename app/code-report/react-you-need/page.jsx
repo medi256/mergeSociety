@@ -82,9 +82,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/react-you-need",
     languages: {
       "en-US": "https://mergesociety.com/code-report/react-you-need",
-      "es-ES": "https://mergesociety.com/code-report/react-you-need",
-      "fr-FR": "https://mergesociety.com/code-report/react-you-need",
-      "de-DE": "https://mergesociety.com/code-report/react-you-need",
     },
   },
   twitter: {
@@ -432,52 +429,52 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.webp",
-    datePublished: "2025-05-02T09:00:00Z",
-    dateModified: "2025-05-02T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Kyle from Merge Society",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Web Developer and Coding Educator",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Essential JavaScript Concepts for React Development: The Complete Guide for 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rahul-mishra-JpF58ANavoc-unsplash_eb19pv_uwmjkp.webp",
+  datePublished: "2025-05-02T09:00:00Z",
+  dateModified: "2025-05-02T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Kyle from Merge Society",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Web Developer and Coding Educator",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Master the 10 crucial JavaScript concepts you need to know before learning React. This comprehensive guide breaks down everything from scoping to advanced array methods with practical examples.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/react-you-need",
-    },
-    keywords:
-      "JavaScript, React, Web Development, JavaScript Fundamentals, React Prerequisites",
-    articleSection: "JavaScript Tutorials",
-    skillLevel: "Beginner to Intermediate",
-    dependencies: "Basic HTML/CSS knowledge recommended",
-    proficiencyLevel:
-      "Perfect for developers with basic JavaScript knowledge looking to transition to React",
-  };
+  },
+  description:
+    "Master the 10 crucial JavaScript concepts you need to know before learning React. This comprehensive guide breaks down everything from scoping to advanced array methods with practical examples.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/react-you-need",
+  },
+  keywords:
+    "JavaScript, React, Web Development, JavaScript Fundamentals, React Prerequisites",
+  articleSection: "JavaScript Tutorials",
+  skillLevel: "Beginner to Intermediate",
+  dependencies: "Basic HTML/CSS knowledge recommended",
+  proficiencyLevel:
+    "Perfect for developers with basic JavaScript knowledge looking to transition to React",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         {/* SEO-optimized content structure here */}
         <h1>
@@ -834,8 +831,10 @@ export default function Article() {
           </h2>
           <p>
             Here’s what’s crazy: React’s magic rendering of lists, tables, and
-            dynamic content is powered by <Link href="/javascript/array-methods">array methods</Link>. Most beginners use{" "}
-            <code>map</code> like a hammer, but can’t do anything else.
+            dynamic content is powered by{" "}
+            <Link href="/javascript/array-methods">array methods</Link>. Most
+            beginners use <code>map</code> like a hammer, but can’t do anything
+            else.
           </p>
           <p>
             <strong>What Most People Get Wrong:</strong>
@@ -1014,7 +1013,10 @@ export default function Article() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Link href="/code-report/is-it-still-worth-learning-to-code">Merge Society</Link>’s JavaScript Simplified course table of contents
+              <Link href="/code-report/is-it-still-worth-learning-to-code">
+                Merge Society
+              </Link>
+              ’s JavaScript Simplified course table of contents
             </a>
             —the checklist pros use to crush React.
           </p>
@@ -1041,8 +1043,9 @@ export default function Article() {
           <h3>What JavaScript should I know before learning React?</h3>
           <p>
             You need to have a strong foundation in ES6+ features (like
-            destructuring, classes, arrow functions, and modules), <Link href="/javascript/arrays">array methods</Link>
-            (<code>map</code>, <code>filter</code>, <code>reduce</code>),
+            destructuring, classes, arrow functions, and modules),{" "}
+            <Link href="/javascript/arrays">array methods</Link>(
+            <code>map</code>, <code>filter</code>, <code>reduce</code>),
             asynchronous programming with promises and <code>async/await</code>,
             and deep understanding of scoping, closures, and the difference
             between value/reference types. React also assumes you know

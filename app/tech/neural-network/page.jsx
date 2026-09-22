@@ -85,11 +85,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/neural-network",
     languages: {
       "en-US": "https://mergesociety.com/tech/neural-network",
-      "zh-CN": "https://mergesociety.com/tech/neural-network",
-      "de-DE": "https://mergesociety.com/tech/neural-network",
-      "fr-FR": "https://mergesociety.com/tech/neural-network",
-      "es-ES": "https://mergesociety.com/tech/neural-network",
-      "ja-JP": "https://mergesociety.com/tech/neural-network",
     },
   },
   twitter: {
@@ -543,60 +538,60 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
-    datePublished: "2025-05-01T08:00:00Z",
-    dateModified: "2025-05-01T10:30:00Z",
-    author: [
-      {
-        "@type": "Person",
-        name: "Dr. Maya Rodriguez",
-        url: "https://mergesociety.com/about",
-        jobTitle: "AI Research Scientist",
-      },
-      {
-        "@type": "Person",
-        name: "Prof. James Liu",
-        url: "https://mergesociety.com/about",
-        jobTitle: "Professor of Computer Science",
-      },
-    ],
-    publisher: {
-      "@type": "Organization",
-      name: "Tech Explained Learning Hub",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Neural Networks Demystified: From Pixels to Intelligence | May 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/jona-UopUfxghnWo-unsplash_qxft28_pxbksd.webp",
+  datePublished: "2025-05-01T08:00:00Z",
+  dateModified: "2025-05-01T10:30:00Z",
+  author: [
+    {
+      "@type": "Person",
+      name: "Dr. Maya Rodriguez",
+      url: "https://mergesociety.com/about",
+      jobTitle: "AI Research Scientist",
     },
-    description:
-      "Revolutionary explanation of neural networks without the math jargon. Learn how computers recognize handwritten digits, why layered networks create intelligence, and the beautiful intuition behind deep learning's true power.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/neural-network",
+    {
+      "@type": "Person",
+      name: "Prof. James Liu",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Professor of Computer Science",
     },
-    keywords:
-      "neural networks, deep learning, machine learning, pattern recognition",
-    articleSection: "AI Education",
-    skillLevel: "Beginner to Intermediate",
-    dependencies: "No mathematical background required",
-    proficiencyLevel:
-      "All levels welcome with special sections for deeper technical understanding",
-  };
+  ],
+  publisher: {
+    "@type": "Organization",
+    name: "Tech Explained Learning Hub",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+    },
+  },
+  description:
+    "Revolutionary explanation of neural networks without the math jargon. Learn how computers recognize handwritten digits, why layered networks create intelligence, and the beautiful intuition behind deep learning's true power.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/neural-network",
+  },
+  keywords:
+    "neural networks, deep learning, machine learning, pattern recognition",
+  articleSection: "AI Education",
+  skillLevel: "Beginner to Intermediate",
+  dependencies: "No mathematical background required",
+  proficiencyLevel:
+    "All levels welcome with special sections for deeper technical understanding",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Neural Networks Explained: How Your Brain Outsmarts Computers at
@@ -653,13 +648,13 @@ export default function Article() {
           every time, with no mistakes…” You’d probably panic. Sound familiar?
           Here’s the secret: It’s not easy for a computer. In fact, building a
           machine that recognizes handwriting is one of the hardest, craziest
-          challenges in all of tech—and that’s exactly why <Link href="/ai/god-father-of-ai">neural networks</Link> are
-          such a mind-blowing breakthrough. Today, I’m going to show you, step
-          by step, how a neural network actually works (not just the buzzwords),
-          all without any math background required. By the time you’re done
-          reading, you’ll see these mysterious “layers” and “neurons” in a
-          totally new way—and you’ll understand why this matters in our
-          AI-driven world.
+          challenges in all of tech—and that’s exactly why{" "}
+          <Link href="/ai/god-father-of-ai">neural networks</Link> are such a
+          mind-blowing breakthrough. Today, I’m going to show you, step by step,
+          how a neural network actually works (not just the buzzwords), all
+          without any math background required. By the time you’re done reading,
+          you’ll see these mysterious “layers” and “neurons” in a totally new
+          way—and you’ll understand why this matters in our AI-driven world.
         </p>
 
         <h2>
@@ -687,9 +682,10 @@ export default function Article() {
           </li>
         </ul>
         <p>
-          Here’s what nobody talks about: <Link href="/ai/llms">Neural networks</Link> changed everything.
-          They didn’t just get a little better—they’ve become the only practical
-          way for machines to rival the human eye at recognizing digits, faces,
+          Here’s what nobody talks about:{" "}
+          <Link href="/ai/llms">Neural networks</Link> changed everything. They
+          didn’t just get a little better—they’ve become the only practical way
+          for machines to rival the human eye at recognizing digits, faces,
           voices, anything. And if you care about where the world is going—AI,
           automation, self-driving cars—this story is everything.
         </p>
@@ -966,11 +962,12 @@ export default function Article() {
           Why This Isn’t “Just Math”—It’s the Future of Artificial Intelligence
         </h2>
         <p>
-          Right now, <Link href="/tech/ai-explained">neural networks</Link> underpin Google Search, YouTube
-          recommendations, voice assistants, even automated cars. Every time you
-          see “machine learning” in the news, odds are, there’s a neural net at
-          its core. That’s why understanding these layers—pixels to edges, edges
-          to shapes, shapes to digits—is a superpower in today’s world.
+          Right now, <Link href="/tech/ai-explained">neural networks</Link>{" "}
+          underpin Google Search, YouTube recommendations, voice assistants,
+          even automated cars. Every time you see “machine learning” in the
+          news, odds are, there’s a neural net at its core. That’s why
+          understanding these layers—pixels to edges, edges to shapes, shapes to
+          digits—is a superpower in today’s world.
         </p>
         <p>
           And here’s the wildest part: Even the “simple” network we built here

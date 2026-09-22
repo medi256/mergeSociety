@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
+// import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -72,9 +72,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/algorithms",
     languages: {
       "en-US": "https://mergesociety.com/code-report/algorithms",
-      "es-ES": "https://mergesociety.com/code-report/algorithms",
-      "fr-FR": "https://mergesociety.com/code-report/algorithms",
-      "de-DE": "https://mergesociety.com/code-report/algorithms",
     },
   },
   twitter: {
@@ -439,84 +436,84 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
-    datePublished: "2025-04-27T09:00:00Z",
-    dateModified: "2025-04-27T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Amara Chen",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
+  datePublished: "2025-04-27T09:00:00Z",
+  dateModified: "2025-04-27T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Amara Chen",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Tech Decoded Media, Inc.",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
+  },
+  description:
+    "An accessible deep dive into algorithms—what they are, how they work, and their impact on society. Follow along as we demystify the technology that powers everything from search results to dating apps.",
+  keywords:
+    "Algorithms, Technology Explained, Data Processing, AI Fundamentals, Digital Technology",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/algorithms",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Algorithms",
+    },
+    {
+      "@type": "Thing",
+      name: "Computer Science",
+    },
+    {
+      "@type": "Thing",
+      name: "Data Processing",
+    },
+  ],
+  mentions: [
+    {
       "@type": "Organization",
-      name: "Tech Decoded Media, Inc.",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      name: "Oxford Internet Institute",
     },
-    description:
-      "An accessible deep dive into algorithms—what they are, how they work, and their impact on society. Follow along as we demystify the technology that powers everything from search results to dating apps.",
-    keywords:
-      "Algorithms, Technology Explained, Data Processing, AI Fundamentals, Digital Technology",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/algorithms",
+    {
+      "@type": "Person",
+      name: "Professor Victoria Nash",
     },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Algorithms",
-      },
-      {
-        "@type": "Thing",
-        name: "Computer Science",
-      },
-      {
-        "@type": "Thing",
-        name: "Data Processing",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "Organization",
-        name: "Oxford Internet Institute",
-      },
-      {
-        "@type": "Person",
-        name: "Professor Victoria Nash",
-      },
-      {
-        "@type": "Person",
-        name: "Dr. Bernie Hogan",
-      },
-    ],
-    isAccessibleForFree: true,
-    educationalLevel: "General Interest",
-    audience: {
-      "@type": "Audience",
-      audienceType: "General Public",
+    {
+      "@type": "Person",
+      name: "Dr. Bernie Hogan",
     },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
-    },
-  };
+  ],
+  isAccessibleForFree: true,
+  educationalLevel: "General Interest",
+  audience: {
+    "@type": "Audience",
+    audienceType: "General Public",
+  },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           What Are Algorithms, Really? The Truth Behind the Technology Shaping
@@ -524,9 +521,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Algorithms.webp"
-          }
+          src={"/mergesociety/Algorithms.webp"}
           alt="What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World"
           width={600}
           height={400}
@@ -653,7 +648,10 @@ export default function Article() {
         <p>
           An instructor broke it down: coding is how you write an algorithm in a
           way a computer can understand. In this class, they were using{" "}
-          <strong>Scratch</strong>, a super-accessible <Link href="/javascript/introduction-to-javascript">programming language</Link>
+          <strong>Scratch</strong>, a super-accessible{" "}
+          <Link href="/javascript/introduction-to-javascript">
+            programming language
+          </Link>
           where you drag and drop colorful blocks that represent instructions.
           For this lesson, they were writing instructions for a drone to perform
           tricks—loops, flips, turns—at the press of a button.
@@ -760,7 +758,7 @@ export default function Article() {
             </Link>
           </li>
         </ul>
-        <CommentSection />
+        {/* <CommentSection /> */}
       </article>
     </div>
   );

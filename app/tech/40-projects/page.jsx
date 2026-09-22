@@ -75,9 +75,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/40-projects",
     languages: {
       "en-US": "https://mergesociety.com/tech/40-projects",
-      "es-ES": "https://mergesociety.com/tech/40-projects",
-      "de-DE": "https://mergesociety.com/tech/40-projects",
-      "fr-FR": "https://mergesociety.com/tech/40-projects",
     },
   },
   twitter: {
@@ -603,56 +600,54 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "40 Programming Projects That Will Make You a Better Developer",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
-    datePublished: "2025-04-30T08:30:00Z",
-    dateModified: "2025-04-30T08:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Alex Chen",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Software Engineer",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "40 Programming Projects That Will Make You a Better Developer",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programming_Projects.webp",
+  datePublished: "2025-04-30T08:30:00Z",
+  dateModified: "2025-04-30T08:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Alex Chen",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Software Engineer",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Developer Junction",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Developer Junction",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Discover 40 hands-on programming projects spanning web, mobile, AI, automation and more to build your portfolio, expand your skills, and grow as a developer with practical experience across modern tech stacks.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/40-projects",
-    },
-    keywords:
-      "programming projects, developer portfolio, coding practice, software development, AI projects",
-    articleSection: "Developer Resources",
-    proficiencyLevel: "Beginner to Advanced",
-    programmingLanguage: "Multiple",
-  };
+  },
+  description:
+    "Discover 40 hands-on programming projects spanning web, mobile, AI, automation and more to build your portfolio, expand your skills, and grow as a developer with practical experience across modern tech stacks.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/40-projects",
+  },
+  keywords:
+    "programming projects, developer portfolio, coding practice, software development, AI projects",
+  articleSection: "Developer Resources",
+  proficiencyLevel: "Beginner to Advanced",
+  programmingLanguage: "Multiple",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>40 Programming Projects That Will Make You a Better Developer</h1>
 
         <Image
-          src={
-            "/mergesociety/Programming_Projects.webp"
-          }
+          src={"/mergesociety/Programming_Projects.webp"}
           alt="40 Programming Projects That Will Make You a Better Developer"
           width={600}
           height={400}
@@ -890,8 +885,8 @@ export default function Article() {
           Building a neural network to recognize bird photos or audio clips
           sounds intimidating, but frameworks like <strong>TensorFlow</strong>{" "}
           make it accessible. These projects can run on small devices—even a
-          humble <Link href="/code-report/labing">Raspberry Pi</Link>! Explore edge AI, learn about model training, and
-          get creative.
+          humble <Link href="/code-report/labing">Raspberry Pi</Link>! Explore
+          edge AI, learn about model training, and get creative.
         </p>
 
         <h2>22. Smart Email Sorting</h2>
@@ -967,8 +962,10 @@ export default function Article() {
           Chat UIs are easy to build, but adding{" "}
           <strong>real-time features and authentication</strong> will up your
           game. Incorporate WebSockets for live updates and manage user sessions
-          securely. Learn about <Link href="/react/class-components">state management</Link> and consider expanding to
-          desktop or CLI clients for a multi-platform experience.
+          securely. Learn about{" "}
+          <Link href="/react/class-components">state management</Link> and
+          consider expanding to desktop or CLI clients for a multi-platform
+          experience.
         </p>
 
         <h2>30. API Gateway Implementation</h2>
@@ -1018,8 +1015,12 @@ export default function Article() {
         <h2>35. Weather Dashboard</h2>
         <p>
           Design a sleek UI to fetch and display weather updates for multiple
-          locations. Learn HTTP requests, <Link href="/code-report/apis-explained-to-a-kid">API integration</Link> (like OpenWeatherMap),
-          and, optionally, schedule periodic data refreshes with cron jobs.
+          locations. Learn HTTP requests,{" "}
+          <Link href="/code-report/apis-explained-to-a-kid">
+            API integration
+          </Link>{" "}
+          (like OpenWeatherMap), and, optionally, schedule periodic data
+          refreshes with cron jobs.
         </p>
 
         <h2>36. Ad/Tracker Blocker</h2>

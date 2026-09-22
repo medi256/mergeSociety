@@ -81,8 +81,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/apis-explained",
     languages: {
       "en-US": "https://mergesociety.com/code-report/apis-explained",
-      "es-ES": "https://mergesociety.com/code-report/apis-explained",
-      "fr-FR": "https://mergesociety.com/code-report/apis-explained",
     },
   },
 
@@ -93,7 +91,9 @@ export const metadata = {
     description:
       "From restaurant analogies to real-world tech examples - understand what APIs are, how they work, and why they're crucial in modern software development.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp"],
+    images: [
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp",
+    ],
   },
 
   robots: {
@@ -143,7 +143,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "APIs Explained: Understanding the Backbone of Modern Software (2025)",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp",
     datePublished: "2025-05-07T12:00:00Z",
     dateModified: "2025-05-07T12:00:00Z",
     author: {
@@ -511,70 +512,71 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "APIs Explained: Understanding the Backbone of Modern Software (2025)",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp",
-    datePublished: "2025-05-07T12:00:00Z",
-    dateModified: "2025-05-07T12:00:00Z",
-    author: {
-      "@type": "Organization",
-      name: "Merge Society Technical Team",
-      url: "https://mergesociety.com/about",
-      description: "Expert software engineers and technical educators",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "APIs Explained: Understanding the Backbone of Modern Software (2025)",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/api_cbneaq_bfxrcg.webp",
+  datePublished: "2025-05-07T12:00:00Z",
+  dateModified: "2025-05-07T12:00:00Z",
+  author: {
+    "@type": "Organization",
+    name: "Merge Society Technical Team",
+    url: "https://mergesociety.com/about",
+    description: "Expert software engineers and technical educators",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  },
+  description:
+    "Learn what APIs really are, how they work, and why they're essential in today's connected world. Perfect for beginners, job seekers, and tech professionals in just 4 minutes.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/apis-explained",
+  },
+  keywords:
+    "API explained, what is an API, API for beginners, API examples, how APIs work",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Application Programming Interface",
     },
-    description:
-      "Learn what APIs really are, how they work, and why they're essential in today's connected world. Perfect for beginners, job seekers, and tech professionals in just 4 minutes.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/apis-explained",
+    {
+      "@type": "Thing",
+      name: "Web Development",
     },
-    keywords:
-      "API explained, what is an API, API for beginners, API examples, how APIs work",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Application Programming Interface",
-      },
-      {
-        "@type": "Thing",
-        name: "Web Development",
-      },
-      {
-        "@type": "Thing",
-        name: "Software Integration",
-      },
-      {
-        "@type": "Thing",
-        name: "HTTP Communication",
-      },
-    ],
-    proficiencyLevel: "Beginner",
-    accessMode: "textual",
-    accessibilityFeature: ["alternativeText", "tableOfContents"],
-    accessibilityHazard: "none",
-    educationalUse: "instruction",
-    inLanguage: "en-US",
-  };
+    {
+      "@type": "Thing",
+      name: "Software Integration",
+    },
+    {
+      "@type": "Thing",
+      name: "HTTP Communication",
+    },
+  ],
+  proficiencyLevel: "Beginner",
+  accessMode: "textual",
+  accessibilityFeature: ["alternativeText", "tableOfContents"],
+  accessibilityHazard: "none",
+  educationalUse: "instruction",
+  inLanguage: "en-US",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           API Basics Explained: Why APIs Are the Secret Language Powering Every
@@ -912,8 +914,11 @@ export default function Article() {
           <div className="faq-section">
             <h3>What does API stand for?</h3>
             <p>
-              API stands for <Link href="/code-report/apis-explained-to-a-kid">Application Programming Interface</Link>—a set of rules or
-              tools for apps to talk to each other.
+              API stands for{" "}
+              <Link href="/code-report/apis-explained-to-a-kid">
+                Application Programming Interface
+              </Link>
+              —a set of rules or tools for apps to talk to each other.
             </p>
 
             <h3>Why are APIs important?</h3>
@@ -931,9 +936,10 @@ export default function Article() {
 
             <h3>Can non-programmers benefit from understanding APIs?</h3>
             <p>
-              Absolutely! <Link href="/tech/dev-fluencer">Product managers</Link>, designers, and everyday users can
-              have smarter conversations and make better tech decisions with
-              even a basic grasp of APIs.
+              Absolutely!{" "}
+              <Link href="/tech/dev-fluencer">Product managers</Link>,
+              designers, and everyday users can have smarter conversations and
+              make better tech decisions with even a basic grasp of APIs.
             </p>
           </div>
         </section>

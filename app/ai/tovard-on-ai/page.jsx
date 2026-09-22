@@ -88,10 +88,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/ai/tovard-on-ai",
     languages: {
       "en-US": "https://mergesociety.com/ai/tovard-on-ai",
-      "es-ES": "https://mergesociety.com/ai/tovard-on-ai",
-      "de-DE": "https://mergesociety.com/ai/tovard-on-ai",
-      "fr-FR": "https://mergesociety.com/ai/tovard-on-ai",
-      "ja-JP": "https://mergesociety.com/ai/tovard-on-ai",
     },
   },
 
@@ -513,67 +509,67 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
-    datePublished: "2025-05-11T10:30:00Z",
-    dateModified: "2025-05-11T10:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Alex Chen",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Software Engineer",
-      description:
-        "AI integration specialist with focus on developer productivity and tool automation",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "Torvalds Speaks: The Real Impact of AI on Modern Programming",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Linus-Torvalds_kcaenk_ekh2rc.webp",
+  datePublished: "2025-05-11T10:30:00Z",
+  dateModified: "2025-05-11T10:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Alex Chen",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Software Engineer",
     description:
-      "Discover Linus Torvalds' pragmatic take on how AI and LLMs are transforming software development in 2025. Is AI-generated code already among us, and how will it reshape the future of programming?",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/ai/tovard-on-ai",
+      "AI integration specialist with focus on developer productivity and tool automation",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "artificial intelligence, programming, linus torvalds, large language models, software development, code generation, ai code review",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Thing",
-        name: "Software Development",
-      },
-      {
-        "@type": "Thing",
-        name: "Programming",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Professional Development",
-    proficiencyLevel: "All Levels",
-    articleSection: "Technology Perspectives",
-    wordCount: 2000,
-  };
+  },
+  description:
+    "Discover Linus Torvalds' pragmatic take on how AI and LLMs are transforming software development in 2025. Is AI-generated code already among us, and how will it reshape the future of programming?",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/ai/tovard-on-ai",
+  },
+  keywords:
+    "artificial intelligence, programming, linus torvalds, large language models, software development, code generation, ai code review",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+    {
+      "@type": "Thing",
+      name: "Software Development",
+    },
+    {
+      "@type": "Thing",
+      name: "Programming",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Professional Development",
+  proficiencyLevel: "All Levels",
+  articleSection: "Technology Perspectives",
+  wordCount: 2000,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Torvalds Speaks: Impact of Artificial Intelligence on Programming
@@ -626,10 +622,11 @@ export default function Article() {
           convinced it’s not only possible, but that it’s likely already
           happening albeit on a smaller scale for now. Developers are getting a
           “helping hand” from AI for routine coding tasks, and automation in
-          coding isn’t exactly new. We’ve moved from <Link href="/code-report/what-is-a-compiler">machine code</Link> to assembler,
-          from C to Rust, using tools that increase our productivity every step
-          of the way. The difference now is the sophistication and potential
-          reach of these new tools.
+          coding isn’t exactly new. We’ve moved from{" "}
+          <Link href="/code-report/what-is-a-compiler">machine code</Link> to
+          assembler, from C to Rust, using tools that increase our productivity
+          every step of the way. The difference now is the sophistication and
+          potential reach of these new tools.
         </p>
 
         <p>
@@ -646,7 +643,8 @@ export default function Article() {
           Can AI Help Us Write <em>and</em> Review Code?
         </h2>
         <p>
-          There’s plenty of excitement about using <Link href="/tech/learn-to-code">AI for coding</Link>, but what about
+          There’s plenty of excitement about using{" "}
+          <Link href="/tech/learn-to-code">AI for coding</Link>, but what about
           one of the most challenging aspects of software engineering:{" "}
           <strong>code review and maintenance</strong>? The hope is real.
           Imagine an LLM as an eagle eyed assistant, tirelessly catching “stupid

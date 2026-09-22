@@ -71,8 +71,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/ai/god-father-of-ai",
     languages: {
       "en-US": "https://mergesociety.com/ai/god-father-of-ai",
-      "es-ES": "https://mergesociety.com/ai/god-father-of-ai",
-      "zh-CN": "https://mergesociety.com/ai/god-father-of-ai",
     },
   },
   twitter: {
@@ -322,64 +320,64 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    name: "AI Revolution: From Neural Networks to Global Impacts",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_Hinton.webp",
-    description:
-      "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
-    provider: {
-      "@type": "Organization",
-      name: "TechLearning Academy",
-      sameAs: "https://mergesociety.com",
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "AI Revolution: From Neural Networks to Global Impacts",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Geoffrey_Hinton.webp",
+  description:
+    "An immersive learning experience exploring the evolution of AI, featuring Geoffrey Hinton's groundbreaking work, recent technological breakthroughs, and the societal impacts of modern artificial intelligence systems.",
+  provider: {
+    "@type": "Organization",
+    name: "TechLearning Academy",
+    sameAs: "https://mergesociety.com",
+  },
+  datePublished: "2025-04-27T09:00:00Z",
+  dateModified: "2025-04-27T09:00:00Z",
+  inLanguage: "en-US",
+  offers: {
+    "@type": "Offer",
+    price: "149.00",
+    priceCurrency: "USD",
+    availability: "https://schema.org/InStock",
+    validFrom: "2025-04-27",
+  },
+  hasCourseInstance: {
+    "@type": "CourseInstance",
+    courseMode: "online",
+    duration: "P5W",
+    startDate: "2025-05-01",
+    endDate: "2025-06-05",
+  },
+  learningResourceType: "Interactive Module",
+  educationalLevel: "Intermediate",
+  teaches: "Artificial Intelligence, Neural Networks, AI Ethics and Safety",
+  competencyRequired: "Basic knowledge of computer science concepts",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
     },
-    datePublished: "2025-04-27T09:00:00Z",
-    dateModified: "2025-04-27T09:00:00Z",
-    inLanguage: "en-US",
-    offers: {
-      "@type": "Offer",
-      price: "149.00",
-      priceCurrency: "USD",
-      availability: "https://schema.org/InStock",
-      validFrom: "2025-04-27",
+    {
+      "@type": "Thing",
+      name: "Neural Networks",
     },
-    hasCourseInstance: {
-      "@type": "CourseInstance",
-      courseMode: "online",
-      duration: "P5W",
-      startDate: "2025-05-01",
-      endDate: "2025-06-05",
+    {
+      "@type": "Person",
+      name: "Geoffrey Hinton",
     },
-    learningResourceType: "Interactive Module",
-    educationalLevel: "Intermediate",
-    teaches: "Artificial Intelligence, Neural Networks, AI Ethics and Safety",
-    competencyRequired: "Basic knowledge of computer science concepts",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Thing",
-        name: "Neural Networks",
-      },
-      {
-        "@type": "Person",
-        name: "Geoffrey Hinton",
-      },
-    ],
-  };
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural
@@ -388,9 +386,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Geoffrey_Hinton.webp"
-          }
+          src={"/mergesociety/Geoffrey_Hinton.webp"}
           alt=" Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial  Intelligence"
           width={600}
           height={400}
@@ -434,9 +430,9 @@ export default function Article() {
           There’s a certain irony to the Nobel—his lifelong aim was to unlock
           the secrets of the human mind, but it was his attempt to mimic the
           brain in silico that revolutionized technology. In 1986, Hinton
-          proposed harnessing <Link href="/ai/llms">neural networks</Link> to predict the next word in a
-          sequence—a humble premise that today forms the backbone of “large
-          language models” like OpenAI’s ChatGPT.
+          proposed harnessing <Link href="/ai/llms">neural networks</Link> to
+          predict the next word in a sequence—a humble premise that today forms
+          the backbone of “large language models” like OpenAI’s ChatGPT.
         </p>
 
         <h2>“Did You Think We’d Get Here?”—The Surprising Pace of AI</h2>

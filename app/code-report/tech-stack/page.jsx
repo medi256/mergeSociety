@@ -82,9 +82,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/tech-stack",
     languages: {
       "en-US": "https://mergesociety.com/code-report/tech-stack",
-      "es-ES": "https://mergesociety.com/code-report/tech-stack",
-      "fr-FR": "https://mergesociety.com/code-report/tech-stack",
-      "de-DE": "https://mergesociety.com/code-report/tech-stack",
     },
   },
   twitter: {
@@ -419,88 +416,88 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
-    datePublished: "2025-04-27T08:00:00Z",
-    dateModified: "2025-04-27T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jamie Chen",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
+  datePublished: "2025-04-27T08:00:00Z",
+  dateModified: "2025-04-27T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jamie Chen",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Tech Journeys Media",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Tech Journeys Media",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  },
+  description:
+    "Navigate the overwhelming world of technology choices with this practical guide to selecting the right tech stack for your project, whether it's web, mobile, desktop, games, or AI applications.",
+  keywords:
+    "Tech Stack, Web Development, Mobile Development, Desktop Applications, Game Development, AI Development",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/tech-stack",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Software Development",
     },
-    description:
-      "Navigate the overwhelming world of technology choices with this practical guide to selecting the right tech stack for your project, whether it's web, mobile, desktop, games, or AI applications.",
-    keywords:
-      "Tech Stack, Web Development, Mobile Development, Desktop Applications, Game Development, AI Development",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/tech-stack",
+    {
+      "@type": "Thing",
+      name: "Technology Stack Selection",
     },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Software Development",
-      },
-      {
-        "@type": "Thing",
-        name: "Technology Stack Selection",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "SoftwareApplication",
-        name: "React",
-        applicationCategory: "Web Framework",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Unity",
-        applicationCategory: "Game Engine",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Flutter",
-        applicationCategory: "Mobile Development Framework",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "PyTorch",
-        applicationCategory: "Machine Learning Framework",
-      },
-    ],
-    isAccessibleForFree: true,
-    educationalLevel: "Beginner",
-    audience: {
-      "@type": "Audience",
-      audienceType: "Software Developers",
+  ],
+  mentions: [
+    {
+      "@type": "SoftwareApplication",
+      name: "React",
+      applicationCategory: "Web Framework",
     },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
+    {
+      "@type": "SoftwareApplication",
+      name: "Unity",
+      applicationCategory: "Game Engine",
     },
-  };
+    {
+      "@type": "SoftwareApplication",
+      name: "Flutter",
+      applicationCategory: "Mobile Development Framework",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "PyTorch",
+      applicationCategory: "Machine Learning Framework",
+    },
+  ],
+  isAccessibleForFree: true,
+  educationalLevel: "Beginner",
+  audience: {
+    "@type": "Audience",
+    audienceType: "Software Developers",
+  },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Definitive Beginner’s Guide to Picking Your Tech Stack for Web,
@@ -508,9 +505,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Tech_Stack.webp"
-          }
+          src={"/mergesociety/Tech_Stack.webp"}
           alt="The Definitive Beginner’s Guide to Picking Your Tech Stack for Web,  Mobile, Desktop, Games, and AI"
           width={600}
           height={400}
@@ -578,7 +573,13 @@ export default function Article() {
 
         <p>
           Now, of course, you want to be productive. Ask yourself:{" "}
-          <em>What <Link href="/javascript/introduction-to-javascript">programming language</Link> am I already most comfortable with?</em>{" "}
+          <em>
+            What{" "}
+            <Link href="/javascript/introduction-to-javascript">
+              programming language
+            </Link>{" "}
+            am I already most comfortable with?
+          </em>{" "}
           The great news is that a web framework exists for almost every popular
           language out there. Like Python? Try <strong>Django</strong> or{" "}
           <strong>Flask</strong>. Prefer JavaScript? You get{" "}
@@ -592,10 +593,11 @@ export default function Article() {
 
         <p>
           Smartphones are everywhere, but behind the scenes, there are two major
-          <Link href="/tech/10x-developers">operating systems</Link>: <strong>iOS</strong> (Apple) and{" "}
-          <strong>Android</strong> (Google). When you set out to build a mobile
-          app, you face a big choice: develop <strong>natively</strong> or take
-          the <strong>cross-platform</strong> route.
+          <Link href="/tech/10x-developers">operating systems</Link>:{" "}
+          <strong>iOS</strong> (Apple) and <strong>Android</strong> (Google).
+          When you set out to build a mobile app, you face a big choice: develop{" "}
+          <strong>natively</strong> or take the <strong>cross-platform</strong>{" "}
+          route.
         </p>
 
         <ul>
@@ -696,7 +698,9 @@ export default function Article() {
 
         <p>
           If you plan to <em>create</em> machine learning models yourself,
-          you’ll live almost exclusively in two <Link href="/javascript/js-vs-ecmascript">programming languages</Link>:
+          you’ll live almost exclusively in two{" "}
+          <Link href="/javascript/js-vs-ecmascript">programming languages</Link>
+          :
         </p>
         <ul>
           <li>

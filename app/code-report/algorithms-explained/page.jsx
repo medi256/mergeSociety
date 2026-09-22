@@ -89,10 +89,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/algorithms-explained",
     languages: {
       "en-US": "https://mergesociety.com/code-report/algorithms-explained",
-      "es-ES": "https://mergesociety.com/code-report/algorithms-explained",
-      "de-DE": "https://mergesociety.com/code-report/algorithms-explained",
-      "fr-FR": "https://mergesociety.com/code-report/algorithms-explained",
-      "zh-CN": "https://mergesociety.com/code-report/algorithms-explained",
     },
   },
 
@@ -538,72 +534,72 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.webp",
-    datePublished: "2025-05-10T08:00:00Z",
-    dateModified: "2025-05-10T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "David J. Malan",
-      url: "https://cs.harvard.edu/malan/",
-      jobTitle: "Professor of Computer Science",
-      description:
-        "Harvard University Professor of Computer Science and instructor of the popular CS50 course",
-      affiliation: {
-        "@type": "Organization",
-        name: "Harvard University",
-        url: "https://www.harvard.edu",
-      },
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "Algorithms Explained: From Peanut Butter Sandwiches to AI",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/woman-using-calculator-near-plan-equipments_ndb3yp_rmnqda.webp",
+  datePublished: "2025-05-10T08:00:00Z",
+  dateModified: "2025-05-10T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "David J. Malan",
+    url: "https://cs.harvard.edu/malan/",
+    jobTitle: "Professor of Computer Science",
     description:
-      "Learn how algorithms shape our world from Harvard's David J. Malan - from making sandwiches to powering AI systems in this comprehensive, accessible guide.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/algorithms-explained",
+      "Harvard University Professor of Computer Science and instructor of the popular CS50 course",
+    affiliation: {
+      "@type": "Organization",
+      name: "Harvard University",
+      url: "https://www.harvard.edu",
     },
-    keywords:
-      "algorithms, computer science, AI, machine learning, David Malan, harvard, computational thinking",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Algorithms",
-      },
-      {
-        "@type": "Thing",
-        name: "Computer Science",
-      },
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "General Knowledge",
-    proficiencyLevel: "Beginner to Advanced",
-    articleSection: "Computer Science",
-    wordCount: 3800,
-  };
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+    },
+  },
+  description:
+    "Learn how algorithms shape our world from Harvard's David J. Malan - from making sandwiches to powering AI systems in this comprehensive, accessible guide.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/algorithms-explained",
+  },
+  keywords:
+    "algorithms, computer science, AI, machine learning, David Malan, harvard, computational thinking",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Algorithms",
+    },
+    {
+      "@type": "Thing",
+      name: "Computer Science",
+    },
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "General Knowledge",
+  proficiencyLevel: "Beginner to Advanced",
+  articleSection: "Computer Science",
+  wordCount: 3800,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Algorithms Explained: The Viral Breakdown by Harvard Experts (You’ll
@@ -812,7 +808,11 @@ export default function Article() {
             Wonder why TikTok, YouTube, or Netflix knows what you want—even
             before you do? It’s not magic. It’s algorithms, watching everything
             you click, save, or search, then feeding it into systems with names
-            like <strong><Link href="/ai/god-father-of-ai">neural networks</Link></strong>.
+            like{" "}
+            <strong>
+              <Link href="/ai/god-father-of-ai">neural networks</Link>
+            </strong>
+            .
           </p>
           <blockquote>
             "The reason TikTok’s ‘For You’ page is so addictive? Every swipe is
@@ -1051,15 +1051,16 @@ export default function Article() {
             <h3>What’s the difference between a simple algorithm and AI?</h3>
             <p>
               Simple algorithms follow precise steps you give them—no surprises.
-              AI (like <Link href="/ai/llms">neural networks</Link> and machine learning) uses hundreds or
-              thousands of algorithms to learn from data, adapt, and make
-              decisions you might not even expect.
+              AI (like <Link href="/ai/llms">neural networks</Link> and machine
+              learning) uses hundreds or thousands of algorithms to learn from
+              data, adapt, and make decisions you might not even expect.
             </p>
             <h3>Are there risks to algorithm-driven tech?</h3>
             <p>
-              Yes. Privacy, bias, <Link href="/ai/future-of-jobs">job automation</Link>, and “black box” decisions are
-              real concerns. The more powerful algorithms get, the more crucial
-              it becomes to understand and monitor them.
+              Yes. Privacy, bias,{" "}
+              <Link href="/ai/future-of-jobs">job automation</Link>, and “black
+              box” decisions are real concerns. The more powerful algorithms
+              get, the more crucial it becomes to understand and monitor them.
             </p>
           </div>
         </section>

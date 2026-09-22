@@ -73,9 +73,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/ai/whats-next",
     languages: {
       "en-US": "https://mergesociety.com/ai/whats-next",
-      "zh-CN": "https://mergesociety.com/ai/whats-next",
-      "es-ES": "https://mergesociety.com/ai/whats-next",
-      "hi-IN": "https://mergesociety.com/ai/whats-next",
     },
   },
   twitter: {
@@ -406,103 +403,103 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
-    datePublished: "2025-04-29T07:30:00Z",
-    dateModified: "2025-04-29T10:15:00Z",
-    author: {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+  datePublished: "2025-04-29T07:30:00Z",
+  dateModified: "2025-04-29T10:15:00Z",
+  author: {
+    "@type": "Person",
+    name: "Dr. Sophia Chen",
+    jobTitle: "Senior AI Correspondent",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Future Intelligence Media",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.futureintelligence.org/logo.png",
+    },
+  },
+  description:
+    "Explore Demis Hassabis's journey from Nobel Prize winner to AI pioneer, as DeepMind races toward artificial general intelligence with revolutionary projects like Astra and AlphaFold.",
+  keywords:
+    "Demis Hassabis, DeepMind, Artificial General Intelligence, AlphaFold, Project Astra, AI Ethics, Nobel Prize",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/ai/whats-next",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+    {
       "@type": "Person",
-      name: "Dr. Sophia Chen",
-      jobTitle: "Senior AI Correspondent",
-      url: "https://mergesociety.com/about",
+      name: "Demis Hassabis",
     },
-    publisher: {
+    {
       "@type": "Organization",
-      name: "Future Intelligence Media",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.futureintelligence.org/logo.png",
-      },
+      name: "DeepMind",
     },
-    description:
-      "Explore Demis Hassabis's journey from Nobel Prize winner to AI pioneer, as DeepMind races toward artificial general intelligence with revolutionary projects like Astra and AlphaFold.",
-    keywords:
-      "Demis Hassabis, DeepMind, Artificial General Intelligence, AlphaFold, Project Astra, AI Ethics, Nobel Prize",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/ai/whats-next",
+  ],
+  mentions: [
+    {
+      "@type": "Project",
+      name: "AlphaFold",
     },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Person",
-        name: "Demis Hassabis",
-      },
-      {
-        "@type": "Organization",
-        name: "DeepMind",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "Project",
-        name: "AlphaFold",
-      },
-      {
-        "@type": "Project",
-        name: "Project Astra",
-      },
-      {
-        "@type": "Project",
-        name: "Gemini",
-      },
-      {
-        "@type": "Person",
-        name: "Alex Lee",
-      },
-      {
-        "@type": "Person",
-        name: "Giulia Vasani",
-      },
-      {
-        "@type": "Person",
-        name: "Bebo Xu",
-      },
-      {
-        "@type": "Organization",
-        name: "Google",
-      },
-    ],
-    isAccessibleForFree: true,
-    educationalLevel: "Advanced",
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Technology Enthusiasts, AI Researchers, Science Journalists, Tech Policy Makers",
+    {
+      "@type": "Project",
+      name: "Project Astra",
     },
-    award: "Featured in 2025 AI Journalism Excellence",
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p.lead"],
+    {
+      "@type": "Project",
+      name: "Gemini",
     },
-  };
+    {
+      "@type": "Person",
+      name: "Alex Lee",
+    },
+    {
+      "@type": "Person",
+      name: "Giulia Vasani",
+    },
+    {
+      "@type": "Person",
+      name: "Bebo Xu",
+    },
+    {
+      "@type": "Organization",
+      name: "Google",
+    },
+  ],
+  isAccessibleForFree: true,
+  educationalLevel: "Advanced",
+  audience: {
+    "@type": "Audience",
+    audienceType:
+      "Technology Enthusiasts, AI Researchers, Science Journalists, Tech Policy Makers",
+  },
+  award: "Featured in 2025 AI Journalism Excellence",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p.lead"],
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward
@@ -784,9 +781,10 @@ export default function Article() {
           twist AI for malicious purposes. Second, the potential for powerful AI
           systems to slip outside human control as they become more autonomous.
           Can we guarantee they’ll always be aligned with human values, doing
-          what’s best for society? Guardrails—<Link href="/startup-stories/fake-it">ethical boundaries</Link> coded into the
-          system—are mission critical. But in the global race for AI dominance,
-          Hassabis fears, safety could take a back seat.
+          what’s best for society? Guardrails—
+          <Link href="/startup-stories/fake-it">ethical boundaries</Link> coded
+          into the system—are mission critical. But in the global race for AI
+          dominance, Hassabis fears, safety could take a back seat.
         </p>
 
         <p>

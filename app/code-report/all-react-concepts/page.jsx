@@ -86,9 +86,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/all-react-concepts",
     languages: {
       "en-US": "https://mergesociety.com/code-report/all-react-concepts",
-      "es-ES": "https://mergesociety.com/code-report/all-react-concepts",
-      "fr-FR": "https://mergesociety.com/code-report/all-react-concepts",
-      "zh-CN": "https://mergesociety.com/code-report/all-react-concepts",
     },
   },
   twitter: {
@@ -576,60 +573,60 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
-    datePublished: "2025-05-02T09:00:00Z",
-    dateModified: "2025-05-02T09:00:00Z",
-    author: [
-      {
-        "@type": "Person",
-        name: "Alex Chen",
-        url: "https://mergesociety.com/about",
-        jobTitle: "Senior React Engineer",
-      },
-      {
-        "@type": "Person",
-        name: "Maya Rodriguez",
-        url: "https://mergesociety.com/about",
-        jobTitle: "React Architecture Specialist",
-      },
-    ],
-    publisher: {
-      "@type": "Organization",
-      name: "React Mastery",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Every React Concept Explained: The Ultimate Guide to Modern React in 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Reactjs.webp",
+  datePublished: "2025-05-02T09:00:00Z",
+  dateModified: "2025-05-02T09:00:00Z",
+  author: [
+    {
+      "@type": "Person",
+      name: "Alex Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Senior React Engineer",
     },
-    description:
-      "Master every essential React concept from fundamentals to advanced patterns. This comprehensive guide breaks down components, hooks, state management, and architecture for beginners and experienced developers alike.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/all-react-concepts",
+    {
+      "@type": "Person",
+      name: "Maya Rodriguez",
+      url: "https://mergesociety.com/about",
+      jobTitle: "React Architecture Specialist",
     },
-    keywords:
-      "React, JavaScript, components, hooks, JSX, virtual DOM, state management, context, suspense, error boundaries",
-    articleSection: "React Framework Tutorials",
-    skillLevel: "Multiple entry points for varied technical backgrounds",
-    dependencies: "Basic JavaScript knowledge recommended",
-    proficiencyLevel:
-      "Accessible for beginners with advanced sections for experienced developers",
-  };
+  ],
+  publisher: {
+    "@type": "Organization",
+    name: "React Mastery",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+    },
+  },
+  description:
+    "Master every essential React concept from fundamentals to advanced patterns. This comprehensive guide breaks down components, hooks, state management, and architecture for beginners and experienced developers alike.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/all-react-concepts",
+  },
+  keywords:
+    "React, JavaScript, components, hooks, JSX, virtual DOM, state management, context, suspense, error boundaries",
+  articleSection: "React Framework Tutorials",
+  skillLevel: "Multiple entry points for varied technical backgrounds",
+  dependencies: "Basic JavaScript knowledge recommended",
+  proficiencyLevel:
+    "Accessible for beginners with advanced sections for experienced developers",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           React Fundamentals: The Complete Breakdown of Components, Hooks, and
@@ -793,7 +790,8 @@ export default function Article() {
         <p>
           Heard people say “hooks” and nodded along without really getting it?
           Here’s the real story. Hooks let you “hook into” React’s core features
-          from regular JavaScript functions—no more <Link href="/react/class-components">class components</Link> or “this”
+          from regular JavaScript functions—no more{" "}
+          <Link href="/react/class-components">class components</Link> or “this”
           headaches. The 5 you must know:
         </p>
         <ol>
@@ -998,15 +996,17 @@ export default function Article() {
 
           <h3>What are React components?</h3>
           <p>
-            <Link href="/react/conditional-rendering">React components</Link> are the basic building blocks of any React
-            app—they’re JavaScript functions that return user interface elements
-            using JSX, allowing for reusable, dynamic UI structures.
+            <Link href="/react/conditional-rendering">React components</Link>{" "}
+            are the basic building blocks of any React app—they’re JavaScript
+            functions that return user interface elements using JSX, allowing
+            for reusable, dynamic UI structures.
           </p>
 
           <h3>How do you pass data between React components?</h3>
           <p>
             Data is passed using “props”—custom properties you add to component
-            tags. For deeply nested data, use the <Link href="/react/context-api">React Context API</Link>.
+            tags. For deeply nested data, use the{" "}
+            <Link href="/react/context-api">React Context API</Link>.
           </p>
 
           <h3>What is JSX?</h3>

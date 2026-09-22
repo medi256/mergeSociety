@@ -84,8 +84,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/programming-myth",
     languages: {
       "en-US": "https://mergesociety.com/tech/programming-myth",
-      "es-ES": "https://mergesociety.com/tech/programming-myth",
-      "de-DE": "https://mergesociety.com/tech/programming-myth",
     },
   },
 
@@ -385,68 +383,68 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
-    datePublished: "2025-05-08T09:00:00Z",
-    dateModified: "2025-05-08T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Medi",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Software Engineer",
-      description:
-        "Experienced developer focused on practical software engineering and developer productivity",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Programming Myths That Waste Your Time: Debunking the Productivity Traps Every Coder Falls For",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/70194fc0-4637-43a8-93f1-eb0f152408e5_sbtjsi_syrmga.webp",
+  datePublished: "2025-05-08T09:00:00Z",
+  dateModified: "2025-05-08T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Medi",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Software Engineer",
     description:
-      "Discover 9 programming myths that secretly waste your time and harm productivity. Learn which practices actually matter and which trendy tech you can safely ignore.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/programming-myth",
+      "Experienced developer focused on practical software engineering and developer productivity",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "programming myths, software development, productivity, clean code, test coverage, performance optimization",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Software Development",
-      },
-      {
-        "@type": "Thing",
-        name: "Programming Best Practices",
-      },
-      {
-        "@type": "Thing",
-        name: "Developer Productivity",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Professional Development",
-    proficiencyLevel: "All Levels",
-    articleSection: "Software Development",
-    wordCount: 1500,
-  };
+  },
+  description:
+    "Discover 9 programming myths that secretly waste your time and harm productivity. Learn which practices actually matter and which trendy tech you can safely ignore.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/programming-myth",
+  },
+  keywords:
+    "programming myths, software development, productivity, clean code, test coverage, performance optimization",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Software Development",
+    },
+    {
+      "@type": "Thing",
+      name: "Programming Best Practices",
+    },
+    {
+      "@type": "Thing",
+      name: "Developer Productivity",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Professional Development",
+  proficiencyLevel: "All Levels",
+  articleSection: "Software Development",
+  wordCount: 1500,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Coding Time Wasters: 9 Programming Myths That Are Killing Your
@@ -816,9 +814,10 @@ export default function Article() {
           </p>
           <h3>How can I build a timeless programming foundation?</h3>
           <p>
-            Focus on <Link href="/ai/is-ai-making-us-dumb">critical thinking</Link>, math, and true computer science
-            principles—the stuff that won’t be replaced by next year’s
-            framework.
+            Focus on{" "}
+            <Link href="/ai/is-ai-making-us-dumb">critical thinking</Link>,
+            math, and true computer science principles—the stuff that won’t be
+            replaced by next year’s framework.
           </p>
         </section>
 

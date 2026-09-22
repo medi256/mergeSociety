@@ -93,10 +93,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/sdk-vs-api",
     languages: {
       "en-US": "https://mergesociety.com/code-report/sdk-vs-api",
-      "es-ES": "https://mergesociety.com/code-report/sdk-vs-api",
-      "de-DE": "https://mergesociety.com/code-report/sdk-vs-api",
-      "fr-FR": "https://mergesociety.com/code-report/sdk-vs-api",
-      "zh-CN": "https://mergesociety.com/code-report/sdk-vs-api",
     },
   },
 
@@ -545,73 +541,72 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "APIs vs SDKs Explained: Essential Tools for Cloud App Development",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/API_vs_SDK.webp",
-    datePublished: "2025-05-10T10:30:00Z",
-    dateModified: "2025-05-10T10:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Nathan Heckman",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Cloud Solutions Architect",
-      description:
-        "Cloud architecture specialist with expertise in API integration and modern application development",
-      affiliation: {
-        "@type": "Organization",
-        name: "Merge Society",
-        url: "https://mergesociety.com",
-      },
-    },
-    publisher: {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "APIs vs SDKs Explained: Essential Tools for Cloud App Development",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/API_vs_SDK.webp",
+  datePublished: "2025-05-10T10:30:00Z",
+  dateModified: "2025-05-10T10:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Nathan Heckman",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Cloud Solutions Architect",
+    description:
+      "Cloud architecture specialist with expertise in API integration and modern application development",
+    affiliation: {
       "@type": "Organization",
       name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      url: "https://mergesociety.com",
     },
-    description:
-      "Learn the differences between APIs and SDKs, how they work together to enable modern cloud applications, and see real-world implementation examples with this comprehensive, accessible guide.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/sdk-vs-api",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "APIs, SDKs, cloud development, integration, REST API, developer tools, HTTP methods, mobile development",
-    about: [
-      {
-        "@type": "Thing",
-        name: "APIs",
-      },
-      {
-        "@type": "Thing",
-        name: "SDKs",
-      },
-      {
-        "@type": "Thing",
-        name: "Cloud Application Development",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "General Knowledge",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Cloud Development",
-    wordCount: 2100,
-  };
+  },
+  description:
+    "Learn the differences between APIs and SDKs, how they work together to enable modern cloud applications, and see real-world implementation examples with this comprehensive, accessible guide.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/sdk-vs-api",
+  },
+  keywords:
+    "APIs, SDKs, cloud development, integration, REST API, developer tools, HTTP methods, mobile development",
+  about: [
+    {
+      "@type": "Thing",
+      name: "APIs",
+    },
+    {
+      "@type": "Thing",
+      name: "SDKs",
+    },
+    {
+      "@type": "Thing",
+      name: "Cloud Application Development",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "General Knowledge",
+  proficiencyLevel: "Beginner to Intermediate",
+  articleSection: "Cloud Development",
+  wordCount: 2100,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           API vs SDK: The Only Complete Breakdown You’ll Ever Need for Cloud App
@@ -630,9 +625,12 @@ export default function Article() {
             Let’s get real. If you’re building any kind of modern app—especially
             something running in the cloud—you’re already bumping up against
             APIs and SDKs, whether you know it or not. Most tutorials throw
-            jargon at you: “An API is an <Link href="/code-report/apis-explained-to-a-kid">Application Programming Interface</Link>…”
-            (yawn). But nobody tells you how these actually change the game for
-            your projects.
+            jargon at you: “An API is an{" "}
+            <Link href="/code-report/apis-explained-to-a-kid">
+              Application Programming Interface
+            </Link>
+            …” (yawn). But nobody tells you how these actually change the game
+            for your projects.
           </p>
           <blockquote>
             <b>

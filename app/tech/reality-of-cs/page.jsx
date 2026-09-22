@@ -83,8 +83,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/reality-of-cs",
     languages: {
       "en-US": "https://mergesociety.com/tech/reality-of-cs",
-      "es-ES": "https://mergesociety.com/tech/reality-of-cs",
-      "de-DE": "https://mergesociety.com/tech/reality-of-cs",
     },
   },
 
@@ -433,63 +431,63 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "The Brutal Truth About CS Degrees : What They Don't Tell You Before Enrollment",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.webp",
-    datePublished: "2025-05-03T10:15:00Z",
-    dateModified: "2025-05-03T10:15:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Wei",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Tech Education Editor",
-      description:
-        "Former CS Teaching Assistant and Full-Stack Developer sharing unfiltered insights about tech education and career preparation",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "TechPath",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "The Brutal Truth About CS Degrees : What They Don't Tell You Before Enrollment",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/marvin-meyer-SYTO3xs06fU-unsplash_lgdfmi_shgkqc.webp",
+  datePublished: "2025-05-03T10:15:00Z",
+  dateModified: "2025-05-03T10:15:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jordan Wei",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Tech Education Editor",
     description:
-      "An honest, no-BS guide to what studying computer science is really like—from the soul-crushing first year to the capstone chaos and everything universities don't want you to know before you commit.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/reality-of-cs",
+      "Former CS Teaching Assistant and Full-Stack Developer sharing unfiltered insights about tech education and career preparation",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "TechPath",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "computer science degree, CS major experience, programming degree worth it, tech education truth",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Computer Science Education",
-      },
-      {
-        "@type": "Thing",
-        name: "Tech Career Development",
-      },
-      {
-        "@type": "Thing",
-        name: "University Experience",
-      },
-    ],
-  };
+  },
+  description:
+    "An honest, no-BS guide to what studying computer science is really like—from the soul-crushing first year to the capstone chaos and everything universities don't want you to know before you commit.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/reality-of-cs",
+  },
+  keywords:
+    "computer science degree, CS major experience, programming degree worth it, tech education truth",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Computer Science Education",
+    },
+    {
+      "@type": "Thing",
+      name: "Tech Career Development",
+    },
+    {
+      "@type": "Thing",
+      name: "University Experience",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         {/* SEO-optimized H1 with main target keyword at the beginning */}
         <h1>
@@ -539,15 +537,20 @@ export default function Article() {
         </section>
 
         <p>
-          What if I told you the <strong><Link href="/code-report/computer-science-vs-software-engineering">computer science degree</Link></strong> you’re
-          studying so hard for might not be what actually gets you that dreamy
-          $500K tech job—or even make you a good coder? The truth is, most of
-          what you <em>think</em> you know about CS degrees is dead wrong. And
-          if you’re not careful, you’ll end up missing the real chance everyone
-          else is sleeping on. Here’s the explosive reality about computer
-          science in 2025—what works, who wins, who wastes years, and how YOU
-          can actually use it to dominate your career (even if the classes are
-          useless).
+          What if I told you the{" "}
+          <strong>
+            <Link href="/code-report/computer-science-vs-software-engineering">
+              computer science degree
+            </Link>
+          </strong>{" "}
+          you’re studying so hard for might not be what actually gets you that
+          dreamy $500K tech job—or even make you a good coder? The truth is,
+          most of what you <em>think</em> you know about CS degrees is dead
+          wrong. And if you’re not careful, you’ll end up missing the real
+          chance everyone else is sleeping on. Here’s the explosive reality
+          about computer science in 2025—what works, who wins, who wastes years,
+          and how YOU can actually use it to dominate your career (even if the
+          classes are useless).
         </p>
 
         {/* Section 1: The Great Salary Illusion */}
@@ -672,7 +675,8 @@ export default function Article() {
             Does a Computer Science Degree Actually Matter? Only If You Do This…
           </h2>
           <p>
-            Here’s where most people get it wrong. A <Link href="/tech/should-you">computer science degree</Link>
+            Here’s where most people get it wrong. A{" "}
+            <Link href="/tech/should-you">computer science degree</Link>
             isn’t magic. It isn’t useless either. It’s exactly what you make of
             it.
           </p>

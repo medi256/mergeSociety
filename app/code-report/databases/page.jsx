@@ -90,10 +90,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/databases",
     languages: {
       "en-US": "https://mergesociety.com/code-report/databases",
-      "es-ES": "https://mergesociety.com/code-report/databases",
-      "de-DE": "https://mergesociety.com/code-report/databases",
-      "fr-FR": "https://mergesociety.com/code-report/databases",
-      "ja-JP": "https://mergesociety.com/code-report/databases",
     },
   },
 
@@ -519,68 +515,68 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
-    datePublished: "2025-05-09T08:00:00Z",
-    dateModified: "2025-05-09T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Database Expert",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Database Architect",
-      description:
-        "15+ years experience with relational database systems and optimization",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "PostgreSQL vs MySQL: Which Database Is Right for Your Project in 2025?",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/6554783_amd2ad_suixhe.webp",
+  datePublished: "2025-05-09T08:00:00Z",
+  dateModified: "2025-05-09T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Database Expert",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Database Architect",
     description:
-      "Compare PostgreSQL and MySQL to find the perfect relational database for your needs. Discover performance differences, use cases, and expert insights to make the right choice for your application.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/databases",
+      "15+ years experience with relational database systems and optimization",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "postgresql, mysql, database comparison, rdbms, sql databases, enterprise databases",
-    about: [
-      {
-        "@type": "Thing",
-        name: "PostgreSQL",
-      },
-      {
-        "@type": "Thing",
-        name: "MySQL",
-      },
-      {
-        "@type": "Thing",
-        name: "Relational Databases",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Professional Development",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Database Technology",
-    wordCount: 2500,
-  };
+  },
+  description:
+    "Compare PostgreSQL and MySQL to find the perfect relational database for your needs. Discover performance differences, use cases, and expert insights to make the right choice for your application.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/databases",
+  },
+  keywords:
+    "postgresql, mysql, database comparison, rdbms, sql databases, enterprise databases",
+  about: [
+    {
+      "@type": "Thing",
+      name: "PostgreSQL",
+    },
+    {
+      "@type": "Thing",
+      name: "MySQL",
+    },
+    {
+      "@type": "Thing",
+      name: "Relational Databases",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Professional Development",
+  proficiencyLevel: "Beginner to Intermediate",
+  articleSection: "Database Technology",
+  wordCount: 2500,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           PostgreSQL vs MySQL: The Brutally Honest Guide You Never Knew You
@@ -652,10 +648,16 @@ export default function Article() {
             Management Systems (<strong>RDBMS</strong>). Which is basically a
             nerdy way to say: “We organize your messy data into neat little
             tables so you can sleep at night.” Both use{" "}
-            <strong>SQL (<Link href="/code-report/what-is-a-database">Structured Query Language</Link>)</strong>—the “secret code”
-            that lets you find what you want from those tables without knowing
-            where it’s stored, how it’s indexed, or whether it’s buried in a
-            data center under a volcano.
+            <strong>
+              SQL (
+              <Link href="/code-report/what-is-a-database">
+                Structured Query Language
+              </Link>
+              )
+            </strong>
+            —the “secret code” that lets you find what you want from those
+            tables without knowing where it’s stored, how it’s indexed, or
+            whether it’s buried in a data center under a volcano.
           </p>
           <ul>
             <li>

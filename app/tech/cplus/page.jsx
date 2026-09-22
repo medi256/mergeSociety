@@ -88,10 +88,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/cplus",
     languages: {
       "en-US": "https://mergesociety.com/tech/cplus",
-      "es-ES": "https://mergesociety.com/tech/cplus",
-      "de-DE": "https://mergesociety.com/tech/cplus",
-      "fr-FR": "https://mergesociety.com/tech/cplus",
-      "ru-RU": "https://mergesociety.com/tech/cplus",
     },
   },
 
@@ -498,67 +494,67 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
-    datePublished: "2025-05-11T09:00:00Z",
-    dateModified: "2025-05-11T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Wei",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Systems Developer",
-      description:
-        "C++ specialist with 12+ years experience in systems programming and performance optimization",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
+  datePublished: "2025-05-11T09:00:00Z",
+  dateModified: "2025-05-11T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jordan Wei",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Systems Developer",
     description:
-      "Discover why C++ remains essential in 2025 despite controversy. Learn about its unique strengths, common pitfalls, and whether this powerful language deserves a place in your programming toolkit.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/cplus",
+      "C++ specialist with 12+ years experience in systems programming and performance optimization",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "c++, programming languages, bjarne stroustrup, memory management, systems programming, object-oriented programming",
-    about: [
-      {
-        "@type": "Thing",
-        name: "C++",
-      },
-      {
-        "@type": "Thing",
-        name: "Programming Languages",
-      },
-      {
-        "@type": "Thing",
-        name: "Systems Programming",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Professional Development",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Programming Languages",
-    wordCount: 2800,
-  };
+  },
+  description:
+    "Discover why C++ remains essential in 2025 despite controversy. Learn about its unique strengths, common pitfalls, and whether this powerful language deserves a place in your programming toolkit.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/cplus",
+  },
+  keywords:
+    "c++, programming languages, bjarne stroustrup, memory management, systems programming, object-oriented programming",
+  about: [
+    {
+      "@type": "Thing",
+      name: "C++",
+    },
+    {
+      "@type": "Thing",
+      name: "Programming Languages",
+    },
+    {
+      "@type": "Thing",
+      name: "Systems Programming",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Professional Development",
+  proficiencyLevel: "Beginner to Intermediate",
+  articleSection: "Programming Languages",
+  wordCount: 2800,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The TRUTH about C++: Should You Actually Learn It? The Truth Behind
@@ -633,8 +629,11 @@ export default function Article() {
         <p>
           On the surface, C++'s philosophy seems uncontroversial. But look
           deeper, and you'll find high-profile programmers{" "}
-          <strong><Link href="/code-report/how-linux-is-created">Linus Torvalds</Link></strong> among them voicing complaints.
-          Torvalds is famous for his blunt critiques, notably stating:
+          <strong>
+            <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link>
+          </strong>{" "}
+          among them voicing complaints. Torvalds is famous for his blunt
+          critiques, notably stating:
         </p>
         <blockquote>
           “C++ can’t solve the problem of the C language at all. It will only
@@ -676,7 +675,11 @@ export default function Article() {
         <h2>Should You Learn C++? This Developer Says “YES” With Caveats</h2>
         <p>
           So, where does that leave you? Should you dive into C++ for your next
-          project or your very first <Link href="/javascript/introduction-to-javascript">programming language</Link>? Here’s the verdict:
+          project or your very first{" "}
+          <Link href="/javascript/introduction-to-javascript">
+            programming language
+          </Link>
+          ? Here’s the verdict:
         </p>
         <ol>
           <li>
@@ -719,9 +722,12 @@ export default function Article() {
         </p>
         <p>
           Ready to go deeper? Check out our step-by-step guide on{" "}
-          <strong><Link href="/latest/c-vs-cpp-vs-csharp">memory management</Link> and assembly</strong> for hands-on learning,
-          or explore how <strong>Rust</strong> is shaking up the programming
-          landscape in our in-depth overview.
+          <strong>
+            <Link href="/latest/c-vs-cpp-vs-csharp">memory management</Link> and
+            assembly
+          </strong>{" "}
+          for hands-on learning, or explore how <strong>Rust</strong> is shaking
+          up the programming landscape in our in-depth overview.
         </p>
         <h2>Recommended Articles</h2>
         <ul>

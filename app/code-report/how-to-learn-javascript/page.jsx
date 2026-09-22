@@ -87,9 +87,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/how-to-learn-javascript",
     languages: {
       "en-US": "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "es-ES": "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "fr-FR": "https://mergesociety.com/code-report/how-to-learn-javascript",
-      "de-DE": "https://mergesociety.com/code-report/how-to-learn-javascript",
     },
   },
   twitter: {
@@ -443,53 +440,53 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.webp",
-    datePublished: "2025-05-02T09:00:00Z",
-    dateModified: "2025-05-02T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Senior JavaScript Developer",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Software Engineer and Coding Educator",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "How to Learn JavaScript FAST in 2025: The Proven Blueprint for Success",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-qaedPly-Uro-unsplash_g2ehcr_edngle.webp",
+  datePublished: "2025-05-02T09:00:00Z",
+  dateModified: "2025-05-02T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Senior JavaScript Developer",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Software Engineer and Coding Educator",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Modern Web Developer",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Modern Web Developer",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Escape tutorial hell and master JavaScript quickly with our science-backed learning strategies. Discover the most efficient path to real JavaScript proficiency, battle-tested resources, and project-based learning techniques.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/how-to-learn-javascript",
-    },
-    keywords:
-      "JavaScript, web development, learning strategies, programming education, tutorial hell",
-    articleSection: "JavaScript Tutorials",
-    skillLevel: "Beginner to Intermediate",
-    dependencies:
-      "Basic computer knowledge, no prior programming experience needed",
-    proficiencyLevel:
-      "This guide takes you from complete beginner to job-ready developer",
-  };
+  },
+  description:
+    "Escape tutorial hell and master JavaScript quickly with our science-backed learning strategies. Discover the most efficient path to real JavaScript proficiency, battle-tested resources, and project-based learning techniques.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/how-to-learn-javascript",
+  },
+  keywords:
+    "JavaScript, web development, learning strategies, programming education, tutorial hell",
+  articleSection: "JavaScript Tutorials",
+  skillLevel: "Beginner to Intermediate",
+  dependencies:
+    "Basic computer knowledge, no prior programming experience needed",
+  proficiencyLevel:
+    "This guide takes you from complete beginner to job-ready developer",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           JavaScript: How to Learn JavaScript Fast (Without Getting Stuck in
@@ -537,14 +534,15 @@ export default function Article() {
         </section>
 
         <p>
-          You want to <Link href="/javascript/running-js">learn JavaScript</Link> fast, but here's the ugly truth: most
-          people spend weeks binge-watching tutorials, jumping from one resource
-          to another, and after a month, they can't build a single thing from
-          scratch. Sound familiar? If you've found yourself stuck in this
-          endless loop, burning hours but spinning your wheels, you're about to
-          break free. We're not just talking about learning JavaScript—we're
-          talking about dominating it, faster and more deeply than 99% of
-          beginners ever will.
+          You want to{" "}
+          <Link href="/javascript/running-js">learn JavaScript</Link> fast, but
+          here's the ugly truth: most people spend weeks binge-watching
+          tutorials, jumping from one resource to another, and after a month,
+          they can't build a single thing from scratch. Sound familiar? If
+          you've found yourself stuck in this endless loop, burning hours but
+          spinning your wheels, you're about to break free. We're not just
+          talking about learning JavaScript—we're talking about dominating it,
+          faster and more deeply than 99% of beginners ever will.
         </p>
 
         <h2>
@@ -610,9 +608,13 @@ export default function Article() {
         <p>
           Still not convinced you should even learn JavaScript? Here’s what's
           crazy: for over a decade, JavaScript is officially the world’s most
-          popular <Link href="/javascript/introduction-to-javascript">programming language</Link> (thanks, Stack Overflow survey). It runs
-          almost every web interface, powers backend servers (hi, Node.js),
-          mobile apps, and even <strong>Mars Rover UIs.</strong>
+          popular{" "}
+          <Link href="/javascript/introduction-to-javascript">
+            programming language
+          </Link>{" "}
+          (thanks, Stack Overflow survey). It runs almost every web interface,
+          powers backend servers (hi, Node.js), mobile apps, and even{" "}
+          <strong>Mars Rover UIs.</strong>
         </p>
         <blockquote>
           "The difference between winners and losers? Winners do what losers
@@ -642,7 +644,8 @@ export default function Article() {
         <h2>Choosing the Absolute Best Resources: What Actually Works</h2>
         <p>
           Next question: Where do you even start with the overwhelming sea of
-          <Link href="/javascript/why-javascript">JavaScript resources</Link>? The answer isn’t what you expect.
+          <Link href="/javascript/why-javascript">JavaScript resources</Link>?
+          The answer isn’t what you expect.
         </p>
         <blockquote>
           "Stop trying to be perfect. Start trying to be remarkable."

@@ -92,9 +92,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/reddit",
     languages: {
       "en-US": "https://mergesociety.com/tech/reddit",
-      "es-ES": "https://mergesociety.com/tech/reddit",
-      "ja-JP": "https://mergesociety.com/tech/reddit",
-      "de-DE": "https://mergesociety.com/tech/reddit",
     },
   },
   twitter: {

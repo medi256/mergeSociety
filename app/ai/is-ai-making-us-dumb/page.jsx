@@ -69,9 +69,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/ai/is-ai-making-us-dumb",
     languages: {
       "en-US": "https://mergesociety.com/ai/is-ai-making-us-dumb",
-      "es-ES": "https://mergesociety.com/ai/is-ai-making-us-dumb",
-      "fr-FR": "https://mergesociety.com/ai/is-ai-making-us-dumb",
-      "zh-CN": "https://mergesociety.com/ai/is-ai-making-us-dumb",
     },
   },
   twitter: {
@@ -633,112 +630,112 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.webp",
-    datePublished: "2025-04-29T08:00:00Z",
-    dateModified: "2025-04-29T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Dagogo Altraide",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Technology Analyst and Documentary Filmmaker",
-      description:
-        "Founder of ColdFusion, exploring the impact of technology on society through various media formats",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "ColdFusion Media",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/AI_Automation.webp",
+  datePublished: "2025-04-29T08:00:00Z",
+  dateModified: "2025-04-29T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Dagogo Altraide",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Technology Analyst and Documentary Filmmaker",
     description:
-      "An exploration of how our increasing reliance on AI tools may be affecting our cognitive abilities, with practical advice on maintaining mental acuity in an age of automation.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+      "Founder of ColdFusion, exploring the impact of technology on society through various media formats",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "ColdFusion Media",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "artificial intelligence, cognitive offloading, mental atrophy, algorithmic complacency, knowledge age",
-    mentions: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "ChatGPT",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Google Maps",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Gemini AI",
-      },
-      {
-        "@type": "Person",
-        name: "Dr. Ann McKee",
-      },
-      {
-        "@type": "Person",
-        name: "Geoffrey Hinton",
-      },
-      {
-        "@type": "Organization",
-        name: "Nord Security",
-      },
-    ],
-    about: [
-      {
-        "@type": "Thing",
-        name: "Cognitive Science",
-      },
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Thing",
-        name: "Digital Wellness",
-      },
-    ],
-    citation: [
-      {
-        "@type": "CreativeWork",
-        name: "Impact of GPS on Spatial Memory",
-        author: "Neurology Research Institute",
-        datePublished: "2020",
-      },
-      {
-        "@type": "CreativeWork",
-        name: "Cognitive Offloading in the Digital Age",
-        author: "Oxford University Research Team",
-        datePublished: "2023",
-      },
-    ],
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Technology enthusiasts, educators, knowledge workers, digital citizens",
+  },
+  description:
+    "An exploration of how our increasing reliance on AI tools may be affecting our cognitive abilities, with practical advice on maintaining mental acuity in an age of automation.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/ai/is-ai-making-us-dumb",
+  },
+  keywords:
+    "artificial intelligence, cognitive offloading, mental atrophy, algorithmic complacency, knowledge age",
+  mentions: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
     },
-  };
+    {
+      "@type": "SoftwareApplication",
+      name: "ChatGPT",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Google Maps",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Gemini AI",
+    },
+    {
+      "@type": "Person",
+      name: "Dr. Ann McKee",
+    },
+    {
+      "@type": "Person",
+      name: "Geoffrey Hinton",
+    },
+    {
+      "@type": "Organization",
+      name: "Nord Security",
+    },
+  ],
+  about: [
+    {
+      "@type": "Thing",
+      name: "Cognitive Science",
+    },
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+    {
+      "@type": "Thing",
+      name: "Digital Wellness",
+    },
+  ],
+  citation: [
+    {
+      "@type": "CreativeWork",
+      name: "Impact of GPS on Spatial Memory",
+      author: "Neurology Research Institute",
+      datePublished: "2020",
+    },
+    {
+      "@type": "CreativeWork",
+      name: "Cognitive Offloading in the Digital Age",
+      author: "Oxford University Research Team",
+      datePublished: "2023",
+    },
+  ],
+  audience: {
+    "@type": "Audience",
+    audienceType:
+      "Technology enthusiasts, educators, knowledge workers, digital citizens",
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation
@@ -746,9 +743,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/AI_Automation.webp"
-          }
+          src={"/mergesociety/AI_Automation.webp"}
           alt="Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age"
           width={600}
           height={400}
@@ -882,10 +877,11 @@ export default function Article() {
 
         <p>
           Studies have measured the broader effects, too. Research on
-          calculators and autocorrect has already shown negative <Link href="/react/hooks-intro">side effects</Link>:
-          as students rely on spell check, their spelling and punctuation skills
-          atrophy. Next comes the AI writing assistant, which doesn’t just{" "}
-          <i>suggest</i> — it <i>thinks</i> for you.
+          calculators and autocorrect has already shown negative{" "}
+          <Link href="/react/hooks-intro">side effects</Link>: as students rely
+          on spell check, their spelling and punctuation skills atrophy. Next
+          comes the AI writing assistant, which doesn’t just <i>suggest</i> — it{" "}
+          <i>thinks</i> for you.
         </p>
 
         <h2>Cognitive Offloading Goes Mainstream</h2>
@@ -1006,11 +1002,15 @@ export default function Article() {
         <p>So, should we swear off AI? Not quite.</p>
 
         <p>
-          As <strong><Link href="/ai/god-father-of-ai">Geoffrey Hinton</Link></strong>, the so-called godfather of AI,
-          cautions: “ChatGPT is an idiot savant. It doesn’t know the difference
-          between truth and lies, because it is trained on inconsistent data and
-          tries to predict what someone might say next.” Unlike humans, language
-          models blend myriad opinions with no coherent worldview.
+          As{" "}
+          <strong>
+            <Link href="/ai/god-father-of-ai">Geoffrey Hinton</Link>
+          </strong>
+          , the so-called godfather of AI, cautions: “ChatGPT is an idiot
+          savant. It doesn’t know the difference between truth and lies, because
+          it is trained on inconsistent data and tries to predict what someone
+          might say next.” Unlike humans, language models blend myriad opinions
+          with no coherent worldview.
         </p>
 
         <p>
@@ -1070,8 +1070,9 @@ export default function Article() {
 
         <p>
           Until models can self-assess their competence, users must provide the
-          discernment. <Link href="/ai/llms">Neural networks</Link> are limited by what they’ve been exposed
-          to—their “knowledge” mirrors the data, including its gaps and biases.
+          discernment. <Link href="/ai/llms">Neural networks</Link> are limited
+          by what they’ve been exposed to—their “knowledge” mirrors the data,
+          including its gaps and biases.
         </p>
 
         <h2>Lessons From the Past—Calculators and Critical Thinking</h2>

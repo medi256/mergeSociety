@@ -87,9 +87,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/apps/another-tool",
     languages: {
       "en-US": "https://mergesociety.com/apps/another-tool",
-      "es-ES": "https://mergesociety.com/apps/another-tool",
-      "ja-JP": "https://mergesociety.com/apps/another-tool",
-      "de-DE": "https://mergesociety.com/apps/another-tool",
     },
   },
   twitter: {
@@ -459,103 +456,101 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
-    image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
-    ],
-    datePublished: "2025-04-30T09:00:00Z",
-    dateModified: "2025-04-30T12:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Minimal Tech Developer",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Developer & Content Creator",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
+  image: [
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+  ],
+  datePublished: "2025-04-30T09:00:00Z",
+  dateModified: "2025-04-30T12:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Minimal Tech Developer",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Developer & Content Creator",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Dev Productivity Master",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Dev Productivity Master",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  },
+  description:
+    "Discover the essential productivity tools that even a self-proclaimed minimalist can't live without in 2025. From Drizzle ORM and Super Maven to Synology NAS and Arc browser, these are the tools revolutionizing development and digital workflows for professionals.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/apps/another-tool",
+  },
+  keywords:
+    "developer tools, productivity tools, minimal workflow, Drizzle ORM, Super Maven, Synology NAS, Pretty TypeScript Errors",
+  articleSection: "Productivity Tools",
+  about: [
+    {
+      "@type": "SoftwareApplication",
+      name: "Drizzle ORM",
+      applicationCategory: "DeveloperApplication",
+      operatingSystem: "Any",
     },
-    description:
-      "Discover the essential productivity tools that even a self-proclaimed minimalist can't live without in 2025. From Drizzle ORM and Super Maven to Synology NAS and Arc browser, these are the tools revolutionizing development and digital workflows for professionals.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/apps/another-tool",
+    {
+      "@type": "SoftwareApplication",
+      name: "Superhuman",
+      applicationCategory: "EmailApplication",
+      operatingSystem: "macOS, Web",
     },
-    keywords:
-      "developer tools, productivity tools, minimal workflow, Drizzle ORM, Super Maven, Synology NAS, Pretty TypeScript Errors",
-    articleSection: "Productivity Tools",
-    about: [
-      {
-        "@type": "SoftwareApplication",
-        name: "Drizzle ORM",
-        applicationCategory: "DeveloperApplication",
-        operatingSystem: "Any",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Superhuman",
-        applicationCategory: "EmailApplication",
-        operatingSystem: "macOS, Web",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Super Maven",
-        applicationCategory: "DeveloperApplication",
-        operatingSystem: "VS Code",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "SoftwareApplication",
-        name: "Synology DiskStation",
-        applicationCategory: "SystemApplication",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Pretty TypeScript Errors",
-        applicationCategory: "DeveloperApplication",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Rectangle",
-        applicationCategory: "SystemApplication",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "PostHog",
-        applicationCategory: "WebApplication",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Arc Browser",
-        applicationCategory: "WebBrowser",
-      },
-    ],
-  };
+    {
+      "@type": "SoftwareApplication",
+      name: "Super Maven",
+      applicationCategory: "DeveloperApplication",
+      operatingSystem: "VS Code",
+    },
+  ],
+  mentions: [
+    {
+      "@type": "SoftwareApplication",
+      name: "Synology DiskStation",
+      applicationCategory: "SystemApplication",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Pretty TypeScript Errors",
+      applicationCategory: "DeveloperApplication",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Rectangle",
+      applicationCategory: "SystemApplication",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "PostHog",
+      applicationCategory: "WebApplication",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Arc Browser",
+      applicationCategory: "WebBrowser",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>Cool Tools I’ve Been Using Lately (and Why They Stuck)</h1>
         <Image
-          src={
-            "/mergesociety/desktop_apps.webp"
-          }
+          src={"/mergesociety/desktop_apps.webp"}
           alt="Cool Tools I’ve Been Using Lately (and Why They Stuck)"
           width={600}
           height={400}
@@ -732,9 +727,11 @@ export default function Article() {
         <h2>Synology NAS: Your Own Homegrown Cloud</h2>
         <p>
           Next, a curveball: <strong>Synology DiskStation DS1821+</strong>. If
-          you’ve never used a NAS (<Link href="/code-report/labing">Network Attached Storage</Link>), let me paint the
-          picture. It’s a big box with bays for hard drives—a “server” that just
-          lives on your local network, holding terabytes of your data.
+          you’ve never used a NAS (
+          <Link href="/code-report/labing">Network Attached Storage</Link>), let
+          me paint the picture. It’s a big box with bays for hard drives—a
+          “server” that just lives on your local network, holding terabytes of
+          your data.
         </p>
         <p>
           I was skeptical. Synology is not cheap, it’s closed source, and I
@@ -753,8 +750,9 @@ export default function Article() {
         </p>
         <h3>Not Just Storage: Docker-Ready Home Server</h3>
         <p>
-          Here’s the kicker: the Synology OS lets me run full <Link href="/latest/devops-lifecycle">Docker containers</Link>.
-          Need a quick local test server or even a Minecraft world? Just pick a
+          Here’s the kicker: the Synology OS lets me run full{" "}
+          <Link href="/latest/devops-lifecycle">Docker containers</Link>. Need a
+          quick local test server or even a Minecraft world? Just pick a
           container image and spin it up—it’s all managed via a web GUI in your
           browser. Local, resilient, and flexible. Yes, the Synology hardware
           and big drives are an investment. But, if you need reliable,
@@ -850,12 +848,13 @@ export default function Article() {
         <h3>Profiles, Tab Hierarchy, and Sidebar Bliss</h3>
         <p>
           What won me over? Arc lets me create unique profiles for each part of
-          my life: work, <Link href="/latest/link-in">content creation</Link>, live streams, tutorials. Switching is
-          lightning-quick (hotkeys everywhere), and their sidebar-centric
-          approach to tabs is a revelation. Tabs above a certain line are
-          “pinned,” semi-permanent; below, they’re “ephemeral” (they’ll get
-          cleared out). Forget traditional bookmarks—they’ve built a new form of
-          navigation hierarchy that <em>actually works</em>.
+          my life: work, <Link href="/latest/link-in">content creation</Link>,
+          live streams, tutorials. Switching is lightning-quick (hotkeys
+          everywhere), and their sidebar-centric approach to tabs is a
+          revelation. Tabs above a certain line are “pinned,” semi-permanent;
+          below, they’re “ephemeral” (they’ll get cleared out). Forget
+          traditional bookmarks—they’ve built a new form of navigation hierarchy
+          that <em>actually works</em>.
         </p>
         <p>
           The full-screen sidebar, picture-in-picture video handling, plugin

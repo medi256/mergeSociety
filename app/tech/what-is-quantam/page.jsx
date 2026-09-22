@@ -87,11 +87,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/what-is-quantam",
     languages: {
       "en-US": "https://mergesociety.com/tech/what-is-quantam",
-      "zh-CN": "https://mergesociety.com/tech/what-is-quantam",
-      "de-DE": "https://mergesociety.com/tech/what-is-quantam",
-      "fr-FR": "https://mergesociety.com/tech/what-is-quantam",
-      "es-ES": "https://mergesociety.com/tech/what-is-quantam",
-      "ja-JP": "https://mergesociety.com/tech/what-is-quantam",
     },
   },
   twitter: {
@@ -549,61 +544,61 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Quantum Computing Demystified: The Truth About Grover's Algorithm | May 2025",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.webp",
-    datePublished: "2025-05-01T08:00:00Z",
-    dateModified: "2025-05-01T10:30:00Z",
-    author: [
-      {
-        "@type": "Person",
-        name: "Dr. Sophia Chen",
-        url: "https://mergesociety.com/about",
-        jobTitle: "Quantum Information Scientist",
-      },
-      {
-        "@type": "Person",
-        name: "Prof. Alexander Weissman",
-        url: "https://mergesociety.com/about",
-        jobTitle: "Professor of Advanced Computing",
-      },
-    ],
-    publisher: {
-      "@type": "Organization",
-      name: "Quantum Realm Technologies",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Quantum Computing Demystified: The Truth About Grover's Algorithm | May 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/markus-winkler-FUQWePRf0Qc-unsplash_hywmpd_rvjclg.webp",
+  datePublished: "2025-05-01T08:00:00Z",
+  dateModified: "2025-05-01T10:30:00Z",
+  author: [
+    {
+      "@type": "Person",
+      name: "Dr. Sophia Chen",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Quantum Information Scientist",
     },
-    description:
-      "Breakthrough explanation of quantum computing that cuts through pop science myths. Learn how Grover's Algorithm actually works, why quantum speedups aren't what you think, and the beautiful geometric intuition behind quantum computing's true power.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/what-is-quantam",
+    {
+      "@type": "Person",
+      name: "Prof. Alexander Weissman",
+      url: "https://mergesociety.com/about",
+      jobTitle: "Professor of Advanced Computing",
     },
-    keywords:
-      "quantum computing, grover's algorithm, quantum speedup, quantum geometry",
-    articleSection: "Quantum Computing Education",
-    skillLevel: "Beginner to Intermediate",
-    dependencies:
-      "Basic understanding of linear algebra helpful but not required",
-    proficiencyLevel:
-      "All levels welcome with special sections for deeper technical understanding",
-  };
+  ],
+  publisher: {
+    "@type": "Organization",
+    name: "Quantum Realm Technologies",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
+    },
+  },
+  description:
+    "Breakthrough explanation of quantum computing that cuts through pop science myths. Learn how Grover's Algorithm actually works, why quantum speedups aren't what you think, and the beautiful geometric intuition behind quantum computing's true power.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/what-is-quantam",
+  },
+  keywords:
+    "quantum computing, grover's algorithm, quantum speedup, quantum geometry",
+  articleSection: "Quantum Computing Education",
+  skillLevel: "Beginner to Intermediate",
+  dependencies:
+    "Basic understanding of linear algebra helpful but not required",
+  proficiencyLevel:
+    "All levels welcome with special sections for deeper technical understanding",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Quantum Computing Debunked: How Grover’s Algorithm Destroys the Myths
@@ -657,11 +652,12 @@ export default function Article() {
           viral pop-sci fantasy. Here’s what actually happens when you press
           ‘run’ on a quantum machine—why it’s mind-blowingly weird, still
           powerful, and way more subtle than those tech headlines ever admitted.
-          If you’ve ever wondered why <Link href="/startup-stories/satya">quantum computing</Link> matters, what Grover’s
-          algorithm really does, or if you’re just sick of shallow analogies and
-          want the real deal, buckle up. You’re about to see quantum speedup
-          through fresh eyes—and probably rethink everything you thought you
-          knew.
+          If you’ve ever wondered why{" "}
+          <Link href="/startup-stories/satya">quantum computing</Link> matters,
+          what Grover’s algorithm really does, or if you’re just sick of shallow
+          analogies and want the real deal, buckle up. You’re about to see
+          quantum speedup through fresh eyes—and probably rethink everything you
+          thought you knew.
         </p>
 
         <h2>Why Most Quantum Computing Summaries Are Dead Wrong</h2>

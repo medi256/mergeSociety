@@ -73,9 +73,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/ai/ai-vs-jobs",
     languages: {
       "en-US": "https://mergesociety.com/ai/ai-vs-jobs",
-      "es-ES": "https://mergesociety.com/ai/ai-vs-jobs",
-      "fr-FR": "https://mergesociety.com/ai/ai-vs-jobs",
-      "zh-CN": "https://mergesociety.com/ai/ai-vs-jobs",
     },
   },
   twitter: {
@@ -534,130 +531,130 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
-    datePublished: "2025-04-29T08:00:00Z",
-    dateModified: "2025-04-29T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Alex Fintech",
-      jobTitle: "Technology Futurist & Cryptocurrency Analyst",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "The Death of Coding: Why AI and Bitcoin Will Reshape Tech Careers in 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Death_of_Coding.webp",
+  datePublished: "2025-04-29T08:00:00Z",
+  dateModified: "2025-04-29T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Alex Fintech",
+    jobTitle: "Technology Futurist & Cryptocurrency Analyst",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Future Tech Media Group",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
+  },
+  description:
+    "Discover why traditional coding careers are being disrupted by AI and cryptocurrency. Learn how the tech landscape is shifting, why Bitcoin represents a better opportunity than programming, and what strategies can future-proof your career.",
+  keywords:
+    "AI Programming Disruption, Bitcoin Investment Strategy, Tech Career Future, Coding Obsolescence, Cryptocurrency Opportunity",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/ai/ai-vs-jobs",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+    {
+      "@type": "Thing",
+      name: "Bitcoin",
+    },
+    {
+      "@type": "Thing",
+      name: "Programming Career",
+    },
+  ],
+  mentions: [
+    {
       "@type": "Organization",
-      name: "Future Tech Media Group",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      name: "Google",
     },
-    description:
-      "Discover why traditional coding careers are being disrupted by AI and cryptocurrency. Learn how the tech landscape is shifting, why Bitcoin represents a better opportunity than programming, and what strategies can future-proof your career.",
-    keywords:
-      "AI Programming Disruption, Bitcoin Investment Strategy, Tech Career Future, Coding Obsolescence, Cryptocurrency Opportunity",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/ai/ai-vs-jobs",
+    {
+      "@type": "Organization",
+      name: "Meta",
     },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Thing",
-        name: "Bitcoin",
-      },
-      {
-        "@type": "Thing",
-        name: "Programming Career",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "Organization",
-        name: "Google",
-      },
-      {
-        "@type": "Organization",
-        name: "Meta",
-      },
-      {
-        "@type": "Organization",
-        name: "Intel",
-      },
-      {
-        "@type": "Organization",
-        name: "Apple",
-      },
-      {
-        "@type": "Person",
-        name: "Barack Obama",
-      },
-      {
-        "@type": "Person",
-        name: "Sergey Brin",
-      },
-      {
-        "@type": "Person",
-        name: "Elon Musk",
-      },
-      {
-        "@type": "Person",
-        name: "Brian Armstrong",
-      },
-      {
-        "@type": "Organization",
-        name: "Coinbase",
-      },
-      {
-        "@type": "Organization",
-        name: "Tether",
-      },
-      {
-        "@type": "Organization",
-        name: "Stripe",
-      },
-      {
-        "@type": "Organization",
-        name: "PayPal",
-      },
-      {
-        "@type": "Organization",
-        name: "Uniswap",
-      },
-      {
-        "@type": "Organization",
-        name: "MetaMask",
-      },
-    ],
-    isAccessibleForFree: true,
-    educationalLevel: "Advanced",
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Tech Professionals, Software Developers, Technology Investors, Career Changers",
+    {
+      "@type": "Organization",
+      name: "Intel",
     },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
+    {
+      "@type": "Organization",
+      name: "Apple",
     },
-  };
+    {
+      "@type": "Person",
+      name: "Barack Obama",
+    },
+    {
+      "@type": "Person",
+      name: "Sergey Brin",
+    },
+    {
+      "@type": "Person",
+      name: "Elon Musk",
+    },
+    {
+      "@type": "Person",
+      name: "Brian Armstrong",
+    },
+    {
+      "@type": "Organization",
+      name: "Coinbase",
+    },
+    {
+      "@type": "Organization",
+      name: "Tether",
+    },
+    {
+      "@type": "Organization",
+      name: "Stripe",
+    },
+    {
+      "@type": "Organization",
+      name: "PayPal",
+    },
+    {
+      "@type": "Organization",
+      name: "Uniswap",
+    },
+    {
+      "@type": "Organization",
+      name: "MetaMask",
+    },
+  ],
+  isAccessibleForFree: true,
+  educationalLevel: "Advanced",
+  audience: {
+    "@type": "Audience",
+    audienceType:
+      "Tech Professionals, Software Developers, Technology Investors, Career Changers",
+  },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the
@@ -665,9 +662,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Death_of_Coding.webp"
-          }
+          src={"/mergesociety/Death_of_Coding.webp"}
           alt="The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin"
           width={600}
           height={400}
@@ -732,14 +727,17 @@ export default function Article() {
           Meanwhile, mass layoffs sweep the sector: Intel trimmed 20% of its
           workforce (about 20,000 people), Meta announced repeated layoffs
           across its divisions, with thousands cut just this year. AI isn’t just
-          threatening <Link href="/latest/computer-science-degree-worth-it">programming jobs</Link>; it's devouring them. Check out the top
-          posts on Reddit’s CS careers board: new computer science graduates are
-          calling it a bloodbath. Stories abound of folks landing “dream” jobs
-          in Big Tech, only to find relentless pressure, impossible standards,
-          constant layoffs, and brutal burnout. Multiple posts reveal grads
-          applying to hundreds of jobs with no luck, hiding unemployment from
-          families out of shame, and only landing roles through nepotism or
-          connections.
+          threatening{" "}
+          <Link href="/latest/computer-science-degree-worth-it">
+            programming jobs
+          </Link>
+          ; it's devouring them. Check out the top posts on Reddit’s CS careers
+          board: new computer science graduates are calling it a bloodbath.
+          Stories abound of folks landing “dream” jobs in Big Tech, only to find
+          relentless pressure, impossible standards, constant layoffs, and
+          brutal burnout. Multiple posts reveal grads applying to hundreds of
+          jobs with no luck, hiding unemployment from families out of shame, and
+          only landing roles through nepotism or connections.
         </p>
 
         <h2>Globalization, Outsourcing, and the New Reality</h2>
@@ -759,10 +757,11 @@ export default function Article() {
         <h2>Progress Stalls: The Tech Stagnation and the AI Mirage</h2>
         <p>
           Let’s call it: Tech innovation has been stagnant for a decade. The
-          much-desired leap to <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link> (AGI) remains
-          elusive—a recent Anthropic paper revealed that today’s AI is mostly
-          advanced pattern-matching, not intelligence. So-called progress is
-          really an illusion of smarts, not the real deal.
+          much-desired leap to{" "}
+          <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link>{" "}
+          (AGI) remains elusive—a recent Anthropic paper revealed that today’s
+          AI is mostly advanced pattern-matching, not intelligence. So-called
+          progress is really an illusion of smarts, not the real deal.
         </p>
         <p>
           In fact, AI agents will flat out “hallucinate” their way through

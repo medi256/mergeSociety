@@ -88,9 +88,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/cloud-service",
     languages: {
       "en-US": "https://mergesociety.com/tech/cloud-service",
-      "es-ES": "https://mergesociety.com/tech/cloud-service",
-      "de-DE": "https://mergesociety.com/tech/cloud-service",
-      "fr-FR": "https://mergesociety.com/tech/cloud-service",
     },
   },
 
@@ -491,68 +488,68 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Why Most Cloud Services Are Just Layers on Virtual Machines: The Essential Guide",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.webp",
-    datePublished: "2025-05-03T12:00:00Z",
-    dateModified: "2025-05-03T12:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Harper",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Principal Cloud Architect",
-      description:
-        "Former AWS solutions architect specializing in multi-cloud strategies and cost optimization",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Why Most Cloud Services Are Just Layers on Virtual Machines: The Essential Guide",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-Am6pBe2FpJw-unsplash_iwabef_uk33m4.webp",
+  datePublished: "2025-05-03T12:00:00Z",
+  dateModified: "2025-05-03T12:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jordan Harper",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Principal Cloud Architect",
     description:
-      "Discover why cloud platforms like AWS, Google Cloud, and Azure are fundamentally VM layers with different management levels. Learn which core services actually matter for your projects.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/cloud-service",
+      "Former AWS solutions architect specializing in multi-cloud strategies and cost optimization",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "cloud computing, AWS, virtual machines, managed services, serverless, cloud architecture",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Cloud Computing",
-      },
-      {
-        "@type": "Thing",
-        name: "System Architecture",
-      },
-      {
-        "@type": "Thing",
-        name: "DevOps",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Professional Development",
-    proficiencyLevel: "Intermediate",
-    articleSection: "Cloud Architecture",
-    wordCount: 4200,
-  };
+  },
+  description:
+    "Discover why cloud platforms like AWS, Google Cloud, and Azure are fundamentally VM layers with different management levels. Learn which core services actually matter for your projects.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/cloud-service",
+  },
+  keywords:
+    "cloud computing, AWS, virtual machines, managed services, serverless, cloud architecture",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Cloud Computing",
+    },
+    {
+      "@type": "Thing",
+      name: "System Architecture",
+    },
+    {
+      "@type": "Thing",
+      name: "DevOps",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Professional Development",
+  proficiencyLevel: "Intermediate",
+  articleSection: "Cloud Architecture",
+  wordCount: 4200,
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           AWS Cloud Services: The Truth No One Tells You (And Why You Only Need

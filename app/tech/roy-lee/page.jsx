@@ -83,8 +83,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/roy-lee",
     languages: {
       "en-US": "https://mergesociety.com/tech/roy-lee",
-      "es-ES": "https://mergesociety.com/tech/roy-lee",
-      "de-DE": "https://mergesociety.com/tech/roy-lee",
     },
   },
 

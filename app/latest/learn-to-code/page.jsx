@@ -82,9 +82,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/latest/learn-to-code",
     languages: {
       "en-US": "https://mergesociety.com/latest/learn-to-code",
-      "es-ES": "https://mergesociety.com/latest/learn-to-code",
-      "de-DE": "https://mergesociety.com/latest/learn-to-code",
-      "fr-FR": "https://mergesociety.com/latest/learn-to-code",
     },
   },
   twitter: {
@@ -455,9 +452,7 @@ export default function Article() {
           Strategy Went Wrong
         </h1>
         <Image
-          src={
-            "/mergesociety/Learn_to_Code.webp"
-          }
+          src={"/mergesociety/Learn_to_Code.webp"}
           alt="Why America Became Obsessed with Learn to Code And Where ThatStrategy Went Wrong"
           width={600}
           height={400}
@@ -504,7 +499,11 @@ export default function Article() {
           Bachelor of Science in Chemistry last year. In contrast,{" "}
           <strong>266</strong> graduated in computer science and engineering,
           and more than <strong>twice as many</strong> completed the broader
-          electrical engineering and <Link href="/code-report/computer-science-vs-software-engineering">computer science major</Link>.
+          electrical engineering and{" "}
+          <Link href="/code-report/computer-science-vs-software-engineering">
+            computer science major
+          </Link>
+          .
         </p>
         <p>
           The upshot? In just 15 years, American colleges shifted from offering
@@ -748,9 +747,12 @@ export default function Article() {
           sponsor) are so valuable: they go beyond Python or JavaScript syntax
           and help you sharpen real world, high level thinking, fostering
           strategies that last well beyond the lifespan of any single
-          <Link href="/javascript/introduction-to-javascript">programming language</Link>. Their engaging, interactive courses from logic
-          puzzles and data analysis to scientific thinking aim to nurture your
-          most versatile asset: curiosity and critical reasoning.
+          <Link href="/javascript/introduction-to-javascript">
+            programming language
+          </Link>
+          . Their engaging, interactive courses from logic puzzles and data
+          analysis to scientific thinking aim to nurture your most versatile
+          asset: curiosity and critical reasoning.
         </p>
         <p>
           If you want to try Brilliant for free for 30 days (and get 20% off a

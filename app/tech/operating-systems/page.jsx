@@ -74,10 +74,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/operating-systems",
     languages: {
       "en-US": "https://mergesociety.com/tech/operating-systems",
-      "es-ES": "https://mergesociety.com/tech/operating-systems",
-      "de-DE": "https://mergesociety.com/tech/operating-systems",
-      "fr-FR": "https://mergesociety.com/tech/operating-systems",
-      "ja-JP": "https://mergesociety.com/tech/operating-systems",
     },
   },
   twitter: {
@@ -628,102 +624,102 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.webp",
-    datePublished: "2025-04-26T12:00:00Z",
-    dateModified: "2025-04-26T12:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Chen",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Systems Engineer",
-      description:
-        "Technology educator specializing in operating systems and computer architecture",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Tech Explained",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "The Ultimate Guide to Major Operating Systems: From Windows to Unix and Beyond",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/operating-sytems_x0xwsi_ns3v5y.webp",
+  datePublished: "2025-04-26T12:00:00Z",
+  dateModified: "2025-04-26T12:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jordan Chen",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Systems Engineer",
     description:
-      "Explore the complete landscape of operating systems including Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. Learn about their histories, strengths, weaknesses, and ideal use cases in this comprehensive guide.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/tech/operating-systems",
+      "Technology educator specializing in operating systems and computer architecture",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Tech Explained",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "operating systems, Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, BSD",
-    articleSection: "Technology Guides",
-    dependencies: "None",
-    proficiencyLevel: "Beginner",
-    mentions: [
-      {
-        "@type": "SoftwareApplication",
-        name: "Microsoft Windows",
-        operatingSystem: "Windows",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Apple macOS",
-        operatingSystem: "macOS",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Linux",
-        operatingSystem: "Linux",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Google ChromeOS",
-        operatingSystem: "ChromeOS",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Android",
-        operatingSystem: "Android",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Apple iOS",
-        operatingSystem: "iOS",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Unix",
-        operatingSystem: "Unix",
-        applicationCategory: "OperatingSystem",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "BSD",
-        operatingSystem: "BSD",
-        applicationCategory: "OperatingSystem",
-      },
-    ],
-  };
+  },
+  description:
+    "Explore the complete landscape of operating systems including Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. Learn about their histories, strengths, weaknesses, and ideal use cases in this comprehensive guide.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/tech/operating-systems",
+  },
+  keywords:
+    "operating systems, Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, BSD",
+  articleSection: "Technology Guides",
+  dependencies: "None",
+  proficiencyLevel: "Beginner",
+  mentions: [
+    {
+      "@type": "SoftwareApplication",
+      name: "Microsoft Windows",
+      operatingSystem: "Windows",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Apple macOS",
+      operatingSystem: "macOS",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Linux",
+      operatingSystem: "Linux",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Google ChromeOS",
+      operatingSystem: "ChromeOS",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Android",
+      operatingSystem: "Android",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Apple iOS",
+      operatingSystem: "iOS",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Unix",
+      operatingSystem: "Unix",
+      applicationCategory: "OperatingSystem",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "BSD",
+      operatingSystem: "BSD",
+      applicationCategory: "OperatingSystem",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Ultimate Guide to Major Operating Systems: From Windows to Unix
@@ -749,12 +745,12 @@ export default function Article() {
 
         <p>
           Whether you're a tech enthusiast looking to understand the landscape
-          of <Link href="/tech/10x-developers">operating systems</Link> or a beginner just curious about the differences,
-          this guide covers everything you need to know about the major players:
-          Windows, macOS, Linux, Chrome OS, Android, iOS, Unix, and BSD. We'll
-          explore their histories, strengths, weaknesses, and the kind of users
-          they're best suited for. Ready to dive into the world of OSes? Let's
-          get started!
+          of <Link href="/tech/10x-developers">operating systems</Link> or a
+          beginner just curious about the differences, this guide covers
+          everything you need to know about the major players: Windows, macOS,
+          Linux, Chrome OS, Android, iOS, Unix, and BSD. We'll explore their
+          histories, strengths, weaknesses, and the kind of users they're best
+          suited for. Ready to dive into the world of OSes? Let's get started!
         </p>
 
         <h2>Windows: The World’s Most Used Operating System</h2>
@@ -830,9 +826,10 @@ export default function Article() {
         <p>
           <strong>Linux</strong> isn’t just an operating system—it’s a family of
           operating systems called 'distributions' (distros). Born in 1991 from
-          the mind of Finnish software engineer <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link>, Linux was
-          created as a free, open-source alternative to the expensive or
-          resource-hungry offerings of the time.
+          the mind of Finnish software engineer{" "}
+          <Link href="/code-report/how-linux-is-created">Linus Torvalds</Link>,
+          Linux was created as a free, open-source alternative to the expensive
+          or resource-hungry offerings of the time.
         </p>
         <p>
           You won’t need a pricey machine or top-of-the-line specs for Linux.
@@ -877,8 +874,9 @@ export default function Article() {
           Chrome OS devices spring to life in seconds, require no manual updates
           (they happen quietly in the background), and are highly secure thanks
           to storing most data and processing on Google servers. And with access
-          to the Google Play Store, users can install many <Link href="/apps/best-apps">Android apps</Link>,
-          boosting the flexibility beyond basic web usage.
+          to the Google Play Store, users can install many{" "}
+          <Link href="/apps/best-apps">Android apps</Link>, boosting the
+          flexibility beyond basic web usage.
         </p>
         <p>
           But Chrome OS isn’t perfect for everyone. Without a steady internet

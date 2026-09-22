@@ -83,8 +83,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/vpn-explained",
     languages: {
       "en-US": "https://mergesociety.com/code-report/vpn-explained",
-      "es-ES": "https://mergesociety.com/code-report/vpn-explained",
-      "de-DE": "https://mergesociety.com/code-report/vpn-explained",
     },
   },
 

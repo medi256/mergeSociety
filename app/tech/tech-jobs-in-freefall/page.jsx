@@ -77,9 +77,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/tech/tech-jobs-in-freefall",
     languages: {
       "en-US": "https://mergesociety.com/tech/tech-jobs-in-freefall",
-      "es-ES": "https://mergesociety.com/tech/tech-jobs-in-freefall",
-      "de-DE": "https://mergesociety.com/tech/tech-jobs-in-freefall",
-      "fr-FR": "https://mergesociety.com/tech/tech-jobs-in-freefall",
     },
   },
   twitter: {
@@ -138,7 +135,8 @@ export const metadata = {
     "@type": "Article",
     headline:
       "The Great Tech Job Contraction: AI Transforms Employment While Profits Soar [May 2025]",
-    image: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
+    image:
+      "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
     datePublished: "2025-05-01T07:00:00Z",
     dateModified: "2025-05-01T07:00:00Z",
     author: {
@@ -408,7 +406,9 @@ export default function Article() {
           safe have simply… disappeared overnight. Job postings in technology
           have dropped nearly <strong>40%</strong> in just one month. It’s not a
           glitch. It’s not a blip. It’s the start of the biggest talent shakeup
-          in <Link href="/latest/friendship-that-saved-google">tech history</Link>—and nobody’s talking about what’s really driving it.
+          in{" "}
+          <Link href="/latest/friendship-that-saved-google">tech history</Link>
+          —and nobody’s talking about what’s really driving it.
         </p>
 
         <h2>
@@ -518,8 +518,10 @@ export default function Article() {
         <p>
           Let me show you exactly what I mean: the people who mastered old tech
           stacks—Java, Python, .NET—are suddenly “not enough” for jobs that now
-          demand AI-mastery, LLM <Link href="/ai/google-ais">prompt engineering</Link>, or end-to-end MLOps
-          pipelines. If you stopped learning in 2020, you’re invisible in 2025.
+          demand AI-mastery, LLM{" "}
+          <Link href="/ai/google-ais">prompt engineering</Link>, or end-to-end
+          MLOps pipelines. If you stopped learning in 2020, you’re invisible in
+          2025.
         </p>
         <blockquote>
           "Success isn't about working harder—it's about working on what
@@ -532,7 +534,11 @@ export default function Article() {
           its workforce, explicitly labeling some as “low performers.” The hated
           “stack ranking” (remember Microsoft’s infamous up-or-out approach?) is
           back. Microsoft’s not holding back: being a top coder may save you,
-          but entire managerial layers and non-<Link href="/latest/computer-science-degree-worth-it">programming jobs</Link> are vanishing.
+          but entire managerial layers and non-
+          <Link href="/latest/computer-science-degree-worth-it">
+            programming jobs
+          </Link>{" "}
+          are vanishing.
         </p>
         <p>
           But wait, the plot thickens—most companies aren’t even{" "}
