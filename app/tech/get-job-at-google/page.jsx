@@ -181,13 +181,9 @@ export default function Article() {
           is finding the right match. Every team at Google—whether they’re
           working on Search, YouTube, Cloud, or the next big thing—is unique. To
           start, take a tour of{" "}
-          <a
-            href="https://careers.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             careers.google.com
-          </a>
+          </span>
           . Spend some time exploring the many products, roles, and teams that
           Google is hiring for.
         </p>

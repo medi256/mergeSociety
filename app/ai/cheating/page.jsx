@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
-
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
   title:
@@ -722,13 +720,9 @@ export default function Article() {
           I’m not going to give you a directory of these places—actually, no,
           screw it. Leaked questions are everywhere. Try searching GitHub, or a
           somewhat cryptic Chinese website called{" "}
-          <a
-            href="https://1point3acres.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             1point3acres.com
-          </a>
+          </span>
           . These platforms meticulously compile the most recently asked
           technical interview questions at household names like Meta, often
           boiled down to public LeetCode problems.
@@ -884,8 +878,6 @@ export default function Article() {
             </Link>
           </li>
         </ul>
-
-        <CommentSection />
       </article>
     </div>
   );

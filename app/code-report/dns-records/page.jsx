@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -141,112 +140,6 @@ export const metadata = {
     updatedFor: "2025 DNS standards and best practices",
   },
 
-  // Schema.org structured data for rich results
-  jsonLd: {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "DNS Records Explained: A Complete Guide for 2025",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/4084_qpacfm_z9pvmi.webp",
-    datePublished: "2025-05-09T08:00:00Z",
-    dateModified: "2025-05-09T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "DNS & Web Infrastructure Expert",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Network Configuration Specialist",
-      description:
-        "12+ years experience in domain configuration and DNS management",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/dns-records",
-    },
-    keywords:
-      "DNS records, domain name system, A record, CNAME record, MX record, DNS security, TXT records",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Domain Name System",
-      },
-      {
-        "@type": "Thing",
-        name: "Website Configuration",
-      },
-      {
-        "@type": "Thing",
-        name: "Email Setup",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Self Study",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Technical Guides",
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["article", "h1", "h2", "h3"],
-    },
-    hasPart: [
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#dns-basics-section",
-      },
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#dns-records-explained",
-      },
-    ],
-  },
-
-  // User intent and search optimization
-  userIntent: {
-    primary: [
-      "learning how DNS records work",
-      "setting up domain DNS properly",
-      "configuring email DNS records",
-      "understanding DNS hierarchy",
-      "optimizing website DNS settings",
-    ],
-    secondary: [
-      "troubleshooting DNS issues",
-      "migrating website DNS",
-      "securing domain with proper DNS",
-      "improving website performance via DNS",
-      "understanding DNS propagation",
-    ],
-    painPoints: [
-      "confusion about different DNS record types",
-      "email delivery problems due to incorrect MX records",
-      "slow website loading due to DNS misconfiguration",
-      "security vulnerabilities from improper DNS setup",
-      "difficulty understanding DNS terminology",
-      "trouble with subdomain configuration",
-    ],
-    searchQueries: [
-      "what are DNS records and how do they work",
-      "how to set up MX records for business email",
-      "difference between A record and CNAME",
-      "DNS records explained with examples",
-      "how to configure TXT records for SPF DKIM",
-      "dns propagation time how long",
-      "what is a DNS zone file",
-      "how to fix dns not resolving",
-      "best ttl for dns records 2025",
-      "how to set up subdomains with DNS",
-    ],
-  },
-
   // FAQs for rich snippets
   faqs: [
     {
@@ -305,81 +198,82 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: "DNS Records Explained: A Complete Guide for 2025",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/4084_qpacfm_z9pvmi.webp",
-    datePublished: "2025-05-09T08:00:00Z",
-    dateModified: "2025-05-09T08:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "DNS & Web Infrastructure Expert",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Network Configuration Specialist",
-      description:
-        "12+ years experience in domain configuration and DNS management",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: "DNS Records Explained: A Complete Guide for 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/4084_qpacfm_z9pvmi.webp",
+  datePublished: "2025-05-09T08:00:00Z",
+  dateModified: "2025-05-09T08:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "DNS & Web Infrastructure Expert",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Network Configuration Specialist",
     description:
-      "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/dns-records",
+      "12+ years experience in domain configuration and DNS management",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "DNS records, domain name system, A record, CNAME record, MX record, DNS security, TXT records",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Domain Name System",
-      },
-      {
-        "@type": "Thing",
-        name: "Website Configuration",
-      },
-      {
-        "@type": "Thing",
-        name: "Email Setup",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "Self Study",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Technical Guides",
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["article", "h1", "h2", "h3"],
+  },
+  description:
+    "Master DNS records with our comprehensive guide covering A, AAAA, CNAME, MX, SOA, NS, SRV, PTR & TXT records with real examples for domains, email, and security setups.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/dns-records",
+  },
+  keywords:
+    "DNS records, domain name system, A record, CNAME record, MX record, DNS security, TXT records",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Domain Name System",
     },
-    hasPart: [
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#dns-basics-section",
-      },
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: "#dns-records-explained",
-      },
-    ],
-  };
+    {
+      "@type": "Thing",
+      name: "Website Configuration",
+    },
+    {
+      "@type": "Thing",
+      name: "Email Setup",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "Self Study",
+  proficiencyLevel: "Beginner to Intermediate",
+  articleSection: "Technical Guides",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["article", "h1", "h2", "h3"],
+  },
+  hasPart: [
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: "#dns-basics-section",
+    },
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: "#dns-records-explained",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           DNS Records Explained With Examples: Understanding, Using, and
@@ -610,28 +504,17 @@ export default function Article() {
         <p>
           <strong>Tip:</strong> Partnering with an all in one online security
           app, like{" "}
-          <a
-            href="https://aura.com/powercert"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Aura
-          </a>
+          <span style={{ color: "blue" }}>
+            https://aura.com/powercert (Aura)
+          </span>
           , is a proactive way to protect your identity. Aura searches for your
           details across hundreds of data brokers and requests removals
           automatically, helps monitor your credit for suspicious inquiries,
           manages your passwords, and includes antivirus and a blazing fast VPN
           to keep you safe and anonymous. Their two week free trial (available
-          at{" "}
-          <a
-            href="https://aura.com/powercert"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            aura.com/powercert
-          </a>
-          ) gives you a snapshot of just how exposed you might be and helps you
-          lock things down fast.
+          at <span style={{ color: "blue" }}>aura.com/powercert</span>) gives
+          you a snapshot of just how exposed you might be and helps you lock
+          things down fast.
         </p>
 
         <h2>Summary Table: DNS Record Types</h2>
@@ -772,7 +655,6 @@ export default function Article() {
             <Link href="/code-report/ApachevsNGINX">Apache vs. NGINX</Link>
           </li>
         </ul>
-        <CommentSection />
       </article>
     </div>
   );

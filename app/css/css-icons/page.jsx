@@ -120,13 +120,9 @@ const CSSIcons = () => {
 
         <p>
           Make sure to copy the correct link from the{" "}
-          <a
-            href="https://www.cdnjs.com/libraries/font-awesome"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Font Awesome website
-          </a>
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            Font Awesome website (cdnjs.com/libraries/font-awesome)
+          </span>
           , as the URL may change over time.
         </p>
 
@@ -134,13 +130,9 @@ const CSSIcons = () => {
         <p>
           Font Awesome offers an extensive collection of icons to choose from.
           To explore the available icons, visit the{" "}
-          <a
-            href="https://fontawesome.com/icons"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Font Awesome Icons Gallery
-          </a>
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            Font Awesome Icons Gallery (fontawesome.com/icons)
+          </span>
           . You can search for specific icons, browse by category, or filter by
           style. Once you find the icon you want to use, simply click on it to
           view the code snippet and usage instructions.
@@ -208,8 +200,10 @@ const CSSIcons = () => {
         <h4>Exploring Bootstrap Icons</h4>
         <p>
           To explore the available Bootstrap Icons, visit the{" "}
-          <a href="https://icons.getbootstrap.com/">Bootstrap Icons Gallery</a>.
-          Here, you can browse through the various icons, search for specific
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            Bootstrap Icons Gallery
+          </span>
+          . Here, you can browse through the various icons, search for specific
           ones, and get the necessary code snippets to use in your project.
         </p>
 
@@ -250,19 +244,21 @@ const CSSIcons = () => {
         <p>
           To use Google Material Icons, you need to include the library in your
           project. Visit the{" "}
-          <a href="https://fonts.google.com/icons">Google Fonts website</a> and
-          search for {` "Material Icons." `} Follow the instructions provided to
-          obtain the link and icon codes. You can then include the link in the{" "}
-          <code>{`<head>`}</code> section of your HTML file.
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            Google Fonts website
+          </span>
+          and search for {` "Material Icons." `} Follow the instructions
+          provided to obtain the link and icon codes. You can then include the
+          link in the <code>{`<head>`}</code> section of your HTML file.
         </p>
 
         <h4>Exploring Google Material Icons</h4>
         <p>
           To explore the available Google Material Icons, visit the{" "}
-          <a href="https://fonts.google.com/icons">
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             Google Material Icons Gallery
-          </a>
-          . You can search for specific icons, browse by category, and get the
+          </span>
+          You can search for specific icons, browse by category, and get the
           necessary code snippets to use in your project.
         </p>
 

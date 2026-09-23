@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -929,13 +928,13 @@ export default function Article() {
           If you’re tracking anything over time (mood, temperature, fitness),
           build a <strong>time series visualization app</strong>. Use
           specialized databases like{" "}
-          <a href="https://www.timescale.com/" target="_blank" rel="noopener">
-            TimescaleDB
-          </a>{" "}
+          <span style={{ color: "blue" }}>
+            https://www.timescale.com (TimescaleDB)
+          </span>
           or{" "}
-          <a href="https://www.influxdata.com/" target="_blank" rel="noopener">
-            InfluxDB
-          </a>
+          <span style={{ color: "blue" }}>
+            https://www.influxdata.com (InfluxDB)
+          </span>
           . Craft complex queries and bold, beautiful charts showing your data’s
           journey.
         </p>
@@ -998,9 +997,9 @@ export default function Article() {
           Create a visual, node-based editor to enable anyone (including
           yourself!) to build and automate workflows by dragging and connecting
           logical blocks. Use libraries like{" "}
-          <a href="https://reactflow.dev/" target="_blank" rel="noopener">
-            React Flow
-          </a>{" "}
+          <span style={{ color: "blue" }}>
+            https://reactflow.dev (React Flow)
+          </span>
           for the web or Node Editor plugins in Python/other languages.
         </p>
 
@@ -1113,7 +1112,6 @@ export default function Article() {
             <Link href="/tech/cplus">C++ programming language</Link>
           </li>
         </ul>
-        <CommentSection />
       </article>
     </div>
   );

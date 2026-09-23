@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -348,142 +347,142 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": ["Article", "TechArticle", "HowTo"],
+  "@context": "https://schema.org",
+  "@type": ["Article", "TechArticle", "HowTo"],
 
-    headline:
-      "Full Stack Developer Roadmap 2025: Complete Guide from HTML to AI Integration",
-    description:
-      "Master full stack development with our updated 2025 roadmap. Learn HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Step-by-step guide from zero to hireable in 6-9 months.",
+  headline:
+    "Full Stack Developer Roadmap 2025: Complete Guide from HTML to AI Integration",
+  description:
+    "Master full stack development with our updated 2025 roadmap. Learn HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Step-by-step guide from zero to hireable in 6-9 months.",
 
-    image: {
+  image: {
+    "@type": "ImageObject",
+    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+    width: 1200,
+    height: 630,
+  },
+
+  datePublished: "2025-01-15T09:00:00Z",
+  dateModified: new Date().toISOString(),
+
+  author: {
+    "@type": "Person",
+    name: "Senior Software Engineer",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Software Engineer",
+    sameAs: ["https://twitter.com/manager70191"],
+  },
+
+  publisher: {
+    "@type": "Organization",
+    name: "Code Bender",
+    url: "https://mergesociety.com",
+    logo: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
-      width: 1200,
-      height: 630,
+      url: "https://mergesociety.com/MS.png",
     },
+  },
 
-    datePublished: "2025-01-15T09:00:00Z",
-    dateModified: new Date().toISOString(),
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/fullstack-roadmap",
+  },
 
-    author: {
-      "@type": "Person",
-      name: "Senior Software Engineer",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Software Engineer",
-      sameAs: ["https://twitter.com/manager70191"],
+  // HowTo specific properties
+  totalTime: "PT6M",
+  supply: ["Computer", "Internet Connection", "Text Editor"],
+  tool: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL"],
+
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Learn HTML & CSS Foundations",
+      text: "Master the basic building blocks of web development with HTML structure and CSS styling.",
+      url: "https://mergesociety.com/code-report/fullstack-roadmap#html-css-foundations",
     },
-
-    publisher: {
-      "@type": "Organization",
-      name: "Code Bender",
-      url: "https://mergesociety.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+    {
+      "@type": "HowToStep",
+      name: "Master JavaScript Programming",
+      text: "Learn JavaScript as your primary programming language for full stack development.",
+      url: "https://mergesociety.com/code-report/fullstack-roadmap#javascript-programming",
     },
-
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/fullstack-roadmap",
+    {
+      "@type": "HowToStep",
+      name: "Build React Applications",
+      text: "Create dynamic, interactive user interfaces using React framework.",
+      url: "https://mergesociety.com/code-report/fullstack-roadmap#react-applications",
     },
-
-    // HowTo specific properties
-    totalTime: "PT6M",
-    supply: ["Computer", "Internet Connection", "Text Editor"],
-    tool: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL"],
-
-    step: [
-      {
-        "@type": "HowToStep",
-        name: "Learn HTML & CSS Foundations",
-        text: "Master the basic building blocks of web development with HTML structure and CSS styling.",
-        url: "https://mergesociety.com/code-report/fullstack-roadmap#html-css-foundations",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Master JavaScript Programming",
-        text: "Learn JavaScript as your primary programming language for full stack development.",
-        url: "https://mergesociety.com/code-report/fullstack-roadmap#javascript-programming",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Build React Applications",
-        text: "Create dynamic, interactive user interfaces using React framework.",
-        url: "https://mergesociety.com/code-report/fullstack-roadmap#react-applications",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Develop Node.js Backend",
-        text: "Build server-side applications and APIs using Node.js runtime.",
-        url: "https://mergesociety.com/code-report/fullstack-roadmap#nodejs-backend",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Integrate AI Capabilities",
-        text: "Add cutting-edge AI features to your applications using modern APIs.",
-        url: "https://mergesociety.com/code-report/fullstack-roadmap#ai-integration",
-      },
-    ],
-
-    about: [
-      {
-        "@type": "Thing",
-        name: "Full Stack Development",
-        description:
-          "Complete web development covering both frontend and backend technologies",
-      },
-      {
-        "@type": "Thing",
-        name: "JavaScript Programming",
-        description: "Modern JavaScript development for web applications",
-      },
-      {
-        "@type": "Thing",
-        name: "AI Integration",
-        description:
-          "Incorporating artificial intelligence into web applications",
-      },
-    ],
-
-    teaches: [
-      "HTML and CSS fundamentals",
-      "JavaScript programming",
-      "React frontend development",
-      "Node.js backend development",
-      "Database management",
-      "AI integration techniques",
-      "Full stack project development",
-    ],
-
-    educationalLevel: "beginner to advanced",
-    learningResourceType: "tutorial",
-    interactivityType: "active",
-
-    keywords:
-      "full stack developer, web development, JavaScript, React, Node.js, AI integration, HTML, CSS, programming tutorial, developer roadmap, coding guide",
-
-    inLanguage: "en-US",
-    isAccessibleForFree: true,
-
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      ratingCount: "150",
-      bestRating: "5",
+    {
+      "@type": "HowToStep",
+      name: "Develop Node.js Backend",
+      text: "Build server-side applications and APIs using Node.js runtime.",
+      url: "https://mergesociety.com/code-report/fullstack-roadmap#nodejs-backend",
     },
-  };
+    {
+      "@type": "HowToStep",
+      name: "Integrate AI Capabilities",
+      text: "Add cutting-edge AI features to your applications using modern APIs.",
+      url: "https://mergesociety.com/code-report/fullstack-roadmap#ai-integration",
+    },
+  ],
+
+  about: [
+    {
+      "@type": "Thing",
+      name: "Full Stack Development",
+      description:
+        "Complete web development covering both frontend and backend technologies",
+    },
+    {
+      "@type": "Thing",
+      name: "JavaScript Programming",
+      description: "Modern JavaScript development for web applications",
+    },
+    {
+      "@type": "Thing",
+      name: "AI Integration",
+      description:
+        "Incorporating artificial intelligence into web applications",
+    },
+  ],
+
+  teaches: [
+    "HTML and CSS fundamentals",
+    "JavaScript programming",
+    "React frontend development",
+    "Node.js backend development",
+    "Database management",
+    "AI integration techniques",
+    "Full stack project development",
+  ],
+
+  educationalLevel: "beginner to advanced",
+  learningResourceType: "tutorial",
+  interactivityType: "active",
+
+  keywords:
+    "full stack developer, web development, JavaScript, React, Node.js, AI integration, HTML, CSS, programming tutorial, developer roadmap, coding guide",
+
+  inLanguage: "en-US",
+  isAccessibleForFree: true,
+
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    ratingCount: "150",
+    bestRating: "5",
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Full Stack Developer Roadmap: The No-BS Step-By-Step Guide to Master
@@ -555,9 +554,12 @@ export default function Article() {
           overwhelming—not because it’s actually complicated, but because you’re
           drowning in bad advice.
           <br />
-          Most guides throw every <Link href="/javascript/introduction-to-javascript">programming language</Link>, tool, and random
-          framework at you. The result? You never finish, and you never get
-          hired.
+          Most guides throw every{" "}
+          <Link href="/javascript/introduction-to-javascript">
+            programming language
+          </Link>
+          , tool, and random framework at you. The result? You never finish, and
+          you never get hired.
           <br />
           <strong>
             Want a laser-focused plan that works? You’re in the right place.
@@ -735,13 +737,9 @@ export default function Article() {
         </ul>
         <p>
           <strong>Resource:</strong>{" "}
-          <a
-            href="https://developer.mozilla.org/"
-            target="_blank"
-            rel="noopener"
-          >
-            Mozilla Web Docs (MDN)
-          </a>
+          <span style={{ color: "blue" }}>
+            href="https://developer.mozilla.org (Mozilla Web Docs MDN)
+          </span>
           <br />
           Spend a few hours learning the basics. That’s it. Don’t turn this into
           a rabbit hole—just learn the terms, keep moving.
@@ -770,10 +768,8 @@ export default function Article() {
           <br />
           <strong>Resource:</strong> Codecademy’s command line module. <br />
           <strong>Game Your Skills:</strong> Try{" "}
-          <a href="https://cmdchallenge.com/" target="_blank" rel="noopener">
-            cmdchallenge.com
-          </a>{" "}
-          for hands-on practice.
+          <span style={{ color: "blue" }}>cmdchallenge.com</span> for hands-on
+          practice.
         </p>
 
         <h3>The Real Reason Git & GitHub Are Your Lifeline</h3>
@@ -1100,7 +1096,6 @@ export default function Article() {
             right here.
           </p>
         </section>
-        <CommentSection />
       </article>
     </div>
   );

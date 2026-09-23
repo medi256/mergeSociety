@@ -67,9 +67,10 @@ p {
         <p>
           If you want to explore different font families values, you can refer
           to this link:{" "}
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">
-            Mozilla Developer Network
-          </a>
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+            (Mozilla Developer Network)
+          </span>
           .
         </p>
 

@@ -36,8 +36,9 @@ const CSSMedia = () => {
         </p>
         <p>
           In this article, I will talk about how to use responsive design and
-          <Link href="/css/css-responsive-design">media queries</Link> to make this happen. I will also provide code examples
-          for media queries using max and min screen widths.
+          <Link href="/css/css-responsive-design">media queries</Link> to make
+          this happen. I will also provide code examples for media queries using
+          max and min screen widths.
         </p>
         <h2>What is Responsive Design?</h2>
         <p>
@@ -121,8 +122,11 @@ const CSSMedia = () => {
 
         <p>
           <i>
-            Except when using the not or only <Link href="/javascript/arithmetic-operators">logical operators</Link>, the media type
-            is optional and the all type is implied.
+            Except when using the not or only{" "}
+            <Link href="/javascript/arithmetic-operators">
+              logical operators
+            </Link>
+            , the media type is optional and the all type is implied.
           </i>{" "}
         </p>
 
@@ -145,7 +149,9 @@ const CSSMedia = () => {
           include height and width of the viewport, orientation, or
           aspect-ratio. For a complete list of the possible media features,
           please visit the{" "}
-          <a href="https://developer.mozilla.org/en-US/ ">MDN docs.</a>
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+          </span>
         </p>
         <p>
           For this article, we are going to focus on the width media feature.
@@ -290,8 +296,10 @@ const CSSMedia = () => {
 
         <p>
           For more details, check out the{" "}
-          <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> on CSS
-          Media queries .
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+          </span>
+          (MDN Web Docs) on CSS Media Queries.
         </p>
 
         <Button whereToGo={"css-universal-selector"} />

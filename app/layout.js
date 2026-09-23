@@ -138,14 +138,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* Resource hints must live in <head> to actually help */}
-        <link rel="preconnect" href="https://img.mergesociety.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://img.mergesociety.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-      </head>
-
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

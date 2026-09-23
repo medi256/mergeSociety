@@ -136,9 +136,10 @@ div {
 
         <p>
           If you're interested in hexadecimal color codes, check out this link:{" "}
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color">
-            Mozilla Developer Network
-          </a>
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color (Mozilla
+            Developer Network)
+          </span>
           .
         </p>
 
@@ -173,9 +174,10 @@ div {
         </p>
         <p>
           If you need to learn more about RGB colors, please visit this link:{" "}
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb">
-            Mozilla Developer Network
-          </a>
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb
+            (Mozilla Developer Network)
+          </span>
           .
         </p>
 
@@ -210,9 +212,10 @@ div {
         </p>
         <p>
           To explore more about HSL colors, you can visit this link:{" "}
-          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl">
-            Mozilla Developer Network
-          </a>
+          <span style={{ color: "blue" }}>
+            https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl
+            (Mozilla Developer Network)
+          </span>
           .
         </p>
 

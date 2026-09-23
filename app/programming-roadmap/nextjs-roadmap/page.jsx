@@ -392,8 +392,10 @@ export default function Article() {
         <h3>3. Bulletproof Data Fetching (With Three Game-Changing Modes)</h3>
         <p>
           Want to know the secret sauce to lightning-fast apps?{" "}
-          <strong>Smart <Link href="/react/fetching-api">data fetching</Link></strong> – and Next.js nails it with three
-          powerful tactics:
+          <strong>
+            Smart <Link href="/react/fetching-api">data fetching</Link>
+          </strong>{" "}
+          – and Next.js nails it with three powerful tactics:
         </p>
         <ol>
           <li>
@@ -567,20 +569,16 @@ export default function Article() {
         <ul>
           <li>
             Brush up on{" "}
-            <a href="https://react.dev/" target="_blank" rel="noopener">
-              React.dev
-            </a>{" "}
+            <span style={{ textDecoration: "underline", color: "blue" }}>
+              https://react.dev (React.dev)
+            </span>{" "}
             (free official docs)
           </li>
           <li>
             Explore{" "}
-            <a
-              href="https://nodejs.org/en/docs/"
-              target="_blank"
-              rel="noopener"
-            >
-              Node.js Docs
-            </a>{" "}
+            <span style={{ textDecoration: "underline", color: "blue" }}>
+              https://nodejs.org/en/docs (Node.js Docs)
+            </span>{" "}
             (with ES20 or higher)
           </li>
           <li>Try building basic CRUD APIs with Node.js and MongoDB</li>
@@ -611,9 +609,9 @@ export default function Article() {
           </li>
           <li>
             <strong>Paid</strong>: Advanced full-stack courses (e.g.,{" "}
-            <a href="https://indiancoders.in/" target="_blank" rel="noopener">
-              IndianCoders.in Next.js Masterclass
-            </a>
+            <span style={{ textDecoration: "underline", color: "blue" }}>
+              https://indiancoders.in/nextjs-masterclass
+            </span>
             ) – a two-week challenge to build real apps, packed with features
             like Google/GitHub auth, rich text editors, Cloudinary image
             uploads, protected routes, and more.

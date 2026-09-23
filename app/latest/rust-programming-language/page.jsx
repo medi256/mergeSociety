@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -149,7 +148,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "Rust Programming Language: Memory Safety and Performance Guide 2025",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -412,78 +412,79 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Rust Programming Language: Memory Safety and Performance Guide 2025",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
-    datePublished: "2025-05-18T09:00:00Z",
-    dateModified: "2025-05-18T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Massa Medi",
-      url: "https://mergesociety.com/about",
-      jobTitle: "Senior Systems Engineer & Rust Evangelist",
-      description:
-        "Experienced developer specializing in high-performance systems programming and memory-safe applications",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Rust Programming Language: Memory Safety and Performance Guide 2025",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+  datePublished: "2025-05-18T09:00:00Z",
+  dateModified: "2025-05-18T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Massa Medi",
+    url: "https://mergesociety.com/about",
+    jobTitle: "Senior Systems Engineer & Rust Evangelist",
     description:
-      "Master Rust's revolutionary approach to memory safety and high performance without garbage collection. Learn ownership, borrowing, and why Rust is loved by developers in 2025.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/latest/rust-programming-language",
+      "Experienced developer specializing in high-performance systems programming and memory-safe applications",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "rust programming, memory safety, ownership model, borrow checker, systems programming, performance optimization, cargo",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Rust Programming Language",
-      },
-      {
-        "@type": "Thing",
-        name: "Memory Safety",
-      },
-      {
-        "@type": "Thing",
-        name: "Systems Programming",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "instruction",
-    proficiencyLevel: "Beginner to Intermediate",
-    articleSection: "Programming Language Guide",
-    wordCount: 2800,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
+  },
+  description:
+    "Master Rust's revolutionary approach to memory safety and high performance without garbage collection. Learn ownership, borrowing, and why Rust is loved by developers in 2025.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/latest/rust-programming-language",
+  },
+  keywords:
+    "rust programming, memory safety, ownership model, borrow checker, systems programming, performance optimization, cargo",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Rust Programming Language",
     },
-    hasPart: [
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: ".faq-section",
-      },
-    ],
-  };
+    {
+      "@type": "Thing",
+      name: "Memory Safety",
+    },
+    {
+      "@type": "Thing",
+      name: "Systems Programming",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "instruction",
+  proficiencyLevel: "Beginner to Intermediate",
+  articleSection: "Programming Language Guide",
+  wordCount: 2800,
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+  hasPart: [
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: ".faq-section",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Rust Programming Language: Memory Safety and Performance Explained
@@ -505,15 +506,19 @@ export default function Article() {
           </time>
         </h2>
         <p>
-          <strong><Link href="/code-report/top-programming-languages-to-learn">Rust programming language</Link></strong> is revolutionizing the way
-          developers build high performance, memory safe applications. Renowned
-          for its blend of modern simplicity and low-level power, Rust has
-          quickly become the go to choice for everything from game engines to
-          operating systems and even WebAssembly targets. In this comprehensive
-          guide, we’ll explore exactly what sets Rust apart, how its unique
-          memory management model works, and why its passionate community of
-          “Rustaceans” keeps voting it the most beloved programming language
-          year after year.
+          <strong>
+            <Link href="/code-report/top-programming-languages-to-learn">
+              Rust programming language
+            </Link>
+          </strong>{" "}
+          is revolutionizing the way developers build high performance, memory
+          safe applications. Renowned for its blend of modern simplicity and
+          low-level power, Rust has quickly become the go to choice for
+          everything from game engines to operating systems and even WebAssembly
+          targets. In this comprehensive guide, we’ll explore exactly what sets
+          Rust apart, how its unique memory management model works, and why its
+          passionate community of “Rustaceans” keeps voting it the most beloved
+          programming language year after year.
         </p>
 
         <section>
@@ -534,8 +539,11 @@ export default function Article() {
             Rust rose from niche experiment to a central tool for cutting edge
             software engineering. Since 2016, the Rust community affectionately
             known as <strong>Rustaceans</strong> has consistently voted it the
-            most loved <Link href="/javascript/introduction-to-javascript">programming language</Link> according to the yearly Stack
-            Overflow Developer Survey.
+            most loved{" "}
+            <Link href="/javascript/introduction-to-javascript">
+              programming language
+            </Link>{" "}
+            according to the yearly Stack Overflow Developer Survey.
           </p>
         </section>
 
@@ -544,15 +552,19 @@ export default function Article() {
             Memory Management in Rust: No Garbage Collector, No Compromises
           </h2>
           <p>
-            Traditional high-level <Link href="/javascript/js-vs-ecmascript">programming languages</Link>, like Python or Java,
-            often rely on garbage collectors to automatically reclaim unused
-            memory. While this approach is convenient, it comes with performance
-            tradeoffs and less direct control for the developer. Lower-level
-            languages, such as C or C++, hand over memory management through
-            manual calls to functions like <code>malloc</code>,{" "}
-            <code>free</code>, <code>new</code>, or <code>delete</code>,
-            increasing both flexibility and risk for catastrophic bugs think
-            memory leaks, dangling pointers, or undefined behavior.
+            Traditional high-level{" "}
+            <Link href="/javascript/js-vs-ecmascript">
+              programming languages
+            </Link>
+            , like Python or Java, often rely on garbage collectors to
+            automatically reclaim unused memory. While this approach is
+            convenient, it comes with performance tradeoffs and less direct
+            control for the developer. Lower-level languages, such as C or C++,
+            hand over memory management through manual calls to functions like{" "}
+            <code>malloc</code>, <code>free</code>, <code>new</code>, or{" "}
+            <code>delete</code>, increasing both flexibility and risk for
+            catastrophic bugs think memory leaks, dangling pointers, or
+            undefined behavior.
           </p>
 
           <p>
@@ -654,13 +666,9 @@ export default function Article() {
           <ol>
             <li>
               <strong>Install Rust</strong> using the recommended installer from{" "}
-              <a
-                href="https://www.rust-lang.org/tools/install"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <span style={{ textDecoration: "underline", color: "#0070f3" }}>
                 rust-lang.org
-              </a>
+              </span>
               .
             </li>
             <li>
@@ -854,7 +862,6 @@ export default function Article() {
             </li>
           </ul>
         </aside>
-        <CommentSection />
       </article>
     </div>
   );

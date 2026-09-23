@@ -126,46 +126,46 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline:
-      "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/1990s_Internet_blg5oq_pgx9vk.webp",
-    datePublished: "2025-04-25T09:00:00Z",
-    dateModified: "2025-04-25T09:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Merger Society",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline:
+    "The Wild West of the 1990s Internet: From Nick.com to the Dot-Com Bubble",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/1990s_Internet_blg5oq_pgx9vk.webp",
+  datePublished: "2025-04-25T09:00:00Z",
+  dateModified: "2025-04-25T09:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Merger Society",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Journey back to the neon-flashing, GIF-bedazzled era of early websites like Nick.com, Blockbuster, and Pets.com, exploring how these digital playgrounds shaped the internet we know today.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/latest/1990s-Internet",
-    },
-    keywords:
-      "90s websites, internet nostalgia, Nick.com, dot-com bubble, early web design",
-  };
+  },
+  description:
+    "Journey back to the neon-flashing, GIF-bedazzled era of early websites like Nick.com, Blockbuster, and Pets.com, exploring how these digital playgrounds shaped the internet we know today.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/latest/1990s-Internet",
+  },
+  keywords:
+    "90s websites, internet nostalgia, Nick.com, dot-com bubble, early web design",
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Wild West of the 1990s Internet: From Nick.com to the Dot-Com
@@ -401,13 +401,9 @@ export default function Article() {
           Curious for more? Check out my deep-dive video on the rise and fall of
           Flash websites. And, if you’d like to support more explorations of
           lost digital worlds, consider joining my{" "}
-          <a
-            href="https://patreon.com/Nationsquid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Patreon
-          </a>{" "}
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            patreon.com/Nationsquid
+          </span>{" "}
           . Your support helps keep these stories alive — thanks for reading,
           reminiscing, and maybe even feeling that old urge to click “View Page
           Source” just to see what made the magic work.

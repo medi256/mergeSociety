@@ -247,20 +247,27 @@ Uncaught TypeError: Cannot read property 'name' of undefined
             <strong>JSFiddle:</strong> An online editor where you can write and
             test JavaScript code in real-time. It’s great for sharing code
             snippets and getting feedback:{" "}
-            <a href="https://jsfiddle.net">JSFiddle.net</a>.
+            <span style={{ textDecoration: "underline", color: "blue" }}>
+              JSFiddle.net
+            </span>
+            .
           </li>
           <li>
             <strong>Stack Overflow:</strong> A community of developers where you
             can ask questions and find answers to coding problems:{" "}
-            <a href="https://stackoverflow.com">StackOverflow.com</a>.
+            <span style={{ textDecoration: "underline", color: "blue" }}>
+              stackoverflow.com
+            </span>
+            .
           </li>
           <li>
             <strong>MDN Web Docs:</strong> Comprehensive documentation on
             JavaScript and web development, including explanations of common
             errors:{" "}
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors">
-              MDN JavaScript Errors
-            </a>
+            <span style={{ color: "blue" }}>
+              https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+              (MDN JavaScript Errors)
+            </span>
             .
           </li>
         </ul>

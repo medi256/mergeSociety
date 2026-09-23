@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -119,7 +118,8 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     datePublished: "2025-03-31T09:00:00Z",
     dateModified: "2025-04-25T11:30:00Z",
     author: {
@@ -231,85 +231,86 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
-    datePublished: "2025-03-31T09:00:00Z",
-    dateModified: "2025-04-25T11:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Merge Society",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+  datePublished: "2025-03-31T09:00:00Z",
+  dateModified: "2025-04-25T11:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Merge Society",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
+  },
+  description:
+    "Explore how Model Context Protocol is revolutionizing API development and AI integration, complete with a practical guide to building your first MCP server from scratch.",
+  articleBody:
+    "It seems like every developer in the world right now is catching the MCP wave. Model Context Protocol is the latest, buzzing, can't-miss way to build APIs...",
+  keywords:
+    "Model Context Protocol, MCP, AI development, Claude API, Anthropic, API architecture, vibe coding",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/ai/ai-mcp",
+  },
+  mentions: [
+    {
       "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+      name: "Anthropic",
     },
-    description:
-      "Explore how Model Context Protocol is revolutionizing API development and AI integration, complete with a practical guide to building your first MCP server from scratch.",
-    articleBody:
-      "It seems like every developer in the world right now is catching the MCP wave. Model Context Protocol is the latest, buzzing, can't-miss way to build APIs...",
-    keywords:
-      "Model Context Protocol, MCP, AI development, Claude API, Anthropic, API architecture, vibe coding",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/ai/ai-mcp",
+    {
+      "@type": "SoftwareApplication",
+      name: "Claude",
     },
-    mentions: [
-      {
-        "@type": "Organization",
-        name: "Anthropic",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Claude",
-      },
-      {
-        "@type": "Organization",
-        name: "OpenAI",
-      },
-      {
-        "@type": "Organization",
-        name: "Cevola",
-      },
-    ],
-    about: [
-      {
-        "@type": "Thing",
-        name: "API Development",
-      },
-      {
-        "@type": "Thing",
-        name: "Artificial Intelligence",
-      },
-      {
-        "@type": "Thing",
-        name: "Software Architecture",
-      },
-    ],
-    proficiencyLevel: "Intermediate",
-    isAccessibleForFree: true,
-    learningResourceType: "Tutorial",
-    teaches:
-      "Building an MCP server to connect LLMs with your data and applications",
-    programmingLanguage: ["TypeScript", "JavaScript", "Deno"],
-  };
+    {
+      "@type": "Organization",
+      name: "OpenAI",
+    },
+    {
+      "@type": "Organization",
+      name: "Cevola",
+    },
+  ],
+  about: [
+    {
+      "@type": "Thing",
+      name: "API Development",
+    },
+    {
+      "@type": "Thing",
+      name: "Artificial Intelligence",
+    },
+    {
+      "@type": "Thing",
+      name: "Software Architecture",
+    },
+  ],
+  proficiencyLevel: "Intermediate",
+  isAccessibleForFree: true,
+  learningResourceType: "Tutorial",
+  teaches:
+    "Building an MCP server to connect LLMs with your data and applications",
+  programmingLanguage: ["TypeScript", "JavaScript", "Deno"],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Rise of Model Context Protocol (MCP): Why Every Developer Is
@@ -479,10 +480,11 @@ export default function Article() {
 
         <p>
           The icing on this (horse-shaped) cake? Everything is organized in a
-          Git repo, complete with a <Link href="/latest/devops-lifecycle">CI/CD pipeline</Link>. So once our MCP server is up
-          and running, deploying to dev or staging is as easy as pushing to a
-          branch and letting Cevola handle deployments and cache busting
-          automatically.
+          Git repo, complete with a{" "}
+          <Link href="/latest/devops-lifecycle">CI/CD pipeline</Link>. So once
+          our MCP server is up and running, deploying to dev or staging is as
+          easy as pushing to a branch and letting Cevola handle deployments and
+          cache busting automatically.
         </p>
 
         <h2>Let’s Get Coding: Building the MCP Server</h2>
@@ -599,13 +601,9 @@ export default function Article() {
           Despite these potential risks, the explosion of tools being created
           with MCP is genuinely inspiring. If you want to see what the future
           holds, check out the{" "}
-          <a
-            href="https://modelcontextprotocol.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            awesome MCP repo
-          </a>{" "}
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            awesome MCP repo (https://modelcontextprotocol.io)
+          </span>{" "}
           for community projects. Just remember: always,{" "}
           <strong>vibe code responsibly</strong>.
         </p>
@@ -644,8 +642,6 @@ export default function Article() {
             <Link href="/ai/ai-agents">AI Agents Explained</Link>
           </li>
         </ul>
-
-        <CommentSection />
       </article>
     </div>
   );

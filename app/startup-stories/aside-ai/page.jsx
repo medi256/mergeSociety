@@ -662,97 +662,97 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    itemReviewed: {
-      "@type": "SoftwareApplication",
-      name: "Aside AI",
-      applicationCategory: "Sales Enablement Software",
-      operatingSystem: "Web-based",
-      offers: {
-        "@type": "Offer",
-        url: "https://asidehq.com",
-      },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.8",
-        ratingCount: "150",
-        bestRating: "5",
-      },
+  "@context": "https://schema.org",
+  "@type": "Review",
+  itemReviewed: {
+    "@type": "SoftwareApplication",
+    name: "Aside AI",
+    applicationCategory: "Sales Enablement Software",
+    operatingSystem: "Web-based",
+    offers: {
+      "@type": "Offer",
+      url: "https://asidehq.com",
     },
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: "5",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "150",
       bestRating: "5",
     },
-    author: {
-      "@type": "Person",
-      name: "Massa Medi",
-      url: "https://mergesociety.com/about",
+  },
+  reviewRating: {
+    "@type": "Rating",
+    ratingValue: "5",
+    bestRating: "5",
+  },
+  author: {
+    "@type": "Person",
+    name: "Massa Medi",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
+  },
+  datePublished: "2025-11-01T00:00:00Z",
+  reviewBody:
+    "Aside AI provides real-time sales assistance during live calls, delivering instant answers to technical questions, competitive positioning, and discovery prompts. It closes the knowledge gap between what reps know and what prospects ask, enabling confident responses without breaking call momentum.",
+  positiveNotes: {
+    "@type": "ItemList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Instant answers (8-10 seconds) during live calls",
       },
-    },
-    datePublished: "2025-11-01T00:00:00Z",
-    reviewBody:
-      "Aside AI provides real-time sales assistance during live calls, delivering instant answers to technical questions, competitive positioning, and discovery prompts. It closes the knowledge gap between what reps know and what prospects ask, enabling confident responses without breaking call momentum.",
-    positiveNotes: {
-      "@type": "ItemList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Instant answers (8-10 seconds) during live calls",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Pulls from product docs and Slack automatically",
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: "Auto-recognizes competitive questions",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "Turns misses into reusable playbooks",
-        },
-        {
-          "@type": "ListItem",
-          position: 5,
-          name: "Post-call coaching with pattern recognition",
-        },
-      ],
-    },
-    video: {
-      "@type": "VideoObject",
-      name: "Aside AI Live Demo: Answering Hard Technical Questions in Sales Calls",
-      description:
-        "Watch Aside AI deliver instant answers during a live sales call",
-      thumbnailUrl:
-        "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.webp",
-      uploadDate: "2025-11-01T00:00:00Z",
-      contentUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
-      embedUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
-    },
-  };
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Pulls from product docs and Slack automatically",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Auto-recognizes competitive questions",
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: "Turns misses into reusable playbooks",
+      },
+      {
+        "@type": "ListItem",
+        position: 5,
+        name: "Post-call coaching with pattern recognition",
+      },
+    ],
+  },
+  video: {
+    "@type": "VideoObject",
+    name: "Aside AI Live Demo: Answering Hard Technical Questions in Sales Calls",
+    description:
+      "Watch Aside AI deliver instant answers during a live sales call",
+    thumbnailUrl:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761991439097_9qz378_bq8dkv_nqrkoq.webp",
+    uploadDate: "2025-11-01T00:00:00Z",
+    contentUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
+    embedUrl: "https://www.youtube-nocookie.com/embed/To705IbdHDc",
+  },
+};
 
 const AsideAi = () => {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Cheating Is Legal In Sales Calls - Here Is How I Do It With Real-Time
@@ -781,9 +781,9 @@ const AsideAi = () => {
           talking about lying. I am talking about using live, real-time help
           that makes you sharper, faster, and way more confident when the
           conversation gets technical or competitive. That is exactly what{" "}
-          <Link href="https://asidehq.com">Aside AI</Link> does. It sits in your
-          calls, listens, and feeds you what to say, when to say it, and how to
-          nail the story every single time.
+          <span style={{ color: "blue" }}>Aside AI (https://asidehq.com)</span>{" "}
+          does. It sits in your calls, listens, and feeds you what to say, when
+          to say it, and how to nail the story every single time.
         </p>
 
         <section>
@@ -1060,12 +1060,15 @@ const AsideAi = () => {
         <section>
           <h2>Try It On Your Next Call</h2>
           <p>
-            Go to <Link href="https://asidehq.com">Aside AI</Link> and let AI to
-            back at your sales call. Click the URL exactly as it is. Spin it up.
-            Invite it to a real call. Ask your hardest technical question. Ask
-            the classic how are you different from Gong or Fireflies. See the
-            card pop up. Feel the difference when you never have to say let me
-            tweak my team and get back to you.
+            Go to{" "}
+            <span style={{ color: "blue" }}>
+              Aside AI (https://asidehq.com)
+            </span>{" "}
+            and let AI to back at your sales call. Click the URL exactly as it
+            is. Spin it up. Invite it to a real call. Ask your hardest technical
+            question. Ask the classic how are you different from Gong or
+            Fireflies. See the card pop up. Feel the difference when you never
+            have to say let me tweak my team and get back to you.
           </p>
           <p>
             The moment you see an answer land in 8 to 10 seconds, you will get

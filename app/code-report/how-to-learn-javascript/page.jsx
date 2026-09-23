@@ -671,13 +671,10 @@ export default function Article() {
         </p>
         <h3>
           2.{" "}
-          <a
-            href="https://www.theodinproject.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             The Odin Project
-          </a>
+            (https://www.theodinproject.com/paths/full-stack-javascript)
+          </span>
         </h3>
         <p>
           Let’s get real: this is the <strong>gold standard</strong> for a free,
@@ -689,13 +686,10 @@ export default function Article() {
         </p>
         <h3>
           3.{" "}
-          <a
-            href="https://scrimba.com/learn/learnjavascript"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <span style={{ textDecoration: "underline", color: "blue" }}>
             Scrimba’s Intro to JavaScript
-          </a>
+            (https://scrimba.com/learn/learnjavascript)
+          </span>
         </h3>
         <p>
           Boredom is the enemy of progress. Scrimba smashes that with
@@ -706,13 +700,9 @@ export default function Article() {
         </p>
         <h3>
           4.{" "}
-          <a
-            href="https://frontendmentor.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Front End Mentor
-          </a>
+          <span style={{ textDecoration: "underline", color: "blue" }}>
+            Front End Mentor (https://frontendmentor.io/)
+          </span>
         </h3>
         <p>
           You always hear “Just build stuff!” but when you’re starting out, UI
