@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -71,8 +70,6 @@ export const metadata = {
     canonical: "https://mergesociety.com/code-report/best-framework",
     languages: {
       "en-US": "https://mergesociety.com/code-report/best-framework",
-      "pt-BR": "https://mergesociety.com/code-report/best-framework",
-      "fr-FR": "https://mergesociety.com/code-report/best-framework",
     },
   },
   twitter: {
@@ -130,82 +127,6 @@ export const metadata = {
         "Enter AdonisJS: a full-featured framework, inspired by Laravel but built in JavaScript. On paper, this should be a match made in heaven for those seeking a Laravel-like experience in JS.",
       finalAdvice:
         "The best tech is the one that lets you launch your SaaS product into the world—quickly, reliably, and with minimal pain.",
-    },
-  },
-  jsonLd: {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
-    datePublished: "2025-04-27T10:30:00Z",
-    dateModified: "2025-04-27T10:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Rivera",
-      url: "https://mergesociety.com/about",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "IndieHacker Dev",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
-    description:
-      "Discover the most effective tech stacks and frameworks for solo developers building SaaS products, with insights on Laravel, Next.js, Django, and the often-overlooked AdonisJS.",
-    keywords:
-      "SaaS frameworks, Laravel, Next.js, Django, AdonisJS, solo developer",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/best-framework",
-    },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Web Application Frameworks",
-      },
-      {
-        "@type": "Thing",
-        name: "SaaS Development",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "SoftwareApplication",
-        name: "Laravel",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "PHP",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Next.js",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "JavaScript",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Django",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "Python",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "AdonisJS",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "JavaScript",
-      },
-    ],
-    isAccessibleForFree: true,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
     },
   },
   // Modern SEO features for 2025
@@ -394,91 +315,91 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
-    datePublished: "2025-04-27T10:30:00Z",
-    dateModified: "2025-04-27T10:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Jordan Rivera",
-      url: "https://mergesociety.com/about",
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
+  datePublished: "2025-04-27T10:30:00Z",
+  dateModified: "2025-04-27T10:30:00Z",
+  author: {
+    "@type": "Person",
+    name: "Jordan Rivera",
+    url: "https://mergesociety.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "IndieHacker Dev",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    publisher: {
-      "@type": "Organization",
-      name: "IndieHacker Dev",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
+  },
+  description:
+    "Discover the most effective tech stacks and frameworks for solo developers building SaaS products, with insights on Laravel, Next.js, Django, and the often-overlooked AdonisJS.",
+  keywords:
+    "SaaS frameworks, Laravel, Next.js, Django, AdonisJS, solo developer",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/code-report/best-framework",
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Web Application Frameworks",
     },
-    description:
-      "Discover the most effective tech stacks and frameworks for solo developers building SaaS products, with insights on Laravel, Next.js, Django, and the often-overlooked AdonisJS.",
-    keywords:
-      "SaaS frameworks, Laravel, Next.js, Django, AdonisJS, solo developer",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/code-report/best-framework",
+    {
+      "@type": "Thing",
+      name: "SaaS Development",
     },
-    about: [
-      {
-        "@type": "Thing",
-        name: "Web Application Frameworks",
-      },
-      {
-        "@type": "Thing",
-        name: "SaaS Development",
-      },
-    ],
-    mentions: [
-      {
-        "@type": "SoftwareApplication",
-        name: "Laravel",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "PHP",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Next.js",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "JavaScript",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "Django",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "Python",
-      },
-      {
-        "@type": "SoftwareApplication",
-        name: "AdonisJS",
-        applicationCategory: "Web Development Framework",
-        operatingSystem: "Cross-platform",
-        programmingLanguage: "JavaScript",
-      },
-    ],
-    isAccessibleForFree: true,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
+  ],
+  mentions: [
+    {
+      "@type": "SoftwareApplication",
+      name: "Laravel",
+      applicationCategory: "Web Development Framework",
+      operatingSystem: "Cross-platform",
+      programmingLanguage: "PHP",
     },
-  };
+    {
+      "@type": "SoftwareApplication",
+      name: "Next.js",
+      applicationCategory: "Web Development Framework",
+      operatingSystem: "Cross-platform",
+      programmingLanguage: "JavaScript",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Django",
+      applicationCategory: "Web Development Framework",
+      operatingSystem: "Cross-platform",
+      programmingLanguage: "Python",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "AdonisJS",
+      applicationCategory: "Web Development Framework",
+      operatingSystem: "Cross-platform",
+      programmingLanguage: "JavaScript",
+    },
+  ],
+  isAccessibleForFree: true,
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           The Best Frameworks for Solo SaaS Builders: Navigating Laravel,
@@ -486,9 +407,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Best_Frameworks.webp"
-          }
+          src={"/mergesociety/Best_Frameworks.webp"}
           alt=" The Best Frameworks for Solo SaaS Builders: Navigating Laravel,  Next.js, and Beyond"
           width={600}
           height={400}
@@ -522,8 +441,9 @@ export default function Article() {
           encounter household names like <strong>React</strong> and{" "}
           <strong>Angular</strong>. Go further and you'll find innovative
           full-stack frameworks such as <strong>Next.js</strong>,{" "}
-          <strong>Remix</strong> (soon merging closer with <Link href="/react/navigating-pages">React Router</Link>), and
-          even the emerging <strong>Analog.js</strong>—all within JavaScript
+          <strong>Remix</strong> (soon merging closer with{" "}
+          <Link href="/react/navigating-pages">React Router</Link>), and even
+          the emerging <strong>Analog.js</strong>—all within JavaScript
           territory. But we’re not limited to JavaScript: open-source gems like{" "}
           <strong>Laravel</strong> in the PHP world and <strong>Django</strong>{" "}
           in Python also vie for your attention.
@@ -735,7 +655,6 @@ export default function Article() {
             </Link>
           </li>
         </ul>
-        <CommentSection />
       </article>
     </div>
   );

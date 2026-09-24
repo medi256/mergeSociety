@@ -1,5 +1,7 @@
 const SITE_URL = "https://mergesociety.com";
 
+export const dynamic = "force-static";
+
 export default function robots() {
   return {
     rules: [
@@ -8,7 +10,6 @@ export default function robots() {
         allow: "/",
         disallow: ["/api/", "/admin/", "/*.json$"],
       },
-
       { userAgent: "GPTBot", allow: "/" },
       { userAgent: "ChatGPT-User", allow: "/" },
       { userAgent: "ClaudeBot", allow: "/" },

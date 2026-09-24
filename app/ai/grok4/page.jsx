@@ -35,6 +35,10 @@ export const metadata = {
     site: "@mergeSociety2",
   },
 
+  alternates: {
+    canonical: "https://mergesociety.com/ai/grok4",
+  },
+
   openGraph: {
     title: "Grok 4 AI: Elon Musk's Controversial Game-Changing Chatbot",
     description:
@@ -75,7 +79,8 @@ export const metadata = {
       "Grok 4 AI: Elon Musk's Game-Changing Chatbot Shocks the World (and Sparks Outrage)",
     description:
       "Elon Musk's Grok 4 AI claims to be the smartest chatbot ever, outperforming GPT-4 and Gemini on benchmarks while sparking controversy with uncensored responses.",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
+    image:
+      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
     author: {
       "@type": "Person",
       name: "Merge Society",
@@ -99,11 +104,6 @@ export const metadata = {
     keywords:
       "Grok 4 AI, Elon Musk, XAI, chatbot, artificial intelligence, GPT-4, controversy, AI coding",
   },
-
-  // Additional SEO Tags
-  canonical: "https://mergesociety.com/ai/grok4",
-  robots: "index, follow",
-  language: "en",
 
   googleDiscover: {
     // High-quality, relevant image is crucial
@@ -210,9 +210,10 @@ export default function Article() {
         </p>
         <p>
           Still, even in the midst of outrage, Grok seems to be pulling away in
-          the race toward AGI (that’s <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link>, for those
-          not keeping score). So the billion-dollar question: Did XAI just crack
-          the final solution for AI?
+          the race toward AGI (that’s{" "}
+          <Link href="/ai/rise-of-ai">Artificial General Intelligence</Link>,
+          for those not keeping score). So the billion-dollar question: Did XAI
+          just crack the final solution for AI?
         </p>
 
         <h2>Elon Musk, Grok 4, and the Internet’s Wildest Benchmarks</h2>

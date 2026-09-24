@@ -24,7 +24,7 @@ export const metadata = {
     title: "CSS Quiz - Test Your CSS Skills Online",
     description:
       "Free interactive CSS quiz with instant answers and scoring. See how well you really know CSS.",
-    url: "https://mergesociety.com/quizzes/cssQuiz/2q",
+    url: "https://mergesociety.com/quizzes/cssQuiz/3q",
     siteName: "Merge Society",
     locale: "en_US",
     type: "website",
@@ -48,7 +48,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://mergesociety.com/quizzes/cssQuiz/2q",
+    canonical: "https://mergesociety.com/quizzes/cssQuiz/3q",
   },
 };
 
