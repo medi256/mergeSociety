@@ -503,11 +503,11 @@ const Section3 = () => {
   return (
     <section className="section3">
       <div className="h-ai">
-        <h1>Tech</h1>
+        <h1>Tech Blog Posts</h1>
       </div>
 
       <div className="bg-grid">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/tech/${project.articleRoute}`}
@@ -520,7 +520,7 @@ const Section3 = () => {
                 width={600}
                 height={400}
                 className="bg-image"
-                priority
+                priority={index < 2}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>

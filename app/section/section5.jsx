@@ -36,8 +36,7 @@ const Section5 = () => {
       id: 4,
       title:
         "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
-      image:
-        "/mergesociety/Tech_Layoffs.webp",
+      image: "/mergesociety/Tech_Layoffs.webp",
       alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
       date: " April 27, 2025",
       articleRoute: "hiring",
@@ -46,8 +45,7 @@ const Section5 = () => {
       id: 5,
       title:
         "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
-      image:
-        "/mergesociety/Satya_Nadella.jpg",
+      image: "/mergesociety/Satya_Nadella.jpg",
       alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
       date: " April 27, 2025",
       articleRoute: "satya",
@@ -64,14 +62,18 @@ const Section5 = () => {
     },
   ];
 
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
+
   return (
-    <>
+    <section>
       <div className="h-ai">
-        <h2>Startup Stories</h2>
+        <h2>Startup Stories Blog Posts</h2>
       </div>
 
       <div className="bg-grid-4">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/startup-stories/${project.articleRoute}`}
@@ -84,7 +86,6 @@ const Section5 = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -100,7 +101,12 @@ const Section5 = () => {
           </Link>
         ))}
       </div>
-    </>
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/startup-stories" className="next-btn">
+          See all Startup Stories articles →
+        </Link>
+      </div>
+    </section>
   );
 };
 

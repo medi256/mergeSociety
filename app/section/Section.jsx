@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./section.css";
-import MoreArticles from "../moreButton";
 
 export default function GridNews() {
   return (
-    <>
+    <main>
       <div className="h-ai">
         <h1>Latest Blog Posts</h1>
       </div>
@@ -35,6 +34,8 @@ export default function GridNews() {
                 alt="Tutorial Hell"
                 width={400}
                 height={250}
+                priority
+                fetchPriority="high"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 400px"
               />
               <h2>
@@ -144,8 +145,12 @@ export default function GridNews() {
             </Link>
           </div>
         </aside>
-        <MoreArticles route={"/latest"} />
+        <div style={{ textAlign: "center", marginTop: "24px" }}>
+          <Link href="/latest" className="next-btn">
+            See all Latest articles →
+          </Link>
+        </div>
       </section>
-    </>
+    </main>
   );
 }

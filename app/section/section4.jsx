@@ -61,22 +61,25 @@ const Section4 = () => {
     {
       id: 7,
       title: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
-      image:
-        "/mergesociety/desktop_apps.webp",
+      image: "/mergesociety/desktop_apps.webp",
       alt: "Cool Tools I’ve Been Using Lately (and Why They Stuck)",
       date: "April 30, 2025",
       articleRoute: "another-tool",
     },
   ];
 
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
+
   return (
     <section>
       <div className="h-ai">
-        <h2>Apps</h2>
+        <h2>Apps Blog Posts</h2>
       </div>
 
       <div className="bg-grid-4">
-        {blogPosts.map((project) => (
+        {latestPosts.map((project) => (
           <Link
             key={project.id}
             href={`/apps/${project.articleRoute}`}
@@ -89,7 +92,6 @@ const Section4 = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -104,6 +106,11 @@ const Section4 = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/apps" className="next-btn">
+          See all Apps articles →
+        </Link>
       </div>
     </section>
   );

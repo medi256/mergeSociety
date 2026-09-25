@@ -150,8 +150,7 @@ const Section5 = () => {
       id: 4,
       title:
         "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many Behind—Despite Record Profits",
-      image:
-        "/mergesociety/Tech_Layoffs.webp",
+      image: "/mergesociety/Tech_Layoffs.webp",
       alt: "Tech’s Hidden Shift: Why the 2025 Job Market Is Leaving So Many  Behind—Despite Record Profits",
       date: " April 27, 2025",
       articleRoute: "hiring",
@@ -160,8 +159,7 @@ const Section5 = () => {
       id: 5,
       title:
         "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunit",
-      image:
-        "/mergesociety/Satya_Nadella.jpg",
+      image: "/mergesociety/Satya_Nadella.jpg",
       alt: " Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping   Business, Science, and Opportunit",
       date: " April 27, 2025",
       articleRoute: "satya",
@@ -260,8 +258,7 @@ const Section5 = () => {
       id: 16,
       title:
         "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
-      image:
-        "/mergesociety/AI_Agents.webp",
+      image: "/mergesociety/AI_Agents.webp",
       alt: "Giving AI Agents Money - Fear, Fails, and the Safer Way With Locus AI",
       date: "November 2, 2025",
       articleRoute: "locus-ai",
@@ -282,11 +279,11 @@ const Section5 = () => {
   return (
     <>
       <div className="h-ai">
-        <h1>Startup Stories</h1>
+        <h1>Startup Stories Blog Posts</h1>
       </div>
 
       <div className="bg-grid-4">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/startup-stories/${project.articleRoute}`}
@@ -299,7 +296,7 @@ const Section5 = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
+                priority={index < 2}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>

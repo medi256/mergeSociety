@@ -102,8 +102,7 @@ const Section6 = () => {
       id: 2,
       title:
         "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
-      image:
-        "/mergesociety/Best_Frameworks.webp",
+      image: "/mergesociety/Best_Frameworks.webp",
       alt: " The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
       date: "April 27, 2025",
       articleRoute: "best-framework",
@@ -130,8 +129,7 @@ const Section6 = () => {
       id: 5,
       title:
         "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-      image:
-        "/mergesociety/Algorithms.webp",
+      image: "/mergesociety/Algorithms.webp",
       alt: "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
       date: "April 27, 2025",
       articleRoute: "algorithms",
@@ -147,8 +145,7 @@ const Section6 = () => {
     {
       id: 7,
       title: "Every React Concept Explained",
-      image:
-        "/mergesociety/Reactjs.webp",
+      image: "/mergesociety/Reactjs.webp",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -283,8 +280,7 @@ const Section6 = () => {
       id: 22,
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      image:
-        "/mergesociety/API_vs_SDK.webp",
+      image: "/mergesociety/API_vs_SDK.webp",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",
@@ -514,11 +510,11 @@ const Section6 = () => {
   return (
     <section>
       <div className="h-ai">
-        <h1>Code Report</h1>
+        <h1>Code Report Blog Posts</h1>
       </div>
 
       <div className="bg-grid">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/code-report/${project.articleRoute}`}
@@ -531,7 +527,7 @@ const Section6 = () => {
                 width={600}
                 height={400}
                 className="bg-image"
-                priority
+                priority={index < 2}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>

@@ -32,13 +32,14 @@ const Section8 = () => {
     },
   ];
 
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date),
-  );
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
+
   return (
     <section>
       <div className="h-ai">
-        <h2>Programming language Roadmap</h2>
+        <h2>Programming language Roadmap Blog Posts</h2>
       </div>
 
       <div className="bg-grid-4">
@@ -55,7 +56,6 @@ const Section8 = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -70,6 +70,11 @@ const Section8 = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/programming-roadmap" className="next-btn">
+          See all Programming language Roadmap articles →
+        </Link>
       </div>
     </section>
   );

@@ -224,18 +224,18 @@ const Section3 = () => {
     },
   ];
 
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date),
-  );
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
 
   return (
     <section className="section3">
       <div className="h-ai">
-        <h2>Tech</h2>
+        <h2>Tech Blog Posts</h2>
       </div>
 
       <div className="bg-grid">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/tech/${project.articleRoute}`}
@@ -248,7 +248,6 @@ const Section3 = () => {
                 width={600}
                 height={400}
                 className="bg-image"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -263,6 +262,12 @@ const Section3 = () => {
             </div>
           </Link>
         ))}
+      </div>
+
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/tech" className="next-btn">
+          See all Tech articles →
+        </Link>
       </div>
     </section>
   );

@@ -106,95 +106,6 @@ export const metadata = {
     "article:tag":
       "Programming, Web Development, Career Guide, JavaScript, Python, Java, Developer Jobs, Coding",
     "og:type": "website",
-
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      name: "Programming Language Roadmaps 2025",
-      description:
-        "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
-      url: "https://mergesociety.com/programming-roadmap",
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            item: {
-              "@type": "Course",
-              name: "Full Stack JavaScript Developer Roadmap 2025",
-              description:
-                "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
-              url: "https://mergesociety.com/programming-roadmap/javascript-roadmap", // Replace with your actual URL
-              image:
-                "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
-              provider: {
-                "@type": "Organization",
-                name: "Merge Society",
-              },
-              educationalLevel: "Beginner to Advanced",
-              teaches: [
-                "JavaScript",
-                "React",
-                "Node.js",
-                "Full Stack Development",
-              ],
-              timeRequired: "P9M",
-              courseMode: "online",
-              inLanguage: "en",
-              datePublished: "2025-07-08",
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.9",
-                ratingCount: "127",
-                bestRating: "5",
-              },
-            },
-          },
-        ],
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Merge Society",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://mergesociety.com/MS.png",
-        },
-      },
-      datePublished: "2025-07-08T00:00:00.000Z",
-      dateModified: "2025-07-08T00:00:00.000Z",
-      image: {
-        "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
-        width: 1200,
-        height: 630,
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://mergesociety.com/programming-roadmap",
-      },
-      keywords:
-        "programming language roadmap 2025, developer career guide, javascript roadmap, python developer roadmap, programming career path",
-      about: [
-        {
-          "@type": "Thing",
-          name: "Programming Education",
-        },
-        {
-          "@type": "Thing",
-          name: "Career Development",
-        },
-        {
-          "@type": "Thing",
-          name: "Software Engineering",
-        },
-      ],
-      audience: {
-        "@type": "Audience",
-        audienceType:
-          "Aspiring Developers, Career Changers, Programming Students",
-      },
-    }),
   },
 
   alternates: {
@@ -296,11 +207,11 @@ const Section8 = () => {
         }}
       />
       <div className="h-ai">
-        <h1>Programming language Roadmap</h1>
+        <h1>Programming language Roadmap Blog Posts</h1>
       </div>
 
       <div className="bg-grid-4">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/programming-roadmap/${project.articleRoute}`}
@@ -313,7 +224,7 @@ const Section8 = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
+                priority={index < 2}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>

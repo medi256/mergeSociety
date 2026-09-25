@@ -110,8 +110,7 @@ const Section2 = () => {
       id: 1,
       title:
         "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
-      image:
-        "/mergesociety/Geoffrey_Hinton.webp",
+      image: "/mergesociety/Geoffrey_Hinton.webp",
       alt: "Geoffrey Hinton: The “Godfather of AI” Sounds the Alarm: From Neural Nets to Nobel Prizes and the Uncharted Future of Artificial Intelligence",
       date: "April 27, 2025",
       articleRoute: "god-father-of-ai",
@@ -210,8 +209,7 @@ const Section2 = () => {
       id: 12,
       title:
         "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
-      image:
-        "/mergesociety/AI_Automation.webp",
+      image: "/mergesociety/AI_Automation.webp",
       alt: "Is AI Making Us Dumber? Navigating the Cognitive Costs of Automation in the Knowledge Age",
       date: "April 29, 2025",
       articleRoute: "is-ai-making-us-dumb",
@@ -220,8 +218,7 @@ const Section2 = () => {
       id: 13,
       title:
         "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
-      image:
-        "/mergesociety/Death_of_Coding.webp",
+      image: "/mergesociety/Death_of_Coding.webp",
       alt: "The Death of Coding: Why Chasing Tech Jobs Might Keep You Broke in the Age of AI and Bitcoin",
       date: "April 29, 2025",
       articleRoute: "ai-vs-jobs",
@@ -354,11 +351,11 @@ const Section2 = () => {
   return (
     <>
       <div className="h-ai">
-        <h1>AI</h1>
+        <h1>AI Blog Posts</h1>
       </div>
 
       <div className="bg-grid">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link key={project.id} href={`/ai/${project.articleRoute}`} passHref>
             <div className="bg-image">
               <Image
@@ -366,7 +363,7 @@ const Section2 = () => {
                 alt={project.alt}
                 width={600}
                 height={400}
-                priority
+                priority={index < 2}
                 className="bg-image"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />

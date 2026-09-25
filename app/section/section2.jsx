@@ -108,13 +108,14 @@ const Section2 = () => {
     },
   ];
 
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date),
-  );
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
+
   return (
-    <>
+    <section>
       <div className="h-ai">
-        <h2>AI</h2>
+        <h2>AI Blog Posts</h2>
       </div>
 
       <div className="bg-grid">
@@ -127,7 +128,6 @@ const Section2 = () => {
                 width={600}
                 height={400}
                 className="bg-image"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -143,7 +143,12 @@ const Section2 = () => {
           </Link>
         ))}
       </div>
-    </>
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/ai" className="next-btn">
+          See all AI articles →
+        </Link>
+      </div>
+    </section>
   );
 };
 

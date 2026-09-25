@@ -16,8 +16,7 @@ const Section6 = () => {
     {
       id: 7,
       title: "Every React Concept Explained",
-      image:
-        "/mergesociety/Reactjs.webp",
+      image: "/mergesociety/Reactjs.webp",
       alt: "Every React Concept Explained",
       date: "May 2, 2025",
       articleRoute: "all-react-concepts",
@@ -152,8 +151,7 @@ const Section6 = () => {
       id: 22,
       title:
         "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
-      image:
-        "/mergesociety/API_vs_SDK.webp",
+      image: "/mergesociety/API_vs_SDK.webp",
       alt: "APIs vs SDKs Explained: How They Turbocharge Modern Cloud App Development",
       date: "May 10, 2025",
       articleRoute: "sdk-vs-api",
@@ -214,14 +212,14 @@ const Section6 = () => {
     },
   ];
 
-  const latestPosts = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date),
-  );
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6);
 
   return (
     <section>
       <div className="h-ai">
-        <h2>Code Report</h2>
+        <h2>Code Report Blog Posts</h2>
       </div>
 
       <div className="bg-grid">
@@ -238,7 +236,6 @@ const Section6 = () => {
                 width={600}
                 height={400}
                 className="bg-image"
-                priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>
@@ -253,6 +250,11 @@ const Section6 = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div style={{ textAlign: "center", marginTop: "24px" }}>
+        <Link href="/code-report" className="next-btn">
+          See all Code Report articles →
+        </Link>
       </div>
     </section>
   );

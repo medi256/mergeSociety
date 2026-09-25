@@ -100,8 +100,7 @@ const GridNews = () => {
       id: 2,
       title:
         "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
-      image:
-        "/mergesociety/Software_devekopers.webp",
+      image: "/mergesociety/Software_devekopers.webp",
       alt: "How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)",
       date: " April 27, 2025",
       articleRoute: "ai-is-officially-here",
@@ -213,8 +212,7 @@ const GridNews = () => {
     {
       id: 18,
       title: `Git For Beginners: A Complete Step-by-Step Guide to Version Control`,
-      image:
-        "/mergesociety/Git_for_beginners.webp",
+      image: "/mergesociety/Git_for_beginners.webp",
       alt: "Git For Beginners: A Complete Step-by-Step Guide to Version Control",
       date: "May 17, 2025",
       articleRoute: "git-explained",
@@ -222,8 +220,7 @@ const GridNews = () => {
     {
       id: 19,
       title: `AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster`,
-      image:
-        "/mergesociety/AWS.webp",
+      image: "/mergesociety/AWS.webp",
       alt: "AWS: The Ultimate Guide to Cloud Computing’s Wild Rollercoaster",
       date: "May 17, 2025",
       articleRoute: "aws-explained",
@@ -365,11 +362,11 @@ const GridNews = () => {
   return (
     <>
       <div className="h-ai">
-        <h1 className="latest-heading">Latest In Tech</h1>
+        <h1 className="latest-heading">Latest Tech Blog Posts</h1>
       </div>
 
       <div className="bg-grid-4">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/latest/${project.articleRoute}`}
@@ -382,7 +379,7 @@ const GridNews = () => {
                 width={600}
                 height={400}
                 className="bg-image-4"
-                priority
+                priority={index < 2}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
               />
             </div>

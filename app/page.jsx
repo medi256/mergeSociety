@@ -14,25 +14,19 @@ import Section7 from "./section/section7";
 export default function Home() {
   return (
     <div>
-      {/* <NewsTicker /> */}
       <GridNews />
-      <section>
-        <Section2 />
 
-        <MoreArticles route={"/ai"} />
-        <Section5 />
-        <MoreArticles route={"/startup-stories"} />
+      <Section2 />
 
-        <Section3 />
-        <MoreArticles route={"/tech"} />
-      </section>
+      <Section5 />
+
+      <Section3 />
+
       <Section4 />
-      <MoreArticles route={"/apps"} />
+
       <Section6 />
 
-      <MoreArticles route={"/code-report"} />
       <Section7 />
-      <MoreArticles route={"/programming-roadmap"} />
     </div>
   );
 }
