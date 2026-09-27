@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="homepage-footer">
         <div className="footer-container">
           <div className="footer-social">
-            <h6 className="footer-heading">Follow Us</h6>
+            <h2 className="footer-heading">Follow Us</h2>
             <ul className="social-links">
               <li>
                 <Link
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-quick-links">
-            <h6 className="footer-heading">Quick Links</h6>
+            <h2 className="footer-heading">Quick Links</h2>
             <ul>
               <li>
                 <Link href="/" aria-label="Browse Home Page">
@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-legal">
-            <h6 className="footer-heading">Legal</h6>
+            <h2 className="footer-heading">Legal</h2>
             <ul>
               <li>
                 <Link href="/privacy" aria-label="Privacy Policy">

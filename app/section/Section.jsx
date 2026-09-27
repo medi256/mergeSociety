@@ -4,7 +4,7 @@ import "./section.css";
 
 export default function GridNews() {
   return (
-    <main>
+    <div>
       <div className="h-ai">
         <h1>Latest Blog Posts</h1>
       </div>
@@ -151,6 +151,6 @@ export default function GridNews() {
           </Link>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
