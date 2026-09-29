@@ -52,3 +52,4 @@ scripts
 replace-urls.js
 seo-audit-images.csv
 seo-audit-pages.csv
+verify.sh
