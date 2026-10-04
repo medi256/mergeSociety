@@ -1,4 +1,4 @@
-import CommentSection from "@/app/commentSection";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -436,7 +436,7 @@ export default function Article() {
           yourself that the server-side AI craves. And maybe—just maybe—cringe
           is the new currency of success.
         </p>
-        <CommentSection />
+        
       </article>
     </div>
   );

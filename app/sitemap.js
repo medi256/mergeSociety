@@ -11,7 +11,7 @@ function walk(dir, segments = []) {
 
   if (items.some((i) => i.isFile() && /^page\.jsx?$/.test(i.name))) {
     const routePath = segments.length ? `/${segments.join("/")}` : "";
-    entries.push({ url: `${BASE_URL}${routePath}`, lastModified: new Date() });
+    entries.push({ url: `${BASE_URL}${routePath}` });
   }
 
   for (const item of items) {

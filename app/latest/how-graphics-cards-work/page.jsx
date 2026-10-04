@@ -1,4 +1,4 @@
-import CommentSection from "@/app/commentSection";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -767,7 +767,7 @@ export default function Article() {
           Thanks for reading—and for joining us inside the mind of modern
           graphics cards.
         </p>
-        <CommentSection />
+        
       </article>
     </div>
   );

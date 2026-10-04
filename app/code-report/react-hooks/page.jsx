@@ -5,7 +5,7 @@ import Image from "next/image";
 // import SyntaxHighlighter from "react-syntax-highlighter";
 
 // import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import CommentSection from "@/app/commentSection";
+
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -1048,7 +1048,7 @@ export default function Article() {
             build the future—or will you be stuck watching from the sidelines?
           </p>
         </section>
-        <CommentSection />
+        
       </article>
     </div>
   );

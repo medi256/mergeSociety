@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 // import Image from "next/image";
-import CommentSection from "@/app/commentSection";
+
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -1016,7 +1016,7 @@ label.setText(petName + " has entered the building.");`}
           </p>
         </section>
 
-        <CommentSection />
+        
       </article>
     </div>
   );

@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./nav/NavBar";
 import Script from "next/script";
@@ -6,19 +5,11 @@ import Script from "next/script";
 import Footer from "./footer";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   metadataBase: new URL("https://mergesociety.com"),
-  title: "Code Report | AI, Tech, Interviews, and Startup Stories",
+  title:
+    "Merge Society | AI, Tech, Programming, Startup Stories, and Interviews",
   description:
     "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
   keywords: [
@@ -103,7 +94,8 @@ export const metadata = {
     bing: "6eb2ef8d3996f66caeecf3d7cef9b4ae",
   },
   openGraph: {
-    title: "Merge Society | AI, Tech, Interviews, and Startup Stories",
+    title:
+      "Merge Society | AI, Tech, Programming, Startup Stories, and Interviews",
     description:
       "Merge Society | Reporting on the business of technology, startups, venture capital funding, AI, programming languages and Silicon Valley",
     url: "https://mergesociety.com",
@@ -140,9 +132,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="preconnect" href="https://www.googletagmanager.com" />
       <link rel="preconnect" href="https://img.mergesociety.com" />
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         <NavBar />
         <main>{children}</main>
         <Footer />

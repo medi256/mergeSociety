@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CommentSection from "@/app/commentSection";
+
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -417,7 +417,7 @@ export default function Article() {
           Got what it takes? Start prepping now. When you get that acceptance
           letter, you’ll know this is just the beginning.
         </p>
-        <CommentSection />
+        
       </article>
     </div>
   );

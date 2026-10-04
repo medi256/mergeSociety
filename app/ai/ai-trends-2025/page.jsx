@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import CommentSection from "@/app/commentSection";
+
 import Image from "next/image";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
@@ -819,7 +819,7 @@ export default function Article() {
           </li>
         </ul>
 
-        <CommentSection />
+        
       </article>
     </div>
   );

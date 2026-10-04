@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 // import Image from "next/image";
-import CommentSection from "@/app/commentSection";
+
 
 import SyntaxHighlighter from "react-syntax-highlighter";
 
@@ -1036,7 +1036,7 @@ app.use(express.json());
           your first endpoint *right now*. If you’re hungry for more advanced
           secrets, stay tuned… because we’re just getting started.
         </p>
-        <CommentSection />
+        
       </article>
     </div>
   );

@@ -1,4 +1,4 @@
-import CommentSection from "@/app/commentSection";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -530,7 +530,7 @@ export default function Article() {
           you on the next adventure.
         </p>
         <h2>Recommended Articles</h2>
-        <CommentSection />
+        
       </article>
     </div>
   );

@@ -1,4 +1,3 @@
-import CommentSection from "@/app/commentSection";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -84,9 +83,7 @@ export default function Article() {
         </h1>
 
         <Image
-          src={
-            "/mergesociety/Software_devekopers.webp"
-          }
+          src={"/mergesociety/Software_devekopers.webp"}
           alt="How Smart Developers Really Use AI—From Tutor to Supercharged Intern (and Why You Should Too)"
           width={600}
           height={400}
@@ -367,7 +364,6 @@ export default function Article() {
           new favorite source for dev news, tricks, and delightful nerdiness.
           See you in your inbox!
         </p>
-        <CommentSection />
       </article>
     </div>
   );

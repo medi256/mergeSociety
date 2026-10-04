@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
-// import CommentSection from "@/app/commentSection";
+// 
 
 export const metadata = {
   title:

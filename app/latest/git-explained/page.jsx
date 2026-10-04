@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
-// import CommentSection from "@/app/commentSection";
+// 
 
 export const metadata = {
   title: "Git For Beginners: Complete Step-by-Step Guide to Version Control",

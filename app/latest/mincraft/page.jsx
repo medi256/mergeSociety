@@ -1,4 +1,4 @@
-import CommentSection from "@/app/commentSection";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -393,7 +393,7 @@ export default function Article() {
           illuminating look at how real computers work—one Redstone tick at a
           time.
         </p>
-        <CommentSection />
+        
       </article>
     </div>
   );

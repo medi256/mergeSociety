@@ -14,8 +14,7 @@ const CONFIG = {
 
   // Text replacements
   replacements: {
-    "/mergesociety/igor-omilaev-gVQLAbGVB6Q-unsplash_brxyob_lhw15u.jpg":
-      "/mergesociety/Software_devekopers.jpg",
+    'import CommentSection from "@/app/commentSection";': "",
   },
 
   // Create a backup before changing files
