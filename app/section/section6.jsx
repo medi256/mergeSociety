@@ -223,7 +223,7 @@ const Section6 = () => {
       </div>
 
       <div className="bg-grid">
-        {latestPosts.map((project) => (
+        {latestPosts.map((project, index) => (
           <Link
             key={project.id}
             href={`/code-report/${project.articleRoute}`}
@@ -232,11 +232,15 @@ const Section6 = () => {
             <div className="bg-image">
               <Image
                 src={project.image}
-                alt={project.alt}
+                alt=""
                 width={600}
                 height={400}
                 className="bg-image"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
+                sizes={
+                  index === 0
+                    ? "(max-width: 900px) calc(100vw - 4rem), 66vw"
+                    : "100px"
+                }
               />
             </div>
             <div className="bg-content">

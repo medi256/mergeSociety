@@ -739,10 +739,10 @@ body {
 .next-btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border: 2px solid #f34900;
+  border: 2px solid #b93800;
   border-radius: 9999px; /* full rounded */
   background-color: transparent;
-  color: #f34900;
+  color: #b93800;
   font-weight: 600;
   font-size: 1rem;
   text-align: center;
@@ -753,7 +753,7 @@ body {
 }
 
 .next-btn:hover {
-  background-color: #f34900;
+  background-color: #b93800;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);

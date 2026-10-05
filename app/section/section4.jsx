@@ -88,11 +88,11 @@ const Section4 = () => {
             <div className="bg-image-4">
               <Image
                 src={project.image}
-                alt={project.alt}
+                alt=""
                 width={600}
                 height={400}
                 className="bg-image-4"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 600px"
+                sizes="100px"
               />
             </div>
             <div className="bg-content-4">

@@ -58,7 +58,6 @@ export const metadata = {
     locale: "en_US",
     type: "article",
     publishedTime: "2025-12-06T00:00:00Z",
-    modifiedTime: new Date().toISOString(),
     section: "Programming Education",
     tags: [
       "Free Coding Resources",
@@ -116,8 +115,6 @@ export const metadata = {
   other: {
     // Freshness signals
     "article:published_time": "2025-12-06T00:00:00Z",
-    "article:modified_time": new Date().toISOString(),
-    "og:updated_time": new Date().toISOString(),
 
     // Content metrics
     readingTime: "14 minutes",
@@ -245,7 +242,6 @@ export const metadata = {
         caption: "Top free coding learning websites comparison",
       },
       datePublished: "2025-12-06T00:00:00Z",
-      dateModified: new Date().toISOString(),
       author: {
         "@type": "Person",
         name: "Massa Medi",
@@ -303,44 +299,6 @@ export const metadata = {
             price: "0",
             priceCurrency: "USD",
           },
-        },
-      ],
-      review: [
-        {
-          "@type": "Review",
-          itemReviewed: {
-            "@type": "SoftwareApplication",
-            name: "SoloLearn",
-          },
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          author: {
-            "@type": "Person",
-            name: "Massa Medi",
-          },
-          reviewBody:
-            "Far superior free alternative to Codecademy with 100% free courses, mobile apps, and active community support",
-        },
-        {
-          "@type": "Review",
-          itemReviewed: {
-            "@type": "SoftwareApplication",
-            name: "freeCodeCamp",
-          },
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "5",
-            bestRating: "5",
-          },
-          author: {
-            "@type": "Person",
-            name: "Massa Medi",
-          },
-          reviewBody:
-            "Completely free nonprofit with project-based learning and verified certifications you can showcase",
         },
       ],
       teaches: [
@@ -642,7 +600,6 @@ const articleSchema = {
     caption: "Top free coding learning websites comparison",
   },
   datePublished: "2025-12-06T00:00:00Z",
-  dateModified: new Date().toISOString(),
   author: {
     "@type": "Person",
     name: "Massa Medi",
@@ -699,44 +656,6 @@ const articleSchema = {
         price: "0",
         priceCurrency: "USD",
       },
-    },
-  ],
-  review: [
-    {
-      "@type": "Review",
-      itemReviewed: {
-        "@type": "SoftwareApplication",
-        name: "SoloLearn",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-      },
-      reviewBody:
-        "Far superior free alternative to Codecademy with 100% free courses, mobile apps, and active community support",
-    },
-    {
-      "@type": "Review",
-      itemReviewed: {
-        "@type": "SoftwareApplication",
-        name: "freeCodeCamp",
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      author: {
-        "@type": "Person",
-        name: "Massa Medi",
-      },
-      reviewBody:
-        "Completely free nonprofit with project-based learning and verified certifications you can showcase",
     },
   ],
   teaches: [

@@ -51,7 +51,7 @@ export const metadata = {
     ],
     locale: "en_US",
     type: "article",
-    publishedTime: "2024-11-15T09:00:00Z",
+    publishedTime: "2025-05-06T00:00:00Z",
     modifiedTime: "2025-06-29T14:30:00Z", // Updated today
     section: "AI Research Technology",
     tags: [
@@ -114,7 +114,7 @@ export const metadata = {
   other: {
     readingTime: "12 minutes",
     contentType: "Ultimate Guide & Tool Review",
-    publishDate: "November 15, 2024",
+    publishDate: "May 6, 2025",
     lastUpdated: "June 29, 2025",
     updateReason:
       "Added new AI tools, updated features, refreshed workflow strategies",
@@ -182,7 +182,7 @@ export const metadata = {
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
     image:
       "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
-    datePublished: "2024-11-15T09:00:00Z",
+    datePublished: "2025-05-06T00:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
     author: {
@@ -255,13 +255,6 @@ export const metadata = {
     articleSection: "Technology",
     wordCount: 3500,
 
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "247",
-      bestRating: "5",
-      worstRating: "1",
-    },
   },
 
   // 2025 SEO Optimizations
@@ -417,7 +410,7 @@ const articleSchema = {
       "AI Tools for Research: 10 Game-Changing Free Tools Every Researcher Needs in 2025",
     image:
       "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/solen-feyissa-hWSNT_Pp4x4-unsplash_hogopw_cm1nso.webp",
-    datePublished: "2024-11-15T09:00:00Z",
+    datePublished: "2025-05-06T00:00:00Z",
     dateModified: "2025-06-29T14:30:00Z",
 
     author: {
@@ -490,13 +483,6 @@ const articleSchema = {
     articleSection: "Technology",
     wordCount: 3500,
 
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "247",
-      bestRating: "5",
-      worstRating: "1",
-    },
   };
 
 export default function Article() {
