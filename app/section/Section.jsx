@@ -14,7 +14,7 @@ export default function GridNews() {
             <Link href="/latest/mixing-programming-languages-in-one-executable">
               <Image
                 src="/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
-                alt=""
+                alt="Mixing programming languages in one executable"
                 width={400}
                 height={250}
                 priority
@@ -31,7 +31,7 @@ export default function GridNews() {
             <Link href="/code-report/tutorial-hell">
               <Image
                 src="/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
-                alt=""
+                alt="Tutorial Hell - How to Escape Tutorial Hell and Actually Learn to Code"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -46,7 +46,7 @@ export default function GridNews() {
             <Link href="/code-report/what-is-a-compiler">
               <Image
                 src="/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
-                alt=""
+                alt="Why We Need a Translator in Programming and What a Compiler Really Is"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -62,7 +62,7 @@ export default function GridNews() {
             <Link href="/latest/data-structures-explained">
               <Image
                 src="/mergesociety/data_structures_explained.webp"
-                alt=""
+                alt="Data Structures and Big O For Coding Interviews - Data Structures Explained"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -80,7 +80,7 @@ export default function GridNews() {
             <Link href="/latest/c-vs-cpp-vs-csharp">
               <Image
                 src="/mergesociety/audio_1755435512328_9gyci_tujfgy_pn1l4g.webp"
-                alt=""
+                alt="C vs C++ vs C#"
                 width={600}
                 height={350}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 50vw, 600px"
@@ -95,7 +95,7 @@ export default function GridNews() {
             <Link href="/latest/top-free-websites-to-learn-programming">
               <Image
                 src="/mergesociety/top_ten_websites_to_learn_coding_for_free.webp"
-                alt=""
+                alt="10 Best Websites To Learn How To Code For Free"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -107,7 +107,7 @@ export default function GridNews() {
             <Link href="/latest/github-repositories">
               <Image
                 src="/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
-                alt=""
+                alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
                 width={600}
                 height={350}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -122,7 +122,7 @@ export default function GridNews() {
             <Link href="/latest/most-used-git-commands">
               <Image
                 src="/mergesociety/most_used_git_commands.webp"
-                alt=""
+                alt="Most used git commands workflow Guide"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
@@ -134,7 +134,7 @@ export default function GridNews() {
             <Link href="/latest/list-of-free-apis">
               <Image
                 src="/mergesociety/free_apis.webp"
-                alt=""
+                alt="40 Free APIs You Can Use In Your Next Programming Project"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"

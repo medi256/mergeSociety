@@ -124,7 +124,7 @@ const Section2 = () => {
             <div className="bg-image">
               <Image
                 src={project.image}
-                alt=""
+                alt={project.alt}
                 width={600}
                 height={400}
                 className="bg-image"
