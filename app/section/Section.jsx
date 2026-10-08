@@ -11,20 +11,17 @@ export default function GridNews() {
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
-            <Link href="/latest/mixing-programming-languages-in-one-executable">
+            <Link href="/latest/the-best-linux-distros-in-2026-which-one-should-you-actually-commit-to">
               <Image
-                src="/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp"
-                alt="Mixing programming languages in one executable"
+                src="/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png"
+                alt="The best Linux distros for gaming in 2026"
                 width={400}
                 height={250}
                 priority
                 fetchPriority="high"
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
-              <h2>
-                Mixing Programming Languages in One Executable: How Compilers,
-                Linkers, and ABIs Make It Work
-              </h2>
+              <h2>The best Linux distros for gaming in 2026</h2>
             </Link>
           </div>
           <div>

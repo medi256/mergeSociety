@@ -353,6 +353,15 @@ const GridNews = () => {
       date: "December 22, 2025",
       articleRoute: "react-nextjs-vulnerability",
     },
+    {
+      id: 36,
+      title: `The best Linux distros for gaming in 2026`,
+      image: "/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png",
+      alt: "The best Linux distros for gaming in 2026",
+      date: "October 8, 2026",
+      articleRoute:
+        "the-best-linux-distros-in-2026-which-one-should-you-actually-commit-to",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

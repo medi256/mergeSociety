@@ -408,79 +408,79 @@ export const metadata = {
 };
 
 const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline:
-      "Best Operating System for Programming 2025: Mac vs Windows vs Linux Developer Guide",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
-    datePublished: "2025-08-30T12:00:00Z",
-    dateModified: "2025-08-30T12:00:00Z",
-    author: {
-      "@type": "Person",
-      name: "Massa Medi",
-      url: "https://www.instagram.com/mergesociety_/",
-      jobTitle: "Software Developer & Technical Writer",
-      description:
-        "Experienced software developer with expertise across multiple operating systems and development environments",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Merge Society",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mergesociety.com/MS.png",
-      },
-    },
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline:
+    "Best Operating System for Programming 2025: Mac vs Windows vs Linux Developer Guide",
+  image:
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756543123095_8a4545_u0bzv2_mkuiue.webp",
+  datePublished: "2025-08-30T12:00:00Z",
+  dateModified: "2025-08-30T12:00:00Z",
+  author: {
+    "@type": "Person",
+    name: "Massa Medi",
+    url: "https://www.instagram.com/mergesociety_/",
+    jobTitle: "Software Developer & Technical Writer",
     description:
-      "Comprehensive guide comparing Mac, Windows, and Linux for programming in 2025. Real developer experiences, WSL insights, and practical recommendations for choosing your coding platform.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+      "Experienced software developer with expertise across multiple operating systems and development environments",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Merge Society",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mergesociety.com/MS.png",
     },
-    keywords:
-      "best operating system for programming, mac vs windows vs linux programming, developer operating system comparison, WSL for developers, programming environment setup",
-    about: [
-      {
-        "@type": "Thing",
-        name: "Programming Operating Systems",
-      },
-      {
-        "@type": "Thing",
-        name: "Developer Environment Setup",
-      },
-      {
-        "@type": "Thing",
-        name: "Software Development Tools",
-      },
-    ],
-    isAccessibleForFree: "True",
-    educationalUse: "instruction",
-    proficiencyLevel: "Intermediate",
-    articleSection: "Programming Guide",
-    wordCount: 3500,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: ["h1", "h2", "p"],
+  },
+  description:
+    "Comprehensive guide comparing Mac, Windows, and Linux for programming in 2025. Real developer experiences, WSL insights, and practical recommendations for choosing your coding platform.",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://mergesociety.com/latest/Linux-vs-Windows-vs-Mac",
+  },
+  keywords:
+    "best operating system for programming, mac vs windows vs linux programming, developer operating system comparison, WSL for developers, programming environment setup",
+  about: [
+    {
+      "@type": "Thing",
+      name: "Programming Operating Systems",
     },
-    hasPart: [
-      {
-        "@type": "WebPageElement",
-        isAccessibleForFree: "True",
-        cssSelector: ".practical-recommendations",
-      },
-    ],
-  };
+    {
+      "@type": "Thing",
+      name: "Developer Environment Setup",
+    },
+    {
+      "@type": "Thing",
+      name: "Software Development Tools",
+    },
+  ],
+  isAccessibleForFree: "True",
+  educationalUse: "instruction",
+  proficiencyLevel: "Intermediate",
+  articleSection: "Programming Guide",
+  wordCount: 3500,
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "p"],
+  },
+  hasPart: [
+    {
+      "@type": "WebPageElement",
+      isAccessibleForFree: "True",
+      cssSelector: ".practical-recommendations",
+    },
+  ],
+};
 
 export default function Article() {
   return (
     <div className="lesson-wrapper">
       <div className="lesson-sidebar"></div>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="lesson-container">
         <h1>
           Best Operating System(OS) for programming? Mac vs Windows vs Linux
@@ -603,17 +603,18 @@ export default function Article() {
           </p>
           <p>
             Eventually, I realized the hardcore folks - the ones who pushed
-            weird <Link href="/apps/cool-tools">open source tools</Link> at 2 a.m. - were living in Linux. My MacBook
-            Pro died exactly two years after I bought it, which is the precise
-            moment Apple’s warranty elves set their watches to. It refused to
-            boot, and I took that as a sign from the penguin gods. So I built a
-            PC from scratch. I installed Ubuntu. Around that time, Richard
-            Stallman called Ubuntu spyware because of the Amazon search lens,
-            and when RMS calls something spyware, you listen. I started
-            distro-hopping like a person who thinks the next minimal wallpaper
-            will fix his life. I tried a bunch, but I mostly stuck with Debian
-            because it feels like a reliable friend who shows up to help you
-            move and does not eat your pizza.
+            weird <Link href="/apps/cool-tools">open source tools</Link> at 2
+            a.m. - were living in Linux. My MacBook Pro died exactly two years
+            after I bought it, which is the precise moment Apple’s warranty
+            elves set their watches to. It refused to boot, and I took that as a
+            sign from the penguin gods. So I built a PC from scratch. I
+            installed Ubuntu. Around that time, Richard Stallman called Ubuntu
+            spyware because of the Amazon search lens, and when RMS calls
+            something spyware, you listen. I started distro-hopping like a
+            person who thinks the next minimal wallpaper will fix his life. I
+            tried a bunch, but I mostly stuck with Debian because it feels like
+            a reliable friend who shows up to help you move and does not eat
+            your pizza.
           </p>
           <blockquote>
             <p>
@@ -859,7 +860,8 @@ export default function Article() {
             different. Somehow we all woke up in a timeline where I hate
             Microsoft while also using Microsoft VS Code to write Microsoft
             TypeScript, pushed to Microsoft GitHub, installing Microsoft npm
-            packages, then deploying to Microsoft Azure from a <Link href="/tech/operating-systems">Microsoft Windows</Link>
+            packages, then deploying to Microsoft Azure from a{" "}
+            <Link href="/tech/operating-systems">Microsoft Windows</Link>
             machine. The plot twist is real.
           </p>
           <h3>The killer feature that changed everything</h3>
@@ -1141,6 +1143,12 @@ export default function Article() {
             </li>
             <li>
               <Link href="/latest/c-vs-cpp-vs-csharp">C vs C++ vs C#</Link>
+            </li>
+            <li>
+              <Link href="/latest/the-best-linux-distros-in-2026-which-one-should-you-actually-commit-to">
+                The Best Linux Distros in 2026: Which One Should You Actually
+                Commit To?
+              </Link>
             </li>
           </ul>
         </section>
