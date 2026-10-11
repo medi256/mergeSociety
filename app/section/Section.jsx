@@ -11,6 +11,19 @@ export default function GridNews() {
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
+            <Link href="/latest/what-is-a-kernel-in-computer-science-why-you-hear-linux-kernel-and-windows-kernel">
+              <Image
+                src="/mergesociety/What_Is_a_Kernel_in_Computer_Science_and_Why_You_Hear_Linux_Kernel_and_Windows_Kernel.png"
+                alt="What Is a Kernel in Computer Science?"
+                width={400}
+                height={250}
+                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
+              />
+              <h2>What Is a Kernel in Computer Science?</h2>
+            </Link>
+          </div>
+
+          <div>
             <Link href="/latest/the-best-linux-distros-in-2026-which-one-should-you-actually-commit-to">
               <Image
                 src="/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png"
@@ -24,21 +37,7 @@ export default function GridNews() {
               <h2>The best Linux distros for gaming in 2026</h2>
             </Link>
           </div>
-          <div>
-            <Link href="/code-report/tutorial-hell">
-              <Image
-                src="/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp"
-                alt="Tutorial Hell - How to Escape Tutorial Hell and Actually Learn to Code"
-                width={400}
-                height={250}
-                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
-              />
-              <h2>
-                Tutorial Hell - How to Escape Tutorial Hell and Actually Learn
-                to Code
-              </h2>
-            </Link>
-          </div>
+
           <div>
             <Link href="/code-report/what-is-a-compiler">
               <Image

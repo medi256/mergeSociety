@@ -362,6 +362,16 @@ const GridNews = () => {
       articleRoute:
         "the-best-linux-distros-in-2026-which-one-should-you-actually-commit-to",
     },
+    {
+      id: 37,
+      title: `What Is a Kernel in Computer Science?`,
+      image:
+        "/mergesociety/What_Is_a_Kernel_in_Computer_Science_and_Why_You_Hear_Linux_Kernel_and_Windows_Kernel.png",
+      alt: "What Is a Kernel in Computer Science?",
+      date: "October 11, 2026",
+      articleRoute:
+        "what-is-a-kernel-in-computer-science-why-you-hear-linux-kernel-and-windows-kernel",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(
