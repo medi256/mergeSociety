@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/wifi_ao8skn_orx8zn.jpg",
+        url: "/mergesociety/wifi_ao8skn_orx8zn.jpg",
         width: 1200,
         height: 630,
         alt: "Wi-Fi waves connecting devices in a modern home",
@@ -87,7 +87,7 @@ export const metadata = {
       "Explore the science behind Wi-Fi and how it has transformed our digital lives from dial-up modems to seamless connectivity.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/wifi_ao8skn_orx8zn.jpg",
+      "/mergesociety/wifi_ao8skn_orx8zn.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -135,7 +135,7 @@ export const metadata = {
     headline:
       "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/wifi_ao8skn_orx8zn.jpg",
+      "/mergesociety/wifi_ao8skn_orx8zn.jpg",
     datePublished: "2025-04-26T10:15:00Z",
     dateModified: "2025-04-26T10:15:00Z",
     author: {
@@ -187,7 +187,7 @@ const articleSchema = {
   headline:
     "The Secret Magic of Wi-Fi: How Invisible Waves Power Your Internet Obsession",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/wifi_ao8skn_orx8zn.jpg",
+    "/mergesociety/wifi_ao8skn_orx8zn.jpg",
   datePublished: "2025-04-26T10:15:00Z",
   dateModified: "2025-04-26T10:15:00Z",
   author: {

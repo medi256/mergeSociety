@@ -58,13 +58,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
+        url: "/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
         width: 1200,
         height: 630,
         alt: "Programming Language Roadmaps 2025 - Complete Developer Career Guides",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
+        url: "/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
         width: 600,
         height: 600,
         alt: "Programming Language Roadmaps Collection",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
+      "/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
     ],
   },
 

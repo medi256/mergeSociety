@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Tech Journeys",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
+        url: "/mergesociety/Tech_Stack.webp",
         width: 1200,
         height: 630,
         alt: "A developer standing at a crossroads with different tech stack paths",
@@ -91,7 +91,7 @@ export const metadata = {
       "Discover which technologies you actually need for your web, mobile, desktop, game, or AI project—without the overwhelming complexity.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
+      "/mergesociety/Tech_Stack.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
+      "/mergesociety/Tech_Stack.webp",
     datePublished: "2025-04-27T08:00:00Z",
     dateModified: "2025-04-27T08:00:00Z",
     author: {
@@ -421,7 +421,7 @@ const articleSchema = {
   headline:
     "The Beginner's Guide to Picking Your Tech Stack for Web, Mobile, Desktop, Games, and AI",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Stack.webp",
+    "/mergesociety/Tech_Stack.webp",
   datePublished: "2025-04-27T08:00:00Z",
   dateModified: "2025-04-27T08:00:00Z",
   author: {

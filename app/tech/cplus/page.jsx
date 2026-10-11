@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
+        url: "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
         width: 1200,
         height: 630,
         alt: "C++ programming language logo with code examples showing modern features and performance benefits",
@@ -98,7 +98,7 @@ export const metadata = {
       "Beyond the controversy: Discover why C++ remains vital in modern programming despite its reputation for complexity. Find out if this powerful language belongs in your skill set.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
+      "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
+      "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
     datePublished: "2025-05-11T09:00:00Z",
     dateModified: "2025-05-11T09:00:00Z",
     author: {
@@ -498,7 +498,7 @@ const articleSchema = {
   "@type": "TechArticle",
   headline: "The Truth About C++: Power, Pitfalls & When You Should Learn It",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
+    "/mergesociety/pexels-punttim-52608_oxusa4_ee0udj.webp",
   datePublished: "2025-05-11T09:00:00Z",
   dateModified: "2025-05-11T09:00:00Z",
   author: {

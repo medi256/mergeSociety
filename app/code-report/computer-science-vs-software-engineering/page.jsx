@@ -56,7 +56,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+        url: "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
         width: 1200,
         height: 630,
         alt: "Computer Science vs Software Engineering comparison infographic showing courses, careers, and salary differences",
@@ -82,7 +82,7 @@ export const metadata = {
       "Discover the key differences between CS and SE degrees. Compare courses, careers, salaries, and which major is right for you.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
     ],
   },
 
@@ -136,7 +136,7 @@ export const metadata = {
     description:
       "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you in 2025.",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
     ],
     datePublished: "2025-07-18T00:00:00.000Z",
     dateModified: new Date().toISOString(),
@@ -212,7 +212,7 @@ const articleSchema = {
     description:
       "Discover the key differences between Computer Science and Software Engineering degrees. Compare courses, career paths, salaries, and which major is right for you in 2025.",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
+      "/mergesociety/softwareVScomputerscience_zuymum_qccq5q.webp",
     ],
     datePublished: "2025-07-18T00:00:00.000Z",
     dateModified: new Date().toISOString(),

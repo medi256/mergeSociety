@@ -36,7 +36,7 @@ export const metadata = {
     url: "https://mergesociety.com/code-report/pointers-in-c-and-cpp",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+        url: "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
         width: 1200,
         height: 675,
         alt: "C and C++ Pointers Programming Guide",
@@ -52,7 +52,7 @@ export const metadata = {
     description:
       "Learn C/C++ pointers from basics to advanced concepts with practical examples and debugging tips.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+      "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
     ],
   },
 
@@ -96,7 +96,7 @@ export const jsonLd = {
   description:
     "Complete guide to understanding C/C++ pointers with practical examples, memory management techniques, and debugging tips for developers.",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
+    "/mergesociety/audio_1756133645586_ybfdxp_m0ss09_katcfd.webp",
   author: {
     "@type": "Person",
     name: "Massa Medi",

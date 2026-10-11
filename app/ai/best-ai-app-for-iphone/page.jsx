@@ -41,7 +41,7 @@ export const metadata = {
       "Transform your phone into a productivity powerhouse with these 10 completely free AI apps. Photo editing, voice assistants, 3D scanning, image generation & more - no subscriptions required!",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
+        url: "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
         width: 1200,
         height: 630,
         alt: "10 best free AI apps for iPhone and Android smartphones",
@@ -59,7 +59,7 @@ export const metadata = {
     description:
       "Stop using basic apps! These 10 free AI tools will make your smartphone insanely powerful. Photo editing, voice AI, 3D scanning & more - completely free!",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
+      "/mergesociety/ChatGPT_Image_May_6_2025_12_03_40_PM_b3z4ej_t8cja3.webp",
     ],
     creator: "@manager70191",
   },

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+        url: "/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
         width: 600,
         height: 400,
         alt: "10 Best Websites To Learn How To Code For Free - SoloLearn, freeCodeCamp, W3Schools and more",
@@ -95,7 +95,7 @@ export const metadata = {
       "Learn to code completely free. SoloLearn, freeCodeCamp & 8 more platforms that actually work. Build projects, earn certs, no credit card required.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+      "/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
     ],
   },
 
@@ -236,7 +236,7 @@ export const metadata = {
         "Free Programming Platforms That Actually Work Without Paywalls",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+        url: "/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
         width: 600,
         height: 400,
         caption: "Top free coding learning websites comparison",
@@ -594,7 +594,7 @@ const articleSchema = {
     "Free Programming Platforms That Actually Work Without Paywalls",
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
+    url: "/mergesociety/top_ten_websites_to_learn_coding_for_free.webp",
     width: 600,
     height: 400,
     caption: "Top free coding learning websites comparison",

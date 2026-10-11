@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
+        url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
         width: 1200,
         height: 630,
         alt: "Docker containerization workflow from bare metal to production deployment",
@@ -97,7 +97,7 @@ export const metadata = {
       "Learn Docker properly - from kernels and bare metal to containers and production. Master Dockerfiles, Docker Compose, security scanning, and deployment.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
+      "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
     ],
   },
 
@@ -152,7 +152,7 @@ export const metadata = {
       "Complete Docker Tutorial From Bare Metal To Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
+      url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
       width: 1200,
       height: 630,
       alt: "Docker containerization workflow from bare metal to production deployment",
@@ -244,7 +244,7 @@ const articleSchema = {
       "Complete Docker Tutorial From Bare Metal To Production Deployment",
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
+      url: "/mergesociety/rubaitul-azad-HSACbYjZsqQ-unsplash_okwrat_zbyg5i.webp",
       width: 1200,
       height: 630,
       alt: "Docker containerization workflow from bare metal to production deployment",

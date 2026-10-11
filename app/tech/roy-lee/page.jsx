@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+        url: "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
         width: 1200,
         height: 630,
         alt: "Illustration showing AI interview tools, coding challenges, and the divided tech community over interview practices",
@@ -94,7 +94,7 @@ export const metadata = {
       "From AI cheating tools to broken interview processes - why tech recruiting is in crisis and what it means for your next job interview.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+      "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
     ],
   },
 
@@ -144,7 +144,7 @@ export const metadata = {
     headline:
       "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+      "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
     datePublished: "2025-05-03T08:30:00Z",
     dateModified: "2025-05-03T08:30:00Z",
     author: {
@@ -453,7 +453,7 @@ const articleSchema = {
   headline:
     "Tech Interviewing : The Roy Lee Saga and Why We're Still Getting Hiring Wrong",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/roy-lee_w0dumx_d1rshx.webp",
+    "/mergesociety/roy-lee_w0dumx_d1rshx.webp",
   datePublished: "2025-05-03T08:30:00Z",
   dateModified: "2025-05-03T08:30:00Z",
   author: {

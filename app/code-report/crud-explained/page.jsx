@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
+        url: "/mergesociety/crud_explained.webp",
         width: 600,
         height: 400,
         alt: "CRUD Operations Explained - Create Read Update Delete in databases and REST APIs",
@@ -95,7 +95,7 @@ export const metadata = {
     description:
       "Master Create, Read, Update, Delete operations. Learn SQL commands, REST API design, soft vs hard delete, with real app examples.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp"],
+    images: ["/mergesociety/crud_explained.webp"],
   },
 
   robots: {
@@ -293,7 +293,7 @@ export const metadata = {
         "Understanding CRUD from SQL Databases to REST APIs with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
+        url: "/mergesociety/crud_explained.webp",
         width: 600,
         height: 400,
         caption:
@@ -622,7 +622,7 @@ const articleSchema = {
         "Understanding CRUD from SQL Databases to REST APIs with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/crud_explained.webp",
+        url: "/mergesociety/crud_explained.webp",
         width: 600,
         height: 400,
         caption:

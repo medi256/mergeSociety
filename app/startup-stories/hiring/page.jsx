@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Tech_Layoffs.webp",
+        url: "/mergesociety/Tech_Layoffs.webp",
         width: 1200,
         height: 630,
         alt: "Tech layoffs 2025 showing 29,000 job cuts in March with global impact visualization",

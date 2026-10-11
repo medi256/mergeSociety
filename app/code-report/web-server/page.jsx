@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
+        url: "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
 
         width: 1200,
         height: 630,
@@ -96,7 +96,7 @@ export const metadata = {
       "Demystify web servers with our beginner-friendly guide. Learn how HTTP works, what ports do, and see real examples of requests and responses.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
+      "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
     ],
   },
 
@@ -147,7 +147,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What Is a Web Server? A Beginner's Guide With Clear Examples",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
+      "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {
@@ -516,7 +516,7 @@ const articleSchema = {
     "@type": "TechArticle",
     headline: "What Is a Web Server? A Beginner's Guide With Clear Examples",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
+      "/mergesociety/miguel-angel-padrinan-alba-rX15QZv2Tng-unsplash_qbwgmy_bobdji.webp",
     datePublished: "2025-05-09T10:00:00Z",
     dateModified: "2025-05-09T10:00:00Z",
     author: {

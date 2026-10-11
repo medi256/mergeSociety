@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-// 
+//
 
 // @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
 export const metadata = {
@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Tech Decoded",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
+        url: "/mergesociety/Algorithms.webp",
         width: 1200,
         height: 630,
         alt: "Visual representation of an algorithm with data flowing through a decision tree structure",
@@ -62,7 +62,7 @@ export const metadata = {
   },
   authors: [
     {
-      name: "Amara Chen",
+      name: "Massa Medi",
       url: "https://mergesociety.com/about",
     },
   ],
@@ -70,9 +70,6 @@ export const metadata = {
   publisher: "Tech Decoded Media, Inc.",
   alternates: {
     canonical: "https://mergesociety.com/code-report/algorithms",
-    languages: {
-      "en-US": "https://mergesociety.com/code-report/algorithms",
-    },
   },
   twitter: {
     card: "summary_large_image",
@@ -81,9 +78,7 @@ export const metadata = {
     description:
       "Take a journey inside data centers and coding classrooms to demystify the invisible forces that power your digital life.",
     creator: "@manager70191",
-    images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
-    ],
+    images: ["/mergesociety/Algorithms.webp"],
   },
   metadataBase: new URL("https://mergesociety.com"),
   robots: {
@@ -136,7 +131,7 @@ export const metadata = {
     },
     mediaAssets: {
       featuredImage: {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
+        url: "/mergesociety/Algorithms.webp",
         alt: "Visual representation of an algorithm with data flowing through decision paths",
         credits: "Digital illustration by TechDecoded Studio",
       },
@@ -152,13 +147,12 @@ export const metadata = {
     "@type": "TechArticle",
     headline:
       "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-    image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
+    image: "/mergesociety/Algorithms.webp",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
       "@type": "Person",
-      name: "Amara Chen",
+      name: "Massa Medi",
       url: "https://mergesociety.com/about",
     },
     publisher: {
@@ -440,13 +434,12 @@ const articleSchema = {
   "@type": "TechArticle",
   headline:
     "What Are Algorithms, Really? The Truth Behind the Technology Shaping Our World",
-  image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Algorithms.webp",
+  image: "/mergesociety/Algorithms.webp",
   datePublished: "2025-04-27T09:00:00Z",
   dateModified: "2025-04-27T09:00:00Z",
   author: {
     "@type": "Person",
-    name: "Amara Chen",
+    name: "Massa Medi",
     url: "https://mergesociety.com/about",
   },
   publisher: {

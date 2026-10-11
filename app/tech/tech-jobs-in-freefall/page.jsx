@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Economy Media",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
+        url: "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
         width: 1200,
         height: 630,
         alt: "Dramatic visualization of tech job market contraction in 2025 showing AI impact on employment rates versus corporate profits",
@@ -87,7 +87,7 @@ export const metadata = {
       "Our International Workers' Day investigation reveals how tech giants are slashing jobs while posting record profits. Is AI creating an employment crisis?",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
+      "/mergesociety/david-schultz-zIq30tCncWk-unsplash_gwiqzy_xfniyr.webp",
     ],
   },
   robots: {

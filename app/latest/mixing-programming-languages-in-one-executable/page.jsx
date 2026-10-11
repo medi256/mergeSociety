@@ -64,7 +64,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
+        url: "/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
         width: 1200,
         height: 800,
         alt: "Mixing Programming Languages in One Executable",
@@ -80,7 +80,7 @@ export const metadata = {
     description:
       "Step-by-step guide on combining multiple programming languages into a single executable using compilers, linkers, and ABIs.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
+      "/mergesociety/audio_1755156447127_jxw889_dpoz18_ciba1b.webp",
     ],
   },
 };

@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+        url: "/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
         width: 800,
         height: 400,
         alt: "How I Built Multiple Income Streams as a Developer",
@@ -69,7 +69,7 @@ export const metadata = {
     description:
       "Transparent breakdown: YouTube ($63k), courses ($160k), SaaS, freelancing. Learn how I built multiple developer income streams from zero.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+      "/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
     ],
     creator: "@manager70191",
   },
@@ -109,7 +109,7 @@ export const jsonLd = {
   description:
     "A transparent journey of building multiple income streams as a developer including YouTube monetization, online courses, SaaS products, ebooks, and freelancing.",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
+    "/mergesociety/audio_1761661372552_svbqkj_g2owgg_q8rgs8.webp",
   datePublished: "2025-10-28T00:00:00.000Z",
   dateModified: "2025-10-28T00:00:00.000Z",
   author: {

@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most_used_git_commands.webp",
+        url: "/mergesociety/most_used_git_commands.webp",
         width: 600,
         height: 400,
         alt: "Most Used Git Commands for Beginners - GitHub workflow from init to pull request",
@@ -96,7 +96,7 @@ export const metadata = {
       "Learn the git commands you'll actually use every day. From git config to pull requests, with real VS Code examples and best practices.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most_used_git_commands.webp",
+      "/mergesociety/most_used_git_commands.webp",
     ],
   },
 
@@ -256,7 +256,7 @@ export const metadata = {
         "Master Git: From Config to Pull Requests with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most_used_git_commands.webp",
+        url: "/mergesociety/most_used_git_commands.webp",
         width: 600,
         height: 400,
         caption: "Most used git commands workflow diagram",
@@ -574,7 +574,7 @@ const articleSchema = {
         "Master Git: From Config to Pull Requests with Real Examples",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/most_used_git_commands.webp",
+        url: "/mergesociety/most_used_git_commands.webp",
         width: 600,
         height: 400,
         caption: "Most used git commands workflow diagram",

@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Books_to_learn_Programming.webp",
+        url: "/mergesociety/Books_to_learn_Programming.webp",
         width: 1200,
         height: 630,
         alt: "Best Programming Books for Beginners - Complete Guide",
@@ -74,7 +74,7 @@ export const metadata = {
     description:
       "Why books beat tutorials for learning programming. Discover 5 practical books from Python to system design with real projects.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Books_to_learn_Programming.webp",
+      "/mergesociety/Books_to_learn_Programming.webp",
     ],
     creator: "@manager70191",
   },
@@ -113,7 +113,7 @@ export const jsonLd = {
   description:
     "Discover the 5 best programming books for beginners that teach Python, JavaScript, clean code, and system design. Learn why books beat tutorials for becoming a real developer with practical projects and deep understanding.",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Books_to_learn_Programming.webp",
+    "/mergesociety/Books_to_learn_Programming.webp",
   datePublished: "2025-12-01",
   dateModified: "2025-12-01",
   author: {
@@ -157,7 +157,7 @@ export const jsonLd = {
         description:
           "Learn Python by building cool projects including games, data visualization, and web apps",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Python_Crash_Course.webp",
+          "/mergesociety/Python_Crash_Course.webp",
       },
       {
         "@type": "Book",
@@ -170,7 +170,7 @@ export const jsonLd = {
         description:
           "Deep understanding of JavaScript in the browser and on the server with interactive exercises",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Eloquent_JavaScript.webp",
+          "/mergesociety/Eloquent_JavaScript.webp",
       },
       {
         "@type": "Book",
@@ -183,7 +183,7 @@ export const jsonLd = {
         description:
           "Timeless principles that make you an effective software developer",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/The_Pragmatic_Programmer.jpg",
+          "/mergesociety/The_Pragmatic_Programmer.jpg",
       },
       {
         "@type": "Book",
@@ -196,7 +196,7 @@ export const jsonLd = {
         description:
           "Write code people actually enjoy reading with Uncle Bob's principles",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Clean_Code_Uncle_Bob.jpg",
+          "/mergesociety/Clean_Code_Uncle_Bob.jpg",
       },
       {
         "@type": "Book",
@@ -209,7 +209,7 @@ export const jsonLd = {
         description:
           "Think like a systems architect and build scalable, reliable systems",
         image:
-          "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Designing_Data-Intensive_Applications.png",
+          "/mergesociety/Designing_Data-Intensive_Applications.png",
       },
     ],
   },

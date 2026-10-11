@@ -37,7 +37,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
+        url: "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
         width: 1200,
         height: 630,
         alt: "PC Gaming Components Guide 2025",
@@ -53,7 +53,7 @@ export const metadata = {
       "Master PC building with our 2025 guide. Learn about the latest components, optimal configurations, and step-by-step assembly instructions for every budget.",
     creator: "@PCBuilder",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
+      "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
     ],
   },
 
@@ -114,7 +114,7 @@ export const metadata = {
     headline:
       "How to Build a PC in 2025: PC Parts Explained, Step-by-Step Guide & Best CPU/GPU Combos",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
+      "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {
@@ -204,7 +204,7 @@ const articleSchema = {
     headline:
       "How to Build a PC in 2025: PC Parts Explained, Step-by-Step Guide & Best CPU/GPU Combos",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
+      "/mergesociety/pexels-athena-2582930_afjwie_vw9mro.webp",
     datePublished: "2025-05-14T08:00:00Z",
     dateModified: "2025-05-14T08:00:00Z",
     author: {

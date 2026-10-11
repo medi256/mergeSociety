@@ -44,7 +44,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+        url: "/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
         width: 1200,
         height: 630,
         alt: "Tutorial Hell - Break free from endless tutorials and learn to code independently",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Stop being stuck in tutorial hell. Learn the GUeSS method to build real coding projects independently.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+      "/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
     ],
   },
 
@@ -116,7 +116,7 @@ export const structuredData = {
   description:
     "Complete guide to escaping tutorial hell and building real coding projects independently using the proven GUeSS method.",
   image: [
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
+    "/mergesociety/audio_1756289795525_wcylsp_rs9hya_m0balx.webp",
   ],
   author: {
     "@type": "Person",

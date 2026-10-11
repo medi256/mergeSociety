@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.webp",
+        url: "/mergesociety/VPN_Explained.webp",
         width: 1200,
         height: 630,
         alt: "Visual explanation of how a VPN protects your internet connection",
@@ -93,7 +93,7 @@ export const metadata = {
       "Learn what a VPN is in simple terms, how it protects your privacy, secures your data on public WiFi, and unlocks global content. Essential guid.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.webp",
+      "/mergesociety/VPN_Explained.webp",
     ],
   },
 
@@ -146,7 +146,7 @@ export const metadata = {
     "@type": "TechArticle",
     headline: "What Is a VPN? Easy Definition & Complete Guid",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.webp",
+      "/mergesociety/VPN_Explained.webp",
     datePublished: "2025-05-09T09:00:00Z",
     dateModified: "2025-05-09T09:00:00Z",
     author: {
@@ -307,7 +307,7 @@ const articleSchema = {
   "@type": "TechArticle",
   headline: "What Is a VPN? Easy Definition & Complete Guid",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/VPN_Explained.webp",
+    "/mergesociety/VPN_Explained.webp",
   datePublished: "2025-05-09T09:00:00Z",
   dateModified: "2025-05-09T09:00:00Z",
   author: {

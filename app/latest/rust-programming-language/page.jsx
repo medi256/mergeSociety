@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+        url: "/mergesociety/rust_q0urkm_g4ly43.webp",
         width: 1200,
         height: 630,
         alt: "Rust Programming Language: Memory Safety and Performance Guide 2025",
@@ -96,7 +96,7 @@ export const metadata = {
       "Learn why Rust dominates systems programming with its revolutionary approach to memory safety without garbage collection. Practical guide to ownership, borrowing, and performance optimization.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+      "/mergesociety/rust_q0urkm_g4ly43.webp",
     ],
   },
 
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "Rust Programming Language: Memory Safety and Performance Guide 2025",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+      "/mergesociety/rust_q0urkm_g4ly43.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -417,7 +417,7 @@ const articleSchema = {
   headline:
     "Rust Programming Language: Memory Safety and Performance Guide 2025",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/rust_q0urkm_g4ly43.webp",
+    "/mergesociety/rust_q0urkm_g4ly43.webp",
   datePublished: "2025-05-18T09:00:00Z",
   dateModified: "2025-05-18T09:00:00Z",
   author: {

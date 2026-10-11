@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "Merge Society Blog",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.webp",
+        url: "/mergesociety/cs_moponk_kbfqj2.webp",
         width: 1200,
         height: 630,
         alt: "A computer science student working on code with graduation cap - CS Degree Worth It in 2025",
@@ -85,7 +85,7 @@ export const metadata = {
     description:
       "Read Sam's journey from bank teller to software engineer and discover if a CS degree is the right investment for your future in tech in 2025.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.webp"],
+    images: ["/mergesociety/cs_moponk_kbfqj2.webp"],
   },
 
   robots: {
@@ -131,7 +131,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.webp",
+    image: "/mergesociety/cs_moponk_kbfqj2.webp",
     datePublished: "2025-05-13T12:00:00Z",
     dateModified: "2025-05-13T12:00:00Z",
     author: {
@@ -463,7 +463,7 @@ const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Should I Get a CS Degree in 2025: Is It Still Worth It?",
-    image: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/cs_moponk_kbfqj2.webp",
+    image: "/mergesociety/cs_moponk_kbfqj2.webp",
     datePublished: "2025-05-13T12:00:00Z",
     dateModified: "2025-05-13T12:00:00Z",
     author: {

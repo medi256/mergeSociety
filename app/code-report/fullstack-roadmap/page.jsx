@@ -41,7 +41,7 @@ export const metadata = {
     siteName: "Code Bender",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+        url: "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
         width: 1200,
         height: 630,
         alt: "Full Stack Developer Roadmap 2025 - Complete guide from HTML to AI integration",
@@ -74,7 +74,7 @@ export const metadata = {
       "Updated roadmap to become a full stack developer in 2025. Master HTML, CSS, JavaScript, React, Node.js, databases, and AI integration. Job-ready in 6-9 months.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+      "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
     ],
   },
 
@@ -138,7 +138,7 @@ export const metadata = {
 
     image: {
       "@type": "ImageObject",
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+      url: "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
       width: 1200,
       height: 630,
     },
@@ -303,7 +303,7 @@ export const metadata = {
     description:
       "Complete walkthrough of the full stack developer roadmap from HTML to AI integration",
     thumbnailUrl:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+      "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
     uploadDate: new Date().toISOString(),
     duration: "PT45M",
     contentUrl: "https://mergesociety.com/code-report/fullstack-roadmap",
@@ -357,7 +357,7 @@ const articleSchema = {
 
   image: {
     "@type": "ImageObject",
-    url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
+    url: "/mergesociety/fotis-fotopoulos-DuHKoV44prg-unsplash_c7aebv_hr7bb2.webp",
     width: 1200,
     height: 630,
   },

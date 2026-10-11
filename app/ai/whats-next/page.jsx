@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Future Intelligence",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+        url: "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
         width: 1200,
         height: 630,
         alt: "Demis Hassabis with Project Astra visualization",
@@ -82,7 +82,7 @@ export const metadata = {
       "DeepMind's journey from AlphaFold to Project Astra, and how Demis Hassabis is pioneering artificial general intelligence that could transform human existence by 2030.",
     creator: "@futureintelAI",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+      "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -149,7 +149,7 @@ export const metadata = {
     headline:
       "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+      "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
     datePublished: "2025-04-29T07:30:00Z",
     dateModified: "2025-04-29T10:15:00Z",
     author: {
@@ -408,7 +408,7 @@ const articleSchema = {
   headline:
     "Beyond the Nobel: Demis Hassabis, DeepMind, and the Race Toward Superhuman AI",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
+    "/mergesociety/Demis_Hassabis_qjtfky_s4xyfx.webp",
   datePublished: "2025-04-29T07:30:00Z",
   dateModified: "2025-04-29T10:15:00Z",
   author: {

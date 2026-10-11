@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Tech Innovation Insights",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Satya_Nadella.jpg",
+        url: "/mergesociety/Satya_Nadella.jpg",
         width: 1200,
         height: 630,
         alt: "Satya Nadella discussing the future of AI agents and business transformation",
@@ -82,7 +82,7 @@ export const metadata = {
       "Microsoft's CEO discusses the paradigm shift from SaaS to AI agents that work across platforms, creating new opportunities in business and scientific discovery.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Satya_Nadella.jpg",
+      "/mergesociety/Satya_Nadella.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -291,7 +291,7 @@ const articleSchema = {
   headline:
     "Satya Nadella on the Future Beyond SaaS: How AI Agents Are Reshaping Business, Science, and Opportunity",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Satya_Nadella.jpg",
+    "/mergesociety/Satya_Nadella.jpg",
   datePublished: "2025-04-27T11:00:00Z",
   dateModified: "2025-04-27T11:00:00Z",
   author: {

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
+        url: "/mergesociety/vscode_extensions.webp",
         width: 600,
         height: 400,
         alt: "Best VS Code Extensions 2025 - Prettier ESLint GitLens Error Lens Live Server productivity setup",
@@ -95,7 +95,7 @@ export const metadata = {
       "Prettier, ESLint, Error Lens, GitLens, Live Server, Jest, Copilot. Real daily workflow tested. Free & paid options covered.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
+      "/mergesociety/vscode_extensions.webp",
     ],
   },
 
@@ -375,7 +375,7 @@ export const metadata = {
         "Essential VS Code Extensions for Developer Productivity in 2025",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
+        url: "/mergesociety/vscode_extensions.webp",
         width: 600,
         height: 400,
         caption: "Best VS Code extensions for productivity",
@@ -723,7 +723,7 @@ const articleSchema = {
         "Essential VS Code Extensions for Developer Productivity in 2025",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/vscode_extensions.webp",
+        url: "/mergesociety/vscode_extensions.webp",
         width: 600,
         height: 400,
         caption: "Best VS Code extensions for productivity",

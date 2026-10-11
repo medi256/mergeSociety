@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "IndieHacker Dev",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
+        url: "/mergesociety/Best_Frameworks.webp",
         width: 1200,
         height: 630,
         alt: "Comparison of popular frameworks for solo SaaS developers",
@@ -79,7 +79,7 @@ export const metadata = {
       "A practical comparison of Laravel, Next.js, Django, and AdonisJS for solo developers building SaaS products without getting lost in dependency hell.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
+      "/mergesociety/Best_Frameworks.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -320,7 +320,7 @@ const articleSchema = {
   headline:
     "The Best Frameworks for Solo SaaS Builders: Navigating Laravel, Next.js, and Beyond",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Best_Frameworks.webp",
+    "/mergesociety/Best_Frameworks.webp",
   datePublished: "2025-04-27T10:30:00Z",
   dateModified: "2025-04-27T10:30:00Z",
   author: {

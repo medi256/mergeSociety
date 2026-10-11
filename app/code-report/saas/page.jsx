@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
+        url: "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
         width: 1200,
         height: 630,
         alt: "A person breaking free from chains labeled with SaaS company logos",
@@ -83,7 +83,7 @@ export const metadata = {
       "Learn how to replace expensive subscription software with powerful free and open source alternatives that you own forever.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
+      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -140,7 +140,7 @@ export const metadata = {
     headline:
       "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
+      "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
     datePublished: "2025-04-27T09:00:00Z",
     dateModified: "2025-04-27T09:00:00Z",
     author: {
@@ -379,7 +379,7 @@ const articleSchema = {
   headline:
     "From SaaS Panic to Open Source Paradise: The Ultimate Guide to Escaping Subscription Hell",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
+    "/mergesociety/airfocus-x8bEZVZnG_o-unsplash_zjo2s6_dwitnt.webp",
   datePublished: "2025-04-27T09:00:00Z",
   dateModified: "2025-04-27T09:00:00Z",
   author: {

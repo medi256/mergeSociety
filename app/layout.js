@@ -104,7 +104,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ML_1_fqv1iq_nmzdcu.png",
+        url: "/mergesociety/ML_1_fqv1iq_nmzdcu.png",
         width: 1200,
         height: 630,
         alt: "Merge Society preview image",

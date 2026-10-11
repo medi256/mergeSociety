@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/link-in_vsxalr_skvenq.jpg",
+        url: "/mergesociety/link-in_vsxalr_skvenq.jpg",
         width: 1200,
         height: 630,
         alt: "Professional using LinkedIn with visual representation of 'cringe' content",
@@ -79,7 +79,7 @@ export const metadata = {
       "An analysis of LinkedIn's unique culture and its enduring value despite often cringe-inducing content patterns.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/link-in_vsxalr_skvenq.jpg",
+      "/mergesociety/link-in_vsxalr_skvenq.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -115,7 +115,7 @@ export const metadata = {
     headline:
       "LinkedIn's Cringe Paradox: Why the World's Top Career Platform Is So Weird—and Here to Stay",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/link-in_vsxalr_skvenq.jpg",
+      "/mergesociety/link-in_vsxalr_skvenq.jpg",
     datePublished: "2025-04-25T10:30:00Z",
     dateModified: "2025-04-25T10:30:00Z",
     author: {
@@ -183,7 +183,7 @@ const articleSchema = {
     headline:
       "LinkedIn's Cringe Paradox: Why the World's Top Career Platform Is So Weird—and Here to Stay",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/link-in_vsxalr_skvenq.jpg",
+      "/mergesociety/link-in_vsxalr_skvenq.jpg",
     datePublished: "2025-04-25T10:30:00Z",
     dateModified: "2025-04-25T10:30:00Z",
     author: {

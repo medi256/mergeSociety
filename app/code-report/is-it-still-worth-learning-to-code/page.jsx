@@ -57,7 +57,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
+        url: "/mergesociety/is_coding_worth_it_in_2025.webp",
         width: 1200,
         height: 630,
         alt: "Is Coding Worth Learning in 2026?",
@@ -86,7 +86,7 @@ export const metadata = {
       "A senior developer shares the brutal reality: burnout, layoffs, and AI. Plus practical advice on building projects that land jobs.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
+      "/mergesociety/is_coding_worth_it_in_2025.webp",
     ],
   },
   robots: {
@@ -112,7 +112,7 @@ export const jsonLd = {
   description:
     "A brutally honest exploration of whether learning to code is still worth it in 2026, covering burnout, market realities, and practical strategies for aspiring developers.",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/is_coding_worth_it_in_2025.webp",
+    "/mergesociety/is_coding_worth_it_in_2025.webp",
   datePublished: "2025-11-30T00:00:00.000Z",
   dateModified: "2025-11-30T00:00:00.000Z",
   author: {

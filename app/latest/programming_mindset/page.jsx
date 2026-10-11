@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
+        url: "/mergesociety/programmer_mindset.webp",
         width: 800,
         height: 600,
         alt: "Learning to code mindset - practice over theory, tutorial hell escape, build projects, embrace discomfort",
@@ -97,7 +97,7 @@ export const metadata = {
       "10,000 lines not hours. Drop ego, build simple first, get comfortable not knowing. Ship micro projects, escape tutorial loop, learn through reps.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
+      "/mergesociety/programmer_mindset.webp",
     ],
   },
 
@@ -348,7 +348,7 @@ export const metadata = {
         "Practice Over Theory: 10,000 Lines Not Hours, Escape Tutorial Hell, Build Projects",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
+        url: "/mergesociety/programmer_mindset.webp",
         width: 800,
         height: 600,
         caption: "Learning to code mindset transformation",
@@ -592,7 +592,7 @@ const articleSchema = {
         "Practice Over Theory: 10,000 Lines Not Hours, Escape Tutorial Hell, Build Projects",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programmer_mindset.webp",
+        url: "/mergesociety/programmer_mindset.webp",
         width: 800,
         height: 600,
         caption: "Learning to code mindset transformation",

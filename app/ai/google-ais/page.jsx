@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
+        url: "/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
         width: 1200,
         height: 630,
         alt: "Google AI Essentials course review with key takeaways and value assessment",
@@ -80,7 +80,7 @@ export const metadata = {
       "5 key lessons from Google's AI course, who should take it, and whether the certificate is actually worth your time and money.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
+      "/mergesociety/google-ai_x9a2fc_zsjzlz.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),

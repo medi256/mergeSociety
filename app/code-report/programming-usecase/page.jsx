@@ -45,7 +45,7 @@ export const metadata = {
       "Stop guessing which programming language to learn! This comprehensive guide breaks down Python, Java, JavaScript, Ruby, C, C++, C#, PHP, Swift, and Go - with real-world examples from Google, NASA, Microsoft, and more. Perfect for beginners and career switchers.",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming_languages_and_usecase.webp",
+        url: "/mergesociety/programming_languages_and_usecase.webp",
         width: 1200,
         height: 630,
         alt: "10 different programming languages and their real-world uses - comprehensive guide",
@@ -63,7 +63,7 @@ export const metadata = {
     description:
       "Python for data science? JavaScript for web dev? Java for Android? This guide breaks down 10 major programming languages with real examples from Google, NASA & Microsoft. Perfect for beginners!",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming_languages_and_usecase.webp",
+      "/mergesociety/programming_languages_and_usecase.webp",
     ],
     creator: "@manager70191",
   },
@@ -112,7 +112,7 @@ export const metadata = {
     description:
       "Comprehensive guide to Python, Java, JavaScript, Ruby, C, C++, C#, PHP, Swift, and Go - covering their real-world applications, use cases, and which companies use them.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming_languages_and_usecase.webp",
+      "/mergesociety/programming_languages_and_usecase.webp",
     datePublished: "2025-12-20T00:00:00Z",
     dateModified: new Date().toISOString(),
     author: {
@@ -147,7 +147,7 @@ const articleSchema = {
     description:
       "Comprehensive guide to Python, Java, JavaScript, Ruby, C, C++, C#, PHP, Swift, and Go - covering their real-world applications, use cases, and which companies use them.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/programming_languages_and_usecase.webp",
+      "/mergesociety/programming_languages_and_usecase.webp",
     datePublished: "2025-12-20T00:00:00Z",
     dateModified: new Date().toISOString(),
     author: {

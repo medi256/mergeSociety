@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
+        url: "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
         width: 1200,
         height: 630,
         alt: "Full Stack Developer Roadmap 2025 - Web Development Guide",
@@ -98,7 +98,7 @@ export const metadata = {
       "Master web development! Our beginner-friendly roadmap covers HTML, CSS, JavaScript, backend technologies, and deployment with practical examples for 2025.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
+      "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
     ],
   },
 
@@ -151,7 +151,7 @@ export const metadata = {
     headline:
       "Full Stack Developer Roadmap 2025: The Ultimate Beginner's Guide",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
+      "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {
@@ -416,7 +416,7 @@ const articleSchema = {
     headline:
       "Full Stack Developer Roadmap 2025: The Ultimate Beginner's Guide",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
+      "/mergesociety/Sanjay_Ghemawat_and_Jeff_Dean.webp",
     datePublished: "2025-05-18T09:00:00Z",
     dateModified: "2025-05-18T09:00:00Z",
     author: {

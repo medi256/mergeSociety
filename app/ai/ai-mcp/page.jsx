@@ -35,7 +35,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+        url: "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
         width: 1200,
         height: 630,
         alt: "Model Context Protocol architecture diagram showing resources and tools connecting to an AI model",
@@ -81,7 +81,7 @@ export const metadata = {
       "Build your first MCP server and join the vibe coding revolution. Tutorial with code examples showing how to connect Claude with your data and tools.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+      "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -119,7 +119,7 @@ export const metadata = {
     headline:
       "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+      "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
     datePublished: "2025-03-31T09:00:00Z",
     dateModified: "2025-04-25T11:30:00Z",
     author: {
@@ -236,7 +236,7 @@ const articleSchema = {
   headline:
     "The Rise of Model Context Protocol (MCP): Why Every Developer Is Talking About It",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
+    "/mergesociety/ai-mcp_sseuxt_ajwoxg.jpg",
   datePublished: "2025-03-31T09:00:00Z",
   dateModified: "2025-04-25T11:30:00Z",
   author: {

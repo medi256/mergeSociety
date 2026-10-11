@@ -30,7 +30,7 @@ export const metadata = {
     description:
       "Elon Musk's Grok 4 outperforms rivals on benchmarks but sparks controversy with uncensored responses. See what makes it revolutionary.",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
+      "/mergesociety/grok_4_jv3jmy_o1gw76.webp",
     ],
     site: "@mergeSociety2",
   },
@@ -47,7 +47,7 @@ export const metadata = {
     url: "https://mergesociety.com/ai/grok4",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
+        url: "/mergesociety/grok_4_jv3jmy_o1gw76.webp",
         width: 1200,
         height: 630,
         alt: "Discover why Grok 4",
@@ -80,7 +80,7 @@ export const metadata = {
     description:
       "Elon Musk's Grok 4 AI claims to be the smartest chatbot ever, outperforming GPT-4 and Gemini on benchmarks while sparking controversy with uncensored responses.",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
+      "/mergesociety/grok_4_jv3jmy_o1gw76.webp",
     author: {
       "@type": "Person",
       name: "Merge Society",
@@ -108,7 +108,7 @@ export const metadata = {
   googleDiscover: {
     // High-quality, relevant image is crucial
     featuredImage: {
-      url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/grok_4_jv3jmy_o1gw76.webp",
+      url: "/mergesociety/grok_4_jv3jmy_o1gw76.webp",
       alt: "Grok 4 AI interface showing controversial chatbot responses",
       width: 1200,
       height: 630,

@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Tech Career Paths",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
+        url: "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
         width: 1200,
         height: 630,
         alt: "Diverse group of students collaborating on laptops at Google campus with colorful Google logo in background",
@@ -86,7 +86,7 @@ export const metadata = {
       "Google recruiters debunk common myths and reveal what truly matters in applications and interviews for students and recent graduates.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
+      "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -135,7 +135,7 @@ export const metadata = {
     headline:
       "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
     image:
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
+      "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
     datePublished: "2025-04-30T09:15:00Z",
     dateModified: "2025-04-30T09:15:00Z",
     author: {
@@ -635,7 +635,7 @@ const articleSchema = {
   headline:
     "Google Internship & Entry-Level Applications: Myths, Truths, and How to Actually Get Hired",
   image:
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
+    "/mergesociety/growtika-183Yxo3vsGY-unsplash_bqlqeh_g5m3qx.webp",
   datePublished: "2025-04-30T09:15:00Z",
   dateModified: "2025-04-30T09:15:00Z",
   author: {

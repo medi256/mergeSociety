@@ -41,13 +41,13 @@ export const metadata = {
     siteName: "Dev Productivity Master",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+        url: "/mergesociety/desktop_apps.webp",
         width: 1200,
         height: 630,
         alt: "Collection of 2025's essential productivity tools showcased on a minimalist desk setup",
       },
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+        url: "/mergesociety/desktop_apps.webp",
         width: 1200,
         height: 630,
         alt: "The power of AI-enhanced productivity tools transforming development workflows",
@@ -96,7 +96,7 @@ export const metadata = {
       "Discover why a dedicated tech minimalist has finally embraced these game-changing tools: Drizzle ORM, Superhuman, Super Maven, and more - the definitive guide for productivity-focused developers.",
     creator: "@manager70191",
     images: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+      "/mergesociety/desktop_apps.webp",
     ],
   },
   metadataBase: new URL("https://mergesociety.com"),
@@ -148,8 +148,8 @@ export const metadata = {
     headline:
       "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
     image: [
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
-      "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+      "/mergesociety/desktop_apps.webp",
+      "/mergesociety/desktop_apps.webp",
     ],
     datePublished: "2025-04-30T09:00:00Z",
     dateModified: "2025-04-30T12:30:00Z",
@@ -461,8 +461,8 @@ const articleSchema = {
   headline:
     "7 Game-Changing Tools That Transformed My Minimal Workflow in 2025",
   image: [
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
-    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/desktop_apps.webp",
+    "/mergesociety/desktop_apps.webp",
+    "/mergesociety/desktop_apps.webp",
   ],
   datePublished: "2025-04-30T09:00:00Z",
   dateModified: "2025-04-30T12:30:00Z",

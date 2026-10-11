@@ -14,7 +14,8 @@ const CONFIG = {
 
   // Text replacements
   replacements: {
-    'import CommentSection from "@/app/commentSection";': "",
+    "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto":
+      "",
   },
 
   // Create a backup before changing files

@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/https_and_https.webp",
+        url: "/mergesociety/https_and_https.webp",
         width: 1200,
         height: 630,
         alt: "HTTP vs HTTPS SSL TLS encryption security explained with browser padlock and certificate verification",
@@ -94,7 +94,7 @@ export const metadata = {
     description:
       "Understand how HTTPS encryption protects your data online. Complete guide to SSL, TLS, certificates, and browser security indicators.",
     creator: "@manager70191",
-    images: ["https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/https_and_https.webp"],
+    images: ["/mergesociety/https_and_https.webp"],
   },
 
   robots: {
@@ -179,7 +179,7 @@ export const metadata = {
         "Complete Guide to HTTPS, SSL, TLS and Web Encryption",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/https_and_https.webp",
+        url: "/mergesociety/https_and_https.webp",
         width: 600,
         height: 400,
         caption: "HTTP and HTTPS security protocols comparison",
@@ -396,7 +396,7 @@ const articleSchema = {
         "Complete Guide to HTTPS, SSL, TLS and Web Encryption",
       image: {
         "@type": "ImageObject",
-        url: "https://img.mergesociety.com/cdn-cgi/image/width=1200,quality=75,format=auto/mergesociety/https_and_https.webp",
+        url: "/mergesociety/https_and_https.webp",
         width: 600,
         height: 400,
         caption: "HTTP and HTTPS security protocols comparison",
