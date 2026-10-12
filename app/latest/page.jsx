@@ -65,9 +65,7 @@ export const metadata = {
     description:
       "Insight into the latest tech trends, Programming, AI, Robotics, and many  more  at your fingertips.",
 
-    images: [
-      "/mergesociety/ML_1_fqv1iq_nmzdcu.png",
-    ],
+    images: ["/mergesociety/ML_1_fqv1iq_nmzdcu.png"],
   },
   robots: {
     index: true,
@@ -371,6 +369,14 @@ const GridNews = () => {
       date: "October 11, 2026",
       articleRoute:
         "what-is-a-kernel-in-computer-science-why-you-hear-linux-kernel-and-windows-kernel",
+    },
+    {
+      id: 38,
+      title: `Ranking Essential Linux Concepts Every Linux User Should Know`,
+      image: "/mergesociety/Essential_Linux_Concepts_Ranked.png",
+      alt: "Ranking Essential Linux Concepts Every Linux User Should Know",
+      date: "October 12, 2026",
+      articleRoute: "ranking-101-linux-concepts-every-linux-user-should-know",
     },
   ];
 

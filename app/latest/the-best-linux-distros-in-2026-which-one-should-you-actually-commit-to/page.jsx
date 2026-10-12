@@ -38,7 +38,7 @@ export const metadata = {
         url: "/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png",
         width: 1200,
         height: 600,
-        alt: "Six Linux distro logos arranged for a gaming comparison.",
+        alt: "Linux concepts ranking illustration featuring a terminal, networking, system settings, and the Tux penguin.",
       },
     ],
     locale: "en_US",
@@ -73,7 +73,7 @@ const articleSchema = {
     url: "/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png",
     width: 1200,
     height: 600,
-    alt: "Six Linux distro logos arranged for a gaming comparison.",
+    alt: "Linux concepts ranking illustration featuring a terminal, networking, system settings, and the Tux penguin.",
   },
   datePublished: "2026-10-08T07:53:40.891Z",
   dateModified: "2026-10-08T07:54:09.106Z",
@@ -124,7 +124,7 @@ export default function Article() {
         <figure className="blog-image">
           <Image
             src="/mergesociety/The_best_Linux_distros_for_gaming_in_2026.png"
-            alt="Six Linux distro logos arranged for a gaming comparison."
+            alt="Linux concepts ranking illustration featuring a terminal, networking, system settings, and the Tux penguin."
             width={1200}
             height={600}
             priority
@@ -582,9 +582,8 @@ export default function Article() {
             </Link>
           </li>
           <li>
-            <Link href="/latest/github-repositories">
-              GitHub Repositories: 17 must-see open source projects that will
-              level up your coding
+            <Link href="/latest/ranking-101-linux-concepts-every-linux-user-should-know">
+              Ranking Essential Linux Concepts Every Linux User Should Know
             </Link>
           </li>
           <li>

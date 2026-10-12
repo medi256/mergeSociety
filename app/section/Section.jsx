@@ -39,17 +39,16 @@ export default function GridNews() {
           </div>
 
           <div>
-            <Link href="/code-report/what-is-a-compiler">
+            <Link href="/latest/ranking-101-linux-concepts-every-linux-user-should-know">
               <Image
-                src="/mergesociety/audio_1758351295832_fnxuwq_apk5yu_ue3k3d.jpg"
-                alt="Why We Need a Translator in Programming and What a Compiler Really Is"
+                src="/mergesociety/Essential_Linux_Concepts_Ranked.png"
+                alt="Ranking Essential Linux Concepts Every Linux User Should Know"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
               <h2>
-                Why We Need a Translator in Programming and What a Compiler
-                Really Is
+                Ranking Essential Linux Concepts Every Linux User Should Know
               </h2>
             </Link>
           </div>
