@@ -11,6 +11,20 @@ export default function GridNews() {
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
+            <Link href="/latest/ranking-101-linux-concepts-every-linux-user-should-know">
+              <Image
+                src="/mergesociety/Essential_Linux_Concepts_Ranked.png"
+                alt="Ranking Essential Linux Concepts Every Linux User Should Know"
+                width={400}
+                height={250}
+                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
+              />
+              <h2>
+                Ranking Essential Linux Concepts Every Linux User Should Know
+              </h2>
+            </Link>
+          </div>
+          <div>
             <Link href="/latest/what-is-a-kernel-in-computer-science-why-you-hear-linux-kernel-and-windows-kernel">
               <Image
                 src="/mergesociety/What_Is_a_Kernel_in_Computer_Science_and_Why_You_Hear_Linux_Kernel_and_Windows_Kernel.png"
@@ -35,21 +49,6 @@ export default function GridNews() {
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
               <h2>The best Linux distros for gaming in 2026</h2>
-            </Link>
-          </div>
-
-          <div>
-            <Link href="/latest/ranking-101-linux-concepts-every-linux-user-should-know">
-              <Image
-                src="/mergesociety/Essential_Linux_Concepts_Ranked.png"
-                alt="Ranking Essential Linux Concepts Every Linux User Should Know"
-                width={400}
-                height={250}
-                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
-              />
-              <h2>
-                Ranking Essential Linux Concepts Every Linux User Should Know
-              </h2>
             </Link>
           </div>
 

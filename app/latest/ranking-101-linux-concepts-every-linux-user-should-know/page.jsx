@@ -154,6 +154,20 @@ export default function Article() {
             packages, and how the filesystem is organized.
           </strong>
         </p>
+
+        <div className="video-embed">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LKCVKw9CzFo?si=9vXJuljSBYqXfEvs"
+            title="Ranking Essential Linux Concepts Every Linux User Should Know"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
+
         <h2>Where Linux came from, and what it actually is</h2>
         <p>
           Linux did not appear out of nowhere. Its lineage starts with Unix,
