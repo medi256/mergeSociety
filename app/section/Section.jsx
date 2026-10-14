@@ -11,6 +11,19 @@ export default function GridNews() {
       <section className="grid-news-section">
         <aside className="grid-news-left">
           <div>
+            <Link href="/latest/the-best-way-to-install-apps-on-linux-in-2026-which-method-should-you-use">
+              <Image
+                src="/mergesociety/The_Best_Way_to_Install_Apps_on_Linux_in_2026.png"
+                alt="The Best Way to Install Apps on Linux in 2026"
+                width={400}
+                height={250}
+                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
+              />
+              <h2>The Best Way to Install Apps on Linux in 2026</h2>
+            </Link>
+          </div>
+
+          <div>
             <Link href="/latest/ranking-101-linux-concepts-every-linux-user-should-know">
               <Image
                 src="/mergesociety/Essential_Linux_Concepts_Ranked.png"
@@ -49,22 +62,6 @@ export default function GridNews() {
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
               <h2>The best Linux distros for gaming in 2026</h2>
-            </Link>
-          </div>
-
-          <div>
-            <Link href="/latest/data-structures-explained">
-              <Image
-                src="/mergesociety/data_structures_explained.webp"
-                alt="Data Structures and Big O For Coding Interviews - Data Structures Explained"
-                width={400}
-                height={250}
-                sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
-              />
-              <h2>
-                Data Structures and Big O For Coding Interviews - Data
-                Structures Explained
-              </h2>
             </Link>
           </div>
         </aside>

@@ -587,8 +587,8 @@ export default function Article() {
             </Link>
           </li>
           <li>
-            <Link href="/latest/aws-explained">
-              AWS: The Ultimate Guide to Cloud Computing
+            <Link href="/latest/the-best-way-to-install-apps-on-linux-in-2026-which-method-should-you-use">
+              Best Way to Install Apps on Linux in 2026
             </Link>
           </li>
         </ul>
