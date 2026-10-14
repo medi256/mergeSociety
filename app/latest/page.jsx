@@ -387,6 +387,15 @@ const GridNews = () => {
       articleRoute:
         "the-best-way-to-install-apps-on-linux-in-2026-which-method-should-you-use",
     },
+    {
+      id: 40,
+      title: `Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free`,
+      image: "/mergesociety/adobe.jpg",
+      alt: "Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free",
+      date: "October 14, 2026",
+      articleRoute:
+        "adobe-in-trouble-after-a-developer-reverse-engineered-its-creative-suite",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

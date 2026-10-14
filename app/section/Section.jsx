@@ -83,15 +83,18 @@ export default function GridNews() {
 
         <aside className="grid-news-right">
           <div>
-            <Link href="/latest/top-free-websites-to-learn-programming">
+            <Link href="/latest/adobe-in-trouble-after-a-developer-reverse-engineered-its-creative-suite">
               <Image
-                src="/mergesociety/top_ten_websites_to_learn_coding_for_free.webp"
-                alt="10 Best Websites To Learn How To Code For Free"
+                src="/mergesociety/adobe.jpg"
+                alt="Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free"
                 width={400}
                 height={250}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
-              <h2>10 Best Websites To Learn How To Code For Free</h2>
+              <h2>
+                Adobe in Trouble After a Developer Reverse-Engineered Its
+                Creative Suite and Released It for Free
+              </h2>
             </Link>
           </div>
           <div>
