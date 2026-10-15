@@ -396,6 +396,16 @@ const GridNews = () => {
       articleRoute:
         "adobe-in-trouble-after-a-developer-reverse-engineered-its-creative-suite",
     },
+    {
+      id: 41,
+      title: `Linux Gaming in 2026: Why More PC Gamers Are Switching`,
+      image:
+        "/mergesociety/Linux_Gaming_in_2026_Why_More_PC_Gamers_Are_Switching.png",
+      alt: "Linux Gaming in 2026: Why More PC Gamers Are Switching",
+      date: "October 15, 2026",
+      articleRoute:
+        "linux-gaming-in-2026-why-more-pc-gamers-are-making-the-switch-to-linux",
+    },
   ];
 
   const latestPosts = [...blogPosts].sort(

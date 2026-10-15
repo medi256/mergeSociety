@@ -98,18 +98,15 @@ export default function GridNews() {
             </Link>
           </div>
           <div>
-            <Link href="/latest/github-repositories">
+            <Link href="/latest/linux-gaming-in-2026-why-more-pc-gamers-are-making-the-switch-to-linux">
               <Image
-                src="/mergesociety/audio_1755527219890_ndn0m6_qmhpsb_fcljoo.webp"
-                alt="GitHub Repositories: 17 must-see open source projects that will level up your coding"
+                src="/mergesociety/Linux_Gaming_in_2026_Why_More_PC_Gamers_Are_Switching.png"
+                alt="Linux Gaming in 2026: Why More PC Gamers Are Switching"
                 width={600}
                 height={350}
                 sizes="(max-width: 768px) calc(100vw - 4rem), (max-width: 1200px) 25vw, 300px"
               />
-              <h2>
-                GitHub Repositories: 17 must-see open source projects that will
-                level up your coding
-              </h2>
+              <h2>Linux Gaming in 2026: Why More PC Gamers Are Switching</h2>
             </Link>
           </div>
           <div>
