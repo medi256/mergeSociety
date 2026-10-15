@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/adobe.jpg",
+        url: "/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png",
         width: 1200,
         height: 600,
         alt: "Developer laptop showing open source creative apps inspired by Adobe tools",
@@ -64,7 +64,7 @@ export const metadata = {
     description:
       "Adobe is facing a free Creative Suite rebuild, subscription backlash, and rising competition. Can it survive when leaving becomes the real feature?",
     creator: "@manager70191",
-    images: ["/mergesociety/adobe.jpg"],
+    images: ["/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png"],
   },
 };
 
@@ -75,7 +75,7 @@ const articleSchema = {
     "Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free to Everyone",
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/adobe.jpg",
+    url: "/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png",
     width: 1200,
     height: 600,
     alt: "Developer laptop showing open source creative apps inspired by Adobe tools",
@@ -128,7 +128,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/adobe.jpg"
+            src="/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png"
             alt="Developer laptop showing open source creative apps inspired by Adobe tools"
             width={1200}
             height={600}

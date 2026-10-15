@@ -64,7 +64,7 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/css-raodmap_vhknyz_orugxh.webp",
+        url: "/mergesociety/css_raodmap_vhknyz_orugxh.webp",
         width: 1200,
         height: 630,
         alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
@@ -94,9 +94,7 @@ export const metadata = {
       "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro (That 99% Will Never Tell You)",
     description:
       "Complete step-by-step roadmap to master CSS in 2025. Learn selectors, Flexbox, Grid, animations, responsive design and transform from beginner to CSS expert with this no-nonsense guide.",
-    images: [
-      "/mergesociety/css-raodmap_vhknyz_orugxh.webp",
-    ],
+    images: ["/mergesociety/css_raodmap_vhknyz_orugxh.webp"],
   },
 
   category: "Web Development",
@@ -142,8 +140,7 @@ const structuredData = {
   },
   datePublished: "2025-07-08T00:00:00.000Z",
   dateModified: "2026-08-05T00:00:00.000Z",
-  image:
-    "/mergesociety/css-raodmap_vhknyz_orugxh.webp",
+  image: "/mergesociety/css_raodmap_vhknyz_orugxh.webp",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://mergesociety.com/programming-roadmap/css-roadmap",
@@ -167,7 +164,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/css-raodmap_vhknyz_orugxh.webp"
+            src="/mergesociety/css_raodmap_vhknyz_orugxh.webp"
             alt="CSS Roadmap 2025 - Complete Guide to Mastering CSS"
             width={600}
             height={400}
@@ -227,8 +224,9 @@ export default function Article() {
             lifeless wireframe and a living, breathing website. This isn’t
             theory. On <strong>csszengarden.com</strong>, hundreds of pros took{" "}
             <em>the exact same HTML</em> and created jaw-dropping looks — a wine
-            shop, a video game, a <Link href="/projects/htmlP/4p">restaurant menu</Link>. Same bones, totally different
-            feel. The magic? 100% CSS.
+            shop, a video game, a{" "}
+            <Link href="/projects/htmlP/4p">restaurant menu</Link>. Same bones,
+            totally different feel. The magic? 100% CSS.
           </p>
           <blockquote>
             “Creativity isn’t limited by code — it’s unleashed by it. CSS is

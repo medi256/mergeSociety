@@ -93,9 +93,7 @@ export const metadata = {
       "Programming Language Roadmaps 2025: Complete Developer Career Guides",
     description:
       "Comprehensive programming language roadmaps for 2025. Step-by-step guides for JavaScript, Python, Java, React, and more. Land your first developer job with our proven career paths.",
-    images: [
-      "/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp",
-    ],
+    images: ["/mergesociety/Programmer_roadmap_w5gy7z_d5sfpk.webp"],
   },
 
   category: "Technology",
@@ -165,7 +163,7 @@ const Section8 = () => {
     {
       id: 1,
       title: "Full Stack JavaScript Developer Roadmap 2025",
-      image: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
+      image: "/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp",
       alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       date: "July 8, 2025",
       articleRoute: "javascript-roadmap",
@@ -174,7 +172,7 @@ const Section8 = () => {
       id: 2,
       title:
         "CSS Roadmap: Your Ultimate Step-By-Step Guide to Becoming a CSS Pro",
-      image: "/mergesociety/css-raodmap_vhknyz_orugxh.webp",
+      image: "/mergesociety/css_raodmap_vhknyz_orugxh.webp",
       alt: "CSS Roadmap 2025 - Complete Guide to Mastering CSS",
       date: "July 8, 2025",
       articleRoute: "css-roadmap",

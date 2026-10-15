@@ -390,7 +390,7 @@ const GridNews = () => {
     {
       id: 40,
       title: `Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free`,
-      image: "/mergesociety/adobe.jpg",
+      image: "/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png",
       alt: "Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free",
       date: "October 14, 2026",
       articleRoute:

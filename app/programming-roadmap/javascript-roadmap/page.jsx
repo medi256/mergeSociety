@@ -57,13 +57,13 @@ export const metadata = {
     siteName: "Merge Society",
     images: [
       {
-        url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
+        url: "/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp",
         width: 1200,
         height: 630,
         alt: "Full Stack JavaScript Developer Roadmap 2025 - Complete Guide",
       },
       {
-        url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
+        url: "/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp",
         width: 600,
         height: 600,
         alt: "Full Stack JavaScript Developer Roadmap 2025",
@@ -93,9 +93,7 @@ export const metadata = {
       "Full Stack JavaScript Developer Roadmap 2025: Ultimate Guide to Landing Your First Dev Job",
     description:
       "Complete step-by-step roadmap to become a full stack JavaScript developer in 2025. Learn HTML, CSS, JavaScript, React, Node.js, and land your first dev job in 9-12 months.",
-    images: [
-      "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
-    ],
+    images: ["/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp"],
   },
 
   category: "Technology",
@@ -149,7 +147,7 @@ const structuredData = {
 
   image: {
     "@type": "ImageObject",
-    url: "/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp",
+    url: "/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp",
     width: 1200,
     height: 630,
   },
@@ -197,7 +195,7 @@ export default function Article() {
 
         <figure className="blog-image">
           <Image
-            src="/mergesociety/javascript-developer-roadmap_lukifl_aulofo.webp"
+            src="/mergesociety/javascript_developer_roadmap_lukifl_aulofo.webp"
             alt="Full Stack JavaScript Developer Roadmap 2025 - Complete Guide"
             width={600}
             height={400}
@@ -524,9 +522,10 @@ export default function Article() {
             </li>
           </ul>
           <p>
-            Use cloud options like <Link href="/code-report/mongodb-explained">MongoDB Atlas</Link> or NeonDB for Postgres. Setup
-            takes minutes, scales like magic, and you never need to mess with
-            the server.
+            Use cloud options like{" "}
+            <Link href="/code-report/mongodb-explained">MongoDB Atlas</Link> or
+            NeonDB for Postgres. Setup takes minutes, scales like magic, and you
+            never need to mess with the server.
           </p>
           <h3>ORMs/ODMs: Don’t Write Raw SQL Unless You Have To</h3>
           <ul>
@@ -577,7 +576,9 @@ export default function Article() {
           </p>
           <p>
             <strong>Project:</strong> Build and deploy a full stack app with
-            authentication, <Link href="/javascript/bom-applications">dynamic content</Link>, and persistent data.
+            authentication,{" "}
+            <Link href="/javascript/bom-applications">dynamic content</Link>,
+            and persistent data.
           </p>
         </section>
 

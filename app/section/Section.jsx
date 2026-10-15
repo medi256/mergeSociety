@@ -85,7 +85,7 @@ export default function GridNews() {
           <div>
             <Link href="/latest/adobe-in-trouble-after-a-developer-reverse-engineered-its-creative-suite">
               <Image
-                src="/mergesociety/adobe.jpg"
+                src="/mergesociety/Adobe_in_Trouble_Creative_Suite_Goes_Free.png"
                 alt="Adobe in Trouble After a Developer Reverse-Engineered Its Creative Suite and Released It for Free"
                 width={400}
                 height={250}
